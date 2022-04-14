@@ -7,9 +7,7 @@ use strict;
 
 my %found;
 
-open(F, "< genbank.map.raw") or die;
-open(O, "> genbank.map") or die;
-while (<F>) {
+while (<STDIN>) {
     chomp;
 
     if ($_ =~ m/^(GCA_\d+.\d+)\s+(\S+)\s+(.*)$/) {
@@ -23,21 +21,25 @@ while (<F>) {
 
         #  Fix up obvious mistakes in the name.
 
-        if ($lab =~ m/g(adMor.*)/)       { $lab = "fG$1"; }
-        if ($lab =~ m/mCalJa(1.2.*)/)    { $lab = "mCalJac$1"; }
+        if ($lab =~ m/^g(adMor.*)$/)       { $lab = "fG$1"; }
+        if ($lab =~ m/^mCalJa(1.2.*)$/)    { $lab = "mCalJac$1"; }
 
-        if ($lab =~ m/mRatBN7/)          { next; }
-        if ($lab =~ m/UOA_/)             { next; }
-        if ($lab =~ m/ZJU/)              { next; }
+        #  Ignore bizarre stuff.
+
+        if ($lab eq "DD_fGirMul_XY1")      { next; }
+        if ($lab eq "UOA_Angus_1")         { next; }
+        if ($lab eq "UOA_Brahman_1")       { next; }
+        if ($lab eq "ZJU1.0")              { next; }
+        if ($lab eq "mRatBN7.1")           { next; }
+        if ($lab eq "mRatBN7.2")           { next; }
+
+        #  Find the name and suffix, or emit a dire warning.
 
         if ($lab =~ m/^([a-z][A-Z][a-z][a-z][a-zA-Z][A-Za-z][A-Za-z][0-9])(.*)$/) {
             $nam = $1;  #  matches fAaaAaa or fAaaaAa
             $suf = $2;
-        } elsif ($lab =~ m/^[a-z][a-z][A-Z][a-z][a-z][A-Z][a-z][a-z][a-z][0-9]\.[0-9]$/) {
-            #  Ignore - eaMarGlac1.1
-            next;
         } else {
-            printf "WARN: %-15s %-10s %-6s lab %-18s dsc %s\n", $acc, $nam, $typ, $lab, $dsc;
+            printf STDERR "WARN: %-15s %-10s %-6s lab %-18s dsc %s\n", $acc, $nam, $typ, $lab, $dsc;
             next;
         }
 
@@ -71,7 +73,7 @@ while (<F>) {
         }
 
         if ($typ eq "XXX") {
-            printf "UNKN: %-15s %-10s %-6s lab %-18s dsc %s\n", $acc, $nam, $typ, $lab, $dsc;
+            printf STDERR "UNKN: %-15s %-10s %-6s lab %-18s dsc %s\n", $acc, $nam, $typ, $lab, $dsc;
         }
 
         #  Hardcode some ugly ones.
@@ -92,14 +94,14 @@ while (<F>) {
 
         #  Emit output or fail.
         if ($typ eq "XXX") {
-            printf "FAIL: %-15s %-10s %-6s lab %-18s dsc %s\n", $acc, $nam, $typ, $lab, $dsc;
+            printf STDERR "FAIL: %-15s %-10s %-6s lab %-18s dsc %s\n", $acc, $nam, $typ, $lab, $dsc;
         } else {
-            #printf "PASS: %-15s %-10s %-6s lab %-18s dsc %s\n", $acc, $nam, $typ, $lab, $dsc;
-            print O "$acc\t$nam\t$typ\n";
+            #printf STDERR "PASS: %-15s %-10s %-6s lab %-18s dsc %s\n", $acc, $nam, $typ, $lab, $dsc;
+            print STDOUT "$acc\t$nam\t$typ\n";
         }
 
         if (exists($found{"$nam$typ"})) {
-            print "DUPL: acc '$acc' lab '$lab'\n";
+            print STDERR "DUPL: acc '$acc' lab '$lab'\n";
         }
         $found{"$nam$typ"} = 1;
     }
@@ -108,5 +110,5 @@ while (<F>) {
         die "Failed to match '$_'\n";
     }
 }
-close(O);
-close(F);
+
+exit(0);
