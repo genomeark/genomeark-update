@@ -4,6 +4,9 @@ updateFileList="no"
 updateMetaData="yes"
 updateGenBank="yes"
 
+#  awscli v2 pipes all output through a pager, which we don't want.
+export AWS_PAGER=""
+
 mkdir -p downloads
 
 #
@@ -12,8 +15,8 @@ mkdir -p downloads
 #
 
 if [ $updateFileList != "no" -a ! -e "downloads/genomeark.ls.raw" ] ; then
-  echo "Fetching list of files in s3://genomeark/."
-  aws --no-sign-request s3 ls --recursive s3://genomeark/ > downloads/genomeark.ls.raw.WORKING \
+  echo "Fetching list of files in s3://genomeark/species/."
+  aws --no-sign-request s3 ls --recursive s3://genomeark/species/ > downloads/genomeark.ls.raw.WORKING \
   && \
   mv downloads/genomeark.ls.raw.WORKING downloads/genomeark.ls.raw
 
@@ -44,7 +47,11 @@ if [ $updateMetaData != "no" ] ; then
   git fetch
   git log --numstat ..@{upstream}
   git merge
-  cd ..
+  cd -
+
+  cd genomeark-metadata/species
+  ls *yaml | sed 's/.yaml$//' > ../species-list
+  cd -
 fi
 
 #
@@ -99,3 +106,12 @@ if [ $updateGenBank != "no" ] ; then
     perl scripts/genbank-fixup.pl < downloads/genbank.map.raw > species-data/genbank.map
   fi
 fi
+
+#
+#  Generate summaries of raw data and assemblies.
+#  This runs in parallel across species.
+#
+
+for x in `cat genomeark-metadata/species-list` ; do
+  echo $x
+done

@@ -1,0 +1,137 @@
+package GenomeArkMetadata;
+
+require Exporter;
+
+@ISA    = qw(Exporter);
+@EXPORT = qw(loadSpeciesMetadata loadData);
+
+use strict;
+use warnings;
+
+use GenomeArkUtility;
+
+#use Time::Local;
+#use List::Util;
+
+
+#
+#  Load metadata from genomeark-metadata.
+#
+
+sub loadSpeciesMetadata ($$$) {
+    my $data    = shift @_;
+    my $species = shift @_;
+    my $meta    = shift @_;
+
+    my  @keys;
+    my  @lvls;
+
+    my  $lvl = 0;
+
+    undef %$data;
+    undef %$meta;
+
+    open(MD, "< genomeark-metadata/species/$species.yaml") or die;
+    while (<MD>) {
+        chomp;
+
+        if (m/^(\s*)(\S*):\s*(.*)$/) {
+            my $indent = $1;
+            my $key    = $2;   $key   =~ s/^\s+//;  $key   =~ s/\s+$//;
+            my $value  = $3;   $value =~ s/^\s+//;  $value =~ s/\s+$//;
+
+            my $len    = length($indent);
+
+            if      ($len  < $lvl) {
+                while ($len < $lvl) {
+                    $lvl -= $lvls[-1];
+                    pop @keys;
+                    pop @lvls;
+                }
+            }
+
+            if ($len == $lvl) {
+                pop @keys;
+                push @keys, $key;
+
+            } elsif ($len >  $lvl) {
+                push @keys, $key;
+                push @lvls, $len - $lvl;
+
+                $lvl = $len;
+            }
+
+            $key = join '.', @keys;
+
+            $$meta{$key} = $value;
+        }
+    }
+    close(MD);
+
+    die "No meta{species.name} found?\n"  if ($$meta{"species.name"} eq "");
+
+    my @n = split '\s+', $$meta{"species.name"};
+
+    die "species.name '", $$meta{"species.name"}, "' has ", scalar(@n), " components, expected 2.\n" if (scalar(@n) < 2);
+
+    $$data{"name"}                = $$meta{"species.name"};         #  Name with a space:     'Species_name'
+    $$data{"name_"}               = "$n[0]_$n[1]";                 #  Name with underscore:  'Species_name'
+    $$data{"short_name"}          = $$meta{"species.short_name"};
+
+    $$data{"common_name"}         = $$meta{"species.common_name"};
+    $$data{"taxon_id"}            = $$meta{"species.taxon_id"};
+
+    $$data{"genome_size"}         = $$meta{"species.genome_size"};
+    $$data{"genome_size_display"} = prettifyBases($$meta{"species.genome_size"});  #  Updated later, too.
+    $$data{"genome_size_method"}  = $$meta{"species.genome_size_method"};
+
+    $$data{"data_status"}         = "none";  #<em style=\"color:red\">no data</em>";
+    $$data{"assembly_status"}     = "none";  #<em style=\"color:red\">no assembly</em>";
+
+    #$data{"last_raw_data"}       = Do not set here; should only be present if data exists.
+    $$data{"last_updated"}        = 0;
+
+    return($$data{"name_"});      #  Return the proper Species_name for this species.
+}
+
+
+
+#
+#  Load existing data from our markdown page.
+#
+
+sub loadData ($$) {
+    my $species = shift @_;
+    my $data    = shift @_;
+    my $key     = undef;
+    my $lvl     = 0;
+    my @keys;
+    my @lvls;
+
+    undef %$data;   #  Forget everything we know about some other species.
+
+    open(MD, "< ../_genomeark/$species.md") or die;
+    while (<MD>) {
+        chomp;
+
+        if    (m!^---$!) {                        #  Match the YAML delimiters.
+            $key    = undef;
+        }
+        elsif (m!(\w+):\s*\|$!) {                 #  Match any multi-line pre-formatted parameters.
+            $key = $1;
+            $$data{$key} = "|\n";
+        }
+        elsif (defined($key) && (m!^\s\s\S!)) {   #  Add data to multi-line parameters.
+            $$data{$key} .= "$_\n";
+        }
+        elsif (m!(\w+):\s*(.*)$!) {               #  Match any key-value pairs.
+            $key       = undef;
+            $$data{$1} = $2;
+        }
+        else {                                    #  Match any extra stuff in the file.
+            $$data{":"} .= "$_\n";
+        }
+    }
+    close(MD);
+}
+

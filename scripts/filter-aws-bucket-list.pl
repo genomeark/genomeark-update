@@ -18,6 +18,8 @@ use strict;
 #  Expects an S3 'ls --recursive' list on input and outputs a list of files
 #  that are useful for displaying statistics on genomeark.github.io.
 #
+#  Takes about a minute (31.9 seconds) on the bucket as of May 2022.
+#
 
 while (<STDIN>) {
     chomp;
@@ -37,6 +39,9 @@ while (<STDIN>) {
     next if ($filename =~ m!.DS_Store$!);
 
     next if ($filename =~ m!.sh$!);
+
+    next if ($filename =~ m!nohup.out$!);
+    next if ($filename =~ m!nohup.err$!);
 
     next if ($filename =~ m!.log$!);
     next if ($filename =~ m!.log.gz$!);
@@ -61,6 +66,8 @@ while (<STDIN>) {
 
     next if ($filename =~ m!.pdf$!);
 
+    next if ($filename =~ m!.xml$!);
+
     next if ($filename =~ m!.csv$!);
     next if ($filename =~ m!.csv.gz$!);
 
@@ -73,6 +80,7 @@ while (<STDIN>) {
     next if ($filename =~ m!.gff3.gz$!);
 
     next if ($filename =~ m!.yaml$!);
+    next if ($filename =~ m!.yml$!);
 
     next if ($filename =~ m!.tar$!);
     next if ($filename =~ m!.tar.gz$!);
@@ -87,9 +95,6 @@ while (<STDIN>) {
     next if ($filename =~ m!/test!i);
     next if ($filename =~ m!/analyses!i);
     next if ($filename =~ m!/comparative_analyses!i);
-
-    next if ($filename =~ m!/busco!i);
-    next if ($filename =~ m!/merfin!i);
 
     next if ($filename =~ m!/transcriptomic_data!i);
     next if ($filename =~ m!/evaluation!i);
@@ -108,11 +113,21 @@ while (<STDIN>) {
     next if ($filename =~ m!/genomescope!i);
     next if ($filename =~ m!/meryl_genomescope!i);
     next if ($filename =~ m!/katplot!i);
-    next if ($filename =~ m!mercury!i);
+    next if ($filename =~ m!/FASTK!i);
+    next if ($filename =~ m!/busco!i);
+    next if ($filename =~ m!/merfin!i);
+    next if ($filename =~ m!/mercury!i);
 
     next if ($filename =~ m!/assembly_v0/!);
 
     next if ($filename =~ m!bwgenome!i);
+
+    next if ($filename =~ m!\.pretext\.gz$!i);
+    next if ($filename =~ m!\.pretext\.png\.gz$!i);
+
+    #  Some specific crud that is either large or useless.
+
+    next if ($filename =~ m!/genomic_data/.*/scripts/!);
 
     next if ($filename =~ m!/aBomBom1/genomic_data/bionano/exp_refineFinal1/!);
     next if ($filename =~ m!/aBomBom1/genomic_data/pacbio/fasta!);
