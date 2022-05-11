@@ -44,9 +44,9 @@ sub prettifySize ($) {
 sub prettifyBases ($) {
     my $n = shift @_;
 
+    if (!defined($n)) { return(undef); }   #  Unset genome size.
     if ($n eq "-")    { return("$n");  }   #  Empty row in N50 table.
     if ($n eq "")     { return(undef); }   #  Supplied but unset genome size in yaml.
-    if (!defined($n)) { return(undef); }   #  Unset genome size.
     if ($n == 0)      { return(undef); }   #  Zero genome size.
 
     if    ($n <      1000) { return("$n  bp");                                              }

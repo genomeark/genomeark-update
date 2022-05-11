@@ -122,8 +122,10 @@ while (<STDIN>) {
 
     next if ($filename =~ m!bwgenome!i);
 
+    next if ($filename =~ m!\.pretext$!i);
     next if ($filename =~ m!\.pretext\.gz$!i);
     next if ($filename =~ m!\.pretext\.png\.gz$!i);
+    next if ($filename eq "species/Mesoplodon_densirostris/mMesDen1/assembly_curated/mMesDen1.pri.cur.20220330.png.gz");
 
     #  Some specific crud that is either large or useless.
 
@@ -149,11 +151,13 @@ while (<STDIN>) {
     #  Random single files (some included above)
 
     next if ($filename eq "species/Alosa_sapidissima/fAloSap1/vgp_assembly/fAloSap1.pri.v0.fasta.gz");
+    next if ($filename eq "species/Bombina_bombina/aBomBom1/genomic_data/bionano/auto_noise/autoNoise1.errbin");
     next if ($filename eq "species/Bos_taurus/mBosTau1/assembly_adelaide/bionano_joyce/mBosTau1_mat_Saphyr_DLE1.bnx.gz");
     next if ($filename eq "species/Bos_taurus/mBosTau1/assembly_adelaide/bionano_joyce/mBosTau1_mat_Saphyr_DLE1_nonhap_ES_sdb_m3.cmap.gz");
     next if ($filename eq "species/Callithrix_jacchus/mCalJac1/assembly_nhgri_rockefeller_trio_1.6/pretext/mCalJac1.mat.bam");
     next if ($filename eq "species/Callithrix_jacchus/mCalJac1/assembly_nhgri_rockefeller_trio_1.6/pretext/mCalJac1.pat.bam");
     next if ($filename eq "species/Callithrix_jacchus/mCalJac1/qc/mCalJac1.k21.hist");
+    next if ($filename eq "species/Calypte_anna/bCalAnn1/genomic_data/bionano/hybridScaffold_two_enzymes.xml.gz");
     next if ($filename eq "species/Carcharodon_carcharias/sCarCar1/assemblies/bams_chicago/chicagoLibrary1.final.scaffolds.snap.md.sorted.bam");
     next if ($filename eq "species/Carcharodon_carcharias/sCarCar1/assemblies/gapfilled_assembly/jelly.out.fasta");
     next if ($filename eq "species/Carcharodon_carcharias/sCarCar2/assembly_vgp_standard_1.6/sCarCar2_pri.asm.20200727.fasta.gz");
@@ -168,9 +172,15 @@ while (<STDIN>) {
     next if ($filename eq "species/Falco_rusticolus/bFalRus1/assembly/bFalRus1.pri.asm.20200401.pretext");
     next if ($filename eq "species/Melopsittacus_undulatus/bMelUnd1/pat_contigs_less20.fasta.gz");
     next if ($filename eq "species/Melopsittacus_undulatus/bMelUnd1/pat_contigs_over20.fasta.gz");
+    next if ($filename eq "species/Mesoplodon_densirostris/mMesDen1/genomic_data/temp/forward_mMesDen1_reads.fastqsanger.gz");
+    next if ($filename eq "species/Mesoplodon_densirostris/mMesDen1/genomic_data/temp/reverse_mMesDen1_reads.fastqsanger.gz");
     next if ($filename eq "species/Nyctibius_grandis/bNycGra1/bNycGra1_c2p2.fasta.gz");
+    next if ($filename eq "species/Pan_troglodytes/mPanTro1/genomic_data/10x/path.list");
+    next if ($filename eq "species/Pan_troglodytes/mPanTro1/genomic_data/pacbio/srx.list");
     next if ($filename eq "species/Pristis_pectinata/sPriPec2/assembly_vgp_standard_1.5/sPriPec2.pri.untrimmed.asm.20190802.fasta.gz");
     next if ($filename eq "species/Taeniopygia_guttata/bTaeGut1/bTaeGut1_s3q2.qv");
+    next if ($filename eq "species/Taeniopygia_guttata/bTaeGut3/genomic_data/pat.txt");
+    next if ($filename eq "species/Taeniopygia_guttata/bTaeGut4/genomic_data/mat.txt");
     next if ($filename eq "species/Zalophus_californianus/mZalCal1/assembly_rockefeller_1.6/mZalCal1_u1.fasta.gz");
     next if ($filename eq "species/Zalophus_californianus/mZalCal1/assembly_rockefeller_1.6/mZalCal1_u2.fasta.gz");
 

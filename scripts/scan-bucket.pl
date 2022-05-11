@@ -11,6 +11,7 @@ use GenomeArkUpdate;
 use GenomeArkGenbank;
 use GenomeArkMetadata;
 use GenomeArkAssembly;
+use GenomeArkAccumulateData;
 use GenomeArkGenomicData;
 
 #use Slack;
@@ -120,13 +121,17 @@ foreach my $species (@speciesList) {
     print "----------\n";                        #  examining a handful and scaling the rest.
     print "Genomic Data, bases estimation\n";    #  BIONANO is different and not reported.
 
-    estimateRawDataScaling(\%data, "10x",      $seqFiles{"10x"});
-    estimateRawDataScaling(\%data, "arima",    $seqFiles{"arima"});
-    estimateRawDataScaling(\%data, "dovetail", $seqFiles{"dovetail"});
-    estimateRawDataScaling(\%data, "illumina", $seqFiles{"illumina"});
+    loadSummaries($data{"name_"}, \%seqFiles);   #  Load any summaries we have, so we can skip it in estimateRawDataScaling().
+
+    estimateRawDataScaling(\%data, "10x",      $seqFiles{"10x"});         #  seqFiles is a \0 separated list of
+    estimateRawDataScaling(\%data, "arima",    $seqFiles{"arima"});       #    'filesize \s datafile
+    estimateRawDataScaling(\%data, "dovetail", $seqFiles{"dovetail"});    #
+    estimateRawDataScaling(\%data, "illumina", $seqFiles{"illumina"});    #  datafile is 'species/NAME/INDIVIDUAL/genomic_data/TYPE/FILE
     estimateRawDataScaling(\%data, "pbclr",    $seqFiles{"pbclr"});
     estimateRawDataScaling(\%data, "pbhifi",   $seqFiles{"pbhifi"});
     estimateRawDataScaling(\%data, "phase",    $seqFiles{"phase"});
+
+    writeSummaries($data{"name_"});
 
     #print "\n";                  #  Report any unprocessed files.
     #print "----------\n";

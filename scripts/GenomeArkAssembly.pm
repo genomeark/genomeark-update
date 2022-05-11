@@ -86,6 +86,9 @@ sub parseAssemblyName ($$$) {
 
         my @p = split '\.', $5;
 
+        #if (!defined($p[0])) { die "No first word in $5 filename '$filename'\n"; }
+        #if (!defined($p[1])) { die "No second word in $5 filename '$filename'\n"; }
+
         if (($p[0] ne "pri") &&
             ($p[0] ne "alt") &&
             ($p[0] ne "mat") &&
@@ -94,10 +97,10 @@ sub parseAssemblyName ($$$) {
             $err = "  Filename '$3$4.$5.$6$7$8.fasta.gz' has '$p[0]' as first word; required 'pri', 'alt', 'mat' or 'pat'.\n";
         }
 
-        if (($p[1] ne "asm") &&
+        if ((defined($p[1])) &&
+            ($p[1] ne "asm") &&
             ($p[1] ne "cur") &&
-            ($p[1] ne "decon") &&
-            ($p[1] ne undef)) {
+            ($p[1] ne "decon")) {
             print " - Filename has '$p[1]' as second word; required 'cur' or 'asm'.\n"   if ($verbose);
             $err = "  Filename '$3$4.$5.$6$7$8.fasta.gz' has '$p[1]' as second word; required 'cur' or 'asm'.\n";
         }

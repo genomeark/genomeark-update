@@ -3,7 +3,7 @@ package GenomeArkGenomicData;
 require Exporter;
 
 @ISA    = qw(Exporter);
-@EXPORT = qw(accumulateData estimateRawDataScaling);
+@EXPORT = qw(loadSummaries writeSummaries estimateRawDataScaling);
 
 use strict;
 use warnings;
@@ -21,78 +21,100 @@ my $bamsummarize = "bamsummarize";
 
 my $downloadRAW = 0;
 
+my %dataBytes;   #  Number of bytes in a genomic_data sequence file
+my %dataBases;   #  Number of bases in ....
+my %dataReads;   #  Number of reads in ....
 
 
+#
+#  Load existing data summaries from 'species/$name/genomic_data.summary'.
+#
+#  Then scan seqFiles and add or update summary information for any missing
+#  or updated files.
+#
 
-sub parseSummary ($$$) {
-    my $name  = shift @_;
-    my $size  = shift @_;
-    my $file  = shift @_;
-    my $bases = 0;
+sub loadSummary (@) {
+    my $size = shift @_;
+    my $file = shift @_;
 
-    if (-e "$name.summary") {
-        open(ST, "< $name.summary");
+    unlink "$file.summary"   if (-z "$file.summary");   #  Remove incomplete summaries.
+
+    return   if (exists($dataBases{$file}));
+    return   if (! -e "$file.summary");
+
+    $dataBytes{$file} = $size;
+    $dataBases{$file} = 0;
+    $dataReads{$file} = 0;
+
+    open(ST, "< $file.summary");
+    while (<ST>) {
+        $dataBases{$file} = $1   if (m/^G=(\d+)\s/);
+        $dataReads{$file} = $1   if (m/^001.000x\s+(\d+)\s/)
+    }
+    close(ST);
+
+    return($dataBases{$file});
+}
+
+sub loadSummaries ($$) {
+    my $name     = shift @_;
+    my $seqFiles = shift @_;
+
+    undef %dataBytes;
+    undef %dataBases;
+    undef %dataReads;
+
+    if (-e "species/$name/genomic_data.summary") {
+        open(ST, "< species/$name/genomic_data.summary");
         while (<ST>) {
-            if (m/^G=(\d+)\s/) {
-                $bases = $1;
-                last;
-            }
+            s/^\s+//;
+            s/\s+$//;
+
+            next   if m/bytes/;
+            next   if m/-----/;
+
+            my ($bytes, $date, $bases, $reads, $file) = split '\s+', $_;
+
+            $dataBytes{$file} = $bytes;
+            $dataBases{$file} = $bases;
+            $dataReads{$file} = $reads;
         }
         close(ST);
     }
 
-    if (($bases == 0) && ($downloadRAW == 0)) {
-        $bases = $size;
-    }
+    foreach my $type (sort keys %$seqFiles) {
+        my @files = split '\0', $$seqFiles{$type};
 
-    return($bases);
+        foreach my $sizefile (@files) {
+            loadSummary(split '\s+', $sizefile);
+        }
+    }
 }
 
 
-sub downloadPipeSummarize ($$$) {
+
+sub writeSummaries ($) {
     my $name  = shift @_;
-    my $ndir  = dirname($name);
-    my $size  = shift @_;
-    my $file  = shift @_;
 
-    unlink "$name.summary"   if (-z "$name.summary");
+    system("mkdir -p species/$name")   if (! -e "species/$name");
 
-    #  If the summary exists, parse it and return the number of bases.
+    open(ST, "> species/$name/genomic_data.summary") or die "Failed to open 'species/$name/genomic_data.summary' for writing: $!\n";
 
-    if (-e "$name.summary") {
-        return(parseSummary($name, $size, $file));
+    print ST "          bytes            date           bases           reads  file\n";
+    print ST "--------------- --------------- --------------- ---------------  ----------\n";
+
+    foreach my $file (sort keys %dataBytes) {
+        my  $date = 0;
+
+        next   if (! exists($dataBytes{$file}));
+        next   if (! exists($dataBases{$file}));
+        next   if (! exists($dataReads{$file}));
+
+        printf(ST "%15d %15d %15d %15d  %s\n", $dataBytes{$file}, $date, $dataBases{$file}, $dataReads{$file}, $file);
     }
-
-    #  If the download exists, summarize it and return the number of bases,
-
-    if (-e "downloads/$name") {
-        return(downloadAndSummarize($name, $size, $file));
-    }
-
-    #  Otherwise, fetch the data directly into the summarizer.
-
-    if ($name =~ m/bam$/) {
-        printf "FETCH data - size %6.3f GB\n", $size / 1024 / 1024 / 1024;
-        printf "  aws --no-progress --no-sign-request s3 cp \\\n";
-        printf "    s3://genomeark/$name | bamsummarize > \\\n";
-        printf "\n";
-
-        system("mkdir -p $ndir")   if (! -e $ndir);
-        system("aws --no-progress --no-sign-request s3 cp s3://genomeark/$name - | gzip -dc | $bamsummarize > $name.summary")  if ($downloadRAW);
-    }
-    else {
-        printf "FETCH data - size %6.3f GB\n", $size / 1024 / 1024 / 1024;
-        printf "  aws --no-progress --no-sign-request s3 cp \\\n";
-        printf "    s3://genomeark/$name | \\\n";
-        printf "         downloads/$name\n";
-        printf "\n";
-
-        system("mkdir -p $ndir")   if (! -e $ndir);
-        system("aws --no-progress --no-sign-request s3 cp s3://genomeark/$name - | $seqrequester summarize - > $name.summary")  if ($downloadRAW);
-    }
-
-    return(parseSummary($name, $size, $file));
+    close(ST);
 }
+
 
 
 sub downloadAndSummarize ($$$) {
@@ -102,15 +124,20 @@ sub downloadAndSummarize ($$$) {
     my $file  = shift @_;
     my $bases = 0;
 
-    unlink "$name.summary"   if (-z "$name.summary");
-
-    #  If the summary exists, parse it and return the number of bases.
-
-    if (-e "$name.summary") {
-        return(parseSummary($name, $size, $file));
+    if (exists($dataBases{$name})) {   #  Summary exists, just return the
+        return($dataBases{$name});     #  number of bases in the file.
     }
 
     #  Fetch the data if it doesn't exist already.
+
+    if ($downloadRAW == 0) {
+        printf "FETCH data - size %6.3f GB -- DISABLED\n", $size / 1024 / 1024 / 1024;
+        printf "  aws --no-progress --no-sign-request s3 cp \\\n";
+        printf "    s3://genomeark/$name\n";
+        printf "\n";
+
+        return($size / 2);
+    }
 
     if (! -e "downloads/$name") {
         printf "FETCH data - size %6.3f GB\n", $size / 1024 / 1024 / 1024;
@@ -147,14 +174,71 @@ sub downloadAndSummarize ($$$) {
 
     #  Parse the summary to find the number of bases in the dataset.
 
-    return(parseSummary($name, $size, $file));
+    return(loadSummary($size, $file));
+}
+
+
+
+sub downloadPipeSummarize ($$$) {
+    my $name  = shift @_;
+    my $ndir  = dirname($name);
+    my $size  = shift @_;
+    my $file  = shift @_;
+
+    #  Summary exists, just return the number of bases in the file.
+
+    if (exists($dataBases{$name})) {
+        return($dataBases{$name});
+    }
+
+    #  If the download exists, summarize it and return the number of bases,
+
+    if (-e "downloads/$name") {
+        return(downloadAndSummarize($name, $size, $file));
+    }
+
+    #  Otherwise, fetch the data directly into the summarizer.
+
+    if ($downloadRAW == 0) {
+        printf "\n";
+        printf "FETCH data - size %6.3f GB -- DISABLED\n", $size / 1024 / 1024 / 1024;
+        printf "  aws --no-progress --no-sign-request s3 cp \\\n";
+        printf "    s3://genomeark/$name\n";
+        printf "\n";
+
+        return($size / 2);
+    }
+    elsif ($name =~ m/bam$/) {
+        printf "\n";
+        printf "FETCH data - size %6.3f GB\n", $size / 1024 / 1024 / 1024;
+        printf "  aws --no-progress --no-sign-request s3 cp \\\n";
+        printf "    s3://genomeark/$name | bamsummarize > $name.summary\n";
+
+        #system("mkdir -p $ndir")   if (! -e $ndir);
+        #system("aws --no-progress --no-sign-request s3 cp s3://genomeark/$name - | gzip -dc | $bamsummarize > $name.summary");
+        system("mkdir -p $ndir")   if (! -e $ndir);
+        system("aws --no-progress --no-sign-request s3 cp s3://genomeark/$name - | samtools fasta - | $seqrequester summarize - > $name.summary");
+        printf "\n";
+    }
+    else {
+        printf "\n";
+        printf "FETCH data - size %6.3f GB\n", $size / 1024 / 1024 / 1024;
+        printf "  aws --no-progress --no-sign-request s3 cp \\\n";
+        printf "    s3://genomeark/$name | seqrequester > $name.summary\n";
+
+        system("mkdir -p $ndir")   if (! -e $ndir);
+        system("aws --no-progress --no-sign-request s3 cp s3://genomeark/$name - | gzip -dc | $seqrequester summarize - > $name.summary");
+        printf "\n";
+    }
+
+    return(loadSummary($size, $file));
 }
 
 
 
 #
 #  Given a species_name, a genomic data type and a list of seqFiles
-#  ("filesize species_name/individual" separated by \0 bytes), compute a
+#  ("filesize datafile" separated by \0 bytes), compute a
 #  scalaing factor that will convert a filesize into an estimated number of
 #  bases in the (compressed) file.
 #
@@ -163,6 +247,7 @@ sub estimateRawDataScaling ($$$) {
     my $name     = $$data{"name_"};
     my $type     =             shift @_;
     my $files    =             shift @_;
+    my $scaling;
 
     return   if (!defined($files) || ($files eq ""));
 
@@ -185,26 +270,28 @@ sub estimateRawDataScaling ($$$) {
     my ($size2, $name2, $bases2, $seqs2) = split '\s', $files[$f2];   #  bases and seqs are undefined.
     my ($size3, $name3, $bases3, $seqs3) = split '\s', $files[$f3];
 
+    #  Print a list of the data present, marking which ones we have
+    #  summarized already or will use for estimation.
+
     print " - $type:\n";
 
     for (my $ii=0; $ii<$filesLen; $ii++) {
         my ($size, $name) = split '\s+', $files[$ii];
 
-        if (($ii == $f1) ||
-            ($ii == $f2) ||
-            ($ii == $f3)) {
-            printf "    * %12d %s\n", $size, $name;
-        } else {
-            printf "      %12d %s\n", $size, $name;
-        }
+        my $se = (exists($dataBases{$name})) ? "S" : " ";    #  Summary exists?
+        my $us = (($ii == $f1) ||                            #  Used for estimation?
+                  ($ii == $f2) ||
+                  ($ii == $f3)) ? "E" : " ";
+
+        printf "    %s%s %12d %s\n", $se, $us, $size, $name;
     }
 
-    $$data{"data_${type}_scale"} = 0.0;
-    return;
+    #  Retrieve the number of bases in each of the three files, fetching and
+    #  summarizing if needed.
 
-    $bases1 = downloadAndSummarize($name1, $size1, $f1);   #  Compute (if needed) and return the number
-    $bases2 = downloadAndSummarize($name2, $size2, $f2);   #  of bases in each of these files.
-    $bases3 = downloadAndSummarize($name3, $size3, $f3);
+    $bases1 = downloadPipeSummarize($name1, $size1, $f1);
+    $bases2 = downloadPipeSummarize($name2, $size2, $f2);
+    $bases3 = downloadPipeSummarize($name3, $size3, $f3);
 
     if (($bases1 == 0) ||        #  Fail if any of the size computations failed.
         ($bases2 == 0) ||
@@ -216,277 +303,10 @@ sub estimateRawDataScaling ($$$) {
         exit(1);
     }
 
-    my $scaling  = 1.0;
     $scaling = ($bases1 + $bases2 + $bases3) / ($size1 + $size2 + $size3);   #  Compute scaling, limit precision
     $scaling = int($scaling * 10000) / 10000;                                #  to prevent churn from bad math.
 
     $$data{"data_${type}_scale"} = $scaling;
-    #return($scaling);
 }
-
-
-
-
-
-#
-#  Given input filesize and filename, accumulate the file into
-#    seqFiles{datatype} - list of filesizes and filenames for this datatype
-#    seqBytes{datatype} - total size of files for this datatype
-#    seqIndiv{datatype} - NUL separated list of individuals with data for this datatype
-#
-
-sub accumulateData ($$$$$$) {
-    my $filesize = shift @_;
-    my $filename = shift @_;
-    my $seqFiles = shift @_;
-    my $seqBytes = shift @_;
-    my $seqIndiv = shift @_;
-    my $errors   = shift @_;
-
-    my $sName;   #  Name of the species.
-    my $iName;   #  Name of the individual.
-    my $sf;      #  Output filename, appended to seqFiles
-    my $sb;      #  Output filesize, added to seqBytes
-    my $si;      #  Output individual, appended to seqIndiv
-
-    if ($filename =~ m!species/(.*)/(.*)/genomic_data!) {
-        $sName = $1;
-        $iName = $2;
-        $sf    = "$filesize $filename\0";
-        $sb    = $filesize;
-        $si    = "$sName/$iName\0";
-    } else {
-        die "failed to parse species name and individual from '$filename'\n";
-    }
-
-
-    if ($filename =~ m!/genomic_data/10x/!) {
-        return if ($filename =~ m/txt$/);
-
-        if (($filename =~ m/fastq.gz/) ||
-            ($filename =~ m/fq.gz/)) {
-            $$seqFiles{"10x"} .= $sf;
-            $$seqBytes{"10x"} += $sb;
-            $$seqIndiv{"10x"} .= $si;
-        }
-        else {
-            push @$errors, "  Unknown 10x file type in '$filename'\n";
-        }
-        return;
-    }
-
-
-    if (($filename =~ m!/genomic_data/arima/!) ||
-        ($filename =~ m!/genomic_data/baylor-hic/!) ||
-        ($filename =~ m!/genomic_data/hic/!)) {
-        return if ($filename =~ m/re_bases.txt/);
-        return if ($filename =~ m/re_enz.txt/);
-
-        if (($filename =~ m/fastq.gz/) ||
-            ($filename =~ m/fq.gz/)) {
-            $$seqFiles{"arima"} .= $sf;
-            $$seqBytes{"arima"} += $sb;
-            $$seqIndiv{"arima"} .= $si;
-        }
-        else {
-            push @$errors, "  Unknown arima file type in '$filename'\n";
-        }
-        return;
-    }
-
-
-    if ($filename =~ m!/genomic_data/bionano/!) {
-        return if ($filename =~ m/txt$/);
-
-        if      ($filename =~ m/cmap/) {
-            $$seqFiles{"bionano"} .= $sf;
-            $$seqBytes{"bionano"} += $sb;
-            $$seqIndiv{"bionano"} .= $si;
-        }
-        elsif ($filename =~ m/bnx.gz/) {
-            $$seqBytes{"bionano"} += $sb;
-            $$seqIndiv{"bionano"} .= $si;
-        }
-        elsif ($filename =~ m/bnx/) {
-            $$seqBytes{"bionano"} += $sb;
-            $$seqIndiv{"bionano"} .= $si;
-        }
-        else {
-            push @$errors, "  Unknown bionano file type in '$filename'\n";
-        }
-        return;
-    }
-
-    if ($filename =~ m!/genomic_data/dovetail/!) {
-        return if ($filename =~ m/re_bases.txt/);
-
-        if (($filename =~ m/fastq.gz/) ||
-            ($filename =~ m/fq.gz/)) {
-            $$seqFiles{"dovetail"} .= $sf;
-            $$seqBytes{"dovetail"} += $sb;
-            $$seqIndiv{"dovetail"} .= $si;
-        }
-        else {
-            push @$errors, "  Unknown dovetail file type in '$filename'\n";
-        }
-        return;
-    }
-
-    if ($filename =~ m!/genomic_data/illumina/!) {
-        return if ($filename =~ m/txt$/);
-
-        if (($filename =~ m/fastq.gz/) ||
-            ($filename =~ m/fq.gz/)) {
-            $$seqFiles{"illumina"} .= $sf;
-            $$seqBytes{"illumina"} += $sb;
-            $$seqIndiv{"illumina"} .= $si;
-        }
-        else {
-            push @$errors, "  Unknown illumina file type in '$filename'\n";
-        }
-        return;
-    }
-
-
-    #  Completely ignore PacBio scraps.  They shouldn't even exist anymore.
-    #
-    if ($filename =~ m!/genomic_data/pacbio/!) {
-        return if ($filename =~ m/scraps\./);
-    }
-
-    #  PacBio CLR has:
-    #    bax.h5
-    #    subreads.fasta
-    #    subreads.bam
-    #    subreads.bam.bai
-    #    subreads.bam.pbi
-    #
-    if ($filename =~ m!/genomic_data/pacbio/!) {
-        return if ($filename =~ m/txt$/);
-
-        #  Older barcode data
-        if    ($filename =~ m/\.ccs\..*\.bam.pbi$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.ccs\..*\.bam$/) {
-            $$seqFiles{"pbhifi"} .= $sf;
-            $$seqBytes{"pbhifi"} += $sb;
-            $$seqIndiv{"pbhifi"} .= $si;
-        }
-
-        #  Older non-barcode data.
-        elsif ($filename =~ m/\.ccs\.bam\.pbi$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.ccs\.bam\.bai$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.ccs\.bam$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.Q20\.fastq$/) {
-            $$seqFiles{"pbhifi"} .= $sf;
-            $$seqBytes{"pbhifi"} += $sb;
-            $$seqIndiv{"pbhifi"} .= $si;
-        }
-
-        #  Newer non-barcode data - this should all be renamed.
-        elsif ($filename =~ m/\.reads\.bam\.pbi$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.reads\.bam$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.hifi_reads\.bam$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.hifi_reads\.fastq\.gz$/) {
-            $$seqFiles{"pbhifi"} .= $sf;
-            $$seqBytes{"pbhifi"} += $sb;
-            $$seqIndiv{"pbhifi"} .= $si;
-        }
-
-        #  Normal CLR data.
-        elsif ($filename =~ m/subreads.bam\.pbi$/) {
-            $$seqBytes{"pbclr"} += $sb;
-        }
-        elsif ($filename =~ m/subreads.bam\.bai$/) {
-            $$seqBytes{"pbclr"} += $sb;
-        }
-        elsif ($filename =~ m/subreads.bam$/) {
-            $$seqFiles{"pbclr"} .= $sf;
-            $$seqBytes{"pbclr"} += $sb;
-            $$seqIndiv{"pbclr"} .= $si;
-        }
-
-        else {
-            push @$errors, "  Unknown pacbio file type in '$filename'\n";
-        }
-
-        return;
-    }
-
-    #  PacBio HiFi has:
-    #    reads.bam
-    #    reads.bam.pbi
-    #
-    #    hifi_reads.bam
-    #    hifi_reads.fastq.gz
-    #
-    if ($filename =~ m!/genomic_data/pacbio_hifi/!) {
-        return if ($filename =~ m/txt$/);
-
-        #  Older data
-        if    ($filename =~ m/\.hifi_reads\.bam$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.hifi_reads\.fastq\.gz$/) {
-            $$seqFiles{"pbhifi"} .= $sf;
-            $$seqBytes{"pbhifi"} += $sb;
-            $$seqIndiv{"pbhifi"} .= $si;
-        }
-
-        elsif ($filename =~ m/\.subreads\.bam\.pbi$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.subreads\.bam\.bai$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.subreads\.bam$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.reads\.bam$/) {
-            $$seqFiles{"pbhifi"} .= $sf;
-            $$seqBytes{"pbhifi"} += $sb;
-            $$seqIndiv{"pbhifi"} .= $si;
-        }
-
-        else {
-            push @$errors, "  Unknown pacbio_hifi file type in '$filename'\n";
-        }
-
-        return;
-    }
-
-
-    if ($filename =~ m!/genomic_data/phase/!) {
-        return if ($filename =~ m/re_bases.txt/);
-
-        if (($filename =~ m/fastq.gz/) ||
-            ($filename =~ m/fq.gz/)) {
-            $$seqFiles{"phase"} .= $sf;
-            $$seqBytes{"phase"} += $sb;
-            $$seqIndiv{"phase"} .= $si;
-        }
-        else {
-            push @$errors, "  Unknown phase file type in '$filename'\n";
-        }
-        return;
-    }
-
-
-    push @$errors, "  Unknown data type in '$filename'\n";
-}
-
 
 return(1);
