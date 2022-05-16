@@ -2,7 +2,7 @@
 
 updateFileList="no"
 updateMetaData="yes"
-updateGenBank="yes"
+updateGenBank="no"
 
 #  awscli v2 pipes all output through a pager, which we don't want.
 export AWS_PAGER=""

@@ -18,11 +18,8 @@ use File::Basename;
 my $goodCTG = 1000000;
 my $goodSCF = 10000000;
 
-#my $seqrequester = "./seqrequester/build/bin/seqrequester";
-my $seqrequester = "seqrequester";
-
-my $downloadASM = 0;
-my $genomeSize = 0;
+my $aws          = "aws";
+my $seqrequester = "./seqrequester/build/bin/seqrequester";
 
 #
 #  Decode an assembly name to determine
@@ -454,8 +451,8 @@ sub summarizeAssembly ($$$$$) {
 
     #  And generate summaries of the contigs and scaffolds.
 
-    generateAssemblySummary($filename, $filesize, "ctg", $genomeSize, $errors)   if (! -e "$filebase.ctg.summary");
-    generateAssemblySummary($filename, $filesize, "scf", $genomeSize, $errors)   if (! -e "$filebase.scf.summary");
+    generateAssemblySummary($filename, $filesize, "ctg", $$data{"genome_size"}, $errors)   if (! -e "$filebase.ctg.summary");
+    generateAssemblySummary($filename, $filesize, "scf", $$data{"genome_size"}, $errors)   if (! -e "$filebase.scf.summary");
 
     my (@ctgNG, @ctgLG, @ctgLEN, @ctgCOV);
     my (@scfNG, @scfLG, @scfLEN, @scfCOV);

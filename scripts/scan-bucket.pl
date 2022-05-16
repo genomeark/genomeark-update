@@ -89,7 +89,7 @@ foreach my $species (@speciesList) {
         my $filename = $speciesFiles[$ii];
 
         if (isAssemblyFile($filename, 0)) {
-            #summarizeAssembly($filesecs, $filesize, $filename, \%data, \@potentialErrors);
+            summarizeAssembly($filesecs, $filesize, $filename, \%data, \@potentialErrors);
         }
     }
 
