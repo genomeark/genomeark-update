@@ -1,7 +1,7 @@
 #!/bin/sh
 
-updateFileList="no"
-updateMetaData="yes"
+updateFileList="yes"
+updateMetaData="no"
 updateGenBank="no"
 
 #  awscli v2 pipes all output through a pager, which we don't want.
@@ -14,7 +14,7 @@ mkdir -p downloads
 #  Once downloaded, filter out the crud if the filtered version is older.
 #
 
-if [ $updateFileList != "no" -a ! -e "downloads/genomeark.ls.raw" ] ; then
+if [ $updateFileList = "yes" -a ! -e "downloads/genomeark.ls.raw" ] ; then
   echo "Fetching list of files in s3://genomeark/species/."
   aws --no-sign-request s3 ls --recursive s3://genomeark/species/ > downloads/genomeark.ls.raw.WORKING \
   && \
@@ -36,7 +36,7 @@ fi
 #  Update metadata, if requested.
 #
 
-if [ $updateMetaData != "no" ] ; then
+if [ $updateMetaData = "yes" ] ; then
   echo "Updating metadata repository."
 
   if [ ! -e genomeark-metadata ] ; then
@@ -65,7 +65,7 @@ fi
 #  'DocumentSummary' elements IF it contains a `Synonym` element (which is
 #  where the 'Genbank' element is).
 
-if [ $updateGenBank != "no" ] ; then
+if [ $updateGenBank = "yes" ] ; then
   echo "Updating genbank mappings."
 
   if [ -z $NCBI_API_KEY ] ; then
@@ -112,6 +112,6 @@ fi
 #  This runs in parallel across species.
 #
 
-for x in `cat genomeark-metadata/species-list` ; do
-  echo $x
-done
+#for x in `cat genomeark-metadata/species-list` ; do
+#  echo $x
+#done

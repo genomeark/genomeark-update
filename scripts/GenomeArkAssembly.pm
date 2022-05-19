@@ -363,7 +363,7 @@ sub rememberLatestAssembly ($$$$$) {
 #  no output summary file is generated.
 #
 
-sub generateAssemblySummary ($$$$$) {
+sub generateAssemblySummary ($$$$$$) {
     my $filename   = shift @_;
     my $filebase   = $filename;   $filebase =~ s/.gz$//;
     my $dirname    = dirname($filename);
@@ -371,27 +371,36 @@ sub generateAssemblySummary ($$$$$) {
     my $type       = shift @_;
     my $genomeSize = shift @_;
     my $errors     = shift @_;
+    my $download   = shift @_;
 
     my $splitopt   = ($type eq "ctg")  ? "-split-n"          : "";
     my $sizeopt    = ($genomeSize > 0) ? "-size $genomeSize" : "";
 
     my $awsopts    = "--only-show-errors --no-sign-request";  #--quiet --no-progress
 
-    if ((! -z "$filebase.$type.summary") &&   #  If the summary exists and is not
-        (  -e "$filebase.$type.summary")) {   #  empty, we have nothing to do.
+    #  If the summary exists and is not empty, we have nothing to do here.
+
+    if ((! -z "$filebase.$type.summary") &&
+        (  -e "$filebase.$type.summary")) {
         return;
     }
 
-    if (! -e "downloads/$filebase.gz") {
+    #  If we're allowed to download, and we need to download, download.
+    #  Generate a warning if the file doesn't exist after 'downloading' it.
+
+    if (($download == 1) && (! -e "downloads/$filebase.gz")) {
         printf "              FETCH asm - size %6.3f GB\n", $filesize / 1024 / 1024 / 1024;
 
         system("mkdir -p downloads/$dirname");
         system("aws $awsopts s3 cp s3://genomeark/$filebase.gz downloads/$filebase.gz || rm -f downloads/$filebase.gz");
     }
     if (! -e "downloads/$filebase.gz") {
-        push @$errors, "Failed to download $filebase.gz\n";
+        #ush @$errors, "  Downloading disabled for file $filebase.gz\n"   if ($download == 0);
+        push @$errors, "  Failed to download $filebase.gz\n"              if ($download == 1);
         return;
     }
+
+    #  Summarize it!
 
     print "              SUMMARIZING as $type\n"                                if ($genomeSize == 0);
     print "              SUMMARIZING as $type with genome size $genomeSize\n"   if ($genomeSize  > 0);
@@ -399,12 +408,10 @@ sub generateAssemblySummary ($$$$$) {
     system("mkdir -p $dirname");
     system("$seqrequester summarize -1x $splitopt $sizeopt downloads/$filebase.gz > $filebase.$type.summary || rm -f $filebase.$type.summary");
 
-    if (-z "$filebase.$type.summary") {
-        unlink "$filebase.scf.summary"
-    }
-    if (! -e "$filebase.$type.summary") {
-        push @$errors, "Failed to summarize $filebase.gz\n";
-    }
+    #  Remove incomplete summaries, and generate a warning.
+
+    unlink "$filebase.scf.summary"                          if (  -z "$filebase.$type.summary");
+    push @$errors, "  Failed to summarize $filebase.gz\n"   if (! -e "$filebase.$type.summary");
 }
 
 
@@ -416,13 +423,14 @@ sub generateAssemblySummary ($$$$$) {
 #  and show only the last one encountered.
 #
 
-sub summarizeAssembly ($$$$$) {
+sub summarizeAssembly ($$$$$$) {
     my $filesecs = shift @_;
     my $filesize = shift @_;
     my $filename = shift @_;
     my $filebase = $filename;   $filebase =~ s/.gz$//;
     my $data     = shift @_;
     my $errors   = shift @_;
+    my $download = shift @_;
 
     my ($sName, $aLabel, $sTag, $sNum, $prialt, $date, $secs, $curated, $err) = parseAssemblyName($filename, $filesecs, 0);
 
@@ -451,8 +459,8 @@ sub summarizeAssembly ($$$$$) {
 
     #  And generate summaries of the contigs and scaffolds.
 
-    generateAssemblySummary($filename, $filesize, "ctg", $$data{"genome_size"}, $errors)   if (! -e "$filebase.ctg.summary");
-    generateAssemblySummary($filename, $filesize, "scf", $$data{"genome_size"}, $errors)   if (! -e "$filebase.scf.summary");
+    generateAssemblySummary($filename, $filesize, "ctg", $$data{"genome_size"}, $errors, $download)   if (! -e "$filebase.ctg.summary");
+    generateAssemblySummary($filename, $filesize, "scf", $$data{"genome_size"}, $errors, $download)   if (! -e "$filebase.scf.summary");
 
     my (@ctgNG, @ctgLG, @ctgLEN, @ctgCOV);
     my (@scfNG, @scfLG, @scfLEN, @scfCOV);
@@ -464,7 +472,12 @@ sub summarizeAssembly ($$$$$) {
 
     if ((! -e "$filebase.ctg.summary") ||
         (! -e "$filebase.scf.summary")) {
-        die "FAILED TO FIND SIZES '$filebase'\n"   
+        if ($download == 0) {
+            push @$errors, "  Size stats not generated for '$filebase'\n";
+        }
+        else {
+            push @$errors, "  FAILED to generate size stats for '$filebase'\n"   
+        }
     }
 }
 

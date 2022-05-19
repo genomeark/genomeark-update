@@ -218,68 +218,39 @@ sub accumulateData ($$$$$$) {
     if ($filename =~ m!/genomic_data/pacbio_hifi/!) {
         return if ($filename =~ m/txt$/);
 
-        #  Older data
-        if    ($filename =~ m/\.hifi_reads\.bam$/) {
+        #  Filtered data
+
+        if    (($filename =~ m/\.hifi_reads\.bam$/) ||
+               ($filename =~ m/\.ccs.*\.bam\.pbi$/) ||
+               ($filename =~ m/\.ccs.*\.bam\.bai$/) ||
+               ($filename =~ m/\.ccs\.bc.*\.bam\.pbi$/) ||
+               ($filename =~ m/\.ccs\.bc.*\.bam\.bai$/)) {
             $$seqBytes{"pbhifi"} += $sb;
         }
-        elsif ($filename =~ m/\.hifi_reads\.fastq\.gz$/) {
+        elsif (($filename =~ m/\.hifi_reads\.fastq\.gz$/) ||
+               ($filename =~ m/\.Q20\.fastq$/) ||
+               ($filename =~ m/\.Q20\.fastq\.gz$/) ||
+               ($filename =~ m/\.ccs\.bam$/) ||
+               ($filename =~ m/\.ccs\.bc.*\.bam$/)) {
             $$seqFiles{"pbhifi"} .= $sf;
             $$seqBytes{"pbhifi"} += $sb;
             $$seqIndiv{"pbhifi"} .= $si;
         }
 
-        elsif ($filename =~ m/\.subreads\.bam\.pbi$/) {
+        #  Ignore unfiltered data.
+
+        elsif (($filename =~ m/\.subreads\.bam\.pbi$/) ||
+               ($filename =~ m/\.subreads\.bam\.bai$/) ||
+               ($filename =~ m/\.reads\.bam\.pbi$/) ||
+               ($filename =~ m/\.reads\.bam\.bai$/)) {
             $$seqBytes{"pbhifi"} += $sb;
         }
-        elsif ($filename =~ m/\.subreads\.bam\.bai$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.subreads\.bam$/) {
+        elsif (($filename =~ m/\.subreads\.bam$/) ||
+               ($filename =~ m/\.reads\.bam$/)) {
             $$seqBytes{"pbhifi"} += $sb;
         }
 
-        elsif ($filename =~ m/\.reads\.bam\.pbi$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.reads\.bam\.bai$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.reads\.bam$/) {
-            $$seqFiles{"pbhifi"} .= $sf;
-            $$seqBytes{"pbhifi"} += $sb;
-            $$seqIndiv{"pbhifi"} .= $si;
-        }
-
-        elsif ($filename =~ m/\.ccs\.bam\.pbi$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.ccs\.bam\.bai$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.ccs\.bam$/) {
-            $$seqFiles{"pbhifi"} .= $sf;
-            $$seqBytes{"pbhifi"} += $sb;
-            $$seqIndiv{"pbhifi"} .= $si;
-        }
-        elsif ($filename =~ m/\.Q20\.fastq$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.Q20\.fastq.gz$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-
-        elsif ($filename =~ m/\.ccs\.bc.*\.bam\.pbi$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.ccs\.bc.*\.bam\.bai$/) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif ($filename =~ m/\.ccs\.bc.*\.bam$/) {
-            $$seqFiles{"pbhifi"} .= $sf;
-            $$seqBytes{"pbhifi"} += $sb;
-            $$seqIndiv{"pbhifi"} .= $si;
-        }
-
+        #  Otherwise report confusion.
 
         else {
             push @$errors, "  Unknown pacbio_hifi file type in '$filename'\n";

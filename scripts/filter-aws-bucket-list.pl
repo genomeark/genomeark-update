@@ -184,6 +184,17 @@ while (<STDIN>) {
     next if ($filename eq "species/Zalophus_californianus/mZalCal1/assembly_rockefeller_1.6/mZalCal1_u1.fasta.gz");
     next if ($filename eq "species/Zalophus_californianus/mZalCal1/assembly_rockefeller_1.6/mZalCal1_u2.fasta.gz");
 
+    #  Duplicate data
+    #    fToxJac2 appears to have all hifi reads in 'ccsAll.bam' and filtered hifi reads in 'ccs.bam'.
+
+    next if ($filename eq "species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m54345U_200927_005508.ccsAll.bam");
+    next if ($filename eq "species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m54345U_200927_005508.ccsAll.bam.pbi");
+    next if ($filename eq "species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m64046_201211_121116.ccsAll.bam");
+    next if ($filename eq "species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m64046_201211_121116.ccsAll.bam.pbi");
+
+    next if ($filename eq "species/Tauraco_erythrolophus/bTauEry1/genomic_data/arima/concatenated-bTauEry1_ARI16_4_USPD16090947_HV3M3CCXY_L3_1.clean.bam");
+    next if ($filename eq "species/Tauraco_erythrolophus/bTauEry1/genomic_data/arima/concatenated-bTauEry1_ARI16_4_USPD16090947_HV3M3CCXY_L3_1.clean.bam.bai");
+
     #  These look like obsolete drafts.
 
     next if ($filename eq "species/Balaenoptera_musculus/mBalMus1/assembly_RU_repolished/mBalMus1.alt.cur.20200528.fasta");

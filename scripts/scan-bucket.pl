@@ -22,13 +22,37 @@ use Time::Local;
 #use List::Util;
 
 #
+#  Parse options.
+#
+
+my @speciesList;
+my $downloadData       = 1;
+my $downloadAssemblies = 1;
+
+foreach my $arg (@ARGV) {
+    if    ($arg eq "--no-download") {
+        $downloadData = 0;
+        $downloadAssemblies = 0;
+    }
+    elsif ($arg eq "--no-download") {
+    }
+    elsif ($arg eq "--no-download") {
+    }
+    else {
+        push @speciesList, $arg;
+    }
+}
+
+
+#
 #  Main
 #
 
 die "ERROR: 'downloads/genomeark.ls' doesn't exist, can't update.\n"            if (! -e "downloads/genomeark.ls");
 die "ERROR: 'genomeark-metadata/species-list' doesn't exist, can't update.\n"   if (! -e "genomeark-metadata/species-list");
 
-my @speciesList = discoverSpecies(@ARGV);   #  List of all species in genomeark-metadata or supplied on command line.
+@speciesList = discoverSpecies(@speciesList);   #  List of all species in genomeark-metadata or supplied on command line.
+
 my $lastupdate  = loadBucketFiles();        #  Private list of all files in the bucket.
 my $nGenBank    = loadGenbankMap();         #  Private map from ToLID to GenBank accession.
 
@@ -89,7 +113,7 @@ foreach my $species (@speciesList) {
         my $filename = $speciesFiles[$ii];
 
         if (isAssemblyFile($filename, 0)) {
-            summarizeAssembly($filesecs, $filesize, $filename, \%data, \@potentialErrors);
+            summarizeAssembly($filesecs, $filesize, $filename, \%data, \@potentialErrors, $downloadAssemblies);
         }
     }
 
@@ -123,13 +147,13 @@ foreach my $species (@speciesList) {
 
     loadSummaries($data{"name_"}, \%seqFiles);   #  Load any summaries we have, so we can skip it in estimateRawDataScaling().
 
-    estimateRawDataScaling(\%data, "10x",      $seqFiles{"10x"});         #  seqFiles is a \0 separated list of
-    estimateRawDataScaling(\%data, "arima",    $seqFiles{"arima"});       #    'filesize \s datafile
-    estimateRawDataScaling(\%data, "dovetail", $seqFiles{"dovetail"});    #
-    estimateRawDataScaling(\%data, "illumina", $seqFiles{"illumina"});    #  datafile is 'species/NAME/INDIVIDUAL/genomic_data/TYPE/FILE
-    estimateRawDataScaling(\%data, "pbclr",    $seqFiles{"pbclr"});
-    estimateRawDataScaling(\%data, "pbhifi",   $seqFiles{"pbhifi"});
-    estimateRawDataScaling(\%data, "phase",    $seqFiles{"phase"});
+    estimateRawDataScaling(\%data, "10x",      $seqFiles{"10x"},      \@potentialErrors, $downloadData);  #  seqFiles is a \0 separated list of
+    estimateRawDataScaling(\%data, "arima",    $seqFiles{"arima"},    \@potentialErrors, $downloadData);  #    'filesize \s datafile
+    estimateRawDataScaling(\%data, "dovetail", $seqFiles{"dovetail"}, \@potentialErrors, $downloadData);  #
+    estimateRawDataScaling(\%data, "illumina", $seqFiles{"illumina"}, \@potentialErrors, $downloadData);  #  datafile is 'species/NAME/INDIVIDUAL/genomic_data/TYPE/FILE
+    estimateRawDataScaling(\%data, "pbclr",    $seqFiles{"pbclr"},    \@potentialErrors, $downloadData);
+    estimateRawDataScaling(\%data, "pbhifi",   $seqFiles{"pbhifi"},   \@potentialErrors, $downloadData);
+    estimateRawDataScaling(\%data, "phase",    $seqFiles{"phase"},    \@potentialErrors, $downloadData);
 
     writeSummaries($data{"name_"});
 
@@ -162,7 +186,7 @@ if (scalar(@potentialErrors > 0)) {
     print "\n";
     print "----------------------------------------\n";
     print "Potential errors found:\n";
-    foreach my $l (sort @potentialErrors) {
+    foreach my $l (@potentialErrors) {
         print "  $l";
     }
     print "\n";

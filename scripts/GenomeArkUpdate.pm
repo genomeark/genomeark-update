@@ -35,7 +35,7 @@ sub discoverSpecies (@) {
     my @species;   #  List of valid species, return value.
  
     foreach my $s (@_) {
-        $species{$s}++;
+        $species{$s}++   if ($s ne "");
     }
 
     open(SL, "< genomeark-metadata/species-list");

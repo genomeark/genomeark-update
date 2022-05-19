@@ -11,64 +11,67 @@ use warnings;
 use GenomeArkUtility;
 
 #use Time::Local;
-#use List::Util;
+use List::Util qw(min max);
 use File::Basename;
 
 my $aws          = "aws --no-sign-request";
 my $seqrequester = "./seqrequester/build/bin/seqrequester";
 my $bamsummarize = "./seqrequester/build/bin/bamsummarize";
 
-my $downloadRAW = 1;
-
 my %dataBytes;   #  Number of bytes in a genomic_data sequence file.
 my %dataQuant;   #  Amount of raw file summarized (in gigabytes, or "all").
 my %dataBases;   #  Number of bases in piece summarized.
 my %dataReads;   #  Number of reads in piece summarized.
 
+
+
+sub makeSummaryFileName ($$) {
+    my $n = shift @_;
+    my $s = shift @_;
+    my $N = dirname($n) . "/$s-bytes--" . basename($n) . ".summary";
+
+    return($N);
+}
+
+
 #
 #  Load a single data summary, which MUST exist.  If the summary is for a
 #  partial file, scale the summarized values to approximate the whole file.
 #
+#  If, after all that work, we end up with no estimate, forget everything.
+#
 sub loadSummaryFromFile ($$$$) {
-    my $size    = shift @_;
-    my $file    = shift @_;
-    my $amount  = shift @_;
-    my $summary = shift @_;
+    my $filesize  = shift @_;
+    my $filename  = shift @_;
+    my $sumsize   = shift @_;
+    my $summary   = shift @_;
 
-    $dataBytes{$file} = $size;
-    $dataQuant{$file} = $amount;
-    $dataBases{$file} = 0;
-    $dataReads{$file} = 0;
+    $dataBytes{$filename} = $filesize;
+    $dataQuant{$filename} = $sumsize;
+    $dataBases{$filename} = 0;
+    $dataReads{$filename} = 0;
 
-    print STDERR "  Load summary from '$summary'\n";
+    print STDERR "    Import summary from '$summary'\n";
 
     open(ST, "< $summary") or die;
     while (<ST>) {
-        $dataBases{$file} = $1   if (m/^G=(\d+)\s/);
-        $dataReads{$file} = $1   if (m/^001.000x\s+(\d+)\s/)
+        $dataBases{$filename} = $1   if (m/^G=(\d+)\s/);
+        $dataReads{$filename} = $1   if (m/^001.000x\s+(\d+)\s/)
     }
     close(ST);
 
-    if ($amount =~ m/(\d+)GB/) {
-        my $scale = $size / ($1 * 1024.0 * 1024.0 * 1024.0);
-
-        $dataBases{$file} = int($dataBases{$file} * $scale);
-        $dataReads{$file} = int($dataReads{$file} * $scale);
-    }
-    if ($amount =~ m/(\d+)MB/) {
-        my $scale = $size / ($1 * 1024.0 * 1024.0);
-
-        $dataBases{$file} = int($dataBases{$file} * $scale);
-        $dataReads{$file} = int($dataReads{$file} * $scale);
+    if ($filesize != $sumsize) {
+        $dataBases{$filename} = int($dataBases{$filename} * $filesize / $sumsize);
+        $dataReads{$filename} = int($dataReads{$filename} * $filesize / $sumsize);
     }
 
-    if ($dataBases{$file} == 0) {    #  If an invalid estimate, delete the
-        unlink $summary;             #  summary file and clear our data.
+    if ($dataBases{$filename} == 0) {
+        unlink $summary;
 
-        delete $dataBytes{$file};
-        delete $dataQuant{$file};
-        delete $dataBases{$file};
-        delete $dataReads{$file};
+        delete $dataBytes{$filename};
+        delete $dataQuant{$filename};
+        delete $dataBases{$filename};
+        delete $dataReads{$filename};
     }
 }
 
@@ -76,24 +79,39 @@ sub loadSummaryFromFile ($$$$) {
 #  Load a summary, if it exists.
 #
 sub loadSummary (@) {
-    my $size = shift @_;
-    my $file = shift @_;
+    my $filesize = shift @_;
+    my $filename = shift @_;
 
-    #  If the summary exists, and it is for all the data, do nothing.
-    if (exists($dataQuant{$file}) && $dataQuant{$file} eq "all") {
+    my $newsize = 0;
+    my $newfile = "";
+
+    my $sumnames = makeSummaryFileName($filename, "*");
+
+    #  Pick the summary of the largest amount of data.
+    open(LS, "ls $sumnames 2>/dev/null |");
+    while (<LS>) {
+        chomp;
+        if ($_ =~ m!/(\d+)-bytes--.*\.summary$!) {
+            if ($1 > $newsize) {
+                $newsize = $1;
+                $newfile = $_;
+            }
+        }
+    }
+    close(LS);
+
+    #  If a full summary exists, always use that.
+    if (-e "${filename}.summary") {
+        $newsize = $filesize;
+        $newfile = "${filename}.summary";
     }
 
-    #  If the 'all' summary exists, load it.
-    elsif (-e "$file.summary") {
-        loadSummaryFromFile($size, $file, "all", "$file.summary");
-    }
+    #  Load the new summary if it summarized more data than we did.
 
-    #  If any subset summaries exist, load them.
-    elsif (-e "$file.1GB.summary") {
-        loadSummaryFromFile($size, $file, "1GB", "$file.1GB.summary");
-    }
-    elsif (-e "$file.9MB.summary") {
-        loadSummaryFromFile($size, $file, "9MB", "$file.9MB.summary");
+    my $sumsize  = (exists($dataQuant{$filename})) ? $dataQuant{$filename} : 0;
+
+    if ($newsize > $sumsize) {
+        loadSummaryFromFile($filesize, $filename, $newsize, $newfile);
     }
 }
 
@@ -131,6 +149,10 @@ sub loadSummaries ($$) {
                 $dataBases{$file} = $bases;
                 $dataReads{$file} = $reads;
             }
+
+            $quant = 9 * 1024 * 1024         if ($quant eq "9MB");
+            $quant = 1 * 1024 * 1024 * 1024  if ($quant eq "1GB");
+            $quant = 2 * 1024 * 1024 * 1024  if ($quant eq "2GB");
         }
         close(ST);
     }
@@ -174,22 +196,23 @@ sub writeSummaries ($) {
 #
 #  If the summary doesn't exist for all the data, download the whole file and summarize.
 #
-sub downloadFullAndSummarize ($$) {
-    my $size  = shift @_;
-    my $file  = shift @_;
-    my $fdir  = dirname($file);
+sub downloadFullAndSummarize ($$$) {
+    my $filesize = shift @_;
+    my $filename= shift @_;
+    my $fdir     = dirname($filename);
+    my $download = shift @_;
 
     #  If the whole summary exists, do not recompute it.
 
-    return   if (exists($dataQuant{$file}) && $dataQuant{$file} eq "all");
+    return   if (exists($dataQuant{$filename}) && $dataQuant{$filename} eq "all");
 
-    die      if (-e "$file.summary");   #  It should be loaded already!
+    die      if (-e "$filename.summary");   #  It should be loaded already!
 
     #  Fetch the data if it doesn't exist already.
 
-    if ($downloadRAW == 0) {
-        printf "FETCH data - size %6.3f GB -- DISABLED\n", $size / 1024 / 1024 / 1024;
-        printf "    s3://genomeark/$file\n";
+    if ($download == 0) {
+        printf "FETCH data - size %6.3f GB -- DISABLED\n", $filesize / 1024 / 1024 / 1024;
+        printf "    s3://genomeark/$filename\n";
         printf "\n";
         return;
     }
@@ -197,116 +220,127 @@ sub downloadFullAndSummarize ($$) {
     system("mkdir -p downloads/$fdir");   #  Make a place to download the file
     system("mkdir -p           $fdir");   #  and a place to write the summary.
 
-    if (! -e "downloads/$file") {
-        printf "FETCH data - size %6.3f GB\n", $size / 1024 / 1024 / 1024;
-        printf "    s3://genomeark/$file \\\n";
-        printf "    ->   downloads/$file\n";
+    if (! -e "downloads/$filename") {
+        printf "FETCH data - size %6.3f GB\n", $filesize / 1024 / 1024 / 1024;
+        printf "    s3://genomeark/$filename \\\n";
+        printf "    ->   downloads/$filename\n";
         printf "\n";
 
-        system("$aws s3 cp s3://genomeark/$file downloads/$file");
+        system("$aws s3 cp s3://genomeark/$filename downloads/$filename");
     }
 
     #  If the download failed....do what?
 
-    if (! -e "downloads/$file") {
+    if (! -e "downloads/$filename") {
         printf "  FAILED.\n";
         return;
     }
 
     #  If a bam, convert to fastq then summarize, otherwise, summarize directly.
 
-    if ($file =~ m/bam$/) {
-        printf "EXTRACT and SUMMARIZE $file.summary\n";
+    if ($filename =~ m/bam$/) {
+        printf "EXTRACT and SUMMARIZE $filename.summary\n";
 
-        system("samtools fasta downloads/$file | $seqrequester summarize - > $file.summary");
-        #system("gzip -dc downloads/$file | $bamsummarize > $file.summary");
+        system("samtools fasta downloads/$filename | $seqrequester summarize - > $filename.summary");
+        #system("gzip -dc downloads/$filename | $bamsummarize > $filename.summary");
     }
     else {
-        printf "SUMMARIZE $file.summary\n";
+        printf "SUMMARIZE $filename.summary\n";
 
-        system("$seqrequester summarize downloads/$file > $file.summary");
+        system("$seqrequester summarize downloads/$filename > $filename.summary");
     }
 
     #  Parse the summary to find the number of bases in the dataset.
 
-    loadSummary($size, $file);
+    loadSummary($filesize, $filename);
 }
 
 
 #
 #  If no estimated number of bases exists, download a part of the file and summarize.
 #
-sub downloadPartAndSummarize ($$) {
-    my $size   = shift @_;
-    my $file   = shift @_;
-    my $fdir   = dirname($file);
+sub downloadPartAndSummarize ($$$) {
+    my $filesize = shift @_;
+    my $filename = shift @_;
+    my $fdir     = dirname($filename);
+    my $download = shift @_;
 
-    #my $gigab  = 1;
-    #my $gigau  = "GB";
-    #my $bytes  = $gigab * 1024 * 1024 * 1024;
+    #  How much did we summarize already, and how much do we want to summarize?
 
-    my $gigab  = 9;
-    my $gigau  = "MB";
-    my $bytes  = $gigab * 1024 * 1024;
+    my $sumsize = (exists($dataQuant{$filename})) ? $dataQuant{$filename} : 0;
+    my $newsize = 10 * 1024 * 1024;
+    my $sumname = makeSummaryFileName($filename, $newsize);
 
-    #  If some kind of estimate exists, we'll use that.
 
-    return   if (exists($dataBases{$file}));
-
-    #  If the download exists, summarize it and return the number of bases,
-
-    if (-e "downloads/$file") {
-        downloadAndSummarize($size, $file);
+    #  If we've summarized all the data, we can't improve it.
+    if    ($sumsize >= $filesize) {
         return;
     }
 
-    #  Otherwise, fetch a tiny bit of the data and pass it directly to the summarizer.
-
-    if ($downloadRAW == 0) {
-        printf "\n";
-        printf "FETCH data - size %6.3f GB -- DISABLED\n", $size / 1024 / 1024 / 1024;
-        printf "    s3://genomeark/$file\n";
-        printf "\n";
+    #  If there is ALREADY a data file around to summarize, make a full summary.
+    elsif (-e "downloads/$filename") {
+        downloadFullAndSummarize($filesize, $filename, $download);
         return;
     }
 
-    system("mkdir -p downloads/$fdir");   #  Make a place to download the file
-    system("mkdir -p           $fdir");   #  and a place to write the summary.
+    #  If we've summarized more than requested, don't do more work to get less!
+    elsif ($sumsize >= $newsize) {
+        return;
+    }
+
+    #
+    #  Yay!  Let's download and summarize something!
+    #
+
+    if ($download == 0) {
+        printf "\n";
+        printf "  SKIP  - %6.3f GB out of %6.3f GB - s3://genomeark/$filename\n", 0.0, $filesize / 1024 / 1024 / 1024;
+        return;
+    }
+
+    #  If the file isn't hugely bigger than the size we'd sample, just do the whole thing.
+    if ($filesize < 2 * $newsize) {
+        downloadFullAndSummarize($filesize, $filename, $download);
+        return;
+    }
 
     #  While 's3 cp' is happy writing to stdout, 's3api get-object' is not,
     #  and requires a file name.  Rather annoying, since this is where we
     #  could actually get away with piping it to the summarizer.
 
-    if ($file =~ m/bam$/) {
-        printf "\n";
-        printf "FETCH data - $gigab $gigau out of total size %6.3f GB\n", $size / 1024 / 1024 / 1024;
-        printf "    s3://genomeark/$file\n";
-        printf "    bamsummarize > $file.summary\n";
+    system("mkdir -p downloads/$fdir");   #  Make a place to download the file
+    system("mkdir -p           $fdir");   #  and a place to write the summary.
 
-        #print("$aws s3api get-object --bucket genomeark --key $file --range bytes=0-$bytes - | samtools fasta | $seqrequester summarize - > $file.${gigab}${gigau}.summary\n");
+    if ($filename =~ m/bam$/) {
+        my $df = "downloads/" . dirname($filename) . "/${newsize}-bytes--" . basename($filename);
 
-        my $df = "downloads/$file.${gigab}${gigau}.bam";
+        if (! -e "$df") {
+            printf "  FETCH     - %6.3f out of %6.3f GB - s3://genomeark/$filename\n", $newsize / 1024 / 1024 / 1024, $filesize / 1024 / 1024 / 1024;
+            system("$aws s3api get-object --bucket genomeark --key $filename --range bytes=0-$newsize $df > $df.err 2>&1")  if (! -e "$df");
+        } else {
+            printf "  CACHED    - %6.3f out of %6.3f GB - s3://genomeark/$filename\n", $newsize / 1024 / 1024 / 1024, $filesize / 1024 / 1024 / 1024;
+        }
 
-        system("$aws s3api get-object --bucket genomeark --key $file --range bytes=0-$bytes $df > $df.err 2>&1")  if (! -e "$df");
-        system("samtools fasta $df 2> $df.samtools.err | $seqrequester summarize - > $file.${gigab}${gigau}.summary 2> $df.seqrequester.err");
+        printf "  SUMMARIZE - samtools | seqrequester > $sumname\n";
+        system("samtools fasta $df 2> $df.samtools.err | $seqrequester summarize - > $sumname 2> $df.seqrequester.err");
         #system("rm -f $df");
-        printf "\n";
     }
     else {
-        printf "\n";
-        printf "FETCH data - $gigab $gigau out of total size %6.3f GB\n", $size / 1024 / 1024 / 1024;
-        printf "    s3://genomeark/$file\n";
-        printf "    seqrequester > $file.summary\n";
+        my $df = "downloads/" . dirname($filename) . "/${newsize}-bytes--" . basename($filename);
 
-        my $df = "downloads/$file.${gigab}${gigau}.gz";
+        if (! -e "$df") {
+            printf "  FETCH     - %6.3f out of %6.3f GB - s3://genomeark/$filename\n", $newsize / 1024 / 1024 / 1024, $filesize / 1024 / 1024 / 1024;
+            system("$aws s3api get-object --bucket genomeark --key $filename --range bytes=0-$newsize $df > $df.err 2>&1")  if (! -e "$df");
+        } else {
+            printf "  CACHED    - %6.3f out of %6.3f GB - s3://genomeark/$filename\n", $newsize / 1024 / 1024 / 1024, $filesize / 1024 / 1024 / 1024;
+        }
 
-        system("$aws s3api get-object --bucket genomeark --key $file --range bytes=0-$bytes $df > $df.err 2>&1")  if (! -e "$df");
-        system("gzip -dc $df 2> $df.gzip.err | $seqrequester summarize - > $file.${gigab}${gigau}.summary 2> $df.seqrequester.err");
+        printf "  SUMMARIZE - gzip -dc | seqrequester > $sumname\n";
+        system("gzip -dc $df 2> $df.gzip.err | $seqrequester summarize - > $sumname 2> $df.seqrequester.err");
         #system("rm -f $df");
-        printf "\n";
     }
 
-    loadSummary($size, $file);
+    loadSummary($filesize, $filename);
 }
 
 
@@ -317,12 +351,13 @@ sub downloadPartAndSummarize ($$) {
 #  scalaing factor that will convert a filesize into an estimated number of
 #  bases in the (compressed) file.
 #
-sub estimateRawDataScaling ($$$) {
-    my $data     =             shift @_;
+sub estimateRawDataScaling ($$$$$) {
+    my $data     = shift @_;
     my $name     = $$data{"name_"};
-    my $type     =             shift @_;
-    my $files    =             shift @_;
-    my $scaling;
+    my $type     = shift @_;
+    my $files    = shift @_;
+    my $errors   = shift @_;
+    my $download = shift @_;
 
     return   if (!defined($files) || ($files eq ""));
 
@@ -360,29 +395,51 @@ sub estimateRawDataScaling ($$$) {
 
         printf "    %s%s %12d %s\n", $se, $us, $size, $file;
     }
+    printf "\n";
 
     #  If needed, download a subset of the data from three files and use that to
     #  estimate the total number of bases in the file.
 
-    downloadPartAndSummarize($size1, $file1);    writeSummaries($name);
-    downloadPartAndSummarize($size2, $file2);    writeSummaries($name);
-    downloadPartAndSummarize($size3, $file3);    writeSummaries($name);
+    downloadPartAndSummarize($size1, $file1, $download);    writeSummaries($name);
+    downloadPartAndSummarize($size2, $file2, $download);    writeSummaries($name);
+    downloadPartAndSummarize($size3, $file3, $download);    writeSummaries($name);
 
     #  Get an estimate of (or, rarely, the actual) number of bases in each file.
+
+    my $scaling;
 
     if (!exists($dataBases{$file1}) ||        #  Fail if any of the size computations failed.
         !exists($dataBases{$file2}) ||
         !exists($dataBases{$file3})) {
-        print "FAILED TO ESTIMATE SIZES FOR:\n";
-        print "  File 1 $file1\n"  if (!exists($dataBases{$file1}));
-        print "  File 2 $file2\n"  if (!exists($dataBases{$file2}));
-        print "  File 3 $file3\n"  if (!exists($dataBases{$file3}));
-        exit(1);
-    }
+        if ($download) {
+            push @$errors, "  FAILED to estimate sizes for:  (will use approximate scaling estimate)\n";
+            push @$errors, "    File 1 $file1\n"   if (!exists($dataBases{$file1}));
+            push @$errors, "    File 2 $file2\n"   if (!exists($dataBases{$file2}));
+            push @$errors, "    File 3 $file3\n"   if (!exists($dataBases{$file3}));
+        }
+        else {
+            push @$errors, "  Size estimates not generated for:  (will use approximate scaling estimate)\n";
+            push @$errors, "    File 1 $file1\n"   if (!exists($dataBases{$file1}));
+            push @$errors, "    File 2 $file2\n"   if (!exists($dataBases{$file2}));
+            push @$errors, "    File 3 $file3\n"   if (!exists($dataBases{$file3}));
+        }
 
-    $scaling = (($dataBases{$file1} + $dataBases{$file2} + $dataBases{$file3}) /  #  Compute scaling, then limit
-                ($size1             + $size2             + $size3));              #  precision to prevent
-    $scaling = int($scaling * 10000) / 10000;                                     #  churn from bad math.
+        $scaling = 0.0   if ($file1 =~ m!genomic_data/bionano!);
+        $scaling = 1.5   if ($file1 =~ m!genomic_data/10x!);           #  Bimodal, ~1.4 and ~1.8
+        $scaling = 1.5   if ($file1 =~ m!genomic_data/arima!);         #  Bimodal, ~1.5 and ~1.8
+        $scaling = 1.5   if ($file1 =~ m!genomic_data/dovetail!);
+        $scaling = 1.8   if ($file1 =~ m!genomic_data/illumina!);
+        $scaling = 0.5   if ($file1 =~ m!genomic_data/pacbio!);
+        $scaling = 1.1   if ($file1 =~ m!genomic_data/pacbio_hifi!);
+        $scaling = 1.6   if ($file1 =~ m!genomic_data/phase!);
+    }
+    else {
+        my $sumbases = $dataBases{$file1} + $dataBases{$file2} + $dataBases{$file3};
+        my $sumsizes = $size1             + $size2             + $size3;
+
+        #  Limit precision to avoid differences in rounding
+        $scaling = int(10000 * $sumbases / $sumsizes) / 10000.0;
+    }
 
     $$data{"data_${type}_scale"} = $scaling;
 }
