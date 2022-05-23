@@ -130,6 +130,29 @@ sub accumulateData ($$$$$$) {
     }
 
 
+    #  Nanopore
+    #
+    #if ($filename =~ m!/genomic_data/ont/!) {
+    #}
+    #  Nanopore
+    #
+    if ($filename =~ m!/genomic_data/nanopore/!) {
+        #return if ($filename =~ m/txt$/);
+        #return if ($filename =~ m/txt$/);
+        #return if ($filename =~ m/txt$/);
+
+        if (($filename =~ m/fastq.gz/) ||
+            ($filename =~ m/fq.gz/)) {
+            $$seqFiles{"nanopore"} .= $sf;
+            $$seqBytes{"nanopore"} += $sb;
+            $$seqIndiv{"nanopore"} .= $si;
+        } else {
+            push @$errors, "  Unknown nanopore file type in '$filename'\n";
+        }
+        return;
+    }
+
+
     #  Completely ignore PacBio scraps.  They shouldn't even exist anymore.
     #
     if ($filename =~ m!/genomic_data/pacbio/!) {

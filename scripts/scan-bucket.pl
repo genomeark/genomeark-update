@@ -151,6 +151,7 @@ foreach my $species (@speciesList) {
     estimateRawDataScaling(\%data, "arima",    $seqFiles{"arima"},    \@potentialErrors, $downloadData);  #    'filesize \s datafile
     estimateRawDataScaling(\%data, "dovetail", $seqFiles{"dovetail"}, \@potentialErrors, $downloadData);  #
     estimateRawDataScaling(\%data, "illumina", $seqFiles{"illumina"}, \@potentialErrors, $downloadData);  #  datafile is 'species/NAME/INDIVIDUAL/genomic_data/TYPE/FILE
+    estimateRawDataScaling(\%data, "nanopore", $seqFiles{"nanopore"}, \@potentialErrors, $downloadData);
     estimateRawDataScaling(\%data, "pbclr",    $seqFiles{"pbclr"},    \@potentialErrors, $downloadData);
     estimateRawDataScaling(\%data, "pbhifi",   $seqFiles{"pbhifi"},   \@potentialErrors, $downloadData);
     estimateRawDataScaling(\%data, "phase",    $seqFiles{"phase"},    \@potentialErrors, $downloadData);
