@@ -418,7 +418,7 @@ sub estimateRawDataScaling ($$$$$) {
             push @$errors, "    File 3 $file3\n"   if (!exists($dataBases{$file3}));
         }
         else {
-            push @$errors, "  Size estimates not generated for:  (will use approximate scaling estimate)\n";
+            push @$errors, "  WARNING: Size estimates not generated for:  (will use approximate scaling estimate)\n";
             push @$errors, "    File 1 $file1\n"   if (!exists($dataBases{$file1}));
             push @$errors, "    File 2 $file2\n"   if (!exists($dataBases{$file2}));
             push @$errors, "    File 3 $file3\n"   if (!exists($dataBases{$file3}));
