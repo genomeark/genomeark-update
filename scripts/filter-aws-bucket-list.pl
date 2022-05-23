@@ -48,6 +48,7 @@ while (<STDIN>) {
 
     next if ($filename =~ m!.log$!);
     next if ($filename =~ m!.log.gz$!);
+    next if ($filename =~ m!.log.xz$!);
 
     next if ($filename =~ m!mother$!);
     next if ($filename =~ m!father$!);
@@ -71,24 +72,30 @@ while (<STDIN>) {
 
     next if ($filename =~ m!.xml$!);
 
-    next if ($filename =~ m!.csv$!);
+    next if ($filename =~ m!.csv$!); 
     next if ($filename =~ m!.csv.gz$!);
+    next if ($filename =~ m!.csv.xz$!);
 
     next if ($filename =~ m!.tsv$!);
     next if ($filename =~ m!.tsv.gz$!);
+    next if ($filename =~ m!.tsv.xz$!);
 
     next if ($filename =~ m!.zip$!);
 
     next if ($filename =~ m!.gff3$!);
     next if ($filename =~ m!.gff3.gz$!);
+    next if ($filename =~ m!.gff3.xz$!);
 
     next if ($filename =~ m!.yaml$!);
     next if ($filename =~ m!.yml$!);
 
     next if ($filename =~ m!.tar$!);
     next if ($filename =~ m!.tar.gz$!);
+    next if ($filename =~ m!.tar.xz$!);
 
     next if ($filename =~ m!/Stats!);
+
+    next if ($filename =~ m!.gfastats$!);
 
     next if ($filename =~ m!/troubleshooting!i);
     next if ($filename =~ m!/annotation!i);
@@ -131,12 +138,14 @@ while (<STDIN>) {
 
     next if ($filename =~ m!/genomic_data/.*/scripts/!);
 
-    next if ($filename =~ m!/genomic_data/.*fast5/!);
+    next if ($filename =~ m!/genomic_data/nanopore/.*fast5$!);
+    next if ($filename =~ m!/genomic_data/nanopore/.*ont_run_stats.txt$!);
+    next if ($filename =~ m!/genomic_data/nanopore/.*telemetry.js.xz$!);
 
     next if ($filename =~ m!/aBomBom1/genomic_data/bionano/exp_refineFinal1/!);
     next if ($filename =~ m!/aBomBom1/genomic_data/pacbio/fasta!);
     next if ($filename =~ m!/bBucAby1/Test!);
-    next if ($filename =~ m!/bCalAnn1/genomic_data/nanopore.*clean.fastq.gz!);
+    next if ($filename =~ m!/bCalAnn1/genomic_data/nanopore.*clean.fastq.gz$!);
     next if ($filename =~ m!/bGeoTri1/genomic_data/pacbio/old/!);
     next if ($filename =~ m!/fAloSap1/vgp_assembly_2.0/evaluation!);
     next if ($filename =~ m!/fAngAng1/assembly_vgp_standard_1.6/Scaffolding!);
@@ -170,8 +179,12 @@ while (<STDIN>) {
     next if ($filename eq "species/Choloepus_didactylus/mChoDid1/assembly_berlinSanger_vgp_1.6/mChoDid1.mito.fa.gz");
     next if ($filename eq "species/Choloepus_didactylus/mChoDid1/assembly_berlin_vgp_1.5/VGP1.5.mChoDid1.berlin.txt");
     next if ($filename eq "species/Corvus_hawaiiensis/bCorHaw1/assembly_vgp_standard_2.0/Export");
+    next if ($filename eq "species/Elephas_maximus/mEleMax1/assembly_curated/mEleMax1_1.pretext.savestate_May5_beta");
     next if ($filename eq "species/Falco_rusticolus/bFalRus1/assembly/bFalRus1.pri.asm.20200215.pretext");
     next if ($filename eq "species/Falco_rusticolus/bFalRus1/assembly/bFalRus1.pri.asm.20200401.pretext");
+    next if ($filename eq "species/Heterohyrax_brucei/mHetBru1/haps_rapid_prtxt_XL.tpf");
+    next if ($filename eq "species/Heterohyrax_brucei/mHetBru1/rapid_prtxt_XL_mHetBru1.agp");
+    next if ($filename eq "species/Heterohyrax_brucei/mHetBru1/rapid_prtxt_XL_mHetBru1.tpf");
     next if ($filename eq "species/Melopsittacus_undulatus/bMelUnd1/pat_contigs_less20.fasta.gz");
     next if ($filename eq "species/Melopsittacus_undulatus/bMelUnd1/pat_contigs_over20.fasta.gz");
     next if ($filename eq "species/Mesoplodon_densirostris/mMesDen1/genomic_data/temp/forward_mMesDen1_reads.fastqsanger.gz");
@@ -181,6 +194,10 @@ while (<STDIN>) {
     next if ($filename eq "species/Pan_troglodytes/mPanTro1/genomic_data/pacbio/srx.list");
     next if ($filename eq "species/Pristis_pectinata/sPriPec2/assembly_vgp_standard_1.5/sPriPec2.pri.untrimmed.asm.20190802.fasta.gz");
     next if ($filename eq "species/Taeniopygia_guttata/bTaeGut1/bTaeGut1_s3q2.qv");
+    next if ($filename eq "species/Taeniopygia_guttata/bTaeGut2/assembly_vgp_standard_2.0/Map");
+    next if ($filename eq "species/Taeniopygia_guttata/bTaeGut2/assembly_vgp_standard_2.0/Map");
+    next if ($filename eq "species/Taeniopygia_guttata/bTaeGut2/assembly_vgp_standard_2.0/Map");
+    next if ($filename eq "species/Taeniopygia_guttata/bTaeGut2/assembly_vgp_standard_2.0/Map");
     next if ($filename eq "species/Taeniopygia_guttata/bTaeGut3/genomic_data/pat.txt");
     next if ($filename eq "species/Taeniopygia_guttata/bTaeGut4/genomic_data/mat.txt");
     next if ($filename eq "species/Zalophus_californianus/mZalCal1/assembly_rockefeller_1.6/mZalCal1_u1.fasta.gz");
