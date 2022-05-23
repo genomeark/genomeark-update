@@ -36,6 +36,9 @@ while (<STDIN>) {
     next if ($filename =~ m!^working!);
     next if ($filename =~ m!^galaxy!);
 
+    next if ($filename =~ m!/intermediate!i);
+    next if ($filename =~ m!/Intermidiates!i);           #  One guy has this.
+
     next if ($filename =~ m!.DS_Store$!);
 
     next if ($filename =~ m!.sh$!);
@@ -85,9 +88,6 @@ while (<STDIN>) {
     next if ($filename =~ m!.tar$!);
     next if ($filename =~ m!.tar.gz$!);
 
-    next if ($filename =~ m!/intermediate!i);
-    next if ($filename =~ m!/Intermidiates!i);           #  One guy has this.
-
     next if ($filename =~ m!/Stats!);
 
     next if ($filename =~ m!/troubleshooting!i);
@@ -130,6 +130,8 @@ while (<STDIN>) {
     #  Some specific crud that is either large or useless.
 
     next if ($filename =~ m!/genomic_data/.*/scripts/!);
+
+    next if ($filename =~ m!/genomic_data/.*fast5/!);
 
     next if ($filename =~ m!/aBomBom1/genomic_data/bionano/exp_refineFinal1/!);
     next if ($filename =~ m!/aBomBom1/genomic_data/pacbio/fasta!);
