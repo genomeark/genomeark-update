@@ -1,8 +1,14 @@
 #!/bin/sh
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=16g
+#SBATCH --time=24:00:00
 
-updateFileList="yes"
+updateFileList="no"
 updateMetaData="no"
 updateGenBank="no"
+
+module load aws
+module load samtools
 
 #  awscli v2 pipes all output through a pager, which we don't want.
 export AWS_PAGER=""
@@ -115,3 +121,5 @@ fi
 #for x in `cat genomeark-metadata/species-list` ; do
 #  echo $x
 #done
+
+perl scripts/scan-bucket.pl $@

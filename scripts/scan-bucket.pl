@@ -39,7 +39,11 @@ foreach my $arg (@ARGV) {
     elsif ($arg eq "--no-download") {
     }
     else {
-        push @speciesList, $arg;
+        if ($arg =~ m!^species/(.*)/?$!) {   #  Expect to find a list of species to process
+            push @speciesList, $1;           #  on the command line.  Allow either
+        } else {                             #  'species/NAME' (from e.g., scan-bucket.pl
+            push @speciesList, $arg;         #  species/T*) or the actual name.
+        }
     }
 }
 
@@ -56,6 +60,7 @@ die "ERROR: 'genomeark-metadata/species-list' doesn't exist, can't update.\n"   
 my $lastupdate  = loadBucketFiles();        #  Private list of all files in the bucket.
 my $nGenBank    = loadGenbankMap();         #  Private map from ToLID to GenBank accession.
 
+my %missingData;                            #  List of species that need to download data.
 my @potentialErrors;                        #  List of fatal errors we encountered.
 my @unknownFiles;                           #  List of files we don't know how to process.
 
@@ -113,7 +118,7 @@ foreach my $species (@speciesList) {
         my $filename = $speciesFiles[$ii];
 
         if (isAssemblyFile($filename, 0)) {
-            summarizeAssembly($filesecs, $filesize, $filename, \%data, \@potentialErrors, $downloadAssemblies);
+            summarizeAssembly($filesecs, $filesize, $filename, \%data, \@potentialErrors, \%missingData, $downloadAssemblies);
         }
     }
 
@@ -145,16 +150,16 @@ foreach my $species (@speciesList) {
     print "----------\n";                        #  examining a handful and scaling the rest.
     print "Genomic Data, bases estimation\n";    #  BIONANO is different and not reported.
 
-    loadSummaries($data{"name_"}, \%seqFiles);   #  Load any summaries we have, so we can skip it in estimateRawDataScaling().
+    loadSummaries($data{"name_"}, \%seqFiles, \@potentialErrors);
 
-    estimateRawDataScaling(\%data, "10x",      $seqFiles{"10x"},      \@potentialErrors, $downloadData);  #  seqFiles is a \0 separated list of
-    estimateRawDataScaling(\%data, "arima",    $seqFiles{"arima"},    \@potentialErrors, $downloadData);  #    'filesize \s datafile
-    estimateRawDataScaling(\%data, "dovetail", $seqFiles{"dovetail"}, \@potentialErrors, $downloadData);  #
-    estimateRawDataScaling(\%data, "illumina", $seqFiles{"illumina"}, \@potentialErrors, $downloadData);  #  datafile is 'species/NAME/INDIVIDUAL/genomic_data/TYPE/FILE
-    estimateRawDataScaling(\%data, "nanopore", $seqFiles{"nanopore"}, \@potentialErrors, $downloadData);
-    estimateRawDataScaling(\%data, "pbclr",    $seqFiles{"pbclr"},    \@potentialErrors, $downloadData);
-    estimateRawDataScaling(\%data, "pbhifi",   $seqFiles{"pbhifi"},   \@potentialErrors, $downloadData);
-    estimateRawDataScaling(\%data, "phase",    $seqFiles{"phase"},    \@potentialErrors, $downloadData);
+    estimateRawDataScaling(\%data, "10x",      $seqFiles{"10x"},      \@potentialErrors, \%missingData, $downloadData);  #  seqFiles is a \0 separated list of
+    estimateRawDataScaling(\%data, "arima",    $seqFiles{"arima"},    \@potentialErrors, \%missingData, $downloadData);  #    'filesize \s datafile
+    estimateRawDataScaling(\%data, "dovetail", $seqFiles{"dovetail"}, \@potentialErrors, \%missingData, $downloadData);  #
+    estimateRawDataScaling(\%data, "illumina", $seqFiles{"illumina"}, \@potentialErrors, \%missingData, $downloadData);  #  datafile is 'species/NAME/INDIVIDUAL/genomic_data/TYPE/FILE
+    estimateRawDataScaling(\%data, "nanopore", $seqFiles{"nanopore"}, \@potentialErrors, \%missingData, $downloadData);
+    estimateRawDataScaling(\%data, "pbclr",    $seqFiles{"pbclr"},    \@potentialErrors, \%missingData, $downloadData);
+    estimateRawDataScaling(\%data, "pbhifi",   $seqFiles{"pbhifi"},   \@potentialErrors, \%missingData, $downloadData);
+    estimateRawDataScaling(\%data, "phase",    $seqFiles{"phase"},    \@potentialErrors, \%missingData, $downloadData);
 
     writeSummaries($data{"name_"});
 
@@ -162,18 +167,18 @@ foreach my $species (@speciesList) {
     #print "----------\n";
     #print "Unknown files:\n";
 
-    for (my $ii=0; $ii<scalar(@speciesFiles); $ii++) {
-        my $filesecs = $speciesEpoch[$ii];
-        my $filesize = $speciesSizes[$ii];
-        my $filename = $speciesFiles[$ii];
-
-        next  if (isGenomicDataFile($filename));
-        next  if (isAssemblyFile($filename, 0));
-
-        #print "  UNKNOWN $filename\n";
-
-        push @unknownFiles, "  $filename\n";
-    }
+    #for (my $ii=0; $ii<scalar(@speciesFiles); $ii++) {
+    #    my $filesecs = $speciesEpoch[$ii];
+    #    my $filesize = $speciesSizes[$ii];
+    #    my $filename = $speciesFiles[$ii];
+    #
+    #    next  if (isGenomicDataFile($filename));
+    #    next  if (isAssemblyFile($filename, 0));
+    #
+    #    #print "  UNKNOWN $filename\n";
+    #
+    #    push @unknownFiles, "  $filename\n";
+    #}
 
     print "\n";
 }
@@ -200,6 +205,17 @@ if (scalar(@unknownFiles > 0)) {
     print "Unknown files:\n";
     foreach my $l (sort @unknownFiles) {
         print "  $l";
+    }
+    print "\n";
+}
+
+
+if (scalar(keys %missingData > 0)) {
+    print "\n";
+    print "----------------------------------------\n";
+    print "Species with missing data files:\n";
+    foreach my $l (sort keys %missingData) {
+        printf "  %3d - %s\n", $missingData{$l}, $l;
     }
     print "\n";
 }

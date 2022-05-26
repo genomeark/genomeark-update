@@ -423,13 +423,14 @@ sub generateAssemblySummary ($$$$$$) {
 #  and show only the last one encountered.
 #
 
-sub summarizeAssembly ($$$$$$) {
+sub summarizeAssembly ($$$$$$$) {
     my $filesecs = shift @_;
     my $filesize = shift @_;
     my $filename = shift @_;
     my $filebase = $filename;   $filebase =~ s/.gz$//;
     my $data     = shift @_;
     my $errors   = shift @_;
+    my $missing  = shift @_;
     my $download = shift @_;
 
     my ($sName, $aLabel, $sTag, $sNum, $prialt, $date, $secs, $curated, $err) = parseAssemblyName($filename, $filesecs, 0);
@@ -472,6 +473,8 @@ sub summarizeAssembly ($$$$$$) {
 
     if ((! -e "$filebase.ctg.summary") ||
         (! -e "$filebase.scf.summary")) {
+        $$missing{ $$data{"name_"} } = 1;
+
         if ($download == 0) {
             push @$errors, "  Size stats not generated for '$filebase'\n";
         }

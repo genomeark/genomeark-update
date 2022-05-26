@@ -222,6 +222,9 @@ while (<STDIN>) {
     next if ($filename eq "species/Bos_taurus/mBosTau1/assembly_curated/mBosTau1.mat.alt.cur.20200213.fasta.gz");
     next if ($filename eq "species/Bos_taurus/mBosTau1/assembly_curated/mBosTau1.pat.alt.cur.20200213.fasta.gz");
 
+    next if ($filename eq "species/Bos_taurus/mBosTau1/assembly_curated/purged/mBosTau1.mat.cur.20200213.purged.fasta.gz");
+    next if ($filename eq "species/Bos_taurus/mBosTau1/assembly_curated/purged/mBosTau1.pat.cur.20200213.purged.fasta.gz");
+
     next if ($filename eq "species/Callithrix_jacchus/mCalJac1/assembly_nhgri_rockefeller_trio_1.6/VGP_mCalJac1_pat_X.fa.gz");
 
     next if ($filename eq "species/Corvus_hawaiiensis/bCorHaw1/assembly_vgp_standard_2.0/bCorHaw1.alt.asm.20212707.fasta");
@@ -240,6 +243,15 @@ while (<STDIN>) {
 
     next if ($filename eq "species/Sebastes_umbrosus/fSebUmb1/assembly_vgp_standard_1.6/fSebUmb1-t3.alt.asm.20200701.fasta.gz");
     next if ($filename eq "species/Sebastes_umbrosus/fSebUmb1/assembly_vgp_standard_1.6/fSebUmb1-t3.pri.asm.20200701.fasta.gz");
+
+    next if ($filename eq "species/Suncus_etruscus/mSunEtr1/assembly_curated/mSunEtr1.alt.cur.20211125.nopipe.fasta.gz");
+
+    next if ($filename eq "species/Taeniopygia_guttata/bTaeGut2/assembly_vgp_trio_2.0/bTaeGut2_trio.rebinned.hap1.s2.fasta.gz");
+    next if ($filename eq "species/Taeniopygia_guttata/bTaeGut2/assembly_vgp_trio_2.0/bTaeGut2_trio.rebinned.hap2.s2.fasta.gz");
+
+    next if ($filename eq "species/Tamandua_tetradactyla/mTamTet1/assembly_vgp_standard_1.7/mTamTet1_t3.alt.asm.20210813.fasta.gz");
+    next if ($filename eq "species/Tamandua_tetradactyla/mTamTet1/assembly_vgp_standard_1.7/mTamTet1_t3.pri.asm.20210813.fasta.gz");
+
 
     #  A file we want to process!
 
