@@ -1,0 +1,4 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+   133705535291               0      2147483648    274917093932      1820643006  species/Castor_fiber/mCasFib2/genomic_data/arima/mCasFib2_41443_3#2_R1.fastq.gz
+   145854865136               0      2147483648    280924143393      1860424858  species/Castor_fiber/mCasFib2/genomic_data/arima/mCasFib2_41443_3#2_R2.fastq.gz

@@ -1,0 +1,10 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    41343370937               0      2147483648     60927344520       406182296  species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/arima/ARI_2476_7_R1.filtered.fastq.gz
+    49090284003               0      2147483648     65109145175       434060990  species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/arima/ARI_2476_7_R2.filtered.fastq.gz
+    24449113261               0      2147483648     12206218824          934219  species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/pacbio_hifi/m54306U_200904_214941.Q20.fastq
+    26347888943               0      2147483648     13158003613          816244  species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/pacbio_hifi/m54306U_210309_170452.Q20.fastq
+    27312475774               0      2147483648     13640325091          836283  species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/pacbio_hifi/m64055_210304_215744.Q20.fastq
+    24487347218               0      2147483648     50066630564       331567101  species/Porphyrio_hochstetteri/bPorHoc2/genomic_data/illumina/bPorHoc2_S2_R1_001.fastq.gz
+    25982052252               0      2147483648     50605567066       335136217  species/Porphyrio_hochstetteri/bPorHoc2/genomic_data/illumina/bPorHoc2_S2_R2_001.fastq.gz
+    17807113420               0      2147483648     34560922621       228880290  species/Porphyrio_hochstetteri/bPorHoc3/genomic_data/illumina/bPorHoc3_S3_R2_001.fastq.gz

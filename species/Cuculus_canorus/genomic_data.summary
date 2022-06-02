@@ -1,0 +1,10 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     9405025237               0      2147483648     18355114079       121557051  species/Cuculus_canorus/bCucCan1/genomic_data/10x/bCucCan1_S1_L001_R1_001.fastq.gz
+     8532435367               0      2147483648     16712648591       110679791  species/Cuculus_canorus/bCucCan1/genomic_data/10x/bCucCan1_S2_L001_R1_001.fastq.gz
+     7514956675               0      2147483648     14618764626        96813010  species/Cuculus_canorus/bCucCan1/genomic_data/10x/bCucCan1_S3_L001_R1_001.fastq.gz
+    17344376236               0      2147483648      9311222866          559692  species/Cuculus_canorus/bCucCan1/genomic_data/pacbio/m54158_190317_024256.subreads.bam
+    19405747213               0      2147483648     10446545238          614319  species/Cuculus_canorus/bCucCan1/genomic_data/pacbio/m54158_190319_113248.subreads.bam
+    20187329430               0      2147483648     10866147269          695624  species/Cuculus_canorus/bCucCan1/genomic_data/pacbio/m54158_190322_200410.subreads.bam
+    36066557915               0      2147483648     60456467524       403043133  species/Cuculus_canorus/bCucCan2/genomic_data/arima/bCucCan2_2433-02_R1_001.fastq.gz
+    41606594947               0      2147483648     59995887067       399972599  species/Cuculus_canorus/bCucCan2/genomic_data/arima/bCucCan2_2433-02_R2_001.fastq.gz

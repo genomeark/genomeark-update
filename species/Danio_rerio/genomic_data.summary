@@ -1,0 +1,13 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    27490659106               0      2147483648     50536082601       202144330  species/Danio_rerio/fDreABH1/genomic_data/illumina/fDreABH1_20145#2_R2.fastq.gz
+     9231570933               0      2147483648     13461139819        89146625  species/Danio_rerio/fDreSAT1/genomic_data/10x/fDreSAT1_S2_L008_R2_001.fastq.gz
+      847664880               0       847664880       924642232       115580279  species/Danio_rerio/fDreSAT1/genomic_data/10x/fDreSAT1_S4_L007_I1_001.fastq.gz
+    10950713431               0      2147483648     17631062820       116762005  species/Danio_rerio/fDreSAT1/genomic_data/10x/fDreSAT1_S4_L007_R1_001.fastq.gz
+     3667618105               0      3667618105       946783874           78778  species/Danio_rerio/fDreSAT1/genomic_data/pacbio/m160424_123459_42204_c100967282550000001823200405121600_s1_p0.subreads.bam
+     4658597782               0      2147483648      1260056234           95077  species/Danio_rerio/fDreSAT1/genomic_data/pacbio/m160501_183155_42214_c101000342550000001823232709161684_s1_p0.subreads.bam
+     2911201044               0      2911201044       772155671           62776  species/Danio_rerio/fDreSAT1/genomic_data/pacbio/m160526_222047_42204_c101016672550000001823224807191626_s1_p0.subreads.bam
+    40800227978               0      2147483648     61643477823       408234952  species/Danio_rerio/fDreSAT3/genomic_data/dovetail/fDreSAT3_28791_5#1_R1.fastq.gz
+    44129707481               0      2147483648     61870998266       409741710  species/Danio_rerio/fDreSAT3/genomic_data/dovetail/fDreSAT3_28791_5#1_R2.fastq.gz
+    26315047276               0      2147483648     51236880838       204947535  species/Danio_rerio/fDreTuH1/genomic_data/illumina/fDreTuH1_20101#2_R1.fastq.gz
+    28051348781               0      2147483648     50809210391       203236841  species/Danio_rerio/fDreTuH1/genomic_data/illumina/fDreTuH1_20101#2_R2.fastq.gz

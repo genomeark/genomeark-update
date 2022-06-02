@@ -1,0 +1,4 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    30245101527               0      2147483648     60643136803       401610191  species/Stomias_boa/fStoBoa2/genomic_data/arima/fStoBoa2_39712_1#1_R1.fastq.gz
+    32461770082               0      2147483648     60826351938       402823537  species/Stomias_boa/fStoBoa2/genomic_data/arima/fStoBoa2_39712_1#1_R2.fastq.gz

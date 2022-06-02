@@ -1,0 +1,8 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    83335755519               0      2147483648    131337564789       875583804  species/Potamotrygon_marinae/sPotMar1/genomic_data/arima/2450_06_R1.fastq.gz
+    92496433645               0      2147483648    124278713072       828524753  species/Potamotrygon_marinae/sPotMar1/genomic_data/arima/2450_06_R2.fastq.gz
+    84370271155               0      2147483648    173790242301      1150928796  species/Potamotrygon_marinae/sPotMar1/genomic_data/illumina/sPotMar1_DNA_R1.fastq.gz
+    89963410242               0      2147483648    174070200193      1152782824  species/Potamotrygon_marinae/sPotMar1/genomic_data/illumina/sPotMar1_DNA_R2.fastq.gz
+   298672384378               0      2147483648    157262805114         6837041  species/Potamotrygon_marinae/sPotMar1/genomic_data/pacbio/m54306U_200305_192331.subreads.bam
+   294958118689               0      2147483648    155178377259         6819593  species/Potamotrygon_marinae/sPotMar1/genomic_data/pacbio/m54306U_200306_213606.subreads.bam

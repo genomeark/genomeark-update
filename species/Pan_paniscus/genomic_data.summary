@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    68909462441               0      2147483648     73566638239         1831449  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG22775_guppy-5.0.13.fastq.gz
+    62133132810               0      2147483648     65720936604         1812275  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG23747_guppy-5.0.13.fastq.gz
+    70791566604               0      2147483648     75639189133         2013067  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG26857_guppy-5.0.13.fastq.gz
+    11791002297               0      2147483648     12043942591          751593  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210511_192234.hifi_reads.fastq.gz
+    21504593302               0      2147483648     22296721623         1097728  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210804_194759.hifi_reads.fastq.gz
+    19728708620               0      2147483648     21585486894         1052616  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210806_064833.hifi_reads.fastq.gz
+    12381067495               0      2147483648     24812794477       164323148  species/Pan_paniscus/mPanPan2/genomic_data/illumina/mPanPan2_HNFNCDSX2_19164898_S7_L002_R1_001.fastq.gz
+    10468023075               0      2147483648     19203683973       127176719  species/Pan_paniscus/mPanPan2/genomic_data/illumina/mPanPan2_HT2N2DSX2_19164898_S5_L001_R1_001.fastq.gz
+    11017959516               0      2147483648     22507446827       149055939  species/Pan_paniscus/mPanPan3/genomic_data/illumina/mPanPan3_HNFNCDSX2_19164894_S12_L003_R1_001.fastq.gz

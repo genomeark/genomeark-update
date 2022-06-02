@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    51294194258               0      2147483648     86017604308       573450719  species/Vipera_latastei/rVipLat1/genomic_data/arima/rVipLat1_S_2476_3_R1_001.fastq.gz
+    61577388638               0      2147483648     84762687909       565084586  species/Vipera_latastei/rVipLat1/genomic_data/arima/rVipLat1_S_2476_3_R2_001.fastq.gz
+    10453979695               0      2147483648     11654750626          659494  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m54306U_210506_190607.hifi_reads.fastq.gz
+    23148211987               0      2147483648     11561195229          670478  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m64055_210317_140301.Q20.fastq
+    15497345889               0      2147483648      7739964899          453341  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m64055_210430_160602.Q20.fastq

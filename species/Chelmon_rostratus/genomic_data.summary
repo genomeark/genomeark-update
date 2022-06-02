@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     4621211441               0      2147483648      8667561783        57401071  species/Chelmon_rostratus/fCheRos1/genomic_data/10x/fCheRos1_S1_L001_R1_001.fastq.gz
+     8094290340               0      2147483648     15222662790       100812336  species/Chelmon_rostratus/fCheRos1/genomic_data/10x/fCheRos1_S1_L002_R1_001.fastq.gz
+     9029201756               0      2147483648     17042203352       112862273  species/Chelmon_rostratus/fCheRos1/genomic_data/10x/fCheRos1_S1_L003_R1_001.fastq.gz
+    17223012134               0      2147483648     29282824693       195218831  species/Chelmon_rostratus/fCheRos1/genomic_data/hic/fCheRos1_ARIMA20190923_R1.fastq.gz
+    18971043265               0      2147483648     28348578229       188990530  species/Chelmon_rostratus/fCheRos1/genomic_data/hic/fCheRos1_ARIMA20190923_R2.fastq.gz
+    17653378877               0      2147483648     26379582035       175863888  species/Chelmon_rostratus/fCheRos1/genomic_data/hic/fCheRos1_ARIMA241114L002R6000142_R2.fastq.gz
+    17443010515               0      2147483648      9376498124          699845  species/Chelmon_rostratus/fCheRos1/genomic_data/pacbio/m54062_190618_234433.subreads.bam
+    15496102227               0      2147483648      8346752405          596043  species/Chelmon_rostratus/fCheRos1/genomic_data/pacbio/m54062_190620_195901.subreads.bam
+    10501474428               0      2147483648      5674229688          391239  species/Chelmon_rostratus/fCheRos1/genomic_data/pacbio/m54062_190621_061329.subreads.bam

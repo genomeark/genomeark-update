@@ -1,0 +1,10 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     2320090130               0      2320090130      4524475212        29963412  species/Cyclopterus_lumpus/fCycLum1/genomic_data/10x/fCycLum1_S1_L001_R1_001.fastq.gz
+     2055062565               0      2055062565      4025837123        26661173  species/Cyclopterus_lumpus/fCycLum1/genomic_data/10x/fCycLum1_S2_L001_R1_001.fastq.gz
+     1574460826               0      1574460826      3027583975        20050225  species/Cyclopterus_lumpus/fCycLum1/genomic_data/10x/fCycLum1_S5_L001_R1_001.fastq.gz
+    28563801468               0      2147483648     45851114212       305674108  species/Cyclopterus_lumpus/fCycLum1/genomic_data/arima/fCycLum1_S3_L006_R1_001.fastq.gz
+    31886225769               0      2147483648     45570708768       303804739  species/Cyclopterus_lumpus/fCycLum1/genomic_data/arima/fCycLum1_S3_L006_R2_001.fastq.gz
+    20871602430               0      2147483648     11219662571          689978  species/Cyclopterus_lumpus/fCycLum1/genomic_data/pacbio/m54307_190801_190609.subreads.bam
+    20597505564               0      2147483648     11062168168          667930  species/Cyclopterus_lumpus/fCycLum1/genomic_data/pacbio/m54307_190802_052026.subreads.bam
+    20549982644               0      2147483648     11044442339          627901  species/Cyclopterus_lumpus/fCycLum1/genomic_data/pacbio/m54307_190802_210451.subreads.bam

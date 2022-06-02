@@ -1,0 +1,10 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     5608521626               0      2147483648     10856443012        71896976  species/Aplochiton_taeniatus/fAplTae1/genomic_data/10x/fAplTae1_S1_L001_R1_001.fastq.gz
+     4575616890               0      2147483648      8846259051        58584497  species/Aplochiton_taeniatus/fAplTae1/genomic_data/10x/fAplTae1_S1_L002_R1_001.fastq.gz
+     6032492817               0      2147483648     11725167223        77650116  species/Aplochiton_taeniatus/fAplTae1/genomic_data/10x/fAplTae1_S1_L004_R1_001.fastq.gz
+    27142976232               0      2147483648     46335722455       308904816  species/Aplochiton_taeniatus/fAplTae1/genomic_data/arima/fAplTae1_ARIMA241108L001R6000142_R1.fastq.gz
+    31040918824               0      2147483648     45276952011       301846361  species/Aplochiton_taeniatus/fAplTae1/genomic_data/arima/fAplTae1_ARIMA241108L001R6000142_R2.fastq.gz
+    19578658950               0      2147483648     10478683815          674112  species/Aplochiton_taeniatus/fAplTae1/genomic_data/pacbio/m54062_190712_191052.subreads.bam
+    20914467804               0      2147483648     11272456292          726670  species/Aplochiton_taeniatus/fAplTae1/genomic_data/pacbio/m54144_190713_194706.subreads.bam
+    19367740366               0      2147483648     10342380958          752375  species/Aplochiton_taeniatus/fAplTae1/genomic_data/pacbio/m54144_190714_060021.subreads.bam

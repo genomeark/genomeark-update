@@ -1,0 +1,14 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    18440948311               0      2147483648     36149187100       239398590  species/Arvicanthis_niloticus/mArvNil1/genomic_data/10x/mArvNil1_S1_L001_R1_001.fastq.gz
+    13532863805               0      2147483648     26567864978       175946131  species/Arvicanthis_niloticus/mArvNil1/genomic_data/10x/mArvNil1_S2_L001_R1_001.fastq.gz
+    20824412161               0      2147483648     40888497096       270784758  species/Arvicanthis_niloticus/mArvNil1/genomic_data/10x/mArvNil1_S3_L001_R1_001.fastq.gz
+    38596294610               0      2147483648     55070887643       367139268  species/Arvicanthis_niloticus/mArvNil1/genomic_data/arima/mArvNil1_S14_L005_R2_001.fastq.gz
+    34666750154               0      2147483648     58666448019       391109669  species/Arvicanthis_niloticus/mArvNil1/genomic_data/arima/mArvNil1_S14_L006_R1_001.fastq.gz
+    38386322340               0      2147483648     56911630203       379410885  species/Arvicanthis_niloticus/mArvNil1/genomic_data/arima/mArvNil1_S14_L006_R2_001.fastq.gz
+    18504110016               0      2147483648      9956008033          692476  species/Arvicanthis_niloticus/mArvNil1/genomic_data/pacbio/m54158_190428_013057.subreads.bam
+    19587996974               0      2147483648     10666980700          676897  species/Arvicanthis_niloticus/mArvNil1/genomic_data/pacbio/m54159_190510_112048.subreads.bam
+    14360992783               0      2147483648      7731133842          602885  species/Arvicanthis_niloticus/mArvNil1/genomic_data/pacbio/m54306_190430_055622.subreads.bam
+     9347484317               0      2147483648     17356193297       114941681  species/Arvicanthis_niloticus/mArvNil2/genomic_data/illumina/HGW3LDSXX_18819990_S65_L003_R2_001.fastq.gz
+     8139668201               0      2147483648     15589328935       103240592  species/Arvicanthis_niloticus/mArvNil3/genomic_data/illumina/H7HYHDRXX_18819992_S2_L001_R2_001.fastq.gz
+    10124524811               0      2147483648     18998106699       125815280  species/Arvicanthis_niloticus/mArvNil3/genomic_data/illumina/HGW3LDSXX_18819992_S56_L002_R2_001.fastq.gz

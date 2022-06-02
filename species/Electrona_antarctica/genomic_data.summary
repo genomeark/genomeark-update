@@ -1,0 +1,4 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    62490907632               0      2147483648    126177441966       835612227  species/Electrona_antarctica/fEleAnt3/genomic_data/arima/fEleAnt3_40063_1#3_R1.fastq.gz
+    65752373317               0      2147483648    128659673450       852050848  species/Electrona_antarctica/fEleAnt3/genomic_data/arima/fEleAnt3_40063_1#3_R2.fastq.gz

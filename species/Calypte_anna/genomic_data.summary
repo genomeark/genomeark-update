@@ -1,0 +1,15 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     1570364925               0      1570364925      1456766496       182095812  species/Calypte_anna/bCalAnn1/genomic_data/10x/bCalAnn1_S1_L001_I1_001.fastq.gz
+    16620848900               0      2147483648     27312163094       182081095  species/Calypte_anna/bCalAnn1/genomic_data/10x/bCalAnn1_S1_L001_R1_001.fastq.gz
+    16961818985               0      2147483648     27313522579       182090150  species/Calypte_anna/bCalAnn1/genomic_data/10x/bCalAnn1_S1_L001_R2_001.fastq.gz
+    40199544215               0      2147483648     76246793083       508311972  species/Calypte_anna/bCalAnn1/genomic_data/arima/bCalAnn1_A9_USPD16081032_HGCKKALXX_L3_R1.fastq.gz
+    45075201126               0      2147483648     76357728648       509051545  species/Calypte_anna/bCalAnn1/genomic_data/arima/bCalAnn1_A9_USPD16081032_HGCKKALXX_L3_R2.fastq.gz
+    17983718384               0      2147483648     29030617519       230401726  species/Calypte_anna/bCalAnn1/genomic_data/dovetail/bCalAnn1_Chicago_CP-484_GGATCA_L008_R1.fastq.gz
+     6415954330               0      2147483648     10265708004        67984824  species/Calypte_anna/bCalAnn1/genomic_data/dovetail/bCalAnn1_HiC_160702_SN639_0798_AHT25TBCXX_CT222_S4_R1.fastq.gz
+     6725733848               0      2147483648     10257697205        67931772  species/Calypte_anna/bCalAnn1/genomic_data/dovetail/bCalAnn1_HiC_160702_SN639_0798_AHT25TBCXX_CT222_S4_R2.fastq.gz
+     1163865933               0      1163865933       358463721           30263  species/Calypte_anna/bCalAnn1/genomic_data/pacbio/m150411_162722_42142_c100787282550000001823152608251556_s1_p0.2.subreads.bam
+     1381063928               0      1381063928       429305678           37347  species/Calypte_anna/bCalAnn1/genomic_data/pacbio/m150416_053656_42141_c100761372550000001823161607221550_s1_p0.3.subreads.bam
+     1508241654               0      1508241654       467684916           40203  species/Calypte_anna/bCalAnn1/genomic_data/pacbio/m150418_065436_sherri_c100777832550000001823161908051565_s1_p0.2.subreads.bam
+     5994438288               0      2147483648     11012030726       137650386  species/Calypte_anna/bCalAnn1/genomic_data/phase/bCalAnn1_S3HiC_AD016_R1.fastq.gz
+     6361485588               0      2147483648     11009803823       137622547  species/Calypte_anna/bCalAnn1/genomic_data/phase/bCalAnn1_S3HiC_AD016_R2.fastq.gz

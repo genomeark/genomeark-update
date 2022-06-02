@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    52865070197               0      2147483648    108841926534       725612868  species/Haemorhous_mexicanus/bHaeMex1/genomic_data/arima/bHaeMex1_House_Finch_R1_001.fastq.gz
+    54065894653               0      2147483648    110145611406       734304101  species/Haemorhous_mexicanus/bHaeMex1/genomic_data/arima/bHaeMex1_House_Finch_R2_001.fastq.gz
+    12337500283               0      2147483648     16066566587         1478362  species/Haemorhous_mexicanus/bHaeMex1/genomic_data/pacbio_hifi/m54306U_210616_143938.hifi_reads.fastq.gz
+    13692475816               0      2147483648     17499322010         1633035  species/Haemorhous_mexicanus/bHaeMex1/genomic_data/pacbio_hifi/m54306Ue_210624_222321.hifi_reads.fastq.gz
+    14126727334               0      2147483648     16888710011         1432234  species/Haemorhous_mexicanus/bHaeMex1/genomic_data/pacbio_hifi/m64055e_210629_212156.hifi_reads.fastq.gz

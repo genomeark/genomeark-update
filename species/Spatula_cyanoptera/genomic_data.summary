@@ -1,0 +1,5 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     7594860141               0      2147483648      3958850013          453523  species/Spatula_cyanoptera/bSpaCya1/genomic_data/pacbio/m54158_171013_211811.subreads.bam
+     6126841384               0      2147483648      3181720007          396466  species/Spatula_cyanoptera/bSpaCya1/genomic_data/pacbio/m54159_171004_163713.subreads.bam
+     7092428459               0      2147483648      3680080028          455253  species/Spatula_cyanoptera/bSpaCya1/genomic_data/pacbio/m54159_171005_023605.subreads.bam

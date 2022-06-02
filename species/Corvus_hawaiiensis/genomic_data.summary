@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    28640871857               0      2147483648     43466637679       289777597  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/arima/bCorHaw1_S_2476_6_R1_001.fastq.gz
+    33818689509               0      2147483648     45169339185       301128927  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/arima/bCorHaw1_S_2476_6_R2_001.fastq.gz
+     8115875887               0      2147483648      4052788512          257068  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210416_211900.Q20.fastq
+     9028900841               0      2147483648      9169541915          416581  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210515_024233.hifi_reads.fastq.gz
+     9203407656               0      2147483648      9257586183          429934  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m64055_210518_191852.hifi_reads.fastq.gz

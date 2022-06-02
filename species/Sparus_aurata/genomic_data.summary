@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    11288897072               0      2147483648     15714887342       104072106  species/Sparus_aurata/fSpaAur1/genomic_data/10x/fSpaAur1_S1_L007_R2_001.fastq.gz
+      869482451               0       869482451       913059720       114132465  species/Sparus_aurata/fSpaAur1/genomic_data/10x/fSpaAur1_S3_L007_I1_001.fastq.gz
+     9895167685               0      2147483648     14855473801        98380625  species/Sparus_aurata/fSpaAur1/genomic_data/10x/fSpaAur1_S4_L007_R1_001.fastq.gz
+     5539221686               0      2147483648     10413930074        69426203  species/Sparus_aurata/fSpaAur1/genomic_data/arima/fSpaAur1_ARI8_002_USPD16085689-AK5455_HK5YFCCXY_L4_R2.fastq.gz
+     5204713520               0      2147483648     10269020381        68460138  species/Sparus_aurata/fSpaAur1/genomic_data/arima/fSpaAur1_ARI8_002_USPD16085689-AK5455_HK5YFCCXY_L5_R1.fastq.gz
+     5513031928               0      2147483648     10581795212        70545303  species/Sparus_aurata/fSpaAur1/genomic_data/arima/fSpaAur1_ARI8_002_USPD16085689-AK5455_HK5YFCCXY_L5_R2.fastq.gz
+     9210477351               0      2147483648      4786126970          665518  species/Sparus_aurata/fSpaAur1/genomic_data/pacbio/m54097_170811_140557.subreads.bam
+     8476116643               0      2147483648      4379316176          596952  species/Sparus_aurata/fSpaAur1/genomic_data/pacbio/m54097_170812_000502.subreads.bam
+    10246911015               0      2147483648      5313811272          690491  species/Sparus_aurata/fSpaAur1/genomic_data/pacbio/m54097_170817_231509.subreads.bam

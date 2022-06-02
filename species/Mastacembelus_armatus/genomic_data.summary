@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     9416534982               0      2147483648     12147121321        80444512  species/Mastacembelus_armatus/fMasArm1/genomic_data/10x/fMasArm1_S1_L005_R2_001.fastq.gz
+      801545628               0       801545628       836118264       104514783  species/Mastacembelus_armatus/fMasArm1/genomic_data/10x/fMasArm1_S3_L005_I1_001.fastq.gz
+    10918981442               0      2147483648     15753536247       104328054  species/Mastacembelus_armatus/fMasArm1/genomic_data/10x/fMasArm1_S3_L005_R1_001.fastq.gz
+     4112650566               0      4112650566      8141033700        54273558  species/Mastacembelus_armatus/fMasArm1/genomic_data/arima/fMasArm1_ARI5_001_USPD16084394-AK5150_HJFMFCCXY_L2_R1.fastq.gz
+     4594341313               0      2147483648      8352822887        55685485  species/Mastacembelus_armatus/fMasArm1/genomic_data/arima/fMasArm1_ARI5_001_USPD16084394-AK5150_HJFMFCCXY_L5_R2.fastq.gz
+     4090473272               0      4090473272      8278473300        55189822  species/Mastacembelus_armatus/fMasArm1/genomic_data/arima/fMasArm1_ARI5_001_USPD16084394-AK5150_HJFMFCCXY_L6_R1.fastq.gz
+     5986852820               0      2147483648      3106381915          423752  species/Mastacembelus_armatus/fMasArm1/genomic_data/pacbio/m54097_170419_131519.subreads.bam
+     7169286469               0      2147483648      3691852545          525977  species/Mastacembelus_armatus/fMasArm1/genomic_data/pacbio/m54097_170420_181001.subreads.bam
+    10191551654               0      2147483648      5288140885          713883  species/Mastacembelus_armatus/fMasArm1/genomic_data/pacbio/m54097_170422_235857.subreads.bam

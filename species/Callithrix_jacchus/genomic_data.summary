@@ -1,0 +1,14 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    12181956039               0      2147483648     24115376749       160769183  species/Callithrix_jacchus/mCalJac1/genomic_data/10x/mCalJac1_S1_L002_R1_001.fastq.gz
+    12866439844               0      2147483648     24974440595       166496276  species/Callithrix_jacchus/mCalJac1/genomic_data/10x/mCalJac1_S2_L002_R1_001.fastq.gz
+    13456418729               0      2147483648     26670864167       177805761  species/Callithrix_jacchus/mCalJac1/genomic_data/10x/mCalJac1_S4_L002_R1_001.fastq.gz
+    35986096524               0      2147483648     62274885100       415165917  species/Callithrix_jacchus/mCalJac1/genomic_data/arima/mCalJac1_ARI4_4_2_USPD16090937_HV3Y2CCXY_L1_2.clean.fq.gz
+    34487310715               0      2147483648     66093874093       440625843  species/Callithrix_jacchus/mCalJac1/genomic_data/arima/mCalJac1_ARI4_4_2_USPD16090937_HV3Y2CCXY_L2_1.clean.fq.gz
+    26938151707               0      2147483648     49913082858       332753898  species/Callithrix_jacchus/mCalJac1/genomic_data/arima/mCalJac1_ARI4_4_2_USPD16090937_HV3Y2CCXY_L8_2.clean.fq.gz
+    14437653232               0      2147483648      7786774388          567392  species/Callithrix_jacchus/mCalJac1/genomic_data/pacbio/m54158_181021_022629.subreads.bam
+    10868373391               0      2147483648      5781893902          467700  species/Callithrix_jacchus/mCalJac1/genomic_data/pacbio/m54307_181015_162227.subreads.bam
+    12264774307               0      2147483648      6579241687          436058  species/Callithrix_jacchus/mCalJac1/genomic_data/pacbio/m54307_181017_050852.subreads.bam
+     9684196739               0      2147483648     18551070654       122854772  species/Callithrix_jacchus/mCalJac2/genomic_data/illumina/HGYV5DSXX_18820002_S12_L001_R1_001.fastq.gz
+     6750974340               0      2147483648     12987464633        86009702  species/Callithrix_jacchus/mCalJac3/genomic_data/illumina/H7HYHDRXX_18820004_S1_L001_R2_001.fastq.gz
+    10206943554               0      2147483648     19162545996       126904282  species/Callithrix_jacchus/mCalJac3/genomic_data/illumina/HGW3LDSXX_18820004_S55_L002_R2_001.fastq.gz

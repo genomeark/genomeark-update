@@ -1,0 +1,10 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    10030248735               0      2147483648     15398110271       101974244  species/Lutra_lutra/mLutLut1/genomic_data/10x/mLutLut1_S2_L001_R1_001.fastq.gz
+      871114233               0       871114233       970263872       121282984  species/Lutra_lutra/mLutLut1/genomic_data/10x/mLutLut1_S4_L001_I1_001.fastq.gz
+    11186792552               0      2147483648     16095265953       106591165  species/Lutra_lutra/mLutLut1/genomic_data/10x/mLutLut1_S6_L001_R2_001.fastq.gz
+    25117179584               0      2147483648     44211794048       292793338  species/Lutra_lutra/mLutLut1/genomic_data/baylor-hic/mLutLut1_EZ15773-06_HIC10001_S18_L004_R1_001_190307.fastq.gz
+    27735034005               0      2147483648     43915698404       290832452  species/Lutra_lutra/mLutLut1/genomic_data/baylor-hic/mLutLut1_EZ15773-06_HIC10001_S18_L004_R2_001_190307.fastq.gz
+    19406222057               0      2147483648     10443096432          752659  species/Lutra_lutra/mLutLut1/genomic_data/pacbio/m54205_180731_110006.subreads.bam
+    18720746774               0      2147483648     10062719443          681370  species/Lutra_lutra/mLutLut1/genomic_data/pacbio/m54205_180804_201216.subreads.bam
+    17290342632               0      2147483648      9320239515          643068  species/Lutra_lutra/mLutLut1/genomic_data/pacbio/m54205_180808_101541.subreads.bam

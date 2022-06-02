@@ -1,0 +1,5 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    18619595831               0      2147483648     20250475697         1233688  species/Pseudorca_crassidens/mPseCra1/genomic_data/pacbio_hifi/m54306Ue_210813_171957.hifi_reads.fastq.gz
+    18319436293               0      2147483648     21284005470         1275946  species/Pseudorca_crassidens/mPseCra1/genomic_data/pacbio_hifi/m54306Ue_210926_052803.hifi_reads.fastq.gz
+    16210947866               0      2147483648     19930832632         1187307  species/Pseudorca_crassidens/mPseCra1/genomic_data/pacbio_hifi/m54306Ue_210927_162621.hifi_reads.fastq.gz

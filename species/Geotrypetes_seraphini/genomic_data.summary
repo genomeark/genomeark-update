@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    10901479955               0      2147483648     13823323449        91545193  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/10x/aGeoSer1_S1_L003_R2_001.fastq.gz
+    10061105014               0      2147483648     12766639781        84547288  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/10x/aGeoSer1_S2_L003_R2_001.fastq.gz
+      801572815               0       801572815       852785504       106598188  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/10x/aGeoSer1_S4_L003_I1_001.fastq.gz
+    46921910656               0      2147483648     63747886322       422171432  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/dovetail/aGeoSer1_28791_1#1_R2.fastq.gz
+    44477397185               0      2147483648     72600414714       480797469  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/dovetail/aGeoSer1_29109_3#1_R1.fastq.gz
+    49380827267               0      2147483648     74563637791       493798925  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/dovetail/aGeoSer1_29109_3#1_R2.fastq.gz
+    11416342273               0      2147483648      6136818681          585249  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/pacbio/m54097_180604_103008.subreads.bam
+     9910548438               0      2147483648      5270175255          531984  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/pacbio/m54097_180604_204307.subreads.bam
+    99360539929               0      2147483648     51839452890         2941603  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/pacbio/m64016_190308_172523.subreads.bam

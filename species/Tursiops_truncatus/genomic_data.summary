@@ -1,0 +1,14 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    22933911184               0      2147483648     44705214167       296061031  species/Tursiops_truncatus/mTurTru1/genomic_data/10x/mTurTru1_S1_L001_R1_001.fastq.gz
+    20850229554               0      2147483648     40571447795       268685094  species/Tursiops_truncatus/mTurTru1/genomic_data/10x/mTurTru1_S2_L001_R1_001.fastq.gz
+    19402206475               0      2147483648     37706867163       249714361  species/Tursiops_truncatus/mTurTru1/genomic_data/10x/mTurTru1_S4_L001_R1_001.fastq.gz
+    36962178313               0      2147483648     58076357404       387175716  species/Tursiops_truncatus/mTurTru1/genomic_data/arima/mTurTru1_S4_L005_R1_001.fastq.gz
+    42463457923               0      2147483648     57031609727       380210731  species/Tursiops_truncatus/mTurTru1/genomic_data/arima/mTurTru1_S4_L005_R2_001.fastq.gz
+    39380389335               0      2147483648     55721520507       371476821  species/Tursiops_truncatus/mTurTru1/genomic_data/arima/mTurTru1_S4_L006_R2_001.fastq.gz
+    18706098449               0      2147483648     10127365516          607798  species/Tursiops_truncatus/mTurTru1/genomic_data/pacbio/m54158_190513_071350.subreads.bam
+    18461762362               0      2147483648      9987609230          633026  species/Tursiops_truncatus/mTurTru1/genomic_data/pacbio/m54306_190512_210458.subreads.bam
+    16741523713               0      2147483648      9162854068          515019  species/Tursiops_truncatus/mTurTru1/genomic_data/pacbio/m54306_190514_160921.subreads.bam
+    10606573200               0      2147483648     19605410412       129837155  species/Tursiops_truncatus/mTurTru3/genomic_data/illumina/HGW3LDSXX_18819988_S61_L003_R2_001.fastq.gz
+    10157053030               0      2147483648     18937362976       125413004  species/Tursiops_truncatus/mTurTru3/genomic_data/illumina/HGW3LDSXX_18819988_S61_L004_R1_001.fastq.gz
+    11057125905               0      2147483648     20936697386       138653630  species/Tursiops_truncatus/mTurTru3/genomic_data/illumina/HGYV5DSXX_18819988_S9_L001_R2_001.fastq.gz

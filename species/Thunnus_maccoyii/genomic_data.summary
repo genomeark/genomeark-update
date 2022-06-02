@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     5208246882               0      2147483648      7929334204        52512149  species/Thunnus_maccoyii/fThuMac1/genomic_data/10x/fThuMac1_S5_L007_R2_001.fastq.gz
+     4352116147               0      2147483648      7147791422        47336369  species/Thunnus_maccoyii/fThuMac1/genomic_data/10x/fThuMac1_S6_L007_R1_001.fastq.gz
+      475058806               0       475058806       566027592        70753449  species/Thunnus_maccoyii/fThuMac1/genomic_data/10x/fThuMac1_S7_L007_I1_001.fastq.gz
+    24884801436               0      2147483648     50503045666       334457256  species/Thunnus_maccoyii/fThuMac1/genomic_data/arima/fThuMac1_35778_2#8_R1.fastq.gz
+    26851169360               0      2147483648     50846929568       336734632  species/Thunnus_maccoyii/fThuMac1/genomic_data/arima/fThuMac1_35778_2#8_R2.fastq.gz

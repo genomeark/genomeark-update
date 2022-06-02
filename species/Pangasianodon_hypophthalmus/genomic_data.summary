@@ -1,0 +1,4 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    23831446853               0      2147483648     50895024754       337053144  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/arima/fPanHyp1_L78728_R1.fastq.gz
+    24440586934               0      2147483648     51203296175       339094676  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/arima/fPanHyp1_L78728_R2.fastq.gz

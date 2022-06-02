@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    37841071001               0      2147483648     71812661778       478751096  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/arima/bAmmNel1_Nelson_s_Sparrow_R1.fastq.gz
+    39156775603               0      2147483648     72601555309       484010386  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/arima/bAmmNel1_Nelson_s_Sparrow_R2.fastq.gz
+    13206012931               0      2147483648     15933119987         1040598  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64055e_211106_001217.hifi_reads.fastq.gz
+    12062060185               0      2147483648     14184920941          929058  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64055e_211112_030115.hifi_reads.fastq.gz
+    12523146051               0      2147483648     14440533479          940313  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64334e_211108_205107.hifi_reads.fastq.gz

@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    89026044072               0      2147483648    173590721812      1149607429  species/Ascaphus_truei/aAscTru4/genomic_data/arima/aAscTru4_S1_L001_R1_001.fastq.gz
+    91268909375               0      2147483648    173644633369      1149964501  species/Ascaphus_truei/aAscTru4/genomic_data/arima/aAscTru4_S1_L001_R2_001.fastq.gz
+     6590581466               0      2147483648      8196932797          550872  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m54306Ue_211017_180542.hifi_reads.fastq.gz
+    18039265804               0      2147483648     22581694194         1483884  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m64334e_211129_045204.hifi_reads.fastq.gz
+    16821187122               0      2147483648     20782576790         1386115  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m64334e_211203_171117.hifi_reads.fastq.gz

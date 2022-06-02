@@ -1,0 +1,14 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    11615751005               0      2147483648     21408355175       141777186  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/10x/sHemOce1_HVJWGDSXX_18933156_S133_L004_R1_001.fastq.gz
+    10622783459               0      2147483648     19390837760       128416149  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/10x/sHemOce1_HVKLKDSXX_18933156_S47_L004_R2_001.fastq.gz
+    15686251819               0      2147483648     28172755510       186574547  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/10x/sHemOce1_HVKLKDSXX_18933160_S56_L004_R2_001.fastq.gz
+    65018694577               0      2147483648    118626860588       790845767  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/arima/sHemOce1_2423_16_R1_001.fastq.gz
+    71477922125               0      2147483648    114036875093       760245867  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/arima/sHemOce1_2423_16_R2_001.fastq.gz
+    63389998184               0      2147483648    102379830001       682532200  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/arima/sHemOce1_2423_17_R2_001.fastq.gz
+   216338202918               0      2147483648    113756391746         5566305  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/pacbio/m54313U_200115_235417.subreads.bam
+   208841170764               0      2147483648    108708821430         5786038  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/pacbio/m54313U_200119_144653.subreads.bam
+   242796793326               0      2147483648    127620348220         6395073  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/pacbio/m64055_190930_192559.subreads.bam
+    39092767941               0      2147483648     75053905080       497045747  species/Hemiscyllium_ocellatum/sHemOce2/genomic_data/illumina/HKJFMDSXX_18867001_S27_L003_R1_001.fastq.gz
+    39722286210               0      2147483648     76176837843       504482369  species/Hemiscyllium_ocellatum/sHemOce2/genomic_data/illumina/HKJFMDSXX_18867001_S27_L004_R2_001.fastq.gz
+    41727287690               0      2147483648     79938696592       529395341  species/Hemiscyllium_ocellatum/sHemOce3/genomic_data/illumina/HKJFMDSXX_18866999_S28_L003_R1_001.fastq.gz

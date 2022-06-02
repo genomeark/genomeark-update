@@ -1,0 +1,10 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    11616896045               0      2147483648     22623474278       149824338  species/Dryobates_pubescens/bDryPub1/genomic_data/10x/bDryPub1_S1_L001_R1_001.fastq.gz
+    10752331525               0      2147483648     20935259372       138644101  species/Dryobates_pubescens/bDryPub1/genomic_data/10x/bDryPub1_S2_L001_R1_001.fastq.gz
+    10513026444               0      2147483648     20434167484       135325617  species/Dryobates_pubescens/bDryPub1/genomic_data/10x/bDryPub1_S3_L001_R1_001.fastq.gz
+    33704497280               0      2147483648     58119484178       387463243  species/Dryobates_pubescens/bDryPub1/genomic_data/arima/bDryPub1_S20_L008_R1_001.fastq.gz
+    32901207339               0      2147483648     57502945771       383352987  species/Dryobates_pubescens/bDryPub1/genomic_data/arima/bDryPub1_S20_L008_R2_001.fastq.gz
+    17928046785               0      2147483648      9887866217          468712  species/Dryobates_pubescens/bDryPub1/genomic_data/pacbio/m54159_190531_204810.subreads.bam
+    18377321892               0      2147483648     10051894185          505164  species/Dryobates_pubescens/bDryPub1/genomic_data/pacbio/m54159_190601_070237.subreads.bam
+    15515386457               0      2147483648      8424038677          434520  species/Dryobates_pubescens/bDryPub1/genomic_data/pacbio/m54307_190616_032218.subreads.bam

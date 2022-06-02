@@ -1,0 +1,4 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    20513094577               0      2147483648     38146814332       252627919  species/Copsychus_sechellarum/bCopSec1/genomic_data/arima/bCopSec1_S9_L002_R1_001.fastq.gz
+    21377590343               0      2147483648     38308149074       253696351  species/Copsychus_sechellarum/bCopSec1/genomic_data/arima/bCopSec1_S9_L002_R2_001.fastq.gz

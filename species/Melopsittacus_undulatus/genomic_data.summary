@@ -1,0 +1,13 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     6263935263               0      2147483648     11433913835        75721286  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/10x/bMelUnd1_S1_L001_R1_001.fastq.gz
+    10261141879               0      2147483648     18704848798       123873175  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/10x/bMelUnd1_S2_L001_R1_001.fastq.gz
+     5833262115               0      2147483648     10621153971        70338770  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/10x/bMelUnd1_S4_L001_R1_001.fastq.gz
+    27317773720               0      2147483648     51475114601       343167443  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/arima/bMelUnd1_ARI3_005_USPD16095652_HWNW3CCXY_L7_R1.fastq.gz
+    29852918494               0      2147483648     50761290321       338408616  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/arima/bMelUnd1_ARI3_005_USPD16095652_HWNW3CCXY_L7_R2.fastq.gz
+    13985376418               0      2147483648      7446355451          559022  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/pacbio/m54158_181214_055950.subreads.bam
+    16268608628               0      2147483648      8815563779          454607  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/pacbio/m54306_190201_181643.subreads.bam
+    17075627655               0      2147483648      9205114654          474328  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/pacbio/m54306_190202_144618.subreads.bam
+    10362436209               0      2147483648     19427633534       128659824  species/Melopsittacus_undulatus/bMelUnd2/genomic_data/illumina/HGW3LDSXX_18819998_S57_L002_R2_001.fastq.gz
+     9936159718               0      2147483648     18338491162       121446961  species/Melopsittacus_undulatus/bMelUnd2/genomic_data/illumina/HGW3LDSXX_18819998_S57_L004_R2_001.fastq.gz
+     9629055824               0      2147483648     17905641832       118580413  species/Melopsittacus_undulatus/bMelUnd3/genomic_data/illumina/HGW3LDSXX_18820000_S62_L004_R2_001.fastq.gz

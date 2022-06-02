@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    17609351508               0      2147483648     32652074972       216238907  species/Ara_ararauna/bAraAra1/genomic_data/arima/bAraAra1_S8_L002_R1_001.fastq.gz
+    18454123374               0      2147483648     32800991641       217225110  species/Ara_ararauna/bAraAra1/genomic_data/arima/bAraAra1_S8_L002_R2_001.fastq.gz
+    15202294120               0      2147483648     19836003573         1465130  species/Ara_ararauna/bAraAra1/genomic_data/pacbio_hifi/m64055e_220415_223213.demultiplex.bc1002--bc1002.hifi_reads.fastq.gz
+    21126023196               0      2147483648     25073052629         1456757  species/Ara_ararauna/bAraAra1/genomic_data/pacbio_hifi/m64330e_220311_073436.hifi_reads.fastq.gz
+     7877369869               0      2147483648     10084310440          579929  species/Ara_ararauna/bAraAra1/genomic_data/pacbio_hifi/m64330e_220323_185457.hifi_reads.fastq.gz

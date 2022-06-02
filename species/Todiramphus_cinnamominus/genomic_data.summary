@@ -1,0 +1,4 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    35599295414               0      2147483648     69048696190       460324657  species/Todiramphus_cinnamominus/bTodCin1/genomic_data/arima/bTodCin1_Guam_Kingfisher_R1.fastq.gz
+    36852915930               0      2147483648     68976179346       459841212  species/Todiramphus_cinnamominus/bTodCin1/genomic_data/arima/bTodCin1_Guam_Kingfisher_R2.fastq.gz

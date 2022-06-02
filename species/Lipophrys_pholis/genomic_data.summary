@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     4533263021               0      2147483648      7915096506        52417859  species/Lipophrys_pholis/fLipPho2/genomic_data/10x/fLipPho2_S1_L006_R1_001.fastq.gz
+      422456644               0       422456644       533919504        66739938  species/Lipophrys_pholis/fLipPho2/genomic_data/10x/fLipPho2_S2_L006_I1_001.fastq.gz
+     5361450070               0      2147483648      8474769887        56124306  species/Lipophrys_pholis/fLipPho2/genomic_data/10x/fLipPho2_S3_L006_R2_001.fastq.gz
+    38027637329               0      2147483648     66171372342       438221026  species/Lipophrys_pholis/fLipPho2/genomic_data/arima/fLipPho2_35312_7#1_R1.fastq.gz
+    44603843974               0      2147483648     66446126713       440040595  species/Lipophrys_pholis/fLipPho2/genomic_data/arima/fLipPho2_35312_7#1_R2.fastq.gz

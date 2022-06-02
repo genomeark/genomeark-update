@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    12300696214               0      2147483648     19561684156       129547582  species/Cervus_elaphus/mCerEla1/genomic_data/10x/mCerEla1_S1_L006_R1_001.fastq.gz
+      842897686               0       842897686      1025606248       128200781  species/Cervus_elaphus/mCerEla1/genomic_data/10x/mCerEla1_S3_L006_I1_001.fastq.gz
+    10138393075               0      2147483648     16187486852       107201904  species/Cervus_elaphus/mCerEla1/genomic_data/10x/mCerEla1_S4_L006_R1_001.fastq.gz
+   119185964468               0      2147483648    231582833472      1533661148  species/Cervus_elaphus/mCerEla1/genomic_data/arima/35528_2#2_R1.fastq.gz
+   122663049946               0      2147483648    232041536907      1536698977  species/Cervus_elaphus/mCerEla1/genomic_data/arima/35528_2#2_R2.fastq.gz

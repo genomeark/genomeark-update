@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    46504220924               0      2147483648     94040978845       626939858  species/Harpia_harpyja/bHarHar1/genomic_data/arima/bHarHar1_Harpy_Eagle_R1_001.fastq.gz
+    48257163339               0      2147483648     95183213285       634554777  species/Harpia_harpyja/bHarHar1/genomic_data/arima/bHarHar1_Harpy_Eagle_R2_001.fastq.gz
+     7020190033               0      2147483648      3505985312          205572  species/Harpia_harpyja/bHarHar1/genomic_data/pacbio_hifi/m54306U_210130_202436.Q20.fastq
+    23079224936               0      2147483648     11526403259          677078  species/Harpia_harpyja/bHarHar1/genomic_data/pacbio_hifi/m54306U_210301_211946.Q20.fastq
+    17058505728               0      2147483648      8519203345          504840  species/Harpia_harpyja/bHarHar1/genomic_data/pacbio_hifi/m54306U_210307_104158.Q20.fastq

@@ -1,0 +1,6 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    11906582323               0      2147483648     22348123168       148000821  species/Rhea_pennata/bPtePen1/genomic_data/arima/bPtePen1_S7_L002_R1_001.fastq.gz
+    12352916981               0      2147483648     22392953433       148297710  species/Rhea_pennata/bPtePen1/genomic_data/arima/bPtePen1_S7_L002_R2_001.fastq.gz
+    25044449358               0      2147483648     29282472315         1718732  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m54306Ue_211204_070706.hifi_reads.fastq.gz
+    21852140951               0      2147483648     24505461215         1428820  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m64334e_211211_055255.hifi_reads.fastq.gz

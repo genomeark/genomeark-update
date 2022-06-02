@@ -1,0 +1,14 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    62485404429               0      2147483648    123349903418       822332718  species/Homo_sapiens/mHomSap1/genomic_data/10x/mHomSap1_S2_L002_R1_001.fastq.gz
+     9470950986               0      2147483648     17727895747       117403287  species/Homo_sapiens/mHomSap1/genomic_data/illumina/HGW3LDSXX_18819982_S63_L003_R2_001.fastq.gz
+    20572559132               0      2147483648     41042124849       271802160  species/Homo_sapiens/mHomSap2/genomic_data/10x/mHomSap2_S2_L001_R2_001.fastq.gz
+    24586291153               0      2147483648     49581492672       328354267  species/Homo_sapiens/mHomSap2/genomic_data/10x/mHomSap2_S4_L001_R1_001.fastq.gz
+    28690635913               0      2147483648     50335798049       335572000  species/Homo_sapiens/mHomSap2/genomic_data/arima/mHomSap2_S1_L003_R1_001.fastq.gz
+    27216605143               0      2147483648     44949080838       299660551  species/Homo_sapiens/mHomSap2/genomic_data/arima/mHomSap2_S2_L004_R2_001.fastq.gz
+     9052991023               0      2147483648     17042192027       112862203  species/Homo_sapiens/mHomSap2/genomic_data/illumina/HGW3LDSXX_18819984_S59_L003_R2_001.fastq.gz
+     8781887014               0      2147483648     16556120003       109643178  species/Homo_sapiens/mHomSap2/genomic_data/illumina/HGW3LDSXX_18819984_S59_L004_R1_001.fastq.gz
+    36951654458               0      2147483648     63047688005       420317937  species/Homo_sapiens/mHomSap3/genomic_data/arima/mHomSap3_SV_Off_R2_USPD16096043_HYYLYCCXY_L8_R1_001.fastq.gz
+    23437545841               0      2147483648     12503601549         1009159  species/Homo_sapiens/mHomSap3/genomic_data/pacbio/m54159_190525_051326.subreads.bam
+    27139923996               0      2147483648     14871253981          764271  species/Homo_sapiens/mHomSap3/genomic_data/pacbio/m54306_190607_193815.subreads.bam
+    28485346535               0      2147483648     15556010668          805899  species/Homo_sapiens/mHomSap3/genomic_data/pacbio/m54306_190608_192107.subreads.bam

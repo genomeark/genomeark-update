@@ -1,0 +1,9 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     2614173990               0      2614173990      4987447252        33029452  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/10x/fTauAds1_S2_L001_R1_001.fastq.gz
+     1779088796               0      1779088796      3273334210        21677710  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/10x/fTauAds1_S3_L001_R2_001.fastq.gz
+     2812375333               0      2812375333      5120988783        33913833  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/10x/fTauAds1_S4_L001_R2_001.fastq.gz
+     7291666725               0      2147483648     10779607996        71864056  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/arima/fTauAds1_2450_15_L003_R2_001.fastq.gz
+    13714310496               0      2147483648     22659480645       151063204  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/arima/fTauAds1_2450_15_R1_001.fastq.gz
+    15677540065               0      2147483648     21604028612       144026857  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/arima/fTauAds1_2450_15_R2_001.fastq.gz
+   200592522949               0      2147483648    103925076874         7331327  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/pacbio/m54306U_191113_210221.subreads.bam

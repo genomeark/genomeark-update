@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    52447629739               0      2147483648    100004582827       666697243  species/Erythrolamprus_reginae/rEryReg1/genomic_data/arima/rEryReg1_Royal_Ground_Snake_R1.fastq.gz
+    53542948749               0      2147483648    100634211120       670894740  species/Erythrolamprus_reginae/rEryReg1/genomic_data/arima/rEryReg1_Royal_Ground_Snake_R2.fastq.gz
+    21579709027               0      2147483648     24897817701         1551208  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211016_070813.hifi_reads.fastq.gz
+    12436384872               0      2147483648     14594831455          905833  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211020_191957.hifi_reads.fastq.gz
+    14320739929               0      2147483648     15734213297         1096480  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m64055_210602_211608.hifi_reads.fastq.gz

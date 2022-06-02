@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     4981918274               0      2147483648      7566646473        50110243  species/Taurulus_bubalis/fTauBub2/genomic_data/10x/fTauBub2_S5_L003_R2_001.fastq.gz
+     4481560997               0      2147483648      7356332038        48717430  species/Taurulus_bubalis/fTauBub2/genomic_data/10x/fTauBub2_S6_L003_R1_001.fastq.gz
+      453109506               0       453109506       514291072        64286384  species/Taurulus_bubalis/fTauBub2/genomic_data/10x/fTauBub2_S7_L003_I1_001.fastq.gz
+    26184557346               0      2147483648     51198514040       339063019  species/Taurulus_bubalis/fTauBub2/genomic_data/arima/fTauBub2_35430_3#1_R1.fastq.gz
+    28039627089               0      2147483648     51193641381       339030750  species/Taurulus_bubalis/fTauBub2/genomic_data/arima/fTauBub2_35430_3#1_R2.fastq.gz

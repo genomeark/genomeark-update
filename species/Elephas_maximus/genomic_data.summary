@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    73571808762               0      2147483648    137930521130       913447194  species/Elephas_maximus/mEleMax1/genomic_data/arima/mEleMax1_S9_L003_R1_001.fastq.gz
+    76216813768               0      2147483648    140334857630       929369953  species/Elephas_maximus/mEleMax1/genomic_data/arima/mEleMax1_S9_L003_R2_001.fastq.gz
+    10406387720               0      2147483648      5195019726          412706  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m54306U_210421_201740.Q20.fastq
+    25026993814               0      2147483648     12498765294          772363  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m64055_210419_095605.Q20.fastq
+    28015160191               0      2147483648     32643418205         2041593  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m64334e_211025_111049.hifi_reads.fastq.gz

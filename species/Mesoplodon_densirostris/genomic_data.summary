@@ -1,0 +1,5 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    15433186721               0      2147483648     18608486694         1163006  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210827_082921.hifi_reads.fastq.gz
+    13583764158               0      2147483648     16690713357         1035954  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210911_054708.hifi_reads.fastq.gz
+    18122110062               0      2147483648     21537135151         1339687  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m64055e_210916_194025.hifi_reads.fastq.gz

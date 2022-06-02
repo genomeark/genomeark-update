@@ -1,0 +1,5 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    13264082925               0      2147483648     15730223736         1043296  species/Chasiempis_sclateri/bChaScl1/genomic_data/pacbio_hifi/m54306Ue_211129_024855.hifi_reads.fastq.gz
+    11345224517               0      2147483648     13711109319          890391  species/Chasiempis_sclateri/bChaScl1/genomic_data/pacbio_hifi/m64330e_211202_200030.hifi_reads.fastq.gz
+    11200279077               0      2147483648     13088658969          856693  species/Chasiempis_sclateri/bChaScl1/genomic_data/pacbio_hifi/m64334e_211206_192737.hifi_reads.fastq.gz

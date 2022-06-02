@@ -1,0 +1,10 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+      823576185               0       823576185       949669784       118708723  species/Erithacus_rubecula/bEriRub2/genomic_data/10x/bEriRub2_S1_L007_I1_001.fastq.gz
+    10779207087               0      2147483648     15781953562       104516248  species/Erithacus_rubecula/bEriRub2/genomic_data/10x/bEriRub2_S2_L007_R2_001.fastq.gz
+     9342156799               0      2147483648     14805808704        98051713  species/Erithacus_rubecula/bEriRub2/genomic_data/10x/bEriRub2_S4_L007_R1_001.fastq.gz
+    43932546555               0      2147483648     68627057393       454483844  species/Erithacus_rubecula/bEriRub2/genomic_data/dovetail/bEriRub2_31237_2#1_R1.fastq.gz
+    47400001697               0      2147483648     69868240344       462703578  species/Erithacus_rubecula/bEriRub2/genomic_data/dovetail/bEriRub2_31237_2#1_R2.fastq.gz
+    16630350174               0      2147483648      8858782277          805573  species/Erithacus_rubecula/bEriRub2/genomic_data/pacbio/m54205_180505_001151.subreads.bam
+    16132600831               0      2147483648      8581202393          774505  species/Erithacus_rubecula/bEriRub2/genomic_data/pacbio/m54205_180507_133258.subreads.bam
+    15809959575               0      2147483648      8450257960          738917  species/Erithacus_rubecula/bEriRub2/genomic_data/pacbio/m54205_180508_225642.subreads.bam

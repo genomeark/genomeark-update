@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     1879878847               0      1879878847      3436654149        22759299  species/Notolabrus_celidotus/fNotCel1/genomic_data/10x/fNotCel1_S1_L001_R2_001.fastq.gz
+     1454448668               0      1454448668      2629075194        17411094  species/Notolabrus_celidotus/fNotCel1/genomic_data/10x/fNotCel1_S2_L001_R2_001.fastq.gz
+     2091949332               0      2091949332      3808739440        25223440  species/Notolabrus_celidotus/fNotCel1/genomic_data/10x/fNotCel1_S4_L001_R2_001.fastq.gz
+    30139871505               0      2147483648     55988895831       373259319  species/Notolabrus_celidotus/fNotCel1/genomic_data/arima/concatenated-fNotCel1_ARI11_004_redo_H_USPD16091430_HV3TGCCXY_L4_1.clean.fastq.gz
+    15140087302               0      2147483648     28162315505       187748777  species/Notolabrus_celidotus/fNotCel1/genomic_data/arima/fNotCel1_ARI11_004_redo_H_USPD16091430_HV3TGCCXY_L6_1.clean.fq.gz
+    16351966735               0      2147483648     28098070987       187320480  species/Notolabrus_celidotus/fNotCel1/genomic_data/arima/fNotCel1_ARI11_004_redo_H_USPD16091430_HV3TGCCXY_L6_2.clean.fq.gz
+    14530091793               0      2147483648      7773459249          706320  species/Notolabrus_celidotus/fNotCel1/genomic_data/pacbio/m54158_180823_184804.subreads.bam
+    12830564794               0      2147483648      6876813927          591722  species/Notolabrus_celidotus/fNotCel1/genomic_data/pacbio/m54158_180824_050138.subreads.bam
+    14863332322               0      2147483648      7934261337          715286  species/Notolabrus_celidotus/fNotCel1/genomic_data/pacbio/m54158_180826_041110.subreads.bam

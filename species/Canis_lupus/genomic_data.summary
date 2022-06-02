@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+      821695606               0       821695606      1011313528       126414191  species/Canis_lupus_orion/mCanLor1/genomic_data/10x/mCanLor1_S1_L007_I1_001.fastq.gz
+     9919882050               0      2147483648     15804610850       104666301  species/Canis_lupus_orion/mCanLor1/genomic_data/10x/mCanLor1_S2_L007_R2_001.fastq.gz
+    11596607782               0      2147483648     18324473589       121354129  species/Canis_lupus_orion/mCanLor1/genomic_data/10x/mCanLor1_S4_L007_R2_001.fastq.gz
+    37290587247               0      2147483648     59123965696       391549459  species/Canis_lupus_orion/mCanLor1/genomic_data/dovetail/mCanLor1_P12105_202_S88_L005_R1_001.fastq.gz
+    40173449574               0      2147483648     58964516458       390493486  species/Canis_lupus_orion/mCanLor1/genomic_data/dovetail/mCanLor1_P12105_202_S88_L005_R2_001.fastq.gz

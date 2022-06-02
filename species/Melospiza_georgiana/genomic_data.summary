@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    38880080348               0      2147483648     75688865972       504592439  species/Melospiza_georgiana/bMelGeo1/genomic_data/arima/bMelGeo1_Swamp_Sparrow_R1.fastq.gz
+    39860593005               0      2147483648     75787585668       505250589  species/Melospiza_georgiana/bMelGeo1/genomic_data/arima/bMelGeo1_Swamp_Sparrow_R2.fastq.gz
+     7115695475               0      2147483648      8891248668          575824  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m54306Ue_211022_061550.hifi_reads.fastq.gz
+    11499297961               0      2147483648     13997069150          862992  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211016_065650.hifi_reads.fastq.gz
+    12142572923               0      2147483648     14691898763          955015  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211017_175320.hifi_reads.fastq.gz

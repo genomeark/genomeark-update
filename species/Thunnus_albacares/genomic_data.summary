@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+      406113138               0       406113138       491397432        61424679  species/Thunnus_albacares/fThuAlb1/genomic_data/10x/fThuAlb1_S53_L002_I1_001.fastq.gz
+     3356946121               0      3356946121      6545120519        43345169  species/Thunnus_albacares/fThuAlb1/genomic_data/10x/fThuAlb1_S54_L002_R1_001.fastq.gz
+     4031470205               0      4031470205      7535540391        49904241  species/Thunnus_albacares/fThuAlb1/genomic_data/10x/fThuAlb1_S55_L002_R2_001.fastq.gz
+    19103235612               0      2147483648     38005316784       251690848  species/Thunnus_albacares/fThuAlb1/genomic_data/arima/fThuAlb1_36011_4#8_R1.fastq.gz
+    20585929165               0      2147483648     38353217619       253994828  species/Thunnus_albacares/fThuAlb1/genomic_data/arima/fThuAlb1_36011_4#8_R2.fastq.gz

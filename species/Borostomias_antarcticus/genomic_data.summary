@@ -1,0 +1,4 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    28828710896               0      2147483648     57960096175       383841709  species/Borostomias_antarcticus/fBorAnt1/genomic_data/arima/fBorAnt1_39712_1#2_R1.fastq.gz
+    30287507765               0      2147483648     58101671100       384779292  species/Borostomias_antarcticus/fBorAnt1/genomic_data/arima/fBorAnt1_39712_1#2_R2.fastq.gz

@@ -1,0 +1,10 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    20646966967               0      2147483648     40695534269       269506859  species/Tamandua_tetradactyla/mTamTet1/genomic_data/10x/mTamTet1_S1_L002_R1_001.fastq.gz
+    16797661081               0      2147483648     33025060762       218709011  species/Tamandua_tetradactyla/mTamTet1/genomic_data/10x/mTamTet1_S1_L003_R1_001.fastq.gz
+    24722236022               0      2147483648     48683624730       322408122  species/Tamandua_tetradactyla/mTamTet1/genomic_data/10x/mTamTet1_S1_L004_R1_001.fastq.gz
+    83808688941               0      2147483648    163175927003      1080635317  species/Tamandua_tetradactyla/mTamTet1/genomic_data/hic/mTamTet1_DDL40349T79216_R1.fastq.gz
+    86969438204               0      2147483648    162353871764      1075191203  species/Tamandua_tetradactyla/mTamTet1/genomic_data/hic/mTamTet1_DDL40349T79216_R2.fastq.gz
+   225197209056               0      2147483648    119228521038         4408026  species/Tamandua_tetradactyla/mTamTet1/genomic_data/pacbio/m54345U_190817_051233.subreads.bam
+   137797796721               0      2147483648     72492671858         2744106  species/Tamandua_tetradactyla/mTamTet1/genomic_data/pacbio/m54345U_190820_042951.subreads.bam
+   129868663041               0      2147483648     68646668190         3212966  species/Tamandua_tetradactyla/mTamTet1/genomic_data/pacbio/m64046_190812_131015.subreads.bam

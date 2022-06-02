@@ -1,0 +1,4 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    23693801779               0      2147483648     47508646982       314626812  species/Cinclus_cinclus/bCinCin2/genomic_data/arima/bCinCin2_41252_2#4_R1.fastq.gz
+    24901320154               0      2147483648     47922781133       317369411  species/Cinclus_cinclus/bCinCin2/genomic_data/arima/bCinCin2_41252_2#4_R2.fastq.gz

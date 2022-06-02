@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    35949950515               0      2147483648     49615025512       328576344  species/Acipenser_ruthenus/fAciRut1/genomic_data/illumina/fAciRut1_27071_6#1_R2.fastq.gz
+    37155924093               0      2147483648     56196540730       372162538  species/Acipenser_ruthenus/fAciRut2/genomic_data/illumina/fAciRut2_27071_7#1_R1.fastq.gz
+    39374797837               0      2147483648     55764225778       369299508  species/Acipenser_ruthenus/fAciRut2/genomic_data/illumina/fAciRut2_27071_7#1_R2.fastq.gz
+    11724313961               0      2147483648     16676722273       110441874  species/Acipenser_ruthenus/fAciRut3/genomic_data/10x/fAciRut3_S1_L003_R2_001.fastq.gz
+     1100996727               0      1100996727      1187307496       148413437  species/Acipenser_ruthenus/fAciRut3/genomic_data/10x/fAciRut3_S3_L003_I1_001.fastq.gz
+     9720952221               0      2147483648     14656474835        97062747  species/Acipenser_ruthenus/fAciRut3/genomic_data/10x/fAciRut3_S4_L003_R1_001.fastq.gz
+    44708054695               0      2147483648     61295419548       405929951  species/Acipenser_ruthenus/fAciRut3/genomic_data/dovetail/fAciRut3_28791_7#1_R2.fastq.gz
+    41532132670               0      2147483648     61247626320       405613438  species/Acipenser_ruthenus/fAciRut3/genomic_data/dovetail/fAciRut3_28791_8#1_R1.fastq.gz
+    44857203431               0      2147483648     61611769016       408024960  species/Acipenser_ruthenus/fAciRut3/genomic_data/dovetail/fAciRut3_28791_8#1_R2.fastq.gz

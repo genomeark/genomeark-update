@@ -1,0 +1,13 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    17237068351               0      2147483648     33588481600       226949208  species/Jaculus_jaculus/mJacJac1/genomic_data/10x/mJacJac1_S1_L002_R1_001.fastq.gz
+    17748220896               0      2147483648     34022250529       229880079  species/Jaculus_jaculus/mJacJac1/genomic_data/10x/mJacJac1_S1_L002_R2_001.fastq.gz
+    16437181908               0      2147483648     32034721708       216450830  species/Jaculus_jaculus/mJacJac1/genomic_data/10x/mJacJac1_S1_L004_R1_001.fastq.gz
+    56406699272               0      2147483648     99745507248       664970074  species/Jaculus_jaculus/mJacJac1/genomic_data/arima/mJacJac1_S001_R001_R1.fastq.gz
+    60493712831               0      2147483648     97603289641       650688597  species/Jaculus_jaculus/mJacJac1/genomic_data/arima/mJacJac1_S001_R001_R2.fastq.gz
+   112054185561               0      2147483648     60917838655         2253310  species/Jaculus_jaculus/mJacJac1/genomic_data/pacbio/m54345U_210113_144717.paternal.subreads.bam
+   148362662693               0      2147483648     76437007190         5231041  species/Jaculus_jaculus/mJacJac1/genomic_data/pacbio/m64046_200219_055150.subreads.bam
+   197596283970               0      2147483648     99559066639         8146181  species/Jaculus_jaculus/mJacJac1/genomic_data/pacbio/m64046_200313_053110.subreads.bam
+     2611000339               0      2611000339      4896170621        32424971  species/Jaculus_jaculus/mJacJac2/genomic_data/illumina/mJacJac2_S1_L002_R1_001.fastq.gz
+     1840412728               0      1840412728      3281137286        21729386  species/Jaculus_jaculus/mJacJac3/genomic_data/illumina/mJacJac3_S1_L001_R2_001.fastq.gz
+    29706498328               0      2147483648     61794141754       409232740  species/Jaculus_jaculus/mJacJac3/genomic_data/illumina/mJacJac3_S1_L004_R1_001.fastq.gz

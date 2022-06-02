@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     4312373630               0      2147483648      8659695628        57348979  species/Phaethon_aethereus/bPhaAeh1/genomic_data/10x/bPhaAeh1_S18_L002_R1_001.fastq.gz
+     5036393731               0      2147483648     10116530350        66996892  species/Phaethon_aethereus/bPhaAeh1/genomic_data/10x/bPhaAeh1_S19_L002_R1_001.fastq.gz
+      409398755               0       409398755       506871760        63358970  species/Phaethon_aethereus/bPhaAeh1/genomic_data/10x/bPhaAeh1_S20_L002_I1_001.fastq.gz
+    31463472473               0      2147483648     62483561289       413798433  species/Phaethon_aethereus/bPhaAeh3/genomic_data/arima/bPhaAeh3_41009_3#1_R1.fastq.gz
+    33347462283               0      2147483648     63063951293       417642077  species/Phaethon_aethereus/bPhaAeh3/genomic_data/arima/bPhaAeh3_41009_3#1_R2.fastq.gz

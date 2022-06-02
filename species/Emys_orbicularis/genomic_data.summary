@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    70457400468               0      2147483648    138405770145       922705167  species/Emys_orbicularis/rEmyOrb1/genomic_data/arima/rEmyOrb1_European_Pond_Turtle_R1_001.fastq.gz
+    71708705787               0      2147483648    139780884449       931872562  species/Emys_orbicularis/rEmyOrb1/genomic_data/arima/rEmyOrb1_European_Pond_Turtle_R2_001.fastq.gz
+    11314149911               0      2147483648     13302960325          907773  species/Emys_orbicularis/rEmyOrb1/genomic_data/pacbio_hifi/m54306Ue_211004_142258.hifi_reads.fastq.gz
+    11285593159               0      2147483648     13687564779          927953  species/Emys_orbicularis/rEmyOrb1/genomic_data/pacbio_hifi/m54306Ue_211005_233142.hifi_reads.fastq.gz
+     9825318767               0      2147483648     11212797554          754068  species/Emys_orbicularis/rEmyOrb1/genomic_data/pacbio_hifi/m64334e_211008_164547.hifi_reads.fastq.gz

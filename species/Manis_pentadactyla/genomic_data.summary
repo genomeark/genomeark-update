@@ -1,0 +1,5 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    21448829571               0      2147483648     24705448609         1424103  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64055e_211101_201655.hifi_reads.fastq.gz
+    18163916862               0      2147483648     20767562806         1203581  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64330e_211111_153123.hifi_reads.fastq.gz
+    18177654993               0      2147483648     20734421793         1210484  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64330e_211113_005922.hifi_reads.fastq.gz

@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    87260080648               0      2147483648    175878641614      1172524318  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/arima/mNeoNeb1_Clouded_Leopard_R1_001.fastq.gz
+    91620881235               0      2147483648    178629107849      1190860718  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/arima/mNeoNeb1_Clouded_Leopard_R2_001.fastq.gz
+    18001479743               0      2147483648     20961721884         1470164  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.hifi_reads.fastq.gz
+    23979293871               0      2147483648     28352576031         1882123  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211103_054016.hifi_reads.fastq.gz
+    18289425902               0      2147483648     22404388764         1558151  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211110_175241.hifi_reads.fastq.gz

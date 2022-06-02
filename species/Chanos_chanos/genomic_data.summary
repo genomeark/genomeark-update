@@ -1,0 +1,10 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    11455488747               0      2147483648     18011089391       119278743  species/Chanos_chanos/fChaCha1/genomic_data/10x/fChaCha1_S1_L001_R1_001.fastq.gz
+     1049507712               0      1049507712      1180247896       147530987  species/Chanos_chanos/fChaCha1/genomic_data/10x/fChaCha1_S4_L001_I1_001.fastq.gz
+    13985991495               0      2147483648     22020896308       145833756  species/Chanos_chanos/fChaCha1/genomic_data/10x/fChaCha1_S4_L001_R1_001.fastq.gz
+    41379801121               0      2147483648     62948748594       416879149  species/Chanos_chanos/fChaCha1/genomic_data/dovetail/fChaCha1_28791_3#1_R1.fastq.gz
+    45869716315               0      2147483648     62331342628       412790348  species/Chanos_chanos/fChaCha1/genomic_data/dovetail/fChaCha1_28791_3#1_R2.fastq.gz
+    13686035858               0      2147483648      7481775259          472192  species/Chanos_chanos/fChaCha1/genomic_data/pacbio/m54205_190308_165845.subreads.bam
+    13315616899               0      2147483648      7252269300          479186  species/Chanos_chanos/fChaCha1/genomic_data/pacbio/m54205_190311_140408.subreads.bam
+    12491989875               0      2147483648      6826482709          449447  species/Chanos_chanos/fChaCha1/genomic_data/pacbio/m54205_190312_001810.subreads.bam

@@ -1,0 +1,4 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    28291740643               0      2147483648     58083163231       384656710  species/Fringilla_coelebs/bFriCoe1/genomic_data/arima/bFriCoe1_41204_4#1_R1.fastq.gz
+    30059970299               0      2147483648     58212742767       385514866  species/Fringilla_coelebs/bFriCoe1/genomic_data/arima/bFriCoe1_41204_4#1_R2.fastq.gz

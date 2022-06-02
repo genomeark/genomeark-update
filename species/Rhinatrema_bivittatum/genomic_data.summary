@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    10091000064               0      2147483648     14774568569        97844829  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/10x/aRhiBiv1_S1_L007_R1_001.fastq.gz
+    11847001039               0      2147483648     15407785656       102038315  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/10x/aRhiBiv1_S2_L005_R2_001.fastq.gz
+      788687742               0       788687742       874778184       109347273  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/10x/aRhiBiv1_S4_L007_I1_001.fastq.gz
+    20523362615               0      2147483648     30727003965       203490092  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/arima/aRhiBiv1_25643_7#2_R2.fastq.gz
+    19835274992               0      2147483648     30155513529       199705387  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/arima/aRhiBiv1_25643_8#1_R2.fastq.gz
+    19645322912               0      2147483648     31417873406       208065386  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/arima/aRhiBiv1_25643_8#2_R1.fastq.gz
+     8662899203               0      2147483648      4513950374          507571  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/pacbio/m54097_170712_093419.subreads.bam
+    10863408940               0      2147483648      5645923394          605639  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/pacbio/m54097_171222_132811.subreads.bam
+     4960961243               0      2147483648      2573067400          273306  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/pacbio/m54205_171030_232926.subreads.bam

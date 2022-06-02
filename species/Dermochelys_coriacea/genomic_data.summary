@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    36496945255               0      2147483648     71726674698       478177848  species/Dermochelys_coriacea/rDerCor1/genomic_data/10x/rDerCor1_S1_L001_R2_001.fastq.gz
+     2489990892               0      2489990892      3777664632       472208079  species/Dermochelys_coriacea/rDerCor1/genomic_data/10x/rDerCor1_S1_L002_I1_001.fastq.gz
+    35621665845               0      2147483648     68370255409       455801719  species/Dermochelys_coriacea/rDerCor1/genomic_data/10x/rDerCor1_S1_L002_R1_001.fastq.gz
+    16260464917               0      2147483648     30488578885       203257192  species/Dermochelys_coriacea/rDerCor1/genomic_data/arima/rDerCor1_ARI1_003_redo_USPD16086862_HLMHGCCXY_L1_R1.fq.gz
+    17105600257               0      2147483648     29635224075       197568168  species/Dermochelys_coriacea/rDerCor1/genomic_data/arima/rDerCor1_ARI1_003_redo_USPD16086862_HLMHGCCXY_L1_R2.fq.gz
+    17188423826               0      2147483648     29948231971       199654879  species/Dermochelys_coriacea/rDerCor1/genomic_data/arima/rDerCor1_ARI1_003_redo_USPD16086862_HLMHGCCXY_L3_R2.fq.gz
+    16784439398               0      2147483648      9037649100          666872  species/Dermochelys_coriacea/rDerCor1/genomic_data/pacbio/m54158_180530_183244.subreads.bam
+    17427282668               0      2147483648      9377908463          718236  species/Dermochelys_coriacea/rDerCor1/genomic_data/pacbio/m54158_180531_045503.subreads.bam
+    17987692410               0      2147483648      9742013745          677984  species/Dermochelys_coriacea/rDerCor1/genomic_data/pacbio/m54159_180526_020814.subreads.bam

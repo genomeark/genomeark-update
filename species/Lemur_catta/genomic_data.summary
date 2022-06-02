@@ -1,0 +1,14 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    16670510009               0      2147483648     33027806431       218727202  species/Lemur_catta/mLemCat1/genomic_data/10x/mLemCat1_S1_L001_R1_001.fastq.gz
+    18801254733               0      2147483648     37441711016       247958351  species/Lemur_catta/mLemCat1/genomic_data/10x/mLemCat1_S2_L001_R1_001.fastq.gz
+    19469227148               0      2147483648     38707376608       256340242  species/Lemur_catta/mLemCat1/genomic_data/10x/mLemCat1_S4_L001_R1_001.fastq.gz
+    33038906539               0      2147483648     48409279089       322728527  species/Lemur_catta/mLemCat1/genomic_data/arima/mLemCat1_S10_L005_R2_001.fastq.gz
+    36895074072               0      2147483648     58858775000       392391850  species/Lemur_catta/mLemCat1/genomic_data/arima/mLemCat1_S10_L006_R1_001.fastq.gz
+    39366290127               0      2147483648     58004059804       386693750  species/Lemur_catta/mLemCat1/genomic_data/arima/mLemCat1_S10_L006_R2_001.fastq.gz
+    15354233923               0      2147483648      8151224002          679788  species/Lemur_catta/mLemCat1/genomic_data/pacbio/m54158_190404_152923.subreads.bam
+    16407394665               0      2147483648      8839819044          649348  species/Lemur_catta/mLemCat1/genomic_data/pacbio/m54159_190328_062602.subreads.bam
+    17113503295               0      2147483648      9271244687          669340  species/Lemur_catta/mLemCat1/genomic_data/pacbio/m54159_190329_074634.subreads.bam
+    16992658489               0      2147483648      8486510847          496426  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210210_175526.Q20.fastq
+    23666183779               0      2147483648     11819199089          706850  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210214_142746.Q20.fastq
+    18860343791               0      2147483648      9418097749          613784  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210221_171127.Q20.fastq

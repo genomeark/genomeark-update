@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    27298790492               0      2147483648     44563003777       297086704  species/Falco_biarmicus/bFalBia1/genomic_data/arima/bFalBia1_R1.fastq.gz
+    32834950572               0      2147483648     43780549812       291870347  species/Falco_biarmicus/bFalBia1/genomic_data/arima/bFalBia1_R2.fastq.gz
+    13240745258               0      2147483648      6613156272          363400  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210127_212033.Q20.fastq
+     3325945850               0      3325945850      1660782593          108509  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210220_104515.Q20.fastq
+    18337433478               0      2147483648      9154659262          727696  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m64055_210411_031415.Q20.fastq

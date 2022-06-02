@@ -1,0 +1,9 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+      792643870               0       792643870       834917336       104364667  species/Malacosteus_niger/fMalNig1/genomic_data/10x/fMalNig1_S1_L001_I1_001.fastq.gz
+     7177730890               0      2147483648     10738828175        71118067  species/Malacosteus_niger/fMalNig1/genomic_data/10x/fMalNig1_S2_L008_R1_001.fastq.gz
+     8164569476               0      2147483648     11254977354        74536277  species/Malacosteus_niger/fMalNig1/genomic_data/10x/fMalNig1_S4_L008_R2_001.fastq.gz
+    34790445156               0      2147483648     52519199086       347809281  species/Malacosteus_niger/fMalNig1/genomic_data/arima/fMalNig1_32138_1#1_R1.fastq.gz
+    36636383775               0      2147483648     52341663376       346633532  species/Malacosteus_niger/fMalNig1/genomic_data/arima/fMalNig1_32138_1#1_R2.fastq.gz
+   173684585222               0      2147483648     89804891516         6151837  species/Malacosteus_niger/fMalNig1/genomic_data/pacbio/m64016_190509_012740.subreads.bam
+   209814567861               0      2147483648    109209416042         6551833  species/Malacosteus_niger/fMalNig1/genomic_data/pacbio/m64016_190605_100459.subreads.bam

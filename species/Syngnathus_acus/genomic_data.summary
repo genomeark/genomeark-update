@@ -1,0 +1,10 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     1022102413               0      1022102413      1146662248       143332781  species/Syngnathus_acus/fSynAcu1/genomic_data/10x/fSynAcu1_S2_L007_I1_001.fastq.gz
+    13126437881               0      2147483648     21692637289       143659849  species/Syngnathus_acus/fSynAcu1/genomic_data/10x/fSynAcu1_S2_L007_R1_001.fastq.gz
+    11311421286               0      2147483648     18578304114       123035131  species/Syngnathus_acus/fSynAcu1/genomic_data/10x/fSynAcu1_S4_L007_R1_001.fastq.gz
+    37230231116               0      2147483648     54218621915       359063738  species/Syngnathus_acus/fSynAcu1/genomic_data/dovetail/fSynAcu1_28791_2#1_R1.fastq.gz
+    40544874822               0      2147483648     54793074914       362868064  species/Syngnathus_acus/fSynAcu1/genomic_data/dovetail/fSynAcu1_28791_2#1_R2.fastq.gz
+    18265748191               0      2147483648      9798522876          779560  species/Syngnathus_acus/fSynAcu1/genomic_data/pacbio/m54097_180702_114303.subreads.bam
+    17039563175               0      2147483648      9146334984          582245  species/Syngnathus_acus/fSynAcu1/genomic_data/pacbio/m54205_180703_111017.subreads.bam
+    18864313005               0      2147483648     10079377334          677416  species/Syngnathus_acus/fSynAcu1/genomic_data/pacbio/m54205_180703_212345.subreads.bam

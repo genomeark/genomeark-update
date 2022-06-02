@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     6678442618               0      2147483648     13153998681        87693327  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/10x/bBucAby1_S1_L002_R1_001.fastq.gz
+     8667349525               0      2147483648     17091220971       113941473  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/10x/bBucAby1_S2_L002_R1_001.fastq.gz
+     5869153344               0      2147483648     11078013584        73853426  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/10x/bBucAby1_S3_L002_R2_001.fastq.gz
+    14613722519               0      2147483648     27923196295       186154648  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/arima/bBucAby1_ARI3_4_USPD16090936_HV3Y2CCXY_L7_R1.clean.fastq.gz
+    16042579455               0      2147483648     28039561619       186930410  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/arima/bBucAby1_ARI3_4_USPD16090936_HV3Y2CCXY_L7_R2.clean.fastq.gz
+    11495430677               0      2147483648     19949569339       132997134  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/arima/bBucAby1_ARI3_4_USPD16090936_HV3Y2CCXY_L8_2.clean.fq.gz
+     5891918394               0      2147483648      3164453695          258785  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/pacbio/m54158_180528_191915.subreads.bam
+    10529264597               0      2147483648      5680328780          370147  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/pacbio/m54158_180529_215429.subreads.bam
+    19513863099               0      2147483648     10458036940          927612  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/pacbio/m54159_180618_203435.subreads.bam

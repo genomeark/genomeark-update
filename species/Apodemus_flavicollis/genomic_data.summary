@@ -1,0 +1,5 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    10863132364               0      2147483648     21931057734       145238798  species/Apodemus_flavicollis/mApoFla1/genomic_data/10x/mApoFla1_S5_L003_R1_001.fastq.gz
+     9137714434               0      2147483648     17775609690       117719269  species/Apodemus_flavicollis/mApoFla1/genomic_data/10x/mApoFla1_S7_L003_R2_001.fastq.gz
+      945168039               0       945168039      1114760576       139345072  species/Apodemus_flavicollis/mApoFla1/genomic_data/10x/mApoFla1_S8_L003_I1_001.fastq.gz

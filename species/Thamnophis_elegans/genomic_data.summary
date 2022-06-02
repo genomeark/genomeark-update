@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     4685329449               0      2147483648      5308054623       663506830  species/Thamnophis_elegans/rThaEle1/genomic_data/10x/ThaEle1_S8_L001_I1_001.fastq.gz
+    53298569741               0      2147483648     99143242478       660954974  species/Thamnophis_elegans/rThaEle1/genomic_data/10x/ThaEle1_S8_L001_R1_001.fastq.gz
+    53979461892               0      2147483648     99822088330       665480588  species/Thamnophis_elegans/rThaEle1/genomic_data/10x/ThaEle1_S8_L001_R2_001.fastq.gz
+    38115355054               0      2147483648     65454347889       436362337  species/Thamnophis_elegans/rThaEle1/genomic_data/dovetail/concatenated-rThaEle1_DTG-HiC-643_R1_001.fastq.gz
+    10549182252               0      2147483648     16921047141       112806985  species/Thamnophis_elegans/rThaEle1/genomic_data/dovetail/rThaEle1_DTG-HiC-643_R2_001.fastq.gz
+    30710848702               0      2147483648     47897110885       319314072  species/Thamnophis_elegans/rThaEle1/genomic_data/dovetail/rThaEle1_DTG-HiC-644_R2_001.fastq.gz
+    17537118157               0      2147483648      9492755734          632615  species/Thamnophis_elegans/rThaEle1/genomic_data/pacbio/m54158_180817_022444.subreads.bam
+    18383228412               0      2147483648      9871126583          710090  species/Thamnophis_elegans/rThaEle1/genomic_data/pacbio/m54159_180818_023228.subreads.bam
+    14890688070               0      2147483648      8037119067          551718  species/Thamnophis_elegans/rThaEle1/genomic_data/pacbio/m54159_180821_221701.subreads.bam

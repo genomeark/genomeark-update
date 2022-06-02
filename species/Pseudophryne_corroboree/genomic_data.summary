@@ -1,0 +1,5 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    16978933713               0      2147483648     21326225251         1400648  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211119_062428.hifi_reads.fastq.gz
+    25464440434               0      2147483648    368382162330        24678829  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211217_065618.hifi_reads.fastq.gz
+    12968628474               0      2147483648     15138034694         1008806  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64334e_211019_190122.hifi_reads.fastq.gz

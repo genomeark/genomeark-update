@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    14819065105               0      2147483648     28819917078       190860384  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/illumina/mSymSyn1_HWGJLDSX2_19201958_S15_L001_R1_001.fastq.gz
+    15368948285               0      2147483648     29001625006       192063741  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/illumina/mSymSyn1_HWGJLDSX2_19201958_S15_L001_R2_001.fastq.gz
+    15280301241               0      2147483648     28860756231       191130843  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/illumina/mSymSyn1_HWGJLDSX2_19201958_S15_L003_R2_001.fastq.gz
+    57293205452               0      2147483648     60236609588         3420010  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/ont/PAJ00629_guppy-5.0.12.fastq.gz
+    74219177392               0      2147483648     77659344298         4596197  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/ont/PAJ00963_guppy-5.0.12.fastq.gz
+    84434871954               0      2147483648     88507477056         5144924  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/ont/PAJ00968_guppy-5.0.12.fastq.gz
+    22790546809               0      2147483648     31283580328         1666848  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m54329U_210901_104742.hifi_reads.fastq.gz
+     7503281643               0      2147483648     10037874056          561085  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m54329U_210904_103226.hifi_reads.fastq.gz
+    27934319242               0      2147483648     33119353991         1653203  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m64076_211107_004425.hifi_reads.fastq.gz

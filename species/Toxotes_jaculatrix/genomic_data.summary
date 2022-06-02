@@ -1,0 +1,4 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    10948367948               0      2147483648     22166624662       146798838  species/Toxotes_jaculatrix/fToxJac2/genomic_data/arima/fToxJac2_Arima2_R1.fastq.gz
+    11360196844               0      2147483648     22358731643       148071075  species/Toxotes_jaculatrix/fToxJac2/genomic_data/arima/fToxJac2_Arima2_R2.fastq.gz

@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    11762467217               0      2147483648     18353601789       121547031  species/Bufo_bufo/aBufBuf1/genomic_data/10x/aBufBuf1_S1_L004_R1_001.fastq.gz
+      835723513               0       835723513       976513456       122064182  species/Bufo_bufo/aBufBuf1/genomic_data/10x/aBufBuf1_S1_L006_I1_001.fastq.gz
+    10472081194               0      2147483648     16277624810       107798839  species/Bufo_bufo/aBufBuf1/genomic_data/10x/aBufBuf1_S3_L004_R1_001.fastq.gz
+    43091035193               0      2147483648     70247501418       465215261  species/Bufo_bufo/aBufBuf1/genomic_data/arima/aBufBuf1_33822_2#1_R1.fastq.gz
+    46841129137               0      2147483648     70661546566       467957283  species/Bufo_bufo/aBufBuf1/genomic_data/arima/aBufBuf1_33822_2#1_R2.fastq.gz
+    47072590866               0      2147483648     70820789493       469011850  species/Bufo_bufo/aBufBuf1/genomic_data/arima/aBufBuf1_33822_4#1_R2.fastq.gz
+   238394408083               0      2147483648    123870597162         6255139  species/Bufo_bufo/aBufBuf1/genomic_data/pacbio/m64016_190503_114339.subreads.bam
+   238435812663               0      2147483648    124485478297         6139421  species/Bufo_bufo/aBufBuf1/genomic_data/pacbio/m64016_190507_114009.subreads.bam
+   219215680152               0      2147483648    114979337231         5606451  species/Bufo_bufo/aBufBuf1/genomic_data/pacbio/m64016_190508_101048.subreads.bam

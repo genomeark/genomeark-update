@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+      856586244               0       856586244       923370928       115421366  species/Pipistrellus_pipistrellus/mPipPip1/genomic_data/10x/mPipPip1_S1_L002_I1_001.fastq.gz
+    11927583006               0      2147483648     18116452724       119976513  species/Pipistrellus_pipistrellus/mPipPip1/genomic_data/10x/mPipPip1_S2_L002_R1_001.fastq.gz
+    10728176533               0      2147483648     16394322434       108571676  species/Pipistrellus_pipistrellus/mPipPip1/genomic_data/10x/mPipPip1_S3_L002_R1_001.fastq.gz
+    13906298595               0      2147483648      7492046567          542074  species/Pipistrellus_pipistrellus/mPipPip1/genomic_data/pacbio/m54097_180726_120618.subreads.bam
+    13003281459               0      2147483648      6904971198          577755  species/Pipistrellus_pipistrellus/mPipPip1/genomic_data/pacbio/m54097_180728_094629.subreads.bam
+    11649245607               0      2147483648      6270312637          439881  species/Pipistrellus_pipistrellus/mPipPip1/genomic_data/pacbio/m54097_180728_200453.subreads.bam
+    41678620768               0      2147483648     62314510471       412678896  species/Pipistrellus_pipistrellus/mPipPip2/genomic_data/arima/mPipPip2_33892_4#1_R1.fastq.gz
+    43652969617               0      2147483648     62436476187       413486597  species/Pipistrellus_pipistrellus/mPipPip2/genomic_data/arima/mPipPip2_33892_4#1_R2.fastq.gz
+    43752340987               0      2147483648     62678224411       415087578  species/Pipistrellus_pipistrellus/mPipPip2/genomic_data/arima/mPipPip2_33892_5#1_R2.fastq.gz

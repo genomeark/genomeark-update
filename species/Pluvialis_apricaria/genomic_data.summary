@@ -1,0 +1,8 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     2268352534               0      2268352534      2551433168       318929146  species/Pluvialis_apricaria/bPluApr1/genomic_data/10x/bPluApr1_S4_L001_I1_001.fastq.gz
+    25500486580               0      2147483648     48351944868       320211567  species/Pluvialis_apricaria/bPluApr1/genomic_data/10x/bPluApr1_S4_L001_R1_001.fastq.gz
+    26284957633               0      2147483648     48475905430       321032486  species/Pluvialis_apricaria/bPluApr1/genomic_data/10x/bPluApr1_S4_L001_R2_001.fastq.gz
+    25000837541               0      2147483648     45115315321       300768780  species/Pluvialis_apricaria/bPluApr1/genomic_data/arima/bPluApr1_2423_14_R1_001.fastq.gz
+    27187555884               0      2147483648     43464653070       289764366  species/Pluvialis_apricaria/bPluApr1/genomic_data/arima/bPluApr1_2423_14_R2_001.fastq.gz
+   188406463792               0      2147483648     98363308648         5781994  species/Pluvialis_apricaria/bPluApr1/genomic_data/pacbio/m64055_191017_212330.subreads.bam

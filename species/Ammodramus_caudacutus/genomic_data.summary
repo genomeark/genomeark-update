@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    38732806580               0      2147483648     73560874708       490405849  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/arima/Salt_Marsh_Sparrow_R1.fastq.gz
+    39847228111               0      2147483648     74307025500       495380170  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/arima/Salt_Marsh_Sparrow_R2.fastq.gz
+    10761992987               0      2147483648     13112282340          913541  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211031_050355.hifi_reads.fastq.gz
+    12082396193               0      2147483648     15380060935         1085381  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211108_204450.hifi_reads.fastq.gz
+    12185901206               0      2147483648     16150176967         1134191  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211113_135905.hifi_reads.fastq.gz

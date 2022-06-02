@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    12283816190               0      2147483648     23728102049       157139754  species/Zalophus_californianus/mZalCal1/genomic_data/10x/mZalCal1_S2_L001_R1_001.fastq.gz
+    11994899639               0      2147483648     23121128494       153120061  species/Zalophus_californianus/mZalCal1/genomic_data/10x/mZalCal1_S3_L001_R1_001.fastq.gz
+    14124766470               0      2147483648     27243499262       180420531  species/Zalophus_californianus/mZalCal1/genomic_data/10x/mZalCal1_S4_L001_R1_001.fastq.gz
+    32006850804               0      2147483648     52696703982       351311359  species/Zalophus_californianus/mZalCal1/genomic_data/arima/mZalCal1_S4_L005_R6000142_R1_001.fastq.gz
+    35868689658               0      2147483648     51425722779       342838168  species/Zalophus_californianus/mZalCal1/genomic_data/arima/mZalCal1_S4_L005_R6000142_R2_001.fastq.gz
+    34557605716               0      2147483648     50004264267       333361777  species/Zalophus_californianus/mZalCal1/genomic_data/arima/mZalCal1_S5_L006_R6000142_R2_001.fastq.gz
+    23119773789               0      2147483648     12579583233          577239  species/Zalophus_californianus/mZalCal1/genomic_data/pacbio/m54158_190710_193037.subreads.bam
+   244778814269               0      2147483648    129044139918         5530960  species/Zalophus_californianus/mZalCal1/genomic_data/pacbio/m54306U_190731_192306.subreads.bam
+   214117234084               0      2147483648    112861863925         5177937  species/Zalophus_californianus/mZalCal1/genomic_data/pacbio/m64055_190801_195543.subreads.bam

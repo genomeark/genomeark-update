@@ -1,0 +1,4 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    61256875449               0      2147483648    119510378759       791459490  species/Leptodactylus_fuscus/aLepFus1/genomic_data/arima/aLepFus1_S1_L001_R1_001.fastq.gz
+    63203182676               0      2147483648    119504882840       791423094  species/Leptodactylus_fuscus/aLepFus1/genomic_data/arima/aLepFus1_S1_L001_R2_001.fastq.gz

@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     4584614102               0      2147483648      9727750353        64422187  species/Falco_rusticolus/bFalRus1/genomic_data/10x/bFalRus1_S6_L001_R1_001.fastq.gz
+     4883593946               0      2147483648      9872046238        65377791  species/Falco_rusticolus/bFalRus1/genomic_data/10x/bFalRus1_S6_L002_R2_001.fastq.gz
+     4767908197               0      2147483648     10049684839        66554206  species/Falco_rusticolus/bFalRus1/genomic_data/10x/bFalRus1_S8_L002_R1_001.fastq.gz
+    24728748737               0      2147483648     39281828386       261878855  species/Falco_rusticolus/bFalRus1/genomic_data/arima/bFalRus1_2411_06_L007_R6000142_R1_001.fastq.gz
+    27447356297               0      2147483648     38575794971       257171979  species/Falco_rusticolus/bFalRus1/genomic_data/arima/bFalRus1_2411_06_L007_R6000142_R2_001.fastq.gz
+    13522595355               0      2147483648     21621937918       144146259  species/Falco_rusticolus/bFalRus1/genomic_data/arima/bFalRus1_S2_L001_R2_001.fastq.gz
+    19261915718               0      2147483648     10122135462         1049766  species/Falco_rusticolus/bFalRus1/genomic_data/pacbio/m54171_181107_185201.subreads.bam
+    20624648835               0      2147483648     10853084056         1111991  species/Falco_rusticolus/bFalRus1/genomic_data/pacbio/m54171_181108_050454.subreads.bam
+    17351262148               0      2147483648      9049238984         1045487  species/Falco_rusticolus/bFalRus1/genomic_data/pacbio/m54171_181108_151740.subreads.bam

@@ -1,0 +1,4 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    21303442494               0      2147483648     39993833701       264859825  species/Sitta_carolinensis/bSitCar2/genomic_data/arima/bSitCar2_S19_L004_R1_001.fastq.gz
+    22029312530               0      2147483648     40246722238       266534584  species/Sitta_carolinensis/bSitCar2/genomic_data/arima/bSitCar2_S19_L004_R2_001.fastq.gz

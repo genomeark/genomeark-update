@@ -1,0 +1,10 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     7473449363               0      2147483648     11527864976        76852436  species/Myotis_myotis/mMyoMyo1/genomic_data/10x/mMyoMyo1_S1_L003_R1_001.fastq.gz
+     7654110514               0      2147483648     11525929837        76839535  species/Myotis_myotis/mMyoMyo1/genomic_data/10x/mMyoMyo1_S1_L003_R2_001.fastq.gz
+     8860797752               0      2147483648     13639946369        90932975  species/Myotis_myotis/mMyoMyo1/genomic_data/10x/mMyoMyo1_S1_L004_R1_001.fastq.gz
+     8909104654               0      2147483648      4723172170          452030  species/Myotis_myotis/mMyoMyo1/genomic_data/pacbio/m54062_170420_223809.subreads.bam
+     6358866358               0      2147483648      3360010413          398800  species/Myotis_myotis/mMyoMyo1/genomic_data/pacbio/m54142_170414_193339.subreads.bam
+     7716663781               0      2147483648      4016640164          641801  species/Myotis_myotis/mMyoMyo1/genomic_data/pacbio/m54142_170422_014304.subreads.bam
+     8375071897               0      2147483648     14407257890       180090723  species/Myotis_myotis/mMyoMyo1/genomic_data/phase/mMyoMyo1_myotisS3HiC_R1.fastq.gz
+     8719948165               0      2147483648     14320647125       179008089  species/Myotis_myotis/mMyoMyo1/genomic_data/phase/mMyoMyo1_myotisS3HiC_R2.fastq.gz

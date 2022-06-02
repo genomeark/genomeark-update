@@ -1,0 +1,12 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     1284171720               0      1284171720      1389841504       173730188  species/Sebastes_umbrosus/fSebUmb1/genomic_data/10x/fSebUmb1_S2_L001_I1_001.fastq.gz
+    13696441049               0      2147483648     26231539498       173718811  species/Sebastes_umbrosus/fSebUmb1/genomic_data/10x/fSebUmb1_S2_L001_R1_001.fastq.gz
+    13963444136               0      2147483648     26054894207       172548968  species/Sebastes_umbrosus/fSebUmb1/genomic_data/10x/fSebUmb1_S2_L001_R2_001.fastq.gz
+     6789902480               0      2147483648     15783475161        62882374  species/Sebastes_umbrosus/fSebUmb1/genomic_data/hic/fSebUmb1_S11_L002_R1_L001_001.fastq.gz
+     7053976743               0      2147483648     15844957739        63127324  species/Sebastes_umbrosus/fSebUmb1/genomic_data/hic/fSebUmb1_S11_L002_R2_L001_001.fastq.gz
+     9726708073               0      2147483648     21322886284       141211171  species/Sebastes_umbrosus/fSebUmb1/genomic_data/illumina/SEB-10_S144222_R1_001.fastq.gz
+    10183645347               0      2147483648     21441065053       141993813  species/Sebastes_umbrosus/fSebUmb1/genomic_data/illumina/SEB-10_S144222_R2_001.fastq.gz
+    21431786156               0      2147483648     11732252961          534556  species/Sebastes_umbrosus/fSebUmb1/genomic_data/pacbio/m54050R1_181211_022522.subreads.bam
+    23985083817               0      2147483648     13154150261          613497  species/Sebastes_umbrosus/fSebUmb1/genomic_data/pacbio/m54050R1_181212_232858.subreads.bam
+    20766166670               0      2147483648     11341995028          602150  species/Sebastes_umbrosus/fSebUmb1/genomic_data/pacbio/m54050R1_181213_094204.subreads.bam

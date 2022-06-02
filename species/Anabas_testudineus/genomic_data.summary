@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     9255201963               0      2147483648     13529166164        89597131  species/Anabas_testudineus/fAnaTes1/genomic_data/10x/fAnaTes1_S1_L008_R1_001.fastq.gz
+    10615890305               0      2147483648     15441121050       102259084  species/Anabas_testudineus/fAnaTes1/genomic_data/10x/fAnaTes1_S3_L008_R1_001.fastq.gz
+      836227504               0       836227504       802108336       100263542  species/Anabas_testudineus/fAnaTes1/genomic_data/10x/fAnaTes1_S4_L008_I1_001.fastq.gz
+     3219961689               0      3219961689      5828154300        38854362  species/Anabas_testudineus/fAnaTes1/genomic_data/arima/fAnaTes1_ARI2_001_USPD16084394-AK4937_HJFMFCCXY_L5_R2.fastq.gz
+     2889903474               0      2889903474      5847791400        38985276  species/Anabas_testudineus/fAnaTes1/genomic_data/arima/fAnaTes1_ARI2_001_USPD16084394-AK4937_HJFMFCCXY_L7_R1.fastq.gz
+     2991809554               0      2991809554      4796711700        31978078  species/Anabas_testudineus/fAnaTes1/genomic_data/arima/fAnaTes1_ARI2_001_USPD16084394-AK4937_HJFMMCCXY_L6_R2.fastq.gz
+     8575769860               0      2147483648      4460599115          520144  species/Anabas_testudineus/fAnaTes1/genomic_data/pacbio/m54097_170223_195514.subreads.bam
+     9776443819               0      2147483648      5086898884          584069  species/Anabas_testudineus/fAnaTes1/genomic_data/pacbio/m54097_170227_031236.subreads.bam
+    10711507924               0      2147483648      5554852188          680972  species/Anabas_testudineus/fAnaTes1/genomic_data/pacbio/m54097_170227_112229.subreads.bam

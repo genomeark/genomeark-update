@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    38308441115               0      2147483648     74615865111       497439118  species/Acridotheres_tristis/bAcrTri1/genomic_data/arima/bAcrTri1_Common_Myna_R1.fastq.gz
+    39188809403               0      2147483648     74746865288       498312453  species/Acridotheres_tristis/bAcrTri1/genomic_data/arima/bAcrTri1_Common_Myna_R2.fastq.gz
+     7900107182               0      2147483648      3945497513          229044  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210318_204236.Q20.fastq
+    13356841514               0      2147483648      6670835630          383305  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210419_095733.Q20.fastq
+     8994871130               0      2147483648     10545363612          731042  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210510_220118.hifi_reads.fastq.gz

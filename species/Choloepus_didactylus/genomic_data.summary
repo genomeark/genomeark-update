@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    21058985372               0      2147483648     41674076352       277827185  species/Choloepus_didactylus/mChoDid1/genomic_data/10x/mChoDid1_S1_L004_R2_001.fastq.gz
+    22996732549               0      2147483648     46511524698       310076842  species/Choloepus_didactylus/mChoDid1/genomic_data/10x/mChoDid1_S3_L004_R1_001.fastq.gz
+    20548741459               0      2147483648     40772780227       271818544  species/Choloepus_didactylus/mChoDid1/genomic_data/10x/mChoDid1_S4_L004_R2_001.fastq.gz
+    34264584176               0      2147483648     59405383151       396035887  species/Choloepus_didactylus/mChoDid1/genomic_data/arima/mChoDid1_ARI7_4_1_USPD16090939_HTNV3CCXY_L4_2.clean.fq.gz
+    31634277389               0      2147483648     60111491783       400743293  species/Choloepus_didactylus/mChoDid1/genomic_data/arima/mChoDid1_ARI7_4_1_USPD16090939_HTNV3CCXY_L5_1.clean.fq.gz
+    17366119368               0      2147483648     30447909695       202986072  species/Choloepus_didactylus/mChoDid1/genomic_data/arima/mChoDid1_ARI7_4_1_USPD16090939_HTNV3CCXY_L6_2.clean.fq.gz
+    10229400453               0      2147483648      5367095911          408169  species/Choloepus_didactylus/mChoDid1/genomic_data/pacbio/m54062_171208_072424.subreads.bam
+     9717119225               0      2147483648      5207408075          396538  species/Choloepus_didactylus/mChoDid1/genomic_data/pacbio/m54062_180303_073102.subreads.bam
+    11011282748               0      2147483648      5840747629          473599  species/Choloepus_didactylus/mChoDid1/genomic_data/pacbio/m54062_180306_160426.subreads.bam

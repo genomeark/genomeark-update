@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     2239326562               0      2239326562      4483701135        29693385  species/Electrophorus_electricus/fEleEle1/genomic_data/10x/fEleEle1_S1_L001_R1_001.fastq.gz
+     2831537547               0      2831537547      5686631612        37659812  species/Electrophorus_electricus/fEleEle1/genomic_data/10x/fEleEle1_S1_L003_R1_001.fastq.gz
+     2551107323               0      2551107323      5128171400        33961400  species/Electrophorus_electricus/fEleEle1/genomic_data/10x/fEleEle1_S1_L005_R1_001.fastq.gz
+    22227974118               0      2147483648     39683761523       264558420  species/Electrophorus_electricus/fEleEle1/genomic_data/hic/concatenated-fEleEle1_ARIMA241127L002_R1.fastq.gz
+     6627604864               0      2147483648     11484520592        76563473  species/Electrophorus_electricus/fEleEle1/genomic_data/hic/fEleEle1_ARIMA241127L005_R1.fastq.gz
+    11860179727               0      2147483648     21361053257       142407021  species/Electrophorus_electricus/fEleEle1/genomic_data/hic/fEleEle1_ARIMA241127L007_R1.fastq.gz
+    20300342999               0      2147483648     11154898056          521554  species/Electrophorus_electricus/fEleEle1/genomic_data/pacbio/m54062_190628_203223.subreads.bam
+    22076378467               0      2147483648     12080510850          557572  species/Electrophorus_electricus/fEleEle1/genomic_data/pacbio/m54062_190629_064643.subreads.bam
+    19244281605               0      2147483648     10578971403          455010  species/Electrophorus_electricus/fEleEle1/genomic_data/pacbio/m54144_190625_115013.subreads.bam

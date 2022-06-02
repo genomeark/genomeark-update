@@ -1,0 +1,14 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    11523482453               0      2147483648     15967436190       105744615  species/Thalassophryne_amazonica/fThaAma1/genomic_data/10x/fThaAma1_S2_L004_R2_001.fastq.gz
+     9164221094               0      2147483648     12837596081        85017192  species/Thalassophryne_amazonica/fThaAma1/genomic_data/10x/fThaAma1_S3_L003_R2_001.fastq.gz
+      862120307               0       862120307       945849632       118231204  species/Thalassophryne_amazonica/fThaAma1/genomic_data/10x/fThaAma1_S4_L004_I1_001.fastq.gz
+    45515642024               0      2147483648     66531794484       440607931  species/Thalassophryne_amazonica/fThaAma1/genomic_data/arima/fThaAma1_27320_7#1_R2.fastq.gz
+    43100726544               0      2147483648     67900731038       449673735  species/Thalassophryne_amazonica/fThaAma1/genomic_data/arima/fThaAma1_27320_8#1_R1.fastq.gz
+    46462869931               0      2147483648     67674816414       448177613  species/Thalassophryne_amazonica/fThaAma1/genomic_data/arima/fThaAma1_27320_8#1_R2.fastq.gz
+    45292895303               0      2147483648     71665414084       474605412  species/Thalassophryne_amazonica/fThaAma1/genomic_data/dovetail/fThaAma1_27319_2#1_R1.fastq.gz
+    47426242210               0      2147483648     72377483060       479321101  species/Thalassophryne_amazonica/fThaAma1/genomic_data/dovetail/fThaAma1_27319_2#1_R2.fastq.gz
+    47038880138               0      2147483648     71983247927       476710273  species/Thalassophryne_amazonica/fThaAma1/genomic_data/dovetail/fThaAma1_27319_3#1_R2.fastq.gz
+    13025496339               0      2147483648      6875559692          790270  species/Thalassophryne_amazonica/fThaAma1/genomic_data/pacbio/m54097_180510_133022.subreads.bam
+    12502350481               0      2147483648      6625318091          713370  species/Thalassophryne_amazonica/fThaAma1/genomic_data/pacbio/m54097_180516_081914.subreads.bam
+    13667751654               0      2147483648      7261129133          756432  species/Thalassophryne_amazonica/fThaAma1/genomic_data/pacbio/m54097_180528_114207.subreads.bam

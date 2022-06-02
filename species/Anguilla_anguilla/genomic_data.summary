@@ -1,0 +1,10 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     6376283796               0      2147483648     12416953945        82231486  species/Anguilla_anguilla/fAngAng1/genomic_data/10x/fAngAng1_S1_L001_R1_001.fastq.gz
+     6738004711               0      2147483648     12441213060        82392142  species/Anguilla_anguilla/fAngAng1/genomic_data/10x/fAngAng1_S1_L001_R2_001.fastq.gz
+     7824869065               0      2147483648     15259664562       101057384  species/Anguilla_anguilla/fAngAng1/genomic_data/10x/fAngAng1_S4_L001_R1_001.fastq.gz
+    25507906299               0      2147483648     49457296840       327531779  species/Anguilla_anguilla/fAngAng1/genomic_data/arima/fAngAng1_L40348T79215_R1.fastq.gz
+    25945643574               0      2147483648     49503564773       327838189  species/Anguilla_anguilla/fAngAng1/genomic_data/arima/fAngAng1_L40348T79215_R2.fastq.gz
+     9717159766               0      2147483648      5343102990          247562  species/Anguilla_anguilla/fAngAng1/genomic_data/pacbio/m54144_190621_085518.subreads.bam
+    14958422717               0      2147483648      8184298048          415307  species/Anguilla_anguilla/fAngAng1/genomic_data/pacbio/m54144_190626_082128.subreads.bam
+    14089819548               0      2147483648      7588404704          384827  species/Anguilla_anguilla/fAngAng1/genomic_data/pacbio/m54144_190628_180344.subreads.bam

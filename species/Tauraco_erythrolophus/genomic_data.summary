@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     3911456506               0      3911456506      6982193945        46239695  species/Tauraco_erythrolophus/bTauEry1/genomic_data/10x/bTauEry1_S3_L001_R1_001.fastq.gz
+     3975548172               0      3975548172      6982193945        46239695  species/Tauraco_erythrolophus/bTauEry1/genomic_data/10x/bTauEry1_S3_L001_R2_001.fastq.gz
+     3575133179               0      3575133179      6363942716        42145316  species/Tauraco_erythrolophus/bTauEry1/genomic_data/10x/bTauEry1_S4_L001_R1_001.fastq.gz
+    15589677549               0      2147483648     29211321752       194742152  species/Tauraco_erythrolophus/bTauEry1/genomic_data/arima/bTauEry1_ARI16_4_USPD16090947_HV3M3CCXY_L3_1.clean.fq.gz
+    16462983619               0      2147483648     29268341673       195122285  species/Tauraco_erythrolophus/bTauEry1/genomic_data/arima/bTauEry1_ARI16_4_USPD16090947_HV3M3CCXY_L3_2.clean.fq.gz
+     5647986933               0      2147483648     10201121222        68007477  species/Tauraco_erythrolophus/bTauEry1/genomic_data/arima/bTauEry1_ARI16_4_USPD16090947_HV3M3CCXY_L4_2.clean.fq.gz
+    16010894413               0      2147483648      8665303813          498619  species/Tauraco_erythrolophus/bTauEry1/genomic_data/pacbio/m54159_180810_063339.subreads.bam
+    16565069873               0      2147483648      8987106271          528196  species/Tauraco_erythrolophus/bTauEry1/genomic_data/pacbio/m54159_180816_022151.subreads.bam
+    15762227590               0      2147483648      8512434659          502398  species/Tauraco_erythrolophus/bTauEry1/genomic_data/pacbio/m54159_180816_123602.subreads.bam

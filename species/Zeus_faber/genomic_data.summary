@@ -1,0 +1,8 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     9678013702               0      2147483648     13325277964        88246878  species/Zeus_faber/fZeuFab1/genomic_data/10x/fZeuFab1_S1_L008_R2_001.fastq.gz
+     8162903421               0      2147483648     11979693131        79335719  species/Zeus_faber/fZeuFab1/genomic_data/10x/fZeuFab1_S3_L008_R1_001.fastq.gz
+      786044948               0       786044948       786256008        98282001  species/Zeus_faber/fZeuFab1/genomic_data/10x/fZeuFab1_S4_L008_I1_001.fastq.gz
+     3739913035               0      3739913035      1968411374          225509  species/Zeus_faber/fZeuFab1/genomic_data/pacbio/m54097_170824_160621.subreads.bam
+     5386969041               0      2147483648      2787520514          420467  species/Zeus_faber/fZeuFab1/genomic_data/pacbio/m54097_171013_003218.subreads.bam
+     5950225393               0      2147483648      3088236674          445695  species/Zeus_faber/fZeuFab1/genomic_data/pacbio/m54097_171017_034810.subreads.bam

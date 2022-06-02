@@ -1,0 +1,10 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    19188242986               0      2147483648     38217132579       254780883  species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/10x/mTacAcu1_S2_L004_R1_001.fastq.gz
+    15445818191               0      2147483648     30708990647       204726604  species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/10x/mTacAcu1_S3_L004_R1_001.fastq.gz
+    21723619954               0      2147483648     43328524392       288856839  species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/10x/mTacAcu1_S4_L004_R1_001.fastq.gz
+     2775544964               0      2775544964       712343267           66943  species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/pacbio/m160814_083547_42153_c101055812550000001823237312291631_s1_p0.subreads.bam
+     1129677734               0      1129677734       287376711           36549  species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/pacbio/m160828_144230_42153_c101092262550000001823253903091777_s1_p0.subreads.bam
+      656746829               0       656746829       179883843           21316  species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/pacbio/m160829_083634_42133_c101092532550000001823253903091712_s1_p0.subreads.bam
+    12412735566               0      2147483648     21072503203       208638651  species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/phase/mTacAcu1_S17_L007_R1_L001_001.fastq.gz
+    12661802874               0      2147483648     21476308698       212636725  species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/phase/mTacAcu1_S17_L007_R2_L001_001.fastq.gz

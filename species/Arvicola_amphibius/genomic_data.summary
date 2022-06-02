@@ -1,0 +1,10 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     9161623286               0      2147483648     13952768207        92402442  species/Arvicola_amphibius/mArvAmp1/genomic_data/10x/mArvAmp1_S1_L008_R1_001.fastq.gz
+      813621282               0       813621282       870780128       108847516  species/Arvicola_amphibius/mArvAmp1/genomic_data/10x/mArvAmp1_S4_L008_I1_001.fastq.gz
+    10719901628               0      2147483648     16355495703       108314546  species/Arvicola_amphibius/mArvAmp1/genomic_data/10x/mArvAmp1_S4_L008_R1_001.fastq.gz
+    28252182310               0      2147483648     43328790993       286945648  species/Arvicola_amphibius/mArvAmp1/genomic_data/dovetail/mArvAmp1_30820_1#1_R1.fastq.gz
+    29194348809               0      2147483648     42187847844       279389734  species/Arvicola_amphibius/mArvAmp1/genomic_data/dovetail/mArvAmp1_30820_1#1_R2.fastq.gz
+    14463615665               0      2147483648      7633431586          590679  species/Arvicola_amphibius/mArvAmp1/genomic_data/pacbio/m54205_180109_144115.subreads.bam
+    12561596684               0      2147483648      6591569690          590086  species/Arvicola_amphibius/mArvAmp1/genomic_data/pacbio/m54205_180115_230507.subreads.bam
+    13409638653               0      2147483648      7070595023          579606  species/Arvicola_amphibius/mArvAmp1/genomic_data/pacbio/m54205_180118_055046.subreads.bam

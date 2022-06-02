@@ -1,0 +1,9 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    30294329045               0      2147483648     59580720408       397204816  species/Osmerus_mordax/fOsmMor3/genomic_data/arima/fOsmMor3_Rainbow_Smelt_R1_001.fastq.gz
+    30578416061               0      2147483648     60037328263       400248855  species/Osmerus_mordax/fOsmMor3/genomic_data/arima/fOsmMor3_Rainbow_Smelt_R2_001.fastq.gz
+    12467508046               0      2147483648     24924451547       165062593  species/Osmerus_mordax/fOsmMor3/genomic_data/illumina/fOsmMor3_1.fastq.gz
+    13150556131               0      2147483648     24892952132       164853993  species/Osmerus_mordax/fOsmMor3/genomic_data/illumina/fOsmMor3_2.fastq.gz
+     5192433853               0      2147483648      5943141998          381747  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211011_140755.hifi_reads.fastq.gz
+     9138230921               0      2147483648     10504776654          667689  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211021_064552.hifi_reads.fastq.gz
+     7754856916               0      2147483648      8356192632          522816  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64334e_211014_200114.hifi_reads.fastq.gz

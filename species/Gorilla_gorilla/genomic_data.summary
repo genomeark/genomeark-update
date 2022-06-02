@@ -1,0 +1,11 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    69774571018               0      2147483648     74270711995         2802408  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAG26815_guppy-5.0.12.fastq.gz
+    83062142971               0      2147483648     87761035894         4954796  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAI19139_guppy-5.0.12.fastq.gz
+    77340991629               0      2147483648     82629770432         3429068  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAI19180_guppy-5.0.12.fastq.gz
+    27473244156               0      2147483648     29792465300         1863167  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m54329U_210319_174352.hifi_reads.fastq.gz
+    29772139540               0      2147483648     41549171675         2305885  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m54329U_211102_230231.hifi_reads.fastq.gz
+    25197894255               0      2147483648     31830584153         2094603  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m64076_210214_073735.Q20.fastq.gz
+    11384243110               0      2147483648     22616661293       149779219  species/Gorilla_gorilla/mGorGor2/genomic_data/illumina/mGorGor2_HNFNCDSX2_19164900_S14_L003_R2_001.fastq.gz
+    13598212238               0      2147483648     27418138932       181577079  species/Gorilla_gorilla/mGorGor3/genomic_data/illumina/mGorGor3_HNFNCDSX2_19164896_S18_L002_R1_001.fastq.gz
+    10899638354               0      2147483648     20126795335       133290040  species/Gorilla_gorilla/mGorGor3/genomic_data/illumina/mGorGor3_HT2N2DSX2_19164896_S16_L001_R2_001.fastq.gz

@@ -1,0 +1,4 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    47073502992               0      2147483648     92546781938       616978546  species/Fundulus_diaphanus/fFunDia1/genomic_data/arima/fFunDia1_Banded_Killifish_R1_001.fastq.gz
+    48031633793               0      2147483648     93602663826       624017781  species/Fundulus_diaphanus/fFunDia1/genomic_data/arima/fFunDia1_Banded_Killifish_R2_001.fastq.gz

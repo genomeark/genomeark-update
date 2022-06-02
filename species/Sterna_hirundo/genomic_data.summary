@@ -1,0 +1,10 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     8007683074               0      2147483648     14516445458        96135404  species/Sterna_hirundo/bSteHir1/genomic_data/10x/bSteHir1A_1.fastq.gz
+     8631804733               0      2147483648     15654323286       103671019  species/Sterna_hirundo/bSteHir1/genomic_data/10x/bSteHir1B_1.fastq.gz
+     9094298946               0      2147483648     16466794828       109051621  species/Sterna_hirundo/bSteHir1/genomic_data/10x/bSteHir1C_1.fastq.gz
+    29398598002               0      2147483648     56606202143       377374680  species/Sterna_hirundo/bSteHir1/genomic_data/arima/bSteHir1_ARI6_005_USPD16095655_HWLVLCCXY_L5_R1.fastq.gz
+    31872298829               0      2147483648     56389301925       375928679  species/Sterna_hirundo/bSteHir1/genomic_data/arima/bSteHir1_ARI6_005_USPD16095655_HWLVLCCXY_L5_R2.fastq.gz
+    22412709471               0      2147483648     12283232080          588443  species/Sterna_hirundo/bSteHir1/genomic_data/pacbio/m54159_181208_205316.subreads.bam
+     8394433035               0      2147483648      4629242674          232469  species/Sterna_hirundo/bSteHir1/genomic_data/pacbio/m54306_181202_032451.subreads.bam
+    24951971101               0      2147483648     13483932786          794263  species/Sterna_hirundo/bSteHir1/genomic_data/pacbio/m54306_181205_032543.subreads.bam

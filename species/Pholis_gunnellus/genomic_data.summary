@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+      453517623               0       453517623       494153624        61769203  species/Pholis_gunnellus/fPhoGun1/genomic_data/10x/fPhoGun1_S5_L002_I1_001.fastq.gz
+     5787640041               0      2147483648      9356394278        61962876  species/Pholis_gunnellus/fPhoGun1/genomic_data/10x/fPhoGun1_S5_L002_R1_001.fastq.gz
+     4223818089               0      4223818089      6765815475        44806725  species/Pholis_gunnellus/fPhoGun1/genomic_data/10x/fPhoGun1_S6_L002_R1_001.fastq.gz
+    37885984540               0      2147483648     65454585642       433474077  species/Pholis_gunnellus/fPhoGun1/genomic_data/arima/fPhoGun1_35312_5#1_R1.fastq.gz
+    43490519023               0      2147483648     66066406565       437525891  species/Pholis_gunnellus/fPhoGun1/genomic_data/arima/fPhoGun1_35312_5#1_R2.fastq.gz

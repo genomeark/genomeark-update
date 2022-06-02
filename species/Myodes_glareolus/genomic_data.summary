@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+     9932874074               0      2147483648     19992871213       132403120  species/Myodes_glareolus/mMyoGla1/genomic_data/10x/mMyoGla1_S21_L003_R1_001.fastq.gz
+    10409690914               0      2147483648     20320930087       134575700  species/Myodes_glareolus/mMyoGla1/genomic_data/10x/mMyoGla1_S21_L003_R2_001.fastq.gz
+     1077864070               0      1077864070      1167307288       145913411  species/Myodes_glareolus/mMyoGla1/genomic_data/10x/mMyoGla1_S22_L003_I1_001.fastq.gz
+   129200383638               0      2147483648    260382786463      1724389374  species/Myodes_glareolus/mMyoGla2/genomic_data/arima/mMyoGla2_40063_2#1_R1.fastq.gz
+   134700893526               0      2147483648    265762496155      1760016593  species/Myodes_glareolus/mMyoGla2/genomic_data/arima/mMyoGla2_40063_2#1_R2.fastq.gz

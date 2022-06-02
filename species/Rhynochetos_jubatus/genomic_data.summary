@@ -1,0 +1,7 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    22625314284               0      2147483648     42036010625       278384186  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/arima/bRhyJub1_S18_L004_R1_001.fastq.gz
+    23817594370               0      2147483648     42227836698       279654547  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/arima/bRhyJub1_S18_L004_R2_001.fastq.gz
+    12275013683               0      2147483648     14821082157          937841  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m54306Ue_211121_044556.hifi_reads.fastq.gz
+    12569927089               0      2147483648     15263803097          964833  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m54306Ue_211127_155134.hifi_reads.fastq.gz
+     8807061681               0      2147483648     10540708662          671892  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m64330e_211129_212851.hifi_reads.fastq.gz

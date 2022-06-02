@@ -1,0 +1,8 @@
+          bytes            date        quantity           bases           reads  file
+--------------- --------------- --------------- --------------- ---------------  ----------
+    68836723623               0      2147483648    133013617669       886757451  species/Monodelphis_domestica/mMonDom1/genomic_data/arima/mMonDom1_Gray_Short-tailed_Opossum1_R1.fastq.gz
+    69405780153               0      2147483648    133811546120       892077006  species/Monodelphis_domestica/mMonDom1/genomic_data/arima/mMonDom1_Gray_Short-tailed_Opossum1_R2.fastq.gz
+    68909781903               0      2147483648    134408839082       896058959  species/Monodelphis_domestica/mMonDom1/genomic_data/arima/mMonDom1_Gray_Short-tailed_Opossum2_R2.fastq.gz
+    22728068117               0      2147483648     26380684523         1593866  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211110_071858.hifi_reads.fastq.gz
+    20994837410               0      2147483648     24995246872         1514797  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211113_015853.hifi_reads.fastq.gz
+    23169990599               0      2147483648     26152713821         1546299  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m64055e_211117_204835.hifi_reads.fastq.gz
