@@ -373,6 +373,8 @@ sub generateAssemblySummary ($$$$$$) {
     my $errors     = shift @_;
     my $download   = shift @_;
 
+    $genomeSize = 0   if ((!defined($genomeSize)) || ($genomeSize eq ""));
+
     my $splitopt   = ($type eq "ctg")  ? "-split-n"          : "";
     my $sizeopt    = ($genomeSize > 0) ? "-size $genomeSize" : "";
 
