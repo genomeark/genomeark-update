@@ -38,17 +38,19 @@ sub discoverSpecies (@) {
         $species{$s}++   if ($s ne "");
     }
 
-    open(SL, "< genomeark-metadata/species-list");
+    open(SL, "< downloads/species-list");
     if (scalar(keys %species) == 0) {        #  If no input names, just slurp in the
         while (<SL>) {                       #  whole list.
-            chomp;                           #
+            s/^\s+//;                        #
+            s/\s+$//;
             push @species, $_;
         }
     }
     else {
         while (<SL>) {                       #  Otherwise, check the name against
-            chomp;                           #  the hash and add it if found.
-            if (exists($species{$_})) {      #
+            s/^\s+//;                        #  the hash and add it if found.
+            s/\s+$//;                        #
+            if (exists($species{$_})) {
                 push @species, $_;
                 delete $species{$_};
             }

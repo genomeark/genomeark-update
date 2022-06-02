@@ -52,8 +52,8 @@ foreach my $arg (@ARGV) {
 #  Main
 #
 
-die "ERROR: 'downloads/genomeark.ls' doesn't exist, can't update.\n"            if (! -e "downloads/genomeark.ls");
-die "ERROR: 'genomeark-metadata/species-list' doesn't exist, can't update.\n"   if (! -e "genomeark-metadata/species-list");
+die "ERROR: 'downloads/genomeark.ls' doesn't exist, can't update.\n"   if (! -e "downloads/genomeark.ls");
+die "ERROR: 'downloads/species-list' doesn't exist, can't update.\n"   if (! -e "downloads/species-list");
 
 @speciesList = discoverSpecies(@speciesList);   #  List of all species in genomeark-metadata or supplied on command line.
 
@@ -150,7 +150,7 @@ foreach my $species (@speciesList) {
     print "----------\n";                        #  examining a handful and scaling the rest.
     print "Genomic Data, bases estimation\n";    #  BIONANO is different and not reported.
 
-    loadSummaries($data{"name_"}, \%seqFiles, \@potentialErrors);
+    loadSummaries($data{"name_"}, \%seqFiles, \@potentialErrors);   #  Load existing summaries.
 
     estimateRawDataScaling(\%data, "10x",      $seqFiles{"10x"},      \@potentialErrors, \%missingData, $downloadData);  #  seqFiles is a \0 separated list of
     estimateRawDataScaling(\%data, "arima",    $seqFiles{"arima"},    \@potentialErrors, \%missingData, $downloadData);  #    'filesize \s datafile

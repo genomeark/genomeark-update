@@ -137,7 +137,7 @@ sub accumulateData ($$$$$$) {
     #}
     #  Nanopore
     #
-    if ($filename =~ m!/genomic_data/nanopore/!) {
+    if ($filename =~ m!/genomic_data/ont/!) {
         #return if ($filename =~ m/txt$/);
         #return if ($filename =~ m/txt$/);
         #return if ($filename =~ m/txt$/);
@@ -148,7 +148,24 @@ sub accumulateData ($$$$$$) {
             $$seqBytes{"nanopore"} += $sb;
             $$seqIndiv{"nanopore"} .= $si;
         } else {
-            push @$errors, "  Unknown nanopore file type in '$filename'\n";
+            push @$errors, "  Unknown ont file type in '$filename'\n";
+        }
+        return;
+    }
+
+
+    if ($filename =~ m!/genomic_data/ont_duplex/!) {
+        #return if ($filename =~ m/txt$/);
+        #return if ($filename =~ m/txt$/);
+        #return if ($filename =~ m/txt$/);
+
+        if (($filename =~ m/fastq.gz/) ||
+            ($filename =~ m/fq.gz/)) {
+            $$seqFiles{"nanopore"} .= $sf;
+            $$seqBytes{"nanopore"} += $sb;
+            $$seqIndiv{"nanopore"} .= $si;
+        } else {
+            push @$errors, "  Unknown ont_duplex file type in '$filename'\n";
         }
         return;
     }

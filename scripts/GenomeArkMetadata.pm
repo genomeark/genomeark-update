@@ -15,7 +15,7 @@ use GenomeArkUtility;
 
 
 #
-#  Load metadata from genomeark-metadata.
+#  Load metadata from our cache, or fetch it from the bucket if it is newer.
 #
 
 sub loadSpeciesMetadata ($$$) {
@@ -31,7 +31,12 @@ sub loadSpeciesMetadata ($$$) {
     undef %$data;
     undef %$meta;
 
-    open(MD, "< genomeark-metadata/species/$species.yaml") or die;
+    if (! -e "downloads/species/$species/metadata.yaml") {
+        system("mkdir -p downloads/species/$species");
+        system("aws s3 cp s3://genomeark/species/$species/metadata.yaml downloads/species/$species/metadata.yaml");
+    }
+
+    open(MD, "< downloads/species/$species/metadata.yaml") or die;
     while (<MD>) {
         chomp;
 

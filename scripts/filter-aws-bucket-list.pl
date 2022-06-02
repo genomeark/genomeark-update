@@ -18,10 +18,43 @@ use strict;
 #  Expects an S3 'ls --recursive' list on input and outputs a list of files
 #  that are useful for displaying statistics on genomeark.github.io.
 #
-#  Takes about a minute (31.9 seconds) on the bucket as of May 2022.
+#  Takes about half a minute on the bucket as of June 2022.
+#
+#  Also generates a list of the species with a metadata file,
+#  and a report of the species without a metadata file.
 #
 
-while (<STDIN>) {
+#  time perl ../scripts/filter-aws-bucket-list.pl --raw genomeark.ls.raw.20220601 --filtered genomeark.ls --species-list species-list
+
+my %speciesList;   #  Count of the number of filtered files for each species.
+my %speciesMeta;   #  Defined if 'Genus_species/metadata.yaml' is found.
+
+my $lsRaw = $ARGV[1];
+my $lsFilt = $ARGV[2];
+my $spList = undef;
+
+while (scalar(@ARGV) > 0) {
+    my $opt = shift @ARGV;
+
+    if    ($opt eq "--raw") {
+        $lsRaw = shift @ARGV;
+    }
+    elsif ($opt eq "--filtered") {
+        $lsFilt = shift @ARGV;
+    }
+    elsif ($opt eq "--species-list") {
+        $spList = shift @ARGV;
+    }
+    else {
+        die "Unknown option '$opt'\n";
+    }
+}
+
+open(RAW,  "< $lsRaw")  or die "Failed to open '$lsRaw' for reading: $!\n";
+open(FILT, "> $lsFilt") or die "Failed to open '$lsFilt' for writing: $!\n";
+open(SPLI, "> $spList") or die "Failed to open '$spList' for writing: $!\n";
+
+while (<RAW>) {
     chomp;
 
     my ($filedate, $filetime, $filesize, $filename, $filesecs) = split '\s+', $_;
@@ -31,10 +64,16 @@ while (<STDIN>) {
     my $asmName     = $fileComps[3];
     my $seconds     = 0;
 
+    if ($filename =~ m!species/\w+_\w+/metadata.yaml$!) {
+        my @v = split '/', $_;
+        $speciesMeta{$v[1]}++;
+    }
+
     next if ($filename =~ m!/$!);          #  Why are you giving me directories?
 
     next if ($filename =~ m!^working!);
     next if ($filename =~ m!^galaxy!);
+    next if ($filename =~ m!^species/insects!);
 
     next if ($filename =~ m!/intermediate!i);
     next if ($filename =~ m!/Intermidiates!i);           #  One guy has this.
@@ -252,10 +291,31 @@ while (<STDIN>) {
     next if ($filename eq "species/Tamandua_tetradactyla/mTamTet1/assembly_vgp_standard_1.7/mTamTet1_t3.alt.asm.20210813.fasta.gz");
     next if ($filename eq "species/Tamandua_tetradactyla/mTamTet1/assembly_vgp_standard_1.7/mTamTet1_t3.pri.asm.20210813.fasta.gz");
 
+    print FILT "$_\n";   #  Finally, a file we want to process!
 
-    #  A file we want to process!
+    my @v = split '/', $_;
+    $speciesList{$v[1]}++;
+}
 
-    print "$_\n";
+close(RAW);
+close(FILT);
+
+#  Emit the list of speices.
+
+foreach my $s (sort keys %speciesMeta) {
+    delete $speciesList{$s};
+    print SPLI "$s\n";
+}
+close(SPLI);
+
+#  Emit a list of species without metadata.
+
+if (scalar(keys %speciesList) > 0) {
+    print "No metadata for:\n";
+
+    foreach my $s (sort keys %speciesList) {
+        print "  $s\n";
+    }
 }
 
 exit(0);
