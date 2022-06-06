@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      4550894103               0      2147483648      7401856816        49018921  species/Molossus_molossus/mMolMol1/genomic_data/10x/mMolMol1_S1_L003_R2_001.fastq.gz
      2902997543               0      2902997543      5538201934        36676834  species/Molossus_molossus/mMolMol1/genomic_data/10x/mMolMol1_S1_L006_R1_001.fastq.gz
@@ -8,3 +10,13 @@
     10582108145               0      2147483648      5694654547          488914  species/Molossus_molossus/mMolMol1/genomic_data/pacbio/m54144_180815_132050.subreads.bam
      8456235138               0      2147483648      4531138334          391194  species/Molossus_molossus/mMolMol1/genomic_data/pacbio/m54144_180816_134800.subreads.bam
     11377322542               0      2147483648      6048878612          599794  species/Molossus_molossus/mMolMol1/genomic_data/pacbio/m54144_180915_004916.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.7983
+arima        *       1.4485
+pacbio       *       0.5350
+------------ ------ -------

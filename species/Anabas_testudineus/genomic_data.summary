@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      9255201963               0      2147483648     13529166164        89597131  species/Anabas_testudineus/fAnaTes1/genomic_data/10x/fAnaTes1_S1_L008_R1_001.fastq.gz
     10615890305               0      2147483648     15441121050       102259084  species/Anabas_testudineus/fAnaTes1/genomic_data/10x/fAnaTes1_S3_L008_R1_001.fastq.gz
@@ -9,3 +11,13 @@
      8575769860               0      2147483648      4460599115          520144  species/Anabas_testudineus/fAnaTes1/genomic_data/pacbio/m54097_170223_195514.subreads.bam
      9776443819               0      2147483648      5086898884          584069  species/Anabas_testudineus/fAnaTes1/genomic_data/pacbio/m54097_170227_031236.subreads.bam
     10711507924               0      2147483648      5554852188          680972  species/Anabas_testudineus/fAnaTes1/genomic_data/pacbio/m54097_170227_112229.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.4377
+arima        *       1.8098
+pacbio       *       0.5196
+------------ ------ -------

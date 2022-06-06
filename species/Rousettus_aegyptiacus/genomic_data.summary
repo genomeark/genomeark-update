@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      4255113931               0      4255113931      8223870418        54462718  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/10x/mRouAeg1_S1_L003_R1_001.fastq.gz
      3251833147               0      3251833147      6260246939        41458589  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/10x/mRouAeg1_S1_L007_R1_001.fastq.gz
@@ -9,3 +11,13 @@
      4160213906               0      4160213906      2232333712          216571  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/pacbio/m54062_171118_122811.subreads.bam
      7686001334               0      2147483648      4030549407          464814  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/pacbio/m54142_180213_004424.subreads.bam
     10106650037               0      2147483648      5267807884          521017  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/pacbio/m54144_180111_181037.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8673
+arima        *       1.4382
+pacbio       *       0.5252
+------------ ------ -------

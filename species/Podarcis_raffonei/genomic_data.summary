@@ -1,7 +1,19 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
    107476383359               0      2147483648    218120656813      1454137762  species/Podarcis_raffonei/rPodRaf1/genomic_data/arima/rPodRaf1_Aeolian_Wall_Lizard_R1_001.fastq.gz
    113067377409               0      2147483648    223895582700      1492637270  species/Podarcis_raffonei/rPodRaf1/genomic_data/arima/rPodRaf1_Aeolian_Wall_Lizard_R2_001.fastq.gz
     14149719135               0      2147483648     15500230065         1152181  species/Podarcis_raffonei/rPodRaf1/genomic_data/pacbio_hifi/m54306U_210528_154706.hifi_reads.fastq.gz
     19561504610               0      2147483648     24487835227         1759191  species/Podarcis_raffonei/rPodRaf1/genomic_data/pacbio_hifi/m54306Ue_210626_073803.hifi_reads.fastq.gz
     17465221075               0      2147483648     20536110785         1354400  species/Podarcis_raffonei/rPodRaf1/genomic_data/pacbio_hifi/m64055_210604_042209.hifi_reads.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.9960
+pacbiohifi_fqgz *       1.1826
+pacbiohifi_clr *       1.1000
+------------ ------ -------

@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      2500840539               0      2500840539      5011006121        33185471  species/Pygocentrus_nattereri/fPygNat1/genomic_data/10x/fPygNat1_S1_L001_R1_001.fastq.gz
      3198123742               0      3198123742      6289926291        41655141  species/Pygocentrus_nattereri/fPygNat1/genomic_data/10x/fPygNat1_S1_L004_R1_001.fastq.gz
@@ -8,3 +10,13 @@
     21614881563               0      2147483648     11702296928          773904  species/Pygocentrus_nattereri/fPygNat1/genomic_data/pacbio/m54142_190430_101433.subreads.bam
     22539072622               0      2147483648     12268605949          807361  species/Pygocentrus_nattereri/fPygNat1/genomic_data/pacbio/m54142_190502_210437.subreads.bam
     21214341339               0      2147483648     11485533506          794395  species/Pygocentrus_nattereri/fPygNat1/genomic_data/pacbio/m54144_190508_231823.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9932
+arima        *       1.5503
+pacbio       *       0.5424
+------------ ------ -------

@@ -1,5 +1,15 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      8153633359               0      2147483648      4256148707          452073  species/Branta_leucopsis/bBraLeu1/genomic_data/pacbio/m54158_170825_080111.subreads.bam
      5172164378               0      2147483648      2682037418          295284  species/Branta_leucopsis/bBraLeu1/genomic_data/pacbio/m54158_171013_073357.subreads.bam
     10083637406               0      2147483648      5253495171          555949  species/Branta_leucopsis/bBraLeu1/genomic_data/pacbio/m54158_171019_070837.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+pacbio       *       0.5208
+------------ ------ -------

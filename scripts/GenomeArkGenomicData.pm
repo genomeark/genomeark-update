@@ -172,16 +172,25 @@ sub loadSummaries ($$$) {
             s/^\s+//;
             s/\s+$//;
 
-            next   if m/bytes/;
-            next   if m/-----/;
+            next   if (m/^-/);
+            next   if (m/^$/);
 
-            my ($bytes, $date, $quant, $bases, $reads, $file) = split '\s+', $_;
+            my @v = split '\s+', $_;
 
-            if ($bases > 0) {
+            #   legacy
+            next   if (scalar(@v) == 0);
+            next   if ($v[0] eq "bytes");
+
+            if ((scalar(@v) == 6) && ($v[0] > 0)) {
+                my ($bytes, $date, $quant, $bases, $reads, $file) = @v;
+
                 $dataBytes{$file} = $bytes;
                 $dataQuant{$file} = $quant;
                 $dataBases{$file} = $bases;
                 $dataReads{$file} = $reads;
+            }
+            if ((scalar(@v == 3)) && ($v[2] > 0)) {
+                my ($type, $ext, $scale) = @v;
             }
         }
         close(ST);
@@ -207,17 +216,20 @@ sub loadSummaries ($$$) {
 #  Write all the summary information we know to the precomputed summary file.
 #
 sub writeSummaries ($) {
-    my $name  = shift @_;
+    my $data     = shift @_;
+    my $name     = $$data{"name_"};
 
     system("mkdir -p species/$name")   if (! -e "species/$name");
 
     open(ST, "> species/$name/genomic_data.summary") or die "Failed to open 'species/$name/genomic_data.summary' for writing: $!\n";
 
-    print ST "          bytes            date        quantity           bases           reads  file\n";
+    print ST "-  GENOMIC DATA FILE SUMMARIES\n";
+    print ST "-\n";
+    print ST "-         bytes            date        quantity           bases           reads  file\n";
     print ST "--------------- --------------- --------------- --------------- ---------------  ----------\n";
 
     foreach my $file (sort keys %dataBytes) {
-        my  $date = 0;
+        my  $date = 0;   #  For later use, maybe.
 
         next   if (! exists($dataBytes{$file}));
         next   if (! exists($dataQuant{$file}));
@@ -226,6 +238,25 @@ sub writeSummaries ($) {
 
         printf(ST "%15d %15d %15s %15d %15d  %s\n", $dataBytes{$file}, $date, $dataQuant{$file}, $dataBases{$file}, $dataReads{$file}, $file);
     }
+
+    print ST "--------------- --------------- --------------- --------------- ---------------  ----------\n";
+    print ST "\n";
+    print ST "-  GENOMIC DATA SCALING FACTORS\n";
+    print ST "-\n";
+    print ST "-   datatype suffix scaling\n";
+    print ST "------------ ------ -------\n";
+
+    foreach my $type (qw(10x arima dovetail illumina ont ontduplex pacbio pacbiohifi_fqgz pacbiohifi_bam pacbiohifi_clr phase)) {
+        my $scale = $$data{"data_${type}_scale"};
+
+        next   if (! defined($scale));
+        next   if ($scale <= 0.001);
+
+        printf(ST "%-12s %-6s %7.4f\n", $type, "*", $$data{"data_${type}_scale"});
+    }
+
+    print ST "------------ ------ -------\n";
+
     close(ST);
 }
 
@@ -461,7 +492,7 @@ sub estimateRawDataScaling ($$$$$$) {
     downloadPartAndSummarize($size2, $file2, $download, $errors);
     downloadPartAndSummarize($size3, $file3, $download, $errors);
 
-    writeSummaries($name);
+    writeSummaries($data);
 
     #  Get an estimate of (or, rarely, the actual) number of bases in each file.
 
@@ -492,6 +523,8 @@ sub estimateRawDataScaling ($$$$$$) {
         $scaling = 1.5   if ($file1 =~ m!genomic_data/arima!);         #  Bimodal, ~1.5 and ~1.8
         $scaling = 1.5   if ($file1 =~ m!genomic_data/dovetail!);
         $scaling = 1.8   if ($file1 =~ m!genomic_data/illumina!);
+        $scaling = 0.5   if ($file1 =~ m!genomic_data/ont!);           #  NOT TRUE!
+        $scaling = 1.1   if ($file1 =~ m!genomic_data/ont_duplex!);    #  NOT TRUE!
         $scaling = 0.5   if ($file1 =~ m!genomic_data/pacbio!);
         $scaling = 1.1   if ($file1 =~ m!genomic_data/pacbio_hifi!);
         $scaling = 1.6   if ($file1 =~ m!genomic_data/phase!);

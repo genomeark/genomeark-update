@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     22933911184               0      2147483648     44705214167       296061031  species/Tursiops_truncatus/mTurTru1/genomic_data/10x/mTurTru1_S1_L001_R1_001.fastq.gz
     20850229554               0      2147483648     40571447795       268685094  species/Tursiops_truncatus/mTurTru1/genomic_data/10x/mTurTru1_S2_L001_R1_001.fastq.gz
@@ -12,3 +14,14 @@
     10606573200               0      2147483648     19605410412       129837155  species/Tursiops_truncatus/mTurTru3/genomic_data/illumina/HGW3LDSXX_18819988_S61_L003_R2_001.fastq.gz
     10157053030               0      2147483648     18937362976       125413004  species/Tursiops_truncatus/mTurTru3/genomic_data/illumina/HGW3LDSXX_18819988_S61_L004_R1_001.fastq.gz
     11057125905               0      2147483648     20936697386       138653630  species/Tursiops_truncatus/mTurTru3/genomic_data/illumina/HGYV5DSXX_18819988_S9_L001_R2_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9463
+arima        *       1.4378
+illumina     *       1.8692
+pacbio       *       0.5430
+------------ ------ -------

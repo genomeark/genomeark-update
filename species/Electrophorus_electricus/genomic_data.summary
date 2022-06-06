@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      2239326562               0      2239326562      4483701135        29693385  species/Electrophorus_electricus/fEleEle1/genomic_data/10x/fEleEle1_S1_L001_R1_001.fastq.gz
      2831537547               0      2831537547      5686631612        37659812  species/Electrophorus_electricus/fEleEle1/genomic_data/10x/fEleEle1_S1_L003_R1_001.fastq.gz
@@ -9,3 +11,13 @@
     20300342999               0      2147483648     11154898056          521554  species/Electrophorus_electricus/fEleEle1/genomic_data/pacbio/m54062_190628_203223.subreads.bam
     22076378467               0      2147483648     12080510850          557572  species/Electrophorus_electricus/fEleEle1/genomic_data/pacbio/m54062_190629_064643.subreads.bam
     19244281605               0      2147483648     10578971403          455010  species/Electrophorus_electricus/fEleEle1/genomic_data/pacbio/m54144_190625_115013.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       2.0071
+arima        *       1.7813
+pacbio       *       0.5487
+------------ ------ -------

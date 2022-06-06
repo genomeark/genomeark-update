@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
       507212497               0       507212497       817075232       102134404  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/10x/mRhiFer1_S2_L008_I1_001.fastq.gz
      7859593115               0      2147483648     13243074503        87702483  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/10x/mRhiFer1_S4_L008_R1_001.fastq.gz
@@ -8,3 +10,13 @@
     10301902171               0      2147483648      5370915430          553961  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/pacbio/m54144_170729_162235.subreads.bam
     13935946790               0      2147483648     22659749513       150064566  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/phase/mRhiFer1_S3HiC_R1.fastq.gz
     16177977529               0      2147483648     23099710375       152978221  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/phase/mRhiFer1_S3HiC_R2.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.5524
+pacbio       *       0.5241
+phase        *       1.4874
+------------ ------ -------

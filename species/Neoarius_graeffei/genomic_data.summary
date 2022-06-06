@@ -1,7 +1,20 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     92008459121               0      2147483648    187000609439      1246670772  species/Neoarius_graeffei/fNeoGra1/genomic_data/arima/fNeoGra1_Blue_Salmon_Catfish_R1_001.fastq.gz
     95515252916               0      2147483648    189912906772      1266086089  species/Neoarius_graeffei/fNeoGra1/genomic_data/arima/fNeoGra1_Blue_Salmon_Catfish_R2_001.fastq.gz
     13233472085               0      2147483648     14689244000          856820  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64055e_211026_201650.hifi_reads.fastq.gz
     13369636491               0      2147483648     15069422670          934119  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211004_150650.hifi_reads.fastq.gz
     11417918832               0      2147483648     12965912468          824063  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211006_001717.hifi_reads.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       2.0026
+pacbiohifi_fqgz *       1.1237
+pacbiohifi_bam *       1.1000
+pacbiohifi_clr *       1.1000
+------------ ------ -------

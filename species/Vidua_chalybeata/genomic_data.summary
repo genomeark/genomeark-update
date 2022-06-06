@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     23951159526               0      2147483648     43371530241       271072075  species/Vidua_chalybeata/bVidCha1/genomic_data/illumina/bVidCha1_S1_L008_R1_001.fastq.gz
     24481131496               0      2147483648     43539770934       272123579  species/Vidua_chalybeata/bVidCha1/genomic_data/illumina/bVidCha1_S1_L008_R2_001.fastq.gz
@@ -7,3 +9,13 @@
      1404810897               0      1404810897       369734156           49824  species/Vidua_chalybeata/bVidCha1/genomic_data/pacbio/m151005_123514_42153_c100905972550000001823210804301627_s1_p0.subreads.bam
     34551917172               0      2147483648     57296520975       381976822  species/Vidua_chalybeata/bVidCha2/genomic_data/arima/bVidCha2_2433-01_R1_001.fastq.gz
     39742799227               0      2147483648     57088265679       380588456  species/Vidua_chalybeata/bVidCha2/genomic_data/arima/bVidCha2_2433-01_R2_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.5036
+illumina     *       1.7891
+pacbio       *       0.2608
+------------ ------ -------

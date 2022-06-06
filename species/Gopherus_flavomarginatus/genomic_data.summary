@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     11024069105               0      2147483648     20464107283       135523894  species/Gopherus_flavomarginatus/rGopFla1/genomic_data/illumina/HGW3LDSXX_18819994_S54_L002_R2_001.fastq.gz
     10470425702               0      2147483648     19361290033       128220468  species/Gopherus_flavomarginatus/rGopFla1/genomic_data/illumina/HGW3LDSXX_18819994_S54_L004_R1_001.fastq.gz
@@ -11,3 +13,14 @@
     21183781009               0      2147483648     11373116358          703375  species/Gopherus_flavomarginatus/rGopFla2/genomic_data/pacbio/m54307_190405_155618.subreads.bam
     20019776788               0      2147483648     10706095961          691351  species/Gopherus_flavomarginatus/rGopFla2/genomic_data/pacbio/m54307_190406_021106.subreads.bam
     10068792342               0      2147483648     18925890559       125337028  species/Gopherus_flavomarginatus/rGopFla3/genomic_data/illumina/HGW3LDSXX_18819996_S58_L003_R1_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9829
+arima        *       1.4505
+illumina     *       1.8613
+pacbio       *       0.5361
+------------ ------ -------

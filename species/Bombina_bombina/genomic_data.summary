@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     49596196415               0      2147483648    101786802783       674084809  species/Bombina_bombina/aBomBom1/genomic_data/10x/aBomBom1_S1_L001_R1_001.fastq.gz
     41471560898               0      2147483648     84825848149       561760603  species/Bombina_bombina/aBomBom1/genomic_data/10x/aBomBom1_S1_L002_R1_001.fastq.gz
@@ -8,3 +10,13 @@
    308446287572               0      2147483648    162592954336         7207572  species/Bombina_bombina/aBomBom1/genomic_data/pacbio/m54345U_201016_114938.subreads.bam
    301025822056               0      2147483648    158441594017         7023101  species/Bombina_bombina/aBomBom1/genomic_data/pacbio/m54345U_201017_032949.subreads.bam
    275584242862               0      2147483648    146919373713         6374353  species/Bombina_bombina/aBomBom1/genomic_data/pacbio/m54345U_201028_213910.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       2.0056
+arima        *       1.9954
+pacbio       *       0.5287
+------------ ------ -------

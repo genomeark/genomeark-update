@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      5743954108               0      2147483648     11189009836        74593398  species/Alca_torda/bAlcTor1/genomic_data/10x/bAlcTor1_S1_L002_R1_001.fastq.gz
      5831335321               0      2147483648     11331015852        75540108  species/Alca_torda/bAlcTor1/genomic_data/10x/bAlcTor1_S1_L002_R2_001.fastq.gz
@@ -8,3 +10,13 @@
     14821872443               0      2147483648      8013709196          626788  species/Alca_torda/bAlcTor1/genomic_data/pacbio/m54159_180620_210726.subreads.bam
     14715756176               0      2147483648      7930532809          636266  species/Alca_torda/bAlcTor1/genomic_data/pacbio/m54159_180623_065439.subreads.bam
     13882326345               0      2147483648      7450452277          572525  species/Alca_torda/bAlcTor1/genomic_data/pacbio/m54159_180624_133358.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9451
+arima        *       1.8449
+pacbio       *       0.5388
+------------ ------ -------

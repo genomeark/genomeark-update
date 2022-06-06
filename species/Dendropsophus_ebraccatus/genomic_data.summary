@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      2863629375               0      2863629375      3658838048       457354756  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/10x/aDenEbr1_S1_L002_I1_001.fastq.gz
     35681245005               0      2147483648     68595635610       457304237  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/10x/aDenEbr1_S1_L002_R1_001.fastq.gz
@@ -12,3 +14,14 @@
     10139043884               0      2147483648     18391830453       121800206  species/Dendropsophus_ebraccatus/aDenEbr4/genomic_data/illumina/HGW3LDSXX_18819980_S66_L004_R2_001.fastq.gz
     11899059965               0      2147483648     22390245713       148279778  species/Dendropsophus_ebraccatus/aDenEbr5/genomic_data/illumina/HGW2VDSXX_18820006_S8_L001_R1_001.fastq.gz
      8518650696               0      2147483648     15992594978       105911228  species/Dendropsophus_ebraccatus/aDenEbr5/genomic_data/illumina/HGW3LDSXX_18820006_S60_L002_R1_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8677
+arima        *       1.7140
+illumina     *       1.8580
+pacbio       *       0.5390
+------------ ------ -------

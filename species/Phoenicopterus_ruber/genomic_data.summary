@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      4167036315               0      4167036315      8163090150        54420601  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/10x/bPhoRub1_S2_L004_R1_001.fastq.gz
      3382763980               0      3382763980      6626430150        44176201  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/10x/bPhoRub1_S4_L004_R1_001.fastq.gz
@@ -9,3 +11,13 @@
     18128022872               0      2147483648      9755225810          682674  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/pacbio/m54159_180606_204153.subreads.bam
     19284924493               0      2147483648     10403206701          668534  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/pacbio/m54159_180608_062125.subreads.bam
     16701528099               0      2147483648      8973201797          613236  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/pacbio/m54159_180609_130822.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9511
+arima        *       1.8694
+pacbio       *       0.5383
+------------ ------ -------

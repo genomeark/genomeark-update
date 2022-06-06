@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      9357592183               0      2147483648     13848391521        91711206  species/Trachurus_trachurus/fTraTra1/genomic_data/10x/fTraTra1_S1_L008_R2_001.fastq.gz
      8923446635               0      2147483648     13214182053        87511139  species/Trachurus_trachurus/fTraTra1/genomic_data/10x/fTraTra1_S2_L008_R2_001.fastq.gz
@@ -7,3 +9,13 @@
      9451194861               0      2147483648     14197200232        94021197  species/Trachurus_trachurus/fTraTra1/genomic_data/arima/fTraTra1_32266_1#1_R2.fastq.gz
      9550076604               0      2147483648     14339145469        94961232  species/Trachurus_trachurus/fTraTra1/genomic_data/arima/fTraTra1_32266_2#1_R2.fastq.gz
    266283139177               0      2147483648    138526404970         8195383  species/Trachurus_trachurus/fTraTra1/genomic_data/pacbio/m64016_190705_154522.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.4600
+arima        *       1.5188
+pacbio       *       0.5202
+------------ ------ -------

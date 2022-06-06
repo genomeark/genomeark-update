@@ -1,4 +1,14 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     71560121088               0      2147483648    133351693433       883123830  species/Acipenser_naccarii/fAciNac1/genomic_data/arima/fAciNac1_S1_L001_R1_001.fastq.gz
     73438358409               0      2147483648    134246756196       889051399  species/Acipenser_naccarii/fAciNac1/genomic_data/arima/fAciNac1_S1_L001_R2_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.8396
+------------ ------ -------

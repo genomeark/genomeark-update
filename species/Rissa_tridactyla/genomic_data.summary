@@ -1,6 +1,19 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     39753221525               0      2147483648     77786143840       518574310  species/Rissa_tridactyla/bRisTri1/genomic_data/arima/bRisTri1_Black-Legged_Kittiwake_R1.fastq.gz
     40486357527               0      2147483648     77764168073       518427806  species/Rissa_tridactyla/bRisTri1/genomic_data/arima/bRisTri1_Black-Legged_Kittiwake_R2.fastq.gz
     19297503105               0      2147483648     23331040855         1682970  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64330e_220202_202307.hifi_reads.fastq.gz
     16949576387               0      2147483648     19822661604         1454470  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64334e_220124_201227.hifi_reads.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.9325
+pacbiohifi_fqgz *       1.1969
+pacbiohifi_bam *       1.1000
+pacbiohifi_clr *       1.1000
+------------ ------ -------

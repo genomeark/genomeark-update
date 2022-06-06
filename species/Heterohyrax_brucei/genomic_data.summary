@@ -1,5 +1,17 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      9189527880               0      2147483648     20180289651       133644306  species/Heterohyrax_brucei/mHetBru1/genomic_data/arima/L78729_Track-121211_R1.fastq.gz
      4630684936               0      2147483648      9918793647        65687377  species/Heterohyrax_brucei/mHetBru1/genomic_data/arima/L78729_Track-123468_R2.fastq.gz
     58891400982               0      2147483648    126750683013       839408524  species/Heterohyrax_brucei/mHetBru1/genomic_data/arima/L81817_Track-124616_R1.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       2.1571
+pacbiohifi_bam *       1.1000
+pacbiohifi_clr *       1.1000
+------------ ------ -------

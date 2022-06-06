@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      4621211441               0      2147483648      8667561783        57401071  species/Chelmon_rostratus/fCheRos1/genomic_data/10x/fCheRos1_S1_L001_R1_001.fastq.gz
      8094290340               0      2147483648     15222662790       100812336  species/Chelmon_rostratus/fCheRos1/genomic_data/10x/fCheRos1_S1_L002_R1_001.fastq.gz
@@ -9,3 +11,13 @@
     17443010515               0      2147483648      9376498124          699845  species/Chelmon_rostratus/fCheRos1/genomic_data/pacbio/m54062_190618_234433.subreads.bam
     15496102227               0      2147483648      8346752405          596043  species/Chelmon_rostratus/fCheRos1/genomic_data/pacbio/m54062_190620_195901.subreads.bam
     10501474428               0      2147483648      5674229688          391239  species/Chelmon_rostratus/fCheRos1/genomic_data/pacbio/m54062_190621_061329.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8824
+arima        *       1.5601
+pacbio       *       0.5386
+------------ ------ -------

@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     16670510009               0      2147483648     33027806431       218727202  species/Lemur_catta/mLemCat1/genomic_data/10x/mLemCat1_S1_L001_R1_001.fastq.gz
     18801254733               0      2147483648     37441711016       247958351  species/Lemur_catta/mLemCat1/genomic_data/10x/mLemCat1_S2_L001_R1_001.fastq.gz
@@ -12,3 +14,15 @@
     16992658489               0      2147483648      8486510847          496426  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210210_175526.Q20.fastq
     23666183779               0      2147483648     11819199089          706850  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210214_142746.Q20.fastq
     18860343791               0      2147483648      9418097749          613784  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210221_171127.Q20.fastq
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9871
+arima        *       1.5120
+pacbio       *       0.5373
+pacbiohifi_bam *       1.1000
+pacbiohifi_clr *       1.1000
+------------ ------ -------

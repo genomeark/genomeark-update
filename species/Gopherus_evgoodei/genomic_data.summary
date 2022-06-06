@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     20131299323               0      2147483648     39025156491       260167719  species/Gopherus_evgoodei/rGopEvg1/genomic_data/10x/rGopEvg1_S2_L004_R2_001.fastq.gz
     16991577397               0      2147483648     33374896031       222499306  species/Gopherus_evgoodei/rGopEvg1/genomic_data/10x/rGopEvg1_S3_L004_R1_001.fastq.gz
@@ -9,3 +11,13 @@
     14286206333               0      2147483648      7631500849          622045  species/Gopherus_evgoodei/rGopEvg1/genomic_data/pacbio/m54158_180328_150437.subreads.bam
     16659213223               0      2147483648      8962803148          642713  species/Gopherus_evgoodei/rGopEvg1/genomic_data/pacbio/m54159_180328_194345.subreads.bam
     15809680451               0      2147483648      8433366704          743896  species/Gopherus_evgoodei/rGopEvg1/genomic_data/pacbio/m54159_180329_055441.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       2.0171
+arima        *       1.7367
+pacbio       *       0.5352
+------------ ------ -------

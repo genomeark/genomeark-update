@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
       830169741               0       830169741       900931088       112616386  species/Caprimulgus_europaeus/bCapEur3/genomic_data/10x/bCapEur3_S1_L006_I1_001.fastq.gz
     11146669811               0      2147483648     16996092311       112556902  species/Caprimulgus_europaeus/bCapEur3/genomic_data/10x/bCapEur3_S1_L006_R1_001.fastq.gz
@@ -7,3 +9,13 @@
     12017546868               0      2147483648     18040833367       119475723  species/Caprimulgus_europaeus/bCapEur3/genomic_data/arima/bCapEur3_35874_7#1_R2.fastq.gz
     11835275943               0      2147483648     17882564995       118427582  species/Caprimulgus_europaeus/bCapEur3/genomic_data/arima/bCapEur3_35874_8#1_R2.fastq.gz
    305338570638               0      2147483648    159285352981         7850566  species/Caprimulgus_europaeus/bCapEur3/genomic_data/pacbio/m64094_200309_162832.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.5102
+arima        *       1.5730
+pacbio       *       0.5216
+------------ ------ -------

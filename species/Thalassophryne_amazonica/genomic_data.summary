@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     11523482453               0      2147483648     15967436190       105744615  species/Thalassophryne_amazonica/fThaAma1/genomic_data/10x/fThaAma1_S2_L004_R2_001.fastq.gz
      9164221094               0      2147483648     12837596081        85017192  species/Thalassophryne_amazonica/fThaAma1/genomic_data/10x/fThaAma1_S3_L003_R2_001.fastq.gz
@@ -12,3 +14,14 @@
     13025496339               0      2147483648      6875559692          790270  species/Thalassophryne_amazonica/fThaAma1/genomic_data/pacbio/m54097_180510_133022.subreads.bam
     12502350481               0      2147483648      6625318091          713370  species/Thalassophryne_amazonica/fThaAma1/genomic_data/pacbio/m54097_180516_081914.subreads.bam
     13667751654               0      2147483648      7261129133          756432  species/Thalassophryne_amazonica/fThaAma1/genomic_data/pacbio/m54097_180528_114207.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.3805
+arima        *       1.4962
+dovetail     *       1.5457
+pacbio       *       0.5297
+------------ ------ -------

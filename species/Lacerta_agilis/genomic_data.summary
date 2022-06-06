@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     40537029177               0      2147483648     74797090924       498647291  species/Lacerta_agilis/rLacAgi1/genomic_data/10x/rLacAgi1_S4_L001_R1_001.fastq.gz
     41419590234               0      2147483648     75360729308       502404881  species/Lacerta_agilis/rLacAgi1/genomic_data/10x/rLacAgi1_S4_L001_R2_001.fastq.gz
@@ -8,3 +10,13 @@
     12899204936               0      2147483648      6902628842          565569  species/Lacerta_agilis/rLacAgi1/genomic_data/pacbio/m54158_180810_175709.subreads.bam
     10964333356               0      2147483648      5830120457          480642  species/Lacerta_agilis/rLacAgi1/genomic_data/pacbio/m54159_180804_072119.subreads.bam
     13765056895               0      2147483648      7365962599          507250  species/Lacerta_agilis/rLacAgi1/genomic_data/pacbio/m54159_180815_055511.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8278
+arima        *       1.8656
+pacbio       *       0.5341
+------------ ------ -------

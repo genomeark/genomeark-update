@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
       834091231               0       834091231       911954128       113994266  species/Rana_temporaria/aRanTem1/genomic_data/10x/aRanTem1_S2_L007_I1_001.fastq.gz
     11656494287               0      2147483648     17018353650       112704334  species/Rana_temporaria/aRanTem1/genomic_data/10x/aRanTem1_S3_L007_R2_001.fastq.gz
@@ -9,3 +11,13 @@
    217575826783               0      2147483648    112066222686         6193992  species/Rana_temporaria/aRanTem1/genomic_data/pacbio/m64016_190404_160139.subreads.bam
    208657203784               0      2147483648    107798231986         5783273  species/Rana_temporaria/aRanTem1/genomic_data/pacbio/m64016_190408_142357.subreads.bam
    195953008709               0      2147483648    100141021055         5825802  species/Rana_temporaria/aRanTem1/genomic_data/pacbio/m64016_190410_170148.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.5012
+dovetail     *       1.4144
+pacbio       *       0.5143
+------------ ------ -------

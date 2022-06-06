@@ -3,23 +3,56 @@ package GenomeArkAccumulateData;
 require Exporter;
 
 @ISA    = qw(Exporter);
-@EXPORT = qw(accumulateData);
+@EXPORT = qw(scanDataName accumulateData);
 
 use strict;
 use warnings;
 
 #
-#  Given input filesize and filename, accumulate the file into three lists
-#  separated by datatype:
+#  Given input filesecs and filename, scanDataName updates the 'modified' date
+#  for the species, and builds a private hash of the filenames present.  This
+#  is used later to check for bam files without a corresponding fastq file.
 #
+#  Given input filesize and filename, accumulateData places the filename into
+#  three lists separated by datatype:
 #    seqFiles{datatype} - list of filesizes and filenames for this datatype
 #    seqBytes{datatype} - total size of files for this datatype
 #    seqIndiv{datatype} - NUL separated list of individuals with data for this datatype
 #
 
-sub accumulateData ($$$$$$) {
+my %filenames;
+
+sub scanDataName ($$$$) {
+    my $filesecs = shift @_;   #  Input:  upload time of the data file.
     my $filesize = shift @_;   #  Input:  size in bytes of the data file.
     my $filename = shift @_;   #  Input:  name of the data file.
+    my $data     = shift @_;   #  In/Out: data for this species.
+
+    if (!exists($filenames{$$data{"name_"}})) {   #  If this is the first time we've seen
+        undef %filenames;                         #  this species, wipe all data.
+        $filenames{$$data{"name_"}} = 1;
+    }
+
+    if ($$data{"last_updated"} < $filesecs) {
+        $$data{"last_updated"} = $filesecs;
+    }
+    if ((! exists($$data{"last_raw_data"})) ||
+        ($$data{"last_raw_data"} < $filesecs)) {   #  If this isn't set, Raw Data shows
+        $$data{"last_raw_data"} = $filesecs;       #  "No data.".
+    }
+
+    #  Save the name of any pacbio_hifi fastq files.
+    if ($filename =~ m!pacbio_hifi/(.*)\.f(ast){0,1}q$!) {
+        $filenames{$1} = 1;
+    }
+}
+
+
+sub accumulateData ($$$$$$$$) {
+    my $filesecs = shift @_;   #  Input:  upload time of the data file.
+    my $filesize = shift @_;   #  Input:  size in bytes of the data file.
+    my $filename = shift @_;   #  Input:  name of the data file.
+    my $data     = shift @_;   #  In/Out: data for this species.
     my $seqFiles = shift @_;   #  In/Out: list of file names by sequence type.  (technically "size name")
     my $seqBytes = shift @_;   #  In/Out: sum  of file sizes by sequence type.
     my $seqIndiv = shift @_;   #  In/Out: list of individual by sequence type.
@@ -131,11 +164,7 @@ sub accumulateData ($$$$$$) {
     }
 
 
-    #  Nanopore
-    #
-    #if ($filename =~ m!/genomic_data/ont/!) {
-    #}
-    #  Nanopore
+    #  Oxford Nanopore
     #
     if ($filename =~ m!/genomic_data/ont/!) {
         #return if ($filename =~ m/txt$/);
@@ -144,9 +173,9 @@ sub accumulateData ($$$$$$) {
 
         if (($filename =~ m/fastq.gz/) ||
             ($filename =~ m/fq.gz/)) {
-            $$seqFiles{"nanopore"} .= $sf;
-            $$seqBytes{"nanopore"} += $sb;
-            $$seqIndiv{"nanopore"} .= $si;
+            $$seqFiles{"ont"} .= $sf;
+            $$seqBytes{"ont"} += $sb;
+            $$seqIndiv{"ont"} .= $si;
         } else {
             push @$errors, "  Unknown ont file type in '$filename'\n";
         }
@@ -161,9 +190,9 @@ sub accumulateData ($$$$$$) {
 
         if (($filename =~ m/fastq.gz/) ||
             ($filename =~ m/fq.gz/)) {
-            $$seqFiles{"nanopore"} .= $sf;
-            $$seqBytes{"nanopore"} += $sb;
-            $$seqIndiv{"nanopore"} .= $si;
+            $$seqFiles{"ontduplex"} .= $sf;
+            $$seqBytes{"ontduplex"} += $sb;
+            $$seqIndiv{"ontduplex"} .= $si;
         } else {
             push @$errors, "  Unknown ont_duplex file type in '$filename'\n";
         }
@@ -189,15 +218,15 @@ sub accumulateData ($$$$$$) {
 
         #  Normal CLR data.
         if    ($filename =~ m/subreads.bam\.pbi$/) {
-            $$seqBytes{"pbclr"} += $sb;
+            $$seqBytes{"pacbio"} += $sb;
         }
         elsif ($filename =~ m/subreads.bam\.bai$/) {
-            $$seqBytes{"pbclr"} += $sb;
+            $$seqBytes{"pacbio"} += $sb;
         }
         elsif ($filename =~ m/subreads.bam$/) {
-            $$seqFiles{"pbclr"} .= $sf;
-            $$seqBytes{"pbclr"} += $sb;
-            $$seqIndiv{"pbclr"} .= $si;
+            $$seqFiles{"pacbio"} .= $sf;
+            $$seqBytes{"pacbio"} += $sb;
+            $$seqIndiv{"pacbio"} .= $si;
         }
 
         else {
@@ -223,9 +252,9 @@ sub accumulateData ($$$$$$) {
                ($filename =~ m/\.reads\.f(ast){0,1}q\.gz$/) ||
                ($filename =~ m/\.ccs.bc.*\.f(ast){0,1}q\.gz$/) ||
                ($filename =~ m/\.Q20\.f(ast){0,1}q\.gz$/)) {
-            $$seqFiles{"pbhifi"} .= $sf;
-            $$seqBytes{"pbhifi"} += $sb;
-            $$seqIndiv{"pbhifi"} .= $si;
+            $$seqFiles{"pacbiohifi_fqgz"} .= $sf;
+            $$seqBytes{"pacbiohifi_fqgz"} += $sb;
+            $$seqIndiv{"pacbiohifi_fqgz"} .= $si;
         }
 
         elsif (($filename =~ m/\.hifi_reads\.f(ast){0,1}q$/) ||
@@ -235,41 +264,51 @@ sub accumulateData ($$$$$$) {
             if ($warning) {
                 push @$errors, "  WARNING: uncompressed pacbio_hifi '$filename'\n";
             }
-            $$seqFiles{"pbhifi"} .= $sf;
-            $$seqBytes{"pbhifi"} += $sb;
-            $$seqIndiv{"pbhifi"} .= $si;
+            #$$seqFiles{"pacbiohifi"} .= $sf;
+            #$$seqBytes{"pacbiohifi"} += $sb;
+            #$$seqIndiv{"pacbiohifi"} .= $si;
         }
 
-#
-#  need to check for .bam without .fasta
-#
-
-        elsif (($filename =~ m/\.hifi_reads\.bam\.pbi$/) || ($filename =~ m/\.reads\.bam\.pbi$/) || ($filename =~ m/\.ccs.bc.*\.bam\.pbi$/) || 
-               ($filename =~ m/\.hifi_reads\.bam\.bai$/) || ($filename =~ m/\.reads\.bam\.bai$/) || ($filename =~ m/\.ccs.bc.*\.bam\.bai$/)) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif (($filename =~ m/\.hifi_reads\.bam$/)      || ($filename =~ m/\.reads\.bam$/)      || ($filename =~ m/\.ccs.bc.*\.bam$/)) {
-            $$seqBytes{"pbhifi"} += $sb;
+        elsif (($filename =~ m/\.hifi_reads\.bam\.bai$/) ||
+               ($filename =~ m/\.hifi_reads\.bam\.pbi$/) ||
+               ($filename =~ m/\.ccs.bam\.pbi$/) ||
+               ($filename =~ m/\.ccs.bam\.bai$/) ||
+               ($filename =~ m/\.ccs.bc.*\.bam\.pbi$/) ||
+               ($filename =~ m/\.ccs.bc.*\.bam\.bai$/)) {
+            $$seqBytes{"pacbiohifi_bam"} += $sb;
         }
 
-        #  Ingore unfiltered data.
-
-        elsif (($filename =~ m/\.hifi_reads\.bam\.pbi$/) || ($filename =~ m/\.reads\.bam\.pbi$/) || ($filename =~ m/\.ccs\.bam\.pbi$/) || 
-               ($filename =~ m/\.hifi_reads\.bam\.bai$/) || ($filename =~ m/\.reads\.bam\.bai$/) || ($filename =~ m/\.ccs\.bam\.bai$/)) {
-            $$seqBytes{"pbhifi"} += $sb;
-        }
-        elsif (($filename =~ m/\.hifi_reads\.bam$/)      || ($filename =~ m/\.reads\.bam$/)      || ($filename =~ m/\.ccs\.bam$/)) {
-            $$seqBytes{"pbhifi"} += $sb;
+        elsif (($filename =~ m/\.hifi_reads\.bam$/) ||
+               ($filename =~ m/\.ccs.bam$/) ||
+               ($filename =~ m/\.ccs.bc.*\.bam$/)) {
+            $$seqFiles{"pacbiohifi_bam"} .= $sf;
+            $$seqBytes{"pacbiohifi_bam"} += $sb;
+            $$seqIndiv{"pacbiohifi_bam"} .= $si;
         }
 
-        #  Ignore unprocessed data.
+        #  Ignore unfiltered data, but warn if there isn't a corresponding fastq for it.
 
         elsif (($filename =~ m/\.subreads\.bam\.pbi$/) ||
-               ($filename =~ m/\.subreads\.bam\.bai$/)) {
-            $$seqBytes{"pbhifi"} += $sb;
+               ($filename =~ m/\.reads\.bam\.pbi$/)) {
+            $$seqBytes{"pacbiohifi_clr"} += $sb;
         }
-        elsif ($filename =~ m/\.subreads\.bam$/) {
-            $$seqBytes{"pbhifi"} += $sb;
+        elsif (($filename =~ m/\.subreads\.bam\.bai$/) ||
+               ($filename =~ m/\.reads\.bam\.bai$/)) {
+            $$seqBytes{"pacbiohifi_clr"} += $sb;
+        }
+        elsif (($filename =~ m/\.subreads\.bam$/) ||
+               ($filename =~ m/\.reads\.bam$/)) {
+            $$seqFiles{"pacbiohifi_clr"} .= $sf;
+            $$seqBytes{"pacbiohifi_clr"} += $sb;
+            $$seqIndiv{"pacbiohifi_clr"} .= $si;
+
+            #  Check that this bam has a corresponding fastq file.
+            #    Accipiter_gentilis
+            #if ($filename =~ m!pacbio_hifi/(.*)\.bam$!) {
+            #    if (! exists($filenames{$1})) {
+            #        push @$errors, "  No filtered hifi for '$filename'\n";
+            #    }
+            #}
         }
 
         #  Otherwise report confusion.

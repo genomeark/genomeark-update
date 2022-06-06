@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     19188242986               0      2147483648     38217132579       254780883  species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/10x/mTacAcu1_S2_L004_R1_001.fastq.gz
     15445818191               0      2147483648     30708990647       204726604  species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/10x/mTacAcu1_S3_L004_R1_001.fastq.gz
@@ -8,3 +10,13 @@
       656746829               0       656746829       179883843           21316  species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/pacbio/m160829_083634_42133_c101092532550000001823253903091712_s1_p0.subreads.bam
     12412735566               0      2147483648     21072503203       208638651  species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/phase/mTacAcu1_S17_L007_R1_L001_001.fastq.gz
     12661802874               0      2147483648     21476308698       212636725  species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/phase/mTacAcu1_S17_L007_R2_L001_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9918
+pacbio       *       0.2585
+phase        *       1.6966
+------------ ------ -------

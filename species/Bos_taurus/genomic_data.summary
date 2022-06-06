@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     16377359416               0      2147483648     29703400571       196711262  species/Bos_taurus/mBosTau1/genomic_data/10x/mBosTau1_S1_L001_R1_001.fastq.gz
     19373027486               0      2147483648     35231044972       233318178  species/Bos_taurus/mBosTau1/genomic_data/10x/mBosTau1_S2_L001_R1_001.fastq.gz
@@ -11,3 +13,14 @@
      3699222855               0      3699222855      1904449147          176861  species/Bos_taurus/mBosTau1/genomic_data/pacbio/m54033_170429_162706.subreads.bam
      9539540333               0      2147483648     16391110044       204888875  species/Bos_taurus/mBosTau1/genomic_data/phase/mBosTau1_S3HiC_AD005_R1.fastq.gz
     10306762925               0      2147483648     16387211478       204840148  species/Bos_taurus/mBosTau1/genomic_data/phase/mBosTau1_S3HiC_AD005_R2.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8139
+illumina     *       1.4393
+pacbio       *       0.3467
+phase        *       1.6305
+------------ ------ -------

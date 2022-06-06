@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     69774571018               0      2147483648     74270711995         2802408  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAG26815_guppy-5.0.12.fastq.gz
     83062142971               0      2147483648     87761035894         4954796  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAI19139_guppy-5.0.12.fastq.gz
@@ -9,3 +11,14 @@
     11384243110               0      2147483648     22616661293       149779219  species/Gorilla_gorilla/mGorGor2/genomic_data/illumina/mGorGor2_HNFNCDSX2_19164900_S14_L003_R2_001.fastq.gz
     13598212238               0      2147483648     27418138932       181577079  species/Gorilla_gorilla/mGorGor3/genomic_data/illumina/mGorGor3_HNFNCDSX2_19164896_S18_L002_R1_001.fastq.gz
     10899638354               0      2147483648     20126795335       133290040  species/Gorilla_gorilla/mGorGor3/genomic_data/illumina/mGorGor3_HT2N2DSX2_19164896_S16_L001_R2_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+illumina     *       1.9553
+ont          *       1.0629
+pacbiohifi_fqgz *       1.2514
+pacbiohifi_clr *       1.1000
+------------ ------ -------

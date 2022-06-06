@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     36329645983               0      2147483648     60745306271       404968725  species/Nomonyx_dominicus/bNomDom1/genomic_data/arima/bNomDom1_S_2476_R2_R1_001.fastq.gz
     43951558366               0      2147483648     59903959895       399359753  species/Nomonyx_dominicus/bNomDom1/genomic_data/arima/bNomDom1_S_2476_R2_R2_001.fastq.gz
@@ -7,3 +9,13 @@
     11622037154               0      2147483648      6252092278          529801  species/Nomonyx_dominicus/bNomDom1/genomic_data/pacbio/m54159_180420_213353.subreads.bam
     10439327133               0      2147483648      5611734132          489925  species/Nomonyx_dominicus/bNomDom1/genomic_data/pacbio/m54159_180421_074651.subreads.bam
     10982532542               0      2147483648      5908577772          523728  species/Nomonyx_dominicus/bNomDom1/genomic_data/pacbio/m54159_180515_071559.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.4533
+illumina     *       1.9533
+pacbio       *       0.5378
+------------ ------ -------

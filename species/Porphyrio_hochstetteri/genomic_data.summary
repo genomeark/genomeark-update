@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     41343370937               0      2147483648     60927344520       406182296  species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/arima/ARI_2476_7_R1.filtered.fastq.gz
     49090284003               0      2147483648     65109145175       434060990  species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/arima/ARI_2476_7_R2.filtered.fastq.gz
@@ -8,3 +10,14 @@
     24487347218               0      2147483648     50066630564       331567101  species/Porphyrio_hochstetteri/bPorHoc2/genomic_data/illumina/bPorHoc2_S2_R1_001.fastq.gz
     25982052252               0      2147483648     50605567066       335136217  species/Porphyrio_hochstetteri/bPorHoc2/genomic_data/illumina/bPorHoc2_S2_R2_001.fastq.gz
     17807113420               0      2147483648     34560922621       228880290  species/Porphyrio_hochstetteri/bPorHoc3/genomic_data/illumina/bPorHoc3_S3_R2_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.3699
+illumina     *       1.9806
+pacbiohifi_bam *       1.1000
+pacbiohifi_clr *       1.1000
+------------ ------ -------

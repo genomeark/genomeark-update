@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      6263935263               0      2147483648     11433913835        75721286  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/10x/bMelUnd1_S1_L001_R1_001.fastq.gz
     10261141879               0      2147483648     18704848798       123873175  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/10x/bMelUnd1_S2_L001_R1_001.fastq.gz
@@ -11,3 +13,14 @@
     10362436209               0      2147483648     19427633534       128659824  species/Melopsittacus_undulatus/bMelUnd2/genomic_data/illumina/HGW3LDSXX_18819998_S57_L002_R2_001.fastq.gz
      9936159718               0      2147483648     18338491162       121446961  species/Melopsittacus_undulatus/bMelUnd2/genomic_data/illumina/HGW3LDSXX_18819998_S57_L004_R2_001.fastq.gz
      9629055824               0      2147483648     17905641832       118580413  species/Melopsittacus_undulatus/bMelUnd3/genomic_data/illumina/HGW3LDSXX_18820000_S62_L004_R2_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8230
+arima        *       1.7581
+illumina     *       1.8602
+pacbio       *       0.5380
+------------ ------ -------

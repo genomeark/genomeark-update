@@ -1,7 +1,19 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      4934154928               0      2147483648      9779111139        64762325  species/Accipiter_gentilis/bAccGen1/genomic_data/10x/bAccGen1_S13_L002_R1_001.fastq.gz
       512345570               0       512345570       637384688        79673086  species/Accipiter_gentilis/bAccGen1/genomic_data/10x/bAccGen1_S15_L002_I1_001.fastq.gz
      5556542969               0      2147483648     10852227714        71869060  species/Accipiter_gentilis/bAccGen1/genomic_data/10x/bAccGen1_S16_L002_R2_001.fastq.gz
     16596260014               0      2147483648     34263470505       226910400  species/Accipiter_gentilis/bAccGen1/genomic_data/arima/bAccGen1_40520_4#1_R1.fastq.gz
     17499048738               0      2147483648     34766753229       230243407  species/Accipiter_gentilis/bAccGen1/genomic_data/arima/bAccGen1_40520_4#1_R2.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9329
+arima        *       2.0117
+pacbiohifi_bam *       1.1000
+------------ ------ -------

@@ -1,7 +1,20 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     21896452435               0      2147483648     40164247440       265988403  species/Podargus_strigoides/bPodStr1/genomic_data/arima/bPodStr1_S2_L001_R1_001.fastq.gz
     22697929497               0      2147483648     40149816032       265892831  species/Podargus_strigoides/bPodStr1/genomic_data/arima/bPodStr1_S2_L001_R2_001.fastq.gz
     13871838346               0      2147483648     16709019284         1131853  species/Podargus_strigoides/bPodStr1/genomic_data/pacbio_hifi/m54306Ue_211119_193335.hifi_reads.fastq.gz
      7071137332               0      2147483648      9626007456          658070  species/Podargus_strigoides/bPodStr1/genomic_data/pacbio_hifi/m54306Ue_211124_192821.hifi_reads.fastq.gz
      9366801385               0      2147483648     11537791163          742885  species/Podargus_strigoides/bPodStr1/genomic_data/pacbio_hifi/m64334e_211124_200249.hifi_reads.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.7901
+pacbiohifi_fqgz *       1.2495
+pacbiohifi_bam *       1.1000
+pacbiohifi_clr *       1.1000
+------------ ------ -------

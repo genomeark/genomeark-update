@@ -1,4 +1,14 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     37377571642               0      2147483648     70533474183       470223178  species/Ammodramus_maritimus/bAmmMai1/genomic_data/arima/bAmmMai1_Seaside_Sparrow_R1.fastq.gz
     38964498771               0      2147483648     71652086589       477680595  species/Ammodramus_maritimus/bAmmMai1/genomic_data/arima/bAmmMai1_Seaside_Sparrow_R2.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.8545
+------------ ------ -------

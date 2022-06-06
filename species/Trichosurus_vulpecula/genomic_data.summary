@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     14894851039               0      2147483648     29793980896       198626546  species/Trichosurus_vulpecula/mTriVul1/genomic_data/10x/mTriVul1_S1_L002_R2_001.fastq.gz
     16385844347               0      2147483648     32505089960       216700607  species/Trichosurus_vulpecula/mTriVul1/genomic_data/10x/mTriVul1_S2_L002_R1_001.fastq.gz
@@ -9,3 +11,13 @@
     11470799554               0      2147483648      6174536516          556974  species/Trichosurus_vulpecula/mTriVul1/genomic_data/pacbio/m54158_180704_155126.subreads.bam
     11869292432               0      2147483648      6407543960          549799  species/Trichosurus_vulpecula/mTriVul1/genomic_data/pacbio/m54159_180704_063940.subreads.bam
     10134723989               0      2147483648      5430821354          536759  species/Trichosurus_vulpecula/mTriVul1/genomic_data/pacbio/m54159_180705_132318.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9879
+arima        *       1.8067
+pacbio       *       0.5381
+------------ ------ -------

@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      2028002016               0      2028002016      2289235536       286154442  species/Falco_naumanni/bFalNau1/genomic_data/10x/bFalNau1_S6_L001_I1_001.fastq.gz
     22771509380               0      2147483648     43244201637       286385441  species/Falco_naumanni/bFalNau1/genomic_data/10x/bFalNau1_S6_L001_R1_001.fastq.gz
@@ -9,3 +11,14 @@
     20466314856               0      2147483648     39399099392       260921197  species/Falco_naumanni/bFalNau2/genomic_data/illumina/HKJFMDSXX_18867005_S29_L004_R1_001.fastq.gz
     24980522147               0      2147483648     48239308909       319465633  species/Falco_naumanni/bFalNau3/genomic_data/illumina/HKJFMDSXX_18867003_S30_L003_R2_001.fastq.gz
     24869955065               0      2147483648     48104393669       318572143  species/Falco_naumanni/bFalNau3/genomic_data/illumina/HKJFMDSXX_18867003_S30_L004_R1_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8502
+arima        *       1.6607
+illumina     *       1.9304
+pacbio       *       0.5198
+------------ ------ -------

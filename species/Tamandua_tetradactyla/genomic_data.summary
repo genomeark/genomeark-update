@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     20646966967               0      2147483648     40695534269       269506859  species/Tamandua_tetradactyla/mTamTet1/genomic_data/10x/mTamTet1_S1_L002_R1_001.fastq.gz
     16797661081               0      2147483648     33025060762       218709011  species/Tamandua_tetradactyla/mTamTet1/genomic_data/10x/mTamTet1_S1_L003_R1_001.fastq.gz
@@ -8,3 +10,13 @@
    225197209056               0      2147483648    119228521038         4408026  species/Tamandua_tetradactyla/mTamTet1/genomic_data/pacbio/m54345U_190817_051233.subreads.bam
    137797796721               0      2147483648     72492671858         2744106  species/Tamandua_tetradactyla/mTamTet1/genomic_data/pacbio/m54345U_190820_042951.subreads.bam
    129868663041               0      2147483648     68646668190         3212966  species/Tamandua_tetradactyla/mTamTet1/genomic_data/pacbio/m64046_190812_131015.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9689
+arima        *       1.8928
+pacbio       *       0.5282
+------------ ------ -------

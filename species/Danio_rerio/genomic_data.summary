@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     27490659106               0      2147483648     50536082601       202144330  species/Danio_rerio/fDreABH1/genomic_data/illumina/fDreABH1_20145#2_R2.fastq.gz
      9231570933               0      2147483648     13461139819        89146625  species/Danio_rerio/fDreSAT1/genomic_data/10x/fDreSAT1_S2_L008_R2_001.fastq.gz
@@ -11,3 +13,14 @@
     44129707481               0      2147483648     61870998266       409741710  species/Danio_rerio/fDreSAT3/genomic_data/dovetail/fDreSAT3_28791_5#1_R2.fastq.gz
     26315047276               0      2147483648     51236880838       204947535  species/Danio_rerio/fDreTuH1/genomic_data/illumina/fDreTuH1_20101#2_R1.fastq.gz
     28051348781               0      2147483648     50809210391       203236841  species/Danio_rerio/fDreTuH1/genomic_data/illumina/fDreTuH1_20101#2_R2.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.5224
+dovetail     *       1.4364
+illumina     *       1.8640
+pacbio       *       0.2650
+------------ ------ -------

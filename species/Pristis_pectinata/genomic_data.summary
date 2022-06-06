@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     14617316147               0      2147483648     26631073411       176364731  species/Pristis_pectinata/sPriPec2/genomic_data/10x/sPriPec2_S1_L001_R1_001.fastq.gz
     14076668016               0      2147483648     25555296116       169240378  species/Pristis_pectinata/sPriPec2/genomic_data/10x/sPriPec2_S2_L001_R1_001.fastq.gz
@@ -9,3 +11,13 @@
     20357927991               0      2147483648     11090960477          716035  species/Pristis_pectinata/sPriPec2/genomic_data/pacbio/m54159_181120_212118.subreads.bam
     18609401721               0      2147483648     10172809266          605860  species/Pristis_pectinata/sPriPec2/genomic_data/pacbio/m54159_181202_132735.subreads.bam
     17254318589               0      2147483648      9335881556          598791  species/Pristis_pectinata/sPriPec2/genomic_data/pacbio/m54159_181208_002540.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8195
+arima        *       1.7727
+pacbio       *       0.5442
+------------ ------ -------

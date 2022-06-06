@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     10562256806               0      2147483648     15512479568       102731657  species/Echeneis_naucrates/fEcheNa1/genomic_data/10x/fEcheNa1_S1_L007_R2_001.fastq.gz
       857468909               0       857468909      1005432424       125679053  species/Echeneis_naucrates/fEcheNa1/genomic_data/10x/fEcheNa1_S3_L007_I1_001.fastq.gz
@@ -8,3 +10,13 @@
     20022052467               0      2147483648     10735307964          750550  species/Echeneis_naucrates/fEcheNa1/genomic_data/pacbio/m54097_180829_185218.subreads.bam
     19018643775               0      2147483648     10123616289          870453  species/Echeneis_naucrates/fEcheNa1/genomic_data/pacbio/m54205_180823_163218.subreads.bam
     20594932257               0      2147483648     10988136773          882313  species/Echeneis_naucrates/fEcheNa1/genomic_data/pacbio/m54205_180825_133658.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.4620
+dovetail     *       1.5229
+pacbio       *       0.5340
+------------ ------ -------

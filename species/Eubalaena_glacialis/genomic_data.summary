@@ -1,5 +1,17 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     10592073968               0      2147483648     13272645349          865049  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210924_183319.hifi_reads.fastq.gz
     12075827802               0      2147483648     14199606363          932677  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210929_020717.hifi_reads.fastq.gz
      5720963869               0      2147483648      6565775922          438939  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64334e_211001_185602.hifi_reads.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+pacbiohifi_fqgz *       1.1989
+pacbiohifi_bam *       1.1000
+pacbiohifi_clr *       1.1000
+------------ ------ -------

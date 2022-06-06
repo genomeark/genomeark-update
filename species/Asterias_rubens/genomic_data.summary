@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     40371639104               0      2147483648     60962763370       403726909  species/Asterias_rubens/eAstRub1/genomic_data/dovetail/eAstRub1_28852_4#1_R1.fastq.gz
     43039194908               0      2147483648     61451038804       406960541  species/Asterias_rubens/eAstRub1/genomic_data/dovetail/eAstRub1_28852_4#1_R2.fastq.gz
@@ -7,3 +9,13 @@
     12976692548               0      2147483648      6782075713          974857  species/Asterias_rubens/eAstRub1/genomic_data/pacbio/m54097_181002_013059.subreads.bam
     10689022320               0      2147483648      5581904277          827249  species/Asterias_rubens/eAstRub1/genomic_data/pacbio/m54097_181008_215945.subreads.bam
     11655369602               0      2147483648      6077088841          943248  species/Asterias_rubens/eAstRub1/genomic_data/pacbio/m54205_181029_182833.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+dovetail     *       1.4540
+illumina     *       1.4094
+pacbio       *       0.5220
+------------ ------ -------

@@ -438,7 +438,7 @@ sub summarizeAssembly ($$$$$$$) {
     my ($sName, $aLabel, $sTag, $sNum, $prialt, $date, $secs, $curated, $err) = parseAssemblyName($filename, $filesecs, 0);
 
     if (defined($err)) {       #  Oops, something wrong.
-        return;                #  But we've already save the error, so just bail.
+        return;                #  But we've already saved the error, so just bail.
     }
 
     #return  if ($secs     ne $$data{"${prialt}${sNum}__datesecs"});
@@ -488,13 +488,14 @@ sub summarizeAssembly ($$$$$$$) {
 
 
 
-sub processAssembly3 ($$$$$) {
+sub importAssemblySummary ($$$$$$) {
     my $filesecs = shift @_;
     my $filesize = shift @_;
     my $filename = shift @_;
     my $filebase = $filename;   $filebase =~ s/.gz$//;
     my $data     = shift @_;
     my $errors   = shift @_;
+    my $missing  = shift @_;
 
     my ($sName, $aLabel, $sTag, $sNum, $prialt, $date, $secs, $curated, $err) = parseAssemblyName($filename, $filesecs, 0);
 

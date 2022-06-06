@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
       283110241               0       283110241       316440032        39555004  species/Archocentrus_centrarchus/fArcCen1/genomic_data/10x/fArcCen1_S1_L001_I1_001.fastq.gz
      4025922738               0      4025922738      5710975077        37821027  species/Archocentrus_centrarchus/fArcCen1/genomic_data/10x/fArcCen1_S1_L003_R2_001.fastq.gz
@@ -9,3 +11,13 @@
     18645370239               0      2147483648     28483278249       188630990  species/Archocentrus_centrarchus/fArcCen1/genomic_data/phase/fArcCen1_DDHiC_R1.fastq.gz
     18883715543               0      2147483648     28532834464       188959168  species/Archocentrus_centrarchus/fArcCen1/genomic_data/phase/fArcCen1_DDHiC_R2.fastq.gz
     11489337438               0      2147483648     18982631080       237282888  species/Archocentrus_centrarchus/fArcCen1/genomic_data/phase/fArcCen1_S3HiC_R2.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.4156
+pacbio       *       0.5383
+phase        *       1.5504
+------------ ------ -------

@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      2343019422               0      2343019422      2829441320       353680165  species/Grus_americana/bGruAme1/genomic_data/10x/bGruAme1_S3_L004_I1_001.fastq.gz
     28039395247               0      2147483648     54042666552       357898453  species/Grus_americana/bGruAme1/genomic_data/10x/bGruAme1_S3_L004_R1_001.fastq.gz
@@ -10,3 +12,14 @@
     23271535036               0      2147483648     44549199594       295027811  species/Grus_americana/bGruAme2/genomic_data/illumina/Crane1-bGruAme2_R2.fastq.gz
     21803432414               0      2147483648     44028303135       291578166  species/Grus_americana/bGruAme3/genomic_data/illumina/Crane2-bGruAme3_R1.fastq.gz
     22934559899               0      2147483648     44464376257       294466078  species/Grus_americana/bGruAme3/genomic_data/illumina/Crane2-bGruAme3_R2.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8776
+arima        *       1.4496
+illumina     *       1.9562
+pacbio       *       0.5167
+------------ ------ -------

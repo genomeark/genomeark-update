@@ -1,5 +1,15 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      5747954759               0      2147483648      3012097662          310713  species/Turdus_merula/bTurMer1/genomic_data/pacbio/m54089_161111_133531.subreads.bam
     10010620203               0      2147483648      5266420888          564663  species/Turdus_merula/bTurMer1/genomic_data/pacbio/m54089_161118_214553.subreads.bam
      8816524377               0      2147483648      4558987857          764475  species/Turdus_merula/bTurMer1/genomic_data/pacbio/m54089_161214_004321.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+pacbio       *       0.5223
+------------ ------ -------

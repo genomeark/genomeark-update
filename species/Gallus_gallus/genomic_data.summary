@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      5138314081               0      2147483648      9873692517        65388694  species/Gallus_gallus/bGalGal1/genomic_data/10x/bGalGal1_S1_L005_R1_001.fastq.gz
      3287801825               0      3287801825      6266246773        41498323  species/Gallus_gallus/bGalGal1/genomic_data/10x/bGalGal1_S2_L005_R1_001.fastq.gz
@@ -15,3 +17,17 @@
     16050636313               0      2147483648     27502222094       183348147  species/Gallus_gallus/bGalGal5/genomic_data/arima/bGalGal5_2450_14_L003_R1_001.fastq.gz
     18949447637               0      2147483648     27515587081       183437256  species/Gallus_gallus/bGalGal5/genomic_data/arima/bGalGal5_2450_14_L003_R2_001.fastq.gz
     10660432996               0      2147483648     16927546500         1395566  species/Gallus_gallus/bGalGal5/genomic_data/pacbio_hifi/m54306U_191220_191440.Q20.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9034
+arima        *       1.5971
+illumina     *       1.8860
+pacbio       *       0.5393
+pacbiohifi_fqgz *       1.1000
+pacbiohifi_bam *       1.1000
+pacbiohifi_clr *       1.1000
+------------ ------ -------

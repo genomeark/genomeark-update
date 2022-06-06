@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      9181375143               0      2147483648     13499961960        89403725  species/Scyliorhinus_canicula/sScyCan1/genomic_data/10x/sScyCan1_S1_L001_R1_001.fastq.gz
      9740715153               0      2147483648     13248846838        87740707  species/Scyliorhinus_canicula/sScyCan1/genomic_data/10x/sScyCan1_S2_L004_R2_001.fastq.gz
@@ -9,3 +11,13 @@
     12385763599               0      2147483648      6602901532          638579  species/Scyliorhinus_canicula/sScyCan1/genomic_data/pacbio/m54097_180427_124318.subreads.bam
     13153698064               0      2147483648      6993612253          660685  species/Scyliorhinus_canicula/sScyCan1/genomic_data/pacbio/m54205_180502_210220.subreads.bam
     13710759537               0      2147483648      7288525611          763498  species/Scyliorhinus_canicula/sScyCan1/genomic_data/pacbio/m54205_181207_153552.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.3985
+arima        *       1.4052
+pacbio       *       0.5320
+------------ ------ -------

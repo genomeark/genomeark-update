@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      9575293114               0      2147483648     17518369509       116015696  species/Catharus_ustulatus/bCatUst1/genomic_data/10x/bCatUst1_S1_L001_R1_001.fastq.gz
      7686091089               0      2147483648     14029295601        92909245  species/Catharus_ustulatus/bCatUst1/genomic_data/10x/bCatUst1_S2_L001_R1_001.fastq.gz
@@ -8,3 +10,13 @@
     19344940956               0      2147483648     10449708912          525339  species/Catharus_ustulatus/bCatUst1/genomic_data/pacbio/m54159_181108_213941.subreads.bam
     19950904005               0      2147483648     10854666766          583239  species/Catharus_ustulatus/bCatUst1/genomic_data/pacbio/m54159_181110_185902.subreads.bam
     18267847992               0      2147483648      9911937260          540153  species/Catharus_ustulatus/bCatUst1/genomic_data/pacbio/m54159_181111_051224.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8314
+arima        *       1.4660
+pacbio       *       0.5422
+------------ ------ -------

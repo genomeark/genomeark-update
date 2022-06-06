@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
       744888774               0       744888774       786914248        98364281  species/Denticeps_clupeoides/fDenClu1/genomic_data/10x/fDenClu1_S1_L001_I1_001.fastq.gz
      9806622539               0      2147483648     14921786000        98819779  species/Denticeps_clupeoides/fDenClu1/genomic_data/10x/fDenClu1_S1_L001_R1_001.fastq.gz
@@ -9,3 +11,13 @@
      9544385806               0      2147483648      5078853456          363822  species/Denticeps_clupeoides/fDenClu1/genomic_data/pacbio/m54097_180118_130235.subreads.bam
      6572394786               0      2147483648      3499509969          249679  species/Denticeps_clupeoides/fDenClu1/genomic_data/pacbio/m54097_180118_230902.subreads.bam
     10871926083               0      2147483648      5763493302          414169  species/Denticeps_clupeoides/fDenClu1/genomic_data/pacbio/m54205_180124_143636.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.5009
+arima        *       1.8332
+pacbio       *       0.5314
+------------ ------ -------

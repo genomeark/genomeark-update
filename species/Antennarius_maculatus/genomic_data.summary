@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      3331701387               0      3331701387      5356335000        35708900  species/Antennarius_maculatus/fAntMac1/genomic_data/10x/fAntMac1_S3_L001_R1_001.fastq.gz
      3542309215               0      3542309215      5694500100        37963334  species/Antennarius_maculatus/fAntMac1/genomic_data/10x/fAntMac1_S4_L001_R1_001.fastq.gz
@@ -9,3 +11,13 @@
     11595930044               0      2147483648     19060802474       188720816  species/Antennarius_maculatus/fAntMac1/genomic_data/phase/fAntMac1_ILKL1AMS14_R2.fastq.gz
     12691085412               0      2147483648     18225309027       180448610  species/Antennarius_maculatus/fAntMac1/genomic_data/phase/fAntMac1_ILKL1AMS7_R1.fastq.gz
     12713404734               0      2147483648     18521055530       183376787  species/Antennarius_maculatus/fAntMac1/genomic_data/phase/fAntMac1_ILKL1AMS7_R2.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.5959
+pacbio       *       0.5388
+phase        *       1.5082
+------------ ------ -------

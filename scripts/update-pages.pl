@@ -26,13 +26,11 @@ use GenomeArkGenomicData;
 #
 
 my @speciesList;
-my $downloadData       = 1;
-my $downloadAssemblies = 1;
+my $updatePages        = 1;
 
 foreach my $arg (@ARGV) {
-    if    ($arg eq "--no-download") {
-        $downloadData = 0;
-        $downloadAssemblies = 0;
+    if    ($arg eq "--no-update") {
+        $updatePages = 0;
     }
     else {
         if ($arg =~ m!^species/(.*)/?$!) {   #  Expect to find a list of species to process
@@ -93,28 +91,28 @@ foreach my $species (@speciesList) {
         my $filesize = $speciesSizes[$ii];
         my $filename = $speciesFiles[$ii];
 
-        next   if (! isAssemblyFile($filename, 0));
+        if (isAssemblyFile($filename, 0)) {
+            if ($data{"last_updated"} < $filesecs) {
+                $data{"last_updated"} = $filesecs;
+            }
 
-        if ($data{"last_updated"} < $filesecs) {
-            $data{"last_updated"} = $filesecs;
+            rememberLatestAssembly($filesecs, $filesize, $filename, \%data, \@potentialErrors);
         }
-
-        rememberLatestAssembly($filesecs, $filesize, $filename, \%data, \@potentialErrors);
     }
 
 
     print "\n";
     print "----------\n";
-    print "Assemblies, pass 2: summarize assembly\n";
+    print "Assemblies, pass 2: import summaries\n";
 
     for (my $ii=0; $ii<scalar(@speciesFiles); $ii++) {
         my $filesecs = $speciesEpoch[$ii];
         my $filesize = $speciesSizes[$ii];
         my $filename = $speciesFiles[$ii];
 
-        next   if (! isAssemblyFile($filename, 0));
-
-        summarizeAssembly($filesecs, $filesize, $filename, \%data, \@potentialErrors, \%missingData, $downloadAssemblies);
+        if (isAssemblyFile($filename, 0)) {
+            importAssemblySummary($filesecs, $filesize, $filename, \%data, \@potentialErrors, \%missingData);
+        }
     }
 
 
@@ -127,19 +125,17 @@ foreach my $species (@speciesList) {
         my $filesize = $speciesSizes[$ii];
         my $filename = $speciesFiles[$ii];
 
-        next   if (! isGenomicDataFile($filename));
+        if (isGenomicDataFile($filename)) {
+            if ($data{"last_updated"} < $filesecs) {
+                $data{"last_updated"} = $filesecs;
+            }
+            if ((! exists($data{"last_raw_data"})) ||
+                ($data{"last_raw_data"} < $filesecs)) {   #  If this isn't set, Raw Data shows
+                $data{"last_raw_data"} = $filesecs;       #  "No data.".
+            }
 
-        scanDataName($filesecs, $filesize, $filename, \%data);
-    }
-
-    for (my $ii=0; $ii<scalar(@speciesFiles); $ii++) {
-        my $filesecs = $speciesEpoch[$ii];
-        my $filesize = $speciesSizes[$ii];
-        my $filename = $speciesFiles[$ii];
-
-        next   if (! isGenomicDataFile($filename));
-
-        accumulateData($filesecs, $filesize, $filename, \%data, \%seqFiles, \%seqBytes, \%seqIndiv, \@potentialErrors);
+            accumulateData($filesize, $filename, \%seqFiles, \%seqBytes, \%seqIndiv, \@potentialErrors);
+        }
     }
 
 
@@ -149,19 +145,33 @@ foreach my $species (@speciesList) {
 
     loadSummaries($data{"name_"}, \%seqFiles, \@potentialErrors);   #  Load existing summaries.
 
-    estimateRawDataScaling(\%data, "10x",             $seqFiles{"10x"},             \@potentialErrors, \%missingData, $downloadData);  #  seqFiles is a \0 separated list of
-    estimateRawDataScaling(\%data, "arima",           $seqFiles{"arima"},           \@potentialErrors, \%missingData, $downloadData);  #    'filesize \s datafile
-    estimateRawDataScaling(\%data, "dovetail",        $seqFiles{"dovetail"},        \@potentialErrors, \%missingData, $downloadData);  #
-    estimateRawDataScaling(\%data, "illumina",        $seqFiles{"illumina"},        \@potentialErrors, \%missingData, $downloadData);  #  datafile is 'species/NAME/INDIVIDUAL/genomic_data/TYPE/FILE
-    estimateRawDataScaling(\%data, "ont",             $seqFiles{"ont"},             \@potentialErrors, \%missingData, $downloadData);
-    estimateRawDataScaling(\%data, "ontduplex",       $seqFiles{"ontduplex"},       \@potentialErrors, \%missingData, $downloadData);
-    estimateRawDataScaling(\%data, "pacbio",          $seqFiles{"pacbio"},          \@potentialErrors, \%missingData, $downloadData);
-    estimateRawDataScaling(\%data, "pacbiohifi_fqgz", $seqFiles{"pacbiohifi_fqgz"}, \@potentialErrors, \%missingData, $downloadData);
-    estimateRawDataScaling(\%data, "pacbiohifi_bam",  $seqFiles{"pacbiohifi_bam"},  \@potentialErrors, \%missingData, $downloadData);
-    estimateRawDataScaling(\%data, "pacbiohifi_clr",  $seqFiles{"pacbiohifi_clr"},  \@potentialErrors, \%missingData, $downloadData);
-    estimateRawDataScaling(\%data, "phase",           $seqFiles{"phase"},           \@potentialErrors, \%missingData, $downloadData);
+    #estimateRawDataScaling(\%data, "10x",      $seqFiles{"10x"},      \@potentialErrors, \%missingData, $downloadData);  #  seqFiles is a \0 separated list of
+    #estimateRawDataScaling(\%data, "arima",    $seqFiles{"arima"},    \@potentialErrors, \%missingData, $downloadData);  #    'filesize \s datafile
+    #estimateRawDataScaling(\%data, "dovetail", $seqFiles{"dovetail"}, \@potentialErrors, \%missingData, $downloadData);  #
+    #estimateRawDataScaling(\%data, "illumina", $seqFiles{"illumina"}, \@potentialErrors, \%missingData, $downloadData);  #  datafile is 'species/NAME/INDIVIDUAL/genomic_data/TYPE/FILE
+    #estimateRawDataScaling(\%data, "nanopore", $seqFiles{"nanopore"}, \@potentialErrors, \%missingData, $downloadData);
+    #estimateRawDataScaling(\%data, "pbclr",    $seqFiles{"pbclr"},    \@potentialErrors, \%missingData, $downloadData);
+    #estimateRawDataScaling(\%data, "pbhifi",   $seqFiles{"pbhifi"},   \@potentialErrors, \%missingData, $downloadData);
+    #estimateRawDataScaling(\%data, "phase",    $seqFiles{"phase"},    \@potentialErrors, \%missingData, $downloadData);
 
     writeSummaries(\%data);
+
+    #print "\n";                  #  Report any unprocessed files.
+    #print "----------\n";
+    #print "Unknown files:\n";
+
+    #for (my $ii=0; $ii<scalar(@speciesFiles); $ii++) {
+    #    my $filesecs = $speciesEpoch[$ii];
+    #    my $filesize = $speciesSizes[$ii];
+    #    my $filename = $speciesFiles[$ii];
+    #
+    #    next  if (isGenomicDataFile($filename));
+    #    next  if (isAssemblyFile($filename, 0));
+    #
+    #    #print "  UNKNOWN $filename\n";
+    #
+    #    push @unknownFiles, "  $filename\n";
+    #}
 
     print "\n";
 }

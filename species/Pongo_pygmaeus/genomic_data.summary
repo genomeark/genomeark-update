@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     36567385204               0      2147483648     40215873909         1115811  species/Pongo_pygmaeus/mPonPyg2/genomic_data/ont/PAI60213_guppy-6.0.6.fastq.gz
     56743619218               0      2147483648     62788058871         1931992  species/Pongo_pygmaeus/mPonPyg2/genomic_data/ont/PAI60745_guppy-6.0.6.fastq.gz
@@ -6,3 +8,13 @@
     22739112973               0      2147483648     23899735179         1293095  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_210505_002126.hifi_reads.fastq.gz
     22048517972               0      2147483648     23281354517         1260199  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_210506_062052.hifi_reads.fastq.gz
     32129177728               0      2147483648     37154134317         1776865  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_220226_122604.hifi_reads.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+ont          *       1.0954
+pacbiohifi_fqgz *       1.0964
+pacbiohifi_clr *       1.1000
+------------ ------ -------

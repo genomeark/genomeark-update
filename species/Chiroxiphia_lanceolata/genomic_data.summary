@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      5851538005               0      2147483648     11530722595        76871483  species/Chiroxiphia_lanceolata/bChiLan1/genomic_data/10x/bChiLan1_S1_L002_R1_001.fastq.gz
      6828071649               0      2147483648     13460841486        89738946  species/Chiroxiphia_lanceolata/bChiLan1/genomic_data/10x/bChiLan1_S3_L002_R1_001.fastq.gz
@@ -8,3 +10,13 @@
     20754821974               0      2147483648     11234334811          662448  species/Chiroxiphia_lanceolata/bChiLan1/genomic_data/pacbio/m54158_180722_040448.subreads.bam
     18177576293               0      2147483648      9830208999          605286  species/Chiroxiphia_lanceolata/bChiLan1/genomic_data/pacbio/m54159_180725_071212.subreads.bam
     10837965027               0      2147483648      5881565886          337077  species/Chiroxiphia_lanceolata/bChiLan1/genomic_data/pacbio/m54159_180802_073314.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9723
+arima        *       1.5129
+pacbio       *       0.5414
+------------ ------ -------

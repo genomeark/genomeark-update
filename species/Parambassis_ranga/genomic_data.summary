@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
       793967736               0       793967736       894134608       111766826  species/Parambassis_ranga/fParRan2/genomic_data/10x/fParRan2_S1_L007_I1_001.fastq.gz
     10913216881               0      2147483648     16843436836       111545944  species/Parambassis_ranga/fParRan2/genomic_data/10x/fParRan2_S1_L007_R1_001.fastq.gz
@@ -9,3 +11,13 @@
     14683283273               0      2147483648      7827530974          740986  species/Parambassis_ranga/fParRan2/genomic_data/pacbio/m54097_180702_215908.subreads.bam
     14120836726               0      2147483648      7546484015          633262  species/Parambassis_ranga/fParRan2/genomic_data/pacbio/m54205_180704_112040.subreads.bam
     15509581592               0      2147483648      8273574376          748235  species/Parambassis_ranga/fParRan2/genomic_data/pacbio/m54205_180704_213602.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.4631
+arima        *       1.8356
+pacbio       *       0.5336
+------------ ------ -------

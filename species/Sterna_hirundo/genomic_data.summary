@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      8007683074               0      2147483648     14516445458        96135404  species/Sterna_hirundo/bSteHir1/genomic_data/10x/bSteHir1A_1.fastq.gz
      8631804733               0      2147483648     15654323286       103671019  species/Sterna_hirundo/bSteHir1/genomic_data/10x/bSteHir1B_1.fastq.gz
@@ -8,3 +10,13 @@
     22412709471               0      2147483648     12283232080          588443  species/Sterna_hirundo/bSteHir1/genomic_data/pacbio/m54159_181208_205316.subreads.bam
      8394433035               0      2147483648      4629242674          232469  species/Sterna_hirundo/bSteHir1/genomic_data/pacbio/m54306_181202_032451.subreads.bam
     24951971101               0      2147483648     13483932786          794263  species/Sterna_hirundo/bSteHir1/genomic_data/pacbio/m54306_181205_032543.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8123
+arima        *       1.8185
+pacbio       *       0.5451
+------------ ------ -------

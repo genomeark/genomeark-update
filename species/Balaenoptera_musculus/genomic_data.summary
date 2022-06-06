@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     35117967862               0      2147483648     54171238966       318654346  species/Balaenoptera_musculus/mBalMus1/genomic_data/10x/mBalMus1_S1_L006_R2_001.fastq.gz
     31020674272               0      2147483648     54920346566       323060876  species/Balaenoptera_musculus/mBalMus1/genomic_data/10x/mBalMus1_S1_L008_R1_001.fastq.gz
@@ -11,3 +13,14 @@
      2892232245               0      2892232245      1518611994          157643  species/Balaenoptera_musculus/mBalMus1/genomic_data/pacbio/m54178_170627_070707.subreads.bam
      8649145038               0      2147483648      4495022890          512786  species/Balaenoptera_musculus/mBalMus1/genomic_data/pacbio/m54178_170718_164928.subreads.bam
      7008397721               0      2147483648      3624945116          473666  species/Balaenoptera_musculus/mBalMus1/genomic_data/pacbio/m54178_170901_131658.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.6168
+dovetail     *       1.5561
+illumina     *       1.8995
+pacbio       *       0.5196
+------------ ------ -------

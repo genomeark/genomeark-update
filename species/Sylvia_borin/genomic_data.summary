@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      3861814816               0      3861814816      6894662869        45660019  species/Sylvia_borin/bSylBor1/genomic_data/10x/bSylBor1B_1.fastq.gz
      3373816313               0      3373816313      6009698075        39799325  species/Sylvia_borin/bSylBor1/genomic_data/10x/bSylBor1C_2.fastq.gz
@@ -8,3 +10,13 @@
     22284075348               0      2147483648     12325969561          489174  species/Sylvia_borin/bSylBor1/genomic_data/pacbio/m54306_181102_052716.subreads.bam
     28582707679               0      2147483648     50088167971       333921119  species/Sylvia_borin/bSylBor2/genomic_data/arima/bSylBor2_S1_L002_R1_001.fastq.gz
     33281493345               0      2147483648     48516685257       323444568  species/Sylvia_borin/bSylBor2/genomic_data/arima/bSylBor2_S1_L002_R2_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.7850
+arima        *       1.5462
+pacbio       *       0.5534
+------------ ------ -------

@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     14087020238               0      2147483648     26747219315       177133902  species/Dromiciops_gliroides/mDroGli1/genomic_data/10x/mDroGli1_S1_L001_R1_001.fastq.gz
     19830399003               0      2147483648     37594216526       248968321  species/Dromiciops_gliroides/mDroGli1/genomic_data/10x/mDroGli1_S1_L002_R1_001.fastq.gz
@@ -8,3 +10,13 @@
     23632013016               0      2147483648     12966066479          594694  species/Dromiciops_gliroides/mDroGli1/genomic_data/pacbio/m54062_190823_203707.subreads.bam
     23242291372               0      2147483648     12770295390          613471  species/Dromiciops_gliroides/mDroGli1/genomic_data/pacbio/m54144_190823_232336.subreads.bam
    119529991409               0      2147483648     62444778829         3167916  species/Dromiciops_gliroides/mDroGli1/genomic_data/pacbio/m64046_190829_124301.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8976
+arima        *       1.9274
+pacbio       *       0.5299
+------------ ------ -------

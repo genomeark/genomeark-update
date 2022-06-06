@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      3241155017               0      3241155017      3856660224       482082528  species/Trogon_surrucura/bTroSur1/genomic_data/10x/bTroSur1_S7_L004_I1_001.fastq.gz
     37901054204               0      2147483648     73397344504       486075146  species/Trogon_surrucura/bTroSur1/genomic_data/10x/bTroSur1_S7_L004_R1_001.fastq.gz
@@ -6,3 +8,13 @@
     35218293064               0      2147483648     50374615273       335830768  species/Trogon_surrucura/bTroSur1/genomic_data/arima/2450_08_R1.fastq.gz
     37741272450               0      2147483648     49549679493       330331214  species/Trogon_surrucura/bTroSur1/genomic_data/arima/2450_08_R2.fastq.gz
    208096637939               0      2147483648    108402258705         6133931  species/Trogon_surrucura/bTroSur1/genomic_data/pacbio/m54306U_200205_194630.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8922
+arima        *       1.3502
+pacbio       *       0.5209
+------------ ------ -------

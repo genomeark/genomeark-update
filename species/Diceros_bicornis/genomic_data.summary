@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     33692189726               0      2147483648     45690411899       304602745  species/Diceros_bicornis/mDicBic1/genomic_data/arima/mDicBic1_2450_03_R2_001.fastq.gz
     45251661261               0      2147483648     65600389422       437335950  species/Diceros_bicornis/mDicBic1/genomic_data/arima/mDicBic1_2450_04_R1_001.fastq.gz
@@ -9,3 +11,14 @@
     69568194453               0      2147483648    142965955878       946794409  species/Diceros_bicornis/mDicBic2/genomic_data/illumina/Rhino1-mDicBic2_R1.fastq.gz
     73590217145               0      2147483648    145293154441       962206320  species/Diceros_bicornis/mDicBic2/genomic_data/illumina/Rhino1-mDicBic2_R2.fastq.gz
     35015421495               0      2147483648     69002729736       456971736  species/Diceros_bicornis/mDicBic3/genomic_data/illumina/Rhino2-mDicBic3_R2.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.3718
+illumina     *       2.0051
+pacbiohifi_bam *       1.1000
+pacbiohifi_clr *       1.1000
+------------ ------ -------

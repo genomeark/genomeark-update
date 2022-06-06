@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     10309324382               0      2147483648     18837659042       124752713  species/Hirundo_rustica/bHirRus1/genomic_data/10x/bHirRus1_S1_L001_R1_001.fastq.gz
      6884048353               0      2147483648     12620006475        83576205  species/Hirundo_rustica/bHirRus1/genomic_data/10x/bHirRus1_S2_L001_R2_001.fastq.gz
@@ -9,3 +11,13 @@
      7324029349               0      2147483648      3844483230          372377  species/Hirundo_rustica/bHirRus1/genomic_data/pacbio/m54073_180125_104031.subreads.bam
      5821941265               0      2147483648      3102644476          213254  species/Hirundo_rustica/bHirRus1/genomic_data/pacbio/m54073_180207_192952.subreads.bam
      8156433683               0      2147483648      4327042719          319077  species/Hirundo_rustica/bHirRus1/genomic_data/pacbio/m54073_180216_200803.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8277
+arima        *       1.6243
+pacbio       *       0.5292
+------------ ------ -------

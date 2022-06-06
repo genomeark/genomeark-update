@@ -1,4 +1,14 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     15521373245               0      2147483648     28819469212       190857412  species/Hoplias_malabaricus/fHopMal1/genomic_data/arima/fHopMal1_S5_L001_R1_001.fastq.gz
     16194148293               0      2147483648     28919929024       191522716  species/Hoplias_malabaricus/fHopMal1/genomic_data/arima/fHopMal1_S5_L001_R2_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.8088
+------------ ------ -------

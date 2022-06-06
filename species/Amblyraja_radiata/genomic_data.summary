@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      4280566077               0      4280566077      7009507650        46730051  species/Amblyraja_radiata/sAmbRad1/genomic_data/10x/sAmbRad1_S6_L001_R2_001.fastq.gz
      4798346086               0      2147483648      7711916087        51412773  species/Amblyraja_radiata/sAmbRad1/genomic_data/10x/sAmbRad1_S6_L008_R2_001.fastq.gz
@@ -12,3 +14,14 @@
     33451069552               0      2147483648     63843769467       422806435  species/Amblyraja_radiata/sAmbRad2/genomic_data/illumina/sAmbRad2_R1.fastq.gz
     34727898198               0      2147483648     64118063099       424622934  species/Amblyraja_radiata/sAmbRad3/genomic_data/illumina/sAmbRad3_R2.fastq.gz
     41704809221               0      2147483648     79299231331       525160491  species/Amblyraja_radiata/sAmbRad5/genomic_data/illumina/sAmbRad5_R2.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.5945
+arima        *       1.9275
+illumina     *       1.8861
+pacbio       *       0.5294
+------------ ------ -------

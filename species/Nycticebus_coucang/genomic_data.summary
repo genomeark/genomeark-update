@@ -1,7 +1,20 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     75712035378               0      2147483648    146344847968       969171213  species/Nycticebus_coucang/mNycCou1/genomic_data/arima/mNycCou1_S1_L001_R1_001.fastq.gz
     81533498883               0      2147483648    146465352519       969969259  species/Nycticebus_coucang/mNycCou1/genomic_data/arima/mNycCou1_S1_L001_R2_001.fastq.gz
     21464284765               0      2147483648     26020165411         1719144  species/Nycticebus_coucang/mNycCou1/genomic_data/pacbio_hifi/m54306Ue_211211_070320.hifi_reads.fastq.gz
     20009639181               0      2147483648     24237205480         1609588  species/Nycticebus_coucang/mNycCou1/genomic_data/pacbio_hifi/m64334e_211217_064622.hifi_reads.fastq.gz
     20129507304               0      2147483648     25260357604         1683327  species/Nycticebus_coucang/mNycCou1/genomic_data/pacbio_hifi/m64334e_211218_162941.hifi_reads.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.8396
+pacbiohifi_fqgz *       1.2258
+pacbiohifi_bam *       1.1000
+pacbiohifi_clr *       1.1000
+------------ ------ -------

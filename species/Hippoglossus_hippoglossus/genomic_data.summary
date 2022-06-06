@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      1810396165               0      1810396165      1915965960       239495745  species/Hippoglossus_hippoglossus/fHipHip1/genomic_data/10x/fHipHip1_S3_L001_I1_001.fastq.gz
     19174842813               0      2147483648     35742736774       238284911  species/Hippoglossus_hippoglossus/fHipHip1/genomic_data/10x/fHipHip1_S3_L001_R1_001.fastq.gz
@@ -9,3 +11,13 @@
      3146600568               0      3146600568      1672507649          160730  species/Hippoglossus_hippoglossus/fHipHip1/genomic_data/pacbio/m54159_181003_034532.subreads.bam
     12331232286               0      2147483648      6670542474          488412  species/Hippoglossus_hippoglossus/fHipHip1/genomic_data/pacbio/m54306_181106_062419.subreads.bam
      9743489703               0      2147483648      5214785400          465776  species/Hippoglossus_hippoglossus/fHipHip1/genomic_data/pacbio/m54306_181108_143225.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8206
+arima        *       1.7833
+pacbio       *       0.5375
+------------ ------ -------

@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
       826622644               0       826622644       926431936       115803992  species/Aquila_chrysaetos/bAquChr1/genomic_data/10x/bAquChr1_S1_L007_I1_001.fastq.gz
     11292241608               0      2147483648     17266660289       114348748  species/Aquila_chrysaetos/bAquChr1/genomic_data/10x/bAquChr1_S1_L007_R1_001.fastq.gz
@@ -8,3 +10,13 @@
      7510926592               0      2147483648      3961328281          335743  species/Aquila_chrysaetos/bAquChr1/genomic_data/pacbio/m54097_171122_121242.subreads.bam
      9075525303               0      2147483648      4772574747          386499  species/Aquila_chrysaetos/bAquChr1/genomic_data/pacbio/m54097_171128_162247.subreads.bam
     11184084424               0      2147483648      5877940214          543042  species/Aquila_chrysaetos/bAquChr1/genomic_data/pacbio/m54205_171123_163538.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.5143
+dovetail     *       1.4426
+pacbio       *       0.5261
+------------ ------ -------

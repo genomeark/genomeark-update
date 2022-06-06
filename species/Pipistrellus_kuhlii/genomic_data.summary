@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      7317320782               0      2147483648     12144462703        80426908  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/10x/mPipKuh1_S1_L001_R1_001.fastq.gz
      8431256566               0      2147483648     12098393998        80121818  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/10x/mPipKuh1_S1_L001_R2_001.fastq.gz
@@ -8,3 +10,13 @@
      2938224167               0      2938224167      1592065584          169356  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/pacbio/m54144_170608_124806.subreads.bam
      9017115068               0      2147483648     15553745126       194421814  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/phase/mPipKuh1_pipistrellusS3HiC_R1.fastq.gz
      9404573914               0      2147483648     15582912641       194786408  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/phase/mPipKuh1_pipistrellusS3HiC_R2.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.5039
+pacbio       *       0.5316
+phase        *       1.6789
+------------ ------ -------

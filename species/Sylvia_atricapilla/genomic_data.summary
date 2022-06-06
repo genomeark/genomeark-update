@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      6155649502               0      2147483648     11998784558        79991899  species/Sylvia_atricapilla/bSylAtr1/genomic_data/10x/bSylAtr1_S1_L002_R1_001.fastq.gz
      7476193467               0      2147483648     14589580965        97263876  species/Sylvia_atricapilla/bSylAtr1/genomic_data/10x/bSylAtr1_S2_L002_R1_001.fastq.gz
@@ -9,3 +11,13 @@
     17421755483               0      2147483648      9352815973          715421  species/Sylvia_atricapilla/bSylAtr1/genomic_data/pacbio/m54158_180703_193326.subreads.bam
     16928165044               0      2147483648      9038042433          733556  species/Sylvia_atricapilla/bSylAtr1/genomic_data/pacbio/m54159_180702_054120.subreads.bam
     18039866676               0      2147483648      9714795508          744231  species/Sylvia_atricapilla/bSylAtr1/genomic_data/pacbio/m54159_180702_155543.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9527
+arima        *       1.8552
+pacbio       *       0.5364
+------------ ------ -------

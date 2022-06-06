@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     68909462441               0      2147483648     73566638239         1831449  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG22775_guppy-5.0.13.fastq.gz
     62133132810               0      2147483648     65720936604         1812275  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG23747_guppy-5.0.13.fastq.gz
@@ -9,3 +11,14 @@
     12381067495               0      2147483648     24812794477       164323148  species/Pan_paniscus/mPanPan2/genomic_data/illumina/mPanPan2_HNFNCDSX2_19164898_S7_L002_R1_001.fastq.gz
     10468023075               0      2147483648     19203683973       127176719  species/Pan_paniscus/mPanPan2/genomic_data/illumina/mPanPan2_HT2N2DSX2_19164898_S5_L001_R1_001.fastq.gz
     11017959516               0      2147483648     22507446827       149055939  species/Pan_paniscus/mPanPan3/genomic_data/illumina/mPanPan3_HNFNCDSX2_19164894_S12_L003_R1_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+illumina     *       1.9642
+ont          *       1.0648
+pacbiohifi_fqgz *       1.0547
+pacbiohifi_clr *       1.1000
+------------ ------ -------

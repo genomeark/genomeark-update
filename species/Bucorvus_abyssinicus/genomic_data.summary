@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      6678442618               0      2147483648     13153998681        87693327  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/10x/bBucAby1_S1_L002_R1_001.fastq.gz
      8667349525               0      2147483648     17091220971       113941473  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/10x/bBucAby1_S2_L002_R1_001.fastq.gz
@@ -9,3 +11,13 @@
      5891918394               0      2147483648      3164453695          258785  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/pacbio/m54158_180528_191915.subreads.bam
     10529264597               0      2147483648      5680328780          370147  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/pacbio/m54158_180529_215429.subreads.bam
     19513863099               0      2147483648     10458036940          927612  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/pacbio/m54159_180618_203435.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9478
+arima        *       1.8009
+pacbio       *       0.5371
+------------ ------ -------

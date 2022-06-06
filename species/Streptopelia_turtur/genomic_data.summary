@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
       989067048               0       989067048      1136914864       142114358  species/Streptopelia_turtur/bStrTur1/genomic_data/10x/bStrTur1_S1_L006_I1_001.fastq.gz
     13822614527               0      2147483648     21128232936       139922072  species/Streptopelia_turtur/bStrTur1/genomic_data/10x/bStrTur1_S1_L006_R1_001.fastq.gz
@@ -9,3 +11,13 @@
      6592201735               0      2147483648      3514241532          279913  species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/m54097_180106_071514.subreads.bam
      7878207243               0      2147483648      4190686141          304884  species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/m54205_171223_094323.subreads.bam
      4674750419               0      2147483648      2486376428          174598  species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/m54205_171225_022220.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.5160
+arima        *       1.9815
+pacbio       *       0.5323
+------------ ------ -------

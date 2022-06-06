@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      1400575730               0      1400575730      2048680650        13657871  species/Geothlypis_trichas/bGeoTri1/genomic_data/10x/bGeoTri1_S2_L002_R2_001.fastq.gz
      1215067705               0      1215067705      1943451150        12956341  species/Geothlypis_trichas/bGeoTri1/genomic_data/10x/bGeoTri1_S2_L008_R1_001.fastq.gz
@@ -9,3 +11,13 @@
      7253537451               0      2147483648      3827907405          482993  species/Geothlypis_trichas/bGeoTri1/genomic_data/pacbio/m54158_180424_203111.subreads.bam
      3255525968               0      3255525968      1698114825          230257  species/Geothlypis_trichas/bGeoTri1/genomic_data/pacbio/m54159_170915_040655.subreads.bam
      6175792834               0      2147483648      3214022044          456937  species/Geothlypis_trichas/bGeoTri1/genomic_data/pacbio/m54159_171113_134034.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.6011
+arima        *       1.9402
+pacbio       *       0.5238
+------------ ------ -------

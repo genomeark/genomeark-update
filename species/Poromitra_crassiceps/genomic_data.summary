@@ -1,4 +1,14 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     32210502351               0      2147483648     65576021589       434278303  species/Poromitra_crassiceps/fPorCra3/genomic_data/arima/fPorCra3_40063_1#4_R1.fastq.gz
     32982635431               0      2147483648     66617228690       441173715  species/Poromitra_crassiceps/fPorCra3/genomic_data/arima/fPorCra3_40063_1#4_R2.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       2.0250
+------------ ------ -------

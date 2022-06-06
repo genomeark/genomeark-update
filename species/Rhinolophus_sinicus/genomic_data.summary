@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     12264967440               0      2147483648     25010065058       166733772  species/Rhinolophus_sinicus/mRhiSin1/genomic_data/arima/BDHC200000379-1A_L1_2_clean.rd.fq.gz
     11050741921               0      2147483648     23318932915       155459552  species/Rhinolophus_sinicus/mRhiSin1/genomic_data/arima/BDHC200000379-1A_L2_2_clean.rd.fq.gz
@@ -6,3 +8,12 @@
     22291870933               0      2147483648     24681680771         1595746  species/Rhinolophus_sinicus/mRhiSin1/genomic_data/pacbio/m64032_201031_223407.subreads.bam
     19477782788               0      2147483648     20895069715         1272419  species/Rhinolophus_sinicus/mRhiSin1/genomic_data/pacbio/m64066_201121_233910.subreads.bam
     21329010568               0      2147483648     23323696450         1406156  species/Rhinolophus_sinicus/mRhiSin1/genomic_data/pacbio/m64082_201029_181227.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       2.0795
+pacbio       *       1.0919
+------------ ------ -------

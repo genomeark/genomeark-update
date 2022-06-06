@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      3139429330               0      3139429330      6283600800        41890672  species/Acanthisitta_chloris/bAcaChl1/genomic_data/10x/bAcaChl1_S2_L004_R1_001.fastq.gz
      3952455703               0      3952455703      7936771950        52911813  species/Acanthisitta_chloris/bAcaChl1/genomic_data/10x/bAcaChl1_S3_L004_R1_001.fastq.gz
@@ -8,3 +10,13 @@
     15105685837               0      2147483648      8163267022          524978  species/Acanthisitta_chloris/bAcaChl1/genomic_data/pacbio/m54159_180504_160820.subreads.bam
     28664207390               0      2147483648     49324462274       328829748  species/Acanthisitta_chloris/bAcaChl4/genomic_data/arima/bAcaChl4_S1_L007_R1_001.fastq.gz
     32105653046               0      2147483648     47347837844       315652267  species/Acanthisitta_chloris/bAcaChl4/genomic_data/arima/bAcaChl4_S1_L007_R2_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       2.0001
+arima        *       1.5506
+pacbio       *       0.5419
+------------ ------ -------

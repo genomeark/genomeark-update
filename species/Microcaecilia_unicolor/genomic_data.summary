@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     10760321144               0      2147483648     13690245027        90663879  species/Microcaecilia_unicolor/aMicUni1/genomic_data/10x/aMicUni1_S1_L004_R2_001.fastq.gz
      9381595841               0      2147483648     13977295044        92564867  species/Microcaecilia_unicolor/aMicUni1/genomic_data/10x/aMicUni1_S3_L004_R1_001.fastq.gz
@@ -12,3 +14,14 @@
     13483453044               0      2147483648      7176483567          650098  species/Microcaecilia_unicolor/aMicUni1/genomic_data/pacbio/m54097_180603_024125.subreads.bam
     12115707010               0      2147483648      6456274091          573259  species/Microcaecilia_unicolor/aMicUni1/genomic_data/pacbio/m54097_180612_141001.subreads.bam
     14517782189               0      2147483648      7742356595          644269  species/Microcaecilia_unicolor/aMicUni1/genomic_data/pacbio/m54205_180530_131246.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.3610
+arima        *       1.5172
+dovetail     *       1.4754
+pacbio       *       0.5328
+------------ ------ -------

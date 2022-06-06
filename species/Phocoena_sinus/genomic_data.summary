@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     13516888606               0      2147483648     24260696432       160666870  species/Phocoena_sinus/mPhoSin1/genomic_data/10x/mPhoSin1_S1_L001_R1_001.fastq.gz
     12386385006               0      2147483648     22315049404       147781789  species/Phocoena_sinus/mPhoSin1/genomic_data/10x/mPhoSin1_S2_L001_R2_001.fastq.gz
@@ -9,3 +11,13 @@
     21574025714               0      2147483648     11732112337          741358  species/Phocoena_sinus/mPhoSin1/genomic_data/pacbio/m54159_181207_035801.subreads.bam
     23428488217               0      2147483648     12674265595          788010  species/Phocoena_sinus/mPhoSin1/genomic_data/pacbio/m54306_181122_070603.subreads.bam
     18755392260               0      2147483648     10170482492          589155  species/Phocoena_sinus/mPhoSin1/genomic_data/pacbio/m54306_181124_000253.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8001
+arima        *       1.9352
+pacbio       *       0.5423
+------------ ------ -------

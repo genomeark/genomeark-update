@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      7834430739               0      2147483648     14592280068        96637619  species/Petromyzon_marinus/kPetMar1/genomic_data/10x/kPetMar1_S1_L001_R1_001.fastq.gz
      6396812062               0      2147483648     11921988253        78953564  species/Petromyzon_marinus/kPetMar1/genomic_data/10x/kPetMar1_S3_L001_R1_001.fastq.gz
@@ -9,3 +11,13 @@
     19904567245               0      2147483648     10818568619          560131  species/Petromyzon_marinus/kPetMar1/genomic_data/pacbio/m54159_181114_134728.subreads.bam
     18223398665               0      2147483648      9994301790          484928  species/Petromyzon_marinus/kPetMar1/genomic_data/pacbio/m54159_181115_000038.subreads.bam
     13867041618               0      2147483648      7591418773          383540  species/Petromyzon_marinus/kPetMar1/genomic_data/pacbio/m54159_181115_150644.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8623
+arima        *       1.7397
+pacbio       *       0.5462
+------------ ------ -------

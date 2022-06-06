@@ -1,6 +1,19 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     51171883089               0      2147483648     98687451388       653559304  species/Spea_bombifrons/aSpeBom1/genomic_data/arima/aSpeBom1_S1_L001_R1_001.fastq.gz
     54954629948               0      2147483648     98351586973       651335013  species/Spea_bombifrons/aSpeBom1/genomic_data/arima/aSpeBom1_S1_L001_R2_001.fastq.gz
     20361130053               0      2147483648     25570265326         1688133  species/Spea_bombifrons/aSpeBom1/genomic_data/pacbio_hifi/m54306Ue_211209_200800.hifi_reads.fastq.gz
     12899079951               0      2147483648     17891689629         1182021  species/Spea_bombifrons/aSpeBom1/genomic_data/pacbio_hifi/m64334e_211213_205639.hifi_reads.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.8338
+pacbiohifi_fqgz *       1.2874
+pacbiohifi_bam *       1.1000
+pacbiohifi_clr *       1.1000
+------------ ------ -------

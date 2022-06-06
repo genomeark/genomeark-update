@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     10030248735               0      2147483648     15398110271       101974244  species/Lutra_lutra/mLutLut1/genomic_data/10x/mLutLut1_S2_L001_R1_001.fastq.gz
       871114233               0       871114233       970263872       121282984  species/Lutra_lutra/mLutLut1/genomic_data/10x/mLutLut1_S4_L001_I1_001.fastq.gz
@@ -8,3 +10,13 @@
     19406222057               0      2147483648     10443096432          752659  species/Lutra_lutra/mLutLut1/genomic_data/pacbio/m54205_180731_110006.subreads.bam
     18720746774               0      2147483648     10062719443          681370  species/Lutra_lutra/mLutLut1/genomic_data/pacbio/m54205_180804_201216.subreads.bam
     17290342632               0      2147483648      9320239515          643068  species/Lutra_lutra/mLutLut1/genomic_data/pacbio/m54205_180808_101541.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.4697
+arima        *       1.6385
+pacbio       *       0.5382
+------------ ------ -------

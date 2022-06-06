@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      2261768915               0      2261768915      4636441712        30704912  species/Xenentodon_cancila/fXenCan1/genomic_data/10x/fXenCan1_S1_L003_R1_001.fastq.gz
      1871734335               0      1871734335      3823316678        25319978  species/Xenentodon_cancila/fXenCan1/genomic_data/10x/fXenCan1_S1_L005_R1_001.fastq.gz
@@ -8,3 +10,13 @@
      8625595378               0      2147483648      4540241521          466207  species/Xenentodon_cancila/fXenCan1/genomic_data/pacbio/m54062_180213_185746.subreads.bam
      9747033333               0      2147483648      5136242495          456464  species/Xenentodon_cancila/fXenCan1/genomic_data/pacbio/m54142_180125_120604.subreads.bam
     10996622731               0      2147483648      5826018651          534908  species/Xenentodon_cancila/fXenCan1/genomic_data/pacbio/m54142_180306_165706.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       2.0478
+arima        *       1.5156
+pacbio       *       0.5278
+------------ ------ -------

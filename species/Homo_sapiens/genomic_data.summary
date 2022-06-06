@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     62485404429               0      2147483648    123349903418       822332718  species/Homo_sapiens/mHomSap1/genomic_data/10x/mHomSap1_S2_L002_R1_001.fastq.gz
      9470950986               0      2147483648     17727895747       117403287  species/Homo_sapiens/mHomSap1/genomic_data/illumina/HGW3LDSXX_18819982_S63_L003_R2_001.fastq.gz
@@ -12,3 +14,15 @@
     23437545841               0      2147483648     12503601549         1009159  species/Homo_sapiens/mHomSap3/genomic_data/pacbio/m54159_190525_051326.subreads.bam
     27139923996               0      2147483648     14871253981          764271  species/Homo_sapiens/mHomSap3/genomic_data/pacbio/m54306_190607_193815.subreads.bam
     28485346535               0      2147483648     15556010668          805899  species/Homo_sapiens/mHomSap3/genomic_data/pacbio/m54306_190608_192107.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9877
+arima        *       1.7050
+illumina     *       1.8796
+pacbio       *       0.5429
+pacbiohifi_bam *       1.1000
+------------ ------ -------

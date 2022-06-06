@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      1879878847               0      1879878847      3436654149        22759299  species/Notolabrus_celidotus/fNotCel1/genomic_data/10x/fNotCel1_S1_L001_R2_001.fastq.gz
      1454448668               0      1454448668      2629075194        17411094  species/Notolabrus_celidotus/fNotCel1/genomic_data/10x/fNotCel1_S2_L001_R2_001.fastq.gz
@@ -9,3 +11,13 @@
     14530091793               0      2147483648      7773459249          706320  species/Notolabrus_celidotus/fNotCel1/genomic_data/pacbio/m54158_180823_184804.subreads.bam
     12830564794               0      2147483648      6876813927          591722  species/Notolabrus_celidotus/fNotCel1/genomic_data/pacbio/m54158_180824_050138.subreads.bam
     14863332322               0      2147483648      7934261337          715286  species/Notolabrus_celidotus/fNotCel1/genomic_data/pacbio/m54158_180826_041110.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8197
+arima        *       1.8212
+pacbio       *       0.5348
+------------ ------ -------

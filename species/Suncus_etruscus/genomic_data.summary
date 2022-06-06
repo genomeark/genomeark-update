@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     24242917426               0      2147483648     46229648592       306156624  species/Suncus_etruscus/mSunEtr1/genomic_data/10x/mSunEtr1_S1_L001_R1_001.fastq.gz
     27959182126               0      2147483648     53319914631       353112017  species/Suncus_etruscus/mSunEtr1/genomic_data/10x/mSunEtr1_S3_L001_R1_001.fastq.gz
@@ -9,3 +11,13 @@
    301044297760               0      2147483648    156138191592         9782086  species/Suncus_etruscus/mSunEtr1/genomic_data/pacbio/m54306U_200307_130101.subreads.bam
    240901419483               0      2147483648    124130764112         8659280  species/Suncus_etruscus/mSunEtr1/genomic_data/pacbio/m54306U_200316_204340.subreads.bam
    285522230863               0      2147483648    149212540358         7792456  species/Suncus_etruscus/mSunEtr1/genomic_data/pacbio/m64055_200704_071621.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9086
+arima        *       1.5026
+pacbio       *       0.5190
+------------ ------ -------

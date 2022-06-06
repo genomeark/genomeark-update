@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      3737906589               0      3737906589      6270157800        41801052  species/Taeniopygia_guttata/bTaeGut1/genomic_data/10x/bTaeGut1_S1_L004_R1_001.fastq.gz
      4189782279               0      4189782279      6245590950        41637273  species/Taeniopygia_guttata/bTaeGut1/genomic_data/10x/bTaeGut1_S1_L006_R2_001.fastq.gz
@@ -15,3 +17,17 @@
      9749046845               0      2147483648     18277184604       121847901  species/Taeniopygia_guttata/bTaeGut4/genomic_data/illumina/bTaeGut4_R-JL230_USPD16085109-D707_HJHCJCCXY_L1_1.fastq.gz
     11067734460               0      2147483648     18540392486       123602621  species/Taeniopygia_guttata/bTaeGut4/genomic_data/illumina/bTaeGut4_R-JL230_USPD16085109-D707_HJHCJCCXY_L1_2.fastq.gz
      8660716455               0      2147483648     16149279207       107661865  species/Taeniopygia_guttata/bTaeGut4/genomic_data/illumina/bTaeGut4_R-JL230_USPD16085109-D708_HJHCJCCXY_L1_1.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.5506
+arima        *       1.8484
+illumina     *       1.7968
+pacbio       *       0.2588
+pacbiohifi_fqgz *       1.2228
+pacbiohifi_bam *       1.1000
+pacbiohifi_clr *       1.1000
+------------ ------ -------

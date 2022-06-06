@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     18440948311               0      2147483648     36149187100       239398590  species/Arvicanthis_niloticus/mArvNil1/genomic_data/10x/mArvNil1_S1_L001_R1_001.fastq.gz
     13532863805               0      2147483648     26567864978       175946131  species/Arvicanthis_niloticus/mArvNil1/genomic_data/10x/mArvNil1_S2_L001_R1_001.fastq.gz
@@ -12,3 +14,14 @@
      9347484317               0      2147483648     17356193297       114941681  species/Arvicanthis_niloticus/mArvNil2/genomic_data/illumina/HGW3LDSXX_18819990_S65_L003_R2_001.fastq.gz
      8139668201               0      2147483648     15589328935       103240592  species/Arvicanthis_niloticus/mArvNil3/genomic_data/illumina/H7HYHDRXX_18819992_S2_L001_R2_001.fastq.gz
     10124524811               0      2147483648     18998106699       125815280  species/Arvicanthis_niloticus/mArvNil3/genomic_data/illumina/HGW3LDSXX_18819992_S56_L002_R2_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9622
+arima        *       1.5284
+illumina     *       1.8812
+pacbio       *       0.5405
+------------ ------ -------

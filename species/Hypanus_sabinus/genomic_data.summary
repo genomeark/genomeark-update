@@ -1,7 +1,18 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     85325444820               0      2147483648    159352229712      1055312819  species/Hypanus_sabinus/sHypSab1/genomic_data/arima/sHypSab1_S15_L004_R1_001.fastq.gz
     88369501317               0      2147483648    161422067404      1069020355  species/Hypanus_sabinus/sHypSab1/genomic_data/arima/sHypSab1_S15_L004_R2_001.fastq.gz
     20740357710               0      2147483648     24992501705         1725514  species/Hypanus_sabinus/sHypSab1/genomic_data/pacbio_hifi/m54306Ue_220212_165516.hifi_reads.fastq.gz
     18262569452               0      2147483648     23378239174         1763748  species/Hypanus_sabinus/sHypSab1/genomic_data/pacbio_hifi/m64330e_211204_065452.hifi_reads.fastq.gz
     21561811398               0      2147483648     27010508349         1891078  species/Hypanus_sabinus/sHypSab1/genomic_data/pacbio_hifi/m64334e_220127_180415.hifi_reads.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.8399
+pacbiohifi_fqgz *       1.2446
+------------ ------ -------

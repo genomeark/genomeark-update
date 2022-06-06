@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     13408421576               0      2147483648     19413796206       129425314  species/Lynx_canadensis/mLynCan4/genomic_data/10x/mLynCan4_S3_L002_R2_001.fastq.gz
      1042570409               0      1042570409      1098936648       137367081  species/Lynx_canadensis/mLynCan4/genomic_data/10x/mLynCan4_S3_L004_I1_001.fastq.gz
@@ -9,3 +11,13 @@
     10494167276               0      2147483648      5684613432          337628  species/Lynx_canadensis/mLynCan4/genomic_data/pacbio/m54158_180311_131014.subreads.bam
      6951880033               0      2147483648      3727936466          277604  species/Lynx_canadensis/mLynCan4/genomic_data/pacbio/m54159_180314_082406.subreads.bam
     12740607993               0      2147483648      6840907811          646646  species/Lynx_canadensis/mLynCan4/genomic_data/pacbio/m54159_180316_203839.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.5229
+arima        *       1.9030
+pacbio       *       0.5384
+------------ ------ -------

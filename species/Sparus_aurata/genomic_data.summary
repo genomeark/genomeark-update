@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     11288897072               0      2147483648     15714887342       104072106  species/Sparus_aurata/fSpaAur1/genomic_data/10x/fSpaAur1_S1_L007_R2_001.fastq.gz
       869482451               0       869482451       913059720       114132465  species/Sparus_aurata/fSpaAur1/genomic_data/10x/fSpaAur1_S3_L007_I1_001.fastq.gz
@@ -9,3 +11,13 @@
      9210477351               0      2147483648      4786126970          665518  species/Sparus_aurata/fSpaAur1/genomic_data/pacbio/m54097_170811_140557.subreads.bam
      8476116643               0      2147483648      4379316176          596952  species/Sparus_aurata/fSpaAur1/genomic_data/pacbio/m54097_170812_000502.subreads.bam
     10246911015               0      2147483648      5313811272          690491  species/Sparus_aurata/fSpaAur1/genomic_data/pacbio/m54097_170817_231509.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.4275
+arima        *       1.9231
+pacbio       *       0.5183
+------------ ------ -------

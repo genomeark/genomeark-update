@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
       856586244               0       856586244       923370928       115421366  species/Pipistrellus_pipistrellus/mPipPip1/genomic_data/10x/mPipPip1_S1_L002_I1_001.fastq.gz
     11927583006               0      2147483648     18116452724       119976513  species/Pipistrellus_pipistrellus/mPipPip1/genomic_data/10x/mPipPip1_S2_L002_R1_001.fastq.gz
@@ -9,3 +11,13 @@
     41678620768               0      2147483648     62314510471       412678896  species/Pipistrellus_pipistrellus/mPipPip2/genomic_data/arima/mPipPip2_33892_4#1_R1.fastq.gz
     43652969617               0      2147483648     62436476187       413486597  species/Pipistrellus_pipistrellus/mPipPip2/genomic_data/arima/mPipPip2_33892_4#1_R2.fastq.gz
     43752340987               0      2147483648     62678224411       415087578  species/Pipistrellus_pipistrellus/mPipPip2/genomic_data/arima/mPipPip2_33892_5#1_R2.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.5070
+arima        *       1.4519
+pacbio       *       0.5359
+------------ ------ -------

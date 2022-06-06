@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      9170727614               0      2147483648     13164204199       102845349  species/Erpetoichthys_calabaricus/fErpCal1/genomic_data/10x/fErpCal1_S1_L001_R1_001.fastq.gz
       874761259               0       874761259       876661192       109582649  species/Erpetoichthys_calabaricus/fErpCal1/genomic_data/10x/fErpCal1_S4_L003_I1_001.fastq.gz
@@ -9,3 +11,13 @@
      7449949583               0      2147483648      3838434328          616700  species/Erpetoichthys_calabaricus/fErpCal1/genomic_data/pacbio/m54097_170319_141856.subreads.bam
      5924280459               0      2147483648      3087356589          394467  species/Erpetoichthys_calabaricus/fErpCal1/genomic_data/pacbio/m54097_170630_021647.subreads.bam
      8724993910               0      2147483648      4511713509          541494  species/Erpetoichthys_calabaricus/fErpCal1/genomic_data/pacbio/m54097_170702_083429.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.4339
+arima        *       1.6211
+pacbio       *       0.5175
+------------ ------ -------

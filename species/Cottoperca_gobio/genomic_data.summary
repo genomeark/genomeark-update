@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      4805693245               0      2147483648      8775498215        58503321  species/Cottoperca_gobio/fCotGob2/genomic_data/arima/fCotGob2_ARI1_002_USPD16085689-AK5155_HK5YFCCXY_L2_R2.fastq.gz
      4560652973               0      2147483648      9042744684        60284966  species/Cottoperca_gobio/fCotGob2/genomic_data/arima/fCotGob2_ARI1_002_USPD16085689-AK5155_HK5YFCCXY_L4_R1.fastq.gz
@@ -9,3 +11,13 @@
      8650051834               0      2147483648      4527067938          536343  species/Cottoperca_gobio/fCotGob3/genomic_data/pacbio/m54097_170728_183908.subreads.bam
      8314641898               0      2147483648      4320649268          604900  species/Cottoperca_gobio/fCotGob3/genomic_data/pacbio/m54097_170729_144804.subreads.bam
     10964223629               0      2147483648      5731163612          676948  species/Cottoperca_gobio/fCotGob3/genomic_data/pacbio/m54097_170730_110706.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.3916
+arima        *       1.9177
+pacbio       *       0.5219
+------------ ------ -------

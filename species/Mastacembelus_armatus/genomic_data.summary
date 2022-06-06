@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      9416534982               0      2147483648     12147121321        80444512  species/Mastacembelus_armatus/fMasArm1/genomic_data/10x/fMasArm1_S1_L005_R2_001.fastq.gz
       801545628               0       801545628       836118264       104514783  species/Mastacembelus_armatus/fMasArm1/genomic_data/10x/fMasArm1_S3_L005_I1_001.fastq.gz
@@ -9,3 +11,13 @@
      5986852820               0      2147483648      3106381915          423752  species/Mastacembelus_armatus/fMasArm1/genomic_data/pacbio/m54097_170419_131519.subreads.bam
      7169286469               0      2147483648      3691852545          525977  species/Mastacembelus_armatus/fMasArm1/genomic_data/pacbio/m54097_170420_181001.subreads.bam
     10191551654               0      2147483648      5288140885          713883  species/Mastacembelus_armatus/fMasArm1/genomic_data/pacbio/m54097_170422_235857.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.3595
+arima        *       1.9357
+pacbio       *       0.5176
+------------ ------ -------

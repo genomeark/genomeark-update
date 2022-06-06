@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      3325496479               0      3325496479      6573498553        43533103  species/Carcharodon_carcharias/sCarCar2/genomic_data/10x/sCarCar2_S12_L002_R1_001.fastq.gz
      4223328263               0      4223328263      7953973773        52675323  species/Carcharodon_carcharias/sCarCar2/genomic_data/10x/sCarCar2_S1_L002_R2_001.fastq.gz
@@ -11,3 +13,14 @@
     13697060262               0      2147483648      7429993282          366267  species/Carcharodon_carcharias/sCarCar2/genomic_data/pacbio/m54159_190301_011646.subreads.bam
    151463272870               0      2147483648     80189961103         3952674  species/Carcharodon_carcharias/sCarCar2/genomic_data/pacbio/m54306U_190801_104042.subreads.bam
     67096847479               0      2147483648     35279402078         1925373  species/Carcharodon_carcharias/sCarCar2/genomic_data/pacbio/m64055_190802_202833.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9106
+arima        *       1.4821
+illumina     *       1.9703
+pacbio       *       0.5291
+------------ ------ -------

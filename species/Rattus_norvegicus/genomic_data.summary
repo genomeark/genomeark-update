@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
       800860593               0       800860593       762061952        95257744  species/Rattus_norvegicus/mRatNor1/genomic_data/10x/mRatNor1_S1_L001_I1_001.fastq.gz
      7416852645               0      2147483648     10066651661        66666567  species/Rattus_norvegicus/mRatNor1/genomic_data/10x/mRatNor1_S3_L001_R2_001.fastq.gz
@@ -8,3 +10,13 @@
     44168524877               0      2147483648     63429165581       420060719  species/Rattus_norvegicus/mRatNor1/genomic_data/arima/mRatNor1_32564_8#1_R2.fastq.gz
    261313565380               0      2147483648    138291132878         5644415  species/Rattus_norvegicus/mRatNor1/genomic_data/pacbio/m64016_190618_103014.subreads.bam
    243311495934               0      2147483648    128206513530         5769727  species/Rattus_norvegicus/mRatNor1/genomic_data/pacbio/m64016_190622_041831.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.3414
+arima        *       1.5215
+pacbio       *       0.5284
+------------ ------ -------

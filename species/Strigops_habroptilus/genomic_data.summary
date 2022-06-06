@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     10382281317               0      2147483648     20540762475       136938421  species/Strigops_habroptilus/bStrHab1/genomic_data/10x/bStrHab1_S2_L004_R1_001.fastq.gz
      8206543606               0      2147483648     15587590547       103917274  species/Strigops_habroptilus/bStrHab1/genomic_data/10x/bStrHab1_S3_L004_R2_001.fastq.gz
@@ -8,3 +10,13 @@
      3776104831               0      3776104831       960443708          119476  species/Strigops_habroptilus/bStrHab1/genomic_data/pacbio/m151227_043558_42142_c100974642550000001823228308031600_s1_p0.subreads.bam
      3559278623               0      3559278623       891835153          107345  species/Strigops_habroptilus/bStrHab1/genomic_data/pacbio/m151229_004811_42175_c100974302550000001823228308031637_s1_p0.subreads.bam
      2801527776               0      2801527776       729921599           91424  species/Strigops_habroptilus/bStrHab1/genomic_data/pacbio/m160704_023158_42161_c100995512550000001823227909161696_s1_p0.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9425
+arima        *       1.7876
+pacbio       *       0.2547
+------------ ------ -------

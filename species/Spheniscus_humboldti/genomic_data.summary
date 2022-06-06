@@ -1,7 +1,20 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     25394825599               0      2147483648     47167038332       312364492  species/Spheniscus_humboldti/bSphHub1/genomic_data/arima/bSphHub1_S17_L004_R1_001.fastq.gz
     26891127900               0      2147483648     47333008253       313463643  species/Spheniscus_humboldti/bSphHub1/genomic_data/arima/bSphHub1_S17_L004_R2_001.fastq.gz
     13398354566               0      2147483648     16075321064         1080455  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m54306Ue_211126_062348.hifi_reads.fastq.gz
     12322475216               0      2147483648     14393563152          966841  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m64334e_211120_161230.hifi_reads.fastq.gz
     12065997452               0      2147483648     14387167777          933597  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m64334e_211126_065713.hifi_reads.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.7913
+pacbiohifi_fqgz *       1.1870
+pacbiohifi_bam *       1.1000
+pacbiohifi_clr *       1.1000
+------------ ------ -------

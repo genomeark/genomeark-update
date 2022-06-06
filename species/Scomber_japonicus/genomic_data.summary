@@ -1,7 +1,20 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     26393918533               0      2147483648     40577465135       270516434  species/Scomber_japonicus/fScoJap1/genomic_data/arima/fScoJap1_S_2476_8_R1_001.fastq.gz
     30858268660               0      2147483648     41794625117       278630848  species/Scomber_japonicus/fScoJap1/genomic_data/arima/fScoJap1_S_2476_8_R2_001.fastq.gz
     17155858171               0      2147483648      8559065750          958178  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m54306U_210430_033146.Q20.fastq
      6083879907               0      2147483648      8516801784          922269  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m54306U_210430_033146.Q20.fastq.gz
     12988033430               0      2147483648     17129235882         1221936  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m64055e_210912_004152.hifi_reads.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.4092
+pacbiohifi_fqgz *       1.1000
+pacbiohifi_bam *       1.1000
+pacbiohifi_clr *       1.1000
+------------ ------ -------

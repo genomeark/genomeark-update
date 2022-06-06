@@ -1,4 +1,14 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     38443558201               0      2147483648     73607464837       490716450  species/Passerculus_sandwichensis/bPasSan1/genomic_data/arima/bPasSan1_Savannah_Sparrow_R1.fastq.gz
     38705840260               0      2147483648     74189106022       494594058  species/Passerculus_sandwichensis/bPasSan1/genomic_data/arima/bPasSan1_Savannah_Sparrow_R2.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.9160
+------------ ------ -------

@@ -1,4 +1,14 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     65481081270               0      2147483648    127213328889       842472376  species/Euleptes_europaea/rEulEur1/genomic_data/arima/rEulEur1_S1_L001_R1_001.fastq.gz
     68358029440               0      2147483648    126699650154       839070562  species/Euleptes_europaea/rEulEur1/genomic_data/arima/rEulEur1_S1_L001_R2_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.8823
+------------ ------ -------

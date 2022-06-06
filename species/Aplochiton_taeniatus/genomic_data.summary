@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      5608521626               0      2147483648     10856443012        71896976  species/Aplochiton_taeniatus/fAplTae1/genomic_data/10x/fAplTae1_S1_L001_R1_001.fastq.gz
      4575616890               0      2147483648      8846259051        58584497  species/Aplochiton_taeniatus/fAplTae1/genomic_data/10x/fAplTae1_S1_L002_R1_001.fastq.gz
@@ -8,3 +10,13 @@
     19578658950               0      2147483648     10478683815          674112  species/Aplochiton_taeniatus/fAplTae1/genomic_data/pacbio/m54062_190712_191052.subreads.bam
     20914467804               0      2147483648     11272456292          726670  species/Aplochiton_taeniatus/fAplTae1/genomic_data/pacbio/m54144_190713_194706.subreads.bam
     19367740366               0      2147483648     10342380958          752375  species/Aplochiton_taeniatus/fAplTae1/genomic_data/pacbio/m54144_190714_060021.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9380
+arima        *       1.5342
+pacbio       *       0.5361
+------------ ------ -------

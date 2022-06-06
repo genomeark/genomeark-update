@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      8903854904               0      2147483648     17804782898       117912473  species/Corvus_moneduloides/bCorMon1/genomic_data/10x/bCorMon1_S1_L001_R1_001.fastq.gz
      7715755861               0      2147483648     15436841001       102230735  species/Corvus_moneduloides/bCorMon1/genomic_data/10x/bCorMon1_S2_L001_R1_001.fastq.gz
@@ -8,3 +10,13 @@
     20379084076               0      2147483648     11006428873          583638  species/Corvus_moneduloides/bCorMon1/genomic_data/pacbio/m54158_190207_225549.subreads.bam
     19500128981               0      2147483648     10612586343          546180  species/Corvus_moneduloides/bCorMon1/genomic_data/pacbio/m54159_190209_033230.subreads.bam
     16699699176               0      2147483648      9097285414          442640  species/Corvus_moneduloides/bCorMon1/genomic_data/pacbio/m54306_190201_044403.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       2.0005
+arima        *       1.4979
+pacbio       *       0.5428
+------------ ------ -------

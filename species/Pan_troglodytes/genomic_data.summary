@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     12688794004               0      2147483648     20258466622       134162030  species/Pan_troglodytes/mPanTro1/genomic_data/10x/mPanTro1_S1_L004_R1_001.fastq.gz
       857811121               0       857811121      1096032288       137004036  species/Pan_troglodytes/mPanTro1/genomic_data/10x/mPanTro1_S1_L006_I1_001.fastq.gz
@@ -12,3 +14,15 @@
     30807763411               0      2147483648     36996237555         1754614  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m54329U_220226_122930.hifi_reads.fastq.gz
     18566825515               0      2147483648     24663163046         1325089  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m64076_210813_021703.hifi_reads.fastq.gz
     21881044656               0      2147483648     28676233367         1559694  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m64076_210814_131501.hifi_reads.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.5057
+ont          *       1.0572
+pacbio       *       0.2594
+pacbiohifi_fqgz *       1.2677
+pacbiohifi_clr *       1.1000
+------------ ------ -------

@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     10237238866               0      2147483648     14052596064        93063554  species/Sciurus_vulgaris/mSciVul1/genomic_data/10x/mSciVul1_S1_L002_R2_001.fastq.gz
      7346572927               0      2147483648     10704812746        70892803  species/Sciurus_vulgaris/mSciVul1/genomic_data/10x/mSciVul1_S2_L002_R1_001.fastq.gz
@@ -8,3 +10,13 @@
      7964184434               0      2147483648      4182697999          410369  species/Sciurus_vulgaris/mSciVul1/genomic_data/pacbio/m54097_180213_113038.subreads.bam
     11168422465               0      2147483648      5856190190          512373  species/Sciurus_vulgaris/mSciVul1/genomic_data/pacbio/m54205_180212_215559.subreads.bam
     14848427685               0      2147483648      8025933238          603123  species/Sciurus_vulgaris/mSciVul1/genomic_data/pacbio/m54205_180420_132410.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.3896
+arima        *       1.7498
+pacbio       *       0.5316
+------------ ------ -------

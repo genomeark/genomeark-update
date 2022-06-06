@@ -1,4 +1,14 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     60022221097               0      2147483648     99899146136       665994335  species/Chionoecetes_opilio/qChiOpi1/genomic_data/arima/qChiOpi1_S_2476_R1_R1_001.fastq.gz
     71162581184               0      2147483648     99036162536       660241116  species/Chionoecetes_opilio/qChiOpi1/genomic_data/arima/qChiOpi1_S_2476_R1_R2_001.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+arima        *       1.4725
+------------ ------ -------

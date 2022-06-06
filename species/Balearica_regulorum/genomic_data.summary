@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      9319532259               0      2147483648     17533180875       116113780  species/Balearica_regulorum/bBalReg1/genomic_data/10x/bBalReg1_S1_L001_R2_001.fastq.gz
     11064182519               0      2147483648     21469358339       142181186  species/Balearica_regulorum/bBalReg1/genomic_data/10x/bBalReg1_S4_L001_R1_001.fastq.gz
@@ -8,3 +10,13 @@
     15315640029               0      2147483648      8386739151          354498  species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/m54307_190515_175620.subreads.bam
     16826980225               0      2147483648      9203558125          372116  species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/m54307_190516_041052.subreads.bam
     11415100193               0      2147483648      6250593202          253866  species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/m54307_190516_203341.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9064
+arima        *       1.5545
+pacbio       *       0.5473
+------------ ------ -------

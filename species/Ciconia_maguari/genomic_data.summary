@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      3402006369               0      3402006369      3999602936       499950367  species/Ciconia_maguari/bCicMag1/genomic_data/10x/bCicMag1_S3_L001_I1_001.fastq.gz
     39731439000               0      2147483648     75603182695       500683347  species/Ciconia_maguari/bCicMag1/genomic_data/10x/bCicMag1_S3_L001_R1_001.fastq.gz
@@ -8,3 +10,13 @@
      7232477860               0      2147483648      3873677290          306123  species/Ciconia_maguari/bCicMag1/genomic_data/pacbio/m54159_190823_191602.subreads.bam
      8230869223               0      2147483648      4405576298          345446  species/Ciconia_maguari/bCicMag1/genomic_data/pacbio/m54159_190824_053044.subreads.bam
      7746191371               0      2147483648      4074297744          412367  species/Ciconia_maguari/bCicMag1/genomic_data/pacbio/m54159_190827_055332.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8433
+arima        *       1.6028
+pacbio       *       0.5322
+------------ ------ -------

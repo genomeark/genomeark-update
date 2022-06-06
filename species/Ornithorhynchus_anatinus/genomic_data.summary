@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     20597716528               0      2147483648     40450244718       269668307  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/10x/mOrnAna1_S1_L004_R1_001.fastq.gz
     22680239024               0      2147483648     49098834115       327325560  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/10x/mOrnAna1_S2_L004_R1_001.fastq.gz
@@ -10,3 +12,14 @@
     34052184367               0      2147483648     52934201582       350557626  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/phase/mOrnAna1_AD014_S4_R2.fastq.gz
     14085081882               0      2147483648     22347714011       221264495  species/Ornithorhynchus_anatinus/mOrnAna2/genomic_data/dovetail/mOrnAna2_Pmale08_R1.fastq.gz
     14606468111               0      2147483648     22360217031       221388294  species/Ornithorhynchus_anatinus/mOrnAna2/genomic_data/dovetail/mOrnAna2_Pmale08_R2.fastq.gz
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       2.0103
+dovetail     *       1.5489
+pacbio       *       0.2576
+phase        *       1.5696
+------------ ------ -------

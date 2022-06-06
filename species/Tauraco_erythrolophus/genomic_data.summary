@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      3911456506               0      3911456506      6982193945        46239695  species/Tauraco_erythrolophus/bTauEry1/genomic_data/10x/bTauEry1_S3_L001_R1_001.fastq.gz
      3975548172               0      3975548172      6982193945        46239695  species/Tauraco_erythrolophus/bTauEry1/genomic_data/10x/bTauEry1_S3_L001_R2_001.fastq.gz
@@ -9,3 +11,13 @@
     16010894413               0      2147483648      8665303813          498619  species/Tauraco_erythrolophus/bTauEry1/genomic_data/pacbio/m54159_180810_063339.subreads.bam
     16565069873               0      2147483648      8987106271          528196  species/Tauraco_erythrolophus/bTauEry1/genomic_data/pacbio/m54159_180816_022151.subreads.bam
     15762227590               0      2147483648      8512434659          502398  species/Tauraco_erythrolophus/bTauEry1/genomic_data/pacbio/m54159_180816_123602.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.7735
+arima        *       1.8217
+pacbio       *       0.5412
+------------ ------ -------

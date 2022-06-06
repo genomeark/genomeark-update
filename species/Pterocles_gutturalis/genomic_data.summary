@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
     22040856751               0      2147483648     40451055932       269673716  species/Pterocles_gutturalis/bPteGut1/genomic_data/10x/PteGut1_S7_L001_R2_001.fastq.gz
      2038124126               0      2038124126      2156722536       269590317  species/Pterocles_gutturalis/bPteGut1/genomic_data/10x/bPteGut1_S7_L001_I1_001.fastq.gz
@@ -9,3 +11,13 @@
     16109183105               0      2147483648      8762485532          555660  species/Pterocles_gutturalis/bPteGut1/genomic_data/pacbio/m54158_181018_184334.subreads.bam
     15430693021               0      2147483648      8404565167          596013  species/Pterocles_gutturalis/bPteGut1/genomic_data/pacbio/m54158_181019_045416.subreads.bam
     15777864214               0      2147483648      8449531723          612656  species/Pterocles_gutturalis/bPteGut1/genomic_data/pacbio/m54159_180925_154820.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8114
+arima        *       1.7749
+pacbio       *       0.5413
+------------ ------ -------

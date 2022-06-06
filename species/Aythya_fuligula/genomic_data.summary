@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      4573834616               0      2147483648      9725952529        64410283  species/Aythya_fuligula/bAytFul2/genomic_data/10x/bAytFul2_S1_L001_R1_001.fastq.gz
      3608977739               0      3608977739      7684246097        50889047  species/Aythya_fuligula/bAytFul2/genomic_data/10x/bAytFul2_S2_L001_R1_001.fastq.gz
@@ -9,3 +11,13 @@
     21414258802               0      2147483648     11784128683          554441  species/Aythya_fuligula/bAytFul2/genomic_data/pacbio/m54158_181029_182836.subreads.bam
     16636840286               0      2147483648      9172219154          436008  species/Aythya_fuligula/bAytFul2/genomic_data/pacbio/m54158_181030_044209.subreads.bam
     24051292712               0      2147483648     13198706450          604742  species/Aythya_fuligula/bAytFul2/genomic_data/pacbio/m54306_181101_191249.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       2.1285
+arima        *       1.8347
+pacbio       *       0.5499
+------------ ------ -------

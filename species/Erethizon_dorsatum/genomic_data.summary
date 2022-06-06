@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      5895209666               0      2147483648     11014496471        72943687  species/Erethizon_dorsatum/mEreDor1/genomic_data/10x/mEreDor1_S2_L001_R1_001.fastq.gz
      6246202645               0      2147483648     11285693533        74739695  species/Erethizon_dorsatum/mEreDor1/genomic_data/10x/mEreDor1_S4_L001_R2_001.fastq.gz
@@ -10,3 +12,14 @@
     87922381272               0      2147483648    164590224571      1090001528  species/Erethizon_dorsatum/mEreDor1/genomic_data/illumina/mEreDor1_DNAseq_R2.fastq.gz
    334197557572               0      2147483648    175674115152         8710989  species/Erethizon_dorsatum/mEreDor1/genomic_data/pacbio/m54306U_191112_214137.subreads.bam
    301365275862               0      2147483648    158459523728         8194110  species/Erethizon_dorsatum/mEreDor1/genomic_data/pacbio/m54306U_191114_122641.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.8272
+arima        *       1.4597
+illumina     *       1.8923
+pacbio       *       0.5257
+------------ ------ -------

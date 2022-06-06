@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
       800272838               0       800272838       938593160       117324145  species/Myripristis_murdjan/fMyrMur1/genomic_data/10x/fMyrMur1_S1_L006_I1_001.fastq.gz
     10897345697               0      2147483648     18254857345       120893100  species/Myripristis_murdjan/fMyrMur1/genomic_data/10x/fMyrMur1_S1_L006_R1_001.fastq.gz
@@ -8,3 +10,13 @@
     12207674785               0      2147483648      6547124223          493745  species/Myripristis_murdjan/fMyrMur1/genomic_data/pacbio/m54097_180724_220002.subreads.bam
     11751381781               0      2147483648      6357897374          421487  species/Myripristis_murdjan/fMyrMur1/genomic_data/pacbio/m54205_180716_105352.subreads.bam
     11225491282               0      2147483648      6000417026          428354  species/Myripristis_murdjan/fMyrMur1/genomic_data/pacbio/m54205_180724_211428.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.6548
+arima        *       1.5054
+pacbio       *       0.5373
+------------ ------ -------

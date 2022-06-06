@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      9161623286               0      2147483648     13952768207        92402442  species/Arvicola_amphibius/mArvAmp1/genomic_data/10x/mArvAmp1_S1_L008_R1_001.fastq.gz
       813621282               0       813621282       870780128       108847516  species/Arvicola_amphibius/mArvAmp1/genomic_data/10x/mArvAmp1_S4_L008_I1_001.fastq.gz
@@ -8,3 +10,13 @@
     14463615665               0      2147483648      7633431586          590679  species/Arvicola_amphibius/mArvAmp1/genomic_data/pacbio/m54205_180109_144115.subreads.bam
     12561596684               0      2147483648      6591569690          590086  species/Arvicola_amphibius/mArvAmp1/genomic_data/pacbio/m54205_180115_230507.subreads.bam
     13409638653               0      2147483648      7070595023          579606  species/Arvicola_amphibius/mArvAmp1/genomic_data/pacbio/m54205_180118_055046.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.5065
+dovetail     *       1.4739
+pacbio       *       0.5266
+------------ ------ -------

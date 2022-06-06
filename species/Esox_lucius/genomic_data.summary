@@ -1,4 +1,6 @@
-          bytes            date        quantity           bases           reads  file
+-  GENOMIC DATA FILE SUMMARIES
+-
+-         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
      2100744724               0      2100744724      4208603597        27871547  species/Esox_lucius/fEsoLuc1/genomic_data/10x/fEsoLuc1_S1_L003_R1_001.fastq.gz
      2172377324               0      2172377324      4340207194        28743094  species/Esox_lucius/fEsoLuc1/genomic_data/10x/fEsoLuc1_S1_L006_R1_001.fastq.gz
@@ -8,3 +10,13 @@
     18336503177               0      2147483648      9690956534          874497  species/Esox_lucius/fEsoLuc1/genomic_data/pacbio/m54142_190418_090302.subreads.bam
     19408663032               0      2147483648     10305278793          887771  species/Esox_lucius/fEsoLuc1/genomic_data/pacbio/m54142_190423_130032.subreads.bam
     22310307789               0      2147483648     11979713556          893281  species/Esox_lucius/fEsoLuc1/genomic_data/pacbio/m54142_190424_112820.subreads.bam
+--------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-   datatype suffix scaling
+------------ ------ -------
+10x          *       1.9616
+arima        *       1.5872
+pacbio       *       0.5324
+------------ ------ -------
