@@ -4,8 +4,16 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     89026044072               0      2147483648    173590721812      1149607429  species/Ascaphus_truei/aAscTru4/genomic_data/arima/aAscTru4_S1_L001_R1_001.fastq.gz
     91268909375               0      2147483648    173644633369      1149964501  species/Ascaphus_truei/aAscTru4/genomic_data/arima/aAscTru4_S1_L001_R2_001.fastq.gz
+    30037312100               0      2147483648     37358437944         2510662  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m54306Ue_211017_180542.hifi_reads.bam
      6590581466               0      2147483648      8196932797          550872  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m54306Ue_211017_180542.hifi_reads.fastq.gz
+   158286833429               0      2147483648     72245598277         5228185  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m54306Ue_211017_180542.reads.bam
+   228517895525               0      2147483648     90317243071         5482981  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m54306Ue_211205_180446.reads.bam
+    78978201442               0      2147483648     21422912846         1438940  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m54306Ue_211207_032852.hifi_reads.bam
+    17652054244               0      2147483648      4788136634          321610  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m54306Ue_211207_032852.hifi_reads.fastq.gz
+    81428675682               0      2147483648    101933053867         6698208  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m64334e_211129_045204.hifi_reads.bam
     18039265804               0      2147483648     22581694194         1483884  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m64334e_211129_045204.hifi_reads.fastq.gz
+   236098220595               0      2147483648     95608301698         5514570  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m64334e_211129_045204.reads.bam
+    76236057397               0      2147483648     94189649371         6282076  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m64334e_211203_171117.hifi_reads.bam
     16821187122               0      2147483648     20782576790         1386115  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m64334e_211203_171117.hifi_reads.fastq.gz
 --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -15,6 +23,6 @@
 ------------ ------ -------
 arima        *       1.9180
 pacbiohifi_fqgz *       1.2439
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       0.8438
+pacbiohifi_clr *       0.4144
 ------------ ------ -------

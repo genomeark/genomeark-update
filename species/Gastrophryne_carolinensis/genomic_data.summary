@@ -4,8 +4,14 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
    130129039243               0      2147483648    242751914588      1607628634  species/Gastrophryne_carolinensis/aGasCar1/genomic_data/arima/aGasCar1_S6_L002_R1_001.fastq.gz
    133600490985               0      2147483648    245676949504      1626999727  species/Gastrophryne_carolinensis/aGasCar1/genomic_data/arima/aGasCar1_S6_L002_R2_001.fastq.gz
+   101000737071               0      2147483648    119741994809         7721782  species/Gastrophryne_carolinensis/aGasCar1/genomic_data/pacbio_hifi/m64055e_211104_144808.hifi_reads.bam
     22990915964               0      2147483648     27257010392         1757718  species/Gastrophryne_carolinensis/aGasCar1/genomic_data/pacbio_hifi/m64055e_211104_144808.hifi_reads.fastq.gz
+   239078564318               0      2147483648     92734195829         5676697  species/Gastrophryne_carolinensis/aGasCar1/genomic_data/pacbio_hifi/m64055e_211104_144808.reads.bam
+    93085127788               0      2147483648    113886607120         7310630  species/Gastrophryne_carolinensis/aGasCar1/genomic_data/pacbio_hifi/m64330e_211108_203923.hifi_reads.bam
     20764458217               0      2147483648     25404634996         1630778  species/Gastrophryne_carolinensis/aGasCar1/genomic_data/pacbio_hifi/m64330e_211108_203923.hifi_reads.fastq.gz
+   238449435012               0      2147483648     96215702122         5504198  species/Gastrophryne_carolinensis/aGasCar1/genomic_data/pacbio_hifi/m64330e_211108_203923.reads.bam
+   242750314874               0      2147483648     98344929064         5318617  species/Gastrophryne_carolinensis/aGasCar1/genomic_data/pacbio_hifi/m64330e_211110_060034.reads.bam
+    95774269192               0      2147483648    123930446034         8041398  species/Gastrophryne_carolinensis/aGasCar1/genomic_data/pacbio_hifi/m64334e_211119_061646.hifi_reads.bam
     20567583808               0      2147483648     26614140276         1726895  species/Gastrophryne_carolinensis/aGasCar1/genomic_data/pacbio_hifi/m64334e_211119_061646.hifi_reads.fastq.gz
 --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -15,6 +21,6 @@
 ------------ ------ -------
 arima        *       1.8475
 pacbiohifi_fqgz *       1.2324
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.2335
+pacbiohifi_clr *       0.3988
 ------------ ------ -------

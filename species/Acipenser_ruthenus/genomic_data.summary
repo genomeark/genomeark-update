@@ -11,6 +11,12 @@
     44708054695               0      2147483648     61295419548       405929951  species/Acipenser_ruthenus/fAciRut3/genomic_data/dovetail/fAciRut3_28791_7#1_R2.fastq.gz
     41532132670               0      2147483648     61247626320       405613438  species/Acipenser_ruthenus/fAciRut3/genomic_data/dovetail/fAciRut3_28791_8#1_R1.fastq.gz
     44857203431               0      2147483648     61611769016       408024960  species/Acipenser_ruthenus/fAciRut3/genomic_data/dovetail/fAciRut3_28791_8#1_R2.fastq.gz
+   238078450336               0      2147483648    124619217007         6637866  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_190301_161945.subreads.bam
+   219538046065               0      2147483648    114731390550         6163673  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_190305_101633.subreads.bam
+    20358079302               0      2147483648     27605725161         2021688  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_200221_203433.ccs.bam
+    20565581860               0      2147483648     28919879825         2156361  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_200223_025939.ccs.bam
+    20850316204               0      2147483648     27980126487         2085309  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_200224_092430.ccs.bam
+   117542087813               0      2147483648      1593671625           81883  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/mat/m64016_190301_161945.subreads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -20,6 +26,6 @@
 10x          *       1.4423
 dovetail     *       1.4047
 illumina     *       1.4364
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.3679
+pacbiohifi_clr *       0.4189
 ------------ ------ -------

@@ -13,10 +13,18 @@
      8232097432               0      2147483648     15849544521       104963874  species/Gallus_gallus/bGalGal3/genomic_data/illumina/HJTKMDSXX_18861315_S12_L002_R1_001.fastq.gz
      7153928488               0      2147483648     12950526954        85765082  species/Gallus_gallus/bGalGal3/genomic_data/illumina/HJVYLDSXX_18861315_S36_L003_R2_001.fastq.gz
     14416935222               0      2147483648      7199725081          439748  species/Gallus_gallus/bGalGal4/genomic_data/pacbio_hifi/m54306U_210322_154536.Q20.fastq
+     6485846338               0      2147483648      7159502397          437767  species/Gallus_gallus/bGalGal4/genomic_data/pacbio_hifi/m54306U_210322_154536.ccs.bam
+   279694957735               0      2147483648    143989125106        10983922  species/Gallus_gallus/bGalGal4/genomic_data/pacbio_hifi/m54306U_210322_154536.subreads.bam
      3855525902               0      3855525902      1925750278          102154  species/Gallus_gallus/bGalGal4/genomic_data/pacbio_hifi/m64055_200702_205110.Q20.fastq
+     1802227617               0      1802227617      1925750278          102154  species/Gallus_gallus/bGalGal4/genomic_data/pacbio_hifi/m64055_200702_205110.ccs.bam
+     1308056526               0      1308056526      1366899272           92886  species/Gallus_gallus/bGalGal4/genomic_data/pacbio_hifi/m64055_201028_023638.ccs.bam
+    70897634995               0      2147483648     36500474737         7346338  species/Gallus_gallus/bGalGal4/genomic_data/pacbio_hifi/m64055_201028_023638.subreads.bam
+   439999628062               0      2147483648    225358861194        17166160  species/Gallus_gallus/bGalGal4/genomic_data/pacbio_hifi/m64055_210307_103726.subreads.bam
     16050636313               0      2147483648     27502222094       183348147  species/Gallus_gallus/bGalGal5/genomic_data/arima/bGalGal5_2450_14_L003_R1_001.fastq.gz
     18949447637               0      2147483648     27515587081       183437256  species/Gallus_gallus/bGalGal5/genomic_data/arima/bGalGal5_2450_14_L003_R2_001.fastq.gz
     10660432996               0      2147483648     16927546500         1395566  species/Gallus_gallus/bGalGal5/genomic_data/pacbio_hifi/m54306U_191220_191440.Q20.fastq.gz
+    11727266749               0      2147483648     13044041552          680956  species/Gallus_gallus/bGalGal5/genomic_data/pacbio_hifi/m54306U_200110_081026.Q20.fastq.gz
+    13887692475               0      2147483648     15759344910          874145  species/Gallus_gallus/bGalGal5/genomic_data/pacbio_hifi/m54306U_200207_052833.Q20.fastq.gz
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -27,7 +35,7 @@
 arima        *       1.5971
 illumina     *       1.8860
 pacbio       *       0.5393
-pacbiohifi_fqgz *       1.1000
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_fqgz *       1.2606
+pacbiohifi_bam *       1.0892
+pacbiohifi_clr *       0.5133
 ------------ ------ -------

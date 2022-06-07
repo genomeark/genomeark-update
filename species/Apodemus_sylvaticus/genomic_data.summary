@@ -5,6 +5,9 @@
      6059578896               0      2147483648     11675111646        77318620  species/Apodemus_sylvaticus/mApoSyl1/genomic_data/10x/mApoSyl1_S13_L003_R1_001.fastq.gz
       526628635               0       526628635       612807208        76600901  species/Apodemus_sylvaticus/mApoSyl1/genomic_data/10x/mApoSyl1_S15_L003_I1_001.fastq.gz
      5205513511               0      2147483648     10021855037        66369903  species/Apodemus_sylvaticus/mApoSyl1/genomic_data/10x/mApoSyl1_S16_L003_R1_001.fastq.gz
+    59883188301               0      2147483648     15492228100         1617402  species/Apodemus_sylvaticus/mApoSyl1/genomic_data/pacbio_hifi/m64125e_210325_140800.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
+    62166088801               0      2147483648     15803947884         1694549  species/Apodemus_sylvaticus/mApoSyl1/genomic_data/pacbio_hifi/m64125e_210326_141629.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
+    90413449185               0      2147483648     23058291923         2089355  species/Apodemus_sylvaticus/mApoSyl1/genomic_data/pacbio_hifi/m64221e_210315_131002.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
    111683843571               0      2147483648    226546147149      1500305610  species/Apodemus_sylvaticus/mApoSyl2/genomic_data/arima/mApoSyl2_40063_2#2_R1.fastq.gz
    116540379931               0      2147483648    231119983131      1530595969  species/Apodemus_sylvaticus/mApoSyl2/genomic_data/arima/mApoSyl2_40063_2#2_R2.fastq.gz
 --------------- --------------- --------------- --------------- ---------------  ----------
@@ -15,5 +18,5 @@
 ------------ ------ -------
 10x          *       1.8919
 arima        *       1.9978
-pacbiohifi_bam *       1.1000
+pacbiohifi_bam *       0.2558
 ------------ ------ -------

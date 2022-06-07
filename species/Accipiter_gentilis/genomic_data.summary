@@ -7,6 +7,9 @@
      5556542969               0      2147483648     10852227714        71869060  species/Accipiter_gentilis/bAccGen1/genomic_data/10x/bAccGen1_S16_L002_R2_001.fastq.gz
     16596260014               0      2147483648     34263470505       226910400  species/Accipiter_gentilis/bAccGen1/genomic_data/arima/bAccGen1_40520_4#1_R1.fastq.gz
     17499048738               0      2147483648     34766753229       230243407  species/Accipiter_gentilis/bAccGen1/genomic_data/arima/bAccGen1_40520_4#1_R2.fastq.gz
+    10390995762               0      2147483648     17250075109         2400674  species/Accipiter_gentilis/bAccGen1/genomic_data/pacbio_hifi/m64016e_211021_145649.ccs.bc1009_BAK8A_OA--bc1009_BAK8A_OA.bam
+    60099142873               0      2147483648     15431968025         1271648  species/Accipiter_gentilis/bAccGen1/genomic_data/pacbio_hifi/m64221e_210510_024224.ccs.bc1021_BAK8B_OA--bc1021_BAK8B_OA.bam
+    13538292384               0      2147483648     17662120250         1503155  species/Accipiter_gentilis/bAccGen1/genomic_data/pacbio_hifi/m64221e_210522_224424.ccs.bc1021_BAK8B_OA--bc1021_BAK8B_OA.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,5 +18,5 @@
 ------------ ------ -------
 10x          *       1.9329
 arima        *       2.0117
-pacbiohifi_bam *       1.1000
+pacbiohifi_bam *       0.5991
 ------------ ------ -------

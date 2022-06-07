@@ -4,9 +4,15 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     22625314284               0      2147483648     42036010625       278384186  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/arima/bRhyJub1_S18_L004_R1_001.fastq.gz
     23817594370               0      2147483648     42227836698       279654547  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/arima/bRhyJub1_S18_L004_R2_001.fastq.gz
+    54700320979               0      2147483648     66046195322         4179238  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m54306Ue_211121_044556.hifi_reads.bam
     12275013683               0      2147483648     14821082157          937841  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m54306Ue_211121_044556.hifi_reads.fastq.gz
+   186355725880               0      2147483648     81208732490         4698976  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m54306Ue_211121_044556.reads.bam
+    55844082215               0      2147483648     67812093822         4286439  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m54306Ue_211127_155134.hifi_reads.bam
     12569927089               0      2147483648     15263803097          964833  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m54306Ue_211127_155134.hifi_reads.fastq.gz
+   206605811997               0      2147483648     90138605072         5474927  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m54306Ue_211127_155134.reads.bam
+    39355696915               0      2147483648     47102762581         3002454  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m64330e_211129_212851.hifi_reads.bam
      8807061681               0      2147483648     10540708662          671892  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m64330e_211129_212851.hifi_reads.fastq.gz
+   184860324324               0      2147483648     82041047660         5480429  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m64334e_211127_175447.reads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,6 +21,6 @@
 ------------ ------ -------
 arima        *       1.8003
 pacbiohifi_fqgz *       1.2072
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.2072
+pacbiohifi_clr *       0.4385
 ------------ ------ -------

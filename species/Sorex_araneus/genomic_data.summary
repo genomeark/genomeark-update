@@ -4,9 +4,15 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     72487040244               0      2147483648    146201115816       974674139  species/Sorex_araneus/mSorAra1/genomic_data/arima/mSorAra1_Eurasian_Common_Shrew_R1_001.fastq.gz
     75309250978               0      2147483648    149464508352       996430090  species/Sorex_araneus/mSorAra1/genomic_data/arima/mSorAra1_Eurasian_Common_Shrew_R2_001.fastq.gz
+    11962717116               0      2147483648     15970674287         1838178  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64055e_210627_165219.hifi_reads.bam
     12576284661               0      2147483648     16789809883         1932458  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64055e_210627_165219.hifi_reads.fastq.gz
+    29398270304               0      2147483648     35408715142         2602139  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64055e_210919_173337.hifi_reads.bam
      6556967425               0      2147483648      7897532383          580379  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64055e_210919_173337.hifi_reads.fastq.gz
+    87722588936               0      2147483648     36620565904         3134875  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64055e_210919_173337.reads.bam
+    89551950200               0      2147483648    105409665782         7078223  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64334e_211003_054950.hifi_reads.bam
     20741784601               0      2147483648     24414706521         1639439  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64334e_211003_054950.hifi_reads.fastq.gz
+   333422991535               0      2147483648    147946676131         5954925  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64334e_211003_054950.reads.bam
+   271497901004               0      2147483648    115929316527         5531266  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64334e_211011_143710.reads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,6 +21,6 @@
 ------------ ------ -------
 arima        *       1.9951
 pacbiohifi_fqgz *       1.2313
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.1976
+pacbiohifi_clr *       0.4338
 ------------ ------ -------

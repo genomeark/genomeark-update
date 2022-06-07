@@ -7,6 +7,8 @@
       475058806               0       475058806       566027592        70753449  species/Thunnus_maccoyii/fThuMac1/genomic_data/10x/fThuMac1_S7_L007_I1_001.fastq.gz
     24884801436               0      2147483648     50503045666       334457256  species/Thunnus_maccoyii/fThuMac1/genomic_data/arima/fThuMac1_35778_2#8_R1.fastq.gz
     26851169360               0      2147483648     50846929568       336734632  species/Thunnus_maccoyii/fThuMac1/genomic_data/arima/fThuMac1_35778_2#8_R2.fastq.gz
+    17462553905               0      2147483648     18669815420         1398527  species/Thunnus_maccoyii/fThuMac1/genomic_data/pacbio_hifi/m64094_201126_141310.ccs.bc1012_BAK8A_OA--bc1012_BAK8A_OA.bam
+    16149476499               0      2147483648     17400799565         1293028  species/Thunnus_maccoyii/fThuMac1/genomic_data/pacbio_hifi/m64094_201127_165148.ccs.bc1012_BAK8A_OA--bc1012_BAK8A_OA.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,5 +17,5 @@
 ------------ ------ -------
 10x          *       1.5587
 arima        *       1.9366
-pacbiohifi_bam *       1.1000
+pacbiohifi_bam *       1.0717
 ------------ ------ -------

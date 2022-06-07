@@ -4,9 +4,15 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     38880080348               0      2147483648     75688865972       504592439  species/Melospiza_georgiana/bMelGeo1/genomic_data/arima/bMelGeo1_Swamp_Sparrow_R1.fastq.gz
     39860593005               0      2147483648     75787585668       505250589  species/Melospiza_georgiana/bMelGeo1/genomic_data/arima/bMelGeo1_Swamp_Sparrow_R2.fastq.gz
+    32242072017               0      2147483648     40287317086         2609127  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m54306Ue_211022_061550.hifi_reads.bam
      7115695475               0      2147483648      8891248668          575824  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m54306Ue_211022_061550.hifi_reads.fastq.gz
+   138426097838               0      2147483648     62420978223         3394833  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211010_034013.reads.bam
+    50876176466               0      2147483648     61927029155         3818123  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211016_065650.hifi_reads.bam
     11499297961               0      2147483648     13997069150          862992  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211016_065650.hifi_reads.fastq.gz
+   221817525499               0      2147483648    101958198477         4878576  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211016_065650.reads.bam
+    53867978042               0      2147483648     65177527450         4236726  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211017_175320.hifi_reads.bam
     12142572923               0      2147483648     14691898763          955015  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211017_175320.hifi_reads.fastq.gz
+   253509161374               0      2147483648    116891884242         5576535  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211017_175320.reads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,6 +21,6 @@
 ------------ ------ -------
 arima        *       1.9162
 pacbiohifi_fqgz *       1.2218
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.2219
+pacbiohifi_clr *       0.4582
 ------------ ------ -------

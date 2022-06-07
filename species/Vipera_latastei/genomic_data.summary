@@ -4,8 +4,17 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     51294194258               0      2147483648     86017604308       573450719  species/Vipera_latastei/rVipLat1/genomic_data/arima/rVipLat1_S_2476_3_R1_001.fastq.gz
     61577388638               0      2147483648     84762687909       565084586  species/Vipera_latastei/rVipLat1/genomic_data/arima/rVipLat1_S_2476_3_R2_001.fastq.gz
+     9868957092               0      2147483648     11002530826          622587  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m54306U_210506_190607.hifi_reads.bam
     10453979695               0      2147483648     11654750626          659494  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m54306U_210506_190607.hifi_reads.fastq.gz
+   440303891446               0      2147483648    234942395652        14635833  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m54306U_210506_190607.subreads.bam
+    10015821679               0      2147483648     11800288630          671673  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m54306U_210513_174500.hifi_reads.bam
+    10611195935               0      2147483648     11730045559          664258  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m54306U_210513_174500.hifi_reads.fastq.gz
+     7796133906               0      2147483648      9352257172          765544  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m54306U_210609_193127.hifi_reads.bam
+     8233489235               0      2147483648      9172574754          740663  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m54306U_210609_193127.hifi_reads.fastq.gz
+   489651686140               0      2147483648    259044794228        21980340  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m54306U_210609_193127.subreads.bam
     23148211987               0      2147483648     11561195229          670478  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m64055_210317_140301.Q20.fastq
+    11012447450               0      2147483648     11519500462          668146  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m64055_210317_140301.ccs.bam
+   392306759486               0      2147483648    200554075552        13974082  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m64055_210317_140301.subreads.bam
     15497345889               0      2147483648      7739964899          453341  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m64055_210430_160602.Q20.fastq
 --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -14,7 +23,7 @@
 -   datatype suffix scaling
 ------------ ------ -------
 arima        *       1.4648
-pacbiohifi_fqgz *       1.1000
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_fqgz *       1.1112
+pacbiohifi_bam *       1.1334
+pacbiohifi_clr *       0.5252
 ------------ ------ -------

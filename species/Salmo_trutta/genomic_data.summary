@@ -11,6 +11,8 @@
     13426670827               0      2147483648      7168988253          637813  species/Salmo_trutta/fSalTru1/genomic_data/pacbio/m54097_180410_140045.subreads.bam
     11065255620               0      2147483648      5799359015          561464  species/Salmo_trutta/fSalTru1/genomic_data/pacbio/m54205_180324_221829.subreads.bam
     12511622744               0      2147483648      6676306670          611311  species/Salmo_trutta/fSalTru1/genomic_data/pacbio/m54205_180413_151401.subreads.bam
+    11104943856               0      2147483648     15648729153         1470259  species/Salmo_trutta/fSalTru1/genomic_data/pacbio_hifi/m64016_190129_193902.ccs.bam
+    12364475229               0      2147483648     16792479230         1578922  species/Salmo_trutta/fSalTru1/genomic_data/pacbio_hifi/m64016_190201_181512.ccs.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -20,5 +22,5 @@
 10x          *       1.3675
 arima        *       1.9102
 pacbio       *       0.5308
-pacbiohifi_bam *       1.1000
+pacbiohifi_bam *       1.3739
 ------------ ------ -------

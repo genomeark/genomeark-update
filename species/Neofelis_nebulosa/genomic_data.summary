@@ -4,9 +4,15 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     87260080648               0      2147483648    175878641614      1172524318  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/arima/mNeoNeb1_Clouded_Leopard_R1_001.fastq.gz
     91620881235               0      2147483648    178629107849      1190860718  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/arima/mNeoNeb1_Clouded_Leopard_R2_001.fastq.gz
+    78783584708               0      2147483648     91739102300         6434182  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.hifi_reads.bam
     18001479743               0      2147483648     20961721884         1470164  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.hifi_reads.fastq.gz
+   222016948724               0      2147483648     90306199795         5401953  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.reads.bam
+   105154525804               0      2147483648    124332338722         8253530  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211103_054016.hifi_reads.bam
     23979293871               0      2147483648     28352576031         1882123  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211103_054016.hifi_reads.fastq.gz
+   256111321358               0      2147483648    101611924607         5872298  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211103_054016.reads.bam
+    82257714134               0      2147483648    100764989354         7007874  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211110_175241.hifi_reads.bam
     18289425902               0      2147483648     22404388764         1558151  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211110_175241.hifi_reads.fastq.gz
+   229847647298               0      2147483648     94403977964         5640006  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211110_175241.reads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,6 +21,6 @@
 ------------ ------ -------
 arima        *       1.9709
 pacbiohifi_fqgz *       1.1899
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.1902
+pacbiohifi_clr *       0.4044
 ------------ ------ -------

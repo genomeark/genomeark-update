@@ -4,8 +4,12 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     11906582323               0      2147483648     22348123168       148000821  species/Rhea_pennata/bPtePen1/genomic_data/arima/bPtePen1_S7_L002_R1_001.fastq.gz
     12352916981               0      2147483648     22392953433       148297710  species/Rhea_pennata/bPtePen1/genomic_data/arima/bPtePen1_S7_L002_R2_001.fastq.gz
+   108615475661               0      2147483648    126995391817         7453986  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m54306Ue_211204_070706.hifi_reads.bam
     25044449358               0      2147483648     29282472315         1718732  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m54306Ue_211204_070706.hifi_reads.fastq.gz
+   274899508439               0      2147483648    109294871355         5788486  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m54306Ue_211204_070706.reads.bam
+    92443437638               0      2147483648    103668060749         6044490  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m64334e_211211_055255.hifi_reads.bam
     21852140951               0      2147483648     24505461215         1428820  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m64334e_211211_055255.hifi_reads.fastq.gz
+   251038046825               0      2147483648    102672512965         5425034  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m64334e_211211_055255.reads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,6 +18,6 @@
 ------------ ------ -------
 arima        *       1.8336
 pacbiohifi_fqgz *       1.1547
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.1549
+pacbiohifi_clr *       0.4011
 ------------ ------ -------

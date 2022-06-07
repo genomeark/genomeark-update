@@ -7,6 +7,9 @@
      4031470205               0      4031470205      7535540391        49904241  species/Thunnus_albacares/fThuAlb1/genomic_data/10x/fThuAlb1_S55_L002_R2_001.fastq.gz
     19103235612               0      2147483648     38005316784       251690848  species/Thunnus_albacares/fThuAlb1/genomic_data/arima/fThuAlb1_36011_4#8_R1.fastq.gz
     20585929165               0      2147483648     38353217619       253994828  species/Thunnus_albacares/fThuAlb1/genomic_data/arima/fThuAlb1_36011_4#8_R2.fastq.gz
+    81408319329               0      2147483648     21074512349         2250260  species/Thunnus_albacares/fThuAlb1/genomic_data/pacbio_hifi/m64174e_210422_164206.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
+    58068987508               0      2147483648     15569618343         2645126  species/Thunnus_albacares/fThuAlb1/genomic_data/pacbio_hifi/m64174e_210423_225115.ccs.bc1009_BAK8A_OA--bc1009_BAK8A_OA.bam
+    28729328166               0      2147483648      7578484720         1142680  species/Thunnus_albacares/fThuAlb1/genomic_data/pacbio_hifi/m64222e_210429_153503.ccs.bc1009_BAK8A_OA--bc1009_BAK8A_OA.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,5 +18,5 @@
 ------------ ------ -------
 10x          *       1.8695
 arima        *       1.9031
-pacbiohifi_bam *       1.1000
+pacbiohifi_bam *       0.2629
 ------------ ------ -------

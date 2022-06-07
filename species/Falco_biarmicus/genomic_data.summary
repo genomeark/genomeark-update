@@ -5,8 +5,14 @@
     27298790492               0      2147483648     44563003777       297086704  species/Falco_biarmicus/bFalBia1/genomic_data/arima/bFalBia1_R1.fastq.gz
     32834950572               0      2147483648     43780549812       291870347  species/Falco_biarmicus/bFalBia1/genomic_data/arima/bFalBia1_R2.fastq.gz
     13240745258               0      2147483648      6613156272          363400  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210127_212033.Q20.fastq
+     6645496568               0      2147483648      6634168900          364018  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210127_212033.ccs.bam
+   293592768239               0      2147483648    152865396019        10019006  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210127_212033.subreads.bam
      3325945850               0      3325945850      1660782593          108509  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210220_104515.Q20.fastq
+     1408696372               0      1408696372      1660782593          108509  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210220_104515.ccs.bam
+    75212362721               0      2147483648     38328650060         6058327  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m64055_210224_221313.subreads.bam
     18337433478               0      2147483648      9154659262          727696  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m64055_210411_031415.Q20.fastq
+     7444620222               0      2147483648      9204440186          730323  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m64055_210411_031415.ccs.bam
+   377880163665               0      2147483648    194684693607        17309418  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m64055_210411_031415.subreads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,6 +20,6 @@
 -   datatype suffix scaling
 ------------ ------ -------
 arima        *       1.4211
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.1290
+pacbiohifi_clr *       0.5167
 ------------ ------ -------

@@ -9,8 +9,11 @@
     74219177392               0      2147483648     77659344298         4596197  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/ont/PAJ00963_guppy-5.0.12.fastq.gz
     84434871954               0      2147483648     88507477056         5144924  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/ont/PAJ00968_guppy-5.0.12.fastq.gz
     22790546809               0      2147483648     31283580328         1666848  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m54329U_210901_104742.hifi_reads.fastq.gz
+   864351150381               0      2147483648    465865608071        27123324  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m54329U_210901_104742.subreads.bam
      7503281643               0      2147483648     10037874056          561085  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m54329U_210904_103226.hifi_reads.fastq.gz
+   323628610535               0      2147483648    175094611385        11062531  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m54329U_210904_103226.subreads.bam
     27934319242               0      2147483648     33119353991         1653203  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m64076_211107_004425.hifi_reads.fastq.gz
+   242268673802               0      2147483648     92924100163         4526707  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/r54329U_20210830_233852_B01.reads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -20,5 +23,5 @@
 illumina     *       1.9064
 ont          *       1.0484
 pacbiohifi_fqgz *       1.2784
-pacbiohifi_clr *       1.1000
+pacbiohifi_clr *       0.5131
 ------------ ------ -------

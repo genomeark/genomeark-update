@@ -2,11 +2,14 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+    19171546197               0      2147483648     21139340859         1917936  species/Barbus_barbus/fBarBab1/genomic_data/pacbio_hifi/m64094_201225_092433.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
+    24969088976               0      2147483648     27240069246         2256025  species/Barbus_barbus/fBarBab1/genomic_data/pacbio_hifi/m64097_201105_175038.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
+   109705605601               0      2147483648     27616019443         2433056  species/Barbus_barbus/fBarBab1/genomic_data/pacbio_hifi/m64174e_210114_162751.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -   datatype suffix scaling
 ------------ ------ -------
-pacbiohifi_bam *       1.1000
+pacbiohifi_bam *       0.4939
 ------------ ------ -------

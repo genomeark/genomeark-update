@@ -2,8 +2,14 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+    77243027466               0      2147483648     97020356561         6372031  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211119_062428.hifi_reads.bam
     16978933713               0      2147483648     21326225251         1400648  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211119_062428.hifi_reads.fastq.gz
+   205148974017               0      2147483648     83205205397         5175143  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211120_155549.reads.bam
+   114769140102               0      2147483648   1660311527722       111228363  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211217_065618.hifi_reads.bam
     25464440434               0      2147483648    368382162330        24678829  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211217_065618.hifi_reads.fastq.gz
+   246149639033               0      2147483648     91514602095         5802871  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211218_161053.reads.bam
+   250814084122               0      2147483648     93565021362         5702720  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211220_013123.reads.bam
+    56339561692               0      2147483648     65764104604         4382556  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64334e_211019_190122.hifi_reads.bam
     12968628474               0      2147483648     15138034694         1008806  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64334e_211019_190122.hifi_reads.fastq.gz
 --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -12,6 +18,6 @@
 -   datatype suffix scaling
 ------------ ------ -------
 pacbiohifi_fqgz *       7.3061
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       7.3407
+pacbiohifi_clr *       0.3821
 ------------ ------ -------

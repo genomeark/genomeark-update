@@ -14,6 +14,9 @@
     30807763411               0      2147483648     36996237555         1754614  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m54329U_220226_122930.hifi_reads.fastq.gz
     18566825515               0      2147483648     24663163046         1325089  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m64076_210813_021703.hifi_reads.fastq.gz
     21881044656               0      2147483648     28676233367         1559694  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m64076_210814_131501.hifi_reads.fastq.gz
+   799794259374               0      2147483648    429500203891        25459535  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m64076_210814_131501.subreads.bam
+   634623628846               0      2147483648    341533517695        20152371  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m64076_210816_001611.subreads.bam
+   232633721971               0      2147483648     90343777080         4519140  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/r64076_20210813_020547_B01.reads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -24,5 +27,5 @@
 ont          *       1.0572
 pacbio       *       0.2594
 pacbiohifi_fqgz *       1.2677
-pacbiohifi_clr *       1.1000
+pacbiohifi_clr *       0.5167
 ------------ ------ -------

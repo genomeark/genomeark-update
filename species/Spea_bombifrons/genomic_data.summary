@@ -4,8 +4,12 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     51171883089               0      2147483648     98687451388       653559304  species/Spea_bombifrons/aSpeBom1/genomic_data/arima/aSpeBom1_S1_L001_R1_001.fastq.gz
     54954629948               0      2147483648     98351586973       651335013  species/Spea_bombifrons/aSpeBom1/genomic_data/arima/aSpeBom1_S1_L001_R2_001.fastq.gz
+    92046713186               0      2147483648    115595690047         7631555  species/Spea_bombifrons/aSpeBom1/genomic_data/pacbio_hifi/m54306Ue_211209_200800.hifi_reads.bam
     20361130053               0      2147483648     25570265326         1688133  species/Spea_bombifrons/aSpeBom1/genomic_data/pacbio_hifi/m54306Ue_211209_200800.hifi_reads.fastq.gz
+   180929256631               0      2147483648     67753432144         4029255  species/Spea_bombifrons/aSpeBom1/genomic_data/pacbio_hifi/m54306Ue_211209_200800.reads.bam
+    63620675878               0      2147483648     88245160982         5829949  species/Spea_bombifrons/aSpeBom1/genomic_data/pacbio_hifi/m64334e_211213_205639.hifi_reads.bam
     12899079951               0      2147483648     17891689629         1182021  species/Spea_bombifrons/aSpeBom1/genomic_data/pacbio_hifi/m64334e_211213_205639.hifi_reads.fastq.gz
+   117348551002               0      2147483648     44657097900         2579884  species/Spea_bombifrons/aSpeBom1/genomic_data/pacbio_hifi/m64334e_211213_205639.reads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,6 +18,6 @@
 ------------ ------ -------
 arima        *       1.8338
 pacbiohifi_fqgz *       1.2874
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.2895
+pacbiohifi_clr *       0.3759
 ------------ ------ -------

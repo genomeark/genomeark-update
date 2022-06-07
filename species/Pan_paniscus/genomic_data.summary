@@ -6,8 +6,11 @@
     62133132810               0      2147483648     65720936604         1812275  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG23747_guppy-5.0.13.fastq.gz
     70791566604               0      2147483648     75639189133         2013067  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG26857_guppy-5.0.13.fastq.gz
     11791002297               0      2147483648     12043942591          751593  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210511_192234.hifi_reads.fastq.gz
+   384052144094               0      2147483648    198931803341        14307593  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210511_192234.subreads.bam
     21504593302               0      2147483648     22296721623         1097728  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210804_194759.hifi_reads.fastq.gz
     19728708620               0      2147483648     21585486894         1052616  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210806_064833.hifi_reads.fastq.gz
+   549643183567               0      2147483648    296207284151        16634799  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210806_064833.subreads.bam
+   181760357326               0      2147483648     75068625587         4729783  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/r54329U_20210507_223310_B01.reads.bam
     12381067495               0      2147483648     24812794477       164323148  species/Pan_paniscus/mPanPan2/genomic_data/illumina/mPanPan2_HNFNCDSX2_19164898_S7_L002_R1_001.fastq.gz
     10468023075               0      2147483648     19203683973       127176719  species/Pan_paniscus/mPanPan2/genomic_data/illumina/mPanPan2_HT2N2DSX2_19164898_S5_L001_R1_001.fastq.gz
     11017959516               0      2147483648     22507446827       149055939  species/Pan_paniscus/mPanPan3/genomic_data/illumina/mPanPan3_HNFNCDSX2_19164894_S12_L003_R1_001.fastq.gz
@@ -20,5 +23,5 @@
 illumina     *       1.9642
 ont          *       1.0648
 pacbiohifi_fqgz *       1.0547
-pacbiohifi_clr *       1.1000
+pacbiohifi_clr *       0.5111
 ------------ ------ -------

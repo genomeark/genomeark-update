@@ -4,6 +4,8 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     28828710896               0      2147483648     57960096175       383841709  species/Borostomias_antarcticus/fBorAnt1/genomic_data/arima/fBorAnt1_39712_1#2_R1.fastq.gz
     30287507765               0      2147483648     58101671100       384779292  species/Borostomias_antarcticus/fBorAnt1/genomic_data/arima/fBorAnt1_39712_1#2_R2.fastq.gz
+    10314538278               0      2147483648     15238941765         2002322  species/Borostomias_antarcticus/fBorAnt1/genomic_data/pacbio_hifi/m64125e_210805_170852.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
+     9204652805               0      2147483648     14768273699         1702640  species/Borostomias_antarcticus/fBorAnt1/genomic_data/pacbio_hifi/m64230e_210726_085227.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +13,5 @@
 -   datatype suffix scaling
 ------------ ------ -------
 arima        *       1.9480
-pacbiohifi_bam *       1.1000
+pacbiohifi_bam *       1.5166
 ------------ ------ -------

@@ -2,9 +2,15 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+    58002420753               0      2147483648     68786591643         4562225  species/Chasiempis_sclateri/bChaScl1/genomic_data/pacbio_hifi/m54306Ue_211129_024855.hifi_reads.bam
     13264082925               0      2147483648     15730223736         1043296  species/Chasiempis_sclateri/bChaScl1/genomic_data/pacbio_hifi/m54306Ue_211129_024855.hifi_reads.fastq.gz
+   204925466677               0      2147483648     87732091769         5659993  species/Chasiempis_sclateri/bChaScl1/genomic_data/pacbio_hifi/m54306Ue_211129_024855.reads.bam
+    50397618336               0      2147483648     60907323024         3955286  species/Chasiempis_sclateri/bChaScl1/genomic_data/pacbio_hifi/m64330e_211202_200030.hifi_reads.bam
     11345224517               0      2147483648     13711109319          890391  species/Chasiempis_sclateri/bChaScl1/genomic_data/pacbio_hifi/m64330e_211202_200030.hifi_reads.fastq.gz
+   163938528286               0      2147483648     68765671335         5213857  species/Chasiempis_sclateri/bChaScl1/genomic_data/pacbio_hifi/m64330e_211202_200030.reads.bam
+    48646656817               0      2147483648     56848538926         3720914  species/Chasiempis_sclateri/bChaScl1/genomic_data/pacbio_hifi/m64334e_211206_192737.hifi_reads.bam
     11200279077               0      2147483648     13088658969          856693  species/Chasiempis_sclateri/bChaScl1/genomic_data/pacbio_hifi/m64334e_211206_192737.hifi_reads.fastq.gz
+   171714837794               0      2147483648     74014228879         5202419  species/Chasiempis_sclateri/bChaScl1/genomic_data/pacbio_hifi/m64334e_211206_192737.reads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,6 +18,6 @@
 -   datatype suffix scaling
 ------------ ------ -------
 pacbiohifi_fqgz *       1.1876
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.1878
+pacbiohifi_clr *       0.4264
 ------------ ------ -------

@@ -4,6 +4,10 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     10948367948               0      2147483648     22166624662       146798838  species/Toxotes_jaculatrix/fToxJac2/genomic_data/arima/fToxJac2_Arima2_R1.fastq.gz
     11360196844               0      2147483648     22358731643       148071075  species/Toxotes_jaculatrix/fToxJac2/genomic_data/arima/fToxJac2_Arima2_R2.fastq.gz
+     7546338956               0      2147483648      8993719389          594540  species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m54345U_200927_005508.ccs.bam
+   268968209612               0      2147483648    140744859049        10088357  species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m54345U_200927_005508.subreads.bam
+    14584683888               0      2147483648     18182283254         1192781  species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m64046_201211_121116.ccs.bam
+   515102057836               0      2147483648    267761848713        19447379  species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m64046_201211_121116.subreads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,6 +15,6 @@
 -   datatype suffix scaling
 ------------ ------ -------
 arima        *       1.9865
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.2353
+pacbiohifi_clr *       0.5205
 ------------ ------ -------

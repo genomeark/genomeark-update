@@ -2,9 +2,15 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+    91379613148               0      2147483648    105253964050         6067184  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64055e_211101_201655.hifi_reads.bam
     21448829571               0      2147483648     24705448609         1424103  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64055e_211101_201655.hifi_reads.fastq.gz
+   236223371296               0      2147483648     95085636705         5304973  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64055e_211101_201655.reads.bam
+    77304787610               0      2147483648     88385783978         5122385  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64330e_211111_153123.hifi_reads.bam
     18163916862               0      2147483648     20767562806         1203581  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64330e_211111_153123.hifi_reads.fastq.gz
+   219752063243               0      2147483648     91386966421         4947452  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64330e_211111_153123.reads.bam
+    77601285771               0      2147483648     88516246541         5167616  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64330e_211113_005922.hifi_reads.bam
     18177654993               0      2147483648     20734421793         1210484  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64330e_211113_005922.hifi_reads.fastq.gz
+   224468655787               0      2147483648     94130490456         5208548  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64330e_211113_005922.reads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,6 +18,6 @@
 -   datatype suffix scaling
 ------------ ------ -------
 pacbiohifi_fqgz *       1.1456
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.1456
+pacbiohifi_clr *       0.4123
 ------------ ------ -------

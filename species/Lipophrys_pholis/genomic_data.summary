@@ -7,6 +7,7 @@
      5361450070               0      2147483648      8474769887        56124306  species/Lipophrys_pholis/fLipPho2/genomic_data/10x/fLipPho2_S3_L006_R2_001.fastq.gz
     38027637329               0      2147483648     66171372342       438221026  species/Lipophrys_pholis/fLipPho2/genomic_data/arima/fLipPho2_35312_7#1_R1.fastq.gz
     44603843974               0      2147483648     66446126713       440040595  species/Lipophrys_pholis/fLipPho2/genomic_data/arima/fLipPho2_35312_7#1_R2.fastq.gz
+     6177357771               0      2147483648      8471032120          966071  species/Lipophrys_pholis/fLipPho2/genomic_data/pacbio_hifi/m64097_201015_113801.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,5 +16,5 @@
 ------------ ------ -------
 10x          *       1.6403
 arima        *       1.5645
-pacbiohifi_bam *       1.1000
+pacbiohifi_bam *       1.3713
 ------------ ------ -------

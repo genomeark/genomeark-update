@@ -6,6 +6,11 @@
     30858268660               0      2147483648     41794625117       278630848  species/Scomber_japonicus/fScoJap1/genomic_data/arima/fScoJap1_S_2476_8_R2_001.fastq.gz
     17155858171               0      2147483648      8559065750          958178  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m54306U_210430_033146.Q20.fastq
      6083879907               0      2147483648      8516801784          922269  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m54306U_210430_033146.Q20.fastq.gz
+   376998229993               0      2147483648    194636307399        23913192  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m54306U_210430_033146.subreads.bam
+   316877630916               0      2147483648    162996790709        16934453  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m64055_210421_201217.subreads.bam
+     8134834913               0      2147483648     11380866083         1350741  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m64055_210423_182318.Q20.fastq.gz
+   546196168361               0      2147483648    278820920683        34630753  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m64055_210423_182318.subreads.bam
+    61707096182               0      2147483648     81382251731         5805511  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m64055e_210912_004152.hifi_reads.bam
     12988033430               0      2147483648     17129235882         1221936  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m64055e_210912_004152.hifi_reads.fastq.gz
 --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -14,7 +19,7 @@
 -   datatype suffix scaling
 ------------ ------ -------
 arima        *       1.4092
-pacbiohifi_fqgz *       1.1000
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_fqgz *       1.3609
+pacbiohifi_bam *       1.3188
+pacbiohifi_clr *       0.5132
 ------------ ------ -------

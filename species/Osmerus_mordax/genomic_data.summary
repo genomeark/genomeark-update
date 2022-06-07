@@ -6,9 +6,15 @@
     30578416061               0      2147483648     60037328263       400248855  species/Osmerus_mordax/fOsmMor3/genomic_data/arima/fOsmMor3_Rainbow_Smelt_R2_001.fastq.gz
     12467508046               0      2147483648     24924451547       165062593  species/Osmerus_mordax/fOsmMor3/genomic_data/illumina/fOsmMor3_1.fastq.gz
     13150556131               0      2147483648     24892952132       164853993  species/Osmerus_mordax/fOsmMor3/genomic_data/illumina/fOsmMor3_2.fastq.gz
+    22283768467               0      2147483648     25505495881         1638302  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211011_140755.hifi_reads.bam
      5192433853               0      2147483648      5943141998          381747  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211011_140755.hifi_reads.fastq.gz
+    96901039095               0      2147483648     42673779068         3586516  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211011_140755.reads.bam
+    39222240939               0      2147483648     45087597865         2865793  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211021_064552.hifi_reads.bam
      9138230921               0      2147483648     10504776654          667689  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211021_064552.hifi_reads.fastq.gz
+   180964661272               0      2147483648     80322084005         5262214  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211021_064552.reads.bam
+    31594663931               0      2147483648     34044612406         2130048  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64334e_211014_200114.hifi_reads.bam
      7754856916               0      2147483648      8356192632          522816  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64334e_211014_200114.hifi_reads.fastq.gz
+   243167499109               0      2147483648    115155730542         5993232  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64334e_211014_200114.reads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -18,6 +24,6 @@
 arima        *       1.9644
 illumina     *       1.9270
 pacbiohifi_fqgz *       1.1230
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.1239
+pacbiohifi_clr *       0.4570
 ------------ ------ -------

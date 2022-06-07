@@ -10,6 +10,7 @@
     13686035858               0      2147483648      7481775259          472192  species/Chanos_chanos/fChaCha1/genomic_data/pacbio/m54205_190308_165845.subreads.bam
     13315616899               0      2147483648      7252269300          479186  species/Chanos_chanos/fChaCha1/genomic_data/pacbio/m54205_190311_140408.subreads.bam
     12491989875               0      2147483648      6826482709          449447  species/Chanos_chanos/fChaCha1/genomic_data/pacbio/m54205_190312_001810.subreads.bam
+    15474429647               0      2147483648     18634385384         1726707  species/Chanos_chanos/fChaCha1/genomic_data/pacbio_hifi/m64016_190303_014316.ccs.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -19,5 +20,5 @@
 10x          *       1.5557
 dovetail     *       1.4093
 pacbio       *       0.5459
-pacbiohifi_bam *       1.1000
+pacbiohifi_bam *       1.2042
 ------------ ------ -------

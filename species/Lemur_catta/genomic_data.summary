@@ -11,9 +11,15 @@
     15354233923               0      2147483648      8151224002          679788  species/Lemur_catta/mLemCat1/genomic_data/pacbio/m54158_190404_152923.subreads.bam
     16407394665               0      2147483648      8839819044          649348  species/Lemur_catta/mLemCat1/genomic_data/pacbio/m54159_190328_062602.subreads.bam
     17113503295               0      2147483648      9271244687          669340  species/Lemur_catta/mLemCat1/genomic_data/pacbio/m54159_190329_074634.subreads.bam
+   321487206277               0      2147483648    167401177369        13059740  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210205_215236.subreads.bam
     16992658489               0      2147483648      8486510847          496426  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210210_175526.Q20.fastq
+     7539042257               0      2147483648      8582810296          499876  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210210_175526.ccs.bam
+   273461334990               0      2147483648    142577573602        10532830  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210210_175526.subreads.bam
     23666183779               0      2147483648     11819199089          706850  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210214_142746.Q20.fastq
+    10475222003               0      2147483648     11756385515          706057  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210214_142746.ccs.bam
+   396115134417               0      2147483648    206592946992        14666055  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210214_142746.subreads.bam
     18860343791               0      2147483648      9418097749          613784  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210221_171127.Q20.fastq
+     8245908268               0      2147483648      9389959886          618338  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210221_171127.ccs.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -23,6 +29,6 @@
 10x          *       1.9871
 arima        *       1.5120
 pacbio       *       0.5373
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.1321
+pacbiohifi_clr *       0.5212
 ------------ ------ -------

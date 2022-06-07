@@ -7,6 +7,7 @@
       453109506               0       453109506       514291072        64286384  species/Taurulus_bubalis/fTauBub2/genomic_data/10x/fTauBub2_S7_L003_I1_001.fastq.gz
     26184557346               0      2147483648     51198514040       339063019  species/Taurulus_bubalis/fTauBub2/genomic_data/arima/fTauBub2_35430_3#1_R1.fastq.gz
     28039627089               0      2147483648     51193641381       339030750  species/Taurulus_bubalis/fTauBub2/genomic_data/arima/fTauBub2_35430_3#1_R2.fastq.gz
+    21461122380               0      2147483648     23886475469         1983892  species/Taurulus_bubalis/fTauBub2/genomic_data/pacbio_hifi/m64097_201025_171239.ccs.bc1019_BAK8B_OA--bc1019_BAK8B_OA.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,5 +16,5 @@
 ------------ ------ -------
 10x          *       1.5567
 arima        *       1.8669
-pacbiohifi_bam *       1.1000
+pacbiohifi_bam *       1.1130
 ------------ ------ -------

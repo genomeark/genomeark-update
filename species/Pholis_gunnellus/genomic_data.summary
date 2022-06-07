@@ -7,6 +7,8 @@
      4223818089               0      4223818089      6765815475        44806725  species/Pholis_gunnellus/fPhoGun1/genomic_data/10x/fPhoGun1_S6_L002_R1_001.fastq.gz
     37885984540               0      2147483648     65454585642       433474077  species/Pholis_gunnellus/fPhoGun1/genomic_data/arima/fPhoGun1_35312_5#1_R1.fastq.gz
     43490519023               0      2147483648     66066406565       437525891  species/Pholis_gunnellus/fPhoGun1/genomic_data/arima/fPhoGun1_35312_5#1_R2.fastq.gz
+    13954063288               0      2147483648     16830262664         1379724  species/Pholis_gunnellus/fPhoGun1/genomic_data/pacbio_hifi/m64094_201119_164734.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
+    22102428186               0      2147483648     24634040021         2062195  species/Pholis_gunnellus/fPhoGun1/genomic_data/pacbio_hifi/m64125_201022_152950.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,5 +17,5 @@
 ------------ ------ -------
 10x          *       1.5878
 arima        *       1.5823
-pacbiohifi_bam *       1.1000
+pacbiohifi_bam *       1.1365
 ------------ ------ -------

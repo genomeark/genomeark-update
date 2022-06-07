@@ -4,8 +4,12 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     20189249307               0      2147483648     38845290471       258968603  species/Spirinchus_thaleichthys/fSpiTha1/genomic_data/arima/fSpiTha1_Longfin_Smelt_R1.fastq.gz
     20431234175               0      2147483648     38914866020       259432449  species/Spirinchus_thaleichthys/fSpiTha1/genomic_data/arima/fSpiTha1_Longfin_Smelt_R2.fastq.gz
+    64130272847               0      2147483648     85323401989         6211769  species/Spirinchus_thaleichthys/fSpiTha1/genomic_data/pacbio_hifi/m64330e_211117_210706.hifi_reads.bam
     13502274037               0      2147483648     17964370090         1307853  species/Spirinchus_thaleichthys/fSpiTha1/genomic_data/pacbio_hifi/m64330e_211117_210706.hifi_reads.fastq.gz
+   203210068672               0      2147483648     85334265847         5591229  species/Spirinchus_thaleichthys/fSpiTha1/genomic_data/pacbio_hifi/m64330e_211117_210706.reads.bam
+    68997040472               0      2147483648     84700359539         5912007  species/Spirinchus_thaleichthys/fSpiTha1/genomic_data/pacbio_hifi/m64334e_211104_142146.hifi_reads.bam
     15403447167               0      2147483648     18909180803         1319843  species/Spirinchus_thaleichthys/fSpiTha1/genomic_data/pacbio_hifi/m64334e_211104_142146.hifi_reads.fastq.gz
+   206881026429               0      2147483648     85597823568         5153423  species/Spirinchus_thaleichthys/fSpiTha1/genomic_data/pacbio_hifi/m64334e_211104_142146.reads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,6 +18,6 @@
 ------------ ------ -------
 arima        *       1.9110
 pacbiohifi_fqgz *       1.2589
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.2602
+pacbiohifi_clr *       0.4157
 ------------ ------ -------

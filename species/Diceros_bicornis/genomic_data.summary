@@ -5,8 +5,14 @@
     33692189726               0      2147483648     45690411899       304602745  species/Diceros_bicornis/mDicBic1/genomic_data/arima/mDicBic1_2450_03_R2_001.fastq.gz
     45251661261               0      2147483648     65600389422       437335950  species/Diceros_bicornis/mDicBic1/genomic_data/arima/mDicBic1_2450_04_R1_001.fastq.gz
     49657898196               0      2147483648     65133196515       434221333  species/Diceros_bicornis/mDicBic1/genomic_data/arima/mDicBic1_2450_04_R2_001.fastq.gz
+    12661683343               0      2147483648     13902144845          766734  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_200906_020246.ccs.bam
+   407281612019               0      2147483648    213022598284        13637162  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_200906_020246.subreads.bam
+    11895097070               0      2147483648     12711891936          655318  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_200907_082817.ccs.bam
     32718954201               0      2147483648     16333180383         1349036  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_210304_220438.Q20.fastq
+   557874294476               0      2147483648    286645550803        24394684  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_210304_220438.subreads.bam
     24310696086               0      2147483648     12138814707          839328  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_210306_041713.Q20.fastq
+    10176946980               0      2147483648     12038280588          834643  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_210306_041713.ccs.bam
+   440162798924               0      2147483648    226796057533        16395907  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_210306_041713.subreads.bam
     26009660303               0      2147483648     12984029979         1084347  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m64055_210312_220747.Q20.fastq
     69568194453               0      2147483648    142965955878       946794409  species/Diceros_bicornis/mDicBic2/genomic_data/illumina/Rhino1-mDicBic2_R1.fastq.gz
     73590217145               0      2147483648    145293154441       962206320  species/Diceros_bicornis/mDicBic2/genomic_data/illumina/Rhino1-mDicBic2_R2.fastq.gz
@@ -19,6 +25,6 @@
 ------------ ------ -------
 arima        *       1.3718
 illumina     *       2.0051
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.1128
+pacbiohifi_clr *       0.5169
 ------------ ------ -------

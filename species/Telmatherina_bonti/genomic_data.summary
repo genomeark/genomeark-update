@@ -2,11 +2,13 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+    11649440976               0      2147483648     18591261050         2447882  species/Telmatherina_bonti/fTelBon1/genomic_data/pacbio_hifi/m64094e_210704_104640.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
+    12785032139               0      2147483648     16442836438         1434536  species/Telmatherina_bonti/fTelBon1/genomic_data/pacbio_hifi/m64222e_210618_232517.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -   datatype suffix scaling
 ------------ ------ -------
-pacbiohifi_bam *       1.1000
+pacbiohifi_bam *       1.3830
 ------------ ------ -------

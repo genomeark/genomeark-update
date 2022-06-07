@@ -2,12 +2,18 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+     8169119839               0      2147483648     10184007818          719188  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210325_052255.ccs.bam
+   314526980508               0      2147483648    162908155258        11819274  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210325_052255.subreads.bam
+    10104984084               0      2147483648     12765851981          854212  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210504_215359.ccs.bam
+   353121182458               0      2147483648    183313463785        13839989  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210504_215359.subreads.bam
+     8342408679               0      2147483648     10188650473          663781  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m64046_210430_203759.ccs.bam
+   284840114132               0      2147483648    148119424459        10835413  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m64046_210430_203759.subreads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -   datatype suffix scaling
 ------------ ------ -------
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.2450
+pacbiohifi_clr *       0.5189
 ------------ ------ -------

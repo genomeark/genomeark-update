@@ -6,7 +6,11 @@
     25148611608               0      2147483648     39012133217       260080899  species/Falco_cherrug/bFalChe1/genomic_data/arima/bFalChe1_2450_05_R1_001.fastq.gz
     28650395603               0      2147483648     40062147218       267080994  species/Falco_cherrug/bFalChe1/genomic_data/arima/bFalChe1_2450_05_R2_001.fastq.gz
     19308432441               0      2147483648      9642622423          589516  species/Falco_cherrug/bFalChe1/genomic_data/pacbio_hifi/m54306U_210428_211837.Q20.fastq
+     8560408704               0      2147483648      9626207897          588087  species/Falco_cherrug/bFalChe1/genomic_data/pacbio_hifi/m54306U_210428_211837.ccs.bam
+   358862783912               0      2147483648    185838426489        13275099  species/Falco_cherrug/bFalChe1/genomic_data/pacbio_hifi/m54306U_210428_211837.subreads.bam
     51113935084               0      2147483648     25521755711         1868463  species/Falco_cherrug/bFalChe1/genomic_data/pacbio_hifi/m64055_200630_200101.Q20.fastq
+    20910470797               0      2147483648     25003670157         1833669  species/Falco_cherrug/bFalChe1/genomic_data/pacbio_hifi/m64055_200630_200101.ccs.bam
+   797539887912               0      2147483648    411799973553        34622964  species/Falco_cherrug/bFalChe1/genomic_data/pacbio_hifi/m64055_200630_200101.subreads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,6 +18,6 @@
 -   datatype suffix scaling
 ------------ ------ -------
 arima        *       1.4654
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.1836
+pacbiohifi_clr *       0.5166
 ------------ ------ -------

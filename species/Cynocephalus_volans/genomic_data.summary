@@ -4,9 +4,17 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     65789931744               0      2147483648    123195466378       815864015  species/Cynocephalus_volans/mCynVol1/genomic_data/arima/mCynVol1_S6_L003_R1_001.fastq.gz
     67265277890               0      2147483648    125071697730       828289420  species/Cynocephalus_volans/mCynVol1/genomic_data/arima/mCynVol1_S6_L003_R2_001.fastq.gz
+   103133446088               0      2147483648    126844414100         8304094  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m54306Ue_211202_201212.hifi_reads.bam
     23134971440               0      2147483648     28453833444         1862780  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m54306Ue_211202_201212.hifi_reads.fastq.gz
+   246620847778               0      2147483648     94462802429         5638731  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m54306Ue_211202_201212.reads.bam
+   103632691689               0      2147483648     28579530478         1857198  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m54306Ue_211213_200140.hifi_reads.bam
+    22625118991               0      2147483648      6239491296          405464  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m54306Ue_211213_200140.hifi_reads.fastq.gz
+   102378859283               0      2147483648    120791626610         7820850  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m64330e_211212_152109.hifi_reads.bam
     23838024341               0      2147483648     28125276600         1821016  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m64330e_211212_152109.hifi_reads.fastq.gz
+   242762595592               0      2147483648     92540858774         5538646  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m64330e_211212_152109.reads.bam
+   104294618704               0      2147483648    129783040372         8442901  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m64330e_211214_003514.hifi_reads.bam
     23291402431               0      2147483648     28983556961         1885495  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m64330e_211214_003514.hifi_reads.fastq.gz
+   220740990974               0      2147483648     83550105135         5146208  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m64330e_211214_003514.reads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,6 +23,6 @@
 ------------ ------ -------
 arima        *       1.8637
 pacbiohifi_fqgz *       1.2177
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       0.9168
+pacbiohifi_clr *       0.3809
 ------------ ------ -------

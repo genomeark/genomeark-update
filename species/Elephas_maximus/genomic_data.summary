@@ -4,8 +4,16 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     73571808762               0      2147483648    137930521130       913447194  species/Elephas_maximus/mEleMax1/genomic_data/arima/mEleMax1_S9_L003_R1_001.fastq.gz
     76216813768               0      2147483648    140334857630       929369953  species/Elephas_maximus/mEleMax1/genomic_data/arima/mEleMax1_S9_L003_R2_001.fastq.gz
+   292986215473               0      2147483648    151638187048        10669418  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m54306U_210321_092024.subreads.bam
     10406387720               0      2147483648      5195019726          412706  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m54306U_210421_201740.Q20.fastq
+   196462584768               0      2147483648    101339456787         9660635  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m54306U_210421_201740.subreads.bam
+    10849165025               0     10849165025      2876441388          277259  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m54306Ue_210627_165734.hifi_reads.bam
+     2423236560               0      2423236560      2876441388          277259  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m54306Ue_210627_165734.hifi_reads.fastq.gz
     25026993814               0      2147483648     12498765294          772363  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m64055_210419_095605.Q20.fastq
+   124260056526               0      2147483648     33640425222         2082203  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m64334e_211022_161721.hifi_reads.bam
+    28398106061               0      2147483648     33868699096         2100629  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m64334e_211022_161721.hifi_reads.fastq.gz
+   266594069859               0      2147483648    100736503323         5744323  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m64334e_211022_161721.reads.bam
+   121235798111               0      2147483648    141264616451         8835009  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m64334e_211025_111049.hifi_reads.bam
     28015160191               0      2147483648     32643418205         2041593  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m64334e_211025_111049.hifi_reads.fastq.gz
 --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -14,7 +22,7 @@
 -   datatype suffix scaling
 ------------ ------ -------
 arima        *       1.8521
-pacbiohifi_fqgz *       1.1000
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_fqgz *       1.1793
+pacbiohifi_bam *       0.6935
+pacbiohifi_clr *       0.4678
 ------------ ------ -------

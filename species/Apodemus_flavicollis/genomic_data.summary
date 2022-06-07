@@ -5,6 +5,7 @@
     10863132364               0      2147483648     21931057734       145238798  species/Apodemus_flavicollis/mApoFla1/genomic_data/10x/mApoFla1_S5_L003_R1_001.fastq.gz
      9137714434               0      2147483648     17775609690       117719269  species/Apodemus_flavicollis/mApoFla1/genomic_data/10x/mApoFla1_S7_L003_R2_001.fastq.gz
       945168039               0       945168039      1114760576       139345072  species/Apodemus_flavicollis/mApoFla1/genomic_data/10x/mApoFla1_S8_L003_I1_001.fastq.gz
+    21118657837               0      2147483648      5422467472          463719  species/Apodemus_flavicollis/mApoFla1/genomic_data/pacbio_hifi/m64229e_210312_140850.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,5 +13,5 @@
 -   datatype suffix scaling
 ------------ ------ -------
 10x          *       1.9488
-pacbiohifi_bam *       1.1000
+pacbiohifi_bam *       0.2567
 ------------ ------ -------

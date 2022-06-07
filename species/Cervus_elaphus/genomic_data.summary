@@ -7,6 +7,9 @@
     10138393075               0      2147483648     16187486852       107201904  species/Cervus_elaphus/mCerEla1/genomic_data/10x/mCerEla1_S4_L006_R1_001.fastq.gz
    119185964468               0      2147483648    231582833472      1533661148  species/Cervus_elaphus/mCerEla1/genomic_data/arima/35528_2#2_R1.fastq.gz
    122663049946               0      2147483648    232041536907      1536698977  species/Cervus_elaphus/mCerEla1/genomic_data/arima/35528_2#2_R2.fastq.gz
+    23071626709               0      2147483648     25180073436         1663178  species/Cervus_elaphus/mCerEla1/genomic_data/pacbio_hifi/m64089_200918_152723.ccs.bc1020_BAK8B_OA--bc1020_BAK8B_OA.bam
+    22813681245               0      2147483648     25051711121         1753336  species/Cervus_elaphus/mCerEla1/genomic_data/pacbio_hifi/m64089_200919_155532.ccs.bc1020_BAK8B_OA--bc1020_BAK8B_OA.bam
+    21640718193               0      2147483648     23212963480         1589453  species/Cervus_elaphus/mCerEla1/genomic_data/pacbio_hifi/m64125_201008_110302.ccs.bc1020_BAK8B_OA--bc1020_BAK8B_OA.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,5 +18,5 @@
 ------------ ------ -------
 10x          *       1.5795
 arima        *       1.9084
-pacbiohifi_bam *       1.1000
+pacbiohifi_bam *       1.0876
 ------------ ------ -------

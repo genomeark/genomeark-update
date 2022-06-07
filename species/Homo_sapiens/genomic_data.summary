@@ -10,10 +10,13 @@
     27216605143               0      2147483648     44949080838       299660551  species/Homo_sapiens/mHomSap2/genomic_data/arima/mHomSap2_S2_L004_R2_001.fastq.gz
      9052991023               0      2147483648     17042192027       112862203  species/Homo_sapiens/mHomSap2/genomic_data/illumina/HGW3LDSXX_18819984_S59_L003_R2_001.fastq.gz
      8781887014               0      2147483648     16556120003       109643178  species/Homo_sapiens/mHomSap2/genomic_data/illumina/HGW3LDSXX_18819984_S59_L004_R1_001.fastq.gz
+    14196106683               0      2147483648     18340916823         1838831  species/Homo_sapiens/mHomSap2/genomic_data/pacbio_hifi/m64013_190417_204828.ccs.bam
+    13321553811               0      2147483648     17570640265         1761603  species/Homo_sapiens/mHomSap2/genomic_data/pacbio_hifi/m64013_190423_181929.ccs.bam
     36951654458               0      2147483648     63047688005       420317937  species/Homo_sapiens/mHomSap3/genomic_data/arima/mHomSap3_SV_Off_R2_USPD16096043_HYYLYCCXY_L8_R1_001.fastq.gz
     23437545841               0      2147483648     12503601549         1009159  species/Homo_sapiens/mHomSap3/genomic_data/pacbio/m54159_190525_051326.subreads.bam
     27139923996               0      2147483648     14871253981          764271  species/Homo_sapiens/mHomSap3/genomic_data/pacbio/m54306_190607_193815.subreads.bam
     28485346535               0      2147483648     15556010668          805899  species/Homo_sapiens/mHomSap3/genomic_data/pacbio/m54306_190608_192107.subreads.bam
+    13529385094               0      2147483648     14403626620         1509008  species/Homo_sapiens/mHomSap3/genomic_data/pacbio_hifi/m64011_190417_204800.ccs.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -24,5 +27,5 @@
 arima        *       1.7050
 illumina     *       1.8796
 pacbio       *       0.5429
-pacbiohifi_bam *       1.1000
+pacbiohifi_bam *       1.2257
 ------------ ------ -------

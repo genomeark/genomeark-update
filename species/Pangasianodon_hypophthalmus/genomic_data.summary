@@ -4,6 +4,8 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     23831446853               0      2147483648     50895024754       337053144  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/arima/fPanHyp1_L78728_R1.fastq.gz
     24440586934               0      2147483648     51203296175       339094676  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/arima/fPanHyp1_L78728_R2.fastq.gz
+    13240204508               0      2147483648     18282491198         1500510  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/pacbio_hifi/m64046_210616_125635.ccs.bam
+   607436710253               0      2147483648    315620729523        26620214  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/pacbio_hifi/m64046_210616_125635.subreads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,6 +13,6 @@
 -   datatype suffix scaling
 ------------ ------ -------
 arima        *       2.1083
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.3808
+pacbiohifi_clr *       0.5195
 ------------ ------ -------

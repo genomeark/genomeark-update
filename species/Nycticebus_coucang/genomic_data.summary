@@ -4,9 +4,15 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     75712035378               0      2147483648    146344847968       969171213  species/Nycticebus_coucang/mNycCou1/genomic_data/arima/mNycCou1_S1_L001_R1_001.fastq.gz
     81533498883               0      2147483648    146465352519       969969259  species/Nycticebus_coucang/mNycCou1/genomic_data/arima/mNycCou1_S1_L001_R2_001.fastq.gz
+    94687451362               0      2147483648    114785243196         7583828  species/Nycticebus_coucang/mNycCou1/genomic_data/pacbio_hifi/m54306Ue_211211_070320.hifi_reads.bam
     21464284765               0      2147483648     26020165411         1719144  species/Nycticebus_coucang/mNycCou1/genomic_data/pacbio_hifi/m54306Ue_211211_070320.hifi_reads.fastq.gz
+   212316076042               0      2147483648     81672398620         4879302  species/Nycticebus_coucang/mNycCou1/genomic_data/pacbio_hifi/m54306Ue_211211_070320.reads.bam
+    88591089813               0      2147483648    107308304170         7126325  species/Nycticebus_coucang/mNycCou1/genomic_data/pacbio_hifi/m64334e_211217_064622.hifi_reads.bam
     20009639181               0      2147483648     24237205480         1609588  species/Nycticebus_coucang/mNycCou1/genomic_data/pacbio_hifi/m64334e_211217_064622.hifi_reads.fastq.gz
+   213602645680               0      2147483648     84126289093         5134260  species/Nycticebus_coucang/mNycCou1/genomic_data/pacbio_hifi/m64334e_211217_064622.reads.bam
+    92156461448               0      2147483648    115646405875         7706570  species/Nycticebus_coucang/mNycCou1/genomic_data/pacbio_hifi/m64334e_211218_162941.hifi_reads.bam
     20129507304               0      2147483648     25260357604         1683327  species/Nycticebus_coucang/mNycCou1/genomic_data/pacbio_hifi/m64334e_211218_162941.hifi_reads.fastq.gz
+   209883019444               0      2147483648     82448825774         5062446  species/Nycticebus_coucang/mNycCou1/genomic_data/pacbio_hifi/m64334e_211218_162941.reads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,6 +21,6 @@
 ------------ ------ -------
 arima        *       1.8396
 pacbiohifi_fqgz *       1.2258
-pacbiohifi_bam *       1.1000
-pacbiohifi_clr *       1.1000
+pacbiohifi_bam *       1.2262
+pacbiohifi_clr *       0.3904
 ------------ ------ -------
