@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     52447629739               0      2147483648    100004582827       666697243  species/Erythrolamprus_reginae/rEryReg1/genomic_data/arima/rEryReg1_Royal_Ground_Snake_R1.fastq.gz
     53542948749               0      2147483648    100634211120       670894740  species/Erythrolamprus_reginae/rEryReg1/genomic_data/arima/rEryReg1_Royal_Ground_Snake_R2.fastq.gz
+              0               0               0      5946893854             535  species/Erythrolamprus_reginae/rEryReg1/genomic_data/bionano/rEryReg1_Saphyr_DLE1_3704829
    551509569454               0      2147483648    293248515383        20860703  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306U_210529_225553.subreads.bam
     92707600566               0      2147483648    106962375420         6664075  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211016_070813.hifi_reads.bam
     21579709027               0      2147483648     24897817701         1551208  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211016_070813.hifi_reads.fastq.gz

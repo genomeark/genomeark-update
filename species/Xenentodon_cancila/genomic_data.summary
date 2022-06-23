@@ -7,6 +7,7 @@
      2569034735               0      2569034735      5265861505        34873255  species/Xenentodon_cancila/fXenCan1/genomic_data/10x/fXenCan1_S1_L007_R1_001.fastq.gz
     30856273332               0      2147483648     52065197979       347101319  species/Xenentodon_cancila/fXenCan1/genomic_data/arima/fXenCan1_ARIMA241109L003R6000142_R1.fastq.gz
     35220952978               0      2147483648     50736168272       338241138  species/Xenentodon_cancila/fXenCan1/genomic_data/arima/fXenCan1_ARIMA241109L003R6000142_R2.fastq.gz
+              0               0               0      1251551849             224  species/Xenentodon_cancila/fXenCan1/genomic_data/bionano/fXenCan1_Saphyr_DLE-1
      8625595378               0      2147483648      4540241521          466207  species/Xenentodon_cancila/fXenCan1/genomic_data/pacbio/m54062_180213_185746.subreads.bam
      9747033333               0      2147483648      5136242495          456464  species/Xenentodon_cancila/fXenCan1/genomic_data/pacbio/m54142_180125_120604.subreads.bam
     10996622731               0      2147483648      5826018651          534908  species/Xenentodon_cancila/fXenCan1/genomic_data/pacbio/m54142_180306_165706.subreads.bam

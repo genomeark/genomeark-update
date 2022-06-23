@@ -8,6 +8,7 @@
     34210573114               0      2147483648     62189543782       414596974  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/arima/aDenEbr1_ARI8_4_USPD16090940_HTNHMCCXY_L8_1.clean.fq.gz
     36216085012               0      2147483648     58786818427       391912122  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/arima/aDenEbr1_ARI8_4_USPD16090940_HTNHMCCXY_L8_2.clean.fq.gz
     18107941707               0      2147483648     30775235256       205168243  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/arima/aDenEbr1_ARI8_4_USPD16090940_HTNV3CCXY_L6_2.clean.fq.gz
+              0               0               0      5014756725            1131  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/bionano/aDenEbr1_Saphyr_DLE1_2033934
     13365697963               0      2147483648      7132468621          527536  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/pacbio/m54158_181026_204743.subreads.bam
      9719508609               0      2147483648      5278103914          300263  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/pacbio/m54158_190320_183842.subreads.bam
     15145424378               0      2147483648      8198550087          568633  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/pacbio/m54158_190329_180100.subreads.bam

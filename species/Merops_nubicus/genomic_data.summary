@@ -8,6 +8,7 @@
     21151127553               0      2147483648     35913723873       239424835  species/Merops_nubicus/bMerNub1/genomic_data/arima/bMerNub1_ARI18_004_USPD16091431_HV3TGCCXY_L4_2.clean.fq.gz
     19705683502               0      2147483648     36495012871       243300094  species/Merops_nubicus/bMerNub1/genomic_data/arima/bMerNub1_ARI18_004_USPD16091431_HV3TGCCXY_L6_1.clean.fq.gz
     21281000777               0      2147483648     36374911536       242499420  species/Merops_nubicus/bMerNub1/genomic_data/arima/bMerNub1_ARI18_004_USPD16091431_HV3TGCCXY_L6_2.clean.fq.gz
+              0               0               0      1430744078             299  species/Merops_nubicus/bMerNub1/genomic_data/bionano/bMerNub1_Saphyr_DLE1_1904797
     15442825568               0      2147483648      8363041148          471342  species/Merops_nubicus/bMerNub1/genomic_data/pacbio/m54158_180911_194908.subreads.bam
     11031920121               0      2147483648      6028749172          319334  species/Merops_nubicus/bMerNub1/genomic_data/pacbio/m54158_180912_193944.subreads.bam
     16588873494               0      2147483648      9011592680          507828  species/Merops_nubicus/bMerNub1/genomic_data/pacbio/m54158_180913_055627.subreads.bam

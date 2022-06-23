@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     27298790492               0      2147483648     44563003777       297086704  species/Falco_biarmicus/bFalBia1/genomic_data/arima/bFalBia1_R1.fastq.gz
     32834950572               0      2147483648     43780549812       291870347  species/Falco_biarmicus/bFalBia1/genomic_data/arima/bFalBia1_R2.fastq.gz
+              0               0               0      1309302660             150  species/Falco_biarmicus/bFalBia1/genomic_data/bionano/bFalBia1_Saphyr_DLE1_3680650
     13240745258               0      2147483648      6613156272          363400  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210127_212033.Q20.fastq
      6645496568               0      2147483648      6634168900          364018  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210127_212033.ccs.bam
    293592768239               0      2147483648    152865396019        10019006  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210127_212033.subreads.bam

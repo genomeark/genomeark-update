@@ -8,6 +8,8 @@
     20523362615               0      2147483648     30727003965       203490092  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/arima/aRhiBiv1_25643_7#2_R2.fastq.gz
     19835274992               0      2147483648     30155513529       199705387  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/arima/aRhiBiv1_25643_8#1_R2.fastq.gz
     19645322912               0      2147483648     31417873406       208065386  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/arima/aRhiBiv1_25643_8#2_R1.fastq.gz
+              0               0               0      9264643929           12013  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/bionano/aRhiBiv1_Saphyr_BspQI
+              0               0               0      7266940019            9536  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/bionano/aRhiBiv1_Saphyr_BssSI
      8662899203               0      2147483648      4513950374          507571  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/pacbio/m54097_170712_093419.subreads.bam
     10863408940               0      2147483648      5645923394          605639  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/pacbio/m54097_171222_132811.subreads.bam
      4960961243               0      2147483648      2573067400          273306  species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/pacbio/m54205_171030_232926.subreads.bam

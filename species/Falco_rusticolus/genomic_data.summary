@@ -8,6 +8,7 @@
     24728748737               0      2147483648     39281828386       261878855  species/Falco_rusticolus/bFalRus1/genomic_data/arima/bFalRus1_2411_06_L007_R6000142_R1_001.fastq.gz
     27447356297               0      2147483648     38575794971       257171979  species/Falco_rusticolus/bFalRus1/genomic_data/arima/bFalRus1_2411_06_L007_R6000142_R2_001.fastq.gz
     13522595355               0      2147483648     21621937918       144146259  species/Falco_rusticolus/bFalRus1/genomic_data/arima/bFalRus1_S2_L001_R2_001.fastq.gz
+              0               0               0      1411280544             111  species/Falco_rusticolus/bFalRus1/genomic_data/bionano/bFalRus1_Saphyr_DLE1_3331768
     19261915718               0      2147483648     10122135462         1049766  species/Falco_rusticolus/bFalRus1/genomic_data/pacbio/m54171_181107_185201.subreads.bam
     20624648835               0      2147483648     10853084056         1111991  species/Falco_rusticolus/bFalRus1/genomic_data/pacbio/m54171_181108_050454.subreads.bam
     17351262148               0      2147483648      9049238984         1045487  species/Falco_rusticolus/bFalRus1/genomic_data/pacbio/m54171_181108_151740.subreads.bam

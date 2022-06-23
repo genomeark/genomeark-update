@@ -5,6 +5,8 @@
       507212497               0       507212497       817075232       102134404  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/10x/mRhiFer1_S2_L008_I1_001.fastq.gz
      7859593115               0      2147483648     13243074503        87702483  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/10x/mRhiFer1_S4_L008_R1_001.fastq.gz
      9087133245               0      2147483648     13036579092        86334965  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/10x/mRhiFer1_S4_L008_R2_001.fastq.gz
+              0               0               0      2158224852            1676  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/bionano/mRhiFer1_Saphyr_BspQI
+              0               0               0      2163898343            1338  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/bionano/mRhiFer1_Saphyr_BssSI
     14085473617               0      2147483648      7429707279          731092  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/pacbio/m54062_170727_233654.subreads.bam
     12835855591               0      2147483648      6711158900          681169  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/pacbio/m54142_170727_140630.subreads.bam
     10301902171               0      2147483648      5370915430          553961  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/pacbio/m54144_170729_162235.subreads.bam

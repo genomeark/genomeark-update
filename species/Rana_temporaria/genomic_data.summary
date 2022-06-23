@@ -5,6 +5,7 @@
       834091231               0       834091231       911954128       113994266  species/Rana_temporaria/aRanTem1/genomic_data/10x/aRanTem1_S2_L007_I1_001.fastq.gz
     11656494287               0      2147483648     17018353650       112704334  species/Rana_temporaria/aRanTem1/genomic_data/10x/aRanTem1_S3_L007_R2_001.fastq.gz
     10733595527               0      2147483648     16934596923       112149653  species/Rana_temporaria/aRanTem1/genomic_data/10x/aRanTem1_S3_L008_R1_001.fastq.gz
+              0               0               0      8328582139            4358  species/Rana_temporaria/aRanTem1/genomic_data/bionano/aRanTem1_Saphyr_DLE1
     40366397553               0      2147483648     56136657320       371765961  species/Rana_temporaria/aRanTem1/genomic_data/dovetail/aRanTem1_29955_2#1_R2.fastq.gz
     38751026307               0      2147483648     57407343807       380181102  species/Rana_temporaria/aRanTem1/genomic_data/dovetail/aRanTem1_29955_3#1_R1.fastq.gz
     41631506032               0      2147483648     57252305396       379154359  species/Rana_temporaria/aRanTem1/genomic_data/dovetail/aRanTem1_29955_3#1_R2.fastq.gz

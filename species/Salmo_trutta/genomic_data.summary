@@ -8,6 +8,7 @@
      7830790425               0      2147483648     14411805456        96078706  species/Salmo_trutta/fSalTru1/genomic_data/arima/fSalTru1_ARI7_002_USPD16085689-AK4939_HK5YFCCXY_L2_R2.fastq.gz
      7434877105               0      2147483648     14683664497        97891100  species/Salmo_trutta/fSalTru1/genomic_data/arima/fSalTru1_ARI7_002_USPD16085689-AK4939_HK5YFCCXY_L4_R1.fastq.gz
      7777496795               0      2147483648     14922794918        99485303  species/Salmo_trutta/fSalTru1/genomic_data/arima/fSalTru1_ARI7_002_USPD16085689-AK4939_HK5YFCCXY_L4_R2.fastq.gz
+              0               0               0      2594622602             479  species/Salmo_trutta/fSalTru1/genomic_data/bionano/fSalTru1_Saphyr_DLE1_1953344
     13426670827               0      2147483648      7168988253          637813  species/Salmo_trutta/fSalTru1/genomic_data/pacbio/m54097_180410_140045.subreads.bam
     11065255620               0      2147483648      5799359015          561464  species/Salmo_trutta/fSalTru1/genomic_data/pacbio/m54205_180324_221829.subreads.bam
     12511622744               0      2147483648      6676306670          611311  species/Salmo_trutta/fSalTru1/genomic_data/pacbio/m54205_180413_151401.subreads.bam

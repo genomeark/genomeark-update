@@ -66,9 +66,9 @@ foreach my $species (@speciesList) {
 
     #  Rebuild each species.md file.
 
-    my %seqFiles;   #  Number of files for each type of data
-    my %seqBytes;   #  Total size in bytes for each type
-    my %seqIndiv;   #  List of individuals with data
+    my %seqFiles;
+    my %seqBytes;
+    my %seqIndiv;
     my %meta;
     my %data;
 
@@ -77,10 +77,11 @@ foreach my $species (@speciesList) {
     print "----------------------------------------\n";
     print "Processing species  $species\n";
 
-    loadSpeciesMetadata(\%data, $species, \%meta);    #  Load genomeark-metadata.
-    setGenbankIDs(\%data);                            #  Find GenBank accessions.
+    my $name = loadSpeciesMetadata(\%data, $species, \%meta, \@potentialErrors);
 
-    $data{"last_updated"} = getBucketFiles($data{"name_"}, \@speciesFiles, \@speciesSizes, \@speciesEpoch);
+    setGenbankIDs(\%data);
+
+    $data{"last_updated"} = getBucketFiles($name, \@speciesFiles, \@speciesSizes, \@speciesEpoch);
 
     print "  with ", scalar(@speciesFiles), " files.\n";
 
@@ -122,6 +123,12 @@ foreach my $species (@speciesList) {
     print "----------\n";
     print "Genomic Data, accumulation\n";
 
+    foreach my $type (@dataTypes) {
+        $seqFiles{$type} = "";
+        $seqBytes{$type} = 0;
+        $seqIndiv{$type} = "";
+    }
+
     for (my $ii=0; $ii<scalar(@speciesFiles); $ii++) {
         my $filesecs = $speciesEpoch[$ii];
         my $filesize = $speciesSizes[$ii];
@@ -147,19 +154,11 @@ foreach my $species (@speciesList) {
     print "----------\n";                        #  examining a handful and scaling the rest.
     print "Genomic Data, bases estimation\n";    #  BIONANO is different and not reported.
 
-    loadSummaries($data{"name_"}, \%seqFiles, \@potentialErrors);   #  Load existing summaries.
+    loadSummaries(\%data, \%seqFiles, \@potentialErrors);   #  Load existing summaries.
 
-    estimateRawDataScaling(\%data, "10x",             $seqFiles{"10x"},             \@potentialErrors, \%missingData, $downloadData);  #  seqFiles is a \0 separated list of
-    estimateRawDataScaling(\%data, "arima",           $seqFiles{"arima"},           \@potentialErrors, \%missingData, $downloadData);  #    'filesize \s datafile
-    estimateRawDataScaling(\%data, "dovetail",        $seqFiles{"dovetail"},        \@potentialErrors, \%missingData, $downloadData);  #
-    estimateRawDataScaling(\%data, "illumina",        $seqFiles{"illumina"},        \@potentialErrors, \%missingData, $downloadData);  #  datafile is 'species/NAME/INDIVIDUAL/genomic_data/TYPE/FILE
-    estimateRawDataScaling(\%data, "ont",             $seqFiles{"ont"},             \@potentialErrors, \%missingData, $downloadData);
-    estimateRawDataScaling(\%data, "ontduplex",       $seqFiles{"ontduplex"},       \@potentialErrors, \%missingData, $downloadData);
-    estimateRawDataScaling(\%data, "pacbio",          $seqFiles{"pacbio"},          \@potentialErrors, \%missingData, $downloadData);
-    estimateRawDataScaling(\%data, "pacbiohifi_fqgz", $seqFiles{"pacbiohifi_fqgz"}, \@potentialErrors, \%missingData, $downloadData);
-    estimateRawDataScaling(\%data, "pacbiohifi_bam",  $seqFiles{"pacbiohifi_bam"},  \@potentialErrors, \%missingData, $downloadData);
-    estimateRawDataScaling(\%data, "pacbiohifi_clr",  $seqFiles{"pacbiohifi_clr"},  \@potentialErrors, \%missingData, $downloadData);
-    estimateRawDataScaling(\%data, "phase",           $seqFiles{"phase"},           \@potentialErrors, \%missingData, $downloadData);
+    foreach my $type (@dataTypes) {
+        estimateRawDataScaling(\%data, $type, $seqFiles{$type}, \@potentialErrors, \%missingData, $downloadData);
+    }
 
     writeSummaries(\%data);
 
@@ -198,7 +197,16 @@ if (scalar(keys %missingData > 0)) {
     print "----------------------------------------\n";
     print "Species with missing data files:\n";
     foreach my $l (sort keys %missingData) {
-        printf "  %3d - %s\n", $missingData{$l}, $l;
+        my @m = split '\s+', $missingData{$l};
+        my %c;
+
+        foreach my $m (@m) {
+            $c{$m}++;
+        }
+
+        foreach my $k (keys %c) {
+            printf "  %40s  %12s  %d files\n", $l, $k, $c{$k};
+        }
     }
     print "\n";
 }

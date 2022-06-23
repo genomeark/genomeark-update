@@ -8,6 +8,7 @@
     17257413250               0      2147483648     31970695994       213137973  species/Gopherus_evgoodei/rGopEvg1/genomic_data/arima/rGopEvg1_ARI2_003_USPD16086863_HLMHGCCXY_L1_R1.fq.gz
     18459867037               0      2147483648     30953636730       206357586  species/Gopherus_evgoodei/rGopEvg1/genomic_data/arima/rGopEvg1_ARI2_003_USPD16086863_HLMHGCCXY_L1_R2.fq.gz
     18610406160               0      2147483648     31431219970       209541466  species/Gopherus_evgoodei/rGopEvg1/genomic_data/arima/rGopEvg1_ARI2_003_USPD16086863_HLMHGCCXY_L3_R2.fq.gz
+              0               0               0      4321279662            2666  species/Gopherus_evgoodei/rGopEvg1/genomic_data/bionano/rGopEvg1_Saphyr_DLE1_nonhap_ES_sdb
     14286206333               0      2147483648      7631500849          622045  species/Gopherus_evgoodei/rGopEvg1/genomic_data/pacbio/m54158_180328_150437.subreads.bam
     16659213223               0      2147483648      8962803148          642713  species/Gopherus_evgoodei/rGopEvg1/genomic_data/pacbio/m54159_180328_194345.subreads.bam
     15809680451               0      2147483648      8433366704          743896  species/Gopherus_evgoodei/rGopEvg1/genomic_data/pacbio/m54159_180329_055441.subreads.bam

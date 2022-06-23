@@ -8,6 +8,7 @@
     34635461942               0      2147483648     61861816441       412412125  species/Cariama_cristata/bCarCri1/genomic_data/arima/bCarCri1_ARI5_4_USPD16090938_HV3Y2CCXY_L3_2.clean.fq.gz
     32043747675               0      2147483648     61974025918       413160172  species/Cariama_cristata/bCarCri1/genomic_data/arima/bCarCri1_ARI5_4_USPD16090938_HV3Y2CCXY_L3_R1.clean.fastq.gz
     34635461942               0      2147483648     61861816441       412412125  species/Cariama_cristata/bCarCri1/genomic_data/arima/bCarCri1_ARI5_4_USPD16090938_HV3Y2CCXY_L3_R2.clean.fastq.gz
+              0               0               0      1314006814             657  species/Cariama_cristata/bCarCri1/genomic_data/bionano/bCarCri1_Saphyr_DLE1_1433832
     18286688291               0      2147483648      9859450606          653514  species/Cariama_cristata/bCarCri1/genomic_data/pacbio/m54159_180427_061924.subreads.bam
     16949574429               0      2147483648      9154442344          546644  species/Cariama_cristata/bCarCri1/genomic_data/pacbio/m54159_180429_031435.subreads.bam
     17743736013               0      2147483648      9564897309          620139  species/Cariama_cristata/bCarCri1/genomic_data/pacbio/m54159_180502_060656.subreads.bam

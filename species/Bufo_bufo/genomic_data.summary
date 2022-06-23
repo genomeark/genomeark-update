@@ -8,6 +8,7 @@
     43091035193               0      2147483648     70247501418       465215261  species/Bufo_bufo/aBufBuf1/genomic_data/arima/aBufBuf1_33822_2#1_R1.fastq.gz
     46841129137               0      2147483648     70661546566       467957283  species/Bufo_bufo/aBufBuf1/genomic_data/arima/aBufBuf1_33822_2#1_R2.fastq.gz
     47072590866               0      2147483648     70820789493       469011850  species/Bufo_bufo/aBufBuf1/genomic_data/arima/aBufBuf1_33822_4#1_R2.fastq.gz
+              0               0               0      5298654947            4661  species/Bufo_bufo/aBufBuf1/genomic_data/bionano/aBufBuf1_Saphyr_DLE1
    238394408083               0      2147483648    123870597162         6255139  species/Bufo_bufo/aBufBuf1/genomic_data/pacbio/m64016_190503_114339.subreads.bam
    238435812663               0      2147483648    124485478297         6139421  species/Bufo_bufo/aBufBuf1/genomic_data/pacbio/m64016_190507_114009.subreads.bam
    219215680152               0      2147483648    114979337231         5606451  species/Bufo_bufo/aBufBuf1/genomic_data/pacbio/m64016_190508_101048.subreads.bam

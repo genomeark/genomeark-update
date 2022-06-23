@@ -7,6 +7,7 @@
      8456186836               0      2147483648     16924446918       112082433  species/Corvus_moneduloides/bCorMon1/genomic_data/10x/bCorMon1_S4_L001_R1_001.fastq.gz
     33222226737               0      2147483648     52667607135       351117396  species/Corvus_moneduloides/bCorMon1/genomic_data/arima/bCorMon1_S12_L006_R1_001.fastq.gz
     35505595898               0      2147483648     51734588345       344897272  species/Corvus_moneduloides/bCorMon1/genomic_data/arima/bCorMon1_S12_L006_R2_001.fastq.gz
+              0               0               0      1340742456             193  species/Corvus_moneduloides/bCorMon1/genomic_data/bionano/bCorMon1_Saphyr_DLE1_2961987
     20379084076               0      2147483648     11006428873          583638  species/Corvus_moneduloides/bCorMon1/genomic_data/pacbio/m54158_190207_225549.subreads.bam
     19500128981               0      2147483648     10612586343          546180  species/Corvus_moneduloides/bCorMon1/genomic_data/pacbio/m54159_190209_033230.subreads.bam
     16699699176               0      2147483648      9097285414          442640  species/Corvus_moneduloides/bCorMon1/genomic_data/pacbio/m54306_190201_044403.subreads.bam

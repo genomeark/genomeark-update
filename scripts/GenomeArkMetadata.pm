@@ -3,7 +3,7 @@ package GenomeArkMetadata;
 require Exporter;
 
 @ISA    = qw(Exporter);
-@EXPORT = qw(loadSpeciesMetadata loadData);
+@EXPORT = qw(loadSpeciesMetadata saveData loadData);
 
 use strict;
 use warnings;
@@ -18,10 +18,11 @@ use GenomeArkUtility;
 #  Load metadata from our cache, or fetch it from the bucket if it is newer.
 #
 
-sub loadSpeciesMetadata ($$$) {
+sub loadSpeciesMetadata ($$$$) {
     my $data    = shift @_;
     my $species = shift @_;
     my $meta    = shift @_;
+    my $errors  = shift @_;
 
     my  @keys;
     my  @lvls;
@@ -79,16 +80,26 @@ sub loadSpeciesMetadata ($$$) {
 
     die "species.name '", $$meta{"species.name"}, "' has ", scalar(@n), " components, expected 2.\n" if (scalar(@n) < 2);
 
-    $$data{"name"}                = $$meta{"species.name"};         #  Name with a space:     'Species_name'
-    $$data{"name_"}               = "$n[0]_$n[1]";                 #  Name with underscore:  'Species_name'
+    $$data{"name"}                = $$meta{"species.name"};         #  Name with a space:     'Species name'
+    $$data{"name_"}               = "$n[0]_$n[1]";                  #  Name with underscore:  'Species_name'
     $$data{"short_name"}          = $$meta{"species.short_name"};
 
+    if ($$data{"name_"} ne $species) {
+        push @$errors, "  Species '$species' is not the same as name '" . $$data{"name_"} . "'\n";
+    }
+
     $$data{"common_name"}         = $$meta{"species.common_name"};
+    $$data{"common_name"}         = ""   if (!defined($$data{"common_name"}));
+
     $$data{"taxon_id"}            = $$meta{"species.taxon_id"};
+    $$data{"taxon_id"}            = ""   if (!defined($$data{"taxon_id"}));
 
     $$data{"genome_size"}         = $$meta{"species.genome_size"};
-    $$data{"genome_size_display"} = prettifyBases($$meta{"species.genome_size"});  #  Updated later, too.
+    $$data{"genome_size"}         = 0   if (!defined($$data{"genome_size"}));
+    $$data{"genome_size"}         = 0   if ($$data{"genome_size"} eq "");
+
     $$data{"genome_size_method"}  = $$meta{"species.genome_size_method"};
+    $$data{"genome_size_method"}  = ""  if (!defined($$data{"genome_size_method"}));
 
     $$data{"data_status"}         = "none";  #<em style=\"color:red\">no data</em>";
     $$data{"assembly_status"}     = "none";  #<em style=\"color:red\">no assembly</em>";
@@ -102,8 +113,34 @@ sub loadSpeciesMetadata ($$$) {
 
 
 #
-#  Load existing data from our markdown page.
+#  Write and read data from our markdown page.
 #
+
+sub saveData ($$) {
+    my $data = shift @_;
+    my $file = shift @_;
+
+    print "  Write to '$file'\n";
+    open(MD, "> $file") or die "Failed to open '$file' for write: $!\n";
+
+    print MD "---\n";
+    foreach my $key (sort keys %$data) {
+        next if ($key eq ":");
+
+        die "undef data{$key}\n"  if (!defined($$data{$key}));
+
+        if ($$data{$key} ne "") {
+            chomp $$data{$key};
+            print MD "$key: $$data{$key}\n";
+        }
+    }
+
+    print MD "---\n";
+    print MD $$data{":"}   if (exists($$data{":"}));
+
+    close(MD);
+}
+
 
 sub loadData ($$) {
     my $species = shift @_;

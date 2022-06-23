@@ -8,6 +8,7 @@
     36962178313               0      2147483648     58076357404       387175716  species/Tursiops_truncatus/mTurTru1/genomic_data/arima/mTurTru1_S4_L005_R1_001.fastq.gz
     42463457923               0      2147483648     57031609727       380210731  species/Tursiops_truncatus/mTurTru1/genomic_data/arima/mTurTru1_S4_L005_R2_001.fastq.gz
     39380389335               0      2147483648     55721520507       371476821  species/Tursiops_truncatus/mTurTru1/genomic_data/arima/mTurTru1_S4_L006_R2_001.fastq.gz
+              0               0               0      2599383222             149  species/Tursiops_truncatus/mTurTru1/genomic_data/bionano/mTurTru1_Saphyr_DLE1_3221993
     18706098449               0      2147483648     10127365516          607798  species/Tursiops_truncatus/mTurTru1/genomic_data/pacbio/m54158_190513_071350.subreads.bam
     18461762362               0      2147483648      9987609230          633026  species/Tursiops_truncatus/mTurTru1/genomic_data/pacbio/m54306_190512_210458.subreads.bam
     16741523713               0      2147483648      9162854068          515019  species/Tursiops_truncatus/mTurTru1/genomic_data/pacbio/m54306_190514_160921.subreads.bam

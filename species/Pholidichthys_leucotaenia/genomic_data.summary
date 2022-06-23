@@ -8,6 +8,7 @@
      5899166588               0      2147483648      8546070275        56973801  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/arima/fPhoLeu1_241101L003R6000142_R2.fastq.gz
      7309613455               0      2147483648     10532255620        70215037  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/arima/fPhoLeu1_241101L004R6000142_R2.fastq.gz
      8712020238               0      2147483648     12431207773        82874722  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/arima/fPhoLeu1_241125L002_R2.fastq.gz
+              0               0               0      6639250987            1064  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/bionano/fPhoLeu1_Saphyr_DLE1
     13705887073               0      2147483648      7236560399          810309  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/pacbio/m54062_190801_204543.subreads.bam
     12937140978               0      2147483648      6699153116          831856  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/pacbio/m54144_190729_121003.subreads.bam
    103404287302               0      2147483648     52754367689         6119606  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/pacbio/m64046_190911_100006.subreads.bam

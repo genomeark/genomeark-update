@@ -8,6 +8,7 @@
     66101314454               0      2147483648    127700867462       851339116  species/Phocoena_sinus/mPhoSin1/genomic_data/arima/concatenated-mPhoSin1_ARI12_4_USPD16090943_HV2CNCCXY_L4_R1.fastq.gz
     33118943951               0      2147483648     65206148278       434707670  species/Phocoena_sinus/mPhoSin1/genomic_data/arima/mPhoSin1_ARI12_4_USPD16090943_HV2CNCCXY_L5_1.clean.fq.gz
     35381415626               0      2147483648     67576343582       450508973  species/Phocoena_sinus/mPhoSin1/genomic_data/arima/mPhoSin1_ARI12_4_USPD16090943_HV2CNCCXY_L5_2.clean.fq.gz
+              0               0               0      2485091189             160  species/Phocoena_sinus/mPhoSin1/genomic_data/bionano/mPhoSin1_Saphyr_DLE1_2190826
     21574025714               0      2147483648     11732112337          741358  species/Phocoena_sinus/mPhoSin1/genomic_data/pacbio/m54159_181207_035801.subreads.bam
     23428488217               0      2147483648     12674265595          788010  species/Phocoena_sinus/mPhoSin1/genomic_data/pacbio/m54306_181122_070603.subreads.bam
     18755392260               0      2147483648     10170482492          589155  species/Phocoena_sinus/mPhoSin1/genomic_data/pacbio/m54306_181124_000253.subreads.bam

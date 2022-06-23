@@ -2,6 +2,7 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+              0               0               0      2793912682             406  species/Manis_pentadactyla/mManPen7/genomic_data/bionano/mManPen7_Saphyr_DLE1_3680712
     91379613148               0      2147483648    105253964050         6067184  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64055e_211101_201655.hifi_reads.bam
     21448829571               0      2147483648     24705448609         1424103  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64055e_211101_201655.hifi_reads.fastq.gz
    236223371296               0      2147483648     95085636705         5304973  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64055e_211101_201655.reads.bam

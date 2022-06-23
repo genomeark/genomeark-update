@@ -5,6 +5,8 @@
     35117967862               0      2147483648     54171238966       318654346  species/Balaenoptera_musculus/mBalMus1/genomic_data/10x/mBalMus1_S1_L006_R2_001.fastq.gz
     31020674272               0      2147483648     54920346566       323060876  species/Balaenoptera_musculus/mBalMus1/genomic_data/10x/mBalMus1_S1_L008_R1_001.fastq.gz
     35482389316               0      2147483648     55217944358       324811437  species/Balaenoptera_musculus/mBalMus1/genomic_data/10x/mBalMus1_S1_L008_R2_001.fastq.gz
+              0               0               0      5098749888             957  species/Balaenoptera_musculus/mBalMus1/genomic_data/bionano/mBalMus1_Saphyr_DLE1
+              0               0               0      2760208736             742  species/Balaenoptera_musculus/mBalMus1/genomic_data/bionano/mBalMus1_Saphyr_DLE1_nonHap
     36691348355               0      2147483648     59532402647       396882684  species/Balaenoptera_musculus/mBalMus1/genomic_data/dovetail/mBalMus1_dovetail_HiC_R1.fastq.gz
     39419606917               0      2147483648     60127187936       400847919  species/Balaenoptera_musculus/mBalMus1/genomic_data/dovetail/mBalMus1_dovetail_HiC_R2.fastq.gz
     10390028718               0      2147483648     21832490027       235780871  species/Balaenoptera_musculus/mBalMus1/genomic_data/illumina/post-processed/160810_J00168_0006_AHCWTYBBXX/z.r1.se.u.singletons.fq.gz

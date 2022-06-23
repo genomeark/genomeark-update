@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     51171883089               0      2147483648     98687451388       653559304  species/Spea_bombifrons/aSpeBom1/genomic_data/arima/aSpeBom1_S1_L001_R1_001.fastq.gz
     54954629948               0      2147483648     98351586973       651335013  species/Spea_bombifrons/aSpeBom1/genomic_data/arima/aSpeBom1_S1_L001_R2_001.fastq.gz
+              0               0               0      1901447462             400  species/Spea_bombifrons/aSpeBom1/genomic_data/bionano/aSpeBom1_Saphyr_DLE1_3680783
     92046713186               0      2147483648    115595690047         7631555  species/Spea_bombifrons/aSpeBom1/genomic_data/pacbio_hifi/m54306Ue_211209_200800.hifi_reads.bam
     20361130053               0      2147483648     25570265326         1688133  species/Spea_bombifrons/aSpeBom1/genomic_data/pacbio_hifi/m54306Ue_211209_200800.hifi_reads.fastq.gz
    180929256631               0      2147483648     67753432144         4029255  species/Spea_bombifrons/aSpeBom1/genomic_data/pacbio_hifi/m54306Ue_211209_200800.reads.bam

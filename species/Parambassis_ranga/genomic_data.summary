@@ -8,6 +8,7 @@
      3317429044               0      3317429044      5860321500        39068810  species/Parambassis_ranga/fParRan2/genomic_data/arima/fParRan2_ARI5_002_USPD16085689-AK5140_HK5YFCCXY_L2_R2.fastq.gz
      3095235053               0      3095235053      6008399250        40055995  species/Parambassis_ranga/fParRan2/genomic_data/arima/fParRan2_ARI5_002_USPD16085689-AK5140_HK5YFCCXY_L4_R1.fastq.gz
      3326207714               0      3326207714      6008399250        40055995  species/Parambassis_ranga/fParRan2/genomic_data/arima/fParRan2_ARI5_002_USPD16085689-AK5140_HK5YFCCXY_L4_R2.fastq.gz
+              0               0               0      1016326335             470  species/Parambassis_ranga/fParRan2/genomic_data/bionano/fParRan2_Saphyr_DLE1_1718543
     14683283273               0      2147483648      7827530974          740986  species/Parambassis_ranga/fParRan2/genomic_data/pacbio/m54097_180702_215908.subreads.bam
     14120836726               0      2147483648      7546484015          633262  species/Parambassis_ranga/fParRan2/genomic_data/pacbio/m54205_180704_112040.subreads.bam
     15509581592               0      2147483648      8273574376          748235  species/Parambassis_ranga/fParRan2/genomic_data/pacbio/m54205_180704_213602.subreads.bam

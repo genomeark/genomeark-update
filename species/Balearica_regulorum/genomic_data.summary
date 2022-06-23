@@ -7,6 +7,7 @@
     11258679441               0      2147483648     21323684781       141216455  species/Balearica_regulorum/bBalReg1/genomic_data/10x/bBalReg1_S4_L001_R2_001.fastq.gz
     29559687173               0      2147483648     48736896727       324912658  species/Balearica_regulorum/bBalReg1/genomic_data/arima/bBalReg1_2411_30_L008_R1_001.fastq.gz
     30725421393               0      2147483648     46372355890       309149053  species/Balearica_regulorum/bBalReg1/genomic_data/arima/bBalReg1_2411_30_L008_R2_001.fastq.gz
+              0               0               0      1495922171             128  species/Balearica_regulorum/bBalReg1/genomic_data/bionano/bBalReg1_Saphyr_DLE1_3221992
     15315640029               0      2147483648      8386739151          354498  species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/m54307_190515_175620.subreads.bam
     16826980225               0      2147483648      9203558125          372116  species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/m54307_190516_041052.subreads.bam
     11415100193               0      2147483648      6250593202          253866  species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/m54307_190516_203341.subreads.bam

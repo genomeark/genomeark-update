@@ -8,6 +8,7 @@
     26793045330               0      2147483648     51810829895       345405545  species/Pterocles_gutturalis/bPteGut1/genomic_data/arima/bPteGut1_ARI14_4_USPD16090945_HV2CNCCXY_L8_1.clean.fq.gz
     29006206021               0      2147483648     49355585477       329037250  species/Pterocles_gutturalis/bPteGut1/genomic_data/arima/bPteGut1_ARI14_4_USPD16090945_HV2CNCCXY_L8_2.clean.fastq.gz
     29006206021               0      2147483648     49355585477       329037250  species/Pterocles_gutturalis/bPteGut1/genomic_data/arima/bPteGut1_ARI14_4_USPD16090945_HV2CNCCXY_L8_2.clean.fq.gz
+              0               0               0      1485048039             256  species/Pterocles_gutturalis/bPteGut1/genomic_data/bionano/bPteGut1_Saphyr_DLE1_2190825
     16109183105               0      2147483648      8762485532          555660  species/Pterocles_gutturalis/bPteGut1/genomic_data/pacbio/m54158_181018_184334.subreads.bam
     15430693021               0      2147483648      8404565167          596013  species/Pterocles_gutturalis/bPteGut1/genomic_data/pacbio/m54158_181019_045416.subreads.bam
     15777864214               0      2147483648      8449531723          612656  species/Pterocles_gutturalis/bPteGut1/genomic_data/pacbio/m54159_180925_154820.subreads.bam

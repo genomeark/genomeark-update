@@ -7,6 +7,7 @@
     15002027376               0      2147483648     26258972891       175059819  species/Lacerta_agilis/rLacAgi1/genomic_data/arima/rLacAgi1_ARI10_4_USPD16090942_HV2CNCCXY_L2_2.clean.fq.gz
     32618353700               0      2147483648     62415440647       416102952  species/Lacerta_agilis/rLacAgi1/genomic_data/arima/rLacAgi1_ARI10_4_USPD16090942_HV2CNCCXY_L3_1.clean.fq.gz
     34707139353               0      2147483648     64919454240       432796377  species/Lacerta_agilis/rLacAgi1/genomic_data/arima/rLacAgi1_ARI10_4_USPD16090942_HV2CNCCXY_L3_2.clean.fq.gz
+              0               0               0      2878485715             871  species/Lacerta_agilis/rLacAgi1/genomic_data/bionano/rLacAgi1_Saphyr_DLE1_1631684
     12899204936               0      2147483648      6902628842          565569  species/Lacerta_agilis/rLacAgi1/genomic_data/pacbio/m54158_180810_175709.subreads.bam
     10964333356               0      2147483648      5830120457          480642  species/Lacerta_agilis/rLacAgi1/genomic_data/pacbio/m54159_180804_072119.subreads.bam
     13765056895               0      2147483648      7365962599          507250  species/Lacerta_agilis/rLacAgi1/genomic_data/pacbio/m54159_180815_055511.subreads.bam

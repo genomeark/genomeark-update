@@ -2,6 +2,7 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+              0               0               0      1168413597             212  species/Chasiempis_sclateri/bChaScl1/genomic_data/bionano/bChaScl1_Saphyr_DLE1_3700967
     58002420753               0      2147483648     68786591643         4562225  species/Chasiempis_sclateri/bChaScl1/genomic_data/pacbio_hifi/m54306Ue_211129_024855.hifi_reads.bam
     13264082925               0      2147483648     15730223736         1043296  species/Chasiempis_sclateri/bChaScl1/genomic_data/pacbio_hifi/m54306Ue_211129_024855.hifi_reads.fastq.gz
    204925466677               0      2147483648     87732091769         5659993  species/Chasiempis_sclateri/bChaScl1/genomic_data/pacbio_hifi/m54306Ue_211129_024855.reads.bam

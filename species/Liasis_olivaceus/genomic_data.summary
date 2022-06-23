@@ -2,6 +2,7 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+              0               0               0      1468109473              80  species/Liasis_olivaceus/rLiaOli1/genomic_data/bionano/rLiaOli1_Saphyr_DLE1_3700969
     21118232414               0      2147483648     24202950491         1486498  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220214_035318.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
      7755725709               0      2147483648      9588054317          589894  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220331_182813.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
     19087406747               0      2147483648     22289652477         1373023  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m64330e_220220_062027.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz

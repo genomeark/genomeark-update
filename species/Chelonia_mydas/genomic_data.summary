@@ -7,6 +7,7 @@
     11243949697               0      2147483648     21790852962       144310289  species/Chelonia_mydas/rCheMyd1/genomic_data/10x/rCheMyd1_S1_L004_R1_001.fastq.gz
     47785141206               0      2147483648     93047136783       616206226  species/Chelonia_mydas/rCheMyd1/genomic_data/arima/rCheMyd1_DDL40351T79218_R1.fastq.gz
     49125218598               0      2147483648     92999509608       615890792  species/Chelonia_mydas/rCheMyd1/genomic_data/arima/rCheMyd1_DDL40351T79218_R2.fastq.gz
+              0               0               0      2304998407             123  species/Chelonia_mydas/rCheMyd1/genomic_data/bionano/rCheMyd1_Saphyr_DLE-1
     23716141207               0      2147483648     12918297278          542267  species/Chelonia_mydas/rCheMyd1/genomic_data/pacbio/m54142_190521_123207.subreads.bam
     21633089785               0      2147483648     11817516193          476102  species/Chelonia_mydas/rCheMyd1/genomic_data/pacbio/m54142_190522_090408.subreads.bam
     22860157505               0      2147483648     12387090452          605258  species/Chelonia_mydas/rCheMyd1/genomic_data/pacbio/m54144_190520_123654.subreads.bam

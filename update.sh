@@ -4,8 +4,7 @@
 #SBATCH --time=24:00:00
 
 updateFileList="no"
-updateMetaData="no"
-updateGenBank="no"
+updateGenBank="yes"
 
 module load aws
 module load samtools
@@ -39,28 +38,6 @@ if [ ! -e "downloads/genomeark.ls" -o \
 fi
 
 #
-#  Update metadata, if requested.
-#
-
-if [ $updateMetaData = "yes" ] ; then
-  echo "Updating metadata repository."
-
-  if [ ! -e genomeark-metadata ] ; then
-    git clone git@github.com:genomeark/genomeark-metadata
-  fi
-
-  cd genomeark-metadata
-  git fetch
-  git log --numstat ..@{upstream}
-  git merge
-  cd -
-
-  cd genomeark-metadata/species
-  ls *yaml | sed 's/.yaml$//' > ../species-list
-  cd -
-fi
-
-#
 #  Update genbank accessions, if requested.
 #    Versions:
 #      edirect/8.60
@@ -70,7 +47,10 @@ fi
 #  Extract elements 'Genbank', 'AssemblyName' and 'AssemblyType' from all
 #  'DocumentSummary' elements IF it contains a `Synonym` element (which is
 #  where the 'Genbank' element is).
-
+#
+#  PRJNA533106 = ebp
+#  PRJNA489243 = vgp
+#
 if [ $updateGenBank = "yes" ] ; then
   echo "Updating genbank mappings."
 
@@ -86,31 +66,33 @@ if [ $updateGenBank = "yes" ] ; then
     module load edirect/10.0
   fi
 
-  if [ ! -e "downloads/genbank.map.raw" ] ; then
-    echo "Fetching downloads/genbank.xml."
+  for pp in PRJNA489243 PRJNA533106 ; do
+    if [ ! -e "downloads/genbank.$pp.map.raw" ] ; then
+      echo "Fetching downloads/genbank.$pp.xml."
 
-    esearch -db bioproject -q 'PRJNA489243' \
-    | \
-    elink -db bioproject -target assembly -name bioproject_assembly_all \
-    | \
-    esummary \
-    > downloads/genbank.xml
+      esearch -db bioproject -q $pp \
+      | \
+      elink -db bioproject -target assembly -name bioproject_assembly_all \
+      | \
+      esummary \
+      > downloads/genbank.$pp.xml
 
-    echo "Parsing downloads/genbank.xml."
+      echo "Parsing downloads/genbank.$pp.xml."
 
-    xtract \
-      -input downloads/genbank.xml \
-      -pattern DocumentSummary -if Synonym -element Genbank AssemblyName AssemblyType \
-    | \
-    sort -k2,2 \
-    > downloads/genbank.map.raw
-  fi
+      xtract \
+        -input downloads/genbank.$pp.xml \
+        -pattern DocumentSummary -if Synonym -element Genbank AssemblyName AssemblyType \
+      | \
+      sort -k2,2 \
+      > downloads/genbank.$pp.map.raw
+    fi
 
-  if [ ! -e "downloads/genbank.map" -o \
-            "downloads/genbank.map" -ot "downloads/genbank.map.raw" ] ; then
-    echo "Fixing downloads/genbank.xml."
-    perl scripts/genbank-fixup.pl < downloads/genbank.map.raw > species-data/genbank.map
-  fi
+    if [ ! -e "downloads/genbank.$pp.map" -o \
+              "downloads/genbank.$pp.map" -ot "downloads/genbank.$pp.map.raw" ] ; then
+      echo "Fixing downloads/genbank.$pp.xml."
+      perl scripts/genbank-fixup.pl < downloads/genbank.$pp.map.raw > projects/genbank.$pp.map
+    fi
+  done
 fi
 
 #
@@ -122,4 +104,4 @@ fi
 #  echo $x
 #done
 
-perl scripts/scan-bucket.pl $@
+#perl scripts/scan-bucket.pl $@

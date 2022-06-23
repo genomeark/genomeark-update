@@ -5,6 +5,7 @@
     10901479955               0      2147483648     13823323449        91545193  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/10x/aGeoSer1_S1_L003_R2_001.fastq.gz
     10061105014               0      2147483648     12766639781        84547288  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/10x/aGeoSer1_S2_L003_R2_001.fastq.gz
       801572815               0       801572815       852785504       106598188  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/10x/aGeoSer1_S4_L003_I1_001.fastq.gz
+              0               0               0      7086443227             791  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/bionano/aGeoSer1_Saphyr_DLE1
     46921910656               0      2147483648     63747886322       422171432  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/dovetail/aGeoSer1_28791_1#1_R2.fastq.gz
     44477397185               0      2147483648     72600414714       480797469  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/dovetail/aGeoSer1_29109_3#1_R1.fastq.gz
     49380827267               0      2147483648     74563637791       493798925  species/Geotrypetes_seraphini/aGeoSer1/genomic_data/dovetail/aGeoSer1_29109_3#1_R2.fastq.gz

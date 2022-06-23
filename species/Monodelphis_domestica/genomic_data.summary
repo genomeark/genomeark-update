@@ -5,6 +5,7 @@
     68836723623               0      2147483648    133013617669       886757451  species/Monodelphis_domestica/mMonDom1/genomic_data/arima/mMonDom1_Gray_Short-tailed_Opossum1_R1.fastq.gz
     69405780153               0      2147483648    133811546120       892077006  species/Monodelphis_domestica/mMonDom1/genomic_data/arima/mMonDom1_Gray_Short-tailed_Opossum1_R2.fastq.gz
     68909781903               0      2147483648    134408839082       896058959  species/Monodelphis_domestica/mMonDom1/genomic_data/arima/mMonDom1_Gray_Short-tailed_Opossum2_R2.fastq.gz
+              0               0               0      3649650209             263  species/Monodelphis_domestica/mMonDom1/genomic_data/bionano/mMonDom1_Saphyr_DLE1_3685509
     97250252066               0      2147483648    112879291209         6819932  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211110_071858.hifi_reads.bam
     22728068117               0      2147483648     26380684523         1593866  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211110_071858.hifi_reads.fastq.gz
    271090442714               0      2147483648    111830366082         5414402  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211110_071858.reads.bam

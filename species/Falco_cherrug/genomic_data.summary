@@ -5,6 +5,7 @@
      5236663038               0      2147483648      7442362065        49615747  species/Falco_cherrug/bFalChe1/genomic_data/arima/bFalChe1_2450_05_L003_R2_001.fastq.gz
     25148611608               0      2147483648     39012133217       260080899  species/Falco_cherrug/bFalChe1/genomic_data/arima/bFalChe1_2450_05_R1_001.fastq.gz
     28650395603               0      2147483648     40062147218       267080994  species/Falco_cherrug/bFalChe1/genomic_data/arima/bFalChe1_2450_05_R2_001.fastq.gz
+              0               0               0      1308616837             140  species/Falco_cherrug/bFalChe1/genomic_data/bionano/bFalChe1_Saphyr_DLE1_3680639
     19308432441               0      2147483648      9642622423          589516  species/Falco_cherrug/bFalChe1/genomic_data/pacbio_hifi/m54306U_210428_211837.Q20.fastq
      8560408704               0      2147483648      9626207897          588087  species/Falco_cherrug/bFalChe1/genomic_data/pacbio_hifi/m54306U_210428_211837.ccs.bam
    358862783912               0      2147483648    185838426489        13275099  species/Falco_cherrug/bFalChe1/genomic_data/pacbio_hifi/m54306U_210428_211837.subreads.bam

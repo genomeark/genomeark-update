@@ -5,6 +5,7 @@
     33692189726               0      2147483648     45690411899       304602745  species/Diceros_bicornis/mDicBic1/genomic_data/arima/mDicBic1_2450_03_R2_001.fastq.gz
     45251661261               0      2147483648     65600389422       437335950  species/Diceros_bicornis/mDicBic1/genomic_data/arima/mDicBic1_2450_04_R1_001.fastq.gz
     49657898196               0      2147483648     65133196515       434221333  species/Diceros_bicornis/mDicBic1/genomic_data/arima/mDicBic1_2450_04_R2_001.fastq.gz
+              0               0               0      2636370220             493  species/Diceros_bicornis/mDicBic1/genomic_data/bionano/mDicBic1_Saphyr_DLE1_3680745
     12661683343               0      2147483648     13902144845          766734  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_200906_020246.ccs.bam
    407281612019               0      2147483648    213022598284        13637162  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_200906_020246.subreads.bam
     11895097070               0      2147483648     12711891936          655318  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_200907_082817.ccs.bam

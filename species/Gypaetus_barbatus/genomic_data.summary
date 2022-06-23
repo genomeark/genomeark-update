@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     48424476564               0      2147483648     93602663209       624017754  species/Gypaetus_barbatus/bGypBar2/genomic_data/arima/bGypBar2_Bearded_Vulture_R1.fastq.gz
     51499564634               0      2147483648     96382641540       642550967  species/Gypaetus_barbatus/bGypBar2/genomic_data/arima/bGypBar2_Bearded_Vulture_R2.fastq.gz
+              0               0               0      1249832780             115  species/Gypaetus_barbatus/bGypBar2/genomic_data/bionano/bGypBar2_Saphyr_DLE1_3691396
     11060279572               0      2147483648     12507355781          795022  species/Gypaetus_barbatus/bGypBar2/genomic_data/pacbio_hifi/m54306Ue_210721_171816.hifi_reads.fastq.gz
    152469902048               0      2147483648     63845959136         4373629  species/Gypaetus_barbatus/bGypBar2/genomic_data/pacbio_hifi/m54306Ue_210721_171816.reads.bam
     10726989055               0      2147483648     11835833009          781055  species/Gypaetus_barbatus/bGypBar2/genomic_data/pacbio_hifi/m64055e_210721_170949.hifi_reads.fastq.gz

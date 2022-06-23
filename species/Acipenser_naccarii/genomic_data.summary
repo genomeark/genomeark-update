@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     71560121088               0      2147483648    133351693433       883123830  species/Acipenser_naccarii/fAciNac1/genomic_data/arima/fAciNac1_S1_L001_R1_001.fastq.gz
     73438358409               0      2147483648    134246756196       889051399  species/Acipenser_naccarii/fAciNac1/genomic_data/arima/fAciNac1_S1_L001_R2_001.fastq.gz
+              0               0               0         9444408              79  species/Acipenser_naccarii/fAciNac1/genomic_data/bionano/fAciNac1_Saphyr_DLE1_3700096
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS

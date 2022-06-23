@@ -5,6 +5,7 @@
       826622644               0       826622644       926431936       115803992  species/Aquila_chrysaetos/bAquChr1/genomic_data/10x/bAquChr1_S1_L007_I1_001.fastq.gz
     11292241608               0      2147483648     17266660289       114348748  species/Aquila_chrysaetos/bAquChr1/genomic_data/10x/bAquChr1_S1_L007_R1_001.fastq.gz
      9509132872               0      2147483648     14558879497        96416424  species/Aquila_chrysaetos/bAquChr1/genomic_data/10x/bAquChr1_S4_L007_R1_001.fastq.gz
+              0               0               0      1321231531             173  species/Aquila_chrysaetos/bAquChr1/genomic_data/bionano/bAquChr1_Saphyr_DLE1_311952
     39767624955               0      2147483648     61057455786       404354030  species/Aquila_chrysaetos/bAquChr1/genomic_data/dovetail/bAquChr1_28852_3#1_R1.fastq.gz
     43970199648               0      2147483648     61590970464       407887242  species/Aquila_chrysaetos/bAquChr1/genomic_data/dovetail/bAquChr1_28852_3#1_R2.fastq.gz
      7510926592               0      2147483648      3961328281          335743  species/Aquila_chrysaetos/bAquChr1/genomic_data/pacbio/m54097_171122_121242.subreads.bam

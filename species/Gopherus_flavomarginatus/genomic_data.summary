@@ -9,6 +9,7 @@
     16485527689               0      2147483648     32817663709       217335521  species/Gopherus_flavomarginatus/rGopFla2/genomic_data/10x/rGopFla2_S4_L001_R1_001.fastq.gz
     54262921570               0      2147483648     86368678323       575791188  species/Gopherus_flavomarginatus/rGopFla2/genomic_data/arima/rGopFla2_S1_L006_R1_001.fastq.gz
     60907980140               0      2147483648     84522799371       563485329  species/Gopherus_flavomarginatus/rGopFla2/genomic_data/arima/rGopFla2_S1_L006_R2_001.fastq.gz
+              0               0               0      2575964281             179  species/Gopherus_flavomarginatus/rGopFla2/genomic_data/bionano/rGopFla2_Saphyr_DLE1_2857688
     20522378081               0      2147483648     11014040375          643160  species/Gopherus_flavomarginatus/rGopFla2/genomic_data/pacbio/m54306_190406_040526.subreads.bam
     21183781009               0      2147483648     11373116358          703375  species/Gopherus_flavomarginatus/rGopFla2/genomic_data/pacbio/m54307_190405_155618.subreads.bam
     20019776788               0      2147483648     10706095961          691351  species/Gopherus_flavomarginatus/rGopFla2/genomic_data/pacbio/m54307_190406_021106.subreads.bam

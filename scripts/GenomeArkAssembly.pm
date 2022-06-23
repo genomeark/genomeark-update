@@ -3,7 +3,7 @@ package GenomeArkAssembly;
 require Exporter;
 
 @ISA    = qw(Exporter);
-@EXPORT = qw(rememberLatestAssembly summarizeAssembly);
+@EXPORT = qw(rememberLatestAssembly summarizeAssembly importAssemblySummary);
 
 use strict;
 use warnings;
@@ -145,8 +145,8 @@ sub loadAssemblySummary ($$$$$$) {
     my $ctgLEN      = shift @_;
     my $ctgCOV      = shift @_;
     my $genomeSize  = shift @_;
-    my $n50         = undef;
-    my $size        = undef;
+    my $n50         = 0;
+    my $size        = 0;
 
     if (! -e "$summaryfile") {
         push @$ctgNG,  0;
@@ -157,38 +157,63 @@ sub loadAssemblySummary ($$$$$$) {
         return(0, 0);
     }
 
+    print "Import '$summaryfile'\n";
+
     open(SU, "< $summaryfile") or die;
     while (<SU>) {
         my ($ng, $lg, $len, $cov);
 
-        if    ($_ =~ m/0*(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+||/) {
-            ($ng, $lg, $len, $cov) = ($1, $3, $2, $4);   #  Note order!
+        #  Match an NG/LG line:
+        #    G=16722                            sum of  ||               length     num
+        #    NG         length     index       lengths  ||                range    seqs
+        #    ----- ------------ --------- ------------  ||  ------------------- -------
+        #    00010        16722         0        16722  ||      16722                 1|-----...
+        #    00020        16722         0        16722  ||
+        #
+        if    ($_ =~ m!0*(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+\|\|!) {
+            $ng  = $1;
+            $len = $2;
+            $lg  = $3;
+            $cov = "-";   #  If not valid, otherwise set below.
+            $cov = sprintf("%.2f", $4 / $genomeSize)   if (($4 ne "-") && ($genomeSize > 0));
 
-            if ($ng == 50) {
-                $n50 = $lg;
-            }
-
-            if (($genomeSize == 0) || ($lg eq "-")) {
-                $cov = "-";
-            } else {
-                $cov = sprintf("%.2f", $cov / $genomeSize);
-            }
-            #$cov = (($genomeSize == 0) || ($lg eq "-")) ? "-" : sprintf("%.2f", $cov / $genomeSize);
-
+            $n50 = $len   if ($ng == 50);
         }
-        elsif ($_ =~ m/\d+(\d.\d+x)\s+(\d+)\s+(\d+)\s+||/) {
-            ($ng, $lg, $len, $cov) = ($1, $2, $3, $3);   #  Note duplication!
 
-            $size = $3;
+        #  Match an empty NG/LG line:
+        #    G=16722                            sum of  ||               length     num
+        #    NG         length     index       lengths  ||                range    seqs
+        #    ----- ------------ --------- ------------  ||  ------------------- -------
+        #    ...
+        #    00070            -         -            -  || 
+        #
+        elsif ($_ =~ m!0*(\d+)\s+-\s+-\s+-\s+\|\|!) {
+            $ng  = $1;
+            $len =  0;
+            $lg  =  0;
+            $cov = "-";
         }
+
+        #  Match a coverage line:
+        #    001.000x                   1        16722  ||
+        #
+        elsif ($_ =~ m!\d+(\d.\d+x)\s+(\d+)\s+(\d+)\s+\|\|!) {
+            $ng   = $1;    #  Actual coverage of genome.
+            $lg   = $2;    #  Number of sequences.
+            $len  = $3;    #  Actual size of assembly.
+            $cov  = $1;    #  Actual size of assembly.
+            $size = $3;    #  Actual size of assembly.
+        }
+
+        #  Not a line we care about.
         else {
-            next;   #  Not a line we care about.
+            next;
         }
 
         push @$ctgNG,                $ng;
-        push @$ctgLG,  prettifyBases($lg);
+        push @$ctgLG,                $lg;
         push @$ctgLEN, prettifyBases($len);
-        push @$ctgCOV, prettifyBases($cov);
+        push @$ctgCOV,               $cov;
     }
     close(SU);
 
@@ -543,16 +568,16 @@ sub importAssemblySummary ($$$$$$) {
         elsif (($$data{"${prialt}${sNum}n50ctg"} >= $goodCTG) &&
                ($$data{"${prialt}${sNum}n50scf"} >= $goodSCF)) {
             if ($$data{"assembly_status"} ne "curated") {
-                printf "  %8s <- status=high-quality-draft\n", "$prialt$sNum";
-                $$data{"assembly_status"} = "high-quality-draft"
+                printf "  %8s <- status=hqdraft\n", "$prialt$sNum";
+                $$data{"assembly_status"} = "hqdraft"
             }
         }
 
         else {
             if (($$data{"assembly_status"} ne "curated") &&
                 ($$data{"assembly_status"} ne "high-quality-draft")) {
-                printf "  %8s <- status=low-quality-draft\n", "$prialt$sNum";
-                $$data{"assembly_status"} = "low-quality-draft";
+                printf "  %8s <- status=lqdraft\n", "$prialt$sNum";
+                $$data{"assembly_status"} = "lqdraft";
             }
         }
     }

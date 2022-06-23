@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     38732806580               0      2147483648     73560874708       490405849  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/arima/Salt_Marsh_Sparrow_R1.fastq.gz
     39847228111               0      2147483648     74307025500       495380170  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/arima/Salt_Marsh_Sparrow_R2.fastq.gz
+              0               0               0      1256044309             486  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/bionano/bAmmCau1_Saphyr_DLE1_3680760
     48460797692               0      2147483648     59044050904         4113636  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211031_050355.hifi_reads.bam
     10761992987               0      2147483648     13112282340          913541  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211031_050355.hifi_reads.fastq.gz
    180238238562               0      2147483648     78515320403         5106047  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211031_050355.reads.bam

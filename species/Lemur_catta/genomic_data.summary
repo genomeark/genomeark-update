@@ -8,6 +8,7 @@
     33038906539               0      2147483648     48409279089       322728527  species/Lemur_catta/mLemCat1/genomic_data/arima/mLemCat1_S10_L005_R2_001.fastq.gz
     36895074072               0      2147483648     58858775000       392391850  species/Lemur_catta/mLemCat1/genomic_data/arima/mLemCat1_S10_L006_R1_001.fastq.gz
     39366290127               0      2147483648     58004059804       386693750  species/Lemur_catta/mLemCat1/genomic_data/arima/mLemCat1_S10_L006_R2_001.fastq.gz
+              0               0               0      2216928354             122  species/Lemur_catta/mLemCat1/genomic_data/bionano/mLemCat1_Saphyr_DLE1_2857687
     15354233923               0      2147483648      8151224002          679788  species/Lemur_catta/mLemCat1/genomic_data/pacbio/m54158_190404_152923.subreads.bam
     16407394665               0      2147483648      8839819044          649348  species/Lemur_catta/mLemCat1/genomic_data/pacbio/m54159_190328_062602.subreads.bam
     17113503295               0      2147483648      9271244687          669340  species/Lemur_catta/mLemCat1/genomic_data/pacbio/m54159_190329_074634.subreads.bam

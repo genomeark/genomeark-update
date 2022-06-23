@@ -2,6 +2,7 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+              0               0               0      2439504703             165  species/Pseudorca_crassidens/mPseCra1/genomic_data/bionano/mPseCra1_Saphyr_DLE1_3683915
     76095798710               0      2147483648     82760986675         5041921  species/Pseudorca_crassidens/mPseCra1/genomic_data/pacbio_hifi/m54306Ue_210813_171957.hifi_reads.bam
     18619595831               0      2147483648     20250475697         1233688  species/Pseudorca_crassidens/mPseCra1/genomic_data/pacbio_hifi/m54306Ue_210813_171957.hifi_reads.fastq.gz
    201268216162               0      2147483648     78446489003         4834972  species/Pseudorca_crassidens/mPseCra1/genomic_data/pacbio_hifi/m54306Ue_210813_171957.reads.bam

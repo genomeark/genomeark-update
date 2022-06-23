@@ -5,6 +5,7 @@
      3331701387               0      3331701387      5356335000        35708900  species/Antennarius_maculatus/fAntMac1/genomic_data/10x/fAntMac1_S3_L001_R1_001.fastq.gz
      3542309215               0      3542309215      5694500100        37963334  species/Antennarius_maculatus/fAntMac1/genomic_data/10x/fAntMac1_S4_L001_R1_001.fastq.gz
      3618664007               0      3618664007      5694500100        37963334  species/Antennarius_maculatus/fAntMac1/genomic_data/10x/fAntMac1_S4_L001_R2_001.fastq.gz
+              0               0               0       559776610             106  species/Antennarius_maculatus/fAntMac1/genomic_data/bionano/fAntMac1_Saphyr_DLE-1
      9752221248               0      2147483648      5240101386          462488  species/Antennarius_maculatus/fAntMac1/genomic_data/pacbio/m54062_170922_112028.subreads.bam
      5963751145               0      2147483648      3238100345          205157  species/Antennarius_maculatus/fAntMac1/genomic_data/pacbio/m54062_171018_211949.subreads.bam
      3963929324               0      3963929324      2125617376          170958  species/Antennarius_maculatus/fAntMac1/genomic_data/pacbio/m54144_170929_003554.subreads.bam

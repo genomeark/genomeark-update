@@ -4,6 +4,8 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     22755057408               0      2147483648     34442096751       229613978  species/Dendrocygna_viduata/bDenVid1/genomic_data/arima/bDenVid1_S_2476_4_R1_001.fastq.gz
     27527824572               0      2147483648     36041427099       240276193  species/Dendrocygna_viduata/bDenVid1/genomic_data/arima/bDenVid1_S_2476_4_R2_001.fastq.gz
+              0               0               0      1451979099            1674  species/Dendrocygna_viduata/bDenVid1/genomic_data/bionano/bDenVid1_Saphyr_BspQI_1829063
+              0               0               0      1704760343            1081  species/Dendrocygna_viduata/bDenVid1/genomic_data/bionano/bDenVid1_Saphyr_BssSI_1829064
     22448373792               0      2147483648     45650385203       302320442  species/Dendrocygna_viduata/bDenVid1/genomic_data/illumina/bDenVid1_R1.fastq.gz
     23558566062               0      2147483648     46136058146       305536819  species/Dendrocygna_viduata/bDenVid1/genomic_data/illumina/bDenVid1_R2.fastq.gz
     13167422633               0      2147483648      6951283880          559149  species/Dendrocygna_viduata/bDenVid1/genomic_data/pacbio/m54158_170901_161131.subreads.bam

@@ -19,6 +19,10 @@ while (<STDIN>) {
         my $suf = "XXX";  #  Rest of the name label
         my $typ = "XXX";  #  Type of this assembly (pri alt mat pat)
 
+        #  Fix mistakes.
+
+        if (($acc eq "GCA_022578405.1") && ($lab eq "fEmbJac1.0.p"))   { $lab = "fEmbJac1.0.a"; }
+
         #  Fix up obvious mistakes in the name.
 
         if ($lab =~ m/^g(adMor.*)$/)       { $lab = "fG$1"; }
@@ -35,9 +39,10 @@ while (<STDIN>) {
 
         #  Find the name and suffix, or emit a dire warning.
 
-        if ($lab =~ m/^([a-z][A-Z][a-z][a-z][a-zA-Z][A-Za-z][A-Za-z][0-9])(.*)$/) {
-            $nam = $1;  #  matches fAaaAaa or fAaaaAa
+        if      ($lab =~ m/^([a-z]+[A-Z][a-z]+[A-Z][a-z]+[0-9]+)(.*)$/) {
+            $nam = $1;
             $suf = $2;
+        } elsif ($lab =~ m/^ASM/) {
         } else {
             printf STDERR "WARN: %-15s %-10s %-6s lab %-18s dsc %s\n", $acc, $nam, $typ, $lab, $dsc;
             next;
@@ -53,6 +58,12 @@ while (<STDIN>) {
 
         elsif ($suf =~ m/mat/)          { $typ = "mat"; }
         elsif ($suf =~ m/pat/)          { $typ = "pat"; }
+
+        elsif ($suf =~ m/\.p$/)         { $typ = "pri"; }
+        elsif ($suf =~ m/\.a$/)         { $typ = "alt"; }
+
+        #elsif ($suf =~ m/mat/)          { $typ = "mat"; }
+        #elsif ($suf =~ m/pat/)          { $typ = "pat"; }
 
         #  If not decided, use the description.
         #

@@ -8,6 +8,7 @@
      3865209075               0      3865209075      5769376742        57122542  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/arima/mRouAeg1_ILKL1RAS13L005PHASE_R2.fastq.gz
      4176350768               0      4176350768      6029675861        59699761  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/arima/mRouAeg1_ILKL1RAS1L007PHASE_R1.fastq.gz
      4347083427               0      2147483648      6019516581        59599174  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/arima/mRouAeg1_ILKL1RAS1L007PHASE_R2.fastq.gz
+              0               0               0       579220374            1586  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/bionano/mRouAeg1_Saphyr_DLE1_2086340
      4160213906               0      4160213906      2232333712          216571  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/pacbio/m54062_171118_122811.subreads.bam
      7686001334               0      2147483648      4030549407          464814  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/pacbio/m54142_180213_004424.subreads.bam
     10106650037               0      2147483648      5267807884          521017  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/pacbio/m54144_180111_181037.subreads.bam

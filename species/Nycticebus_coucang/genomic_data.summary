@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     75712035378               0      2147483648    146344847968       969171213  species/Nycticebus_coucang/mNycCou1/genomic_data/arima/mNycCou1_S1_L001_R1_001.fastq.gz
     81533498883               0      2147483648    146465352519       969969259  species/Nycticebus_coucang/mNycCou1/genomic_data/arima/mNycCou1_S1_L001_R2_001.fastq.gz
+              0               0               0      3345924747             462  species/Nycticebus_coucang/mNycCou1/genomic_data/bionano/mNycCou1_Saphyr_DLE1_3683484
     94687451362               0      2147483648    114785243196         7583828  species/Nycticebus_coucang/mNycCou1/genomic_data/pacbio_hifi/m54306Ue_211211_070320.hifi_reads.bam
     21464284765               0      2147483648     26020165411         1719144  species/Nycticebus_coucang/mNycCou1/genomic_data/pacbio_hifi/m54306Ue_211211_070320.hifi_reads.fastq.gz
    212316076042               0      2147483648     81672398620         4879302  species/Nycticebus_coucang/mNycCou1/genomic_data/pacbio_hifi/m54306Ue_211211_070320.reads.bam

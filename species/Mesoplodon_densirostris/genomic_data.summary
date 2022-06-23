@@ -2,6 +2,7 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+              0               0               0      2596298434             444  species/Mesoplodon_densirostris/mMesDen1/genomic_data/bionano/mMesDen1_Saphyr_DLE1_3680724
     67406274815               0      2147483648     81274774333         5079568  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210827_082921.hifi_reads.bam
     15433186721               0      2147483648     18608486694         1163006  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210827_082921.hifi_reads.fastq.gz
     60276472589               0      2147483648     74063220952         4596933  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210911_054708.hifi_reads.bam

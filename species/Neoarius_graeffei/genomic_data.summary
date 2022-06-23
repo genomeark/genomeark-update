@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     92008459121               0      2147483648    187000609439      1246670772  species/Neoarius_graeffei/fNeoGra1/genomic_data/arima/fNeoGra1_Blue_Salmon_Catfish_R1_001.fastq.gz
     95515252916               0      2147483648    189912906772      1266086089  species/Neoarius_graeffei/fNeoGra1/genomic_data/arima/fNeoGra1_Blue_Salmon_Catfish_R2_001.fastq.gz
+              0               0               0      2930831713             610  species/Neoarius_graeffei/fNeoGra1/genomic_data/bionano/fNeoGra1_Saphyr_DLE1_3680747
     55147626213               0      2147483648     61214240095         3570614  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64055e_211026_201650.hifi_reads.bam
     13233472085               0      2147483648     14689244000          856820  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64055e_211026_201650.hifi_reads.fastq.gz
    166079883284               0      2147483648     68689035617         4068852  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64055e_211026_201650.reads.bam

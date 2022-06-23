@@ -5,6 +5,7 @@
      3861814816               0      3861814816      6894662869        45660019  species/Sylvia_borin/bSylBor1/genomic_data/10x/bSylBor1B_1.fastq.gz
      3373816313               0      3373816313      6009698075        39799325  species/Sylvia_borin/bSylBor1/genomic_data/10x/bSylBor1C_2.fastq.gz
      4188852490               0      4188852490      7488623634        49593534  species/Sylvia_borin/bSylBor1/genomic_data/10x/bSylBor1D_1.fastq.gz
+              0               0               0      1204779190             184  species/Sylvia_borin/bSylBor1/genomic_data/bionano/bSylBor1_Saphyr_DLE1_2811439
     18932007907               0      2147483648     10541296598          409489  species/Sylvia_borin/bSylBor1/genomic_data/pacbio/m54158_181101_181421.subreads.bam
     26986326314               0      2147483648     14881232303          660921  species/Sylvia_borin/bSylBor1/genomic_data/pacbio/m54158_181103_171455.subreads.bam
     22284075348               0      2147483648     12325969561          489174  species/Sylvia_borin/bSylBor1/genomic_data/pacbio/m54306_181102_052716.subreads.bam

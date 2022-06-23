@@ -7,6 +7,7 @@
     10153471362               0      2147483648     19574744546       129634074  species/Nyctibius_grandis/bNycGra1/genomic_data/10x/bNycGra1_S4_L001_R1_001.fastq.gz
     31280600965               0      2147483648     58083106244       387220708  species/Nyctibius_grandis/bNycGra1/genomic_data/arima/bNycGra1_S2_L008_R6000138_R1_001.fastq.gz
     32999877255               0      2147483648     55945518973       372970126  species/Nyctibius_grandis/bNycGra1/genomic_data/arima/bNycGra1_S2_L008_R6000138_R2_001.fastq.gz
+              0               0               0      1440612580             153  species/Nyctibius_grandis/bNycGra1/genomic_data/bionano/bNycGra1_Saphyr_DLE1_3494360
     17281962743               0      2147483648      9297364625          679703  species/Nyctibius_grandis/bNycGra1/genomic_data/pacbio/m54158_190627_190520.subreads.bam
     16493573396               0      2147483648      8891808391          618949  species/Nyctibius_grandis/bNycGra1/genomic_data/pacbio/m54158_190628_191737.subreads.bam
     15893741447               0      2147483648      8433540000          700055  species/Nyctibius_grandis/bNycGra1/genomic_data/pacbio/m54159_190710_194606.subreads.bam

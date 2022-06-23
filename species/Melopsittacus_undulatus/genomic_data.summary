@@ -7,6 +7,7 @@
      5833262115               0      2147483648     10621153971        70338770  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/10x/bMelUnd1_S4_L001_R1_001.fastq.gz
     27317773720               0      2147483648     51475114601       343167443  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/arima/bMelUnd1_ARI3_005_USPD16095652_HWNW3CCXY_L7_R1.fastq.gz
     29852918494               0      2147483648     50761290321       338408616  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/arima/bMelUnd1_ARI3_005_USPD16095652_HWNW3CCXY_L7_R2.fastq.gz
+              0               0               0      1225823206             131  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/bionano/bMelUnd1_Saphyr_DLE1_3004850
     13985376418               0      2147483648      7446355451          559022  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/pacbio/m54158_181214_055950.subreads.bam
     16268608628               0      2147483648      8815563779          454607  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/pacbio/m54306_190201_181643.subreads.bam
     17075627655               0      2147483648      9205114654          474328  species/Melopsittacus_undulatus/bMelUnd1/genomic_data/pacbio/m54306_190202_144618.subreads.bam

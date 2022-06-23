@@ -5,6 +5,7 @@
      4621211441               0      2147483648      8667561783        57401071  species/Chelmon_rostratus/fCheRos1/genomic_data/10x/fCheRos1_S1_L001_R1_001.fastq.gz
      8094290340               0      2147483648     15222662790       100812336  species/Chelmon_rostratus/fCheRos1/genomic_data/10x/fCheRos1_S1_L002_R1_001.fastq.gz
      9029201756               0      2147483648     17042203352       112862273  species/Chelmon_rostratus/fCheRos1/genomic_data/10x/fCheRos1_S1_L003_R1_001.fastq.gz
+              0               0               0       856734977             547  species/Chelmon_rostratus/fCheRos1/genomic_data/bionano/fCheRos1_Saphyr_DLE-1
     17223012134               0      2147483648     29282824693       195218831  species/Chelmon_rostratus/fCheRos1/genomic_data/hic/fCheRos1_ARIMA20190923_R1.fastq.gz
     18971043265               0      2147483648     28348578229       188990530  species/Chelmon_rostratus/fCheRos1/genomic_data/hic/fCheRos1_ARIMA20190923_R2.fastq.gz
     17653378877               0      2147483648     26379582035       175863888  species/Chelmon_rostratus/fCheRos1/genomic_data/hic/fCheRos1_ARIMA241114L002R6000142_R2.fastq.gz

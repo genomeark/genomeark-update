@@ -8,6 +8,7 @@
     65018694577               0      2147483648    118626860588       790845767  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/arima/sHemOce1_2423_16_R1_001.fastq.gz
     71477922125               0      2147483648    114036875093       760245867  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/arima/sHemOce1_2423_16_R2_001.fastq.gz
     63389998184               0      2147483648    102379830001       682532200  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/arima/sHemOce1_2423_17_R2_001.fastq.gz
+              0               0               0      4980944565            2006  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/bionano/sHemOce1_Saphyr_DLE1_3680547
    216338202918               0      2147483648    113756391746         5566305  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/pacbio/m54313U_200115_235417.subreads.bam
    208841170764               0      2147483648    108708821430         5786038  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/pacbio/m54313U_200119_144653.subreads.bam
    242796793326               0      2147483648    127620348220         6395073  species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/pacbio/m64055_190930_192559.subreads.bam

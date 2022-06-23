@@ -7,6 +7,7 @@
      3747890289               0      3747890289      7658970811        50721661  species/Apus_apus/bApuApu2/genomic_data/10x/L47186_Track-88956_R1.fastq.gz
     16022172327               0      2147483648     33459148436       221583764  species/Apus_apus/bApuApu2/genomic_data/arima/bApuApu2_hic_R1.fastq.gz
     16609770024               0      2147483648     33820173435       223974666  species/Apus_apus/bApuApu2/genomic_data/arima/bApuApu2_hic_R2.fastq.gz
+              0               0               0      1177045315             125  species/Apus_apus/bApuApu2/genomic_data/bionano/ASM_BAPUAPU_REFINEFINAL1
     86238645229               0      2147483648     45335595248         2351612  species/Apus_apus/bApuApu2/genomic_data/pacbio/m64046_191206_025544.subreads.bam
    130189158957               0      2147483648     68860300324         3157058  species/Apus_apus/bApuApu2/genomic_data/pacbio/m64046_191211_102601.subreads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------

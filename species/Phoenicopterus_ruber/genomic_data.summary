@@ -8,6 +8,7 @@
     31741823891               0      2147483648     61197466768       407983111  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/arima/bPhoRub1_ARI13_4_USPD16090944_HV2CNCCXY_L6_1.clean.fq.gz
     33761976871               0      2147483648     62784079676       418560546  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/arima/bPhoRub1_ARI13_4_USPD16090944_HV2CNCCXY_L6_2.clean.fq.gz
     33609960513               0      2147483648     61310478929       408736526  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/arima/bPhoRub1_ARI13_4_USPD16090944_HV2CNCCXY_L7_2.clean.fq.gz
+              0               0               0      1393020115             212  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/bionano/bPhoRub1_Saphyr_DLE1_1206018
     18128022872               0      2147483648      9755225810          682674  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/pacbio/m54159_180606_204153.subreads.bam
     19284924493               0      2147483648     10403206701          668534  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/pacbio/m54159_180608_062125.subreads.bam
     16701528099               0      2147483648      8973201797          613236  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/pacbio/m54159_180609_130822.subreads.bam

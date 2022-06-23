@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     28640871857               0      2147483648     43466637679       289777597  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/arima/bCorHaw1_S_2476_6_R1_001.fastq.gz
     33818689509               0      2147483648     45169339185       301128927  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/arima/bCorHaw1_S_2476_6_R2_001.fastq.gz
+              0               0               0      1184760547             184  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/bionano/bCorHaw1_Saphyr_DLE1_3680695
      3575635535               0      3575635535      3846721358          241989  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210320_025502.ccs.bam
    162867755266               0      2147483648     83944296643         7411809  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210320_025502.subreads.bam
      8115875887               0      2147483648      4052788512          257068  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210416_211900.Q20.fastq

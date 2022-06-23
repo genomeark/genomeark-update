@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     39753221525               0      2147483648     77786143840       518574310  species/Rissa_tridactyla/bRisTri1/genomic_data/arima/bRisTri1_Black-Legged_Kittiwake_R1.fastq.gz
     40486357527               0      2147483648     77764168073       518427806  species/Rissa_tridactyla/bRisTri1/genomic_data/arima/bRisTri1_Black-Legged_Kittiwake_R2.fastq.gz
+              0               0               0      1301899406             218  species/Rissa_tridactyla/bRisTri1/genomic_data/bionano/bRisTri1_Saphyr_DLE1_3693831
     85657416249               0      2147483648    103561412439         7470340  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64330e_220202_202307.hifi_reads.bam
     19297503105               0      2147483648     23331040855         1682970  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64330e_220202_202307.hifi_reads.fastq.gz
    245472204581               0      2147483648     99014748039         6041919  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64330e_220202_202307.reads.bam

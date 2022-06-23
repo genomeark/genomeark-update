@@ -4,6 +4,8 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     36329645983               0      2147483648     60745306271       404968725  species/Nomonyx_dominicus/bNomDom1/genomic_data/arima/bNomDom1_S_2476_R2_R1_001.fastq.gz
     43951558366               0      2147483648     59903959895       399359753  species/Nomonyx_dominicus/bNomDom1/genomic_data/arima/bNomDom1_S_2476_R2_R2_001.fastq.gz
+              0               0               0      1484039162            1512  species/Nomonyx_dominicus/bNomDom1/genomic_data/bionano/bNomDom1_Saphyr_BspQI_1829061
+              0               0               0      1755339689            2138  species/Nomonyx_dominicus/bNomDom1/genomic_data/bionano/bNomDom1_Saphyr_BssSI_1829062
     26824676899               0      2147483648     54480856249       360800385  species/Nomonyx_dominicus/bNomDom1/genomic_data/illumina/bNomDom1_R1.fastq.gz
     28798707199               0      2147483648     55211837654       365641322  species/Nomonyx_dominicus/bNomDom1/genomic_data/illumina/bNomDom1_R2.fastq.gz
     11622037154               0      2147483648      6252092278          529801  species/Nomonyx_dominicus/bNomDom1/genomic_data/pacbio/m54159_180420_213353.subreads.bam

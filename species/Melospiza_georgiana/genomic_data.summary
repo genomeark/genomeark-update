@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     38880080348               0      2147483648     75688865972       504592439  species/Melospiza_georgiana/bMelGeo1/genomic_data/arima/bMelGeo1_Swamp_Sparrow_R1.fastq.gz
     39860593005               0      2147483648     75787585668       505250589  species/Melospiza_georgiana/bMelGeo1/genomic_data/arima/bMelGeo1_Swamp_Sparrow_R2.fastq.gz
+              0               0               0      1290751942             332  species/Melospiza_georgiana/bMelGeo1/genomic_data/bionano/bMelGeo1_Saphyr_DLE1_3680754
     32242072017               0      2147483648     40287317086         2609127  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m54306Ue_211022_061550.hifi_reads.bam
      7115695475               0      2147483648      8891248668          575824  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m54306Ue_211022_061550.hifi_reads.fastq.gz
    138426097838               0      2147483648     62420978223         3394833  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211010_034013.reads.bam

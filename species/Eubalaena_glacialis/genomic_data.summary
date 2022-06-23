@@ -2,6 +2,7 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+              0               0               0      2488946661             224  species/Eubalaena_glacialis/mEubGla1/genomic_data/bionano/mEubGla1_Saphyr_DLE1_3680770
    113504778284               0      2147483648     52283404337         3985303  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210902_134931.reads.bam
     47865422547               0      2147483648     59978884201         3909147  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210924_183319.hifi_reads.bam
     10592073968               0      2147483648     13272645349          865049  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210924_183319.hifi_reads.fastq.gz

@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     22625314284               0      2147483648     42036010625       278384186  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/arima/bRhyJub1_S18_L004_R1_001.fastq.gz
     23817594370               0      2147483648     42227836698       279654547  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/arima/bRhyJub1_S18_L004_R2_001.fastq.gz
+              0               0               0      1184630372             258  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/bionano/bRhyJub1_Saphyr_DLE1_3696497
     54700320979               0      2147483648     66046195322         4179238  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m54306Ue_211121_044556.hifi_reads.bam
     12275013683               0      2147483648     14821082157          937841  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m54306Ue_211121_044556.hifi_reads.fastq.gz
    186355725880               0      2147483648     81208732490         4698976  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m54306Ue_211121_044556.reads.bam

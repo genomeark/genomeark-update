@@ -5,6 +5,7 @@
     20597716528               0      2147483648     40450244718       269668307  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/10x/mOrnAna1_S1_L004_R1_001.fastq.gz
     22680239024               0      2147483648     49098834115       327325560  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/10x/mOrnAna1_S2_L004_R1_001.fastq.gz
     24981567739               0      2147483648     47674107355       317827394  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/10x/mOrnAna1_S4_L004_R2_001.fastq.gz
+              0               0               0      2246041403             544  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/bionano/mOrnAna1_Saphyr_DLE1_nonhap_ES_sdb
      4788610829               0      2147483648      1233564107          121597  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/pacbio/m160103_032820_sherri_c100974342550000001823228308031690_s1_p0.subreads.bam
      5231547080               0      2147483648      1353575732          117913  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/pacbio/m160103_160314_42175_c100974512550000001823228308031662_s1_p0.subreads.bam
      5854413864               0      2147483648      1502175228          119804  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/pacbio/m160107_043221_42142_c100976892550000001823226008101665_s1_p0.subreads.bam

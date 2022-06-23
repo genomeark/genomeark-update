@@ -8,6 +8,7 @@
      3081958710               0      3081958710      5459825250        36398835  species/Denticeps_clupeoides/fDenClu1/genomic_data/arima/fDenClu1_ARI2_002_USPD16085689-AK5148_HK5YFCCXY_L2_R2.fastq.gz
      2887356529               0      2887356529      5550970950        37006473  species/Denticeps_clupeoides/fDenClu1/genomic_data/arima/fDenClu1_ARI2_002_USPD16085689-AK5148_HK5YFCCXY_L4_R1.fastq.gz
      3064943728               0      3064943728      5550970950        37006473  species/Denticeps_clupeoides/fDenClu1/genomic_data/arima/fDenClu1_ARI2_002_USPD16085689-AK5148_HK5YFCCXY_L4_R2.fastq.gz
+              0               0               0       778613074             370  species/Denticeps_clupeoides/fDenClu1/genomic_data/bionano/fDenClu1_Saphyr_DLE1_1786995
      9544385806               0      2147483648      5078853456          363822  species/Denticeps_clupeoides/fDenClu1/genomic_data/pacbio/m54097_180118_130235.subreads.bam
      6572394786               0      2147483648      3499509969          249679  species/Denticeps_clupeoides/fDenClu1/genomic_data/pacbio/m54097_180118_230902.subreads.bam
     10871926083               0      2147483648      5763493302          414169  species/Denticeps_clupeoides/fDenClu1/genomic_data/pacbio/m54205_180124_143636.subreads.bam

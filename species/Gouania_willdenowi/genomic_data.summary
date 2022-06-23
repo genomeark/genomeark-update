@@ -8,6 +8,8 @@
      4265141107               0      4265141107      7726866000        51512440  species/Gouania_willdenowi/fGouWil2/genomic_data/arima/fGouWil2_ARI4_002_USPD16085689-AK5395_HK5YFCCXY_L2_R2.fastq.gz
      4042809475               0      4042809475      7902924600        52686164  species/Gouania_willdenowi/fGouWil2/genomic_data/arima/fGouWil2_ARI4_002_USPD16085689-AK5395_HK5YFCCXY_L4_R1.fastq.gz
      4257102213               0      4257102213      7899547050        52663647  species/Gouania_willdenowi/fGouWil2/genomic_data/arima/fGouWil2_ARI4_002_USPD16085689-AK5395_HK5YFCCXY_L5_R2.fastq.gz
+              0               0               0      1336136094            1024  species/Gouania_willdenowi/fGouWil2/genomic_data/bionano/fGouWil2_Irys_BspQI
+              0               0               0      1328646454            2331  species/Gouania_willdenowi/fGouWil2/genomic_data/bionano/fGouWil2_Irys_BssSI
      3834219953               0      3834219953      2007879371          191594  species/Gouania_willdenowi/fGouWil2/genomic_data/pacbio/m54097_170511_215307.subreads.bam
      5897035042               0      2147483648      3088863566          270510  species/Gouania_willdenowi/fGouWil2/genomic_data/pacbio/m54097_170513_102422.subreads.bam
      9896112979               0      2147483648      5198423690          411589  species/Gouania_willdenowi/fGouWil2/genomic_data/pacbio/m54097_170519_012134.subreads.bam

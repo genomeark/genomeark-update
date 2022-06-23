@@ -7,6 +7,7 @@
       964816927               0       964816927      1018636816       127329602  species/Sciurus_vulgaris/mSciVul1/genomic_data/10x/mSciVul1_S3_L002_I1_001.fastq.gz
     12837657449               0      2147483648     23741125028       157225999  species/Sciurus_vulgaris/mSciVul1/genomic_data/baylor-hic/mSciVul1_EZ18234_12_S45_L004_R1_001_HIC10997_190823.fastq.gz
     13928760705               0      2147483648     23734560048       157182523  species/Sciurus_vulgaris/mSciVul1/genomic_data/baylor-hic/mSciVul1_EZ18234_12_S45_L004_R2_001_HIC10997_190823.fastq.gz
+              0               0               0      3272573302             574  species/Sciurus_vulgaris/mSciVul1/genomic_data/bionano/mSciVul1_Saphyr_DLE1_1679624
      7964184434               0      2147483648      4182697999          410369  species/Sciurus_vulgaris/mSciVul1/genomic_data/pacbio/m54097_180213_113038.subreads.bam
     11168422465               0      2147483648      5856190190          512373  species/Sciurus_vulgaris/mSciVul1/genomic_data/pacbio/m54205_180212_215559.subreads.bam
     14848427685               0      2147483648      8025933238          603123  species/Sciurus_vulgaris/mSciVul1/genomic_data/pacbio/m54205_180420_132410.subreads.bam

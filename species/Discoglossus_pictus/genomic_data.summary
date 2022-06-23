@@ -7,6 +7,7 @@
     10554917593               0      2147483648     20241577868       134050189  species/Discoglossus_pictus/aDisPic1/genomic_data/10x/aDisPic1_S1_L006_R1_001.fastq.gz
     62690102271               0      2147483648    125170659170       828944791  species/Discoglossus_pictus/aDisPic1/genomic_data/arima/aDisPic1_S001_R001_R1.fastq.gz
     63881268113               0      2147483648    125969983673       834238302  species/Discoglossus_pictus/aDisPic1/genomic_data/arima/aDisPic1_S001_R001_R2.fastq.gz
+              0               0               0      7260393245            2510  species/Discoglossus_pictus/aDisPic1/genomic_data/bionano/aDisPic1_DLE1
    320225704481               0      2147483648    167364405636         8626849  species/Discoglossus_pictus/aDisPic1/genomic_data/pacbio/m54345U_200604_202626.subreads.bam
    325528790792               0      2147483648    169945889117         8682551  species/Discoglossus_pictus/aDisPic1/genomic_data/pacbio/m64046_200608_112806.subreads.bam
    299469371962               0      2147483648    157037766524         7665219  species/Discoglossus_pictus/aDisPic1/genomic_data/pacbio/m64046_200609_111250.subreads.bam

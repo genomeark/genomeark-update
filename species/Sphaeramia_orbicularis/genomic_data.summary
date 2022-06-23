@@ -7,6 +7,7 @@
      7972370325               0      2147483648     11404861049        75528881  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/10x/fSphaOr1_S4_L008_R2_001.fastq.gz
     44353811861               0      2147483648     70507185008       466935020  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/arima/fSphaOr1_27320_1#1_R1.fastq.gz
     47275591331               0      2147483648     71218779009       471647565  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/arima/fSphaOr1_27320_1#1_R2.fastq.gz
+              0               0               0      1486356162             768  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/bionano/fSphaOr1_Saphyr_DLE1
     19920994689               0      2147483648     10775363984          741753  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/pacbio/m54097_180831_021422.subreads.bam
     17373619903               0      2147483648      9391134495          614703  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/pacbio/m54097_180831_225344.subreads.bam
     18768016089               0      2147483648     10139994208          620515  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/pacbio/m54205_180826_203636.subreads.bam

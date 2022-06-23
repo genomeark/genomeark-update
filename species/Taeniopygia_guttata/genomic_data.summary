@@ -4,6 +4,8 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
      3737906589               0      3737906589      6270157800        41801052  species/Taeniopygia_guttata/bTaeGut1/genomic_data/10x/bTaeGut1_S1_L004_R1_001.fastq.gz
      4189782279               0      4189782279      6245590950        41637273  species/Taeniopygia_guttata/bTaeGut1/genomic_data/10x/bTaeGut1_S1_L006_R2_001.fastq.gz
+              0               0               0      1586503005            3097  species/Taeniopygia_guttata/bTaeGut1/genomic_data/bionano/bTaeGut1_Irys_BspQI
+              0               0               0      1271364544            2348  species/Taeniopygia_guttata/bTaeGut1/genomic_data/bionano/bTaeGut1_Irys_BssSI
      4444902101               0      2147483648      1140262121          115311  species/Taeniopygia_guttata/bTaeGut1/genomic_data/pacbio/m151224_192501_42161_c100974732550000001823228308031683_s1_p0.subreads.bam
      3235637895               0      3235637895       836297792           88392  species/Taeniopygia_guttata/bTaeGut1/genomic_data/pacbio/m151226_051845_42142_c100974802550000001823228308031680_s1_p0.subreads.bam
      3662922946               0      3662922946       959841186           94286  species/Taeniopygia_guttata/bTaeGut1/genomic_data/pacbio/m160428_135118_42142_c100995642550000001823227909161632_s1_p0.subreads.bam
@@ -11,6 +13,9 @@
      2720749421               0      2720749421      5358024300        35720162  species/Taeniopygia_guttata/bTaeGut2/genomic_data/arima/bTaeGut2_ARI8_001_USPD16084394-AK5146_HJFMFCCXY_L1_R1.fq.gz
      3019017876               0      3019017876      5358024300        35720162  species/Taeniopygia_guttata/bTaeGut2/genomic_data/arima/bTaeGut2_ARI8_001_USPD16084394-AK5146_HJFMFCCXY_L1_R2.fq.gz
      2986772936               0      2986772936      5414704650        36098031  species/Taeniopygia_guttata/bTaeGut2/genomic_data/arima/bTaeGut2_ARI8_001_USPD16084394-AK5146_HJFMFCCXY_L7_R2.fq.gz
+              0               0               0      1332364498            1732  species/Taeniopygia_guttata/bTaeGut2/genomic_data/bionano/bTaeGut2_Saphyr_BspQI_1476633
+              0               0               0      1803559832            1569  species/Taeniopygia_guttata/bTaeGut2/genomic_data/bionano/bTaeGut2_Saphyr_BssSI_1461472
+              0               0               0      1212872823             123  species/Taeniopygia_guttata/bTaeGut2/genomic_data/bionano/bTaeGut2_Saphyr_DLE1_3172351
     86597161418               0      2147483648     44512904710         3841838  species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio_hifi/m54306U_191024_183731.subreads.bam
      4108451210               0      2147483648      5026446759          351387  species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio_hifi/m54306U_210519_154448.hifi_reads.bam
      4349839569               0      2147483648      5321771122          372033  species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio_hifi/m54306U_210519_154448.hifi_reads.fastq.gz

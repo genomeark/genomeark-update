@@ -8,6 +8,7 @@
      6487869467               0      2147483648     12332661261        82217741  species/Streptopelia_turtur/bStrTur1/genomic_data/arima/bStrTur1_ARI9_002_USPD16085689-AK4937_HK5YFCCXY_L2_R2.fastq.gz
      6113427057               0      2147483648     12621474505        84143166  species/Streptopelia_turtur/bStrTur1/genomic_data/arima/bStrTur1_ARI9_002_USPD16085689-AK4937_HK5YFCCXY_L4_R1.fastq.gz
      6462891809               0      2147483648     12821664371        85477765  species/Streptopelia_turtur/bStrTur1/genomic_data/arima/bStrTur1_ARI9_002_USPD16085689-AK4937_HK5YFCCXY_L4_R2.fastq.gz
+              0               0               0      1078302598             259  species/Streptopelia_turtur/bStrTur1/genomic_data/bionano/bStrTur1_Saphyr_DLE1
      6592201735               0      2147483648      3514241532          279913  species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/m54097_180106_071514.subreads.bam
      7878207243               0      2147483648      4190686141          304884  species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/m54205_171223_094323.subreads.bam
      4674750419               0      2147483648      2486376428          174598  species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/m54205_171225_022220.subreads.bam

@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     49617290373               0      2147483648     92236226781       610835962  species/Malaclemys_terrapin/rMalTer1/genomic_data/arima/rMalTer1_S3_L001_R1_001.fastq.gz
     51374375913               0      2147483648     92826218159       614743190  species/Malaclemys_terrapin/rMalTer1/genomic_data/arima/rMalTer1_S3_L001_R2_001.fastq.gz
+              0               0               0      2265702108             226  species/Malaclemys_terrapin/rMalTer1/genomic_data/bionano/rMalTer1_Saphyr_DLE1_3690537
     23049371308               0      2147483648     27862303645         1705730  species/Malaclemys_terrapin/rMalTer1/genomic_data/pacbio_hifi/m64055e_220429_090631.demultiplex.bc1011--bc1011.hifi_reads.fastq.gz
     24272775448               0      2147483648     29229814099         1810768  species/Malaclemys_terrapin/rMalTer1/genomic_data/pacbio_hifi/m64330e_220320_051323.demultiplex.bc1022--bc1022.hifi_reads.fastq.gz
     13629318069               0      2147483648     15681063689          921640  species/Malaclemys_terrapin/rMalTer1/genomic_data/pacbio_hifi/m64334e_220408_155659.demultiplex.bc1011--bc1011.hifi_reads.fastq.gz

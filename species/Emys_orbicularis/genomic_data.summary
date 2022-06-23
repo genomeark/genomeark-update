@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     70457400468               0      2147483648    138405770145       922705167  species/Emys_orbicularis/rEmyOrb1/genomic_data/arima/rEmyOrb1_European_Pond_Turtle_R1_001.fastq.gz
     71708705787               0      2147483648    139780884449       931872562  species/Emys_orbicularis/rEmyOrb1/genomic_data/arima/rEmyOrb1_European_Pond_Turtle_R2_001.fastq.gz
+              0               0               0      2418698331             287  species/Emys_orbicularis/rEmyOrb1/genomic_data/bionano/rEmyOrb1_Saphyr_DLE1_3680774
    489435565638               0      2147483648    258906445577        18960844  species/Emys_orbicularis/rEmyOrb1/genomic_data/pacbio_hifi/m54306U_210531_075527.subreads.bam
     13764404391               0      2147483648     16214498623         1030014  species/Emys_orbicularis/rEmyOrb1/genomic_data/pacbio_hifi/m54306U_210603_215130.hifi_reads.bam
     49481808339               0      2147483648     58179760594         3970095  species/Emys_orbicularis/rEmyOrb1/genomic_data/pacbio_hifi/m54306Ue_211004_142258.hifi_reads.bam

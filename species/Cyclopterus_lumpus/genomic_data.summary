@@ -7,6 +7,7 @@
      1574460826               0      1574460826      3027583975        20050225  species/Cyclopterus_lumpus/fCycLum1/genomic_data/10x/fCycLum1_S5_L001_R1_001.fastq.gz
     28563801468               0      2147483648     45851114212       305674108  species/Cyclopterus_lumpus/fCycLum1/genomic_data/arima/fCycLum1_S3_L006_R1_001.fastq.gz
     31886225769               0      2147483648     45570708768       303804739  species/Cyclopterus_lumpus/fCycLum1/genomic_data/arima/fCycLum1_S3_L006_R2_001.fastq.gz
+              0               0               0       688009884              60  species/Cyclopterus_lumpus/fCycLum1/genomic_data/bionano/fCycLum1_Saphyr_DLE1_2857689
     20871602430               0      2147483648     11219662571          689978  species/Cyclopterus_lumpus/fCycLum1/genomic_data/pacbio/m54307_190801_190609.subreads.bam
     20597505564               0      2147483648     11062168168          667930  species/Cyclopterus_lumpus/fCycLum1/genomic_data/pacbio/m54307_190802_052026.subreads.bam
     20549982644               0      2147483648     11044442339          627901  species/Cyclopterus_lumpus/fCycLum1/genomic_data/pacbio/m54307_190802_210451.subreads.bam

@@ -5,6 +5,7 @@
       283110241               0       283110241       316440032        39555004  species/Archocentrus_centrarchus/fArcCen1/genomic_data/10x/fArcCen1_S1_L001_I1_001.fastq.gz
      4025922738               0      4025922738      5710975077        37821027  species/Archocentrus_centrarchus/fArcCen1/genomic_data/10x/fArcCen1_S1_L003_R2_001.fastq.gz
      3895346068               0      3895346068      5587087278        37000578  species/Archocentrus_centrarchus/fArcCen1/genomic_data/10x/fArcCen1_S1_L004_R1_001.fastq.gz
+              0               0               0      2310215085            1259  species/Archocentrus_centrarchus/fArcCen1/genomic_data/bionano/fArcCen1_Saphyr_DLE-1
      8381940133               0      2147483648      4509772473          402129  species/Archocentrus_centrarchus/fArcCen1/genomic_data/pacbio/m54062_170809_134833.subreads.bam
      6361830720               0      2147483648      3425675005          326169  species/Archocentrus_centrarchus/fArcCen1/genomic_data/pacbio/m54144_170809_001755.subreads.bam
      9710503952               0      2147483648      5229327949          493564  species/Archocentrus_centrarchus/fArcCen1/genomic_data/pacbio/m54144_170811_141157.subreads.bam

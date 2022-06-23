@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     51294194258               0      2147483648     86017604308       573450719  species/Vipera_latastei/rVipLat1/genomic_data/arima/rVipLat1_S_2476_3_R1_001.fastq.gz
     61577388638               0      2147483648     84762687909       565084586  species/Vipera_latastei/rVipLat1/genomic_data/arima/rVipLat1_S_2476_3_R2_001.fastq.gz
+              0               0               0      2209474951             248  species/Vipera_latastei/rVipLat1/genomic_data/bionano/rVipLat1_Saphyr_DLE1_3680677
      9868957092               0      2147483648     11002530826          622587  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m54306U_210506_190607.hifi_reads.bam
     10453979695               0      2147483648     11654750626          659494  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m54306U_210506_190607.hifi_reads.fastq.gz
    440303891446               0      2147483648    234942395652        14635833  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m54306U_210506_190607.subreads.bam

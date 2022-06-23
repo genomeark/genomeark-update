@@ -5,6 +5,8 @@
     12688794004               0      2147483648     20258466622       134162030  species/Pan_troglodytes/mPanTro1/genomic_data/10x/mPanTro1_S1_L004_R1_001.fastq.gz
       857811121               0       857811121      1096032288       137004036  species/Pan_troglodytes/mPanTro1/genomic_data/10x/mPanTro1_S1_L006_I1_001.fastq.gz
     13894671549               0      2147483648     19964828703       132217415  species/Pan_troglodytes/mPanTro1/genomic_data/10x/mPanTro1_S1_L007_R2_001.fastq.gz
+              0               0               0      3622391252            1698  species/Pan_troglodytes/mPanTro1/genomic_data/bionano/mPanTro1_Saphyr_BspQI_3427147
+              0               0               0      3615238331            2351  species/Pan_troglodytes/mPanTro1/genomic_data/bionano/mPanTro1_Saphyr_BssSI2_3427123
      5355182991               0      2147483648      1402796993          131984  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio/m151008_222009_00118_c100909602550000001823206504301601_s1_p0.subreads.bam
      6045522802               0      2147483648      1557000667          140930  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio/m151024_041606_00118_c100909622550000001823206504301681_s1_p0.subreads.bam
      4236954034               0      4236954034      1098112172           85449  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio/m160116_204135_42134_c100957702550000001823213706151692_s1_p0.subreads.bam

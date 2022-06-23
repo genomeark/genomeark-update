@@ -7,6 +7,7 @@
      3414516018               0      3414516018      6864866794        45462694  species/Pygocentrus_nattereri/fPygNat1/genomic_data/10x/fPygNat1_S1_L007_R1_001.fastq.gz
     28887242643               0      2147483648     48121321699       320808824  species/Pygocentrus_nattereri/fPygNat1/genomic_data/arima/fPygNat1_ARIMA241122L003_R1.fastq.gz
     30568206721               0      2147483648     45722785703       304818585  species/Pygocentrus_nattereri/fPygNat1/genomic_data/arima/fPygNat1_ARIMA241122L003_R2.fastq.gz
+              0               0               0      1312730972             154  species/Pygocentrus_nattereri/fPygNat1/genomic_data/bionano/fPygNat1_Saphyr_DLE-1
     21614881563               0      2147483648     11702296928          773904  species/Pygocentrus_nattereri/fPygNat1/genomic_data/pacbio/m54142_190430_101433.subreads.bam
     22539072622               0      2147483648     12268605949          807361  species/Pygocentrus_nattereri/fPygNat1/genomic_data/pacbio/m54142_190502_210437.subreads.bam
     21214341339               0      2147483648     11485533506          794395  species/Pygocentrus_nattereri/fPygNat1/genomic_data/pacbio/m54144_190508_231823.subreads.bam

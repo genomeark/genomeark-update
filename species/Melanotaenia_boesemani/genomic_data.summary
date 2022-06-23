@@ -7,6 +7,7 @@
      7394574378               0      2147483648     14027714957        92898777  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/10x/fMelBoe1_S1_L004_R1_001.fastq.gz
     27478951222               0      2147483648     53917652292       357070557  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/arima/fMelBoe1_L40350T79217_R1.fastq.gz
     28385817758               0      2147483648     53935348227       357187736  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/arima/fMelBoe1_L40350T79217_R2.fastq.gz
+              0               0               0      1020421699             660  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/bionano/fMelBoe1_Saphyr_DLE-1
     18986386910               0      2147483648     10180439824          696600  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/pacbio/m54062_190812_110622.subreads.bam
     19495209199               0      2147483648     10495343336          718082  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/pacbio/m54062_190812_212107.subreads.bam
     19454244757               0      2147483648     10443967783          715459  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/pacbio/m54062_190814_040810.subreads.bam

@@ -5,6 +5,7 @@
      6555596100               0      2147483648     12338717412        81713363  species/Megalops_cyprinoides/fMegCyp1/genomic_data/10x/fMegCyp1_S1_L001_R1_001.fastq.gz
      5766861364               0      2147483648     10841834189        71800229  species/Megalops_cyprinoides/fMegCyp1/genomic_data/10x/fMegCyp1_S1_L002_R1_001.fastq.gz
      6323860859               0      2147483648     11890356699        78744087  species/Megalops_cyprinoides/fMegCyp1/genomic_data/10x/fMegCyp1_S1_L004_R1_001.fastq.gz
+              0               0               0      1048303274              91  species/Megalops_cyprinoides/fMegCyp1/genomic_data/bionano/fMegCyp1_Saphyr_DLE1
     11866715593               0      2147483648     17598870536       117325809  species/Megalops_cyprinoides/fMegCyp1/genomic_data/hic/fMegCyp1_ARIMA241116L001R6000142_R2.fastq.gz
     15893102392               0      2147483648     26691985252       177946575  species/Megalops_cyprinoides/fMegCyp1/genomic_data/hic/fMegCyp1_ARIMA241116L002R6000142_R1.fastq.gz
     17890795128               0      2147483648     26221895404       174812636  species/Megalops_cyprinoides/fMegCyp1/genomic_data/hic/fMegCyp1_ARIMA241116L002R6000142_R2.fastq.gz

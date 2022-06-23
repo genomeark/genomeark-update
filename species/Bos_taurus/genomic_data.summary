@@ -5,6 +5,7 @@
     16377359416               0      2147483648     29703400571       196711262  species/Bos_taurus/mBosTau1/genomic_data/10x/mBosTau1_S1_L001_R1_001.fastq.gz
     19373027486               0      2147483648     35231044972       233318178  species/Bos_taurus/mBosTau1/genomic_data/10x/mBosTau1_S2_L001_R1_001.fastq.gz
     15414854550               0      2147483648     27876729698       184614111  species/Bos_taurus/mBosTau1/genomic_data/10x/mBosTau1_S4_L001_R1_001.fastq.gz
+              0               0               0      3342738484            1026  species/Bos_taurus/mBosTau1/genomic_data/bionano/mBosTau1_Saphyr_DLE1_nonhap_ES_sdb
      6280717568               0      2147483648      8928191218        59443409  species/Bos_taurus/mBosTau1/genomic_data/illumina/LIB22030_S1_L001_R1_001_06Feb17.fastq.gz
      5727020356               0      2147483648      8018883547        53410755  species/Bos_taurus/mBosTau1/genomic_data/illumina/LIB22030_S1_L002_R2_001_06Feb17.fastq.gz
      8968447946               0      2147483648     13244494127        88080388  species/Bos_taurus/mBosTau1/genomic_data/illumina/LIB23515_S1_L003_R2_001_31Mar17.fastq.gz

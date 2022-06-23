@@ -33,17 +33,23 @@ sub scanDataName ($$$$) {
         $filenames{$$data{"name_"}} = 1;
     }
 
+    #  Save the name of any pacbio_hifi fastq files.
+    if ($filename =~ m!pacbio_hifi/(.*)\.f(ast){0,1}q$!) {
+        $filenames{$1} = 1;
+    }
+}
+
+
+sub saveDataDate ($$) {
+    my $filesecs = shift @_;   #  Input:  upload time of the data file.
+    my $data     = shift @_;   #  In/Out: data for this species.
+
     if ($$data{"last_updated"} < $filesecs) {
         $$data{"last_updated"} = $filesecs;
     }
     if ((! exists($$data{"last_raw_data"})) ||
         ($$data{"last_raw_data"} < $filesecs)) {   #  If this isn't set, Raw Data shows
         $$data{"last_raw_data"} = $filesecs;       #  "No data.".
-    }
-
-    #  Save the name of any pacbio_hifi fastq files.
-    if ($filename =~ m!pacbio_hifi/(.*)\.f(ast){0,1}q$!) {
-        $filenames{$1} = 1;
     }
 }
 
@@ -75,7 +81,6 @@ sub accumulateData ($$$$$$$$) {
         die "failed to parse species name and individual from '$filename'\n";
     }
 
-
     if ($filename =~ m!/genomic_data/10x/!) {
         return if ($filename =~ m/txt$/);
 
@@ -84,6 +89,7 @@ sub accumulateData ($$$$$$$$) {
             $$seqFiles{"10x"} .= $sf;
             $$seqBytes{"10x"} += $sb;
             $$seqIndiv{"10x"} .= $si;
+            saveDataDate($filesecs, $data);
         }
         else {
             push @$errors, "  Unknown 10x file type in '$filename'\n";
@@ -103,6 +109,7 @@ sub accumulateData ($$$$$$$$) {
             $$seqFiles{"arima"} .= $sf;
             $$seqBytes{"arima"} += $sb;
             $$seqIndiv{"arima"} .= $si;
+            saveDataDate($filesecs, $data);
         }
         else {
             push @$errors, "  Unknown arima file type in '$filename'\n";
@@ -118,14 +125,17 @@ sub accumulateData ($$$$$$$$) {
             $$seqFiles{"bionano"} .= $sf;
             $$seqBytes{"bionano"} += $sb;
             $$seqIndiv{"bionano"} .= $si;
+            saveDataDate($filesecs, $data);
         }
         elsif ($filename =~ m/bnx.gz/) {
             $$seqBytes{"bionano"} += $sb;
             $$seqIndiv{"bionano"} .= $si;
+            saveDataDate($filesecs, $data);
         }
         elsif ($filename =~ m/bnx/) {
             $$seqBytes{"bionano"} += $sb;
             $$seqIndiv{"bionano"} .= $si;
+            saveDataDate($filesecs, $data);
         }
         else {
             push @$errors, "  Unknown bionano file type in '$filename'\n";
@@ -141,6 +151,7 @@ sub accumulateData ($$$$$$$$) {
             $$seqFiles{"dovetail"} .= $sf;
             $$seqBytes{"dovetail"} += $sb;
             $$seqIndiv{"dovetail"} .= $si;
+            saveDataDate($filesecs, $data);
         }
         else {
             push @$errors, "  Unknown dovetail file type in '$filename'\n";
@@ -156,6 +167,7 @@ sub accumulateData ($$$$$$$$) {
             $$seqFiles{"illumina"} .= $sf;
             $$seqBytes{"illumina"} += $sb;
             $$seqIndiv{"illumina"} .= $si;
+            saveDataDate($filesecs, $data);
         }
         else {
             push @$errors, "  Unknown illumina file type in '$filename'\n";
@@ -176,6 +188,7 @@ sub accumulateData ($$$$$$$$) {
             $$seqFiles{"ont"} .= $sf;
             $$seqBytes{"ont"} += $sb;
             $$seqIndiv{"ont"} .= $si;
+            saveDataDate($filesecs, $data);
         } else {
             push @$errors, "  Unknown ont file type in '$filename'\n";
         }
@@ -193,6 +206,7 @@ sub accumulateData ($$$$$$$$) {
             $$seqFiles{"ontduplex"} .= $sf;
             $$seqBytes{"ontduplex"} += $sb;
             $$seqIndiv{"ontduplex"} .= $si;
+            saveDataDate($filesecs, $data);
         } else {
             push @$errors, "  Unknown ont_duplex file type in '$filename'\n";
         }
@@ -219,14 +233,17 @@ sub accumulateData ($$$$$$$$) {
         #  Normal CLR data.
         if    ($filename =~ m/subreads.bam\.pbi$/) {
             $$seqBytes{"pacbio"} += $sb;
+            saveDataDate($filesecs, $data);
         }
         elsif ($filename =~ m/subreads.bam\.bai$/) {
             $$seqBytes{"pacbio"} += $sb;
+            saveDataDate($filesecs, $data);
         }
         elsif ($filename =~ m/subreads.bam$/) {
             $$seqFiles{"pacbio"} .= $sf;
             $$seqBytes{"pacbio"} += $sb;
             $$seqIndiv{"pacbio"} .= $si;
+            saveDataDate($filesecs, $data);
         }
 
         else {
@@ -255,6 +272,7 @@ sub accumulateData ($$$$$$$$) {
             $$seqFiles{"pacbiohifi_fqgz"} .= $sf;
             $$seqBytes{"pacbiohifi_fqgz"} += $sb;
             $$seqIndiv{"pacbiohifi_fqgz"} .= $si;
+            saveDataDate($filesecs, $data);
         }
 
         elsif (($filename =~ m/\.hifi_reads\.f(ast){0,1}q$/) ||
@@ -276,6 +294,7 @@ sub accumulateData ($$$$$$$$) {
                ($filename =~ m/\.ccs.bc.*\.bam\.pbi$/) ||
                ($filename =~ m/\.ccs.bc.*\.bam\.bai$/)) {
             $$seqBytes{"pacbiohifi_bam"} += $sb;
+            saveDataDate($filesecs, $data);
         }
 
         elsif (($filename =~ m/\.hifi_reads\.bam$/) ||
@@ -284,6 +303,7 @@ sub accumulateData ($$$$$$$$) {
             $$seqFiles{"pacbiohifi_bam"} .= $sf;
             $$seqBytes{"pacbiohifi_bam"} += $sb;
             $$seqIndiv{"pacbiohifi_bam"} .= $si;
+            saveDataDate($filesecs, $data);
         }
 
         #  Ignore unfiltered data, but warn if there isn't a corresponding fastq for it.
@@ -291,16 +311,19 @@ sub accumulateData ($$$$$$$$) {
         elsif (($filename =~ m/\.subreads\.bam\.pbi$/) ||
                ($filename =~ m/\.reads\.bam\.pbi$/)) {
             $$seqBytes{"pacbiohifi_clr"} += $sb;
+            saveDataDate($filesecs, $data);
         }
         elsif (($filename =~ m/\.subreads\.bam\.bai$/) ||
                ($filename =~ m/\.reads\.bam\.bai$/)) {
             $$seqBytes{"pacbiohifi_clr"} += $sb;
+            saveDataDate($filesecs, $data);
         }
         elsif (($filename =~ m/\.subreads\.bam$/) ||
                ($filename =~ m/\.reads\.bam$/)) {
             $$seqFiles{"pacbiohifi_clr"} .= $sf;
             $$seqBytes{"pacbiohifi_clr"} += $sb;
             $$seqIndiv{"pacbiohifi_clr"} .= $si;
+            saveDataDate($filesecs, $data);
 
             #  Check that this bam has a corresponding fastq file.
             #    Accipiter_gentilis
@@ -329,6 +352,7 @@ sub accumulateData ($$$$$$$$) {
             $$seqFiles{"phase"} .= $sf;
             $$seqBytes{"phase"} += $sb;
             $$seqIndiv{"phase"} .= $si;
+            saveDataDate($filesecs, $data);
         }
         else {
             push @$errors, "  Unknown phase file type in '$filename'\n";

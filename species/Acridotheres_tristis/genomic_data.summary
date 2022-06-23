@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     38308441115               0      2147483648     74615865111       497439118  species/Acridotheres_tristis/bAcrTri1/genomic_data/arima/bAcrTri1_Common_Myna_R1.fastq.gz
     39188809403               0      2147483648     74746865288       498312453  species/Acridotheres_tristis/bAcrTri1/genomic_data/arima/bAcrTri1_Common_Myna_R2.fastq.gz
+              0               0               0      1461867840             852  species/Acridotheres_tristis/bAcrTri1/genomic_data/bionano/bAcrTri1_Saphyr_DLE1_3680711
      7900107182               0      2147483648      3945497513          229044  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210318_204236.Q20.fastq
     13356841514               0      2147483648      6670835630          383305  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210419_095733.Q20.fastq
      5989549845               0      2147483648      6692420944          384803  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210419_095733.ccs.bam

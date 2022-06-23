@@ -8,6 +8,7 @@
     34601865945               0      2147483648     59094485000       393963249  species/Trichosurus_vulpecula/mTriVul1/genomic_data/arima/mTriVul1_ARI17_4_USPD16090948_HTNV3CCXY_L7_2.clean.fq.gz
     28838068850               0      2147483648     51720655185       344804367  species/Trichosurus_vulpecula/mTriVul1/genomic_data/arima/mTriVul1_ARI17_4_USPD16090948_HV3M3CCXY_L4_2.clean.fq.gz
     58836203728               0      2147483648    110105919630       734039491  species/Trichosurus_vulpecula/mTriVul1/genomic_data/arima/mTriVul1_ARI17_4_USPD16090948_R1.fastq.gz
+              0               0               0      3884698488             177  species/Trichosurus_vulpecula/mTriVul1/genomic_data/bionano/mTriVul1_Saphyr_DLE1_2419098
     11470799554               0      2147483648      6174536516          556974  species/Trichosurus_vulpecula/mTriVul1/genomic_data/pacbio/m54158_180704_155126.subreads.bam
     11869292432               0      2147483648      6407543960          549799  species/Trichosurus_vulpecula/mTriVul1/genomic_data/pacbio/m54159_180704_063940.subreads.bam
     10134723989               0      2147483648      5430821354          536759  species/Trichosurus_vulpecula/mTriVul1/genomic_data/pacbio/m54159_180705_132318.subreads.bam

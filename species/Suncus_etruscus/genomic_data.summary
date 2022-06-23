@@ -8,6 +8,7 @@
     14904277961               0      2147483648     20923180663       139487878  species/Suncus_etruscus/mSunEtr1/genomic_data/arima/mSunEtr1_2450_01_L001_R2_001.fastq.gz
     21818329552               0      2147483648     37678226599       251188177  species/Suncus_etruscus/mSunEtr1/genomic_data/arima/mSunEtr1_2450_01_L002_R1_001.fastq.gz
     17712496500               0      2147483648     23194979049       154633201  species/Suncus_etruscus/mSunEtr1/genomic_data/arima/mSunEtr1_2450_01_R2_001.fastq.gz
+              0               0               0      2913448863             272  species/Suncus_etruscus/mSunEtr1/genomic_data/bionano/mSunEtr1_Saphyr_DLE1_3680545
    301044297760               0      2147483648    156138191592         9782086  species/Suncus_etruscus/mSunEtr1/genomic_data/pacbio/m54306U_200307_130101.subreads.bam
    240901419483               0      2147483648    124130764112         8659280  species/Suncus_etruscus/mSunEtr1/genomic_data/pacbio/m54306U_200316_204340.subreads.bam
    285522230863               0      2147483648    149212540358         7792456  species/Suncus_etruscus/mSunEtr1/genomic_data/pacbio/m64055_200704_071621.subreads.bam

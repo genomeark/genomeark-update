@@ -8,6 +8,7 @@
     17515092050               0      2147483648     27882316473       185882117  species/Hemiprocne_comata/bHemCom1/genomic_data/arima/bHemCom1_2423A_15_R2_001.fastq.gz
     21394570436               0      2147483648     38467439645       256449607  species/Hemiprocne_comata/bHemCom1/genomic_data/arima/bHemCom1_2423_15_R1_001.fastq.gz
     23734623240               0      2147483648     37783202889       251888030  species/Hemiprocne_comata/bHemCom1/genomic_data/arima/bHemCom1_2423_15_R2_001.fastq.gz
+              0               0               0      1305490290             183  species/Hemiprocne_comata/bHemCom1/genomic_data/bionano/bHemCom1_Saphyr_DLE1_3535534
     16166269850               0      2147483648      8719683677          655598  species/Hemiprocne_comata/bHemCom1/genomic_data/pacbio/m54159_190815_203435.subreads.bam
     18576324357               0      2147483648      9825739433          806499  species/Hemiprocne_comata/bHemCom1/genomic_data/pacbio/m54159_190817_064908.subreads.bam
     17663893596               0      2147483648      9343270343          778492  species/Hemiprocne_comata/bHemCom1/genomic_data/pacbio/m54159_190819_175947.subreads.bam

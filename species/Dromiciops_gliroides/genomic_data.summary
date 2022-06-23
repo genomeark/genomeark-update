@@ -7,6 +7,7 @@
     15189440347               0      2147483648     28844871454       191025638  species/Dromiciops_gliroides/mDroGli1/genomic_data/10x/mDroGli1_S1_L004_R1_001.fastq.gz
     61782864994               0      2147483648    121730530537       806162482  species/Dromiciops_gliroides/mDroGli1/genomic_data/arima/mDroGli1_L44950_Track-84736_R1.fastq.gz
     64311139572               0      2147483648    122634774251       812150822  species/Dromiciops_gliroides/mDroGli1/genomic_data/arima/mDroGli1_L44950_Track-84736_R2.fastq.gz
+              0               0               0      3361345241             321  species/Dromiciops_gliroides/mDroGli1/genomic_data/bionano/mDroGli1_Saphyr_DLE1
     23632013016               0      2147483648     12966066479          594694  species/Dromiciops_gliroides/mDroGli1/genomic_data/pacbio/m54062_190823_203707.subreads.bam
     23242291372               0      2147483648     12770295390          613471  species/Dromiciops_gliroides/mDroGli1/genomic_data/pacbio/m54144_190823_232336.subreads.bam
    119529991409               0      2147483648     62444778829         3167916  species/Dromiciops_gliroides/mDroGli1/genomic_data/pacbio/m64046_190829_124301.subreads.bam

@@ -7,6 +7,9 @@
     16961818985               0      2147483648     27313522579       182090150  species/Calypte_anna/bCalAnn1/genomic_data/10x/bCalAnn1_S1_L001_R2_001.fastq.gz
     40199544215               0      2147483648     76246793083       508311972  species/Calypte_anna/bCalAnn1/genomic_data/arima/bCalAnn1_A9_USPD16081032_HGCKKALXX_L3_R1.fastq.gz
     45075201126               0      2147483648     76357728648       509051545  species/Calypte_anna/bCalAnn1/genomic_data/arima/bCalAnn1_A9_USPD16081032_HGCKKALXX_L3_R2.fastq.gz
+              0               0               0      2046158582            3313  species/Calypte_anna/bCalAnn1/genomic_data/bionano/bCalAnn1_Irys_BspQI
+              0               0               0      1468551996            1966  species/Calypte_anna/bCalAnn1/genomic_data/bionano/bCalAnn1_Irys_BssSI
+              0               0               0      1241481045             289  species/Calypte_anna/bCalAnn1/genomic_data/bionano/bCalAnn1_Saphyr_DLE1
     17983718384               0      2147483648     29030617519       230401726  species/Calypte_anna/bCalAnn1/genomic_data/dovetail/bCalAnn1_Chicago_CP-484_GGATCA_L008_R1.fastq.gz
      6415954330               0      2147483648     10265708004        67984824  species/Calypte_anna/bCalAnn1/genomic_data/dovetail/bCalAnn1_HiC_160702_SN639_0798_AHT25TBCXX_CT222_S4_R1.fastq.gz
      6725733848               0      2147483648     10257697205        67931772  species/Calypte_anna/bCalAnn1/genomic_data/dovetail/bCalAnn1_HiC_160702_SN639_0798_AHT25TBCXX_CT222_S4_R2.fastq.gz

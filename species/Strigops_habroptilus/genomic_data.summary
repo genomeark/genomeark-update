@@ -7,6 +7,7 @@
      7743129513               0      2147483648     15022429611       100149534  species/Strigops_habroptilus/bStrHab1/genomic_data/10x/bStrHab1_S4_L004_R2_001.fastq.gz
     31127087635               0      2147483648     57749391218       384995955  species/Strigops_habroptilus/bStrHab1/genomic_data/arima/bStrHab1_AR17_001_R1.fastq.gz
     33761950037               0      2147483648     59301684895       395344581  species/Strigops_habroptilus/bStrHab1/genomic_data/arima/bStrHab1_AR17_001_R2.fastq.gz
+              0               0               0      1375004211             218  species/Strigops_habroptilus/bStrHab1/genomic_data/bionano/bStrHab1_Saphyr_DLE1_nonhap_ES_sdb
      3776104831               0      3776104831       960443708          119476  species/Strigops_habroptilus/bStrHab1/genomic_data/pacbio/m151227_043558_42142_c100974642550000001823228308031600_s1_p0.subreads.bam
      3559278623               0      3559278623       891835153          107345  species/Strigops_habroptilus/bStrHab1/genomic_data/pacbio/m151229_004811_42175_c100974302550000001823228308031637_s1_p0.subreads.bam
      2801527776               0      2801527776       729921599           91424  species/Strigops_habroptilus/bStrHab1/genomic_data/pacbio/m160704_023158_42161_c100995512550000001823227909161696_s1_p0.subreads.bam

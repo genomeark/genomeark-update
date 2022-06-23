@@ -8,6 +8,7 @@
     76785111515               0      2147483648    115732978137       771553223  species/Mustela_erminea/mMusErm1/genomic_data/arima/mMusErm1_S13_L006_07_R1_001.fastq.gz
     41021358759               0      2147483648     57498673356       383324508  species/Mustela_erminea/mMusErm1/genomic_data/arima/mMusErm1_S13_L006_R2_001.fastq.gz
     39077772409               0      2147483648     56743650414       378291002  species/Mustela_erminea/mMusErm1/genomic_data/arima/mMusErm1_S13_L007_R2_001.fastq.gz
+              0               0               0      2683980770             128  species/Mustela_erminea/mMusErm1/genomic_data/bionano/mMusErm1_Saphyr_DLE1_2905065
     17346996903               0      2147483648      9447463168          500631  species/Mustela_erminea/mMusErm1/genomic_data/pacbio/m54158_190413_142243.subreads.bam
     18543604100               0      2147483648     10062430186          566717  species/Mustela_erminea/mMusErm1/genomic_data/pacbio/m54158_190430_201854.subreads.bam
     15619696601               0      2147483648      8536343893          445995  species/Mustela_erminea/mMusErm1/genomic_data/pacbio/m54306_190510_175226.subreads.bam

@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     87260080648               0      2147483648    175878641614      1172524318  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/arima/mNeoNeb1_Clouded_Leopard_R1_001.fastq.gz
     91620881235               0      2147483648    178629107849      1190860718  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/arima/mNeoNeb1_Clouded_Leopard_R2_001.fastq.gz
+              0               0               0      2545778646             112  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/bionano/mNeoNeb1_Saphyr_DLE1_3683486
     78783584708               0      2147483648     91739102300         6434182  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.hifi_reads.bam
     18001479743               0      2147483648     20961721884         1470164  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.hifi_reads.fastq.gz
    222016948724               0      2147483648     90306199795         5401953  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.reads.bam

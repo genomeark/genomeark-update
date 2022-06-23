@@ -5,6 +5,7 @@
      7317320782               0      2147483648     12144462703        80426908  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/10x/mPipKuh1_S1_L001_R1_001.fastq.gz
      8431256566               0      2147483648     12098393998        80121818  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/10x/mPipKuh1_S1_L001_R2_001.fastq.gz
      8236004096               0      2147483648     11829289407        78339664  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/10x/mPipKuh1_S1_L002_R2_001.fastq.gz
+              0               0               0      1878363198            1652  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/bionano/mPipKuh1_saphyr_DLE1
      6514859729               0      2147483648      3446243686          481909  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/pacbio/m54062_170517_073400.subreads.bam
      7698957959               0      2147483648      4079973439          423028  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/pacbio/m54142_170611_155332.subreads.bam
      2938224167               0      2938224167      1592065584          169356  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/pacbio/m54144_170608_124806.subreads.bam

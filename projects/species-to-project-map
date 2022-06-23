@@ -1,0 +1,299 @@
+#
+#  This is a mapping of species to project.  Species not listed
+#  here are not associated with a project; they will only be listed
+#  in the 'All Projects' category.
+#
+#  The format is <species-name> <project-name> <project-name> ....
+#  Where <species-name> is the 
+#  Multiple projects are allowed for a single species, either on
+#  the same line or on multiple lines:
+#    Kaiju_godzilla   vgp bgp
+#    Kaiju_godzilla   mgp
+#  will list Godzilla in the Vertebrate, Bri's, and Monster Genome Projects.
+#
+#  Lines with a species name but no project(s) are ignored.
+#
+#
+#  Project definitions are in pseudo-yaml format.  Only letters and digits
+#  are allowed in the project id - no underscores.
+#
+
+vgp:
+ name: Vertebrate Genomes Project
+ url:  https://vertebrategenomesproject.org/
+t2t:
+ name: Telomere-2-Telomere Project
+ url:  https://sites.google.com/ucsc.edu/t2tworkinggroup
+mgp:
+ name: Monster Genome Project
+ url:  
+bri:
+ name: Bri Research Institute
+ url:  
+
+
+Gorilla_gorilla                  t2t
+Pan_paniscus                     t2t bri
+Pan_troglodytes                  t2t bri vgp
+Pongo_abelii                     t2t
+Pongo_pygmaeus                   t2t
+Symphalangus_syndactylus         t2t
+
+Gorilla_gorilla                  bri
+
+Acanthisitta_chloris             vgp
+Accipiter_gentilis               vgp
+Acipenser_naccarii               vgp
+Acipenser_ruthenus               vgp
+Acridotheres_tristis             vgp
+Alca_torda                       vgp
+Alligator_mississippiensis       vgp
+Alosa_sapidissima                vgp
+Amblyraja_radiata                vgp
+Ammodramus_caudacutus            vgp
+Ammodramus_maritimus             vgp
+Ammospiza_nelsoni                vgp
+Amphilophus_citrinellus          vgp
+Amphilophus_labiatus             vgp
+Anabas_testudineus               vgp
+Anableps_anableps                vgp
+Anguilla_anguilla                vgp
+Antennarius_maculatus            vgp
+Aplochiton_taeniatus             vgp
+Apodemus_flavicollis             vgp
+Apodemus_sylvaticus              vgp
+Apus_apus                        vgp
+Aquila_chrysaetos                vgp
+Ara_ararauna                     vgp
+Archocentrus_centrarchus         vgp
+Arvicanthis_niloticus            vgp
+Arvicola_amphibius               vgp
+Ascaphus_truei                   vgp
+Astatotilapia_calliptera         vgp
+Asterias_rubens                  vgp
+Aythya_fuligula                  vgp
+Balaenoptera_musculus            vgp
+Balearica_regulorum              vgp
+Barbus_barbus                    vgp
+Bombina_bombina                  vgp
+Borostomias_antarcticus          vgp
+Bos_taurus                       vgp
+Branta_leucopsis                 vgp
+Bucorvus_abyssinicus             vgp
+Bufo_bufo                        vgp
+Callithrix_jacchus               vgp
+Calonectris_borealis             vgp
+Calypte_anna                     vgp
+Canis_lupus                      vgp
+Canis_lupus_orion                vgp
+Caprimulgus_europaeus            vgp
+Carcharodon_carcharias           vgp
+Cariama_cristata                 vgp
+Castor_fiber                     vgp
+Catharus_ustulatus               vgp
+Cervus_elaphus                   vgp
+Chanos_chanos                    vgp
+Chasiempis_sclateri              vgp
+Chelmon_rostratus                vgp
+Chelonia_mydas                   vgp
+Chionoecetes_opilio              vgp
+Chiroxiphia_lanceolata           vgp
+Choloepus_didactylus             vgp
+Ciconia_maguari                  vgp
+Cinclus_cinclus                  vgp
+Colius_striatus                  vgp
+Copsychus_sechellarum            vgp
+Corvus_hawaiiensis               vgp
+Corvus_moneduloides              vgp
+Cottoperca_gobio                 vgp
+Cuculus_canorus                  vgp
+Cyclopterus_lumpus               vgp
+Cygnus_olor                      vgp
+Cynocephalus_volans              vgp
+Danio_rerio                      vgp
+Dasypus_novemcinctus             vgp
+Dendrocygna_viduata              vgp
+Dendropsophus_ebraccatus         vgp
+Denticeps_clupeoides             vgp
+Dermochelys_coriacea             vgp
+Diceros_bicornis                 vgp
+Discoglossus_pictus              vgp
+Dromiciops_gliroides             vgp
+Dryobates_pubescens              vgp
+Echeneis_naucrates               vgp
+Electrona_antarctica             vgp
+Electrophorus_electricus         vgp
+Elephas_maximus                  vgp
+Emys_orbicularis                 vgp
+Erethizon_dorsatum               vgp
+Erithacus_rubecula               vgp
+Erpetoichthys_calabaricus        vgp
+Erythrolamprus_reginae           vgp
+Eschrichtius_robustus            vgp
+Esox_lucius                      vgp
+Eubalaena_glacialis              vgp
+Euleptes_europaea                vgp
+Falco_biarmicus                  vgp
+Falco_cherrug                    vgp
+Falco_naumanni                   vgp
+Falco_peregrinus                 vgp
+Falco_rusticolus                 vgp
+Fringilla_coelebs                vgp
+Fundulus_diaphanus               vgp
+Gadus_morhua                     vgp
+Gallus_gallus                    vgp
+Gastrophryne_carolinensis        vgp
+Geothlypis_trichas               vgp
+Geotrypetes_seraphini            vgp
+Gopherus_evgoodei                vgp
+Gopherus_flavomarginatus         vgp
+Gorilla_gorilla                  
+Gouania_willdenowi               vgp
+Grus_americana                   vgp
+Gypaetus_barbatus                vgp
+Haemorhous_mexicanus             vgp
+Harpia_harpyja                   vgp
+Hemiprocne_comata                vgp
+Hemiscyllium_ocellatum           vgp
+Heterohyrax_brucei               vgp
+Hippoglossus_hippoglossus        vgp
+Hirundo_rustica                  vgp
+Homo_sapiens                     vgp
+Hoplias_malabaricus              vgp
+Hypanus_sabinus                  vgp
+Hyperolius_riggenbachi           vgp
+Hypomesus_transpacificus         vgp
+Jaculus_jaculus                  vgp
+Lacerta_agilis                   vgp
+Lathamus_discolor                vgp
+Lemur_catta                      vgp
+Leptodactylus_fuscus             vgp
+Liasis_olivaceus                 vgp
+Lipophrys_pholis                 vgp
+Lutra_lutra                      vgp
+Lynx_canadensis                  vgp
+Macropus_eugenii                 vgp
+Malaclemys_terrapin              vgp
+Malacosteus_niger                vgp
+Manis_pentadactyla               vgp
+Mastacembelus_armatus            vgp
+Megalops_cyprinoides             vgp
+Melanotaenia_boesemani           vgp
+Meles_meles                      vgp
+Melopsittacus_undulatus          vgp
+Melospiza_georgiana              vgp
+Melospiza_melodia                vgp
+Merops_nubicus                   vgp
+Mesoplodon_densirostris          vgp
+Microcaecilia_unicolor           vgp
+Molossus_molossus                vgp
+Monodelphis_domestica            vgp
+Mustela_erminea                  vgp
+Myodes_glareolus                 vgp
+Myotis_myotis                    vgp
+Myripristis_murdjan              vgp
+Nansenia_antarctica              vgp
+Neoarius_graeffei                vgp
+Neofelis_nebulosa                vgp
+Nomonyx_dominicus                vgp
+Notolabrus_celidotus             vgp
+Notolepis_coatsi                 vgp
+Nyctibius_grandis                vgp
+Nycticebus_coucang               vgp
+Orcinus_orca                     vgp
+Ornithorhynchus_anatinus         vgp
+Osmerus_mordax                   vgp
+Pan_paniscus                     
+Pan_troglodytes                  
+Pangasianodon_hypophthalmus      vgp
+Parambassis_ranga                vgp
+Passerculus_sandwichensis        vgp
+Pelecanus_crispus                vgp
+Periophthalmus_magnuspinnatus    vgp
+Petromyzon_marinus               vgp
+Phaethon_aethereus               vgp
+Phocoena_sinus                   vgp
+Phoenicopterus_ruber             vgp
+Pholidichthys_leucotaenia        vgp
+Pholis_gunnellus                 vgp
+Phyllostomus_discolor            vgp
+Pipistrellus_kuhlii              vgp
+Pipistrellus_pipistrellus        vgp
+Pluvialis_apricaria              vgp
+Podarcis_raffonei                vgp
+Podargus_strigoides              vgp
+Pogoniulus_pusillus              vgp
+Pongo_abelii                     
+Pongo_pygmaeus                   
+Poromitra_crassiceps             vgp
+Porphyrio_hochstetteri           vgp
+Potamotrygon_marinae             vgp
+Pristis_pectinata                vgp
+Pseudophryne_corroboree          vgp
+Pseudorca_crassidens             vgp
+Pterocles_gutturalis             vgp
+Pygocentrus_nattereri            vgp
+Rana_sylvatica                   vgp
+Rana_temporaria                  vgp
+Rattus_norvegicus                vgp
+Rhea_pennata                     vgp
+Rhinatrema_bivittatum            vgp
+Rhineura_floridana               vgp
+Rhinolophus_ferrumequinum        vgp
+Rhinolophus_sinicus              vgp
+Rhynochetos_jubatus              vgp
+Rissa_tridactyla                 vgp
+Rousettus_aegyptiacus            vgp
+Saccoglossus_kowalevskii         vgp
+Salarias_fasciatus               vgp
+Salmo_trutta                     vgp
+Scatophagus_argus                vgp
+Sciurus_carolinensis             vgp
+Sciurus_vulgaris                 vgp
+Scleropages_formosus             vgp
+Scomber_japonicus                vgp
+Scyliorhinus_canicula            vgp
+Sebastes_umbrosus                vgp
+Sitta_carolinensis               vgp
+Sorex_araneus                    vgp
+Sparus_aurata                    vgp
+Spatula_cyanoptera               vgp
+Spea_bombifrons                  vgp
+Sphaeramia_orbicularis           vgp
+Spheniscus_humboldti             vgp
+Spirinchus_thaleichthys          vgp
+Sterna_hirundo                   vgp
+Stomias_boa                      vgp
+Streptopelia_turtur              vgp
+Strigops_habroptilus             vgp
+Sturnus_vulgaris                 vgp
+Suncus_etruscus                  vgp
+Sylvia_atricapilla               vgp
+Sylvia_borin                     vgp
+Symphalangus_syndactylus         
+Syngnathus_acus                  vgp
+Tachyglossus_aculeatus           vgp
+Taeniopygia_guttata              vgp
+Takifugu_rubripes                vgp
+Tamandua_tetradactyla            vgp
+Tauraco_erythrolophus            vgp
+Taurulus_bubalis                 vgp
+Tautogolabrus_adspersus          vgp
+Telmatherina_bonti               vgp
+Thalassophryne_amazonica         vgp
+Thamnophis_elegans               vgp
+Theristicus_caerulescens         vgp
+Thunnus_albacares                vgp
+Thunnus_maccoyii                 vgp
+Todiramphus_cinnamominus         vgp
+Toxotes_jaculatrix               vgp
+Trachurus_trachurus              vgp
+Trichosurus_vulpecula            vgp
+Trogon_surrucura                 vgp
+Turdus_merula                    vgp
+Tursiops_truncatus               vgp
+Vidua_chalybeata                 vgp
+Vipera_latastei                  vgp
+Xenentodon_cancila               vgp
+Zalophus_californianus           vgp
+Zeus_faber                       vgp

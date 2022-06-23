@@ -8,6 +8,7 @@
      6282624123               0      2147483648     12134768644        80898460  species/Pristis_pectinata/sPriPec2/genomic_data/arima/sPriPec2_ARI5_005_USPD16095654_HWLVLCCXY_L5_R1.fastq.gz
      9334772458               0      2147483648     16042679970       106951204  species/Pristis_pectinata/sPriPec2/genomic_data/arima/sPriPec2_ARI5_005_USPD16095654_HWNW3CCXY_L7_R2.fastq.gz
      2205174592               0      2205174592      3417885150        22785901  species/Pristis_pectinata/sPriPec2/genomic_data/arima/sPriPec2_ARI5_005_USPD16095654_HY5FTCCXY_L2_R2.fastq.gz
+              0               0               0      2435566156             187  species/Pristis_pectinata/sPriPec2/genomic_data/bionano/sPriPec2_Saphyr_DLE1_2549951
     20357927991               0      2147483648     11090960477          716035  species/Pristis_pectinata/sPriPec2/genomic_data/pacbio/m54159_181120_212118.subreads.bam
     18609401721               0      2147483648     10172809266          605860  species/Pristis_pectinata/sPriPec2/genomic_data/pacbio/m54159_181202_132735.subreads.bam
     17254318589               0      2147483648      9335881556          598791  species/Pristis_pectinata/sPriPec2/genomic_data/pacbio/m54159_181208_002540.subreads.bam

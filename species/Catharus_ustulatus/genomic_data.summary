@@ -7,6 +7,7 @@
     11037861144               0      2147483648     20281286509       134313160  species/Catharus_ustulatus/bCatUst1/genomic_data/10x/bCatUst1_S4_L001_R1_001.fastq.gz
     33186312112               0      2147483648     55435408094       369569402  species/Catharus_ustulatus/bCatUst1/genomic_data/arima/bCatUst1_ARI1_005_R1.fastq.gz
     38690999323               0      2147483648     53329978789       355533209  species/Catharus_ustulatus/bCatUst1/genomic_data/arima/bCatUst1_ARI1_005_R2.fastq.gz
+              0               0               0      1451389759             233  species/Catharus_ustulatus/bCatUst1/genomic_data/bionano/bCatUst1_Saphyr_DLE1_2364559
     19344940956               0      2147483648     10449708912          525339  species/Catharus_ustulatus/bCatUst1/genomic_data/pacbio/m54159_181108_213941.subreads.bam
     19950904005               0      2147483648     10854666766          583239  species/Catharus_ustulatus/bCatUst1/genomic_data/pacbio/m54159_181110_185902.subreads.bam
     18267847992               0      2147483648      9911937260          540153  species/Catharus_ustulatus/bCatUst1/genomic_data/pacbio/m54159_181111_051224.subreads.bam

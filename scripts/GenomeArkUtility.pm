@@ -19,7 +19,7 @@ sub prettifySize ($) {
     my $n = int(shift @_);
     my @p = ( 0, 1<<10, 1<<20, 1<<30, 1<<40 );
 
-    printf "%d %d %d %d %d  ", $n, $p[1], $n / $p[1], $n % $p[1], $p[1] / 2;
+    die "prettifySize undefined input.\n"  if (!defined($n));
 
     if    ($n < $p[1] - $p[0]) { return(sprintf("1 KiB")) }
     elsif ($n < $p[2] - $p[1]) { return(sprintf("%.0f KiB", ($n/$p[1]))) }  # + (($n % $p[1]) >= ($p[1]/2)))); }
@@ -44,10 +44,12 @@ sub prettifySize ($) {
 sub prettifyBases ($) {
     my $n = shift @_;
 
+    die "prettifyBases undefined input.\n"  if (!defined($n));
+
     if (!defined($n)) { return(undef); }   #  Unset genome size.
     if ($n eq "-")    { return("$n");  }   #  Empty row in N50 table.
-    if ($n eq "")     { return(undef); }   #  Supplied but unset genome size in yaml.
-    if ($n == 0)      { return(undef); }   #  Zero genome size.
+    if ($n eq "")     { return(""); }      #  Supplied but unset genome size in yaml.
+    if ($n == 0)      { return(""); }      #  Zero genome size.
 
     if    ($n <      1000) { return("$n  bp");                                              }
     elsif ($n <    499995) { return(sprintf("%.2f Kbp", int($n /       10 + 0.5) / 100.0)); }

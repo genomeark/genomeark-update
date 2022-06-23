@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     73571808762               0      2147483648    137930521130       913447194  species/Elephas_maximus/mEleMax1/genomic_data/arima/mEleMax1_S9_L003_R1_001.fastq.gz
     76216813768               0      2147483648    140334857630       929369953  species/Elephas_maximus/mEleMax1/genomic_data/arima/mEleMax1_S9_L003_R2_001.fastq.gz
+              0               0               0      3410635585             346  species/Elephas_maximus/mEleMax1/genomic_data/bionano/mEleMax1_Saphyr_DLE1_3680720
    292986215473               0      2147483648    151638187048        10669418  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m54306U_210321_092024.subreads.bam
     10406387720               0      2147483648      5195019726          412706  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m54306U_210421_201740.Q20.fastq
    196462584768               0      2147483648    101339456787         9660635  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m54306U_210421_201740.subreads.bam

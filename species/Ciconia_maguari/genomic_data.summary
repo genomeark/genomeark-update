@@ -7,6 +7,7 @@
     40831407479               0      2147483648     75178010084       497867635  species/Ciconia_maguari/bCicMag1/genomic_data/10x/bCicMag1_S3_L001_R2_001.fastq.gz
     33070238731               0      2147483648     57590154936       383934366  species/Ciconia_maguari/bCicMag1/genomic_data/arima/bCicMag1_2423_20_R1_001.fastq.gz
     36987320207               0      2147483648     56995028444       379966873  species/Ciconia_maguari/bCicMag1/genomic_data/arima/bCicMag1_2423_20_R2_001.fastq.gz
+              0               0               0      1402358657             128  species/Ciconia_maguari/bCicMag1/genomic_data/bionano/bCicMag1_Saphyr_DLE1_3383041
      7232477860               0      2147483648      3873677290          306123  species/Ciconia_maguari/bCicMag1/genomic_data/pacbio/m54159_190823_191602.subreads.bam
      8230869223               0      2147483648      4405576298          345446  species/Ciconia_maguari/bCicMag1/genomic_data/pacbio/m54159_190824_053044.subreads.bam
      7746191371               0      2147483648      4074297744          412367  species/Ciconia_maguari/bCicMag1/genomic_data/pacbio/m54159_190827_055332.subreads.bam

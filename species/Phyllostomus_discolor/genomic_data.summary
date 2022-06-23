@@ -8,6 +8,8 @@
      6309203660               0      2147483648     11551617313        77010785  species/Phyllostomus_discolor/mPhyDis1/genomic_data/arima/mPhyDis1_ARI6_001_USPD16084394-AK5157_HJFMFCCXY_L5_R2.fq.gz
      5690710971               0      2147483648     11400801919        76005348  species/Phyllostomus_discolor/mPhyDis1/genomic_data/arima/mPhyDis1_ARI6_001_USPD16084394-AK5157_HJFMFCCXY_L8_R1.fq.gz
      5772741478               0      2147483648      9290437279        61936248  species/Phyllostomus_discolor/mPhyDis1/genomic_data/arima/mPhyDis1_ARI6_001_USPD16084394-AK5157_HJFMMCCXY_L6_R2.fq.gz
+              0               0               0      2442797613            1622  species/Phyllostomus_discolor/mPhyDis1/genomic_data/bionano/mPhyDis1_Saphyr_BspQI
+              0               0               0      1833661794            2185  species/Phyllostomus_discolor/mPhyDis1/genomic_data/bionano/mPhyDis1_Saphyr_BssSI
     10608449261               0      2147483648      5527836433          601779  species/Phyllostomus_discolor/mPhyDis1/genomic_data/pacbio/m54158_170428_171627.subreads.bam
      3909082742               0      3909082742      2020382502          282386  species/Phyllostomus_discolor/mPhyDis1/genomic_data/pacbio/m54158_171115_035626.subreads.bam
      8375410908               0      2147483648      4339343007          535258  species/Phyllostomus_discolor/mPhyDis1/genomic_data/pacbio/m54158_171214_222641.subreads.bam

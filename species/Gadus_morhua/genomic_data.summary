@@ -8,6 +8,7 @@
      9680115558               0      2147483648     13108177810        86809129  species/Gadus_morhua/fGadMor1/genomic_data/arima/fGadMor1_H2LK5BBXY_01-Cod-Heart-HiC_AGTTCAGG-TCTGTTGG_L004_R2.fastq.gz
      9028059539               0      2147483648     14074921275        93211399  species/Gadus_morhua/fGadMor1/genomic_data/arima/fGadMor1_H2LK5BBXY_02-Cod-Gills-HiC_AGTTCAGG-TCTGTTGG_L004_R1.fastq.gz
     10281522452               0      2147483648     14107375490        93426332  species/Gadus_morhua/fGadMor1/genomic_data/arima/fGadMor1_H2LK5BBXY_02-Cod-Gills-HiC_AGTTCAGG-TCTGTTGG_L004_R2.fastq.gz
+              0               0               0       861031664             466  species/Gadus_morhua/fGadMor1/genomic_data/bionano/fGadMor1_Saphyr_DLE1
      3799393862               0      3799393862       949046501          130793  species/Gadus_morhua/fGadMor1/genomic_data/pacbio/m150604_123314_42174_c100804202550000001823179410081580_s1_p0.subreads.bam
      5673356572               0      2147483648      1419556930          172003  species/Gadus_morhua/fGadMor1/genomic_data/pacbio/m170922_210044_42174_c101209982550000001823287310171701_s1_p0.subreads.bam
      2213312528               0      2213312528      1130472709          183957  species/Gadus_morhua/fGadMor1/genomic_data/pacbio/m54047_170619_161440.subreads.bam

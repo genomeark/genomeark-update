@@ -7,6 +7,7 @@
      3849444703               0      3849444703      7658318491        50717341  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/10x/fPerMag1_S4_L001_R1_001.fastq.gz
     29443456227               0      2147483648     48428968989       322859793  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/arima/fPerMag1_S7_L006_R1_001.fastq.gz
     32317042541               0      2147483648     48190226276       321268190  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/arima/fPerMag1_S7_L006_R2_001.fastq.gz
+              0               0               0       970846933             197  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/bionano/fPerMag1_Saphyr_DLE1_2746589
     19880111025               0      2147483648     10658282124          808522  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/pacbio/m54158_190415_200612.subreads.bam
     12250868739               0      2147483648      6480932317          645806  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/pacbio/m54158_190426_025536.subreads.bam
     22285402386               0      2147483648     11996667503          871913  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/pacbio/m54158_190427_050111.subreads.bam

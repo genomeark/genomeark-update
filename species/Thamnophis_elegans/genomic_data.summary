@@ -5,6 +5,7 @@
      4685329449               0      2147483648      5308054623       663506830  species/Thamnophis_elegans/rThaEle1/genomic_data/10x/ThaEle1_S8_L001_I1_001.fastq.gz
     53298569741               0      2147483648     99143242478       660954974  species/Thamnophis_elegans/rThaEle1/genomic_data/10x/ThaEle1_S8_L001_R1_001.fastq.gz
     53979461892               0      2147483648     99822088330       665480588  species/Thamnophis_elegans/rThaEle1/genomic_data/10x/ThaEle1_S8_L001_R2_001.fastq.gz
+              0               0               0      2995745559             785  species/Thamnophis_elegans/rThaEle1/genomic_data/bionano/rThaEle1_Saphyr_DLE1_2086342
     38115355054               0      2147483648     65454347889       436362337  species/Thamnophis_elegans/rThaEle1/genomic_data/dovetail/concatenated-rThaEle1_DTG-HiC-643_R1_001.fastq.gz
     10549182252               0      2147483648     16921047141       112806985  species/Thamnophis_elegans/rThaEle1/genomic_data/dovetail/rThaEle1_DTG-HiC-643_R2_001.fastq.gz
     30710848702               0      2147483648     47897110885       319314072  species/Thamnophis_elegans/rThaEle1/genomic_data/dovetail/rThaEle1_DTG-HiC-644_R2_001.fastq.gz

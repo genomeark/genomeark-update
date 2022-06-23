@@ -7,6 +7,7 @@
     19442776074               0      2147483648     36056251817       240375021  species/Cygnus_olor/bCygOlo1/genomic_data/10x/bCygOlo1_S2_L001_R2_001.fastq.gz
     32685273493               0      2147483648     47839509210       318930061  species/Cygnus_olor/bCygOlo1/genomic_data/arima/bCygOlo1_S11_L006_R1_001.fastq.gz
     33902867110               0      2147483648     48934417247       326229464  species/Cygnus_olor/bCygOlo1/genomic_data/arima/bCygOlo1_S11_L006_R2_001.fastq.gz
+              0               0               0      1253510530             200  species/Cygnus_olor/bCygOlo1/genomic_data/bionano/bCygOlo1_Saphyr_DLE1_1904824
     12525317242               0      2147483648      6739581253          555521  species/Cygnus_olor/bCygOlo1/genomic_data/pacbio/m54159_180907_213915.subreads.bam
     11794297590               0      2147483648      6298292282          574264  species/Cygnus_olor/bCygOlo1/genomic_data/pacbio/m54159_180912_050519.subreads.bam
     11468715795               0      2147483648      6104447084          559437  species/Cygnus_olor/bCygOlo1/genomic_data/pacbio/m54159_180913_115457.subreads.bam

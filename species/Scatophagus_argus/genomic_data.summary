@@ -7,6 +7,7 @@
      4702260777               0      2147483648      8772224801        58094206  species/Scatophagus_argus/fScaArg1/genomic_data/10x/fScaArg1_S1_L003_R2_001.fastq.gz
     41477084473               0      2147483648     72503129232       483354194  species/Scatophagus_argus/fScaArg1/genomic_data/arima/fScaArg1_241129L002_R1.fastq.gz
     42245423358               0      2147483648     65224888704       434832591  species/Scatophagus_argus/fScaArg1/genomic_data/arima/fScaArg1_241129L002_R2.fastq.gz
+              0               0               0       661781352              75  species/Scatophagus_argus/fScaArg1/genomic_data/bionano/fScaArg1_Saphyr_DLE1
     15404962388               0      2147483648      8144575324          863028  species/Scatophagus_argus/fScaArg1/genomic_data/pacbio/m54144_190823_130933.subreads.bam
     15789366985               0      2147483648      8359339735          897048  species/Scatophagus_argus/fScaArg1/genomic_data/pacbio/m54144_190827_100345.subreads.bam
     17006881591               0      2147483648      9009852027          929608  species/Scatophagus_argus/fScaArg1/genomic_data/pacbio/m54144_190902_164057.subreads.bam

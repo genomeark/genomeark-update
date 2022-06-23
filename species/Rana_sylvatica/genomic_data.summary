@@ -5,6 +5,10 @@
     83359348731               0      2147483648    160481078696      1069873857  species/Rana_sylvatica/aRanSyl1/genomic_data/arima/aRanSyl1_Wood_Frog1_R1.fastq.gz
     85287613468               0      2147483648    159807475681      1065383171  species/Rana_sylvatica/aRanSyl1/genomic_data/arima/aRanSyl1_Wood_Frog1_R2.fastq.gz
     83166301126               0      2147483648    154216870513      1028112470  species/Rana_sylvatica/aRanSyl1/genomic_data/arima/aRanSyl1_Wood_Frog2_R2.fastq.gz
+              0               0               0      9795576977           11588  species/Rana_sylvatica/aRanSyl1/genomic_data/bionano/aRanSyl1_Saphyr_DLE1_3680690
+              0               0               0      9680215941            8770  species/Rana_sylvatica/aRanSyl1/genomic_data/bionano/aRanSyl1_Saphyr_DLE1_3680715
+              0               0               0      9685225978            4969  species/Rana_sylvatica/aRanSyl1/genomic_data/bionano/aRanSyl1_Saphyr_DLE1_3684597
+              0               0               0 -18545175019945           17876  species/Rana_sylvatica/aRanSyl1/genomic_data/bionano/aRanSyl1_Saphyr_DLE1_3708898
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS

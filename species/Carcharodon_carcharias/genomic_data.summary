@@ -8,6 +8,7 @@
     47908065900               0      2147483648     77655183568       517701246  species/Carcharodon_carcharias/sCarCar2/genomic_data/arima/sCarCar2_S2_L004_R1_001.fastq.gz
     53605445371               0      2147483648     76786730775       511911538  species/Carcharodon_carcharias/sCarCar2/genomic_data/arima/sCarCar2_S2_L004_R2_001.fastq.gz
     53193685758               0      2147483648     74856922933       499046177  species/Carcharodon_carcharias/sCarCar2/genomic_data/arima/sCarCar2_S2_L005_R2_001.fastq.gz
+              0               0               0      4042179237            1626  species/Carcharodon_carcharias/sCarCar2/genomic_data/bionano/sCarCar2_Saphyr_DLE1_2687366
     74551509743               0      2147483648    154505799058      1023217212  species/Carcharodon_carcharias/sCarCar2/genomic_data/illumina/sCarCar2_S1_L001_R1_001.fastq.gz
     80439912089               0      2147483648    154691479333      1024446920  species/Carcharodon_carcharias/sCarCar2/genomic_data/illumina/sCarCar2_S1_L001_R2_001.fastq.gz
     13697060262               0      2147483648      7429993282          366267  species/Carcharodon_carcharias/sCarCar2/genomic_data/pacbio/m54159_190301_011646.subreads.bam

@@ -7,6 +7,7 @@
     36144926084               0      2147483648     68782913284       455515998  species/Theristicus_caerulescens/bTheCae1/genomic_data/10x/bTheCae1_S6_L004_R2_001.fastq.gz
     79921607127               0      2147483648    131999025289       879993539  species/Theristicus_caerulescens/bTheCae1/genomic_data/arima/bTheCae1_2450_07_R1_001.fastq.gz
     91997072304               0      2147483648    126003364750       840022474  species/Theristicus_caerulescens/bTheCae1/genomic_data/arima/bTheCae1_2450_07_R2_001.fastq.gz
+              0               0               0      1266415068             155  species/Theristicus_caerulescens/bTheCae1/genomic_data/bionano/bTheCae1_Saphyr_DLE1_3680642
    305283461649               0      2147483648    160513437608         6622320  species/Theristicus_caerulescens/bTheCae1/genomic_data/pacbio/m54306U_200206_182812.subreads.bam
 --------------- --------------- --------------- --------------- ---------------  ----------
 

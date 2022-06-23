@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     25394825599               0      2147483648     47167038332       312364492  species/Spheniscus_humboldti/bSphHub1/genomic_data/arima/bSphHub1_S17_L004_R1_001.fastq.gz
     26891127900               0      2147483648     47333008253       313463643  species/Spheniscus_humboldti/bSphHub1/genomic_data/arima/bSphHub1_S17_L004_R2_001.fastq.gz
+              0               0               0      1298107142             231  species/Spheniscus_humboldti/bSphHub1/genomic_data/bionano/bSphHub1_Saphyr_DLE1_3700965
     58807801507               0      2147483648     70557491644         4742313  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m54306Ue_211126_062348.hifi_reads.bam
     13398354566               0      2147483648     16075321064         1080455  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m54306Ue_211126_062348.hifi_reads.fastq.gz
    198774157106               0      2147483648     85247048714         5498889  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m54306Ue_211126_062348.reads.bam

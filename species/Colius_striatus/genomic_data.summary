@@ -4,6 +4,7 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     22262830645               0      2147483648     41482926653       274721378  species/Colius_striatus/bColStr4/genomic_data/arima/bColStr4_S4_L001_R1_001.fastq.gz
     22785909262               0      2147483648     41530948410       275039393  species/Colius_striatus/bColStr4/genomic_data/arima/bColStr4_S4_L001_R2_001.fastq.gz
+              0               0               0      1245352774             274  species/Colius_striatus/bColStr4/genomic_data/bionano/bColStr4_Saphyr_DLE1_3700964
     24227134625               0      2147483648     27331574445         1597987  species/Colius_striatus/bColStr4/genomic_data/pacbio_hifi/m54306Ue_220205_182900.bc1003--bc1003.hifi_reads.fastq.gz
     12887994292               0      2147483648     14043786147          823979  species/Colius_striatus/bColStr4/genomic_data/pacbio_hifi/m54306Ue_220209_203112.bc1003--bc1003.hifi_reads.fastq.gz
 --------------- --------------- --------------- --------------- ---------------  ----------

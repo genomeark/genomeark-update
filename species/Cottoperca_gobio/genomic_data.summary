@@ -8,6 +8,9 @@
       725061355               0       725061355       695457656        86932207  species/Cottoperca_gobio/fCotGob3/genomic_data/10x/fCotGob3_S2_L008_I1_001.fastq.gz
      8121108720               0      2147483648     11827034607        78324736  species/Cottoperca_gobio/fCotGob3/genomic_data/10x/fCotGob3_S4_L008_R1_001.fastq.gz
      8677013823               0      2147483648     11864175371        78570697  species/Cottoperca_gobio/fCotGob3/genomic_data/10x/fCotGob3_S4_L008_R2_001.fastq.gz
+              0               0               0       744032791             682  species/Cottoperca_gobio/fCotGob3/genomic_data/bionano/fCotGob3_Irys_BspQI
+              0               0               0      1099851046            1640  species/Cottoperca_gobio/fCotGob3/genomic_data/bionano/fCotGob3_Saphyr_BspQI
+              0               0               0      1201878434            2404  species/Cottoperca_gobio/fCotGob3/genomic_data/bionano/fCotGob3_Saphyr_BssSI
      8650051834               0      2147483648      4527067938          536343  species/Cottoperca_gobio/fCotGob3/genomic_data/pacbio/m54097_170728_183908.subreads.bam
      8314641898               0      2147483648      4320649268          604900  species/Cottoperca_gobio/fCotGob3/genomic_data/pacbio/m54097_170729_144804.subreads.bam
     10964223629               0      2147483648      5731163612          676948  species/Cottoperca_gobio/fCotGob3/genomic_data/pacbio/m54097_170730_110706.subreads.bam

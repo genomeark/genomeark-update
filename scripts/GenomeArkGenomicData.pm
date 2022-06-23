@@ -3,12 +3,13 @@ package GenomeArkGenomicData;
 require Exporter;
 
 @ISA    = qw(Exporter);
-@EXPORT = qw(loadSummaries writeSummaries estimateRawDataScaling);
+@EXPORT = qw(@dataTypes loadSummaries writeSummaries estimateRawDataScaling);
 
 use strict;
 use warnings;
 
 use GenomeArkUtility;
+use GenomeArkBionano;
 
 #use Time::Local;
 use List::Util qw(min max);
@@ -22,6 +23,24 @@ my %dataQuant;   #  Amount of raw file summarized (in gigabytes, or "all").
 my %dataBases;   #  Number of bases in piece summarized.
 my %dataReads;   #  Number of reads in piece summarized.
 
+
+#
+#  Update genomeark.github.io/_layouts/genomeark.html if this changes:
+#   - the coverage table
+#   - the list of links to download
+#
+our @dataTypes = qw(10x
+                    arima
+                    bionano
+                    dovetail
+                    illumina
+                    ont
+                    ontduplex
+                    pacbio
+                    pacbiohifi_fqgz
+                    pacbiohifi_bam
+                    pacbiohifi_clr
+                    phase);
 
 
 #
@@ -69,7 +88,7 @@ sub loadSummaryFromFile ($$$$$) {
     $dataBases{$filename} = 0;
     $dataReads{$filename} = 0;
 
-    print STDERR "  Import summary from '$summary'\n";
+    print "  Import summary from '$summary'\n";
 
     open(ST, "< $summary") or die;
     while (<ST>) {
@@ -112,12 +131,12 @@ sub loadSummaryIfExists ($$$) {
     my $newsize   = 0;
     my $newname   = "";
 
-    #print STDERR "loadSummaryIfExists()- look for '$fullname' and\n";
-    #print STDERR "                                '$partnames'\n";
+    #print "loadSummaryIfExists()- look for '$fullname' and\n";
+    #print "                                '$partnames'\n";
 
     #  If a full summary exists, always use that.
     if (-e $fullname) {
-        #print STDERR "loadSummaryIfExists()- found    '$fullname'\n";
+        #print "loadSummaryIfExists()- found    '$fullname'\n";
         $newsize = $filesize;
         $newname = $fullname;
     }
@@ -127,7 +146,7 @@ sub loadSummaryIfExists ($$$) {
         open(LS, "ls $partnames 2>/dev/null |");
         while (<LS>) {
             chomp;
-            #print STDERR "loadSummaryIfExists()- found    '$_'\n";
+            #print "loadSummaryIfExists()- found    '$_'\n";
             if ($_ =~ m!/(\d+)-bytes--.*\.summary$!) {
                 if ($1 > $newsize) {
                     $newsize = $1;
@@ -141,7 +160,7 @@ sub loadSummaryIfExists ($$$) {
     #  Load the new summary if it summarized more data than we did.
 
     if ($newsize > $sumsize) {
-        #print STDERR "loadSummaryIfExists()- LOAD     '$fullname'\n";
+        #print "loadSummaryIfExists()- LOAD     '$fullname'\n";
         loadSummaryFromFile($filesize, $filename, $newsize, $newname, $errors);
     }
 }
@@ -153,7 +172,8 @@ sub loadSummaryIfExists ($$$) {
 #  the global file - or any summaries that improve over what we know.
 #
 sub loadSummaries ($$$) {
-    my $name     = shift @_;
+    my $data     = shift @_;
+    my $name     = $$data{"name_"};
     my $seqFiles = shift @_;
     my $errors   = shift @_;
 
@@ -162,10 +182,12 @@ sub loadSummaries ($$$) {
     undef %dataBases;
     undef %dataReads;
 
+    my $bionanoBases = 0;
+
     #  Load precomputed summaries.
 
     if (-e "species/$name/genomic_data.summary") {
-        print STDERR "  Load summaries from species/$name/genomic_data.summary\n";
+        print "  Load summaries from species/$name/genomic_data.summary\n";
 
         open(ST, "< species/$name/genomic_data.summary") or die;
         while (<ST>) {
@@ -181,19 +203,27 @@ sub loadSummaries ($$$) {
             next   if (scalar(@v) == 0);
             next   if ($v[0] eq "bytes");
 
-            if ((scalar(@v) == 6) && ($v[0] > 0)) {
+            if ((scalar(@v) == 6) && ($v[3] > 0)) {
                 my ($bytes, $date, $quant, $bases, $reads, $file) = @v;
 
                 $dataBytes{$file} = $bytes;
                 $dataQuant{$file} = $quant;
                 $dataBases{$file} = $bases;
                 $dataReads{$file} = $reads;
+
+                $bionanoBases += $bases   if ($file =~ m!genomic_data/bionano/!);
             }
             if ((scalar(@v == 3)) && ($v[2] > 0)) {
                 my ($type, $ext, $scale) = @v;
+
+                $$data{"data_${type}_scale"} = $scale;
             }
         }
         close(ST);
+
+        if ($bionanoBases > 0) {
+            $$data{"data_bionano_bases"} = $bionanoBases;
+        }
     }
 
     #  Load any summaries if they are new or better.
@@ -207,8 +237,6 @@ sub loadSummaries ($$$) {
             loadSummaryIfExists($s, $n, $errors);
         }
     }
-
-    print STDERR "\n";
 }
 
 
@@ -246,7 +274,7 @@ sub writeSummaries ($) {
     print ST "-   datatype suffix scaling\n";
     print ST "------------ ------ -------\n";
 
-    foreach my $type (qw(10x arima dovetail illumina ont ontduplex pacbio pacbiohifi_fqgz pacbiohifi_bam pacbiohifi_clr phase)) {
+    foreach my $type (@dataTypes) {
         my $scale = $$data{"data_${type}_scale"};
 
         next   if (! defined($scale));
@@ -460,6 +488,11 @@ sub estimateRawDataScaling ($$$$$$) {
         return($s1 <=> $s2);
     } @files;
 
+    if ($type eq "bionano") {
+        $$data{"data_${type}_bases"} = computeBionanoBases($data, \@files, \%dataBytes, \%dataQuant, \%dataBases, \%dataReads, $missing, $download);
+        return;
+    }
+
     my $f1 = int(1 * $filesLen / 4);   #  Pick three files representative file (indices)
     my $f2 = int(2 * $filesLen / 4);   #  from the list of input files sorted by size.
     my $f3 = int(3 * $filesLen / 4);
@@ -501,7 +534,7 @@ sub estimateRawDataScaling ($$$$$$) {
     if (!exists($dataBases{$file1}) ||        #  Fail if any of the size computations failed.
         !exists($dataBases{$file2}) ||
         !exists($dataBases{$file3})) {
-        $$missing{ $$data{"name_"} }++;
+        $$missing{ $$data{"name_"} } .= "$type ";
 
         if ($warning) {
             if ($download) {
@@ -518,7 +551,6 @@ sub estimateRawDataScaling ($$$$$$) {
             }
         }
 
-        $scaling = 0.0   if ($file1 =~ m!genomic_data/bionano!);
         $scaling = 1.5   if ($file1 =~ m!genomic_data/10x!);           #  Bimodal, ~1.4 and ~1.8
         $scaling = 1.5   if ($file1 =~ m!genomic_data/arima!);         #  Bimodal, ~1.5 and ~1.8
         $scaling = 1.5   if ($file1 =~ m!genomic_data/dovetail!);
@@ -537,6 +569,7 @@ sub estimateRawDataScaling ($$$$$$) {
         $scaling = int(10000 * $sumbases / $sumsizes) / 10000.0;
     }
 
+    #  Save the scaling so we can write it in writeSummaries.
     $$data{"data_${type}_scale"} = $scaling;
 }
 

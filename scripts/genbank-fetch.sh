@@ -8,6 +8,19 @@ if [ -z $NCBI_API_KEY ] ; then
   exit
 fi
 
+if [ $# -eq 0 ] ; then
+  echo "usage: $0 [-ebp | -vgp]"
+  exit 1
+fi
+for pp in $@ ; do
+  if   [ $pp != "-ebp" -a $pp != "-vgp" ] ; then
+    echo "usage: $0 [-ebp | -vgp]"
+    exit 1
+  fi
+done
+
+
+
 #  Versions:
 #    edirect/8.60
 #    edirect/10.0
@@ -15,30 +28,41 @@ fi
 
 module load edirect/10.0
 
-if [ ! -e genbank.xml ] ; then
-  echo Fetching genbank.xml.
+for pp in $@ ; do
+  if   [ $pp = "-ebp" ] ; then
+    project="PRJNA533106"
+  elif [ $pp = "-vgp" ] ; then
+    project="PRJNA489243"
+  else
+    echo "usage: $0 [-ebp | -vgp]"
+    exit 1
+  fi
 
-  esearch -db bioproject -q 'PRJNA489243' \
-  | \
-  elink -db bioproject -target assembly -name bioproject_assembly_all \
-  | \
-  esummary \
-  > genbank.xml
-fi
+  if [ ! -e genbank.$project.xml ] ; then
+    echo Fetching genbank.$project.xml.
 
-if [ ! -e genbank.xml.map ] ; then
-  echo Parsing genbank.xml.
+    esearch -db bioproject -q $project \
+    | \
+    elink -db bioproject -target assembly -name bioproject_assembly_all \
+    | \
+    esummary \
+    > genbank.$project.xml
+  fi
 
-  #  Extract elements 'Genbank', 'AssemblyName' and 'AssemblyType' from all
-  #  'DocumentSummary' elements IF it contains a `Synonym` element (which is
-  #  where the 'Genbank' element is).
+  if [ ! -e genbank.$project.xml.map ] ; then
+    echo Parsing genbank.$project.xml.
 
-  xtract \
-    -input genbank.xml \
-    -pattern DocumentSummary -if Synonym -element Genbank AssemblyName AssemblyType \
-  | \
-  sort -k2,2 \
-  > genbank.map.raw
-fi
+    #  Extract elements 'Genbank', 'AssemblyName' and 'AssemblyType' from all
+    #  'DocumentSummary' elements IF it contains a `Synonym` element (which is
+    #  where the 'Genbank' element is).
+
+    xtract \
+      -input genbank.$project.xml \
+      -pattern DocumentSummary -if Synonym -element Genbank AssemblyName AssemblyType \
+    | \
+    sort -k2,2 \
+    > genbank.$project.map.raw
+  fi
+done
 
 exit 0
