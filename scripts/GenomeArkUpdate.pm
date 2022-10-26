@@ -17,9 +17,9 @@ my @genomeArkSizes;
 my @genomeArkFiles;
 
 #  In memory cache of files in genomeark, filtered to the current species.
-my @speciesEpoch;
-my @speciesSizes;
-my @speciesFiles;
+#my @speciesEpoch;
+#my @speciesSizes;
+#my @speciesFiles;
 
 
 

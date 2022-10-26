@@ -34,7 +34,7 @@ fi
 if [ ! -e "downloads/genomeark.ls" -o \
           "downloads/genomeark.ls" -ot "downloads/genomeark.ls.raw" ] ; then
   echo "Filtering filenames."
-  perl scripts/filter-aws-bucket-list.pl < downloads/genomeark.ls.raw > downloads/genomeark.ls
+  perl scripts/filter-aws-bucket-list.pl --raw downloads/genomeark.ls.raw --filtered downloads/genomeark.ls --species-list downloads/species-list
 fi
 
 #

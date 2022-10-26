@@ -50,9 +50,9 @@ while (scalar(@ARGV) > 0) {
     }
 }
 
-open(RAW,  "< $lsRaw")  or die "Failed to open '$lsRaw' for reading: $!\n";
-open(FILT, "> $lsFilt") or die "Failed to open '$lsFilt' for writing: $!\n";
-open(SPLI, "> $spList") or die "Failed to open '$spList' for writing: $!\n";
+open(RAW,  "< $lsRaw")  or die "Failed to open --raw '$lsRaw' for reading: $!\n";
+open(FILT, "> $lsFilt") or die "Failed to open --filtered '$lsFilt' for writing: $!\n";
+open(SPLI, "> $spList") or die "Failed to open --species-list '$spList' for writing: $!\n";
 
 while (<RAW>) {
     chomp;

@@ -86,17 +86,17 @@ foreach my $proj ("genomeark", getAllProjectNames()) {
 #  Iterate over all species and do work!
 
 foreach my $species (@speciesList) {
-    my @speciesFiles;
-    my @speciesSizes;
-    my @speciesEpoch;
+    my @speciesFiles = ();
+    my @speciesSizes = ();
+    my @speciesEpoch = ();
 
     #  Rebuild each species.md file.
 
-    my %seqFiles;
-    my %seqBytes;
-    my %seqIndiv;
-    my %meta;
-    my %data;
+    my %seqFiles = ();
+    my %seqBytes = ();
+    my %seqIndiv = ();
+    my %meta     = ();
+    my %data     = ();
 
     print "\n";
     print "----------------------------------------\n";
@@ -280,25 +280,21 @@ foreach my $species (@speciesList) {
     #    all == pac and 10x and HIC and bionano
     #
 
-    sub hasCoverage (@) {
+    sub hasCoverage ($@) {
+        my $data = shift @_;
         foreach my $type (@_) {
-            next   if (!defined($data{"data_${type}_coverage"}));
-            next   if ($data{"data_${type}_coverage"} eq "N/A");
+            next   if (!defined($$data{"data_${type}_coverage"}));
+            next   if ($$data{"data_${type}_coverage"} eq "N/A");
             return(1);
         }
         return(0);
     }
 
-    if (0) {
-    my $hasHQ = hasCoverage("pacbiohifi_fqgz", "pacbiohifi_bam", "ontduplex");
-    my $hasLR = hasCoverage("pacbio", "ont");
-    my $hasSR = hasCoverage("10x", "arima", "bionano", "dovetail", "illumina", "phase");
-    my $hasSC = hasCoverage("arima", "dovetail", "phase");
-
-    $data{"data_status"} = "some"     if ($hasHQ || $hasLR || $hasSR || $hasSC);
-    $data{"data_status"} = "all"      if (          $hasLR && $hasSR && $hasSC);
-    $data{"data_status"} = "hiqual"   if ($hasHQ && $hasLR);
-    }
+    my $hasHQ = hasCoverage(\%data, "pacbiohifi_fqgz", "pacbiohifi_bam", "ontduplex");             #  Has High Quality Long Reads
+    my $hasLR = hasCoverage(\%data, "pacbio", "ont");                                              #  Has Long Reads
+    my $hasSR = hasCoverage(\%data, "10x", "arima", "bionano", "dovetail", "illumina", "phase");   #  Has Short Reads
+    my $hasPH = hasCoverage(\%data, "10x", "bionano");                                             #  Has Phasing Reads
+    my $hasSC = hasCoverage(\%data, "arima", "dovetail", "phase");                                 #  Has Scaffolding Reads
 
     #
     #  Create symlinks to the categories.
@@ -343,10 +339,18 @@ foreach my $species (@speciesList) {
     $data{"data_status"}     = "<em style=\"color:orange\">some data</em>"                     if ($data{"data_status"}) eq "some";
     $data{"data_status"}     = "<em style=\"color:green\">all data</em>"                       if ($data{"data_status"}) eq "all";
 
-    $data{"assembly_status"} = "<em style=\"color:red\">no assembly</em>"                      if ($data{"assembly_status"} eq "none");
-    $data{"assembly_status"} = "<em style=\"color:red\">low-quality draft assembly</em>"       if ($data{"assembly_status"} eq "low-quality-draft");
-    $data{"assembly_status"} = "<em style=\"color:orange\">high-quality draft assembly</em>"   if ($data{"assembly_status"} eq "high-quality-draft");
-    $data{"assembly_status"} = "<em style=\"color:green\">curated assembly</em>"               if ($data{"assembly_status"} eq "curated");
+    $data{"data_status"}  = "'";
+    $data{"data_status"} .= "<em style=\"color:" . (($hasHQ) ? "green" : "red") . "\">HQ Long</em> ::: ";
+    $data{"data_status"} .= "<em style=\"color:" . (($hasLR) ? "green" : "red") . "\">Long</em> ::: ";
+    $data{"data_status"} .= "<em style=\"color:" . (($hasSR) ? "green" : "red") . "\">Short</em> ::: ";
+    $data{"data_status"} .= "<em style=\"color:" . (($hasPH) ? "green" : "red") . "\">Phasing</em> ::: ";
+    $data{"data_status"} .= "<em style=\"color:" . (($hasSC) ? "green" : "red") . "\">Scaffolding</em>";
+    $data{"data_status"} .= "'";
+
+    $data{"assembly_status"} = "<em style=\"color:red\">none</em>"                    if ($data{"assembly_status"} eq "none");
+    $data{"assembly_status"} = "<em style=\"color:red\">low-quality draft</em>"       if ($data{"assembly_status"} eq "lqdraft");
+    $data{"assembly_status"} = "<em style=\"color:orange\">high-quality draft</em>"   if ($data{"assembly_status"} eq "hqdraft");
+    $data{"assembly_status"} = "<em style=\"color:green\">curated</em>"               if ($data{"assembly_status"} eq "curated");
 
     #  If no date set -- no raw data, no assemblies, no anything -- set it to the
     #  date of this update (genomeark.ls's date).
