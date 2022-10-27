@@ -43,7 +43,7 @@ sub parseAssemblyName ($$$) {
 
     #  Handle mito first, because the second form also matches the generic 'an assembly' regex.
 
-    if    ($filename =~ m!species/(.*)/.*/(.*assembly.+)/(.......)(\d)\.MT\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz!i) {
+    if    ($filename =~ m!species/(.*)/.*/(.*assembly.+)/(.......)(\d)\.MT\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz$!i) {
         print "\n"                               if ($verbose);
         print "$filename\n"                      if ($verbose);
         print " - A mitochondrial assembly!\n"   if ($verbose);
@@ -51,7 +51,7 @@ sub parseAssemblyName ($$$) {
         ($sName, $aLabel, $sTag, $sNum, $prialt, $date) = ($1, $2, $3, $4, "mito", "$5-$6-$7");
     }
 
-    elsif ($filename =~ m!species/(.*)/.*/(.*assembly.+)/(.......)(\d)[\._](.*)\.(\d\d\d\d)(\d\d)(\d\d)\.MT.fasta.gz!i) {
+    elsif ($filename =~ m!species/(.*)/.*/(.*assembly.+)/(.......)(\d)[\._](.*)\.(\d\d\d\d)(\d\d)(\d\d)\.MT.fasta.gz$!i) {
         print "\n"                               if ($verbose);
         print "$filename\n"                      if ($verbose);
         print " - A mitochondrial assembly!\n"   if ($verbose);
@@ -59,7 +59,7 @@ sub parseAssemblyName ($$$) {
         ($sName, $aLabel, $sTag, $sNum, $prialt, $date) = ($1, $2, $3, $4, "mito", "$6-$7-$8");
     }
 
-    elsif ($filename =~ m!species/(.*)/.*/(.*assembly.+)/(.......)(\d)[\._]\w+\.[WXYZ]\.\w+\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz!i) {
+    elsif ($filename =~ m!species/(.*)/.*/(.*assembly.+)/(.......)(\d)[\._]\w+\.[WXYZ]\.\w+\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz$!i) {
         print "\n"                             if ($verbose);
         print "$filename\n"                    if ($verbose);
         print " - A merged trio assembly!\n"   if ($verbose);
@@ -67,7 +67,7 @@ sub parseAssemblyName ($$$) {
         ($sName, $aLabel, $sTag, $sNum, $prialt, $date) = ($1, $2, $3, $4, "mgd", "$5-$6-$7");
     }
 
-    elsif ($filename =~ m!species/(.*)/.*/(.*assembly.+)/(.......)(\d)[\._](.*)\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz!i) {
+    elsif ($filename =~ m!species/(.*)/.*/(.*assembly.+)/(.......)(\d)[\._](.*)\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz$!i) {
         print "\n"                     if ($verbose);
         print "$filename\n"            if ($verbose);
         print " - An assembly!   \n"   if ($verbose);
@@ -89,7 +89,8 @@ sub parseAssemblyName ($$$) {
         if (($p[0] ne "pri") &&
             ($p[0] ne "alt") &&
             ($p[0] ne "mat") &&
-            ($p[0] ne "pat")) {
+            ($p[0] ne "pat") &&
+            ($p[0] ne "dip")) {
             print " - Filename has '$p[0]' as first word; required 'pri', 'alt', 'mat' or 'pat'.\n"   if ($verbose);
             $err = "  Filename '$3$4.$5.$6$7$8.fasta.gz' has '$p[0]' as first word; required 'pri', 'alt', 'mat' or 'pat'.\n";
         }
@@ -558,7 +559,8 @@ sub importAssemblySummary ($$$$$$) {
 
     if (($prialt eq "pri") ||
         ($prialt eq "mat") || ($prialt eq "pat") ||
-        ($prialt eq "mgd")) {
+        ($prialt eq "mgd") ||
+        ($prialt eq "dip")) {
 
         if (($curated eq "curated") || ($prialt eq "mgd")) {
             printf "  %8s <- status=curated\n", "$prialt$sNum";

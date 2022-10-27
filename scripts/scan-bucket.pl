@@ -28,11 +28,16 @@ use GenomeArkGenomicData;
 my @speciesList;
 my $downloadData       = 1;
 my $downloadAssemblies = 1;
+my $downloadSize       = 2 * 1024 * 1024 * 1024;
 
 foreach my $arg (@ARGV) {
-    if    ($arg eq "--no-download") {
+    if    ($arg eq "--no-download") {       #  Don't do any downloads.
         $downloadData = 0;
         $downloadAssemblies = 0;
+    }
+    elsif ($arg eq "--max-download") {       #  Limit data downloads to X MB.
+        $downloadSize  = shift @ARGV;
+        $downloadSize *= 1024 * 1024;
     }
     else {
         if ($arg =~ m!^species/(.*)/?$!) {   #  Expect to find a list of species to process
@@ -157,7 +162,7 @@ foreach my $species (@speciesList) {
     loadSummaries(\%data, \%seqFiles, \@potentialErrors);   #  Load existing summaries.
 
     foreach my $type (@dataTypes) {
-        estimateRawDataScaling(\%data, $type, $seqFiles{$type}, \@potentialErrors, \%missingData, $downloadData);
+        estimateRawDataScaling(\%data, $type, $seqFiles{$type}, \@potentialErrors, \%missingData, $downloadData, $downloadSize);
     }
 
     writeSummaries(\%data);

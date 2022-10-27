@@ -78,63 +78,65 @@ while (<RAW>) {
     next if ($filename =~ m!/intermediate!i);
     next if ($filename =~ m!/Intermidiates!i);           #  One guy has this.
 
-    next if ($filename =~ m!.DS_Store$!);
+    next if ($filename =~ m!\.DS_Store$!);
 
-    next if ($filename =~ m!.sh$!);
+    next if ($filename =~ m!\.sh$!);
 
-    next if ($filename =~ m!nohup.out$!);
-    next if ($filename =~ m!nohup.err$!);
+    next if ($filename =~ m!nohup\.out$!);
+    next if ($filename =~ m!nohup\.err$!);
 
-    next if ($filename =~ m!.log$!);
-    next if ($filename =~ m!.log.gz$!);
-    next if ($filename =~ m!.log.xz$!);
+    next if ($filename =~ m!\.log$!);
+    next if ($filename =~ m!\.log\.gz$!);
+    next if ($filename =~ m!\.log\.xz$!);
 
     next if ($filename =~ m!mother$!);
     next if ($filename =~ m!father$!);
 
-    next if ($filename =~ m!.md5$!);
+    next if ($filename =~ m!\.md5$!);
     next if ($filename =~ m!md5sum!);
 
     next if ($filename =~ m!readme!i);
-    next if ($filename =~ m!readme.txt!i);
-    next if ($filename =~ m!report.txt!i);
-    next if ($filename =~ m!version.txt!i);
+    next if ($filename =~ m!readme\.txt!i);
+    next if ($filename =~ m!report\.txt!i);
+    next if ($filename =~ m!version\.txt!i);
 
     next if ($filename =~ m!summary!i);
-    next if ($filename =~ m!summary.txt!i);
+    next if ($filename =~ m!summary\.txt!i);
 
-    next if ($filename =~ m!manifest.txt!i);
+    next if ($filename =~ m!manifest\.txt!i);
 
     next if ($filename =~ m!upload_report!i);
 
-    next if ($filename =~ m!.pdf$!);
+    next if ($filename =~ m!\.pdf$!);
 
-    next if ($filename =~ m!.xml$!);
+    next if ($filename =~ m!\.xml$!);
 
-    next if ($filename =~ m!.csv$!); 
-    next if ($filename =~ m!.csv.gz$!);
-    next if ($filename =~ m!.csv.xz$!);
+    next if ($filename =~ m!\.csv$!); 
+    next if ($filename =~ m!\.csv\.gz$!);
+    next if ($filename =~ m!\.csv\.xz$!);
 
-    next if ($filename =~ m!.tsv$!);
-    next if ($filename =~ m!.tsv.gz$!);
-    next if ($filename =~ m!.tsv.xz$!);
+    next if ($filename =~ m!\.tsv$!);
+    next if ($filename =~ m!\.tsv\.gz$!);
+    next if ($filename =~ m!\.tsv\.xz$!);
 
-    next if ($filename =~ m!.zip$!);
+    next if ($filename =~ m!\.zip$!);
 
-    next if ($filename =~ m!.gff3$!);
-    next if ($filename =~ m!.gff3.gz$!);
-    next if ($filename =~ m!.gff3.xz$!);
+    next if ($filename =~ m!\.gff3$!);
+    next if ($filename =~ m!\.gff3\.gz$!);
+    next if ($filename =~ m!\.gff3\.xz$!);
 
-    next if ($filename =~ m!.yaml$!);
-    next if ($filename =~ m!.yml$!);
+    next if ($filename =~ m!\.yaml$!);
+    next if ($filename =~ m!\.yml$!);
 
-    next if ($filename =~ m!.tar$!);
-    next if ($filename =~ m!.tar.gz$!);
-    next if ($filename =~ m!.tar.xz$!);
+    next if ($filename =~ m!\.tar$!);
+    next if ($filename =~ m!\.tar\.gz$!);
+    next if ($filename =~ m!\.tar\.xz$!);
 
     next if ($filename =~ m!/Stats!);
 
-    next if ($filename =~ m!.gfastats$!);
+    next if ($filename =~ m!\.gfastats$!);
+    next if ($filename =~ m!\.fai$!);
+    next if ($filename =~ m!\.gzi$!);
 
     next if ($filename =~ m!/troubleshooting!i);
     next if ($filename =~ m!/annotation!i);
@@ -147,7 +149,7 @@ while (<RAW>) {
     next if ($filename =~ m!/bam_to_fasta!i);            #  fAngAng1/assembly_vgp_standard_1.6/bam_to_fasta (and others)
     next if ($filename =~ m!additional_haplotigs!);
 
-    next if ($filename =~ m!aligned.genomecov!);
+    next if ($filename =~ m!aligned\.genomecov!);
 
     next if ($filename =~ m!/qc/logs!i);
     next if ($filename =~ m!/qc/mash!i);
@@ -171,30 +173,30 @@ while (<RAW>) {
     next if ($filename =~ m!\.pretext$!i);
     next if ($filename =~ m!\.pretext\.gz$!i);
     next if ($filename =~ m!\.pretext\.png\.gz$!i);
-    next if ($filename eq "species/Mesoplodon_densirostris/mMesDen1/assembly_curated/mMesDen1.pri.cur.20220330.png.gz");
+    next if ($filename eq "species/Mesoplodon_densirostris/mMesDen1/assembly_curated/mMesDen1\.pri\.cur\.20220330\.png\.gz");
 
     #  Some specific crud that is either large or useless.
 
     next if ($filename =~ m!/genomic_data/.*/scripts/!);
 
     next if ($filename =~ m!/genomic_data/nanopore/.*fast5$!);
-    next if ($filename =~ m!/genomic_data/nanopore/.*ont_run_stats.txt$!);
-    next if ($filename =~ m!/genomic_data/nanopore/.*telemetry.js.xz$!);
+    next if ($filename =~ m!/genomic_data/nanopore/.*ont_run_stats\.txt$!);
+    next if ($filename =~ m!/genomic_data/nanopore/.*telemetry\.js\.xz$!);
 
     next if ($filename =~ m!/aBomBom1/genomic_data/bionano/exp_refineFinal1/!);
     next if ($filename =~ m!/aBomBom1/genomic_data/pacbio/fasta!);
     next if ($filename =~ m!/bBucAby1/Test!);
-    next if ($filename =~ m!/bCalAnn1/genomic_data/nanopore.*clean.fastq.gz$!);
+    next if ($filename =~ m!/bCalAnn1/genomic_data/nanopore.*clean\.fastq\.gz$!);
     next if ($filename =~ m!/bGeoTri1/genomic_data/pacbio/old/!);
-    next if ($filename =~ m!/fAloSap1/vgp_assembly_2.0/evaluation!);
-    next if ($filename =~ m!/fAngAng1/assembly_vgp_standard_1.6/Scaffolding!);
+    next if ($filename =~ m!/fAloSap1/vgp_assembly_2\.0/evaluation!);
+    next if ($filename =~ m!/fAngAng1/assembly_vgp_standard_1\.6/Scaffolding!);
     next if ($filename =~ m!/mCalJac1/SDA/!);
-    next if ($filename =~ m!/mZalCal1/assembly_rockefeller_1.6/longranger!);
-    next if ($filename =~ m!/rCheMyd1/assembly_vgp_standard_1.6/evaluation!);    #  LOTS of BUSCO intermediates
+    next if ($filename =~ m!/mZalCal1/assembly_rockefeller_1\.6/longranger!);
+    next if ($filename =~ m!/rCheMyd1/assembly_vgp_standard_1\.6/evaluation!);    #  LOTS of BUSCO intermediates
     next if ($filename =~ m!/sCarCar1/rawData/!);
     next if ($filename =~ m!/bHirRus1/Hirundo/!);
     next if ($filename =~ m!/mCalJac1/chrY/!);
-    next if ($filename =~ m!/bSylAtr1/bSylAtr1_s4.arrow!);
+    next if ($filename =~ m!/bSylAtr1/bSylAtr1_s4\.arrow!);
     next if ($filename =~ m!/bTaeGut1/assembly_mt_milan/temp!);
     next if ($filename =~ m!/sCarCar1/assemblies/white_shark_09Feb2016_V8sgr!);
 

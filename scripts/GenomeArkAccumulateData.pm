@@ -84,8 +84,8 @@ sub accumulateData ($$$$$$$$) {
     if ($filename =~ m!/genomic_data/10x/!) {
         return if ($filename =~ m/txt$/);
 
-        if (($filename =~ m/fastq.gz/) ||
-            ($filename =~ m/fq.gz/)) {
+        if (($filename =~ m/fastq.gz$/) ||
+            ($filename =~ m/fq.gz$/)) {
             $$seqFiles{"10x"} .= $sf;
             $$seqBytes{"10x"} += $sb;
             $$seqIndiv{"10x"} .= $si;
@@ -104,8 +104,8 @@ sub accumulateData ($$$$$$$$) {
         return if ($filename =~ m/re_bases.txt/);
         return if ($filename =~ m/re_enz.txt/);
 
-        if (($filename =~ m/fastq.gz/) ||
-            ($filename =~ m/fq.gz/)) {
+        if (($filename =~ m/fastq.gz$/) ||
+            ($filename =~ m/fq.gz$/)) {
             $$seqFiles{"arima"} .= $sf;
             $$seqBytes{"arima"} += $sb;
             $$seqIndiv{"arima"} .= $si;
@@ -127,7 +127,7 @@ sub accumulateData ($$$$$$$$) {
             $$seqIndiv{"bionano"} .= $si;
             saveDataDate($filesecs, $data);
         }
-        elsif ($filename =~ m/bnx.gz/) {
+        elsif ($filename =~ m/bnx.gz$/) {
             $$seqBytes{"bionano"} += $sb;
             $$seqIndiv{"bionano"} .= $si;
             saveDataDate($filesecs, $data);
@@ -146,8 +146,8 @@ sub accumulateData ($$$$$$$$) {
     if ($filename =~ m!/genomic_data/dovetail/!) {
         return if ($filename =~ m/re_bases.txt/);
 
-        if (($filename =~ m/fastq.gz/) ||
-            ($filename =~ m/fq.gz/)) {
+        if (($filename =~ m/fastq.gz$/) ||
+            ($filename =~ m/fq.gz$/)) {
             $$seqFiles{"dovetail"} .= $sf;
             $$seqBytes{"dovetail"} += $sb;
             $$seqIndiv{"dovetail"} .= $si;
@@ -162,8 +162,8 @@ sub accumulateData ($$$$$$$$) {
     if ($filename =~ m!/genomic_data/illumina/!) {
         return if ($filename =~ m/txt$/);
 
-        if (($filename =~ m/fastq.gz/) ||
-            ($filename =~ m/fq.gz/)) {
+        if (($filename =~ m/fastq.gz$/) ||
+            ($filename =~ m/fq.gz$/)) {
             $$seqFiles{"illumina"} .= $sf;
             $$seqBytes{"illumina"} += $sb;
             $$seqIndiv{"illumina"} .= $si;
@@ -183,12 +183,16 @@ sub accumulateData ($$$$$$$$) {
         #return if ($filename =~ m/txt$/);
         #return if ($filename =~ m/txt$/);
 
-        if (($filename =~ m/fastq.gz/) ||
-            ($filename =~ m/fq.gz/)) {
+        if (($filename =~ m/fastq.gz$/) ||
+            ($filename =~ m/fq.gz$/)) {
             $$seqFiles{"ont"} .= $sf;
             $$seqBytes{"ont"} += $sb;
             $$seqIndiv{"ont"} .= $si;
             saveDataDate($filesecs, $data);
+        } elsif ($filename =~ m/fast5$/) {
+            #$$seqFiles{"ont"} .= $sf;
+            #$$seqBytes{"ont"} += $sb;
+            #$$seqIndiv{"ont"} .= $si;
         } else {
             push @$errors, "  Unknown ont file type in '$filename'\n";
         }
@@ -201,8 +205,8 @@ sub accumulateData ($$$$$$$$) {
         #return if ($filename =~ m/txt$/);
         #return if ($filename =~ m/txt$/);
 
-        if (($filename =~ m/fastq.gz/) ||
-            ($filename =~ m/fq.gz/)) {
+        if (($filename =~ m/fastq.gz$/) ||
+            ($filename =~ m/fq.gz$/)) {
             $$seqFiles{"ontduplex"} .= $sf;
             $$seqBytes{"ontduplex"} += $sb;
             $$seqIndiv{"ontduplex"} .= $si;
@@ -347,8 +351,8 @@ sub accumulateData ($$$$$$$$) {
     if ($filename =~ m!/genomic_data/phase/!) {
         return if ($filename =~ m/re_bases.txt/);
 
-        if (($filename =~ m/fastq.gz/) ||
-            ($filename =~ m/fq.gz/)) {
+        if (($filename =~ m/fastq.gz$/) ||
+            ($filename =~ m/fq.gz$/)) {
             $$seqFiles{"phase"} .= $sf;
             $$seqBytes{"phase"} += $sb;
             $$seqIndiv{"phase"} .= $si;

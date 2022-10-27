@@ -59,6 +59,7 @@ sub makeSummaryFileName ($$) {
     $f =~ s/.fasta$//;
     $f =~ s/.fastq$//;
     $f =~ s/.bam$//;
+    $f =~ s/.fast5$//;
 
     if (defined($s)) {                    #  In particular, if $s eq "*", this
         $N = "$d/$s-bytes--$f.summary";   #  will match any size - but not
@@ -316,6 +317,13 @@ sub downloadFullAndSummarize ($$$$) {
         return;
     }
 
+    if ($filename =~ m/fast5\$/) {
+        printf "FETCH data - size %6.3f GB -- CAN'T PROCESS FAST5 FILES\n", $filesize / 1024 / 1024 / 1024;
+        printf "    s3://genomeark/$filename\n";
+        printf "\n";
+        return;
+    }
+
     system("mkdir -p downloads/$fdir");   #  Make a place to download the file
     system("mkdir -p           $fdir");   #  and a place to write the summary.
 
@@ -325,7 +333,6 @@ sub downloadFullAndSummarize ($$$$) {
         printf "    ->   downloads/$filename\n";
         printf "\n";
 
-die;
         system("$aws s3 cp s3://genomeark/$filename downloads/$filename");
     }
 
@@ -358,11 +365,12 @@ die;
 #
 #  If no estimated number of bases exists, download a part of the file and summarize.
 #
-sub downloadPartAndSummarize ($$$$) {
+sub downloadPartAndSummarize ($$$$$) {
     my $filesize = shift @_;
     my $filename = shift @_;
     my $fdir     = dirname($filename);
     my $download = shift @_;
+    my $downsize = shift @_;
     my $errors   = shift @_;
 
     #  How much did we summarize already, and how much do we want to summarize?
@@ -371,7 +379,7 @@ sub downloadPartAndSummarize ($$$$) {
     #  if it exists) and one for the partial summary we're going to make.
 
     my $oldsize  = (exists($dataQuant{$filename})) ? $dataQuant{$filename} : 0;
-    my $sumsize  = 2 * 1024 * 1024 * 1024;
+    my $sumsize  = $downsize;
 
     my $fullname = makeSummaryFileName($filename, undef);
     my $partname = makeSummaryFileName($filename, $sumsize);
@@ -466,7 +474,7 @@ sub downloadPartAndSummarize ($$$$) {
 #  scalaing factor that will convert a filesize into an estimated number of
 #  bases in the (compressed) file.
 #
-sub estimateRawDataScaling ($$$$$$) {
+sub estimateRawDataScaling ($$$$$$$) {
     my $data     = shift @_;
     my $name     = $$data{"name_"};
     my $type     = shift @_;
@@ -474,6 +482,7 @@ sub estimateRawDataScaling ($$$$$$) {
     my $errors   = shift @_;
     my $missing  = shift @_;
     my $download = shift @_;
+    my $downsize = shift @_;
     my $warning  = 0;  #shift @_;
 
     return   if (!defined($files) || ($files eq ""));
@@ -522,9 +531,9 @@ sub estimateRawDataScaling ($$$$$$) {
     #  If needed, download a subset of the data from three files and use that to
     #  estimate the total number of bases in the file.
 
-    downloadPartAndSummarize($size1, $file1, $download, $errors);
-    downloadPartAndSummarize($size2, $file2, $download, $errors);
-    downloadPartAndSummarize($size3, $file3, $download, $errors);
+    downloadPartAndSummarize($size1, $file1, $download, $downsize, $errors);
+    downloadPartAndSummarize($size2, $file2, $download, $downsize, $errors);
+    downloadPartAndSummarize($size3, $file3, $download, $downsize, $errors);
 
     writeSummaries($data);
 

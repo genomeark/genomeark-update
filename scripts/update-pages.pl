@@ -340,17 +340,17 @@ foreach my $species (@speciesList) {
     $data{"data_status"}     = "<em style=\"color:green\">all data</em>"                       if ($data{"data_status"}) eq "all";
 
     $data{"data_status"}  = "'";
-    $data{"data_status"} .= "<em style=\"color:" . (($hasHQ) ? "green" : "red") . "\">HQ Long</em> ::: ";
-    $data{"data_status"} .= "<em style=\"color:" . (($hasLR) ? "green" : "red") . "\">Long</em> ::: ";
-    $data{"data_status"} .= "<em style=\"color:" . (($hasSR) ? "green" : "red") . "\">Short</em> ::: ";
-    $data{"data_status"} .= "<em style=\"color:" . (($hasPH) ? "green" : "red") . "\">Phasing</em> ::: ";
-    $data{"data_status"} .= "<em style=\"color:" . (($hasSC) ? "green" : "red") . "\">Scaffolding</em>";
+    $data{"data_status"} .= "<em style=\"color:" . (($hasHQ) ? "forestgreen" : "lightgray") . "\">HQ Long</em> ::: ";
+    $data{"data_status"} .= "<em style=\"color:" . (($hasLR) ? "forestgreen" : "lightgray") . "\">Long</em> ::: ";
+    $data{"data_status"} .= "<em style=\"color:" . (($hasSR) ? "forestgreen" : "lightgray") . "\">Short</em> ::: ";
+    $data{"data_status"} .= "<em style=\"color:" . (($hasPH) ? "forestgreen" : "lightgray") . "\">Phasing</em> ::: ";
+    $data{"data_status"} .= "<em style=\"color:" . (($hasSC) ? "forestgreen" : "lightgray") . "\">Scaffolding</em>";
     $data{"data_status"} .= "'";
 
-    $data{"assembly_status"} = "<em style=\"color:red\">none</em>"                    if ($data{"assembly_status"} eq "none");
-    $data{"assembly_status"} = "<em style=\"color:red\">low-quality draft</em>"       if ($data{"assembly_status"} eq "lqdraft");
-    $data{"assembly_status"} = "<em style=\"color:orange\">high-quality draft</em>"   if ($data{"assembly_status"} eq "hqdraft");
-    $data{"assembly_status"} = "<em style=\"color:green\">curated</em>"               if ($data{"assembly_status"} eq "curated");
+    $data{"assembly_status"} = "<em style=\"color:black\">none</em>"                     if ($data{"assembly_status"} eq "none");
+    $data{"assembly_status"} = "<em style=\"color:maroon\">low-quality draft</em>"       if ($data{"assembly_status"} eq "lqdraft");
+    $data{"assembly_status"} = "<em style=\"color:orangered\">high-quality draft</em>"   if ($data{"assembly_status"} eq "hqdraft");
+    $data{"assembly_status"} = "<em style=\"color:forestgreen\">curated</em>"            if ($data{"assembly_status"} eq "curated");
 
     #  If no date set -- no raw data, no assemblies, no anything -- set it to the
     #  date of this update (genomeark.ls's date).

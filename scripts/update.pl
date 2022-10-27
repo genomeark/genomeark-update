@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+die "This is the old version!"
+
 use strict;
 use Time::Local;
 
