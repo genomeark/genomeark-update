@@ -3,11 +3,12 @@
 #SBATCH --mem=16g
 #SBATCH --time=24:00:00
 
-updateFileList="no"
+updateFileList="yes"
 updateGenBank="yes"
 
 module load aws
 module load samtools
+module load edirect
 
 #  awscli v2 pipes all output through a pager, which we don't want.
 export AWS_PAGER=""
@@ -63,14 +64,14 @@ if [ $updateGenBank = "yes" ] ; then
     export PATH=/work/software/ncbi-edirect:$PATH
   fi
   if [ -e "/usr/local/apps/edirect/10.0/xtract" ] ; then
-    module load edirect/10.0
+    module load edirect
   fi
 
   for pp in PRJNA489243 PRJNA533106 ; do
     if [ ! -e "downloads/genbank.$pp.map.raw" ] ; then
       echo "Fetching downloads/genbank.$pp.xml."
 
-      esearch -db bioproject -q $pp \
+      esearch -db bioproject -query $pp \
       | \
       elink -db bioproject -target assembly -name bioproject_assembly_all \
       | \
