@@ -18,28 +18,26 @@
 #  are allowed in the project id - no underscores.
 #
 
+#mgp:
+# name: Monster Genome Project
+# url:  
+#bri:
+# name: Bri Research Institute
+# url:  
+
 vgp:
  name: Vertebrate Genomes Project
  url:  https://vertebrategenomesproject.org/
 t2t:
  name: Telomere-2-Telomere Project
  url:  https://sites.google.com/ucsc.edu/t2tworkinggroup
-mgp:
- name: Monster Genome Project
- url:  
-bri:
- name: Bri Research Institute
- url:  
-
 
 Gorilla_gorilla                  t2t
-Pan_paniscus                     t2t bri
-Pan_troglodytes                  t2t bri vgp
+Pan_paniscus                     t2t
+Pan_troglodytes                  t2t vgp
 Pongo_abelii                     t2t
 Pongo_pygmaeus                   t2t
 Symphalangus_syndactylus         t2t
-
-Gorilla_gorilla                  bri
 
 Acanthisitta_chloris             vgp
 Accipiter_gentilis               vgp

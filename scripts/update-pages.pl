@@ -68,8 +68,7 @@ system("mkdir -p $ga/_genomeark");
 foreach my $proj ("genomeark", getAllProjectNames()) {
     system("mkdir -p $ga/_$proj-all");
     system("mkdir -p $ga/_$proj-curated-assembly");
-    system("mkdir -p $ga/_$proj-hqdraft-assembly");
-    system("mkdir -p $ga/_$proj-lqdraft-assembly");
+    system("mkdir -p $ga/_$proj-draft-assembly");
     system("mkdir -p $ga/_$proj-raw-data-only");
 }
 
@@ -78,8 +77,7 @@ foreach my $proj ("genomeark", getAllProjectNames()) {
 foreach my $proj ("genomeark", getAllProjectNames()) {
     makeIndexPage($proj, "$ga", "$proj-all",              "All Species");
     makeIndexPage($proj, "$ga", "$proj-curated-assembly", "Species with Curated Assemblies");
-    makeIndexPage($proj, "$ga", "$proj-hqdraft-assembly", "Species with High-Quality Draft Assembles");
-    makeIndexPage($proj, "$ga", "$proj-lqdraft-assembly", "Species with Low-Quality Draft Assembles");
+    makeIndexPage($proj, "$ga", "$proj-draft-assembly",   "Species with Draft Assembles");
     makeIndexPage($proj, "$ga", "$proj-raw-data-only",    "Species without an Assembly");
 }
 
@@ -300,10 +298,10 @@ foreach my $species (@speciesList) {
     #  Create symlinks to the categories.
     #
     #  Name changes should change:
-    #  1)  the label used in this script ("low-quality-draft")
+    #  1)  the label used in this script ("draft-assembly")
     #  2)  the directory name in the symlink
-    #  3)  the actual directories (both "_genomeark-low-quality-draft" and "genomeark-low-quality-draft")
-    #  4)  the index.html in genomeark-low-quality-draft/  (both the title and the collection name)
+    #  3)  the actual directories (both "_genomeark-draft-assembly" and "genomeark-draft-assembly")
+    #  4)  the index.html in genomeark-draft-assembly/  (both the title and the collection name)
     #  5)  _config.yml (in two places) and index.html in the root directory.
     #
 
@@ -311,8 +309,7 @@ foreach my $species (@speciesList) {
         foreach my $proj ("genomeark", getAllProjectNames()) {
             unlink("$ga/_$proj-all/$name.md");
             unlink("$ga/_$proj-curated-assembly/$name.md");
-            unlink("$ga/_$proj-hqdraft-assembly/$name.md");
-            unlink("$ga/_$proj-lqdraft-assembly/$name.md");
+            unlink("$ga/_$proj-draft-assembly/$name.md");
             unlink("$ga/_$proj-raw-data-only/$name.md");
         }
 
@@ -327,8 +324,7 @@ foreach my $species (@speciesList) {
             makeLink($name, $proj, "all");
 
             if    ($data{"assembly_status"} eq "curated") { makeLink($name, $proj, "curated-assembly") }
-            elsif ($data{"assembly_status"} eq "hqdraft") { makeLink($name, $proj, "hqdraft-assembly") }
-            elsif ($data{"assembly_status"} eq "lqdraft") { makeLink($name, $proj, "lqdraft-assembly") }
+            elsif ($data{"assembly_status"} eq "draft")   { makeLink($name, $proj, "draft-assembly")   }
             else                                          { makeLink($name, $proj, "raw-data-only")    }
         }
     }
@@ -347,10 +343,9 @@ foreach my $species (@speciesList) {
     $data{"data_status"} .= "<em style=\"color:" . (($hasSC) ? "forestgreen" : "lightgray") . "\">Scaffolding</em>";
     $data{"data_status"} .= "'";
 
-    $data{"assembly_status"} = "<em style=\"color:black\">none</em>"                     if ($data{"assembly_status"} eq "none");
-    $data{"assembly_status"} = "<em style=\"color:maroon\">low-quality draft</em>"       if ($data{"assembly_status"} eq "lqdraft");
-    $data{"assembly_status"} = "<em style=\"color:orangered\">high-quality draft</em>"   if ($data{"assembly_status"} eq "hqdraft");
-    $data{"assembly_status"} = "<em style=\"color:forestgreen\">curated</em>"            if ($data{"assembly_status"} eq "curated");
+    $data{"assembly_status"} = "<em style=\"color:black\">none</em>"            if ($data{"assembly_status"} eq "none");
+    $data{"assembly_status"} = "<em style=\"color:orangered\">draft</em>"       if ($data{"assembly_status"} eq "draft");
+    $data{"assembly_status"} = "<em style=\"color:forestgreen\">curated</em>"   if ($data{"assembly_status"} eq "curated");
 
     #  If no date set -- no raw data, no assemblies, no anything -- set it to the
     #  date of this update (genomeark.ls's date).

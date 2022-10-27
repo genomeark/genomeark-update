@@ -14,10 +14,6 @@ use GenomeArkUtility;
 #use List::Util;
 use File::Basename;
 
-#  Thresholds for declaring contigs and scaffolds good or bad.
-my $goodCTG = 1000000;
-my $goodSCF = 10000000;
-
 my $aws          = "aws";
 my $seqrequester = "./seqrequester/build/bin/seqrequester";
 
@@ -266,11 +262,12 @@ sub generateAssemblySummaryHTML ($$$$) {
         my $ctgcolor = "";
         my $scfcolor = "";
 
-        #  For non-alternate assemblies (primary, maternal, paternal) highlight the n-50 line.
+        #  For non-alternate assemblies (primary, maternal, paternal)
+        #  highlight the n-50 line if it is crappy.
 
         if (($ii == 4) && ($prialt ne "alt")) {
-            $ctgcolor = ($ctgn50 <  $goodCTG) ? " style=\"background-color:#ff8888;\"" : " style=\"background-color:#88ff88;\"";
-            $scfcolor = ($scfn50 <  $goodSCF) ? " style=\"background-color:#ff8888;\"" : " style=\"background-color:#88ff88;\"";
+            $ctgcolor = ($ctgn50 <   1000000) ? " style=\"background-color:#ff8888;\"" : " style=\"background-color:#88ff88;\"";
+            $scfcolor = ($scfn50 <  10000000) ? " style=\"background-color:#ff8888;\"" : " style=\"background-color:#88ff88;\"";
         }
 
         if ($ii == 4) {
@@ -551,11 +548,10 @@ sub importAssemblySummary ($$$$$$) {
      $$data{"${prialt}${sNum}length"},
      $$data{"${prialt}${sNum}sizes"})  = generateAssemblySummaryHTML($prialt, $filename, $filesize, $$data{"genome_size"});
 
-    #  Update the assembly status based on the primary n50 and/or curation status.
-    #
-    #  This is complex.  If the assembly is "curated" or "merged" it is labeled
-    #  as curated.  But if "decontaminated", even if it's in 'assembly_curated',
-    #  it's still a draft.
+    #  Update the assembly status.  This used to be based on n50 of the
+    #  primary, but that isn't useful anymore (there were no low-quality
+    #  draft assemblies with n50 < 1 Mbp) and so was removed.  See e.g.,
+    #  19cbac3d3ff8dc3564162d6bf24e64ed645600f3.
 
     if (($prialt eq "pri") ||
         ($prialt eq "mat") || ($prialt eq "pat") ||
@@ -567,20 +563,9 @@ sub importAssemblySummary ($$$$$$) {
             $$data{"assembly_status"} = "curated";
         }
 
-        elsif (($$data{"${prialt}${sNum}n50ctg"} >= $goodCTG) &&
-               ($$data{"${prialt}${sNum}n50scf"} >= $goodSCF)) {
-            if ($$data{"assembly_status"} ne "curated") {
-                printf "  %8s <- status=hqdraft\n", "$prialt$sNum";
-                $$data{"assembly_status"} = "hqdraft"
-            }
-        }
-
         else {
-            if (($$data{"assembly_status"} ne "curated") &&
-                ($$data{"assembly_status"} ne "high-quality-draft")) {
-                printf "  %8s <- status=lqdraft\n", "$prialt$sNum";
-                $$data{"assembly_status"} = "lqdraft";
-            }
+            printf "  %8s <- status=draft\n", "$prialt$sNum";
+            $$data{"assembly_status"} = "draft";
         }
     }
 }
