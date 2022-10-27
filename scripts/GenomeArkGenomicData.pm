@@ -371,7 +371,7 @@ sub downloadPartAndSummarize ($$$$) {
     #  if it exists) and one for the partial summary we're going to make.
 
     my $oldsize  = (exists($dataQuant{$filename})) ? $dataQuant{$filename} : 0;
-    my $sumsize  = 2 * 1024 * 1024;
+    my $sumsize  = 2 * 1024 * 1024 * 1024;
 
     my $fullname = makeSummaryFileName($filename, undef);
     my $partname = makeSummaryFileName($filename, $sumsize);
