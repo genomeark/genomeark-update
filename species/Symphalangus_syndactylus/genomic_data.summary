@@ -2,12 +2,18 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+    35700418956               0      2147483648     66703467943       441744837  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/dovetail/G929_Jam_a_1_S6_R1_001.fastq.gz
+    35008265735               0      2147483648     66904658979       443077228  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/dovetail/G929_Jam_a_1_S6_R2_001.fastq.gz
+    33761207894               0      2147483648     63138560197       418136175  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/dovetail/G929_Jam_a_2_S12_R1_001.fastq.gz
     14819065105               0      2147483648     28819917078       190860384  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/illumina/mSymSyn1_HWGJLDSX2_19201958_S15_L001_R1_001.fastq.gz
     15368948285               0      2147483648     29001625006       192063741  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/illumina/mSymSyn1_HWGJLDSX2_19201958_S15_L001_R2_001.fastq.gz
     15280301241               0      2147483648     28860756231       191130843  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/illumina/mSymSyn1_HWGJLDSX2_19201958_S15_L003_R2_001.fastq.gz
     57293205452               0      2147483648     60236609588         3420010  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/ont/PAJ00629_guppy-5.0.12.fastq.gz
+    57523234148               0      2147483648     61079794169         2493031  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/ont/PAJ00629_guppy-6.1.1.fastq.gz
     74219177392               0      2147483648     77659344298         4596197  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/ont/PAJ00963_guppy-5.0.12.fastq.gz
+    74418734505               0      2147483648     78331203210         3865506  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/ont/PAJ00963_guppy-6.1.1.fastq.gz
     84434871954               0      2147483648     88507477056         5144924  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/ont/PAJ00968_guppy-5.0.12.fastq.gz
+    84857307466               0      2147483648     89690839185         3390090  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/ont/PAJ00968_guppy-6.1.1.fastq.gz
     22790546809               0      2147483648     31283580328         1666848  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m54329U_210901_104742.hifi_reads.fastq.gz
    864351150381               0      2147483648    465865608071        27123324  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m54329U_210901_104742.subreads.bam
      7503281643               0      2147483648     10037874056          561085  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m54329U_210904_103226.hifi_reads.fastq.gz
@@ -20,8 +26,9 @@
 -
 -   datatype suffix scaling
 ------------ ------ -------
+dovetail     *       1.8832
 illumina     *       1.9064
-ont          *       1.0484
+ont          *       1.0567
 pacbiohifi_fqgz *       1.2784
 pacbiohifi_clr *       0.5131
 ------------ ------ -------

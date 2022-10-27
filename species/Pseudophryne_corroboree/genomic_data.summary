@@ -2,6 +2,10 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+    47930077583               0      2147483648     89585172870       593279290  species/Pseudophryne_corroboree/aPseCor3/genomic_data/arima/aPseCor3_L1_S1_L004_R2_001.fastq.gz
+    52855258973               0      2147483648    101709821368       673575000  species/Pseudophryne_corroboree/aPseCor3/genomic_data/arima/aPseCor3_L2_S2_L004_R1_001.fastq.gz
+    55008995736               0      2147483648    102168382339       676611829  species/Pseudophryne_corroboree/aPseCor3/genomic_data/arima/aPseCor3_L2_S2_L004_R2_001.fastq.gz
+              0               0               0     10115753657           17070  species/Pseudophryne_corroboree/aPseCor3/genomic_data/bionano/aPseCor3_Saphyr_DLE1_3730924
     77243027466               0      2147483648     97020356561         6372031  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211119_062428.hifi_reads.bam
     16978933713               0      2147483648     21326225251         1400648  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211119_062428.hifi_reads.fastq.gz
    205148974017               0      2147483648     83205205397         5175143  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211120_155549.reads.bam
@@ -17,6 +21,7 @@
 -
 -   datatype suffix scaling
 ------------ ------ -------
+arima        *       1.8836
 pacbiohifi_fqgz *       7.3061
 pacbiohifi_bam *       7.3407
 pacbiohifi_clr *       0.3821

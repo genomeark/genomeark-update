@@ -4,6 +4,10 @@
 --------------- --------------- --------------- --------------- ---------------  ----------
     15521373245               0      2147483648     28819469212       190857412  species/Hoplias_malabaricus/fHopMal1/genomic_data/arima/fHopMal1_S5_L001_R1_001.fastq.gz
     16194148293               0      2147483648     28919929024       191522716  species/Hoplias_malabaricus/fHopMal1/genomic_data/arima/fHopMal1_S5_L001_R2_001.fastq.gz
+              0               0               0      1231280775             222  species/Hoplias_malabaricus/fHopMal1/genomic_data/bionano/fHopMal1_Saphyr_DLE1_3717248
+     6639597709               0      2147483648      8554323151          651486  species/Hoplias_malabaricus/fHopMal1/genomic_data/pacbio_hifi/m54306Ue_220630_175543.bc1019--bc1019.hifi_reads.fastq.gz
+     7443058658               0      2147483648      9602502470          743881  species/Hoplias_malabaricus/fHopMal1/genomic_data/pacbio_hifi/m54306Ue_220714_161024.hifi_reads.fastq.gz
+     6074429067               0      2147483648      7909144041          602983  species/Hoplias_malabaricus/fHopMal1/genomic_data/pacbio_hifi/m64330e_220625_014336.bc1019--bc1019.hifi_reads.fastq.gz
 --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +15,5 @@
 -   datatype suffix scaling
 ------------ ------ -------
 arima        *       1.8088
+pacbiohifi_fqgz *       1.2931
 ------------ ------ -------

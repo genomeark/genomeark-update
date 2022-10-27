@@ -21,6 +21,7 @@
      4349839569               0      2147483648      5321771122          372033  species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio_hifi/m54306U_210519_154448.hifi_reads.fastq.gz
    256138401855               0      2147483648    136835543115        10283900  species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio_hifi/m54306U_210519_154448.subreads.bam
      4506202246               0      2147483648      5516080079          385383  species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio_hifi/m54306U_210521_004211.hifi_reads.bam
+     4771265525               0      2147483648      5538009927          389042  species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio_hifi/m54306U_210521_004211.hifi_reads.fastq.gz
     35597404167               0      2147483648     43097472889         3549987  species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio_hifi/m54306Ue_210629_211205.hifi_reads.bam
      7907238016               0      2147483648      9573225464          788557  species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio_hifi/m54306Ue_210629_211205.hifi_reads.fastq.gz
    147948093089               0      2147483648     64234023481         5193138  species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio_hifi/m54306Ue_210629_211205.reads.bam
@@ -40,7 +41,7 @@
 arima        *       1.8484
 illumina     *       1.7968
 pacbio       *       0.2588
-pacbiohifi_fqgz *       1.2228
+pacbiohifi_fqgz *       1.2070
 pacbiohifi_bam *       1.2453
 pacbiohifi_clr *       0.5004
 ------------ ------ -------

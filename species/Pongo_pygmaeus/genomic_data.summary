@@ -2,6 +2,9 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+    18508498987               0      2147483648     33683943222       223072471  species/Pongo_pygmaeus/mPonPyg2/genomic_data/dovetail/G929_B_Ora_b_1_S3_R1_001.fastq.gz
+    28004019006               0      2147483648     51492034560       341006851  species/Pongo_pygmaeus/mPonPyg2/genomic_data/dovetail/G929_B_Ora_b_2_S9_R1_001.fastq.gz
+    28751262495               0      2147483648     51504621844       341090224  species/Pongo_pygmaeus/mPonPyg2/genomic_data/dovetail/G929_B_Ora_b_2_S9_R2_001.fastq.gz
     36567385204               0      2147483648     40215873909         1115811  species/Pongo_pygmaeus/mPonPyg2/genomic_data/ont/PAI60213_guppy-6.0.6.fastq.gz
     56743619218               0      2147483648     62788058871         1931992  species/Pongo_pygmaeus/mPonPyg2/genomic_data/ont/PAI60745_guppy-6.0.6.fastq.gz
     42792255824               0      2147483648     46091959275         2490378  species/Pongo_pygmaeus/mPonPyg2/genomic_data/ont/PAJ00725_guppy-6.1.1.fastq.gz
@@ -17,6 +20,7 @@
 -
 -   datatype suffix scaling
 ------------ ------ -------
+dovetail     *       1.8160
 ont          *       1.0954
 pacbiohifi_fqgz *       1.0964
 pacbiohifi_clr *       0.4969

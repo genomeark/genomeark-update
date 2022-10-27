@@ -2,9 +2,15 @@
 -
 -         bytes            date        quantity           bases           reads  file
 --------------- --------------- --------------- --------------- ---------------  ----------
+    21706069397               0      2147483648     39908946746       264297660  species/Gorilla_gorilla/mGorGor1/genomic_data/dovetail/G929_Gor_b_1_S2_R1_001.fastq.gz
+    22031930351               0      2147483648     40030442705       265102279  species/Gorilla_gorilla/mGorGor1/genomic_data/dovetail/G929_Gor_b_1_S2_R2_001.fastq.gz
+    18765765229               0      2147483648     34388743013       227740019  species/Gorilla_gorilla/mGorGor1/genomic_data/dovetail/G929_Gor_b_2_S8_R2_001.fastq.gz
     69774571018               0      2147483648     74270711995         2802408  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAG26815_guppy-5.0.12.fastq.gz
+    70231917450               0      2147483648     74460555283         2655293  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAG26815_guppy-6.1.1.fastq.gz
     83062142971               0      2147483648     87761035894         4954796  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAI19139_guppy-5.0.12.fastq.gz
+    83270961833               0      2147483648     88056126032         4770347  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAI19139_guppy-6.1.1.fastq.gz
     77340991629               0      2147483648     82629770432         3429068  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAI19180_guppy-5.0.12.fastq.gz
+    77709092392               0      2147483648     82767688610         3376888  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAI19180_guppy-6.1.1.fastq.gz
     27473244156               0      2147483648     29792465300         1863167  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m54329U_210319_174352.hifi_reads.fastq.gz
     29772139540               0      2147483648     41549171675         2305885  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m54329U_211102_230231.hifi_reads.fastq.gz
     25197894255               0      2147483648     31830584153         2094603  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m64076_210214_073735.Q20.fastq.gz
@@ -20,8 +26,9 @@
 -
 -   datatype suffix scaling
 ------------ ------ -------
+dovetail     *       1.8291
 illumina     *       1.9553
-ont          *       1.0629
+ont          *       1.0608
 pacbiohifi_fqgz *       1.2514
 pacbiohifi_clr *       0.4998
 ------------ ------ -------
