@@ -264,18 +264,7 @@ foreach my $species (@speciesList) {
     }
 
     #
-    #  Set the classification.
-    #    If no assembly, put it under either "some data" or "all data".
-    #    Otherwise, put it under the assembly classification.
-    #
-    #  Add classifications for:
-    #    HiFi + ONT
-    #    Pac + HIC/BioNano
-    #
-    #  HIC = arima or dovetail or phase
-    #
-    #  DIFFERENT from what it was:
-    #    all == pac and 10x and HIC and bionano
+    #  Build a list of the data types that exist.
     #
 
     sub hasCoverage ($@) {
@@ -288,11 +277,23 @@ foreach my $species (@speciesList) {
         return(0);
     }
 
-    my $hasHQ = hasCoverage(\%data, "pacbiohifi_fqgz", "pacbiohifi_bam", "ontduplex");             #  Has High Quality Long Reads
-    my $hasLR = hasCoverage(\%data, "pacbio", "ont");                                              #  Has Long Reads
-    my $hasSR = hasCoverage(\%data, "10x", "arima", "bionano", "dovetail", "illumina", "phase");   #  Has Short Reads
-    my $hasPH = hasCoverage(\%data, "10x", "bionano");                                             #  Has Phasing Reads
-    my $hasSC = hasCoverage(\%data, "arima", "dovetail", "phase");                                 #  Has Scaffolding Reads
+    my @have;
+    push @have, "<em style=\"color:forestgreen\">PacBio CLR</em>"  if hasCoverage(\%data, "pacbiohifi_fqgz", "pacbiohifi_bam");
+    push @have, "<em style=\"color:forestgreen\">PacBio HiFi</em>" if hasCoverage(\%data, "ontduplex");
+    push @have, "<em style=\"color:forestgreen\">ONT Simplex</em>" if hasCoverage(\%data, "pacbio");
+    push @have, "<em style=\"color:forestgreen\">ONT Duplex</em>"  if hasCoverage(\%data, "ont");
+    push @have, "<em style=\"color:forestgreen\">10x</em>"         if hasCoverage(\%data, "10x");
+    push @have, "<em style=\"color:forestgreen\">Bionano</em>"     if hasCoverage(\%data, "arima");
+    push @have, "<em style=\"color:forestgreen\">Arima</em>"       if hasCoverage(\%data, "bionano");
+    push @have, "<em style=\"color:forestgreen\">Dovetail</em>"    if hasCoverage(\%data, "dovetail");
+    push @have, "<em style=\"color:forestgreen\">Phase</em>"       if hasCoverage(\%data, "illumina");
+    push @have, "<em style=\"color:forestgreen\">Illumina</em>"    if hasCoverage(\%data, "phase");
+
+    if (scalar(@have) > 0) {
+        $data{"data_status"}  = "'" . join(" ::: ", @have) . "'";
+    } else {
+        $data{"data_status"}  = "'<em style=\"color:maroon\">No data</em>'";
+    }
 
     #
     #  Create symlinks to the categories.
@@ -329,23 +330,13 @@ foreach my $species (@speciesList) {
         }
     }
 
-    #  And reset the classifications to strings we can use in the display.
+    #
+    #  Convert the assembly status to colored html (we use the raw label just above here).
+    #
 
-    $data{"data_status"}     = "<em style=\"color:red\">no data</em>"                          if ($data{"data_status"}) eq "none";
-    $data{"data_status"}     = "<em style=\"color:orange\">some data</em>"                     if ($data{"data_status"}) eq "some";
-    $data{"data_status"}     = "<em style=\"color:green\">all data</em>"                       if ($data{"data_status"}) eq "all";
-
-    $data{"data_status"}  = "'";
-    $data{"data_status"} .= "<em style=\"color:" . (($hasHQ) ? "forestgreen" : "lightgray") . "\">HQ Long</em> ::: ";
-    $data{"data_status"} .= "<em style=\"color:" . (($hasLR) ? "forestgreen" : "lightgray") . "\">Long</em> ::: ";
-    $data{"data_status"} .= "<em style=\"color:" . (($hasSR) ? "forestgreen" : "lightgray") . "\">Short</em> ::: ";
-    $data{"data_status"} .= "<em style=\"color:" . (($hasPH) ? "forestgreen" : "lightgray") . "\">Phasing</em> ::: ";
-    $data{"data_status"} .= "<em style=\"color:" . (($hasSC) ? "forestgreen" : "lightgray") . "\">Scaffolding</em>";
-    $data{"data_status"} .= "'";
-
-    $data{"assembly_status"} = "<em style=\"color:black\">none</em>"            if ($data{"assembly_status"} eq "none");
-    $data{"assembly_status"} = "<em style=\"color:orangered\">draft</em>"       if ($data{"assembly_status"} eq "draft");
-    $data{"assembly_status"} = "<em style=\"color:forestgreen\">curated</em>"   if ($data{"assembly_status"} eq "curated");
+    $data{"assembly_status"} = "<em style=\"color:maroon\">No assembly</em>"    if ($data{"assembly_status"} eq "none");
+    $data{"assembly_status"} = "<em style=\"color:orangered\">Draft</em>"       if ($data{"assembly_status"} eq "draft");
+    $data{"assembly_status"} = "<em style=\"color:forestgreen\">Curated</em>"   if ($data{"assembly_status"} eq "curated");
 
     #  If no date set -- no raw data, no assemblies, no anything -- set it to the
     #  date of this update (genomeark.ls's date).
