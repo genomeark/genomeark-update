@@ -30,16 +30,16 @@ sub loadProjectMap () {
 
         if   (m/^name:\s*(.*)$/i) {                   #  Match a project text name.
             $projectIDtoProjectName{$proj} = $1;
-            print "  New PROJECT name '$proj' '$1'\n";
+            #print "  New PROJECT name '$proj' '$1'\n";
         }
         elsif (m/^url:\s*(.*)$/i) {                    #  Match a project URL.
             $projectIDtoProjectURL{$proj} = $1;
-            print "  New PROJECT url  '$proj' '$1'\n";
+            #print "  New PROJECT url  '$proj' '$1'\n";
         }
         elsif (m/^([a-zA-Z0-9]+):$/) {                 #  Match a project definition name.
             $proj = $1;
             $projectID{$proj} = 1;
-            print "  New PROJECT '$proj'\n";
+            #print "  New PROJECT '$proj'\n";
         }
 
         elsif (m/^([A-Z][a-z]+[a-z_]+)\s+(.*)$/) {   #  Match a species -> project mapping

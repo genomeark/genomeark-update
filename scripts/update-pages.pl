@@ -230,12 +230,8 @@ foreach my $species (@speciesList) {
         $type = "pacbio"           if ($tnam eq "PB CLR     ");
         $type = "pacbiohifi_fqgz"  if ($tnam eq "PB HiFi Q20");
         $type = "pacbiohifi_bam"   if ($tnam eq "PB HfFi All");
-        $type = "pacbiohifi_clr"   if ($tnam eq "PB HiFi Sub");
+        $type = "pacbiohifi_clr"   if ($tnam eq "PB HiFi Sub");    #  Don't list these!
         $type = "phase"            if ($tnam eq "Phase      ");
-
-#
-#  DON'T list hifi subreads
-#
 
         foreach my $k (uniquifyStringArray($seqIndiv{$type})) {
             $data{"data_${type}_links"} .= "s3://genomeark/species/$k/genomic_data/${path}/<br>";
@@ -254,12 +250,19 @@ foreach my $species (@speciesList) {
         else {
             next  if (!defined($data{"data_${type}_scale"}));
             next  if ($data{"data_${type}_scale"} < 0.001);
-            next  if ($data{"genome_size"} == 0);
 
-            $data{"data_${type}_bytes"}    = sprintf("%.3f GB", $seqBytes{$type} / 1024 / 1024 / 1024);
-            $data{"data_${type}_coverage"} = setCoverage($seqBytes{$type} * $data{"data_${type}_scale"}, $data{"genome_size"});
-            $data{"data_${type}_bases"}    = prettifyBases($seqBytes{$type} * $data{"data_${type}_scale"});
-            $data{"data_${type}_files"}    = 666; #$seqFiles{$type};
+            if ($data{"genome_size"} > 0) {
+                $data{"data_${type}_bytes"}    = sprintf("%.3f GB", $seqBytes{$type} / 1024 / 1024 / 1024);
+                $data{"data_${type}_coverage"} = setCoverage($seqBytes{$type} * $data{"data_${type}_scale"}, $data{"genome_size"});
+                $data{"data_${type}_bases"}    = prettifyBases($seqBytes{$type} * $data{"data_${type}_scale"});
+                $data{"data_${type}_files"}    = 666; #$seqFiles{$type};
+            }
+            else {
+                $data{"data_${type}_bytes"}    = sprintf("%.3f GB", $seqBytes{$type} / 1024 / 1024 / 1024);
+                $data{"data_${type}_coverage"} = "N/A";
+                $data{"data_${type}_bases"}    = prettifyBases($seqBytes{$type} * $data{"data_${type}_scale"});
+                $data{"data_${type}_files"}    = 666; #$seqFiles{$type};
+            }
         }
     }
 
@@ -267,27 +270,27 @@ foreach my $species (@speciesList) {
     #  Build a list of the data types that exist.
     #
 
-    sub hasCoverage ($@) {
+    sub hasBases ($@) {
         my $data = shift @_;
         foreach my $type (@_) {
-            next   if (!defined($$data{"data_${type}_coverage"}));
-            next   if ($$data{"data_${type}_coverage"} eq "N/A");
+            next   if (!defined($$data{"data_${type}_bases"}));
+            next   if ($$data{"data_${type}_bases"} eq "N/A");
             return(1);
         }
         return(0);
     }
 
     my @have;
-    push @have, "<em style=\"color:forestgreen\">PacBio CLR</em>"  if hasCoverage(\%data, "pacbiohifi_fqgz", "pacbiohifi_bam");
-    push @have, "<em style=\"color:forestgreen\">PacBio HiFi</em>" if hasCoverage(\%data, "ontduplex");
-    push @have, "<em style=\"color:forestgreen\">ONT Simplex</em>" if hasCoverage(\%data, "pacbio");
-    push @have, "<em style=\"color:forestgreen\">ONT Duplex</em>"  if hasCoverage(\%data, "ont");
-    push @have, "<em style=\"color:forestgreen\">10x</em>"         if hasCoverage(\%data, "10x");
-    push @have, "<em style=\"color:forestgreen\">Bionano</em>"     if hasCoverage(\%data, "arima");
-    push @have, "<em style=\"color:forestgreen\">Arima</em>"       if hasCoverage(\%data, "bionano");
-    push @have, "<em style=\"color:forestgreen\">Dovetail</em>"    if hasCoverage(\%data, "dovetail");
-    push @have, "<em style=\"color:forestgreen\">Phase</em>"       if hasCoverage(\%data, "illumina");
-    push @have, "<em style=\"color:forestgreen\">Illumina</em>"    if hasCoverage(\%data, "phase");
+    push @have, "<em style=\"color:forestgreen\">PacBio CLR</em>"  if hasBases(\%data, "pacbio");
+    push @have, "<em style=\"color:forestgreen\">PacBio HiFi</em>" if hasBases(\%data, "pacbiohifi_fqgz", "pacbiohifi_bam");
+    push @have, "<em style=\"color:forestgreen\">ONT Simplex</em>" if hasBases(\%data, "ont");
+    push @have, "<em style=\"color:forestgreen\">ONT Duplex</em>"  if hasBases(\%data, "ontduplex");
+    push @have, "<em style=\"color:forestgreen\">10x</em>"         if hasBases(\%data, "10x");
+    push @have, "<em style=\"color:forestgreen\">Bionano</em>"     if hasBases(\%data, "bionano");
+    push @have, "<em style=\"color:forestgreen\">Arima</em>"       if hasBases(\%data, "arima");
+    push @have, "<em style=\"color:forestgreen\">Dovetail</em>"    if hasBases(\%data, "dovetail");
+    push @have, "<em style=\"color:forestgreen\">Phase</em>"       if hasBases(\%data, "phase");
+    push @have, "<em style=\"color:forestgreen\">Illumina</em>"    if hasBases(\%data, "illumina");
 
     if (scalar(@have) > 0) {
         $data{"data_status"}  = "'" . join(" ::: ", @have) . "'";
