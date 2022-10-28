@@ -98,6 +98,11 @@ sub loadSpeciesMetadata ($$$$) {
     $$data{"genome_size"}         = 0   if (!defined($$data{"genome_size"}));
     $$data{"genome_size"}         = 0   if ($$data{"genome_size"} eq "");
 
+    if (($$data{"genome_size"} > 0) && ($$data{"genome_size"} < 1000)) {
+        push @$errors, "  Genome size $$data{'genome_size'} for $$data{'name'} ($$data{'common_name'}) is suspiciously low; assuming Gbp is implied.\n";
+        $$data{"genome_size"} *= 1000 * 1000 * 1000;
+    }
+
     $$data{"genome_size_method"}  = $$meta{"species.genome_size_method"};
     $$data{"genome_size_method"}  = ""  if (!defined($$data{"genome_size_method"}));
 
