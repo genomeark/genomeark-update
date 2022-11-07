@@ -22,6 +22,32 @@ use GenomeArkGenomicData;
 #use Update;
 #use Schedule;
 
+sub uniquifyStringArray ($) {    #  Split a \0 delimited string into an
+    my @a = split '\0', $_[0];   #  array of unique elements.
+    my %a;
+
+    foreach my $a (@a) {
+        $a{$a}++;
+    }
+
+    return(sort keys %a);
+}
+
+sub setCoverage ($$) {
+    my $b = shift @_;
+    my $g = shift @_;
+
+    die "setCoverage input bases not defined.\n"  if (!defined($b));
+    die "setCoverage genome size not defined.\n"  if (!defined($g));
+
+    if ($g > 0) {
+        return(sprintf("%.2fx", $b / $g));
+    } else {
+        return("N/A");
+    }
+}
+
+
 #
 #  Parse options.
 #
@@ -84,29 +110,30 @@ foreach my $proj ("genomeark", getAllProjectNames()) {
 #  Iterate over all species and do work!
 
 foreach my $species (@speciesList) {
-    my @speciesFiles = ();
-    my @speciesSizes = ();
-    my @speciesEpoch = ();
-
-    #  Rebuild each species.md file.
-
-    my %seqFiles = ();
-    my %seqBytes = ();
-    my %seqIndiv = ();
-    my %meta     = ();
-    my %data     = ();
 
     print "\n";
     print "----------------------------------------\n";
     print "Processing species  $species\n";
 
+    #  Load metadata, copy some of it into the .md data output.
+
+    my %meta = ();
+    my %data = ();
     my $name = loadSpeciesMetadata(\%data, $species, \%meta, \@potentialErrors);
 
     setGenbankIDs(\%data);
 
+    #  Extract the files associated with this species, returns the latest file-date.
+
+    my @speciesFiles = ();  #  A one-to-one list of file-names, file-sizes and 
+    my @speciesSizes = ();  #  file-dates for all files associated with this
+    my @speciesEpoch = ();  #  species.
+
     $data{"last_updated"} = getBucketFiles($name, \@speciesFiles, \@speciesSizes, \@speciesEpoch);
 
     print "  with ", scalar(@speciesFiles), " files.\n";
+
+    ########################################
 
     print "\n";
     print "----------\n";
@@ -126,7 +153,6 @@ foreach my $species (@speciesList) {
         }
     }
 
-
     print "\n";
     print "----------\n";
     print "Assemblies, pass 2: import summaries\n";
@@ -141,37 +167,32 @@ foreach my $species (@speciesList) {
         importAssemblySummary($filesecs, $filesize, $filename, \%data, \@potentialErrors, \%missingData);
     }
 
-    #
     #  Update genome size to one of the assembly sizes, if needed.
-    #
 
     $data{"genome_size"} = $data{"pri1length"}   if ($data{"genome_size"} == 0) && defined($data{"pri1length"});
     $data{"genome_size"} = $data{"pri2length"}   if ($data{"genome_size"} == 0) && defined($data{"pri2length"});
     $data{"genome_size"} = $data{"pri3length"}   if ($data{"genome_size"} == 0) && defined($data{"pri3length"});
     $data{"genome_size"} = $data{"pri4length"}   if ($data{"genome_size"} == 0) && defined($data{"pri4length"});
+    $data{"genome_size"} = $data{"pri5length"}   if ($data{"genome_size"} == 0) && defined($data{"pri5length"});
+    $data{"genome_size"} = $data{"pri6length"}   if ($data{"genome_size"} == 0) && defined($data{"pri6length"});
 
     $data{"genome_size_display"} = prettifyBases($data{"genome_size"});
 
-
+    ########################################
 
     print "\n";
     print "----------\n";
     print "Genomic Data, accumulation\n";
 
-    foreach my $type (@dataTypes) {
-        $seqFiles{$type} = "";
-        $seqBytes{$type} = 0;
-        $seqIndiv{$type} = "";
-    }
+    my %tiFiles = ();   #  Map from "type:indiv" to list of "type:indiv filesize filename\0"
+    my %tiBytes = ();   #  Map from "type:indiv" to sum of data size
+    my %tiIndiv = ();   #  Map from "type:indiv" to list of "species-name/individual-name\0"
 
     for (my $ii=0; $ii<scalar(@speciesFiles); $ii++) {
-        my $filesecs = $speciesEpoch[$ii];
-        my $filesize = $speciesSizes[$ii];
-        my $filename = $speciesFiles[$ii];
-
-        next   if (! isGenomicDataFile($filename));
-
-        accumulateData($filesecs, $filesize, $filename, \%data, \%seqFiles, \%seqBytes, \%seqIndiv, \@potentialErrors);
+        accumulateData($speciesEpoch[$ii], $speciesSizes[$ii], $speciesFiles[$ii],
+                       \%data,
+                       \%tiFiles, \%tiBytes, \%tiIndiv,
+                       \@potentialErrors);
     }
 
 
@@ -179,95 +200,103 @@ foreach my $species (@speciesList) {
     print "----------\n";
     print "Page Creation\n";
 
-    loadSummaries(\%data, \%seqFiles, \@potentialErrors);   #  Load existing summaries.
-
+    #  Load summaries of data files into %data.
+    #    $data{'data_${ti}_scale'}     -- scale factor for this ti
+    #    $data{'data_${ti}_bases'}     -- estimated bases for all files with the same ti
     #
-    #  Figure out how much and what types of data exist.
+    #  In update-pages.pl, the rest of the summary data is private.  DO NOT CALL writeSummaries()!
     #
+    loadSummaries(\%data, \%tiFiles, \@potentialErrors);
 
-    sub uniquifyStringArray ($) {    #  Split a \0 delimited string into an
-        my @a = split '\0', $_[0];   #  array of unique elements.
-        my %a;
+    #  Clear data for the bytes/bases in each ti and type.
+    #
+    foreach my $ti (keys %tiFiles) {
+        my ($ty, $in) = split ':', $ti;
 
-        foreach my $a (@a) {
-            $a{$a}++;
-        }
-
-        return(sort keys %a);
+        $data{"data_${ti}_bytes_v"} = 0;
+        $data{"data_${ti}_bases_v"} = 0;
+        $data{"data_${ty}_bytes_v"} = 0;
+        $data{"data_${ty}_bases_v"} = 0;
     }
 
-    sub setCoverage ($$) {
-        my $b = shift @_;
-        my $g = shift @_;
+    #  Sum bytes and estimated bases in each ti and type.
+    #
+    foreach my $ti (keys %tiFiles) {
+        my @tiflist = split '\0', $tiFiles{$ti};
 
-        if ($g > 0) {
-            return(sprintf("%.2fx", $b / $g));
-        } else {
-            return("N/A");
+        foreach my $tif (@tiflist) {
+            my ($ti, $bytes, $filename) = split '\s+', $tif;
+            my ($ty, $id) = split ':', $ti;
+
+            $data{"data_${ti}_bytes_v"} += $bytes;
+            $data{"data_${ty}_bytes_v"} += $bytes;
+
+            #if ($ty eq "bionano") {            
+            #    $data{"data_${ti}_bases_v"} += $data{"data_${ti}_bases"};
+            #    $data{"data_${ty}_bases_v"} += $data{"data_${ti}_bases"};
+            #}
+            #else {
+            #    $data{"data_${ti}_bases_v"} += $bytes * $data{"data_${ti}_scale"};
+            #    $data{"data_${ty}_bases_v"} += $bytes * $data{"data_${ti}_scale"};
+            #}
+            $data{"data_${ti}_bases_v"} += $bytes * $data{"data_${ti}_scale"};
+            $data{"data_${ty}_bases_v"} += $bytes * $data{"data_${ti}_scale"};
+
+            print "$ti ", $data{"data_${ti}_bytes_v"}, " ", $data{"data_${ti}_bases_v"}, " $ty ", $data{"data_${ty}_bytes_v"}, " ", $data{"data_${ti}_bases_v"}, "\n";
         }
     }
 
+    #  Convert the summed bytes/bases to display values.
+    #    $ti is unique, but $ty is not.
+    #    
+    foreach my $ti (keys %tiFiles) {
+        my ($ty, $id) = split ':', $ti;
 
-    foreach my $type (@dataTypes) {
-        next  if ($seqBytes{$type} == 0);
+        die  if (! exists($data{"data_${ti}_bytes_v"}));
+
+        $data{"data_${ti}_bytes"}    = prettifySize($data{"data_${ti}_bytes_v"});
+        $data{"data_${ti}_bases"}    = prettifyBases($data{"data_${ti}_bases_v"});
+        $data{"data_${ti}_coverage"} = setCoverage($data{"data_${ti}_bases_v"}, $data{"genome_size"});
+
+        delete $data{"data_${ti}_bytes_v"};
+        delete $data{"data_${ti}_bases_v"};
+
+        next if (! exists($data{"data_${ty}_bytes_v"}));
+
+        $data{"data_${ty}_bytes"}    = prettifySize($data{"data_${ty}_bytes_v"});
+        $data{"data_${ty}_bases"}    = prettifyBases($data{"data_${ty}_bases_v"});
+        $data{"data_${ty}_coverage"} = setCoverage($data{"data_${ty}_bases_v"}, $data{"genome_size"});
+
+        delete $data{"data_${ty}_bytes_v"};
+        delete $data{"data_${ty}_bases_v"};
+    }
+
+
+    #  Build a list of links to data for each ti.
+    #
+    #  https://genomeark.s3.amazonaws.com/index.html?prefix=species/Gallus_gallus
+    #  https://42basepairs.com/browse/s3/genomeark/species/Gallus_gallus
+    #
+    foreach my $ti (keys %tiFiles) {
+        my ($ty, $in) = split ':', $ti;
 
         #  Argh, the location of the reads is not the same as 'type'.
+        my $path = $ty;
+        $path = "pacbio_hifi"   if ($ty eq "pacbiohifi_fqgz");
+        $path = "pacbio_hifi"   if ($ty eq "pacbiohifi_bam");
+        $path = "pacbio_hifi"   if ($ty eq "pacbiohifi_clr");
+        $path = "ont_duplex"    if ($ty eq "ontduplex");
 
-        my $path = $type;
-        $path = "pacbio_hifi"   if ($type eq "pacbiohifi_fqgz");
-        $path = "pacbio_hifi"   if ($type eq "pacbiohifi_bam");
-        $path = "pacbio_hifi"   if ($type eq "pacbiohifi_clr");
-        $path = "ont_duplex"    if ($type eq "ontduplex");
+        my $sp = $data{"name_"};
 
-        my $tnam = $type;
-        $type = "10x"              if ($tnam eq "10x        ");
-        $type = "arima"            if ($tnam eq "Arima      ");
-        $type = "bionano"          if ($tnam eq "Bionano    ");
-        $type = "dovetail"         if ($tnam eq "Dovetail   ");
-        $type = "illumina"         if ($tnam eq "Illumina   ");
-        $type = "ont"              if ($tnam eq "ONT Simplex");
-        $type = "ontduplex"        if ($tnam eq "ONT Duplex ");
-        $type = "pacbio"           if ($tnam eq "PB CLR     ");
-        $type = "pacbiohifi_fqgz"  if ($tnam eq "PB HiFi Q20");
-        $type = "pacbiohifi_bam"   if ($tnam eq "PB HfFi All");
-        $type = "pacbiohifi_clr"   if ($tnam eq "PB HiFi Sub");    #  Don't list these!
-        $type = "phase"            if ($tnam eq "Phase      ");
+        $data{"data_${ti}_links"} .= "s3://genomeark/species/$sp/$in/genomic_data/$path/<br>";
 
-        foreach my $k (uniquifyStringArray($seqIndiv{$type})) {
-            $data{"data_${type}_links"} .= "s3://genomeark/species/$k/genomic_data/${path}/<br>";
-        }
-
-        if ($type eq "bionano") {                 #  BioNano has no scaling factor,
-            my $b = $data{"data_${type}_bases"};  #  but it knows the bases.
-
-            if (defined($b)) {
-                $data{"data_${type}_bytes"}    = sprintf("%.3f GB", $seqBytes{$type} / 1024 / 1024 / 1024);
-                $data{"data_${type}_coverage"} = setCoverage($b, $data{"genome_size"});
-                $data{"data_${type}_bases"}    = prettifyBases($b);
-                $data{"data_${type}_files"}    = 666;
-            }
-        }
-        else {
-            next  if (!defined($data{"data_${type}_scale"}));
-            next  if ($data{"data_${type}_scale"} < 0.001);
-
-            if ($data{"genome_size"} > 0) {
-                $data{"data_${type}_bytes"}    = sprintf("%.3f GB", $seqBytes{$type} / 1024 / 1024 / 1024);
-                $data{"data_${type}_coverage"} = setCoverage($seqBytes{$type} * $data{"data_${type}_scale"}, $data{"genome_size"});
-                $data{"data_${type}_bases"}    = prettifyBases($seqBytes{$type} * $data{"data_${type}_scale"});
-                $data{"data_${type}_files"}    = 666; #$seqFiles{$type};
-            }
-            else {
-                $data{"data_${type}_bytes"}    = sprintf("%.3f GB", $seqBytes{$type} / 1024 / 1024 / 1024);
-                $data{"data_${type}_coverage"} = "N/A";
-                $data{"data_${type}_bases"}    = prettifyBases($seqBytes{$type} * $data{"data_${type}_scale"});
-                $data{"data_${type}_files"}    = 666; #$seqFiles{$type};
-            }
-        }
+        $data{"data_${ti}_s3url"} .= "https://genomeark.s3.amazonaws.com/index.html?prefix=species/$sp/$in/genomic_data/$path/";
+        $data{"data_${ti}_s3gui"} .= "https://42basepairs.com/browse/s3/genomeark/species/$sp/$in/genomic_data/$path/";
     }
 
     #
-    #  Build a list of the data types that exist.
+    #  Build a list of the data types that exist for display in the species list pages.
     #
 
     sub hasBases ($@) {
@@ -297,6 +326,25 @@ foreach my $species (@speciesList) {
     } else {
         $data{"data_status"}  = "'<em style=\"color:maroon\">No data</em>'";
     }
+
+    #
+    #  Remove individual name from keys.
+    #
+
+    my $sn = $data{"short_name"};
+
+    print STDERR "Cleanup '$sn'\n";
+
+    foreach my $key (keys %data) {
+        if ($key =~ m/^(data_.*):$sn(\d_.*)$/) {
+            print "FIX:   '$key'\n";
+            $data{"$1-$2"} = $data{$key};
+            delete $data{$key};
+        } else {
+            print "CLEAN: '$key'\n";
+        }
+    }
+
 
     #
     #  Create symlinks to the categories.

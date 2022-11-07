@@ -134,7 +134,13 @@ sub saveData ($$) {
 
         die "undef data{$key}\n"  if (!defined($$data{$key}));
 
-        if ($$data{$key} ne "") {
+        if    (ref $$data{$key} eq "ARRAY") {
+            print MD "$key:\n";
+            foreach my $val (@$data{$key}) {
+                print MD " - $val\n";
+            }
+        }
+        elsif ($$data{$key} ne "") {
             chomp $$data{$key};
             print MD "$key: $$data{$key}\n";
         }

@@ -3,13 +3,13 @@ package GenomeArkGenomicData;
 require Exporter;
 
 @ISA    = qw(Exporter);
-@EXPORT = qw(@dataTypes loadSummaries writeSummaries estimateRawDataScaling);
+@EXPORT = qw(@dataTypes loadSummaries recoverSummaries writeSummaries estimateRawDataScaling);
 
 use strict;
 use warnings;
 
-use GenomeArkUtility;
 use GenomeArkBionano;
+use GenomeArkUtility;
 
 #use Time::Local;
 use List::Util qw(min max);
@@ -18,29 +18,40 @@ use File::Basename;
 my $aws          = "aws --no-sign-request";
 my $seqrequester = "./seqrequester/build/bin/seqrequester";
 
-my %dataBytes;   #  Number of bytes in a genomic_data sequence file.
-my %dataQuant;   #  Amount of raw file summarized (in gigabytes, or "all").
-my %dataBases;   #  Number of bases in piece summarized.
-my %dataReads;   #  Number of reads in piece summarized.
+#
+#  Summarized data (stored in e.g. 'species/Gallus_gallus/genomic_data.summary') is
+#  loaded into five maps from filename to each column in the summary file.
+#
+#  This data is extended when new data files are summarized (by
+#  loadSummaryIfExists() and loadSummaryFromFile()) and is then used to
+#  recreate genomic_data.summary at exit.
+#
 
+my %fnTypeI;   #  Map filename -> data-type and individual (: separated)
+my %fnBytes;   #  Map filename -> number of bytes in a genomic_data sequence file.
+#y %fnTimeS;   #  Map filename -> timestamp of summary -- not used!
+my %fnQuant;   #  Map filename -> Amount of raw file summarized (in gigabytes, or "all").
+my %fnBases;   #  Map filename -> number of bases in piece summarized.
+my %fnReads;   #  Map filename -> number of reads in piece summarized.
 
 #
 #  Update genomeark.github.io/_layouts/genomeark.html if this changes:
 #   - the coverage table
 #   - the list of links to download
 #
-our @dataTypes = qw(10x
-                    arima
-                    bionano
-                    dovetail
-                    illumina
-                    ont
-                    ontduplex
-                    pacbio
-                    pacbiohifi_fqgz
-                    pacbiohifi_bam
-                    pacbiohifi_clr
-                    phase);
+
+#our @dataTypes = qw(10x
+#                    arima
+#                    bionano
+#                    dovetail
+#                    illumina
+#                    ont
+#                    ontduplex
+#                    pacbio
+#                    pacbiohifi_fqgz
+#                    pacbiohifi_bam
+#                    pacbiohifi_clr
+#                    phase);
 
 
 #
@@ -77,67 +88,66 @@ sub makeSummaryFileName ($$) {
 #
 #  If, after all that work, we end up with no estimate, forget everything.
 #
-sub loadSummaryFromFile ($$$$$) {
+sub loadSummaryFromFile ($$$$$$) {
+    my $filetype  = shift @_;   #  type:indiv of the file we've summarized.
     my $filesize  = shift @_;   #  Size of the file we've summarized.
     my $filename  = shift @_;   #  Name of the file we've summarized.
     my $sumsize   = shift @_;   #  Amount of the file we summarized.
     my $summary   = shift @_;   #  Name of the summary file.
     my $errors    = shift @_;
 
-    $dataBytes{$filename} = $filesize;
-    $dataQuant{$filename} = $sumsize;
-    $dataBases{$filename} = 0;
-    $dataReads{$filename} = 0;
+    $fnBytes{$filename} = $filesize;
+    $fnQuant{$filename} = $sumsize;
+    $fnBases{$filename} = 0;
+    $fnReads{$filename} = 0;
+    $fnTypeI{$filename} = $filetype;
 
     print "  Import summary from '$summary'\n";
 
     open(ST, "< $summary") or die;
     while (<ST>) {
-        $dataBases{$filename} = $1   if (m/^G=(\d+)\s/);
-        $dataReads{$filename} = $1   if (m/^001.000x\s+(\d+)\s/)
+        $fnBases{$filename} = $1   if (m/^G=(\d+)\s/);
+        $fnReads{$filename} = $1   if (m/^001.000x\s+(\d+)\s/)
     }
     close(ST);
 
     if ($filesize != $sumsize) {
-        $dataBases{$filename} = int($dataBases{$filename} * $filesize / $sumsize);
-        $dataReads{$filename} = int($dataReads{$filename} * $filesize / $sumsize);
+        $fnBases{$filename} = int($fnBases{$filename} * $filesize / $sumsize);
+        $fnReads{$filename} = int($fnReads{$filename} * $filesize / $sumsize);
     }
 
-    if (($dataBases{$filename} == 0) ||
-        ($dataReads{$filename} == 0)) {
+    if (($fnBases{$filename} == 0) ||
+        ($fnReads{$filename} == 0)) {
         push @$errors, "Summary FAILED, no bases or reads found.  Summary saved in '$summary.BAD'.\n";
 
         unlink "$summary.BAD";
         rename "$summary", "$summary.BAD";
 
-        delete $dataBytes{$filename};
-        delete $dataQuant{$filename};
-        delete $dataBases{$filename};
-        delete $dataReads{$filename};
+        delete $fnBytes{$filename};
+        delete $fnQuant{$filename};
+        delete $fnBases{$filename};
+        delete $fnReads{$filename};
     }
 }
 
 #
 #  Load a summary, if any summary exists.
 #
-sub loadSummaryIfExists ($$$) {
+sub loadSummaryIfExists ($$$$) {
+    my $filetype  = shift @_;
     my $filesize  = shift @_;
     my $filename  = shift @_;
     my $fullname  = makeSummaryFileName($filename, undef);   #  Name of a full summary.
     my $partnames = makeSummaryFileName($filename, "*");     #  Glob to find any partial summaries.
     my $errors    = shift @_;
 
-    my $sumsize   = (exists($dataQuant{$filename})) ? $dataQuant{$filename} : 0;
+    my $sumsize   = (exists($fnQuant{$filename})) ? $fnQuant{$filename} : 0;
 
     my $newsize   = 0;
     my $newname   = "";
 
-    #print "loadSummaryIfExists()- look for '$fullname' and\n";
-    #print "                                '$partnames'\n";
-
     #  If a full summary exists, always use that.
     if (-e $fullname) {
-        #print "loadSummaryIfExists()- found    '$fullname'\n";
         $newsize = $filesize;
         $newname = $fullname;
     }
@@ -147,7 +157,6 @@ sub loadSummaryIfExists ($$$) {
         open(LS, "ls $partnames 2>/dev/null |");
         while (<LS>) {
             chomp;
-            #print "loadSummaryIfExists()- found    '$_'\n";
             if ($_ =~ m!/(\d+)-bytes--.*\.summary$!) {
                 if ($1 > $newsize) {
                     $newsize = $1;
@@ -161,31 +170,31 @@ sub loadSummaryIfExists ($$$) {
     #  Load the new summary if it summarized more data than we did.
 
     if ($newsize > $sumsize) {
-        #print "loadSummaryIfExists()- LOAD     '$fullname'\n";
-        loadSummaryFromFile($filesize, $filename, $newsize, $newname, $errors);
+        loadSummaryFromFile($filetype, $filesize, $filename, $newsize, $newname, $errors);
     }
 }
 
 
 #
-#  Load existing data summaries from 'species/$name/genomic_data.summary',
-#  then scan the list of seqFiles to find any new summaries that aren't in
-#  the global file - or any summaries that improve over what we know.
+#  Load existing data summaries from 'species/$name/genomic_data.summary'.
 #
 sub loadSummaries ($$$) {
-    my $data     = shift @_;
-    my $name     = $$data{"name_"};
-    my $seqFiles = shift @_;
-    my $errors   = shift @_;
+    my $data    = shift @_;          #  Pointer to global %data.
+    my $name    = $$data{"name_"};   #  Name of this species.
+    my $tiFiles = shift @_;          #  Map from ti to list of files - all data files are here.
+    my $errors  = shift @_;          #  List of output errors.
 
-    undef %dataBytes;
-    undef %dataQuant;
-    undef %dataBases;
-    undef %dataReads;
+    #  Clear any data from previous species.
 
-    my $bionanoBases = 0;
+    %fnBytes = ();
+    %fnQuant = ();
+    %fnBases = ();
+    %fnReads = ();
+    %fnTypeI = ();
 
+    #
     #  Load precomputed summaries.
+    #
 
     if (-e "species/$name/genomic_data.summary") {
         print "  Load summaries from species/$name/genomic_data.summary\n";
@@ -200,42 +209,51 @@ sub loadSummaries ($$$) {
 
             my @v = split '\s+', $_;
 
-            #   legacy
-            next   if (scalar(@v) == 0);
-            next   if ($v[0] eq "bytes");
+            #  If a file description, save the info.
 
-            if ((scalar(@v) == 6) && ($v[3] > 0)) {
-                my ($bytes, $date, $quant, $bases, $reads, $file) = @v;
+            if (scalar(@v) == 8) {
+                my ($type, $indiv, $bytes, $date, $quant, $bases, $reads, $file) = @v;
 
-                $dataBytes{$file} = $bytes;
-                $dataQuant{$file} = $quant;
-                $dataBases{$file} = $bases;
-                $dataReads{$file} = $reads;
-
-                $bionanoBases += $bases   if ($file =~ m!genomic_data/bionano/!);
+                $fnBytes{$file} =  $bytes;
+                $fnQuant{$file} =  $quant;
+                $fnBases{$file} =  $bases;
+                $fnReads{$file} =  $reads;
+                $fnTypeI{$file} = "$type:$indiv";
             }
-            if ((scalar(@v == 3)) && ($v[2] > 0)) {
-                my ($type, $ext, $scale) = @v;
 
-                $$data{"data_${type}_scale"} = $scale;
+            #  If a scaling summary, save the scale.
+
+            if (scalar(@v) == 4) {
+                my ($type, $indiv, $scale, $bases) = @v;
+
+                $$data{"data_${type}:${indiv}_scale"} = $scale;   #  Scale factor to convert bytes to bases.
+                $$data{"data_${type}:${indiv}_bases"} = $bases;   #  Current estimated bases; updated by scan-bucket.pl
             }
         }
         close(ST);
-
-        if ($bionanoBases > 0) {
-            $$data{"data_bionano_bases"} = $bionanoBases;
-        }
     }
+}
 
-    #  Load any summaries if they are new or better.
 
-    foreach my $type (sort keys %$seqFiles) {
-        my @files = split '\0', $$seqFiles{$type};
+#
+#  Scan the list of seqFiles to find any summaries that we don't know about
+#  or have been improved since the last run.  This will pull in manually
+#  generated summaries and recover a missing (or deleted)
+#  genomic_data.summary.
+#
+sub recoverSummaries ($$$) {
+    my $data    = shift @_;          #  Pointer to global %data.
+    my $name    = $$data{"name_"};   #  Name of this species.
+    my $tiFiles = shift @_;          #  Map from ti to list of files - all data files are here.
+    my $errors  = shift @_;          #  List of output errors.
 
-        foreach my $sizefile (@files) {
-            my ($s, $n) = split '\s+', $sizefile;
+    foreach my $ti (keys %$tiFiles) {
+        my @tifs = split '\0', $$tiFiles{$ti};
 
-            loadSummaryIfExists($s, $n, $errors);
+        foreach my $tif (@tifs) {
+            my ($i, $s, $n) = split '\s+', $tif;
+
+            loadSummaryIfExists($i, $s, $n, $errors);
         }
     }
 }
@@ -254,37 +272,44 @@ sub writeSummaries ($) {
 
     print ST "-  GENOMIC DATA FILE SUMMARIES\n";
     print ST "-\n";
-    print ST "-         bytes            date        quantity           bases           reads  file\n";
-    print ST "--------------- --------------- --------------- --------------- ---------------  ----------\n";
+    print ST "-data-type      individual                 bytes            date        quantity           bases           reads   file\n";
+    print ST "--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------\n";
 
-    foreach my $file (sort keys %dataBytes) {
+    my %types;
+
+    foreach my $file (sort keys %fnBytes) {
         my  $date = 0;   #  For later use, maybe.
 
-        next   if (! exists($dataBytes{$file}));
-        next   if (! exists($dataQuant{$file}));
-        next   if (! exists($dataBases{$file}));
-        next   if (! exists($dataReads{$file}));
+        next   if (! exists($fnBytes{$file}));
+        next   if (! exists($fnQuant{$file}));
+        next   if (! exists($fnBases{$file}));
+        next   if (! exists($fnReads{$file}));
+        next   if (! exists($fnTypeI{$file}));
 
-        printf(ST "%15d %15d %15s %15d %15d  %s\n", $dataBytes{$file}, $date, $dataQuant{$file}, $dataBases{$file}, $dataReads{$file}, $file);
+        $types{$fnTypeI{$file}}++;
+
+        my ($type, $indiv) = split ':', $fnTypeI{$file};
+
+        printf(ST "%-15s %-15s  %15d %15d %15s %15d %15d  %s\n", $type, $indiv, $fnBytes{$file}, $date, $fnQuant{$file}, $fnBases{$file}, $fnReads{$file}, $file);
     }
 
-    print ST "--------------- --------------- --------------- --------------- ---------------  ----------\n";
+    print ST "--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------\n";
     print ST "\n";
     print ST "-  GENOMIC DATA SCALING FACTORS\n";
     print ST "-\n";
-    print ST "-   datatype suffix scaling\n";
-    print ST "------------ ------ -------\n";
+    print ST "-datatype       individual       scaling           bases\n";
+    print ST "--------------- ---------------  ------- ---------------\n";
 
-    foreach my $type (@dataTypes) {
-        my $scale = $$data{"data_${type}_scale"};
+    foreach my $ti (sort keys %types) {
+        my ($ty, $in) = split ':', $ti;
 
-        next   if (! defined($scale));
-        next   if ($scale <= 0.001);
+        my $scale = $$data{"data_${ti}_scale"};
+        my $bases = $$data{"data_${ti}_bases"};
 
-        printf(ST "%-12s %-6s %7.4f\n", $type, "*", $$data{"data_${type}_scale"});
+        printf(ST "%-15s %-15s  %7.4f %15d\n", $ty, $in, $scale, $bases);
     }
 
-    print ST "------------ ------ -------\n";
+    print ST "--------------- ---------------  ------- ---------------\n";
 
     close(ST);
 }
@@ -293,7 +318,8 @@ sub writeSummaries ($) {
 #
 #  If the summary doesn't exist for all the data, download the whole file and summarize.
 #
-sub downloadFullAndSummarize ($$$$) {
+sub downloadFullAndSummarize ($$$$$) {
+    my $filetype = shift @_;
     my $filesize = shift @_;
     my $filename = shift @_;
     my $fdir     = dirname($filename);
@@ -304,7 +330,7 @@ sub downloadFullAndSummarize ($$$$) {
 
     #  If the whole summary exists, do not recompute it.
 
-    return   if (exists($dataQuant{$filename}) && $dataQuant{$filename} eq "all");
+    return   if (exists($fnQuant{$filename}) && $fnQuant{$filename} eq "all");
 
     die      if (-e $fullname);   #  It should be loaded already!
 
@@ -358,14 +384,15 @@ sub downloadFullAndSummarize ($$$$) {
 
     #  Parse the summary to find the number of bases in the dataset.
 
-    loadSummaryFromFile($filesize, $filename, $filesize, $fullname, $errors);
+    loadSummaryFromFile($filetype, $filesize, $filename, $filesize, $fullname, $errors);
 }
 
 
 #
 #  If no estimated number of bases exists, download a part of the file and summarize.
 #
-sub downloadPartAndSummarize ($$$$$) {
+sub downloadPartAndSummarize ($$$$$$) {
+    my $filetype = shift @_;
     my $filesize = shift @_;
     my $filename = shift @_;
     my $fdir     = dirname($filename);
@@ -378,7 +405,7 @@ sub downloadPartAndSummarize ($$$$$) {
     #  Generate some summary file names, one for a full summary (to be used
     #  if it exists) and one for the partial summary we're going to make.
 
-    my $oldsize  = (exists($dataQuant{$filename})) ? $dataQuant{$filename} : 0;
+    my $oldsize  = (exists($fnQuant{$filename})) ? $fnQuant{$filename} : 0;
     my $sumsize  = $downsize;
 
     my $fullname = makeSummaryFileName($filename, undef);
@@ -391,13 +418,13 @@ sub downloadPartAndSummarize ($$$$$) {
 
     #  If there is a full summary around, use that.
     elsif (-e $fullname) {
-        loadSummaryFromFile($filesize, $filename, $filesize, $fullname, $errors);
+        loadSummaryFromFile($filetype, $filesize, $filename, $filesize, $fullname, $errors);
         return;
     }
 
     #  If there is ALREADY a data file around to summarize, make a full summary.
     elsif (-e "downloads/$filename") {
-        downloadFullAndSummarize($filesize, $filename, $download, $errors);
+        downloadFullAndSummarize($filetype, $filesize, $filename, $download, $errors);
         return;
     }
 
@@ -418,7 +445,7 @@ sub downloadPartAndSummarize ($$$$$) {
 
     #  If the file isn't hugely bigger than the size we'd sample, just do the whole thing.
     if ($filesize < 2 * $sumsize) {
-        downloadFullAndSummarize($filesize, $filename, $download, $errors);
+        downloadFullAndSummarize($filetype, $filesize, $filename, $download, $errors);
         return;
     }
 
@@ -463,103 +490,150 @@ sub downloadPartAndSummarize ($$$$$) {
         #system("rm -f $df");
     }
 
-    loadSummaryFromFile($filesize, $filename, $sumsize, $partname, $errors);
+    loadSummaryFromFile($filetype, $filesize, $filename, $sumsize, $partname, $errors);
 }
 
 
 
 #
-#  Given a species_name, a genomic data type and a list of seqFiles
-#  ("filesize datafile" separated by \0 bytes), compute a
-#  scalaing factor that will convert a filesize into an estimated number of
-#  bases in the (compressed) file.
+#  Given a species_name, a type-x-individual and a list of tiFiles
+#  ("type:indiv filesize datafile\0"), compute a scalaing factor that will
+#  convert a file size into an estimated number of bases.
 #
+#  The estimate is two-fold:
+#    1) Three files are paritally downloaded and converted to bases.
+#    2) Those three estimates are used to compute a global estimate for
+#       all files of the same type:individual.
+#
+#  Outputs:
+#    $data{'data_${ti}_scale'}     -- scale factor for this ti
+#    $data{'data_${ti}_bases'}     -- estimated bases for all files with the same ti
+#
+
 sub estimateRawDataScaling ($$$$$$$) {
-    my $data     = shift @_;
-    my $name     = $$data{"name_"};
-    my $type     = shift @_;
-    my $files    = shift @_;
-    my $errors   = shift @_;
-    my $missing  = shift @_;
-    my $download = shift @_;
-    my $downsize = shift @_;
-    my $warning  = 0;  #shift @_;
+    my $data     = shift @_;   #  inout:   Global %data
+    my $ti       = shift @_;   #  input:   "type:indiv" we're estimating for
+    my $filelist = shift @_;   #  input:   list of "type:indiv filesize datafile\0" to estimate bases for
+    my $filesize =       0;    #  compute: total size of all files with this ti
+    my $errors   = shift @_;   #  output:  array of errors encountered
+    my $missing  = shift @_;   #  output:  array of files with missing data
+    my $download = shift @_;   #  input:   true if we're allowed to download missing data files
+    my $downsize = shift @_;   #  input:   limit on download size
 
-    return   if (!defined($files) || ($files eq ""));
+    return   if (!defined($filelist));
+    return   if ($filelist eq "");
 
-    my @files    = split '\0', $files;
-    my $filesLen = scalar(@files);
+    my @filelist = split '\0', $filelist;
+    my $filesLen = scalar(@filelist);
 
     return   if ($filesLen == 0);
 
-    @files = sort { 
-        my ($s1, $n1) = split '\s+', $a;
-        my ($s2, $n2) = split '\s+', $b;
-        return($s1 <=> $s2);
-    } @files;
+    print " - $ti:\n";
 
-    if ($type eq "bionano") {
-        $$data{"data_${type}_bases"} = computeBionanoBases($data, \@files, \%dataBytes, \%dataQuant, \%dataBases, \%dataReads, $missing, $download);
+    #  Bionano is special since 'bases' is the coverage of the molecules, not
+    #  actual bases in the data file.
+
+    if ($ti =~ m/bionano/) {
+        my $basestotal = 0;
+        my $bytestotal = 0;
+
+        for (my $ii=0; $ii<$filesLen; $ii++) {
+            my ($tind, $size, $file) = split '\s+', $filelist[$ii];
+
+            my $name = $file;         #  We key off the basename for some reason.
+            $name =~ s/\.bnx\.gz$//;
+            $name =~ s/\.bnx$//;
+
+            #  If genomic_data.summary already knows the bases for this file, use that.
+            if (exists($fnBases{$name})) {
+                printf "    %s%s %12d %s\n", "S", "E", $size, $file;
+            }
+
+            #  Otherwise, download and compute, then update the data for genomic_data.summary.
+            else {
+                printf "    %s%s %12d %s\n", "S", " ", $size, $file;
+
+                my ($bases, $reads) = computeBionanoBases($data, $tind, $size, $file, $missing, $download);
+
+                $fnBytes{$name} = $size;
+                $fnQuant{$name} = $size;
+                $fnBases{$name} = $bases;  #sLength;
+                $fnReads{$name} = $reads;  #nMolecules;
+                $fnTypeI{$name} = $tind;
+            }
+
+            $basestotal += $fnBases{$name};
+            $bytestotal += $fnBytes{$name};
+        }
+
+        $$data{"data_${ti}_scale"} = int(10000 * $basestotal / $bytestotal) / 10000.0;
+        $$data{"data_${ti}_bases"} = $basestotal;
+
+        print "\n";
+
         return;
     }
+
+    #  Sort files by size.
+
+    @filelist = sort { 
+        my ($i1, $s1, $n1) = split '\s+', $a;
+        my ($i2, $s2, $n2) = split '\s+', $b;
+        return($s1 <=> $s2);
+    } @filelist;
+
+    #  Use the 1/4, 1/2 and 3/4 largest files to estimate a byte:base ratio.
 
     my $f1 = int(1 * $filesLen / 4);   #  Pick three files representative file (indices)
     my $f2 = int(2 * $filesLen / 4);   #  from the list of input files sorted by size.
     my $f3 = int(3 * $filesLen / 4);
 
-    my ($size1, $file1) = split '\s', $files[$f1];   #  Extract name and size from input list;
-    my ($size2, $file2) = split '\s', $files[$f2];   #  bases and seqs are undefined.
-    my ($size3, $file3) = split '\s', $files[$f3];
+    my ($ind1, $size1, $file1) = split '\s', $filelist[$f1];   #  Extract name and size from input list;
+    my ($ind2, $size2, $file2) = split '\s', $filelist[$f2];   #  bases and seqs are undefined.
+    my ($ind3, $size3, $file3) = split '\s', $filelist[$f3];
 
     #  Print a list of the data present, marking which ones we have
     #  summarized already or will use for estimation.
 
-    print " - $type:\n";
-
     for (my $ii=0; $ii<$filesLen; $ii++) {
-        my ($size, $file) = split '\s+', $files[$ii];
+        my ($ind, $size, $file) = split '\s+', $filelist[$ii];
 
-        my $se = (exists($dataBases{$file})) ? "S" : " ";    #  Summary exists?
-        my $us = (($ii == $f1) ||                            #  Used for estimation?
+        my $se = (exists($fnBases{$file})) ? "S" : " ";    #  Summary exists?
+        my $us = (($ii == $f1) ||                          #  Used for estimation?
                   ($ii == $f2) ||
                   ($ii == $f3)) ? "E" : " ";
 
         printf "    %s%s %12d %s\n", $se, $us, $size, $file;
+
+        $filesize += $size;
     }
     printf "\n";
 
-    #  If needed, download a subset of the data from three files and use that to
-    #  estimate the total number of bases in the file.
+    #  If needed, download a subset of the data from those three files and
+    #  use it to estimate the total number of bases in the file.
 
-    downloadPartAndSummarize($size1, $file1, $download, $downsize, $errors);
-    downloadPartAndSummarize($size2, $file2, $download, $downsize, $errors);
-    downloadPartAndSummarize($size3, $file3, $download, $downsize, $errors);
-
-    writeSummaries($data);
+    downloadPartAndSummarize($ind1, $size1, $file1, $download, $downsize, $errors);
+    downloadPartAndSummarize($ind2, $size2, $file2, $download, $downsize, $errors);
+    downloadPartAndSummarize($ind3, $size3, $file3, $download, $downsize, $errors);
 
     #  Get an estimate of (or, rarely, the actual) number of bases in each file.
+    #
+    #  The scaling has precision limited to x.xxxx to avoid differences in rounding.
+    #
+    #  If any of the estimates do not exist, fall back to a hard coded estimate,
+    #  and emit a warning.
 
     my $scaling;
 
-    if (!exists($dataBases{$file1}) ||        #  Fail if any of the size computations failed.
-        !exists($dataBases{$file2}) ||
-        !exists($dataBases{$file3})) {
-        $$missing{ $$data{"name_"} } .= "$type ";
+    if (!exists($fnBases{$file1}) ||
+        !exists($fnBases{$file2}) ||
+        !exists($fnBases{$file3})) {
+        $$missing{ $$data{"name_"} } .= "$ti ";
 
-        if ($warning) {
-            if ($download) {
-                push @$errors, "  FAILED to estimate sizes for:  (will use approximate scaling estimate)\n";
-                push @$errors, "    File 1 $file1\n"   if (!exists($dataBases{$file1}));
-                push @$errors, "    File 2 $file2\n"   if (!exists($dataBases{$file2}));
-                push @$errors, "    File 3 $file3\n"   if (!exists($dataBases{$file3}));
-            }
-            else {
-                push @$errors, "  WARNING: Size estimates not generated for:  (will use approximate scaling estimate)\n";
-                push @$errors, "    File 1 $file1\n"   if (!exists($dataBases{$file1}));
-                push @$errors, "    File 2 $file2\n"   if (!exists($dataBases{$file2}));
-                push @$errors, "    File 3 $file3\n"   if (!exists($dataBases{$file3}));
-            }
-        }
+        push @$errors, "  WARNING: Size estimates not generated for:  (will use approximate scaling estimate)\n";
+        push @$errors, "    File 1 $file1\n"   if (!exists($fnBases{$file1}));
+        push @$errors, "    File 2 $file2\n"   if (!exists($fnBases{$file2}));
+        push @$errors, "    File 3 $file3\n"   if (!exists($fnBases{$file3}));
 
         $scaling = 1.5   if ($file1 =~ m!genomic_data/10x!);           #  Bimodal, ~1.4 and ~1.8
         $scaling = 1.5   if ($file1 =~ m!genomic_data/arima!);         #  Bimodal, ~1.5 and ~1.8
@@ -572,15 +646,16 @@ sub estimateRawDataScaling ($$$$$$$) {
         $scaling = 1.6   if ($file1 =~ m!genomic_data/phase!);
     }
     else {
-        my $sumbases = $dataBases{$file1} + $dataBases{$file2} + $dataBases{$file3};
-        my $sumsizes = $size1             + $size2             + $size3;
+        my $sumbases = $fnBases{$file1} + $fnBases{$file2} + $fnBases{$file3};
+        my $sumsizes = $size1           + $size2           + $size3;
 
-        #  Limit precision to avoid differences in rounding
         $scaling = int(10000 * $sumbases / $sumsizes) / 10000.0;
     }
 
     #  Save the scaling so we can write it in writeSummaries.
-    $$data{"data_${type}_scale"} = $scaling;
+
+    $$data{"data_${ti}_scale"} =     $scaling;
+    $$data{"data_${ti}_bases"} = int($scaling * $filesize);
 }
 
 return(1);

@@ -3,39 +3,35 @@ package GenomeArkAccumulateData;
 require Exporter;
 
 @ISA    = qw(Exporter);
-@EXPORT = qw(scanDataName accumulateData);
+@EXPORT = qw(rememberHiFiName accumulateData);
 
 use strict;
 use warnings;
 
+use GenomeArkUpdate;
+
 #
-#  Given input filesecs and filename, scanDataName updates the 'modified' date
-#  for the species, and builds a private hash of the filenames present.  This
-#  is used later to check for bam files without a corresponding fastq file.
-#
-#  Given input filesize and filename, accumulateData places the filename into
-#  three lists separated by datatype:
-#    seqFiles{datatype} - list of filesizes and filenames for this datatype
-#    seqBytes{datatype} - total size of files for this datatype
-#    seqIndiv{datatype} - NUL separated list of individuals with data for this datatype
+#  rememberHiFiName saves all the hifi fastq data names in a private hash.
+#  This is used later to check for bam files without a corresponding fastq
+#  file.
 #
 
-my %filenames;
+my %hifinames;   #  Doesn't appear to be used...!
 
-sub scanDataName ($$$$) {
-    my $filesecs = shift @_;   #  Input:  upload time of the data file.
-    my $filesize = shift @_;   #  Input:  size in bytes of the data file.
+sub rememberHiFiName ($$) {
     my $filename = shift @_;   #  Input:  name of the data file.
     my $data     = shift @_;   #  In/Out: data for this species.
 
-    if (!exists($filenames{$$data{"name_"}})) {   #  If this is the first time we've seen
-        undef %filenames;                         #  this species, wipe all data.
-        $filenames{$$data{"name_"}} = 1;
+    return  if (! isGenomicDataFile($filename));
+
+    if (!exists($hifinames{$$data{"name_"}})) {   #  If this is the first time we've seen
+        undef %hifinames;                         #  this species, wipe all data.
+        $hifinames{$$data{"name_"}} = 1;
     }
 
     #  Save the name of any pacbio_hifi fastq files.
     if ($filename =~ m!pacbio_hifi/(.*)\.f(ast){0,1}q$!) {
-        $filenames{$1} = 1;
+        $hifinames{$1} = 1;
     }
 }
 
@@ -54,29 +50,33 @@ sub saveDataDate ($$) {
 }
 
 
+#
+#  Given input filesize and filename, accumulateData places the filename into
+#  three lists separated by datatype:
+#    seqFiles{datatype} - list of filesizes and filenames for this datatype
+#    seqBytes{datatype} - total size of files for this datatype
+#    seqIndiv{datatype} - NUL separated list of individuals with data for this datatype
+#
 sub accumulateData ($$$$$$$$) {
     my $filesecs = shift @_;   #  Input:  upload time of the data file.
     my $filesize = shift @_;   #  Input:  size in bytes of the data file.
     my $filename = shift @_;   #  Input:  name of the data file.
+
     my $data     = shift @_;   #  In/Out: data for this species.
-    my $seqFiles = shift @_;   #  In/Out: list of file names by sequence type.  (technically "size name")
-    my $seqBytes = shift @_;   #  In/Out: sum  of file sizes by sequence type.
-    my $seqIndiv = shift @_;   #  In/Out: list of individual by sequence type.
+    my $tiFiles  = shift @_;   #  In/Out: list of file names by sequence type.  (technically "type:indiv size name")
+    my $tiBytes  = shift @_;   #  In/Out: sum  of file sizes by sequence type.
+    my $tiIndiv  = shift @_;   #  In/Out: list of individual by sequence type.  (technically "type:indiv")
     my $errors   = shift @_;   #  In/Out: list of potential errors.
     my $warning  = 0;
 
+    return  if (! isGenomicDataFile($filename));
+
     my $sName;   #  Name of the species.
     my $iName;   #  Name of the individual.
-    my $sf;      #  Output filename, appended to seqFiles
-    my $sb;      #  Output filesize, added to seqBytes
-    my $si;      #  Output individual, appended to seqIndiv
 
     if ($filename =~ m!species/(.*)/(.*)/genomic_data!) {
         $sName = $1;
         $iName = $2;
-        $sf    = "$filesize $filename\0";
-        $sb    = $filesize;
-        $si    = "$sName/$iName\0";
     } else {
         die "failed to parse species name and individual from '$filename'\n";
     }
@@ -86,9 +86,9 @@ sub accumulateData ($$$$$$$$) {
 
         if (($filename =~ m/fastq.gz$/) ||
             ($filename =~ m/fq.gz$/)) {
-            $$seqFiles{"10x"} .= $sf;
-            $$seqBytes{"10x"} += $sb;
-            $$seqIndiv{"10x"} .= $si;
+            $$tiFiles{"10x:$iName"} .= "10x:$iName $filesize $filename\0";
+            $$tiBytes{"10x:$iName"} += $filesize;
+            $$tiIndiv{"10x:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         }
         else {
@@ -106,9 +106,9 @@ sub accumulateData ($$$$$$$$) {
 
         if (($filename =~ m/fastq.gz$/) ||
             ($filename =~ m/fq.gz$/)) {
-            $$seqFiles{"arima"} .= $sf;
-            $$seqBytes{"arima"} += $sb;
-            $$seqIndiv{"arima"} .= $si;
+            $$tiFiles{"arima:$iName"} .= "arima:$iName $filesize $filename\0";
+            $$tiBytes{"arima:$iName"} += $filesize;
+            $$tiIndiv{"arima:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         }
         else {
@@ -121,20 +121,28 @@ sub accumulateData ($$$$$$$$) {
     if ($filename =~ m!/genomic_data/bionano/!) {
         return if ($filename =~ m/txt$/);
 
-        if      ($filename =~ m/cmap/) {
-            $$seqFiles{"bionano"} .= $sf;
-            $$seqBytes{"bionano"} += $sb;
-            $$seqIndiv{"bionano"} .= $si;
+        if    ($filename =~ m/cmap.gz$/) {
+            #$$tiFiles{"bionano:$iName"} .= "bionano:$iName $filesize $filename\0";
+            $$tiBytes{"bionano:$iName"} += $filesize;
+            $$tiIndiv{"bionano:$iName"} .= "$sName/$iName\0";
+            saveDataDate($filesecs, $data);
+        }
+        elsif ($filename =~ m/cmap$/) {
+            #$$tiFiles{"bionano:$iName"} .= "bionano:$iName $filesize $filename\0";
+            $$tiBytes{"bionano:$iName"} += $filesize;
+            $$tiIndiv{"bionano:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         }
         elsif ($filename =~ m/bnx.gz$/) {
-            $$seqBytes{"bionano"} += $sb;
-            $$seqIndiv{"bionano"} .= $si;
+            $$tiFiles{"bionano:$iName"} .= "bionano:$iName $filesize $filename\0";
+            $$tiBytes{"bionano:$iName"} += $filesize;
+            $$tiIndiv{"bionano:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         }
-        elsif ($filename =~ m/bnx/) {
-            $$seqBytes{"bionano"} += $sb;
-            $$seqIndiv{"bionano"} .= $si;
+        elsif ($filename =~ m/bnx$/) {
+            $$tiFiles{"bionano:$iName"} .= "bionano:$iName $filesize $filename\0";
+            $$tiBytes{"bionano:$iName"} += $filesize;
+            $$tiIndiv{"bionano:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         }
         else {
@@ -148,9 +156,9 @@ sub accumulateData ($$$$$$$$) {
 
         if (($filename =~ m/fastq.gz$/) ||
             ($filename =~ m/fq.gz$/)) {
-            $$seqFiles{"dovetail"} .= $sf;
-            $$seqBytes{"dovetail"} += $sb;
-            $$seqIndiv{"dovetail"} .= $si;
+            $$tiFiles{"dovetail:$iName"} .= "dovetail:$iName $filesize $filename\0";
+            $$tiBytes{"dovetail:$iName"} += $filesize;
+            $$tiIndiv{"dovetail:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         }
         else {
@@ -164,9 +172,9 @@ sub accumulateData ($$$$$$$$) {
 
         if (($filename =~ m/fastq.gz$/) ||
             ($filename =~ m/fq.gz$/)) {
-            $$seqFiles{"illumina"} .= $sf;
-            $$seqBytes{"illumina"} += $sb;
-            $$seqIndiv{"illumina"} .= $si;
+            $$tiFiles{"illumina:$iName"} .= "illumina:$iName $filesize $filename\0";
+            $$tiBytes{"illumina:$iName"} += $filesize;
+            $$tiIndiv{"illumina:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         }
         else {
@@ -185,14 +193,14 @@ sub accumulateData ($$$$$$$$) {
 
         if (($filename =~ m/fastq.gz$/) ||
             ($filename =~ m/fq.gz$/)) {
-            $$seqFiles{"ont"} .= $sf;
-            $$seqBytes{"ont"} += $sb;
-            $$seqIndiv{"ont"} .= $si;
+            $$tiFiles{"ont:$iName"} .= "ont:$iName $filesize $filename\0";
+            $$tiBytes{"ont:$iName"} += $filesize;
+            $$tiIndiv{"ont:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         } elsif ($filename =~ m/fast5$/) {
-            #$$seqFiles{"ont"} .= $sf;
-            #$$seqBytes{"ont"} += $sb;
-            #$$seqIndiv{"ont"} .= $si;
+            #$$tiFiles{"ont:$iName"} .= {"ont:$iName $filesize $filename\0";
+            #$$tiBytes{"ont:$iName"} += $filesize;
+            #$$tiIndiv{"ont:$iName"} .= "$sName/$iName\0";
         } else {
             push @$errors, "  Unknown ont file type in '$filename'\n";
         }
@@ -207,9 +215,9 @@ sub accumulateData ($$$$$$$$) {
 
         if (($filename =~ m/fastq.gz$/) ||
             ($filename =~ m/fq.gz$/)) {
-            $$seqFiles{"ontduplex"} .= $sf;
-            $$seqBytes{"ontduplex"} += $sb;
-            $$seqIndiv{"ontduplex"} .= $si;
+            $$tiFiles{"ontduplex:$iName"} .= "ontduplex:$iName $filesize $filename\0";
+            $$tiBytes{"ontduplex:$iName"} += $filesize;
+            $$tiIndiv{"ontduplex:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         } else {
             push @$errors, "  Unknown ont_duplex file type in '$filename'\n";
@@ -236,17 +244,17 @@ sub accumulateData ($$$$$$$$) {
 
         #  Normal CLR data.
         if    ($filename =~ m/subreads.bam\.pbi$/) {
-            $$seqBytes{"pacbio"} += $sb;
+            $$tiBytes{"pacbio:$iName"} += $filesize;
             saveDataDate($filesecs, $data);
         }
         elsif ($filename =~ m/subreads.bam\.bai$/) {
-            $$seqBytes{"pacbio"} += $sb;
+            $$tiBytes{"pacbio:$iName"} += $filesize;
             saveDataDate($filesecs, $data);
         }
         elsif ($filename =~ m/subreads.bam$/) {
-            $$seqFiles{"pacbio"} .= $sf;
-            $$seqBytes{"pacbio"} += $sb;
-            $$seqIndiv{"pacbio"} .= $si;
+            $$tiFiles{"pacbio:$iName"} .= "pacbio:$iName $filesize $filename\0";
+            $$tiBytes{"pacbio:$iName"} += $filesize;
+            $$tiIndiv{"pacbio:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         }
 
@@ -273,9 +281,9 @@ sub accumulateData ($$$$$$$$) {
                ($filename =~ m/\.reads\.f(ast){0,1}q\.gz$/) ||
                ($filename =~ m/\.ccs.bc.*\.f(ast){0,1}q\.gz$/) ||
                ($filename =~ m/\.Q20\.f(ast){0,1}q\.gz$/)) {
-            $$seqFiles{"pacbiohifi_fqgz"} .= $sf;
-            $$seqBytes{"pacbiohifi_fqgz"} += $sb;
-            $$seqIndiv{"pacbiohifi_fqgz"} .= $si;
+            $$tiFiles{"pacbiohifi_fqgz:$iName"} .= "pacbiohifi_fqgz:$iName $filesize $filename\0";
+            $$tiBytes{"pacbiohifi_fqgz:$iName"} += $filesize;
+            $$tiIndiv{"pacbiohifi_fqgz:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         }
 
@@ -286,9 +294,9 @@ sub accumulateData ($$$$$$$$) {
             if ($warning) {
                 push @$errors, "  WARNING: uncompressed pacbio_hifi '$filename'\n";
             }
-            #$$seqFiles{"pacbiohifi"} .= $sf;
-            #$$seqBytes{"pacbiohifi"} += $sb;
-            #$$seqIndiv{"pacbiohifi"} .= $si;
+            #$$tiFiles{"pacbiohifi:$iName"} .= {"pacbiohifi:$iName $filesize $filename\0";
+            #$$tiBytes{"pacbiohifi:$iName"} += $filesize;
+            #$$tiIndiv{"pacbiohifi:$iName"} .= "$sName/$iName\0";
         }
 
         elsif (($filename =~ m/\.hifi_reads\.bam\.bai$/) ||
@@ -297,16 +305,16 @@ sub accumulateData ($$$$$$$$) {
                ($filename =~ m/\.ccs.bam\.bai$/) ||
                ($filename =~ m/\.ccs.bc.*\.bam\.pbi$/) ||
                ($filename =~ m/\.ccs.bc.*\.bam\.bai$/)) {
-            $$seqBytes{"pacbiohifi_bam"} += $sb;
+            $$tiBytes{"pacbiohifi_bam:$iName"} += $filesize;
             saveDataDate($filesecs, $data);
         }
 
         elsif (($filename =~ m/\.hifi_reads\.bam$/) ||
                ($filename =~ m/\.ccs.bam$/) ||
                ($filename =~ m/\.ccs.bc.*\.bam$/)) {
-            $$seqFiles{"pacbiohifi_bam"} .= $sf;
-            $$seqBytes{"pacbiohifi_bam"} += $sb;
-            $$seqIndiv{"pacbiohifi_bam"} .= $si;
+            $$tiFiles{"pacbiohifi_bam:$iName"} .= "pacbiohifi_bam:$iName $filesize $filename\0";
+            $$tiBytes{"pacbiohifi_bam:$iName"} += $filesize;
+            $$tiIndiv{"pacbiohifi_bam:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         }
 
@@ -314,25 +322,25 @@ sub accumulateData ($$$$$$$$) {
 
         elsif (($filename =~ m/\.subreads\.bam\.pbi$/) ||
                ($filename =~ m/\.reads\.bam\.pbi$/)) {
-            $$seqBytes{"pacbiohifi_clr"} += $sb;
+            $$tiBytes{"pacbiohifi_clr:$iName"} += $filesize;
             saveDataDate($filesecs, $data);
         }
         elsif (($filename =~ m/\.subreads\.bam\.bai$/) ||
                ($filename =~ m/\.reads\.bam\.bai$/)) {
-            $$seqBytes{"pacbiohifi_clr"} += $sb;
+            $$tiBytes{"pacbiohifi_clr:$iName"} += $filesize;
             saveDataDate($filesecs, $data);
         }
         elsif (($filename =~ m/\.subreads\.bam$/) ||
                ($filename =~ m/\.reads\.bam$/)) {
-            $$seqFiles{"pacbiohifi_clr"} .= $sf;
-            $$seqBytes{"pacbiohifi_clr"} += $sb;
-            $$seqIndiv{"pacbiohifi_clr"} .= $si;
+            $$tiFiles{"pacbiohifi_clr:$iName"} .= "pacbiohifi_clr:$iName $filesize $filename\0";
+            $$tiBytes{"pacbiohifi_clr:$iName"} += $filesize;
+            $$tiIndiv{"pacbiohifi_clr:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
 
             #  Check that this bam has a corresponding fastq file.
             #    Accipiter_gentilis
             #if ($filename =~ m!pacbio_hifi/(.*)\.bam$!) {
-            #    if (! exists($filenames{$1})) {
+            #    if (! exists($hifinames{$1})) {
             #        push @$errors, "  No filtered hifi for '$filename'\n";
             #    }
             #}
@@ -353,9 +361,9 @@ sub accumulateData ($$$$$$$$) {
 
         if (($filename =~ m/fastq.gz$/) ||
             ($filename =~ m/fq.gz$/)) {
-            $$seqFiles{"phase"} .= $sf;
-            $$seqBytes{"phase"} += $sb;
-            $$seqIndiv{"phase"} .= $si;
+            $$tiFiles{"phase:$iName"} .= "phase:$iName $filesize $filename\0";
+            $$tiBytes{"phase:$iName"} += $filesize;
+            $$tiIndiv{"phase:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         }
         else {

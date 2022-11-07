@@ -30,7 +30,9 @@ my $downloadData       = 1;
 my $downloadAssemblies = 1;
 my $downloadSize       = 2 * 1024 * 1024 * 1024;
 
-foreach my $arg (@ARGV) {
+while (scalar(@ARGV) > 0) {
+    my $arg = shift @ARGV;
+
     if    ($arg eq "--no-download") {       #  Don't do any downloads.
         $downloadData = 0;
         $downloadAssemblies = 0;
@@ -65,30 +67,29 @@ my @potentialErrors;                        #  List of fatal errors we encounter
 my @unknownFiles;                           #  List of files we don't know how to process.
 
 foreach my $species (@speciesList) {
-    my @speciesFiles;
-    my @speciesSizes;
-    my @speciesEpoch;
-
-    #  Rebuild each species.md file.
-
-    my %seqFiles;
-    my %seqBytes;
-    my %seqIndiv;
-    my %meta;
-    my %data;
-
-
     print "\n";
     print "----------------------------------------\n";
     print "Processing species  $species\n";
 
+    #  Load metadata, copy some of it into the .md data output.
+
+    my %meta = ();
+    my %data = ();
     my $name = loadSpeciesMetadata(\%data, $species, \%meta, \@potentialErrors);
 
     setGenbankIDs(\%data);
 
+    #  Extract the files associated with this species, returns the latest file-date.
+
+    my @speciesFiles = ();  #  A one-to-one list of file-names, file-sizes and 
+    my @speciesSizes = ();  #  file-dates for all files associated with this
+    my @speciesEpoch = ();  #  species.
+
     $data{"last_updated"} = getBucketFiles($name, \@speciesFiles, \@speciesSizes, \@speciesEpoch);
 
     print "  with ", scalar(@speciesFiles), " files.\n";
+
+    ########################################
 
     print "\n";
     print "----------\n";
@@ -128,43 +129,55 @@ foreach my $species (@speciesList) {
     print "----------\n";
     print "Genomic Data, accumulation\n";
 
-    foreach my $type (@dataTypes) {
-        $seqFiles{$type} = "";
-        $seqBytes{$type} = 0;
-        $seqIndiv{$type} = "";
+    my %tiFiles = ();   #  Map from "type:indiv" to list of "type:indiv filesize filename\0"
+    my %tiBytes = ();   #  Map from "type:indiv" to sum of data size
+    my %tiIndiv = ();   #  Map from "type:indiv" to list of "species-name/individual-name\0"
+
+    #  Save the filenames of any hifi fastq data.
+    for (my $ii=0; $ii<scalar(@speciesFiles); $ii++) {
+        rememberHiFiName($speciesFiles[$ii], \%data);
     }
 
+    #  Place filesize and filename into lists keyed by 'datatype:individual'.
+    #  Only seqFiles is used.
+    #    "type:indiv filesize filename\0"
+    #
     for (my $ii=0; $ii<scalar(@speciesFiles); $ii++) {
-        my $filesecs = $speciesEpoch[$ii];
-        my $filesize = $speciesSizes[$ii];
-        my $filename = $speciesFiles[$ii];
-
-        next   if (! isGenomicDataFile($filename));
-
-        scanDataName($filesecs, $filesize, $filename, \%data);
-    }
-
-    for (my $ii=0; $ii<scalar(@speciesFiles); $ii++) {
-        my $filesecs = $speciesEpoch[$ii];
-        my $filesize = $speciesSizes[$ii];
-        my $filename = $speciesFiles[$ii];
-
-        next   if (! isGenomicDataFile($filename));
-
-        accumulateData($filesecs, $filesize, $filename, \%data, \%seqFiles, \%seqBytes, \%seqIndiv, \@potentialErrors);
+        accumulateData($speciesEpoch[$ii], $speciesSizes[$ii], $speciesFiles[$ii],
+                       \%data,
+                       \%tiFiles, \%tiBytes, \%tiIndiv,
+                       \@potentialErrors);
     }
 
 
     print "\n";                                  #  Estimate the number of bases in all raw data files by
     print "----------\n";                        #  examining a handful and scaling the rest.
     print "Genomic Data, bases estimation\n";    #  BIONANO is different and not reported.
+    print "   (S: summary exists)\n";
+    print "   (E: used for byte:base estimation)\n";
+    print "\n";
 
-    loadSummaries(\%data, \%seqFiles, \@potentialErrors);   #  Load existing summaries.
+    #  Load existing summaries from 'species/$name/genomic_data.summary', then scan
+    #  the list of files for any additional summary files.
+    #
+    loadSummaries(\%data, \%tiFiles, \@potentialErrors);
 
-    foreach my $type (@dataTypes) {
-        estimateRawDataScaling(\%data, $type, $seqFiles{$type}, \@potentialErrors, \%missingData, $downloadData, $downloadSize);
+    #  Load any additional summaries, or update existing with new/better summaries.
+    #
+    recoverSummaries(\%data, \%tiFiles, \@potentialErrors);
+
+    #  Compute scale factors to convert 'bytes' to 'bases' for each
+    #  type-x-individual.  Populates:
+    #    $data{'data_${ti}_scale'}     -- scale factor for this ti
+    #    $data{'data_${ti}_bases'}     -- estimated bases for all files with the same ti
+    #
+    foreach my $ti (sort keys %tiFiles) {
+        estimateRawDataScaling(\%data, $ti, $tiFiles{$ti},
+                               \@potentialErrors, \%missingData, $downloadData, $downloadSize);
     }
 
+    #  Update data on disk.
+    #
     writeSummaries(\%data);
 
     print "\n";

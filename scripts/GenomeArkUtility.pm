@@ -17,15 +17,21 @@ use warnings;
 #
 sub prettifySize ($) {
     my $n = int(shift @_);
-    my @p = ( 0, 1<<10, 1<<20, 1<<30, 1<<40 );
+    my @d;
+    my @p;
 
-    die "prettifySize undefined input.\n"  if (!defined($n));
+    die "prettifySize input size not defined.\n"  if (!defined($n));
 
-    if    ($n < $p[1] - $p[0]) { return(sprintf("1 KiB")) }
-    elsif ($n < $p[2] - $p[1]) { return(sprintf("%.0f KiB", ($n/$p[1]))) }  # + (($n % $p[1]) >= ($p[1]/2)))); }
-    elsif ($n < $p[3] - $p[2]) { return(sprintf("%.0f MiB", ($n/$p[2]))) }  # + (($n % $p[2]) >= ($p[2]/2)))); }
-    elsif ($n < $p[4] - $p[3]) { return(sprintf("%.0f GiB", ($n/$p[3]))) }  # + (($n % $p[3]) >= ($p[3]/2)))); }
-    else                       { return(sprintf("%.0f TiB", ($n/$p[4]))) }  # + (($n % $p[4]) >= ($p[4]/2)))); }
+    $d[0] = 1024;           $p[0] = 896 * $d[0];
+    $d[1] = 1024 * $d[0];   $p[1] = 896 * $d[1];
+    $d[2] = 1024 * $d[1];   $p[2] = 896 * $d[2];
+    $d[3] = 1024 * $d[2];   $p[3] = 896 * $d[3];
+
+    if    ($n <  128 ) { return(sprintf( "0.1 KiB")); }
+    elsif ($n < $p[0]) { return(sprintf("%.1f KiB", ($n / $d[0]))); }
+    elsif ($n < $p[1]) { return(sprintf("%.1f MiB", ($n / $d[1]))); }
+    elsif ($n < $p[2]) { return(sprintf("%.1f GiB", ($n / $d[2]))); }
+    else               { return(sprintf("%.1f TiB", ($n / $d[3]))); }
 }
 
 
@@ -44,7 +50,7 @@ sub prettifySize ($) {
 sub prettifyBases ($) {
     my $n = shift @_;
 
-    die "prettifyBases undefined input.\n"  if (!defined($n));
+    die "prettifyBases input bases not defined.\n"  if (!defined($n));
 
     if (!defined($n)) { return(undef); }   #  Unset genome size.
     if ($n eq "-")    { return("$n");  }   #  Empty row in N50 table.
