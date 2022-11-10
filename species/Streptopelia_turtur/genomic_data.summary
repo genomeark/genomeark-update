@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-      989067048               0       989067048      1136914864       142114358  species/Streptopelia_turtur/bStrTur1/genomic_data/10x/bStrTur1_S1_L006_I1_001.fastq.gz
-    13822614527               0      2147483648     21128232936       139922072  species/Streptopelia_turtur/bStrTur1/genomic_data/10x/bStrTur1_S1_L006_R1_001.fastq.gz
-     8760357959               0      2147483648     13472365894        89220970  species/Streptopelia_turtur/bStrTur1/genomic_data/10x/bStrTur1_S2_L006_R1_001.fastq.gz
-     6487869467               0      2147483648     12332661261        82217741  species/Streptopelia_turtur/bStrTur1/genomic_data/arima/bStrTur1_ARI9_002_USPD16085689-AK4937_HK5YFCCXY_L2_R2.fastq.gz
-     6113427057               0      2147483648     12621474505        84143166  species/Streptopelia_turtur/bStrTur1/genomic_data/arima/bStrTur1_ARI9_002_USPD16085689-AK4937_HK5YFCCXY_L4_R1.fastq.gz
-     6462891809               0      2147483648     12821664371        85477765  species/Streptopelia_turtur/bStrTur1/genomic_data/arima/bStrTur1_ARI9_002_USPD16085689-AK4937_HK5YFCCXY_L4_R2.fastq.gz
-              0               0               0      1078302598             259  species/Streptopelia_turtur/bStrTur1/genomic_data/bionano/bStrTur1_Saphyr_DLE1
-     6592201735               0      2147483648      3514241532          279913  species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/m54097_180106_071514.subreads.bam
-     7878207243               0      2147483648      4190686141          304884  species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/m54205_171223_094323.subreads.bam
-     4674750419               0      2147483648      2486376428          174598  species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/m54205_171225_022220.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bStrTur1               989067048               0       989067048      1136914864       142114358  species/Streptopelia_turtur/bStrTur1/genomic_data/10x/bStrTur1_S1_L006_I1_001.fastq.gz
+10x             bStrTur1             13822614527               0      2147483648     21128232936       139922072  species/Streptopelia_turtur/bStrTur1/genomic_data/10x/bStrTur1_S1_L006_R1_001.fastq.gz
+10x             bStrTur1              8760357959               0      2147483648     13472365894        89220970  species/Streptopelia_turtur/bStrTur1/genomic_data/10x/bStrTur1_S2_L006_R1_001.fastq.gz
+arima           bStrTur1              6487869467               0      2147483648     12332661261        82217741  species/Streptopelia_turtur/bStrTur1/genomic_data/arima/bStrTur1_ARI9_002_USPD16085689-AK4937_HK5YFCCXY_L2_R2.fastq.gz
+arima           bStrTur1              6113427057               0      2147483648     12621474505        84143166  species/Streptopelia_turtur/bStrTur1/genomic_data/arima/bStrTur1_ARI9_002_USPD16085689-AK4937_HK5YFCCXY_L4_R1.fastq.gz
+arima           bStrTur1              6462891809               0      2147483648     12821664371        85477765  species/Streptopelia_turtur/bStrTur1/genomic_data/arima/bStrTur1_ARI9_002_USPD16085689-AK4937_HK5YFCCXY_L4_R2.fastq.gz
+bionano         bStrTur1               572261573               0       572261573    347675147190         3803212  species/Streptopelia_turtur/bStrTur1/genomic_data/bionano/bStrTur1_Saphyr_DLE1
+pacbio          bStrTur1              6592201735               0      2147483648      3514241532          279913  species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/m54097_180106_071514.subreads.bam
+pacbio          bStrTur1              7878207243               0      2147483648      4190686141          304884  species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/m54205_171223_094323.subreads.bam
+pacbio          bStrTur1              4674750419               0      2147483648      2486376428          174598  species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/m54205_171225_022220.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5160
-arima        *       1.9815
-pacbio       *       0.5323
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bStrTur1          1.5160    131876700211
+arima           bStrTur1          1.9815    125063617676
+bionano         bStrTur1         607.5458    347675147190
+pacbio          bStrTur1          0.5323     61692149371
+--------------- ---------------  ------- ---------------

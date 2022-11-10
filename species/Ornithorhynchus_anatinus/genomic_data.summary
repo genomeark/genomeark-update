@@ -1,26 +1,28 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    20597716528               0      2147483648     40450244718       269668307  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/10x/mOrnAna1_S1_L004_R1_001.fastq.gz
-    22680239024               0      2147483648     49098834115       327325560  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/10x/mOrnAna1_S2_L004_R1_001.fastq.gz
-    24981567739               0      2147483648     47674107355       317827394  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/10x/mOrnAna1_S4_L004_R2_001.fastq.gz
-              0               0               0      2246041403             544  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/bionano/mOrnAna1_Saphyr_DLE1_nonhap_ES_sdb
-     4788610829               0      2147483648      1233564107          121597  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/pacbio/m160103_032820_sherri_c100974342550000001823228308031690_s1_p0.subreads.bam
-     5231547080               0      2147483648      1353575732          117913  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/pacbio/m160103_160314_42175_c100974512550000001823228308031662_s1_p0.subreads.bam
-     5854413864               0      2147483648      1502175228          119804  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/pacbio/m160107_043221_42142_c100976892550000001823226008101665_s1_p0.subreads.bam
-    31610621418               0      2147483648     50649221625       335425323  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/phase/mOrnAna1_AD014_S4_R1.fastq.gz
-    34052184367               0      2147483648     52934201582       350557626  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/phase/mOrnAna1_AD014_S4_R2.fastq.gz
-    14085081882               0      2147483648     22347714011       221264495  species/Ornithorhynchus_anatinus/mOrnAna2/genomic_data/dovetail/mOrnAna2_Pmale08_R1.fastq.gz
-    14606468111               0      2147483648     22360217031       221388294  species/Ornithorhynchus_anatinus/mOrnAna2/genomic_data/dovetail/mOrnAna2_Pmale08_R2.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mOrnAna1             20597716528               0      2147483648     40450244718       269668307  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/10x/mOrnAna1_S1_L004_R1_001.fastq.gz
+10x             mOrnAna1             22680239024               0      2147483648     49098834115       327325560  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/10x/mOrnAna1_S2_L004_R1_001.fastq.gz
+10x             mOrnAna1             24981567739               0      2147483648     47674107355       317827394  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/10x/mOrnAna1_S4_L004_R2_001.fastq.gz
+bionano         mOrnAna1              1032120355               0      1032120355    740894010287        15246949  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/bionano/mOrnAna1_Saphyr_DLE1_1014253
+bionano         mOrnAna1               982397657               0       982397657    690128862474        13410257  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/bionano/mOrnAna1_Saphyr_DLE1_1071782
+pacbio          mOrnAna1              4788610829               0      2147483648      1233564107          121597  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/pacbio/m160103_032820_sherri_c100974342550000001823228308031690_s1_p0.subreads.bam
+pacbio          mOrnAna1              5231547080               0      2147483648      1353575732          117913  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/pacbio/m160103_160314_42175_c100974512550000001823228308031662_s1_p0.subreads.bam
+pacbio          mOrnAna1              5854413864               0      2147483648      1502175228          119804  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/pacbio/m160107_043221_42142_c100976892550000001823226008101665_s1_p0.subreads.bam
+phase           mOrnAna1             31610621418               0      2147483648     50649221625       335425323  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/phase/mOrnAna1_AD014_S4_R1.fastq.gz
+phase           mOrnAna1             34052184367               0      2147483648     52934201582       350557626  species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/phase/mOrnAna1_AD014_S4_R2.fastq.gz
+dovetail        mOrnAna2             14085081882               0      2147483648     22347714011       221264495  species/Ornithorhynchus_anatinus/mOrnAna2/genomic_data/dovetail/mOrnAna2_Pmale08_R1.fastq.gz
+dovetail        mOrnAna2             14606468111               0      2147483648     22360217031       221388294  species/Ornithorhynchus_anatinus/mOrnAna2/genomic_data/dovetail/mOrnAna2_Pmale08_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       2.0103
-dovetail     *       1.5489
-pacbio       *       0.2576
-phase        *       1.5696
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mOrnAna1          2.0103    359558647085
+bionano         mOrnAna1         710.3549   1431022872761
+dovetail        mOrnAna2          1.5489     44440341784
+pacbio          mOrnAna1          0.2576    138186791199
+phase           mOrnAna1          1.5696    103064339960
+--------------- ---------------  ------- ---------------

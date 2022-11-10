@@ -1,28 +1,29 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    10760321144               0      2147483648     13690245027        90663879  species/Microcaecilia_unicolor/aMicUni1/genomic_data/10x/aMicUni1_S1_L004_R2_001.fastq.gz
-     9381595841               0      2147483648     13977295044        92564867  species/Microcaecilia_unicolor/aMicUni1/genomic_data/10x/aMicUni1_S3_L004_R1_001.fastq.gz
-      825513091               0       825513091       870813432       108851679  species/Microcaecilia_unicolor/aMicUni1/genomic_data/10x/aMicUni1_S4_L006_I1_001.fastq.gz
-    43659059635               0      2147483648     68128223001       451180284  species/Microcaecilia_unicolor/aMicUni1/genomic_data/arima/aMicUni1_27320_5#1_R1.fastq.gz
-    45952742239               0      2147483648     68794564544       455593142  species/Microcaecilia_unicolor/aMicUni1/genomic_data/arima/aMicUni1_27320_5#1_R2.fastq.gz
-    45799401979               0      2147483648     68529572530       453838250  species/Microcaecilia_unicolor/aMicUni1/genomic_data/arima/aMicUni1_27320_6#1_R2.fastq.gz
-              0               0               0      6546060422            1398  species/Microcaecilia_unicolor/aMicUni1/genomic_data/bionano/aMicUni1_Saphyr_DLE1
-    41040361940               0      2147483648     60383989141       399893967  species/Microcaecilia_unicolor/aMicUni1/genomic_data/dovetail/aMicUni1_27319_7#1_R2.fastq.gz
-    39663440727               0      2147483648     61297682142       405944933  species/Microcaecilia_unicolor/aMicUni1/genomic_data/dovetail/aMicUni1_27319_8#1_R1.fastq.gz
-    42344659358               0      2147483648     59872639253       396507544  species/Microcaecilia_unicolor/aMicUni1/genomic_data/dovetail/aMicUni1_27319_8#1_R2.fastq.gz
-    13483453044               0      2147483648      7176483567          650098  species/Microcaecilia_unicolor/aMicUni1/genomic_data/pacbio/m54097_180603_024125.subreads.bam
-    12115707010               0      2147483648      6456274091          573259  species/Microcaecilia_unicolor/aMicUni1/genomic_data/pacbio/m54097_180612_141001.subreads.bam
-    14517782189               0      2147483648      7742356595          644269  species/Microcaecilia_unicolor/aMicUni1/genomic_data/pacbio/m54205_180530_131246.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             aMicUni1             10760321144               0      2147483648     13690245027        90663879  species/Microcaecilia_unicolor/aMicUni1/genomic_data/10x/aMicUni1_S1_L004_R2_001.fastq.gz
+10x             aMicUni1              9381595841               0      2147483648     13977295044        92564867  species/Microcaecilia_unicolor/aMicUni1/genomic_data/10x/aMicUni1_S3_L004_R1_001.fastq.gz
+10x             aMicUni1               825513091               0       825513091       870813432       108851679  species/Microcaecilia_unicolor/aMicUni1/genomic_data/10x/aMicUni1_S4_L006_I1_001.fastq.gz
+arima           aMicUni1             43659059635               0      2147483648     68128223001       451180284  species/Microcaecilia_unicolor/aMicUni1/genomic_data/arima/aMicUni1_27320_5#1_R1.fastq.gz
+arima           aMicUni1             45952742239               0      2147483648     68794564544       455593142  species/Microcaecilia_unicolor/aMicUni1/genomic_data/arima/aMicUni1_27320_5#1_R2.fastq.gz
+arima           aMicUni1             45799401979               0      2147483648     68529572530       453838250  species/Microcaecilia_unicolor/aMicUni1/genomic_data/arima/aMicUni1_27320_6#1_R2.fastq.gz
+bionano         aMicUni1              2882684816               0      2882684816   2231457829042        17645665  species/Microcaecilia_unicolor/aMicUni1/genomic_data/bionano/aMicUni1_Saphyr_DLE1
+dovetail        aMicUni1             41040361940               0      2147483648     60383989141       399893967  species/Microcaecilia_unicolor/aMicUni1/genomic_data/dovetail/aMicUni1_27319_7#1_R2.fastq.gz
+dovetail        aMicUni1             39663440727               0      2147483648     61297682142       405944933  species/Microcaecilia_unicolor/aMicUni1/genomic_data/dovetail/aMicUni1_27319_8#1_R1.fastq.gz
+dovetail        aMicUni1             42344659358               0      2147483648     59872639253       396507544  species/Microcaecilia_unicolor/aMicUni1/genomic_data/dovetail/aMicUni1_27319_8#1_R2.fastq.gz
+pacbio          aMicUni1             13483453044               0      2147483648      7176483567          650098  species/Microcaecilia_unicolor/aMicUni1/genomic_data/pacbio/m54097_180603_024125.subreads.bam
+pacbio          aMicUni1             12115707010               0      2147483648      6456274091          573259  species/Microcaecilia_unicolor/aMicUni1/genomic_data/pacbio/m54097_180612_141001.subreads.bam
+pacbio          aMicUni1             14517782189               0      2147483648      7742356595          644269  species/Microcaecilia_unicolor/aMicUni1/genomic_data/pacbio/m54205_180530_131246.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.3610
-arima        *       1.5172
-dovetail     *       1.4754
-pacbio       *       0.5328
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             aMicUni1          1.3610    354607487422
+arima           aMicUni1          1.5172    271195228432
+bionano         aMicUni1         774.0901   2231457829042
+dovetail        aMicUni1          1.4754    239652099292
+pacbio          aMicUni1          0.5328    252242310667
+--------------- ---------------  ------- ---------------

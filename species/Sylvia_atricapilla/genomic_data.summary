@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     6155649502               0      2147483648     11998784558        79991899  species/Sylvia_atricapilla/bSylAtr1/genomic_data/10x/bSylAtr1_S1_L002_R1_001.fastq.gz
-     7476193467               0      2147483648     14589580965        97263876  species/Sylvia_atricapilla/bSylAtr1/genomic_data/10x/bSylAtr1_S2_L002_R1_001.fastq.gz
-     7053681790               0      2147483648     13805918962        92039459  species/Sylvia_atricapilla/bSylAtr1/genomic_data/10x/bSylAtr1_S3_L002_R1_001.fastq.gz
-     5699773774               0      2147483648     10209345576        68062303  species/Sylvia_atricapilla/bSylAtr1/genomic_data/arima/bSylAtr1_ARI15_4_USPD16090946_HV2CNCCXY_L8_2.clean.fq.gz
-    19041244173               0      2147483648     34323035419       228820244  species/Sylvia_atricapilla/bSylAtr1/genomic_data/arima/bSylAtr1_ARI15_4_USPD16090946_HV3M3CCXY_L3_2.clean.fq.gz
-    23151315734               0      2147483648     44318697418       295457993  species/Sylvia_atricapilla/bSylAtr1/genomic_data/arima/bSylAtr1_ARI15_L3L8_R1.fastq.gz
-              0               0               0      1390618532             357  species/Sylvia_atricapilla/bSylAtr1/genomic_data/bionano/bSylAtr1_Saphyr_DLE1_2190827
-    17421755483               0      2147483648      9352815973          715421  species/Sylvia_atricapilla/bSylAtr1/genomic_data/pacbio/m54158_180703_193326.subreads.bam
-    16928165044               0      2147483648      9038042433          733556  species/Sylvia_atricapilla/bSylAtr1/genomic_data/pacbio/m54159_180702_054120.subreads.bam
-    18039866676               0      2147483648      9714795508          744231  species/Sylvia_atricapilla/bSylAtr1/genomic_data/pacbio/m54159_180702_155543.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bSylAtr1              6155649502               0      2147483648     11998784558        79991899  species/Sylvia_atricapilla/bSylAtr1/genomic_data/10x/bSylAtr1_S1_L002_R1_001.fastq.gz
+10x             bSylAtr1              7476193467               0      2147483648     14589580965        97263876  species/Sylvia_atricapilla/bSylAtr1/genomic_data/10x/bSylAtr1_S2_L002_R1_001.fastq.gz
+10x             bSylAtr1              7053681790               0      2147483648     13805918962        92039459  species/Sylvia_atricapilla/bSylAtr1/genomic_data/10x/bSylAtr1_S3_L002_R1_001.fastq.gz
+arima           bSylAtr1              5699773774               0      2147483648     10209345576        68062303  species/Sylvia_atricapilla/bSylAtr1/genomic_data/arima/bSylAtr1_ARI15_4_USPD16090946_HV2CNCCXY_L8_2.clean.fq.gz
+arima           bSylAtr1             19041244173               0      2147483648     34323035419       228820244  species/Sylvia_atricapilla/bSylAtr1/genomic_data/arima/bSylAtr1_ARI15_4_USPD16090946_HV3M3CCXY_L3_2.clean.fq.gz
+arima           bSylAtr1             23151315734               0      2147483648     44318697418       295457993  species/Sylvia_atricapilla/bSylAtr1/genomic_data/arima/bSylAtr1_ARI15_L3L8_R1.fastq.gz
+bionano         bSylAtr1               379235492               0       379235492    202483520460         1587420  species/Sylvia_atricapilla/bSylAtr1/genomic_data/bionano/bSylAtr1_Saphyr_DLE1_2141051
+pacbio          bSylAtr1             17421755483               0      2147483648      9352815973          715421  species/Sylvia_atricapilla/bSylAtr1/genomic_data/pacbio/m54158_180703_193326.subreads.bam
+pacbio          bSylAtr1             16928165044               0      2147483648      9038042433          733556  species/Sylvia_atricapilla/bSylAtr1/genomic_data/pacbio/m54159_180702_054120.subreads.bam
+pacbio          bSylAtr1             18039866676               0      2147483648      9714795508          744231  species/Sylvia_atricapilla/bSylAtr1/genomic_data/pacbio/m54159_180702_155543.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9527
-arima        *       1.8552
-pacbio       *       0.5364
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bSylAtr1          1.9527     90889415701
+arima           bSylAtr1          1.8552    177699714889
+bionano         bSylAtr1         533.9255    202483520460
+pacbio          bSylAtr1          0.5364     72453686996
+--------------- ---------------  ------- ---------------

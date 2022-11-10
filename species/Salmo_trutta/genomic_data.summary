@@ -1,27 +1,28 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     9596114911               0      2147483648     13255475348        87784609  species/Salmo_trutta/fSalTru1/genomic_data/10x/fSalTru1_S1_L008_R2_001.fastq.gz
-      792142187               0       792142187       802276768       100284596  species/Salmo_trutta/fSalTru1/genomic_data/10x/fSalTru1_S2_L008_I1_001.fastq.gz
-     8581234976               0      2147483648     11883586307        78699247  species/Salmo_trutta/fSalTru1/genomic_data/10x/fSalTru1_S4_L008_R2_001.fastq.gz
-     7830790425               0      2147483648     14411805456        96078706  species/Salmo_trutta/fSalTru1/genomic_data/arima/fSalTru1_ARI7_002_USPD16085689-AK4939_HK5YFCCXY_L2_R2.fastq.gz
-     7434877105               0      2147483648     14683664497        97891100  species/Salmo_trutta/fSalTru1/genomic_data/arima/fSalTru1_ARI7_002_USPD16085689-AK4939_HK5YFCCXY_L4_R1.fastq.gz
-     7777496795               0      2147483648     14922794918        99485303  species/Salmo_trutta/fSalTru1/genomic_data/arima/fSalTru1_ARI7_002_USPD16085689-AK4939_HK5YFCCXY_L4_R2.fastq.gz
-              0               0               0      2594622602             479  species/Salmo_trutta/fSalTru1/genomic_data/bionano/fSalTru1_Saphyr_DLE1_1953344
-    13426670827               0      2147483648      7168988253          637813  species/Salmo_trutta/fSalTru1/genomic_data/pacbio/m54097_180410_140045.subreads.bam
-    11065255620               0      2147483648      5799359015          561464  species/Salmo_trutta/fSalTru1/genomic_data/pacbio/m54205_180324_221829.subreads.bam
-    12511622744               0      2147483648      6676306670          611311  species/Salmo_trutta/fSalTru1/genomic_data/pacbio/m54205_180413_151401.subreads.bam
-    11104943856               0      2147483648     15648729153         1470259  species/Salmo_trutta/fSalTru1/genomic_data/pacbio_hifi/m64016_190129_193902.ccs.bam
-    12364475229               0      2147483648     16792479230         1578922  species/Salmo_trutta/fSalTru1/genomic_data/pacbio_hifi/m64016_190201_181512.ccs.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fSalTru1              9596114911               0      2147483648     13255475348        87784609  species/Salmo_trutta/fSalTru1/genomic_data/10x/fSalTru1_S1_L008_R2_001.fastq.gz
+10x             fSalTru1               792142187               0       792142187       802276768       100284596  species/Salmo_trutta/fSalTru1/genomic_data/10x/fSalTru1_S2_L008_I1_001.fastq.gz
+10x             fSalTru1              8581234976               0      2147483648     11883586307        78699247  species/Salmo_trutta/fSalTru1/genomic_data/10x/fSalTru1_S4_L008_R2_001.fastq.gz
+arima           fSalTru1              7830790425               0      2147483648     14411805456        96078706  species/Salmo_trutta/fSalTru1/genomic_data/arima/fSalTru1_ARI7_002_USPD16085689-AK4939_HK5YFCCXY_L2_R2.fastq.gz
+arima           fSalTru1              7434877105               0      2147483648     14683664497        97891100  species/Salmo_trutta/fSalTru1/genomic_data/arima/fSalTru1_ARI7_002_USPD16085689-AK4939_HK5YFCCXY_L4_R1.fastq.gz
+arima           fSalTru1              7777496795               0      2147483648     14922794918        99485303  species/Salmo_trutta/fSalTru1/genomic_data/arima/fSalTru1_ARI7_002_USPD16085689-AK4939_HK5YFCCXY_L4_R2.fastq.gz
+bionano         fSalTru1               614264305               0       614264305    494426835592         5360499  species/Salmo_trutta/fSalTru1/genomic_data/bionano/fSalTru1_Saphyr_DLE1_1953343
+pacbio          fSalTru1             13426670827               0      2147483648      7168988253          637813  species/Salmo_trutta/fSalTru1/genomic_data/pacbio/m54097_180410_140045.subreads.bam
+pacbio          fSalTru1             11065255620               0      2147483648      5799359015          561464  species/Salmo_trutta/fSalTru1/genomic_data/pacbio/m54205_180324_221829.subreads.bam
+pacbio          fSalTru1             12511622744               0      2147483648      6676306670          611311  species/Salmo_trutta/fSalTru1/genomic_data/pacbio/m54205_180413_151401.subreads.bam
+pacbiohifi_bam  fSalTru1             11104943856               0      2147483648     15648729153         1470259  species/Salmo_trutta/fSalTru1/genomic_data/pacbio_hifi/m64016_190129_193902.ccs.bam
+pacbiohifi_bam  fSalTru1             12364475229               0      2147483648     16792479230         1578922  species/Salmo_trutta/fSalTru1/genomic_data/pacbio_hifi/m64016_190201_181512.ccs.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.3675
-arima        *       1.9102
-pacbio       *       0.5308
-pacbiohifi_bam *       1.3739
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fSalTru1          1.3675    209347457372
+arima           fSalTru1          1.9102    145952025012
+bionano         fSalTru1         804.9089    494426835592
+pacbio          fSalTru1          0.5308    163258943795
+pacbiohifi_bam  fSalTru1          1.3739     32244634880
+--------------- ---------------  ------- ---------------

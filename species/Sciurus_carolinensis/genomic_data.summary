@@ -1,23 +1,23 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    10616245987               0      2147483648     15126173801       100173341  species/Sciurus_carolinensis/mSciCar1/genomic_data/10x/mSciCar1_S1_L003_R2_001.fastq.gz
-     1074238598               0      1074238598      1268772320       158596540  species/Sciurus_carolinensis/mSciCar1/genomic_data/10x/mSciCar1_S2_L003_I1_001.fastq.gz
-     8651718400               0      2147483648     14286145077        94610232  species/Sciurus_carolinensis/mSciCar1/genomic_data/10x/mSciCar1_S4_L008_R1_001.fastq.gz
-    42823251866               0      2147483648     61367409045       406406702  species/Sciurus_carolinensis/mSciCar1/genomic_data/dovetail/mSciCar1_28852_5#1_R2.fastq.gz
-    40325247605               0      2147483648     60606776530       401369399  species/Sciurus_carolinensis/mSciCar1/genomic_data/dovetail/mSciCar1_28852_6#1_R1.fastq.gz
-    42748096814               0      2147483648     60988514234       403897445  species/Sciurus_carolinensis/mSciCar1/genomic_data/dovetail/mSciCar1_28852_6#1_R2.fastq.gz
-    18222732421               0      2147483648      9944598055          552082  species/Sciurus_carolinensis/mSciCar1/genomic_data/pacbio/m54097_180804_095540.subreads.bam
-    16076235770               0      2147483648      8753541366          488900  species/Sciurus_carolinensis/mSciCar1/genomic_data/pacbio/m54097_180805_063119.subreads.bam
-    19861238600               0      2147483648     10726586282          741276  species/Sciurus_carolinensis/mSciCar1/genomic_data/pacbio/m54205_180810_111106.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mSciCar1             10616245987               0      2147483648     15126173801       100173341  species/Sciurus_carolinensis/mSciCar1/genomic_data/10x/mSciCar1_S1_L003_R2_001.fastq.gz
+10x             mSciCar1              1074238598               0      1074238598      1268772320       158596540  species/Sciurus_carolinensis/mSciCar1/genomic_data/10x/mSciCar1_S2_L003_I1_001.fastq.gz
+10x             mSciCar1              8651718400               0      2147483648     14286145077        94610232  species/Sciurus_carolinensis/mSciCar1/genomic_data/10x/mSciCar1_S4_L008_R1_001.fastq.gz
+dovetail        mSciCar1             42823251866               0      2147483648     61367409045       406406702  species/Sciurus_carolinensis/mSciCar1/genomic_data/dovetail/mSciCar1_28852_5#1_R2.fastq.gz
+dovetail        mSciCar1             40325247605               0      2147483648     60606776530       401369399  species/Sciurus_carolinensis/mSciCar1/genomic_data/dovetail/mSciCar1_28852_6#1_R1.fastq.gz
+dovetail        mSciCar1             42748096814               0      2147483648     60988514234       403897445  species/Sciurus_carolinensis/mSciCar1/genomic_data/dovetail/mSciCar1_28852_6#1_R2.fastq.gz
+pacbio          mSciCar1             18222732421               0      2147483648      9944598055          552082  species/Sciurus_carolinensis/mSciCar1/genomic_data/pacbio/m54097_180804_095540.subreads.bam
+pacbio          mSciCar1             16076235770               0      2147483648      8753541366          488900  species/Sciurus_carolinensis/mSciCar1/genomic_data/pacbio/m54097_180805_063119.subreads.bam
+pacbio          mSciCar1             19861238600               0      2147483648     10726586282          741276  species/Sciurus_carolinensis/mSciCar1/genomic_data/pacbio/m54205_180810_111106.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5082
-dovetail     *       1.4532
-pacbio       *       0.5432
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mSciCar1          1.5082    270685973854
+dovetail        mSciCar1          1.4532    370227373805
+pacbio          mSciCar1          0.5432    222764275862
+--------------- ---------------  ------- ---------------

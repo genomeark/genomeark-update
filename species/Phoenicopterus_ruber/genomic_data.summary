@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     4167036315               0      4167036315      8163090150        54420601  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/10x/bPhoRub1_S2_L004_R1_001.fastq.gz
-     3382763980               0      3382763980      6626430150        44176201  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/10x/bPhoRub1_S4_L004_R1_001.fastq.gz
-     2305046079               0      2305046079      4439154750        29594365  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/10x/bPhoRub1_S6_L002_R1_001.fastq.gz
-    31741823891               0      2147483648     61197466768       407983111  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/arima/bPhoRub1_ARI13_4_USPD16090944_HV2CNCCXY_L6_1.clean.fq.gz
-    33761976871               0      2147483648     62784079676       418560546  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/arima/bPhoRub1_ARI13_4_USPD16090944_HV2CNCCXY_L6_2.clean.fq.gz
-    33609960513               0      2147483648     61310478929       408736526  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/arima/bPhoRub1_ARI13_4_USPD16090944_HV2CNCCXY_L7_2.clean.fq.gz
-              0               0               0      1393020115             212  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/bionano/bPhoRub1_Saphyr_DLE1_1206018
-    18128022872               0      2147483648      9755225810          682674  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/pacbio/m54159_180606_204153.subreads.bam
-    19284924493               0      2147483648     10403206701          668534  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/pacbio/m54159_180608_062125.subreads.bam
-    16701528099               0      2147483648      8973201797          613236  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/pacbio/m54159_180609_130822.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bPhoRub1              4167036315               0      4167036315      8163090150        54420601  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/10x/bPhoRub1_S2_L004_R1_001.fastq.gz
+10x             bPhoRub1              3382763980               0      3382763980      6626430150        44176201  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/10x/bPhoRub1_S4_L004_R1_001.fastq.gz
+10x             bPhoRub1              2305046079               0      2305046079      4439154750        29594365  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/10x/bPhoRub1_S6_L002_R1_001.fastq.gz
+arima           bPhoRub1             31741823891               0      2147483648     61197466768       407983111  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/arima/bPhoRub1_ARI13_4_USPD16090944_HV2CNCCXY_L6_1.clean.fq.gz
+arima           bPhoRub1             33761976871               0      2147483648     62784079676       418560546  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/arima/bPhoRub1_ARI13_4_USPD16090944_HV2CNCCXY_L6_2.clean.fq.gz
+arima           bPhoRub1             33609960513               0      2147483648     61310478929       408736526  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/arima/bPhoRub1_ARI13_4_USPD16090944_HV2CNCCXY_L7_2.clean.fq.gz
+bionano         bPhoRub1               981719093               0       981719093    568842807835         7995125  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/bionano/bPhoRub1_Saphyr_DLE1_1159773
+pacbio          bPhoRub1             18128022872               0      2147483648      9755225810          682674  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/pacbio/m54159_180606_204153.subreads.bam
+pacbio          bPhoRub1             19284924493               0      2147483648     10403206701          668534  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/pacbio/m54159_180608_062125.subreads.bam
+pacbio          bPhoRub1             16701528099               0      2147483648      8973201797          613236  species/Phoenicopterus_ruber/bPhoRub1/genomic_data/pacbio/m54159_180609_130822.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9511
-arima        *       1.8694
-pacbio       *       0.5383
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bPhoRub1          1.9511    103002943315
+arima           bPhoRub1          1.8694    244607301524
+bionano         bPhoRub1         579.4354    568842807835
+pacbio          bPhoRub1          0.5383     76746391177
+--------------- ---------------  ------- ---------------

@@ -1,23 +1,27 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     7473449363               0      2147483648     11527864976        76852436  species/Myotis_myotis/mMyoMyo1/genomic_data/10x/mMyoMyo1_S1_L003_R1_001.fastq.gz
-     7654110514               0      2147483648     11525929837        76839535  species/Myotis_myotis/mMyoMyo1/genomic_data/10x/mMyoMyo1_S1_L003_R2_001.fastq.gz
-     8860797752               0      2147483648     13639946369        90932975  species/Myotis_myotis/mMyoMyo1/genomic_data/10x/mMyoMyo1_S1_L004_R1_001.fastq.gz
-              0               0               0      2570876514            1025  species/Myotis_myotis/mMyoMyo1/genomic_data/bionano/mMyoMyo1_saphyr_DLE1
-     8909104654               0      2147483648      4723172170          452030  species/Myotis_myotis/mMyoMyo1/genomic_data/pacbio/m54062_170420_223809.subreads.bam
-     6358866358               0      2147483648      3360010413          398800  species/Myotis_myotis/mMyoMyo1/genomic_data/pacbio/m54142_170414_193339.subreads.bam
-     7716663781               0      2147483648      4016640164          641801  species/Myotis_myotis/mMyoMyo1/genomic_data/pacbio/m54142_170422_014304.subreads.bam
-     8375071897               0      2147483648     14407257890       180090723  species/Myotis_myotis/mMyoMyo1/genomic_data/phase/mMyoMyo1_myotisS3HiC_R1.fastq.gz
-     8719948165               0      2147483648     14320647125       179008089  species/Myotis_myotis/mMyoMyo1/genomic_data/phase/mMyoMyo1_myotisS3HiC_R2.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mMyoMyo1              7473449363               0      2147483648     11527864976        76852436  species/Myotis_myotis/mMyoMyo1/genomic_data/10x/mMyoMyo1_S1_L003_R1_001.fastq.gz
+10x             mMyoMyo1              7654110514               0      2147483648     11525929837        76839535  species/Myotis_myotis/mMyoMyo1/genomic_data/10x/mMyoMyo1_S1_L003_R2_001.fastq.gz
+10x             mMyoMyo1              8860797752               0      2147483648     13639946369        90932975  species/Myotis_myotis/mMyoMyo1/genomic_data/10x/mMyoMyo1_S1_L004_R1_001.fastq.gz
+bionano         mMyoMyo1               612298093               0       612298093    378472511948         5235901  species/Myotis_myotis/mMyoMyo1/genomic_data/bionano/mMyoMyo1_saphyr_DLE1_0
+bionano         mMyoMyo1               821169527               0       821169527    438029956031         6153255  species/Myotis_myotis/mMyoMyo1/genomic_data/bionano/mMyoMyo1_saphyr_DLE1_1
+bionano         mMyoMyo1                48806622               0        48806622     25201018974          393049  species/Myotis_myotis/mMyoMyo1/genomic_data/bionano/mMyoMyo1_saphyr_DLE1_2
+bionano         mMyoMyo1              1728336610               0      1728336610   1118132936680        15909036  species/Myotis_myotis/mMyoMyo1/genomic_data/bionano/mMyoMyo1_saphyr_DLE1_3
+pacbio          mMyoMyo1              8909104654               0      2147483648      4723172170          452030  species/Myotis_myotis/mMyoMyo1/genomic_data/pacbio/m54062_170420_223809.subreads.bam
+pacbio          mMyoMyo1              6358866358               0      2147483648      3360010413          398800  species/Myotis_myotis/mMyoMyo1/genomic_data/pacbio/m54142_170414_193339.subreads.bam
+pacbio          mMyoMyo1              7716663781               0      2147483648      4016640164          641801  species/Myotis_myotis/mMyoMyo1/genomic_data/pacbio/m54142_170422_014304.subreads.bam
+phase           mMyoMyo1              8375071897               0      2147483648     14407257890       180090723  species/Myotis_myotis/mMyoMyo1/genomic_data/phase/mMyoMyo1_myotisS3HiC_R1.fastq.gz
+phase           mMyoMyo1              8719948165               0      2147483648     14320647125       179008089  species/Myotis_myotis/mMyoMyo1/genomic_data/phase/mMyoMyo1_myotisS3HiC_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5296
-pacbio       *       0.5264
-phase        *       1.6675
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mMyoMyo1          1.5296     96004851667
+bionano         mMyoMyo1         610.4247   1959836423633
+pacbio          mMyoMyo1          0.5264    182213512644
+phase           mMyoMyo1          1.6675     28505945953
+--------------- ---------------  ------- ---------------

@@ -1,23 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     2500840539               0      2500840539      5011006121        33185471  species/Pygocentrus_nattereri/fPygNat1/genomic_data/10x/fPygNat1_S1_L001_R1_001.fastq.gz
-     3198123742               0      3198123742      6289926291        41655141  species/Pygocentrus_nattereri/fPygNat1/genomic_data/10x/fPygNat1_S1_L004_R1_001.fastq.gz
-     3414516018               0      3414516018      6864866794        45462694  species/Pygocentrus_nattereri/fPygNat1/genomic_data/10x/fPygNat1_S1_L007_R1_001.fastq.gz
-    28887242643               0      2147483648     48121321699       320808824  species/Pygocentrus_nattereri/fPygNat1/genomic_data/arima/fPygNat1_ARIMA241122L003_R1.fastq.gz
-    30568206721               0      2147483648     45722785703       304818585  species/Pygocentrus_nattereri/fPygNat1/genomic_data/arima/fPygNat1_ARIMA241122L003_R2.fastq.gz
-              0               0               0      1312730972             154  species/Pygocentrus_nattereri/fPygNat1/genomic_data/bionano/fPygNat1_Saphyr_DLE-1
-    21614881563               0      2147483648     11702296928          773904  species/Pygocentrus_nattereri/fPygNat1/genomic_data/pacbio/m54142_190430_101433.subreads.bam
-    22539072622               0      2147483648     12268605949          807361  species/Pygocentrus_nattereri/fPygNat1/genomic_data/pacbio/m54142_190502_210437.subreads.bam
-    21214341339               0      2147483648     11485533506          794395  species/Pygocentrus_nattereri/fPygNat1/genomic_data/pacbio/m54144_190508_231823.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fPygNat1              2500840539               0      2500840539      5011006121        33185471  species/Pygocentrus_nattereri/fPygNat1/genomic_data/10x/fPygNat1_S1_L001_R1_001.fastq.gz
+10x             fPygNat1              3198123742               0      3198123742      6289926291        41655141  species/Pygocentrus_nattereri/fPygNat1/genomic_data/10x/fPygNat1_S1_L004_R1_001.fastq.gz
+10x             fPygNat1              3414516018               0      3414516018      6864866794        45462694  species/Pygocentrus_nattereri/fPygNat1/genomic_data/10x/fPygNat1_S1_L007_R1_001.fastq.gz
+arima           fPygNat1             28887242643               0      2147483648     48121321699       320808824  species/Pygocentrus_nattereri/fPygNat1/genomic_data/arima/fPygNat1_ARIMA241122L003_R1.fastq.gz
+arima           fPygNat1             30568206721               0      2147483648     45722785703       304818585  species/Pygocentrus_nattereri/fPygNat1/genomic_data/arima/fPygNat1_ARIMA241122L003_R2.fastq.gz
+bionano         fPygNat1                76091700               0        76091700     55072493369          419889  species/Pygocentrus_nattereri/fPygNat1/genomic_data/bionano/fPygNat1_Saphyr_DLE-1_201903260558
+bionano         fPygNat1              1082375813               0      1082375813    784924429991         6426130  species/Pygocentrus_nattereri/fPygNat1/genomic_data/bionano/fPygNat1_Saphyr_DLE-1_201903280106
+pacbio          fPygNat1             21614881563               0      2147483648     11702296928          773904  species/Pygocentrus_nattereri/fPygNat1/genomic_data/pacbio/m54142_190430_101433.subreads.bam
+pacbio          fPygNat1             22539072622               0      2147483648     12268605949          807361  species/Pygocentrus_nattereri/fPygNat1/genomic_data/pacbio/m54142_190502_210437.subreads.bam
+pacbio          fPygNat1             21214341339               0      2147483648     11485533506          794395  species/Pygocentrus_nattereri/fPygNat1/genomic_data/pacbio/m54144_190508_231823.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9932
-arima        *       1.5503
-pacbio       *       0.5424
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fPygNat1          1.9932     87779023143
+arima           fPygNat1          1.5503     92173783149
+bionano         fPygNat1         725.0932    839996923360
+pacbio          fPygNat1          0.5424     93241257725
+--------------- ---------------  ------- ---------------

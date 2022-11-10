@@ -1,14 +1,14 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    17345708548               0      2147483648     32341846314       214184420  species/Sturnus_vulgaris/bStuVul1/genomic_data/arima/bStuVul1_S10_L002_R1_001.fastq.gz
-    18247580990               0      2147483648     32488001403       215152327  species/Sturnus_vulgaris/bStuVul1/genomic_data/arima/bStuVul1_S10_L002_R2_001.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bStuVul1             17345708548               0      2147483648     32341846314       214184420  species/Sturnus_vulgaris/bStuVul1/genomic_data/arima/bStuVul1_S10_L002_R1_001.fastq.gz
+arima           bStuVul1             18247580990               0      2147483648     32488001403       215152327  species/Sturnus_vulgaris/bStuVul1/genomic_data/arima/bStuVul1_S10_L002_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.8075
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bStuVul1          1.8075     64334870839
+--------------- ---------------  ------- ---------------

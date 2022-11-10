@@ -1,12 +1,13 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-              0               0               0      1604805299             769  species/Amphilophus_labiatus/fAmpLab1/genomic_data/bionano/fAmpLab1_Saphyr_DLE1_1978095
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+bionano         fAmpLab1              2418011913               0      2418011913   1652128819086        27245984  species/Amphilophus_labiatus/fAmpLab1/genomic_data/bionano/fAmpLab1_Saphyr_DLE1_1974680
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+bionano         fAmpLab1         683.2591   1652128819086
+--------------- ---------------  ------- ---------------

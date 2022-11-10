@@ -1,27 +1,28 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    16377359416               0      2147483648     29703400571       196711262  species/Bos_taurus/mBosTau1/genomic_data/10x/mBosTau1_S1_L001_R1_001.fastq.gz
-    19373027486               0      2147483648     35231044972       233318178  species/Bos_taurus/mBosTau1/genomic_data/10x/mBosTau1_S2_L001_R1_001.fastq.gz
-    15414854550               0      2147483648     27876729698       184614111  species/Bos_taurus/mBosTau1/genomic_data/10x/mBosTau1_S4_L001_R1_001.fastq.gz
-              0               0               0      3342738484            1026  species/Bos_taurus/mBosTau1/genomic_data/bionano/mBosTau1_Saphyr_DLE1_nonhap_ES_sdb
-     6280717568               0      2147483648      8928191218        59443409  species/Bos_taurus/mBosTau1/genomic_data/illumina/LIB22030_S1_L001_R1_001_06Feb17.fastq.gz
-     5727020356               0      2147483648      8018883547        53410755  species/Bos_taurus/mBosTau1/genomic_data/illumina/LIB22030_S1_L002_R2_001_06Feb17.fastq.gz
-     8968447946               0      2147483648     13244494127        88080388  species/Bos_taurus/mBosTau1/genomic_data/illumina/LIB23515_S1_L003_R2_001_31Mar17.fastq.gz
-     4605092139               0      2147483648      1200836210           97742  species/Bos_taurus/mBosTau1/genomic_data/pacbio/m161210_111220_42132_c101112932550000001823243605011722_s1_p0.subreads.bam
-     2679296441               0      2679296441       703040622           68397  species/Bos_taurus/mBosTau1/genomic_data/pacbio/m170306_043359_42132_c101163692550000001823269008151737_s1_p0.subreads.bam
-     3699222855               0      3699222855      1904449147          176861  species/Bos_taurus/mBosTau1/genomic_data/pacbio/m54033_170429_162706.subreads.bam
-     9539540333               0      2147483648     16391110044       204888875  species/Bos_taurus/mBosTau1/genomic_data/phase/mBosTau1_S3HiC_AD005_R1.fastq.gz
-    10306762925               0      2147483648     16387211478       204840148  species/Bos_taurus/mBosTau1/genomic_data/phase/mBosTau1_S3HiC_AD005_R2.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mBosTau1             16377359416               0      2147483648     29703400571       196711262  species/Bos_taurus/mBosTau1/genomic_data/10x/mBosTau1_S1_L001_R1_001.fastq.gz
+10x             mBosTau1             19373027486               0      2147483648     35231044972       233318178  species/Bos_taurus/mBosTau1/genomic_data/10x/mBosTau1_S2_L001_R1_001.fastq.gz
+10x             mBosTau1             15414854550               0      2147483648     27876729698       184614111  species/Bos_taurus/mBosTau1/genomic_data/10x/mBosTau1_S4_L001_R1_001.fastq.gz
+bionano         mBosTau1              1189749396               0      1189749396    767200736251         6501776  species/Bos_taurus/mBosTau1/genomic_data/bionano/mBosTau1_Saphyr_DLE1
+illumina        mBosTau1              6280717568               0      2147483648      8928191218        59443409  species/Bos_taurus/mBosTau1/genomic_data/illumina/LIB22030_S1_L001_R1_001_06Feb17.fastq.gz
+illumina        mBosTau1              5727020356               0      2147483648      8018883547        53410755  species/Bos_taurus/mBosTau1/genomic_data/illumina/LIB22030_S1_L002_R2_001_06Feb17.fastq.gz
+illumina        mBosTau1              8968447946               0      2147483648     13244494127        88080388  species/Bos_taurus/mBosTau1/genomic_data/illumina/LIB23515_S1_L003_R2_001_31Mar17.fastq.gz
+pacbio          mBosTau1              4605092139               0      2147483648      1200836210           97742  species/Bos_taurus/mBosTau1/genomic_data/pacbio/m161210_111220_42132_c101112932550000001823243605011722_s1_p0.subreads.bam
+pacbio          mBosTau1              2679296441               0      2679296441       703040622           68397  species/Bos_taurus/mBosTau1/genomic_data/pacbio/m170306_043359_42132_c101163692550000001823269008151737_s1_p0.subreads.bam
+pacbio          mBosTau1              3699222855               0      3699222855      1904449147          176861  species/Bos_taurus/mBosTau1/genomic_data/pacbio/m54033_170429_162706.subreads.bam
+phase           mBosTau1              9539540333               0      2147483648     16391110044       204888875  species/Bos_taurus/mBosTau1/genomic_data/phase/mBosTau1_S3HiC_AD005_R1.fastq.gz
+phase           mBosTau1             10306762925               0      2147483648     16387211478       204840148  species/Bos_taurus/mBosTau1/genomic_data/phase/mBosTau1_S3HiC_AD005_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8139
-illumina     *       1.4393
-pacbio       *       0.3467
-phase        *       1.6305
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mBosTau1          1.8139    200224460676
+bionano         mBosTau1         644.8422    767200736251
+illumina        mBosTau1          1.4393    235676685823
+pacbio          mBosTau1          0.3467    361139961998
+phase           mBosTau1          1.6305     32359397462
+--------------- ---------------  ------- ---------------

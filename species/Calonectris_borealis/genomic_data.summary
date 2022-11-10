@@ -1,16 +1,16 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    30304122677               0      2147483648     62515681187       414011147  species/Calonectris_borealis/bCalBor6/genomic_data/arima/bCalBor6_40520_4#2_R1.fastq.gz
-    32404169579               0      2147483648     63435739854       420104252  species/Calonectris_borealis/bCalBor6/genomic_data/arima/bCalBor6_40520_4#2_R2.fastq.gz
-     9797808520               0      2147483648      2563190022          300036  species/Calonectris_borealis/bCalBor6/genomic_data/pacbio_hifi/m64174e_210507_153628.ccs.bc1021_BAK8B_OA--bc1021_BAK8B_OA.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bCalBor6             30304122677               0      2147483648     62515681187       414011147  species/Calonectris_borealis/bCalBor6/genomic_data/arima/bCalBor6_40520_4#2_R1.fastq.gz
+arima           bCalBor6             32404169579               0      2147483648     63435739854       420104252  species/Calonectris_borealis/bCalBor6/genomic_data/arima/bCalBor6_40520_4#2_R2.fastq.gz
+pacbiohifi_bam  bCalBor6              9797808520               0      2147483648      2563190022          300036  species/Calonectris_borealis/bCalBor6/genomic_data/pacbio_hifi/m64174e_210507_153628.ccs.bc1021_BAK8B_OA--bc1021_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.9911
-pacbiohifi_bam *       0.2616
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bCalBor6          1.9911    124858480710
+pacbiohifi_bam  bCalBor6          0.2616      2563106708
+--------------- ---------------  ------- ---------------

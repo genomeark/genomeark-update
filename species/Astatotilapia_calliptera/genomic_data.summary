@@ -1,20 +1,21 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    10591263818               0      2147483648     14351184183        95040954  species/Astatotilapia_calliptera/fAstCal1/genomic_data/10x/fAstCal1_S1_L002_R2_001.fastq.gz
-      749354584               0       749354584       770481888        96310236  species/Astatotilapia_calliptera/fAstCal1/genomic_data/10x/fAstCal1_S2_L002_I1_001.fastq.gz
-     9815795059               0      2147483648     14366481531        95142261  species/Astatotilapia_calliptera/fAstCal1/genomic_data/10x/fAstCal1_S3_L002_R1_001.fastq.gz
-              0               0               0      1056814921            1707  species/Astatotilapia_calliptera/fAstCal1/genomic_data/bionano/fAstCal1_Irys_BspQI
-     4906633894               0      2147483648      1264824113          120015  species/Astatotilapia_calliptera/fAstCal1/genomic_data/pacbio/m160707_224257_00127_c100990692550000001823221807191691_s1_p0.subreads.bam
-     3827620260               0      3827620260       994802499          100282  species/Astatotilapia_calliptera/fAstCal1/genomic_data/pacbio/m160708_050545_00127_c100990692550000001823221807191692_s1_p0.subreads.bam
-     4430936669               0      2147483648      1146456319          117976  species/Astatotilapia_calliptera/fAstCal1/genomic_data/pacbio/m160820_130115_00127_c101020812550000001823228410211663_s1_p0.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fAstCal1             10591263818               0      2147483648     14351184183        95040954  species/Astatotilapia_calliptera/fAstCal1/genomic_data/10x/fAstCal1_S1_L002_R2_001.fastq.gz
+10x             fAstCal1               749354584               0       749354584       770481888        96310236  species/Astatotilapia_calliptera/fAstCal1/genomic_data/10x/fAstCal1_S2_L002_I1_001.fastq.gz
+10x             fAstCal1              9815795059               0      2147483648     14366481531        95142261  species/Astatotilapia_calliptera/fAstCal1/genomic_data/10x/fAstCal1_S3_L002_R1_001.fastq.gz
+bionano         fAstCal1               135979847               0       135979847    106830399334          781029  species/Astatotilapia_calliptera/fAstCal1/genomic_data/bionano/fAstCal1_Irys_BspQI
+pacbio          fAstCal1              4906633894               0      2147483648      1264824113          120015  species/Astatotilapia_calliptera/fAstCal1/genomic_data/pacbio/m160707_224257_00127_c100990692550000001823221807191691_s1_p0.subreads.bam
+pacbio          fAstCal1              3827620260               0      3827620260       994802499          100282  species/Astatotilapia_calliptera/fAstCal1/genomic_data/pacbio/m160708_050545_00127_c100990692550000001823221807191692_s1_p0.subreads.bam
+pacbio          fAstCal1              4430936669               0      2147483648      1146456319          117976  species/Astatotilapia_calliptera/fAstCal1/genomic_data/pacbio/m160820_130115_00127_c101020812550000001823228410211663_s1_p0.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.3938
-pacbio       *       0.2587
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fAstCal1          1.3938    118062112087
+bionano         fAstCal1         785.6340    106830399334
+pacbio          fAstCal1          0.2587     74892150820
+--------------- ---------------  ------- ---------------

@@ -1,23 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    40537029177               0      2147483648     74797090924       498647291  species/Lacerta_agilis/rLacAgi1/genomic_data/10x/rLacAgi1_S4_L001_R1_001.fastq.gz
-    41419590234               0      2147483648     75360729308       502404881  species/Lacerta_agilis/rLacAgi1/genomic_data/10x/rLacAgi1_S4_L001_R2_001.fastq.gz
-    15002027376               0      2147483648     26258972891       175059819  species/Lacerta_agilis/rLacAgi1/genomic_data/arima/rLacAgi1_ARI10_4_USPD16090942_HV2CNCCXY_L2_2.clean.fq.gz
-    32618353700               0      2147483648     62415440647       416102952  species/Lacerta_agilis/rLacAgi1/genomic_data/arima/rLacAgi1_ARI10_4_USPD16090942_HV2CNCCXY_L3_1.clean.fq.gz
-    34707139353               0      2147483648     64919454240       432796377  species/Lacerta_agilis/rLacAgi1/genomic_data/arima/rLacAgi1_ARI10_4_USPD16090942_HV2CNCCXY_L3_2.clean.fq.gz
-              0               0               0      2878485715             871  species/Lacerta_agilis/rLacAgi1/genomic_data/bionano/rLacAgi1_Saphyr_DLE1_1631684
-    12899204936               0      2147483648      6902628842          565569  species/Lacerta_agilis/rLacAgi1/genomic_data/pacbio/m54158_180810_175709.subreads.bam
-    10964333356               0      2147483648      5830120457          480642  species/Lacerta_agilis/rLacAgi1/genomic_data/pacbio/m54159_180804_072119.subreads.bam
-    13765056895               0      2147483648      7365962599          507250  species/Lacerta_agilis/rLacAgi1/genomic_data/pacbio/m54159_180815_055511.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             rLacAgi1             40537029177               0      2147483648     74797090924       498647291  species/Lacerta_agilis/rLacAgi1/genomic_data/10x/rLacAgi1_S4_L001_R1_001.fastq.gz
+10x             rLacAgi1             41419590234               0      2147483648     75360729308       502404881  species/Lacerta_agilis/rLacAgi1/genomic_data/10x/rLacAgi1_S4_L001_R2_001.fastq.gz
+arima           rLacAgi1             15002027376               0      2147483648     26258972891       175059819  species/Lacerta_agilis/rLacAgi1/genomic_data/arima/rLacAgi1_ARI10_4_USPD16090942_HV2CNCCXY_L2_2.clean.fq.gz
+arima           rLacAgi1             32618353700               0      2147483648     62415440647       416102952  species/Lacerta_agilis/rLacAgi1/genomic_data/arima/rLacAgi1_ARI10_4_USPD16090942_HV2CNCCXY_L3_1.clean.fq.gz
+arima           rLacAgi1             34707139353               0      2147483648     64919454240       432796377  species/Lacerta_agilis/rLacAgi1/genomic_data/arima/rLacAgi1_ARI10_4_USPD16090942_HV2CNCCXY_L3_2.clean.fq.gz
+bionano         rLacAgi1               968712711               0       968712711    529465306802         6194121  species/Lacerta_agilis/rLacAgi1/genomic_data/bionano/rLacAgi1_Saphyr_DLE1_1476631
+bionano         rLacAgi1               844403104               0       844403104    464323382581         4455576  species/Lacerta_agilis/rLacAgi1/genomic_data/bionano/rLacAgi1_Saphyr_DLE1_1631677
+pacbio          rLacAgi1             12899204936               0      2147483648      6902628842          565569  species/Lacerta_agilis/rLacAgi1/genomic_data/pacbio/m54158_180810_175709.subreads.bam
+pacbio          rLacAgi1             10964333356               0      2147483648      5830120457          480642  species/Lacerta_agilis/rLacAgi1/genomic_data/pacbio/m54159_180804_072119.subreads.bam
+pacbio          rLacAgi1             13765056895               0      2147483648      7365962599          507250  species/Lacerta_agilis/rLacAgi1/genomic_data/pacbio/m54159_180815_055511.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8278
-arima        *       1.8656
-pacbio       *       0.5341
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             rLacAgi1          1.8278    149800308959
+arima           rLacAgi1          1.8656    179514536716
+bionano         rLacAgi1         548.1109    993788689383
+pacbio          rLacAgi1          0.5341    126831387021
+--------------- ---------------  ------- ---------------

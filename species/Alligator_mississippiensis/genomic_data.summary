@@ -1,12 +1,13 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-              0               0               0      2384866499             185  species/Alligator_mississippiensis/rAllMis1/genomic_data/bionano/rAllMis1_Saphyr_DLE1_3684385
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+bionano         rAllMis1              1177368428               0      1177368428    669119523849         6114701  species/Alligator_mississippiensis/rAllMis1/genomic_data/bionano/rAllMis1_Saphyr_DLE1_3683889
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+bionano         rAllMis1         568.3178    669119523849
+--------------- ---------------  ------- ---------------

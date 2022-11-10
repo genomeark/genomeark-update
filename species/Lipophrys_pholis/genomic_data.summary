@@ -1,20 +1,20 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     4533263021               0      2147483648      7915096506        52417859  species/Lipophrys_pholis/fLipPho2/genomic_data/10x/fLipPho2_S1_L006_R1_001.fastq.gz
-      422456644               0       422456644       533919504        66739938  species/Lipophrys_pholis/fLipPho2/genomic_data/10x/fLipPho2_S2_L006_I1_001.fastq.gz
-     5361450070               0      2147483648      8474769887        56124306  species/Lipophrys_pholis/fLipPho2/genomic_data/10x/fLipPho2_S3_L006_R2_001.fastq.gz
-    38027637329               0      2147483648     66171372342       438221026  species/Lipophrys_pholis/fLipPho2/genomic_data/arima/fLipPho2_35312_7#1_R1.fastq.gz
-    44603843974               0      2147483648     66446126713       440040595  species/Lipophrys_pholis/fLipPho2/genomic_data/arima/fLipPho2_35312_7#1_R2.fastq.gz
-     6177357771               0      2147483648      8471032120          966071  species/Lipophrys_pholis/fLipPho2/genomic_data/pacbio_hifi/m64097_201015_113801.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fLipPho2              4533263021               0      2147483648      7915096506        52417859  species/Lipophrys_pholis/fLipPho2/genomic_data/10x/fLipPho2_S1_L006_R1_001.fastq.gz
+10x             fLipPho2               422456644               0       422456644       533919504        66739938  species/Lipophrys_pholis/fLipPho2/genomic_data/10x/fLipPho2_S2_L006_I1_001.fastq.gz
+10x             fLipPho2              5361450070               0      2147483648      8474769887        56124306  species/Lipophrys_pholis/fLipPho2/genomic_data/10x/fLipPho2_S3_L006_R2_001.fastq.gz
+arima           fLipPho2             38027637329               0      2147483648     66171372342       438221026  species/Lipophrys_pholis/fLipPho2/genomic_data/arima/fLipPho2_35312_7#1_R1.fastq.gz
+arima           fLipPho2             44603843974               0      2147483648     66446126713       440040595  species/Lipophrys_pholis/fLipPho2/genomic_data/arima/fLipPho2_35312_7#1_R2.fastq.gz
+pacbiohifi_bam  fLipPho2              6177357771               0      2147483648      8471032120          966071  species/Lipophrys_pholis/fLipPho2/genomic_data/pacbio_hifi/m64097_201015_113801.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.6403
-arima        *       1.5645
-pacbiohifi_bam *       1.3713
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fLipPho2          1.6403     68484114162
+arima           fLipPho2          1.5645    129276952498
+pacbiohifi_bam  fLipPho2          1.3713      8471010711
+--------------- ---------------  ------- ---------------

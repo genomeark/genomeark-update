@@ -1,19 +1,23 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     8169119839               0      2147483648     10184007818          719188  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210325_052255.ccs.bam
-   314526980508               0      2147483648    162908155258        11819274  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210325_052255.subreads.bam
-    10104984084               0      2147483648     12765851981          854212  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210504_215359.ccs.bam
-   353121182458               0      2147483648    183313463785        13839989  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210504_215359.subreads.bam
-     8342408679               0      2147483648     10188650473          663781  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m64046_210430_203759.ccs.bam
-   284840114132               0      2147483648    148119424459        10835413  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m64046_210430_203759.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+bionano         bPelCri1              1240476449               0      1240476449    670547278722        10741095  species/Pelecanus_crispus/bPelCri1/genomic_data/bionano/bPelCri1_Saphyr_DLE1_2ZBYKAWLPR2XDNWU_F1P1
+bionano         bPelCri1               212713598               0       212713598    205535307206         3102665  species/Pelecanus_crispus/bPelCri1/genomic_data/bionano/bPelCri1_Saphyr_DLE1_NOE3E7OLPRKE7NWU_F1P1
+bionano         bPelCri1               343407725               0       343407725    758824734799         9384438  species/Pelecanus_crispus/bPelCri1/genomic_data/bionano/bPelCri1_Saphyr_DLE1_NOE3E7OLPRKE7NWU_F2P1
+pacbiohifi_bam  bPelCri1              8169119839               0      2147483648     10184007818          719188  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210325_052255.ccs.bam
+pacbiohifi_clr  bPelCri1            314526980508               0      2147483648    162908155258        11819274  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210325_052255.subreads.bam
+pacbiohifi_bam  bPelCri1             10104984084               0      2147483648     12765851981          854212  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210504_215359.ccs.bam
+pacbiohifi_clr  bPelCri1            353121182458               0      2147483648    183313463785        13839989  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210504_215359.subreads.bam
+pacbiohifi_bam  bPelCri1              8342408679               0      2147483648     10188650473          663781  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m64046_210430_203759.ccs.bam
+pacbiohifi_clr  bPelCri1            284840114132               0      2147483648    148119424459        10835413  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m64046_210430_203759.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-pacbiohifi_bam *       1.2450
-pacbiohifi_clr *       0.5189
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+bionano         bPelCri1         910.0018   1634907320727
+pacbiohifi_bam  bPelCri1          1.2450     33137558189
+pacbiohifi_clr  bPelCri1          0.5189    494246166986
+--------------- ---------------  ------- ---------------

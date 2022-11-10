@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     9345135327               0      2147483648     18679693942       124531297  species/Cariama_cristata/bCarCri1/genomic_data/10x/bCarCri1_S1_L004_R1_001.fastq.gz
-    11248783652               0      2147483648     22462817878       149752119  species/Cariama_cristata/bCarCri1/genomic_data/10x/bCarCri1_S2_L004_R1_001.fastq.gz
-     9116032903               0      2147483648     17768396238       118455979  species/Cariama_cristata/bCarCri1/genomic_data/10x/bCarCri1_S3_L004_R2_001.fastq.gz
-    34635461942               0      2147483648     61861816441       412412125  species/Cariama_cristata/bCarCri1/genomic_data/arima/bCarCri1_ARI5_4_USPD16090938_HV3Y2CCXY_L3_2.clean.fq.gz
-    32043747675               0      2147483648     61974025918       413160172  species/Cariama_cristata/bCarCri1/genomic_data/arima/bCarCri1_ARI5_4_USPD16090938_HV3Y2CCXY_L3_R1.clean.fastq.gz
-    34635461942               0      2147483648     61861816441       412412125  species/Cariama_cristata/bCarCri1/genomic_data/arima/bCarCri1_ARI5_4_USPD16090938_HV3Y2CCXY_L3_R2.clean.fastq.gz
-              0               0               0      1314006814             657  species/Cariama_cristata/bCarCri1/genomic_data/bionano/bCarCri1_Saphyr_DLE1_1433832
-    18286688291               0      2147483648      9859450606          653514  species/Cariama_cristata/bCarCri1/genomic_data/pacbio/m54159_180427_061924.subreads.bam
-    16949574429               0      2147483648      9154442344          546644  species/Cariama_cristata/bCarCri1/genomic_data/pacbio/m54159_180429_031435.subreads.bam
-    17743736013               0      2147483648      9564897309          620139  species/Cariama_cristata/bCarCri1/genomic_data/pacbio/m54159_180502_060656.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bCarCri1              9345135327               0      2147483648     18679693942       124531297  species/Cariama_cristata/bCarCri1/genomic_data/10x/bCarCri1_S1_L004_R1_001.fastq.gz
+10x             bCarCri1             11248783652               0      2147483648     22462817878       149752119  species/Cariama_cristata/bCarCri1/genomic_data/10x/bCarCri1_S2_L004_R1_001.fastq.gz
+10x             bCarCri1              9116032903               0      2147483648     17768396238       118455979  species/Cariama_cristata/bCarCri1/genomic_data/10x/bCarCri1_S3_L004_R2_001.fastq.gz
+arima           bCarCri1             34635461942               0      2147483648     61861816441       412412125  species/Cariama_cristata/bCarCri1/genomic_data/arima/bCarCri1_ARI5_4_USPD16090938_HV3Y2CCXY_L3_2.clean.fq.gz
+arima           bCarCri1             32043747675               0      2147483648     61974025918       413160172  species/Cariama_cristata/bCarCri1/genomic_data/arima/bCarCri1_ARI5_4_USPD16090938_HV3Y2CCXY_L3_R1.clean.fastq.gz
+arima           bCarCri1             34635461942               0      2147483648     61861816441       412412125  species/Cariama_cristata/bCarCri1/genomic_data/arima/bCarCri1_ARI5_4_USPD16090938_HV3Y2CCXY_L3_R2.clean.fastq.gz
+bionano         bCarCri1              1369990616               0      1369990616    826088767293        15781528  species/Cariama_cristata/bCarCri1/genomic_data/bionano/bCarCri1_Saphyr_DLE1_957287
+pacbio          bCarCri1             18286688291               0      2147483648      9859450606          653514  species/Cariama_cristata/bCarCri1/genomic_data/pacbio/m54159_180427_061924.subreads.bam
+pacbio          bCarCri1             16949574429               0      2147483648      9154442344          546644  species/Cariama_cristata/bCarCri1/genomic_data/pacbio/m54159_180429_031435.subreads.bam
+pacbio          bCarCri1             17743736013               0      2147483648      9564897309          620139  species/Cariama_cristata/bCarCri1/genomic_data/pacbio/m54159_180502_060656.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9828
-arima        *       1.8328
-pacbio       *       0.5394
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bCarCri1          1.9828    154308319568
+arima           bCarCri1          1.8328    244419310772
+bionano         bCarCri1         602.9886    826088767293
+pacbio          bCarCri1          0.5394     76616835799
+--------------- ---------------  ------- ---------------

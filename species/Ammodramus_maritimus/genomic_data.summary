@@ -1,15 +1,16 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    37377571642               0      2147483648     70533474183       470223178  species/Ammodramus_maritimus/bAmmMai1/genomic_data/arima/bAmmMai1_Seaside_Sparrow_R1.fastq.gz
-    38964498771               0      2147483648     71652086589       477680595  species/Ammodramus_maritimus/bAmmMai1/genomic_data/arima/bAmmMai1_Seaside_Sparrow_R2.fastq.gz
-              0               0               0      1473379273             763  species/Ammodramus_maritimus/bAmmMai1/genomic_data/bionano/bAmmMai1_Saphyr_DLE1_3680739
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAmmMai1             37377571642               0      2147483648     70533474183       470223178  species/Ammodramus_maritimus/bAmmMai1/genomic_data/arima/bAmmMai1_Seaside_Sparrow_R1.fastq.gz
+arima           bAmmMai1             38964498771               0      2147483648     71652086589       477680595  species/Ammodramus_maritimus/bAmmMai1/genomic_data/arima/bAmmMai1_Seaside_Sparrow_R2.fastq.gz
+bionano         bAmmMai1               841157849               0       841157849    517029698700         5379143  species/Ammodramus_maritimus/bAmmMai1/genomic_data/bionano/bAmmMai1_Saphyr_DLE1_3680734
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.8545
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bAmmMai1          1.8545    141576369580
+bionano         bAmmMai1         614.6642    517029698700
+--------------- ---------------  ------- ---------------

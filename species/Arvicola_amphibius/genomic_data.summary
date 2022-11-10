@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     9161623286               0      2147483648     13952768207        92402442  species/Arvicola_amphibius/mArvAmp1/genomic_data/10x/mArvAmp1_S1_L008_R1_001.fastq.gz
-      813621282               0       813621282       870780128       108847516  species/Arvicola_amphibius/mArvAmp1/genomic_data/10x/mArvAmp1_S4_L008_I1_001.fastq.gz
-    10719901628               0      2147483648     16355495703       108314546  species/Arvicola_amphibius/mArvAmp1/genomic_data/10x/mArvAmp1_S4_L008_R1_001.fastq.gz
-              0               0               0      2527174203             291  species/Arvicola_amphibius/mArvAmp1/genomic_data/bionano/mArvAmp1_Saphyr_DLE1
-    28252182310               0      2147483648     43328790993       286945648  species/Arvicola_amphibius/mArvAmp1/genomic_data/dovetail/mArvAmp1_30820_1#1_R1.fastq.gz
-    29194348809               0      2147483648     42187847844       279389734  species/Arvicola_amphibius/mArvAmp1/genomic_data/dovetail/mArvAmp1_30820_1#1_R2.fastq.gz
-    14463615665               0      2147483648      7633431586          590679  species/Arvicola_amphibius/mArvAmp1/genomic_data/pacbio/m54205_180109_144115.subreads.bam
-    12561596684               0      2147483648      6591569690          590086  species/Arvicola_amphibius/mArvAmp1/genomic_data/pacbio/m54205_180115_230507.subreads.bam
-    13409638653               0      2147483648      7070595023          579606  species/Arvicola_amphibius/mArvAmp1/genomic_data/pacbio/m54205_180118_055046.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mArvAmp1              9161623286               0      2147483648     13952768207        92402442  species/Arvicola_amphibius/mArvAmp1/genomic_data/10x/mArvAmp1_S1_L008_R1_001.fastq.gz
+10x             mArvAmp1               813621282               0       813621282       870780128       108847516  species/Arvicola_amphibius/mArvAmp1/genomic_data/10x/mArvAmp1_S4_L008_I1_001.fastq.gz
+10x             mArvAmp1             10719901628               0      2147483648     16355495703       108314546  species/Arvicola_amphibius/mArvAmp1/genomic_data/10x/mArvAmp1_S4_L008_R1_001.fastq.gz
+bionano         mArvAmp1              4061085538               0      4061085538   2366959568695        22627932  species/Arvicola_amphibius/mArvAmp1/genomic_data/bionano/mArvAmp1_Saphyr_DLE1
+dovetail        mArvAmp1             28252182310               0      2147483648     43328790993       286945648  species/Arvicola_amphibius/mArvAmp1/genomic_data/dovetail/mArvAmp1_30820_1#1_R1.fastq.gz
+dovetail        mArvAmp1             29194348809               0      2147483648     42187847844       279389734  species/Arvicola_amphibius/mArvAmp1/genomic_data/dovetail/mArvAmp1_30820_1#1_R2.fastq.gz
+pacbio          mArvAmp1             14463615665               0      2147483648      7633431586          590679  species/Arvicola_amphibius/mArvAmp1/genomic_data/pacbio/m54205_180109_144115.subreads.bam
+pacbio          mArvAmp1             12561596684               0      2147483648      6591569690          590086  species/Arvicola_amphibius/mArvAmp1/genomic_data/pacbio/m54205_180115_230507.subreads.bam
+pacbio          mArvAmp1             13409638653               0      2147483648      7070595023          579606  species/Arvicola_amphibius/mArvAmp1/genomic_data/pacbio/m54205_180118_055046.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5065
-dovetail     *       1.4739
-pacbio       *       0.5266
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mArvAmp1          1.5065    246003465239
+bionano         mArvAmp1         582.8391   2366959568695
+dovetail        mArvAmp1          1.4739     84670442216
+pacbio          mArvAmp1          0.5266    152432799265
+--------------- ---------------  ------- ---------------

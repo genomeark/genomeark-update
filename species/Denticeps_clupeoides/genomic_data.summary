@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-      744888774               0       744888774       786914248        98364281  species/Denticeps_clupeoides/fDenClu1/genomic_data/10x/fDenClu1_S1_L001_I1_001.fastq.gz
-     9806622539               0      2147483648     14921786000        98819779  species/Denticeps_clupeoides/fDenClu1/genomic_data/10x/fDenClu1_S1_L001_R1_001.fastq.gz
-     9093675193               0      2147483648     13778181917        91246237  species/Denticeps_clupeoides/fDenClu1/genomic_data/10x/fDenClu1_S2_L001_R1_001.fastq.gz
-     3081958710               0      3081958710      5459825250        36398835  species/Denticeps_clupeoides/fDenClu1/genomic_data/arima/fDenClu1_ARI2_002_USPD16085689-AK5148_HK5YFCCXY_L2_R2.fastq.gz
-     2887356529               0      2887356529      5550970950        37006473  species/Denticeps_clupeoides/fDenClu1/genomic_data/arima/fDenClu1_ARI2_002_USPD16085689-AK5148_HK5YFCCXY_L4_R1.fastq.gz
-     3064943728               0      3064943728      5550970950        37006473  species/Denticeps_clupeoides/fDenClu1/genomic_data/arima/fDenClu1_ARI2_002_USPD16085689-AK5148_HK5YFCCXY_L4_R2.fastq.gz
-              0               0               0       778613074             370  species/Denticeps_clupeoides/fDenClu1/genomic_data/bionano/fDenClu1_Saphyr_DLE1_1786995
-     9544385806               0      2147483648      5078853456          363822  species/Denticeps_clupeoides/fDenClu1/genomic_data/pacbio/m54097_180118_130235.subreads.bam
-     6572394786               0      2147483648      3499509969          249679  species/Denticeps_clupeoides/fDenClu1/genomic_data/pacbio/m54097_180118_230902.subreads.bam
-    10871926083               0      2147483648      5763493302          414169  species/Denticeps_clupeoides/fDenClu1/genomic_data/pacbio/m54205_180124_143636.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fDenClu1               744888774               0       744888774       786914248        98364281  species/Denticeps_clupeoides/fDenClu1/genomic_data/10x/fDenClu1_S1_L001_I1_001.fastq.gz
+10x             fDenClu1              9806622539               0      2147483648     14921786000        98819779  species/Denticeps_clupeoides/fDenClu1/genomic_data/10x/fDenClu1_S1_L001_R1_001.fastq.gz
+10x             fDenClu1              9093675193               0      2147483648     13778181917        91246237  species/Denticeps_clupeoides/fDenClu1/genomic_data/10x/fDenClu1_S2_L001_R1_001.fastq.gz
+arima           fDenClu1              3081958710               0      3081958710      5459825250        36398835  species/Denticeps_clupeoides/fDenClu1/genomic_data/arima/fDenClu1_ARI2_002_USPD16085689-AK5148_HK5YFCCXY_L2_R2.fastq.gz
+arima           fDenClu1              2887356529               0      2887356529      5550970950        37006473  species/Denticeps_clupeoides/fDenClu1/genomic_data/arima/fDenClu1_ARI2_002_USPD16085689-AK5148_HK5YFCCXY_L4_R1.fastq.gz
+arima           fDenClu1              3064943728               0      3064943728      5550970950        37006473  species/Denticeps_clupeoides/fDenClu1/genomic_data/arima/fDenClu1_ARI2_002_USPD16085689-AK5148_HK5YFCCXY_L4_R2.fastq.gz
+bionano         fDenClu1              1071923361               0      1071923361    720972932296         7713656  species/Denticeps_clupeoides/fDenClu1/genomic_data/bionano/fDenClu1_Saphyr_DLE1_1786994
+pacbio          fDenClu1              9544385806               0      2147483648      5078853456          363822  species/Denticeps_clupeoides/fDenClu1/genomic_data/pacbio/m54097_180118_130235.subreads.bam
+pacbio          fDenClu1              6572394786               0      2147483648      3499509969          249679  species/Denticeps_clupeoides/fDenClu1/genomic_data/pacbio/m54097_180118_230902.subreads.bam
+pacbio          fDenClu1             10871926083               0      2147483648      5763493302          414169  species/Denticeps_clupeoides/fDenClu1/genomic_data/pacbio/m54205_180124_143636.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5009
-arima        *       1.8332
-pacbio       *       0.5314
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fDenClu1          1.5009    117697161956
+arima           fDenClu1          1.8332     54728244353
+bionano         fDenClu1         672.5974    720972932296
+pacbio          fDenClu1          0.5314     36635510494
+--------------- ---------------  ------- ---------------

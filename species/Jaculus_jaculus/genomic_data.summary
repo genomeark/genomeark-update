@@ -1,26 +1,32 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    17237068351               0      2147483648     33588481600       226949208  species/Jaculus_jaculus/mJacJac1/genomic_data/10x/mJacJac1_S1_L002_R1_001.fastq.gz
-    17748220896               0      2147483648     34022250529       229880079  species/Jaculus_jaculus/mJacJac1/genomic_data/10x/mJacJac1_S1_L002_R2_001.fastq.gz
-    16437181908               0      2147483648     32034721708       216450830  species/Jaculus_jaculus/mJacJac1/genomic_data/10x/mJacJac1_S1_L004_R1_001.fastq.gz
-    56406699272               0      2147483648     99745507248       664970074  species/Jaculus_jaculus/mJacJac1/genomic_data/arima/mJacJac1_S001_R001_R1.fastq.gz
-    60493712831               0      2147483648     97603289641       650688597  species/Jaculus_jaculus/mJacJac1/genomic_data/arima/mJacJac1_S001_R001_R2.fastq.gz
-   112054185561               0      2147483648     60917838655         2253310  species/Jaculus_jaculus/mJacJac1/genomic_data/pacbio/m54345U_210113_144717.paternal.subreads.bam
-   148362662693               0      2147483648     76437007190         5231041  species/Jaculus_jaculus/mJacJac1/genomic_data/pacbio/m64046_200219_055150.subreads.bam
-   197596283970               0      2147483648     99559066639         8146181  species/Jaculus_jaculus/mJacJac1/genomic_data/pacbio/m64046_200313_053110.subreads.bam
-     2611000339               0      2611000339      4896170621        32424971  species/Jaculus_jaculus/mJacJac2/genomic_data/illumina/mJacJac2_S1_L002_R1_001.fastq.gz
-     1840412728               0      1840412728      3281137286        21729386  species/Jaculus_jaculus/mJacJac3/genomic_data/illumina/mJacJac3_S1_L001_R2_001.fastq.gz
-    29706498328               0      2147483648     61794141754       409232740  species/Jaculus_jaculus/mJacJac3/genomic_data/illumina/mJacJac3_S1_L004_R1_001.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mJacJac1             17237068351               0      2147483648     33588481600       226949208  species/Jaculus_jaculus/mJacJac1/genomic_data/10x/mJacJac1_S1_L002_R1_001.fastq.gz
+10x             mJacJac1             17748220896               0      2147483648     34022250529       229880079  species/Jaculus_jaculus/mJacJac1/genomic_data/10x/mJacJac1_S1_L002_R2_001.fastq.gz
+10x             mJacJac1             16437181908               0      2147483648     32034721708       216450830  species/Jaculus_jaculus/mJacJac1/genomic_data/10x/mJacJac1_S1_L004_R1_001.fastq.gz
+arima           mJacJac1             56406699272               0      2147483648     99745507248       664970074  species/Jaculus_jaculus/mJacJac1/genomic_data/arima/mJacJac1_S001_R001_R1.fastq.gz
+arima           mJacJac1             60493712831               0      2147483648     97603289641       650688597  species/Jaculus_jaculus/mJacJac1/genomic_data/arima/mJacJac1_S001_R001_R2.fastq.gz
+bionano         mJacJac1              1627887025               0      1627887025    835114742927         5960950  species/Jaculus_jaculus/mJacJac1/genomic_data/bionano/all
+pacbio          mJacJac1            112054185561               0      2147483648     60917838655         2253310  species/Jaculus_jaculus/mJacJac1/genomic_data/pacbio/m54345U_210113_144717.paternal.subreads.bam
+pacbio          mJacJac1            148362662693               0      2147483648     76437007190         5231041  species/Jaculus_jaculus/mJacJac1/genomic_data/pacbio/m64046_200219_055150.subreads.bam
+pacbio          mJacJac1            197596283970               0      2147483648     99559066639         8146181  species/Jaculus_jaculus/mJacJac1/genomic_data/pacbio/m64046_200313_053110.subreads.bam
+illumina        mJacJac2              2714699408               0      2714699408      4844500837        32082787  species/Jaculus_jaculus/mJacJac2/genomic_data/illumina/mJacJac2_S1_L001_R2_001.fastq.gz
+illumina        mJacJac2              2611000339               0      2611000339      4896170621        32424971  species/Jaculus_jaculus/mJacJac2/genomic_data/illumina/mJacJac2_S1_L002_R1_001.fastq.gz
+illumina        mJacJac2             45135841183               0      2147483648     94276545723       624348005  species/Jaculus_jaculus/mJacJac2/genomic_data/illumina/mJacJac2_S1_L004_R1_001.fastq.gz
+illumina        mJacJac3              1840412728               0      1840412728      3281137286        21729386  species/Jaculus_jaculus/mJacJac3/genomic_data/illumina/mJacJac3_S1_L001_R2_001.fastq.gz
+illumina        mJacJac3              1773389642               0      1773389642      3314772989        21952139  species/Jaculus_jaculus/mJacJac3/genomic_data/illumina/mJacJac3_S1_L002_R1_001.fastq.gz
+illumina        mJacJac3             29706498328               0      2147483648     47360860006       313648093  species/Jaculus_jaculus/mJacJac3/genomic_data/illumina/mJacJac3_S1_L004_R1_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9377
-arima        *       1.6626
-illumina     *       2.0484
-pacbio       *       0.5172
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mJacJac1          1.9377    264759441425
+arima           mJacJac1          1.6626    194358625162
+bionano         mJacJac1         513.0053    835114742927
+illumina        mJacJac2          2.0613    223288444006
+illumina        mJacJac3          1.6193    115882440931
+pacbio          mJacJac1          0.5172   1323562260183
+--------------- ---------------  ------- ---------------

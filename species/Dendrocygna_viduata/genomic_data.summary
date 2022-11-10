@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    22755057408               0      2147483648     34442096751       229613978  species/Dendrocygna_viduata/bDenVid1/genomic_data/arima/bDenVid1_S_2476_4_R1_001.fastq.gz
-    27527824572               0      2147483648     36041427099       240276193  species/Dendrocygna_viduata/bDenVid1/genomic_data/arima/bDenVid1_S_2476_4_R2_001.fastq.gz
-              0               0               0      1451979099            1674  species/Dendrocygna_viduata/bDenVid1/genomic_data/bionano/bDenVid1_Saphyr_BspQI_1829063
-              0               0               0      1704760343            1081  species/Dendrocygna_viduata/bDenVid1/genomic_data/bionano/bDenVid1_Saphyr_BssSI_1829064
-    22448373792               0      2147483648     45650385203       302320442  species/Dendrocygna_viduata/bDenVid1/genomic_data/illumina/bDenVid1_R1.fastq.gz
-    23558566062               0      2147483648     46136058146       305536819  species/Dendrocygna_viduata/bDenVid1/genomic_data/illumina/bDenVid1_R2.fastq.gz
-    13167422633               0      2147483648      6951283880          559149  species/Dendrocygna_viduata/bDenVid1/genomic_data/pacbio/m54158_170901_161131.subreads.bam
-    10639280153               0      2147483648      5584079681          491149  species/Dendrocygna_viduata/bDenVid1/genomic_data/pacbio/m54159_170915_141623.subreads.bam
-    10191264973               0      2147483648      5357308464          464563  species/Dendrocygna_viduata/bDenVid1/genomic_data/pacbio/m54159_170916_002545.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bDenVid1             22755057408               0      2147483648     34442096751       229613978  species/Dendrocygna_viduata/bDenVid1/genomic_data/arima/bDenVid1_S_2476_4_R1_001.fastq.gz
+arima           bDenVid1             27527824572               0      2147483648     36041427099       240276193  species/Dendrocygna_viduata/bDenVid1/genomic_data/arima/bDenVid1_S_2476_4_R2_001.fastq.gz
+bionano         bDenVid1              1260338000               0      1260338000    840378768821         7386774  species/Dendrocygna_viduata/bDenVid1/genomic_data/bionano/bDenVid1_Saphyr_BspQI_348980
+bionano         bDenVid1              1716184891               0      1716184891    939792874444        10971991  species/Dendrocygna_viduata/bDenVid1/genomic_data/bionano/bDenVid1_Saphyr_BssSI_349099
+illumina        bDenVid1             22448373792               0      2147483648     45650385203       302320442  species/Dendrocygna_viduata/bDenVid1/genomic_data/illumina/bDenVid1_R1.fastq.gz
+illumina        bDenVid1             23558566062               0      2147483648     46136058146       305536819  species/Dendrocygna_viduata/bDenVid1/genomic_data/illumina/bDenVid1_R2.fastq.gz
+pacbio          bDenVid1             13167422633               0      2147483648      6951283880          559149  species/Dendrocygna_viduata/bDenVid1/genomic_data/pacbio/m54158_170901_161131.subreads.bam
+pacbio          bDenVid1             10639280153               0      2147483648      5584079681          491149  species/Dendrocygna_viduata/bDenVid1/genomic_data/pacbio/m54159_170915_141623.subreads.bam
+pacbio          bDenVid1             10191264973               0      2147483648      5357308464          464563  species/Dendrocygna_viduata/bDenVid1/genomic_data/pacbio/m54159_170916_002545.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.3690
-illumina     *       1.9826
-pacbio       *       0.5262
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bDenVid1          1.3690     68837265430
+bionano         bDenVid1         598.0708   1780171643265
+illumina        bDenVid1          1.9826     91213358954
+pacbio          bDenVid1          0.5262     60429403319
+--------------- ---------------  ------- ---------------

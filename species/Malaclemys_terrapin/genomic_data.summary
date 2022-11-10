@@ -1,19 +1,21 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    49617290373               0      2147483648     92236226781       610835962  species/Malaclemys_terrapin/rMalTer1/genomic_data/arima/rMalTer1_S3_L001_R1_001.fastq.gz
-    51374375913               0      2147483648     92826218159       614743190  species/Malaclemys_terrapin/rMalTer1/genomic_data/arima/rMalTer1_S3_L001_R2_001.fastq.gz
-              0               0               0      2265702108             226  species/Malaclemys_terrapin/rMalTer1/genomic_data/bionano/rMalTer1_Saphyr_DLE1_3690537
-    23049371308               0      2147483648     27862303645         1705730  species/Malaclemys_terrapin/rMalTer1/genomic_data/pacbio_hifi/m64055e_220429_090631.demultiplex.bc1011--bc1011.hifi_reads.fastq.gz
-    24272775448               0      2147483648     29229814099         1810768  species/Malaclemys_terrapin/rMalTer1/genomic_data/pacbio_hifi/m64330e_220320_051323.demultiplex.bc1022--bc1022.hifi_reads.fastq.gz
-    13629318069               0      2147483648     15681063689          921640  species/Malaclemys_terrapin/rMalTer1/genomic_data/pacbio_hifi/m64334e_220408_155659.demultiplex.bc1011--bc1011.hifi_reads.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rMalTer1             49617290373               0      2147483648     92236226781       610835962  species/Malaclemys_terrapin/rMalTer1/genomic_data/arima/rMalTer1_S3_L001_R1_001.fastq.gz
+arima           rMalTer1             51374375913               0      2147483648     92826218159       614743190  species/Malaclemys_terrapin/rMalTer1/genomic_data/arima/rMalTer1_S3_L001_R2_001.fastq.gz
+bionano         rMalTer1              2985425409               0      2985425409   1656404006174        25093623  species/Malaclemys_terrapin/rMalTer1/genomic_data/bionano/rMalTer1_Saphyr_DLE1_3688021
+bionano         rMalTer1               925784971               0       925784971    569817700171         4781989  species/Malaclemys_terrapin/rMalTer1/genomic_data/bionano/rMalTer1_Saphyr_DLE1_3690332
+pacbiohifi_fqgz rMalTer1             23049371308               0      2147483648     27862303645         1705730  species/Malaclemys_terrapin/rMalTer1/genomic_data/pacbio_hifi/m64055e_220429_090631.demultiplex.bc1011--bc1011.hifi_reads.fastq.gz
+pacbiohifi_fqgz rMalTer1             24272775448               0      2147483648     29229814099         1810768  species/Malaclemys_terrapin/rMalTer1/genomic_data/pacbio_hifi/m64330e_220320_051323.demultiplex.bc1022--bc1022.hifi_reads.fastq.gz
+pacbiohifi_fqgz rMalTer1             13629318069               0      2147483648     15681063689          921640  species/Malaclemys_terrapin/rMalTer1/genomic_data/pacbio_hifi/m64334e_220408_155659.demultiplex.bc1011--bc1011.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.8238
-pacbiohifi_fqgz *       1.1939
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rMalTer1          1.8238    184188600972
+bionano         rMalTer1         569.1899   2226221706345
+pacbiohifi_fqgz rMalTer1          1.1939     80793830269
+--------------- ---------------  ------- ---------------

@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-      919519089               0       919519089       973971648       121746456  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/10x/fSphaOr1_S3_L008_I1_001.fastq.gz
-    11897624571               0      2147483648     18102488800       119884031  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/10x/fSphaOr1_S3_L008_R1_001.fastq.gz
-     7972370325               0      2147483648     11404861049        75528881  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/10x/fSphaOr1_S4_L008_R2_001.fastq.gz
-    44353811861               0      2147483648     70507185008       466935020  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/arima/fSphaOr1_27320_1#1_R1.fastq.gz
-    47275591331               0      2147483648     71218779009       471647565  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/arima/fSphaOr1_27320_1#1_R2.fastq.gz
-              0               0               0      1486356162             768  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/bionano/fSphaOr1_Saphyr_DLE1
-    19920994689               0      2147483648     10775363984          741753  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/pacbio/m54097_180831_021422.subreads.bam
-    17373619903               0      2147483648      9391134495          614703  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/pacbio/m54097_180831_225344.subreads.bam
-    18768016089               0      2147483648     10139994208          620515  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/pacbio/m54205_180826_203636.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fSphaOr1               919519089               0       919519089       973971648       121746456  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/10x/fSphaOr1_S3_L008_I1_001.fastq.gz
+10x             fSphaOr1             11897624571               0      2147483648     18102488800       119884031  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/10x/fSphaOr1_S3_L008_R1_001.fastq.gz
+10x             fSphaOr1              7972370325               0      2147483648     11404861049        75528881  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/10x/fSphaOr1_S4_L008_R2_001.fastq.gz
+arima           fSphaOr1             44353811861               0      2147483648     70507185008       466935020  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/arima/fSphaOr1_27320_1#1_R1.fastq.gz
+arima           fSphaOr1             47275591331               0      2147483648     71218779009       471647565  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/arima/fSphaOr1_27320_1#1_R2.fastq.gz
+bionano         fSphaOr1              1234602833               0      1234602833    794784462851         7979201  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/bionano/fSphaOr1_Saphyr_DLE1
+pacbio          fSphaOr1             19920994689               0      2147483648     10775363984          741753  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/pacbio/m54097_180831_021422.subreads.bam
+pacbio          fSphaOr1             17373619903               0      2147483648      9391134495          614703  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/pacbio/m54097_180831_225344.subreads.bam
+pacbio          fSphaOr1             18768016089               0      2147483648     10139994208          620515  species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/pacbio/m54205_180826_203636.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.4661
-arima        *       1.5330
-pacbio       *       0.5405
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fSphaOr1          1.4661    120506518662
+arima           fSphaOr1          1.5330    140467875093
+bionano         fSphaOr1         643.7571    794784462851
+pacbio          fSphaOr1          0.5405     70256386346
+--------------- ---------------  ------- ---------------

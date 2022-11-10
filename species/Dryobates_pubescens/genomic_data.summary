@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    11616896045               0      2147483648     22623474278       149824338  species/Dryobates_pubescens/bDryPub1/genomic_data/10x/bDryPub1_S1_L001_R1_001.fastq.gz
-    10752331525               0      2147483648     20935259372       138644101  species/Dryobates_pubescens/bDryPub1/genomic_data/10x/bDryPub1_S2_L001_R1_001.fastq.gz
-    10513026444               0      2147483648     20434167484       135325617  species/Dryobates_pubescens/bDryPub1/genomic_data/10x/bDryPub1_S3_L001_R1_001.fastq.gz
-    33704497280               0      2147483648     58119484178       387463243  species/Dryobates_pubescens/bDryPub1/genomic_data/arima/bDryPub1_S20_L008_R1_001.fastq.gz
-    32901207339               0      2147483648     57502945771       383352987  species/Dryobates_pubescens/bDryPub1/genomic_data/arima/bDryPub1_S20_L008_R2_001.fastq.gz
-              0               0               0      1375422675             166  species/Dryobates_pubescens/bDryPub1/genomic_data/bionano/bDryPub1_Saphyr_DLE1_3465380
-    17928046785               0      2147483648      9887866217          468712  species/Dryobates_pubescens/bDryPub1/genomic_data/pacbio/m54159_190531_204810.subreads.bam
-    18377321892               0      2147483648     10051894185          505164  species/Dryobates_pubescens/bDryPub1/genomic_data/pacbio/m54159_190601_070237.subreads.bam
-    15515386457               0      2147483648      8424038677          434520  species/Dryobates_pubescens/bDryPub1/genomic_data/pacbio/m54307_190616_032218.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bDryPub1             11616896045               0      2147483648     22623474278       149824338  species/Dryobates_pubescens/bDryPub1/genomic_data/10x/bDryPub1_S1_L001_R1_001.fastq.gz
+10x             bDryPub1             10752331525               0      2147483648     20935259372       138644101  species/Dryobates_pubescens/bDryPub1/genomic_data/10x/bDryPub1_S2_L001_R1_001.fastq.gz
+10x             bDryPub1             10513026444               0      2147483648     20434167484       135325617  species/Dryobates_pubescens/bDryPub1/genomic_data/10x/bDryPub1_S3_L001_R1_001.fastq.gz
+arima           bDryPub1             33704497280               0      2147483648     58119484178       387463243  species/Dryobates_pubescens/bDryPub1/genomic_data/arima/bDryPub1_S20_L008_R1_001.fastq.gz
+arima           bDryPub1             32901207339               0      2147483648     57502945771       383352987  species/Dryobates_pubescens/bDryPub1/genomic_data/arima/bDryPub1_S20_L008_R2_001.fastq.gz
+bionano         bDryPub1               967148117               0       967148117    585367377582         3114561  species/Dryobates_pubescens/bDryPub1/genomic_data/bionano/bDryPub1_Saphyr_DLE1_3465378
+pacbio          bDryPub1             17928046785               0      2147483648      9887866217          468712  species/Dryobates_pubescens/bDryPub1/genomic_data/pacbio/m54159_190531_204810.subreads.bam
+pacbio          bDryPub1             18377321892               0      2147483648     10051894185          505164  species/Dryobates_pubescens/bDryPub1/genomic_data/pacbio/m54159_190601_070237.subreads.bam
+pacbio          bDryPub1             15515386457               0      2147483648      8424038677          434520  species/Dryobates_pubescens/bDryPub1/genomic_data/pacbio/m54307_190616_032218.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9461
-arima        *       1.7320
-pacbio       *       0.5473
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bDryPub1          1.9461    166140092725
+arima           bDryPub1          1.7320    115361080400
+bionano         bDryPub1         605.2510    585367377582
+pacbio          bDryPub1          0.5473     87233198999
+--------------- ---------------  ------- ---------------

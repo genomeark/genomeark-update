@@ -1,15 +1,16 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    47073502992               0      2147483648     92546781938       616978546  species/Fundulus_diaphanus/fFunDia1/genomic_data/arima/fFunDia1_Banded_Killifish_R1_001.fastq.gz
-    48031633793               0      2147483648     93602663826       624017781  species/Fundulus_diaphanus/fFunDia1/genomic_data/arima/fFunDia1_Banded_Killifish_R2_001.fastq.gz
-              0               0               0      1373070497             313  species/Fundulus_diaphanus/fFunDia1/genomic_data/bionano/fFunDia1_Saphyr_DLE1_3680746
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fFunDia1             47073502992               0      2147483648     92546781938       616978546  species/Fundulus_diaphanus/fFunDia1/genomic_data/arima/fFunDia1_Banded_Killifish_R1_001.fastq.gz
+arima           fFunDia1             48031633793               0      2147483648     93602663826       624017781  species/Fundulus_diaphanus/fFunDia1/genomic_data/arima/fFunDia1_Banded_Killifish_R2_001.fastq.gz
+bionano         fFunDia1              1693905814               0      1693905814    928944133515        17141856  species/Fundulus_diaphanus/fFunDia1/genomic_data/bionano/fFunDia1_Saphyr_DLE1_3680742
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.9544
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fFunDia1          1.9544    185873479332
+bionano         fFunDia1         548.4036    928944133515
+--------------- ---------------  ------- ---------------

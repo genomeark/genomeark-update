@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-      785137135               0       785137135       764803208        95600401  species/Gadus_morhua/fGadMor1/genomic_data/10x/fGadMor1_S2_L005_I1_001.fastq.gz
-     9746574324               0      2147483648     14456885449        95740967  species/Gadus_morhua/fGadMor1/genomic_data/10x/fGadMor1_S2_L005_R1_001.fastq.gz
-     9341196277               0      2147483648     12893164528        85385195  species/Gadus_morhua/fGadMor1/genomic_data/10x/fGadMor1_S4_L005_R2_001.fastq.gz
-     9680115558               0      2147483648     13108177810        86809129  species/Gadus_morhua/fGadMor1/genomic_data/arima/fGadMor1_H2LK5BBXY_01-Cod-Heart-HiC_AGTTCAGG-TCTGTTGG_L004_R2.fastq.gz
-     9028059539               0      2147483648     14074921275        93211399  species/Gadus_morhua/fGadMor1/genomic_data/arima/fGadMor1_H2LK5BBXY_02-Cod-Gills-HiC_AGTTCAGG-TCTGTTGG_L004_R1.fastq.gz
-    10281522452               0      2147483648     14107375490        93426332  species/Gadus_morhua/fGadMor1/genomic_data/arima/fGadMor1_H2LK5BBXY_02-Cod-Gills-HiC_AGTTCAGG-TCTGTTGG_L004_R2.fastq.gz
-              0               0               0       861031664             466  species/Gadus_morhua/fGadMor1/genomic_data/bionano/fGadMor1_Saphyr_DLE1
-     3799393862               0      3799393862       949046501          130793  species/Gadus_morhua/fGadMor1/genomic_data/pacbio/m150604_123314_42174_c100804202550000001823179410081580_s1_p0.subreads.bam
-     5673356572               0      2147483648      1419556930          172003  species/Gadus_morhua/fGadMor1/genomic_data/pacbio/m170922_210044_42174_c101209982550000001823287310171701_s1_p0.subreads.bam
-     2213312528               0      2213312528      1130472709          183957  species/Gadus_morhua/fGadMor1/genomic_data/pacbio/m54047_170619_161440.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fGadMor1               785137135               0       785137135       764803208        95600401  species/Gadus_morhua/fGadMor1/genomic_data/10x/fGadMor1_S2_L005_I1_001.fastq.gz
+10x             fGadMor1              9746574324               0      2147483648     14456885449        95740967  species/Gadus_morhua/fGadMor1/genomic_data/10x/fGadMor1_S2_L005_R1_001.fastq.gz
+10x             fGadMor1              9341196277               0      2147483648     12893164528        85385195  species/Gadus_morhua/fGadMor1/genomic_data/10x/fGadMor1_S4_L005_R2_001.fastq.gz
+arima           fGadMor1              9680115558               0      2147483648     13108177810        86809129  species/Gadus_morhua/fGadMor1/genomic_data/arima/fGadMor1_H2LK5BBXY_01-Cod-Heart-HiC_AGTTCAGG-TCTGTTGG_L004_R2.fastq.gz
+arima           fGadMor1              9028059539               0      2147483648     14074921275        93211399  species/Gadus_morhua/fGadMor1/genomic_data/arima/fGadMor1_H2LK5BBXY_02-Cod-Gills-HiC_AGTTCAGG-TCTGTTGG_L004_R1.fastq.gz
+arima           fGadMor1             10281522452               0      2147483648     14107375490        93426332  species/Gadus_morhua/fGadMor1/genomic_data/arima/fGadMor1_H2LK5BBXY_02-Cod-Gills-HiC_AGTTCAGG-TCTGTTGG_L004_R2.fastq.gz
+bionano         fGadMor1              1196329073               0      1196329073    949201265247         9821776  species/Gadus_morhua/fGadMor1/genomic_data/bionano/fGadMor1_Saphyr_DLE1
+pacbio          fGadMor1              3799393862               0      3799393862       949046501          130793  species/Gadus_morhua/fGadMor1/genomic_data/pacbio/m150604_123314_42174_c100804202550000001823179410081580_s1_p0.subreads.bam
+pacbio          fGadMor1              5673356572               0      2147483648      1419556930          172003  species/Gadus_morhua/fGadMor1/genomic_data/pacbio/m170922_210044_42174_c101209982550000001823287310171701_s1_p0.subreads.bam
+pacbio          fGadMor1              2213312528               0      2213312528      1130472709          183957  species/Gadus_morhua/fGadMor1/genomic_data/pacbio/m54047_170619_161440.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.4147
-arima        *       1.4243
-pacbio       *       0.2994
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fGadMor1          1.4147    111839991719
+arima           fGadMor1          1.4243    106885530057
+bionano         fGadMor1         793.4282    949201265247
+pacbio          fGadMor1          0.2994     87343797411
+--------------- ---------------  ------- ---------------

@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    14375663284               0      2147483648     26595466187       176128921  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/10x/fPhoLeu1_S1_L002_R1_001.fastq.gz
-     6335760739               0      2147483648     11840931701        78416769  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/10x/fPhoLeu1_S1_L010_R1_001.fastq.gz
-     4230389025               0      4230389025      7286281369        48253519  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/10x/fPhoLeu1_S1_L012_R1_001.fastq.gz
-     5899166588               0      2147483648      8546070275        56973801  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/arima/fPhoLeu1_241101L003R6000142_R2.fastq.gz
-     7309613455               0      2147483648     10532255620        70215037  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/arima/fPhoLeu1_241101L004R6000142_R2.fastq.gz
-     8712020238               0      2147483648     12431207773        82874722  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/arima/fPhoLeu1_241125L002_R2.fastq.gz
-              0               0               0      6639250987            1064  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/bionano/fPhoLeu1_Saphyr_DLE1
-    13705887073               0      2147483648      7236560399          810309  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/pacbio/m54062_190801_204543.subreads.bam
-    12937140978               0      2147483648      6699153116          831856  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/pacbio/m54144_190729_121003.subreads.bam
-   103404287302               0      2147483648     52754367689         6119606  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/pacbio/m64046_190911_100006.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fPhoLeu1             14375663284               0      2147483648     26595466187       176128921  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/10x/fPhoLeu1_S1_L002_R1_001.fastq.gz
+10x             fPhoLeu1              6335760739               0      2147483648     11840931701        78416769  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/10x/fPhoLeu1_S1_L010_R1_001.fastq.gz
+10x             fPhoLeu1              4230389025               0      4230389025      7286281369        48253519  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/10x/fPhoLeu1_S1_L012_R1_001.fastq.gz
+arima           fPhoLeu1              5899166588               0      2147483648      8546070275        56973801  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/arima/fPhoLeu1_241101L003R6000142_R2.fastq.gz
+arima           fPhoLeu1              7309613455               0      2147483648     10532255620        70215037  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/arima/fPhoLeu1_241101L004R6000142_R2.fastq.gz
+arima           fPhoLeu1              8712020238               0      2147483648     12431207773        82874722  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/arima/fPhoLeu1_241125L002_R2.fastq.gz
+bionano         fPhoLeu1               903969088               0       903969088    676079724980         4728743  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/bionano/fPhoLeu1_Saphyr_DLE1
+pacbio          fPhoLeu1             13705887073               0      2147483648      7236560399          810309  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/pacbio/m54062_190801_204543.subreads.bam
+pacbio          fPhoLeu1             12937140978               0      2147483648      6699153116          831856  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/pacbio/m54144_190729_121003.subreads.bam
+pacbio          fPhoLeu1            103404287302               0      2147483648     52754367689         6119606  species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/pacbio/m64046_190911_100006.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8331
-arima        *       1.4374
-pacbio       *       0.5128
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fPhoLeu1          1.8331    360297668045
+arima           fPhoLeu1          1.4374    350683056805
+bionano         fPhoLeu1         747.9013    676079724980
+pacbio          fPhoLeu1          0.5128    592480021898
+--------------- ---------------  ------- ---------------

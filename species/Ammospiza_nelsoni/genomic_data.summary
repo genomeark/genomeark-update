@@ -1,27 +1,28 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    37841071001               0      2147483648     71812661778       478751096  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/arima/bAmmNel1_Nelson_s_Sparrow_R1.fastq.gz
-    39156775603               0      2147483648     72601555309       484010386  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/arima/bAmmNel1_Nelson_s_Sparrow_R2.fastq.gz
-              0               0               0      1362408747             487  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/bionano/bAmmNel1_Saphyr_DLE1_3680738
-    58133696340               0      2147483648     70138592467         4580780  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64055e_211106_001217.hifi_reads.bam
-    13206012931               0      2147483648     15933119987         1040598  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64055e_211106_001217.hifi_reads.fastq.gz
-   183744048018               0      2147483648     77300431648         5024143  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64055e_211106_001217.reads.bam
-    52570565257               0      2147483648     61822715239         4049151  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64055e_211112_030115.hifi_reads.bam
-    12062060185               0      2147483648     14184920941          929058  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64055e_211112_030115.hifi_reads.fastq.gz
-   209419390646               0      2147483648     92965891216         5440947  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64055e_211112_030115.reads.bam
-    53857007213               0      2147483648     62102918276         4043908  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64334e_211108_205107.hifi_reads.bam
-    12523146051               0      2147483648     14440533479          940313  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64334e_211108_205107.hifi_reads.fastq.gz
-   211745920780               0      2147483648     92517757530         5581753  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64334e_211108_205107.reads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAmmNel1             37841071001               0      2147483648     71812661778       478751096  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/arima/bAmmNel1_Nelson_s_Sparrow_R1.fastq.gz
+arima           bAmmNel1             39156775603               0      2147483648     72601555309       484010386  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/arima/bAmmNel1_Nelson_s_Sparrow_R2.fastq.gz
+bionano         bAmmNel1               685386864               0       685386864    416040378579         3583983  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/bionano/bAmmNel1_Saphyr_DLE1_3680735
+pacbiohifi_bam  bAmmNel1             58133696340               0      2147483648     15836647952         1032229  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64055e_211106_001217.hifi_reads.bam
+pacbiohifi_fqgz bAmmNel1             13206012931               0      2147483648     15933119987         1040598  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64055e_211106_001217.hifi_reads.fastq.gz
+pacbiohifi_clr  bAmmNel1            183744048018               0      2147483648     77300431648         5024143  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64055e_211106_001217.reads.bam
+pacbiohifi_bam  bAmmNel1             52570565257               0      2147483648     14164933128          930291  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64055e_211112_030115.hifi_reads.bam
+pacbiohifi_fqgz bAmmNel1             12062060185               0      2147483648     14184920941          929058  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64055e_211112_030115.hifi_reads.fastq.gz
+pacbiohifi_clr  bAmmNel1            209419390646               0      2147483648     92965891216         5440947  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64055e_211112_030115.reads.bam
+pacbiohifi_bam  bAmmNel1             53857007213               0      2147483648     14378154066          943451  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64334e_211108_205107.hifi_reads.bam
+pacbiohifi_fqgz bAmmNel1             12523146051               0      2147483648     14440533479          940313  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64334e_211108_205107.hifi_reads.fastq.gz
+pacbiohifi_clr  bAmmNel1            211745920780               0      2147483648     92517757530         5581753  species/Ammospiza_nelsoni/bAmmNel1/genomic_data/pacbio_hifi/m64334e_211108_205107.reads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.8683
-pacbiohifi_fqgz *       1.1790
-pacbiohifi_bam *       1.1792
-pacbiohifi_clr *       0.4344
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bAmmNel1          1.8683    143855076810
+bionano         bAmmNel1         607.0153    416040378579
+pacbiohifi_bam  bAmmNel1          0.2696     44365718071
+pacbiohifi_clr  bAmmNel1          0.4344    262772625742
+pacbiohifi_fqgz bAmmNel1          1.1790     44555847397
+--------------- ---------------  ------- ---------------

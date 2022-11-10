@@ -1,14 +1,14 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    24112770759               0      2147483648     51672545822       342202301  species/Saccoglossus_kowalevskii/keSacKowa2/genomic_data/arima/keSacKowa2_38988_4#8_R1.fastq.gz
-    24971404125               0      2147483648     52058945114       344761237  species/Saccoglossus_kowalevskii/keSacKowa2/genomic_data/arima/keSacKowa2_38988_4#8_R2.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           keSacKowa2           24112770759               0      2147483648     51672545822       342202301  species/Saccoglossus_kowalevskii/keSacKowa2/genomic_data/arima/keSacKowa2_38988_4#8_R1.fastq.gz
+arima           keSacKowa2           24971404125               0      2147483648     52058945114       344761237  species/Saccoglossus_kowalevskii/keSacKowa2/genomic_data/arima/keSacKowa2_38988_4#8_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       2.1036
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           keSacKowa2        2.1036    103253470285
+--------------- ---------------  ------- ---------------

@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    10949957815               0      2147483648     15468856349       102442757  species/Takifugu_rubripes/fTakRub1/genomic_data/10x/fTakRub1_S2_L005_R2_001.fastq.gz
-     8429160488               0      2147483648     13063303127        86511941  species/Takifugu_rubripes/fTakRub1/genomic_data/10x/fTakRub1_S3_L005_R1_001.fastq.gz
-      867912444               0       867912444       927524864       115940608  species/Takifugu_rubripes/fTakRub1/genomic_data/10x/fTakRub1_S4_L005_I1_001.fastq.gz
-     2181953790               0      2181953790      3785204700        25234698  species/Takifugu_rubripes/fTakRub1/genomic_data/arima/fTakRub1_ARI10_002_USPD16085689-AK5161_HK5YFCCXY_L2_R2.fastq.gz
-     2196245997               0      2196245997      3892561200        25950408  species/Takifugu_rubripes/fTakRub1/genomic_data/arima/fTakRub1_ARI10_002_USPD16085689-AK5161_HK5YFCCXY_L4_R2.fastq.gz
-     2015263282               0      2015263282      3885403950        25902693  species/Takifugu_rubripes/fTakRub1/genomic_data/arima/fTakRub1_ARI10_002_USPD16085689-AK5161_HK5YFCCXY_L5_R1.fastq.gz
-              0               0               0       566443137             279  species/Takifugu_rubripes/fTakRub1/genomic_data/bionano/fTakRub1_Saphyr_DLE1_1378611
-    16535667953               0      2147483648      8745763864          771773  species/Takifugu_rubripes/fTakRub1/genomic_data/pacbio/m54097_180321_135512.subreads.bam
-    14850284134               0      2147483648      7890522494          569466  species/Takifugu_rubripes/fTakRub1/genomic_data/pacbio/m54097_180322_133901.subreads.bam
-    15527331416               0      2147483648      8234813120          572935  species/Takifugu_rubripes/fTakRub1/genomic_data/pacbio/m54097_180323_154627.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fTakRub1             10949957815               0      2147483648     15468856349       102442757  species/Takifugu_rubripes/fTakRub1/genomic_data/10x/fTakRub1_S2_L005_R2_001.fastq.gz
+10x             fTakRub1              8429160488               0      2147483648     13063303127        86511941  species/Takifugu_rubripes/fTakRub1/genomic_data/10x/fTakRub1_S3_L005_R1_001.fastq.gz
+10x             fTakRub1               867912444               0       867912444       927524864       115940608  species/Takifugu_rubripes/fTakRub1/genomic_data/10x/fTakRub1_S4_L005_I1_001.fastq.gz
+arima           fTakRub1              2181953790               0      2181953790      3785204700        25234698  species/Takifugu_rubripes/fTakRub1/genomic_data/arima/fTakRub1_ARI10_002_USPD16085689-AK5161_HK5YFCCXY_L2_R2.fastq.gz
+arima           fTakRub1              2196245997               0      2196245997      3892561200        25950408  species/Takifugu_rubripes/fTakRub1/genomic_data/arima/fTakRub1_ARI10_002_USPD16085689-AK5161_HK5YFCCXY_L4_R2.fastq.gz
+arima           fTakRub1              2015263282               0      2015263282      3885403950        25902693  species/Takifugu_rubripes/fTakRub1/genomic_data/arima/fTakRub1_ARI10_002_USPD16085689-AK5161_HK5YFCCXY_L5_R1.fastq.gz
+bionano         fTakRub1               486881577               0       486881577    337130272858         2581955  species/Takifugu_rubripes/fTakRub1/genomic_data/bionano/fTakRub1_Saphyr_DLE1_1378609
+pacbio          fTakRub1             16535667953               0      2147483648      8745763864          771773  species/Takifugu_rubripes/fTakRub1/genomic_data/pacbio/m54097_180321_135512.subreads.bam
+pacbio          fTakRub1             14850284134               0      2147483648      7890522494          569466  species/Takifugu_rubripes/fTakRub1/genomic_data/pacbio/m54097_180322_133901.subreads.bam
+pacbio          fTakRub1             15527331416               0      2147483648      8234813120          572935  species/Takifugu_rubripes/fTakRub1/genomic_data/pacbio/m54097_180323_154627.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.4550
-arima        *       1.8085
-pacbio       *       0.5301
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fTakRub1          1.4550    115428838828
+arima           fTakRub1          1.8085     38027386863
+bionano         fTakRub1         692.4276    337130272858
+pacbio          fTakRub1          0.5301     31901446648
+--------------- ---------------  ------- ---------------

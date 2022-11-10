@@ -1,24 +1,26 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     4255113931               0      4255113931      8223870418        54462718  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/10x/mRouAeg1_S1_L003_R1_001.fastq.gz
-     3251833147               0      3251833147      6260246939        41458589  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/10x/mRouAeg1_S1_L007_R1_001.fastq.gz
-     3602028324               0      3602028324      6260246939        41458589  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/10x/mRouAeg1_S1_L007_R2_001.fastq.gz
-     3865209075               0      3865209075      5769376742        57122542  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/arima/mRouAeg1_ILKL1RAS13L005PHASE_R2.fastq.gz
-     4176350768               0      4176350768      6029675861        59699761  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/arima/mRouAeg1_ILKL1RAS1L007PHASE_R1.fastq.gz
-     4347083427               0      2147483648      6019516581        59599174  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/arima/mRouAeg1_ILKL1RAS1L007PHASE_R2.fastq.gz
-              0               0               0       579220374            1586  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/bionano/mRouAeg1_Saphyr_DLE1_2086340
-     4160213906               0      4160213906      2232333712          216571  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/pacbio/m54062_171118_122811.subreads.bam
-     7686001334               0      2147483648      4030549407          464814  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/pacbio/m54142_180213_004424.subreads.bam
-    10106650037               0      2147483648      5267807884          521017  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/pacbio/m54144_180111_181037.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mRouAeg1              4255113931               0      4255113931      8223870418        54462718  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/10x/mRouAeg1_S1_L003_R1_001.fastq.gz
+10x             mRouAeg1              3251833147               0      3251833147      6260246939        41458589  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/10x/mRouAeg1_S1_L007_R1_001.fastq.gz
+10x             mRouAeg1              3602028324               0      3602028324      6260246939        41458589  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/10x/mRouAeg1_S1_L007_R2_001.fastq.gz
+arima           mRouAeg1              3865209075               0      3865209075      5769376742        57122542  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/arima/mRouAeg1_ILKL1RAS13L005PHASE_R2.fastq.gz
+arima           mRouAeg1              4176350768               0      4176350768      6029675861        59699761  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/arima/mRouAeg1_ILKL1RAS1L007PHASE_R1.fastq.gz
+arima           mRouAeg1              4347083427               0      2147483648      6019516581        59599174  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/arima/mRouAeg1_ILKL1RAS1L007PHASE_R2.fastq.gz
+bionano         mRouAeg1               544150757               0       544150757    767001614369         7197193  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/bionano/mRouAeg1_Saphyr_DLE1_1978062
+bionano         mRouAeg1               555116024               0       555116024    764710444135         6326273  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/bionano/mRouAeg1_Saphyr_DLE1_2086336
+pacbio          mRouAeg1              4160213906               0      4160213906      2232333712          216571  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/pacbio/m54062_171118_122811.subreads.bam
+pacbio          mRouAeg1              7686001334               0      2147483648      4030549407          464814  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/pacbio/m54142_180213_004424.subreads.bam
+pacbio          mRouAeg1             10106650037               0      2147483648      5267807884          521017  species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/pacbio/m54144_180111_181037.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8673
-arima        *       1.4382
-pacbio       *       0.5252
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mRouAeg1          1.8673    112490714366
+arima           mRouAeg1          1.4382     22839900692
+bionano         mRouAeg1         1393.3942   1531712058504
+pacbio          mRouAeg1          0.5252    122364816059
+--------------- ---------------  ------- ---------------

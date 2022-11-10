@@ -1,27 +1,30 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    40763551944               0      2147483648     59360226734       393114084  species/Meles_meles/mMelMel1/genomic_data/illumina/mMelMel1_31231_3#1_R1.fastq.gz
-    45905716743               0      2147483648     60102763421       398031545  species/Meles_meles/mMelMel1/genomic_data/illumina/mMelMel1_31231_3#1_R2.fastq.gz
-    43356337821               0      2147483648     58221608106       385573563  species/Meles_meles/mMelMel2/genomic_data/illumina/mMelMel2_31231_4#1_R2.fastq.gz
-      818922446               0       818922446       911011800       113876475  species/Meles_meles/mMelMel3/genomic_data/10x/mMelMel3_S1_L007_I1_001.fastq.gz
-    11262217240               0      2147483648     17190356092       113843417  species/Meles_meles/mMelMel3/genomic_data/10x/mMelMel3_S1_L007_R1_001.fastq.gz
-    10462585406               0      2147483648     15920343924       105432741  species/Meles_meles/mMelMel3/genomic_data/10x/mMelMel3_S4_L007_R1_001.fastq.gz
-    94721871753               0      2147483648    183796022366      1217192245  species/Meles_meles/mMelMel3/genomic_data/arima/35528_2#1_R1.fastq.gz
-    99828467163               0      2147483648    184065199733      1218974879  species/Meles_meles/mMelMel3/genomic_data/arima/35528_2#1_R2.fastq.gz
-              0               0               0      2688799044             130  species/Meles_meles/mMelMel3/genomic_data/bionano/mMelMel3_Saphyr_DLE1
-    14005085555               0      2147483648     14145923763          912682  species/Meles_meles/mMelMel3/genomic_data/pacbio_hifi/m64094_200910_173211.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
-    25052361273               0      2147483648     25406267120         1563489  species/Meles_meles/mMelMel3/genomic_data/pacbio_hifi/m64125_200903_154937.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
-    28297661080               0      2147483648     28656498500         1738471  species/Meles_meles/mMelMel3/genomic_data/pacbio_hifi/m64125_201113_134826.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+illumina        mMelMel1             40763551944               0      2147483648     59360226734       393114084  species/Meles_meles/mMelMel1/genomic_data/illumina/mMelMel1_31231_3#1_R1.fastq.gz
+illumina        mMelMel1             45905716743               0      2147483648     60102763421       398031545  species/Meles_meles/mMelMel1/genomic_data/illumina/mMelMel1_31231_3#1_R2.fastq.gz
+illumina        mMelMel2             39454025448               0      2147483648     57899108939       383437825  species/Meles_meles/mMelMel2/genomic_data/illumina/mMelMel2_31231_4#1_R1.fastq.gz
+illumina        mMelMel2             43356337821               0      2147483648     58221608106       385573563  species/Meles_meles/mMelMel2/genomic_data/illumina/mMelMel2_31231_4#1_R2.fastq.gz
+10x             mMelMel3               818922446               0       818922446       911011800       113876475  species/Meles_meles/mMelMel3/genomic_data/10x/mMelMel3_S1_L007_I1_001.fastq.gz
+10x             mMelMel3             11262217240               0      2147483648     17190356092       113843417  species/Meles_meles/mMelMel3/genomic_data/10x/mMelMel3_S1_L007_R1_001.fastq.gz
+10x             mMelMel3             10462585406               0      2147483648     15920343924       105432741  species/Meles_meles/mMelMel3/genomic_data/10x/mMelMel3_S4_L007_R1_001.fastq.gz
+arima           mMelMel3             94721871753               0      2147483648    183796022366      1217192245  species/Meles_meles/mMelMel3/genomic_data/arima/35528_2#1_R1.fastq.gz
+arima           mMelMel3             99828467163               0      2147483648    184065199733      1218974879  species/Meles_meles/mMelMel3/genomic_data/arima/35528_2#1_R2.fastq.gz
+bionano         mMelMel3              3340667811               0      3340667811   2227816263907        21285225  species/Meles_meles/mMelMel3/genomic_data/bionano/mMelMel3_Saphyr_DLE1
+pacbiohifi_bam  mMelMel3             14005085555               0      2147483648     14145923763          912682  species/Meles_meles/mMelMel3/genomic_data/pacbio_hifi/m64094_200910_173211.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
+pacbiohifi_bam  mMelMel3             25052361273               0      2147483648     25406267120         1563489  species/Meles_meles/mMelMel3/genomic_data/pacbio_hifi/m64125_200903_154937.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
+pacbiohifi_bam  mMelMel3             28297661080               0      2147483648     28656498500         1738471  species/Meles_meles/mMelMel3/genomic_data/pacbio_hifi/m64125_201113_134826.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5091
-arima        *       1.8748
-illumina     *       1.3665
-pacbiohifi_bam *       1.0126
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mMelMel3          1.5091    131474558532
+arima           mMelMel3          1.8748    364742975399
+bionano         mMelMel3         666.8775   2227816263907
+illumina        mMelMel1          1.3544    117384857509
+illumina        mMelMel2          1.3818    114427359965
+pacbiohifi_bam  mMelMel3          1.0126    110091782606
+--------------- ---------------  ------- ---------------

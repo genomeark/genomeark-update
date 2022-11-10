@@ -1,23 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    48424476564               0      2147483648     93602663209       624017754  species/Gypaetus_barbatus/bGypBar2/genomic_data/arima/bGypBar2_Bearded_Vulture_R1.fastq.gz
-    51499564634               0      2147483648     96382641540       642550967  species/Gypaetus_barbatus/bGypBar2/genomic_data/arima/bGypBar2_Bearded_Vulture_R2.fastq.gz
-              0               0               0      1249832780             115  species/Gypaetus_barbatus/bGypBar2/genomic_data/bionano/bGypBar2_Saphyr_DLE1_3691396
-    11060279572               0      2147483648     12507355781          795022  species/Gypaetus_barbatus/bGypBar2/genomic_data/pacbio_hifi/m54306Ue_210721_171816.hifi_reads.fastq.gz
-   152469902048               0      2147483648     63845959136         4373629  species/Gypaetus_barbatus/bGypBar2/genomic_data/pacbio_hifi/m54306Ue_210721_171816.reads.bam
-    10726989055               0      2147483648     11835833009          781055  species/Gypaetus_barbatus/bGypBar2/genomic_data/pacbio_hifi/m64055e_210721_170949.hifi_reads.fastq.gz
-   147098796304               0      2147483648     60688376771         4299701  species/Gypaetus_barbatus/bGypBar2/genomic_data/pacbio_hifi/m64055e_210721_170949.reads.bam
-    13214692743               0      2147483648     14833530455          979703  species/Gypaetus_barbatus/bGypBar2/genomic_data/pacbio_hifi/m64055e_210723_182644.hifi_reads.fastq.gz
-   178884466293               0      2147483648     74009349559         4900013  species/Gypaetus_barbatus/bGypBar2/genomic_data/pacbio_hifi/m64055e_210723_182644.reads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bGypBar2             48424476564               0      2147483648     93602663209       624017754  species/Gypaetus_barbatus/bGypBar2/genomic_data/arima/bGypBar2_Bearded_Vulture_R1.fastq.gz
+arima           bGypBar2             51499564634               0      2147483648     96382641540       642550967  species/Gypaetus_barbatus/bGypBar2/genomic_data/arima/bGypBar2_Bearded_Vulture_R2.fastq.gz
+bionano         bGypBar2               556331645               0       556331645    318420167040         2521997  species/Gypaetus_barbatus/bGypBar2/genomic_data/bionano/bGypBar2_Saphyr_DLE1_3685505
+bionano         bGypBar2               577601886               0       577601886    311887388658         2449897  species/Gypaetus_barbatus/bGypBar2/genomic_data/bionano/bGypBar2_Saphyr_DLE1_3691001
+pacbiohifi_fqgz bGypBar2             11060279572               0      2147483648     12507355781          795022  species/Gypaetus_barbatus/bGypBar2/genomic_data/pacbio_hifi/m54306Ue_210721_171816.hifi_reads.fastq.gz
+pacbiohifi_clr  bGypBar2            152469902048               0      2147483648     63845959136         4373629  species/Gypaetus_barbatus/bGypBar2/genomic_data/pacbio_hifi/m54306Ue_210721_171816.reads.bam
+pacbiohifi_fqgz bGypBar2             10726989055               0      2147483648     11835833009          781055  species/Gypaetus_barbatus/bGypBar2/genomic_data/pacbio_hifi/m64055e_210721_170949.hifi_reads.fastq.gz
+pacbiohifi_clr  bGypBar2            147098796304               0      2147483648     60688376771         4299701  species/Gypaetus_barbatus/bGypBar2/genomic_data/pacbio_hifi/m64055e_210721_170949.reads.bam
+pacbiohifi_fqgz bGypBar2             13214692743               0      2147483648     14833530455          979703  species/Gypaetus_barbatus/bGypBar2/genomic_data/pacbio_hifi/m64055e_210723_182644.hifi_reads.fastq.gz
+pacbiohifi_clr  bGypBar2            178884466293               0      2147483648     74009349559         4900013  species/Gypaetus_barbatus/bGypBar2/genomic_data/pacbio_hifi/m64055e_210723_182644.reads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.8911
-pacbiohifi_fqgz *       1.1192
-pacbiohifi_clr *       0.4149
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bGypBar2          1.8911    188966354309
+bionano         bGypBar2         555.8593    630307555698
+pacbiohifi_clr  bGypBar2          0.4149    198510218011
+pacbiohifi_fqgz bGypBar2          1.1192     39174195165
+--------------- ---------------  ------- ---------------

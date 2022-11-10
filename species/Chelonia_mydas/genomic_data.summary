@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     9303754050               0      2147483648     17594832432       116522073  species/Chelonia_mydas/rCheMyd1/genomic_data/10x/rCheMyd1_S1_L002_R2_001.fastq.gz
-     9959080349               0      2147483648     19349127936       128139924  species/Chelonia_mydas/rCheMyd1/genomic_data/10x/rCheMyd1_S1_L003_R1_001.fastq.gz
-    11243949697               0      2147483648     21790852962       144310289  species/Chelonia_mydas/rCheMyd1/genomic_data/10x/rCheMyd1_S1_L004_R1_001.fastq.gz
-    47785141206               0      2147483648     93047136783       616206226  species/Chelonia_mydas/rCheMyd1/genomic_data/arima/rCheMyd1_DDL40351T79218_R1.fastq.gz
-    49125218598               0      2147483648     92999509608       615890792  species/Chelonia_mydas/rCheMyd1/genomic_data/arima/rCheMyd1_DDL40351T79218_R2.fastq.gz
-              0               0               0      2304998407             123  species/Chelonia_mydas/rCheMyd1/genomic_data/bionano/rCheMyd1_Saphyr_DLE-1
-    23716141207               0      2147483648     12918297278          542267  species/Chelonia_mydas/rCheMyd1/genomic_data/pacbio/m54142_190521_123207.subreads.bam
-    21633089785               0      2147483648     11817516193          476102  species/Chelonia_mydas/rCheMyd1/genomic_data/pacbio/m54142_190522_090408.subreads.bam
-    22860157505               0      2147483648     12387090452          605258  species/Chelonia_mydas/rCheMyd1/genomic_data/pacbio/m54144_190520_123654.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             rCheMyd1              9303754050               0      2147483648     17594832432       116522073  species/Chelonia_mydas/rCheMyd1/genomic_data/10x/rCheMyd1_S1_L002_R2_001.fastq.gz
+10x             rCheMyd1              9959080349               0      2147483648     19349127936       128139924  species/Chelonia_mydas/rCheMyd1/genomic_data/10x/rCheMyd1_S1_L003_R1_001.fastq.gz
+10x             rCheMyd1             11243949697               0      2147483648     21790852962       144310289  species/Chelonia_mydas/rCheMyd1/genomic_data/10x/rCheMyd1_S1_L004_R1_001.fastq.gz
+arima           rCheMyd1             47785141206               0      2147483648     93047136783       616206226  species/Chelonia_mydas/rCheMyd1/genomic_data/arima/rCheMyd1_DDL40351T79218_R1.fastq.gz
+arima           rCheMyd1             49125218598               0      2147483648     92999509608       615890792  species/Chelonia_mydas/rCheMyd1/genomic_data/arima/rCheMyd1_DDL40351T79218_R2.fastq.gz
+bionano         rCheMyd1              1266900943               0      1266900943    811670587068         6930227  species/Chelonia_mydas/rCheMyd1/genomic_data/bionano/rCheMyd1_Saphyr_DLE-1
+pacbio          rCheMyd1             23716141207               0      2147483648     12918297278          542267  species/Chelonia_mydas/rCheMyd1/genomic_data/pacbio/m54142_190521_123207.subreads.bam
+pacbio          rCheMyd1             21633089785               0      2147483648     11817516193          476102  species/Chelonia_mydas/rCheMyd1/genomic_data/pacbio/m54142_190522_090408.subreads.bam
+pacbio          rCheMyd1             22860157505               0      2147483648     12387090452          605258  species/Chelonia_mydas/rCheMyd1/genomic_data/pacbio/m54144_190520_123654.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9253
-arima        *       1.9108
-pacbio       *       0.5442
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             rCheMyd1          1.9253    154222177461
+arima           rCheMyd1          1.9108    185176315513
+bionano         rCheMyd1         640.6740    811670587068
+pacbio          rCheMyd1          0.5442    145760528992
+--------------- ---------------  ------- ---------------

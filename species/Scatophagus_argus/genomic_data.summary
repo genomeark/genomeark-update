@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     5025227276               0      2147483648      9451786709        62594616  species/Scatophagus_argus/fScaArg1/genomic_data/10x/fScaArg1_S1_L001_R1_001.fastq.gz
-     5162037173               0      2147483648      9418547120        62374484  species/Scatophagus_argus/fScaArg1/genomic_data/10x/fScaArg1_S1_L001_R2_001.fastq.gz
-     4702260777               0      2147483648      8772224801        58094206  species/Scatophagus_argus/fScaArg1/genomic_data/10x/fScaArg1_S1_L003_R2_001.fastq.gz
-    41477084473               0      2147483648     72503129232       483354194  species/Scatophagus_argus/fScaArg1/genomic_data/arima/fScaArg1_241129L002_R1.fastq.gz
-    42245423358               0      2147483648     65224888704       434832591  species/Scatophagus_argus/fScaArg1/genomic_data/arima/fScaArg1_241129L002_R2.fastq.gz
-              0               0               0       661781352              75  species/Scatophagus_argus/fScaArg1/genomic_data/bionano/fScaArg1_Saphyr_DLE1
-    15404962388               0      2147483648      8144575324          863028  species/Scatophagus_argus/fScaArg1/genomic_data/pacbio/m54144_190823_130933.subreads.bam
-    15789366985               0      2147483648      8359339735          897048  species/Scatophagus_argus/fScaArg1/genomic_data/pacbio/m54144_190827_100345.subreads.bam
-    17006881591               0      2147483648      9009852027          929608  species/Scatophagus_argus/fScaArg1/genomic_data/pacbio/m54144_190902_164057.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fScaArg1              5025227276               0      2147483648      9451786709        62594616  species/Scatophagus_argus/fScaArg1/genomic_data/10x/fScaArg1_S1_L001_R1_001.fastq.gz
+10x             fScaArg1              5162037173               0      2147483648      9418547120        62374484  species/Scatophagus_argus/fScaArg1/genomic_data/10x/fScaArg1_S1_L001_R2_001.fastq.gz
+10x             fScaArg1              4702260777               0      2147483648      8772224801        58094206  species/Scatophagus_argus/fScaArg1/genomic_data/10x/fScaArg1_S1_L003_R2_001.fastq.gz
+arima           fScaArg1             41477084473               0      2147483648     72503129232       483354194  species/Scatophagus_argus/fScaArg1/genomic_data/arima/fScaArg1_241129L002_R1.fastq.gz
+arima           fScaArg1             42245423358               0      2147483648     65224888704       434832591  species/Scatophagus_argus/fScaArg1/genomic_data/arima/fScaArg1_241129L002_R2.fastq.gz
+bionano         fScaArg1              1380698955               0      1380698955    923850571699         9901031  species/Scatophagus_argus/fScaArg1/genomic_data/bionano/fScaArg1_Saphyr_DLE1
+pacbio          fScaArg1             15404962388               0      2147483648      8144575324          863028  species/Scatophagus_argus/fScaArg1/genomic_data/pacbio/m54144_190823_130933.subreads.bam
+pacbio          fScaArg1             15789366985               0      2147483648      8359339735          897048  species/Scatophagus_argus/fScaArg1/genomic_data/pacbio/m54144_190827_100345.subreads.bam
+pacbio          fScaArg1             17006881591               0      2147483648      9009852027          929608  species/Scatophagus_argus/fScaArg1/genomic_data/pacbio/m54144_190902_164057.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8565
-arima        *       1.6111
-pacbio       *       0.5293
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fScaArg1          1.8565     72877075453
+arima           fScaArg1          1.6111    134885332366
+bionano         fScaArg1         669.1180    923850571699
+pacbio          fScaArg1          0.5293     59861804727
+--------------- ---------------  ------- ---------------

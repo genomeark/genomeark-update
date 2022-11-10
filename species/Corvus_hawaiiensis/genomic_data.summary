@@ -1,28 +1,28 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    28640871857               0      2147483648     43466637679       289777597  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/arima/bCorHaw1_S_2476_6_R1_001.fastq.gz
-    33818689509               0      2147483648     45169339185       301128927  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/arima/bCorHaw1_S_2476_6_R2_001.fastq.gz
-              0               0               0      1184760547             184  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/bionano/bCorHaw1_Saphyr_DLE1_3680695
-     3575635535               0      3575635535      3846721358          241989  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210320_025502.ccs.bam
-   162867755266               0      2147483648     83944296643         7411809  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210320_025502.subreads.bam
-     8115875887               0      2147483648      4052788512          257068  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210416_211900.Q20.fastq
-     7689807215               0      2147483648      9045914918          632198  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210501_095740.ccs.bam
-   328190729876               0      2147483648    169602809057        13749882  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210501_095740.subreads.bam
-     8427107380               0      2147483648      8558374458          388815  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210515_024233.hifi_reads.bam
-     9028900841               0      2147483648      9169541915          416581  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210515_024233.hifi_reads.fastq.gz
-     8604353371               0      2147483648      8655005391          401949  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m64055_210518_191852.hifi_reads.bam
-     9203407656               0      2147483648      9257586183          429934  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m64055_210518_191852.hifi_reads.fastq.gz
-   404531073213               0      2147483648    215177159709        11752870  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m64055_210518_191852.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bCorHaw1             28640871857               0      2147483648     43466637679       289777597  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/arima/bCorHaw1_S_2476_6_R1_001.fastq.gz
+arima           bCorHaw1             33818689509               0      2147483648     45169339185       301128927  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/arima/bCorHaw1_S_2476_6_R2_001.fastq.gz
+bionano         bCorHaw1               936713641               0       936713641    507816794909         5084832  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/bionano/bCorHaw1_Saphyr_DLE1_3680691
+pacbiohifi_bam  bCorHaw1              3575635535               0      3575635535      3846721358          241989  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210320_025502.ccs.bam
+pacbiohifi_clr  bCorHaw1            162867755266               0      2147483648     83944296643         7411809  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210320_025502.subreads.bam
+pacbiohifi_bam  bCorHaw1              7689807215               0      2147483648      9045914918          632198  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210501_095740.ccs.bam
+pacbiohifi_clr  bCorHaw1            328190729876               0      2147483648    169602809057        13749882  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210501_095740.subreads.bam
+pacbiohifi_bam  bCorHaw1              8427107380               0      2147483648      8558374458          388815  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210515_024233.hifi_reads.bam
+pacbiohifi_fqgz bCorHaw1              9028900841               0      2147483648      9169541915          416581  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m54306U_210515_024233.hifi_reads.fastq.gz
+pacbiohifi_bam  bCorHaw1              8604353371               0      2147483648      8655005391          401949  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m64055_210518_191852.hifi_reads.bam
+pacbiohifi_fqgz bCorHaw1              9203407656               0      2147483648      9257586183          429934  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m64055_210518_191852.hifi_reads.fastq.gz
+pacbiohifi_clr  bCorHaw1            404531073213               0      2147483648    215177159709        11752870  species/Corvus_hawaiiensis/bCorHaw1/genomic_data/pacbio_hifi/m64055_210518_191852.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.3897
-pacbiohifi_fqgz *       1.0090
-pacbiohifi_bam *       1.0892
-pacbiohifi_clr *       0.5233
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bCorHaw1          1.3897     86800052430
+bionano         bCorHaw1         542.1259    507816794909
+pacbiohifi_bam  bCorHaw1          1.0892     34655590410
+pacbiohifi_clr  bCorHaw1          0.5233    758036565743
+pacbiohifi_fqgz bCorHaw1          1.0090     18396399273
+--------------- ---------------  ------- ---------------

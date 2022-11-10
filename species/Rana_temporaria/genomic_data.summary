@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-      834091231               0       834091231       911954128       113994266  species/Rana_temporaria/aRanTem1/genomic_data/10x/aRanTem1_S2_L007_I1_001.fastq.gz
-    11656494287               0      2147483648     17018353650       112704334  species/Rana_temporaria/aRanTem1/genomic_data/10x/aRanTem1_S3_L007_R2_001.fastq.gz
-    10733595527               0      2147483648     16934596923       112149653  species/Rana_temporaria/aRanTem1/genomic_data/10x/aRanTem1_S3_L008_R1_001.fastq.gz
-              0               0               0      8328582139            4358  species/Rana_temporaria/aRanTem1/genomic_data/bionano/aRanTem1_Saphyr_DLE1
-    40366397553               0      2147483648     56136657320       371765961  species/Rana_temporaria/aRanTem1/genomic_data/dovetail/aRanTem1_29955_2#1_R2.fastq.gz
-    38751026307               0      2147483648     57407343807       380181102  species/Rana_temporaria/aRanTem1/genomic_data/dovetail/aRanTem1_29955_3#1_R1.fastq.gz
-    41631506032               0      2147483648     57252305396       379154359  species/Rana_temporaria/aRanTem1/genomic_data/dovetail/aRanTem1_29955_3#1_R2.fastq.gz
-   217575826783               0      2147483648    112066222686         6193992  species/Rana_temporaria/aRanTem1/genomic_data/pacbio/m64016_190404_160139.subreads.bam
-   208657203784               0      2147483648    107798231986         5783273  species/Rana_temporaria/aRanTem1/genomic_data/pacbio/m64016_190408_142357.subreads.bam
-   195953008709               0      2147483648    100141021055         5825802  species/Rana_temporaria/aRanTem1/genomic_data/pacbio/m64016_190410_170148.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             aRanTem1               834091231               0       834091231       911954128       113994266  species/Rana_temporaria/aRanTem1/genomic_data/10x/aRanTem1_S2_L007_I1_001.fastq.gz
+10x             aRanTem1             11656494287               0      2147483648     17018353650       112704334  species/Rana_temporaria/aRanTem1/genomic_data/10x/aRanTem1_S3_L007_R2_001.fastq.gz
+10x             aRanTem1             10733595527               0      2147483648     16934596923       112149653  species/Rana_temporaria/aRanTem1/genomic_data/10x/aRanTem1_S3_L008_R1_001.fastq.gz
+bionano         aRanTem1              2323947477               0      2323947477   1565556297700        15684099  species/Rana_temporaria/aRanTem1/genomic_data/bionano/aRanTem1_Saphyr_DLE1
+dovetail        aRanTem1             40366397553               0      2147483648     56136657320       371765961  species/Rana_temporaria/aRanTem1/genomic_data/dovetail/aRanTem1_29955_2#1_R2.fastq.gz
+dovetail        aRanTem1             38751026307               0      2147483648     57407343807       380181102  species/Rana_temporaria/aRanTem1/genomic_data/dovetail/aRanTem1_29955_3#1_R1.fastq.gz
+dovetail        aRanTem1             41631506032               0      2147483648     57252305396       379154359  species/Rana_temporaria/aRanTem1/genomic_data/dovetail/aRanTem1_29955_3#1_R2.fastq.gz
+pacbio          aRanTem1            217575826783               0      2147483648    112066222686         6193992  species/Rana_temporaria/aRanTem1/genomic_data/pacbio/m64016_190404_160139.subreads.bam
+pacbio          aRanTem1            208657203784               0      2147483648    107798231986         5783273  species/Rana_temporaria/aRanTem1/genomic_data/pacbio/m64016_190408_142357.subreads.bam
+pacbio          aRanTem1            195953008709               0      2147483648    100141021055         5825802  species/Rana_temporaria/aRanTem1/genomic_data/pacbio/m64016_190410_170148.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5012
-dovetail     *       1.4144
-pacbio       *       0.5143
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             aRanTem1          1.5012    404568224622
+bionano         aRanTem1         673.6625   1565556297700
+dovetail        aRanTem1          1.4144    338147933586
+pacbio          aRanTem1          0.5143    319990279999
+--------------- ---------------  ------- ---------------

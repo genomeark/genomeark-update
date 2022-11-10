@@ -1,24 +1,26 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     2987764806               0      2987764806      3394081216       424260152  species/Merops_nubicus/bMerNub1/genomic_data/10x/bMerNub1_S5_L001_I1_001.fastq.gz
-    33884557122               0      2147483648     63135995014       420906649  species/Merops_nubicus/bMerNub1/genomic_data/10x/bMerNub1_S5_L001_R1_001.fastq.gz
-    34354241241               0      2147483648     63568856953       423792395  species/Merops_nubicus/bMerNub1/genomic_data/10x/bMerNub1_S5_L001_R2_001.fastq.gz
-    21151127553               0      2147483648     35913723873       239424835  species/Merops_nubicus/bMerNub1/genomic_data/arima/bMerNub1_ARI18_004_USPD16091431_HV3TGCCXY_L4_2.clean.fq.gz
-    19705683502               0      2147483648     36495012871       243300094  species/Merops_nubicus/bMerNub1/genomic_data/arima/bMerNub1_ARI18_004_USPD16091431_HV3TGCCXY_L6_1.clean.fq.gz
-    21281000777               0      2147483648     36374911536       242499420  species/Merops_nubicus/bMerNub1/genomic_data/arima/bMerNub1_ARI18_004_USPD16091431_HV3TGCCXY_L6_2.clean.fq.gz
-              0               0               0      1430744078             299  species/Merops_nubicus/bMerNub1/genomic_data/bionano/bMerNub1_Saphyr_DLE1_1904797
-    15442825568               0      2147483648      8363041148          471342  species/Merops_nubicus/bMerNub1/genomic_data/pacbio/m54158_180911_194908.subreads.bam
-    11031920121               0      2147483648      6028749172          319334  species/Merops_nubicus/bMerNub1/genomic_data/pacbio/m54158_180912_193944.subreads.bam
-    16588873494               0      2147483648      9011592680          507828  species/Merops_nubicus/bMerNub1/genomic_data/pacbio/m54158_180913_055627.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bMerNub1              2987764806               0      2987764806      3394081216       424260152  species/Merops_nubicus/bMerNub1/genomic_data/10x/bMerNub1_S5_L001_I1_001.fastq.gz
+10x             bMerNub1             33884557122               0      2147483648     63135995014       420906649  species/Merops_nubicus/bMerNub1/genomic_data/10x/bMerNub1_S5_L001_R1_001.fastq.gz
+10x             bMerNub1             34354241241               0      2147483648     63568856953       423792395  species/Merops_nubicus/bMerNub1/genomic_data/10x/bMerNub1_S5_L001_R2_001.fastq.gz
+arima           bMerNub1             21151127553               0      2147483648     35913723873       239424835  species/Merops_nubicus/bMerNub1/genomic_data/arima/bMerNub1_ARI18_004_USPD16091431_HV3TGCCXY_L4_2.clean.fq.gz
+arima           bMerNub1             19705683502               0      2147483648     36495012871       243300094  species/Merops_nubicus/bMerNub1/genomic_data/arima/bMerNub1_ARI18_004_USPD16091431_HV3TGCCXY_L6_1.clean.fq.gz
+arima           bMerNub1             21281000777               0      2147483648     36374911536       242499420  species/Merops_nubicus/bMerNub1/genomic_data/arima/bMerNub1_ARI18_004_USPD16091431_HV3TGCCXY_L6_2.clean.fq.gz
+bionano         bMerNub1               114884767               0       114884767     60002258355          366357  species/Merops_nubicus/bMerNub1/genomic_data/bionano/bMerNub1_Saphyr_DLE1_1867507
+bionano         bMerNub1               654973376               0       654973376    379324322509         2554461  species/Merops_nubicus/bMerNub1/genomic_data/bionano/bMerNub1_Saphyr_DLE1_1879457
+pacbio          bMerNub1             15442825568               0      2147483648      8363041148          471342  species/Merops_nubicus/bMerNub1/genomic_data/pacbio/m54158_180911_194908.subreads.bam
+pacbio          bMerNub1             11031920121               0      2147483648      6028749172          319334  species/Merops_nubicus/bMerNub1/genomic_data/pacbio/m54158_180912_193944.subreads.bam
+pacbio          bMerNub1             16588873494               0      2147483648      9011592680          507828  species/Merops_nubicus/bMerNub1/genomic_data/pacbio/m54158_180913_055627.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8265
-arima        *       1.7506
-pacbio       *       0.5434
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bMerNub1          1.8265    130095317628
+arima           bMerNub1          1.7506    142860991542
+bionano         bMerNub1         570.6591    439326580864
+pacbio          bMerNub1          0.5434     78206341617
+--------------- ---------------  ------- ---------------

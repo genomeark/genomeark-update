@@ -1,18 +1,19 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    22262830645               0      2147483648     41482926653       274721378  species/Colius_striatus/bColStr4/genomic_data/arima/bColStr4_S4_L001_R1_001.fastq.gz
-    22785909262               0      2147483648     41530948410       275039393  species/Colius_striatus/bColStr4/genomic_data/arima/bColStr4_S4_L001_R2_001.fastq.gz
-              0               0               0      1245352774             274  species/Colius_striatus/bColStr4/genomic_data/bionano/bColStr4_Saphyr_DLE1_3700964
-    24227134625               0      2147483648     27331574445         1597987  species/Colius_striatus/bColStr4/genomic_data/pacbio_hifi/m54306Ue_220205_182900.bc1003--bc1003.hifi_reads.fastq.gz
-    12887994292               0      2147483648     14043786147          823979  species/Colius_striatus/bColStr4/genomic_data/pacbio_hifi/m54306Ue_220209_203112.bc1003--bc1003.hifi_reads.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bColStr4             22262830645               0      2147483648     41482926653       274721378  species/Colius_striatus/bColStr4/genomic_data/arima/bColStr4_S4_L001_R1_001.fastq.gz
+arima           bColStr4             22785909262               0      2147483648     41530948410       275039393  species/Colius_striatus/bColStr4/genomic_data/arima/bColStr4_S4_L001_R2_001.fastq.gz
+bionano         bColStr4              2749544942               0      2749544942   1286543689935        13603951  species/Colius_striatus/bColStr4/genomic_data/bionano/bColStr4_Saphyr_DLE-1_3700962
+pacbiohifi_fqgz bColStr4             24227134625               0      2147483648     27331574445         1597987  species/Colius_striatus/bColStr4/genomic_data/pacbio_hifi/m54306Ue_220205_182900.bc1003--bc1003.hifi_reads.fastq.gz
+pacbiohifi_fqgz bColStr4             12887994292               0      2147483648     14043786147          823979  species/Colius_striatus/bColStr4/genomic_data/pacbio_hifi/m54306Ue_220209_203112.bc1003--bc1003.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.8360
-pacbiohifi_fqgz *       1.1200
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bColStr4          1.8360     82709486469
+bionano         bColStr4         467.9114   1286543689935
+pacbiohifi_fqgz bColStr4          1.1200     41568944387
+--------------- ---------------  ------- ---------------

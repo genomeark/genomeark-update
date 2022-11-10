@@ -1,19 +1,20 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    43556551496               0      2147483648     84774253183       561418895  species/Liasis_olivaceus/rLiaOli1/genomic_data/arima/rLiaOli1_1.fastq.gz
-    45363612890               0      2147483648     86344110803       571815303  species/Liasis_olivaceus/rLiaOli1/genomic_data/arima/rLiaOli1_2.fastq.gz
-              0               0               0      1468109473              80  species/Liasis_olivaceus/rLiaOli1/genomic_data/bionano/rLiaOli1_Saphyr_DLE1_3700969
-    21118232414               0      2147483648     24202950491         1486498  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220214_035318.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
-     7755725709               0      2147483648      9588054317          589894  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220331_182813.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
-    19087406747               0      2147483648     22289652477         1373023  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m64330e_220220_062027.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rLiaOli1             43556551496               0      2147483648     84774253183       561418895  species/Liasis_olivaceus/rLiaOli1/genomic_data/arima/rLiaOli1_1.fastq.gz
+arima           rLiaOli1             45363612890               0      2147483648     86344110803       571815303  species/Liasis_olivaceus/rLiaOli1/genomic_data/arima/rLiaOli1_2.fastq.gz
+bionano         rLiaOli1              2234563106               0      2234563106   1147506509298        11592188  species/Liasis_olivaceus/rLiaOli1/genomic_data/bionano/rLiaOli1_Saphyr_DLE-1_3699664
+pacbiohifi_fqgz rLiaOli1             21118232414               0      2147483648     24202950491         1486498  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220214_035318.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
+pacbiohifi_fqgz rLiaOli1              7755725709               0      2147483648      9588054317          589894  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220331_182813.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
+pacbiohifi_fqgz rLiaOli1             19087406747               0      2147483648     22289652477         1373023  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m64330e_220220_062027.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.9173
-pacbiohifi_fqgz *       1.1692
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rLiaOli1          1.9173    170486631177
+bionano         rLiaOli1         513.5261   1147506509298
+pacbiohifi_fqgz rLiaOli1          1.1692     56076427806
+--------------- ---------------  ------- ---------------

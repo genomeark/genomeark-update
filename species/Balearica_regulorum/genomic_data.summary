@@ -1,23 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     9319532259               0      2147483648     17533180875       116113780  species/Balearica_regulorum/bBalReg1/genomic_data/10x/bBalReg1_S1_L001_R2_001.fastq.gz
-    11064182519               0      2147483648     21469358339       142181186  species/Balearica_regulorum/bBalReg1/genomic_data/10x/bBalReg1_S4_L001_R1_001.fastq.gz
-    11258679441               0      2147483648     21323684781       141216455  species/Balearica_regulorum/bBalReg1/genomic_data/10x/bBalReg1_S4_L001_R2_001.fastq.gz
-    29559687173               0      2147483648     48736896727       324912658  species/Balearica_regulorum/bBalReg1/genomic_data/arima/bBalReg1_2411_30_L008_R1_001.fastq.gz
-    30725421393               0      2147483648     46372355890       309149053  species/Balearica_regulorum/bBalReg1/genomic_data/arima/bBalReg1_2411_30_L008_R2_001.fastq.gz
-              0               0               0      1495922171             128  species/Balearica_regulorum/bBalReg1/genomic_data/bionano/bBalReg1_Saphyr_DLE1_3221992
-    15315640029               0      2147483648      8386739151          354498  species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/m54307_190515_175620.subreads.bam
-    16826980225               0      2147483648      9203558125          372116  species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/m54307_190516_041052.subreads.bam
-    11415100193               0      2147483648      6250593202          253866  species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/m54307_190516_203341.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bBalReg1              9319532259               0      2147483648     17533180875       116113780  species/Balearica_regulorum/bBalReg1/genomic_data/10x/bBalReg1_S1_L001_R2_001.fastq.gz
+10x             bBalReg1             11064182519               0      2147483648     21469358339       142181186  species/Balearica_regulorum/bBalReg1/genomic_data/10x/bBalReg1_S4_L001_R1_001.fastq.gz
+10x             bBalReg1             11258679441               0      2147483648     21323684781       141216455  species/Balearica_regulorum/bBalReg1/genomic_data/10x/bBalReg1_S4_L001_R2_001.fastq.gz
+arima           bBalReg1             29559687173               0      2147483648     48736896727       324912658  species/Balearica_regulorum/bBalReg1/genomic_data/arima/bBalReg1_2411_30_L008_R1_001.fastq.gz
+arima           bBalReg1             30725421393               0      2147483648     46372355890       309149053  species/Balearica_regulorum/bBalReg1/genomic_data/arima/bBalReg1_2411_30_L008_R2_001.fastq.gz
+bionano         bBalReg1               198784653               0       198784653    100390085769          629676  species/Balearica_regulorum/bBalReg1/genomic_data/bionano/bBalReg1_Saphyr_DLE1_3053355
+bionano         bBalReg1               803402242               0       803402242    544560728796         3028649  species/Balearica_regulorum/bBalReg1/genomic_data/bionano/bBalReg1_Saphyr_DLE1_3221984
+pacbio          bBalReg1             15315640029               0      2147483648      8386739151          354498  species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/m54307_190515_175620.subreads.bam
+pacbio          bBalReg1             16826980225               0      2147483648      9203558125          372116  species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/m54307_190516_041052.subreads.bam
+pacbio          bBalReg1             11415100193               0      2147483648      6250593202          253866  species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/m54307_190516_203341.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9064
-arima        *       1.5545
-pacbio       *       0.5473
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bBalReg1          1.9064    156291349779
+arima           bBalReg1          1.5545     93713201265
+bionano         bBalReg1         643.5434    644950814565
+pacbio          bBalReg1          0.5473     86287545302
+--------------- ---------------  ------- ---------------

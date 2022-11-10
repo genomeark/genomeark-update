@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    13516888606               0      2147483648     24260696432       160666870  species/Phocoena_sinus/mPhoSin1/genomic_data/10x/mPhoSin1_S1_L001_R1_001.fastq.gz
-    12386385006               0      2147483648     22315049404       147781789  species/Phocoena_sinus/mPhoSin1/genomic_data/10x/mPhoSin1_S2_L001_R2_001.fastq.gz
-    18011066549               0      2147483648     32475762660       215071284  species/Phocoena_sinus/mPhoSin1/genomic_data/10x/mPhoSin1_S3_L001_R1_001.fastq.gz
-    66101314454               0      2147483648    127700867462       851339116  species/Phocoena_sinus/mPhoSin1/genomic_data/arima/concatenated-mPhoSin1_ARI12_4_USPD16090943_HV2CNCCXY_L4_R1.fastq.gz
-    33118943951               0      2147483648     65206148278       434707670  species/Phocoena_sinus/mPhoSin1/genomic_data/arima/mPhoSin1_ARI12_4_USPD16090943_HV2CNCCXY_L5_1.clean.fq.gz
-    35381415626               0      2147483648     67576343582       450508973  species/Phocoena_sinus/mPhoSin1/genomic_data/arima/mPhoSin1_ARI12_4_USPD16090943_HV2CNCCXY_L5_2.clean.fq.gz
-              0               0               0      2485091189             160  species/Phocoena_sinus/mPhoSin1/genomic_data/bionano/mPhoSin1_Saphyr_DLE1_2190826
-    21574025714               0      2147483648     11732112337          741358  species/Phocoena_sinus/mPhoSin1/genomic_data/pacbio/m54159_181207_035801.subreads.bam
-    23428488217               0      2147483648     12674265595          788010  species/Phocoena_sinus/mPhoSin1/genomic_data/pacbio/m54306_181122_070603.subreads.bam
-    18755392260               0      2147483648     10170482492          589155  species/Phocoena_sinus/mPhoSin1/genomic_data/pacbio/m54306_181124_000253.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mPhoSin1             13516888606               0      2147483648     24260696432       160666870  species/Phocoena_sinus/mPhoSin1/genomic_data/10x/mPhoSin1_S1_L001_R1_001.fastq.gz
+10x             mPhoSin1             12386385006               0      2147483648     22315049404       147781789  species/Phocoena_sinus/mPhoSin1/genomic_data/10x/mPhoSin1_S2_L001_R2_001.fastq.gz
+10x             mPhoSin1             18011066549               0      2147483648     32475762660       215071284  species/Phocoena_sinus/mPhoSin1/genomic_data/10x/mPhoSin1_S3_L001_R1_001.fastq.gz
+arima           mPhoSin1             66101314454               0      2147483648    127700867462       851339116  species/Phocoena_sinus/mPhoSin1/genomic_data/arima/concatenated-mPhoSin1_ARI12_4_USPD16090943_HV2CNCCXY_L4_R1.fastq.gz
+arima           mPhoSin1             33118943951               0      2147483648     65206148278       434707670  species/Phocoena_sinus/mPhoSin1/genomic_data/arima/mPhoSin1_ARI12_4_USPD16090943_HV2CNCCXY_L5_1.clean.fq.gz
+arima           mPhoSin1             35381415626               0      2147483648     67576343582       450508973  species/Phocoena_sinus/mPhoSin1/genomic_data/arima/mPhoSin1_ARI12_4_USPD16090943_HV2CNCCXY_L5_2.clean.fq.gz
+bionano         mPhoSin1              2345981171               0      2345981171   1190428805367        14795306  species/Phocoena_sinus/mPhoSin1/genomic_data/bionano/mPhoSin1_Saphyr_DLE1_2178389
+pacbio          mPhoSin1             21574025714               0      2147483648     11732112337          741358  species/Phocoena_sinus/mPhoSin1/genomic_data/pacbio/m54159_181207_035801.subreads.bam
+pacbio          mPhoSin1             23428488217               0      2147483648     12674265595          788010  species/Phocoena_sinus/mPhoSin1/genomic_data/pacbio/m54306_181122_070603.subreads.bam
+pacbio          mPhoSin1             18755392260               0      2147483648     10170482492          589155  species/Phocoena_sinus/mPhoSin1/genomic_data/pacbio/m54306_181124_000253.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8001
-arima        *       1.9352
-pacbio       *       0.5423
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mPhoSin1          1.8001    202001096549
+arima           mPhoSin1          1.9352    529628689211
+bionano         mPhoSin1         507.4332   1190428805367
+pacbio          mPhoSin1          0.5423    326799538161
+--------------- ---------------  ------- ---------------

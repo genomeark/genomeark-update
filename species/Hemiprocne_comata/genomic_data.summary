@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     1661418094               0      1661418094      1893851800       236731475  species/Hemiprocne_comata/bHemCom1/genomic_data/10x/bHemCom1_S5_L001_I1_001.fastq.gz
-    18935657740               0      2147483648     35810577928       237156154  species/Hemiprocne_comata/bHemCom1/genomic_data/10x/bHemCom1_S5_L001_R1_001.fastq.gz
-    19479730000               0      2147483648     36235380226       239969414  species/Hemiprocne_comata/bHemCom1/genomic_data/10x/bHemCom1_S5_L001_R2_001.fastq.gz
-    17515092050               0      2147483648     27882316473       185882117  species/Hemiprocne_comata/bHemCom1/genomic_data/arima/bHemCom1_2423A_15_R2_001.fastq.gz
-    21394570436               0      2147483648     38467439645       256449607  species/Hemiprocne_comata/bHemCom1/genomic_data/arima/bHemCom1_2423_15_R1_001.fastq.gz
-    23734623240               0      2147483648     37783202889       251888030  species/Hemiprocne_comata/bHemCom1/genomic_data/arima/bHemCom1_2423_15_R2_001.fastq.gz
-              0               0               0      1305490290             183  species/Hemiprocne_comata/bHemCom1/genomic_data/bionano/bHemCom1_Saphyr_DLE1_3535534
-    16166269850               0      2147483648      8719683677          655598  species/Hemiprocne_comata/bHemCom1/genomic_data/pacbio/m54159_190815_203435.subreads.bam
-    18576324357               0      2147483648      9825739433          806499  species/Hemiprocne_comata/bHemCom1/genomic_data/pacbio/m54159_190817_064908.subreads.bam
-    17663893596               0      2147483648      9343270343          778492  species/Hemiprocne_comata/bHemCom1/genomic_data/pacbio/m54159_190819_175947.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bHemCom1              1661418094               0      1661418094      1893851800       236731475  species/Hemiprocne_comata/bHemCom1/genomic_data/10x/bHemCom1_S5_L001_I1_001.fastq.gz
+10x             bHemCom1             18935657740               0      2147483648     35810577928       237156154  species/Hemiprocne_comata/bHemCom1/genomic_data/10x/bHemCom1_S5_L001_R1_001.fastq.gz
+10x             bHemCom1             19479730000               0      2147483648     36235380226       239969414  species/Hemiprocne_comata/bHemCom1/genomic_data/10x/bHemCom1_S5_L001_R2_001.fastq.gz
+arima           bHemCom1             17515092050               0      2147483648     27882316473       185882117  species/Hemiprocne_comata/bHemCom1/genomic_data/arima/bHemCom1_2423A_15_R2_001.fastq.gz
+arima           bHemCom1             21394570436               0      2147483648     38467439645       256449607  species/Hemiprocne_comata/bHemCom1/genomic_data/arima/bHemCom1_2423_15_R1_001.fastq.gz
+arima           bHemCom1             23734623240               0      2147483648     37783202889       251888030  species/Hemiprocne_comata/bHemCom1/genomic_data/arima/bHemCom1_2423_15_R2_001.fastq.gz
+bionano         bHemCom1              2290251476               0      2290251476   1112431597887        17571560  species/Hemiprocne_comata/bHemCom1/genomic_data/bionano/bHemCom1_Saphyr_DLE1_3535533
+pacbio          bHemCom1             16166269850               0      2147483648      8719683677          655598  species/Hemiprocne_comata/bHemCom1/genomic_data/pacbio/m54159_190815_203435.subreads.bam
+pacbio          bHemCom1             18576324357               0      2147483648      9825739433          806499  species/Hemiprocne_comata/bHemCom1/genomic_data/pacbio/m54159_190817_064908.subreads.bam
+pacbio          bHemCom1             17663893596               0      2147483648      9343270343          778492  species/Hemiprocne_comata/bHemCom1/genomic_data/pacbio/m54159_190819_175947.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8449
-arima        *       1.6622
-pacbio       *       0.5321
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bHemCom1          1.8449     73937699083
+arima           bHemCom1          1.6622    130355668421
+bionano         bHemCom1         485.7246   1112431597887
+pacbio          bHemCom1          0.5321     79870826085
+--------------- ---------------  ------- ---------------

@@ -1,24 +1,23 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    10309324382               0      2147483648     18837659042       124752713  species/Hirundo_rustica/bHirRus1/genomic_data/10x/bHirRus1_S1_L001_R1_001.fastq.gz
-     6884048353               0      2147483648     12620006475        83576205  species/Hirundo_rustica/bHirRus1/genomic_data/10x/bHirRus1_S2_L001_R2_001.fastq.gz
-     7488986150               0      2147483648     13655462274        90433524  species/Hirundo_rustica/bHirRus1/genomic_data/10x/bHirRus1_S4_L001_R1_001.fastq.gz
-     9566154963               0      2147483648     15947000419       106313340  species/Hirundo_rustica/bHirRus1/genomic_data/arima/bHirRus1_ARI2_005_USPD16095651_HWNW3CCXY_L6_R2.fastq.gz
-    15385287782               0      2147483648     25741686374       171611249  species/Hirundo_rustica/bHirRus1/genomic_data/arima/bHirRus1_ARI2_005_USPD16095651_HY5FTCCXY_L2_R1.fastq.gz
-    16790646757               0      2147483648     26114631154       174097548  species/Hirundo_rustica/bHirRus1/genomic_data/arima/bHirRus1_ARI2_005_USPD16095651_HY5FTCCXY_L2_R2.fastq.gz
-              0               0               0      1308065243             213  species/Hirundo_rustica/bHirRus1/genomic_data/bionano/bHirRus1_Saphyr_DLE1_3680490
-     7324029349               0      2147483648      3844483230          372377  species/Hirundo_rustica/bHirRus1/genomic_data/pacbio/m54073_180125_104031.subreads.bam
-     5821941265               0      2147483648      3102644476          213254  species/Hirundo_rustica/bHirRus1/genomic_data/pacbio/m54073_180207_192952.subreads.bam
-     8156433683               0      2147483648      4327042719          319077  species/Hirundo_rustica/bHirRus1/genomic_data/pacbio/m54073_180216_200803.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bHirRus1             10309324382               0      2147483648     18837659042       124752713  species/Hirundo_rustica/bHirRus1/genomic_data/10x/bHirRus1_S1_L001_R1_001.fastq.gz
+10x             bHirRus1              6884048353               0      2147483648     12620006475        83576205  species/Hirundo_rustica/bHirRus1/genomic_data/10x/bHirRus1_S2_L001_R2_001.fastq.gz
+10x             bHirRus1              7488986150               0      2147483648     13655462274        90433524  species/Hirundo_rustica/bHirRus1/genomic_data/10x/bHirRus1_S4_L001_R1_001.fastq.gz
+arima           bHirRus1              9566154963               0      2147483648     15947000419       106313340  species/Hirundo_rustica/bHirRus1/genomic_data/arima/bHirRus1_ARI2_005_USPD16095651_HWNW3CCXY_L6_R2.fastq.gz
+arima           bHirRus1             15385287782               0      2147483648     25741686374       171611249  species/Hirundo_rustica/bHirRus1/genomic_data/arima/bHirRus1_ARI2_005_USPD16095651_HY5FTCCXY_L2_R1.fastq.gz
+arima           bHirRus1             16790646757               0      2147483648     26114631154       174097548  species/Hirundo_rustica/bHirRus1/genomic_data/arima/bHirRus1_ARI2_005_USPD16095651_HY5FTCCXY_L2_R2.fastq.gz
+pacbio          bHirRus1              7324029349               0      2147483648      3844483230          372377  species/Hirundo_rustica/bHirRus1/genomic_data/pacbio/m54073_180125_104031.subreads.bam
+pacbio          bHirRus1              5821941265               0      2147483648      3102644476          213254  species/Hirundo_rustica/bHirRus1/genomic_data/pacbio/m54073_180207_192952.subreads.bam
+pacbio          bHirRus1              8156433683               0      2147483648      4327042719          319077  species/Hirundo_rustica/bHirRus1/genomic_data/pacbio/m54073_180216_200803.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8277
-arima        *       1.6243
-pacbio       *       0.5292
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bHirRus1          1.8277    109590875741
+arima           bHirRus1          1.6243     81845104087
+pacbio          bHirRus1          0.5292     67036867445
+--------------- ---------------  ------- ---------------

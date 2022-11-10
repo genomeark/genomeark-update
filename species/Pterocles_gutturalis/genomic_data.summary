@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    22040856751               0      2147483648     40451055932       269673716  species/Pterocles_gutturalis/bPteGut1/genomic_data/10x/PteGut1_S7_L001_R2_001.fastq.gz
-     2038124126               0      2038124126      2156722536       269590317  species/Pterocles_gutturalis/bPteGut1/genomic_data/10x/bPteGut1_S7_L001_I1_001.fastq.gz
-    21627539804               0      2147483648     40186644164       267910961  species/Pterocles_gutturalis/bPteGut1/genomic_data/10x/bPteGut1_S7_L001_R1_001.fastq.gz
-    26793045330               0      2147483648     51810829895       345405545  species/Pterocles_gutturalis/bPteGut1/genomic_data/arima/bPteGut1_ARI14_4_USPD16090945_HV2CNCCXY_L8_1.clean.fq.gz
-    29006206021               0      2147483648     49355585477       329037250  species/Pterocles_gutturalis/bPteGut1/genomic_data/arima/bPteGut1_ARI14_4_USPD16090945_HV2CNCCXY_L8_2.clean.fastq.gz
-    29006206021               0      2147483648     49355585477       329037250  species/Pterocles_gutturalis/bPteGut1/genomic_data/arima/bPteGut1_ARI14_4_USPD16090945_HV2CNCCXY_L8_2.clean.fq.gz
-              0               0               0      1485048039             256  species/Pterocles_gutturalis/bPteGut1/genomic_data/bionano/bPteGut1_Saphyr_DLE1_2190825
-    16109183105               0      2147483648      8762485532          555660  species/Pterocles_gutturalis/bPteGut1/genomic_data/pacbio/m54158_181018_184334.subreads.bam
-    15430693021               0      2147483648      8404565167          596013  species/Pterocles_gutturalis/bPteGut1/genomic_data/pacbio/m54158_181019_045416.subreads.bam
-    15777864214               0      2147483648      8449531723          612656  species/Pterocles_gutturalis/bPteGut1/genomic_data/pacbio/m54159_180925_154820.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bPteGut1             22040856751               0      2147483648     40451055932       269673716  species/Pterocles_gutturalis/bPteGut1/genomic_data/10x/PteGut1_S7_L001_R2_001.fastq.gz
+10x             bPteGut1              2038124126               0      2038124126      2156722536       269590317  species/Pterocles_gutturalis/bPteGut1/genomic_data/10x/bPteGut1_S7_L001_I1_001.fastq.gz
+10x             bPteGut1             21627539804               0      2147483648     40186644164       267910961  species/Pterocles_gutturalis/bPteGut1/genomic_data/10x/bPteGut1_S7_L001_R1_001.fastq.gz
+arima           bPteGut1             26793045330               0      2147483648     51810829895       345405545  species/Pterocles_gutturalis/bPteGut1/genomic_data/arima/bPteGut1_ARI14_4_USPD16090945_HV2CNCCXY_L8_1.clean.fq.gz
+arima           bPteGut1             29006206021               0      2147483648     49355585477       329037250  species/Pterocles_gutturalis/bPteGut1/genomic_data/arima/bPteGut1_ARI14_4_USPD16090945_HV2CNCCXY_L8_2.clean.fastq.gz
+arima           bPteGut1             29006206021               0      2147483648     49355585477       329037250  species/Pterocles_gutturalis/bPteGut1/genomic_data/arima/bPteGut1_ARI14_4_USPD16090945_HV2CNCCXY_L8_2.clean.fq.gz
+bionano         bPteGut1               300233134               0       300233134    179479274282         1062991  species/Pterocles_gutturalis/bPteGut1/genomic_data/bionano/bPteGut1_Saphyr_DLE1_2190824
+pacbio          bPteGut1             16109183105               0      2147483648      8762485532          555660  species/Pterocles_gutturalis/bPteGut1/genomic_data/pacbio/m54158_181018_184334.subreads.bam
+pacbio          bPteGut1             15430693021               0      2147483648      8404565167          596013  species/Pterocles_gutturalis/bPteGut1/genomic_data/pacbio/m54158_181019_045416.subreads.bam
+pacbio          bPteGut1             15777864214               0      2147483648      8449531723          612656  species/Pterocles_gutturalis/bPteGut1/genomic_data/pacbio/m54159_180925_154820.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8114
-arima        *       1.7749
-pacbio       *       0.5413
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bPteGut1          1.8114    165585583123
+arima           bPteGut1          1.7749    198076182445
+bionano         bPteGut1         597.7996    179479274282
+pacbio          bPteGut1          0.5413     75957236346
+--------------- ---------------  ------- ---------------

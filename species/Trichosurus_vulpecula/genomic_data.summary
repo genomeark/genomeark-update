@@ -1,24 +1,27 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    14894851039               0      2147483648     29793980896       198626546  species/Trichosurus_vulpecula/mTriVul1/genomic_data/10x/mTriVul1_S1_L002_R2_001.fastq.gz
-    16385844347               0      2147483648     32505089960       216700607  species/Trichosurus_vulpecula/mTriVul1/genomic_data/10x/mTriVul1_S2_L002_R1_001.fastq.gz
-    15511685611               0      2147483648     30719632798       204797559  species/Trichosurus_vulpecula/mTriVul1/genomic_data/10x/mTriVul1_S4_L002_R1_001.fastq.gz
-    34601865945               0      2147483648     59094485000       393963249  species/Trichosurus_vulpecula/mTriVul1/genomic_data/arima/mTriVul1_ARI17_4_USPD16090948_HTNV3CCXY_L7_2.clean.fq.gz
-    28838068850               0      2147483648     51720655185       344804367  species/Trichosurus_vulpecula/mTriVul1/genomic_data/arima/mTriVul1_ARI17_4_USPD16090948_HV3M3CCXY_L4_2.clean.fq.gz
-    58836203728               0      2147483648    110105919630       734039491  species/Trichosurus_vulpecula/mTriVul1/genomic_data/arima/mTriVul1_ARI17_4_USPD16090948_R1.fastq.gz
-              0               0               0      3884698488             177  species/Trichosurus_vulpecula/mTriVul1/genomic_data/bionano/mTriVul1_Saphyr_DLE1_2419098
-    11470799554               0      2147483648      6174536516          556974  species/Trichosurus_vulpecula/mTriVul1/genomic_data/pacbio/m54158_180704_155126.subreads.bam
-    11869292432               0      2147483648      6407543960          549799  species/Trichosurus_vulpecula/mTriVul1/genomic_data/pacbio/m54159_180704_063940.subreads.bam
-    10134723989               0      2147483648      5430821354          536759  species/Trichosurus_vulpecula/mTriVul1/genomic_data/pacbio/m54159_180705_132318.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mTriVul1             14894851039               0      2147483648     29793980896       198626546  species/Trichosurus_vulpecula/mTriVul1/genomic_data/10x/mTriVul1_S1_L002_R2_001.fastq.gz
+10x             mTriVul1             16385844347               0      2147483648     32505089960       216700607  species/Trichosurus_vulpecula/mTriVul1/genomic_data/10x/mTriVul1_S2_L002_R1_001.fastq.gz
+10x             mTriVul1             15511685611               0      2147483648     30719632798       204797559  species/Trichosurus_vulpecula/mTriVul1/genomic_data/10x/mTriVul1_S4_L002_R1_001.fastq.gz
+arima           mTriVul1             34601865945               0      2147483648     59094485000       393963249  species/Trichosurus_vulpecula/mTriVul1/genomic_data/arima/mTriVul1_ARI17_4_USPD16090948_HTNV3CCXY_L7_2.clean.fq.gz
+arima           mTriVul1             28838068850               0      2147483648     51720655185       344804367  species/Trichosurus_vulpecula/mTriVul1/genomic_data/arima/mTriVul1_ARI17_4_USPD16090948_HV3M3CCXY_L4_2.clean.fq.gz
+arima           mTriVul1             58836203728               0      2147483648    110105919630       734039491  species/Trichosurus_vulpecula/mTriVul1/genomic_data/arima/mTriVul1_ARI17_4_USPD16090948_R1.fastq.gz
+bionano         mTriVul1               350753502               0       350753502    171755038469         1791419  species/Trichosurus_vulpecula/mTriVul1/genomic_data/bionano/mTriVul1_Saphyr_DLE1_2237251
+bionano         mTriVul1               290403263               0       290403263    133943241965         1491192  species/Trichosurus_vulpecula/mTriVul1/genomic_data/bionano/mTriVul1_Saphyr_DLE1_2278987
+bionano         mTriVul1               558771728               0       558771728    285500503191         3361880  species/Trichosurus_vulpecula/mTriVul1/genomic_data/bionano/mTriVul1_Saphyr_DLE1_2419095
+pacbio          mTriVul1             11470799554               0      2147483648      6174536516          556974  species/Trichosurus_vulpecula/mTriVul1/genomic_data/pacbio/m54158_180704_155126.subreads.bam
+pacbio          mTriVul1             11869292432               0      2147483648      6407543960          549799  species/Trichosurus_vulpecula/mTriVul1/genomic_data/pacbio/m54159_180704_063940.subreads.bam
+pacbio          mTriVul1             10134723989               0      2147483648      5430821354          536759  species/Trichosurus_vulpecula/mTriVul1/genomic_data/pacbio/m54159_180705_132318.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9879
-arima        *       1.8067
-pacbio       *       0.5381
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mTriVul1          1.9879    246679323520
+arima           mTriVul1          1.8067    441832598939
+bionano         mTriVul1         492.6950    591198783625
+pacbio          mTriVul1          0.5381    182261428080
+--------------- ---------------  ------- ---------------

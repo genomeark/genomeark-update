@@ -1,21 +1,22 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     3053684745               0      3053684745      3584840048       448105006  species/Theristicus_caerulescens/bTheCae1/genomic_data/10x/bTheCae1_S6_L004_I1_001.fastq.gz
-    35337873021               0      2147483648     68357898410       452701330  species/Theristicus_caerulescens/bTheCae1/genomic_data/10x/bTheCae1_S6_L004_R1_001.fastq.gz
-    36144926084               0      2147483648     68782913284       455515998  species/Theristicus_caerulescens/bTheCae1/genomic_data/10x/bTheCae1_S6_L004_R2_001.fastq.gz
-    79921607127               0      2147483648    131999025289       879993539  species/Theristicus_caerulescens/bTheCae1/genomic_data/arima/bTheCae1_2450_07_R1_001.fastq.gz
-    91997072304               0      2147483648    126003364750       840022474  species/Theristicus_caerulescens/bTheCae1/genomic_data/arima/bTheCae1_2450_07_R2_001.fastq.gz
-              0               0               0      1266415068             155  species/Theristicus_caerulescens/bTheCae1/genomic_data/bionano/bTheCae1_Saphyr_DLE1_3680642
-   305283461649               0      2147483648    160513437608         6622320  species/Theristicus_caerulescens/bTheCae1/genomic_data/pacbio/m54306U_200206_182812.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bTheCae1              3053684745               0      3053684745      3584840048       448105006  species/Theristicus_caerulescens/bTheCae1/genomic_data/10x/bTheCae1_S6_L004_I1_001.fastq.gz
+10x             bTheCae1             35337873021               0      2147483648     68357898410       452701330  species/Theristicus_caerulescens/bTheCae1/genomic_data/10x/bTheCae1_S6_L004_R1_001.fastq.gz
+10x             bTheCae1             36144926084               0      2147483648     68782913284       455515998  species/Theristicus_caerulescens/bTheCae1/genomic_data/10x/bTheCae1_S6_L004_R2_001.fastq.gz
+arima           bTheCae1             79921607127               0      2147483648    131999025289       879993539  species/Theristicus_caerulescens/bTheCae1/genomic_data/arima/bTheCae1_2450_07_R1_001.fastq.gz
+arima           bTheCae1             91997072304               0      2147483648    126003364750       840022474  species/Theristicus_caerulescens/bTheCae1/genomic_data/arima/bTheCae1_2450_07_R2_001.fastq.gz
+bionano         bTheCae1              1248986501               0      1248986501    524878551413         5467604  species/Theristicus_caerulescens/bTheCae1/genomic_data/bionano/bTheCae1_Saphyr_DLE1_3680637
+pacbio          bTheCae1            305283461649               0      2147483648    160513437608         6622320  species/Theristicus_caerulescens/bTheCae1/genomic_data/pacbio/m54306U_200206_182812.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8880
-arima        *       1.4550
-pacbio       *       0.5257
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bTheCae1          1.8880    140724881508
+arima           bTheCae1          1.4550    250141678572
+bionano         bTheCae1         420.2435    524878551413
+pacbio          bTheCae1          0.5257    160487515788
+--------------- ---------------  ------- ---------------

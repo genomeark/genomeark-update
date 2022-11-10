@@ -1,27 +1,28 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    25394825599               0      2147483648     47167038332       312364492  species/Spheniscus_humboldti/bSphHub1/genomic_data/arima/bSphHub1_S17_L004_R1_001.fastq.gz
-    26891127900               0      2147483648     47333008253       313463643  species/Spheniscus_humboldti/bSphHub1/genomic_data/arima/bSphHub1_S17_L004_R2_001.fastq.gz
-              0               0               0      1298107142             231  species/Spheniscus_humboldti/bSphHub1/genomic_data/bionano/bSphHub1_Saphyr_DLE1_3700965
-    58807801507               0      2147483648     70557491644         4742313  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m54306Ue_211126_062348.hifi_reads.bam
-    13398354566               0      2147483648     16075321064         1080455  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m54306Ue_211126_062348.hifi_reads.fastq.gz
-   198774157106               0      2147483648     85247048714         5498889  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m54306Ue_211126_062348.reads.bam
-    53329274911               0      2147483648     62292540489         4184300  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m64334e_211120_161230.hifi_reads.bam
-    12322475216               0      2147483648     14393563152          966841  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m64334e_211120_161230.hifi_reads.fastq.gz
-   204100470736               0      2147483648     88479232841         5252288  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m64334e_211120_161230.reads.bam
-    52990942563               0      2147483648     63184961240         4100136  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m64334e_211126_065713.hifi_reads.bam
-    12065997452               0      2147483648     14387167777          933597  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m64334e_211126_065713.hifi_reads.fastq.gz
-   215534571138               0      2147483648     94950319268         5511002  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m64334e_211126_065713.reads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bSphHub1             25394825599               0      2147483648     47167038332       312364492  species/Spheniscus_humboldti/bSphHub1/genomic_data/arima/bSphHub1_S17_L004_R1_001.fastq.gz
+arima           bSphHub1             26891127900               0      2147483648     47333008253       313463643  species/Spheniscus_humboldti/bSphHub1/genomic_data/arima/bSphHub1_S17_L004_R2_001.fastq.gz
+bionano         bSphHub1              2690784297               0      2690784297   1414729173417        16548003  species/Spheniscus_humboldti/bSphHub1/genomic_data/bionano/bSphHub1_Saphyr_DLE-1_3700819
+pacbiohifi_bam  bSphHub1             58807801507               0      2147483648     15987659015         1087576  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m54306Ue_211126_062348.hifi_reads.bam
+pacbiohifi_fqgz bSphHub1             13398354566               0      2147483648     16075321064         1080455  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m54306Ue_211126_062348.hifi_reads.fastq.gz
+pacbiohifi_clr  bSphHub1            198774157106               0      2147483648     85247048714         5498889  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m54306Ue_211126_062348.reads.bam
+pacbiohifi_bam  bSphHub1             53329274911               0      2147483648     14344593975          962094  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m64334e_211120_161230.hifi_reads.bam
+pacbiohifi_fqgz bSphHub1             12322475216               0      2147483648     14393563152          966841  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m64334e_211120_161230.hifi_reads.fastq.gz
+pacbiohifi_clr  bSphHub1            204100470736               0      2147483648     88479232841         5252288  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m64334e_211120_161230.reads.bam
+pacbiohifi_bam  bSphHub1             52990942563               0      2147483648     14374148045          933165  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m64334e_211126_065713.hifi_reads.bam
+pacbiohifi_fqgz bSphHub1             12065997452               0      2147483648     14387167777          933597  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m64334e_211126_065713.hifi_reads.fastq.gz
+pacbiohifi_clr  bSphHub1            215534571138               0      2147483648     94950319268         5511002  species/Spheniscus_humboldti/bSphHub1/genomic_data/pacbio_hifi/m64334e_211126_065713.reads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.7913
-pacbiohifi_fqgz *       1.1870
-pacbiohifi_bam *       1.1871
-pacbiohifi_clr *       0.4344
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bSphHub1          1.7913     93659828502
+bionano         bSphHub1         525.7683   1414729173417
+pacbiohifi_bam  bSphHub1          0.2707     44700154738
+pacbiohifi_clr  bSphHub1          0.4344    268636956036
+pacbiohifi_fqgz bSphHub1          1.1870     44852963926
+--------------- ---------------  ------- ---------------

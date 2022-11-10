@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-      800860593               0       800860593       762061952        95257744  species/Rattus_norvegicus/mRatNor1/genomic_data/10x/mRatNor1_S1_L001_I1_001.fastq.gz
-     7416852645               0      2147483648     10066651661        66666567  species/Rattus_norvegicus/mRatNor1/genomic_data/10x/mRatNor1_S3_L001_R2_001.fastq.gz
-     8763522110               0      2147483648     11950212428        79140483  species/Rattus_norvegicus/mRatNor1/genomic_data/10x/mRatNor1_S4_L001_R2_001.fastq.gz
-    43030859651               0      2147483648     64960275948       430200523  species/Rattus_norvegicus/mRatNor1/genomic_data/arima/mRatNor1_32564_7#1_R2.fastq.gz
-    39731341830               0      2147483648     64747375535       428790566  species/Rattus_norvegicus/mRatNor1/genomic_data/arima/mRatNor1_32564_8#1_R1.fastq.gz
-    44168524877               0      2147483648     63429165581       420060719  species/Rattus_norvegicus/mRatNor1/genomic_data/arima/mRatNor1_32564_8#1_R2.fastq.gz
-              0               0               0      2860142518             268  species/Rattus_norvegicus/mRatNor1/genomic_data/bionano/mRatNor_Saphyr_DLE1_nonhap
-   261313565380               0      2147483648    138291132878         5644415  species/Rattus_norvegicus/mRatNor1/genomic_data/pacbio/m64016_190618_103014.subreads.bam
-   243311495934               0      2147483648    128206513530         5769727  species/Rattus_norvegicus/mRatNor1/genomic_data/pacbio/m64016_190622_041831.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mRatNor1               800860593               0       800860593       762061952        95257744  species/Rattus_norvegicus/mRatNor1/genomic_data/10x/mRatNor1_S1_L001_I1_001.fastq.gz
+10x             mRatNor1              7416852645               0      2147483648     10066651661        66666567  species/Rattus_norvegicus/mRatNor1/genomic_data/10x/mRatNor1_S3_L001_R2_001.fastq.gz
+10x             mRatNor1              8763522110               0      2147483648     11950212428        79140483  species/Rattus_norvegicus/mRatNor1/genomic_data/10x/mRatNor1_S4_L001_R2_001.fastq.gz
+arima           mRatNor1             43030859651               0      2147483648     64960275948       430200523  species/Rattus_norvegicus/mRatNor1/genomic_data/arima/mRatNor1_32564_7#1_R2.fastq.gz
+arima           mRatNor1             39731341830               0      2147483648     64747375535       428790566  species/Rattus_norvegicus/mRatNor1/genomic_data/arima/mRatNor1_32564_8#1_R1.fastq.gz
+arima           mRatNor1             44168524877               0      2147483648     63429165581       420060719  species/Rattus_norvegicus/mRatNor1/genomic_data/arima/mRatNor1_32564_8#1_R2.fastq.gz
+bionano         mRatNor1              1513709815               0      1513709815    773562250742         6436377  species/Rattus_norvegicus/mRatNor1/genomic_data/bionano/mRatNor1_Saphyr_DLE1
+pacbio          mRatNor1            261313565380               0      2147483648    138291132878         5644415  species/Rattus_norvegicus/mRatNor1/genomic_data/pacbio/m64016_190618_103014.subreads.bam
+pacbio          mRatNor1            243311495934               0      2147483648    128206513530         5769727  species/Rattus_norvegicus/mRatNor1/genomic_data/pacbio/m64016_190622_041831.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.3414
-arima        *       1.5215
-pacbio       *       0.5284
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mRatNor1          1.3414    187561740207
+arima           mRatNor1          1.5215    253268803196
+bionano         mRatNor1         511.0373    773562250742
+pacbio          mRatNor1          0.5284    266643882398
+--------------- ---------------  ------- ---------------

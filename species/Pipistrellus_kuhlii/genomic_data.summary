@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     7317320782               0      2147483648     12144462703        80426908  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/10x/mPipKuh1_S1_L001_R1_001.fastq.gz
-     8431256566               0      2147483648     12098393998        80121818  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/10x/mPipKuh1_S1_L001_R2_001.fastq.gz
-     8236004096               0      2147483648     11829289407        78339664  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/10x/mPipKuh1_S1_L002_R2_001.fastq.gz
-              0               0               0      1878363198            1652  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/bionano/mPipKuh1_saphyr_DLE1
-     6514859729               0      2147483648      3446243686          481909  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/pacbio/m54062_170517_073400.subreads.bam
-     7698957959               0      2147483648      4079973439          423028  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/pacbio/m54142_170611_155332.subreads.bam
-     2938224167               0      2938224167      1592065584          169356  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/pacbio/m54144_170608_124806.subreads.bam
-     9017115068               0      2147483648     15553745126       194421814  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/phase/mPipKuh1_pipistrellusS3HiC_R1.fastq.gz
-     9404573914               0      2147483648     15582912641       194786408  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/phase/mPipKuh1_pipistrellusS3HiC_R2.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mPipKuh1              7317320782               0      2147483648     12144462703        80426908  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/10x/mPipKuh1_S1_L001_R1_001.fastq.gz
+10x             mPipKuh1              8431256566               0      2147483648     12098393998        80121818  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/10x/mPipKuh1_S1_L001_R2_001.fastq.gz
+10x             mPipKuh1              8236004096               0      2147483648     11829289407        78339664  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/10x/mPipKuh1_S1_L002_R2_001.fastq.gz
+bionano         mPipKuh1              2287454639               0      2287454639   1418652417338        17869642  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/bionano/mPipKuh1_saphyr_DLE1_0
+pacbio          mPipKuh1              6514859729               0      2147483648      3446243686          481909  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/pacbio/m54062_170517_073400.subreads.bam
+pacbio          mPipKuh1              7698957959               0      2147483648      4079973439          423028  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/pacbio/m54142_170611_155332.subreads.bam
+pacbio          mPipKuh1              2938224167               0      2938224167      1592065584          169356  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/pacbio/m54144_170608_124806.subreads.bam
+phase           mPipKuh1              9017115068               0      2147483648     15553745126       194421814  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/phase/mPipKuh1_pipistrellusS3HiC_R1.fastq.gz
+phase           mPipKuh1              9404573914               0      2147483648     15582912641       194786408  species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/phase/mPipKuh1_pipistrellusS3HiC_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5039
-pacbio       *       0.5316
-phase        *       1.6789
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mPipKuh1          1.5039     95710396413
+bionano         mPipKuh1         620.1882   1418652417338
+pacbio          mPipKuh1          0.5316    144601133166
+phase           mPipKuh1          1.6789     30928173631
+--------------- ---------------  ------- ---------------

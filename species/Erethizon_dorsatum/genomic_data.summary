@@ -1,25 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     5895209666               0      2147483648     11014496471        72943687  species/Erethizon_dorsatum/mEreDor1/genomic_data/10x/mEreDor1_S2_L001_R1_001.fastq.gz
-     6246202645               0      2147483648     11285693533        74739695  species/Erethizon_dorsatum/mEreDor1/genomic_data/10x/mEreDor1_S4_L001_R2_001.fastq.gz
-     4185288476               0      4185288476      7533256969        49889119  species/Erethizon_dorsatum/mEreDor1/genomic_data/10x/mEreDor1_S5_L001_R2_001.fastq.gz
-    95498662664               0      2147483648    148246753489       988311734  species/Erethizon_dorsatum/mEreDor1/genomic_data/arima/2450_11_R1.filtered.fastq.gz
-    95362357340               0      2147483648    131835501840       878903345  species/Erethizon_dorsatum/mEreDor1/genomic_data/arima/2450_11_R2.filtered.fastq.gz
-    21601936938               0      2147483648     30055688241       200371254  species/Erethizon_dorsatum/mEreDor1/genomic_data/arima/mEreDor1_2450_12_R2_001.fastq.gz
-    84625777507               0      2147483648    163728353838      1084293773  species/Erethizon_dorsatum/mEreDor1/genomic_data/illumina/mEreDor1_DNAseq_R1.fastq.gz
-    87922381272               0      2147483648    164590224571      1090001528  species/Erethizon_dorsatum/mEreDor1/genomic_data/illumina/mEreDor1_DNAseq_R2.fastq.gz
-   334197557572               0      2147483648    175674115152         8710989  species/Erethizon_dorsatum/mEreDor1/genomic_data/pacbio/m54306U_191112_214137.subreads.bam
-   301365275862               0      2147483648    158459523728         8194110  species/Erethizon_dorsatum/mEreDor1/genomic_data/pacbio/m54306U_191114_122641.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mEreDor1              5895209666               0      2147483648     11014496471        72943687  species/Erethizon_dorsatum/mEreDor1/genomic_data/10x/mEreDor1_S2_L001_R1_001.fastq.gz
+10x             mEreDor1              6246202645               0      2147483648     11285693533        74739695  species/Erethizon_dorsatum/mEreDor1/genomic_data/10x/mEreDor1_S4_L001_R2_001.fastq.gz
+10x             mEreDor1              4185288476               0      4185288476      7533256969        49889119  species/Erethizon_dorsatum/mEreDor1/genomic_data/10x/mEreDor1_S5_L001_R2_001.fastq.gz
+arima           mEreDor1             95498662664               0      2147483648    148246753489       988311734  species/Erethizon_dorsatum/mEreDor1/genomic_data/arima/2450_11_R1.filtered.fastq.gz
+arima           mEreDor1             95362357340               0      2147483648    131835501840       878903345  species/Erethizon_dorsatum/mEreDor1/genomic_data/arima/2450_11_R2.filtered.fastq.gz
+arima           mEreDor1             21601936938               0      2147483648     30055688241       200371254  species/Erethizon_dorsatum/mEreDor1/genomic_data/arima/mEreDor1_2450_12_R2_001.fastq.gz
+illumina        mEreDor1             84625777507               0      2147483648    163728353838      1084293773  species/Erethizon_dorsatum/mEreDor1/genomic_data/illumina/mEreDor1_DNAseq_R1.fastq.gz
+illumina        mEreDor1             87922381272               0      2147483648    164590224571      1090001528  species/Erethizon_dorsatum/mEreDor1/genomic_data/illumina/mEreDor1_DNAseq_R2.fastq.gz
+pacbio          mEreDor1            334197557572               0      2147483648    175674115152         8710989  species/Erethizon_dorsatum/mEreDor1/genomic_data/pacbio/m54306U_191112_214137.subreads.bam
+pacbio          mEreDor1            301365275862               0      2147483648    158459523728         8194110  species/Erethizon_dorsatum/mEreDor1/genomic_data/pacbio/m54306U_191114_122641.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8272
-arima        *       1.4597
-illumina     *       1.8923
-pacbio       *       0.5257
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mEreDor1          1.8272    235274300416
+arima           mEreDor1          1.4597    337661762310
+illumina        mEreDor1          1.8923    326512880857
+pacbio          mEreDor1          0.5257    334115381536
+--------------- ---------------  ------- ---------------

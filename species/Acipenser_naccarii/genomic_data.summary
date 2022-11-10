@@ -1,19 +1,21 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    71560121088               0      2147483648    133351693433       883123830  species/Acipenser_naccarii/fAciNac1/genomic_data/arima/fAciNac1_S1_L001_R1_001.fastq.gz
-    73438358409               0      2147483648    134246756196       889051399  species/Acipenser_naccarii/fAciNac1/genomic_data/arima/fAciNac1_S1_L001_R2_001.fastq.gz
-              0               0               0         9444408              79  species/Acipenser_naccarii/fAciNac1/genomic_data/bionano/fAciNac1_Saphyr_DLE1_3700096
-    10306849624               0      2147483648     11935190699          782390  species/Acipenser_naccarii/fAciNac1/genomic_data/pacbio_hifi/m64055e_220514_051343.demultiplex.bc1002--bc1002.hifi_reads.fastq.gz
-     6720721534               0      2147483648      8743695350          575210  species/Acipenser_naccarii/fAciNac1/genomic_data/pacbio_hifi/m64330e_220321_160957.hifi_reads.fastq.gz
-    15134190697               0      2147483648     19100492694         1209701  species/Acipenser_naccarii/fAciNac1/genomic_data/pacbio_hifi/m64334e_211122_013445.hifi_reads.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fAciNac1             71560121088               0      2147483648    133351693433       883123830  species/Acipenser_naccarii/fAciNac1/genomic_data/arima/fAciNac1_S1_L001_R1_001.fastq.gz
+arima           fAciNac1             73438358409               0      2147483648    134246756196       889051399  species/Acipenser_naccarii/fAciNac1/genomic_data/arima/fAciNac1_S1_L001_R2_001.fastq.gz
+bionano         fAciNac1              2445564503               0      2445564503   1453945566270        26494868  species/Acipenser_naccarii/fAciNac1/genomic_data/bionano/fAciNac1_Saphyr_DLE-1_3692269
+bionano         fAciNac1              5986671889               0      5986671889   3219324482363        73956139  species/Acipenser_naccarii/fAciNac1/genomic_data/bionano/fAciNac1_Saphyr_DLE-1_3699918
+pacbiohifi_fqgz fAciNac1             10306849624               0      2147483648     11935190699          782390  species/Acipenser_naccarii/fAciNac1/genomic_data/pacbio_hifi/m64055e_220514_051343.demultiplex.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_fqgz fAciNac1              6720721534               0      2147483648      8743695350          575210  species/Acipenser_naccarii/fAciNac1/genomic_data/pacbio_hifi/m64330e_220321_160957.hifi_reads.fastq.gz
+pacbiohifi_fqgz fAciNac1             15134190697               0      2147483648     19100492694         1209701  species/Acipenser_naccarii/fAciNac1/genomic_data/pacbio_hifi/m64334e_211122_013445.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.8396
-pacbiohifi_fqgz *       1.2368
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fAciNac1          1.8396    266739202882
+bionano         fAciNac1         554.2147   4673270048633
+pacbiohifi_fqgz fAciNac1          1.2368     97249067765
+--------------- ---------------  ------- ---------------

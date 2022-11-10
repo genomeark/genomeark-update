@@ -2,24 +2,24 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
-10x             bFalRus1              4584614102               0       268435456      9682016544        64119314  species/Falco_rusticolus/bFalRus1/genomic_data/10x/bFalRus1_S6_L001_R1_001.fastq.gz
-10x             bFalRus1              4883593946               0       268435456      9905726194        65600835  species/Falco_rusticolus/bFalRus1/genomic_data/10x/bFalRus1_S6_L002_R2_001.fastq.gz
-10x             bFalRus1              4767908197               0       268435456     10073791669        66713852  species/Falco_rusticolus/bFalRus1/genomic_data/10x/bFalRus1_S8_L002_R1_001.fastq.gz
-arima           bFalRus1             24728748737               0       268435456     35607416951       237382779  species/Falco_rusticolus/bFalRus1/genomic_data/arima/bFalRus1_2411_06_L007_R6000142_R1_001.fastq.gz
-arima           bFalRus1             27447356297               0       268435456     36012918343       240086122  species/Falco_rusticolus/bFalRus1/genomic_data/arima/bFalRus1_2411_06_L007_R6000142_R2_001.fastq.gz
-arima           bFalRus1             13522595355               0       268435456     20754021544       138360143  species/Falco_rusticolus/bFalRus1/genomic_data/arima/bFalRus1_S2_L001_R2_001.fastq.gz
+10x             bFalRus1              4584614102               0      2147483648      9727750353        64422187  species/Falco_rusticolus/bFalRus1/genomic_data/10x/bFalRus1_S6_L001_R1_001.fastq.gz
+10x             bFalRus1              4883593946               0      2147483648      9872046238        65377791  species/Falco_rusticolus/bFalRus1/genomic_data/10x/bFalRus1_S6_L002_R2_001.fastq.gz
+10x             bFalRus1              4767908197               0      2147483648     10049684839        66554206  species/Falco_rusticolus/bFalRus1/genomic_data/10x/bFalRus1_S8_L002_R1_001.fastq.gz
+arima           bFalRus1             24728748737               0      2147483648     39281828386       261878855  species/Falco_rusticolus/bFalRus1/genomic_data/arima/bFalRus1_2411_06_L007_R6000142_R1_001.fastq.gz
+arima           bFalRus1             27447356297               0      2147483648     38575794971       257171979  species/Falco_rusticolus/bFalRus1/genomic_data/arima/bFalRus1_2411_06_L007_R6000142_R2_001.fastq.gz
+arima           bFalRus1             13522595355               0      2147483648     21621937918       144146259  species/Falco_rusticolus/bFalRus1/genomic_data/arima/bFalRus1_S2_L001_R2_001.fastq.gz
 bionano         bFalRus1               613369627               0       613369627    345003628278         2203848  species/Falco_rusticolus/bFalRus1/genomic_data/bionano/bFalRus1_Saphyr_DLE1_3331766
-pacbio          bFalRus1             19261915718               0       268435456     10146968660         1042474  species/Falco_rusticolus/bFalRus1/genomic_data/pacbio/m54171_181107_185201.subreads.bam
-pacbio          bFalRus1             20624648835               0       268435456     10893061787         1072585  species/Falco_rusticolus/bFalRus1/genomic_data/pacbio/m54171_181108_050454.subreads.bam
-pacbio          bFalRus1             17351262148               0       268435456      9151328463          873589  species/Falco_rusticolus/bFalRus1/genomic_data/pacbio/m54171_181108_151740.subreads.bam
+pacbio          bFalRus1             19261915718               0      2147483648     10122135462         1049766  species/Falco_rusticolus/bFalRus1/genomic_data/pacbio/m54171_181107_185201.subreads.bam
+pacbio          bFalRus1             20624648835               0      2147483648     10853084056         1111991  species/Falco_rusticolus/bFalRus1/genomic_data/pacbio/m54171_181108_050454.subreads.bam
+pacbio          bFalRus1             17351262148               0      2147483648      9049238984         1045487  species/Falco_rusticolus/bFalRus1/genomic_data/pacbio/m54171_181108_151740.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-10x             bFalRus1          2.0835    151023528911
-arima           bFalRus1          1.4060    110165594915
+10x             bFalRus1          2.0826    150958291966
+arima           bFalRus1          1.5141    118635652390
 bionano         bFalRus1         562.4726    345003628278
-pacbio          bFalRus1          0.5274     62275780040
+pacbio          bFalRus1          0.5245     61933345906
 --------------- ---------------  ------- ---------------

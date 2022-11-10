@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-      826622644               0       826622644       926431936       115803992  species/Aquila_chrysaetos/bAquChr1/genomic_data/10x/bAquChr1_S1_L007_I1_001.fastq.gz
-    11292241608               0      2147483648     17266660289       114348748  species/Aquila_chrysaetos/bAquChr1/genomic_data/10x/bAquChr1_S1_L007_R1_001.fastq.gz
-     9509132872               0      2147483648     14558879497        96416424  species/Aquila_chrysaetos/bAquChr1/genomic_data/10x/bAquChr1_S4_L007_R1_001.fastq.gz
-              0               0               0      1321231531             173  species/Aquila_chrysaetos/bAquChr1/genomic_data/bionano/bAquChr1_Saphyr_DLE1_311952
-    39767624955               0      2147483648     61057455786       404354030  species/Aquila_chrysaetos/bAquChr1/genomic_data/dovetail/bAquChr1_28852_3#1_R1.fastq.gz
-    43970199648               0      2147483648     61590970464       407887242  species/Aquila_chrysaetos/bAquChr1/genomic_data/dovetail/bAquChr1_28852_3#1_R2.fastq.gz
-     7510926592               0      2147483648      3961328281          335743  species/Aquila_chrysaetos/bAquChr1/genomic_data/pacbio/m54097_171122_121242.subreads.bam
-     9075525303               0      2147483648      4772574747          386499  species/Aquila_chrysaetos/bAquChr1/genomic_data/pacbio/m54097_171128_162247.subreads.bam
-    11184084424               0      2147483648      5877940214          543042  species/Aquila_chrysaetos/bAquChr1/genomic_data/pacbio/m54205_171123_163538.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bAquChr1               826622644               0       826622644       926431936       115803992  species/Aquila_chrysaetos/bAquChr1/genomic_data/10x/bAquChr1_S1_L007_I1_001.fastq.gz
+10x             bAquChr1             11292241608               0      2147483648     17266660289       114348748  species/Aquila_chrysaetos/bAquChr1/genomic_data/10x/bAquChr1_S1_L007_R1_001.fastq.gz
+10x             bAquChr1              9509132872               0      2147483648     14558879497        96416424  species/Aquila_chrysaetos/bAquChr1/genomic_data/10x/bAquChr1_S4_L007_R1_001.fastq.gz
+bionano         bAquChr1               533171659               0       533171659    384963547701         2553028  species/Aquila_chrysaetos/bAquChr1/genomic_data/bionano/bAquChr1_Saphyr_DLE1_311952
+dovetail        bAquChr1             39767624955               0      2147483648     61057455786       404354030  species/Aquila_chrysaetos/bAquChr1/genomic_data/dovetail/bAquChr1_28852_3#1_R1.fastq.gz
+dovetail        bAquChr1             43970199648               0      2147483648     61590970464       407887242  species/Aquila_chrysaetos/bAquChr1/genomic_data/dovetail/bAquChr1_28852_3#1_R2.fastq.gz
+pacbio          bAquChr1              7510926592               0      2147483648      3961328281          335743  species/Aquila_chrysaetos/bAquChr1/genomic_data/pacbio/m54097_171122_121242.subreads.bam
+pacbio          bAquChr1              9075525303               0      2147483648      4772574747          386499  species/Aquila_chrysaetos/bAquChr1/genomic_data/pacbio/m54097_171128_162247.subreads.bam
+pacbio          bAquChr1             11184084424               0      2147483648      5877940214          543042  species/Aquila_chrysaetos/bAquChr1/genomic_data/pacbio/m54205_171123_163538.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5143
-dovetail     *       1.4426
-pacbio       *       0.5261
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bAquChr1          1.5143    130407926886
+bionano         bAquChr1         722.0255    384963547701
+dovetail        bAquChr1          1.4426    120800185772
+pacbio          bAquChr1          0.5261     74011405092
+--------------- ---------------  ------- ---------------

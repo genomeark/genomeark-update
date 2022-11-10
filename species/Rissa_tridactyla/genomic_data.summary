@@ -1,24 +1,26 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    39753221525               0      2147483648     77786143840       518574310  species/Rissa_tridactyla/bRisTri1/genomic_data/arima/bRisTri1_Black-Legged_Kittiwake_R1.fastq.gz
-    40486357527               0      2147483648     77764168073       518427806  species/Rissa_tridactyla/bRisTri1/genomic_data/arima/bRisTri1_Black-Legged_Kittiwake_R2.fastq.gz
-              0               0               0      1301899406             218  species/Rissa_tridactyla/bRisTri1/genomic_data/bionano/bRisTri1_Saphyr_DLE1_3693831
-    85657416249               0      2147483648    103561412439         7470340  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64330e_220202_202307.hifi_reads.bam
-    19297503105               0      2147483648     23331040855         1682970  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64330e_220202_202307.hifi_reads.fastq.gz
-   245472204581               0      2147483648     99014748039         6041919  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64330e_220202_202307.reads.bam
-    73385040724               0      2147483648     85824376719         6297287  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64334e_220124_201227.hifi_reads.bam
-    16949576387               0      2147483648     19822661604         1454470  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64334e_220124_201227.hifi_reads.fastq.gz
-   299647929074               0      2147483648    132118334605         5986027  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64334e_220124_201227.reads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bRisTri1             39753221525               0      2147483648     77786143840       518574310  species/Rissa_tridactyla/bRisTri1/genomic_data/arima/bRisTri1_Black-Legged_Kittiwake_R1.fastq.gz
+arima           bRisTri1             40486357527               0      2147483648     77764168073       518427806  species/Rissa_tridactyla/bRisTri1/genomic_data/arima/bRisTri1_Black-Legged_Kittiwake_R2.fastq.gz
+bionano         bRisTri1              1142154959               0      1142154959    622613502855         7981742  species/Rissa_tridactyla/bRisTri1/genomic_data/bionano/bRisTri1_Saphyr_DLE-1_3692153
+bionano         bRisTri1              2780190289               0      2780190289   1509357812010        18802222  species/Rissa_tridactyla/bRisTri1/genomic_data/bionano/bRisTri1_Saphyr_DLE-1_3693503
+pacbiohifi_bam  bRisTri1             85657416249               0      2147483648     23263299206         1663102  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64330e_220202_202307.hifi_reads.bam
+pacbiohifi_fqgz bRisTri1             19297503105               0      2147483648     23331040855         1682970  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64330e_220202_202307.hifi_reads.fastq.gz
+pacbiohifi_clr  bRisTri1            245472204581               0      2147483648     99014748039         6041919  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64330e_220202_202307.reads.bam
+pacbiohifi_bam  bRisTri1             73385040724               0      2147483648     19706778381         1439792  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64334e_220124_201227.hifi_reads.bam
+pacbiohifi_fqgz bRisTri1             16949576387               0      2147483648     19822661604         1454470  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64334e_220124_201227.hifi_reads.fastq.gz
+pacbiohifi_clr  bRisTri1            299647929074               0      2147483648    132118334605         5986027  species/Rissa_tridactyla/bRisTri1/genomic_data/pacbio_hifi/m64334e_220124_201227.reads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.9325
-pacbiohifi_fqgz *       1.1969
-pacbiohifi_bam *       1.1971
-pacbiohifi_clr *       0.4300
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bRisTri1          1.9325    155062986517
+bionano         bRisTri1         543.5450   2131971314865
+pacbiohifi_bam  bRisTri1          0.2706     43036888856
+pacbiohifi_clr  bRisTri1          0.4300    234401657471
+pacbiohifi_fqgz bRisTri1          1.1969     43384129443
+--------------- ---------------  ------- ---------------

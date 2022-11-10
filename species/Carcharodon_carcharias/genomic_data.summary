@@ -1,27 +1,29 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     3325496479               0      3325496479      6573498553        43533103  species/Carcharodon_carcharias/sCarCar2/genomic_data/10x/sCarCar2_S12_L002_R1_001.fastq.gz
-     4223328263               0      4223328263      7953973773        52675323  species/Carcharodon_carcharias/sCarCar2/genomic_data/10x/sCarCar2_S1_L002_R2_001.fastq.gz
-     3871409212               0      3871409212      7292671538        48295838  species/Carcharodon_carcharias/sCarCar2/genomic_data/10x/sCarCar2_S2_L002_R2_001.fastq.gz
-    47908065900               0      2147483648     77655183568       517701246  species/Carcharodon_carcharias/sCarCar2/genomic_data/arima/sCarCar2_S2_L004_R1_001.fastq.gz
-    53605445371               0      2147483648     76786730775       511911538  species/Carcharodon_carcharias/sCarCar2/genomic_data/arima/sCarCar2_S2_L004_R2_001.fastq.gz
-    53193685758               0      2147483648     74856922933       499046177  species/Carcharodon_carcharias/sCarCar2/genomic_data/arima/sCarCar2_S2_L005_R2_001.fastq.gz
-              0               0               0      4042179237            1626  species/Carcharodon_carcharias/sCarCar2/genomic_data/bionano/sCarCar2_Saphyr_DLE1_2687366
-    74551509743               0      2147483648    154505799058      1023217212  species/Carcharodon_carcharias/sCarCar2/genomic_data/illumina/sCarCar2_S1_L001_R1_001.fastq.gz
-    80439912089               0      2147483648    154691479333      1024446920  species/Carcharodon_carcharias/sCarCar2/genomic_data/illumina/sCarCar2_S1_L001_R2_001.fastq.gz
-    13697060262               0      2147483648      7429993282          366267  species/Carcharodon_carcharias/sCarCar2/genomic_data/pacbio/m54159_190301_011646.subreads.bam
-   151463272870               0      2147483648     80189961103         3952674  species/Carcharodon_carcharias/sCarCar2/genomic_data/pacbio/m54306U_190801_104042.subreads.bam
-    67096847479               0      2147483648     35279402078         1925373  species/Carcharodon_carcharias/sCarCar2/genomic_data/pacbio/m64055_190802_202833.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             sCarCar2              3325496479               0      3325496479      6573498553        43533103  species/Carcharodon_carcharias/sCarCar2/genomic_data/10x/sCarCar2_S12_L002_R1_001.fastq.gz
+10x             sCarCar2              4223328263               0      4223328263      7953973773        52675323  species/Carcharodon_carcharias/sCarCar2/genomic_data/10x/sCarCar2_S1_L002_R2_001.fastq.gz
+10x             sCarCar2              3871409212               0      3871409212      7292671538        48295838  species/Carcharodon_carcharias/sCarCar2/genomic_data/10x/sCarCar2_S2_L002_R2_001.fastq.gz
+arima           sCarCar2             47908065900               0      2147483648     77655183568       517701246  species/Carcharodon_carcharias/sCarCar2/genomic_data/arima/sCarCar2_S2_L004_R1_001.fastq.gz
+arima           sCarCar2             53605445371               0      2147483648     76786730775       511911538  species/Carcharodon_carcharias/sCarCar2/genomic_data/arima/sCarCar2_S2_L004_R2_001.fastq.gz
+arima           sCarCar2             53193685758               0      2147483648     74856922933       499046177  species/Carcharodon_carcharias/sCarCar2/genomic_data/arima/sCarCar2_S2_L005_R2_001.fastq.gz
+bionano         sCarCar2               830569638               0       830569638    537736313255         4765624  species/Carcharodon_carcharias/sCarCar2/genomic_data/bionano/sCarCar2_Saphyr_DLE1_2644851
+bionano         sCarCar2               845655399               0       845655399    562989250204         4961606  species/Carcharodon_carcharias/sCarCar2/genomic_data/bionano/sCarCar2_Saphyr_DLE1_2687364
+illumina        sCarCar2             74551509743               0      2147483648    154505799058      1023217212  species/Carcharodon_carcharias/sCarCar2/genomic_data/illumina/sCarCar2_S1_L001_R1_001.fastq.gz
+illumina        sCarCar2             80439912089               0      2147483648    154691479333      1024446920  species/Carcharodon_carcharias/sCarCar2/genomic_data/illumina/sCarCar2_S1_L001_R2_001.fastq.gz
+pacbio          sCarCar2             13697060262               0      2147483648      7429993282          366267  species/Carcharodon_carcharias/sCarCar2/genomic_data/pacbio/m54159_190301_011646.subreads.bam
+pacbio          sCarCar2            151463272870               0      2147483648     80189961103         3952674  species/Carcharodon_carcharias/sCarCar2/genomic_data/pacbio/m54306U_190801_104042.subreads.bam
+pacbio          sCarCar2             67096847479               0      2147483648     35279402078         1925373  species/Carcharodon_carcharias/sCarCar2/genomic_data/pacbio/m64055_190802_202833.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9106
-arima        *       1.4821
-illumina     *       1.9703
-pacbio       *       0.5291
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             sCarCar2          1.9106    272744427580
+arima           sCarCar2          1.4821    452744247794
+bionano         sCarCar2         656.6693   1100725563459
+illumina        sCarCar2          1.9703    305379598435
+pacbio          sCarCar2          0.5291    301277737430
+--------------- ---------------  ------- ---------------

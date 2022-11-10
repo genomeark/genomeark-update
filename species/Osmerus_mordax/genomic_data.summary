@@ -1,30 +1,31 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    30294329045               0      2147483648     59580720408       397204816  species/Osmerus_mordax/fOsmMor3/genomic_data/arima/fOsmMor3_Rainbow_Smelt_R1_001.fastq.gz
-    30578416061               0      2147483648     60037328263       400248855  species/Osmerus_mordax/fOsmMor3/genomic_data/arima/fOsmMor3_Rainbow_Smelt_R2_001.fastq.gz
-              0               0               0       565654774             110  species/Osmerus_mordax/fOsmMor3/genomic_data/bionano/fOsmMor3_Saphyr_DLE1_3680764
-    12467508046               0      2147483648     24924451547       165062593  species/Osmerus_mordax/fOsmMor3/genomic_data/illumina/fOsmMor3_1.fastq.gz
-    13150556131               0      2147483648     24892952132       164853993  species/Osmerus_mordax/fOsmMor3/genomic_data/illumina/fOsmMor3_2.fastq.gz
-    22283768467               0      2147483648     25505495881         1638302  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211011_140755.hifi_reads.bam
-     5192433853               0      2147483648      5943141998          381747  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211011_140755.hifi_reads.fastq.gz
-    96901039095               0      2147483648     42673779068         3586516  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211011_140755.reads.bam
-    39222240939               0      2147483648     45087597865         2865793  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211021_064552.hifi_reads.bam
-     9138230921               0      2147483648     10504776654          667689  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211021_064552.hifi_reads.fastq.gz
-   180964661272               0      2147483648     80322084005         5262214  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211021_064552.reads.bam
-    31594663931               0      2147483648     34044612406         2130048  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64334e_211014_200114.hifi_reads.bam
-     7754856916               0      2147483648      8356192632          522816  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64334e_211014_200114.hifi_reads.fastq.gz
-   243167499109               0      2147483648    115155730542         5993232  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64334e_211014_200114.reads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fOsmMor3             30294329045               0      2147483648     59580720408       397204816  species/Osmerus_mordax/fOsmMor3/genomic_data/arima/fOsmMor3_Rainbow_Smelt_R1_001.fastq.gz
+arima           fOsmMor3             30578416061               0      2147483648     60037328263       400248855  species/Osmerus_mordax/fOsmMor3/genomic_data/arima/fOsmMor3_Rainbow_Smelt_R2_001.fastq.gz
+bionano         fOsmMor3               407517812               0       407517812    325436978916         2611046  species/Osmerus_mordax/fOsmMor3/genomic_data/bionano/fOsmMor3_Saphyr_DLE1_3680752
+illumina        fOsmMor3             12467508046               0      2147483648     24924451547       165062593  species/Osmerus_mordax/fOsmMor3/genomic_data/illumina/fOsmMor3_1.fastq.gz
+illumina        fOsmMor3             13150556131               0      2147483648     24892952132       164853993  species/Osmerus_mordax/fOsmMor3/genomic_data/illumina/fOsmMor3_2.fastq.gz
+pacbiohifi_bam  fOsmMor3             22283768467               0      2147483648      5956491260          382806  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211011_140755.hifi_reads.bam
+pacbiohifi_fqgz fOsmMor3              5192433853               0      2147483648      5943141998          381747  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211011_140755.hifi_reads.fastq.gz
+pacbiohifi_clr  fOsmMor3             96901039095               0      2147483648     42673779068         3586516  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211011_140755.reads.bam
+pacbiohifi_bam  fOsmMor3             39222240939               0      2147483648     10489547025          666353  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211021_064552.hifi_reads.bam
+pacbiohifi_fqgz fOsmMor3              9138230921               0      2147483648     10504776654          667689  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211021_064552.hifi_reads.fastq.gz
+pacbiohifi_clr  fOsmMor3            180964661272               0      2147483648     80322084005         5262214  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64330e_211021_064552.reads.bam
+pacbiohifi_bam  fOsmMor3             31594663931               0      2147483648      8313367090          526836  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64334e_211014_200114.hifi_reads.bam
+pacbiohifi_fqgz fOsmMor3              7754856916               0      2147483648      8356192632          522816  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64334e_211014_200114.hifi_reads.fastq.gz
+pacbiohifi_clr  fOsmMor3            243167499109               0      2147483648    115155730542         5993232  species/Osmerus_mordax/fOsmMor3/genomic_data/pacbio_hifi/m64334e_211014_200114.reads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.9644
-illumina     *       1.9270
-pacbiohifi_fqgz *       1.1230
-pacbiohifi_bam *       1.1239
-pacbiohifi_clr *       0.4570
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fOsmMor3          1.9644    119578420486
+bionano         fOsmMor3         798.5834    325436978916
+illumina        fOsmMor3          1.9270     49366009669
+pacbiohifi_bam  fOsmMor3          0.2659     24755469040
+pacbiohifi_clr  fOsmMor3          0.4570    238112172160
+pacbiohifi_fqgz fOsmMor3          1.1230     24802040857
+--------------- ---------------  ------- ---------------

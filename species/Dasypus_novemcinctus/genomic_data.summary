@@ -1,20 +1,21 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    72984963842               0      2147483648    145811900150       972079334  species/Dasypus_novemcinctus/mDasNov1/genomic_data/arima/mDasNov1_Armadillo_lib1_R2_001.fastq.gz
-    92250140518               0      2147483648    188368583504      1255790556  species/Dasypus_novemcinctus/mDasNov1/genomic_data/arima/mDasNov1_Armadillo_lib2_R1_001.fastq.gz
-    95635075854               0      2147483648    191117898350      1274119366  species/Dasypus_novemcinctus/mDasNov1/genomic_data/arima/mDasNov1_Armadillo_lib2_R2_001.fastq.gz
-              0               0               0      3733605597             489  species/Dasypus_novemcinctus/mDasNov1/genomic_data/bionano/mDasNov1_Saphyr_DLE1_3680761
-    16452968364               0      2147483648     18396017339         1080265  species/Dasypus_novemcinctus/mDasNov1/genomic_data/pacbio_hifi/m54306Ue_220204_072948.hifi_reads.fastq.gz
-    15617009990               0      2147483648     17986337630         1054750  species/Dasypus_novemcinctus/mDasNov1/genomic_data/pacbio_hifi/m64330e_220221_171643.hifi_reads.fastq.gz
-    17337541153               0      2147483648     19229175803         1122092  species/Dasypus_novemcinctus/mDasNov1/genomic_data/pacbio_hifi/m64334e_220223_040501.hifi_reads.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mDasNov1             72984963842               0      2147483648    145811900150       972079334  species/Dasypus_novemcinctus/mDasNov1/genomic_data/arima/mDasNov1_Armadillo_lib1_R2_001.fastq.gz
+arima           mDasNov1             92250140518               0      2147483648    188368583504      1255790556  species/Dasypus_novemcinctus/mDasNov1/genomic_data/arima/mDasNov1_Armadillo_lib2_R1_001.fastq.gz
+arima           mDasNov1             95635075854               0      2147483648    191117898350      1274119366  species/Dasypus_novemcinctus/mDasNov1/genomic_data/arima/mDasNov1_Armadillo_lib2_R2_001.fastq.gz
+bionano         mDasNov1              1699428688               0      1699428688    921783839746         8655372  species/Dasypus_novemcinctus/mDasNov1/genomic_data/bionano/mDasNov1_Saphyr_DLE1_3680759
+pacbiohifi_fqgz mDasNov1             16452968364               0      2147483648     18396017339         1080265  species/Dasypus_novemcinctus/mDasNov1/genomic_data/pacbio_hifi/m54306Ue_220204_072948.hifi_reads.fastq.gz
+pacbiohifi_fqgz mDasNov1             15617009990               0      2147483648     17986337630         1054750  species/Dasypus_novemcinctus/mDasNov1/genomic_data/pacbio_hifi/m64330e_220221_171643.hifi_reads.fastq.gz
+pacbiohifi_fqgz mDasNov1             17337541153               0      2147483648     19229175803         1122092  species/Dasypus_novemcinctus/mDasNov1/genomic_data/pacbio_hifi/m64334e_220223_040501.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       2.0136
-pacbiohifi_fqgz *       1.1255
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mDasNov1          2.0136    667640017079
+bionano         mDasNov1         542.4080    921783839746
+pacbiohifi_fqgz mDasNov1          1.1255     89904285482
+--------------- ---------------  ------- ---------------

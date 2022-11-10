@@ -1,24 +1,26 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     3331701387               0      3331701387      5356335000        35708900  species/Antennarius_maculatus/fAntMac1/genomic_data/10x/fAntMac1_S3_L001_R1_001.fastq.gz
-     3542309215               0      3542309215      5694500100        37963334  species/Antennarius_maculatus/fAntMac1/genomic_data/10x/fAntMac1_S4_L001_R1_001.fastq.gz
-     3618664007               0      3618664007      5694500100        37963334  species/Antennarius_maculatus/fAntMac1/genomic_data/10x/fAntMac1_S4_L001_R2_001.fastq.gz
-              0               0               0       559776610             106  species/Antennarius_maculatus/fAntMac1/genomic_data/bionano/fAntMac1_Saphyr_DLE-1
-     9752221248               0      2147483648      5240101386          462488  species/Antennarius_maculatus/fAntMac1/genomic_data/pacbio/m54062_170922_112028.subreads.bam
-     5963751145               0      2147483648      3238100345          205157  species/Antennarius_maculatus/fAntMac1/genomic_data/pacbio/m54062_171018_211949.subreads.bam
-     3963929324               0      3963929324      2125617376          170958  species/Antennarius_maculatus/fAntMac1/genomic_data/pacbio/m54144_170929_003554.subreads.bam
-    11595930044               0      2147483648     19060802474       188720816  species/Antennarius_maculatus/fAntMac1/genomic_data/phase/fAntMac1_ILKL1AMS14_R2.fastq.gz
-    12691085412               0      2147483648     18225309027       180448610  species/Antennarius_maculatus/fAntMac1/genomic_data/phase/fAntMac1_ILKL1AMS7_R1.fastq.gz
-    12713404734               0      2147483648     18521055530       183376787  species/Antennarius_maculatus/fAntMac1/genomic_data/phase/fAntMac1_ILKL1AMS7_R2.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fAntMac1              3331701387               0      3331701387      5356335000        35708900  species/Antennarius_maculatus/fAntMac1/genomic_data/10x/fAntMac1_S3_L001_R1_001.fastq.gz
+10x             fAntMac1              3542309215               0      3542309215      5694500100        37963334  species/Antennarius_maculatus/fAntMac1/genomic_data/10x/fAntMac1_S4_L001_R1_001.fastq.gz
+10x             fAntMac1              3618664007               0      3618664007      5694500100        37963334  species/Antennarius_maculatus/fAntMac1/genomic_data/10x/fAntMac1_S4_L001_R2_001.fastq.gz
+bionano         fAntMac1               838862960               0       838862960    420669916709         5768094  species/Antennarius_maculatus/fAntMac1/genomic_data/bionano/fAntMac1_Saphyr_DLE-1_201906270843
+bionano         fAntMac1              1235649508               0      1235649508    610670342616         9186063  species/Antennarius_maculatus/fAntMac1/genomic_data/bionano/fAntMac1_Saphyr_DLE-1_201906290329
+pacbio          fAntMac1              9752221248               0      2147483648      5240101386          462488  species/Antennarius_maculatus/fAntMac1/genomic_data/pacbio/m54062_170922_112028.subreads.bam
+pacbio          fAntMac1              5963751145               0      2147483648      3238100345          205157  species/Antennarius_maculatus/fAntMac1/genomic_data/pacbio/m54062_171018_211949.subreads.bam
+pacbio          fAntMac1              3963929324               0      3963929324      2125617376          170958  species/Antennarius_maculatus/fAntMac1/genomic_data/pacbio/m54144_170929_003554.subreads.bam
+phase           fAntMac1             11595930044               0      2147483648     19060802474       188720816  species/Antennarius_maculatus/fAntMac1/genomic_data/phase/fAntMac1_ILKL1AMS14_R2.fastq.gz
+phase           fAntMac1             12691085412               0      2147483648     18225309027       180448610  species/Antennarius_maculatus/fAntMac1/genomic_data/phase/fAntMac1_ILKL1AMS7_R1.fastq.gz
+phase           fAntMac1             12713404734               0      2147483648     18521055530       183376787  species/Antennarius_maculatus/fAntMac1/genomic_data/phase/fAntMac1_ILKL1AMS7_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5959
-pacbio       *       0.5388
-phase        *       1.5082
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fAntMac1          1.5959     44139477070
+bionano         fAntMac1         497.1482   1031340259325
+pacbio          fAntMac1          0.5388     85321133167
+phase           fAntMac1          1.5082     72518442773
+--------------- ---------------  ------- ---------------

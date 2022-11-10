@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-      800272838               0       800272838       938593160       117324145  species/Myripristis_murdjan/fMyrMur1/genomic_data/10x/fMyrMur1_S1_L006_I1_001.fastq.gz
-    10897345697               0      2147483648     18254857345       120893100  species/Myripristis_murdjan/fMyrMur1/genomic_data/10x/fMyrMur1_S1_L006_R1_001.fastq.gz
-     9700405351               0      2147483648     16216403073       107393397  species/Myripristis_murdjan/fMyrMur1/genomic_data/10x/fMyrMur1_S4_L006_R1_001.fastq.gz
-    43769097897               0      2147483648     68755620796       455335257  species/Myripristis_murdjan/fMyrMur1/genomic_data/arima/fMyrMur1_27320_2#1_R1.fastq.gz
-    46717850050               0      2147483648     68899225675       456286262  species/Myripristis_murdjan/fMyrMur1/genomic_data/arima/fMyrMur1_27320_2#1_R2.fastq.gz
-              0               0               0      1094596148             427  species/Myripristis_murdjan/fMyrMur1/genomic_data/bionano/fMyrMur1_Saphyr_DLE1
-    12207674785               0      2147483648      6547124223          493745  species/Myripristis_murdjan/fMyrMur1/genomic_data/pacbio/m54097_180724_220002.subreads.bam
-    11751381781               0      2147483648      6357897374          421487  species/Myripristis_murdjan/fMyrMur1/genomic_data/pacbio/m54205_180716_105352.subreads.bam
-    11225491282               0      2147483648      6000417026          428354  species/Myripristis_murdjan/fMyrMur1/genomic_data/pacbio/m54205_180724_211428.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fMyrMur1               800272838               0       800272838       938593160       117324145  species/Myripristis_murdjan/fMyrMur1/genomic_data/10x/fMyrMur1_S1_L006_I1_001.fastq.gz
+10x             fMyrMur1             10897345697               0      2147483648     18254857345       120893100  species/Myripristis_murdjan/fMyrMur1/genomic_data/10x/fMyrMur1_S1_L006_R1_001.fastq.gz
+10x             fMyrMur1              9700405351               0      2147483648     16216403073       107393397  species/Myripristis_murdjan/fMyrMur1/genomic_data/10x/fMyrMur1_S4_L006_R1_001.fastq.gz
+arima           fMyrMur1             43769097897               0      2147483648     68755620796       455335257  species/Myripristis_murdjan/fMyrMur1/genomic_data/arima/fMyrMur1_27320_2#1_R1.fastq.gz
+arima           fMyrMur1             46717850050               0      2147483648     68899225675       456286262  species/Myripristis_murdjan/fMyrMur1/genomic_data/arima/fMyrMur1_27320_2#1_R2.fastq.gz
+bionano         fMyrMur1              1983928092               0      1983928092   1286035961498        27490441  species/Myripristis_murdjan/fMyrMur1/genomic_data/bionano/fMyrMur1_Saphyr_DLE1
+pacbio          fMyrMur1             12207674785               0      2147483648      6547124223          493745  species/Myripristis_murdjan/fMyrMur1/genomic_data/pacbio/m54097_180724_220002.subreads.bam
+pacbio          fMyrMur1             11751381781               0      2147483648      6357897374          421487  species/Myripristis_murdjan/fMyrMur1/genomic_data/pacbio/m54205_180716_105352.subreads.bam
+pacbio          fMyrMur1             11225491282               0      2147483648      6000417026          428354  species/Myripristis_murdjan/fMyrMur1/genomic_data/pacbio/m54205_180724_211428.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.6548
-arima        *       1.5054
-pacbio       *       0.5373
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fMyrMur1          1.6548    144836481996
+arima           fMyrMur1          1.5054    136219051439
+bionano         fMyrMur1         648.2271   1286035961498
+pacbio          fMyrMur1          0.5373     49439151699
+--------------- ---------------  ------- ---------------

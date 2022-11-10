@@ -1,26 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    27298790492               0      2147483648     44563003777       297086704  species/Falco_biarmicus/bFalBia1/genomic_data/arima/bFalBia1_R1.fastq.gz
-    32834950572               0      2147483648     43780549812       291870347  species/Falco_biarmicus/bFalBia1/genomic_data/arima/bFalBia1_R2.fastq.gz
-              0               0               0      1309302660             150  species/Falco_biarmicus/bFalBia1/genomic_data/bionano/bFalBia1_Saphyr_DLE1_3680650
-    13240745258               0      2147483648      6613156272          363400  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210127_212033.Q20.fastq
-     6645496568               0      2147483648      6634168900          364018  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210127_212033.ccs.bam
-   293592768239               0      2147483648    152865396019        10019006  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210127_212033.subreads.bam
-     3325945850               0      3325945850      1660782593          108509  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210220_104515.Q20.fastq
-     1408696372               0      1408696372      1660782593          108509  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210220_104515.ccs.bam
-    75212362721               0      2147483648     38328650060         6058327  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m64055_210224_221313.subreads.bam
-    18337433478               0      2147483648      9154659262          727696  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m64055_210411_031415.Q20.fastq
-     7444620222               0      2147483648      9204440186          730323  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m64055_210411_031415.ccs.bam
-   377880163665               0      2147483648    194684693607        17309418  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m64055_210411_031415.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bFalBia1             27298790492               0      2147483648     44563003777       297086704  species/Falco_biarmicus/bFalBia1/genomic_data/arima/bFalBia1_R1.fastq.gz
+arima           bFalBia1             32834950572               0      2147483648     43780549812       291870347  species/Falco_biarmicus/bFalBia1/genomic_data/arima/bFalBia1_R2.fastq.gz
+bionano         bFalBia1              2422826961               0      2422826961    986048248994        11324192  species/Falco_biarmicus/bFalBia1/genomic_data/bionano/bFalBia1_Saphyr_DLE1_3680648
+pacbiohifi_bam  bFalBia1              6645496568               0      2147483648      6634168900          364018  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210127_212033.ccs.bam
+pacbiohifi_clr  bFalBia1            293592768239               0      2147483648    152865396019        10019006  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210127_212033.subreads.bam
+pacbiohifi_bam  bFalBia1              1408696372               0      1408696372      1660782593          108509  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m54306U_210220_104515.ccs.bam
+pacbiohifi_clr  bFalBia1             75212362721               0      2147483648     38328650060         6058327  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m64055_210224_221313.subreads.bam
+pacbiohifi_bam  bFalBia1              7444620222               0      2147483648      9204440186          730323  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m64055_210411_031415.ccs.bam
+pacbiohifi_clr  bFalBia1            377880163665               0      2147483648    194684693607        17309418  species/Falco_biarmicus/bFalBia1/genomic_data/pacbio_hifi/m64055_210411_031415.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.4211
-pacbiohifi_bam *       1.1290
-pacbiohifi_clr *       0.5167
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bFalBia1          1.4211     85456059426
+bionano         bFalBia1         406.9825    986048248994
+pacbiohifi_bam  bFalBia1          1.1290     38876238074
+pacbiohifi_clr  bFalBia1          0.5167    724033066857
+--------------- ---------------  ------- ---------------

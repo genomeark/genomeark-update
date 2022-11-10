@@ -1,22 +1,22 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     9932874074               0      2147483648     19992871213       132403120  species/Myodes_glareolus/mMyoGla1/genomic_data/10x/mMyoGla1_S21_L003_R1_001.fastq.gz
-    10409690914               0      2147483648     20320930087       134575700  species/Myodes_glareolus/mMyoGla1/genomic_data/10x/mMyoGla1_S21_L003_R2_001.fastq.gz
-     1077864070               0      1077864070      1167307288       145913411  species/Myodes_glareolus/mMyoGla1/genomic_data/10x/mMyoGla1_S22_L003_I1_001.fastq.gz
-    86308312626               0      2147483648     22579648897         2440122  species/Myodes_glareolus/mMyoGla1/genomic_data/pacbio_hifi/m64097e_210320_151727.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
-    51165888816               0      2147483648     13074993713         1271949  species/Myodes_glareolus/mMyoGla1/genomic_data/pacbio_hifi/m64221e_210411_150122.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
-    66054476804               0      2147483648     16764234808         1706202  species/Myodes_glareolus/mMyoGla1/genomic_data/pacbio_hifi/m64221e_210412_152303.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
-   129200383638               0      2147483648    260382786463      1724389374  species/Myodes_glareolus/mMyoGla2/genomic_data/arima/mMyoGla2_40063_2#1_R1.fastq.gz
-   134700893526               0      2147483648    265762496155      1760016593  species/Myodes_glareolus/mMyoGla2/genomic_data/arima/mMyoGla2_40063_2#1_R2.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mMyoGla1              9932874074               0      2147483648     19992871213       132403120  species/Myodes_glareolus/mMyoGla1/genomic_data/10x/mMyoGla1_S21_L003_R1_001.fastq.gz
+10x             mMyoGla1             10409690914               0      2147483648     20320930087       134575700  species/Myodes_glareolus/mMyoGla1/genomic_data/10x/mMyoGla1_S21_L003_R2_001.fastq.gz
+10x             mMyoGla1              1077864070               0      1077864070      1167307288       145913411  species/Myodes_glareolus/mMyoGla1/genomic_data/10x/mMyoGla1_S22_L003_I1_001.fastq.gz
+pacbiohifi_bam  mMyoGla1             86308312626               0      2147483648     22579648897         2440122  species/Myodes_glareolus/mMyoGla1/genomic_data/pacbio_hifi/m64097e_210320_151727.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
+pacbiohifi_bam  mMyoGla1             51165888816               0      2147483648     13074993713         1271949  species/Myodes_glareolus/mMyoGla1/genomic_data/pacbio_hifi/m64221e_210411_150122.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
+pacbiohifi_bam  mMyoGla1             66054476804               0      2147483648     16764234808         1706202  species/Myodes_glareolus/mMyoGla1/genomic_data/pacbio_hifi/m64221e_210412_152303.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
+arima           mMyoGla2            129200383638               0      2147483648    260382786463      1724389374  species/Myodes_glareolus/mMyoGla2/genomic_data/arima/mMyoGla2_40063_2#1_R1.fastq.gz
+arima           mMyoGla2            134700893526               0      2147483648    265762496155      1760016593  species/Myodes_glareolus/mMyoGla2/genomic_data/arima/mMyoGla2_40063_2#1_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9365
-arima        *       1.9867
-pacbiohifi_bam *       0.2575
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mMyoGla1          1.9365    166986076730
+arima           mMyoGla2          1.9867    524292667341
+pacbiohifi_bam  mMyoGla1          0.2575     52408634648
+--------------- ---------------  ------- ---------------

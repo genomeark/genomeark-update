@@ -1,15 +1,19 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     5747954759               0      2147483648      3012097662          310713  species/Turdus_merula/bTurMer1/genomic_data/pacbio/m54089_161111_133531.subreads.bam
-    10010620203               0      2147483648      5266420888          564663  species/Turdus_merula/bTurMer1/genomic_data/pacbio/m54089_161118_214553.subreads.bam
-     8816524377               0      2147483648      4558987857          764475  species/Turdus_merula/bTurMer1/genomic_data/pacbio/m54089_161214_004321.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+bionano         bTurMer1              1365684753               0      1365684753    755173514053        14750327  species/Turdus_merula/bTurMer1/genomic_data/bionano/bTurMer1_Saphyr_BspQI
+bionano         bTurMer1              1174924243               0      1174924243    712779668502        18527668  species/Turdus_merula/bTurMer1/genomic_data/bionano/bTurMer1_Saphyr_BssSI
+bionano         bTurMer1               511694069               0       511694069    440885206576         4643798  species/Turdus_merula/bTurMer1/genomic_data/bionano/bTurMer1_Saphyr_DLE1
+pacbio          bTurMer1              5747954759               0      2147483648      3012097662          310713  species/Turdus_merula/bTurMer1/genomic_data/pacbio/m54089_161111_133531.subreads.bam
+pacbio          bTurMer1             10010620203               0      2147483648      5266420888          564663  species/Turdus_merula/bTurMer1/genomic_data/pacbio/m54089_161118_214553.subreads.bam
+pacbio          bTurMer1              8816524377               0      2147483648      4558987857          764475  species/Turdus_merula/bTurMer1/genomic_data/pacbio/m54089_161214_004321.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-pacbio       *       0.5223
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+bionano         bTurMer1         625.3764   1908838389131
+pacbio          bTurMer1          0.5223     44705653091
+--------------- ---------------  ------- ---------------

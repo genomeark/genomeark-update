@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     8903854904               0      2147483648     17804782898       117912473  species/Corvus_moneduloides/bCorMon1/genomic_data/10x/bCorMon1_S1_L001_R1_001.fastq.gz
-     7715755861               0      2147483648     15436841001       102230735  species/Corvus_moneduloides/bCorMon1/genomic_data/10x/bCorMon1_S2_L001_R1_001.fastq.gz
-     8456186836               0      2147483648     16924446918       112082433  species/Corvus_moneduloides/bCorMon1/genomic_data/10x/bCorMon1_S4_L001_R1_001.fastq.gz
-    33222226737               0      2147483648     52667607135       351117396  species/Corvus_moneduloides/bCorMon1/genomic_data/arima/bCorMon1_S12_L006_R1_001.fastq.gz
-    35505595898               0      2147483648     51734588345       344897272  species/Corvus_moneduloides/bCorMon1/genomic_data/arima/bCorMon1_S12_L006_R2_001.fastq.gz
-              0               0               0      1340742456             193  species/Corvus_moneduloides/bCorMon1/genomic_data/bionano/bCorMon1_Saphyr_DLE1_2961987
-    20379084076               0      2147483648     11006428873          583638  species/Corvus_moneduloides/bCorMon1/genomic_data/pacbio/m54158_190207_225549.subreads.bam
-    19500128981               0      2147483648     10612586343          546180  species/Corvus_moneduloides/bCorMon1/genomic_data/pacbio/m54159_190209_033230.subreads.bam
-    16699699176               0      2147483648      9097285414          442640  species/Corvus_moneduloides/bCorMon1/genomic_data/pacbio/m54306_190201_044403.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bCorMon1              8903854904               0      2147483648     17804782898       117912473  species/Corvus_moneduloides/bCorMon1/genomic_data/10x/bCorMon1_S1_L001_R1_001.fastq.gz
+10x             bCorMon1              7715755861               0      2147483648     15436841001       102230735  species/Corvus_moneduloides/bCorMon1/genomic_data/10x/bCorMon1_S2_L001_R1_001.fastq.gz
+10x             bCorMon1              8456186836               0      2147483648     16924446918       112082433  species/Corvus_moneduloides/bCorMon1/genomic_data/10x/bCorMon1_S4_L001_R1_001.fastq.gz
+arima           bCorMon1             33222226737               0      2147483648     52667607135       351117396  species/Corvus_moneduloides/bCorMon1/genomic_data/arima/bCorMon1_S12_L006_R1_001.fastq.gz
+arima           bCorMon1             35505595898               0      2147483648     51734588345       344897272  species/Corvus_moneduloides/bCorMon1/genomic_data/arima/bCorMon1_S12_L006_R2_001.fastq.gz
+bionano         bCorMon1               437539542               0       437539542    228518357855         1486626  species/Corvus_moneduloides/bCorMon1/genomic_data/bionano/bCorMon1_Saphyr_DLE1_2961983
+pacbio          bCorMon1             20379084076               0      2147483648     11006428873          583638  species/Corvus_moneduloides/bCorMon1/genomic_data/pacbio/m54158_190207_225549.subreads.bam
+pacbio          bCorMon1             19500128981               0      2147483648     10612586343          546180  species/Corvus_moneduloides/bCorMon1/genomic_data/pacbio/m54159_190209_033230.subreads.bam
+pacbio          bCorMon1             16699699176               0      2147483648      9097285414          442640  species/Corvus_moneduloides/bCorMon1/genomic_data/pacbio/m54306_190201_044403.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       2.0005
-arima        *       1.4979
-pacbio       *       0.5428
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bCorMon1          2.0005    129325067478
+arima           bCorMon1          1.4979    102947405524
+bionano         bCorMon1         522.2804    228518357855
+pacbio          bCorMon1          0.5428     77404591652
+--------------- ---------------  ------- ---------------

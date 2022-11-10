@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    33117503567               0      2147483648     49393665326       329291102  species/Alosa_sapidissima/fAloSap1/genomic_data/arima/fAloSap1_S_2476_5_R1_001.fastq.gz
-    38838100717               0      2147483648     51886077517       345907183  species/Alosa_sapidissima/fAloSap1/genomic_data/arima/fAloSap1_S_2476_5_R2_001.fastq.gz
-              0               0               0      1192911662             234  species/Alosa_sapidissima/fAloSap1/genomic_data/bionano/fAloSap1_Saphyr_DLE1_3680576
-    11659736555               0      2147483648     14636816867         1271216  species/Alosa_sapidissima/fAloSap1/genomic_data/pacbio_hifi/m54306U_200902_203921.Q20.fastq.gz
-   572720343380               0      2147483648    293252581606        29361908  species/Alosa_sapidissima/fAloSap1/genomic_data/pacbio_hifi/m54306U_200902_203921.subreads.bam
-     3203962659               0      3203962659      4787963033          495439  species/Alosa_sapidissima/fAloSap1/genomic_data/pacbio_hifi/m54306U_210208_113131.Q20.fastq.gz
-   243878137619               0      2147483648    125127164742        15843739  species/Alosa_sapidissima/fAloSap1/genomic_data/pacbio_hifi/m54306U_210208_113131.subreads.bam
-     9783524147               0      2147483648     13502419298         1145917  species/Alosa_sapidissima/fAloSap1/genomic_data/pacbio_hifi/m64055_200825_195157.Q20.fastq.gz
-   469765519848               0      2147483648    242340023537        22497291  species/Alosa_sapidissima/fAloSap1/genomic_data/pacbio_hifi/m64055_200825_195157.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fAloSap1             33117503567               0      2147483648     49393665326       329291102  species/Alosa_sapidissima/fAloSap1/genomic_data/arima/fAloSap1_S_2476_5_R1_001.fastq.gz
+arima           fAloSap1             38838100717               0      2147483648     51886077517       345907183  species/Alosa_sapidissima/fAloSap1/genomic_data/arima/fAloSap1_S_2476_5_R2_001.fastq.gz
+bionano         fAloSap1              1723462546               0      1723462546    870494681957        14076410  species/Alosa_sapidissima/fAloSap1/genomic_data/bionano/fAloSap1_Saphyr_DLE1_3680575
+pacbiohifi_fqgz fAloSap1             11659736555               0      2147483648     14636816867         1271216  species/Alosa_sapidissima/fAloSap1/genomic_data/pacbio_hifi/m54306U_200902_203921.Q20.fastq.gz
+pacbiohifi_clr  fAloSap1            572720343380               0      2147483648    293252581606        29361908  species/Alosa_sapidissima/fAloSap1/genomic_data/pacbio_hifi/m54306U_200902_203921.subreads.bam
+pacbiohifi_fqgz fAloSap1              3203962659               0      3203962659      4787963033          495439  species/Alosa_sapidissima/fAloSap1/genomic_data/pacbio_hifi/m54306U_210208_113131.Q20.fastq.gz
+pacbiohifi_clr  fAloSap1            243878137619               0      2147483648    125127164742        15843739  species/Alosa_sapidissima/fAloSap1/genomic_data/pacbio_hifi/m54306U_210208_113131.subreads.bam
+pacbiohifi_fqgz fAloSap1              9783524147               0      2147483648     13502419298         1145917  species/Alosa_sapidissima/fAloSap1/genomic_data/pacbio_hifi/m64055_200825_195157.Q20.fastq.gz
+pacbiohifi_clr  fAloSap1            469765519848               0      2147483648    242340023537        22497291  species/Alosa_sapidissima/fAloSap1/genomic_data/pacbio_hifi/m64055_200825_195157.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.3824
-pacbiohifi_fqgz *       1.3359
-pacbiohifi_clr *       0.5136
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fAloSap1          1.3824     99471427362
+bionano         fAloSap1         505.0847    870494681957
+pacbiohifi_clr  fAloSap1          0.5136    664375492705
+pacbiohifi_fqgz fAloSap1          1.3359     33012942998
+--------------- ---------------  ------- ---------------

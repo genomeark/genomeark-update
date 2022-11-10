@@ -1,25 +1,30 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     2028002016               0      2028002016      2289235536       286154442  species/Falco_naumanni/bFalNau1/genomic_data/10x/bFalNau1_S6_L001_I1_001.fastq.gz
-    22771509380               0      2147483648     43244201637       286385441  species/Falco_naumanni/bFalNau1/genomic_data/10x/bFalNau1_S6_L001_R1_001.fastq.gz
-    23324901707               0      2147483648     43510322465       288147841  species/Falco_naumanni/bFalNau1/genomic_data/10x/bFalNau1_S6_L001_R2_001.fastq.gz
-    20430754962               0      2147483648     37243672824       248291161  species/Falco_naumanni/bFalNau1/genomic_data/arima/bFalNau1_2423_13_R1_001.fastq.gz
-    22998279923               0      2147483648     36539036143       243593574  species/Falco_naumanni/bFalNau1/genomic_data/arima/bFalNau1_2423_13_R2_001.fastq.gz
-              0               0               0      1518748155             257  species/Falco_naumanni/bFalNau1/genomic_data/bionano/bFalNau1_Saphyr_DLE1_3594190
-   272890949061               0      2147483648    141859812476         8529892  species/Falco_naumanni/bFalNau1/genomic_data/pacbio/m64055_191016_210805.subreads.bam
-    20466314856               0      2147483648     39399099392       260921197  species/Falco_naumanni/bFalNau2/genomic_data/illumina/HKJFMDSXX_18867005_S29_L004_R1_001.fastq.gz
-    24980522147               0      2147483648     48239308909       319465633  species/Falco_naumanni/bFalNau3/genomic_data/illumina/HKJFMDSXX_18867003_S30_L003_R2_001.fastq.gz
-    24869955065               0      2147483648     48104393669       318572143  species/Falco_naumanni/bFalNau3/genomic_data/illumina/HKJFMDSXX_18867003_S30_L004_R1_001.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bFalNau1              2028002016               0      2028002016      2289235536       286154442  species/Falco_naumanni/bFalNau1/genomic_data/10x/bFalNau1_S6_L001_I1_001.fastq.gz
+10x             bFalNau1             22771509380               0      2147483648     43244201637       286385441  species/Falco_naumanni/bFalNau1/genomic_data/10x/bFalNau1_S6_L001_R1_001.fastq.gz
+10x             bFalNau1             23324901707               0      2147483648     43510322465       288147841  species/Falco_naumanni/bFalNau1/genomic_data/10x/bFalNau1_S6_L001_R2_001.fastq.gz
+arima           bFalNau1             20430754962               0      2147483648     37243672824       248291161  species/Falco_naumanni/bFalNau1/genomic_data/arima/bFalNau1_2423_13_R1_001.fastq.gz
+arima           bFalNau1             22998279923               0      2147483648     36539036143       243593574  species/Falco_naumanni/bFalNau1/genomic_data/arima/bFalNau1_2423_13_R2_001.fastq.gz
+bionano         bFalNau1               898637027               0       898637027    452728755467         4939913  species/Falco_naumanni/bFalNau1/genomic_data/bionano/bFalNau1_Saphyr_DLE1_3594187
+pacbio          bFalNau1            272890949061               0      2147483648    141859812476         8529892  species/Falco_naumanni/bFalNau1/genomic_data/pacbio/m64055_191016_210805.subreads.bam
+illumina        bFalNau2             20485027998               0      2147483648     39398969426       260920327  species/Falco_naumanni/bFalNau2/genomic_data/illumina/HKJFMDSXX_18867005_S29_L003_R1_001.fastq.gz
+illumina        bFalNau2             20466314856               0      2147483648     39399099392       260921197  species/Falco_naumanni/bFalNau2/genomic_data/illumina/HKJFMDSXX_18867005_S29_L004_R1_001.fastq.gz
+illumina        bFalNau2             20464079000               0      2147483648     39693430481       262870410  species/Falco_naumanni/bFalNau2/genomic_data/illumina/HKJFMDSXX_18867005_S29_L004_R2_001.fastq.gz
+illumina        bFalNau3             24887214269               0      2147483648     48035535020       318116125  species/Falco_naumanni/bFalNau3/genomic_data/illumina/HKJFMDSXX_18867003_S30_L003_R1_001.fastq.gz
+illumina        bFalNau3             24980522147               0      2147483648     48239308909       319465633  species/Falco_naumanni/bFalNau3/genomic_data/illumina/HKJFMDSXX_18867003_S30_L003_R2_001.fastq.gz
+illumina        bFalNau3             24998509244               0      2147483648     48451354561       320869909  species/Falco_naumanni/bFalNau3/genomic_data/illumina/HKJFMDSXX_18867003_S30_L004_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8502
-arima        *       1.6607
-illumina     *       1.9304
-pacbio       *       0.5198
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bFalNau1          1.8502     89039789123
+arima           bFalNau1          1.6607     72122598233
+bionano         bFalNau1         503.7949    452728755467
+illumina        bFalNau2          1.9293    157955413808
+illumina        bFalNau3          1.9331    192800049621
+pacbio          bFalNau1          0.5198    141848715321
+--------------- ---------------  ------- ---------------

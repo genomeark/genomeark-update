@@ -1,23 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     4550894103               0      2147483648      7401856816        49018921  species/Molossus_molossus/mMolMol1/genomic_data/10x/mMolMol1_S1_L003_R2_001.fastq.gz
-     2902997543               0      2902997543      5538201934        36676834  species/Molossus_molossus/mMolMol1/genomic_data/10x/mMolMol1_S1_L006_R1_001.fastq.gz
-     3916737717               0      3916737717      7508843289        49727439  species/Molossus_molossus/mMolMol1/genomic_data/10x/mMolMol1_S1_L007_R1_001.fastq.gz
-    50604353431               0      2147483648     74652212130       494385534  species/Molossus_molossus/mMolMol1/genomic_data/arima/mMolMol1_L36335T70483DD_R1.fastq.gz
-    51919689042               0      2147483648     74530942147       493582422  species/Molossus_molossus/mMolMol1/genomic_data/arima/mMolMol1_L36335T70483DD_R2.fastq.gz
-              0               0               0      2936268562             968  species/Molossus_molossus/mMolMol1/genomic_data/bionano/mMolMol1_Saphyr_DLE1
-    10582108145               0      2147483648      5694654547          488914  species/Molossus_molossus/mMolMol1/genomic_data/pacbio/m54144_180815_132050.subreads.bam
-     8456235138               0      2147483648      4531138334          391194  species/Molossus_molossus/mMolMol1/genomic_data/pacbio/m54144_180816_134800.subreads.bam
-    11377322542               0      2147483648      6048878612          599794  species/Molossus_molossus/mMolMol1/genomic_data/pacbio/m54144_180915_004916.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mMolMol1              4550894103               0      2147483648      7401856816        49018921  species/Molossus_molossus/mMolMol1/genomic_data/10x/mMolMol1_S1_L003_R2_001.fastq.gz
+10x             mMolMol1              2902997543               0      2902997543      5538201934        36676834  species/Molossus_molossus/mMolMol1/genomic_data/10x/mMolMol1_S1_L006_R1_001.fastq.gz
+10x             mMolMol1              3916737717               0      3916737717      7508843289        49727439  species/Molossus_molossus/mMolMol1/genomic_data/10x/mMolMol1_S1_L007_R1_001.fastq.gz
+arima           mMolMol1             50604353431               0      2147483648     74652212130       494385534  species/Molossus_molossus/mMolMol1/genomic_data/arima/mMolMol1_L36335T70483DD_R1.fastq.gz
+arima           mMolMol1             51919689042               0      2147483648     74530942147       493582422  species/Molossus_molossus/mMolMol1/genomic_data/arima/mMolMol1_L36335T70483DD_R2.fastq.gz
+bionano         mMolMol1               778975702               0       778975702    478958494334         4792111  species/Molossus_molossus/mMolMol1/genomic_data/bionano/mMolMol1_Saphyr_DLE1_0
+bionano         mMolMol1               781709570               0       781709570    469004741501         4497165  species/Molossus_molossus/mMolMol1/genomic_data/bionano/mMolMol1_Saphyr_DLE1_1
+pacbio          mMolMol1             10582108145               0      2147483648      5694654547          488914  species/Molossus_molossus/mMolMol1/genomic_data/pacbio/m54144_180815_132050.subreads.bam
+pacbio          mMolMol1              8456235138               0      2147483648      4531138334          391194  species/Molossus_molossus/mMolMol1/genomic_data/pacbio/m54144_180816_134800.subreads.bam
+pacbio          mMolMol1             11377322542               0      2147483648      6048878612          599794  species/Molossus_molossus/mMolMol1/genomic_data/pacbio/m54144_180915_004916.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.7983
-arima        *       1.4485
-pacbio       *       0.5350
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mMolMol1          1.7983    106635592691
+arima           mMolMol1          1.4485    148506075522
+bionano         mMolMol1         607.4019    947963235835
+pacbio          mMolMol1          0.5350    135078210854
+--------------- ---------------  ------- ---------------

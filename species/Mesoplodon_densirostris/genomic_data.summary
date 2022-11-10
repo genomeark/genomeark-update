@@ -1,26 +1,29 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-              0               0               0      2596298434             444  species/Mesoplodon_densirostris/mMesDen1/genomic_data/bionano/mMesDen1_Saphyr_DLE1_3680724
-    67406274815               0      2147483648     81274774333         5079568  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210827_082921.hifi_reads.bam
-    15433186721               0      2147483648     18608486694         1163006  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210827_082921.hifi_reads.fastq.gz
-    60276472589               0      2147483648     74063220952         4596933  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210911_054708.hifi_reads.bam
-    13583764158               0      2147483648     16690713357         1035954  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210911_054708.hifi_reads.fastq.gz
-   138695413387               0      2147483648     54669713082         3575494  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210911_054708.reads.bam
-    79761906571               0      2147483648     21846604541         1356018  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210916_192327.hifi_reads.bam
-    67610600701               0      2147483648     18502696677         1145122  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m64055e_210910_134739.hifi_reads.bam
-   181617384865               0      2147483648     74241940011         4335423  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m64055e_210910_134739.reads.bam
-    80098923792               0      2147483648     95193183425         5921360  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m64055e_210916_194025.hifi_reads.bam
-    18122110062               0      2147483648     21537135151         1339687  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m64055e_210916_194025.hifi_reads.fastq.gz
-   186314074165               0      2147483648     72981889229         4749114  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m64055e_210916_194025.reads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+bionano         mMesDen1              1159333423               0      1159333423    725960181961         7043173  species/Mesoplodon_densirostris/mMesDen1/genomic_data/bionano/mMesDen1_Saphyr_DLE1_3680718
+pacbiohifi_bam  mMesDen1             67406274815               0      2147483648     81274774333         5079568  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210827_082921.hifi_reads.bam
+pacbiohifi_fqgz mMesDen1             15433186721               0      2147483648     18608486694         1163006  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210827_082921.hifi_reads.fastq.gz
+pacbiohifi_bam  mMesDen1             60276472589               0      2147483648     16621621883         1029830  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210911_054708.hifi_reads.bam
+pacbiohifi_fqgz mMesDen1             13583764158               0      2147483648     16690713357         1035954  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210911_054708.hifi_reads.fastq.gz
+pacbiohifi_clr  mMesDen1            138695413387               0      2147483648     54669713082         3575494  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210911_054708.reads.bam
+pacbiohifi_bam  mMesDen1             79761906571               0      2147483648     21846604541         1356018  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210916_192327.hifi_reads.bam
+pacbiohifi_fqgz mMesDen1             18256190944               0      2147483648      5000329118          310370  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m54306Ue_210916_192327.hifi_reads.fastq.gz
+pacbiohifi_bam  mMesDen1             67610600701               0      2147483648     18502696677         1145122  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m64055e_210910_134739.hifi_reads.bam
+pacbiohifi_fqgz mMesDen1             15387253445               0      2147483648      4210962189          260614  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m64055e_210910_134739.hifi_reads.fastq.gz
+pacbiohifi_clr  mMesDen1            181617384865               0      2147483648     74241940011         4335423  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m64055e_210910_134739.reads.bam
+pacbiohifi_bam  mMesDen1             80098923792               0      2147483648     95193183425         5921360  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m64055e_210916_194025.hifi_reads.bam
+pacbiohifi_fqgz mMesDen1             18122110062               0      2147483648     21537135151         1339687  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m64055e_210916_194025.hifi_reads.fastq.gz
+pacbiohifi_clr  mMesDen1            186314074165               0      2147483648     72981889229         4749114  species/Mesoplodon_densirostris/mMesDen1/genomic_data/pacbio_hifi/m64055e_210916_194025.reads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-pacbiohifi_fqgz *       1.2057
-pacbiohifi_bam *       0.5509
-pacbiohifi_clr *       0.3985
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+bionano         mMesDen1         626.1875    725960181961
+pacbiohifi_bam  mMesDen1          0.2743    113682144319
+pacbiohifi_clr  mMesDen1          0.3985    398705759320
+pacbiohifi_fqgz mMesDen1          1.2057    113633052236
+--------------- ---------------  ------- ---------------

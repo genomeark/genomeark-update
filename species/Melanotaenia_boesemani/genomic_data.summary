@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     7162513532               0      2147483648     13607650384        90116889  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/10x/fMelBoe1_S1_L002_R2_001.fastq.gz
-    10108091884               0      2147483648     19255735109       127521424  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/10x/fMelBoe1_S1_L003_R1_001.fastq.gz
-     7394574378               0      2147483648     14027714957        92898777  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/10x/fMelBoe1_S1_L004_R1_001.fastq.gz
-    27478951222               0      2147483648     53917652292       357070557  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/arima/fMelBoe1_L40350T79217_R1.fastq.gz
-    28385817758               0      2147483648     53935348227       357187736  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/arima/fMelBoe1_L40350T79217_R2.fastq.gz
-              0               0               0      1020421699             660  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/bionano/fMelBoe1_Saphyr_DLE-1
-    18986386910               0      2147483648     10180439824          696600  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/pacbio/m54062_190812_110622.subreads.bam
-    19495209199               0      2147483648     10495343336          718082  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/pacbio/m54062_190812_212107.subreads.bam
-    19454244757               0      2147483648     10443967783          715459  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/pacbio/m54062_190814_040810.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fMelBoe1              7162513532               0      2147483648     13607650384        90116889  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/10x/fMelBoe1_S1_L002_R2_001.fastq.gz
+10x             fMelBoe1             10108091884               0      2147483648     19255735109       127521424  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/10x/fMelBoe1_S1_L003_R1_001.fastq.gz
+10x             fMelBoe1              7394574378               0      2147483648     14027714957        92898777  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/10x/fMelBoe1_S1_L004_R1_001.fastq.gz
+arima           fMelBoe1             27478951222               0      2147483648     53917652292       357070557  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/arima/fMelBoe1_L40350T79217_R1.fastq.gz
+arima           fMelBoe1             28385817758               0      2147483648     53935348227       357187736  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/arima/fMelBoe1_L40350T79217_R2.fastq.gz
+bionano         fMelBoe1              1564311166               0      1564311166    816682215924        11260349  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/bionano/fMelBoe1_Saphyr_DLE-1_20200803160511
+pacbio          fMelBoe1             18986386910               0      2147483648     10180439824          696600  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/pacbio/m54062_190812_110622.subreads.bam
+pacbio          fMelBoe1             19495209199               0      2147483648     10495343336          718082  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/pacbio/m54062_190812_212107.subreads.bam
+pacbio          fMelBoe1             19454244757               0      2147483648     10443967783          715459  species/Melanotaenia_boesemani/fMelBoe1/genomic_data/pacbio/m54062_190814_040810.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9011
-arima        *       1.9203
-pacbio       *       0.5371
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fMelBoe1          1.9011    120923522378
+arima           fMelBoe1          1.9203    107277115872
+bionano         fMelBoe1         522.0714    816682215924
+pacbio          fMelBoe1          0.5371     61926419612
+--------------- ---------------  ------- ---------------

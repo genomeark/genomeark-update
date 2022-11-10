@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     3402006369               0      3402006369      3999602936       499950367  species/Ciconia_maguari/bCicMag1/genomic_data/10x/bCicMag1_S3_L001_I1_001.fastq.gz
-    39731439000               0      2147483648     75603182695       500683347  species/Ciconia_maguari/bCicMag1/genomic_data/10x/bCicMag1_S3_L001_R1_001.fastq.gz
-    40831407479               0      2147483648     75178010084       497867635  species/Ciconia_maguari/bCicMag1/genomic_data/10x/bCicMag1_S3_L001_R2_001.fastq.gz
-    33070238731               0      2147483648     57590154936       383934366  species/Ciconia_maguari/bCicMag1/genomic_data/arima/bCicMag1_2423_20_R1_001.fastq.gz
-    36987320207               0      2147483648     56995028444       379966873  species/Ciconia_maguari/bCicMag1/genomic_data/arima/bCicMag1_2423_20_R2_001.fastq.gz
-              0               0               0      1402358657             128  species/Ciconia_maguari/bCicMag1/genomic_data/bionano/bCicMag1_Saphyr_DLE1_3383041
-     7232477860               0      2147483648      3873677290          306123  species/Ciconia_maguari/bCicMag1/genomic_data/pacbio/m54159_190823_191602.subreads.bam
-     8230869223               0      2147483648      4405576298          345446  species/Ciconia_maguari/bCicMag1/genomic_data/pacbio/m54159_190824_053044.subreads.bam
-     7746191371               0      2147483648      4074297744          412367  species/Ciconia_maguari/bCicMag1/genomic_data/pacbio/m54159_190827_055332.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bCicMag1              3402006369               0      3402006369      3999602936       499950367  species/Ciconia_maguari/bCicMag1/genomic_data/10x/bCicMag1_S3_L001_I1_001.fastq.gz
+10x             bCicMag1             39731439000               0      2147483648     75603182695       500683347  species/Ciconia_maguari/bCicMag1/genomic_data/10x/bCicMag1_S3_L001_R1_001.fastq.gz
+10x             bCicMag1             40831407479               0      2147483648     75178010084       497867635  species/Ciconia_maguari/bCicMag1/genomic_data/10x/bCicMag1_S3_L001_R2_001.fastq.gz
+arima           bCicMag1             33070238731               0      2147483648     57590154936       383934366  species/Ciconia_maguari/bCicMag1/genomic_data/arima/bCicMag1_2423_20_R1_001.fastq.gz
+arima           bCicMag1             36987320207               0      2147483648     56995028444       379966873  species/Ciconia_maguari/bCicMag1/genomic_data/arima/bCicMag1_2423_20_R2_001.fastq.gz
+bionano         bCicMag1              1475701460               0      1475701460    806506680792         7334256  species/Ciconia_maguari/bCicMag1/genomic_data/bionano/bCicMag1_Saphyr_DLE1_3371785
+pacbio          bCicMag1              7232477860               0      2147483648      3873677290          306123  species/Ciconia_maguari/bCicMag1/genomic_data/pacbio/m54159_190823_191602.subreads.bam
+pacbio          bCicMag1              8230869223               0      2147483648      4405576298          345446  species/Ciconia_maguari/bCicMag1/genomic_data/pacbio/m54159_190824_053044.subreads.bam
+pacbio          bCicMag1              7746191371               0      2147483648      4074297744          412367  species/Ciconia_maguari/bCicMag1/genomic_data/pacbio/m54159_190827_055332.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8433
-arima        *       1.6028
-pacbio       *       0.5322
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bCicMag1          1.8433    154772413254
+arima           bCicMag1          1.6028    112288255465
+bionano         bCicMag1         546.5242    806506680792
+pacbio          bCicMag1          0.5322     88252757288
+--------------- ---------------  ------- ---------------

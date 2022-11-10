@@ -1,24 +1,27 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    21058985372               0      2147483648     41674076352       277827185  species/Choloepus_didactylus/mChoDid1/genomic_data/10x/mChoDid1_S1_L004_R2_001.fastq.gz
-    22996732549               0      2147483648     46511524698       310076842  species/Choloepus_didactylus/mChoDid1/genomic_data/10x/mChoDid1_S3_L004_R1_001.fastq.gz
-    20548741459               0      2147483648     40772780227       271818544  species/Choloepus_didactylus/mChoDid1/genomic_data/10x/mChoDid1_S4_L004_R2_001.fastq.gz
-    34264584176               0      2147483648     59405383151       396035887  species/Choloepus_didactylus/mChoDid1/genomic_data/arima/mChoDid1_ARI7_4_1_USPD16090939_HTNV3CCXY_L4_2.clean.fq.gz
-    31634277389               0      2147483648     60111491783       400743293  species/Choloepus_didactylus/mChoDid1/genomic_data/arima/mChoDid1_ARI7_4_1_USPD16090939_HTNV3CCXY_L5_1.clean.fq.gz
-    17366119368               0      2147483648     30447909695       202986072  species/Choloepus_didactylus/mChoDid1/genomic_data/arima/mChoDid1_ARI7_4_1_USPD16090939_HTNV3CCXY_L6_2.clean.fq.gz
-              0               0               0      5990938038            2134  species/Choloepus_didactylus/mChoDid1/genomic_data/bionano/mChoDid1_Saphyr_DLE1_1953346
-    10229400453               0      2147483648      5367095911          408169  species/Choloepus_didactylus/mChoDid1/genomic_data/pacbio/m54062_171208_072424.subreads.bam
-     9717119225               0      2147483648      5207408075          396538  species/Choloepus_didactylus/mChoDid1/genomic_data/pacbio/m54062_180303_073102.subreads.bam
-    11011282748               0      2147483648      5840747629          473599  species/Choloepus_didactylus/mChoDid1/genomic_data/pacbio/m54062_180306_160426.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mChoDid1             21058985372               0      2147483648     41674076352       277827185  species/Choloepus_didactylus/mChoDid1/genomic_data/10x/mChoDid1_S1_L004_R2_001.fastq.gz
+10x             mChoDid1             22996732549               0      2147483648     46511524698       310076842  species/Choloepus_didactylus/mChoDid1/genomic_data/10x/mChoDid1_S3_L004_R1_001.fastq.gz
+10x             mChoDid1             20548741459               0      2147483648     40772780227       271818544  species/Choloepus_didactylus/mChoDid1/genomic_data/10x/mChoDid1_S4_L004_R2_001.fastq.gz
+arima           mChoDid1             34264584176               0      2147483648     59405383151       396035887  species/Choloepus_didactylus/mChoDid1/genomic_data/arima/mChoDid1_ARI7_4_1_USPD16090939_HTNV3CCXY_L4_2.clean.fq.gz
+arima           mChoDid1             31634277389               0      2147483648     60111491783       400743293  species/Choloepus_didactylus/mChoDid1/genomic_data/arima/mChoDid1_ARI7_4_1_USPD16090939_HTNV3CCXY_L5_1.clean.fq.gz
+arima           mChoDid1             17366119368               0      2147483648     30447909695       202986072  species/Choloepus_didactylus/mChoDid1/genomic_data/arima/mChoDid1_ARI7_4_1_USPD16090939_HTNV3CCXY_L6_2.clean.fq.gz
+bionano         mChoDid1               549533922               0       549533922    258441473471         4687466  species/Choloepus_didactylus/mChoDid1/genomic_data/bionano/mChoDid1_Saphyr_DLE1_1378610
+bionano         mChoDid1               562765840               0       562765840    277328539386         3704017  species/Choloepus_didactylus/mChoDid1/genomic_data/bionano/mChoDid1_Saphyr_DLE1_1530737
+bionano         mChoDid1               543382820               0       543382820    319046001193         1486429  species/Choloepus_didactylus/mChoDid1/genomic_data/bionano/mChoDid1_Saphyr_DLE1_1953342
+pacbio          mChoDid1             10229400453               0      2147483648      5367095911          408169  species/Choloepus_didactylus/mChoDid1/genomic_data/pacbio/m54062_171208_072424.subreads.bam
+pacbio          mChoDid1              9717119225               0      2147483648      5207408075          396538  species/Choloepus_didactylus/mChoDid1/genomic_data/pacbio/m54062_180303_073102.subreads.bam
+pacbio          mChoDid1             11011282748               0      2147483648      5840747629          473599  species/Choloepus_didactylus/mChoDid1/genomic_data/pacbio/m54062_180306_160426.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9961
-arima        *       1.8010
-pacbio       *       0.5302
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mChoDid1          1.9961    342783201293
+arima           mChoDid1          1.8010    297289119243
+bionano         mChoDid1         516.2922    854816014050
+pacbio          mChoDid1          0.5302    193168724250
+--------------- ---------------  ------- ---------------

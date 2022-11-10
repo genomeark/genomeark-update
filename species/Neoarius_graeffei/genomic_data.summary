@@ -1,27 +1,28 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    92008459121               0      2147483648    187000609439      1246670772  species/Neoarius_graeffei/fNeoGra1/genomic_data/arima/fNeoGra1_Blue_Salmon_Catfish_R1_001.fastq.gz
-    95515252916               0      2147483648    189912906772      1266086089  species/Neoarius_graeffei/fNeoGra1/genomic_data/arima/fNeoGra1_Blue_Salmon_Catfish_R2_001.fastq.gz
-              0               0               0      2930831713             610  species/Neoarius_graeffei/fNeoGra1/genomic_data/bionano/fNeoGra1_Saphyr_DLE1_3680747
-    55147626213               0      2147483648     61214240095         3570614  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64055e_211026_201650.hifi_reads.bam
-    13233472085               0      2147483648     14689244000          856820  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64055e_211026_201650.hifi_reads.fastq.gz
-   166079883284               0      2147483648     68689035617         4068852  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64055e_211026_201650.reads.bam
-    56312013794               0      2147483648     63471399379         3934450  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211004_150650.hifi_reads.bam
-    13369636491               0      2147483648     15069422670          934119  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211004_150650.hifi_reads.fastq.gz
-   217488432684               0      2147483648     95134810042         5409046  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211004_150650.reads.bam
-    48467942600               0      2147483648     55039023356         3498069  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211006_001717.hifi_reads.bam
-    11417918832               0      2147483648     12965912468          824063  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211006_001717.hifi_reads.fastq.gz
-   236600773846               0      2147483648    107853668947         5446211  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211006_001717.reads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fNeoGra1             92008459121               0      2147483648    187000609439      1246670772  species/Neoarius_graeffei/fNeoGra1/genomic_data/arima/fNeoGra1_Blue_Salmon_Catfish_R1_001.fastq.gz
+arima           fNeoGra1             95515252916               0      2147483648    189912906772      1266086089  species/Neoarius_graeffei/fNeoGra1/genomic_data/arima/fNeoGra1_Blue_Salmon_Catfish_R2_001.fastq.gz
+bionano         fNeoGra1               741301754               0       741301754    543026612791         4643528  species/Neoarius_graeffei/fNeoGra1/genomic_data/bionano/fNeoGra1_Saphyr_DLE1_3680741
+pacbiohifi_bam  fNeoGra1             55147626213               0      2147483648     14646189484          853863  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64055e_211026_201650.hifi_reads.bam
+pacbiohifi_fqgz fNeoGra1             13233472085               0      2147483648     14689244000          856820  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64055e_211026_201650.hifi_reads.fastq.gz
+pacbiohifi_clr  fNeoGra1            166079883284               0      2147483648     68689035617         4068852  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64055e_211026_201650.reads.bam
+pacbiohifi_bam  fNeoGra1             56312013794               0      2147483648     15017085946          949038  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211004_150650.hifi_reads.bam
+pacbiohifi_fqgz fNeoGra1             13369636491               0      2147483648     15069422670          934119  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211004_150650.hifi_reads.fastq.gz
+pacbiohifi_clr  fNeoGra1            217488432684               0      2147483648     95134810042         5409046  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211004_150650.reads.bam
+pacbiohifi_bam  fNeoGra1             48467942600               0      2147483648     12935407770          827628  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211006_001717.hifi_reads.bam
+pacbiohifi_fqgz fNeoGra1             11417918832               0      2147483648     12965912468          824063  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211006_001717.hifi_reads.fastq.gz
+pacbiohifi_clr  fNeoGra1            236600773846               0      2147483648    107853668947         5446211  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211006_001717.reads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       2.0026
-pacbiohifi_fqgz *       1.1237
-pacbiohifi_bam *       1.1237
-pacbiohifi_clr *       0.4380
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fNeoGra1          2.0026    375534985725
+bionano         fNeoGra1         732.5311    543026612791
+pacbiohifi_bam  fNeoGra1          0.2663     79904375702
+pacbiohifi_clr  fNeoGra1          0.4380    490405977379
+pacbiohifi_fqgz fNeoGra1          1.1237     79917115229
+--------------- ---------------  ------- ---------------

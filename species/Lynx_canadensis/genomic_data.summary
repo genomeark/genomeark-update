@@ -1,25 +1,27 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    13408421576               0      2147483648     19413796206       129425314  species/Lynx_canadensis/mLynCan4/genomic_data/10x/mLynCan4_S3_L002_R2_001.fastq.gz
-     1042570409               0      1042570409      1098936648       137367081  species/Lynx_canadensis/mLynCan4/genomic_data/10x/mLynCan4_S3_L004_I1_001.fastq.gz
-    12224073128               0      2147483648     20111410852       134076078  species/Lynx_canadensis/mLynCan4/genomic_data/10x/mLynCan4_S3_L005_R1_001.fastq.gz
-     6509813366               0      2147483648     12848214550        85654763  species/Lynx_canadensis/mLynCan4/genomic_data/arima/mLynCan4_ARI4_001_USPD16084394-AK5142_HJFMFCCXY_L1_R1.fq.gz
-     7280395613               0      2147483648     12751655770        85011041  species/Lynx_canadensis/mLynCan4/genomic_data/arima/mLynCan4_ARI4_001_USPD16084394-AK5142_HJFMFCCXY_L1_R2.fq.gz
-     6619188595               0      2147483648     13239930065        88266203  species/Lynx_canadensis/mLynCan4/genomic_data/arima/mLynCan4_ARI4_001_USPD16084394-AK5142_HJFMFCCXY_L3_R1.fq.gz
-              0               0               0      2162694488            3889  species/Lynx_canadensis/mLynCan4/genomic_data/bionano/mLynCan4_Saphyr_BspQI
-              0               0               0      2432295588            3221  species/Lynx_canadensis/mLynCan4/genomic_data/bionano/mLynCan4_Saphyr_BssSI
-    10494167276               0      2147483648      5684613432          337628  species/Lynx_canadensis/mLynCan4/genomic_data/pacbio/m54158_180311_131014.subreads.bam
-     6951880033               0      2147483648      3727936466          277604  species/Lynx_canadensis/mLynCan4/genomic_data/pacbio/m54159_180314_082406.subreads.bam
-    12740607993               0      2147483648      6840907811          646646  species/Lynx_canadensis/mLynCan4/genomic_data/pacbio/m54159_180316_203839.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mLynCan4             13408421576               0      2147483648     19413796206       129425314  species/Lynx_canadensis/mLynCan4/genomic_data/10x/mLynCan4_S3_L002_R2_001.fastq.gz
+10x             mLynCan4              1042570409               0      1042570409      1098936648       137367081  species/Lynx_canadensis/mLynCan4/genomic_data/10x/mLynCan4_S3_L004_I1_001.fastq.gz
+10x             mLynCan4             12224073128               0      2147483648     20111410852       134076078  species/Lynx_canadensis/mLynCan4/genomic_data/10x/mLynCan4_S3_L005_R1_001.fastq.gz
+arima           mLynCan4              6509813366               0      2147483648     12848214550        85654763  species/Lynx_canadensis/mLynCan4/genomic_data/arima/mLynCan4_ARI4_001_USPD16084394-AK5142_HJFMFCCXY_L1_R1.fq.gz
+arima           mLynCan4              7280395613               0      2147483648     12751655770        85011041  species/Lynx_canadensis/mLynCan4/genomic_data/arima/mLynCan4_ARI4_001_USPD16084394-AK5142_HJFMFCCXY_L1_R2.fq.gz
+arima           mLynCan4              6619188595               0      2147483648     13239930065        88266203  species/Lynx_canadensis/mLynCan4/genomic_data/arima/mLynCan4_ARI4_001_USPD16084394-AK5142_HJFMFCCXY_L3_R1.fq.gz
+bionano         mLynCan4               635925794               0       635925794    354931206255         6898738  species/Lynx_canadensis/mLynCan4/genomic_data/bionano/mLynCan4_Saphyr_BspQI_748455
+bionano         mLynCan4               877912170               0       877912170    484419355037        11128940  species/Lynx_canadensis/mLynCan4/genomic_data/bionano/mLynCan4_Saphyr_BspQI_792415
+bionano         mLynCan4               968563971               0       968563971    607947163686         7262202  species/Lynx_canadensis/mLynCan4/genomic_data/bionano/mLynCan4_Saphyr_BssSI_792416
+pacbio          mLynCan4             10494167276               0      2147483648      5684613432          337628  species/Lynx_canadensis/mLynCan4/genomic_data/pacbio/m54158_180311_131014.subreads.bam
+pacbio          mLynCan4              6951880033               0      2147483648      3727936466          277604  species/Lynx_canadensis/mLynCan4/genomic_data/pacbio/m54159_180314_082406.subreads.bam
+pacbio          mLynCan4             12740607993               0      2147483648      6840907811          646646  species/Lynx_canadensis/mLynCan4/genomic_data/pacbio/m54159_180316_203839.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5229
-arima        *       1.9030
-pacbio       *       0.5384
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mLynCan4          1.5229    318345766710
+arima           mLynCan4          1.9030    232951886351
+bionano         mLynCan4         583.0231   1447297724978
+pacbio          mLynCan4          0.5384    179913188889
+--------------- ---------------  ------- ---------------

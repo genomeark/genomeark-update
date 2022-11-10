@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     9301981184               0      2147483648     17846703984       118190096  species/Discoglossus_pictus/aDisPic1/genomic_data/10x/aDisPic1_S1_L004_R1_001.fastq.gz
-     5464108837               0      2147483648     10552305081        69882817  species/Discoglossus_pictus/aDisPic1/genomic_data/10x/aDisPic1_S1_L005_R1_001.fastq.gz
-    10554917593               0      2147483648     20241577868       134050189  species/Discoglossus_pictus/aDisPic1/genomic_data/10x/aDisPic1_S1_L006_R1_001.fastq.gz
-    62690102271               0      2147483648    125170659170       828944791  species/Discoglossus_pictus/aDisPic1/genomic_data/arima/aDisPic1_S001_R001_R1.fastq.gz
-    63881268113               0      2147483648    125969983673       834238302  species/Discoglossus_pictus/aDisPic1/genomic_data/arima/aDisPic1_S001_R001_R2.fastq.gz
-              0               0               0      7260393245            2510  species/Discoglossus_pictus/aDisPic1/genomic_data/bionano/aDisPic1_DLE1
-   320225704481               0      2147483648    167364405636         8626849  species/Discoglossus_pictus/aDisPic1/genomic_data/pacbio/m54345U_200604_202626.subreads.bam
-   325528790792               0      2147483648    169945889117         8682551  species/Discoglossus_pictus/aDisPic1/genomic_data/pacbio/m64046_200608_112806.subreads.bam
-   299469371962               0      2147483648    157037766524         7665219  species/Discoglossus_pictus/aDisPic1/genomic_data/pacbio/m64046_200609_111250.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             aDisPic1              9301981184               0      2147483648     17846703984       118190096  species/Discoglossus_pictus/aDisPic1/genomic_data/10x/aDisPic1_S1_L004_R1_001.fastq.gz
+10x             aDisPic1              5464108837               0      2147483648     10552305081        69882817  species/Discoglossus_pictus/aDisPic1/genomic_data/10x/aDisPic1_S1_L005_R1_001.fastq.gz
+10x             aDisPic1             10554917593               0      2147483648     20241577868       134050189  species/Discoglossus_pictus/aDisPic1/genomic_data/10x/aDisPic1_S1_L006_R1_001.fastq.gz
+arima           aDisPic1             62690102271               0      2147483648    125170659170       828944791  species/Discoglossus_pictus/aDisPic1/genomic_data/arima/aDisPic1_S001_R001_R1.fastq.gz
+arima           aDisPic1             63881268113               0      2147483648    125969983673       834238302  species/Discoglossus_pictus/aDisPic1/genomic_data/arima/aDisPic1_S001_R001_R2.fastq.gz
+bionano         aDisPic1              5766942701               0      5766942701   3448168301881        62109929  species/Discoglossus_pictus/aDisPic1/genomic_data/bionano/RawMolecules
+pacbio          aDisPic1            320225704481               0      2147483648    167364405636         8626849  species/Discoglossus_pictus/aDisPic1/genomic_data/pacbio/m54345U_200604_202626.subreads.bam
+pacbio          aDisPic1            325528790792               0      2147483648    169945889117         8682551  species/Discoglossus_pictus/aDisPic1/genomic_data/pacbio/m64046_200608_112806.subreads.bam
+pacbio          aDisPic1            299469371962               0      2147483648    157037766524         7665219  species/Discoglossus_pictus/aDisPic1/genomic_data/pacbio/m64046_200609_111250.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9209
-arima        *       1.9800
-pacbio       *       0.5229
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             aDisPic1          1.9209    256595204137
+arima           aDisPic1          1.9800    250611313360
+bionano         aDisPic1         597.9196   3448168301881
+pacbio          aDisPic1          0.5229    494257560177
+--------------- ---------------  ------- ---------------

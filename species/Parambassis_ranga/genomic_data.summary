@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-      793967736               0       793967736       894134608       111766826  species/Parambassis_ranga/fParRan2/genomic_data/10x/fParRan2_S1_L007_I1_001.fastq.gz
-    10913216881               0      2147483648     16843436836       111545944  species/Parambassis_ranga/fParRan2/genomic_data/10x/fParRan2_S1_L007_R1_001.fastq.gz
-    10117768392               0      2147483648     14195573630        94010426  species/Parambassis_ranga/fParRan2/genomic_data/10x/fParRan2_S3_L007_R2_001.fastq.gz
-     3317429044               0      3317429044      5860321500        39068810  species/Parambassis_ranga/fParRan2/genomic_data/arima/fParRan2_ARI5_002_USPD16085689-AK5140_HK5YFCCXY_L2_R2.fastq.gz
-     3095235053               0      3095235053      6008399250        40055995  species/Parambassis_ranga/fParRan2/genomic_data/arima/fParRan2_ARI5_002_USPD16085689-AK5140_HK5YFCCXY_L4_R1.fastq.gz
-     3326207714               0      3326207714      6008399250        40055995  species/Parambassis_ranga/fParRan2/genomic_data/arima/fParRan2_ARI5_002_USPD16085689-AK5140_HK5YFCCXY_L4_R2.fastq.gz
-              0               0               0      1016326335             470  species/Parambassis_ranga/fParRan2/genomic_data/bionano/fParRan2_Saphyr_DLE1_1718543
-    14683283273               0      2147483648      7827530974          740986  species/Parambassis_ranga/fParRan2/genomic_data/pacbio/m54097_180702_215908.subreads.bam
-    14120836726               0      2147483648      7546484015          633262  species/Parambassis_ranga/fParRan2/genomic_data/pacbio/m54205_180704_112040.subreads.bam
-    15509581592               0      2147483648      8273574376          748235  species/Parambassis_ranga/fParRan2/genomic_data/pacbio/m54205_180704_213602.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fParRan2               793967736               0       793967736       894134608       111766826  species/Parambassis_ranga/fParRan2/genomic_data/10x/fParRan2_S1_L007_I1_001.fastq.gz
+10x             fParRan2             10913216881               0      2147483648     16843436836       111545944  species/Parambassis_ranga/fParRan2/genomic_data/10x/fParRan2_S1_L007_R1_001.fastq.gz
+10x             fParRan2             10117768392               0      2147483648     14195573630        94010426  species/Parambassis_ranga/fParRan2/genomic_data/10x/fParRan2_S3_L007_R2_001.fastq.gz
+arima           fParRan2              3317429044               0      3317429044      5860321500        39068810  species/Parambassis_ranga/fParRan2/genomic_data/arima/fParRan2_ARI5_002_USPD16085689-AK5140_HK5YFCCXY_L2_R2.fastq.gz
+arima           fParRan2              3095235053               0      3095235053      6008399250        40055995  species/Parambassis_ranga/fParRan2/genomic_data/arima/fParRan2_ARI5_002_USPD16085689-AK5140_HK5YFCCXY_L4_R1.fastq.gz
+arima           fParRan2              3326207714               0      3326207714      6008399250        40055995  species/Parambassis_ranga/fParRan2/genomic_data/arima/fParRan2_ARI5_002_USPD16085689-AK5140_HK5YFCCXY_L4_R2.fastq.gz
+bionano         fParRan2              1148186460               0      1148186460    727910152578         8111240  species/Parambassis_ranga/fParRan2/genomic_data/bionano/fParRan2_Saphyr_DLE1_1718542
+pacbio          fParRan2             14683283273               0      2147483648      7827530974          740986  species/Parambassis_ranga/fParRan2/genomic_data/pacbio/m54097_180702_215908.subreads.bam
+pacbio          fParRan2             14120836726               0      2147483648      7546484015          633262  species/Parambassis_ranga/fParRan2/genomic_data/pacbio/m54205_180704_112040.subreads.bam
+pacbio          fParRan2             15509581592               0      2147483648      8273574376          748235  species/Parambassis_ranga/fParRan2/genomic_data/pacbio/m54205_180704_213602.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.4631
-arima        *       1.8356
-pacbio       *       0.5336
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fParRan2          1.4631    127533928501
+arima           fParRan2          1.8356     58965222628
+bionano         fParRan2         633.9651    727910152578
+pacbio          fParRan2          0.5336     54963439705
+--------------- ---------------  ------- ---------------

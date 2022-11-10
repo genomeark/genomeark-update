@@ -1,28 +1,27 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    38308441115               0      2147483648     74615865111       497439118  species/Acridotheres_tristis/bAcrTri1/genomic_data/arima/bAcrTri1_Common_Myna_R1.fastq.gz
-    39188809403               0      2147483648     74746865288       498312453  species/Acridotheres_tristis/bAcrTri1/genomic_data/arima/bAcrTri1_Common_Myna_R2.fastq.gz
-              0               0               0      1461867840             852  species/Acridotheres_tristis/bAcrTri1/genomic_data/bionano/bAcrTri1_Saphyr_DLE1_3680711
-     7900107182               0      2147483648      3945497513          229044  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210318_204236.Q20.fastq
-    13356841514               0      2147483648      6670835630          383305  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210419_095733.Q20.fastq
-     5989549845               0      2147483648      6692420944          384803  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210419_095733.ccs.bam
-   232280112345               0      2147483648    120488206521         8497136  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210419_095733.subreads.bam
-   413681742213               0      2147483648    213707533877        19028927  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210502_162335.subreads.bam
-     8454566627               0      2147483648      9911924026          687130  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210510_220118.hifi_reads.bam
-     8994871130               0      2147483648     10545363612          731042  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210510_220118.hifi_reads.fastq.gz
-   456697337920               0      2147483648    241925888690        18684007  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210510_220118.subreads.bam
-     7141622240               0      2147483648      8351263203          665195  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m64055_210524_164403.hifi_reads.bam
-     7575580497               0      2147483648      8235113542          647024  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m64055_210524_164403.hifi_reads.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAcrTri1             38308441115               0      2147483648     74615865111       497439118  species/Acridotheres_tristis/bAcrTri1/genomic_data/arima/bAcrTri1_Common_Myna_R1.fastq.gz
+arima           bAcrTri1             39188809403               0      2147483648     74746865288       498312453  species/Acridotheres_tristis/bAcrTri1/genomic_data/arima/bAcrTri1_Common_Myna_R2.fastq.gz
+bionano         bAcrTri1               918637765               0       918637765    488093653335         5101263  species/Acridotheres_tristis/bAcrTri1/genomic_data/bionano/bAcrTri1_Saphyr_DLE1_3680702
+pacbiohifi_bam  bAcrTri1              5989549845               0      2147483648      6692420944          384803  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210419_095733.ccs.bam
+pacbiohifi_clr  bAcrTri1            232280112345               0      2147483648    120488206521         8497136  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210419_095733.subreads.bam
+pacbiohifi_clr  bAcrTri1            413681742213               0      2147483648    213707533877        19028927  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210502_162335.subreads.bam
+pacbiohifi_bam  bAcrTri1              8454566627               0      2147483648     10627750472          747956  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210510_220118.hifi_reads.bam
+pacbiohifi_fqgz bAcrTri1              8994871130               0      2147483648     10545363612          731042  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210510_220118.hifi_reads.fastq.gz
+pacbiohifi_clr  bAcrTri1            456697337920               0      2147483648    241925888690        18684007  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210510_220118.subreads.bam
+pacbiohifi_bam  bAcrTri1              7141622240               0      2147483648      8351263203          665195  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m64055_210524_164403.hifi_reads.bam
+pacbiohifi_fqgz bAcrTri1              7575580497               0      2147483648      8235113542          647024  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m64055_210524_164403.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.9206
-pacbiohifi_fqgz *       1.1470
-pacbiohifi_bam *       1.1561
-pacbiohifi_clr *       0.5224
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bAcrTri1          1.9206    148841219344
+bionano         bAcrTri1         531.3233    488093653335
+pacbiohifi_bam  bAcrTri1          1.1892     40365910947
+pacbiohifi_clr  bAcrTri1          0.5224    904670668648
+pacbiohifi_fqgz bAcrTri1          1.1470     19006308016
+--------------- ---------------  ------- ---------------

@@ -1,24 +1,26 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-      283110241               0       283110241       316440032        39555004  species/Archocentrus_centrarchus/fArcCen1/genomic_data/10x/fArcCen1_S1_L001_I1_001.fastq.gz
-     4025922738               0      4025922738      5710975077        37821027  species/Archocentrus_centrarchus/fArcCen1/genomic_data/10x/fArcCen1_S1_L003_R2_001.fastq.gz
-     3895346068               0      3895346068      5587087278        37000578  species/Archocentrus_centrarchus/fArcCen1/genomic_data/10x/fArcCen1_S1_L004_R1_001.fastq.gz
-              0               0               0      2310215085            1259  species/Archocentrus_centrarchus/fArcCen1/genomic_data/bionano/fArcCen1_Saphyr_DLE-1
-     8381940133               0      2147483648      4509772473          402129  species/Archocentrus_centrarchus/fArcCen1/genomic_data/pacbio/m54062_170809_134833.subreads.bam
-     6361830720               0      2147483648      3425675005          326169  species/Archocentrus_centrarchus/fArcCen1/genomic_data/pacbio/m54144_170809_001755.subreads.bam
-     9710503952               0      2147483648      5229327949          493564  species/Archocentrus_centrarchus/fArcCen1/genomic_data/pacbio/m54144_170811_141157.subreads.bam
-    18645370239               0      2147483648     28483278249       188630990  species/Archocentrus_centrarchus/fArcCen1/genomic_data/phase/fArcCen1_DDHiC_R1.fastq.gz
-    18883715543               0      2147483648     28532834464       188959168  species/Archocentrus_centrarchus/fArcCen1/genomic_data/phase/fArcCen1_DDHiC_R2.fastq.gz
-    11489337438               0      2147483648     18982631080       237282888  species/Archocentrus_centrarchus/fArcCen1/genomic_data/phase/fArcCen1_S3HiC_R2.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fArcCen1               283110241               0       283110241       316440032        39555004  species/Archocentrus_centrarchus/fArcCen1/genomic_data/10x/fArcCen1_S1_L001_I1_001.fastq.gz
+10x             fArcCen1              4025922738               0      4025922738      5710975077        37821027  species/Archocentrus_centrarchus/fArcCen1/genomic_data/10x/fArcCen1_S1_L003_R2_001.fastq.gz
+10x             fArcCen1              3895346068               0      3895346068      5587087278        37000578  species/Archocentrus_centrarchus/fArcCen1/genomic_data/10x/fArcCen1_S1_L004_R1_001.fastq.gz
+bionano         fArcCen1               999344695               0       999344695    588453831669         5651850  species/Archocentrus_centrarchus/fArcCen1/genomic_data/bionano/fArcCen1_Saphyr_DLE-1_1265239
+bionano         fArcCen1               913851828               0       913851828    538102384032         5079946  species/Archocentrus_centrarchus/fArcCen1/genomic_data/bionano/fArcCen1_Saphyr_DLE-1_1265240
+pacbio          fArcCen1              8381940133               0      2147483648      4509772473          402129  species/Archocentrus_centrarchus/fArcCen1/genomic_data/pacbio/m54062_170809_134833.subreads.bam
+pacbio          fArcCen1              6361830720               0      2147483648      3425675005          326169  species/Archocentrus_centrarchus/fArcCen1/genomic_data/pacbio/m54144_170809_001755.subreads.bam
+pacbio          fArcCen1              9710503952               0      2147483648      5229327949          493564  species/Archocentrus_centrarchus/fArcCen1/genomic_data/pacbio/m54144_170811_141157.subreads.bam
+phase           fArcCen1             18645370239               0      2147483648     28483278249       188630990  species/Archocentrus_centrarchus/fArcCen1/genomic_data/phase/fArcCen1_DDHiC_R1.fastq.gz
+phase           fArcCen1             18883715543               0      2147483648     28532834464       188959168  species/Archocentrus_centrarchus/fArcCen1/genomic_data/phase/fArcCen1_DDHiC_R2.fastq.gz
+phase           fArcCen1             11489337438               0      2147483648     18982631080       237282888  species/Archocentrus_centrarchus/fArcCen1/genomic_data/phase/fArcCen1_S3HiC_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.4156
-pacbio       *       0.5383
-phase        *       1.5504
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fArcCen1          1.4156     37522663506
+bionano         fArcCen1         588.8345   1126556215701
+pacbio          fArcCen1          0.5383     75998926745
+phase           fArcCen1          1.5504     93278552194
+--------------- ---------------  ------- ---------------

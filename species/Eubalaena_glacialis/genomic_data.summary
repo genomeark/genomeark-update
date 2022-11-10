@@ -1,27 +1,31 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-              0               0               0      2488946661             224  species/Eubalaena_glacialis/mEubGla1/genomic_data/bionano/mEubGla1_Saphyr_DLE1_3680770
-   113504778284               0      2147483648     52283404337         3985303  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210902_134931.reads.bam
-    47865422547               0      2147483648     59978884201         3909147  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210924_183319.hifi_reads.bam
-    10592073968               0      2147483648     13272645349          865049  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210924_183319.hifi_reads.fastq.gz
-    45964212383               0      2147483648     12712372206          830829  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210929_152420.hifi_reads.bam
-    20636781112               0      2147483648      5589312315          387244  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210908_191022.hifi_reads.bam
-    48899232086               0      2147483648     13381161593          868579  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210927_151005.hifi_reads.bam
-   124733807158               0      2147483648     50928787877         3600957  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210927_151005.reads.bam
-    52717640084               0      2147483648     61989103347         4071649  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210929_020717.hifi_reads.bam
-    12075827802               0      2147483648     14199606363          932677  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210929_020717.hifi_reads.fastq.gz
-   144430413270               0      2147483648     58969587414         4225605  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210929_020717.reads.bam
-    24255295675               0      2147483648     27837063821         1860979  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64334e_211001_185602.hifi_reads.bam
-     5720963869               0      2147483648      6565775922          438939  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64334e_211001_185602.hifi_reads.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+bionano         mEubGla1               980391446               0       980391446    608065489158         4584858  species/Eubalaena_glacialis/mEubGla1/genomic_data/bionano/mEubGla1_Saphyr_DLE1_3680758
+pacbiohifi_clr  mEubGla1            113504778284               0      2147483648     52283404337         3985303  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210902_134931.reads.bam
+pacbiohifi_bam  mEubGla1             47865422547               0      2147483648     59978884201         3909147  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210924_183319.hifi_reads.bam
+pacbiohifi_fqgz mEubGla1             10592073968               0      2147483648     13272645349          865049  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210924_183319.hifi_reads.fastq.gz
+pacbiohifi_bam  mEubGla1             45964212383               0      2147483648     12712372206          830829  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210929_152420.hifi_reads.bam
+pacbiohifi_fqgz mEubGla1             10074807092               0      2147483648      2786400354          182107  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210929_152420.hifi_reads.fastq.gz
+pacbiohifi_bam  mEubGla1             20636781112               0      2147483648      5589312315          387244  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210908_191022.hifi_reads.bam
+pacbiohifi_fqgz mEubGla1              4748444105               0      2147483648      1286079305           89103  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210908_191022.hifi_reads.fastq.gz
+pacbiohifi_bam  mEubGla1             48899232086               0      2147483648     13381161593          868579  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210927_151005.hifi_reads.bam
+pacbiohifi_fqgz mEubGla1             10823674249               0      2147483648      2961873387          192257  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210927_151005.hifi_reads.fastq.gz
+pacbiohifi_clr  mEubGla1            124733807158               0      2147483648     50928787877         3600957  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210927_151005.reads.bam
+pacbiohifi_bam  mEubGla1             52717640084               0      2147483648     61989103347         4071649  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210929_020717.hifi_reads.bam
+pacbiohifi_fqgz mEubGla1             12075827802               0      2147483648     14199606363          932677  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210929_020717.hifi_reads.fastq.gz
+pacbiohifi_clr  mEubGla1            144430413270               0      2147483648     58969587414         4225605  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210929_020717.reads.bam
+pacbiohifi_bam  mEubGla1             24255295675               0      2147483648     27837063821         1860979  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64334e_211001_185602.hifi_reads.bam
+pacbiohifi_fqgz mEubGla1              5720963869               0      2147483648      6565775922          438939  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64334e_211001_185602.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-pacbiohifi_fqgz *       1.1989
-pacbiohifi_bam *       0.2743
-pacbiohifi_clr *       0.4238
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+bionano         mEubGla1         620.2272    608065489158
+pacbiohifi_bam  mEubGla1          0.2743     74788681051
+pacbiohifi_clr  mEubGla1          0.4238    414408296673
+pacbiohifi_fqgz mEubGla1          1.1989     85654906121
+--------------- ---------------  ------- ---------------

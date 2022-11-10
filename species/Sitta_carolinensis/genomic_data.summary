@@ -1,14 +1,14 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    21303442494               0      2147483648     39993833701       264859825  species/Sitta_carolinensis/bSitCar2/genomic_data/arima/bSitCar2_S19_L004_R1_001.fastq.gz
-    22029312530               0      2147483648     40246722238       266534584  species/Sitta_carolinensis/bSitCar2/genomic_data/arima/bSitCar2_S19_L004_R2_001.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bSitCar2             21303442494               0      2147483648     39993833701       264859825  species/Sitta_carolinensis/bSitCar2/genomic_data/arima/bSitCar2_S19_L004_R1_001.fastq.gz
+arima           bSitCar2             22029312530               0      2147483648     40246722238       266534584  species/Sitta_carolinensis/bSitCar2/genomic_data/arima/bSitCar2_S19_L004_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.8433
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bSitCar2          1.8433     79875267335
+--------------- ---------------  ------- ---------------

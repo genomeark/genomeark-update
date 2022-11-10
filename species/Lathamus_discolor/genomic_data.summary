@@ -1,14 +1,14 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    37803761337               0      2147483648     71184897954       471423182  species/Lathamus_discolor/bLatDis1/genomic_data/arima/bLatDis1_S8_L003_R1_001.fastq.gz
-    39093744840               0      2147483648     72073277604       477306474  species/Lathamus_discolor/bLatDis1/genomic_data/arima/bLatDis1_S8_L003_R2_001.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bLatDis1             37803761337               0      2147483648     71184897954       471423182  species/Lathamus_discolor/bLatDis1/genomic_data/arima/bLatDis1_S8_L003_R1_001.fastq.gz
+arima           bLatDis1             39093744840               0      2147483648     72073277604       477306474  species/Lathamus_discolor/bLatDis1/genomic_data/arima/bLatDis1_S8_L003_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.8564
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bLatDis1          1.8564    142752530466
+--------------- ---------------  ------- ---------------

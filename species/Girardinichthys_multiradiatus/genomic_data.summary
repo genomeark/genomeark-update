@@ -1,0 +1,29 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fGirMul3              1493932930               0      1493932930      2974288676        19697276  species/Girardinichthys_multiradiatus/fGirMul3/genomic_data/10x/fGirMul3_S1_L001_R1_001.fastq.gz
+10x             fGirMul3              2314954586               0      2314954586      4624886437        30628387  species/Girardinichthys_multiradiatus/fGirMul3/genomic_data/10x/fGirMul3_S1_L006_R1_001.fastq.gz
+10x             fGirMul3              1983933221               0      1983933221      3958655411        26216261  species/Girardinichthys_multiradiatus/fGirMul3/genomic_data/10x/fGirMul3_S1_L007_R1_001.fastq.gz
+pacbio          fGirMul3             15472450523               0      2147483648      8372041742          528012  species/Girardinichthys_multiradiatus/fGirMul3/genomic_data/pacbio/m54144_180721_201002.subreads.bam
+pacbio          fGirMul3             17048691946               0      2147483648      9254443176          548579  species/Girardinichthys_multiradiatus/fGirMul3/genomic_data/pacbio/m54144_180722_062423.subreads.bam
+pacbio          fGirMul3             16547561160               0      2147483648      9024708682          484471  species/Girardinichthys_multiradiatus/fGirMul3/genomic_data/pacbio/m54144_180725_080856.subreads.bam
+bionano         fGirMul4               399266810               0       399266810    233612521989         4053119  species/Girardinichthys_multiradiatus/fGirMul4/genomic_data/bionano/fGirMul4_Saphyr_DLE-1_1
+bionano         fGirMul4               527410028               0       527410028    267966255810         3326309  species/Girardinichthys_multiradiatus/fGirMul4/genomic_data/bionano/fGirMul4_Saphyr_DLE-1_2
+bionano         fGirMul4               916957029               0       916957029    592747469134         9438928  species/Girardinichthys_multiradiatus/fGirMul4/genomic_data/bionano/fGirMul4_Saphyr_DLE-1_3
+bionano         fGirMul4              1033950343               0      1033950343    599479324920         8300865  species/Girardinichthys_multiradiatus/fGirMul4/genomic_data/bionano/fGirMul4_Saphyr_DLE-1_4
+bionano         fGirMul4               758538136               0       758538136    413330215140         7308045  species/Girardinichthys_multiradiatus/fGirMul4/genomic_data/bionano/fGirMul4_Saphyr_DLE-1_5
+bionano         fGirMul4               187692146               0       187692146     90595808835         1098529  species/Girardinichthys_multiradiatus/fGirMul4/genomic_data/bionano/fGirMul4_Saphyr_DLE-1_6
+arima           fGirMul5             25522230784               0      2147483648     53114383346       351750894  species/Girardinichthys_multiradiatus/fGirMul5/genomic_data/arima/fGirMul5_DDHiC_R1.fastq.gz
+arima           fGirMul5             26862375133               0      2147483648     53832314964       356505409  species/Girardinichthys_multiradiatus/fGirMul5/genomic_data/arima/fGirMul5_DDHiC_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fGirMul3          1.9951     58693063067
+arima           fGirMul5          2.0288    106277888484
+bionano         fGirMul4         574.7484   2197731595828
+pacbio          fGirMul3          0.5431     78916620169
+--------------- ---------------  ------- ---------------

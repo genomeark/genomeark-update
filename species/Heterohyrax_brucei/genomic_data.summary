@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     9189527880               0      2147483648     20180289651       133644306  species/Heterohyrax_brucei/mHetBru1/genomic_data/arima/L78729_Track-121211_R1.fastq.gz
-     4630684936               0      2147483648      9918793647        65687377  species/Heterohyrax_brucei/mHetBru1/genomic_data/arima/L78729_Track-123468_R2.fastq.gz
-    58891400982               0      2147483648    126750683013       839408524  species/Heterohyrax_brucei/mHetBru1/genomic_data/arima/L81817_Track-124616_R1.fastq.gz
-              0               0               0      2991738502            8884  species/Heterohyrax_brucei/mHetBru1/genomic_data/bionano/mHetBru_Saphyr_DLE1
-    22575092021               0      2147483648     33023238639         2541296  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m54345U_210831_210829.ccs.bam
-  1053646287760               0      2147483648    563346180853        46149322  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m54345U_210831_210829.subreads.bam
-    21639990609               0      2147483648     29841665104         2312992  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m64046_210824_123627.ccs.bam
-  1025775002157               0      2147483648    546431875855        43208503  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m64046_210824_123627.subreads.bam
-    21507128950               0      2147483648     29664236863         2250569  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m64046_210826_142830.ccs.bam
-  1034292274528               0      2147483648    551582431816        44453473  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m64046_210827_235721.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mHetBru1              9189527880               0      2147483648     20180289651       133644306  species/Heterohyrax_brucei/mHetBru1/genomic_data/arima/L78729_Track-121211_R1.fastq.gz
+arima           mHetBru1              4630684936               0      2147483648      9918793647        65687377  species/Heterohyrax_brucei/mHetBru1/genomic_data/arima/L78729_Track-123468_R2.fastq.gz
+arima           mHetBru1             58891400982               0      2147483648    126750683013       839408524  species/Heterohyrax_brucei/mHetBru1/genomic_data/arima/L81817_Track-124616_R1.fastq.gz
+bionano         mHetBru1              1235913264               0      1235913264    518737926115         6813127  species/Heterohyrax_brucei/mHetBru1/genomic_data/bionano/mHetBru1_Saphyr_DLE1__6KY6K5OLPRQHDNWU_F2P1
+pacbiohifi_bam  mHetBru1             22575092021               0      2147483648     33023238639         2541296  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m54345U_210831_210829.ccs.bam
+pacbiohifi_clr  mHetBru1           1053646287760               0      2147483648    563346180853        46149322  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m54345U_210831_210829.subreads.bam
+pacbiohifi_bam  mHetBru1             21639990609               0      2147483648     29841665104         2312992  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m64046_210824_123627.ccs.bam
+pacbiohifi_clr  mHetBru1           1025775002157               0      2147483648    546431875855        43208503  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m64046_210824_123627.subreads.bam
+pacbiohifi_bam  mHetBru1             21507128950               0      2147483648     29664236863         2250569  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m64046_210826_142830.ccs.bam
+pacbiohifi_clr  mHetBru1           1034292274528               0      2147483648    551582431816        44453473  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m64046_210827_235721.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       2.1571
-pacbiohifi_bam *       1.4078
-pacbiohifi_clr *       0.5335
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mHetBru1          2.1571    338398843620
+bionano         mHetBru1         419.7203    518737926115
+pacbiohifi_bam  mHetBru1          1.4078    122226948215
+pacbiohifi_clr  mHetBru1          0.5335   2177892148167
+--------------- ---------------  ------- ---------------

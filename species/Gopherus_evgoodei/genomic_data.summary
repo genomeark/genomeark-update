@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    20131299323               0      2147483648     39025156491       260167719  species/Gopherus_evgoodei/rGopEvg1/genomic_data/10x/rGopEvg1_S2_L004_R2_001.fastq.gz
-    16991577397               0      2147483648     33374896031       222499306  species/Gopherus_evgoodei/rGopEvg1/genomic_data/10x/rGopEvg1_S3_L004_R1_001.fastq.gz
-    19658321245               0      2147483648     42133635959       280890915  species/Gopherus_evgoodei/rGopEvg1/genomic_data/10x/rGopEvg1_S4_L004_R1_001.fastq.gz
-    17257413250               0      2147483648     31970695994       213137973  species/Gopherus_evgoodei/rGopEvg1/genomic_data/arima/rGopEvg1_ARI2_003_USPD16086863_HLMHGCCXY_L1_R1.fq.gz
-    18459867037               0      2147483648     30953636730       206357586  species/Gopherus_evgoodei/rGopEvg1/genomic_data/arima/rGopEvg1_ARI2_003_USPD16086863_HLMHGCCXY_L1_R2.fq.gz
-    18610406160               0      2147483648     31431219970       209541466  species/Gopherus_evgoodei/rGopEvg1/genomic_data/arima/rGopEvg1_ARI2_003_USPD16086863_HLMHGCCXY_L3_R2.fq.gz
-              0               0               0      4321279662            2666  species/Gopherus_evgoodei/rGopEvg1/genomic_data/bionano/rGopEvg1_Saphyr_DLE1_nonhap_ES_sdb
-    14286206333               0      2147483648      7631500849          622045  species/Gopherus_evgoodei/rGopEvg1/genomic_data/pacbio/m54158_180328_150437.subreads.bam
-    16659213223               0      2147483648      8962803148          642713  species/Gopherus_evgoodei/rGopEvg1/genomic_data/pacbio/m54159_180328_194345.subreads.bam
-    15809680451               0      2147483648      8433366704          743896  species/Gopherus_evgoodei/rGopEvg1/genomic_data/pacbio/m54159_180329_055441.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             rGopEvg1             20131299323               0      2147483648     39025156491       260167719  species/Gopherus_evgoodei/rGopEvg1/genomic_data/10x/rGopEvg1_S2_L004_R2_001.fastq.gz
+10x             rGopEvg1             16991577397               0      2147483648     33374896031       222499306  species/Gopherus_evgoodei/rGopEvg1/genomic_data/10x/rGopEvg1_S3_L004_R1_001.fastq.gz
+10x             rGopEvg1             19658321245               0      2147483648     42133635959       280890915  species/Gopherus_evgoodei/rGopEvg1/genomic_data/10x/rGopEvg1_S4_L004_R1_001.fastq.gz
+arima           rGopEvg1             17257413250               0      2147483648     31970695994       213137973  species/Gopherus_evgoodei/rGopEvg1/genomic_data/arima/rGopEvg1_ARI2_003_USPD16086863_HLMHGCCXY_L1_R1.fq.gz
+arima           rGopEvg1             18459867037               0      2147483648     30953636730       206357586  species/Gopherus_evgoodei/rGopEvg1/genomic_data/arima/rGopEvg1_ARI2_003_USPD16086863_HLMHGCCXY_L1_R2.fq.gz
+arima           rGopEvg1             18610406160               0      2147483648     31431219970       209541466  species/Gopherus_evgoodei/rGopEvg1/genomic_data/arima/rGopEvg1_ARI2_003_USPD16086863_HLMHGCCXY_L3_R2.fq.gz
+bionano         rGopEvg1              1817156715               0      1817156715    994159579633        16227498  species/Gopherus_evgoodei/rGopEvg1/genomic_data/bionano/rGopEvg1_Saphyr_DLE1_829429
+pacbio          rGopEvg1             14286206333               0      2147483648      7631500849          622045  species/Gopherus_evgoodei/rGopEvg1/genomic_data/pacbio/m54158_180328_150437.subreads.bam
+pacbio          rGopEvg1             16659213223               0      2147483648      8962803148          642713  species/Gopherus_evgoodei/rGopEvg1/genomic_data/pacbio/m54159_180328_194345.subreads.bam
+pacbio          rGopEvg1             15809680451               0      2147483648      8433366704          743896  species/Gopherus_evgoodei/rGopEvg1/genomic_data/pacbio/m54159_180329_055441.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       2.0171
-arima        *       1.7367
-pacbio       *       0.5352
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             rGopEvg1          2.0171    300389794709
+arima           rGopEvg1          1.7367    186787078212
+bionano         rGopEvg1         547.0962    994159579633
+pacbio          rGopEvg1          0.5352    156206450993
+--------------- ---------------  ------- ---------------

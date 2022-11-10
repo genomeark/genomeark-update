@@ -1,12 +1,13 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-              0               0               0      2263664796              71  species/Rhineura_floridana/rRhiFlo1/genomic_data/bionano/rRhiFlo1_Saphyr_DLE1_3688023
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+bionano         rRhiFlo1               571725374               0       571725374    332124455055         2414118  species/Rhineura_floridana/rRhiFlo1/genomic_data/bionano/rRhiFlo1_Saphyr_DLE1_3687461
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+bionano         rRhiFlo1         580.9160    332124455055
+--------------- ---------------  ------- ---------------

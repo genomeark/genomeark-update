@@ -1,20 +1,22 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    10948367948               0      2147483648     22166624662       146798838  species/Toxotes_jaculatrix/fToxJac2/genomic_data/arima/fToxJac2_Arima2_R1.fastq.gz
-    11360196844               0      2147483648     22358731643       148071075  species/Toxotes_jaculatrix/fToxJac2/genomic_data/arima/fToxJac2_Arima2_R2.fastq.gz
-     7546338956               0      2147483648      8993719389          594540  species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m54345U_200927_005508.ccs.bam
-   268968209612               0      2147483648    140744859049        10088357  species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m54345U_200927_005508.subreads.bam
-    14584683888               0      2147483648     18182283254         1192781  species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m64046_201211_121116.ccs.bam
-   515102057836               0      2147483648    267761848713        19447379  species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m64046_201211_121116.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fToxJac2             10948367948               0      2147483648     22166624662       146798838  species/Toxotes_jaculatrix/fToxJac2/genomic_data/arima/fToxJac2_Arima2_R1.fastq.gz
+arima           fToxJac2             11360196844               0      2147483648     22358731643       148071075  species/Toxotes_jaculatrix/fToxJac2/genomic_data/arima/fToxJac2_Arima2_R2.fastq.gz
+bionano         fToxJac2              1405670500               0      1405670500    943986810052        13427215  species/Toxotes_jaculatrix/fToxJac2/genomic_data/bionano/20200608_Natalus_tumidirostris_Toxotes_jaculatrix_MATBTXOLPQYUZNWU_F2P1_2020-6-9_14_05_57_RawMolecules
+pacbiohifi_bam  fToxJac2              7546338956               0      2147483648      8993719389          594540  species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m54345U_200927_005508.ccs.bam
+pacbiohifi_clr  fToxJac2            268968209612               0      2147483648    140744859049        10088357  species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m54345U_200927_005508.subreads.bam
+pacbiohifi_bam  fToxJac2             14584683888               0      2147483648     18182283254         1192781  species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m64046_201211_121116.ccs.bam
+pacbiohifi_clr  fToxJac2            515102057836               0      2147483648    267761848713        19447379  species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio_hifi/m64046_201211_121116.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.9865
-pacbiohifi_bam *       1.2353
-pacbiohifi_clr *       0.5205
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fToxJac2          1.9865     44315963959
+bionano         fToxJac2         671.5562    943986810052
+pacbiohifi_bam  fToxJac2          1.2353     27338452519
+pacbiohifi_clr  fToxJac2          0.5205    408108574206
+--------------- ---------------  ------- ---------------

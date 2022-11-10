@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     2422203841               0      2422203841      2782603840       347825480  species/Pogoniulus_pusillus/bPogPus1/genomic_data/10x/bPogPus1_S1_L001_I1_001.fastq.gz
-    27777266252               0      2147483648     52602048508       348357950  species/Pogoniulus_pusillus/bPogPus1/genomic_data/10x/bPogPus1_S1_L001_R1_001.fastq.gz
-    28321986239               0      2147483648     52478359561       347538818  species/Pogoniulus_pusillus/bPogPus1/genomic_data/10x/bPogPus1_S1_L001_R2_001.fastq.gz
-    22283868592               0      2147483648     41067168524       273781133  species/Pogoniulus_pusillus/bPogPus1/genomic_data/arima/bPogPus1_S12_L001_R1_001.fastq.gz
-    24923430147               0      2147483648     40011916935       266746112  species/Pogoniulus_pusillus/bPogPus1/genomic_data/arima/bPogPus1_S12_L001_R2_001.fastq.gz
-              0               0               0      1401659559             351  species/Pogoniulus_pusillus/bPogPus1/genomic_data/bionano/bPogPus1_Saphyr_DLE1_3680500
-   105214832502               0      2147483648     55012517711         3156860  species/Pogoniulus_pusillus/bPogPus1/genomic_data/pacbio/m54306U_191030_031807.subreads.bam
-   193619947235               0      2147483648    102533409224         4370930  species/Pogoniulus_pusillus/bPogPus1/genomic_data/pacbio/m54306U_191222_035135.subreads.bam
-    15421514555               0      2147483648      8102731859          587889  species/Pogoniulus_pusillus/bPogPus1/genomic_data/pacbio/m64055_191015_211924.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bPogPus1              2422203841               0      2422203841      2782603840       347825480  species/Pogoniulus_pusillus/bPogPus1/genomic_data/10x/bPogPus1_S1_L001_I1_001.fastq.gz
+10x             bPogPus1             27777266252               0      2147483648     52602048508       348357950  species/Pogoniulus_pusillus/bPogPus1/genomic_data/10x/bPogPus1_S1_L001_R1_001.fastq.gz
+10x             bPogPus1             28321986239               0      2147483648     52478359561       347538818  species/Pogoniulus_pusillus/bPogPus1/genomic_data/10x/bPogPus1_S1_L001_R2_001.fastq.gz
+arima           bPogPus1             22283868592               0      2147483648     41067168524       273781133  species/Pogoniulus_pusillus/bPogPus1/genomic_data/arima/bPogPus1_S12_L001_R1_001.fastq.gz
+arima           bPogPus1             24923430147               0      2147483648     40011916935       266746112  species/Pogoniulus_pusillus/bPogPus1/genomic_data/arima/bPogPus1_S12_L001_R2_001.fastq.gz
+bionano         bPogPus1              1171341817               0      1171341817    597460796140         5791047  species/Pogoniulus_pusillus/bPogPus1/genomic_data/bionano/bPogPus1_Saphyr_DLE1_3633670
+pacbio          bPogPus1            105214832502               0      2147483648     55012517711         3156860  species/Pogoniulus_pusillus/bPogPus1/genomic_data/pacbio/m54306U_191030_031807.subreads.bam
+pacbio          bPogPus1            193619947235               0      2147483648    102533409224         4370930  species/Pogoniulus_pusillus/bPogPus1/genomic_data/pacbio/m54306U_191222_035135.subreads.bam
+pacbio          bPogPus1             15421514555               0      2147483648      8102731859          587889  species/Pogoniulus_pusillus/bPogPus1/genomic_data/pacbio/m64055_191015_211924.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8431
-arima        *       1.6787
-pacbio       *       0.5271
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bPogPus1          1.8431    107860896165
+arima           bPogPus1          1.6787     79246892393
+bionano         bPogPus1         510.0652    597460796140
+pacbio          bPogPus1          0.5271    165644492721
+--------------- ---------------  ------- ---------------

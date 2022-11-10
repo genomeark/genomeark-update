@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     9575293114               0      2147483648     17518369509       116015696  species/Catharus_ustulatus/bCatUst1/genomic_data/10x/bCatUst1_S1_L001_R1_001.fastq.gz
-     7686091089               0      2147483648     14029295601        92909245  species/Catharus_ustulatus/bCatUst1/genomic_data/10x/bCatUst1_S2_L001_R1_001.fastq.gz
-    11037861144               0      2147483648     20281286509       134313160  species/Catharus_ustulatus/bCatUst1/genomic_data/10x/bCatUst1_S4_L001_R1_001.fastq.gz
-    33186312112               0      2147483648     55435408094       369569402  species/Catharus_ustulatus/bCatUst1/genomic_data/arima/bCatUst1_ARI1_005_R1.fastq.gz
-    38690999323               0      2147483648     53329978789       355533209  species/Catharus_ustulatus/bCatUst1/genomic_data/arima/bCatUst1_ARI1_005_R2.fastq.gz
-              0               0               0      1451389759             233  species/Catharus_ustulatus/bCatUst1/genomic_data/bionano/bCatUst1_Saphyr_DLE1_2364559
-    19344940956               0      2147483648     10449708912          525339  species/Catharus_ustulatus/bCatUst1/genomic_data/pacbio/m54159_181108_213941.subreads.bam
-    19950904005               0      2147483648     10854666766          583239  species/Catharus_ustulatus/bCatUst1/genomic_data/pacbio/m54159_181110_185902.subreads.bam
-    18267847992               0      2147483648      9911937260          540153  species/Catharus_ustulatus/bCatUst1/genomic_data/pacbio/m54159_181111_051224.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bCatUst1              9575293114               0      2147483648     17518369509       116015696  species/Catharus_ustulatus/bCatUst1/genomic_data/10x/bCatUst1_S1_L001_R1_001.fastq.gz
+10x             bCatUst1              7686091089               0      2147483648     14029295601        92909245  species/Catharus_ustulatus/bCatUst1/genomic_data/10x/bCatUst1_S2_L001_R1_001.fastq.gz
+10x             bCatUst1             11037861144               0      2147483648     20281286509       134313160  species/Catharus_ustulatus/bCatUst1/genomic_data/10x/bCatUst1_S4_L001_R1_001.fastq.gz
+arima           bCatUst1             33186312112               0      2147483648     55435408094       369569402  species/Catharus_ustulatus/bCatUst1/genomic_data/arima/bCatUst1_ARI1_005_R1.fastq.gz
+arima           bCatUst1             38690999323               0      2147483648     53329978789       355533209  species/Catharus_ustulatus/bCatUst1/genomic_data/arima/bCatUst1_ARI1_005_R2.fastq.gz
+bionano         bCatUst1               415079069               0       415079069    273820905226         2156867  species/Catharus_ustulatus/bCatUst1/genomic_data/bionano/bCatUst1_Saphyr_DLE1_2339780
+pacbio          bCatUst1             19344940956               0      2147483648     10449708912          525339  species/Catharus_ustulatus/bCatUst1/genomic_data/pacbio/m54159_181108_213941.subreads.bam
+pacbio          bCatUst1             19950904005               0      2147483648     10854666766          583239  species/Catharus_ustulatus/bCatUst1/genomic_data/pacbio/m54159_181110_185902.subreads.bam
+pacbio          bCatUst1             18267847992               0      2147483648      9911937260          540153  species/Catharus_ustulatus/bCatUst1/genomic_data/pacbio/m54159_181111_051224.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8314
-arima        *       1.4660
-pacbio       *       0.5422
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bCatUst1          1.8314    127916935499
+arima           bCatUst1          1.4660    105372138563
+bionano         bCatUst1         659.6837    273820905226
+pacbio          bCatUst1          0.5422     90092014837
+--------------- ---------------  ------- ---------------

@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-      792583070               0       792583070       879590352       109948794  species/Salarias_fasciatus/fSalaFa1/genomic_data/10x/fSalaFa1_S1_L001_I1_001.fastq.gz
-    10548474907               0      2147483648     16739668735       110858738  species/Salarias_fasciatus/fSalaFa1/genomic_data/10x/fSalaFa1_S1_L001_R1_001.fastq.gz
-     9843392547               0      2147483648     14336443695        94943340  species/Salarias_fasciatus/fSalaFa1/genomic_data/10x/fSalaFa1_S3_L001_R2_001.fastq.gz
-              0               0               0      1538269879             860  species/Salarias_fasciatus/fSalaFa1/genomic_data/bionano/fSalaFa1_Saphyr_DLE1_265699
-    40258322439               0      2147483648     60425265730       400167322  species/Salarias_fasciatus/fSalaFa1/genomic_data/dovetail/fSalaFa1_28791_6#1_R1.fastq.gz
-    43612630938               0      2147483648     60065680886       397785966  species/Salarias_fasciatus/fSalaFa1/genomic_data/dovetail/fSalaFa1_28791_6#1_R2.fastq.gz
-    12119816416               0      2147483648      6560104916          431683  species/Salarias_fasciatus/fSalaFa1/genomic_data/pacbio/m54097_180816_114822.subreads.bam
-     9496059356               0      2147483648      4956307796          687652  species/Salarias_fasciatus/fSalaFa1/genomic_data/pacbio/m54097_180912_010341.subreads.bam
-     7962300489               0      2147483648      4313416185          246315  species/Salarias_fasciatus/fSalaFa1/genomic_data/pacbio/m54097_181019_220505.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fSalaFa1               792583070               0       792583070       879590352       109948794  species/Salarias_fasciatus/fSalaFa1/genomic_data/10x/fSalaFa1_S1_L001_I1_001.fastq.gz
+10x             fSalaFa1             10548474907               0      2147483648     16739668735       110858738  species/Salarias_fasciatus/fSalaFa1/genomic_data/10x/fSalaFa1_S1_L001_R1_001.fastq.gz
+10x             fSalaFa1              9843392547               0      2147483648     14336443695        94943340  species/Salarias_fasciatus/fSalaFa1/genomic_data/10x/fSalaFa1_S3_L001_R2_001.fastq.gz
+bionano         fSalaFa1              1158738376               0      1158738376   1075605489043        11022272  species/Salarias_fasciatus/fSalaFa1/genomic_data/bionano/fSalaFa1_Saphyr_DLE1_265699
+dovetail        fSalaFa1             40258322439               0      2147483648     60425265730       400167322  species/Salarias_fasciatus/fSalaFa1/genomic_data/dovetail/fSalaFa1_28791_6#1_R1.fastq.gz
+dovetail        fSalaFa1             43612630938               0      2147483648     60065680886       397785966  species/Salarias_fasciatus/fSalaFa1/genomic_data/dovetail/fSalaFa1_28791_6#1_R2.fastq.gz
+pacbio          fSalaFa1             12119816416               0      2147483648      6560104916          431683  species/Salarias_fasciatus/fSalaFa1/genomic_data/pacbio/m54097_180816_114822.subreads.bam
+pacbio          fSalaFa1              9496059356               0      2147483648      4956307796          687652  species/Salarias_fasciatus/fSalaFa1/genomic_data/pacbio/m54097_180912_010341.subreads.bam
+pacbio          fSalaFa1              7962300489               0      2147483648      4313416185          246315  species/Salarias_fasciatus/fSalaFa1/genomic_data/pacbio/m54097_181019_220505.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5084
-dovetail     *       1.4163
-pacbio       *       0.5351
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fSalaFa1          1.5084    128311863525
+bionano         fSalaFa1         928.2556   1075605489043
+dovetail        fSalaFa1          1.4163    118786431267
+pacbio          fSalaFa1          0.5351     65356930307
+--------------- ---------------  ------- ---------------

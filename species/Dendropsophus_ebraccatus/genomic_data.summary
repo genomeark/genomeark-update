@@ -1,28 +1,36 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     2863629375               0      2863629375      3658838048       457354756  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/10x/aDenEbr1_S1_L002_I1_001.fastq.gz
-    35681245005               0      2147483648     68595635610       457304237  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/10x/aDenEbr1_S1_L002_R1_001.fastq.gz
-    36940959193               0      2147483648     68737304985       458248717  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/10x/aDenEbr1_S1_L002_R2_001.fastq.gz
-    34210573114               0      2147483648     62189543782       414596974  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/arima/aDenEbr1_ARI8_4_USPD16090940_HTNHMCCXY_L8_1.clean.fq.gz
-    36216085012               0      2147483648     58786818427       391912122  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/arima/aDenEbr1_ARI8_4_USPD16090940_HTNHMCCXY_L8_2.clean.fq.gz
-    18107941707               0      2147483648     30775235256       205168243  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/arima/aDenEbr1_ARI8_4_USPD16090940_HTNV3CCXY_L6_2.clean.fq.gz
-              0               0               0      5014756725            1131  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/bionano/aDenEbr1_Saphyr_DLE1_2033934
-    13365697963               0      2147483648      7132468621          527536  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/pacbio/m54158_181026_204743.subreads.bam
-     9719508609               0      2147483648      5278103914          300263  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/pacbio/m54158_190320_183842.subreads.bam
-    15145424378               0      2147483648      8198550087          568633  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/pacbio/m54158_190329_180100.subreads.bam
-    10139043884               0      2147483648     18391830453       121800206  species/Dendropsophus_ebraccatus/aDenEbr4/genomic_data/illumina/HGW3LDSXX_18819980_S66_L004_R2_001.fastq.gz
-    11899059965               0      2147483648     22390245713       148279778  species/Dendropsophus_ebraccatus/aDenEbr5/genomic_data/illumina/HGW2VDSXX_18820006_S8_L001_R1_001.fastq.gz
-     8518650696               0      2147483648     15992594978       105911228  species/Dendropsophus_ebraccatus/aDenEbr5/genomic_data/illumina/HGW3LDSXX_18820006_S60_L002_R1_001.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             aDenEbr1              2863629375               0      2863629375      3658838048       457354756  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/10x/aDenEbr1_S1_L002_I1_001.fastq.gz
+10x             aDenEbr1             35681245005               0      2147483648     68595635610       457304237  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/10x/aDenEbr1_S1_L002_R1_001.fastq.gz
+10x             aDenEbr1             36940959193               0      2147483648     68737304985       458248717  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/10x/aDenEbr1_S1_L002_R2_001.fastq.gz
+arima           aDenEbr1             34210573114               0      2147483648     62189543782       414596974  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/arima/aDenEbr1_ARI8_4_USPD16090940_HTNHMCCXY_L8_1.clean.fq.gz
+arima           aDenEbr1             36216085012               0      2147483648     58786818427       391912122  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/arima/aDenEbr1_ARI8_4_USPD16090940_HTNHMCCXY_L8_2.clean.fq.gz
+arima           aDenEbr1             18107941707               0      2147483648     30775235256       205168243  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/arima/aDenEbr1_ARI8_4_USPD16090940_HTNV3CCXY_L6_2.clean.fq.gz
+bionano         aDenEbr1               507202465               0       507202465    448350012539         2710885  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/bionano/aDenEbr1_Saphyr_DLE1_2033932
+illumina        aDenEbr1             39600620126               0      2147483648     79742591047       528096647  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/illumina/aDenEbr1_S1_L001_R1_001.fq.gz
+illumina        aDenEbr1             41845149450               0      2147483648     79925880552       529310486  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/illumina/aDenEbr1_S1_L001_R2_001.fq.gz
+pacbio          aDenEbr1             13365697963               0      2147483648      7132468621          527536  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/pacbio/m54158_181026_204743.subreads.bam
+pacbio          aDenEbr1              9719508609               0      2147483648      5278103914          300263  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/pacbio/m54158_190320_183842.subreads.bam
+pacbio          aDenEbr1             15145424378               0      2147483648      8198550087          568633  species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/pacbio/m54158_190329_180100.subreads.bam
+illumina        aDenEbr4             10418788287               0      2147483648     19559235360       129531364  species/Dendropsophus_ebraccatus/aDenEbr4/genomic_data/illumina/HGW3LDSXX_18819980_S66_L002_R1_001.fastq.gz
+illumina        aDenEbr4             10602536180               0      2147483648     19516159255       129246087  species/Dendropsophus_ebraccatus/aDenEbr4/genomic_data/illumina/HGW3LDSXX_18819980_S66_L002_R2_001.fastq.gz
+illumina        aDenEbr4             10003600377               0      2147483648     18431210226       122060999  species/Dendropsophus_ebraccatus/aDenEbr4/genomic_data/illumina/HGW3LDSXX_18819980_S66_L004_R1_001.fastq.gz
+illumina        aDenEbr5              8518650696               0      2147483648     15992594978       105911228  species/Dendropsophus_ebraccatus/aDenEbr5/genomic_data/illumina/HGW3LDSXX_18820006_S60_L002_R1_001.fastq.gz
+illumina        aDenEbr5              8651393603               0      2147483648     15962856929       105714288  species/Dendropsophus_ebraccatus/aDenEbr5/genomic_data/illumina/HGW3LDSXX_18820006_S60_L002_R2_001.fastq.gz
+illumina        aDenEbr5              8354422692               0      2147483648     15695335110       103942620  species/Dendropsophus_ebraccatus/aDenEbr5/genomic_data/illumina/HGYV5DSXX_18820006_S8_L001_R1_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8677
-arima        *       1.7140
-illumina     *       1.8580
-pacbio       *       0.5390
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             aDenEbr1          1.8677    140984891364
+arima           aDenEbr1          1.7140    180395990645
+bionano         aDenEbr1         883.9665    448350012539
+illumina        aDenEbr1          1.9433    158273564017
+illumina        aDenEbr4          1.8535    199286864687
+illumina        aDenEbr5          1.8668    170240168296
+pacbio          aDenEbr1          0.5390    176378626110
+--------------- ---------------  ------- ---------------

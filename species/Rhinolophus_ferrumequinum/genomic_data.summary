@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-      507212497               0       507212497       817075232       102134404  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/10x/mRhiFer1_S2_L008_I1_001.fastq.gz
-     7859593115               0      2147483648     13243074503        87702483  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/10x/mRhiFer1_S4_L008_R1_001.fastq.gz
-     9087133245               0      2147483648     13036579092        86334965  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/10x/mRhiFer1_S4_L008_R2_001.fastq.gz
-              0               0               0      2158224852            1676  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/bionano/mRhiFer1_Saphyr_BspQI
-              0               0               0      2163898343            1338  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/bionano/mRhiFer1_Saphyr_BssSI
-    14085473617               0      2147483648      7429707279          731092  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/pacbio/m54062_170727_233654.subreads.bam
-    12835855591               0      2147483648      6711158900          681169  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/pacbio/m54142_170727_140630.subreads.bam
-    10301902171               0      2147483648      5370915430          553961  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/pacbio/m54144_170729_162235.subreads.bam
-    13935946790               0      2147483648     22659749513       150064566  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/phase/mRhiFer1_S3HiC_R1.fastq.gz
-    16177977529               0      2147483648     23099710375       152978221  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/phase/mRhiFer1_S3HiC_R2.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mRhiFer1               507212497               0       507212497       817075232       102134404  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/10x/mRhiFer1_S2_L008_I1_001.fastq.gz
+10x             mRhiFer1              7859593115               0      2147483648     13243074503        87702483  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/10x/mRhiFer1_S4_L008_R1_001.fastq.gz
+10x             mRhiFer1              9087133245               0      2147483648     13036579092        86334965  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/10x/mRhiFer1_S4_L008_R2_001.fastq.gz
+bionano         mRhiFer1               744392117               0       744392117    546540984257         6426572  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/bionano/mRhiFer1_Saphyr_BspQI
+bionano         mRhiFer1              1629703905               0      1629703905   1046386247695        11996185  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/bionano/mRhiFer1_Saphyr_BssSI
+pacbio          mRhiFer1             14085473617               0      2147483648      7429707279          731092  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/pacbio/m54062_170727_233654.subreads.bam
+pacbio          mRhiFer1             12835855591               0      2147483648      6711158900          681169  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/pacbio/m54142_170727_140630.subreads.bam
+pacbio          mRhiFer1             10301902171               0      2147483648      5370915430          553961  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/pacbio/m54144_170729_162235.subreads.bam
+phase           mRhiFer1             13935946790               0      2147483648     22659749513       150064566  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/phase/mRhiFer1_S3HiC_R1.fastq.gz
+phase           mRhiFer1             16177977529               0      2147483648     23099710375       152978221  species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/phase/mRhiFer1_S3HiC_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5524
-pacbio       *       0.5241
-phase        *       1.4874
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mRhiFer1          1.5524    106845581873
+bionano         mRhiFer1         670.9615   1592927231952
+pacbio          mRhiFer1          0.5241    152498905131
+phase           mRhiFer1          1.4874     44791451032
+--------------- ---------------  ------- ---------------

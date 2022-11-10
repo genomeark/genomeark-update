@@ -1,27 +1,28 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    38880080348               0      2147483648     75688865972       504592439  species/Melospiza_georgiana/bMelGeo1/genomic_data/arima/bMelGeo1_Swamp_Sparrow_R1.fastq.gz
-    39860593005               0      2147483648     75787585668       505250589  species/Melospiza_georgiana/bMelGeo1/genomic_data/arima/bMelGeo1_Swamp_Sparrow_R2.fastq.gz
-              0               0               0      1290751942             332  species/Melospiza_georgiana/bMelGeo1/genomic_data/bionano/bMelGeo1_Saphyr_DLE1_3680754
-    32242072017               0      2147483648     40287317086         2609127  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m54306Ue_211022_061550.hifi_reads.bam
-     7115695475               0      2147483648      8891248668          575824  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m54306Ue_211022_061550.hifi_reads.fastq.gz
-   138426097838               0      2147483648     62420978223         3394833  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211010_034013.reads.bam
-    50876176466               0      2147483648     61927029155         3818123  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211016_065650.hifi_reads.bam
-    11499297961               0      2147483648     13997069150          862992  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211016_065650.hifi_reads.fastq.gz
-   221817525499               0      2147483648    101958198477         4878576  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211016_065650.reads.bam
-    53867978042               0      2147483648     65177527450         4236726  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211017_175320.hifi_reads.bam
-    12142572923               0      2147483648     14691898763          955015  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211017_175320.hifi_reads.fastq.gz
-   253509161374               0      2147483648    116891884242         5576535  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211017_175320.reads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bMelGeo1             38880080348               0      2147483648     75688865972       504592439  species/Melospiza_georgiana/bMelGeo1/genomic_data/arima/bMelGeo1_Swamp_Sparrow_R1.fastq.gz
+arima           bMelGeo1             39860593005               0      2147483648     75787585668       505250589  species/Melospiza_georgiana/bMelGeo1/genomic_data/arima/bMelGeo1_Swamp_Sparrow_R2.fastq.gz
+bionano         bMelGeo1               516740055               0       516740055    370172535560         2653006  species/Melospiza_georgiana/bMelGeo1/genomic_data/bionano/bMelGeo1_Saphyr_DLE1_3680748
+pacbiohifi_bam  bMelGeo1             32242072017               0      2147483648      8875969154          574596  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m54306Ue_211022_061550.hifi_reads.bam
+pacbiohifi_fqgz bMelGeo1              7115695475               0      2147483648      8891248668          575824  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m54306Ue_211022_061550.hifi_reads.fastq.gz
+pacbiohifi_clr  bMelGeo1            138426097838               0      2147483648     62420978223         3394833  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211010_034013.reads.bam
+pacbiohifi_bam  bMelGeo1             50876176466               0      2147483648     13681091770          850414  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211016_065650.hifi_reads.bam
+pacbiohifi_fqgz bMelGeo1             11499297961               0      2147483648     13997069150          862992  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211016_065650.hifi_reads.fastq.gz
+pacbiohifi_clr  bMelGeo1            221817525499               0      2147483648    101958198477         4878576  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211016_065650.reads.bam
+pacbiohifi_bam  bMelGeo1             53867978042               0      2147483648     14577700297          954254  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211017_175320.hifi_reads.bam
+pacbiohifi_fqgz bMelGeo1             12142572923               0      2147483648     14691898763          955015  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211017_175320.hifi_reads.fastq.gz
+pacbiohifi_clr  bMelGeo1            253509161374               0      2147483648    116891884242         5576535  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211017_175320.reads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.9162
-pacbiohifi_fqgz *       1.2218
-pacbiohifi_bam *       1.2219
-pacbiohifi_clr *       0.4582
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bMelGeo1          1.9162    150882878279
+bionano         bMelGeo1         716.3612    370172535560
+pacbiohifi_bam  bMelGeo1          0.2710     45730185437
+pacbiohifi_clr  bMelGeo1          0.4582    333854768055
+pacbiohifi_fqgz bMelGeo1          1.2218     46010331757
+--------------- ---------------  ------- ---------------

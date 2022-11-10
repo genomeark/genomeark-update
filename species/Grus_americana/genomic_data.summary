@@ -1,26 +1,29 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     2343019422               0      2343019422      2829441320       353680165  species/Grus_americana/bGruAme1/genomic_data/10x/bGruAme1_S3_L004_I1_001.fastq.gz
-    28039395247               0      2147483648     54042666552       357898453  species/Grus_americana/bGruAme1/genomic_data/10x/bGruAme1_S3_L004_R1_001.fastq.gz
-    28806055595               0      2147483648     54265367798       359373310  species/Grus_americana/bGruAme1/genomic_data/10x/bGruAme1_S3_L004_R2_001.fastq.gz
-    30561578416               0      2147483648     48429985693       322866571  species/Grus_americana/bGruAme1/genomic_data/arima/bGruAme1_2450_17_R1_001.fastq.gz
-    34125035400               0      2147483648     47404790389       316031951  species/Grus_americana/bGruAme1/genomic_data/arima/bGruAme1_2450_17_R2_001.fastq.gz
-              0               0               0      1358499593             191  species/Grus_americana/bGruAme1/genomic_data/bionano/bGruAme1_Saphyr_DLE1_3680544
-   176214900428               0      2147483648     92191666370         5002571  species/Grus_americana/bGruAme1/genomic_data/pacbio/m54306U_200108_192021.subreads.bam
-   274090010681               0      2147483648    141080395458         8715937  species/Grus_americana/bGruAme1/genomic_data/pacbio/m54306U_200109_205818.subreads.bam
-    23271535036               0      2147483648     44549199594       295027811  species/Grus_americana/bGruAme2/genomic_data/illumina/Crane1-bGruAme2_R2.fastq.gz
-    21803432414               0      2147483648     44028303135       291578166  species/Grus_americana/bGruAme3/genomic_data/illumina/Crane2-bGruAme3_R1.fastq.gz
-    22934559899               0      2147483648     44464376257       294466078  species/Grus_americana/bGruAme3/genomic_data/illumina/Crane2-bGruAme3_R2.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bGruAme1              2343019422               0      2343019422      2829441320       353680165  species/Grus_americana/bGruAme1/genomic_data/10x/bGruAme1_S3_L004_I1_001.fastq.gz
+10x             bGruAme1             28039395247               0      2147483648     54042666552       357898453  species/Grus_americana/bGruAme1/genomic_data/10x/bGruAme1_S3_L004_R1_001.fastq.gz
+10x             bGruAme1             28806055595               0      2147483648     54265367798       359373310  species/Grus_americana/bGruAme1/genomic_data/10x/bGruAme1_S3_L004_R2_001.fastq.gz
+arima           bGruAme1             30561578416               0      2147483648     48429985693       322866571  species/Grus_americana/bGruAme1/genomic_data/arima/bGruAme1_2450_17_R1_001.fastq.gz
+arima           bGruAme1             34125035400               0      2147483648     47404790389       316031951  species/Grus_americana/bGruAme1/genomic_data/arima/bGruAme1_2450_17_R2_001.fastq.gz
+bionano         bGruAme1               666664939               0       666664939    417393446023         4317758  species/Grus_americana/bGruAme1/genomic_data/bionano/bGruAme1_Saphyr_DLE1_3680517
+pacbio          bGruAme1            176214900428               0      2147483648     92191666370         5002571  species/Grus_americana/bGruAme1/genomic_data/pacbio/m54306U_200108_192021.subreads.bam
+pacbio          bGruAme1            274090010681               0      2147483648    141080395458         8715937  species/Grus_americana/bGruAme1/genomic_data/pacbio/m54306U_200109_205818.subreads.bam
+illumina        bGruAme2             21734826834               0      2147483648     43930493063       290930427  species/Grus_americana/bGruAme2/genomic_data/illumina/Crane1-bGruAme2_R1.fastq.gz
+illumina        bGruAme2             23271535036               0      2147483648     44549199594       295027811  species/Grus_americana/bGruAme2/genomic_data/illumina/Crane1-bGruAme2_R2.fastq.gz
+illumina        bGruAme3             21803432414               0      2147483648     44028303135       291578166  species/Grus_americana/bGruAme3/genomic_data/illumina/Crane2-bGruAme3_R1.fastq.gz
+illumina        bGruAme3             22934559899               0      2147483648     44464376257       294466078  species/Grus_americana/bGruAme3/genomic_data/illumina/Crane2-bGruAme3_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8776
-arima        *       1.4496
-illumina     *       1.9562
-pacbio       *       0.5167
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bGruAme1          1.8776    111132271767
+arima           bGruAme1          1.4496     93769715387
+bionano         bGruAme1         626.0917    417393446023
+illumina        bGruAme2          1.9483     87685894831
+illumina        bGruAme3          1.9647     87896733497
+pacbio          bGruAme1          0.5167    232672547570
+--------------- ---------------  ------- ---------------

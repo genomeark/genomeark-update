@@ -1,32 +1,35 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    35949950515               0      2147483648     49615025512       328576344  species/Acipenser_ruthenus/fAciRut1/genomic_data/illumina/fAciRut1_27071_6#1_R2.fastq.gz
-    37155924093               0      2147483648     56196540730       372162538  species/Acipenser_ruthenus/fAciRut2/genomic_data/illumina/fAciRut2_27071_7#1_R1.fastq.gz
-    39374797837               0      2147483648     55764225778       369299508  species/Acipenser_ruthenus/fAciRut2/genomic_data/illumina/fAciRut2_27071_7#1_R2.fastq.gz
-    11724313961               0      2147483648     16676722273       110441874  species/Acipenser_ruthenus/fAciRut3/genomic_data/10x/fAciRut3_S1_L003_R2_001.fastq.gz
-     1100996727               0      1100996727      1187307496       148413437  species/Acipenser_ruthenus/fAciRut3/genomic_data/10x/fAciRut3_S3_L003_I1_001.fastq.gz
-     9720952221               0      2147483648     14656474835        97062747  species/Acipenser_ruthenus/fAciRut3/genomic_data/10x/fAciRut3_S4_L003_R1_001.fastq.gz
-              0               0               0      2162940744            2465  species/Acipenser_ruthenus/fAciRut3/genomic_data/bionano/fAciRut3_Saphyr_BssSI
-    44708054695               0      2147483648     61295419548       405929951  species/Acipenser_ruthenus/fAciRut3/genomic_data/dovetail/fAciRut3_28791_7#1_R2.fastq.gz
-    41532132670               0      2147483648     61247626320       405613438  species/Acipenser_ruthenus/fAciRut3/genomic_data/dovetail/fAciRut3_28791_8#1_R1.fastq.gz
-    44857203431               0      2147483648     61611769016       408024960  species/Acipenser_ruthenus/fAciRut3/genomic_data/dovetail/fAciRut3_28791_8#1_R2.fastq.gz
-   238078450336               0      2147483648    124619217007         6637866  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_190301_161945.subreads.bam
-   219538046065               0      2147483648    114731390550         6163673  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_190305_101633.subreads.bam
-    20358079302               0      2147483648     27605725161         2021688  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_200221_203433.ccs.bam
-    20565581860               0      2147483648     28919879825         2156361  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_200223_025939.ccs.bam
-    20850316204               0      2147483648     27980126487         2085309  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_200224_092430.ccs.bam
-   117542087813               0      2147483648      1593671625           81883  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/mat/m64016_190301_161945.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+illumina        fAciRut1             34481414083               0      2147483648     49765012514       329569635  species/Acipenser_ruthenus/fAciRut1/genomic_data/illumina/fAciRut1_27071_6#1_R1.fastq.gz
+illumina        fAciRut1             35949950515               0      2147483648     49615025512       328576344  species/Acipenser_ruthenus/fAciRut1/genomic_data/illumina/fAciRut1_27071_6#1_R2.fastq.gz
+illumina        fAciRut2             37155924093               0      2147483648     56196540730       372162538  species/Acipenser_ruthenus/fAciRut2/genomic_data/illumina/fAciRut2_27071_7#1_R1.fastq.gz
+illumina        fAciRut2             39374797837               0      2147483648     55764225778       369299508  species/Acipenser_ruthenus/fAciRut2/genomic_data/illumina/fAciRut2_27071_7#1_R2.fastq.gz
+10x             fAciRut3             11724313961               0      2147483648     16676722273       110441874  species/Acipenser_ruthenus/fAciRut3/genomic_data/10x/fAciRut3_S1_L003_R2_001.fastq.gz
+10x             fAciRut3              1100996727               0      1100996727      1187307496       148413437  species/Acipenser_ruthenus/fAciRut3/genomic_data/10x/fAciRut3_S3_L003_I1_001.fastq.gz
+10x             fAciRut3              9720952221               0      2147483648     14656474835        97062747  species/Acipenser_ruthenus/fAciRut3/genomic_data/10x/fAciRut3_S4_L003_R1_001.fastq.gz
+bionano         fAciRut3              2968382037               0      2968382037   2035049540511        35980987  species/Acipenser_ruthenus/fAciRut3/genomic_data/bionano/fAciRut3_Saphyr_BssSI
+dovetail        fAciRut3             44708054695               0      2147483648     61295419548       405929951  species/Acipenser_ruthenus/fAciRut3/genomic_data/dovetail/fAciRut3_28791_7#1_R2.fastq.gz
+dovetail        fAciRut3             41532132670               0      2147483648     61247626320       405613438  species/Acipenser_ruthenus/fAciRut3/genomic_data/dovetail/fAciRut3_28791_8#1_R1.fastq.gz
+dovetail        fAciRut3             44857203431               0      2147483648     61611769016       408024960  species/Acipenser_ruthenus/fAciRut3/genomic_data/dovetail/fAciRut3_28791_8#1_R2.fastq.gz
+pacbiohifi_clr  fAciRut3            238078450336               0      2147483648    124619217007         6637866  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_190301_161945.subreads.bam
+pacbiohifi_clr  fAciRut3            219538046065               0      2147483648    114731390550         6163673  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_190305_101633.subreads.bam
+pacbiohifi_bam  fAciRut3             20358079302               0      2147483648     27605725161         2021688  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_200221_203433.ccs.bam
+pacbiohifi_bam  fAciRut3             20565581860               0      2147483648     28919879825         2156361  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_200223_025939.ccs.bam
+pacbiohifi_bam  fAciRut3             20850316204               0      2147483648     27980126487         2085309  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_200224_092430.ccs.bam
+pacbiohifi_clr  fAciRut3            117542087813               0      2147483648     62832703774         3299194  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/mat/m64016_190301_161945.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.4423
-dovetail     *       1.4047
-illumina     *       1.4364
-pacbiohifi_bam *       1.3679
-pacbiohifi_clr *       0.4189
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fAciRut3          1.4423    245948191738
+bionano         fAciRut3         685.5753   2035049540511
+dovetail        fAciRut3          1.4047    242056423044
+illumina        fAciRut1          1.4005     98639126119
+illumina        fAciRut2          1.4470    110739954632
+pacbiohifi_bam  fAciRut3          1.3679    109388589672
+pacbiohifi_clr  fAciRut3          0.5253    359004151737
+--------------- ---------------  ------- ---------------

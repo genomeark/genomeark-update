@@ -1,25 +1,26 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     1400575730               0      1400575730      2048680650        13657871  species/Geothlypis_trichas/bGeoTri1/genomic_data/10x/bGeoTri1_S2_L002_R2_001.fastq.gz
-     1215067705               0      1215067705      1943451150        12956341  species/Geothlypis_trichas/bGeoTri1/genomic_data/10x/bGeoTri1_S2_L008_R1_001.fastq.gz
-      651139907               0       651139907      1238617050         8257447  species/Geothlypis_trichas/bGeoTri1/genomic_data/10x/bGeoTri1_S2_L012_R1_001.fastq.gz
-     4157679058               0      4157679058      7437914850        49586099  species/Geothlypis_trichas/bGeoTri1/genomic_data/arima/bGeoTri1_ARI3_001_USPD16084394-AK5395_HJFMFCCXY_L2_R2.fq.gz
-     3746310515               0      3746310515      7518194700        50121298  species/Geothlypis_trichas/bGeoTri1/genomic_data/arima/bGeoTri1_ARI3_001_USPD16084394-AK5395_HJFMFCCXY_L3_R1.fq.gz
-     3711377992               0      3711377992      7580399100        50535994  species/Geothlypis_trichas/bGeoTri1/genomic_data/arima/bGeoTri1_ARI3_001_USPD16084394-AK5395_HJFMFCCXY_L6_R1.fq.gz
-              0               0               0      1666406964            1982  species/Geothlypis_trichas/bGeoTri1/genomic_data/bionano/bGeoTri1_Saphyr_BspQI_1559724
-              0               0               0      1325824573            2881  species/Geothlypis_trichas/bGeoTri1/genomic_data/bionano/bGeoTri1_Saphyr_BssSI_1787000
-     7253537451               0      2147483648      3827907405          482993  species/Geothlypis_trichas/bGeoTri1/genomic_data/pacbio/m54158_180424_203111.subreads.bam
-     3255525968               0      3255525968      1698114825          230257  species/Geothlypis_trichas/bGeoTri1/genomic_data/pacbio/m54159_170915_040655.subreads.bam
-     6175792834               0      2147483648      3214022044          456937  species/Geothlypis_trichas/bGeoTri1/genomic_data/pacbio/m54159_171113_134034.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bGeoTri1              1400575730               0      1400575730      2048680650        13657871  species/Geothlypis_trichas/bGeoTri1/genomic_data/10x/bGeoTri1_S2_L002_R2_001.fastq.gz
+10x             bGeoTri1              1215067705               0      1215067705      1943451150        12956341  species/Geothlypis_trichas/bGeoTri1/genomic_data/10x/bGeoTri1_S2_L008_R1_001.fastq.gz
+10x             bGeoTri1               651139907               0       651139907      1238617050         8257447  species/Geothlypis_trichas/bGeoTri1/genomic_data/10x/bGeoTri1_S2_L012_R1_001.fastq.gz
+arima           bGeoTri1              4157679058               0      4157679058      7437914850        49586099  species/Geothlypis_trichas/bGeoTri1/genomic_data/arima/bGeoTri1_ARI3_001_USPD16084394-AK5395_HJFMFCCXY_L2_R2.fq.gz
+arima           bGeoTri1              3746310515               0      3746310515      7518194700        50121298  species/Geothlypis_trichas/bGeoTri1/genomic_data/arima/bGeoTri1_ARI3_001_USPD16084394-AK5395_HJFMFCCXY_L3_R1.fq.gz
+arima           bGeoTri1              3711377992               0      3711377992      7580399100        50535994  species/Geothlypis_trichas/bGeoTri1/genomic_data/arima/bGeoTri1_ARI3_001_USPD16084394-AK5395_HJFMFCCXY_L6_R1.fq.gz
+bionano         bGeoTri1              1710217245               0      1710217245   1032325993171        14376335  species/Geothlypis_trichas/bGeoTri1/genomic_data/bionano/bGeoTri1_Saphyr_BspQI_192643
+bionano         bGeoTri1              1342477472               0      1342477472    929974839710        13185887  species/Geothlypis_trichas/bGeoTri1/genomic_data/bionano/bGeoTri1_Saphyr_BssSI_192642
+pacbio          bGeoTri1              7253537451               0      2147483648      3827907405          482993  species/Geothlypis_trichas/bGeoTri1/genomic_data/pacbio/m54158_180424_203111.subreads.bam
+pacbio          bGeoTri1              3255525968               0      3255525968      1698114825          230257  species/Geothlypis_trichas/bGeoTri1/genomic_data/pacbio/m54159_170915_040655.subreads.bam
+pacbio          bGeoTri1              6175792834               0      2147483648      3214022044          456937  species/Geothlypis_trichas/bGeoTri1/genomic_data/pacbio/m54159_171113_134034.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.6011
-arima        *       1.9402
-pacbio       *       0.5238
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bGeoTri1          1.6011     49033028299
+arima           bGeoTri1          1.9402    136082593705
+bionano         bGeoTri1         642.8093   1962300832881
+pacbio          bGeoTri1          0.5238     74943022417
+--------------- ---------------  ------- ---------------

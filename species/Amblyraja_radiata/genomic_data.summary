@@ -1,30 +1,44 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     4280566077               0      4280566077      7009507650        46730051  species/Amblyraja_radiata/sAmbRad1/genomic_data/10x/sAmbRad1_S6_L001_R2_001.fastq.gz
-     4798346086               0      2147483648      7711916087        51412773  species/Amblyraja_radiata/sAmbRad1/genomic_data/10x/sAmbRad1_S6_L008_R2_001.fastq.gz
-      632848455               0       632848455       764405112        95550639  species/Amblyraja_radiata/sAmbRad1/genomic_data/10x/sAmbRad1_S7_L001_I1_001.fastq.gz
-     9735979542               0      2147483648     19418798662       129458662  species/Amblyraja_radiata/sAmbRad1/genomic_data/arima/sAmbRad1_ARI1_001_USPD16084394-AK4007_HJFMFCCXY_L3_R1.fastq.gz
-    10839316535               0      2147483648     19473606819       129824045  species/Amblyraja_radiata/sAmbRad1/genomic_data/arima/sAmbRad1_ARI1_001_USPD16084394-AK4007_HJFMFCCXY_L5_R2.fastq.gz
-     9525250074               0      2147483648     19127969758       127519802  species/Amblyraja_radiata/sAmbRad1/genomic_data/arima/sAmbRad1_ARI1_001_USPD16084394-AK4007_HJFMFCCXY_L8_R1.fastq.gz
-              0               0               0      6779913480            5801  species/Amblyraja_radiata/sAmbRad1/genomic_data/bionano/sAmbRad1_Saphyr_BspQI
-              0               0               0      5082207924           13113  species/Amblyraja_radiata/sAmbRad1/genomic_data/bionano/sAmbRad1_Saphyr_BssSI
-              0               0               0      5873928362            1091  species/Amblyraja_radiata/sAmbRad1/genomic_data/bionano/sAmbRad1_Saphyr_DLE1_2232026
-    12040399827               0      2147483648      6385115230          589745  species/Amblyraja_radiata/sAmbRad1/genomic_data/pacbio/m54158_180308_034604.subreads.bam
-    11268544267               0      2147483648      5967672785          723637  species/Amblyraja_radiata/sAmbRad1/genomic_data/pacbio/m54159_180227_231514.subreads.bam
-     9089590075               0      2147483648      4800039857          759222  species/Amblyraja_radiata/sAmbRad1/genomic_data/pacbio/m54159_180307_131955.subreads.bam
-    33451069552               0      2147483648     63843769467       422806435  species/Amblyraja_radiata/sAmbRad2/genomic_data/illumina/sAmbRad2_R1.fastq.gz
-    34727898198               0      2147483648     64118063099       424622934  species/Amblyraja_radiata/sAmbRad3/genomic_data/illumina/sAmbRad3_R2.fastq.gz
-    41704809221               0      2147483648     79299231331       525160491  species/Amblyraja_radiata/sAmbRad5/genomic_data/illumina/sAmbRad5_R2.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             sAmbRad1              4280566077               0      4280566077      7009507650        46730051  species/Amblyraja_radiata/sAmbRad1/genomic_data/10x/sAmbRad1_S6_L001_R2_001.fastq.gz
+10x             sAmbRad1              4798346086               0      2147483648      7711916087        51412773  species/Amblyraja_radiata/sAmbRad1/genomic_data/10x/sAmbRad1_S6_L008_R2_001.fastq.gz
+10x             sAmbRad1               632848455               0       632848455       764405112        95550639  species/Amblyraja_radiata/sAmbRad1/genomic_data/10x/sAmbRad1_S7_L001_I1_001.fastq.gz
+arima           sAmbRad1              9735979542               0      2147483648     19418798662       129458662  species/Amblyraja_radiata/sAmbRad1/genomic_data/arima/sAmbRad1_ARI1_001_USPD16084394-AK4007_HJFMFCCXY_L3_R1.fastq.gz
+arima           sAmbRad1             10839316535               0      2147483648     19473606819       129824045  species/Amblyraja_radiata/sAmbRad1/genomic_data/arima/sAmbRad1_ARI1_001_USPD16084394-AK4007_HJFMFCCXY_L5_R2.fastq.gz
+arima           sAmbRad1              9525250074               0      2147483648     19127969758       127519802  species/Amblyraja_radiata/sAmbRad1/genomic_data/arima/sAmbRad1_ARI1_001_USPD16084394-AK4007_HJFMFCCXY_L8_R1.fastq.gz
+bionano         sAmbRad1               675024384               0       675024384    539069582236        14911674  species/Amblyraja_radiata/sAmbRad1/genomic_data/bionano/sAmbRad1_Saphyr_BspQI_528705
+bionano         sAmbRad1              1592173227               0      1592173227    807782775199         9800059  species/Amblyraja_radiata/sAmbRad1/genomic_data/bionano/sAmbRad1_Saphyr_BspQI_734917
+bionano         sAmbRad1              1692517985               0      1692517985   1006667123361        15129462  species/Amblyraja_radiata/sAmbRad1/genomic_data/bionano/sAmbRad1_Saphyr_BssSI_528704
+bionano         sAmbRad1               216240966               0       216240966    134672806887          923710  species/Amblyraja_radiata/sAmbRad1/genomic_data/bionano/sAmbRad1_Saphyr_DLE1_2141052
+bionano         sAmbRad1              1091576974               0      1091576974    723413190469         5704340  species/Amblyraja_radiata/sAmbRad1/genomic_data/bionano/sAmbRad1_Saphyr_DLE1_2221425
+illumina        sAmbRad1             61557479910               0      2147483648    116897551856       774155972  species/Amblyraja_radiata/sAmbRad1/genomic_data/illumina/sAmbRad1_R1.fastq.gz
+illumina        sAmbRad1             62459043371               0      2147483648    117253647176       776514248  species/Amblyraja_radiata/sAmbRad1/genomic_data/illumina/sAmbRad1_R2.fastq.gz
+pacbio          sAmbRad1             12040399827               0      2147483648      6385115230          589745  species/Amblyraja_radiata/sAmbRad1/genomic_data/pacbio/m54158_180308_034604.subreads.bam
+pacbio          sAmbRad1             11268544267               0      2147483648      5967672785          723637  species/Amblyraja_radiata/sAmbRad1/genomic_data/pacbio/m54159_180227_231514.subreads.bam
+pacbio          sAmbRad1              9089590075               0      2147483648      4800039857          759222  species/Amblyraja_radiata/sAmbRad1/genomic_data/pacbio/m54159_180307_131955.subreads.bam
+illumina        sAmbRad2             33451069552               0      2147483648     63843769467       422806435  species/Amblyraja_radiata/sAmbRad2/genomic_data/illumina/sAmbRad2_R1.fastq.gz
+illumina        sAmbRad2             34339693149               0      2147483648     63936113903       423417988  species/Amblyraja_radiata/sAmbRad2/genomic_data/illumina/sAmbRad2_R2.fastq.gz
+illumina        sAmbRad3             33928416389               0      2147483648     64206406770       425207991  species/Amblyraja_radiata/sAmbRad3/genomic_data/illumina/sAmbRad3_R1.fastq.gz
+illumina        sAmbRad3             34727898198               0      2147483648     64118063099       424622934  species/Amblyraja_radiata/sAmbRad3/genomic_data/illumina/sAmbRad3_R2.fastq.gz
+illumina        sAmbRad4             32168514068               0      2147483648     60921044992       403450644  species/Amblyraja_radiata/sAmbRad4/genomic_data/illumina/sAmbRad4_R1.fastq.gz
+illumina        sAmbRad4             32919659790               0      2147483648     61032197174       404186751  species/Amblyraja_radiata/sAmbRad4/genomic_data/illumina/sAmbRad4_R2.fastq.gz
+illumina        sAmbRad5             41203520183               0      2147483648     79260034089       524900907  species/Amblyraja_radiata/sAmbRad5/genomic_data/illumina/sAmbRad5_R1.fastq.gz
+illumina        sAmbRad5             41704809221               0      2147483648     79299231331       525160491  species/Amblyraja_radiata/sAmbRad5/genomic_data/illumina/sAmbRad5_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5945
-arima        *       1.9275
-illumina     *       1.8861
-pacbio       *       0.5294
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             sAmbRad1          1.5945    196359285204
+arima           sAmbRad1          1.9275    347593349068
+bionano         sAmbRad1         609.6981   3211605478152
+illumina        sAmbRad1          1.8844    233696736470
+illumina        sAmbRad2          1.8771    127250040666
+illumina        sAmbRad3          1.8614    127796863972
+illumina        sAmbRad4          1.8670    121519620592
+illumina        sAmbRad5          1.9087    158247128333
+pacbio          sAmbRad1          0.5294    265562787759
+--------------- ---------------  ------- ---------------

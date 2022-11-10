@@ -1,24 +1,26 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    14617316147               0      2147483648     26631073411       176364731  species/Pristis_pectinata/sPriPec2/genomic_data/10x/sPriPec2_S1_L001_R1_001.fastq.gz
-    14076668016               0      2147483648     25555296116       169240378  species/Pristis_pectinata/sPriPec2/genomic_data/10x/sPriPec2_S2_L001_R1_001.fastq.gz
-    13290105251               0      2147483648     24204450065       160294371  species/Pristis_pectinata/sPriPec2/genomic_data/10x/sPriPec2_S3_L001_R1_001.fastq.gz
-     6282624123               0      2147483648     12134768644        80898460  species/Pristis_pectinata/sPriPec2/genomic_data/arima/sPriPec2_ARI5_005_USPD16095654_HWLVLCCXY_L5_R1.fastq.gz
-     9334772458               0      2147483648     16042679970       106951204  species/Pristis_pectinata/sPriPec2/genomic_data/arima/sPriPec2_ARI5_005_USPD16095654_HWNW3CCXY_L7_R2.fastq.gz
-     2205174592               0      2205174592      3417885150        22785901  species/Pristis_pectinata/sPriPec2/genomic_data/arima/sPriPec2_ARI5_005_USPD16095654_HY5FTCCXY_L2_R2.fastq.gz
-              0               0               0      2435566156             187  species/Pristis_pectinata/sPriPec2/genomic_data/bionano/sPriPec2_Saphyr_DLE1_2549951
-    20357927991               0      2147483648     11090960477          716035  species/Pristis_pectinata/sPriPec2/genomic_data/pacbio/m54159_181120_212118.subreads.bam
-    18609401721               0      2147483648     10172809266          605860  species/Pristis_pectinata/sPriPec2/genomic_data/pacbio/m54159_181202_132735.subreads.bam
-    17254318589               0      2147483648      9335881556          598791  species/Pristis_pectinata/sPriPec2/genomic_data/pacbio/m54159_181208_002540.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             sPriPec2             14617316147               0      2147483648     26631073411       176364731  species/Pristis_pectinata/sPriPec2/genomic_data/10x/sPriPec2_S1_L001_R1_001.fastq.gz
+10x             sPriPec2             14076668016               0      2147483648     25555296116       169240378  species/Pristis_pectinata/sPriPec2/genomic_data/10x/sPriPec2_S2_L001_R1_001.fastq.gz
+10x             sPriPec2             13290105251               0      2147483648     24204450065       160294371  species/Pristis_pectinata/sPriPec2/genomic_data/10x/sPriPec2_S3_L001_R1_001.fastq.gz
+arima           sPriPec2              6282624123               0      2147483648     12134768644        80898460  species/Pristis_pectinata/sPriPec2/genomic_data/arima/sPriPec2_ARI5_005_USPD16095654_HWLVLCCXY_L5_R1.fastq.gz
+arima           sPriPec2              9334772458               0      2147483648     16042679970       106951204  species/Pristis_pectinata/sPriPec2/genomic_data/arima/sPriPec2_ARI5_005_USPD16095654_HWNW3CCXY_L7_R2.fastq.gz
+arima           sPriPec2              2205174592               0      2205174592      3417885150        22785901  species/Pristis_pectinata/sPriPec2/genomic_data/arima/sPriPec2_ARI5_005_USPD16095654_HY5FTCCXY_L2_R2.fastq.gz
+bionano         sPriPec2               581690419               0       581690419    320976468534         2788562  species/Pristis_pectinata/sPriPec2/genomic_data/bionano/sPriPec2_Saphyr_DLE1_2484523
+bionano         sPriPec2               602638641               0       602638641    333888101311         2940202  species/Pristis_pectinata/sPriPec2/genomic_data/bionano/sPriPec2_Saphyr_DLE1_2549949
+pacbio          sPriPec2             20357927991               0      2147483648     11090960477          716035  species/Pristis_pectinata/sPriPec2/genomic_data/pacbio/m54159_181120_212118.subreads.bam
+pacbio          sPriPec2             18609401721               0      2147483648     10172809266          605860  species/Pristis_pectinata/sPriPec2/genomic_data/pacbio/m54159_181202_132735.subreads.bam
+pacbio          sPriPec2             17254318589               0      2147483648      9335881556          598791  species/Pristis_pectinata/sPriPec2/genomic_data/pacbio/m54159_181208_002540.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8195
-arima        *       1.7727
-pacbio       *       0.5442
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             sPriPec2          1.8195    183733167110
+arima           sPriPec2          1.7727    209009740419
+bionano         sPriPec2         552.9414    654864569845
+pacbio          sPriPec2          0.5442    173448812306
+--------------- ---------------  ------- ---------------

@@ -1,24 +1,26 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     1978878220               0      1978878220      3974790969        26323119  species/Anableps_anableps/fAnaAna1/genomic_data/10x/fAnaAna1_S1_L004_R1_001.fastq.gz
-     2088219870               0      2088219870      3909829863        25892913  species/Anableps_anableps/fAnaAna1/genomic_data/10x/fAnaAna1_S1_L006_R2_001.fastq.gz
-     2545326395               0      2545326395      5132400306        33989406  species/Anableps_anableps/fAnaAna1/genomic_data/10x/fAnaAna1_S1_L007_R1_001.fastq.gz
-    24920901115               0      2147483648     35764740954       236852600  species/Anableps_anableps/fAnaAna1/genomic_data/arima/fAnaAna1_DDL39908T77606_R2.fastq.gz
-    24507095753               0      2147483648     36864825598       244137929  species/Anableps_anableps/fAnaAna1/genomic_data/arima/fAnaAna1_DDL39909T77607_R1.fastq.gz
-    25748738056               0      2147483648     36785524646       243612757  species/Anableps_anableps/fAnaAna1/genomic_data/arima/fAnaAna1_DDL39909T77607_R2.fastq.gz
-              0               0               0       927638227             105  species/Anableps_anableps/fAnaAna1/genomic_data/bionano/fAnaAna1_Saphyr_DLE-1
-     6070902648               0      2147483648      3246568787          307372  species/Anableps_anableps/fAnaAna1/genomic_data/pacbio/m54062_171108_204128.subreads.bam
-     9408749063               0      2147483648      4952620138          465818  species/Anableps_anableps/fAnaAna1/genomic_data/pacbio/m54062_180216_120418.subreads.bam
-    10315161201               0      2147483648      5407094760          505333  species/Anableps_anableps/fAnaAna1/genomic_data/pacbio/m54144_180124_215407.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fAnaAna1              1978878220               0      1978878220      3974790969        26323119  species/Anableps_anableps/fAnaAna1/genomic_data/10x/fAnaAna1_S1_L004_R1_001.fastq.gz
+10x             fAnaAna1              2088219870               0      2088219870      3909829863        25892913  species/Anableps_anableps/fAnaAna1/genomic_data/10x/fAnaAna1_S1_L006_R2_001.fastq.gz
+10x             fAnaAna1              2545326395               0      2545326395      5132400306        33989406  species/Anableps_anableps/fAnaAna1/genomic_data/10x/fAnaAna1_S1_L007_R1_001.fastq.gz
+arima           fAnaAna1             24920901115               0      2147483648     35764740954       236852600  species/Anableps_anableps/fAnaAna1/genomic_data/arima/fAnaAna1_DDL39908T77606_R2.fastq.gz
+arima           fAnaAna1             24507095753               0      2147483648     36864825598       244137929  species/Anableps_anableps/fAnaAna1/genomic_data/arima/fAnaAna1_DDL39909T77607_R1.fastq.gz
+arima           fAnaAna1             25748738056               0      2147483648     36785524646       243612757  species/Anableps_anableps/fAnaAna1/genomic_data/arima/fAnaAna1_DDL39909T77607_R2.fastq.gz
+bionano         fAnaAna1               135226408               0       135226408     87094425795          759450  species/Anableps_anableps/fAnaAna1/genomic_data/bionano/fAnaAna1_Saphyr_DLE-1_201811221055
+bionano         fAnaAna1               795408487               0       795408487    505427895676         4675707  species/Anableps_anableps/fAnaAna1/genomic_data/bionano/fAnaAna1_Saphyr_DLE-1_201812040639
+pacbio          fAnaAna1              6070902648               0      2147483648      3246568787          307372  species/Anableps_anableps/fAnaAna1/genomic_data/pacbio/m54062_171108_204128.subreads.bam
+pacbio          fAnaAna1              9408749063               0      2147483648      4952620138          465818  species/Anableps_anableps/fAnaAna1/genomic_data/pacbio/m54062_180216_120418.subreads.bam
+pacbio          fAnaAna1             10315161201               0      2147483648      5407094760          505333  species/Anableps_anableps/fAnaAna1/genomic_data/pacbio/m54144_180124_215407.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9685
-arima        *       1.4554
-pacbio       *       0.5274
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fAnaAna1          1.9685     68546253070
+arima           fAnaAna1          1.4554    144047074135
+bionano         fAnaAna1         636.6861    592522321471
+pacbio          fAnaAna1          0.5274     59047426253
+--------------- ---------------  ------- ---------------

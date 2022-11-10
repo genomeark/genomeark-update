@@ -1,28 +1,29 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    68836723623               0      2147483648    133013617669       886757451  species/Monodelphis_domestica/mMonDom1/genomic_data/arima/mMonDom1_Gray_Short-tailed_Opossum1_R1.fastq.gz
-    69405780153               0      2147483648    133811546120       892077006  species/Monodelphis_domestica/mMonDom1/genomic_data/arima/mMonDom1_Gray_Short-tailed_Opossum1_R2.fastq.gz
-    68909781903               0      2147483648    134408839082       896058959  species/Monodelphis_domestica/mMonDom1/genomic_data/arima/mMonDom1_Gray_Short-tailed_Opossum2_R2.fastq.gz
-              0               0               0      3649650209             263  species/Monodelphis_domestica/mMonDom1/genomic_data/bionano/mMonDom1_Saphyr_DLE1_3685509
-    97250252066               0      2147483648    112879291209         6819932  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211110_071858.hifi_reads.bam
-    22728068117               0      2147483648     26380684523         1593866  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211110_071858.hifi_reads.fastq.gz
-   271090442714               0      2147483648    111830366082         5414402  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211110_071858.reads.bam
-    92333315536               0      2147483648    109926739192         6661937  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211113_015853.hifi_reads.bam
-    20994837410               0      2147483648     24995246872         1514797  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211113_015853.hifi_reads.fastq.gz
-   223391870848               0      2147483648     88561597025         4738648  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211113_015853.reads.bam
-    97189420866               0      2147483648    109700826139         6486147  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m64055e_211117_204835.hifi_reads.bam
-    23169990599               0      2147483648     26152713821         1546299  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m64055e_211117_204835.hifi_reads.fastq.gz
-   267452025827               0      2147483648    104694822709         5847747  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m64334e_211117_205854.reads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMonDom1             68836723623               0      2147483648    133013617669       886757451  species/Monodelphis_domestica/mMonDom1/genomic_data/arima/mMonDom1_Gray_Short-tailed_Opossum1_R1.fastq.gz
+arima           mMonDom1             69405780153               0      2147483648    133811546120       892077006  species/Monodelphis_domestica/mMonDom1/genomic_data/arima/mMonDom1_Gray_Short-tailed_Opossum1_R2.fastq.gz
+arima           mMonDom1             68909781903               0      2147483648    134408839082       896058959  species/Monodelphis_domestica/mMonDom1/genomic_data/arima/mMonDom1_Gray_Short-tailed_Opossum2_R2.fastq.gz
+bionano         mMonDom1              2162303723               0      2162303723   1055805673852        13399051  species/Monodelphis_domestica/mMonDom1/genomic_data/bionano/mMonDom1_Saphyr_DLE1_3685507
+pacbiohifi_bam  mMonDom1             97250252066               0      2147483648     26368894746         1581330  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211110_071858.hifi_reads.bam
+pacbiohifi_fqgz mMonDom1             22728068117               0      2147483648     26380684523         1593866  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211110_071858.hifi_reads.fastq.gz
+pacbiohifi_clr  mMonDom1            271090442714               0      2147483648    111830366082         5414402  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211110_071858.reads.bam
+pacbiohifi_bam  mMonDom1             92333315536               0      2147483648     25055029259         1513331  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211113_015853.hifi_reads.bam
+pacbiohifi_fqgz mMonDom1             20994837410               0      2147483648     24995246872         1514797  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211113_015853.hifi_reads.fastq.gz
+pacbiohifi_clr  mMonDom1            223391870848               0      2147483648     88561597025         4738648  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211113_015853.reads.bam
+pacbiohifi_bam  mMonDom1             97189420866               0      2147483648     25817353983         1519062  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m64055e_211117_204835.hifi_reads.bam
+pacbiohifi_fqgz mMonDom1             23169990599               0      2147483648     26152713821         1546299  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m64055e_211117_204835.hifi_reads.fastq.gz
+pacbiohifi_clr  mMonDom1            267452025827               0      2147483648    104694822709         5847747  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m64334e_211117_205854.reads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.9369
-pacbiohifi_fqgz *       1.1589
-pacbiohifi_bam *       1.1594
-pacbiohifi_clr *       0.4004
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mMonDom1          1.9369    533398827746
+bionano         mMonDom1         488.2781   1055805673852
+pacbiohifi_bam  mMonDom1          0.2693    150299483289
+pacbiohifi_clr  mMonDom1          0.4004    595087719975
+pacbiohifi_fqgz mMonDom1          1.1589    151069791799
+--------------- ---------------  ------- ---------------

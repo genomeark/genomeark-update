@@ -1,24 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    11906582323               0      2147483648     22348123168       148000821  species/Rhea_pennata/bPtePen1/genomic_data/arima/bPtePen1_S7_L002_R1_001.fastq.gz
-    12352916981               0      2147483648     22392953433       148297710  species/Rhea_pennata/bPtePen1/genomic_data/arima/bPtePen1_S7_L002_R2_001.fastq.gz
-              0               0               0      1293837016             309  species/Rhea_pennata/bPtePen1/genomic_data/bionano/bPtePen1_Saphyr_DLE1_3685894
-   108615475661               0      2147483648    126995391817         7453986  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m54306Ue_211204_070706.hifi_reads.bam
-    25044449358               0      2147483648     29282472315         1718732  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m54306Ue_211204_070706.hifi_reads.fastq.gz
-   274899508439               0      2147483648    109294871355         5788486  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m54306Ue_211204_070706.reads.bam
-    92443437638               0      2147483648    103668060749         6044490  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m64334e_211211_055255.hifi_reads.bam
-    21852140951               0      2147483648     24505461215         1428820  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m64334e_211211_055255.hifi_reads.fastq.gz
-   251038046825               0      2147483648    102672512965         5425034  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m64334e_211211_055255.reads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPtePen1             11906582323               0      2147483648     22348123168       148000821  species/Rhea_pennata/bPtePen1/genomic_data/arima/bPtePen1_S7_L002_R1_001.fastq.gz
+arima           bPtePen1             12352916981               0      2147483648     22392953433       148297710  species/Rhea_pennata/bPtePen1/genomic_data/arima/bPtePen1_S7_L002_R2_001.fastq.gz
+bionano         bPtePen1              1161683486               0      1161683486    601303564695         7777162  species/Rhea_pennata/bPtePen1/genomic_data/bionano/bPtePen1_Saphyr_DLE1_3685876
+pacbiohifi_bam  bPtePen1            108615475661               0      2147483648     29441699442         1717123  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m54306Ue_211204_070706.hifi_reads.bam
+pacbiohifi_fqgz bPtePen1             25044449358               0      2147483648     29282472315         1718732  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m54306Ue_211204_070706.hifi_reads.fastq.gz
+pacbiohifi_clr  bPtePen1            274899508439               0      2147483648    109294871355         5788486  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m54306Ue_211204_070706.reads.bam
+pacbiohifi_bam  bPtePen1             92443437638               0      2147483648     24567565823         1426760  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m64334e_211211_055255.hifi_reads.bam
+pacbiohifi_fqgz bPtePen1             21852140951               0      2147483648     24505461215         1428820  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m64334e_211211_055255.hifi_reads.fastq.gz
+pacbiohifi_clr  bPtePen1            251038046825               0      2147483648    102672512965         5425034  species/Rhea_pennata/bPtePen1/genomic_data/pacbio_hifi/m64334e_211211_055255.reads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.8336
-pacbiohifi_fqgz *       1.1547
-pacbiohifi_bam *       1.1549
-pacbiohifi_clr *       0.4011
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bPtePen1          1.8336     44482217923
+bionano         bPtePen1         517.6139    601303564695
+pacbiohifi_bam  bPtePen1          0.2694     54165271242
+pacbiohifi_clr  bPtePen1          0.4011    210953553416
+pacbiohifi_fqgz bPtePen1          1.1547     54151492829
+--------------- ---------------  ------- ---------------

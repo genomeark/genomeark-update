@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     6376283796               0      2147483648     12416953945        82231486  species/Anguilla_anguilla/fAngAng1/genomic_data/10x/fAngAng1_S1_L001_R1_001.fastq.gz
-     6738004711               0      2147483648     12441213060        82392142  species/Anguilla_anguilla/fAngAng1/genomic_data/10x/fAngAng1_S1_L001_R2_001.fastq.gz
-     7824869065               0      2147483648     15259664562       101057384  species/Anguilla_anguilla/fAngAng1/genomic_data/10x/fAngAng1_S4_L001_R1_001.fastq.gz
-    25507906299               0      2147483648     49457296840       327531779  species/Anguilla_anguilla/fAngAng1/genomic_data/arima/fAngAng1_L40348T79215_R1.fastq.gz
-    25945643574               0      2147483648     49503564773       327838189  species/Anguilla_anguilla/fAngAng1/genomic_data/arima/fAngAng1_L40348T79215_R2.fastq.gz
-              0               0               0      1240544878             235  species/Anguilla_anguilla/fAngAng1/genomic_data/bionano/fAngAng1_Saphyr_DLE-1
-     9717159766               0      2147483648      5343102990          247562  species/Anguilla_anguilla/fAngAng1/genomic_data/pacbio/m54144_190621_085518.subreads.bam
-    14958422717               0      2147483648      8184298048          415307  species/Anguilla_anguilla/fAngAng1/genomic_data/pacbio/m54144_190626_082128.subreads.bam
-    14089819548               0      2147483648      7588404704          384827  species/Anguilla_anguilla/fAngAng1/genomic_data/pacbio/m54144_190628_180344.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fAngAng1              6376283796               0      2147483648     12416953945        82231486  species/Anguilla_anguilla/fAngAng1/genomic_data/10x/fAngAng1_S1_L001_R1_001.fastq.gz
+10x             fAngAng1              6738004711               0      2147483648     12441213060        82392142  species/Anguilla_anguilla/fAngAng1/genomic_data/10x/fAngAng1_S1_L001_R2_001.fastq.gz
+10x             fAngAng1              7824869065               0      2147483648     15259664562       101057384  species/Anguilla_anguilla/fAngAng1/genomic_data/10x/fAngAng1_S4_L001_R1_001.fastq.gz
+arima           fAngAng1             25507906299               0      2147483648     49457296840       327531779  species/Anguilla_anguilla/fAngAng1/genomic_data/arima/fAngAng1_L40348T79215_R1.fastq.gz
+arima           fAngAng1             25945643574               0      2147483648     49503564773       327838189  species/Anguilla_anguilla/fAngAng1/genomic_data/arima/fAngAng1_L40348T79215_R2.fastq.gz
+bionano         fAngAng1               671136800               0       671136800    500760534453         5528794  species/Anguilla_anguilla/fAngAng1/genomic_data/bionano/fAngAng1_Saphyr_DLE-1
+pacbio          fAngAng1              9717159766               0      2147483648      5343102990          247562  species/Anguilla_anguilla/fAngAng1/genomic_data/pacbio/m54144_190621_085518.subreads.bam
+pacbio          fAngAng1             14958422717               0      2147483648      8184298048          415307  species/Anguilla_anguilla/fAngAng1/genomic_data/pacbio/m54144_190626_082128.subreads.bam
+pacbio          fAngAng1             14089819548               0      2147483648      7588404704          384827  species/Anguilla_anguilla/fAngAng1/genomic_data/pacbio/m54144_190628_180344.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9159
-arima        *       1.9181
-pacbio       *       0.5447
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fAngAng1          1.9159     83044695550
+arima           fAngAng1          1.9181     98693054011
+bionano         fAngAng1         746.1377    500760534453
+pacbio          fAngAng1          0.5447     69479024918
+--------------- ---------------  ------- ---------------

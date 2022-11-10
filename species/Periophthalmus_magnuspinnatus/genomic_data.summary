@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     6297910856               0      2147483648     12629595968        83639711  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/10x/fPerMag1_S1_L001_R1_001.fastq.gz
-     4760459921               0      2147483648      9511098824        62987411  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/10x/fPerMag1_S3_L001_R1_001.fastq.gz
-     3849444703               0      3849444703      7658318491        50717341  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/10x/fPerMag1_S4_L001_R1_001.fastq.gz
-    29443456227               0      2147483648     48428968989       322859793  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/arima/fPerMag1_S7_L006_R1_001.fastq.gz
-    32317042541               0      2147483648     48190226276       321268190  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/arima/fPerMag1_S7_L006_R2_001.fastq.gz
-              0               0               0       970846933             197  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/bionano/fPerMag1_Saphyr_DLE1_2746589
-    19880111025               0      2147483648     10658282124          808522  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/pacbio/m54158_190415_200612.subreads.bam
-    12250868739               0      2147483648      6480932317          645806  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/pacbio/m54158_190426_025536.subreads.bam
-    22285402386               0      2147483648     11996667503          871913  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/pacbio/m54158_190427_050111.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fPerMag1              6297910856               0      2147483648     12629595968        83639711  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/10x/fPerMag1_S1_L001_R1_001.fastq.gz
+10x             fPerMag1              4760459921               0      2147483648      9511098824        62987411  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/10x/fPerMag1_S3_L001_R1_001.fastq.gz
+10x             fPerMag1              3849444703               0      3849444703      7658318491        50717341  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/10x/fPerMag1_S4_L001_R1_001.fastq.gz
+arima           fPerMag1             29443456227               0      2147483648     48428968989       322859793  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/arima/fPerMag1_S7_L006_R1_001.fastq.gz
+arima           fPerMag1             32317042541               0      2147483648     48190226276       321268190  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/arima/fPerMag1_S7_L006_R2_001.fastq.gz
+bionano         fPerMag1              1511894791               0      1511894791    743852122486         9592499  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/bionano/fPerMag1_Saphyr_DLE1_2746588
+pacbio          fPerMag1             19880111025               0      2147483648     10658282124          808522  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/pacbio/m54158_190415_200612.subreads.bam
+pacbio          fPerMag1             12250868739               0      2147483648      6480932317          645806  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/pacbio/m54158_190426_025536.subreads.bam
+pacbio          fPerMag1             22285402386               0      2147483648     11996667503          871913  species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/pacbio/m54158_190427_050111.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9988
-arima        *       1.5392
-pacbio       *       0.5354
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fPerMag1          1.9988     73951605258
+arima           fPerMag1          1.5392     95061759703
+bionano         fPerMag1         491.9999    743852122486
+pacbio          fPerMag1          0.5354     69643600129
+--------------- ---------------  ------- ---------------

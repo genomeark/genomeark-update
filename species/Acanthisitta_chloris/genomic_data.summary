@@ -1,23 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     3139429330               0      3139429330      6283600800        41890672  species/Acanthisitta_chloris/bAcaChl1/genomic_data/10x/bAcaChl1_S2_L004_R1_001.fastq.gz
-     3952455703               0      3952455703      7936771950        52911813  species/Acanthisitta_chloris/bAcaChl1/genomic_data/10x/bAcaChl1_S3_L004_R1_001.fastq.gz
-     1327867518               0      1327867518      2620149000        17467660  species/Acanthisitta_chloris/bAcaChl1/genomic_data/10x/bAcaChl1_S7_L002_R1_001.fastq.gz
-              0               0               0      1105515788             138  species/Acanthisitta_chloris/bAcaChl1/genomic_data/bionano/bAcaChl1_Saphyr_DLE1_1786999
-    16686603453               0      2147483648      9060775992          554566  species/Acanthisitta_chloris/bAcaChl1/genomic_data/pacbio/m54159_180502_162249.subreads.bam
-    18195010360               0      2147483648      9865564914          609552  species/Acanthisitta_chloris/bAcaChl1/genomic_data/pacbio/m54159_180503_023755.subreads.bam
-    15105685837               0      2147483648      8163267022          524978  species/Acanthisitta_chloris/bAcaChl1/genomic_data/pacbio/m54159_180504_160820.subreads.bam
-    28664207390               0      2147483648     49324462274       328829748  species/Acanthisitta_chloris/bAcaChl4/genomic_data/arima/bAcaChl4_S1_L007_R1_001.fastq.gz
-    32105653046               0      2147483648     47347837844       315652267  species/Acanthisitta_chloris/bAcaChl4/genomic_data/arima/bAcaChl4_S1_L007_R2_001.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bAcaChl1              3139429330               0      3139429330      6283600800        41890672  species/Acanthisitta_chloris/bAcaChl1/genomic_data/10x/bAcaChl1_S2_L004_R1_001.fastq.gz
+10x             bAcaChl1              3952455703               0      3952455703      7936771950        52911813  species/Acanthisitta_chloris/bAcaChl1/genomic_data/10x/bAcaChl1_S3_L004_R1_001.fastq.gz
+10x             bAcaChl1              1327867518               0      1327867518      2620149000        17467660  species/Acanthisitta_chloris/bAcaChl1/genomic_data/10x/bAcaChl1_S7_L002_R1_001.fastq.gz
+bionano         bAcaChl1               218734193               0       218734193    218750354661         4695119  species/Acanthisitta_chloris/bAcaChl1/genomic_data/bionano/bAcaChl1_Saphyr_DLE1_904833
+bionano         bAcaChl1               452241681               0       452241681    403309753471         8299567  species/Acanthisitta_chloris/bAcaChl1/genomic_data/bionano/bAcaChl1_Saphyr_DLE1_957286
+pacbio          bAcaChl1             16686603453               0      2147483648      9060775992          554566  species/Acanthisitta_chloris/bAcaChl1/genomic_data/pacbio/m54159_180502_162249.subreads.bam
+pacbio          bAcaChl1             18195010360               0      2147483648      9865564914          609552  species/Acanthisitta_chloris/bAcaChl1/genomic_data/pacbio/m54159_180503_023755.subreads.bam
+pacbio          bAcaChl1             15105685837               0      2147483648      8163267022          524978  species/Acanthisitta_chloris/bAcaChl1/genomic_data/pacbio/m54159_180504_160820.subreads.bam
+arima           bAcaChl4             28664207390               0      2147483648     49324462274       328829748  species/Acanthisitta_chloris/bAcaChl4/genomic_data/arima/bAcaChl4_S1_L007_R1_001.fastq.gz
+arima           bAcaChl4             32105653046               0      2147483648     47347837844       315652267  species/Acanthisitta_chloris/bAcaChl4/genomic_data/arima/bAcaChl4_S1_L007_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       2.0001
-arima        *       1.5506
-pacbio       *       0.5419
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bAcaChl1          2.0001     78229934423
+arima           bAcaChl4          1.5506     94229745592
+bionano         bAcaChl1         927.0975    622060108132
+pacbio          bAcaChl1          0.5419     68952914257
+--------------- ---------------  ------- ---------------

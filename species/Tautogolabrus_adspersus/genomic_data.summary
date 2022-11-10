@@ -1,22 +1,23 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     2614173990               0      2614173990      4987447252        33029452  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/10x/fTauAds1_S2_L001_R1_001.fastq.gz
-     1779088796               0      1779088796      3273334210        21677710  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/10x/fTauAds1_S3_L001_R2_001.fastq.gz
-     2812375333               0      2812375333      5120988783        33913833  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/10x/fTauAds1_S4_L001_R2_001.fastq.gz
-     7291666725               0      2147483648     10779607996        71864056  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/arima/fTauAds1_2450_15_L003_R2_001.fastq.gz
-    13714310496               0      2147483648     22659480645       151063204  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/arima/fTauAds1_2450_15_R1_001.fastq.gz
-    15677540065               0      2147483648     21604028612       144026857  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/arima/fTauAds1_2450_15_R2_001.fastq.gz
-              0               0               0       846035861             167  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/bionano/fTauAds1_Saphyr_DLE1_3680510
-   200592522949               0      2147483648    103925076874         7331327  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/pacbio/m54306U_191113_210221.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fTauAds1              2614173990               0      2614173990      4987447252        33029452  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/10x/fTauAds1_S2_L001_R1_001.fastq.gz
+10x             fTauAds1              1779088796               0      1779088796      3273334210        21677710  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/10x/fTauAds1_S3_L001_R2_001.fastq.gz
+10x             fTauAds1              2812375333               0      2812375333      5120988783        33913833  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/10x/fTauAds1_S4_L001_R2_001.fastq.gz
+arima           fTauAds1              7291666725               0      2147483648     10779607996        71864056  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/arima/fTauAds1_2450_15_L003_R2_001.fastq.gz
+arima           fTauAds1             13714310496               0      2147483648     22659480645       151063204  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/arima/fTauAds1_2450_15_R1_001.fastq.gz
+arima           fTauAds1             15677540065               0      2147483648     21604028612       144026857  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/arima/fTauAds1_2450_15_R2_001.fastq.gz
+bionano         fTauAds1              1399236644               0      1399236644    744517447310         8226468  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/bionano/fTauAds1_Saphyr_DLE1_3680509
+pacbio          fTauAds1            200592522949               0      2147483648    103925076874         7331327  species/Tautogolabrus_adspersus/fTauAds1/genomic_data/pacbio/m54306U_191113_210221.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8571
-arima        *       1.5004
-pacbio       *       0.5180
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fTauAds1          1.8571     88870439641
+arima           fTauAds1          1.5004     64391052482
+bionano         fTauAds1         532.0883    744517447310
+pacbio          fTauAds1          0.5180    103906926887
+--------------- ---------------  ------- ---------------

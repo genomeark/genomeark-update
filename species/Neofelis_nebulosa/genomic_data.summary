@@ -1,27 +1,28 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    87260080648               0      2147483648    175878641614      1172524318  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/arima/mNeoNeb1_Clouded_Leopard_R1_001.fastq.gz
-    91620881235               0      2147483648    178629107849      1190860718  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/arima/mNeoNeb1_Clouded_Leopard_R2_001.fastq.gz
-              0               0               0      2545778646             112  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/bionano/mNeoNeb1_Saphyr_DLE1_3683486
-    78783584708               0      2147483648     91739102300         6434182  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.hifi_reads.bam
-    18001479743               0      2147483648     20961721884         1470164  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.hifi_reads.fastq.gz
-   222016948724               0      2147483648     90306199795         5401953  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.reads.bam
-   105154525804               0      2147483648    124332338722         8253530  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211103_054016.hifi_reads.bam
-    23979293871               0      2147483648     28352576031         1882123  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211103_054016.hifi_reads.fastq.gz
-   256111321358               0      2147483648    101611924607         5872298  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211103_054016.reads.bam
-    82257714134               0      2147483648    100764989354         7007874  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211110_175241.hifi_reads.bam
-    18289425902               0      2147483648     22404388764         1558151  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211110_175241.hifi_reads.fastq.gz
-   229847647298               0      2147483648     94403977964         5640006  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211110_175241.reads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mNeoNeb1             87260080648               0      2147483648    175878641614      1172524318  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/arima/mNeoNeb1_Clouded_Leopard_R1_001.fastq.gz
+arima           mNeoNeb1             91620881235               0      2147483648    178629107849      1190860718  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/arima/mNeoNeb1_Clouded_Leopard_R2_001.fastq.gz
+bionano         mNeoNeb1              1185920672               0      1185920672    645125298513         7670985  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/bionano/mNeoNeb1_Saphyr_DLE1_3683050
+pacbiohifi_bam  mNeoNeb1             78783584708               0      2147483648     20983700294         1471787  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.hifi_reads.bam
+pacbiohifi_fqgz mNeoNeb1             18001479743               0      2147483648     20961721884         1470164  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.hifi_reads.fastq.gz
+pacbiohifi_clr  mNeoNeb1            222016948724               0      2147483648     90306199795         5401953  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.reads.bam
+pacbiohifi_bam  mNeoNeb1            105154525804               0      2147483648     28352651978         1873503  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211103_054016.hifi_reads.bam
+pacbiohifi_fqgz mNeoNeb1             23979293871               0      2147483648     28352576031         1882123  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211103_054016.hifi_reads.fastq.gz
+pacbiohifi_clr  mNeoNeb1            256111321358               0      2147483648    101611924607         5872298  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211103_054016.reads.bam
+pacbiohifi_bam  mNeoNeb1             82257714134               0      2147483648     22283083201         1550555  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211110_175241.hifi_reads.bam
+pacbiohifi_fqgz mNeoNeb1             18289425902               0      2147483648     22404388764         1558151  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211110_175241.hifi_reads.fastq.gz
+pacbiohifi_clr  mNeoNeb1            229847647298               0      2147483648     94403977964         5640006  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m64055e_211110_175241.reads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.9709
-pacbiohifi_fqgz *       1.1899
-pacbiohifi_bam *       1.1902
-pacbiohifi_clr *       0.4044
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mNeoNeb1          1.9709    352556487775
+bionano         mNeoNeb1         543.9868    645125298513
+pacbiohifi_bam  mNeoNeb1          0.2690     87252190958
+pacbiohifi_clr  mNeoNeb1          0.4044    342169804376
+pacbiohifi_fqgz mNeoNeb1          1.1899     87225922002
+--------------- ---------------  ------- ---------------

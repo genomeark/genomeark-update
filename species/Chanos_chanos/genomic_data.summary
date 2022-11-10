@@ -1,25 +1,26 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    11455488747               0      2147483648     18011089391       119278743  species/Chanos_chanos/fChaCha1/genomic_data/10x/fChaCha1_S1_L001_R1_001.fastq.gz
-     1049507712               0      1049507712      1180247896       147530987  species/Chanos_chanos/fChaCha1/genomic_data/10x/fChaCha1_S4_L001_I1_001.fastq.gz
-    13985991495               0      2147483648     22020896308       145833756  species/Chanos_chanos/fChaCha1/genomic_data/10x/fChaCha1_S4_L001_R1_001.fastq.gz
-              0               0               0       795067558             137  species/Chanos_chanos/fChaCha1/genomic_data/bionano/fChaCha1_Saphyr_DLE1
-    41379801121               0      2147483648     62948748594       416879149  species/Chanos_chanos/fChaCha1/genomic_data/dovetail/fChaCha1_28791_3#1_R1.fastq.gz
-    45869716315               0      2147483648     62331342628       412790348  species/Chanos_chanos/fChaCha1/genomic_data/dovetail/fChaCha1_28791_3#1_R2.fastq.gz
-    13686035858               0      2147483648      7481775259          472192  species/Chanos_chanos/fChaCha1/genomic_data/pacbio/m54205_190308_165845.subreads.bam
-    13315616899               0      2147483648      7252269300          479186  species/Chanos_chanos/fChaCha1/genomic_data/pacbio/m54205_190311_140408.subreads.bam
-    12491989875               0      2147483648      6826482709          449447  species/Chanos_chanos/fChaCha1/genomic_data/pacbio/m54205_190312_001810.subreads.bam
-    15474429647               0      2147483648     18634385384         1726707  species/Chanos_chanos/fChaCha1/genomic_data/pacbio_hifi/m64016_190303_014316.ccs.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fChaCha1             11455488747               0      2147483648     18011089391       119278743  species/Chanos_chanos/fChaCha1/genomic_data/10x/fChaCha1_S1_L001_R1_001.fastq.gz
+10x             fChaCha1              1049507712               0      1049507712      1180247896       147530987  species/Chanos_chanos/fChaCha1/genomic_data/10x/fChaCha1_S4_L001_I1_001.fastq.gz
+10x             fChaCha1             13985991495               0      2147483648     22020896308       145833756  species/Chanos_chanos/fChaCha1/genomic_data/10x/fChaCha1_S4_L001_R1_001.fastq.gz
+bionano         fChaCha1              1136171693               0      1136171693    746418476797         6684337  species/Chanos_chanos/fChaCha1/genomic_data/bionano/fChaCha1_Saphyr_DLE1
+dovetail        fChaCha1             41379801121               0      2147483648     62948748594       416879149  species/Chanos_chanos/fChaCha1/genomic_data/dovetail/fChaCha1_28791_3#1_R1.fastq.gz
+dovetail        fChaCha1             45869716315               0      2147483648     62331342628       412790348  species/Chanos_chanos/fChaCha1/genomic_data/dovetail/fChaCha1_28791_3#1_R2.fastq.gz
+pacbio          fChaCha1             13686035858               0      2147483648      7481775259          472192  species/Chanos_chanos/fChaCha1/genomic_data/pacbio/m54205_190308_165845.subreads.bam
+pacbio          fChaCha1             13315616899               0      2147483648      7252269300          479186  species/Chanos_chanos/fChaCha1/genomic_data/pacbio/m54205_190311_140408.subreads.bam
+pacbio          fChaCha1             12491989875               0      2147483648      6826482709          449447  species/Chanos_chanos/fChaCha1/genomic_data/pacbio/m54205_190312_001810.subreads.bam
+pacbiohifi_bam  fChaCha1             15474429647               0      2147483648     18634385384         1726707  species/Chanos_chanos/fChaCha1/genomic_data/pacbio_hifi/m64016_190303_014316.ccs.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5557
-dovetail     *       1.4093
-pacbio       *       0.5459
-pacbiohifi_bam *       1.2042
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fChaCha1          1.5557    134890742478
+bionano         fChaCha1         656.9592    746418476797
+dovetail        fChaCha1          1.4093    122960744922
+pacbio          fChaCha1          0.5459     48575123929
+pacbiohifi_bam  fChaCha1          1.2042     18634308180
+--------------- ---------------  ------- ---------------

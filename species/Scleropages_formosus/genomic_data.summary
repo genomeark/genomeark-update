@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     9509996761               0      2147483648     14026442542        92890352  species/Scleropages_formosus/fSclFor1/genomic_data/10x/fSclFor1_S3_L005_R2_001.fastq.gz
-      851293769               0       851293769       939710960       117463870  species/Scleropages_formosus/fSclFor1/genomic_data/10x/fSclFor1_S4_L005_I1_001.fastq.gz
-    11108392156               0      2147483648     18207159546       120577220  species/Scleropages_formosus/fSclFor1/genomic_data/10x/fSclFor1_S4_L005_R1_001.fastq.gz
-    44270025379               0      2147483648     70076521182       464082942  species/Scleropages_formosus/fSclFor1/genomic_data/arima/fSclFor1_27320_3#1_R1.fastq.gz
-    47052811333               0      2147483648     70812701904       468958290  species/Scleropages_formosus/fSclFor1/genomic_data/arima/fSclFor1_27320_3#1_R2.fastq.gz
-              0               0               0       275701966             408  species/Scleropages_formosus/fSclFor1/genomic_data/bionano/fSclFor1_Saphyr_DLE1
-    12584353307               0      2147483648      6844944259          320292  species/Scleropages_formosus/fSclFor1/genomic_data/pacbio/m54205_180711_232531.subreads.bam
-    13543762032               0      2147483648      7394591173          368525  species/Scleropages_formosus/fSclFor1/genomic_data/pacbio/m54205_180712_093906.subreads.bam
-    17813595558               0      2147483648      9659081286          569284  species/Scleropages_formosus/fSclFor1/genomic_data/pacbio/m54205_180725_110256.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fSclFor1              9509996761               0      2147483648     14026442542        92890352  species/Scleropages_formosus/fSclFor1/genomic_data/10x/fSclFor1_S3_L005_R2_001.fastq.gz
+10x             fSclFor1               851293769               0       851293769       939710960       117463870  species/Scleropages_formosus/fSclFor1/genomic_data/10x/fSclFor1_S4_L005_I1_001.fastq.gz
+10x             fSclFor1             11108392156               0      2147483648     18207159546       120577220  species/Scleropages_formosus/fSclFor1/genomic_data/10x/fSclFor1_S4_L005_R1_001.fastq.gz
+arima           fSclFor1             44270025379               0      2147483648     70076521182       464082942  species/Scleropages_formosus/fSclFor1/genomic_data/arima/fSclFor1_27320_3#1_R1.fastq.gz
+arima           fSclFor1             47052811333               0      2147483648     70812701904       468958290  species/Scleropages_formosus/fSclFor1/genomic_data/arima/fSclFor1_27320_3#1_R2.fastq.gz
+bionano         fSclFor1               127377972               0       127377972     73289634143          321592  species/Scleropages_formosus/fSclFor1/genomic_data/bionano/fSclFor1_Saphyr_DLE1
+pacbio          fSclFor1             12584353307               0      2147483648      6844944259          320292  species/Scleropages_formosus/fSclFor1/genomic_data/pacbio/m54205_180711_232531.subreads.bam
+pacbio          fSclFor1             13543762032               0      2147483648      7394591173          368525  species/Scleropages_formosus/fSclFor1/genomic_data/pacbio/m54205_180712_093906.subreads.bam
+pacbio          fSclFor1             17813595558               0      2147483648      9659081286          569284  species/Scleropages_formosus/fSclFor1/genomic_data/pacbio/m54205_180725_110256.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5451
-arima        *       1.5299
-pacbio       *       0.5438
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fSclFor1          1.5451    133072443006
+arima           fSclFor1          1.5299    139714807885
+bionano         fSclFor1         575.3713     73289634143
+pacbio          fSclFor1          0.5438     57252878780
+--------------- ---------------  ------- ---------------

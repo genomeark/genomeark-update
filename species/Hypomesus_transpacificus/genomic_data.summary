@@ -1,15 +1,16 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    40579617743               0      2147483648     77676669083       517844460  species/Hypomesus_transpacificus/fHypTra1/genomic_data/arima/fHypTra1_Delta_Smelt_R1.fastq.gz
-    41177465683               0      2147483648     77633299363       517555329  species/Hypomesus_transpacificus/fHypTra1/genomic_data/arima/fHypTra1_Delta_Smelt_R2.fastq.gz
-              0               0               0       638328807             223  species/Hypomesus_transpacificus/fHypTra1/genomic_data/bionano/fHypTra1_Saphyr_DLE1_3680756
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fHypTra1             40579617743               0      2147483648     77676669083       517844460  species/Hypomesus_transpacificus/fHypTra1/genomic_data/arima/fHypTra1_Delta_Smelt_R1.fastq.gz
+arima           fHypTra1             41177465683               0      2147483648     77633299363       517555329  species/Hypomesus_transpacificus/fHypTra1/genomic_data/arima/fHypTra1_Delta_Smelt_R2.fastq.gz
+bionano         fHypTra1               818215478               0       818215478    552521966278         7717574  species/Hypomesus_transpacificus/fHypTra1/genomic_data/bionano/fHypTra1_Saphyr_DLE1_3680753
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.8948
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fHypTra1          1.8948    154913321675
+bionano         fHypTra1         675.2768    552521966278
+--------------- ---------------  ------- ---------------

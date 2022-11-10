@@ -1,27 +1,28 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    38732806580               0      2147483648     73560874708       490405849  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/arima/Salt_Marsh_Sparrow_R1.fastq.gz
-    39847228111               0      2147483648     74307025500       495380170  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/arima/Salt_Marsh_Sparrow_R2.fastq.gz
-              0               0               0      1256044309             486  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/bionano/bAmmCau1_Saphyr_DLE1_3680760
-    48460797692               0      2147483648     59044050904         4113636  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211031_050355.hifi_reads.bam
-    10761992987               0      2147483648     13112282340          913541  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211031_050355.hifi_reads.fastq.gz
-   180238238562               0      2147483648     78515320403         5106047  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211031_050355.reads.bam
-    56389787703               0      2147483648     71780328766         5065587  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211108_204450.hifi_reads.bam
-    12082396193               0      2147483648     15380060935         1085381  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211108_204450.hifi_reads.fastq.gz
-   205072923906               0      2147483648     88297564692         5526172  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211108_204450.reads.bam
-    58349815975               0      2147483648     77331978824         5430853  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211113_135905.hifi_reads.bam
-    12185901206               0      2147483648     16150176967         1134191  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211113_135905.hifi_reads.fastq.gz
-   194616638236               0      2147483648     83825218076         5223106  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211113_135905.reads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAmmCau1             38732806580               0      2147483648     73560874708       490405849  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/arima/Salt_Marsh_Sparrow_R1.fastq.gz
+arima           bAmmCau1             39847228111               0      2147483648     74307025500       495380170  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/arima/Salt_Marsh_Sparrow_R2.fastq.gz
+bionano         bAmmCau1              1004732027               0      1004732027    588652500483         6641282  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/bionano/bAmmCau1_Saphyr_DLE1_3680750
+pacbiohifi_bam  bAmmCau1             48460797692               0      2147483648     13077181270          915357  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211031_050355.hifi_reads.bam
+pacbiohifi_fqgz bAmmCau1             10761992987               0      2147483648     13112282340          913541  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211031_050355.hifi_reads.fastq.gz
+pacbiohifi_clr  bAmmCau1            180238238562               0      2147483648     78515320403         5106047  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211031_050355.reads.bam
+pacbiohifi_bam  bAmmCau1             56389787703               0      2147483648     15292301874         1079121  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211108_204450.hifi_reads.bam
+pacbiohifi_fqgz bAmmCau1             12082396193               0      2147483648     15380060935         1085381  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211108_204450.hifi_reads.fastq.gz
+pacbiohifi_clr  bAmmCau1            205072923906               0      2147483648     88297564692         5526172  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211108_204450.reads.bam
+pacbiohifi_bam  bAmmCau1             58349815975               0      2147483648     16070741656         1131736  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211113_135905.hifi_reads.bam
+pacbiohifi_fqgz bAmmCau1             12185901206               0      2147483648     16150176967         1134191  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211113_135905.hifi_reads.fastq.gz
+pacbiohifi_clr  bAmmCau1            194616638236               0      2147483648     83825218076         5223106  species/Ammodramus_caudacutus/bAmmCau1/genomic_data/pacbio_hifi/m64055e_211113_135905.reads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.8760
-pacbiohifi_fqgz *       1.2743
-pacbiohifi_bam *       1.2754
-pacbiohifi_clr *       0.4321
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bAmmCau1          1.8760    147416145080
+bionano         bAmmCau1         585.8801    588652500483
+pacbiohifi_bam  bAmmCau1          0.2723     44439469293
+pacbiohifi_clr  bAmmCau1          0.4321    250586802684
+pacbiohifi_fqgz bAmmCau1          1.2743     44639099038
+--------------- ---------------  ------- ---------------

@@ -1,23 +1,25 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     1783720083               0      1783720083      1919640552       239955069  species/Cygnus_olor/bCygOlo1/genomic_data/10x/bCygOlo1_S2_L001_I1_001.fastq.gz
-    19146119041               0      2147483648     35834016411       238893442  species/Cygnus_olor/bCygOlo1/genomic_data/10x/bCygOlo1_S2_L001_R1_001.fastq.gz
-    19442776074               0      2147483648     36056251817       240375021  species/Cygnus_olor/bCygOlo1/genomic_data/10x/bCygOlo1_S2_L001_R2_001.fastq.gz
-    32685273493               0      2147483648     47839509210       318930061  species/Cygnus_olor/bCygOlo1/genomic_data/arima/bCygOlo1_S11_L006_R1_001.fastq.gz
-    33902867110               0      2147483648     48934417247       326229464  species/Cygnus_olor/bCygOlo1/genomic_data/arima/bCygOlo1_S11_L006_R2_001.fastq.gz
-              0               0               0      1253510530             200  species/Cygnus_olor/bCygOlo1/genomic_data/bionano/bCygOlo1_Saphyr_DLE1_1904824
-    12525317242               0      2147483648      6739581253          555521  species/Cygnus_olor/bCygOlo1/genomic_data/pacbio/m54159_180907_213915.subreads.bam
-    11794297590               0      2147483648      6298292282          574264  species/Cygnus_olor/bCygOlo1/genomic_data/pacbio/m54159_180912_050519.subreads.bam
-    11468715795               0      2147483648      6104447084          559437  species/Cygnus_olor/bCygOlo1/genomic_data/pacbio/m54159_180913_115457.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bCygOlo1              1783720083               0      1783720083      1919640552       239955069  species/Cygnus_olor/bCygOlo1/genomic_data/10x/bCygOlo1_S2_L001_I1_001.fastq.gz
+10x             bCygOlo1             19146119041               0      2147483648     35834016411       238893442  species/Cygnus_olor/bCygOlo1/genomic_data/10x/bCygOlo1_S2_L001_R1_001.fastq.gz
+10x             bCygOlo1             19442776074               0      2147483648     36056251817       240375021  species/Cygnus_olor/bCygOlo1/genomic_data/10x/bCygOlo1_S2_L001_R2_001.fastq.gz
+arima           bCygOlo1             32685273493               0      2147483648     47839509210       318930061  species/Cygnus_olor/bCygOlo1/genomic_data/arima/bCygOlo1_S11_L006_R1_001.fastq.gz
+arima           bCygOlo1             33902867110               0      2147483648     48934417247       326229464  species/Cygnus_olor/bCygOlo1/genomic_data/arima/bCygOlo1_S11_L006_R2_001.fastq.gz
+bionano         bCygOlo1               550111862               0       550111862    331037934679         2839385  species/Cygnus_olor/bCygOlo1/genomic_data/bionano/bCygOlo1_Saphyr_DLE1_1867508
+bionano         bCygOlo1               298497402               0       298497402    184074745876         1093152  species/Cygnus_olor/bCygOlo1/genomic_data/bionano/bCygOlo1_Saphyr_DLE1_1891298
+pacbio          bCygOlo1             12525317242               0      2147483648      6739581253          555521  species/Cygnus_olor/bCygOlo1/genomic_data/pacbio/m54159_180907_213915.subreads.bam
+pacbio          bCygOlo1             11794297590               0      2147483648      6298292282          574264  species/Cygnus_olor/bCygOlo1/genomic_data/pacbio/m54159_180912_050519.subreads.bam
+pacbio          bCygOlo1             11468715795               0      2147483648      6104447084          559437  species/Cygnus_olor/bCygOlo1/genomic_data/pacbio/m54159_180913_115457.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8282
-arima        *       1.4499
-pacbio       *       0.5348
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bCygOlo1          1.8282     73809215104
+arima           bCygOlo1          1.4499     96546145060
+bionano         bCygOlo1         607.0080    515112680555
+pacbio          bCygOlo1          0.5348     89099462128
+--------------- ---------------  ------- ---------------

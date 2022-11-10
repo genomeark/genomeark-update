@@ -1,4 +1,4 @@
 downloads/
-genomeark.ls
-genomeark.ls.raw
 species/*/*/genomic_data/*/[0-9]*bytes*summary
+species/*/*/genomic_data/*/*/[0-9]*bytes*summary
+species/*/*/genomic_data/*/*/*/[0-9]*bytes*summary

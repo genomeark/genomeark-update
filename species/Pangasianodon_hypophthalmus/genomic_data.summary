@@ -1,19 +1,20 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    23831446853               0      2147483648     50895024754       337053144  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/arima/fPanHyp1_L78728_R1.fastq.gz
-    24440586934               0      2147483648     51203296175       339094676  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/arima/fPanHyp1_L78728_R2.fastq.gz
-              0               0               0       892478317             117  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/bionano/fPanHyp1_Saphyr_DLE1
-    13240204508               0      2147483648     18282491198         1500510  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/pacbio_hifi/m64046_210616_125635.ccs.bam
-   607436710253               0      2147483648    315620729523        26620214  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/pacbio_hifi/m64046_210616_125635.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fPanHyp1             23831446853               0      2147483648     50895024754       337053144  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/arima/fPanHyp1_L78728_R1.fastq.gz
+arima           fPanHyp1             24440586934               0      2147483648     51203296175       339094676  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/arima/fPanHyp1_L78728_R2.fastq.gz
+bionano         fPanHyp1              1762471534               0      1762471534   1092816515588         9928455  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/bionano/L73765_fish_PanSut_-_Molecule_Merge_RawMolecules
+pacbiohifi_bam  fPanHyp1             13240204508               0      2147483648     18282491198         1500510  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/pacbio_hifi/m64046_210616_125635.ccs.bam
+pacbiohifi_clr  fPanHyp1            607436710253               0      2147483648    315620729523        26620214  species/Pangasianodon_hypophthalmus/fPanHyp1/genomic_data/pacbio_hifi/m64046_210616_125635.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       2.1083
-pacbiohifi_bam *       1.3808
-pacbiohifi_clr *       0.5195
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fPanHyp1          2.1083    101771928833
+bionano         fPanHyp1         620.0477   1092816515588
+pacbiohifi_bam  fPanHyp1          1.3808     18282074384
+pacbiohifi_clr  fPanHyp1          0.5195    315563370976
+--------------- ---------------  ------- ---------------

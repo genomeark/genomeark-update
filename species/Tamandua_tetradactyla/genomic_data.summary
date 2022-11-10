@@ -1,23 +1,26 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    20646966967               0      2147483648     40695534269       269506859  species/Tamandua_tetradactyla/mTamTet1/genomic_data/10x/mTamTet1_S1_L002_R1_001.fastq.gz
-    16797661081               0      2147483648     33025060762       218709011  species/Tamandua_tetradactyla/mTamTet1/genomic_data/10x/mTamTet1_S1_L003_R1_001.fastq.gz
-    24722236022               0      2147483648     48683624730       322408122  species/Tamandua_tetradactyla/mTamTet1/genomic_data/10x/mTamTet1_S1_L004_R1_001.fastq.gz
-              0               0               0      3749743810             543  species/Tamandua_tetradactyla/mTamTet1/genomic_data/bionano/mTamTet1_Saphyr_DLE-1
-    83808688941               0      2147483648    163175927003      1080635317  species/Tamandua_tetradactyla/mTamTet1/genomic_data/hic/mTamTet1_DDL40349T79216_R1.fastq.gz
-    86969438204               0      2147483648    162353871764      1075191203  species/Tamandua_tetradactyla/mTamTet1/genomic_data/hic/mTamTet1_DDL40349T79216_R2.fastq.gz
-   225197209056               0      2147483648    119228521038         4408026  species/Tamandua_tetradactyla/mTamTet1/genomic_data/pacbio/m54345U_190817_051233.subreads.bam
-   137797796721               0      2147483648     72492671858         2744106  species/Tamandua_tetradactyla/mTamTet1/genomic_data/pacbio/m54345U_190820_042951.subreads.bam
-   129868663041               0      2147483648     68646668190         3212966  species/Tamandua_tetradactyla/mTamTet1/genomic_data/pacbio/m64046_190812_131015.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mTamTet1             20646966967               0      2147483648     40695534269       269506859  species/Tamandua_tetradactyla/mTamTet1/genomic_data/10x/mTamTet1_S1_L002_R1_001.fastq.gz
+10x             mTamTet1             16797661081               0      2147483648     33025060762       218709011  species/Tamandua_tetradactyla/mTamTet1/genomic_data/10x/mTamTet1_S1_L003_R1_001.fastq.gz
+10x             mTamTet1             24722236022               0      2147483648     48683624730       322408122  species/Tamandua_tetradactyla/mTamTet1/genomic_data/10x/mTamTet1_S1_L004_R1_001.fastq.gz
+bionano         mTamTet1              2102889849               0      2102889849    917341616387        15723249  species/Tamandua_tetradactyla/mTamTet1/genomic_data/bionano/mTamTet1_Saphyr_DLE-1_201906140401
+bionano         mTamTet1               792270766               0       792270766    394903070542         3583636  species/Tamandua_tetradactyla/mTamTet1/genomic_data/bionano/mTamTet1_Saphyr_DLE-1_201906270843
+bionano         mTamTet1              1243093686               0      1243093686    613000251482         5596372  species/Tamandua_tetradactyla/mTamTet1/genomic_data/bionano/mTamTet1_Saphyr_DLE-1_201906290329
+arima           mTamTet1             83808688941               0      2147483648    163175927003      1080635317  species/Tamandua_tetradactyla/mTamTet1/genomic_data/hic/mTamTet1_DDL40349T79216_R1.fastq.gz
+arima           mTamTet1             86969438204               0      2147483648    162353871764      1075191203  species/Tamandua_tetradactyla/mTamTet1/genomic_data/hic/mTamTet1_DDL40349T79216_R2.fastq.gz
+pacbio          mTamTet1            225197209056               0      2147483648    119228521038         4408026  species/Tamandua_tetradactyla/mTamTet1/genomic_data/pacbio/m54345U_190817_051233.subreads.bam
+pacbio          mTamTet1            137797796721               0      2147483648     72492671858         2744106  species/Tamandua_tetradactyla/mTamTet1/genomic_data/pacbio/m54345U_190820_042951.subreads.bam
+pacbio          mTamTet1            129868663041               0      2147483648     68646668190         3212966  species/Tamandua_tetradactyla/mTamTet1/genomic_data/pacbio/m64046_190812_131015.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9689
-arima        *       1.8928
-pacbio       *       0.5282
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mTamTet1          1.9689    310461654776
+arima           mTamTet1          1.8928    323248839060
+bionano         mTamTet1         465.2311   1925244938411
+pacbio          mTamTet1          0.5282    267931560262
+--------------- ---------------  ------- ---------------

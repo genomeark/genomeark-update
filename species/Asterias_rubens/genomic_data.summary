@@ -1,21 +1,21 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    40371639104               0      2147483648     60962763370       403726909  species/Asterias_rubens/eAstRub1/genomic_data/dovetail/eAstRub1_28852_4#1_R1.fastq.gz
-    43039194908               0      2147483648     61451038804       406960541  species/Asterias_rubens/eAstRub1/genomic_data/dovetail/eAstRub1_28852_4#1_R2.fastq.gz
-    40267986870               0      2147483648     60836512487       402890829  species/Asterias_rubens/eAstRub1/genomic_data/illumina/eAstRub1_27786_7#1_R1.fastq.gz
-    44346992198               0      2147483648     60463183360       400418432  species/Asterias_rubens/eAstRub1/genomic_data/illumina/eAstRub1_27786_7#1_R2.fastq.gz
-    12976692548               0      2147483648      6782075713          974857  species/Asterias_rubens/eAstRub1/genomic_data/pacbio/m54097_181002_013059.subreads.bam
-    10689022320               0      2147483648      5581904277          827249  species/Asterias_rubens/eAstRub1/genomic_data/pacbio/m54097_181008_215945.subreads.bam
-    11655369602               0      2147483648      6077088841          943248  species/Asterias_rubens/eAstRub1/genomic_data/pacbio/m54205_181029_182833.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        eAstRub1             40371639104               0      2147483648     60962763370       403726909  species/Asterias_rubens/eAstRub1/genomic_data/dovetail/eAstRub1_28852_4#1_R1.fastq.gz
+dovetail        eAstRub1             43039194908               0      2147483648     61451038804       406960541  species/Asterias_rubens/eAstRub1/genomic_data/dovetail/eAstRub1_28852_4#1_R2.fastq.gz
+illumina        eAstRub1             40267986870               0      2147483648     60836512487       402890829  species/Asterias_rubens/eAstRub1/genomic_data/illumina/eAstRub1_27786_7#1_R1.fastq.gz
+illumina        eAstRub1             44346992198               0      2147483648     60463183360       400418432  species/Asterias_rubens/eAstRub1/genomic_data/illumina/eAstRub1_27786_7#1_R2.fastq.gz
+pacbio          eAstRub1             12976692548               0      2147483648      6782075713          974857  species/Asterias_rubens/eAstRub1/genomic_data/pacbio/m54097_181002_013059.subreads.bam
+pacbio          eAstRub1             10689022320               0      2147483648      5581904277          827249  species/Asterias_rubens/eAstRub1/genomic_data/pacbio/m54097_181008_215945.subreads.bam
+pacbio          eAstRub1             11655369602               0      2147483648      6077088841          943248  species/Asterias_rubens/eAstRub1/genomic_data/pacbio/m54205_181029_182833.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-dovetail     *       1.4540
-illumina     *       1.4094
-pacbio       *       0.5220
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        eAstRub1          1.4540    121279352653
+illumina        eAstRub1          1.4094    119256351498
+pacbio          eAstRub1          0.5220     47019520269
+--------------- ---------------  ------- ---------------

@@ -1,15 +1,16 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    38443558201               0      2147483648     73607464837       490716450  species/Passerculus_sandwichensis/bPasSan1/genomic_data/arima/bPasSan1_Savannah_Sparrow_R1.fastq.gz
-    38705840260               0      2147483648     74189106022       494594058  species/Passerculus_sandwichensis/bPasSan1/genomic_data/arima/bPasSan1_Savannah_Sparrow_R2.fastq.gz
-              0               0               0      1287874258             358  species/Passerculus_sandwichensis/bPasSan1/genomic_data/bionano/bPasSan1_Saphyr_DLE1_3680727
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPasSan1             38443558201               0      2147483648     73607464837       490716450  species/Passerculus_sandwichensis/bPasSan1/genomic_data/arima/bPasSan1_Savannah_Sparrow_R1.fastq.gz
+arima           bPasSan1             38705840260               0      2147483648     74189106022       494594058  species/Passerculus_sandwichensis/bPasSan1/genomic_data/arima/bPasSan1_Savannah_Sparrow_R2.fastq.gz
+bionano         bPasSan1               759696674               0       759696674    447082834941         4262955  species/Passerculus_sandwichensis/bPasSan1/genomic_data/bionano/bPasSan1_Saphyr_DLE1_3680723
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.9160
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bPasSan1          1.9160    147818247451
+bionano         bPasSan1         588.5017    447082834941
+--------------- ---------------  ------- ---------------

@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     2261768915               0      2261768915      4636441712        30704912  species/Xenentodon_cancila/fXenCan1/genomic_data/10x/fXenCan1_S1_L003_R1_001.fastq.gz
-     1871734335               0      1871734335      3823316678        25319978  species/Xenentodon_cancila/fXenCan1/genomic_data/10x/fXenCan1_S1_L005_R1_001.fastq.gz
-     2569034735               0      2569034735      5265861505        34873255  species/Xenentodon_cancila/fXenCan1/genomic_data/10x/fXenCan1_S1_L007_R1_001.fastq.gz
-    30856273332               0      2147483648     52065197979       347101319  species/Xenentodon_cancila/fXenCan1/genomic_data/arima/fXenCan1_ARIMA241109L003R6000142_R1.fastq.gz
-    35220952978               0      2147483648     50736168272       338241138  species/Xenentodon_cancila/fXenCan1/genomic_data/arima/fXenCan1_ARIMA241109L003R6000142_R2.fastq.gz
-              0               0               0      1251551849             224  species/Xenentodon_cancila/fXenCan1/genomic_data/bionano/fXenCan1_Saphyr_DLE-1
-     8625595378               0      2147483648      4540241521          466207  species/Xenentodon_cancila/fXenCan1/genomic_data/pacbio/m54062_180213_185746.subreads.bam
-     9747033333               0      2147483648      5136242495          456464  species/Xenentodon_cancila/fXenCan1/genomic_data/pacbio/m54142_180125_120604.subreads.bam
-    10996622731               0      2147483648      5826018651          534908  species/Xenentodon_cancila/fXenCan1/genomic_data/pacbio/m54142_180306_165706.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fXenCan1              2261768915               0      2261768915      4636441712        30704912  species/Xenentodon_cancila/fXenCan1/genomic_data/10x/fXenCan1_S1_L003_R1_001.fastq.gz
+10x             fXenCan1              1871734335               0      1871734335      3823316678        25319978  species/Xenentodon_cancila/fXenCan1/genomic_data/10x/fXenCan1_S1_L005_R1_001.fastq.gz
+10x             fXenCan1              2569034735               0      2569034735      5265861505        34873255  species/Xenentodon_cancila/fXenCan1/genomic_data/10x/fXenCan1_S1_L007_R1_001.fastq.gz
+arima           fXenCan1             30856273332               0      2147483648     52065197979       347101319  species/Xenentodon_cancila/fXenCan1/genomic_data/arima/fXenCan1_ARIMA241109L003R6000142_R1.fastq.gz
+arima           fXenCan1             35220952978               0      2147483648     50736168272       338241138  species/Xenentodon_cancila/fXenCan1/genomic_data/arima/fXenCan1_ARIMA241109L003R6000142_R2.fastq.gz
+bionano         fXenCan1               421764832               0       421764832    312034599888         1943127  species/Xenentodon_cancila/fXenCan1/genomic_data/bionano/fXenCan1_Saphyr_DLE-1
+pacbio          fXenCan1              8625595378               0      2147483648      4540241521          466207  species/Xenentodon_cancila/fXenCan1/genomic_data/pacbio/m54062_180213_185746.subreads.bam
+pacbio          fXenCan1              9747033333               0      2147483648      5136242495          456464  species/Xenentodon_cancila/fXenCan1/genomic_data/pacbio/m54142_180125_120604.subreads.bam
+pacbio          fXenCan1             10996622731               0      2147483648      5826018651          534908  species/Xenentodon_cancila/fXenCan1/genomic_data/pacbio/m54142_180306_165706.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       2.0478
-arima        *       1.5156
-pacbio       *       0.5278
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             fXenCan1          2.0478     64254422108
+arima           fXenCan1          1.5156    100146644195
+bionano         fXenCan1         739.8307    312034599888
+pacbio          fXenCan1          0.5278     63118802480
+--------------- ---------------  ------- ---------------

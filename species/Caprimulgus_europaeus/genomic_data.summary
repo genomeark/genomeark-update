@@ -1,22 +1,23 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-      830169741               0       830169741       900931088       112616386  species/Caprimulgus_europaeus/bCapEur3/genomic_data/10x/bCapEur3_S1_L006_I1_001.fastq.gz
-    11146669811               0      2147483648     16996092311       112556902  species/Caprimulgus_europaeus/bCapEur3/genomic_data/10x/bCapEur3_S1_L006_R1_001.fastq.gz
-    10117021948               0      2147483648     15470141836       102451275  species/Caprimulgus_europaeus/bCapEur3/genomic_data/10x/bCapEur3_S4_L006_R1_001.fastq.gz
-    10586186325               0      2147483648     18249333106       120856515  species/Caprimulgus_europaeus/bCapEur3/genomic_data/arima/bCapEur3_35874_7#1_R1.fastq.gz
-    12017546868               0      2147483648     18040833367       119475723  species/Caprimulgus_europaeus/bCapEur3/genomic_data/arima/bCapEur3_35874_7#1_R2.fastq.gz
-    11835275943               0      2147483648     17882564995       118427582  species/Caprimulgus_europaeus/bCapEur3/genomic_data/arima/bCapEur3_35874_8#1_R2.fastq.gz
-              0               0               0      1208602991            1262  species/Caprimulgus_europaeus/bCapEur3/genomic_data/bionano/bCapEur3_Saphyr_DLE1
-   305338570638               0      2147483648    159285352981         7850566  species/Caprimulgus_europaeus/bCapEur3/genomic_data/pacbio/m64094_200309_162832.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bCapEur3               830169741               0       830169741       900931088       112616386  species/Caprimulgus_europaeus/bCapEur3/genomic_data/10x/bCapEur3_S1_L006_I1_001.fastq.gz
+10x             bCapEur3             11146669811               0      2147483648     16996092311       112556902  species/Caprimulgus_europaeus/bCapEur3/genomic_data/10x/bCapEur3_S1_L006_R1_001.fastq.gz
+10x             bCapEur3             10117021948               0      2147483648     15470141836       102451275  species/Caprimulgus_europaeus/bCapEur3/genomic_data/10x/bCapEur3_S4_L006_R1_001.fastq.gz
+arima           bCapEur3             10586186325               0      2147483648     18249333106       120856515  species/Caprimulgus_europaeus/bCapEur3/genomic_data/arima/bCapEur3_35874_7#1_R1.fastq.gz
+arima           bCapEur3             12017546868               0      2147483648     18040833367       119475723  species/Caprimulgus_europaeus/bCapEur3/genomic_data/arima/bCapEur3_35874_7#1_R2.fastq.gz
+arima           bCapEur3             11835275943               0      2147483648     17882564995       118427582  species/Caprimulgus_europaeus/bCapEur3/genomic_data/arima/bCapEur3_35874_8#1_R2.fastq.gz
+bionano         bCapEur3              2818288030               0      2818288030   1510695952145        16047065  species/Caprimulgus_europaeus/bCapEur3/genomic_data/bionano/bCapEur3_Saphyr_DLE1
+pacbio          bCapEur3            305338570638               0      2147483648    159285352981         7850566  species/Caprimulgus_europaeus/bCapEur3/genomic_data/pacbio/m64094_200309_162832.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.5102
-arima        *       1.5730
-pacbio       *       0.5216
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bCapEur3          1.5102    129671508278
+arima           bCapEur3          1.5730     70596254655
+bionano         bCapEur3         536.0332   1510695952145
+pacbio          bCapEur3          0.5216    159264598444
+--------------- ---------------  ------- ---------------

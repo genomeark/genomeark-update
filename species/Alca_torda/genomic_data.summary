@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     5743954108               0      2147483648     11189009836        74593398  species/Alca_torda/bAlcTor1/genomic_data/10x/bAlcTor1_S1_L002_R1_001.fastq.gz
-     5831335321               0      2147483648     11331015852        75540108  species/Alca_torda/bAlcTor1/genomic_data/10x/bAlcTor1_S1_L002_R2_001.fastq.gz
-     4582116929               0      2147483648      8908378777        59389191  species/Alca_torda/bAlcTor1/genomic_data/10x/bAlcTor1_S4_L002_R1_001.fastq.gz
-    27442478838               0      2147483648     52863552984       352423686  species/Alca_torda/bAlcTor1/genomic_data/arima/bAlcTor1_ARI1_4_USPD16090934_HV3Y2CCXY_L6_1.clean.fq.gz
-    29531344391               0      2147483648     53366394980       355775980  species/Alca_torda/bAlcTor1/genomic_data/arima/bAlcTor1_ARI1_4_USPD16090934_HV3Y2CCXY_L6_2.clean.fq.gz
-              0               0               0      1299519857             254  species/Alca_torda/bAlcTor1/genomic_data/bionano/bAlcTor1_Saphyr_DLE1_1206019
-    14821872443               0      2147483648      8013709196          626788  species/Alca_torda/bAlcTor1/genomic_data/pacbio/m54159_180620_210726.subreads.bam
-    14715756176               0      2147483648      7930532809          636266  species/Alca_torda/bAlcTor1/genomic_data/pacbio/m54159_180623_065439.subreads.bam
-    13882326345               0      2147483648      7450452277          572525  species/Alca_torda/bAlcTor1/genomic_data/pacbio/m54159_180624_133358.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bAlcTor1              5743954108               0      2147483648     11189009836        74593398  species/Alca_torda/bAlcTor1/genomic_data/10x/bAlcTor1_S1_L002_R1_001.fastq.gz
+10x             bAlcTor1              5831335321               0      2147483648     11331015852        75540108  species/Alca_torda/bAlcTor1/genomic_data/10x/bAlcTor1_S1_L002_R2_001.fastq.gz
+10x             bAlcTor1              4582116929               0      2147483648      8908378777        59389191  species/Alca_torda/bAlcTor1/genomic_data/10x/bAlcTor1_S4_L002_R1_001.fastq.gz
+arima           bAlcTor1             27442478838               0      2147483648     52863552984       352423686  species/Alca_torda/bAlcTor1/genomic_data/arima/bAlcTor1_ARI1_4_USPD16090934_HV3Y2CCXY_L6_1.clean.fq.gz
+arima           bAlcTor1             29531344391               0      2147483648     53366394980       355775980  species/Alca_torda/bAlcTor1/genomic_data/arima/bAlcTor1_ARI1_4_USPD16090934_HV3Y2CCXY_L6_2.clean.fq.gz
+bionano         bAlcTor1               684016543               0       684016543    354297933955         3675602  species/Alca_torda/bAlcTor1/genomic_data/bionano/bAlcTor1_Saphyr_DLE-1_1206012
+pacbio          bAlcTor1             14821872443               0      2147483648      8013709196          626788  species/Alca_torda/bAlcTor1/genomic_data/pacbio/m54159_180620_210726.subreads.bam
+pacbio          bAlcTor1             14715756176               0      2147483648      7930532809          636266  species/Alca_torda/bAlcTor1/genomic_data/pacbio/m54159_180623_065439.subreads.bam
+pacbio          bAlcTor1             13882326345               0      2147483648      7450452277          572525  species/Alca_torda/bAlcTor1/genomic_data/pacbio/m54159_180624_133358.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.9451
-arima        *       1.8449
-pacbio       *       0.5388
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             bAlcTor1          1.9451     79240658056
+arima           bAlcTor1          1.8449    105111006475
+bionano         bAlcTor1         517.9669    354297933955
+pacbio          bAlcTor1          0.5388     77654803633
+--------------- ---------------  ------- ---------------

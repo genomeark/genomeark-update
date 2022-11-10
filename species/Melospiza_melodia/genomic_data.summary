@@ -1,14 +1,14 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    37397579849               0      2147483648     72835584803       485570565  species/Melospiza_melodia/bMelMel1/genomic_data/arima/bMelMel1_Song_Sparrow_R1.fastq.gz
-    38360096191               0      2147483648     72831801296       485545359  species/Melospiza_melodia/bMelMel1/genomic_data/arima/bMelMel1_Song_Sparrow_R2.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bMelMel1             37397579849               0      2147483648     72835584803       485570565  species/Melospiza_melodia/bMelMel1/genomic_data/arima/bMelMel1_Song_Sparrow_R1.fastq.gz
+arima           bMelMel1             38360096191               0      2147483648     72831801296       485545359  species/Melospiza_melodia/bMelMel1/genomic_data/arima/bMelMel1_Song_Sparrow_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.9146
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bMelMel1          1.9146    145045646546
+--------------- ---------------  ------- ---------------

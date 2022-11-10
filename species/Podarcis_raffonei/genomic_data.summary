@@ -1,23 +1,24 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-   107476383359               0      2147483648    218120656813      1454137762  species/Podarcis_raffonei/rPodRaf1/genomic_data/arima/rPodRaf1_Aeolian_Wall_Lizard_R1_001.fastq.gz
-   113067377409               0      2147483648    223895582700      1492637270  species/Podarcis_raffonei/rPodRaf1/genomic_data/arima/rPodRaf1_Aeolian_Wall_Lizard_R2_001.fastq.gz
-              0               0               0      1500079111              65  species/Podarcis_raffonei/rPodRaf1/genomic_data/bionano/rPodRaf1_Saphyr_DLE1_3691816
-    14149719135               0      2147483648     15500230065         1152181  species/Podarcis_raffonei/rPodRaf1/genomic_data/pacbio_hifi/m54306U_210528_154706.hifi_reads.fastq.gz
-   612440415408               0      2147483648    324477162421        25514504  species/Podarcis_raffonei/rPodRaf1/genomic_data/pacbio_hifi/m54306U_210528_154706.subreads.bam
-    19561504610               0      2147483648     24487835227         1759191  species/Podarcis_raffonei/rPodRaf1/genomic_data/pacbio_hifi/m54306Ue_210626_073803.hifi_reads.fastq.gz
-   203588380319               0      2147483648     78828264496         5484556  species/Podarcis_raffonei/rPodRaf1/genomic_data/pacbio_hifi/m54306Ue_210626_073803.reads.bam
-    17465221075               0      2147483648     20536110785         1354400  species/Podarcis_raffonei/rPodRaf1/genomic_data/pacbio_hifi/m64055_210604_042209.hifi_reads.fastq.gz
-   693563690008               0      2147483648    370154436581        26264867  species/Podarcis_raffonei/rPodRaf1/genomic_data/pacbio_hifi/m64055_210604_042209.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rPodRaf1            107476383359               0      2147483648    218120656813      1454137762  species/Podarcis_raffonei/rPodRaf1/genomic_data/arima/rPodRaf1_Aeolian_Wall_Lizard_R1_001.fastq.gz
+arima           rPodRaf1            113067377409               0      2147483648    223895582700      1492637270  species/Podarcis_raffonei/rPodRaf1/genomic_data/arima/rPodRaf1_Aeolian_Wall_Lizard_R2_001.fastq.gz
+bionano         rPodRaf1              1144334808               0      1144334808    595422720108         6494597  species/Podarcis_raffonei/rPodRaf1/genomic_data/bionano/rPodRaf1_Saphyr_DLE1_3680757
+pacbiohifi_fqgz rPodRaf1             14149719135               0      2147483648     15500230065         1152181  species/Podarcis_raffonei/rPodRaf1/genomic_data/pacbio_hifi/m54306U_210528_154706.hifi_reads.fastq.gz
+pacbiohifi_clr  rPodRaf1            612440415408               0      2147483648    324477162421        25514504  species/Podarcis_raffonei/rPodRaf1/genomic_data/pacbio_hifi/m54306U_210528_154706.subreads.bam
+pacbiohifi_fqgz rPodRaf1             19561504610               0      2147483648     24487835227         1759191  species/Podarcis_raffonei/rPodRaf1/genomic_data/pacbio_hifi/m54306Ue_210626_073803.hifi_reads.fastq.gz
+pacbiohifi_clr  rPodRaf1            203588380319               0      2147483648     78828264496         5484556  species/Podarcis_raffonei/rPodRaf1/genomic_data/pacbio_hifi/m54306Ue_210626_073803.reads.bam
+pacbiohifi_fqgz rPodRaf1             17465221075               0      2147483648     20536110785         1354400  species/Podarcis_raffonei/rPodRaf1/genomic_data/pacbio_hifi/m64055_210604_042209.hifi_reads.fastq.gz
+pacbiohifi_clr  rPodRaf1            693563690008               0      2147483648    370154436581        26264867  species/Podarcis_raffonei/rPodRaf1/genomic_data/pacbio_hifi/m64055_210604_042209.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.9960
-pacbiohifi_fqgz *       1.1826
-pacbiohifi_clr *       0.5123
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rPodRaf1          1.9960    440205346492
+bionano         rPodRaf1         520.3221    595422720108
+pacbiohifi_clr  rPodRaf1          0.5123    773364230442
+pacbiohifi_fqgz rPodRaf1          1.1826     60521263644
+--------------- ---------------  ------- ---------------

@@ -1,14 +1,14 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    35599295414               0      2147483648     69048696190       460324657  species/Todiramphus_cinnamominus/bTodCin1/genomic_data/arima/bTodCin1_Guam_Kingfisher_R1.fastq.gz
-    36852915930               0      2147483648     68976179346       459841212  species/Todiramphus_cinnamominus/bTodCin1/genomic_data/arima/bTodCin1_Guam_Kingfisher_R2.fastq.gz
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bTodCin1             35599295414               0      2147483648     69048696190       460324657  species/Todiramphus_cinnamominus/bTodCin1/genomic_data/arima/bTodCin1_Guam_Kingfisher_R1.fastq.gz
+arima           bTodCin1             36852915930               0      2147483648     68976179346       459841212  species/Todiramphus_cinnamominus/bTodCin1/genomic_data/arima/bTodCin1_Guam_Kingfisher_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.8937
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bTodCin1          1.8937    137202752622
+--------------- ---------------  ------- ---------------

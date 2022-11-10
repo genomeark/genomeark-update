@@ -1,24 +1,28 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-     7834430739               0      2147483648     14592280068        96637619  species/Petromyzon_marinus/kPetMar1/genomic_data/10x/kPetMar1_S1_L001_R1_001.fastq.gz
-     6396812062               0      2147483648     11921988253        78953564  species/Petromyzon_marinus/kPetMar1/genomic_data/10x/kPetMar1_S3_L001_R1_001.fastq.gz
-     6568889508               0      2147483648     12223714314        80951753  species/Petromyzon_marinus/kPetMar1/genomic_data/10x/kPetMar1_S4_L001_R1_001.fastq.gz
-    23692804646               0      2147483648     44313399265       295422672  species/Petromyzon_marinus/kPetMar1/genomic_data/arima/kPetMar1_ARI4_005_USPD16095653_HWNW3CCXY_L8_R1.fastq.gz
-    26529967368               0      2147483648     44103989538       294026609  species/Petromyzon_marinus/kPetMar1/genomic_data/arima/kPetMar1_ARI4_005_USPD16095653_HWNW3CCXY_L8_R2.fastq.gz
-     5595101641               0      2147483648      8692232189        57948217  species/Petromyzon_marinus/kPetMar1/genomic_data/arima/kPetMar1_ARI4_005_USPD16095653_HY5FTCCXY_L2_R2.fastq.gz
-              0               0               0      1559562721             840  species/Petromyzon_marinus/kPetMar1/genomic_data/bionano/kPetMar1_Saphyr_DLE1_3004849
-    19904567245               0      2147483648     10818568619          560131  species/Petromyzon_marinus/kPetMar1/genomic_data/pacbio/m54159_181114_134728.subreads.bam
-    18223398665               0      2147483648      9994301790          484928  species/Petromyzon_marinus/kPetMar1/genomic_data/pacbio/m54159_181115_000038.subreads.bam
-    13867041618               0      2147483648      7591418773          383540  species/Petromyzon_marinus/kPetMar1/genomic_data/pacbio/m54159_181115_150644.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             kPetMar1              7834430739               0      2147483648     14592280068        96637619  species/Petromyzon_marinus/kPetMar1/genomic_data/10x/kPetMar1_S1_L001_R1_001.fastq.gz
+10x             kPetMar1              6396812062               0      2147483648     11921988253        78953564  species/Petromyzon_marinus/kPetMar1/genomic_data/10x/kPetMar1_S3_L001_R1_001.fastq.gz
+10x             kPetMar1              6568889508               0      2147483648     12223714314        80951753  species/Petromyzon_marinus/kPetMar1/genomic_data/10x/kPetMar1_S4_L001_R1_001.fastq.gz
+arima           kPetMar1             23692804646               0      2147483648     44313399265       295422672  species/Petromyzon_marinus/kPetMar1/genomic_data/arima/kPetMar1_ARI4_005_USPD16095653_HWNW3CCXY_L8_R1.fastq.gz
+arima           kPetMar1             26529967368               0      2147483648     44103989538       294026609  species/Petromyzon_marinus/kPetMar1/genomic_data/arima/kPetMar1_ARI4_005_USPD16095653_HWNW3CCXY_L8_R2.fastq.gz
+arima           kPetMar1              5595101641               0      2147483648      8692232189        57948217  species/Petromyzon_marinus/kPetMar1/genomic_data/arima/kPetMar1_ARI4_005_USPD16095653_HY5FTCCXY_L2_R2.fastq.gz
+bionano         kPetMar1                14952030               0        14952030     10474079632          104979  species/Petromyzon_marinus/kPetMar1/genomic_data/bionano/kPetMar1_Saphyr_DLE1_2339781
+bionano         kPetMar1                17955730               0        17955730     19284846298          129387  species/Petromyzon_marinus/kPetMar1/genomic_data/bionano/kPetMar1_Saphyr_DLE1_2364556
+bionano         kPetMar1               382179943               0       382179943    369701455813         2771861  species/Petromyzon_marinus/kPetMar1/genomic_data/bionano/kPetMar1_Saphyr_DLE1_2961982
+bionano         kPetMar1               472277412               0       472277412    407812483931         3072426  species/Petromyzon_marinus/kPetMar1/genomic_data/bionano/kPetMar1_Saphyr_DLE1_3004847
+pacbio          kPetMar1             19904567245               0      2147483648     10818568619          560131  species/Petromyzon_marinus/kPetMar1/genomic_data/pacbio/m54159_181114_134728.subreads.bam
+pacbio          kPetMar1             18223398665               0      2147483648      9994301790          484928  species/Petromyzon_marinus/kPetMar1/genomic_data/pacbio/m54159_181115_000038.subreads.bam
+pacbio          kPetMar1             13867041618               0      2147483648      7591418773          383540  species/Petromyzon_marinus/kPetMar1/genomic_data/pacbio/m54159_181115_150644.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.8623
-arima        *       1.7397
-pacbio       *       0.5462
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             kPetMar1          1.8623    100998892201
+arima           kPetMar1          1.7397    106032767896
+bionano         kPetMar1         909.7414    807272865674
+pacbio          kPetMar1          0.5462     93466951536
+--------------- ---------------  ------- ---------------

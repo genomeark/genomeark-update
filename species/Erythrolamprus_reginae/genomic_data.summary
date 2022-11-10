@@ -1,27 +1,28 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    52447629739               0      2147483648    100004582827       666697243  species/Erythrolamprus_reginae/rEryReg1/genomic_data/arima/rEryReg1_Royal_Ground_Snake_R1.fastq.gz
-    53542948749               0      2147483648    100634211120       670894740  species/Erythrolamprus_reginae/rEryReg1/genomic_data/arima/rEryReg1_Royal_Ground_Snake_R2.fastq.gz
-              0               0               0      5946893854             535  species/Erythrolamprus_reginae/rEryReg1/genomic_data/bionano/rEryReg1_Saphyr_DLE1_3704829
-   551509569454               0      2147483648    293248515383        20860703  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306U_210529_225553.subreads.bam
-    92707600566               0      2147483648    106962375420         6664075  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211016_070813.hifi_reads.bam
-    21579709027               0      2147483648     24897817701         1551208  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211016_070813.hifi_reads.fastq.gz
-   250511580046               0      2147483648    101169843839         5229695  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211016_070813.reads.bam
-    53910234801               0      2147483648     63266841507         3926678  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211020_191957.hifi_reads.bam
-    12436384872               0      2147483648     14594831455          905833  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211020_191957.hifi_reads.fastq.gz
-    13552071006               0      2147483648     14889675875         1037626  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m64055_210602_211608.hifi_reads.bam
-    14320739929               0      2147483648     15734213297         1096480  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m64055_210602_211608.hifi_reads.fastq.gz
-   650728645242               0      2147483648    344765144486        25129680  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m64055_210602_211608.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rEryReg1             52447629739               0      2147483648    100004582827       666697243  species/Erythrolamprus_reginae/rEryReg1/genomic_data/arima/rEryReg1_Royal_Ground_Snake_R1.fastq.gz
+arima           rEryReg1             53542948749               0      2147483648    100634211120       670894740  species/Erythrolamprus_reginae/rEryReg1/genomic_data/arima/rEryReg1_Royal_Ground_Snake_R2.fastq.gz
+bionano         rEryReg1               617574354               0       617574354    351562027210         2243242  species/Erythrolamprus_reginae/rEryReg1/genomic_data/bionano/rEryReg1_Saphyr_DLE1_3680776
+pacbiohifi_clr  rEryReg1            551509569454               0      2147483648    293248515383        20860703  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306U_210529_225553.subreads.bam
+pacbiohifi_bam  rEryReg1             92707600566               0      2147483648     24886148272         1557370  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211016_070813.hifi_reads.bam
+pacbiohifi_fqgz rEryReg1             21579709027               0      2147483648     24897817701         1551208  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211016_070813.hifi_reads.fastq.gz
+pacbiohifi_clr  rEryReg1            250511580046               0      2147483648    101169843839         5229695  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211016_070813.reads.bam
+pacbiohifi_bam  rEryReg1             53910234801               0      2147483648     14565055684          899950  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211020_191957.hifi_reads.bam
+pacbiohifi_fqgz rEryReg1             12436384872               0      2147483648     14594831455          905833  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211020_191957.hifi_reads.fastq.gz
+pacbiohifi_bam  rEryReg1             13552071006               0      2147483648     15929514417         1096902  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m64055_210602_211608.hifi_reads.bam
+pacbiohifi_fqgz rEryReg1             14320739929               0      2147483648     15734213297         1096480  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m64055_210602_211608.hifi_reads.fastq.gz
+pacbiohifi_clr  rEryReg1            650728645242               0      2147483648    344765144486        25129680  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m64055_210602_211608.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-arima        *       1.8884
-pacbiohifi_fqgz *       1.1425
-pacbiohifi_bam *       1.1557
-pacbiohifi_clr *       0.5088
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rEryReg1          1.8884    200152608416
+bionano         rEryReg1         569.2626    351562027210
+pacbiohifi_bam  rEryReg1          0.3457     58954538730
+pacbiohifi_clr  rEryReg1          0.5088    808896066905
+pacbiohifi_fqgz rEryReg1          1.1425     67761557080
+--------------- ---------------  ------- ---------------

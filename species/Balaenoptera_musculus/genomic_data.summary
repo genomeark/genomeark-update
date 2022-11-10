@@ -1,28 +1,29 @@
 -  GENOMIC DATA FILE SUMMARIES
 -
--         bytes            date        quantity           bases           reads  file
---------------- --------------- --------------- --------------- ---------------  ----------
-    35117967862               0      2147483648     54171238966       318654346  species/Balaenoptera_musculus/mBalMus1/genomic_data/10x/mBalMus1_S1_L006_R2_001.fastq.gz
-    31020674272               0      2147483648     54920346566       323060876  species/Balaenoptera_musculus/mBalMus1/genomic_data/10x/mBalMus1_S1_L008_R1_001.fastq.gz
-    35482389316               0      2147483648     55217944358       324811437  species/Balaenoptera_musculus/mBalMus1/genomic_data/10x/mBalMus1_S1_L008_R2_001.fastq.gz
-              0               0               0      5098749888             957  species/Balaenoptera_musculus/mBalMus1/genomic_data/bionano/mBalMus1_Saphyr_DLE1
-              0               0               0      2760208736             742  species/Balaenoptera_musculus/mBalMus1/genomic_data/bionano/mBalMus1_Saphyr_DLE1_nonHap
-    36691348355               0      2147483648     59532402647       396882684  species/Balaenoptera_musculus/mBalMus1/genomic_data/dovetail/mBalMus1_dovetail_HiC_R1.fastq.gz
-    39419606917               0      2147483648     60127187936       400847919  species/Balaenoptera_musculus/mBalMus1/genomic_data/dovetail/mBalMus1_dovetail_HiC_R2.fastq.gz
-    10390028718               0      2147483648     21832490027       235780871  species/Balaenoptera_musculus/mBalMus1/genomic_data/illumina/post-processed/160810_J00168_0006_AHCWTYBBXX/z.r1.se.u.singletons.fq.gz
-      736725970               0       736725970      1811460389        12359087  species/Balaenoptera_musculus/mBalMus1/genomic_data/illumina/post-processed/160810_J00168_0006_AHCWTYBBXX/z.r2.pe.u.multi.fq.gz
-    18497320369               0      2147483648     32628737664       257416070  species/Balaenoptera_musculus/mBalMus1/genomic_data/illumina/post-processed/160810_J00168_0006_AHCWTYBBXX/z.r2.pe.u.singleton.fq.gz
-     2892232245               0      2892232245      1518611994          157643  species/Balaenoptera_musculus/mBalMus1/genomic_data/pacbio/m54178_170627_070707.subreads.bam
-     8649145038               0      2147483648      4495022890          512786  species/Balaenoptera_musculus/mBalMus1/genomic_data/pacbio/m54178_170718_164928.subreads.bam
-     7008397721               0      2147483648      3624945116          473666  species/Balaenoptera_musculus/mBalMus1/genomic_data/pacbio/m54178_170901_131658.subreads.bam
---------------- --------------- --------------- --------------- ---------------  ----------
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mBalMus1             35117967862               0      2147483648     54171238966       318654346  species/Balaenoptera_musculus/mBalMus1/genomic_data/10x/mBalMus1_S1_L006_R2_001.fastq.gz
+10x             mBalMus1             31020674272               0      2147483648     54920346566       323060876  species/Balaenoptera_musculus/mBalMus1/genomic_data/10x/mBalMus1_S1_L008_R1_001.fastq.gz
+10x             mBalMus1             35482389316               0      2147483648     55217944358       324811437  species/Balaenoptera_musculus/mBalMus1/genomic_data/10x/mBalMus1_S1_L008_R2_001.fastq.gz
+bionano         mBalMus1              1092947238               0      1092947238    726451091965         5214864  species/Balaenoptera_musculus/mBalMus1/genomic_data/bionano/mBalMus1_Saphyr_DLE1
+bionano         mBalMus1              1092947230               0      1092947230    726451091965         5214864  species/Balaenoptera_musculus/mBalMus1/genomic_data/bionano/mBalMus1_Saphyr_DLE1_nonHap
+dovetail        mBalMus1             36691348355               0      2147483648     59532402647       396882684  species/Balaenoptera_musculus/mBalMus1/genomic_data/dovetail/mBalMus1_dovetail_HiC_R1.fastq.gz
+dovetail        mBalMus1             39419606917               0      2147483648     60127187936       400847919  species/Balaenoptera_musculus/mBalMus1/genomic_data/dovetail/mBalMus1_dovetail_HiC_R2.fastq.gz
+illumina        mBalMus1             10390028718               0      2147483648     21832490027       235780871  species/Balaenoptera_musculus/mBalMus1/genomic_data/illumina/post-processed/160810_J00168_0006_AHCWTYBBXX/z.r1.se.u.singletons.fq.gz
+illumina        mBalMus1               736725970               0       736725970      1811460389        12359087  species/Balaenoptera_musculus/mBalMus1/genomic_data/illumina/post-processed/160810_J00168_0006_AHCWTYBBXX/z.r2.pe.u.multi.fq.gz
+illumina        mBalMus1             18497320369               0      2147483648     32628737664       257416070  species/Balaenoptera_musculus/mBalMus1/genomic_data/illumina/post-processed/160810_J00168_0006_AHCWTYBBXX/z.r2.pe.u.singleton.fq.gz
+pacbio          mBalMus1              2892232245               0      2892232245      1518611994          157643  species/Balaenoptera_musculus/mBalMus1/genomic_data/pacbio/m54178_170627_070707.subreads.bam
+pacbio          mBalMus1              8649145038               0      2147483648      4495022890          512786  species/Balaenoptera_musculus/mBalMus1/genomic_data/pacbio/m54178_170718_164928.subreads.bam
+pacbio          mBalMus1              7008397721               0      2147483648      3624945116          473666  species/Balaenoptera_musculus/mBalMus1/genomic_data/pacbio/m54178_170901_131658.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
--   datatype suffix scaling
------------- ------ -------
-10x          *       1.6168
-dovetail     *       1.5561
-illumina     *       1.8995
-pacbio       *       0.5196
------------- ------ -------
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mBalMus1          1.6168    322687303286
+bionano         mBalMus1         664.6716   1452902183930
+dovetail        mBalMus1          1.5561    118436257498
+illumina        mBalMus1          1.8995    381770137428
+pacbio          mBalMus1          0.5196    158262439674
+--------------- ---------------  ------- ---------------
