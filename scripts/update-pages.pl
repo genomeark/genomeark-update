@@ -231,18 +231,10 @@ foreach my $species (@speciesList) {
             $data{"data_${ti}_bytes_v"} += $bytes;
             $data{"data_${ty}_bytes_v"} += $bytes;
 
-            #if ($ty eq "bionano") {            
-            #    $data{"data_${ti}_bases_v"} += $data{"data_${ti}_bases"};
-            #    $data{"data_${ty}_bases_v"} += $data{"data_${ti}_bases"};
-            #}
-            #else {
-            #    $data{"data_${ti}_bases_v"} += $bytes * $data{"data_${ti}_scale"};
-            #    $data{"data_${ty}_bases_v"} += $bytes * $data{"data_${ti}_scale"};
-            #}
             $data{"data_${ti}_bases_v"} += $bytes * $data{"data_${ti}_scale"};
             $data{"data_${ty}_bases_v"} += $bytes * $data{"data_${ti}_scale"};
 
-            print "$ti ", $data{"data_${ti}_bytes_v"}, " ", $data{"data_${ti}_bases_v"}, " $ty ", $data{"data_${ty}_bytes_v"}, " ", $data{"data_${ti}_bases_v"}, "\n";
+            #print "$ti ", $data{"data_${ti}_bytes_v"}, " ", $data{"data_${ti}_bases_v"}, " $ty ", $data{"data_${ty}_bytes_v"}, " ", $data{"data_${ti}_bases_v"}, "\n";
         }
     }
 
@@ -256,6 +248,7 @@ foreach my $species (@speciesList) {
 
         $data{"data_${ti}_bytes"}    = prettifySize($data{"data_${ti}_bytes_v"});
         $data{"data_${ti}_bases"}    = prettifyBases($data{"data_${ti}_bases_v"});
+        $data{"data_${ti}_bases"}    = "N/A" if ($ty eq "bionano");
         $data{"data_${ti}_coverage"} = setCoverage($data{"data_${ti}_bases_v"}, $data{"genome_size"});
 
         delete $data{"data_${ti}_bytes_v"};
@@ -265,6 +258,7 @@ foreach my $species (@speciesList) {
 
         $data{"data_${ty}_bytes"}    = prettifySize($data{"data_${ty}_bytes_v"});
         $data{"data_${ty}_bases"}    = prettifyBases($data{"data_${ty}_bases_v"});
+        $data{"data_${ty}_bases"}    = "N/A" if ($ty eq "bionano");
         $data{"data_${ty}_coverage"} = setCoverage($data{"data_${ty}_bases_v"}, $data{"genome_size"});
 
         delete $data{"data_${ty}_bytes_v"};
@@ -333,15 +327,12 @@ foreach my $species (@speciesList) {
 
     my $sn = $data{"short_name"};
 
-    print STDERR "Cleanup '$sn'\n";
+    print STDERR "  Remove '$sn' from tags\n";
 
     foreach my $key (keys %data) {
         if ($key =~ m/^(data_.*):$sn(\d_.*)$/) {
-            print "FIX:   '$key'\n";
             $data{"$1-$2"} = $data{$key};
             delete $data{$key};
-        } else {
-            print "CLEAN: '$key'\n";
         }
     }
 
