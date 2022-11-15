@@ -66,7 +66,16 @@ foreach my $id (qw(1 2 3 4 5 6)) {
     print "\n";
 }
 print "</tbody>\n";
-print "{% include data-table-footer.html %}\n";
 print "</table>\n";
+print "\n";
+print "<div class=\"genome-size\">\n";
+print "Bases and Coverage are approximate.<br>\n";
+print "{% if page.genome_size_display %}\n";
+print "Coverage based on genome size {{ page.genome_size_display }}.<br>\n";
+print "{% else %}\n";
+print "No genome size estimate available.<br>\n";
+print "{% endif %}\n";
+print "Last upload on {{ page.last_raw_data | date: \"%-d %B %Y\" }}.\n";
+print "</div>\n";
 print "\n";
 print "{% comment %}IMPORT FROM MAKE-INDIVIDUAL-TABLE ENDS{% endcomment %}\n";
