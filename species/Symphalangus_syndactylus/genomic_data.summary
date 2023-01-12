@@ -11,10 +11,13 @@ illumina        mSymSyn1             15280301241               0      2147483648
 ont             mSymSyn1             57523234148               0      2147483648     61079794169         2493031  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/ont/PAJ00629_guppy-6.1.1.fastq.gz
 ont             mSymSyn1             74418734505               0      2147483648     78331203210         3865506  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/ont/PAJ00963_guppy-6.1.1.fastq.gz
 ont             mSymSyn1             84857307466               0      2147483648     89690839185         3390090  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/ont/PAJ00968_guppy-6.1.1.fastq.gz
+pacbiohifi_bam  mSymSyn1            115136146487               0      2147483648    158042319808         8420792  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m54329U_210901_104742.hifi_reads.bam
 pacbiohifi_fqgz mSymSyn1             22790546809               0      2147483648     31283580328         1666848  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m54329U_210901_104742.hifi_reads.fastq.gz
 pacbiohifi_clr  mSymSyn1            864351150381               0      2147483648    465865608071        27123324  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m54329U_210901_104742.subreads.bam
+pacbiohifi_bam  mSymSyn1             36878955870               0      2147483648     49336587903         2757759  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m54329U_210904_103226.hifi_reads.bam
 pacbiohifi_fqgz mSymSyn1              7503281643               0      2147483648     10037874056          561085  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m54329U_210904_103226.hifi_reads.fastq.gz
 pacbiohifi_clr  mSymSyn1            323628610535               0      2147483648    175094611385        11062531  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m54329U_210904_103226.subreads.bam
+pacbiohifi_bam  mSymSyn1            127310582112               0      2147483648    150941363536         7534472  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m64076_211107_004425.hifi_reads.bam
 pacbiohifi_fqgz mSymSyn1             27934319242               0      2147483648     33119353991         1653203  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/m64076_211107_004425.hifi_reads.fastq.gz
 pacbiohifi_clr  mSymSyn1            242268673802               0      2147483648     92924100163         4526707  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/pacbio_hifi/r54329U_20210830_233852_B01.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -26,6 +29,7 @@ pacbiohifi_clr  mSymSyn1            242268673802               0      2147483648
 dovetail        mSymSyn1          1.8832    258647702266
 illumina        mSymSyn1          1.9064    230298513564
 ont             mSymSyn1          1.0567    338174801230
+pacbiohifi_bam  mSymSyn1          1.2828   1200685067960
 pacbiohifi_clr  mSymSyn1          0.5131   4866025609885
 pacbiohifi_fqgz mSymSyn1          1.2784    246476772931
 --------------- ---------------  ------- ---------------

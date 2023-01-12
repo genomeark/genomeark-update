@@ -8,9 +8,20 @@ dovetail        mPanPan1             15556735738               0      2147483648
 ont             mPanPan1             69486972823               0      2147483648     73771081783         1550533  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG22775_guppy-6.1.1.fastq.gz
 ont             mPanPan1             62652132697               0      2147483648     66073046733         1589115  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG23747_guppy-6.1.1.fastq.gz
 ont             mPanPan1             71384542171               0      2147483648     75740659548         1633596  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG26857_guppy-6.1.1.fastq.gz
+ont             mPanPan1             32582337079               0      2147483648     39625103481          598927  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG69966_guppy-6.3.7.fastq.gz
+ont             mPanPan1             22825010064               0      2147483648     27356089244          453346  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAM78665_guppy-6.3.7.fastq.gz
+pacbiohifi_bam  mPanPan1             19756930083               0      2147483648     23717656496         1442253  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/6954-PS-0011.l02.ccs.bam
+pacbiohifi_bam  mPanPan1             18517704843               0      2147483648     22893277713         1349651  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/6954-PS-0011.l03.ccs.bam
+pacbiohifi_fqgz mPanPan1             20117572811               0      2147483648     25204402332         1493320  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/6954-PS-0011.l06.ccs.hifi_reads.fastq.gz
+pacbiohifi_fqgz mPanPan1             18032349633               0      2147483648     21507853569         1310094  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/6954-PS-0011.l07.ccs.hifi_reads.fastq.gz
+pacbiohifi_bam  mPanPan1             21059146853               0      2147483648     23580788170         1389973  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/6954-PS-0011.l08.ccs.bam
+pacbiohifi_fqgz mPanPan1             15424261788               0      2147483648     19050266912         1142445  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/6954-PS-0011.l10.ccs.hifi_reads.fastq.gz
+pacbiohifi_bam  mPanPan1             47733513253               0      2147483648     48757491418         3042676  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210511_192234.hifi_reads.bam
 pacbiohifi_fqgz mPanPan1             11791002297               0      2147483648     12043942591          751593  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210511_192234.hifi_reads.fastq.gz
 pacbiohifi_clr  mPanPan1            384052144094               0      2147483648    198931803341        14307593  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210511_192234.subreads.bam
+pacbiohifi_bam  mPanPan1             85572775391               0      2147483648     88724874944         4368169  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210804_194759.hifi_reads.bam
 pacbiohifi_fqgz mPanPan1             21504593302               0      2147483648     22296721623         1097728  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210804_194759.hifi_reads.fastq.gz
+pacbiohifi_bam  mPanPan1             81675569564               0      2147483648     89362510766         4357762  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210806_064833.hifi_reads.bam
 pacbiohifi_fqgz mPanPan1             19728708620               0      2147483648     21585486894         1052616  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210806_064833.hifi_reads.fastq.gz
 pacbiohifi_clr  mPanPan1            549643183567               0      2147483648    296207284151        16634799  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210806_064833.subreads.bam
 pacbiohifi_clr  mPanPan1            181760357326               0      2147483648     75068625587         4729783  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/r54329U_20210507_223310_B01.reads.bam
@@ -29,7 +40,8 @@ illumina        mPanPan3              7965474700               0      2147483648
 dovetail        mPanPan1          1.8479    107480285123
 illumina        mPanPan2          1.9327    237045289097
 illumina        mPanPan3          1.8781    184261149185
-ont             mPanPan1          1.0592    353520597893
+ont             mPanPan1          1.1269    556506602589
+pacbiohifi_bam  mPanPan1          1.1000   1057229373215
 pacbiohifi_clr  mPanPan1          0.5111   3894813044637
-pacbiohifi_fqgz mPanPan1          1.0547    194033122582
+pacbiohifi_fqgz mPanPan1          1.2275    445979270976
 --------------- ---------------  ------- ---------------

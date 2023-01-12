@@ -3,6 +3,8 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 bionano         mManPen7              1520606099               0      1520606099    771700550559         6371748  species/Manis_pentadactyla/mManPen7/genomic_data/bionano/mManPen7_Saphyr_DLE1_3680701
+dovetail        mManPen7             71072070680               0      2147483648    129563045629       858033447  species/Manis_pentadactyla/mManPen7/genomic_data/dovetail/mManPen7_L3_1.fastq.gz
+dovetail        mManPen7             72103375998               0      2147483648    128524753068       851157338  species/Manis_pentadactyla/mManPen7/genomic_data/dovetail/mManPen7_L3_2.fastq.gz
 pacbiohifi_bam  mManPen7             91379613148               0      2147483648     24631280372         1419532  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64055e_211101_201655.hifi_reads.bam
 pacbiohifi_fqgz mManPen7             21448829571               0      2147483648     24705448609         1424103  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64055e_211101_201655.hifi_reads.fastq.gz
 pacbiohifi_clr  mManPen7            236223371296               0      2147483648     95085636705         5304973  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64055e_211101_201655.reads.bam
@@ -19,7 +21,8 @@ pacbiohifi_clr  mManPen7            224468655787               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 bionano         mManPen7         507.4953    771700550559
-pacbiohifi_bam  mManPen7          0.2688     66201592538
-pacbiohifi_clr  mManPen7          0.4123    280547098441
-pacbiohifi_fqgz mManPen7          1.1456     66204683873
+dovetail        mManPen7          1.7958    257114467144
+pacbiohifi_bam  mManPen7          0.2688     85209348342
+pacbiohifi_clr  mManPen7          0.4123    354822250279
+pacbiohifi_fqgz mManPen7          1.1456     84298312521
 --------------- ---------------  ------- ---------------
