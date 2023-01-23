@@ -10,7 +10,7 @@ use warnings;
 
 use GenomeArkUtility;
 
-#use Time::Local;
+use Time::Local;
 #use List::Util;
 use File::Basename;
 
@@ -82,14 +82,16 @@ sub parseAssemblyName ($$$) {
         #if (!defined($p[0])) { die "No first word in $5 filename '$filename'\n"; }
         #if (!defined($p[1])) { die "No second word in $5 filename '$filename'\n"; }
 
-        if (($p[0] ne "pri") &&
-            ($p[0] ne "alt") &&
-            ($p[0] ne "mat") &&
-            ($p[0] ne "pat") &&
+        if (($p[0] ne "pri")  && ($p[0] ne "alt")  &&
+            ($p[0] ne "mat")  && ($p[0] ne "pat")  &&
+            ($p[0] ne "hap1") && ($p[0] ne "hap2") &&
             ($p[0] ne "dip")) {
-            print " - Filename has '$p[0]' as first word; required 'pri', 'alt', 'mat' or 'pat'.\n"   if ($verbose);
-            $err = "  Filename '$3$4.$5.$6$7$8.fasta.gz' has '$p[0]' as first word; required 'pri', 'alt', 'mat' or 'pat'.\n";
+            print " - Filename has '$p[0]' as first word; required 'pri/alt', 'mat/pat', 'hap1/hap2' or 'dip'.\n"   if ($verbose);
+            $err = "  Filename '$3$4.$5.$6$7$8.fasta.gz' has '$p[0]' as first word; required 'pri/alt', 'mat/pat', 'hap1/hap2' or 'dip'.\n";
         }
+
+        $p[0] = "hpa"  if ($p[0] eq "hap1");   #  Rename hap1/hap2 to hpa/hpb because everything else is three letters
+        $p[0] = "hpb"  if ($p[0] eq "hap2");   #  and hap11 looks weird (where last digit is the individual number).
 
         if ((defined($p[1])) &&
             ($p[1] ne "asm") &&
@@ -123,9 +125,19 @@ sub parseAssemblyName ($$$) {
         $curated = "uncurated";
     }
 
+    #  Convert the 'date' to seconds (more or less from the epoch).  We used
+    #  to return 'filesecs', but some files are uploaded well after they're
+    #  generated, even after the file that replaces them.
+
+    my $timesecs = $filesecs;
+
+    if ($date =~ m!(\d\d\d\d)-(\d\d)-(\d\d)$!) {
+        $timesecs = timelocal(0, 0, 0, $3, $2-1, $1);
+    }
+
     #  Return a bunch of stuff.
 
-    return($sName, $aLabel, $sTag, $sNum, $prialt, $date, $filesecs, $curated, $err);
+    return($sName, $aLabel, $sTag, $sNum, $prialt, $date, $timesecs, $curated, $err);
 }
 
 
@@ -555,6 +567,7 @@ sub importAssemblySummary ($$$$$$) {
 
     if (($prialt eq "pri") ||
         ($prialt eq "mat") || ($prialt eq "pat") ||
+        ($prialt eq "hpa") || ($prialt eq "hpb") ||
         ($prialt eq "mgd") ||
         ($prialt eq "dip")) {
 
