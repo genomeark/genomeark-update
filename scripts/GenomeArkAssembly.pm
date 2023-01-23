@@ -132,7 +132,17 @@ sub parseAssemblyName ($$$) {
     my $timesecs = $filesecs;
 
     if ($date =~ m!(\d\d\d\d)-(\d\d)-(\d\d)$!) {
-        $timesecs = timelocal(0, 0, 0, $3, $2-1, $1);
+        my ($y, $m, $d);
+
+        if ($2 < 13) {   #  Normal case, $2 is month,
+            ($y, $m, $d) =  ($1, $2-1, $3);
+        } else {
+            print " - Suspected month/day swap\n"  if ($verbose);
+            $err = "  Suspected month/day swap.\n";
+            ($y, $m, $d) =  ($1, $3-1, $2);
+        }
+
+        $timesecs = timelocal(0, 0, 0, $d, $m, $y);
     }
 
     #  Return a bunch of stuff.
