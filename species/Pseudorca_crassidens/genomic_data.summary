@@ -3,6 +3,8 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 bionano         mPseCra1              1793331052               0      1793331052    834456331922        10121908  species/Pseudorca_crassidens/mPseCra1/genomic_data/bionano/mPseCra1_Saphyr_DLE1_3683832
+dovetail        mPseCra1             88448794834               0      2147483648    161051520209      1066566359  species/Pseudorca_crassidens/mPseCra1/genomic_data/dovetail/mPseCra1_S6_R1_001.fastq.gz
+dovetail        mPseCra1             89123883952               0      2147483648    160858762024      1065289856  species/Pseudorca_crassidens/mPseCra1/genomic_data/dovetail/mPseCra1_S6_R2_001.fastq.gz
 pacbiohifi_bam  mPseCra1             76095798710               0      2147483648     20191482995         1228597  species/Pseudorca_crassidens/mPseCra1/genomic_data/pacbio_hifi/m54306Ue_210813_171957.hifi_reads.bam
 pacbiohifi_fqgz mPseCra1             18619595831               0      2147483648     20250475697         1233688  species/Pseudorca_crassidens/mPseCra1/genomic_data/pacbio_hifi/m54306Ue_210813_171957.hifi_reads.fastq.gz
 pacbiohifi_clr  mPseCra1            201268216162               0      2147483648     78446489003         4834972  species/Pseudorca_crassidens/mPseCra1/genomic_data/pacbio_hifi/m54306Ue_210813_171957.reads.bam
@@ -19,6 +21,7 @@ pacbiohifi_clr  mPseCra1            155302812155               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 bionano         mPseCra1         465.3108    834456331922
+dovetail        mPseCra1          1.8101    321424305870
 pacbiohifi_bam  mPseCra1          0.2702    116987691590
 pacbiohifi_clr  mPseCra1          0.3889    382178573406
 pacbiohifi_fqgz mPseCra1          1.1564    116443093480

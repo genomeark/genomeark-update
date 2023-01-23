@@ -5,6 +5,8 @@
 arima           bPodStr1             21896452435               0      2147483648     40164247440       265988403  species/Podargus_strigoides/bPodStr1/genomic_data/arima/bPodStr1_S2_L001_R1_001.fastq.gz
 arima           bPodStr1             22697929497               0      2147483648     40149816032       265892831  species/Podargus_strigoides/bPodStr1/genomic_data/arima/bPodStr1_S2_L001_R2_001.fastq.gz
 bionano         bPodStr1              1170125642               0      1170125642    605390742939         7540842  species/Podargus_strigoides/bPodStr1/genomic_data/bionano/bPodStr1_Saphyr_DLE1_3691140
+illumina        bPodStr1             16347033469               0      2147483648     32671390769       216366833  species/Podargus_strigoides/bPodStr1/genomic_data/illumina/bPodStr1-SP1_1.fastq.gz
+illumina        bPodStr1             17065652459               0      2147483648     32821098478       217358276  species/Podargus_strigoides/bPodStr1/genomic_data/illumina/bPodStr1-SP1_2.fastq.gz
 pacbiohifi_bam  bPodStr1             61320448246               0      2147483648     16613615525         1123564  species/Podargus_strigoides/bPodStr1/genomic_data/pacbio_hifi/m54306Ue_211119_193335.hifi_reads.bam
 pacbiohifi_fqgz bPodStr1             13871838346               0      2147483648     16709019284         1131853  species/Podargus_strigoides/bPodStr1/genomic_data/pacbio_hifi/m54306Ue_211119_193335.hifi_reads.fastq.gz
 pacbiohifi_clr  bPodStr1            211229173872               0      2147483648     91621406303         5285146  species/Podargus_strigoides/bPodStr1/genomic_data/pacbio_hifi/m54306Ue_211119_193335.reads.bam
@@ -22,6 +24,7 @@ pacbiohifi_clr  bPodStr1            164569611400               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           bPodStr1          1.7901     79828403096
 bionano         bPodStr1         517.3724    605390742939
+illumina        bPodStr1          1.9476     65074547113
 pacbiohifi_bam  bPodStr1          0.2736     37795147548
 pacbiohifi_clr  bPodStr1          0.4342    203142310173
 pacbiohifi_fqgz bPodStr1          1.2495     37872066440

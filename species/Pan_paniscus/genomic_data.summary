@@ -16,6 +16,8 @@ pacbiohifi_fqgz mPanPan1             20117572811               0      2147483648
 pacbiohifi_fqgz mPanPan1             18032349633               0      2147483648     21507853569         1310094  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/6954-PS-0011.l07.ccs.hifi_reads.fastq.gz
 pacbiohifi_bam  mPanPan1             21059146853               0      2147483648     23580788170         1389973  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/6954-PS-0011.l08.ccs.bam
 pacbiohifi_fqgz mPanPan1             15424261788               0      2147483648     19050266912         1142445  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/6954-PS-0011.l10.ccs.hifi_reads.fastq.gz
+pacbiohifi_bam  mPanPan1             42869293535               0      2147483648     10762196926          681282  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m54329U_210509_045858.hifi_reads.bam
+pacbiohifi_fqgz mPanPan1             11113063861               0      2147483648      2789898593          176609  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m54329U_210509_045858.hifi_reads.fastq.gz
 pacbiohifi_bam  mPanPan1             47733513253               0      2147483648     48757491418         3042676  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210511_192234.hifi_reads.bam
 pacbiohifi_fqgz mPanPan1             11791002297               0      2147483648     12043942591          751593  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210511_192234.hifi_reads.fastq.gz
 pacbiohifi_clr  mPanPan1            384052144094               0      2147483648    198931803341        14307593  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/m64076_210511_192234.subreads.bam
@@ -41,7 +43,7 @@ dovetail        mPanPan1          1.8479    107480285123
 illumina        mPanPan2          1.9327    237045289097
 illumina        mPanPan3          1.8781    184261149185
 ont             mPanPan1          1.1269    556506602589
-pacbiohifi_bam  mPanPan1          1.1000   1057229373215
+pacbiohifi_bam  mPanPan1          0.8582    824831134630
 pacbiohifi_clr  mPanPan1          0.5111   3894813044637
 pacbiohifi_fqgz mPanPan1          1.2275    445979270976
 --------------- ---------------  ------- ---------------
