@@ -35,7 +35,7 @@ sub parseAssemblyName ($$$) {
 
     #  Initialize the return values.
 
-    my ($sName, $aLabel, $sTag, $sNum, $prialt, $date, $curated, $err) = (undef, "", "", "", "", "", "uncurated", undef);
+    my ($sName, $aLabel, $sTag, $sNum, $prialt, $date, $curated, $err, $warn) = (undef, "", "", "", "", "", "uncurated", undef, undef);
 
     #  Handle mito first, because the second form also matches the generic 'an assembly' regex.
 
@@ -147,7 +147,7 @@ sub parseAssemblyName ($$$) {
 
     #  Return a bunch of stuff.
 
-    return($sName, $aLabel, $sTag, $sNum, $prialt, $date, $timesecs, $curated, $err);
+    return($sName, $aLabel, $sTag, $sNum, $prialt, $date, $timesecs, $curated, $err, $warn);
 }
 
 
@@ -340,11 +340,15 @@ sub rememberLatestAssembly ($$$$$) {
     my $data     = shift @_;
     my $errors   = shift @_;
 
-    my ($sName, $aLabel, $sTag, $sNum, $prialt, $date, $secs, $curated, $err) = parseAssemblyName($filename, $filesecs, 1);
+    my ($sName, $aLabel, $sTag, $sNum, $prialt, $date, $secs, $curated, $err, $warn) = parseAssemblyName($filename, $filesecs, 1);
 
     if (defined($err)) {       #  Oops, something wrong.
         push @$errors, $err;   #  Append the error to the global list of errors,
         return;                #  and bail.
+    }
+
+    if (defined($warn)) {      #  Oops, something amss.
+        push @$errors, $warn;  #  Append the error to the global list of errors,
     }
 
     #  If there isn't a date sete for this prialt, set it to whatever we have.
@@ -480,11 +484,14 @@ sub summarizeAssembly ($$$$$$$) {
     my $missing  = shift @_;
     my $download = shift @_;
 
-    my ($sName, $aLabel, $sTag, $sNum, $prialt, $date, $secs, $curated, $err) = parseAssemblyName($filename, $filesecs, 0);
+    my ($sName, $aLabel, $sTag, $sNum, $prialt, $date, $secs, $curated, $err, $warn) = parseAssemblyName($filename, $filesecs, 0);
 
     if (defined($err)) {       #  Oops, something wrong.
         return;                #  But we've already saved the error, so just bail.
     }
+
+    if (defined($warn)) {      #  Oops, something amiss.
+    }                          #  But we've already saved the error, so do nothing.
 
     #return  if ($secs     ne $$data{"${prialt}${sNum}__datesecs"});
     return  if (!exists($$data{"${prialt}${sNum}__filename"}));       #  Already processed the correct assembly.
@@ -542,11 +549,14 @@ sub importAssemblySummary ($$$$$$) {
     my $errors   = shift @_;
     my $missing  = shift @_;
 
-    my ($sName, $aLabel, $sTag, $sNum, $prialt, $date, $secs, $curated, $err) = parseAssemblyName($filename, $filesecs, 0);
+    my ($sName, $aLabel, $sTag, $sNum, $prialt, $date, $secs, $curated, $err, $warn) = parseAssemblyName($filename, $filesecs, 0);
 
     if (defined($err)) {       #  Oops, something wrong.
         return;                #  But we've already saved the error, so just bail.
     }
+
+    if (defined($warn)) {      #  Oops, something amiss.
+    }                          #  But we've already saved the error, so do nothing.
 
     #return  if ($secs     ne $$data{"${prialt}${sNum}__datesecs"});
     return  if (!exists($$data{"${prialt}${sNum}__filename"}));       #  Already processed the correct assembly.
@@ -581,7 +591,7 @@ sub importAssemblySummary ($$$$$$) {
         ($prialt eq "mgd") ||
         ($prialt eq "dip")) {
 
-        if (($curated eq "curated") || ($prialt eq "mgd")) {
+        if (($curated eq "curated") || ($curated eq "decontaminated") || ($prialt eq "mgd")) {
             printf "  %8s <- status=curated\n", "$prialt$sNum";
             $$data{"assembly_status"} = "curated";
         }
