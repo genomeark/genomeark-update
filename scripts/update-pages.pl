@@ -327,8 +327,6 @@ foreach my $species (@speciesList) {
 
     my $sn = $data{"short_name"};
 
-    print STDERR "  Remove '$sn' from tags\n";
-
     foreach my $key (keys %data) {
         if ($key =~ m/^(data_.*):$sn(\d_.*)$/) {
             $data{"$1-$2"} = $data{$key};
@@ -363,7 +361,17 @@ foreach my $species (@speciesList) {
             symlink("../_genomeark/$name.md", "$ga/_$proj-$catg/$name.md") or die "Failed to make symlink for '$ga/_$proj-$catg/$name.md': $!.\n";
         }
 
-        foreach my $proj ("genomeark", split '\s+', getProjectID($data{"name_"})) {
+        my $pl = getProjectID($data{"name_"});
+        my @pl = ( "genomeark" );
+
+        if ($pl) {
+            push @pl, split '\s+', $pl;
+        } else {
+            push @potentialErrors, "  Species $data{'name_'} has no projectID.\n";
+        }
+
+        foreach my $proj (@pl) {
+            print STDERR "PROJECT $proj\n";
             makeLink($name, $proj, "all");
 
             if    ($data{"assembly_status"} eq "curated") { makeLink($name, $proj, "curated-assembly") }
