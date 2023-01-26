@@ -596,16 +596,18 @@ sub importAssemblySummary ($$$$$$) {
         ($prialt eq "hpa") || ($prialt eq "hpb") ||
         ($prialt eq "mgd") ||
         ($prialt eq "dip")) {
+        my $st;
 
-        if (($curated eq "curated") || ($curated eq "decontaminated") || ($prialt eq "mgd")) {
-            printf "  %8s <- status=curated\n", "$prialt$sNum";
-            $$data{"assembly_status"} = "curated";
+        $st = "draft";                                        #  Decide if this assembly is
+        $st = "curated"  if ($curated eq "curated");          #  a draft (by default) or
+        $st = "curated"  if ($curated eq "decontaminated");   #  curated.
+        $st = "curated"  if ($prialt eq "mgd");
+
+        if ($$data{"assembly_status"} ne "curated") {   #  If the assembly status isn't curated,
+            $$data{"assembly_status"} = $st;            #  set it to whatever.
         }
 
-        else {
-            printf "  %8s <- status=draft\n", "$prialt$sNum";
-            $$data{"assembly_status"} = "draft";
-        }
+        printf "  %8s (%s) -> species (%s)\n", "$prialt$sNum", $st, $$data{"assembly_status"};
     }
 }
 
