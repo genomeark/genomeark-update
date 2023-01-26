@@ -371,7 +371,6 @@ foreach my $species (@speciesList) {
         }
 
         foreach my $proj (@pl) {
-            print STDERR "PROJECT $proj\n";
             makeLink($name, $proj, "all");
 
             if    ($data{"assembly_status"} eq "curated") { makeLink($name, $proj, "curated-assembly") }
