@@ -143,7 +143,7 @@ sub parseAssemblyName ($$$) {
             ($y, $m, $d) =  ($1, $2-1, $3);
         } else {
             print " - Suspected month/day swap\n"  if ($verbose);
-            $err = "  Suspected month/day swap.\n";
+            $err = "  Suspected month/day swap in '$filename'.\n";
             ($y, $m, $d) =  ($1, $3-1, $2);
         }
 
