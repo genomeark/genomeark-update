@@ -377,10 +377,16 @@ close(FILT);
 #  Emit the list of speices.
 
 foreach my $s (sort keys %speciesMeta) {
-    delete $speciesList{$s};
     print SPLI "$s\n";
 }
 close(SPLI);
+
+#  Remove the species with metadata from our list, so we can report errors.
+
+foreach my $s (sort keys %speciesMeta) {
+    delete $speciesList{$s};
+}
+
 
 #  Emit a list of species without metadata.
 
