@@ -180,8 +180,14 @@ while (<RAW>) {
     next if ($filename =~ m!/genomic_data/.*/scripts/!);
 
     next if ($filename =~ m!/genomic_data/nanopore/.*fast5$!);
+    next if ($filename =~ m!/genomic_data/nanopore/.*bam$!);
     next if ($filename =~ m!/genomic_data/nanopore/.*ont_run_stats\.txt$!);
     next if ($filename =~ m!/genomic_data/nanopore/.*telemetry\.js\.xz$!);
+
+    next if ($filename =~ m!/genomic_data/ont/.*fast5$!);
+    next if ($filename =~ m!/genomic_data/ont/.*bam$!);
+    next if ($filename =~ m!/genomic_data/ont/.*ont_run_stats\.txt$!);
+    next if ($filename =~ m!/genomic_data/ont/.*telemetry\.js\.xz$!);
 
     next if ($filename =~ m!/aBomBom1/genomic_data/bionano/exp_refineFinal1/!);
     next if ($filename =~ m!/aBomBom1/genomic_data/pacbio/fasta!);
@@ -292,6 +298,72 @@ while (<RAW>) {
 
     next if ($filename eq "species/Tamandua_tetradactyla/mTamTet1/assembly_vgp_standard_1.7/mTamTet1_t3.alt.asm.20210813.fasta.gz");
     next if ($filename eq "species/Tamandua_tetradactyla/mTamTet1/assembly_vgp_standard_1.7/mTamTet1_t3.pri.asm.20210813.fasta.gz");
+
+    next if ($filename eq "species/Ara_ararauna/bAraAra1/assembly_vgp_HiC_2.0/bAraAra1.HiC.hap1.20220601.fasta.gz");   #  Misnamed HiC.hap1
+    next if ($filename eq "species/Ara_ararauna/bAraAra1/assembly_vgp_HiC_2.0/bAraAra1.HiC.hap2.20220601.fasta.gz");   #  instead of hap1.asm
+
+    next if ($filename eq "species/Eschrichtius_robustus/mEscRob2/assembly_vgp_standard_2.0/mEscRob2.standard.pri.20221005.fasta.gz");
+
+    next if ($filename eq "species/Eubalaena_glacialis/mEubGla1/assembly_curated/mEubGla1.hap1.dup.20230118.fasta.gz");
+    next if ($filename eq "species/Eubalaena_glacialis/mEubGla1/assembly_curated/mEubGla1.hap2.dup.20230118.fasta.gz");
+
+    next if ($filename eq "species/Gypaetus_barbatus/bGypBar2/assembly_vgp_standard_2.0/bGypBar2.alt.asm.fasta.gz");           #  Missing date, but now
+    next if ($filename eq "species/Gypaetus_barbatus/bGypBar2/assembly_vgp_standard_2.0/bGypBar2.pri.asm.20211119.fasta.gz");  #  obsolete draft
+
+    next if ($filename eq "species/Gastrophryne_carolinensis/aGasCar1/assembly_vgp_HiC_2.0/aGasCar1.HiC.hap1.s2.fasta.gz");
+    next if ($filename eq "species/Gastrophryne_carolinensis/aGasCar1/assembly_vgp_HiC_2.0/aGasCar1.HiC.hap2.s2.fasta.gz");
+
+    next if ($filename eq "species/Malaclemys_terrapin/rMalTer1/assembly_curated/rMalTer1.alt.cur.20220708.fasta.gz");        #  Empty and no pri!
+    next if ($filename eq "species/Malaclemys_terrapin/rMalTer1/assembly_curated/rMalTer1.hap2.alt.cur.20220708.fasta.gz");   #  Both empty and malformed
+
+    next if ($filename eq "species/Gastrophryne_carolinensis/aGasCar1/assembly_curated/aGasCar1.hap1.alt.cur.20220713.fasta.gz");  #  Empty too.
+    next if ($filename eq "species/Gastrophryne_carolinensis/aGasCar1/assembly_curated/aGasCar1.hap2.alt.cur.20220713.fasta.gz");  #  Empty.
+
+    next if ($filename eq "species/Tamandua_tetradactyla/mTamTet1/assembly_curated/mTamTet1.pri.cur.20220203.noMT.fasta.gz'.");
+
+    next if ($filename eq "species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m54329U_210319_174352.hifi_reads.no-kinetics.bam");
+    next if ($filename eq "species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m64076_210326_192259.hifi_reads.no-kinetics.bam");
+    next if ($filename eq "species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m64076_210810_005444.hifi_reads.no-kinetics.bam");
+    next if ($filename eq "species/Pongo_abelii/mPonAbe1/genomic_data/pacbio_hifi/m54329U_210228_013345.hifi_reads.no-kinetics.bam");
+    next if ($filename eq "species/Pongo_abelii/mPonAbe1/genomic_data/pacbio_hifi/m54329U_210404_020346.hifi_reads.no-kinetics.bam");
+    next if ($filename eq "species/Pongo_abelii/mPonAbe1/genomic_data/pacbio_hifi/m64076_210225_020019.hifi_reads.no-kinetics.bam");
+    next if ($filename eq "species/Pongo_abelii/mPonAbe1/genomic_data/pacbio_hifi/m64076_210330_204128.hifi_reads.no-kinetics.bam");
+
+
+
+    next if ($filename eq "species/Gorilla_gorilla/mGorGor1/assembly_verkko_1.1-0.2-freeze/mGorGor1.analysis.20221111.fasta.gz");
+    next if ($filename eq "species/Gorilla_gorilla/mGorGor1/assembly_verkko_1.1-0.2-freeze/mGorGor1.mat+MT.20221111.fasta.gz");
+
+    next if ($filename eq "species/Pan_paniscus/mPanPan1/assembly_verkko_1.1-0.1-freeze/mPanPan1.analysis.20221111.fasta.gz");
+    next if ($filename eq "species/Pan_paniscus/mPanPan1/assembly_verkko_1.1-0.1-freeze/mPanPan1.mat+MT.20221111.fasta.gz");
+
+    next if ($filename eq "species/Pan_troglodytes/mPanTro3/assembly_verkko_1.1-hic-freeze/mPanTro3.analysis.20221111.fasta.gz");
+    next if ($filename eq "species/Pan_troglodytes/mPanTro3/assembly_verkko_1.1-hic-freeze/mPanTro3.hap1+MT.20221111.fasta.gz");
+    next if ($filename eq "species/Pan_troglodytes/mPanTro3/assembly_verkko_1.1-hic-freeze/mPanTro3.hap2+MT.20221111.fasta.gz");
+
+    next if ($filename eq "species/Pongo_abelii/mPonAbe1/assembly_verkko_1.1-hic-freeze/mPonAbe1.analysis.20221111.fasta.gz");
+    next if ($filename eq "species/Pongo_abelii/mPonAbe1/assembly_verkko_1.1-hic-freeze/mPonAbe1.hap1+MT.20221111.fasta.gz");
+    next if ($filename eq "species/Pongo_abelii/mPonAbe1/assembly_verkko_1.1-hic-freeze/mPonAbe1.hap2+MT.20221111.fasta.gz");
+
+    next if ($filename eq "species/Chanos_chanos/fChaCha1/genomic_data/pacbio_hifi/v2/ChanosChanos_HiFi_1cell_CCSreads_Q20.fastq.gz");
+    next if ($filename eq "species/Chanos_chanos/fChaCha1/genomic_data/pacbio_hifi/v2/ChanosChanos_HiFi_PrimaryContigs_Polished.fasta.gz");
+    next if ($filename eq "species/Chanos_chanos/fChaCha1/genomic_data/pacbio_hifi/v2/ChanosChanos_HiFi_PrimaryContigs_Polished.stats");
+
+    next if ($filename eq "species/Pongo_pygmaeus/mPonPyg2/assembly_verkko_1.1-hic-freeze/mPonPyg2.analysis.20221111.fasta.gz");
+    next if ($filename eq "species/Pongo_pygmaeus/mPonPyg2/assembly_verkko_1.1-hic-freeze/mPonPyg2.hap1+MT.20221111.fasta.gz");
+    next if ($filename eq "species/Pongo_pygmaeus/mPonPyg2/assembly_verkko_1.1-hic-freeze/mPonPyg2.hap2+MT.20221111.fasta.gz");
+
+    next if ($filename eq "species/Symphalangus_syndactylus/mSymSyn1/assembly_verkko_1.1-hic-freeze/mSymSyn1.analysis.20221111.fasta.gz");
+    next if ($filename eq "species/Symphalangus_syndactylus/mSymSyn1/assembly_verkko_1.1-hic-freeze/mSymSyn1.hap1+MT.20221111.fasta.gz");
+    next if ($filename eq "species/Symphalangus_syndactylus/mSymSyn1/assembly_verkko_1.1-hic-freeze/mSymSyn1.hap2+MT.20221111.fasta.gz");
+
+    next if ($filename eq "species/Symphalangus_syndactylus/mSymSyn1/assembly_verkko_1.1-hic-freeze/mSymSyn1.analysis.20221111.fasta.gz");
+    next if ($filename eq "species/Symphalangus_syndactylus/mSymSyn1/assembly_verkko_1.1-hic-freeze/mSymSyn1.hap1+MT.20221111.fasta.gz");
+    next if ($filename eq "species/Symphalangus_syndactylus/mSymSyn1/assembly_verkko_1.1-hic-freeze/mSymSyn1.hap2+MT.20221111.fasta.gz");
+
+    next if ($filename eq "species/Rissa_tridactyla/bRisTri1/assembly_vgp_trio_2.0/bRisTri1.trio.hap1.20220720.fasta.gz");
+    next if ($filename eq "species/Rissa_tridactyla/bRisTri1/assembly_vgp_trio_2.0/bRisTri1.trio.hap2.20220720.fasta.gz");
+
 
     print FILT "$_\n";   #  Finally, a file we want to process!
 
