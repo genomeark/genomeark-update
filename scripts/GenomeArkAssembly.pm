@@ -82,6 +82,11 @@ sub parseAssemblyName ($$$) {
         #if (!defined($p[0])) { die "No first word in $5 filename '$filename'\n"; }
         #if (!defined($p[1])) { die "No second word in $5 filename '$filename'\n"; }
 
+        if ($p[0] eq "HiC") {   #  Adjust for some intermediate assemblies:
+            $p[0] = $p[1];      #    Ara_ararauna/bAraAra1/assembly_vgp_HiC_2.0/bAraAra1.HiC.hap1.20220601.fasta.gz
+            $p[1] = "asm";      #    Colius_striatus/bColStr4/assembly_vgp_HiC_2.0/bColStr4.HiC.hap1.20220601.fasta.gz
+        }                       #
+
         if (($p[0] ne "pri")  && ($p[0] ne "alt")  &&
             ($p[0] ne "mat")  && ($p[0] ne "pat")  &&
             ($p[0] ne "hap1") && ($p[0] ne "hap2") &&
