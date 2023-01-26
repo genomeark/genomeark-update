@@ -197,6 +197,7 @@ sub accumulateData ($$$$$$$$) {
             $$tiBytes{"ont:$iName"} += $filesize;
             $$tiIndiv{"ont:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+        } elsif ($filename =~ m/bam$/) {
         } elsif ($filename =~ m/fast5$/) {
             #$$tiFiles{"ont:$iName"} .= {"ont:$iName $filesize $filename\0";
             #$$tiBytes{"ont:$iName"} += $filesize;
