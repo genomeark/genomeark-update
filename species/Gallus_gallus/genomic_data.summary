@@ -11,9 +11,15 @@ arima           bGalGal1             32630294475               0      2147483648
 arima           bGalGal1             35153139482               0      2147483648     53004957994       353366403  species/Gallus_gallus/bGalGal1/genomic_data/arima/bGalGal1_S1_L006_R2_001.fastq.gz
 bionano         bGalGal1              1082213745               0      1082213745    551950320029         4809936  species/Gallus_gallus/bGalGal1/genomic_data/bionano/bGalGal1_Saphyr_DLE1_3273218
 bionano         bGalGal1                18800891               0        18800891      1217289379             180  species/Gallus_gallus/bGalGal1/genomic_data/bionano/bGalGal1_Saphyr_DLE1_3310977
+ont             bGalGal1                62202176               0        62202176        63687366            4000  species/Gallus_gallus/bGalGal1/genomic_data/ont/20220713_1455_1F_PAK14369_bbf47517/fastq_pass/PAK14369_pass_34827843_123.fastq.gz
+ont             bGalGal1                26392624               0        26392624        29975831            4000  species/Gallus_gallus/bGalGal1/genomic_data/ont/20220726_1012_2G_PAK14466_736434a9/fastq_fail/PAK14466_fail_bc26837d_60.fastq.gz
+ont             bGalGal1                42801715               0        42801715        43219382            4000  species/Gallus_gallus/bGalGal1/genomic_data/ont/bGalGal1_PAK10959_09282022/20220928_1308_2G_PAK10959_55bf89b4/fastq_pass/PAK10959_pass_dcea498e_24.fastq.gz
 pacbio          bGalGal1             19152341497               0      2147483648     10267058936          576429  species/Gallus_gallus/bGalGal1/genomic_data/pacbio/m54158_190712_122830.subreads.bam
 pacbio          bGalGal1             20465841531               0      2147483648     11040758406          587934  species/Gallus_gallus/bGalGal1/genomic_data/pacbio/m54158_190712_224310.subreads.bam
 pacbio          bGalGal1             18565218912               0      2147483648     10073475994          529235  species/Gallus_gallus/bGalGal1/genomic_data/pacbio/m54159_190712_194412.subreads.bam
+pacbiohifi_fqgz bGalGal1              8550332838               0      2147483648      8863407922          388635  species/Gallus_gallus/bGalGal1/genomic_data/pacbio_hifi/m64055e_220721_053659.hifi_reads.fastq.gz
+pacbiohifi_fqgz bGalGal1             11180526946               0      2147483648     12643311435          699528  species/Gallus_gallus/bGalGal1/genomic_data/pacbio_hifi/m64055e_220722_163330.hifi_reads.fastq.gz
+pacbiohifi_fqgz bGalGal1             28280545689               0      2147483648     30827349033         1354078  species/Gallus_gallus/bGalGal1/genomic_data/pacbio_hifi/m64330e_220920_184402.hifi_reads.fastq.gz
 arima           bGalGal2             32632701927               0      2147483648     52061649467       347077678  species/Gallus_gallus/bGalGal2/genomic_data/arima/bGalGal2_S2_L005_R1_001.fastq.gz
 arima           bGalGal2             35118003078               0      2147483648     50349763487       335665089  species/Gallus_gallus/bGalGal2/genomic_data/arima/bGalGal2_S2_L005_R2_001.fastq.gz
 illumina        bGalGal2              7382295945               0      2147483648     14142706167        93660309  species/Gallus_gallus/bGalGal2/genomic_data/illumina/HJTKMDSXX_18861317_S18_L002_R1_001.fastq.gz
@@ -71,9 +77,11 @@ bionano         bGalGal4         459.5875    386690711344
 bionano         bGalGal5         545.6752    555774645756
 illumina        bGalGal2          1.8592    103180479895
 illumina        bGalGal3          1.8649    116183322122
+ont             bGalGal1          1.0417     60419951055
 pacbio          bGalGal1          0.5393    123488382835
 pacbiohifi_bam  bGalGal4          1.0892     39380355184
 pacbiohifi_clr  bGalGal4          0.5156    803975578832
 pacbiohifi_clr  bGalGal5          0.5227    733798793598
+pacbiohifi_fqgz bGalGal1          1.0900     92892980735
 pacbiohifi_fqgz bGalGal5          1.2606     45728759432
 --------------- ---------------  ------- ---------------

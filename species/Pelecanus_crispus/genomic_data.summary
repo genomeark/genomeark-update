@@ -11,12 +11,15 @@ pacbiohifi_bam  bPelCri1             10104984084               0      2147483648
 pacbiohifi_clr  bPelCri1            353121182458               0      2147483648    183313463785        13839989  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210504_215359.subreads.bam
 pacbiohifi_bam  bPelCri1              8342408679               0      2147483648     10188650473          663781  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m64046_210430_203759.ccs.bam
 pacbiohifi_clr  bPelCri1            284840114132               0      2147483648    148119424459        10835413  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m64046_210430_203759.subreads.bam
+arima           bPelCri2             23951018963               0      2147483648     44537509686       294950406  species/Pelecanus_crispus/bPelCri2/genomic_data/arima/bPelCri2_S3_R1_001.fastq.gz
+arima           bPelCri2             24080744256               0      2147483648     44437355686       294287134  species/Pelecanus_crispus/bPelCri2/genomic_data/arima/bPelCri2_S3_R2_001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bPelCri2          1.8500     88858761955
 bionano         bPelCri1         910.0018   1634907320727
 pacbiohifi_bam  bPelCri1          1.2450     33137558189
 pacbiohifi_clr  bPelCri1          0.5189    494246166986
