@@ -28,6 +28,7 @@ use strict;
 
 my %speciesList;   #  Count of the number of filtered files for each species.
 my %speciesMeta;   #  Defined if 'Genus_species/metadata.yaml' is found.
+my %individuals;
 
 my $lsRaw = $ARGV[1];
 my $lsFilt = $ARGV[2];
@@ -64,9 +65,22 @@ while (<RAW>) {
     my $asmName     = $fileComps[3];
     my $seconds     = 0;
 
+    #
+    #  TEMPORARY!  This has inconsistent short names!
+    #
+    next if ($filename =~ m!Lycodopsis_pacificus!);
+    #
+    #
+    #
+
     if ($filename =~ m!species/\w+_\w+/metadata.yaml$!) {
         my @v = split '/', $_;
         $speciesMeta{$v[1]}++;
+    }
+
+    if ($filename =~ m!species/(\w+_\w+)/([a-zA-Z]*)(\d)/!) {
+        #print "$1/$2 -> $2$3 $filename\n";
+        $individuals{"$1/$2"}{"$2$3"}++;
     }
 
     next if ($filename =~ m!/$!);          #  Why are you giving me directories?
@@ -374,28 +388,68 @@ while (<RAW>) {
 close(RAW);
 close(FILT);
 
-#  Emit the list of speices.
+#  Emit the list of speices we found.  This is what drives scan-bucket and update-pages.
 
-foreach my $s (sort keys %speciesMeta) {
+foreach my $s (sort keys %speciesList) {
     print SPLI "$s\n";
 }
 close(SPLI);
 
-#  Remove the species with metadata from our list, so we can report errors.
+#  Fetch metadata fpr species with metadata.
 
-foreach my $s (sort keys %speciesMeta) {
-    delete $speciesList{$s};
+print "Fetching metadata:\n";
+foreach my $name (sort keys %speciesMeta) {
+    #print STDERR "  s3://genomeark/species/$name/metadata.yaml\n";
+    #system("mkdir -p downloads/species/$name");
+    #system("aws s3 cp s3://genomeark/species/$name/metadata.yaml downloads/species/$name/metadata.yaml");
 }
 
+#  For everything leftover, create a template metadata and warn.
 
-#  Emit a list of species without metadata.
+print "\n";
+print "Creating templates:\n";
+foreach my $ii (sort keys %individuals) {
+    my ($species, $short_name, $name) = split '/', $ii;
 
-if (scalar(keys %speciesList) > 0) {
-    print "No metadata for:\n";
+    $name = $species;
+    $name =~ s/_/ /g;
 
-    foreach my $s (sort keys %speciesList) {
-        print "  $s\n";
+    next   if (exists($speciesMeta{$species}));
+
+    print " s3://genomeark/species/$species/metadata.yaml.template ($short_name)\n";
+
+    #next   if (-e "downloads/species/$species/metadata.yaml");
+    die    if (-e "downloads/species/$species/metadata.yaml");
+    die    if (-e "downloads/species/$species/metadata.yaml.template");
+
+    system("mkdir -p downloads/species/$species");
+
+    #  Create metadata template.
+
+    open(F, "> downloads/species/$species/metadata.yaml.template") or die;
+
+    print F "species:\n";
+    print F "  name: $name\n";
+    print F "  short_name: $short_name\n";
+    print F "  common_name:\n";
+    print F "  taxon_id:\n";
+    print F "  order:\n";
+    print F "    name:\n";
+    print F "  family:\n";
+    print F "    name:\n";
+    print F "  individuals:\n";
+    foreach my $indiv (sort keys %{$individuals{$ii}}) {
+        print F "  - short_name: $indiv\n";
+        print F "    biosample_id:\n";
+        print F "    description:\n";
+        print F "    provider:\n";
     }
+
+    close(F);
+
+    #  Push to aws.
+    #  aws cp downloads/species/$s/metadata.yaml species/downloads/species/$s/metadata.yaml.template
 }
+
 
 exit(0);
