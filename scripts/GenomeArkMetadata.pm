@@ -23,6 +23,7 @@ sub loadSpeciesMetadata ($$$$) {
     my $species = shift @_;
     my $meta    = shift @_;
     my $errors  = shift @_;
+    my $mdf;
 
     my  @keys;
     my  @lvls;
@@ -32,12 +33,21 @@ sub loadSpeciesMetadata ($$$$) {
     undef %$data;
     undef %$meta;
 
-    if (! -e "downloads/species/$species/metadata.yaml") {
-        system("mkdir -p downloads/species/$species");
-        system("aws s3 cp s3://genomeark/species/$species/metadata.yaml downloads/species/$species/metadata.yaml");
+    if      (-e "downloads/species/$species/metadata.yaml") {
+        $mdf  = "downloads/species/$species/metadata.yaml";
+    } elsif (-e "downloads/species/$species/metadata.yaml.template") {
+        $mdf  = "downloads/species/$species/metadata.yaml.template";
+        push @$errors, "  Species '$species' has only template metadata.\n";
+    } else {
+        die "No metadata found for species '$species'.\n";
     }
 
-    open(MD, "< downloads/species/$species/metadata.yaml") or die;
+    #if (! -e "downloads/species/$species/metadata.yaml") {
+    #    system("mkdir -p downloads/species/$species");
+    #    system("aws s3 cp s3://genomeark/species/$species/metadata.yaml downloads/species/$species/metadata.yaml");
+    #}
+
+    open(MD, "< $mdf") or die "Failed to open metadata file '$mdf'\n";
     while (<MD>) {
         chomp;
 
