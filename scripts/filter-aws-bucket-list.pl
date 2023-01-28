@@ -65,14 +65,6 @@ while (<RAW>) {
     my $asmName     = $fileComps[3];
     my $seconds     = 0;
 
-    #
-    #  TEMPORARY!  This has inconsistent short names!
-    #
-    next if ($filename =~ m!Lycodopsis_pacificus!);
-    #
-    #
-    #
-
     if ($filename =~ m!species/\w+_\w+/metadata.yaml$!) {
         my @v = split '/', $_;
         $speciesMeta{$v[1]}++;
