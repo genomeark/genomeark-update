@@ -391,9 +391,11 @@ close(SPLI);
 
 print "Fetching metadata:\n";
 foreach my $name (sort keys %speciesMeta) {
-    #print STDERR "  s3://genomeark/species/$name/metadata.yaml\n";
-    #system("mkdir -p downloads/species/$name");
-    #system("aws s3 cp s3://genomeark/species/$name/metadata.yaml downloads/species/$name/metadata.yaml");
+    if (! -e "downloads/species/$name/metadata.yaml") {
+        print "  s3://genomeark/species/$name/metadata.yaml\n";
+        system("mkdir -p downloads/species/$name");
+        system("aws s3 cp s3://genomeark/species/$name/metadata.yaml downloads/species/$name/metadata.yaml");
+    }
 }
 
 #  For everything leftover, create a template metadata and warn.
