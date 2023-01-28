@@ -80,6 +80,7 @@ while (<RAW>) {
     next if ($filename =~ m!^working!);
     next if ($filename =~ m!^galaxy!);
     next if ($filename =~ m!^species/insects!);
+    next if ($filename =~ m!^species/Mormyrids!);
 
     next if ($filename =~ m!/intermediate!i);
     next if ($filename =~ m!/Intermidiates!i);           #  One guy has this.
