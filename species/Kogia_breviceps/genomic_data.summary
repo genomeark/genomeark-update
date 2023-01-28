@@ -1,0 +1,25 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+bionano         mKogBre1               840382068               0       840382068    571209157627         4107190  species/Kogia_breviceps/mKogBre1/genomic_data/bionano/mKogBre1_Saphyr_DLE1_3683469
+pacbiohifi_clr  mKogBre1            180470047846               0      2147483648     74289498111         4116513  species/Kogia_breviceps/mKogBre1/genomic_data/pacbio_hifi/m54306Ue_210904_004821.reads.bam
+pacbiohifi_bam  mKogBre1             74709864007               0      2147483648     20427974791         1265502  species/Kogia_breviceps/mKogBre1/genomic_data/pacbio_hifi/m54306Ue_210907_193601.hifi_reads.bam
+pacbiohifi_fqgz mKogBre1             16977493953               0      2147483648     20469108522         1268384  species/Kogia_breviceps/mKogBre1/genomic_data/pacbio_hifi/m54306Ue_210907_193601.hifi_reads.fastq.gz
+pacbiohifi_bam  mKogBre1             74906708496               0      2147483648     20601365983         1258407  species/Kogia_breviceps/mKogBre1/genomic_data/pacbio_hifi/m54306Ue_210909_201255.hifi_reads.bam
+pacbiohifi_fqgz mKogBre1             16883066121               0      2147483648     20772235858         1268547  species/Kogia_breviceps/mKogBre1/genomic_data/pacbio_hifi/m54306Ue_210909_201255.hifi_reads.fastq.gz
+pacbiohifi_clr  mKogBre1            186952396289               0      2147483648     72279554606         4621393  species/Kogia_breviceps/mKogBre1/genomic_data/pacbio_hifi/m64055e_210827_063126.reads.bam
+pacbiohifi_bam  mKogBre1             68763950102               0      2147483648     18488281915         1135326  species/Kogia_breviceps/mKogBre1/genomic_data/pacbio_hifi/m64055e_210904_205431.hifi_reads.bam
+pacbiohifi_fqgz mKogBre1             16256707907               0      2147483648     18333029005         1124791  species/Kogia_breviceps/mKogBre1/genomic_data/pacbio_hifi/m64055e_210904_205431.hifi_reads.fastq.gz
+pacbiohifi_clr  mKogBre1            202102692553               0      2147483648     83703032626         4538616  species/Kogia_breviceps/mKogBre1/genomic_data/pacbio_hifi/m64055e_210904_205431.reads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+bionano         mKogBre1         679.7017    571209157627
+pacbiohifi_bam  mKogBre1          0.2725    119587090421
+pacbiohifi_clr  mKogBre1          0.4043    463829028126
+pacbiohifi_fqgz mKogBre1          1.1886    119836898007
+--------------- ---------------  ------- ---------------

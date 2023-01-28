@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mHipAmp2             71702775618               0      2147483648    132146068161       875139557  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/arima/mHipAmp2_1.fastq.gz
+arima           mHipAmp2             74544873714               0      2147483648    133080139933       881325464  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/arima/mHipAmp2_2.fastq.gz
+pacbiohifi_fqgz mHipAmp2             18286908370               0      2147483648     20070706980         1071276  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/pacbio_hifi/m64055e_220802_081650.bc1017--bc1017.hifi_reads.fastq.gz
+pacbiohifi_fqgz mHipAmp2             18720051331               0      2147483648     21140581281         1173684  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/pacbio_hifi/m64055e_220803_191412.bc1017--bc1017.hifi_reads.fastq.gz
+pacbiohifi_fqgz mHipAmp2             14807885741               0      2147483648     17690035753          878833  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/pacbio_hifi/m64334e_221013_154157.bc1017--bc1017.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mHipAmp2          1.8039    263816134629
+pacbiohifi_fqgz mHipAmp2          1.1367     93732954285
+--------------- ---------------  ------- ---------------

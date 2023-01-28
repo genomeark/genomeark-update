@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        rMacSuw1            115323233016               0      2147483648    209492959299      1387370591  species/Macrochelys_suwanniensis/rMacSuw1/genomic_data/dovetail/rMacSuw1_S8_R1_001.fastq.gz
+dovetail        rMacSuw1            114842046602               0      2147483648    209841145376      1389676512  species/Macrochelys_suwanniensis/rMacSuw1/genomic_data/dovetail/rMacSuw1_S8_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        rMacSuw1          1.8201    418923825432
+--------------- ---------------  ------- ---------------

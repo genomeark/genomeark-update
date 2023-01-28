@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPhaSup1             45326907957               0      2147483648     90242421058       597631948  species/Phaethornis_superciliosus/bPhaSup1/genomic_data/arima/SRR17111054_1.fastq.gz
+arima           bPhaSup1             48544563040               0      2147483648     90503413769       599360378  species/Phaethornis_superciliosus/bPhaSup1/genomic_data/arima/SRR17111054_2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bPhaSup1          1.9046    178787603660
+--------------- ---------------  ------- ---------------

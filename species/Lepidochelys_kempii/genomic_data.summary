@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz rLepKem1             12491131268               0      2147483648     14796086312          761740  species/Lepidochelys_kempii/rLepKem1/genomic_data/pacbio_hifi/m54306Ue_220424_014644.hifi_reads.fastq.gz
+pacbiohifi_fqgz rLepKem1             18140782063               0      2147483648     19488974197          982093  species/Lepidochelys_kempii/rLepKem1/genomic_data/pacbio_hifi/m64055e_220509_012904.hifi_reads.fastq.gz
+pacbiohifi_fqgz rLepKem1             13175278273               0      2147483648     13914646193          703715  species/Lepidochelys_kempii/rLepKem1/genomic_data/pacbio_hifi/m64334e_220501_021846.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz rLepKem1          1.1002     75826439577
+--------------- ---------------  ------- ---------------

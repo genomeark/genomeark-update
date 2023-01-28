@@ -1,0 +1,16 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fOdoBon6             24087340691               0      2147483648     45204353646       299366591  species/Odontesthes_bonariensis/fOdoBon6/genomic_data/arima/fOdoBon6_S7_L003_R1_001.fastq.gz
+arima           fOdoBon6             25383114506               0      2147483648     45480681921       301196580  species/Odontesthes_bonariensis/fOdoBon6/genomic_data/arima/fOdoBon6_S7_L003_R2_001.fastq.gz
+pacbiohifi_fqgz fOdoBon6             25459547584               0      2147483648     33412817884         2267333  species/Odontesthes_bonariensis/fOdoBon6/genomic_data/pacbio_hifi/m64055e_220427_225908.demultiplex.bc1002--bc1002.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fOdoBon6          1.8190     89986758003
+pacbiohifi_fqgz fOdoBon6          1.3123     33410564294
+--------------- ---------------  ------- ---------------

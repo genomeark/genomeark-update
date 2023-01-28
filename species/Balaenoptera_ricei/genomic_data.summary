@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz mBalRic1             24797327028               0      2147483648     29963142238         1864207  species/Balaenoptera_ricei/mBalRic1/genomic_data/pacbio_hifi/m54306Ue_220312_164728.demultiplex.bc1009--bc1009.hifi_reads.fastq.gz
+pacbiohifi_fqgz mBalRic1             24503499217               0      2147483648     29260027262         1822229  species/Balaenoptera_ricei/mBalRic1/genomic_data/pacbio_hifi/m54306Ue_220314_020751.demultiplex.bc1009--bc1009.hifi_reads.fastq.gz
+pacbiohifi_fqgz mBalRic1             20890981410               0      2147483648     25844757049         1630890  species/Balaenoptera_ricei/mBalRic1/genomic_data/pacbio_hifi/m64055e_220306_053650.demultiplex.bc1009--bc1009.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz mBalRic1          1.2119     85065451697
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz xbAnaTub1            10659593283               0      2147483648     15631393655         1694463  species/Anadara_tuberculosa/xbAnaTub1/genomic_data/pacbio_hifi/m64330e_220606_150534.bc1018--bc1018.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz xbAnaTub1         1.4664     15631227590
+--------------- ---------------  ------- ---------------

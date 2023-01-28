@@ -1,0 +1,21 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_clr  mCamDro1           1025158358034               0      2147483648    546942310128        32150833  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64055e_221202_183002.subreads.bam
+pacbiohifi_clr  mCamDro1            857796613997               0      2147483648    457086561988        26608873  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221214_181813.subreads.bam
+pacbiohifi_clr  mCamDro1            922495659014               0      2147483648    495555722772        27107617  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221216_133101.subreads.bam
+illumina        mCamDro2             20751850974               0      2147483648     41434369761       274399809  species/Camelus_dromedarius/mCamDro2/genomic_data/illumina/mCamDro2-dna1_1.fastq.gz
+illumina        mCamDro2             21430278717               0      2147483648     41651572441       275838238  species/Camelus_dromedarius/mCamDro2/genomic_data/illumina/mCamDro2-dna1_2.fastq.gz
+illumina        mCamDro3             24280773547               0      2147483648     48147841170       318859886  species/Camelus_dromedarius/mCamDro3/genomic_data/illumina/mCamDro3-dna1_1.fastq.gz
+illumina        mCamDro3             25454180937               0      2147483648     48326336096       320041972  species/Camelus_dromedarius/mCamDro3/genomic_data/illumina/mCamDro3-dna1_2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+illumina        mCamDro2          1.9608     82710719898
+illumina        mCamDro3          1.9258     95779575345
+pacbiohifi_clr  mCamDro1          0.5345   1499513362293
+--------------- ---------------  ------- ---------------

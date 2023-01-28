@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz rCarCar1             19759691075               0      2147483648     22029571508         1313056  species/Caretta_caretta/rCarCar1/genomic_data/pacbio_hifi/m54306Ue_220403_162004.hifi_reads.fastq.gz
+pacbiohifi_fqgz rCarCar1             22842755274               0      2147483648     25885387546         1532651  species/Caretta_caretta/rCarCar1/genomic_data/pacbio_hifi/m54306Ue_220407_181809.hifi_reads.fastq.gz
+pacbiohifi_fqgz rCarCar1             21788916676               0      2147483648     24084702405         1418801  species/Caretta_caretta/rCarCar1/genomic_data/pacbio_hifi/m64334e_220414_053150.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz rCarCar1          1.1181    119886671605
+--------------- ---------------  ------- ---------------

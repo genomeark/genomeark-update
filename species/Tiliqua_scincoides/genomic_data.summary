@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz rTilSci1             21276573280               0      2147483648     24460478332         1154115  species/Tiliqua_scincoides/rTilSci1/genomic_data/pacbio_hifi/m64334e_221028_133114.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_clr  rTilSci1            886297935452               0      2147483648    475740832582        24163616  species/Tiliqua_scincoides/rTilSci1/genomic_data/pacbio_hifi/m64334e_221028_133114.subreads.bam
+pacbiohifi_fqgz rTilSci1             22923928701               0      2147483648     26836229274         1263030  species/Tiliqua_scincoides/rTilSci1/genomic_data/pacbio_hifi/m64334e_221109_141813.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_clr  rTilSci1            992228676088               0      2147483648    534479707537        26449159  species/Tiliqua_scincoides/rTilSci1/genomic_data/pacbio_hifi/m64334e_221109_141813.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_clr  rTilSci1          0.5380   1010647317008
+pacbiohifi_fqgz rTilSci1          1.1640     51449384305
+--------------- ---------------  ------- ---------------

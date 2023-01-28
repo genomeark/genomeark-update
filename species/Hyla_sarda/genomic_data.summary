@@ -1,0 +1,20 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aHylSar1             60573456754               0      2147483648    115303480775       763599210  species/Hyla_sarda/aHylSar1/genomic_data/arima/aHylSar1_1.fastq.gz
+arima           aHylSar1             61808161908               0      2147483648    118039299989       781717247  species/Hyla_sarda/aHylSar1/genomic_data/arima/aHylSar1_2.fastq.gz
+bionano         aHylSar1               827571569               0       827571569    539147080032         4321517  species/Hyla_sarda/aHylSar1/genomic_data/bionano/aHylSar1_Saphyr_DLE1_3685506
+pacbiohifi_fqgz aHylSar1             17992827702               0      2147483648     21619251843         1565894  species/Hyla_sarda/aHylSar1/genomic_data/pacbio_hifi/m64055e_211220_014854.hifi_reads.fastq.gz
+pacbiohifi_fqgz aHylSar1             10446001465               0      2147483648     15751431617         1959480  species/Hyla_sarda/aHylSar1/genomic_data/pacbio_hifi/m64055e_220418_172849.hifi_reads.fastq.gz
+pacbiohifi_fqgz aHylSar1              4472343704               0      2147483648      6732013907          870221  species/Hyla_sarda/aHylSar1/genomic_data/pacbio_hifi/m64334e_220506_052444.demultiplex.bc1008--bc1008.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           aHylSar1          1.9077    233467413921
+bionano         aHylSar1         651.4809    539147080032
+pacbiohifi_fqgz aHylSar1          1.3400    128553066339
+--------------- ---------------  ------- ---------------

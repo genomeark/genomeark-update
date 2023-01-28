@@ -1,0 +1,20 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rGavGan2             63929797135               0      2147483648    123623699701       818699998  species/Gavialis_gangeticus/rGavGan2/genomic_data/arima/rGavGan2_1.fastq.gz
+arima           rGavGan2             67221369448               0      2147483648    126403686068       837110535  species/Gavialis_gangeticus/rGavGan2/genomic_data/arima/rGavGan2_2.fastq.gz
+bionano         rGavGan2              1406592728               0      1406592728    827314534531         6845029  species/Gavialis_gangeticus/rGavGan2/genomic_data/bionano/rGavGan2_Saphyr_DLE1_3705260
+pacbiohifi_fqgz rGavGan2             21203022731               0      2147483648     23458941855         1452390  species/Gavialis_gangeticus/rGavGan2/genomic_data/pacbio_hifi/m64055e_220302_034217.hifi_reads.fastq.gz
+pacbiohifi_fqgz rGavGan2             20172236119               0      2147483648     23572704355         1430318  species/Gavialis_gangeticus/rGavGan2/genomic_data/pacbio_hifi/m64055e_220311_190745.hifi_reads.fastq.gz
+pacbiohifi_fqgz rGavGan2             19755448713               0      2147483648     23522519547         1437646  species/Gavialis_gangeticus/rGavGan2/genomic_data/pacbio_hifi/m64330e_220309_203801.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rGavGan2          1.8975    248859338591
+bionano         rGavGan2         588.1692    827314534531
+pacbiohifi_fqgz rGavGan2          1.1541     81674427621
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mDugDug1              5383473946               0      2147483648      8529000975        56483452  species/Dugong_dugon/mDugDug1/genomic_data/dovetail/MB22212-ACTCTCGA-TGGTACAG_S2_L002_R2_001.fastq.gz
+dovetail        mDugDug1              5580377737               0      2147483648      8669766039        57415671  species/Dugong_dugon/mDugDug1/genomic_data/dovetail/MB22212-ACTCTCGA-TGGTACAG_S2_L003_R2_001.fastq.gz
+dovetail        mDugDug1              5452530268               0      2147483648      8626463715        57128901  species/Dugong_dugon/mDugDug1/genomic_data/dovetail/MB22212-ACTCTCGA-TGGTACAG_S2_L004_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        mDugDug1          1.5731    137264498478
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz qqAneStud1           23513831896               0      2147483648     27601204257         1757052  species/Anelosimus_studiosus/qqAneStud1/genomic_data/pacbio_hifi/m64055e_211018_180443.hifi_reads.fastq.gz
+pacbiohifi_fqgz qqAneStud1           24814357155               0      2147483648     29953322755         1890400  species/Anelosimus_studiosus/qqAneStud1/genomic_data/pacbio_hifi/m64055e_211021_155623.hifi_reads.fastq.gz
+pacbiohifi_fqgz qqAneStud1           24494460029               0      2147483648     27657600202         1679813  species/Anelosimus_studiosus/qqAneStud1/genomic_data/pacbio_hifi/m64055e_211023_025442.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz qqAneStud1        1.1701    135995634847
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+illumina        mEquCab2             30185650448               0      2147483648     60629226993       401518059  species/Equus_caballus/mEquCab2/genomic_data/illumina/mEquCab2-dna1_1.fastq.gz
+illumina        mEquCab2             31068755765               0      2147483648     60883272107       403200477  species/Equus_caballus/mEquCab2/genomic_data/illumina/mEquCab2-dna1_2.fastq.gz
+illumina        mEquCab3             23443279182               0      2147483648     46757449844       309651996  species/Equus_caballus/mEquCab3/genomic_data/illumina/mEquCab3-dna1_1.fastq.gz
+illumina        mEquCab3             24737840176               0      2147483648     46967291222       311041663  species/Equus_caballus/mEquCab3/genomic_data/illumina/mEquCab3-dna1_2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+illumina        mEquCab2          1.9756    121014204914
+illumina        mEquCab3          1.9294     92960651689
+--------------- ---------------  ------- ---------------

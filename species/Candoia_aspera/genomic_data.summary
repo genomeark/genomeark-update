@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rCanAsp1             34010972764               0      2147483648     62771513599       415705403  species/Candoia_aspera/rCanAsp1/genomic_data/arima/rCanAsp1_1.fastq.gz
+arima           rCanAsp1             35492889573               0      2147483648     62978031399       417073072  species/Candoia_aspera/rCanAsp1/genomic_data/arima/rCanAsp1_2.fastq.gz
+pacbiohifi_fqgz rCanAsp1             11523080848               0      2147483648     14645032024         1038587  species/Candoia_aspera/rCanAsp1/genomic_data/pacbio_hifi/m54306Ue_220615_032330.bc1017--bc1017.hifi_reads.fastq.gz
+pacbiohifi_fqgz rCanAsp1             11045473233               0      2147483648     14039090223         1000956  species/Candoia_aspera/rCanAsp1/genomic_data/pacbio_hifi/m64055e_220627_035046.bc1017--bc1017.hifi_reads.fastq.gz
+pacbiohifi_fqgz rCanAsp1             11875050805               0      2147483648     14857741379         1058803  species/Candoia_aspera/rCanAsp1/genomic_data/pacbio_hifi/m64330e_220610_182209.bc1017--bc1017.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rCanAsp1          1.7974    124926242164
+pacbiohifi_fqgz rCanAsp1          1.2641     55024461995
+--------------- ---------------  ------- ---------------

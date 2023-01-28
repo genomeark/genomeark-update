@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           sSteFas3             80215474567               0      2147483648    156852407442      1038757702  species/Stegostoma_fasciatum/sSteFas3/genomic_data/arima/sSteTig2_R1.fastq.gz
+arima           sSteFas3             81642114012               0      2147483648    159379797118      1055495383  species/Stegostoma_fasciatum/sSteFas3/genomic_data/arima/sSteTig2_R2.fastq.gz
+pacbiohifi_fqgz sSteFas3             23681167137               0      2147483648     27111174980         1535698  species/Stegostoma_fasciatum/sSteFas3/genomic_data/pacbio_hifi/m64055e_220327_040525.hifi_reads.fastq.gz
+pacbiohifi_fqgz sSteFas3             25353074736               0      2147483648     30102339527         1687152  species/Stegostoma_fasciatum/sSteFas3/genomic_data/pacbio_hifi/m64055e_220328_135559.hifi_reads.fastq.gz
+pacbiohifi_fqgz sSteFas3             28709284234               0      2147483648     33252732441         1709495  species/Stegostoma_fasciatum/sSteFas3/genomic_data/pacbio_hifi/m64330e_220807_064537.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           sSteFas3          1.9532    316140242012
+pacbiohifi_fqgz sSteFas3          1.1636    153755847025
+--------------- ---------------  ------- ---------------

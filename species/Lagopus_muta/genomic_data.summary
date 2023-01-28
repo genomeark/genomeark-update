@@ -1,0 +1,20 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        bLagMut1             77910647360               0      2147483648    158204076122      1047709149  species/Lagopus_muta/bLagMut1/genomic_data/dovetail/P15307_101_S1_L003_R1_001.fastq.gz
+dovetail        bLagMut1             81443825830               0      2147483648    158734056745      1051218918  species/Lagopus_muta/bLagMut1/genomic_data/dovetail/P15307_101_S1_L003_R2_001.fastq.gz
+pacbiohifi_fqgz bLagMut1             33766142934               0      2147483648     31451781736         1567735  species/Lagopus_muta/bLagMut1/genomic_data/pacbio_hifi/m64077_210105_123141.hifi_reads.fastq.gz
+pacbiohifi_clr  bLagMut1             64708045224               0      2147483648    112062422794         6242121  species/Lagopus_muta/bLagMut1/genomic_data/pacbio_hifi/m64077_210105_123141.reads.bam
+pacbiohifi_fqgz bLagMut1             28478450443               0      2147483648     27848332166         1358011  species/Lagopus_muta/bLagMut1/genomic_data/pacbio_hifi/m64077_210108_110628.hifi_reads.fastq.gz
+pacbiohifi_clr  bLagMut1             46264388021               0      2147483648     76189238870         4405545  species/Lagopus_muta/bLagMut1/genomic_data/pacbio_hifi/m64077_210108_110628.reads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        bLagMut1          1.9753    314772890892
+pacbiohifi_clr  bLagMut1          1.7094    189696277389
+pacbiohifi_fqgz bLagMut1          0.9452     58833589659
+--------------- ---------------  ------- ---------------

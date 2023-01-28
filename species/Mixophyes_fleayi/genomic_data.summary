@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz aMixFle1             18476632535               0      2147483648     22125509556         1500348  species/Mixophyes_fleayi/aMixFle1/genomic_data/pacbio_hifi/m64334e_220221_170619_demultiplex.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_fqgz aMixFle1             21090357694               0      2147483648     25750023264         1741502  species/Mixophyes_fleayi/aMixFle1/genomic_data/pacbio_hifi/m64334e_220307_164548_demultiplex.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_fqgz aMixFle1             20046511679               0      2147483648     25542467484         1734458  species/Mixophyes_fleayi/aMixFle1/genomic_data/pacbio_hifi/m64334e_220309_021044_demultiplex.bc1002--bc1002.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz aMixFle1          1.2315     73414027599
+--------------- ---------------  ------- ---------------

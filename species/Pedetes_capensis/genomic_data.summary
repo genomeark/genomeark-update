@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPedCap1             77918702002               0      2147483648    153165049273      1014338074  species/Pedetes_capensis/mPedCap1/genomic_data/arima/mPedCap1_1.fastq.gz
+arima           mPedCap1             79560441614               0      2147483648    155691381920      1031068791  species/Pedetes_capensis/mPedCap1/genomic_data/arima/mPedCap1_2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mPedCap1          1.9597    308611877744
+--------------- ---------------  ------- ---------------

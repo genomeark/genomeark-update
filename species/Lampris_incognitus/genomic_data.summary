@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fLamInc1             25976845416               0      2147483648     50545323158       334737239  species/Lampris_incognitus/fLamInc1/genomic_data/arima/fLamInc1_1.fastq.gz
+arima           fLamInc1             27370861112               0      2147483648     51150740401       338746637  species/Lampris_incognitus/fLamInc1/genomic_data/arima/fLamInc1_2.fastq.gz
+pacbiohifi_fqgz fLamInc1             18306404548               0      2147483648     22650858998         1412438  species/Lampris_incognitus/fLamInc1/genomic_data/pacbio_hifi/m64055e_220323_185911.hifi_reads.fastq.gz
+pacbiohifi_fqgz fLamInc1             19848488656               0      2147483648     23900749957         1490002  species/Lampris_incognitus/fLamInc1/genomic_data/pacbio_hifi/m64334e_220410_025336.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fLamInc1          1.8935    101013882310
+pacbiohifi_fqgz fLamInc1          1.2146     46342933285
+--------------- ---------------  ------- ---------------

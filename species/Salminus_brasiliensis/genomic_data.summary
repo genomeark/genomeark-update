@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fSalBra1             30008993812               0      2147483648     56229363565       372379905  species/Salminus_brasiliensis/fSalBra1/genomic_data/arima/fSalBra1_1.fastq.gz
+arima           fSalBra1             31931444227               0      2147483648     56184098841       372080139  species/Salminus_brasiliensis/fSalBra1/genomic_data/arima/fSalBra1_2.fastq.gz
+pacbiohifi_fqgz fSalBra1             18174005545               0      2147483648     21332128109         1169026  species/Salminus_brasiliensis/fSalBra1/genomic_data/pacbio_hifi/m54306Ue_220702_031556.bc1008--bc1008.hifi_reads.fastq.gz
+pacbiohifi_fqgz fSalBra1             16339890485               0      2147483648     19201990710         1017722  species/Salminus_brasiliensis/fSalBra1/genomic_data/pacbio_hifi/m64334e_220711_195045.bc1008--bc1008.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fSalBra1          1.7960    111245026718
+pacbiohifi_fqgz fSalBra1          1.1742     40526216718
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rSteOdo1             50550152229               0      2147483648     93266294836       617657605  species/Sternotherus_odoratus/rSteOdo1/genomic_data/arima/rSteOdo1_S2_R1_001.fastq.gz
+arima           rSteOdo1             52006379510               0      2147483648     92985629818       615798872  species/Sternotherus_odoratus/rSteOdo1/genomic_data/arima/rSteOdo1_S2_R2_001.fastq.gz
+pacbiohifi_fqgz rSteOdo1             28960121598               0      2147483648     33532727422         1633174  species/Sternotherus_odoratus/rSteOdo1/genomic_data/pacbio_hifi/m54306Ue_221121_033625.bc1008--bc1008.hifi_reads.fastq.gz
+pacbiohifi_fqgz rSteOdo1             23127887188               0      2147483648     28703796610         1395858  species/Sternotherus_odoratus/rSteOdo1/genomic_data/pacbio_hifi/m54306Ue_221128_200454.bc1008--bc1008.hifi_reads.fastq.gz
+pacbiohifi_fqgz rSteOdo1             16463157518               0      2147483648     16518527543          840543  species/Sternotherus_odoratus/rSteOdo1/genomic_data/pacbio_hifi/m64055e_221208_043940.bc1008--bc1008.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rSteOdo1          1.8066    185278630239
+pacbiohifi_fqgz rSteOdo1          1.1488     90307537931
+--------------- ---------------  ------- ---------------

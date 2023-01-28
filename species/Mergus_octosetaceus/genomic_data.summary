@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bMerOct1             37011965642               0      2147483648     67474479006       446850871  species/Mergus_octosetaceus/bMerOct1/genomic_data/arima/bMerOct1_1.fastq.gz
+arima           bMerOct1             38427475762               0      2147483648     66928267101       443233556  species/Mergus_octosetaceus/bMerOct1/genomic_data/arima/bMerOct1_2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bMerOct1          1.7681    133384476346
+--------------- ---------------  ------- ---------------

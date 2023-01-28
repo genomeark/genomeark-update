@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           sNarBan1             85153991575               0      2147483648    164875663655      1091891851  species/Narcine_bancroftii/sNarBan1/genomic_data/arima/sNarBan1_S6_R1_001.fastq.gz
+arima           sNarBan1             89421926060               0      2147483648    166720695753      1104110609  species/Narcine_bancroftii/sNarBan1/genomic_data/arima/sNarBan1_S6_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           sNarBan1          1.8875    329512044536
+--------------- ---------------  ------- ---------------

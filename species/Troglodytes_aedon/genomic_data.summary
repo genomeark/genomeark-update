@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bTroAed1             29322786566               0      2147483648     53953191901       357305920  species/Troglodytes_aedon/bTroAed1/genomic_data/arima/bTroAed1_1.fastq.gz
+arima           bTroAed1             29821307972               0      2147483648     53499553682       354301693  species/Troglodytes_aedon/bTroAed1/genomic_data/arima/bTroAed1_2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bTroAed1          1.8091    106997581428
+--------------- ---------------  ------- ---------------

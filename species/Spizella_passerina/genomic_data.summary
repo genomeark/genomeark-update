@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bSpiPas1             22642928317               0      2147483648     41753880395       276515764  species/Spizella_passerina/bSpiPas1/genomic_data/arima/bSpiPas1_1.fastq.gz
+arima           bSpiPas1             23186718791               0      2147483648     41337999962       273761589  species/Spizella_passerina/bSpiPas1/genomic_data/arima/bSpiPas1_2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bSpiPas1          1.8029     82626270771
+--------------- ---------------  ------- ---------------

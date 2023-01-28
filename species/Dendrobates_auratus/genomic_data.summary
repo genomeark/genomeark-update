@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+illumina        aDenAur2            113578597554               0      2147483648    227117559075      1504089848  species/Dendrobates_auratus/aDenAur2/genomic_data/illumina/aDenAur2-dna1_1.fastq.gz
+illumina        aDenAur2            120114622158               0      2147483648    228914062183      1515987166  species/Dendrobates_auratus/aDenAur2/genomic_data/illumina/aDenAur2-dna1_2.fastq.gz
+illumina        aDenAur3             88842684354               0      2147483648    178722532639      1183592972  species/Dendrobates_auratus/aDenAur3/genomic_data/illumina/aDenAur3-dna1_1.fastq.gz
+illumina        aDenAur3             92033264105               0      2147483648    179754043539      1190424172  species/Dendrobates_auratus/aDenAur3/genomic_data/illumina/aDenAur3-dna1_2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+illumina        aDenAur2          1.9359    452406704040
+illumina        aDenAur3          1.9721    356705457955
+--------------- ---------------  ------- ---------------

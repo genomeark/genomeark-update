@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mLoxAfr1             60948761594               0      2147483648    111399260674       737743476  species/Loxodonta_africana/mLoxAfr1/genomic_data/arima/mLoxAfr1_1.fastq.gz
+arima           mLoxAfr1             61841051162               0      2147483648    110836201123       734014605  species/Loxodonta_africana/mLoxAfr1/genomic_data/arima/mLoxAfr1_2.fastq.gz
+pacbiohifi_fqgz mLoxAfr1             31062668797               0      2147483648     34946546963         1871541  species/Loxodonta_africana/mLoxAfr1/genomic_data/pacbio_hifi/m54306Ue_220610_182929.hifi_reads.fastq.gz
+pacbiohifi_fqgz mLoxAfr1             30519812840               0      2147483648     34019189210         1805223  species/Loxodonta_africana/mLoxAfr1/genomic_data/pacbio_hifi/m54306Ue_220612_052556.hifi_reads.fastq.gz
+pacbiohifi_fqgz mLoxAfr1             27069499079               0      2147483648     31816741162         1708221  species/Loxodonta_africana/mLoxAfr1/genomic_data/pacbio_hifi/m64330e_220603_183322.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mLoxAfr1          1.8039    221500543230
+pacbiohifi_fqgz mLoxAfr1          1.1368    164996316789
+--------------- ---------------  ------- ---------------

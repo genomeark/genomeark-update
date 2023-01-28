@@ -1,0 +1,16 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fLycPai1            105845158335               0      2147483648    207238831095      1372442639  species/Lycodopsis_pacificus/fLycPai1/genomic_data/arima/fLycPac1_L1_S3_L004_R1_001.fastq.gz
+arima           fLycPai1            109607420355               0      2147483648    209184418672      1385327327  species/Lycodopsis_pacificus/fLycPai1/genomic_data/arima/fLycPac1_L1_S3_L004_R2_001.fastq.gz
+pacbiohifi_fqgz fLycPai1             22946231921               0      2147483648     25961145309         1522316  species/Lycodopsis_pacificus/fLycPai1/genomic_data/pacbio_hifi/m64334e_220220_060932.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fLycPai1          1.9245    414638487688
+pacbiohifi_fqgz fLycPai1          1.1313     25959072172
+--------------- ---------------  ------- ---------------

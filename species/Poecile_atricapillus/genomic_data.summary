@@ -1,0 +1,20 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPoeAtr1             32793929208               0      2147483648     64213816144       425257075  species/Poecile_atricapillus/bPoeAtr1/genomic_data/arima/bPoeAtr1_S1_L001_R1_001.fastq.gz
+arima           bPoeAtr1             33918372249               0      2147483648     65575508649       434274891  species/Poecile_atricapillus/bPoeAtr1/genomic_data/arima/bPoeAtr1_S1_L001_R2_001.fastq.gz
+bionano         bPoeAtr1              2011500436               0      2011500436    884740782104         9032416  species/Poecile_atricapillus/bPoeAtr1/genomic_data/bionano/bPoeAtr1_Saphyr_DLE1_3718770
+pacbiohifi_fqgz bPoeAtr1              6160820266               0      2147483648      7400793634          471223  species/Poecile_atricapillus/bPoeAtr1/genomic_data/pacbio_hifi/m64055e_220515_161029.demultiplex.bc1001--bc1001.hifi_reads.fastq.gz
+pacbiohifi_fqgz bPoeAtr1              7910673105               0      2147483648      9624657642          583136  species/Poecile_atricapillus/bPoeAtr1/genomic_data/pacbio_hifi/m64330e_220501_035120.demultiplex.bc1001--bc1001.hifi_reads.fastq.gz
+pacbiohifi_fqgz bPoeAtr1              5668062791               0      2147483648      7046700338          434452  species/Poecile_atricapillus/bPoeAtr1/genomic_data/pacbio_hifi/m64334e_220509_031744.demultiplex.bc1001--bc1001.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bPoeAtr1          1.9414    129515262048
+bionano         bPoeAtr1         439.8412    884740782104
+pacbiohifi_fqgz bPoeAtr1          1.2194     46236798968
+--------------- ---------------  ------- ---------------

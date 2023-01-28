@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+bionano         qCarRot1              1238905412               0      1238905412    706419750115         7256634  species/Carcinoscorpius_rotundicauda/qCarRot1/genomic_data/bionano/qCarRot1_Saphyr_DLE1_2644850
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+bionano         qCarRot1         570.1966    706419750115
+--------------- ---------------  ------- ---------------

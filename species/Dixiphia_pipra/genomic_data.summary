@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bDixPip1             25133783194               0      2147483648     46110432928       305367105  species/Dixiphia_pipra/bDixPip1/genomic_data/arima/bDixPip1_1.fastq.gz
+arima           bDixPip1             26435179997               0      2147483648     45504248204       301352649  species/Dixiphia_pipra/bDixPip1/genomic_data/arima/bDixPip1_2.fastq.gz
+pacbiohifi_fqgz bDixPip1             17619179963               0      2147483648     21810339650         1354837  species/Dixiphia_pipra/bDixPip1/genomic_data/pacbio_hifi/m54306Ue_220703_141129.hifi_reads.fastq.gz
+pacbiohifi_fqgz bDixPip1             11959187249               0      2147483648     15246546894         1001126  species/Dixiphia_pipra/bDixPip1/genomic_data/pacbio_hifi/m54306Ue_220711_194042.demultiplex.bc1020--bc1020.hifi_reads.fastq.gz
+pacbiohifi_fqgz bDixPip1              8071545899               0      2147483648     10999225204         1261632  species/Dixiphia_pipra/bDixPip1/genomic_data/pacbio_hifi/m64330e_220428_055750.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bDixPip1          1.7578     90647923497
+pacbiohifi_fqgz bDixPip1          1.2763     57216992471
+--------------- ---------------  ------- ---------------

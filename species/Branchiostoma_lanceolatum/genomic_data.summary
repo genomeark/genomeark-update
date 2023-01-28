@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        iBraLan1             14223140750               0      2147483648     26307597751       174222508  species/Branchiostoma_lanceolatum/iBraLan1/genomic_data/dovetail/iBraLan1_L1_1.fastq.gz
+dovetail        iBraLan1             14216281327               0      2147483648     26107731284       172898889  species/Branchiostoma_lanceolatum/iBraLan1/genomic_data/dovetail/iBraLan1_L1_2.fastq.gz
+dovetail        iBraLan1              7911527124               0      2147483648     15354473404       101685254  species/Branchiostoma_lanceolatum/iBraLan1/genomic_data/dovetail/iBraLan1_L1_2_unmerged.fastq.gz
+pacbiohifi_fqgz iBraLan1             23201281417               0      2147483648     25319816710         1220791  species/Branchiostoma_lanceolatum/iBraLan1/genomic_data/pacbio_hifi/m64055e_220724_033017.hifi_reads.fastq.gz
+pacbiohifi_fqgz iBraLan1             23927426105               0      2147483648     25291399800         1213806  species/Branchiostoma_lanceolatum/iBraLan1/genomic_data/pacbio_hifi/m64334e_220729_170616.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        iBraLan1          1.8643     82377275225
+pacbiohifi_fqgz iBraLan1          1.0682     50342885375
+--------------- ---------------  ------- ---------------

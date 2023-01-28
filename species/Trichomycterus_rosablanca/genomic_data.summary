@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fTriRos1             26984363874               0      2147483648     53316937986       353092304  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/arima/fTriRos1_1.fastq.gz
+arima           fTriRos1             28184364592               0      2147483648     53846591697       356599958  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/arima/fTriRos1_2.fastq.gz
+pacbiohifi_fqgz fTriRos1             15517809351               0      2147483648     23363398210         2612973  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/pacbio_hifi/m64055e_221019_155144.hifi_reads.fastq.gz
+pacbiohifi_fqgz fTriRos1             15773160320               0      2147483648     23092038765         2076725  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/pacbio_hifi/m64330e_221012_155415.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fTriRos1          1.9316    106563915904
+pacbiohifi_fqgz fTriRos1          1.4777     46238665882
+--------------- ---------------  ------- ---------------

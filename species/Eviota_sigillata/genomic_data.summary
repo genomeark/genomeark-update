@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz fEviSig6             25488082699               0      2147483648     26085664742         1197646  species/Eviota_sigillata/fEviSig6/genomic_data/pacbio_hifi/m54306Ue_220904_142429.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_fqgz fEviSig6             26833619370               0      2147483648     32916799881         1557923  species/Eviota_sigillata/fEviSig6/genomic_data/pacbio_hifi/m64334e_221101_041657.bc1002--bc1002.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz fEviSig6          1.1612     60755960442
+--------------- ---------------  ------- ---------------
