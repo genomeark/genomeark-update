@@ -5,6 +5,8 @@
 dovetail        mSymSyn1             35700418956               0      2147483648     66703467943       441744837  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/dovetail/G929_Jam_a_1_S6_R1_001.fastq.gz
 dovetail        mSymSyn1             35008265735               0      2147483648     66904658979       443077228  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/dovetail/G929_Jam_a_1_S6_R2_001.fastq.gz
 dovetail        mSymSyn1             33761207894               0      2147483648     63138560197       418136175  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/dovetail/G929_Jam_a_2_S12_R1_001.fastq.gz
+illumina        mSymSyn1              6899053541               0      2147483648     12898367974        85419658  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/illumina/mSymSyn1_HG753DSX5_19409368_S78_L003_R1_001.fastq.gz
+illumina        mSymSyn1              6320236768               0      2147483648     11573672542        76646840  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/illumina/mSymSyn1_HG77NDSX5_19409368_S33_L001_R2_001.fastq.gz
 illumina        mSymSyn1             14819065105               0      2147483648     28819917078       190860384  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/illumina/mSymSyn1_HWGJLDSX2_19201958_S15_L001_R1_001.fastq.gz
 illumina        mSymSyn1             15368948285               0      2147483648     29001625006       192063741  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/illumina/mSymSyn1_HWGJLDSX2_19201958_S15_L001_R2_001.fastq.gz
 illumina        mSymSyn1             15280301241               0      2147483648     28860756231       191130843  species/Symphalangus_syndactylus/mSymSyn1/genomic_data/illumina/mSymSyn1_HWGJLDSX2_19201958_S15_L003_R2_001.fastq.gz
@@ -27,7 +29,7 @@ pacbiohifi_clr  mSymSyn1            242268673802               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 dovetail        mSymSyn1          1.8832    258647702266
-illumina        mSymSyn1          1.9064    230298513564
+illumina        mSymSyn1          1.9006    423476451696
 ont             mSymSyn1          1.0567    338174801230
 pacbiohifi_bam  mSymSyn1          1.2828   1200685067960
 pacbiohifi_clr  mSymSyn1          0.5131   4866025609885

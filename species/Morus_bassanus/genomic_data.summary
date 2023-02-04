@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz bMorBas2             19802110908               0      2147483648     26135617526         1722829  species/Morus_bassanus/bMorBas2/genomic_data/pacbio_hifi/m64330e_221001_104756.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_fqgz bMorBas2             20364177696               0      2147483648     24323318898         1643238  species/Morus_bassanus/bMorBas2/genomic_data/pacbio_hifi/m64330e_221005_162852.bc1010--bc1010.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz bMorBas2          1.2354     49621432941
+--------------- ---------------  ------- ---------------
