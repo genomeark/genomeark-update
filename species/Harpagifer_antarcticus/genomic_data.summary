@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fHarAnt1              5821888567               0      2147483648     10187243787         1382529  species/Harpagifer_antarcticus/fHarAnt1/genomic_data/pacbio_hifi/m64016e_211102_162946.ccs.bc1021_BAK8B_OA--bc1021_BAK8B_OA.bam
+pacbiohifi_bam  fHarAnt1                72647422               0        72647422       118379986           16365  species/Harpagifer_antarcticus/fHarAnt1/genomic_data/pacbio_hifi/m64016e_220220_085734.ccs.bc1019_BAK8B_OA--bc1019_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fHarAnt1          1.7490     10309543444
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fPhoPho1            110050279791               0      2147483648     29338904503         2567176  species/Phoxinus_phoxinus/fPhoPho1/genomic_data/pacbio_hifi/m64230e_230112_135735.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fPhoPho1          0.2665     29328399564
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fGymMic1             12538037678               0      2147483648     18321485540         1601880  species/Gymnoscopelus_microlampas/fGymMic1/genomic_data/pacbio_hifi/m64178e_221015_151519.ccs.bc1016_BAK8B_OA--bc1016_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fGymMic1          1.4612     18320580655
+--------------- ---------------  ------- ---------------

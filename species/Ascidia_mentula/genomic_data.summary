@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  kaAscMent1           10259343232               0      2147483648     15340362101         2225188  species/Ascidia_mentula/kaAscMent1/genomic_data/pacbio_hifi/m64221e_210705_191039.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  kaAscMent1        1.4952     15339770000
+--------------- ---------------  ------- ---------------

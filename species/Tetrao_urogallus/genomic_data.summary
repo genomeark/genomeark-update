@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bTetUro1             14664967239               0      2147483648     23838992502         2325051  species/Tetrao_urogallus/bTetUro1/genomic_data/pacbio_hifi/m64228e_221008_165222.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bTetUro1          1.6255     23837904246
+--------------- ---------------  ------- ---------------

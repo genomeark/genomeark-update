@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mMyoDau2             15259678154               0      2147483648     22614735354         2432365  species/Myotis_daubentonii/mMyoDau2/genomic_data/pacbio_hifi/m64016e_230128_172034.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.rmdup.bam
+pacbiohifi_bam  mMyoDau2              9720606362               0      2147483648     14090338186         1600764  species/Myotis_daubentonii/mMyoDau2/genomic_data/pacbio_hifi/m64228e_220813_173730.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
+pacbiohifi_bam  mMyoDau2             84634624740               0      2147483648     22445034124         2028881  species/Myotis_daubentonii/mMyoDau2/genomic_data/pacbio_hifi/m64230e_221117_234843.ccs.bc1012_BAK8A_OA--bc1012_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mMyoDau2          0.5396     59148205034
+--------------- ---------------  ------- ---------------

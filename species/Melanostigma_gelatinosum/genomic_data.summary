@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fMelGel1             96038860162               0      2147483648     25542857626         2231427  species/Melanostigma_gelatinosum/fMelGel1/genomic_data/pacbio_hifi/m64094e_230117_184839.ccs.bc1003_BAK8A_OA--bc1003_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fMelGel1          0.2659     25536732917
+--------------- ---------------  ------- ---------------

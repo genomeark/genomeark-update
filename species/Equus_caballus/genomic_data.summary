@@ -2,6 +2,9 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz mEquCab1             23918887408               0      2147483648     31308877744         2472379  species/Equus_caballus/mEquCab1/genomic_data/pacbio_hifi/m64055e_230118_190346.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_fqgz mEquCab1             24779133614               0      2147483648     34598861702         2457151  species/Equus_caballus/mEquCab1/genomic_data/pacbio_hifi/m64334e_230130_184931.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_fqgz mEquCab1             24277038468               0      2147483648     35165321827         2420894  species/Equus_caballus/mEquCab1/genomic_data/pacbio_hifi/m64334e_230201_154457.bc1010--bc1010.hifi_reads.fastq.gz
 illumina        mEquCab2             30185650448               0      2147483648     60629226993       401518059  species/Equus_caballus/mEquCab2/genomic_data/illumina/mEquCab2-dna1_1.fastq.gz
 illumina        mEquCab2             31068755765               0      2147483648     60883272107       403200477  species/Equus_caballus/mEquCab2/genomic_data/illumina/mEquCab2-dna1_2.fastq.gz
 illumina        mEquCab3             23443279182               0      2147483648     46757449844       309651996  species/Equus_caballus/mEquCab3/genomic_data/illumina/mEquCab3-dna1_1.fastq.gz
@@ -14,4 +17,5 @@ illumina        mEquCab3             24737840176               0      2147483648
 --------------- ---------------  ------- ---------------
 illumina        mEquCab2          1.9756    121014204914
 illumina        mEquCab3          1.9294     92960651689
+pacbiohifi_fqgz mEquCab1          1.3850    101070457393
 --------------- ---------------  ------- ---------------

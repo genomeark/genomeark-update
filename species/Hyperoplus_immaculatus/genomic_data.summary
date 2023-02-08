@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fHypImm3             15018833731               0      2147483648     24273811686         2836325  species/Hyperoplus_immaculatus/fHypImm3/genomic_data/pacbio_hifi/m64125e_220920_013255.ccs.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fHypImm3          1.6162     24273439076
+--------------- ---------------  ------- ---------------

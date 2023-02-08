@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fGasAcu3             13716594575               0      2147483648     22989532758         2437363  species/Gasterosteus_aculeatus/fGasAcu3/genomic_data/pacbio_hifi/m64094e_221014_233345.ccs.bc1009_BAK8A_OA--bc1009_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fGasAcu3          1.6760     22989012507
+--------------- ---------------  ------- ---------------

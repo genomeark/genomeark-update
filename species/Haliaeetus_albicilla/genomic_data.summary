@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bHalAlb1             21645409771               0      2147483648     31454377730         1809398  species/Haliaeetus_albicilla/bHalAlb1/genomic_data/pacbio_hifi/m64077_211123_154644.ccs.bam
+pacbiohifi_bam  bHalAlb1             22185247768               0      2147483648     31598911073         1820361  species/Haliaeetus_albicilla/bHalAlb1/genomic_data/pacbio_hifi/m64204e_211118_103941.ccs.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bHalAlb1          1.4337     62840013713
+--------------- ---------------  ------- ---------------

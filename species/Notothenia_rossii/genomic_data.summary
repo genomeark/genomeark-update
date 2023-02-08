@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fNotRos5            100635798900               0      2147483648     27229381653         2311430  species/Notothenia_rossii/fNotRos5/genomic_data/pacbio_hifi/m64229e_230108_004607.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fNotRos5          0.2705     27221983602
+--------------- ---------------  ------- ---------------

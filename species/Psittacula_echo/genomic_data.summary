@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bPsiEch3             99877282159               0      2147483648     26605084148         2187317  species/Psittacula_echo/bPsiEch3/genomic_data/pacbio_hifi/m64229e_230106_194900.ccs.bc1002_BAK8A_OA--bc1002_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bPsiEch3          0.2663     26597320238
+--------------- ---------------  ------- ---------------

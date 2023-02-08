@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fGymBra2             14377303536               0      2147483648     19589030204         1643738  species/Gymnoscopelus_braueri/fGymBra2/genomic_data/pacbio_hifi/m64178e_221014_102109.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fGymBra2          1.3624     19587638337
+--------------- ---------------  ------- ---------------

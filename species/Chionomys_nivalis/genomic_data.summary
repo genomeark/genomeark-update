@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mChiNiv1             12180718960               0      2147483648     19568352277         2149823  species/Chionomys_nivalis/mChiNiv1/genomic_data/pacbio_hifi/m64097e_221028_025627.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
+pacbiohifi_bam  mChiNiv1             15117431538               0      2147483648     23686395752         2167310  species/Chionomys_nivalis/mChiNiv1/genomic_data/pacbio_hifi/m64174e_220726_092939.ccs.bc1018_BAK8B_OA--bc1018_BAK8B_OA.bam
+pacbiohifi_bam  mChiNiv1             81041402835               0      2147483648     21494572594         1862098  species/Chionomys_nivalis/mChiNiv1/genomic_data/pacbio_hifi/m64178e_230127_140518.ccs.bc1016_BAK8B_OA--bc1016_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mChiNiv1          0.5976     64743717071
+--------------- ---------------  ------- ---------------

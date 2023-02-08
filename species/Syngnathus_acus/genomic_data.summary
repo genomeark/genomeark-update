@@ -10,6 +10,7 @@ dovetail        fSynAcu1             40544874822               0      2147483648
 pacbio          fSynAcu1             18265748191               0      2147483648      9798522876          779560  species/Syngnathus_acus/fSynAcu1/genomic_data/pacbio/m54097_180702_114303.subreads.bam
 pacbio          fSynAcu1             17039563175               0      2147483648      9146334984          582245  species/Syngnathus_acus/fSynAcu1/genomic_data/pacbio/m54205_180703_111017.subreads.bam
 pacbio          fSynAcu1             18864313005               0      2147483648     10079377334          677416  species/Syngnathus_acus/fSynAcu1/genomic_data/pacbio/m54205_180703_212345.subreads.bam
+pacbiohifi_bam  fSynAcu2            108977427016               0      2147483648     28950794831         2303183  species/Syngnathus_acus/fSynAcu2/genomic_data/pacbio_hifi/m64125e_221107_020302.ccs.bc1009_BAK8A_OA--bc1009_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -19,4 +20,5 @@ pacbio          fSynAcu1             18864313005               0      2147483648
 10x             fSynAcu1          1.6267    143293557331
 dovetail        fSynAcu1          1.3844    107671856660
 pacbio          fSynAcu1          0.5358     29024084737
+pacbiohifi_bam  fSynAcu2          0.2656     28944404615
 --------------- ---------------  ------- ---------------

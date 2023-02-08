@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  aLisVul1             99513728003               0      2147483648     26779526291         2416892  species/Lissotriton_vulgaris/aLisVul1/genomic_data/pacbio_hifi/m64125e_221104_161144.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  aLisVul1          0.2691     26779144205
+--------------- ---------------  ------- ---------------

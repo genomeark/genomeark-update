@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bFalPun1            107190580827               0      2147483648     28451402565         2203675  species/Falco_punctatus/bFalPun1/genomic_data/pacbio_hifi/m64229e_230105_145406.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bFalPun1          0.2654     28448380151
+--------------- ---------------  ------- ---------------

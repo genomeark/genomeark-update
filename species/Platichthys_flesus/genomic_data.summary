@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fPlaFle2            103255492787               0      2147483648     27552587143         2063683  species/Platichthys_flesus/fPlaFle2/genomic_data/pacbio_hifi/m64228e_230205_144241.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fPlaFle2          0.2668     27548565475
+--------------- ---------------  ------- ---------------

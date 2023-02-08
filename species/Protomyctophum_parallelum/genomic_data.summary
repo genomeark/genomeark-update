@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fProPar1             77966801436               0      2147483648     20878399004         1544498  species/Protomyctophum_parallelum/fProPar1/genomic_data/pacbio_hifi/m64229e_221108_060250.ccs.bc1012_BAK8A_OA--bc1012_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fProPar1          0.2677     20871712744
+--------------- ---------------  ------- ---------------

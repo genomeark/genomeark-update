@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fMicVar1             93589862039               0      2147483648     25536813080         2343577  species/Microchirus_variegatus/fMicVar1/genomic_data/pacbio_hifi/m64097e_221121_015615.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fMicVar1          0.2728     25531314364
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fSpiSpi2             99832038109               0      2147483648     26746346077         1953933  species/Spinachia_spinachia/fSpiSpi2/genomic_data/pacbio_hifi/m64178e_230121_061806.ccs.bc1003_BAK8A_OA--bc1003_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fSpiSpi2          0.2679     26745003009
+--------------- ---------------  ------- ---------------

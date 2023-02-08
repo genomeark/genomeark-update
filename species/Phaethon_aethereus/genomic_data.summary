@@ -8,6 +8,8 @@
 arima           bPhaAeh3             31463472473               0      2147483648     62483561289       413798433  species/Phaethon_aethereus/bPhaAeh3/genomic_data/arima/bPhaAeh3_41009_3#1_R1.fastq.gz
 arima           bPhaAeh3             33347462283               0      2147483648     63063951293       417642077  species/Phaethon_aethereus/bPhaAeh3/genomic_data/arima/bPhaAeh3_41009_3#1_R2.fastq.gz
 pacbiohifi_bam  bPhaAeh3                21718293               0        21718293        36089756           11523  species/Phaethon_aethereus/bPhaAeh3/genomic_data/pacbio_hifi/m64174e_210810_114336.ccs.bc1017_BAK8B_OA--bc1017_BAK8B_OA.bam
+pacbiohifi_bam  bPhaAeh6                  903024               0          903024         1287183            1166  species/Phaethon_aethereus/bPhaAeh6/genomic_data/pacbio_hifi/m64094e_220322_054229.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
+pacbiohifi_bam  bPhaAeh6                  922482               0          922482         1258742             840  species/Phaethon_aethereus/bPhaAeh6/genomic_data/pacbio_hifi/m64094e_220428_141643.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -17,4 +19,5 @@ pacbiohifi_bam  bPhaAeh3                21718293               0        21718293
 10x             bPhaAeh1          1.9760     76101552734
 arima           bPhaAeh3          1.9215    124534211133
 pacbiohifi_bam  bPhaAeh3          1.6617        36089287
+pacbiohifi_bam  bPhaAeh6          1.3845         2527413
 --------------- ---------------  ------- ---------------

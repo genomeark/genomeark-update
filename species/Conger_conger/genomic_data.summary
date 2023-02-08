@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fConCon1             66544836288               0      2147483648     17693069845         1518287  species/Conger_conger/fConCon1/genomic_data/pacbio_hifi/m64229e_221118_162456.ccs.bc1019_BAK8B_OA--bc1019_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fConCon1          0.2658     17687617485
+--------------- ---------------  ------- ---------------

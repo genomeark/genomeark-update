@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fBarBar1             12174568289               0      2147483648     18837383121         1636251  species/Barbatula_barbatula/fBarBar1/genomic_data/pacbio_hifi/m64230e_220805_134842.ccs.bc1011_BAK8A_OA--bc1011_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fBarBar1          1.5472     18836492056
+--------------- ---------------  ------- ---------------

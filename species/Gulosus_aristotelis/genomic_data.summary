@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bGulAri2             15581429904               0      2147483648     24575213662         2466448  species/Gulosus_aristotelis/bGulAri2/genomic_data/pacbio_hifi/m64016e_221001_201231.ccs.bc1002_BAK8A_OA--bc1002_BAK8A_OA.rmdup.bam
+pacbiohifi_bam  bGulAri2             16581681267               0      2147483648     25432823307         2072050  species/Gulosus_aristotelis/bGulAri2/genomic_data/pacbio_hifi/m64097e_220613_163923.ccs.bc1009_BAK8A_OA--bc1009_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bGulAri2          1.5476     49775630848
+--------------- ---------------  ------- ---------------

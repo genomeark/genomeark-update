@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  rPodCre2             12814363629               0      2147483648     19322432058         1628519  species/Podarcis_cretensis/rPodCre2/genomic_data/pacbio_hifi/m64174e_220727_202343.ccs.bc1019_BAK8B_OA--bc1019_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  rPodCre2          1.5078     19321497479
+--------------- ---------------  ------- ---------------

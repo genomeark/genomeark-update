@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fEleSub1             13134189053               0      2147483648     19733263423         1819345  species/Electrona_subaspera/fEleSub1/genomic_data/pacbio_hifi/m64016e_221016_043341.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fEleSub1          1.5024     19732805633
+--------------- ---------------  ------- ---------------

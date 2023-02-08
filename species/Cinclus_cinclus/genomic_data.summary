@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bCinCin1             15656653983               0      2147483648     22368653861         1845858  species/Cinclus_cinclus/bCinCin1/genomic_data/pacbio_hifi/m64174e_221022_222148.ccs.bc1010_BAK8A_OA--bc1010_BAK8A_OA.bam
 arima           bCinCin2             23693801779               0      2147483648     47508646982       314626812  species/Cinclus_cinclus/bCinCin2/genomic_data/arima/bCinCin2_41252_2#4_R1.fastq.gz
 arima           bCinCin2             24901320154               0      2147483648     47922781133       317369411  species/Cinclus_cinclus/bCinCin2/genomic_data/arima/bCinCin2_41252_2#4_R2.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -11,4 +12,5 @@ arima           bCinCin2             24901320154               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bCinCin2          1.9504     94779925818
+pacbiohifi_bam  bCinCin1          1.4286     22367095880
 --------------- ---------------  ------- ---------------

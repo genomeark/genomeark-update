@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  kaStyClav1            2728713784               0      2728713784      3960205530          541557  species/Styela_clava/kaStyClav1/genomic_data/pacbio_hifi/m64089_201220_142114.ccs.bc1003_BAK8A_OA--bc1003_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  kaStyClav1        1.4513      3960182314
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fCilMus1             75074793785               0      2147483648     20626970708         2184719  species/Ciliata_mustela/fCilMus1/genomic_data/pacbio_hifi/m64094e_221204_012051.ccs.bc1020_BAK8B_OA--bc1020_BAK8B_OA.rmdup.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fCilMus1          0.2747     20623045852
+--------------- ---------------  ------- ---------------

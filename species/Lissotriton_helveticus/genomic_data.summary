@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  aLisHel1            102643618903               0      2147483648     27829183634         2296271  species/Lissotriton_helveticus/aLisHel1/genomic_data/pacbio_hifi/m64229e_221207_154630.ccs.bc1003_BAK8A_OA--bc1003_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  aLisHel1          0.2711     27826685084
+--------------- ---------------  ------- ---------------

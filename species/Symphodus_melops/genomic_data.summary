@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fSymMel2             12806027461               0      2147483648     19974338308         1826174  species/Symphodus_melops/fSymMel2/genomic_data/pacbio_hifi/m64125e_220918_203025.ccs.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fSymMel2          1.5597     19973561030
+--------------- ---------------  ------- ---------------

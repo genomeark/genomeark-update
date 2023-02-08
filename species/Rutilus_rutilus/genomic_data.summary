@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fRutRut2             95526997382               0      2147483648     24921812108         2168379  species/Rutilus_rutilus/fRutRut2/genomic_data/pacbio_hifi/m64230e_230113_173700.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fRutRut2          0.2608     24913440917
+--------------- ---------------  ------- ---------------

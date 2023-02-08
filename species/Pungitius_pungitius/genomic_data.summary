@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fPunPun2             96246353475               0      2147483648     25354803929         2141906  species/Pungitius_pungitius/fPunPun2/genomic_data/pacbio_hifi/m64178e_230122_111455.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fPunPun2          0.2634     25351289505
+--------------- ---------------  ------- ---------------
