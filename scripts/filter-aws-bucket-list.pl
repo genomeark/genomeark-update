@@ -414,8 +414,13 @@ foreach my $ii (sort keys %individuals) {
     print " s3://genomeark/species/$species/metadata.yaml.template ($short_name)\n";
 
     #next   if (-e "downloads/species/$species/metadata.yaml");
-    die    if (-e "downloads/species/$species/metadata.yaml");
-    die    if (-e "downloads/species/$species/metadata.yaml.template");
+    die "ERROR: 'downloads/species/$species/metadata.yaml' exists.\n"            if (-e "downloads/species/$species/metadata.yaml");
+
+    if (-e "downloads/species/$species/metadata.yaml.template") {
+        print STDERR "Using existing metadata.yaml.template for '$species'.\n";
+        next;
+    }
+    die "ERROR: 'downloads/species/$species/metadata.yaml.template' exists.\n"   if (-e "downloads/species/$species/metadata.yaml.template");
 
     system("mkdir -p downloads/species/$species");
 
