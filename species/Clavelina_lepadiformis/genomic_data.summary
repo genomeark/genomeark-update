@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  kaClaLepa1           94892919807               0      2147483648     25220362727         1881479  species/Clavelina_lepadiformis/kaClaLepa1/genomic_data/pacbio_hifi/m64228e_221108_172138.ccs.bc1021_BAK8B_OA--bc1021_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  kaClaLepa1        0.2657     25213048792
+--------------- ---------------  ------- ---------------

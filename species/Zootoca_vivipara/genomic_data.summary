@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  rZooViv1             96978738091               0      2147483648     25683885966         2058719  species/Zootoca_vivipara/rZooViv1/genomic_data/pacbio_hifi/m64097e_230208_181045.ccs.bc1009_BAK8A_OA--bc1009_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  rZooViv1          0.2648     25679969846
+--------------- ---------------  ------- ---------------

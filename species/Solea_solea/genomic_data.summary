@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fSolSol10            12825097990               0      2147483648     21002250024         2304241  species/Solea_solea/fSolSol10/genomic_data/pacbio_hifi/m64097e_221026_234647.ccs.bc1021_BAK8B_OA--bc1021_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fSolSol10         1.6375     21001097958
+--------------- ---------------  ------- ---------------

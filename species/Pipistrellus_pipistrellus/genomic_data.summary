@@ -11,6 +11,7 @@ pacbio          mPipPip1             11649245607               0      2147483648
 arima           mPipPip2             41678620768               0      2147483648     62314510471       412678896  species/Pipistrellus_pipistrellus/mPipPip2/genomic_data/arima/mPipPip2_33892_4#1_R1.fastq.gz
 arima           mPipPip2             43652969617               0      2147483648     62436476187       413486597  species/Pipistrellus_pipistrellus/mPipPip2/genomic_data/arima/mPipPip2_33892_4#1_R2.fastq.gz
 arima           mPipPip2             43752340987               0      2147483648     62678224411       415087578  species/Pipistrellus_pipistrellus/mPipPip2/genomic_data/arima/mPipPip2_33892_5#1_R2.fastq.gz
+pacbiohifi_bam  mPipPip2             31900949700               0      2147483648      8621724548          755230  species/Pipistrellus_pipistrellus/mPipPip2/genomic_data/pacbio_hifi/m64089e_230207_153143.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -20,4 +21,5 @@ arima           mPipPip2             43752340987               0      2147483648
 10x             mPipPip1          1.5070    134751278716
 arima           mPipPip2          1.4519    247700210392
 pacbio          mPipPip1          0.5359    125414323618
+pacbiohifi_bam  mPipPip2          0.2702      8619636608
 --------------- ---------------  ------- ---------------

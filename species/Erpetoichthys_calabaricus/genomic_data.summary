@@ -10,7 +10,9 @@ arima           fErpCal1             23986527330               0      2147483648
 arima           fErpCal1             24774684417               0      2147483648     39502859735       261608354  species/Erpetoichthys_calabaricus/fErpCal1/genomic_data/arima/fErpCal1_25643_5#2_R2.fastq.gz
 bionano         fErpCal1               893402203               0       893402203    547536846885         4778397  species/Erpetoichthys_calabaricus/fErpCal1/genomic_data/bionano/fErpCal1_Saphyr_DLE1_1206013
 bionano         fErpCal1              1106038847               0      1106038847    631712037449         6699788  species/Erpetoichthys_calabaricus/fErpCal1/genomic_data/bionano/fErpCal1_Saphyr_DLE1_1829057
+pacbio          fErpCal1              8757694003               0      2147483648      4542452374          659900  species/Erpetoichthys_calabaricus/fErpCal1/genomic_data/pacbio/m54097_170316_112235.subreads.bam
 pacbio          fErpCal1              7449949583               0      2147483648      3838434328          616700  species/Erpetoichthys_calabaricus/fErpCal1/genomic_data/pacbio/m54097_170319_141856.subreads.bam
+pacbio          fErpCal1              7530666927               0      2147483648      3859120616          616656  species/Erpetoichthys_calabaricus/fErpCal1/genomic_data/pacbio/m54097_170322_231230.subreads.bam
 pacbio          fErpCal1              5924280459               0      2147483648      3087356589          394467  species/Erpetoichthys_calabaricus/fErpCal1/genomic_data/pacbio/m54097_170630_021647.subreads.bam
 pacbio          fErpCal1              8724993910               0      2147483648      4511713509          541494  species/Erpetoichthys_calabaricus/fErpCal1/genomic_data/pacbio/m54097_170702_083429.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -22,5 +24,5 @@ pacbio          fErpCal1              8724993910               0      2147483648
 10x             fErpCal1          1.4339    251179403253
 arima           fErpCal1          1.6211    265301939205
 bionano         fErpCal1         589.7892   1179248884334
-pacbio          fErpCal1          0.5175    196402069758
+pacbio          fErpCal1          0.5172    373842843780
 --------------- ---------------  ------- ---------------

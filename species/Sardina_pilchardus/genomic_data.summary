@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fSarPil1             75144493672               0      2147483648     19807663429         1731083  species/Sardina_pilchardus/fSarPil1/genomic_data/pacbio_hifi/m64178e_230211_031459.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fSarPil1          0.2635     19800574082
+--------------- ---------------  ------- ---------------

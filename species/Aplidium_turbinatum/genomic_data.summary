@@ -3,11 +3,12 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 pacbiohifi_bam  kaAplTurb1           12739163710               0      2147483648     16485768581         1808856  species/Aplidium_turbinatum/kaAplTurb1/genomic_data/pacbio_hifi/m64089_201219_140307.ccs.bc1002_BAK8A_OA--bc1002_BAK8A_OA.bam
+pacbiohifi_bam  kaAplTurb1           90250348643               0      2147483648     24547682334         2352452  species/Aplidium_turbinatum/kaAplTurb1/genomic_data/pacbio_hifi/m64089e_210322_092215.ccs.bc1002_BAK8A_OA--bc1002_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-pacbiohifi_bam  kaAplTurb1        1.2941     16485751757
+pacbiohifi_bam  kaAplTurb1        0.3393     34944341541
 --------------- ---------------  ------- ---------------
