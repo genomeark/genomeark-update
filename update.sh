@@ -1,10 +1,11 @@
 #!/bin/sh
-#SBATCH --cpus-per-task=2
-#SBATCH --mem=16g
-#SBATCH --time=24:00:00
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32g
+#SBATCH --time=2-0
+#SBATCH --output=update.out
 
 updateFileList="yes"
-updateGenBank="yes"
+updateGenBank="no"
 
 module load aws
 module load samtools
@@ -16,12 +17,26 @@ export AWS_PAGER=""
 mkdir -p downloads
 
 #
+#  Disable downloads?
+#
+if [ x$1 = x-n ] ; then
+  updateFileList="no"
+  updateGenBank="no"
+fi
+
+
+#
 #  Download the genomeark file list.  This is obnoxiously slow.
 #  Once downloaded, filter out the crud if the filtered version is older.
 #
 
-if [ $updateFileList = "yes" -a ! -e "downloads/genomeark.ls.raw" ] ; then
+if [ $updateFileList = "yes" ] ; then
   echo "Fetching list of files in s3://genomeark/species/."
+
+  if [ -e downloads/genomeark.ls.raw ] ; then
+    mv downloads/genomeark.ls.raw downloads/genomeark.ls.raw.$$
+  fi
+
   aws --no-sign-request s3 ls --recursive s3://genomeark/species/ > downloads/genomeark.ls.raw.WORKING \
   && \
   mv downloads/genomeark.ls.raw.WORKING downloads/genomeark.ls.raw
@@ -105,4 +120,7 @@ fi
 #  echo $x
 #done
 
-#perl scripts/scan-bucket.pl $@
+perl scripts/scan-bucket.pl $@ > scan-bucket.out 2> scan-bucket.err
+perl scripts/update-pages.pl $@ > update-pages.out 2> update-pages.err
+
+
