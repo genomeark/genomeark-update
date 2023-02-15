@@ -107,6 +107,10 @@ while (<RAW>) {
     next if ($filename =~ m!report\.txt!i);
     next if ($filename =~ m!version\.txt!i);
 
+    next if ($filename =~ m!\.html$!i);
+    next if ($filename =~ m!\.json$!i);
+    next if ($filename =~ m!\.md$!i);
+
     next if ($filename =~ m!summary!i);
     next if ($filename =~ m!summary\.txt!i);
 
