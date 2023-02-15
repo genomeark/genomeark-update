@@ -223,7 +223,7 @@ if (scalar(keys %missingData > 0)) {
         }
 
         foreach my $k (keys %c) {
-            printf "  %40s  %12s  %d files\n", $l, $k, $c{$k};
+            printf "  %40s  %16s  %d files\n", $l, $k, $c{$k};
         }
     }
     print "\n";

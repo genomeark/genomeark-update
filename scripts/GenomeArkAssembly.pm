@@ -442,7 +442,8 @@ sub generateAssemblySummary ($$$$$$) {
     }
 
     #  If we're allowed to download, and we need to download, download.
-    #  Generate a warning if the file doesn't exist after 'downloading' it.
+    #  Generate a warning if the file doesn't exist after 'downloading' it
+    #  (or if we're just not downloading things).
 
     if (($download == 1) && (! -e "downloads/$filebase.gz")) {
         printf "              FETCH asm - size %6.3f GB\n", $filesize / 1024 / 1024 / 1024;
@@ -451,7 +452,7 @@ sub generateAssemblySummary ($$$$$$) {
         system("aws $awsopts s3 cp s3://genomeark/$filebase.gz downloads/$filebase.gz || rm -f downloads/$filebase.gz");
     }
     if (! -e "downloads/$filebase.gz") {
-        #ush @$errors, "  Downloading disabled for file $filebase.gz\n"   if ($download == 0);
+        push @$errors, "  Downloading disabled for file $filebase.gz\n"   if ($download == 0);
         push @$errors, "  Failed to download $filebase.gz\n"              if ($download == 1);
         return;
     }

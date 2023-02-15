@@ -440,6 +440,8 @@ sub downloadPartAndSummarize ($$$$$$) {
     if ($download == 0) {
         printf "\n";
         printf "  SKIP  - %6.3f GB out of %6.3f GB - s3://genomeark/$filename\n", 0.0, $filesize / 1024 / 1024 / 1024;
+
+        push @$errors, "  Downloading disabled for file $filename\n";
         return;
     }
 
