@@ -111,6 +111,13 @@ sub accumulateData ($$$$$$$$) {
             $$tiIndiv{"arima:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         }
+        elsif (($filename =~ m/cram$/) ||
+               ($filename =~ m/cram.crai$/)) {
+            $$tiFiles{"arima:$iName"} .= "arima:$iName $filesize $filename\0"   if ($filename =~ m/cram$/);
+            $$tiBytes{"arima:$iName"} += $filesize;
+            $$tiIndiv{"arima:$iName"} .= "$sName/$iName\0";
+            saveDataDate($filesecs, $data);
+        }
         else {
             push @$errors, "  Unknown arima file type in '$filename'\n";
         }

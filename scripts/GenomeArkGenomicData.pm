@@ -369,9 +369,9 @@ sub downloadFullAndSummarize ($$$$$) {
         return;
     }
 
-    #  If a bam, convert to fastq then summarize, otherwise, summarize directly.
+    #  If a bam or cram, convert to fastq then summarize, otherwise, summarize directly.
 
-    if    ($filename =~ m/bam$/) {
+    if (($filename =~ m/bam$/) || ($filename =~ m/cram$/)) {
         printf "EXTRACT and SUMMARIZE to $fullname\n";
 
         system("samtools fasta downloads/$filename | $seqrequester summarize - > $fullname");
@@ -458,7 +458,7 @@ sub downloadPartAndSummarize ($$$$$$) {
     system("mkdir -p downloads/$fdir");   #  Make a place to download the file
     system("mkdir -p           $fdir");   #  and a place to write the summary.
 
-    if ($filename =~ m/bam$/) {
+    if (($filename =~ m/bam$/) || ($filename =~ m/cram$/)) {
         my $df = "downloads/" . dirname($filename) . "/${sumsize}-bytes--" . basename($filename);
 
         if (! -e "$df") {
