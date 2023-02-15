@@ -2,10 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mLagAlb1            165063464027               0      2147483648    524609864143      3474237510  species/Lagenorhynchus_albirostris/mLagAlb1/genomic_data/arima/mLagAlb1_46660_2#1.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mLagAlb1          3.1782    524604701370
 --------------- ---------------  ------- ---------------

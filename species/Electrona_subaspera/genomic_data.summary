@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fEleSub1             42916050046               0      2147483648    130814506315       866321233  species/Electrona_subaspera/fEleSub1/genomic_data/arima/fEleSub1_46002_4#5.cram
 pacbiohifi_bam  fEleSub1             13134189053               0      2147483648     19733263423         1819345  species/Electrona_subaspera/fEleSub1/genomic_data/pacbio_hifi/m64016e_221016_043341.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  fEleSub1             13134189053               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fEleSub1          3.0481    130812412145
 pacbiohifi_bam  fEleSub1          1.5024     19732805633
 --------------- ---------------  ------- ---------------

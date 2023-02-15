@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           kaCorEumy4           34650198298               0      2147483648    108006655428       715275863  species/Corella_eumyota/kaCorEumy4/genomic_data/arima/kaCorEumy4_36948_2#3.cram
 pacbiohifi_bam  kaCorEumy4           12515562465               0      2147483648     20279123976         2259328  species/Corella_eumyota/kaCorEumy4/genomic_data/pacbio_hifi/m64097e_221015_212717.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.rmdup.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  kaCorEumy4           12515562465               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           kaCorEumy4        3.1170    108004668094
 pacbiohifi_bam  kaCorEumy4        1.6203     20278965862
 --------------- ---------------  ------- ---------------

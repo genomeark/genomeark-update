@@ -2,10 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fMicPou1             29669379364               0      2147483648     86055667024       569905079  species/Micromesistius_poutassou/fMicPou1/genomic_data/arima/fMicPou1_46745_3#7.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fMicPou1          2.9004     86053067907
 --------------- ---------------  ------- ---------------

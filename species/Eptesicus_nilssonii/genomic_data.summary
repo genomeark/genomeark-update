@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mEptNil1             80763758256               0      2147483648    252256366894      1670571966  species/Eptesicus_nilssonii/mEptNil1/genomic_data/arima/mEptNil1_45522_1#1.cram
 pacbiohifi_bam  mEptNil1               235645820               0       235645820       442739139           45484  species/Eptesicus_nilssonii/mEptNil1/genomic_data/pacbio_hifi/m64125e_220822_051717.ccs.bc1018_BAK8B_OA--bc1018_BAK8B_OA.bam
 pacbiohifi_bam  mEptNil1             15439463055               0      2147483648     20694423110         1747300  species/Eptesicus_nilssonii/mEptNil1/genomic_data/pacbio_hifi/m64229e_221013_193434.ccs.bc1017_BAK8B_OA--bc1017_BAK8B_OA.bam
 pacbiohifi_bam  mEptNil1             75137532833               0      2147483648     20892680618         2324505  species/Eptesicus_nilssonii/mEptNil1/genomic_data/pacbio_hifi/m64229e_221214_120649.ccs.bc1019_BAK8B_OA--bc1019_BAK8B_OA.rmdup.bam
@@ -11,5 +12,6 @@ pacbiohifi_bam  mEptNil1             75137532833               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mEptNil1          3.1233    252249446160
 pacbiohifi_bam  mEptNil1          0.4628     42028090582
 --------------- ---------------  ------- ---------------

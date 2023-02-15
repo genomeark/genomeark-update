@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bHalAlb1             30209819069               0      2147483648     89343806902       591680840  species/Haliaeetus_albicilla/bHalAlb1/genomic_data/arima/bHalAlb1_45762_1#3.cram
 pacbiohifi_bam  bHalAlb1             21645409771               0      2147483648     31454377730         1809398  species/Haliaeetus_albicilla/bHalAlb1/genomic_data/pacbio_hifi/m64077_211123_154644.ccs.bam
 pacbiohifi_bam  bHalAlb1             22185247768               0      2147483648     31598911073         1820361  species/Haliaeetus_albicilla/bHalAlb1/genomic_data/pacbio_hifi/m64204e_211118_103941.ccs.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  bHalAlb1             22185247768               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bHalAlb1          2.9574     89342518914
 pacbiohifi_bam  bHalAlb1          1.4337     62840013713
 --------------- ---------------  ------- ---------------

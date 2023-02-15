@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPipPyg2             67649552543               0      2147483648    210534561471      1394268619  species/Pipistrellus_pygmaeus/mPipPyg2/genomic_data/arima/mPipPyg2_45428_1#1.cram
 pacbiohifi_bam  mPipPyg2             13355701305               0      2147483648     20441317671         1727808  species/Pipistrellus_pygmaeus/mPipPyg2/genomic_data/pacbio_hifi/m64016e_220806_232640.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
 pacbiohifi_bam  mPipPyg2             90310488565               0      2147483648     24365466805         2006989  species/Pipistrellus_pygmaeus/mPipPyg2/genomic_data/pacbio_hifi/m64222e_221114_120705.ccs.bc1002_BAK8A_OA--bc1002_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  mPipPyg2             90310488565               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mPipPyg2          3.1121    210532172469
 pacbiohifi_bam  mPipPyg2          0.3566     36967363307
 --------------- ---------------  ------- ---------------

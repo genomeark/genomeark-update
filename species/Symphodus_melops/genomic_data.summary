@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fSymMel2             37267899422               0      2147483648    115537263107       765147437  species/Symphodus_melops/fSymMel2/genomic_data/arima/fSymMel2_44748_4#8.cram
 pacbiohifi_bam  fSymMel2             12806027461               0      2147483648     19974338308         1826174  species/Symphodus_melops/fSymMel2/genomic_data/pacbio_hifi/m64125e_220918_203025.ccs.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  fSymMel2             12806027461               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fSymMel2          3.1001    115534214998
 pacbiohifi_bam  fSymMel2          1.5597     19973561030
 --------------- ---------------  ------- ---------------

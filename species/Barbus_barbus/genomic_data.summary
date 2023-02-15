@@ -5,11 +5,13 @@
 pacbiohifi_bam  fBarBab1             19171546197               0      2147483648     21139340859         1917936  species/Barbus_barbus/fBarBab1/genomic_data/pacbio_hifi/m64094_201225_092433.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
 pacbiohifi_bam  fBarBab1             24969088976               0      2147483648     27240069246         2256025  species/Barbus_barbus/fBarBab1/genomic_data/pacbio_hifi/m64097_201105_175038.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
 pacbiohifi_bam  fBarBab1            109705605601               0      2147483648     27616019443         2433056  species/Barbus_barbus/fBarBab1/genomic_data/pacbio_hifi/m64174e_210114_162751.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
+arima           fBarBab2             51917957977               0      2147483648    165262820162      1094455762  species/Barbus_barbus/fBarBab2/genomic_data/arima/fBarBab2_43892_2#4.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fBarBab2          3.1831    165260052036
 pacbiohifi_bam  fBarBab1          0.4939     75984658318
 --------------- ---------------  ------- ---------------

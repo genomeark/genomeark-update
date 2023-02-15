@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fSilAri3             43066000101               0      2147483648    135662436707       898426733  species/Silurus_aristotelis/fSilAri3/genomic_data/arima/fSilAri3_45206_3#5.cram
 pacbiohifi_bam  fSilAri3             12631213820               0      2147483648     21085560879         2145587  species/Silurus_aristotelis/fSilAri3/genomic_data/pacbio_hifi/m64097e_220726_091200.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
 pacbiohifi_bam  fSilAri3             13073362217               0      2147483648     21784740929         2230286  species/Silurus_aristotelis/fSilAri3/genomic_data/pacbio_hifi/m64174e_220729_072314.ccs.bc1020_BAK8B_OA--bc1020_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  fSilAri3             13073362217               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fSilAri3          3.1501    135662206918
 pacbiohifi_bam  fSilAri3          1.6673     42857239626
 --------------- ---------------  ------- ---------------

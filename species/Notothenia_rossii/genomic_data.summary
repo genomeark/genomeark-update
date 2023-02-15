@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fNotRos5             49298219702               0      2147483648    148535110503       983676228  species/Notothenia_rossii/fNotRos5/genomic_data/arima/fNotRos5_46130_2#4.cram
 pacbiohifi_bam  fNotRos5            100635798900               0      2147483648     27229381653         2311430  species/Notothenia_rossii/fNotRos5/genomic_data/pacbio_hifi/m64229e_230108_004607.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  fNotRos5            100635798900               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fNotRos5          3.0129    148530606140
 pacbiohifi_bam  fNotRos5          0.2705     27221983602
 --------------- ---------------  ------- ---------------

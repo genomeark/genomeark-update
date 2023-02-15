@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fTelBon1             35197722144               0      2147483648    102016309040       675604695  species/Telmatherina_bonti/fTelBon1/genomic_data/arima/fTelBon1_43563_4#2.cram
 pacbiohifi_bam  fTelBon1             11649440976               0      2147483648     18591261050         2447882  species/Telmatherina_bonti/fTelBon1/genomic_data/pacbio_hifi/m64094e_210704_104640.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
 pacbiohifi_bam  fTelBon1             12785032139               0      2147483648     16442836438         1434536  species/Telmatherina_bonti/fTelBon1/genomic_data/pacbio_hifi/m64222e_210618_232517.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  fTelBon1             12785032139               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fTelBon1          2.8983    102013558089
 pacbiohifi_bam  fTelBon1          1.3830     33792876318
 --------------- ---------------  ------- ---------------

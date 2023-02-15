@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           kaAplTurb1           38305545105               0      2147483648    116006835554       768257189  species/Aplidium_turbinatum/kaAplTurb1/genomic_data/arima/kaAplTurb1_36276_1#8.cram
 pacbiohifi_bam  kaAplTurb1           12739163710               0      2147483648     16485768581         1808856  species/Aplidium_turbinatum/kaAplTurb1/genomic_data/pacbio_hifi/m64089_201219_140307.ccs.bc1002_BAK8A_OA--bc1002_BAK8A_OA.bam
 pacbiohifi_bam  kaAplTurb1           90250348643               0      2147483648     24547682334         2352452  species/Aplidium_turbinatum/kaAplTurb1/genomic_data/pacbio_hifi/m64089e_210322_092215.ccs.bc1002_BAK8A_OA--bc1002_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  kaAplTurb1           90250348643               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           kaAplTurb1        3.0284    116004512795
 pacbiohifi_bam  kaAplTurb1        0.3393     34944341541
 --------------- ---------------  ------- ---------------

@@ -2,10 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mBalAcu1            158756505866               0      2147483648    501997416114      3324486199  species/Balaenoptera_acutorostrata/mBalAcu1/genomic_data/arima/mBalAcu1_46652_4#2.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mBalAcu1          3.1620    501988071548
 --------------- ---------------  ------- ---------------

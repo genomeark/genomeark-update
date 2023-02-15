@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPleAur1             37641809238               0      2147483648    118178647377       782640048  species/Plecotus_auritus/mPleAur1/genomic_data/arima/mPleAur1_45522_1#5.cram
 pacbiohifi_bam  mPleAur1             98573112474               0      2147483648     25881626238         1932139  species/Plecotus_auritus/mPleAur1/genomic_data/pacbio_hifi/m64222e_221218_214618.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  mPleAur1             98573112474               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mPleAur1          3.1395    118176460102
 pacbiohifi_bam  mPleAur1          0.2625     25875442024
 --------------- ---------------  ------- ---------------

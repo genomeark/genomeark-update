@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           kaStyClav1           90792653699               0      2147483648    292901220865      1939743184  species/Styela_clava/kaStyClav1/genomic_data/arima/kaStyClav1_36948_2#2.cram
 pacbiohifi_bam  kaStyClav1            2728713784               0      2728713784      3960205530          541557  species/Styela_clava/kaStyClav1/genomic_data/pacbio_hifi/m64089_201220_142114.ccs.bc1003_BAK8A_OA--bc1003_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  kaStyClav1            2728713784               0      2728713784
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           kaStyClav1        3.2260    292897100832
 pacbiohifi_bam  kaStyClav1        1.4513      3960182314
 --------------- ---------------  ------- ---------------

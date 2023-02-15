@@ -2,10 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           kaPerJapo1           30154777624               0      2147483648     93548902309       619529154  species/Perophora_japonica/kaPerJapo1/genomic_data/arima/kaPerJapo1_36948_2#1.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           kaPerJapo1        3.1022     93546151145
 --------------- ---------------  ------- ---------------

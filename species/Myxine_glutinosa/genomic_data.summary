@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           kmMyxGlut1          306503818478               0      2147483648    904743318767      5991677607  species/Myxine_glutinosa/kmMyxGlut1/genomic_data/arima/kmMyxGlut1_45851_1#1.cram
 pacbiohifi_bam  kmMyxGlut1           10228260801               0      2147483648     16299914486         1626193  species/Myxine_glutinosa/kmMyxGlut1/genomic_data/pacbio_hifi/m64094e_220805_140413.ccs.bc1003_BAK8A_OA--bc1003_BAK8A_OA.bam
 pacbiohifi_bam  kmMyxGlut1           11584410779               0      2147483648     18163991552         1631647  species/Myxine_glutinosa/kmMyxGlut1/genomic_data/pacbio_hifi/m64174e_221025_044258.ccs.bc1012_BAK8A_OA--bc1012_BAK8A_OA.bam
 pacbiohifi_bam  kmMyxGlut1           58835405348               0      2147483648     16248114658         2150200  species/Myxine_glutinosa/kmMyxGlut1/genomic_data/pacbio_hifi/m64222e_230209_161529.ccs.bc1021_BAK8B_OA--bc1021_BAK8B_OA.rmdup.bam
@@ -12,5 +13,6 @@ pacbiohifi_bam  kmMyxGlut1           11976973316               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           kmMyxGlut1        2.9518    904737971383
 pacbiohifi_bam  kmMyxGlut1        0.6509     60289645203
 --------------- ---------------  ------- ---------------

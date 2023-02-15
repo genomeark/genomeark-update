@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fHypImm3             47792580459               0      2147483648    151996689897      1006600595  species/Hyperoplus_immaculatus/fHypImm3/genomic_data/arima/fHypImm3_45026_1#4.cram
 pacbiohifi_bam  fHypImm3             15018833731               0      2147483648     24273811686         2836325  species/Hyperoplus_immaculatus/fHypImm3/genomic_data/pacbio_hifi/m64125e_220920_013255.ccs.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  fHypImm3             15018833731               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fHypImm3          3.1803    151994743633
 pacbiohifi_bam  fHypImm3          1.6162     24273439076
 --------------- ---------------  ------- ---------------

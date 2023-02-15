@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fPlePla1             43667314411               0      2147483648    134670406921       891856999  species/Pleuronectes_platessa/fPlePla1/genomic_data/arima/fPlePla1_45017_1#7.cram
 pacbiohifi_bam  fPlePla1             16288100370               0      2147483648     21862481637         1600592  species/Pleuronectes_platessa/fPlePla1/genomic_data/pacbio_hifi/m64016e_220909_170143.ccs.bc1018_BAK8B_OA--bc1018_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  fPlePla1             16288100370               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fPlePla1          3.0840    134669997643
 pacbiohifi_bam  fPlePla1          1.3422     21861888316
 --------------- ---------------  ------- ---------------

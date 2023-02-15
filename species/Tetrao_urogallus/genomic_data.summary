@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bTetUro1             47052468278               0      2147483648    148253316257       981810041  species/Tetrao_urogallus/bTetUro1/genomic_data/arima/bTetUro1_43722_4#4.cram
 pacbiohifi_bam  bTetUro1             14664967239               0      2147483648     23838992502         2325051  species/Tetrao_urogallus/bTetUro1/genomic_data/pacbio_hifi/m64228e_221008_165222.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  bTetUro1             14664967239               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bTetUro1          3.1508    148252917050
 pacbiohifi_bam  bTetUro1          1.6255     23837904246
 --------------- ---------------  ------- ---------------

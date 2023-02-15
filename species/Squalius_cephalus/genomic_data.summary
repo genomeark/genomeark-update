@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fSquCep2             45049678806               0      2147483648    142259676357       942117061  species/Squalius_cephalus/fSquCep2/genomic_data/arima/fSquCep2_44226_3#8.cram
 pacbiohifi_bam  fSquCep2             92915294135               0      2147483648     24551340663         2014470  species/Squalius_cephalus/fSquCep2/genomic_data/pacbio_hifi/m64016e_230209_161129.ccs.bc1016_BAK8B_OA--bc1016_BAK8B_OA.bam
 pacbiohifi_bam  fSquCep2             99292881222               0      2147483648     26272027245         2146915  species/Squalius_cephalus/fSquCep2/genomic_data/pacbio_hifi/m64125e_221117_144856.ccs.bc1016_BAK8B_OA--bc1016_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  fSquCep2             99292881222               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fSquCep2          3.1578    142257875733
 pacbiohifi_bam  fSquCep2          0.2644     50819841564
 --------------- ---------------  ------- ---------------

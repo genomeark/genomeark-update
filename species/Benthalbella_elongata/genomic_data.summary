@@ -2,10 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fBenEln1             40620212181               0      2147483648    124416253793       823948700  species/Benthalbella_elongata/fBenEln1/genomic_data/arima/fBenEln1_45816_1#3.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fBenEln1          3.0629    124415647889
 --------------- ---------------  ------- ---------------

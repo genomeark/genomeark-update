@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fPhoPho1             39032282749               0      2147483648    118729196266       786286067  species/Phoxinus_phoxinus/fPhoPho1/genomic_data/arima/fPhoPho1_46625_1#8.cram
 pacbiohifi_bam  fPhoPho1            110050279791               0      2147483648     29338904503         2567176  species/Phoxinus_phoxinus/fPhoPho1/genomic_data/pacbio_hifi/m64230e_230112_135735.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  fPhoPho1            110050279791               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fPhoPho1          3.0418    118728397665
 pacbiohifi_bam  fPhoPho1          0.2665     29328399564
 --------------- ---------------  ------- ---------------

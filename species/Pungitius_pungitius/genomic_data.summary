@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fPunPun2             35731455152               0      2147483648    108537924222       718794200  species/Pungitius_pungitius/fPunPun2/genomic_data/arima/fPunPun2_46625_3#3.cram
 pacbiohifi_bam  fPunPun2             96246353475               0      2147483648     25354803929         2141906  species/Pungitius_pungitius/fPunPun2/genomic_data/pacbio_hifi/m64178e_230122_111455.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  fPunPun2             96246353475               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fPunPun2          3.0376    108537868169
 pacbiohifi_bam  fPunPun2          0.2634     25351289505
 --------------- ---------------  ------- ---------------

@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fOsmEpe2             22007006559               0      2147483648     61803930201       409297551  species/Osmerus_eperlanus/fOsmEpe2/genomic_data/arima/fOsmEpe2_46361_4#5.cram
 pacbiohifi_bam  fOsmEpe2             74375609352               0      2147483648     19984079888         1964119  species/Osmerus_eperlanus/fOsmEpe2/genomic_data/pacbio_hifi/m64097e_230130_060049.ccs.bc1012_BAK8A_OA--bc1012_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  fOsmEpe2             74375609352               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fOsmEpe2          2.8083     61802276519
 pacbiohifi_bam  fOsmEpe2          0.2686     19977288671
 --------------- ---------------  ------- ---------------

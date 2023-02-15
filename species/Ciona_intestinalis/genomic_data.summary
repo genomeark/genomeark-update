@@ -2,10 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           kaCioInte2           43688542646               0      2147483648    133107739634       881508209  species/Ciona_intestinalis/kaCioInte2/genomic_data/arima/kaCioInte2_45658_3#4.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           kaCioInte2        3.0467    133105882879
 --------------- ---------------  ------- ---------------

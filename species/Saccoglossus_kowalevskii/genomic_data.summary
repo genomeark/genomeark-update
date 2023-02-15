@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           keSacKowa1           54155711212               0      2147483648    154869357435      1025624883  species/Saccoglossus_kowalevskii/keSacKowa1/genomic_data/arima/keSacKowa1_45523_3#5.cram
 arima           keSacKowa2           24112770759               0      2147483648     51672545822       342202301  species/Saccoglossus_kowalevskii/keSacKowa2/genomic_data/arima/keSacKowa2_38988_4#8_R1.fastq.gz
 arima           keSacKowa2           24971404125               0      2147483648     52058945114       344761237  species/Saccoglossus_kowalevskii/keSacKowa2/genomic_data/arima/keSacKowa2_38988_4#8_R2.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ arima           keSacKowa2           24971404125               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           keSacKowa1        2.8597    154869087352
 arima           keSacKowa2        2.1036    103253470285
 --------------- ---------------  ------- ---------------

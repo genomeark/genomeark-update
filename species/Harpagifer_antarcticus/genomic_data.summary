@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fHarAnt1             71673610663               0      2147483648    226736970086      1501569338  species/Harpagifer_antarcticus/fHarAnt1/genomic_data/arima/fHarAnt1_40063_1#5.cram
 pacbiohifi_bam  fHarAnt1              5821888567               0      2147483648     10187243787         1382529  species/Harpagifer_antarcticus/fHarAnt1/genomic_data/pacbio_hifi/m64016e_211102_162946.ccs.bc1021_BAK8B_OA--bc1021_BAK8B_OA.bam
 pacbiohifi_bam  fHarAnt1                72647422               0        72647422       118379986           16365  species/Harpagifer_antarcticus/fHarAnt1/genomic_data/pacbio_hifi/m64016e_220220_085734.ccs.bc1019_BAK8B_OA--bc1019_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  fHarAnt1                72647422               0        72647422
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fHarAnt1          3.1634    226732299971
 pacbiohifi_bam  fHarAnt1          1.7490     10309543444
 --------------- ---------------  ------- ---------------

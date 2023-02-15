@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fMelGel1             36298250667               0      2147483648    110234100106       730027153  species/Melanostigma_gelatinosum/fMelGel1/genomic_data/arima/fMelGel1_46625_1#6.cram
 pacbiohifi_bam  fMelGel1             96038860162               0      2147483648     25542857626         2231427  species/Melanostigma_gelatinosum/fMelGel1/genomic_data/pacbio_hifi/m64094e_230117_184839.ccs.bc1003_BAK8A_OA--bc1003_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  fMelGel1             96038860162               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fMelGel1          3.0368    110230527625
 pacbiohifi_bam  fMelGel1          0.2659     25536732917
 --------------- ---------------  ------- ---------------

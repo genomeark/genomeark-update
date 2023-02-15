@@ -7,6 +7,7 @@
 10x             fPhoGun1              4223818089               0      4223818089      6765815475        44806725  species/Pholis_gunnellus/fPhoGun1/genomic_data/10x/fPhoGun1_S6_L002_R1_001.fastq.gz
 arima           fPhoGun1             37885984540               0      2147483648     65454585642       433474077  species/Pholis_gunnellus/fPhoGun1/genomic_data/arima/fPhoGun1_35312_5#1_R1.fastq.gz
 arima           fPhoGun1             43490519023               0      2147483648     66066406565       437525891  species/Pholis_gunnellus/fPhoGun1/genomic_data/arima/fPhoGun1_35312_5#1_R2.fastq.gz
+arima           fPhoGun1             28267124074               0      2147483648     87176075581       577325003  species/Pholis_gunnellus/fPhoGun1/genomic_data/arima/fPhoGun1_42830_4#7.cram
 pacbiohifi_bam  fPhoGun1             13954063288               0      2147483648     16830262664         1379724  species/Pholis_gunnellus/fPhoGun1/genomic_data/pacbio_hifi/m64094_201119_164734.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
 pacbiohifi_bam  fPhoGun1             22102428186               0      2147483648     24634040021         2062195  species/Pholis_gunnellus/fPhoGun1/genomic_data/pacbio_hifi/m64125_201022_152950.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -16,6 +17,6 @@ pacbiohifi_bam  fPhoGun1             22102428186               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 10x             fPhoGun1          1.5878     64420724686
-arima           fPhoGun1          1.5823    128762041587
+arima           fPhoGun1          1.9946    218695179684
 pacbiohifi_bam  fPhoGun1          1.1365     40978202560
 --------------- ---------------  ------- ---------------

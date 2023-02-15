@@ -2,10 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           kaDenGros1           33932687125               0      2147483648    102334332336       677710810  species/Dendrodoa_grossularia/kaDenGros1/genomic_data/arima/kaDenGros1_42830_4#8.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           kaDenGros1        3.0158    102334197831
 --------------- ---------------  ------- ---------------

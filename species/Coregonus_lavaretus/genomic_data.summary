@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fCorLav1            129267914582               0      2147483648    383029598255      2536619855  species/Coregonus_lavaretus/fCorLav1/genomic_data/arima/fCorLav1_46689_2#1.cram
 pacbiohifi_bam  fCorLav1             89335494293               0      2147483648     23894154384         2066816  species/Coregonus_lavaretus/fCorLav1/genomic_data/pacbio_hifi/m64222e_230109_041235.ccs.bc1010_BAK8A_OA--bc1010_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  fCorLav1             89335494293               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fCorLav1          2.9630    383020830906
 pacbiohifi_bam  fCorLav1          0.2674     23888311173
 --------------- ---------------  ------- ---------------

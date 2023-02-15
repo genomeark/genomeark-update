@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rVipUrs1             67562884858               0      2147483648    202806281083      1343087954  species/Vipera_ursinii/rVipUrs1/genomic_data/arima/rVipUrs1_45762_2#1.cram
 pacbiohifi_bam  rVipUrs1             14392199539               0      2147483648     21922422632         2021290  species/Vipera_ursinii/rVipUrs1/genomic_data/pacbio_hifi/m64174e_220730_163800.ccs.bc1021_BAK8B_OA--bc1021_BAK8B_OA.bam
 pacbiohifi_bam  rVipUrs1             15950158325               0      2147483648     22991685482         1914858  species/Vipera_ursinii/rVipUrs1/genomic_data/pacbio_hifi/m64178e_220822_054805.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  rVipUrs1             15950158325               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           rVipUrs1          3.0017    202803511478
 pacbiohifi_bam  rVipUrs1          1.4668     44506170514
 --------------- ---------------  ------- ---------------

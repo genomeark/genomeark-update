@@ -2,10 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           kaAscAspe2           17762865032               0      2147483648     55193010021       365516622  species/Ascidiella_aspersa/kaAscAspe2/genomic_data/arima/kaAscAspe2_36948_2#4.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           kaAscAspe2        3.1072     55192774227
 --------------- ---------------  ------- ---------------

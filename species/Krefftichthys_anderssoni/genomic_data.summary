@@ -2,10 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fKreAnd1             42930393845               0      2147483648    127688651737       845620210  species/Krefftichthys_anderssoni/fKreAnd1/genomic_data/arima/fKreAnd1_46625_1#5.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fKreAnd1          2.9743    127687870413
 --------------- ---------------  ------- ---------------

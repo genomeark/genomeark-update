@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fGobGob1             50854480810               0      2147483648    162843082151      1078431007  species/Gobio_gobio/fGobGob1/genomic_data/arima/fGobGob1_45522_1#3.cram
 pacbiohifi_bam  fGobGob1            118312395221               0      2147483648     31520984660         2279548  species/Gobio_gobio/fGobGob1/genomic_data/pacbio_hifi/m64125e_230202_060456.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
 pacbiohifi_bam  fGobGob1             14011217429               0      2147483648     20082993496         1809290  species/Gobio_gobio/fGobGob1/genomic_data/pacbio_hifi/m64222e_221010_110303.ccs.bc1002_BAK8A_OA--bc1002_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  fGobGob1             14011217429               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fGobGob1          3.2021    162841133001
 pacbiohifi_bam  fGobGob1          0.3316     43878509954
 --------------- ---------------  ------- ---------------

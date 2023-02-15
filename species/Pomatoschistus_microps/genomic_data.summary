@@ -2,10 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fPomMic3             32292252007               0      2147483648     99839376602       661187924  species/Pomatoschistus_microps/fPomMic3/genomic_data/arima/fPomMic3_44176_3#3.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fPomMic3          3.0917     99837955530
 --------------- ---------------  ------- ---------------
