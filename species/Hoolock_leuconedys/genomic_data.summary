@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+illumina        mHooLeu1             47155759110               0      2147483648     93868063050       621642801  species/Hoolock_leuconedys/mHooLeu1/genomic_data/illumina/HHMWLDSX5_19423163_S37_L002_R1_001.fastq.gz
+illumina        mHooLeu1             48507143790               0      2147483648     94036437301       622757862  species/Hoolock_leuconedys/mHooLeu1/genomic_data/illumina/HHMWLDSX5_19423163_S37_L002_R2_001.fastq.gz
+illumina        mHooLeu1             48244542551               0      2147483648     93086498334       616466898  species/Hoolock_leuconedys/mHooLeu1/genomic_data/illumina/HHMWLDSX5_19423163_S37_L003_R2_001.fastq.gz
+ont             mHooLeu1             13544787314               0      2147483648     13994216750          644251  species/Hoolock_leuconedys/mHooLeu1/genomic_data/ont/PAK40744_guppy-6.3.9-hac.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+illumina        mHooLeu1          1.9525    372570317971
+ont             mHooLeu1          1.0331     13993119774
+--------------- ---------------  ------- ---------------
