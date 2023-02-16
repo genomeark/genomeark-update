@@ -30,9 +30,10 @@ my %speciesList;   #  Count of the number of filtered files for each species.
 my %speciesMeta;   #  Defined if 'Genus_species/metadata.yaml' is found.
 my %individuals;
 
-my $lsRaw = $ARGV[1];
-my $lsFilt = $ARGV[2];
-my $spList = undef;
+my $lsRaw   = $ARGV[1];
+my $lsFilt  = $ARGV[2];
+my $spList  = undef;
+my $mdFetch = 1;
 
 while (scalar(@ARGV) > 0) {
     my $opt = shift @ARGV;
@@ -45,6 +46,9 @@ while (scalar(@ARGV) > 0) {
     }
     elsif ($opt eq "--species-list") {
         $spList = shift @ARGV;
+    }
+    elsif ($opt eq "--no-metadata") {
+        $mdFetch = 0;
     }
     else {
         die "Unknown option '$opt'\n";
@@ -397,9 +401,14 @@ close(SPLI);
 print "Fetching metadata:\n";
 foreach my $name (sort keys %speciesMeta) {
     if (! -e "downloads/species/$name/metadata.yaml") {
-        print "  s3://genomeark/species/$name/metadata.yaml\n";
-        system("mkdir -p downloads/species/$name");
-        system("aws s3 cp s3://genomeark/species/$name/metadata.yaml downloads/species/$name/metadata.yaml");
+        if ($mdFetch) {
+            print "  s3://genomeark/species/$name/metadata.yaml\n";
+            system("mkdir -p downloads/species/$name");
+            system("aws s3 cp s3://genomeark/species/$name/metadata.yaml downloads/species/$name/metadata.yaml");
+        }
+        else {
+            print "  s3://genomeark/species/$name/metadata.yaml -- NOT FETCHED\n";
+        }
     }
 }
 

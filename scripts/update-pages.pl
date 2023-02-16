@@ -84,7 +84,10 @@ my $nGenBank    = loadGenbankMap();         #  Private map from ToLID to GenBank
 my $nProject    = loadProjectMap();         #  Private map from species name_ to project.
 
 my %missingData;                            #  List of species that need to download data.
+my %templateMeta;                           #  List of species that have only template metadata
+my %noProjectID;                            #  List of species that have no project ID
 my @potentialErrors;                        #  List of fatal errors we encountered.
+my @potentialDataErrors;                    #  List of fatal errors we encountered.
 my @unknownFiles;                           #  List of files we don't know how to process.
 
 #  Create output directories, now that we know what projects exist.
@@ -119,7 +122,7 @@ foreach my $species (@speciesList) {
 
     my %meta = ();
     my %data = ();
-    my $name = loadSpeciesMetadata(\%data, $species, \%meta, \@potentialErrors);
+    my $name = loadSpeciesMetadata(\%data, $species, \%meta, \%templateMeta, \@potentialErrors);
 
     setGenbankIDs(\%data);
 
@@ -192,7 +195,7 @@ foreach my $species (@speciesList) {
         accumulateData($speciesEpoch[$ii], $speciesSizes[$ii], $speciesFiles[$ii],
                        \%data,
                        \%tiFiles, \%tiBytes, \%tiIndiv,
-                       \@potentialErrors);
+                       \@potentialDataErrors);
     }
 
 
@@ -367,7 +370,8 @@ foreach my $species (@speciesList) {
         if ($pl) {
             push @pl, split '\s+', $pl;
         } else {
-            push @potentialErrors, "  Species $data{'name_'} has no projectID.\n";
+            $noProjectID{$data{'name_'}}++;
+            #push @potentialErrors, "  Species $data{'name_'} has no projectID.\n";
         }
 
         foreach my $proj (@pl) {
@@ -406,39 +410,31 @@ foreach my $species (@speciesList) {
     print "\n";
 }
 
-
-
-
-#  And whatever errors we saved.
+#
+#  Output whatever errors we saved.
+#
 
 if (scalar(@potentialErrors > 0)) {
     print "\n";
     print "----------------------------------------\n";
-    print "Potential errors found:\n";
-    foreach my $l (@potentialErrors) {
+    print "Potential errors found (not showing ", scalar(@potentialDataErrors), " data errors; see scan-bucket output):\n";
+    foreach my $l (sort @potentialErrors) {
         print "  $l";
     }
     print "\n";
 }
 
 
-if (scalar(@unknownFiles > 0)) {
+open(F, "> update-pages.no-project-id");
+if (scalar(keys %noProjectID > 0)) {
     print "\n";
     print "----------------------------------------\n";
-    print "Unknown files:\n";
-    foreach my $l (sort @unknownFiles) {
-        print "  $l";
+    print "Found ", scalar(keys %noProjectID), " species with no project ID assigned (see 'update-pages.no-project-id').\n";
+    foreach my $l (sort keys %noProjectID) {
+        print F "$l\n";
     }
     print "\n";
 }
+close(F);
 
-
-if (scalar(keys %missingData > 0)) {
-    print "\n";
-    print "----------------------------------------\n";
-    print "Species with missing data files:\n";
-    foreach my $l (sort keys %missingData) {
-        printf "  %3d - %s\n", $missingData{$l}, $l;
-    }
-    print "\n";
-}
+exit(0);

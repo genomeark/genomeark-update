@@ -63,6 +63,7 @@ my $lastupdate  = loadBucketFiles();        #  Private list of all files in the 
 my $nGenBank    = loadGenbankMap();         #  Private map from ToLID to GenBank accession.
 
 my %missingData;                            #  List of species that need to download data.
+my %templateMeta;                           #  List of species that have only template metadata.
 my @potentialErrors;                        #  List of fatal errors we encountered.
 my @unknownFiles;                           #  List of files we don't know how to process.
 
@@ -75,7 +76,7 @@ foreach my $species (@speciesList) {
 
     my %meta = ();
     my %data = ();
-    my $name = loadSpeciesMetadata(\%data, $species, \%meta, \@potentialErrors);
+    my $name = loadSpeciesMetadata(\%data, $species, \%meta, \%templateMeta, \@potentialErrors);
 
     setGenbankIDs(\%data);
 
@@ -183,17 +184,27 @@ foreach my $species (@speciesList) {
     print "\n";
 }
 
-
-
-
-#  And whatever errors we saved.
+#
+#  Output whatever errors we saved.
+#
 
 if (scalar(@potentialErrors > 0)) {
     print "\n";
     print "----------------------------------------\n";
     print "Potential errors found:\n";
-    foreach my $l (@potentialErrors) {
+    foreach my $l (sort @potentialErrors) {
         print "  $l";
+    }
+    print "\n";
+}
+
+
+if (scalar(keys %templateMeta > 0)) {
+    print "\n";
+    print "----------------------------------------\n";
+    print "Species with template metadata:\n";
+    foreach my $l (sort keys %templateMeta) {
+        printf "  %s\n", $l;
     }
     print "\n";
 }
@@ -228,3 +239,5 @@ if (scalar(keys %missingData > 0)) {
     }
     print "\n";
 }
+
+exit(0);

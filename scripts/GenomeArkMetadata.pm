@@ -18,11 +18,12 @@ use GenomeArkUtility;
 #  Load metadata from our cache, or fetch it from the bucket if it is newer.
 #
 
-sub loadSpeciesMetadata ($$$$) {
-    my $data    = shift @_;
-    my $species = shift @_;
-    my $meta    = shift @_;
-    my $errors  = shift @_;
+sub loadSpeciesMetadata ($$$$$) {
+    my $data     = shift @_;
+    my $species  = shift @_;
+    my $meta     = shift @_;
+    my $template = shift @_;
+    my $errors   = shift @_;
     my $mdf;
 
     my  @keys;
@@ -37,7 +38,8 @@ sub loadSpeciesMetadata ($$$$) {
         $mdf  = "downloads/species/$species/metadata.yaml";
     } elsif (-e "downloads/species/$species/metadata.yaml.template") {
         $mdf  = "downloads/species/$species/metadata.yaml.template";
-        push @$errors, "  Species '$species' has only template metadata.\n";
+        $$template{$species}++;
+        #push @$errors, "  Species '$species' has only template metadata.\n";
     } else {
         die "No metadata found for species '$species'.\n";
     }
