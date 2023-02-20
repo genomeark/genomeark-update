@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           aLisHel1            310254933574               0      2147483648    960537763227      6361177239  species/Lissotriton_helveticus/aLisHel1/genomic_data/arima/aLisHel1_46219_4#1.cram
+pacbiohifi_bam  aLisHel1            104908929710               0      2147483648     28308131377         2408356  species/Lissotriton_helveticus/aLisHel1/genomic_data/pacbio_hifi/m64094e_230214_203343.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
 pacbiohifi_bam  aLisHel1            102643618903               0      2147483648     27829183634         2296271  species/Lissotriton_helveticus/aLisHel1/genomic_data/pacbio_hifi/m64229e_221207_154630.ccs.bc1003_BAK8A_OA--bc1003_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -11,5 +12,5 @@ pacbiohifi_bam  aLisHel1            102643618903               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aLisHel1          3.0959    960518248851
-pacbiohifi_bam  aLisHel1          0.2711     27826685084
+pacbiohifi_bam  aLisHel1          0.2702     56080698635
 --------------- ---------------  ------- ---------------
