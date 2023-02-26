@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mEriEur1            158692356975               0      2147483648    508712800127      3368958941  species/Erinaceus_europaeus/mEriEur1/genomic_data/arima/mEriEur1_44925_4#1.cram
+pacbiohifi_bam  mEriEur2            106366961867               0      2147483648     29081970732         2781709  species/Erinaceus_europaeus/mEriEur2/genomic_data/pacbio_hifi/m64178e_230219_004157.ccs.bc1017_BAK8B_OA--bc1017_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           mEriEur1            158692356975               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mEriEur1          3.2056    508704219519
+pacbiohifi_bam  mEriEur2          0.2734     29080727374
 --------------- ---------------  ------- ---------------

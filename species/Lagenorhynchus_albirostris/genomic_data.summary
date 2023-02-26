@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mLagAlb1            165063464027               0      2147483648    524609864143      3474237510  species/Lagenorhynchus_albirostris/mLagAlb1/genomic_data/arima/mLagAlb1_46660_2#1.cram
+pacbiohifi_bam  mLagAlb1             84183905042               0      2147483648     23062689877         2794025  species/Lagenorhynchus_albirostris/mLagAlb1/genomic_data/pacbio_hifi/m64125e_230218_235841.ccs.bc1021_BAK8B_OA--bc1021_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           mLagAlb1            165063464027               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mLagAlb1          3.1782    524604701370
+pacbiohifi_bam  mLagAlb1          0.2739     23057971591
 --------------- ---------------  ------- ---------------

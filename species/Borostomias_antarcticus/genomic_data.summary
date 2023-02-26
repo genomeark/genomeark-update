@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fBorAnt1             28828710896               0      2147483648     57960096175       383841709  species/Borostomias_antarcticus/fBorAnt1/genomic_data/arima/fBorAnt1_39712_1#2_R1.fastq.gz
 arima           fBorAnt1             30287507765               0      2147483648     58101671100       384779292  species/Borostomias_antarcticus/fBorAnt1/genomic_data/arima/fBorAnt1_39712_1#2_R2.fastq.gz
+pacbiohifi_bam  fBorAnt1             82686535514               0      2147483648     22114176796         1747346  species/Borostomias_antarcticus/fBorAnt1/genomic_data/pacbio_hifi/m64097e_230218_230742.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
 pacbiohifi_bam  fBorAnt1             10314538278               0      2147483648     15238941765         2002322  species/Borostomias_antarcticus/fBorAnt1/genomic_data/pacbio_hifi/m64125e_210805_170852.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
 pacbiohifi_bam  fBorAnt1              9204652805               0      2147483648     14768273699         1702640  species/Borostomias_antarcticus/fBorAnt1/genomic_data/pacbio_hifi/m64230e_210726_085227.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -13,5 +14,5 @@ pacbiohifi_bam  fBorAnt1              9204652805               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fBorAnt1          1.9480    115158393951
-pacbiohifi_bam  fBorAnt1          1.5166     29602805196
+pacbiohifi_bam  fBorAnt1          0.5099     52114699991
 --------------- ---------------  ------- ---------------

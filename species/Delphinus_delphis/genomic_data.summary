@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mDelDel1            146941717519               0      2147483648    458852336067      3038757192  species/Delphinus_delphis/mDelDel1/genomic_data/arima/mDelDel1_46652_4#1.cram
+pacbiohifi_bam  mDelDel1             94255156008               0      2147483648     25932420498         3085228  species/Delphinus_delphis/mDelDel1/genomic_data/pacbio_hifi/m64125e_230216_155608.ccs.bc1019_BAK8B_OA--bc1019_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           mDelDel1            146941717519               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mDelDel1          3.1226    458840207124
+pacbiohifi_bam  mDelDel1          0.2751     25929593417
 --------------- ---------------  ------- ---------------

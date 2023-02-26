@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           sHetFra1             77834407154               0      2147483648    159569278593      1056750189  species/Heterodontus_francisci/sHetFra1/genomic_data/arima/sHetFra1_L1_S4_R1_001.fastq.gz
+arima           sHetFra1             82155017154               0      2147483648    160672816050      1064058422  species/Heterodontus_francisci/sHetFra1/genomic_data/arima/sHetFra1_L1_S4_R2_001.fastq.gz
 pacbiohifi_fqgz sHetFra1             27963779040               0      2147483648     35076039032         1827315  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m54306Ue_221117_124623.bc1022--bc1022.hifi_reads.fastq.gz
 pacbiohifi_fqgz sHetFra1             24799049908               0      2147483648     30971241220         2052025  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m64330e_230109_055405.hifi_reads.fastq.gz
 pacbiohifi_fqgz sHetFra1             27464688185               0      2147483648     34557138653         1783945  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m64334e_221115_174730.bc1022--bc1022.hifi_reads.fastq.gz
@@ -11,5 +13,6 @@ pacbiohifi_fqgz sHetFra1             27464688185               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           sHetFra1          1.9860    317738996675
 pacbiohifi_fqgz sHetFra1          1.2539    215550758836
 --------------- ---------------  ------- ---------------

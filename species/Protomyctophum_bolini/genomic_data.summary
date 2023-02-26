@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fProBol1             85676253827               0      2147483648    257780354570      1707154666  species/Protomyctophum_bolini/fProBol1/genomic_data/arima/fProBol1_46506_3#1.cram
+pacbiohifi_bam  fProBol1             92448864694               0      2147483648     24480761581         2042758  species/Protomyctophum_bolini/fProBol1/genomic_data/pacbio_hifi/m64094e_230218_080903.ccs.bc1003_BAK8A_OA--bc1003_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           fProBol1             85676253827               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fProBol1          3.0087    257774144889
+pacbiohifi_bam  fProBol1          0.2648     24480459370
 --------------- ---------------  ------- ---------------
