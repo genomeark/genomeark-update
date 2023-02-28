@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           sHepPer1             23223838456               0      2147483648     46849475065       310261435  species/Heptranchias_perlo/sHepPer1/genomic_data/arima/sHepPer1_L2_S2_R1_001.fastq.gz
+arima           sHepPer1             24304940091               0      2147483648     47539274719       314829645  species/Heptranchias_perlo/sHepPer1/genomic_data/arima/sHepPer1_L2_S2_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           sHepPer1          1.9757     93902607775
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mEquGre1             91137018852               0      2147483648    175230433829      1160466491  species/Equus_grevyi/mEquGre1/genomic_data/arima/mEquGre1_L1_S4_R1_001.fastq.gz
+arima           mEquGre1             94350784718               0      2147483648    175401984270      1161602588  species/Equus_grevyi/mEquGre1/genomic_data/arima/mEquGre1_L1_S4_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mEquGre1          1.8797    348661424370
+--------------- ---------------  ------- ---------------

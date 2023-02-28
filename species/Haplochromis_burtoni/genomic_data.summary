@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fHapBur2             14539222694               0      2147483648     28134095656       186318521  species/Haplochromis_burtoni/fHapBur2/genomic_data/arima/fAstBur2_L1_S7_R1_001.fastq.gz
+arima           fHapBur2             15194336403               0      2147483648     27963769577       185190527  species/Haplochromis_burtoni/fHapBur2/genomic_data/arima/fAstBur2_L1_S7_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fHapBur2          1.8710     55631489070
+--------------- ---------------  ------- ---------------

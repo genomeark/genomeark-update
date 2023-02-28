@@ -5,13 +5,20 @@
 pacbiohifi_fqgz Rhineura_floridana      18802762178               0      2147483648     23101796992         1442705  species/Narcine_bancroftii/Rhineura_floridana/genomic_data/pacbio_hifi/m54306Ue_230215_193810.bc1008--bc1008.hifi_reads.fastq.gz
 pacbiohifi_fqgz Rhineura_floridana      21047771281               0      2147483648     24597670477         1530760  species/Narcine_bancroftii/Rhineura_floridana/genomic_data/pacbio_hifi/m64330e_230205_160206.bc1008--bc1008.hifi_reads.fastq.gz
 pacbiohifi_fqgz Rhineura_floridana      11133294669               0      2147483648     14546227341          901090  species/Narcine_bancroftii/Rhineura_floridana/genomic_data/pacbio_hifi/m64334e_230210_124101.bc1008--bc1008.hifi_reads.fastq.gz
+arima           rRhiFlo1             51023111326               0      2147483648    104028829800       688932671  species/Rhineura_floridana/rRhiFlo1/genomic_data/arima/rRhiFlo1_L1_S3_R1_001.fastq.gz
+arima           rRhiFlo1             53762212695               0      2147483648    106829291885       707478754  species/Rhineura_floridana/rRhiFlo1/genomic_data/arima/rRhiFlo1_L1_S3_R2_001.fastq.gz
 bionano         rRhiFlo1               571725374               0       571725374    332124455055         2414118  species/Rhineura_floridana/rRhiFlo1/genomic_data/bionano/rRhiFlo1_Saphyr_DLE1_3687461
+pacbiohifi_fqgz rRhiFlo1             18802762178               0      2147483648     23101796992         1442705  species/Rhineura_floridana/rRhiFlo1/genomic_data/pacbio_hifi/m54306Ue_230215_193810.bc1008--bc1008.hifi_reads.fastq.gz
+pacbiohifi_fqgz rRhiFlo1             21047771281               0      2147483648     24597670477         1530760  species/Rhineura_floridana/rRhiFlo1/genomic_data/pacbio_hifi/m64330e_230205_160206.bc1008--bc1008.hifi_reads.fastq.gz
+pacbiohifi_fqgz rRhiFlo1             11133294669               0      2147483648     14546227341          901090  species/Rhineura_floridana/rRhiFlo1/genomic_data/pacbio_hifi/m64334e_230210_124101.bc1008--bc1008.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           rRhiFlo1          2.0037    209958353740
 bionano         rRhiFlo1         580.9160    332124455055
 pacbiohifi_fqgz Rhineura_floridana   1.2208     62241057378
+pacbiohifi_fqgz rRhiFlo1          1.2208     62241057378
 --------------- ---------------  ------- ---------------

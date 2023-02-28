@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bCotChi1             31149507059               0      2147483648     60575768549       401164030  species/Coturnix_chinensis/bCotChi1/genomic_data/arima/bCotChi1_L1_S5_R1_001.fastq.gz
+arima           bCotChi1             31976920676               0      2147483648     60379797848       399866225  species/Coturnix_chinensis/bCotChi1/genomic_data/arima/bCotChi1_L1_S5_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bCotChi1          1.9067    120363159762
+--------------- ---------------  ------- ---------------
