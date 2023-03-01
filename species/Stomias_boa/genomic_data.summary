@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fStoBoa2             30245101527               0      2147483648     60643136803       401610191  species/Stomias_boa/fStoBoa2/genomic_data/arima/fStoBoa2_39712_1#1_R1.fastq.gz
 arima           fStoBoa2             32461770082               0      2147483648     60826351938       402823537  species/Stomias_boa/fStoBoa2/genomic_data/arima/fStoBoa2_39712_1#1_R2.fastq.gz
+pacbiohifi_bam  fStoBoa2             70871351454               0      2147483648     18748837978         1811251  species/Stomias_boa/fStoBoa2/genomic_data/pacbio_hifi/m64230e_230223_225948.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +12,5 @@ arima           fStoBoa2             32461770082               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fStoBoa2          1.9155    120115012567
+pacbiohifi_bam  fStoBoa2          0.2645     18745472459
 --------------- ---------------  ------- ---------------

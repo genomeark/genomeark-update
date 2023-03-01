@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fGymFra1             87944847496               0      2147483648    271160895660      1795767520  species/Gymnoscopelus_fraseri/fGymFra1/genomic_data/arima/fGymFra1_46506_3#4.cram
+pacbiohifi_bam  fGymFra1             73377752052               0      2147483648     19585050905         2424884  species/Gymnoscopelus_fraseri/fGymFra1/genomic_data/pacbio_hifi/m64229e_230225_023032.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           fGymFra1             87944847496               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fGymFra1          3.0833    271160348284
+pacbiohifi_bam  fGymFra1          0.2669     19584522022
 --------------- ---------------  ------- ---------------

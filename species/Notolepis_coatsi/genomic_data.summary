@@ -5,6 +5,7 @@
 arima           fNotCoa1             25963869564               0      2147483648     52704697379       349037743  species/Notolepis_coatsi/fNotCoa1/genomic_data/arima/fNotCoa1_40063_1#2_R1.fastq.gz
 arima           fNotCoa1             27562198877               0      2147483648     53534318029       354531907  species/Notolepis_coatsi/fNotCoa1/genomic_data/arima/fNotCoa1_40063_1#2_R2.fastq.gz
 pacbiohifi_bam  fNotCoa1              9180998251               0      2147483648     13274887277         1747882  species/Notolepis_coatsi/fNotCoa1/genomic_data/pacbio_hifi/m64016e_220221_195421.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
+pacbiohifi_bam  fNotCoa1             71681048260               0      2147483648     18857871802         1803205  species/Notolepis_coatsi/fNotCoa1/genomic_data/pacbio_hifi/m64097e_230224_205544.ccs.bc1019_BAK8B_OA--bc1019_BAK8B_OA.bam
 pacbiohifi_bam  fNotCoa1             15376561350               0      2147483648     21866026660         2412087  species/Notolepis_coatsi/fNotCoa1/genomic_data/pacbio_hifi/m64228e_220815_235137.ccs.bc1002_BAK8A_OA--bc1002_BAK8A_OA.rmdup.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -13,5 +14,5 @@ pacbiohifi_bam  fNotCoa1             15376561350               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fNotCoa1          1.9703    105462412649
-pacbiohifi_bam  fNotCoa1          1.4275     35055916330
+pacbiohifi_bam  fNotCoa1          0.5610     53989859010
 --------------- ---------------  ------- ---------------

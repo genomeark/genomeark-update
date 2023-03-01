@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fNanAnt1             61648669493               0      2147483648    125415755376       830567916  species/Nansenia_antarctica/fNanAnt1/genomic_data/arima/fNanAnt1_40063_1#1_R1.fastq.gz
 arima           fNanAnt1             64955701455               0      2147483648    128044475358       847976688  species/Nansenia_antarctica/fNanAnt1/genomic_data/arima/fNanAnt1_40063_1#1_R2.fastq.gz
+pacbiohifi_bam  fNanAnt1             70358797159               0      2147483648     18902759052         2029166  species/Nansenia_antarctica/fNanAnt1/genomic_data/pacbio_hifi/m64097e_230223_174443.ccs.bc1018_BAK8B_OA--bc1018_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +12,5 @@ arima           fNanAnt1             64955701455               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fNanAnt1          1.9915    252132604742
+pacbiohifi_bam  fNanAnt1          0.2686     18898372916
 --------------- ---------------  ------- ---------------
