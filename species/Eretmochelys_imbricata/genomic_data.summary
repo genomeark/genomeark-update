@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        rEreImb1             81226632422               0      2147483648    145801684721       965574108  species/Eretmochelys_imbricata/rEreImb1/genomic_data/dovetail/rEreImb1_L2_1.fastq.gz
+dovetail        rEreImb1             83311313301               0      2147483648    144863762064       959362662  species/Eretmochelys_imbricata/rEreImb1/genomic_data/dovetail/rEreImb1_L2_2.fastq.gz
 pacbiohifi_fqgz rEreImb1             17389157058               0      2147483648     21448786064         1206674  species/Eretmochelys_imbricata/rEreImb1/genomic_data/pacbio_hifi/m64055e_221010_174741.bc1012--bc1012.hifi_reads.fastq.gz
 pacbiohifi_clr  rEreImb1            918234391012               0      2147483648    493149104245        26849848  species/Eretmochelys_imbricata/rEreImb1/genomic_data/pacbio_hifi/m64055e_221010_174741.subreads.bam
 pacbiohifi_fqgz rEreImb1             30628517719               0      2147483648     32193050105         1388712  species/Eretmochelys_imbricata/rEreImb1/genomic_data/pacbio_hifi/m64055e_221130_154424.bc1012--bc1012.hifi_reads.fastq.gz
@@ -14,6 +16,7 @@ pacbiohifi_clr  rEreImb1           1196345835296               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+dovetail        rEreImb1          1.7572    289126078224
 pacbiohifi_clr  rEreImb1          0.5355   1719700153140
 pacbiohifi_fqgz rEreImb1          1.1275    102843665563
 --------------- ---------------  ------- ---------------
