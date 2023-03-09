@@ -22,6 +22,7 @@ mkdir -p downloads
 if [ x$1 = x-n ] ; then
   updateFileList="no"
   updateGenBank="no"
+  shift
 fi
 
 
