@@ -5,6 +5,9 @@
 arima           bMelMel1             37397579849               0      2147483648     72835584803       485570565  species/Melospiza_melodia/bMelMel1/genomic_data/arima/bMelMel1_Song_Sparrow_R1.fastq.gz
 arima           bMelMel1             38360096191               0      2147483648     72831801296       485545359  species/Melospiza_melodia/bMelMel1/genomic_data/arima/bMelMel1_Song_Sparrow_R2.fastq.gz
 pacbiohifi_fqgz bMelMel1             37573916983               0      2147483648     42630718777         1848195  species/Melospiza_melodia/bMelMel1/genomic_data/pacbio_hifi/m64330e_221106_043453.bc1001--bc1001.hifi_reads.fastq.gz
+arima           bMelMel2             37397579849               0      2147483648     72835584803       485570565  species/Melospiza_melodia/bMelMel2/genomic_data/arima/bMelMel1_Song_Sparrow_R1.fastq.gz
+arima           bMelMel2             38360096191               0      2147483648     72831801296       485545359  species/Melospiza_melodia/bMelMel2/genomic_data/arima/bMelMel1_Song_Sparrow_R2.fastq.gz
+pacbiohifi_fqgz bMelMel2             37573916983               0      2147483648     42630718777         1848195  species/Melospiza_melodia/bMelMel2/genomic_data/pacbio_hifi/m64330e_221106_043453.bc1001--bc1001.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,5 +15,7 @@ pacbiohifi_fqgz bMelMel1             37573916983               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bMelMel1          1.9146    145045646546
+arima           bMelMel2          1.9146    145045646546
 pacbiohifi_fqgz bMelMel1          1.1345     42627608817
+pacbiohifi_fqgz bMelMel2          1.1345     42627608817
 --------------- ---------------  ------- ---------------
