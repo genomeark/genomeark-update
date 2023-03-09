@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aPelFus1               555975014               0       555975014      1033456038        10232238  species/Pelobates_fuscus/aPelFus1/genomic_data/arima/aPelFus1_L122783_Track-168235_R2.fastq.gz
+arima           aPelFus1             21782629967               0      2147483648     44247404592       438093124  species/Pelobates_fuscus/aPelFus1/genomic_data/arima/aPelFus1_L122783_Track-168668_R1.fastq.gz
+arima           aPelFus1             20849724334               0      2147483648     40887599580       404827728  species/Pelobates_fuscus/aPelFus1/genomic_data/arima/aPelFus1_L124820_Track-168672_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           aPelFus1          1.9951    172577834923
+--------------- ---------------  ------- ---------------

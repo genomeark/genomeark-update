@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aPelIbe1             25762919621               0      2147483648     53192684461       526660254  species/Pelodytes_ibericus/aPelIbe1/genomic_data/arima/aPelIbe1_L122782_Track-168667_R1.fastq.gz
+arima           aPelIbe1             26911698768               0      2147483648     53481566370       529520471  species/Pelodytes_ibericus/aPelIbe1/genomic_data/arima/aPelIbe1_L122782_Track-168667_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           aPelIbe1          2.0123    105997134584
+--------------- ---------------  ------- ---------------
