@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mSteCoe1            136952424021               0      2147483648    428140433136      2835367106  species/Stenella_coeruleoalba/mSteCoe1/genomic_data/arima/mSteCoe1_46660_2#2.cram
 pacbiohifi_bam  mSteCoe1             89673576969               0      2147483648     24676945975         2995558  species/Stenella_coeruleoalba/mSteCoe1/genomic_data/pacbio_hifi/m64125e_230220_032826.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
+pacbiohifi_bam  mSteCoe1             90896628194               0      2147483648     25031214549         3058171  species/Stenella_coeruleoalba/mSteCoe1/genomic_data/pacbio_hifi/m64125e_230228_145228.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
+pacbiohifi_bam  mSteCoe1             90269848266               0      2147483648     24811061385         3048012  species/Stenella_coeruleoalba/mSteCoe1/genomic_data/pacbio_hifi/m64125e_230301_180725.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +13,5 @@ pacbiohifi_bam  mSteCoe1             89673576969               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mSteCoe1          3.1261    428126972732
-pacbiohifi_bam  mSteCoe1          0.2751     24669201024
+pacbiohifi_bam  mSteCoe1          0.2751     74508098698
 --------------- ---------------  ------- ---------------

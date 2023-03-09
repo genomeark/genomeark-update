@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mGloMel1            134695800354               0      2147483648    403658927416      2673237929  species/Globicephala_melas/mGloMel1/genomic_data/arima/mGloMel1_46651_1#2.cram
 pacbiohifi_bam  mGloMel1             74663269630               0      2147483648     20647384894         3179792  species/Globicephala_melas/mGloMel1/genomic_data/pacbio_hifi/m64178e_230216_162826.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
+pacbiohifi_bam  mGloMel1             69940124893               0      2147483648     19343126871         2937735  species/Globicephala_melas/mGloMel1/genomic_data/pacbio_hifi/m64229e_230303_042418.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
+pacbiohifi_bam  mGloMel1             69968079149               0      2147483648     19186026413         2944546  species/Globicephala_melas/mGloMel1/genomic_data/pacbio_hifi/m64230e_230227_170309.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +13,5 @@ pacbiohifi_bam  mGloMel1             74663269630               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mGloMel1          2.9968    403656374500
-pacbiohifi_bam  mGloMel1          0.2765     20644394052
+pacbiohifi_bam  mGloMel1          0.2757     59157355291
 --------------- ---------------  ------- ---------------

@@ -2,14 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
-arima           fPomMic3             32292252007               0      2147483648     99839376602       661187924  species/Pomatoschistus_microps/fPomMic3/genomic_data/arima/fPomMic3_44176_3#3.cram
-pacbiohifi_bam  fPomMic3             74594228014               0      2147483648     19998672930         2397419  species/Pomatoschistus_microps/fPomMic3/genomic_data/pacbio_hifi/m64221e_230303_012157.ccs.bc1002_BAK8A_OA--bc1002_BAK8A_OA.bam
+pacbiohifi_bam  fSprSpr1             85175951854               0      2147483648     22430272489         2171358  species/Sprattus_sprattus/fSprSpr1/genomic_data/pacbio_hifi/m64016e_230227_155235.ccs.bc1012_BAK8A_OA--bc1012_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           fPomMic3          3.0917     99837955530
-pacbiohifi_bam  fPomMic3          0.2680     19991253107
+pacbiohifi_bam  fSprSpr1          0.2633     22426828123
 --------------- ---------------  ------- ---------------

@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 pacbiohifi_bam  fEleAnt2              8211720684               0      2147483648     10866039618          928962  species/Electrona_antarctica/fEleAnt2/genomic_data/pacbio_hifi/m64016e_220218_220054.ccs.bc1018_BAK8B_OA--bc1018_BAK8B_OA.bam
+pacbiohifi_bam  fEleAnt2             72794584053               0      2147483648     19340815869         2260767  species/Electrona_antarctica/fEleAnt2/genomic_data/pacbio_hifi/m64094e_230228_152759.ccs.bc1016_BAK8B_OA--bc1016_BAK8B_OA.bam
 pacbiohifi_bam  fEleAnt2              7856958147               0      2147483648     10960053776         1496301  species/Electrona_antarctica/fEleAnt2/genomic_data/pacbio_hifi/m64097e_210809_145236.ccs.bc1012_BAK8A_OA--bc1012_BAK8A_OA.bam
 pacbiohifi_bam  fEleAnt2              8360618162               0      2147483648     13746521739         1579536  species/Electrona_antarctica/fEleAnt2/genomic_data/pacbio_hifi/m64230e_210724_235140.ccs.bc1012_BAK8A_OA--bc1012_BAK8A_OA.bam
 arima           fEleAnt3             62490907632               0      2147483648    126177441966       835612227  species/Electrona_antarctica/fEleAnt3/genomic_data/arima/fEleAnt3_40063_1#3_R1.fastq.gz
@@ -14,5 +15,5 @@ arima           fEleAnt3             65752373317               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fEleAnt3          1.9768    253511317779
-pacbiohifi_bam  fEleAnt2          1.4561     35571499351
+pacbiohifi_bam  fEleAnt2          0.4918     47814704698
 --------------- ---------------  ------- ---------------
