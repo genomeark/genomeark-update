@@ -2,14 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
-pacbiohifi_bam  bFalPun1            107190580827               0      2147483648     28451402565         2203675  species/Falco_punctatus/bFalPun1/genomic_data/pacbio_hifi/m64229e_230105_145406.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
-arima           bFalPun2             32109813136               0      2147483648     99230166379       657153419  species/Falco_punctatus/bFalPun2/genomic_data/arima/bFalPun2_46860_3#3.cram
+pacbiohifi_bam  bNesMay2             13689402781               0      2147483648     19812105062         1674327  species/Nesoenas_mayeri/bNesMay2/genomic_data/pacbio_hifi/m64230e_230309_144103.ccs.bc1009_BAK8A_OA--bc1009_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           bFalPun2          3.0903     99228955534
-pacbiohifi_bam  bFalPun1          0.2654     28448380151
+pacbiohifi_bam  bNesMay2          1.4472     19811303704
 --------------- ---------------  ------- ---------------

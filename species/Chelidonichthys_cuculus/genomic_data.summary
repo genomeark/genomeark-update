@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fCheCuc1             23143296712               0      2147483648     71390417148       472784219  species/Chelidonichthys_cuculus/fCheCuc1/genomic_data/arima/fCheCuc1_46860_3#7.cram
 pacbiohifi_bam  fCheCuc1             87135520283               0      2147483648     23205428253         2253124  species/Chelidonichthys_cuculus/fCheCuc1/genomic_data/pacbio_hifi/m64016e_230301_220725.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  fCheCuc1             87135520283               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fCheCuc1          3.0847     71390127367
 pacbiohifi_bam  fCheCuc1          0.2663     23204189051
 --------------- ---------------  ------- ---------------

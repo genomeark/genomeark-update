@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fPolPol2             37729606007               0      2147483648    113334093553       750556910  species/Pollachius_pollachius/fPolPol2/genomic_data/arima/fPolPol2_46860_3#5.cram
 pacbiohifi_bam  fPolPol2             80628329890               0      2147483648     20972107207         1880278  species/Pollachius_pollachius/fPolPol2/genomic_data/pacbio_hifi/m64174e_230218_174055.ccs.bc1012_BAK8A_OA--bc1012_BAK8A_OA.bam
 pacbiohifi_bam  fPolPol2             78736131152               0      2147483648     20617866546         1967263  species/Pollachius_pollachius/fPolPol2/genomic_data/pacbio_hifi/m64230e_230304_091220.ccs.bc1012_BAK8A_OA--bc1012_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  fPolPol2             78736131152               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fPolPol2          3.0038    113332190523
 pacbiohifi_bam  fPolPol2          0.2606     41530378547
 --------------- ---------------  ------- ---------------

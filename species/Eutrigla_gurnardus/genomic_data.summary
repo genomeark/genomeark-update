@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fEutGur1             20927828691               0      2147483648     64703488926       428499926  species/Eutrigla_gurnardus/fEutGur1/genomic_data/arima/fEutGur1_46860_3#8.cram
 pacbiohifi_bam  fEutGur1             88151021767               0      2147483648     23145983912         2087235  species/Eutrigla_gurnardus/fEutGur1/genomic_data/pacbio_hifi/m64016e_230303_011443.ccs.bc1009_BAK8A_OA--bc1009_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  fEutGur1             88151021767               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fEutGur1          3.0917     64702567963
 pacbiohifi_bam  fEutGur1          0.2625     23139643213
 --------------- ---------------  ------- ---------------
