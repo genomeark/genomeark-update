@@ -9,6 +9,8 @@ ont             rLiaOli1             35728958529               0      2147483648
 pacbiohifi_fqgz rLiaOli1             21118232414               0      2147483648     24202950491         1486498  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220214_035318.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
 pacbiohifi_fqgz rLiaOli1              7755725709               0      2147483648      9588054317          589894  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220331_182813.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
 pacbiohifi_fqgz rLiaOli1             19087406747               0      2147483648     22289652477         1373023  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m64330e_220220_062027.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
+arima           rLiaOli2             13273633227               0      2147483648     26511551486       175573194  species/Liasis_olivaceus/rLiaOli2/genomic_data/arima/rLiaOli2_L1_S7_R1_001.fastq.gz
+arima           rLiaOli2             13862441985               0      2147483648     26855519221       177851127  species/Liasis_olivaceus/rLiaOli2/genomic_data/arima/rLiaOli2_L1_S7_R2_001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -16,6 +18,7 @@ pacbiohifi_fqgz rLiaOli1             19087406747               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           rLiaOli1          1.9173    170486631177
+arima           rLiaOli2          1.9567     53097158367
 bionano         rLiaOli1         513.5261   1147506509298
 ont             rLiaOli1          1.1257     40220088616
 pacbiohifi_fqgz rLiaOli1          1.1692     56076427806

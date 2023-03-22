@@ -4,6 +4,9 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           aLepFus1             61256875449               0      2147483648    119510378759       791459490  species/Leptodactylus_fuscus/aLepFus1/genomic_data/arima/aLepFus1_S1_L001_R1_001.fastq.gz
 arima           aLepFus1             63203182676               0      2147483648    119504882840       791423094  species/Leptodactylus_fuscus/aLepFus1/genomic_data/arima/aLepFus1_S1_L001_R2_001.fastq.gz
+pacbiohifi_fqgz aLepFus1             16339470498               0      2147483648     19028405480         1267678  species/Leptodactylus_fuscus/aLepFus1/genomic_data/pacbio_hifi/m64330e_230207_125936.bc1009--bc1009.hifi_reads.fastq.gz
+pacbiohifi_fqgz aLepFus1             18455653260               0      2147483648     24549137286         1666358  species/Leptodactylus_fuscus/aLepFus1/genomic_data/pacbio_hifi/m64330e_230303_161215.bc1009--bc1009.hifi_reads.fastq.gz
+pacbiohifi_fqgz aLepFus1             17893260291               0      2147483648     23405526916         1615346  species/Leptodactylus_fuscus/aLepFus1/genomic_data/pacbio_hifi/m64330e_230307_070944.bc1009--bc1009.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +14,5 @@ arima           aLepFus1             63203182676               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aLepFus1          1.9104    237768495042
+pacbiohifi_fqgz aLepFus1          1.2713     85822517261
 --------------- ---------------  ------- ---------------

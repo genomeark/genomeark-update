@@ -2,8 +2,13 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mCamDro1             39603457056               0      2147483648     71191200487       471464922  species/Camelus_dromedarius/mCamDro1/genomic_data/dovetail/mCamDro1_L1_S1_R1_001.fastq.gz
+dovetail        mCamDro1             39986829356               0      2147483648     71809530490       475559823  species/Camelus_dromedarius/mCamDro1/genomic_data/dovetail/mCamDro1_L1_S1_R2_001.fastq.gz
+pacbiohifi_fqgz mCamDro1             21879585644               0      2147483648     27692048185         1568403  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64055e_221202_183002.bc1008--bc1008.hifi_reads.fastq.gz
 pacbiohifi_clr  mCamDro1           1025158358034               0      2147483648    546942310128        32150833  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64055e_221202_183002.subreads.bam
+pacbiohifi_fqgz mCamDro1             18384054113               0      2147483648     20663537279         1173626  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221214_181813.bc1008--bc1008.hifi_reads.fastq.gz
 pacbiohifi_clr  mCamDro1            857796613997               0      2147483648    457086561988        26608873  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221214_181813.subreads.bam
+pacbiohifi_fqgz mCamDro1             19738800932               0      2147483648     23145895465         1240341  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221216_133101.bc1008--bc1008.hifi_reads.fastq.gz
 pacbiohifi_clr  mCamDro1            922495659014               0      2147483648    495555722772        27107617  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221216_133101.subreads.bam
 illumina        mCamDro2             20751850974               0      2147483648     41434369761       274399809  species/Camelus_dromedarius/mCamDro2/genomic_data/illumina/mCamDro2-dna1_1.fastq.gz
 illumina        mCamDro2             21430278717               0      2147483648     41651572441       275838238  species/Camelus_dromedarius/mCamDro2/genomic_data/illumina/mCamDro2-dna1_2.fastq.gz
@@ -15,7 +20,9 @@ illumina        mCamDro3             25454180937               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+dovetail        mCamDro1          1.7964    142975990510
 illumina        mCamDro2          1.9608     82710719898
 illumina        mCamDro3          1.9258     95779575345
 pacbiohifi_clr  mCamDro1          0.5345   1499513362293
+pacbiohifi_fqgz mCamDro1          1.1916     78796179862
 --------------- ---------------  ------- ---------------

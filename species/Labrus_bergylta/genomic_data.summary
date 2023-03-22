@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fLabBer1             33975109749               0      2147483648    106786279013       707193900  species/Labrus_bergylta/fLabBer1/genomic_data/arima/fLabBer1_46919_4#6.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fLabBer1          3.1430    106783769941
+--------------- ---------------  ------- ---------------

@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bFalPun1             16935785192               0      2147483648     22730732969         1728393  species/Falco_punctatus/bFalPun1/genomic_data/pacbio_hifi/m64228e_230310_174259.ccs.bc1009_BAK8A_OA--bc1009_BAK8A_OA.bam
 pacbiohifi_bam  bFalPun1            107190580827               0      2147483648     28451402565         2203675  species/Falco_punctatus/bFalPun1/genomic_data/pacbio_hifi/m64229e_230105_145406.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
 arima           bFalPun2             32109813136               0      2147483648     99230166379       657153419  species/Falco_punctatus/bFalPun2/genomic_data/arima/bFalPun2_46860_3#3.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -11,5 +12,5 @@ arima           bFalPun2             32109813136               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bFalPun2          3.0903     99228955534
-pacbiohifi_bam  bFalPun1          0.2654     28448380151
+pacbiohifi_bam  bFalPun1          0.3442     42724295183
 --------------- ---------------  ------- ---------------

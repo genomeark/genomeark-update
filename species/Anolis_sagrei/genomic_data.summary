@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           rAnoSag1             22459006866               0      2147483648     43486085094       287987328  species/Anolis_sagrei/rAnoSag1/genomic_data/arima/rAnoSag4_L1_S6_R1_001.fastq.gz
 arima           rAnoSag1             23251917116               0      2147483648     43251120314       286431271  species/Anolis_sagrei/rAnoSag1/genomic_data/arima/rAnoSag4_L1_S6_R2_001.fastq.gz
+pacbiohifi_fqgz rAnoSag1             26062948765               0      2147483648     29523086218         1717764  species/Anolis_sagrei/rAnoSag1/genomic_data/pacbio_hifi/m64334e_230208_171737.bc1018--bc1018.hifi_reads.fastq.gz
+pacbiohifi_fqgz rAnoSag1             31047371294               0      2147483648     37785446036         2140297  species/Anolis_sagrei/rAnoSag1/genomic_data/pacbio_hifi/m64334e_230303_142841.bc1018--bc1018.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +13,5 @@ arima           rAnoSag1             23251917116               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           rAnoSag1          1.8849     86160520613
+pacbiohifi_fqgz rAnoSag1          1.1921     68081212542
 --------------- ---------------  ------- ---------------

@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fGymMic1             72688894383               0      2147483648    228364340962      1512346628  species/Gymnoscopelus_microlampas/fGymMic1/genomic_data/arima/fGymMic1_46044_3#1.cram
+pacbiohifi_bam  fGymMic1             14189912568               0      2147483648     20605643107         1880820  species/Gymnoscopelus_microlampas/fGymMic1/genomic_data/pacbio_hifi/m64089e_230315_232656.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
 pacbiohifi_bam  fGymMic1             12538037678               0      2147483648     18321485540         1601880  species/Gymnoscopelus_microlampas/fGymMic1/genomic_data/pacbio_hifi/m64178e_221015_151519.ccs.bc1016_BAK8B_OA--bc1016_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -11,5 +12,5 @@ pacbiohifi_bam  fGymMic1             12538037678               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fGymMic1          3.1416    228359430593
-pacbiohifi_bam  fGymMic1          1.4612     18320580655
+pacbiohifi_bam  fGymMic1          1.4549     38886494812
 --------------- ---------------  ------- ---------------

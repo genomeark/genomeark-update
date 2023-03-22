@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           sCarTau1             44123050386               0      2147483648     87947822673       582435932  species/Carcharias_taurus/sCarTau1/genomic_data/arima/sCarTau1_L1_S4_R1_001.fastq.gz
+arima           sCarTau1             47258780501               0      2147483648     89051119036       589742510  species/Carcharias_taurus/sCarTau1/genomic_data/arima/sCarTau1_L1_S4_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           sCarTau1          1.9189    175352595289
+--------------- ---------------  ------- ---------------
