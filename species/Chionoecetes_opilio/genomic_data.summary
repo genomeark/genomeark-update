@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           qmChiOpil2           60022221097               0      2147483648     99899146136       665994335  species/Chionoecetes_opilio/qmChiOpil2/genomic_data/arima/qmChiOpil2_S_2476_R1_001.fastq.gz
 arima           qmChiOpil2           71162581184               0      2147483648     99036162536       660241116  species/Chionoecetes_opilio/qmChiOpil2/genomic_data/arima/qmChiOpil2_S_2476_R2_001.fastq.gz
+illumina        qmChiOpil2           40629197472               0      2147483648     83220001383       551125855  species/Chionoecetes_opilio/qmChiOpil2/genomic_data/illumina/iChiOpi2-CL11_1.fastq.gz
+illumina        qmChiOpil2           42055846126               0      2147483648     83608598040       553699344  species/Chionoecetes_opilio/qmChiOpil2/genomic_data/illumina/iChiOpi2-CL11_2.fastq.gz
 pacbiohifi_fqgz qmChiOpil2            3611646210               0      3611646210      4725061500          359775  species/Chionoecetes_opilio/qmChiOpil2/genomic_data/pacbio_hifi/m54306Ue_220716_011756.bc1001--bc1001.hifi_reads.fastq.gz
 pacbiohifi_fqgz qmChiOpil2            4484332625               0      2147483648      5680991951          338940  species/Chionoecetes_opilio/qmChiOpil2/genomic_data/pacbio_hifi/m64330e_220228_171201.hifi_reads.fastq.gz
 pacbiohifi_fqgz qmChiOpil2            6678088324               0      2147483648      8443489756          584871  species/Chionoecetes_opilio/qmChiOpil2/genomic_data/pacbio_hifi/m64334e_221215_190134.bc1001--bc1001.hifi_reads.fastq.gz
@@ -14,5 +16,6 @@ pacbiohifi_fqgz qmChiOpil2            6678088324               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           qmChiOpil2        1.4725    193169621358
+illumina        qmChiOpil2        2.0076    165998493527
 pacbiohifi_fqgz qmChiOpil2        1.2758     43409914224
 --------------- ---------------  ------- ---------------

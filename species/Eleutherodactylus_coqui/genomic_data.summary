@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aEleCoq3            147289308944               0      2147483648    292635383105      1937982738  species/Eleutherodactylus_coqui/aEleCoq3/genomic_data/arima/aEleCoq3_L1_S7_R1_001.fastq.gz
+arima           aEleCoq3            152905547348               0      2147483648    296075260276      1960763384  species/Eleutherodactylus_coqui/aEleCoq3/genomic_data/arima/aEleCoq3_L1_S7_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           aEleCoq3          1.9527    586190495881
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+illumina        aXenPet2             34815930072               0      2147483648     71146470663       471168696  species/Xenopus_petersii/aXenPet2/genomic_data/illumina/aXenPet2-dna1_1.fastq.gz
+illumina        aXenPet2             36136346762               0      2147483648     71320615079       472321970  species/Xenopus_petersii/aXenPet2/genomic_data/illumina/aXenPet2-dna1_2.fastq.gz
+illumina        aXenPet3             49181225281               0      2147483648    101372784601       671342967  species/Xenopus_petersii/aXenPet3/genomic_data/illumina/aXenPet3-dna1_1.fastq.gz
+illumina        aXenPet3             50845191162               0      2147483648    101645163451       673146801  species/Xenopus_petersii/aXenPet3/genomic_data/illumina/aXenPet3-dna1_2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+illumina        aXenPet2          1.9963    141642030243
+illumina        aXenPet3          2.0193    201983342723
+--------------- ---------------  ------- ---------------

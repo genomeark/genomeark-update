@@ -4,11 +4,12 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           qmHomAmer1           57695768855               0      2147483648    116134261172       769101067  species/Homarus_americanus/qmHomAmer1/genomic_data/arima/iHomAme1_L1_S5_R1_001.fastq.gz
 arima           qmHomAmer1           59638557042               0      2147483648    118103431202       782141956  species/Homarus_americanus/qmHomAmer1/genomic_data/arima/iHomAme1_L1_S5_R2_001.fastq.gz
+arima           qmHomAmer1           55253645651               0      2147483648    109113061649       722603083  species/Homarus_americanus/qmHomAmer1/genomic_data/arima/iHomAme1_L2_S2_R2_001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           qmHomAmer1        1.9909    233600909428
+arima           qmHomAmer1        1.9894    449017240985
 --------------- ---------------  ------- ---------------

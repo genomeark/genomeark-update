@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fChaTrf1             17054204148               0      2147483648     34988688087       231713174  species/Chaetodon_trifascialis/fChaTrf1/genomic_data/arima/fChaTri1_L1_S3_R1_001.fastq.gz
+arima           fChaTrf1             17741604279               0      2147483648     34950760023       231461995  species/Chaetodon_trifascialis/fChaTrf1/genomic_data/arima/fChaTri1_L1_S3_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fChaTrf1          1.9964     69466351943
+--------------- ---------------  ------- ---------------

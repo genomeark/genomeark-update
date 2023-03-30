@@ -56,6 +56,13 @@ illumina        bTaeGut4              9749046845               0      2147483648
 illumina        bTaeGut4             11067734460               0      2147483648     18540392486       123602621  species/Taeniopygia_guttata/bTaeGut4/genomic_data/illumina/bTaeGut4_R-JL230_USPD16085109-D707_HJHCJCCXY_L1_2.fastq.gz
 illumina        bTaeGut4              9720767008               0      2147483648     16347040430       108980274  species/Taeniopygia_guttata/bTaeGut4/genomic_data/illumina/bTaeGut4_R-JL230_USPD16085109-D708_HJHCJCCXY_L1_2.fastq.gz
 pacbio          bTaeGut6            265858908073               0      2147483648    139772760491         5905022  species/Taeniopygia_guttata/bTaeGut6/genomic_data/pacbio/m54306U_191030_185430.subreads.bam
+arima           bTaeGut7             15511530949               0      2147483648     31684396927       209830450  species/Taeniopygia_guttata/bTaeGut7/genomic_data/arima/bTaeGut7_L1_S5_R1_001.fastq.gz
+arima           bTaeGut7             16433188698               0      2147483648     31659319495       209664375  species/Taeniopygia_guttata/bTaeGut7/genomic_data/arima/bTaeGut7_L1_S5_R2_001.fastq.gz
+illumina        bTaeGut7             27499904374               0      2147483648     57365656776       379905024  species/Taeniopygia_guttata/bTaeGut7/genomic_data/illumina/bTaeGut7-dna3_1.fastq.gz
+illumina        bTaeGut7             28546890967               0      2147483648     57365213024       379902086  species/Taeniopygia_guttata/bTaeGut7/genomic_data/illumina/bTaeGut7-dna3_2.fastq.gz
+pacbiohifi_fqgz bTaeGut7             31529540122               0      2147483648     39504170483         2262201  species/Taeniopygia_guttata/bTaeGut7/genomic_data/pacbio_hifi/m54306Ue_230222_164948.bc1015--bc1015.hifi_reads.fastq.gz
+pacbiohifi_fqgz bTaeGut7             27973741293               0      2147483648     33450224405         1873844  species/Taeniopygia_guttata/bTaeGut7/genomic_data/pacbio_hifi/m64330e_230314_091135.bc1015--bc1015.hifi_reads.fastq.gz
+pacbiohifi_fqgz bTaeGut7             25640593383               0      2147483648     31470274201         1750952  species/Taeniopygia_guttata/bTaeGut7/genomic_data/pacbio_hifi/m64334e_230307_045304.bc1015--bc1015.hifi_reads.fastq.gz
 illumina        bTaeGut8             12757445209               0      2147483648     25487303787       168790091  species/Taeniopygia_guttata/bTaeGut8/genomic_data/illumina/bTaeGut8-dna1_1.fastq.gz
 illumina        bTaeGut8             13206010351               0      2147483648     25628944692       169728116  species/Taeniopygia_guttata/bTaeGut8/genomic_data/illumina/bTaeGut8-dna1_2.fastq.gz
 illumina        bTaeGut9             19153200616               0      2147483648     38306448332       253685097  species/Taeniopygia_guttata/bTaeGut9/genomic_data/illumina/bTaeGut9-dna1_1.fastq.gz
@@ -72,10 +79,12 @@ illumina        bTaeGut9             20160584133               0      2147483648
 10x             bTaeGut4          1.8559    127784235478
 arima           bTaeGut1          1.7995    152550580970
 arima           bTaeGut2          1.9376     99043579306
+arima           bTaeGut7          1.9637     62729845970
 bionano         bTaeGut1         1149.7425    297390831006
 bionano         bTaeGut2         614.0120   2065378295458
 illumina        bTaeGut3          1.7483     66055508957
 illumina        bTaeGut4          1.7409     68240259134
+illumina        bTaeGut7          2.0343    114015995762
 illumina        bTaeGut8          1.9593     50870198478
 illumina        bTaeGut9          1.9395     76249085520
 pacbio          bTaeGut1          0.2602    109724303514
@@ -84,4 +93,5 @@ pacbio          bTaeGut6          0.5257    139762027973
 pacbiohifi_bam  bTaeGut2          0.5831     47595448706
 pacbiohifi_clr  bTaeGut2          0.5004    485427514765
 pacbiohifi_fqgz bTaeGut2          1.2070     39517871906
+pacbiohifi_fqgz bTaeGut7          1.2264    135078098109
 --------------- ---------------  ------- ---------------

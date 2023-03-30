@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAptMan1             36458371941               0      2147483648     74041564406       490341503  species/Apteryx_mantelli/bAptMan1/genomic_data/arima/bAptMan1_L2_S8_R1_001.fastq.gz
+arima           bAptMan1             37899740239               0      2147483648     74250106986       491722580  species/Apteryx_mantelli/bAptMan1/genomic_data/arima/bAptMan1_L2_S8_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bAptMan1          1.9824    147407521585
+--------------- ---------------  ------- ---------------

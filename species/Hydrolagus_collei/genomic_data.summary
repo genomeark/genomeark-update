@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           sHydCol1             41809082788               0      2147483648     83964817843       556058415  species/Hydrolagus_collei/sHydCol1/genomic_data/arima/sHydCol1_L1_S6_R1_001.fastq.gz
+arima           sHydCol1             43883581385               0      2147483648     84606846581       560310262  species/Hydrolagus_collei/sHydCol1/genomic_data/arima/sHydCol1_L1_S6_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           sHydCol1          1.9538    167426327261
+--------------- ---------------  ------- ---------------
