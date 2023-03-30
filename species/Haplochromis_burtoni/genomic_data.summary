@@ -6,6 +6,8 @@ arima           fHapBur1             25579120720               0      2147483648
 arima           fHapBur1             26933589162               0      2147483648     51917499679       343824513  species/Haplochromis_burtoni/fHapBur1/genomic_data/arima/fAstBur1_L1_S4_R2_001.fastq.gz
 arima           fHapBur2             14539222694               0      2147483648     28134095656       186318521  species/Haplochromis_burtoni/fHapBur2/genomic_data/arima/fAstBur2_L1_S7_R1_001.fastq.gz
 arima           fHapBur2             15194336403               0      2147483648     27963769577       185190527  species/Haplochromis_burtoni/fHapBur2/genomic_data/arima/fAstBur2_L1_S7_R2_001.fastq.gz
+pacbiohifi_fqgz fHapBur2             21285888439               0      2147483648     21982716865         1288591  species/Haplochromis_burtoni/fHapBur2/genomic_data/pacbio_hifi/m54306Ue_230324_181445.bc1016--bc1016.hifi_reads.fastq.gz
+pacbiohifi_fqgz fHapBur2             13924491341               0      2147483648     15667327729          933625  species/Haplochromis_burtoni/fHapBur2/genomic_data/pacbio_hifi/m64055e_230307_131838.bc1016--bc1016.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,4 +16,5 @@ arima           fHapBur2             15194336403               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           fHapBur1          1.9623    103045690601
 arima           fHapBur2          1.8710     55631489070
+pacbiohifi_fqgz fHapBur2          1.0555     37164555857
 --------------- ---------------  ------- ---------------

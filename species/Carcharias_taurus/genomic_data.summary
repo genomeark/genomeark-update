@@ -5,6 +5,9 @@
 arima           sCarTau1             44123050386               0      2147483648     87947822673       582435932  species/Carcharias_taurus/sCarTau1/genomic_data/arima/sCarTau1_L1_S4_R1_001.fastq.gz
 arima           sCarTau1             47258780501               0      2147483648     89051119036       589742510  species/Carcharias_taurus/sCarTau1/genomic_data/arima/sCarTau1_L1_S4_R2_001.fastq.gz
 arima           sCarTau1             41253428579               0      2147483648     80995609272       536394763  species/Carcharias_taurus/sCarTau1/genomic_data/arima/sCarTau1_L3_S1_R2_001.fastq.gz
+pacbiohifi_fqgz sCarTau1             29219985231               0      2147483648     32545039097         1589021  species/Carcharias_taurus/sCarTau1/genomic_data/pacbio_hifi/m64334e_230314_190839.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_fqgz sCarTau1             29462275625               0      2147483648     34420203620         1638951  species/Carcharias_taurus/sCarTau1/genomic_data/pacbio_hifi/m64334e_230318_093911.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_fqgz sCarTau1             28443422030               0      2147483648     33790757678         1628671  species/Carcharias_taurus/sCarTau1/genomic_data/pacbio_hifi/m64334e_230320_044622.bc1002--bc1002.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,4 +15,5 @@ arima           sCarTau1             41253428579               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           sCarTau1          1.9451    334977739168
+pacbiohifi_fqgz sCarTau1          1.1564    199774942424
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz bPatFas1             36035829231               0      2147483648     39832275320         1782490  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64055e_230321_165824.bc1016--bc1016.hifi_reads.fastq.gz
+pacbiohifi_fqgz bPatFas1             34655783815               0      2147483648     40338987958         1845089  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64330e_230310_183553.bc1016--bc1016.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz bPatFas1          1.1243     79478580547
+--------------- ---------------  ------- ---------------
