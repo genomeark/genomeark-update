@@ -1,0 +1,9 @@
+[submodule "seqrequester"]
+	path = seqrequester
+	url = http://github.com/marbl/seqrequester
+[submodule "genomeark-metadata"]
+	path = genomeark-metadata
+	url = http://github.com/genomeark/genomeark-metadata
+[submodule "genomeark.github.io"]
+	path = genomeark.github.io
+	url = http://github.com/genomeark/genomeark.github.io
