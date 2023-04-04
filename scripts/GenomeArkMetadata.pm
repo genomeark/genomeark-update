@@ -34,20 +34,19 @@ sub loadSpeciesMetadata ($$$$$) {
     undef %$data;
     undef %$meta;
 
-    if      (-e "downloads/species/$species/metadata.yaml") {
-        $mdf  = "downloads/species/$species/metadata.yaml";
-    } elsif (-e "downloads/species/$species/metadata.yaml.template") {
-        $mdf  = "downloads/species/$species/metadata.yaml.template";
+    #  Find the metadata, or template, or die.
+
+    if      (-e "genomeark-metadata/species/$species.yaml") {
+        $mdf  = "genomeark-metadata/species/$species.yaml";
+    } elsif (-e "genomeark-metadata/species/$species.yaml.template") {
+        $mdf  = "genomeark-metadata/species/$species.yaml.template";
         $$template{$species}++;
         #push @$errors, "  Species '$species' has only template metadata.\n";
     } else {
         die "No metadata found for species '$species'.\n";
     }
 
-    #if (! -e "downloads/species/$species/metadata.yaml") {
-    #    system("mkdir -p downloads/species/$species");
-    #    system("aws s3 cp s3://genomeark/species/$species/metadata.yaml downloads/species/$species/metadata.yaml");
-    #}
+    #  Read the metadata.
 
     open(MD, "< $mdf") or die "Failed to open metadata file '$mdf'\n";
     while (<MD>) {
@@ -85,6 +84,8 @@ sub loadSpeciesMetadata ($$$$$) {
         }
     }
     close(MD);
+
+    #  Do a bunch of sanity checks and copy the relevant bits from metadata to our data.
 
     die "No meta{species.name} found?\n"  if ($$meta{"species.name"} eq "");
 

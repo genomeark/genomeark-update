@@ -27,13 +27,13 @@ use strict;
 #  time perl ../scripts/filter-aws-bucket-list.pl --raw genomeark.ls.raw.20220601 --filtered genomeark.ls --species-list species-list
 
 my %speciesList;   #  Count of the number of filtered files for each species.
-my %speciesMeta;   #  Defined if 'Genus_species/metadata.yaml' is found.
+#y %speciesMeta;   #  Defined if 'Genus_species/metadata.yaml' is found.
 my %individuals;
 
 my $lsRaw   = $ARGV[1];
 my $lsFilt  = $ARGV[2];
 my $spList  = undef;
-my $mdFetch = 1;
+my $mdFetch = 0;   #  Obsolete.  Using genomeark-metadata now.
 
 while (scalar(@ARGV) > 0) {
     my $opt = shift @ARGV;
@@ -69,10 +69,10 @@ while (<RAW>) {
     my $asmName     = $fileComps[3];
     my $seconds     = 0;
 
-    if ($filename =~ m!species/\w+_\w+/metadata.yaml$!) {
-        my @v = split '/', $_;
-        $speciesMeta{$v[1]}++;
-    }
+    #if ($filename =~ m!species/\w+_\w+/metadata.yaml$!) {
+    #    my @v = split '/', $_;
+    #    $speciesMeta{$v[1]}++;
+    #}
 
     if ($filename =~ m!species/(\w+_\w+)/([a-zA-Z]*)(\d)/!) {
         #print "$1/$2 -> $2$3 $filename\n";
@@ -396,50 +396,21 @@ foreach my $s (sort keys %speciesList) {
 }
 close(SPLI);
 
-#  Fetch metadata fpr species with metadata.
+#  Create metadata templates if needed.
 
-print "Fetching metadata:\n";
-foreach my $name (sort keys %speciesMeta) {
-    if (! -e "downloads/species/$name/metadata.yaml") {
-        if ($mdFetch) {
-            print "  s3://genomeark/species/$name/metadata.yaml\n";
-            system("mkdir -p downloads/species/$name");
-            system("aws s3 cp s3://genomeark/species/$name/metadata.yaml downloads/species/$name/metadata.yaml");
-        }
-        else {
-            print "  s3://genomeark/species/$name/metadata.yaml -- NOT FETCHED\n";
-        }
-    }
-}
-
-#  For everything leftover, create a template metadata and warn.
-
-print "\n";
-print "Creating templates:\n";
 foreach my $ii (sort keys %individuals) {
     my ($species, $short_name, $name) = split '/', $ii;
 
     $name = $species;
     $name =~ s/_/ /g;
 
-    next   if (exists($speciesMeta{$species}));
+    #next   if (exists($speciesMeta{$species}));
+    next   if (-e "genomeark-metadata/species/$species.yaml");
+    next   if (-e "genomeark-metadata/species/$species.yaml.template");
 
-    print " s3://genomeark/species/$species/metadata.yaml.template ($short_name)\n";
+    print " Create genomeark-metadata/species/$species.yaml.template ($short_name)\n";
 
-    #next   if (-e "downloads/species/$species/metadata.yaml");
-    die "ERROR: 'downloads/species/$species/metadata.yaml' exists.\n"            if (-e "downloads/species/$species/metadata.yaml");
-
-    if (-e "downloads/species/$species/metadata.yaml.template") {
-        print STDERR "Using existing metadata.yaml.template for '$species'.\n";
-        next;
-    }
-    die "ERROR: 'downloads/species/$species/metadata.yaml.template' exists.\n"   if (-e "downloads/species/$species/metadata.yaml.template");
-
-    system("mkdir -p downloads/species/$species");
-
-    #  Create metadata template.
-
-    open(F, "> downloads/species/$species/metadata.yaml.template") or die;
+    open(F, "> genomeark-metadata/species/$species.yaml.template") or die;
 
     print F "species:\n";
     print F "  name: $name\n";
@@ -459,10 +430,6 @@ foreach my $ii (sort keys %individuals) {
     }
 
     close(F);
-
-    #  Push to aws.
-    #  aws cp downloads/species/$s/metadata.yaml species/downloads/species/$s/metadata.yaml.template
 }
-
 
 exit(0);

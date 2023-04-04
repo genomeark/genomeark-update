@@ -75,7 +75,12 @@ foreach my $arg (@ARGV) {
 die "ERROR: 'downloads/genomeark.ls' doesn't exist, can't update.\n"   if (! -e "downloads/genomeark.ls");
 die "ERROR: 'downloads/species-list' doesn't exist, can't update.\n"   if (! -e "downloads/species-list");
 
-my $ga = "../genomeark.github.io";
+my $ga;
+
+$ga = "../genomeark.github.io"   if (-e "../genomeark.github.io");   #  Legacy location.
+$ga =  "./genomeark.github.io"   if (-e  "./genomeark.github.io");   #  Submodule location.
+
+die "Didn't find genomeark.github.io.\n"  if (!defined($ga));
 
 @speciesList = discoverSpecies(@speciesList);   #  List of all species in genomeark-metadata or supplied on command line.
 
