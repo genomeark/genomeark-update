@@ -3,7 +3,7 @@ package GenomeArkUtility;
 require Exporter;
 
 @ISA    = qw(Exporter);
-@EXPORT = qw(prettifySize prettifyBases);
+@EXPORT = qw(prettifySize prettifyBases $ToLIDregex);
 
 use strict;
 use warnings;
@@ -11,6 +11,8 @@ use warnings;
 #use Time::Local;
 #use List::Util;
 
+#  Compile a regex for ToLIDs.
+our $ToLIDregex = qr "([a-z]{1,2}[A-Z][a-z]{2}[A-Z][a-z]{2,3})(\d+)";
 
 
 #  Format a size in bytes nicely.

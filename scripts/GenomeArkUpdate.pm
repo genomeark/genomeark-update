@@ -8,6 +8,8 @@ require Exporter;
 use strict;
 use warnings;
 
+use GenomeArkUtility;
+
 use Time::Local;
 use List::Util qw(min max);
 
@@ -172,8 +174,8 @@ sub isAssemblyFile ($$) {
 
     return(0)   if (($filename !~ m![/_]assembly[/_]!));
 
-    my $isMito = (($filename =~ m!species/(.*)/.*/(.*assembly.*)/(.......)(\d).MT.(\d\d\d\d)(\d\d)(\d\d).fasta.gz!i) ||
-                  ($filename =~ m!species/(.*)/.*/(.*assembly.*)/(.......)(\d).\w+.\w+.(\d\d\d\d)(\d\d)(\d\d).MT.fasta.gz!i));
+    my $isMito = (($filename =~ m!species/(.*)/.*/(.*assembly.*)/${ToLIDregex}.MT.(\d\d\d\d)(\d\d)(\d\d).fasta.gz!i) ||
+                  ($filename =~ m!species/(.*)/.*/(.*assembly.*)/${ToLIDregex}.\w+.\w+.(\d\d\d\d)(\d\d)(\d\d).MT.fasta.gz!i));
 
     my $isGeno = (($filename !~ m![\._]pri.*\.\d{8}.fasta.gz!) ||
                   ($filename !~ m![\._]alt.*\.\d{8}.fasta.gz!) ||
