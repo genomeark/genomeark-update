@@ -23,7 +23,7 @@ sub loadGenbankMap () {
     print "\n";
     print "Discovering Species-to-GenBank mappings.\n";
 
-    open(F, "ls projects/genbank.*.map 2>/dev/null |");
+    open(F, "ls genbank/genbank.*.map 2>/dev/null |");
     while (<F>) {
         chomp;
         push @projects, $_;
@@ -31,7 +31,7 @@ sub loadGenbankMap () {
     close(F);
 
     if (scalar(@projects) == 0) {
-        die "No projects/genbank.*.map found.\n";
+        die "No genbank/genbank.*.map found.\n";
     }
 
     foreach my $project (@projects) {

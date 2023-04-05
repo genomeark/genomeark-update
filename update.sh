@@ -159,7 +159,7 @@ if [ $updateGenBank = "yes" ] ; then
     if [ ! -e "downloads/genbank.$pp.map" -o \
               "downloads/genbank.$pp.map" -ot "downloads/genbank.$pp.map.raw" ] ; then
       echo "Fixing downloads/genbank.$pp.xml."
-      perl scripts/genbank-fixup.pl < downloads/genbank.$pp.map.raw > projects/genbank.$pp.map
+      perl scripts/genbank-fixup.pl < downloads/genbank.$pp.map.raw > genbank/genbank.$pp.map
     fi
   done
 fi
