@@ -14,6 +14,7 @@ pacbiohifi_clr  mManPen7            219752063243               0      2147483648
 pacbiohifi_bam  mManPen7             77601285771               0      2147483648     20813892366         1215576  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64330e_211113_005922.hifi_reads.bam
 pacbiohifi_fqgz mManPen7             18177654993               0      2147483648     20734421793         1210484  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64330e_211113_005922.hifi_reads.fastq.gz
 pacbiohifi_clr  mManPen7            224468655787               0      2147483648     94130490456         5208548  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64330e_211113_005922.reads.bam
+pacbiohifi_bam  mManPen7            180148318792               0      2147483648     72167326044         4862657  species/Manis_pentadactyla/mManPen7/genomic_data/pacbio_hifi/m64330e_211215_200211.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -22,7 +23,7 @@ pacbiohifi_clr  mManPen7            224468655787               0      2147483648
 --------------- ---------------  ------- ---------------
 bionano         mManPen7         507.4953    771700550559
 dovetail        mManPen7          1.7958    257114467144
-pacbiohifi_bam  mManPen7          0.2688     85209348342
+pacbiohifi_bam  mManPen7          0.3880    456905491482
 pacbiohifi_clr  mManPen7          0.4123    354822250279
 pacbiohifi_fqgz mManPen7          1.1456     84298312521
 --------------- ---------------  ------- ---------------

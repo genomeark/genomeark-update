@@ -9,6 +9,7 @@ pacbiohifi_fqgz mCynVol1             23134971440               0      2147483648
 pacbiohifi_clr  mCynVol1            246620847778               0      2147483648     94462802429         5638731  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m54306Ue_211202_201212.reads.bam
 pacbiohifi_bam  mCynVol1            103632691689               0      2147483648     28579530478         1857198  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m54306Ue_211213_200140.hifi_reads.bam
 pacbiohifi_fqgz mCynVol1             22625118991               0      2147483648      6239491296          405464  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m54306Ue_211213_200140.hifi_reads.fastq.gz
+pacbiohifi_bam  mCynVol1            213955259867               0      2147483648     81170701235         5032943  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m54306Ue_211213_200140.reads.bam
 pacbiohifi_bam  mCynVol1            102378859283               0      2147483648    120791626610         7820850  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m64330e_211212_152109.hifi_reads.bam
 pacbiohifi_fqgz mCynVol1             23838024341               0      2147483648     28125276600         1821016  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m64330e_211212_152109.hifi_reads.fastq.gz
 pacbiohifi_clr  mCynVol1            242762595592               0      2147483648     92540858774         5538646  species/Cynocephalus_volans/mCynVol1/genomic_data/pacbio_hifi/m64330e_211212_152109.reads.bam
@@ -22,7 +23,7 @@ pacbiohifi_clr  mCynVol1            220740990974               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mCynVol1          1.8637    247974994194
-pacbiohifi_bam  mCynVol1          0.2747    113571862450
+pacbiohifi_bam  mCynVol1          0.3610    482844470900
 pacbiohifi_clr  mCynVol1          0.3809    351981955524
 pacbiohifi_fqgz mCynVol1          1.2177    113111565098
 --------------- ---------------  ------- ---------------

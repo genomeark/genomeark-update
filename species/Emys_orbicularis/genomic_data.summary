@@ -8,6 +8,7 @@ bionano         rEmyOrb1               952198248               0       952198248
 pacbiohifi_clr  rEmyOrb1            489435565638               0      2147483648    258906445577        18960844  species/Emys_orbicularis/rEmyOrb1/genomic_data/pacbio_hifi/m54306U_210531_075527.subreads.bam
 pacbiohifi_bam  rEmyOrb1             13764404391               0      2147483648     16214498623         1030014  species/Emys_orbicularis/rEmyOrb1/genomic_data/pacbio_hifi/m54306U_210603_215130.hifi_reads.bam
 pacbiohifi_fqgz rEmyOrb1             14581255254               0      2147483648     17176750735         1091141  species/Emys_orbicularis/rEmyOrb1/genomic_data/pacbio_hifi/m54306U_210603_215130.hifi_reads.fastq.gz
+pacbiohifi_bam  rEmyOrb1            104666172698               0      2147483648     44710606057         3487956  species/Emys_orbicularis/rEmyOrb1/genomic_data/pacbio_hifi/m54306Ue_210920_232907.reads.bam
 pacbiohifi_bam  rEmyOrb1             49481808339               0      2147483648     13303566739          912914  species/Emys_orbicularis/rEmyOrb1/genomic_data/pacbio_hifi/m54306Ue_211004_142258.hifi_reads.bam
 pacbiohifi_fqgz rEmyOrb1             11314149911               0      2147483648     13302960325          907773  species/Emys_orbicularis/rEmyOrb1/genomic_data/pacbio_hifi/m54306Ue_211004_142258.hifi_reads.fastq.gz
 pacbiohifi_bam  rEmyOrb1             50195556527               0      2147483648     60878938477         4127309  species/Emys_orbicularis/rEmyOrb1/genomic_data/pacbio_hifi/m54306Ue_211005_233142.hifi_reads.bam
@@ -24,7 +25,7 @@ pacbiohifi_clr  rEmyOrb1            246307496642               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           rEmyOrb1          1.9542    277821004843
 bionano         rEmyOrb1         612.4697    583192598297
-pacbiohifi_bam  rEmyOrb1          0.3863     76300644394
+pacbiohifi_bam  rEmyOrb1          0.4333    893289823725
 pacbiohifi_clr  rEmyOrb1          0.4945    921787602616
 pacbiohifi_fqgz rEmyOrb1          1.1782     76587137378
 --------------- ---------------  ------- ---------------

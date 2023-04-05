@@ -11,6 +11,7 @@ bionano         mDicBic1              2077674182               0      2077674182
 pacbiohifi_bam  mDicBic1             12661683343               0      2147483648     13902144845          766734  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_200906_020246.ccs.bam
 pacbiohifi_clr  mDicBic1            407281612019               0      2147483648    213022598284        13637162  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_200906_020246.subreads.bam
 pacbiohifi_bam  mDicBic1             11895097070               0      2147483648     12711891936          655318  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_200907_082817.ccs.bam
+pacbiohifi_bam  mDicBic1            380533321056               0      2147483648    198253411919        13215548  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_200907_082817.subreads.bam
 pacbiohifi_clr  mDicBic1            557874294476               0      2147483648    286645550803        24394684  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_210304_220438.subreads.bam
 pacbiohifi_bam  mDicBic1             10176946980               0      2147483648     12038280588          834643  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_210306_041713.ccs.bam
 pacbiohifi_clr  mDicBic1            440162798924               0      2147483648    226796057533        16395907  species/Diceros_bicornis/mDicBic1/genomic_data/pacbio_hifi/m54306U_210306_041713.subreads.bam
@@ -28,6 +29,6 @@ arima           mDicBic1          1.3718    218614231858
 bionano         mDicBic1         483.7922   2375746833351
 illumina        mDicBic2          2.0002    286345454878
 illumina        mDicBic3          1.9949    136487904208
-pacbiohifi_bam  mDicBic1          1.1128     91931107372
+pacbiohifi_bam  mDicBic1          0.5257   1759401124733
 pacbiohifi_clr  mDicBic1          0.5169   1687247116633
 --------------- ---------------  ------- ---------------

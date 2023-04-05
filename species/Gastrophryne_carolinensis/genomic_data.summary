@@ -13,6 +13,7 @@ pacbiohifi_clr  aGasCar1            238449435012               0      2147483648
 pacbiohifi_clr  aGasCar1            242750314874               0      2147483648     98344929064         5318617  species/Gastrophryne_carolinensis/aGasCar1/genomic_data/pacbio_hifi/m64330e_211110_060034.reads.bam
 pacbiohifi_bam  aGasCar1             95774269192               0      2147483648     26409068051         1723771  species/Gastrophryne_carolinensis/aGasCar1/genomic_data/pacbio_hifi/m64334e_211119_061646.hifi_reads.bam
 pacbiohifi_fqgz aGasCar1             20567583808               0      2147483648     26614140276         1726895  species/Gastrophryne_carolinensis/aGasCar1/genomic_data/pacbio_hifi/m64334e_211119_061646.hifi_reads.fastq.gz
+pacbiohifi_bam  aGasCar1            229300161746               0      2147483648     89936633880         5572650  species/Gastrophryne_carolinensis/aGasCar1/genomic_data/pacbio_hifi/m64334e_211119_061646.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -20,7 +21,7 @@ pacbiohifi_fqgz aGasCar1             20567583808               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aGasCar1          1.8475    487240307096
-pacbiohifi_bam  aGasCar1          0.2719    102244630726
+pacbiohifi_bam  aGasCar1          0.3706    582674360667
 pacbiohifi_clr  aGasCar1          0.3988    477047891773
 pacbiohifi_fqgz aGasCar1          1.2324    134708853606
 --------------- ---------------  ------- ---------------

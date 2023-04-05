@@ -12,6 +12,7 @@ pacbiohifi_bam  bHarHar1              9979613346               0      2147483648
 pacbiohifi_clr  bHarHar1            348710696976               0      2147483648    181226665608        12257659  species/Harpia_harpyja/bHarHar1/genomic_data/pacbio_hifi/m54306U_210301_211946.subreads.bam
 pacbiohifi_bam  bHarHar1              7822072083               0      2147483648      8528643351          506123  species/Harpia_harpyja/bHarHar1/genomic_data/pacbio_hifi/m54306U_210307_104158.ccs.bam
 pacbiohifi_clr  bHarHar1            269087164089               0      2147483648    138824238459         9445125  species/Harpia_harpyja/bHarHar1/genomic_data/pacbio_hifi/m54306U_210307_104158.subreads.bam
+pacbiohifi_bam  bHarHar1             76813875081               0      2147483648     39596081324         3261225  species/Harpia_harpyja/bHarHar1/genomic_data/pacbio_hifi/m64055_210106_204330.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -20,6 +21,6 @@ pacbiohifi_clr  bHarHar1            269087164089               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           bHarHar1          1.9886    188442488745
 bionano         bHarHar1         406.8829    848718392635
-pacbiohifi_bam  bHarHar1          1.1214     37694096806
+pacbiohifi_bam  bHarHar1          0.5285    639726303070
 pacbiohifi_clr  bHarHar1          0.5182    609840122520
 --------------- ---------------  ------- ---------------

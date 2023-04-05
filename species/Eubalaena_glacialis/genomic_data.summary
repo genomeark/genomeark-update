@@ -8,6 +8,7 @@ pacbiohifi_bam  mEubGla1             47865422547               0      2147483648
 pacbiohifi_fqgz mEubGla1             10592073968               0      2147483648     13272645349          865049  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210924_183319.hifi_reads.fastq.gz
 pacbiohifi_bam  mEubGla1             45964212383               0      2147483648     12712372206          830829  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210929_152420.hifi_reads.bam
 pacbiohifi_fqgz mEubGla1             10074807092               0      2147483648      2786400354          182107  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m54306Ue_210929_152420.hifi_reads.fastq.gz
+pacbiohifi_bam  mEubGla1             29522280862               0      2147483648     68685219696         5905202  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210626_073758.reads.bam
 pacbiohifi_bam  mEubGla1             20636781112               0      2147483648      5589312315          387244  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210908_191022.hifi_reads.bam
 pacbiohifi_fqgz mEubGla1              4748444105               0      2147483648      1286079305           89103  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210908_191022.hifi_reads.fastq.gz
 pacbiohifi_bam  mEubGla1             48899232086               0      2147483648     13381161593          868579  species/Eubalaena_glacialis/mEubGla1/genomic_data/pacbio_hifi/m64055e_210927_151005.hifi_reads.bam
@@ -25,7 +26,7 @@ pacbiohifi_fqgz mEubGla1              5720963869               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 bionano         mEubGla1         620.2272    608065489158
-pacbiohifi_bam  mEubGla1          0.2743     74788681051
+pacbiohifi_bam  mEubGla1          0.8774   1097181828914
 pacbiohifi_clr  mEubGla1          0.4238    414408296673
 pacbiohifi_fqgz mEubGla1          1.1989     85654906121
 --------------- ---------------  ------- ---------------

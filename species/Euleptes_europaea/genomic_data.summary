@@ -5,6 +5,9 @@
 arima           rEulEur1             65481081270               0      2147483648    127213328889       842472376  species/Euleptes_europaea/rEulEur1/genomic_data/arima/rEulEur1_S1_L001_R1_001.fastq.gz
 arima           rEulEur1             68358029440               0      2147483648    126699650154       839070562  species/Euleptes_europaea/rEulEur1/genomic_data/arima/rEulEur1_S1_L001_R2_001.fastq.gz
 bionano         rEulEur1               922799075               0       922799075    479935701199         3632214  species/Euleptes_europaea/rEulEur1/genomic_data/bionano/rEulEur1_Saphyr_DLE1_3685893
+pacbiohifi_bam  rEulEur1             59107659639               0      2147483648     15584843197          993043  species/Euleptes_europaea/rEulEur1/genomic_data/pacbio_hifi/m64055e_220702_050304.hifi_reads.bc1012--bc1012.bam
+pacbiohifi_bam  rEulEur1             57681402471               0      2147483648     15524231188         1004402  species/Euleptes_europaea/rEulEur1/genomic_data/pacbio_hifi/m64330e_220706_183330.hifi_reads.bc1012--bc1012.bam
+pacbiohifi_bam  rEulEur1             65345886567               0      2147483648     17281799029         1126635  species/Euleptes_europaea/rEulEur1/genomic_data/pacbio_hifi/m64330e_220708_052705.hifi_reads.bc1012--bc1012.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,4 +16,5 @@ bionano         rEulEur1               922799075               0       922799075
 --------------- ---------------  ------- ---------------
 arima           rEulEur1          1.8823    251925358089
 bionano         rEulEur1         520.0868    479935701199
+pacbiohifi_bam  rEulEur1          0.2656     48375042368
 --------------- ---------------  ------- ---------------

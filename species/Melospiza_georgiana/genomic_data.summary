@@ -7,6 +7,7 @@ arima           bMelGeo1             39860593005               0      2147483648
 bionano         bMelGeo1               516740055               0       516740055    370172535560         2653006  species/Melospiza_georgiana/bMelGeo1/genomic_data/bionano/bMelGeo1_Saphyr_DLE1_3680748
 pacbiohifi_bam  bMelGeo1             32242072017               0      2147483648      8875969154          574596  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m54306Ue_211022_061550.hifi_reads.bam
 pacbiohifi_fqgz bMelGeo1              7115695475               0      2147483648      8891248668          575824  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m54306Ue_211022_061550.hifi_reads.fastq.gz
+pacbiohifi_bam  bMelGeo1            114869581189               0      2147483648     50203848540         3567804  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m54306Ue_211022_061550.reads.bam
 pacbiohifi_clr  bMelGeo1            138426097838               0      2147483648     62420978223         3394833  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211010_034013.reads.bam
 pacbiohifi_bam  bMelGeo1             50876176466               0      2147483648     13681091770          850414  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211016_065650.hifi_reads.bam
 pacbiohifi_fqgz bMelGeo1             11499297961               0      2147483648     13997069150          862992  species/Melospiza_georgiana/bMelGeo1/genomic_data/pacbio_hifi/m64334e_211016_065650.hifi_reads.fastq.gz
@@ -22,7 +23,7 @@ pacbiohifi_clr  bMelGeo1            253509161374               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           bMelGeo1          1.9162    150882878279
 bionano         bMelGeo1         716.3612    370172535560
-pacbiohifi_bam  bMelGeo1          0.2710     45730185437
+pacbiohifi_bam  bMelGeo1          0.4279    383983954459
 pacbiohifi_clr  bMelGeo1          0.4582    333854768055
 pacbiohifi_fqgz bMelGeo1          1.2218     46010331757
 --------------- ---------------  ------- ---------------

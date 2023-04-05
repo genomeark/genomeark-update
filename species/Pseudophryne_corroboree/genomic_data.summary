@@ -10,6 +10,7 @@ arima           aPseCor3             47930077583               0      2147483648
 arima           aPseCor3             52855258973               0      2147483648    101709821368       673575000  species/Pseudophryne_corroboree/aPseCor3/genomic_data/arima/aPseCor3_L2_S2_L004_R1_001.fastq.gz
 arima           aPseCor3             55008995736               0      2147483648    102168382339       676611829  species/Pseudophryne_corroboree/aPseCor3/genomic_data/arima/aPseCor3_L2_S2_L004_R2_001.fastq.gz
 bionano         aPseCor3             18630185933               0     18630185933  10619282279636       232106818  species/Pseudophryne_corroboree/aPseCor3/genomic_data/bionano/aPseCor3_Saphyr_DLE1_3730900
+pacbiohifi_bam  aPseCor3            136186159900               0      2147483648     56638504696         3465401  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211028_055049.reads.bam
 pacbiohifi_bam  aPseCor3             77243027466               0      2147483648     21086466446         1388802  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211119_062428.hifi_reads.bam
 pacbiohifi_fqgz aPseCor3             16978933713               0      2147483648     21326225251         1400648  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211119_062428.hifi_reads.fastq.gz
 pacbiohifi_clr  aPseCor3            205148974017               0      2147483648     83205205397         5175143  species/Pseudophryne_corroboree/aPseCor3/genomic_data/pacbio_hifi/m64330e_211120_155549.reads.bam
@@ -29,7 +30,7 @@ arima           aPseCor3          1.8836    381015799431
 bionano         aPseCor3         570.0040  10619282279636
 illumina        aPseCor1          1.9568    387716966943
 illumina        aPseCor2          1.9635    366859379842
-pacbiohifi_bam  aPseCor3          0.2709    229324627471
+pacbiohifi_bam  aPseCor3          0.3682   1102097974028
 pacbiohifi_clr  aPseCor3          0.3821    820244899494
 pacbiohifi_fqgz aPseCor3          1.2259    230306016775
 --------------- ---------------  ------- ---------------

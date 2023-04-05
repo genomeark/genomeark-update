@@ -19,6 +19,7 @@ pacbiohifi_bam  fAciRut3             20358079302               0      2147483648
 pacbiohifi_bam  fAciRut3             20565581860               0      2147483648     28919879825         2156361  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_200223_025939.ccs.bam
 pacbiohifi_bam  fAciRut3             20850316204               0      2147483648     27980126487         2085309  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/m64016_200224_092430.ccs.bam
 pacbiohifi_clr  fAciRut3            117542087813               0      2147483648     62832703774         3299194  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/mat/m64016_190301_161945.subreads.bam
+pacbiohifi_bam  fAciRut3            108268318008               0      2147483648     57811530030         3040106  species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio_hifi/mat/m64016_190305_101633.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -30,6 +31,6 @@ bionano         fAciRut3         685.5753   2035049540511
 dovetail        fAciRut3          1.4047    242056423044
 illumina        fAciRut1          1.4005     98639126119
 illumina        fAciRut2          1.4470    110739954632
-pacbiohifi_bam  fAciRut3          1.3679    109388589672
+pacbiohifi_bam  fAciRut3          0.5782    441395085679
 pacbiohifi_clr  fAciRut3          0.5253    359004151737
 --------------- ---------------  ------- ---------------

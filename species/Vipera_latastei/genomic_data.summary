@@ -17,6 +17,7 @@ pacbiohifi_fqgz rVipLat1              8233489235               0      2147483648
 pacbiohifi_clr  rVipLat1            489651686140               0      2147483648    259044794228        21980340  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m54306U_210609_193127.subreads.bam
 pacbiohifi_bam  rVipLat1             11012447450               0      2147483648     11519500462          668146  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m64055_210317_140301.ccs.bam
 pacbiohifi_clr  rVipLat1            392306759486               0      2147483648    200554075552        13974082  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m64055_210317_140301.subreads.bam
+pacbiohifi_bam  rVipLat1            316023144942               0      2147483648    162229094960        11374565  species/Vipera_latastei/rVipLat1/genomic_data/pacbio_hifi/m64055_210430_160602.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -25,7 +26,7 @@ pacbiohifi_clr  rVipLat1            392306759486               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           rVipLat1          1.4648    165334294626
 bionano         rVipLat1         449.4577   1350542335355
-pacbiohifi_bam  rVipLat1          1.1334     79247946932
+pacbiohifi_bam  rVipLat1          0.5336   1626212559603
 pacbiohifi_clr  rVipLat1          0.5252   1563890241009
 pacbiohifi_fqgz rVipLat1          1.1112     32556676397
 --------------- ---------------  ------- ---------------

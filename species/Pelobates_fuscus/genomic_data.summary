@@ -5,6 +5,13 @@
 arima           aPelFus1               555975014               0       555975014      1033456038        10232238  species/Pelobates_fuscus/aPelFus1/genomic_data/arima/aPelFus1_L122783_Track-168235_R2.fastq.gz
 arima           aPelFus1             21782629967               0      2147483648     44247404592       438093124  species/Pelobates_fuscus/aPelFus1/genomic_data/arima/aPelFus1_L122783_Track-168668_R1.fastq.gz
 arima           aPelFus1             20849724334               0      2147483648     40887599580       404827728  species/Pelobates_fuscus/aPelFus1/genomic_data/arima/aPelFus1_L124820_Track-168672_R2.fastq.gz
+pacbiohifi_dcfqgz aPelFus1             17538443603               0     17538443603     30549897597         2267425  species/Pelobates_fuscus/aPelFus1/genomic_data/pacbio_hifi/m54345U_230210_144825.DeepConsensus.fastq.gz
+pacbiohifi_bam  aPelFus1             89285861028               0     89285861028     25904807228         1934350  species/Pelobates_fuscus/aPelFus1/genomic_data/pacbio_hifi/m54345U_230210_144825.ccs.bam
+pacbiohifi_dcfqgz aPelFus1             17812005318               0     17812005318     31565774854         2316793  species/Pelobates_fuscus/aPelFus1/genomic_data/pacbio_hifi/m54345U_230211_235610.DeepConsensus.fastq.gz
+pacbiohifi_bam  aPelFus1             93137187173               0     93137187173     27278416940         2012376  species/Pelobates_fuscus/aPelFus1/genomic_data/pacbio_hifi/m54345U_230211_235610.ccs.bam
+pacbiohifi_dcfqgz aPelFus1              6808907083               0      6808907083     13000844144         1219550  species/Pelobates_fuscus/aPelFus1/genomic_data/pacbio_hifi/m64046_230118_141257.DeepConsensus.fastq.gz
+pacbiohifi_dcfqgz aPelFus1             17942242426               0     17942242426     31607757631         2321268  species/Pelobates_fuscus/aPelFus1/genomic_data/pacbio_hifi/m64046_230206_122347.DeepConsensus.fastq.gz
+pacbiohifi_bam  aPelFus1             92867505465               0     92867505465     27099411301         2001648  species/Pelobates_fuscus/aPelFus1/genomic_data/pacbio_hifi/m64046_230206_122347.ccs.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,4 +19,6 @@ arima           aPelFus1             20849724334               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aPelFus1          1.9951    172577834923
+pacbiohifi_bam  aPelFus1          0.2916     91657588115
+pacbiohifi_dcfqgz aPelFus1          1.7586    105694670998
 --------------- ---------------  ------- ---------------

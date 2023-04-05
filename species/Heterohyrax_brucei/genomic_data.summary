@@ -11,6 +11,7 @@ pacbiohifi_clr  mHetBru1           1053646287760               0      2147483648
 pacbiohifi_bam  mHetBru1             21639990609               0      2147483648     29841665104         2312992  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m64046_210824_123627.ccs.bam
 pacbiohifi_clr  mHetBru1           1025775002157               0      2147483648    546431875855        43208503  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m64046_210824_123627.subreads.bam
 pacbiohifi_bam  mHetBru1             21507128950               0      2147483648     29664236863         2250569  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m64046_210826_142830.ccs.bam
+pacbiohifi_bam  mHetBru1            968558503347               0      2147483648    516033715794        41294507  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m64046_210826_142830.subreads.bam
 pacbiohifi_clr  mHetBru1           1034292274528               0      2147483648    551582431816        44453473  species/Heterohyrax_brucei/mHetBru1/genomic_data/pacbio_hifi/m64046_210827_235721.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -20,6 +21,6 @@ pacbiohifi_clr  mHetBru1           1034292274528               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           mHetBru1          2.1571    338398843620
 bionano         mHetBru1         419.7203    518737926115
-pacbiohifi_bam  mHetBru1          1.4078    122226948215
+pacbiohifi_bam  mHetBru1          0.5420   2259648575342
 pacbiohifi_clr  mHetBru1          0.5335   2177892148167
 --------------- ---------------  ------- ---------------

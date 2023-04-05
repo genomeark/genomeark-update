@@ -12,6 +12,7 @@ bionano         mLemCat1              1080838455               0      1080838455
 pacbio          mLemCat1             15354233923               0      2147483648      8151224002          679788  species/Lemur_catta/mLemCat1/genomic_data/pacbio/m54158_190404_152923.subreads.bam
 pacbio          mLemCat1             16407394665               0      2147483648      8839819044          649348  species/Lemur_catta/mLemCat1/genomic_data/pacbio/m54159_190328_062602.subreads.bam
 pacbio          mLemCat1             17113503295               0      2147483648      9271244687          669340  species/Lemur_catta/mLemCat1/genomic_data/pacbio/m54159_190329_074634.subreads.bam
+pacbiohifi_bam  mLemCat1             25145850739               0      2147483648     12957037341         2123379  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_200811_165302.subreads.bam
 pacbiohifi_clr  mLemCat1            321487206277               0      2147483648    167401177369        13059740  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210205_215236.subreads.bam
 pacbiohifi_bam  mLemCat1              7539042257               0      2147483648      8582810296          499876  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210210_175526.ccs.bam
 pacbiohifi_clr  mLemCat1            273461334990               0      2147483648    142577573602        10532830  species/Lemur_catta/mLemCat1/genomic_data/pacbio_hifi/m54306U_210210_175526.subreads.bam
@@ -28,6 +29,6 @@ pacbiohifi_bam  mLemCat1              8245908268               0      2147483648
 arima           mLemCat1          1.5120    212439512227
 bionano         mLemCat1         459.0509    496159973152
 pacbio          mLemCat1          0.5373    201232300925
-pacbiohifi_bam  mLemCat1          1.1321     68693369195
+pacbiohifi_bam  mLemCat1          0.5346   1258801280120
 pacbiohifi_clr  mLemCat1          0.5212   1195623551007
 --------------- ---------------  ------- ---------------

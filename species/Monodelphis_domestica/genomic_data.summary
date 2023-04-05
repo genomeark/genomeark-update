@@ -14,6 +14,7 @@ pacbiohifi_fqgz mMonDom1             20994837410               0      2147483648
 pacbiohifi_clr  mMonDom1            223391870848               0      2147483648     88561597025         4738648  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m54306Ue_211113_015853.reads.bam
 pacbiohifi_bam  mMonDom1             97189420866               0      2147483648     25817353983         1519062  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m64055e_211117_204835.hifi_reads.bam
 pacbiohifi_fqgz mMonDom1             23169990599               0      2147483648     26152713821         1546299  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m64055e_211117_204835.hifi_reads.fastq.gz
+pacbiohifi_bam  mMonDom1            183975524030               0      2147483648     73551510701         4172056  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m64330e_211103_063050.reads.bam
 pacbiohifi_clr  mMonDom1            267452025827               0      2147483648    104694822709         5847747  species/Monodelphis_domestica/mMonDom1/genomic_data/pacbio_hifi/m64334e_211117_205854.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -23,7 +24,7 @@ pacbiohifi_clr  mMonDom1            267452025827               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           mMonDom1          1.9369    533398827746
 bionano         mMonDom1         488.2781   1055805673852
-pacbiohifi_bam  mMonDom1          0.2693    150299483289
+pacbiohifi_bam  mMonDom1          0.3719    760291822224
 pacbiohifi_clr  mMonDom1          0.4004    595087719975
 pacbiohifi_fqgz mMonDom1          1.1589    151069791799
 --------------- ---------------  ------- ---------------

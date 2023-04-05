@@ -8,6 +8,7 @@ illumina        mOchPri1             23806229474               0      2147483648
 illumina        mOchPri1             24629322149               0      2147483648     48776723871       323024672  species/Ochotona_princeps/mOchPri1/genomic_data/illumina/mOchPri1_2.fastq.gz
 pacbiohifi_bam  mOchPri1             51455281340               0      2147483648     13935632110          961568  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m54306Ue_220207_052626.hifi_reads.bam
 pacbiohifi_fqgz mOchPri1             11288869829               0      2147483648     14044943183          966975  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m54306Ue_220207_052626.hifi_reads.fastq.gz
+pacbiohifi_bam  mOchPri1             50227929358               0      2147483648     13771548855          928644  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m54306Ue_220705_010743.hifi_reads.bc1001--bc1001.bam
 pacbiohifi_fqgz mOchPri1              6589199762               0      2147483648      8583715924          589712  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m54306Ue_220711_194042.bc1001--bc1001.hifi_reads.fastq.gz
 pacbiohifi_bam  mOchPri1             49287112410               0      2147483648     13383583969          912948  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m64330e_220205_164102.hifi_reads.bam
 pacbiohifi_fqgz mOchPri1             10944811782               0      2147483648     13343407228          907353  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m64330e_220205_164102.hifi_reads.fastq.gz
@@ -24,7 +25,7 @@ pacbiohifi_clr  mOchPri1            185012539088               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           mOchPri1          1.7893    208379331164
 illumina        mOchPri1          2.0039     97060001897
-pacbiohifi_bam  mOchPri1          0.2703     56089957410
+pacbiohifi_bam  mOchPri1          0.3555    326482669717
 pacbiohifi_clr  mOchPri1          0.4217    278591069545
 pacbiohifi_fqgz mOchPri1          1.2480     83905311363
 --------------- ---------------  ------- ---------------

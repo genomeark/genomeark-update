@@ -10,6 +10,7 @@ pacbiohifi_clr  aAscTru4            158286833429               0      2147483648
 pacbiohifi_clr  aAscTru4            228517895525               0      2147483648     90317243071         5482981  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m54306Ue_211205_180446.reads.bam
 pacbiohifi_bam  aAscTru4             78978201442               0      2147483648     21422912846         1438940  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m54306Ue_211207_032852.hifi_reads.bam
 pacbiohifi_fqgz aAscTru4             17652054244               0      2147483648      4788136634          321610  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m54306Ue_211207_032852.hifi_reads.fastq.gz
+pacbiohifi_bam  aAscTru4             92557046136               0      2147483648     42306545604         3599300  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m64330e_211008_165718.reads.bam
 pacbiohifi_bam  aAscTru4             81428675682               0      2147483648     22314334954         1449498  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m64334e_211129_045204.hifi_reads.bam
 pacbiohifi_fqgz aAscTru4             18039265804               0      2147483648     22581694194         1483884  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m64334e_211129_045204.hifi_reads.fastq.gz
 pacbiohifi_clr  aAscTru4            236098220595               0      2147483648     95608301698         5514570  species/Ascaphus_truei/aAscTru4/genomic_data/pacbio_hifi/m64334e_211129_045204.reads.bam
@@ -22,7 +23,7 @@ pacbiohifi_fqgz aAscTru4             16821187122               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aAscTru4          1.9180    345805720711
-pacbiohifi_bam  aAscTru4          0.2727    100399113752
+pacbiohifi_bam  aAscTru4          0.3850    681070614458
 pacbiohifi_clr  aAscTru4          0.4144    580511279652
 pacbiohifi_fqgz aAscTru4          1.2439    118912493174
 --------------- ---------------  ------- ---------------

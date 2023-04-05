@@ -5,13 +5,16 @@
 dovetail        aDenAur1            173752386151               0      2147483648    312827943552      2071708316  species/Dendrobates_auratus/aDenAur1/genomic_data/dovetail/aDenAur1_L2_2.fastq.gz
 dovetail        aDenAur1            174098363499               0      2147483648    315947985064      2092370843  species/Dendrobates_auratus/aDenAur1/genomic_data/dovetail/aDenAur1_L3_1.fastq.gz
 dovetail        aDenAur1            176063201076               0      2147483648    319917674845      2118660180  species/Dendrobates_auratus/aDenAur1/genomic_data/dovetail/aDenAur1_L3_2.fastq.gz
+pacbiohifi_dcfqgz aDenAur1             10916743310               0     10916743310     30345257607         2045754  species/Dendrobates_auratus/aDenAur1/genomic_data/pacbio_hifi/m54306Ue_221111_101510.DeepConsensus.Q20.fastq.gz
 pacbiohifi_fqgz aDenAur1             19791636809               0      2147483648     26049486982         1764017  species/Dendrobates_auratus/aDenAur1/genomic_data/pacbio_hifi/m54306Ue_221111_101510.hifi_reads.fastq.gz
 pacbiohifi_clr  aDenAur1           1092362957775               0      2147483648    584264654112        39505435  species/Dendrobates_auratus/aDenAur1/genomic_data/pacbio_hifi/m54306Ue_221111_101510.subreads.bam
+pacbiohifi_dcfqgz aDenAur1             11175894430               0     11175894430     31744336580         2174140  species/Dendrobates_auratus/aDenAur1/genomic_data/pacbio_hifi/m54306Ue_221113_053957.DeepConsensus.Q20.fastq.gz
 pacbiohifi_fqgz aDenAur1             11175894430               0     11175894430     31744336580         2174140  species/Dendrobates_auratus/aDenAur1/genomic_data/pacbio_hifi/m54306Ue_221113_053957.Q20.fastq.gz
 pacbiohifi_clr  aDenAur1           1118984647734               0      2147483648    598747670834        42156471  species/Dendrobates_auratus/aDenAur1/genomic_data/pacbio_hifi/m54306Ue_221113_053957.subreads.bam
 pacbiohifi_fqgz aDenAur1              9955198271               0      2147483648     15705012166         2109549  species/Dendrobates_auratus/aDenAur1/genomic_data/pacbio_hifi/m54306Ue_221115_173742.hifi_reads.fastq.gz
 pacbiohifi_clr  aDenAur1           1030820195468               0      2147483648    540416866706        71714911  species/Dendrobates_auratus/aDenAur1/genomic_data/pacbio_hifi/m54306Ue_221115_173742.subreads.bam
 pacbiohifi_fqgz aDenAur1             19911258863               0      2147483648     28190928519         1926951  species/Dendrobates_auratus/aDenAur1/genomic_data/pacbio_hifi/m64055e_221031_170539.hifi_reads.fastq.gz
+pacbiohifi_dcfqgz aDenAur1             10630475148               0     10630475148     30279177754         1901900  species/Dendrobates_auratus/aDenAur1/genomic_data/pacbio_hifi/m64055e_221106_031540.DeepConsensus.Q20.fastq.gz
 illumina        aDenAur2            113578597554               0      2147483648    227117559075      1504089848  species/Dendrobates_auratus/aDenAur2/genomic_data/illumina/aDenAur2-dna1_1.fastq.gz
 illumina        aDenAur2            120114622158               0      2147483648    228914062183      1515987166  species/Dendrobates_auratus/aDenAur2/genomic_data/illumina/aDenAur2-dna1_2.fastq.gz
 illumina        aDenAur3             88842684354               0      2147483648    178722532639      1183592972  species/Dendrobates_auratus/aDenAur3/genomic_data/illumina/aDenAur3-dna1_1.fastq.gz
@@ -26,5 +29,6 @@ dovetail        aDenAur1          1.8107   1258788928397
 illumina        aDenAur2          1.9359    452406704040
 illumina        aDenAur3          1.9721    356705457955
 pacbiohifi_clr  aDenAur1          0.5315   5075253597818
-pacbiohifi_fqgz aDenAur1          1.7960    444979170665
+pacbiohifi_dcfqgz aDenAur1          2.8227    263013577472
+pacbiohifi_fqgz aDenAur1          1.4085    217730462299
 --------------- ---------------  ------- ---------------

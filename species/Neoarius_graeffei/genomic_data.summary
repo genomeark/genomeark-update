@@ -8,6 +8,7 @@ bionano         fNeoGra1               741301754               0       741301754
 pacbiohifi_bam  fNeoGra1             55147626213               0      2147483648     14646189484          853863  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64055e_211026_201650.hifi_reads.bam
 pacbiohifi_fqgz fNeoGra1             13233472085               0      2147483648     14689244000          856820  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64055e_211026_201650.hifi_reads.fastq.gz
 pacbiohifi_clr  fNeoGra1            166079883284               0      2147483648     68689035617         4068852  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64055e_211026_201650.reads.bam
+pacbiohifi_bam  fNeoGra1             84392741267               0      2147483648     22286994182         1281954  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64330e_211022_162134.hifi_reads.bam
 pacbiohifi_bam  fNeoGra1             56312013794               0      2147483648     15017085946          949038  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211004_150650.hifi_reads.bam
 pacbiohifi_fqgz fNeoGra1             13369636491               0      2147483648     15069422670          934119  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211004_150650.hifi_reads.fastq.gz
 pacbiohifi_clr  fNeoGra1            217488432684               0      2147483648     95134810042         5409046  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211004_150650.reads.bam
@@ -22,7 +23,7 @@ pacbiohifi_clr  fNeoGra1            236600773846               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           fNeoGra1          2.0026    375534985725
 bionano         fNeoGra1         732.5311    543026612791
-pacbiohifi_bam  fNeoGra1          0.2663     79904375702
+pacbiohifi_bam  fNeoGra1          0.3699    525147893085
 pacbiohifi_clr  fNeoGra1          0.4380    490405977379
 pacbiohifi_fqgz fNeoGra1          1.1237     79917115229
 --------------- ---------------  ------- ---------------

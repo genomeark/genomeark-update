@@ -15,6 +15,7 @@ pacbiohifi_fqgz mMacEug1             12831927704               0      2147483648
 pacbiohifi_bam  mMacEug1             64929747581               0      2147483648     80432115638         5993930  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m54306Ue_211001_163112.hifi_reads.bam
 pacbiohifi_fqgz mMacEug1             14281636129               0      2147483648     17691462718         1318396  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m54306Ue_211001_163112.hifi_reads.fastq.gz
 pacbiohifi_clr  mMacEug1            226401022281               0      2147483648     98670800785         5686583  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m54306Ue_211001_163112.reads.bam
+pacbiohifi_bam  mMacEug1            110628241509               0      2147483648     56236639607         4897300  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m64055_210501_222015.subreads.bam
 pacbiohifi_bam  mMacEug1             47120414857               0      2147483648     12783990414          949129  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m64330e_211013_010414.hifi_reads.bam
 pacbiohifi_fqgz mMacEug1             10427245921               0      2147483648      2828960914          210032  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m64330e_211013_010414.hifi_reads.fastq.gz
 pacbiohifi_clr  mMacEug1            153168648589               0      2147483648     65001671892         4619844  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m64330e_211013_010414.reads.bam
@@ -29,7 +30,7 @@ pacbiohifi_clr  mMacEug1            261596248890               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           mMacEug1          1.4793    350863674426
 bionano         mMacEug1         439.0377    985407481013
-pacbiohifi_bam  mMacEug1          0.3121     76075756236
+pacbiohifi_bam  mMacEug1          0.4365   1137730744799
 pacbiohifi_clr  mMacEug1          0.4446   1050470056453
 pacbiohifi_fqgz mMacEug1          1.2257     91198310458
 --------------- ---------------  ------- ---------------

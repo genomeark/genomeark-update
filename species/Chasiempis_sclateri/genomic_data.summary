@@ -19,7 +19,7 @@ pacbiohifi_clr  bChaScl1            171714837794               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 bionano         bChaScl1         543.7680   1184967284557
-pacbiohifi_bam  bChaScl1          1.1878    186540065397
+pacbiohifi_bam  bChaScl1          0.5276    368067228922
 pacbiohifi_clr  bChaScl1          0.4264    230502814287
 pacbiohifi_fqgz bChaScl1          1.1876     42527464949
 --------------- ---------------  ------- ---------------

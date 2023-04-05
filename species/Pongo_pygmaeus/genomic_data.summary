@@ -15,6 +15,7 @@ pacbiohifi_bam  mPonPyg2             95360337567               0      2147483648
 pacbiohifi_fqgz mPonPyg2             22739112973               0      2147483648     23899735179         1293095  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_210505_002126.hifi_reads.fastq.gz
 pacbiohifi_bam  mPonPyg2             93330110555               0      2147483648     98548636863         5334350  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_210506_062052.hifi_reads.bam
 pacbiohifi_fqgz mPonPyg2             22048517972               0      2147483648     23281354517         1260199  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_210506_062052.hifi_reads.fastq.gz
+pacbiohifi_bam  mPonPyg2            635996739469               0      2147483648    330681111103        20615632  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_210506_062052.subreads.bam
 pacbiohifi_clr  mPonPyg2            561889579723               0      2147483648    291518775892        19683946  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_210507_194603.subreads.bam
 pacbiohifi_bam  mPonPyg2            139608860720               0      2147483648    161443483148         7720900  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_220226_122604.hifi_reads.bam
 pacbiohifi_fqgz mPonPyg2             32129177728               0      2147483648     37154134317         1776865  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_220226_122604.hifi_reads.fastq.gz
@@ -27,7 +28,7 @@ pacbiohifi_clr  mPonPyg2            236954867635               0      2147483648
 --------------- ---------------  ------- ---------------
 dovetail        mPonPyg2          1.8160    170101370987
 ont             mPonPyg2          1.0954    632810465672
-pacbiohifi_bam  mPonPyg2          0.8612    648870945827
+pacbiohifi_bam  mPonPyg2          0.5734   4449830276833
 pacbiohifi_clr  mPonPyg2          0.4969   3481768226913
 pacbiohifi_fqgz mPonPyg2          1.0964    190781192013
 --------------- ---------------  ------- ---------------

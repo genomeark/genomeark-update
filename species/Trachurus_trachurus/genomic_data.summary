@@ -9,6 +9,8 @@ arima           fTraTra1              9068623161               0      2147483648
 arima           fTraTra1              9451194861               0      2147483648     14197200232        94021197  species/Trachurus_trachurus/fTraTra1/genomic_data/arima/fTraTra1_32266_1#1_R2.fastq.gz
 arima           fTraTra1              9550076604               0      2147483648     14339145469        94961232  species/Trachurus_trachurus/fTraTra1/genomic_data/arima/fTraTra1_32266_2#1_R2.fastq.gz
 pacbio          fTraTra1            266283139177               0      2147483648    138526404970         8195383  species/Trachurus_trachurus/fTraTra1/genomic_data/pacbio/m64016_190705_154522.subreads.bam
+pacbiohifi_bam  fTraTra1             16683774459               0      2147483648     24644411737         2419752  species/Trachurus_trachurus/fTraTra1/genomic_data/pacbio_hifi/m64016e_220424_175543.ccs.rmdup.bam
+pacbiohifi_bam  fTraTra1             10799343889               0      2147483648     17106241144         1712359  species/Trachurus_trachurus/fTraTra1/genomic_data/pacbio_hifi/m64229e_220325_153219.ccs.rmdup.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -18,4 +20,5 @@ pacbio          fTraTra1            266283139177               0      2147483648
 10x             fTraTra1          1.4600    111340877628
 arima           fTraTra1          1.5188     85575954555
 pacbio          fTraTra1          0.5202    138520488999
+pacbiohifi_bam  fTraTra1          1.5032     41312623500
 --------------- ---------------  ------- ---------------

@@ -11,6 +11,7 @@ pacbiohifi_fqgz rEryReg1             21579709027               0      2147483648
 pacbiohifi_clr  rEryReg1            250511580046               0      2147483648    101169843839         5229695  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211016_070813.reads.bam
 pacbiohifi_bam  rEryReg1             53910234801               0      2147483648     14565055684          899950  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211020_191957.hifi_reads.bam
 pacbiohifi_fqgz rEryReg1             12436384872               0      2147483648     14594831455          905833  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211020_191957.hifi_reads.fastq.gz
+pacbiohifi_bam  rEryReg1            137061657509               0      2147483648     54723212147         3178897  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m54306Ue_211020_191957.reads.bam
 pacbiohifi_bam  rEryReg1             13552071006               0      2147483648     15929514417         1096902  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m64055_210602_211608.hifi_reads.bam
 pacbiohifi_fqgz rEryReg1             14320739929               0      2147483648     15734213297         1096480  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m64055_210602_211608.hifi_reads.fastq.gz
 pacbiohifi_clr  rEryReg1            650728645242               0      2147483648    344765144486        25129680  species/Erythrolamprus_reginae/rEryReg1/genomic_data/pacbio_hifi/m64055_210602_211608.subreads.bam
@@ -22,7 +23,7 @@ pacbiohifi_clr  rEryReg1            650728645242               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           rEryReg1          1.8884    200152608416
 bionano         rEryReg1         569.2626    351562027210
-pacbiohifi_bam  rEryReg1          0.3457     58954538730
+pacbiohifi_bam  rEryReg1          0.4882    859401970104
 pacbiohifi_clr  rEryReg1          0.5088    808896066905
 pacbiohifi_fqgz rEryReg1          1.1425     67761557080
 --------------- ---------------  ------- ---------------

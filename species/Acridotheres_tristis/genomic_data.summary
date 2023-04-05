@@ -5,6 +5,7 @@
 arima           bAcrTri1             38308441115               0      2147483648     74615865111       497439118  species/Acridotheres_tristis/bAcrTri1/genomic_data/arima/bAcrTri1_Common_Myna_R1.fastq.gz
 arima           bAcrTri1             39188809403               0      2147483648     74746865288       498312453  species/Acridotheres_tristis/bAcrTri1/genomic_data/arima/bAcrTri1_Common_Myna_R2.fastq.gz
 bionano         bAcrTri1               918637765               0       918637765    488093653335         5101263  species/Acridotheres_tristis/bAcrTri1/genomic_data/bionano/bAcrTri1_Saphyr_DLE1_3680702
+pacbiohifi_bam  bAcrTri1            170068730529               0      2147483648     87161694513         6164414  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210318_204236.subreads.bam
 pacbiohifi_bam  bAcrTri1              5989549845               0      2147483648      6692420944          384803  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210419_095733.ccs.bam
 pacbiohifi_clr  bAcrTri1            232280112345               0      2147483648    120488206521         8497136  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210419_095733.subreads.bam
 pacbiohifi_clr  bAcrTri1            413681742213               0      2147483648    213707533877        19028927  species/Acridotheres_tristis/bAcrTri1/genomic_data/pacbio_hifi/m54306U_210502_162335.subreads.bam
@@ -21,7 +22,7 @@ pacbiohifi_fqgz bAcrTri1              7575580497               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           bAcrTri1          1.9206    148841219344
 bionano         bAcrTri1         531.3233    488093653335
-pacbiohifi_bam  bAcrTri1          1.1892     40365910947
+pacbiohifi_bam  bAcrTri1          0.5233    923992017239
 pacbiohifi_clr  bAcrTri1          0.5224    904670668648
 pacbiohifi_fqgz bAcrTri1          1.1470     19006308016
 --------------- ---------------  ------- ---------------

@@ -13,6 +13,7 @@ pacbiohifi_fqgz bRhyJub1             12569927089               0      2147483648
 pacbiohifi_clr  bRhyJub1            206605811997               0      2147483648     90138605072         5474927  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m54306Ue_211127_155134.reads.bam
 pacbiohifi_bam  bRhyJub1             39355696915               0      2147483648     10616831815          674394  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m64330e_211129_212851.hifi_reads.bam
 pacbiohifi_fqgz bRhyJub1              8807061681               0      2147483648     10540708662          671892  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m64330e_211129_212851.hifi_reads.fastq.gz
+pacbiohifi_bam  bRhyJub1            171604755918               0      2147483648     76278018137         5075943  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m64330e_211129_212851.reads.bam
 pacbiohifi_clr  bRhyJub1            184860324324               0      2147483648     82041047660         5480429  species/Rhynochetos_jubatus/bRhyJub1/genomic_data/pacbio_hifi/m64334e_211127_175447.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -22,7 +23,7 @@ pacbiohifi_clr  bRhyJub1            184860324324               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           bRhyJub1          1.8003     83611168449
 bionano         bRhyJub1         489.4028    751232250504
-pacbiohifi_bam  bRhyJub1          0.2717     50591245303
+pacbiohifi_bam  bRhyJub1          0.4177    390812322691
 pacbiohifi_clr  bRhyJub1          0.4385    328623572045
 pacbiohifi_fqgz bRhyJub1          1.2072     50858025899
 --------------- ---------------  ------- ---------------

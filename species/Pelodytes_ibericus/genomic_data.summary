@@ -4,6 +4,12 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           aPelIbe1             25762919621               0      2147483648     53192684461       526660254  species/Pelodytes_ibericus/aPelIbe1/genomic_data/arima/aPelIbe1_L122782_Track-168667_R1.fastq.gz
 arima           aPelIbe1             26911698768               0      2147483648     53481566370       529520471  species/Pelodytes_ibericus/aPelIbe1/genomic_data/arima/aPelIbe1_L122782_Track-168667_R2.fastq.gz
+pacbiohifi_dcfqgz aPelIbe1             18054949144               0     18054949144     32722698551         2502562  species/Pelodytes_ibericus/aPelIbe1/genomic_data/pacbio_hifi/m64046_230120_010827.DeepConsensus.fastq.gz
+pacbiohifi_bam  aPelIbe1             95145591407               0     95145591407     27880304803         2161023  species/Pelodytes_ibericus/aPelIbe1/genomic_data/pacbio_hifi/m64046_230120_010827.ccs.bam
+pacbiohifi_dcfqgz aPelIbe1             10035419492               0     10035419492     19269381585         1562279  species/Pelodytes_ibericus/aPelIbe1/genomic_data/pacbio_hifi/m64046_230126_135123.DeepConsensus.fastq.gz
+pacbiohifi_bam  aPelIbe1             57507802354               0     57507802354     17173097072         1408542  species/Pelodytes_ibericus/aPelIbe1/genomic_data/pacbio_hifi/m64046_230126_135123.ccs.bam
+pacbiohifi_dcfqgz aPelIbe1             15578965925               0     15578965925     29171251496         2341514  species/Pelodytes_ibericus/aPelIbe1/genomic_data/pacbio_hifi/m64046_230128_004653.DeepConsensus.fastq.gz
+pacbiohifi_bam  aPelIbe1             86380064488               0     86380064488     25527446486         2075147  species/Pelodytes_ibericus/aPelIbe1/genomic_data/pacbio_hifi/m64046_230128_004653.ccs.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +17,6 @@ arima           aPelIbe1             26911698768               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aPelIbe1          2.0123    105997134584
+pacbiohifi_bam  aPelIbe1          0.2952     70562676875
+pacbiohifi_dcfqgz aPelIbe1          1.8585     81159458281
 --------------- ---------------  ------- ---------------

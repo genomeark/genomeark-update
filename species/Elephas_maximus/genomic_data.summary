@@ -14,6 +14,7 @@ pacbiohifi_fqgz mEleMax1             28398106061               0      2147483648
 pacbiohifi_clr  mEleMax1            266594069859               0      2147483648    100736503323         5744323  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m64334e_211022_161721.reads.bam
 pacbiohifi_bam  mEleMax1            121235798111               0      2147483648     32646571572         2035760  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m64334e_211025_111049.hifi_reads.bam
 pacbiohifi_fqgz mEleMax1             28015160191               0      2147483648     32643418205         2041593  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m64334e_211025_111049.hifi_reads.fastq.gz
+pacbiohifi_bam  mEleMax1            273266844630               0      2147483648    104441718867         5899427  species/Elephas_maximus/mEleMax1/genomic_data/pacbio_hifi/m64334e_211025_111049.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -22,7 +23,7 @@ pacbiohifi_fqgz mEleMax1             28015160191               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           mEleMax1          1.8521    277423507787
 bionano         mEleMax1         540.9316   1237175383826
-pacbiohifi_bam  mEleMax1          0.2698    137657761053
+pacbiohifi_bam  mEleMax1          0.4034   1223588889324
 pacbiohifi_clr  mEleMax1          0.4678   1180244713927
 pacbiohifi_fqgz mEleMax1          1.1793    137817384957
 --------------- ---------------  ------- ---------------

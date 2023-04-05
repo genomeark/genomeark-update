@@ -5,6 +5,7 @@
 arima           bPorHoc1             41343370937               0      2147483648     60927344520       406182296  species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/arima/ARI_2476_7_R1.filtered.fastq.gz
 arima           bPorHoc1             49090284003               0      2147483648     65109145175       434060990  species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/arima/ARI_2476_7_R2.filtered.fastq.gz
 bionano         bPorHoc1               915241403               0       915241403    488939571218         4825473  species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/bionano/bPorHoc1_Saphyr_DLE1_3680693
+pacbiohifi_bam  bPorHoc1            191519217075               0      2147483648     99472923406         8487108  species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/pacbio_hifi/m54306U_200827_182322.subreads.bam
 pacbiohifi_bam  bPorHoc1              9674395725               0      2147483648     12209246711          934015  species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/pacbio_hifi/m54306U_200904_214941.ccs.bam
 pacbiohifi_clr  bPorHoc1            418422158520               0      2147483648    215751651924        20035900  species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/pacbio_hifi/m54306U_200904_214941.subreads.bam
 pacbiohifi_bam  bPorHoc1             12186246369               0      2147483648     13116489737          813990  species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/pacbio_hifi/m54306U_210309_170452.ccs.bam
@@ -25,6 +26,6 @@ arima           bPorHoc1          1.3699    123885063902
 bionano         bPorHoc1         534.2192    488939571218
 illumina        bPorHoc2          1.9787     99863800731
 illumina        bPorHoc3          1.9712     68153038133
-pacbiohifi_bam  bPorHoc1          1.1230     43982843668
+pacbiohifi_bam  bPorHoc1          0.5257    811273384097
 pacbiohifi_clr  bPorHoc1          0.5146    773989026143
 --------------- ---------------  ------- ---------------

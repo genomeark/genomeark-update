@@ -6,10 +6,13 @@ bionano         bPelCri1              1240476449               0      1240476449
 bionano         bPelCri1               212713598               0       212713598    205535307206         3102665  species/Pelecanus_crispus/bPelCri1/genomic_data/bionano/bPelCri1_Saphyr_DLE1_NOE3E7OLPRKE7NWU_F1P1
 bionano         bPelCri1               343407725               0       343407725    758824734799         9384438  species/Pelecanus_crispus/bPelCri1/genomic_data/bionano/bPelCri1_Saphyr_DLE1_NOE3E7OLPRKE7NWU_F2P1
 pacbiohifi_bam  bPelCri1              8169119839               0      2147483648     10184007818          719188  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210325_052255.ccs.bam
+pacbiohifi_fqgz bPelCri1              8979004628               0      2147483648     11193648169          790488  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210325_052255.ccs.fastq.gz
 pacbiohifi_clr  bPelCri1            314526980508               0      2147483648    162908155258        11819274  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210325_052255.subreads.bam
 pacbiohifi_bam  bPelCri1             10104984084               0      2147483648     12765851981          854212  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210504_215359.ccs.bam
+pacbiohifi_fqgz bPelCri1             11118103620               0      2147483648     14045748509          939855  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210504_215359.ccs.fastq.gz
 pacbiohifi_clr  bPelCri1            353121182458               0      2147483648    183313463785        13839989  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m54345U_210504_215359.subreads.bam
 pacbiohifi_bam  bPelCri1              8342408679               0      2147483648     10188650473          663781  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m64046_210430_203759.ccs.bam
+pacbiohifi_fqgz bPelCri1              9164295893               0      2147483648     11192427904          729176  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m64046_210430_203759.ccs.fastq.gz
 pacbiohifi_clr  bPelCri1            284840114132               0      2147483648    148119424459        10835413  species/Pelecanus_crispus/bPelCri1/genomic_data/pacbio_hifi/m64046_210430_203759.subreads.bam
 arima           bPelCri2             23951018963               0      2147483648     44537509686       294950406  species/Pelecanus_crispus/bPelCri2/genomic_data/arima/bPelCri2_S3_R1_001.fastq.gz
 arima           bPelCri2             24080744256               0      2147483648     44437355686       294287134  species/Pelecanus_crispus/bPelCri2/genomic_data/arima/bPelCri2_S3_R2_001.fastq.gz
@@ -21,6 +24,7 @@ arima           bPelCri2             24080744256               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           bPelCri2          1.8500     88858761955
 bionano         bPelCri1         910.0018   1634907320727
-pacbiohifi_bam  bPelCri1          1.2450     33137558189
+pacbiohifi_bam  bPelCri1          0.5285    517456881356
 pacbiohifi_clr  bPelCri1          0.5189    494246166986
+pacbiohifi_fqgz bPelCri1          1.2450     36430448155
 --------------- ---------------  ------- ---------------

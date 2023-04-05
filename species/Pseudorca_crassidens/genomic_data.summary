@@ -13,6 +13,7 @@ pacbiohifi_fqgz mPseCra1             18319436293               0      2147483648
 pacbiohifi_clr  mPseCra1            179368909677               0      2147483648     69518667549         4498163  species/Pseudorca_crassidens/mPseCra1/genomic_data/pacbio_hifi/m54306Ue_210926_052803.reads.bam
 pacbiohifi_bam  mPseCra1             72633798688               0      2147483648     19955381256         1186299  species/Pseudorca_crassidens/mPseCra1/genomic_data/pacbio_hifi/m54306Ue_210927_162621.hifi_reads.bam
 pacbiohifi_fqgz mPseCra1             16210947866               0      2147483648     19930832632         1187307  species/Pseudorca_crassidens/mPseCra1/genomic_data/pacbio_hifi/m54306Ue_210927_162621.hifi_reads.fastq.gz
+pacbiohifi_bam  mPseCra1            151861269629               0      2147483648     58519281322         3565637  species/Pseudorca_crassidens/mPseCra1/genomic_data/pacbio_hifi/m54306Ue_210927_162621.reads.bam
 pacbiohifi_clr  mPseCra1            155302812155               0      2147483648     60482664015         3686508  species/Pseudorca_crassidens/mPseCra1/genomic_data/pacbio_hifi/m64055e_210925_231319.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -22,7 +23,7 @@ pacbiohifi_clr  mPseCra1            155302812155               0      2147483648
 --------------- ---------------  ------- ---------------
 bionano         mPseCra1         465.3108    834456331922
 dovetail        mPseCra1          1.8101    321424305870
-pacbiohifi_bam  mPseCra1          0.2702    116987691590
+pacbiohifi_bam  mPseCra1          0.3639    515167355101
 pacbiohifi_clr  mPseCra1          0.3889    382178573406
 pacbiohifi_fqgz mPseCra1          1.1564    116443093480
 --------------- ---------------  ------- ---------------

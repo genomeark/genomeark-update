@@ -42,6 +42,7 @@ arima           bGalGal4             17882050564               0      2147483648
 bionano         bGalGal4               841386348               0       841386348    386690711344         4389474  species/Gallus_gallus/bGalGal4/genomic_data/bionano/bGalGal4_Saphyr_DLE1_3680518
 bionano         bGalGal4                18215294               0        18215294      1098348135             242  species/Gallus_gallus/bGalGal4/genomic_data/bionano/bGalGal4_Saphyr_DLE1_3680542
 pacbiohifi_clr  bGalGal4             89056450367               0      2147483648     45805546591         8601280  species/Gallus_gallus/bGalGal4/genomic_data/pacbio_hifi/m54306U_201011_031056.subreads.bam
+pacbiohifi_bam  bGalGal4             53981045944               0      2147483648     27618886939         8370984  species/Gallus_gallus/bGalGal4/genomic_data/pacbio_hifi/m54306U_201106_204219.subreads.bam
 pacbiohifi_bam  bGalGal4              6485846338               0      2147483648      7159502397          437767  species/Gallus_gallus/bGalGal4/genomic_data/pacbio_hifi/m54306U_210322_154536.ccs.bam
 pacbiohifi_clr  bGalGal4            279694957735               0      2147483648    143989125106        10983922  species/Gallus_gallus/bGalGal4/genomic_data/pacbio_hifi/m54306U_210322_154536.subreads.bam
 pacbiohifi_bam  bGalGal4              1802227617               0      1802227617      1925750278          102154  species/Gallus_gallus/bGalGal4/genomic_data/pacbio_hifi/m64055_200702_205110.ccs.bam
@@ -82,7 +83,7 @@ illumina        bGalGal2          1.8592    103180479895
 illumina        bGalGal3          1.8649    116183322122
 ont             bGalGal1          1.0200    120016257401
 pacbio          bGalGal1          0.5393    123488382835
-pacbiohifi_bam  bGalGal4          1.0892     39380355184
+pacbiohifi_bam  bGalGal4          0.5202    829956351501
 pacbiohifi_clr  bGalGal4          0.5156    803975578832
 pacbiohifi_clr  bGalGal5          0.5227    733798793598
 pacbiohifi_fqgz bGalGal1          1.0900     92892980735

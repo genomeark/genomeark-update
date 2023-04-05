@@ -10,6 +10,7 @@ ont             mGorGor1             70231917450               0      2147483648
 ont             mGorGor1             28712737470               0      2147483648     35321501039          717790  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAG68695_guppy-6.3.7-sup.fastq.gz
 ont             mGorGor1             83270961833               0      2147483648     88056126032         4770347  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAI19139_guppy-6.1.1.fastq.gz
 ont             mGorGor1             77709092392               0      2147483648     82767688610         3376888  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAI19180_guppy-6.1.1.fastq.gz
+pacbiohifi_bam  mGorGor1            111676096433               0      2147483648    135026046697         8506221  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m54329U_210319_174352.ccs.Q20.bam
 pacbiohifi_fqgz mGorGor1             24249885649               0      2147483648     29320206352         1847081  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m54329U_210319_174352.ccs.Q20.fastq.gz
 pacbiohifi_fqgz mGorGor1             27473244156               0      2147483648     29792465300         1863167  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m54329U_210319_174352.hifi_reads.fastq.gz
 pacbiohifi_bam  mGorGor1            152250424265               0      2147483648    212476466695        11791964  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m54329U_211102_230231.hifi_reads.bam
@@ -21,10 +22,12 @@ pacbiohifi_bam  mGorGor1            133624085713               0      2147483648
 pacbiohifi_clr  mGorGor1            926461070651               0      2147483648    481724594540        34660909  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m64076_210208_175256.subreads.bam
 pacbiohifi_bam  mGorGor1            116984750801               0      2147483648     30920304963         2063414  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m64076_210213_010909.hifi_reads.bam
 pacbiohifi_fqgz mGorGor1             25197894255               0      2147483648     31830584153         2094603  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m64076_210214_073735.Q20.fastq.gz
+pacbiohifi_bam  mGorGor1            893541967874               0      2147483648    466798358646        33883702  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m64076_210214_073735.subreads.bam
 pacbiohifi_clr  mGorGor1            781869688856               0      2147483648    407528905939        29706541  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m64076_210215_140546.subreads.bam
 pacbiohifi_clr  mGorGor1            895102987865               0      2147483648    467284307303        32730382  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m64076_210326_192259.subreads.bam
 pacbiohifi_bam  mGorGor1            142855997778               0      2147483648     39330882277         1877664  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m64076_230114_050324-bc2013.hifi_reads.bam
 pacbiohifi_fqgz mGorGor1             28313789253               0      2147483648      7795306667          372149  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/m64076_230114_050324-bc2013.hifi_reads.fastq.gz
+pacbiohifi_bam  mGorGor1            299734223647               0      2147483648    112314636025         5665334  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/r54329U_20211102_224720_A01.reads.bam
 pacbiohifi_clr  mGorGor1            257682851635               0      2147483648     91468579166         5540433  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/r64076_20210208_173711_A01.reads.bam
 pacbiohifi_clr  mGorGor1            242002679377               0      2147483648     84383935433         5463273  species/Gorilla_gorilla/mGorGor1/genomic_data/pacbio_hifi/r64076_20210211_183912_C01.reads.bam
 illumina        mGorGor2             11094151595               0      2147483648     22318893853       147807244  species/Gorilla_gorilla/mGorGor2/genomic_data/illumina/mGorGor2_HNFNCDSX2_19164900_S14_L002_R1_001.fastq.gz
@@ -43,7 +46,7 @@ dovetail        mGorGor1          1.8291    148466265721
 illumina        mGorGor2          1.9420    213033786108
 illumina        mGorGor3          1.9452    250557336978
 ont             mGorGor1          1.0931    570577115118
-pacbiohifi_bam  mGorGor1          0.6381    747696652760
+pacbiohifi_bam  mGorGor1          0.4626   6706698229511
 pacbiohifi_clr  mGorGor1          0.4988   6591344573011
 pacbiohifi_fqgz mGorGor1          1.2351    395073662483
 --------------- ---------------  ------- ---------------

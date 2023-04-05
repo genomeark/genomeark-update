@@ -5,6 +5,7 @@
 arima           mNeoNeb1             87260080648               0      2147483648    175878641614      1172524318  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/arima/mNeoNeb1_Clouded_Leopard_R1_001.fastq.gz
 arima           mNeoNeb1             91620881235               0      2147483648    178629107849      1190860718  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/arima/mNeoNeb1_Clouded_Leopard_R2_001.fastq.gz
 bionano         mNeoNeb1              1185920672               0      1185920672    645125298513         7670985  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/bionano/mNeoNeb1_Saphyr_DLE1_3683050
+pacbiohifi_bam  mNeoNeb1            138141304124               0      2147483648     54940403166         3183353  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211025_041311.reads.bam
 pacbiohifi_bam  mNeoNeb1             78783584708               0      2147483648     20983700294         1471787  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.hifi_reads.bam
 pacbiohifi_fqgz mNeoNeb1             18001479743               0      2147483648     20961721884         1470164  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.hifi_reads.fastq.gz
 pacbiohifi_clr  mNeoNeb1            222016948724               0      2147483648     90306199795         5401953  species/Neofelis_nebulosa/mNeoNeb1/genomic_data/pacbio_hifi/m54306Ue_211108_202417.reads.bam
@@ -22,7 +23,7 @@ pacbiohifi_clr  mNeoNeb1            229847647298               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           mNeoNeb1          1.9709    352556487775
 bionano         mNeoNeb1         543.9868    645125298513
-pacbiohifi_bam  mNeoNeb1          0.2690     87252190958
+pacbiohifi_bam  mNeoNeb1          0.3811    446067949600
 pacbiohifi_clr  mNeoNeb1          0.4044    342169804376
 pacbiohifi_fqgz mNeoNeb1          1.1899     87225922002
 --------------- ---------------  ------- ---------------
