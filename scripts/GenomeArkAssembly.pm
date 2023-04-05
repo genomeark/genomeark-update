@@ -101,6 +101,7 @@ sub parseAssemblyName ($$$) {
         if ((defined($p[1])) &&
             ($p[1] ne "asm") &&
             ($p[1] ne "cur") &&
+            ($p[1] ne "dup") &&
             ($p[1] ne "decon")) {
             print " - Filename has '$p[1]' as second word; required 'cur' or 'asm'.\n"   if ($verbose);
             $err = "  Filename '$3$4.$5.$6$7$8.fasta.gz' has '$p[1]' as second word; required 'cur' or 'asm'.\n";
@@ -118,9 +119,13 @@ sub parseAssemblyName ($$$) {
 
     #  Set the curation/deconamination status.
 
-    if ($filename =~ m/decon/) {
+    if ($filename =~ m/\.decon\./) {
         print " - Decontaminated assembly!\n"   if ($verbose);
         $curated = "decontaminated";
+    }
+    elsif ($filename =~ m/\.dup\./) {
+        print " - Duplicate contigs.\n"   if ($verbose);
+        $curated = "duplicate";
     }
     elsif ($aLabel eq "assembly_curated") {
         print " - Curated assembly!\n"   if ($verbose);
@@ -368,7 +373,7 @@ sub rememberLatestAssembly ($$$$$) {
     #  If we've seen a curated assembly, and this one isn't, skip it.
 
     if (($$data{"${prialt}${sNum}__curated"} eq "curated") && ($curated ne "curated")) {
-        print " - Ignore $curated assembly\n";
+        print " - Ignore $curated assembly.\n";
         return;
     }
 
