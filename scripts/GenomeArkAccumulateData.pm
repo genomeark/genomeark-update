@@ -102,6 +102,7 @@ sub accumulateData ($$$$$$$$) {
         ($filename =~ m!/genomic_data/baylor-hic/!) ||
         ($filename =~ m!/genomic_data/hic/!)) {
         return if ($filename =~ m/re_bases.txt/);
+        return if ($filename =~ m/re_bases.text/);
         return if ($filename =~ m/re_enz.txt/);
 
         if (($filename =~ m/fastq.gz$/) ||
@@ -283,57 +284,11 @@ sub accumulateData ($$$$$$$$) {
     if ($filename =~ m!/genomic_data/pacbio_hifi/!) {
         return if ($filename =~ m/txt$/);
 
-        #  Filtered data
+        #  Catch subread data first, then assume anything else is HiFi consensus data.
 
-        if    (($filename =~ m/\.hifi_reads\.f(ast){0,1}q\.gz$/) ||
-               ($filename =~ m/\.reads\.f(ast){0,1}q\.gz$/) ||
-               ($filename =~ m/\.ccs.bc.*\.f(ast){0,1}q\.gz$/) ||
-               ($filename =~ m/\.Q20\.f(ast){0,1}q\.gz$/)) {
-            $$tiFiles{"pacbiohifi_fqgz:$iName"} .= "pacbiohifi_fqgz:$iName $filesize $filename\0";
-            $$tiBytes{"pacbiohifi_fqgz:$iName"} += $filesize;
-            $$tiIndiv{"pacbiohifi_fqgz:$iName"} .= "$sName/$iName\0";
-            saveDataDate($filesecs, $data);
-        }
-
-        elsif (($filename =~ m/\.hifi_reads\.f(ast){0,1}q$/) ||
-               ($filename =~ m/\.reads\.f(ast){0,1}q$/) ||
-               ($filename =~ m/\.ccs.bc.*\.f(ast){0,1}q$/) ||
-               ($filename =~ m/\.Q20\.f(ast){0,1}q$/)) {
-            if ($warning) {
-                push @$errors, "  WARNING: uncompressed pacbio_hifi '$filename'\n";
-            }
-            #$$tiFiles{"pacbiohifi:$iName"} .= {"pacbiohifi:$iName $filesize $filename\0";
-            #$$tiBytes{"pacbiohifi:$iName"} += $filesize;
-            #$$tiIndiv{"pacbiohifi:$iName"} .= "$sName/$iName\0";
-        }
-
-        elsif (($filename =~ m/\.hifi_reads\.bam\.bai$/) ||
-               ($filename =~ m/\.hifi_reads\.bam\.pbi$/) ||
-               ($filename =~ m/\.ccs.bam\.pbi$/) ||
-               ($filename =~ m/\.ccs.bam\.bai$/) ||
-               ($filename =~ m/\.ccs.bc.*\.bam\.pbi$/) ||
-               ($filename =~ m/\.ccs.bc.*\.bam\.bai$/)) {
-            $$tiBytes{"pacbiohifi_bam:$iName"} += $filesize;
-            saveDataDate($filesecs, $data);
-        }
-
-        elsif (($filename =~ m/\.hifi_reads\.bam$/) ||
-               ($filename =~ m/\.ccs.bam$/) ||
-               ($filename =~ m/\.ccs.bc.*\.bam$/)) {
-            $$tiFiles{"pacbiohifi_bam:$iName"} .= "pacbiohifi_bam:$iName $filesize $filename\0";
-            $$tiBytes{"pacbiohifi_bam:$iName"} += $filesize;
-            $$tiIndiv{"pacbiohifi_bam:$iName"} .= "$sName/$iName\0";
-            saveDataDate($filesecs, $data);
-        }
-
-        #  Ignore unfiltered data, but warn if there isn't a corresponding fastq for it.
-
-        elsif (($filename =~ m/\.subreads\.bam\.pbi$/) ||
-               ($filename =~ m/\.reads\.bam\.pbi$/)) {
-            $$tiBytes{"pacbiohifi_clr:$iName"} += $filesize;
-            saveDataDate($filesecs, $data);
-        }
-        elsif (($filename =~ m/\.subreads\.bam\.bai$/) ||
+        if    (($filename =~ m/\.subreads\.bam\.pbi$/) ||
+               ($filename =~ m/\.subreads\.bam\.bai$/) ||
+               ($filename =~ m/\.reads\.bam\.pbi$/) ||
                ($filename =~ m/\.reads\.bam\.bai$/)) {
             $$tiBytes{"pacbiohifi_clr:$iName"} += $filesize;
             saveDataDate($filesecs, $data);
@@ -344,14 +299,53 @@ sub accumulateData ($$$$$$$$) {
             $$tiBytes{"pacbiohifi_clr:$iName"} += $filesize;
             $$tiIndiv{"pacbiohifi_clr:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+        }
 
-            #  Check that this bam has a corresponding fastq file.
-            #    Accipiter_gentilis
-            #if ($filename =~ m!pacbio_hifi/(.*)\.bam$!) {
-            #    if (! exists($hifinames{$1})) {
-            #        push @$errors, "  No filtered hifi for '$filename'\n";
-            #    }
-            #}
+        #  DeepConsensus and Q20 filtered data.
+
+        if    (($filename =~ m/\.DeepConsensus\.f(ast){0,1}q\.gz$/) ||
+               ($filename =~ m/\.DeepConsensus.Q20\.f(ast){0,1}q\.gz$/)) {
+            $$tiFiles{"pacbiohifi_dcfqgz:$iName"} .= "pacbiohifi_dcfqgz:$iName $filesize $filename\0";
+            $$tiBytes{"pacbiohifi_dcfqgz:$iName"} += $filesize;
+            $$tiIndiv{"pacbiohifi_dcfqgz:$iName"} .= "$sName/$iName\0";
+            saveDataDate($filesecs, $data);
+        }
+
+        elsif (($filename =~ m/\.Q20\.f(ast){0,1}q\.gz$/)) {
+            $$tiFiles{"pacbiohifi_fqgz:$iName"} .= "pacbiohifi_q2fqgz:$iName $filesize $filename\0";
+            $$tiBytes{"pacbiohifi_fqgz:$iName"} += $filesize;
+            $$tiIndiv{"pacbiohifi_fqgz:$iName"} .= "$sName/$iName\0";
+            saveDataDate($filesecs, $data);
+        }
+
+        #  Unfiltered data.
+
+        elsif (($filename =~ m/\.f(ast){0,1}q\.gz$/)) {
+            $$tiFiles{"pacbiohifi_fqgz:$iName"} .= "pacbiohifi_fqgz:$iName $filesize $filename\0";
+            $$tiBytes{"pacbiohifi_fqgz:$iName"} += $filesize;
+            $$tiIndiv{"pacbiohifi_fqgz:$iName"} .= "$sName/$iName\0";
+            saveDataDate($filesecs, $data);
+        }
+
+        elsif (($filename =~ m/\.bam\.bai$/) ||
+               ($filename =~ m/\.bam\.pbi$/)) {
+            $$tiBytes{"pacbiohifi_bam:$iName"} += $filesize;
+            saveDataDate($filesecs, $data);
+        }
+
+        elsif (($filename =~ m/\.bam$/)) {
+            $$tiFiles{"pacbiohifi_bam:$iName"} .= "pacbiohifi_bam:$iName $filesize $filename\0";
+            $$tiBytes{"pacbiohifi_bam:$iName"} += $filesize;
+            $$tiIndiv{"pacbiohifi_bam:$iName"} .= "$sName/$iName\0";
+            saveDataDate($filesecs, $data);
+        }
+
+        #  Warn about uncompressed data.
+
+        elsif (($filename =~ m/\.f(ast){0,1}q$/)) {
+            if ($warning) {
+                push @$errors, "  WARNING: uncompressed pacbio_hifi '$filename'\n";
+            }
         }
 
         #  Otherwise report confusion.

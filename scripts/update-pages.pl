@@ -86,7 +86,7 @@ die "Didn't find genomeark.github.io.\n"  if (!defined($ga));
 
 my $lastupdate  = loadBucketFiles();        #  Private list of all files in the bucket.
 my $nGenBank    = loadGenbankMap();         #  Private map from ToLID to GenBank accession.
-my $nProject    = loadProjectMap();         #  Private map from species name_ to project.
+my $nProject    = loadProjectMetadata();    #  Private list of known genome projects.
 
 my %missingData;                            #  List of species that need to download data.
 my %templateMeta;                           #  List of species that have only template metadata
@@ -125,9 +125,8 @@ foreach my $species (@speciesList) {
 
     #  Load metadata, copy some of it into the .md data output.
 
-    my %meta = ();
     my %data = ();
-    my $name = loadSpeciesMetadata(\%data, $species, \%meta, \%templateMeta, \@potentialErrors);
+    my $name = loadSpeciesMetadata(\%data, $species, \%templateMeta, \@potentialErrors);
 
     setGenbankIDs(\%data);
 
@@ -284,6 +283,7 @@ foreach my $species (@speciesList) {
 
         #  Argh, the location of the reads is not the same as 'type'.
         my $path = $ty;
+        $path = "pacbio_hifi"   if ($ty eq "pacbiohifi_dcfqgz");
         $path = "pacbio_hifi"   if ($ty eq "pacbiohifi_fqgz");
         $path = "pacbio_hifi"   if ($ty eq "pacbiohifi_bam");
         $path = "pacbio_hifi"   if ($ty eq "pacbiohifi_clr");

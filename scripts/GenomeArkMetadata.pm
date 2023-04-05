@@ -8,106 +8,72 @@ require Exporter;
 use strict;
 use warnings;
 
-use GenomeArkUtility;
+use GenomeArkProject;
 
-#use Time::Local;
-#use List::Util;
-
+use YAML::XS;
 
 #
-#  Load metadata from our cache, or fetch it from the bucket if it is newer.
+#  Load metadata for a species.
 #
 
-sub loadSpeciesMetadata ($$$$$) {
+sub loadSpeciesMetadata ($$$$) {
     my $data     = shift @_;
     my $species  = shift @_;
-    my $meta     = shift @_;
     my $template = shift @_;
     my $errors   = shift @_;
     my $mdf;
 
-    my  @keys;
-    my  @lvls;
-
-    my  $lvl = 0;
-
     undef %$data;
-    undef %$meta;
 
-    #  Find the metadata, or template, or die.
+    #  Remove template if real exists.
 
-    if      (-e "genomeark-metadata/species/$species.yaml") {
+    if   ((-e "genomeark-metadata/species/$species.yaml") &&
+          (-e "genomeark-metadata/species/$species.yaml.template")) {
+        unlink "genomeark-metadata/species/$species.yaml.template";
+    }
+
+    #  Find metadata file.
+
+    if    (-e "genomeark-metadata/species/$species.yaml") {
         $mdf  = "genomeark-metadata/species/$species.yaml";
-    } elsif (-e "genomeark-metadata/species/$species.yaml.template") {
+    }
+    elsif (-e "genomeark-metadata/species/$species.yaml.template") {
         $mdf  = "genomeark-metadata/species/$species.yaml.template";
         $$template{$species}++;
         #push @$errors, "  Species '$species' has only template metadata.\n";
-    } else {
+    }
+    else {
         die "No metadata found for species '$species'.\n";
     }
 
     #  Read the metadata.
 
-    open(MD, "< $mdf") or die "Failed to open metadata file '$mdf'\n";
-    while (<MD>) {
-        chomp;
-
-        if (m/^(\s*)(\S*):\s*(.*)$/) {
-            my $indent = $1;
-            my $key    = $2;   $key   =~ s/^\s+//;  $key   =~ s/\s+$//;
-            my $value  = $3;   $value =~ s/^\s+//;  $value =~ s/\s+$//;
-
-            my $len    = length($indent);
-
-            if      ($len  < $lvl) {
-                while ($len < $lvl) {
-                    $lvl -= $lvls[-1];
-                    pop @keys;
-                    pop @lvls;
-                }
-            }
-
-            if ($len == $lvl) {
-                pop @keys;
-                push @keys, $key;
-
-            } elsif ($len >  $lvl) {
-                push @keys, $key;
-                push @lvls, $len - $lvl;
-
-                $lvl = $len;
-            }
-
-            $key = join '.', @keys;
-
-            $$meta{$key} = $value;
-        }
-    }
-    close(MD);
+    #print "Using libYAML ", YAML::XS::LibYAML::libyaml_version(), "\n";
+    my $meta = YAML::XS::LoadFile($mdf);
 
     #  Do a bunch of sanity checks and copy the relevant bits from metadata to our data.
 
-    die "No meta{species.name} found?\n"  if ($$meta{"species.name"} eq "");
+    die "No meta{species.name} found?\n"  if ($meta->{species}->{name} eq "");
 
-    my @n = split '\s+', $$meta{"species.name"};
+    my @n = split '\s+', $meta->{species}->{name};
 
-    die "species.name '", $$meta{"species.name"}, "' has ", scalar(@n), " components, expected 2.\n" if (scalar(@n) < 2);
+    die "species.name '", $meta->{species}->{name}, "' has ", scalar(@n), " components, expected 2.\n" if (scalar(@n) < 2);
 
-    $$data{"name"}                = $$meta{"species.name"};         #  Name with a space:     'Species name'
-    $$data{"name_"}               = "$n[0]_$n[1]";                  #  Name with underscore:  'Species_name'
-    $$data{"short_name"}          = $$meta{"species.short_name"};
+    $$data{"name"}                = $meta->{species}->{name};      #  Name with a space:     'Species name'
+    $$data{"name_"}               = "$n[0]_$n[1]";                 #  Name with underscore:  'Species_name'
+    $$data{"short_name"}          = $meta->{species}->{short_name};
 
     if ($$data{"name_"} ne $species) {
         push @$errors, "  Species '$species' is not the same as name '" . $$data{"name_"} . "'\n";
     }
 
-    $$data{"common_name"}         = $$meta{"species.common_name"};
+    $$data{"common_name"}         = $meta->{species}->{common_name};
     $$data{"common_name"}         = ""   if (!defined($$data{"common_name"}));
 
-    $$data{"taxon_id"}            = $$meta{"species.taxon_id"};
+    $$data{"taxon_id"}            = $meta->{species}->{taxon_id};
     $$data{"taxon_id"}            = ""   if (!defined($$data{"taxon_id"}));
 
-    $$data{"genome_size"}         = $$meta{"species.genome_size"};
+    $$data{"genome_size"}         = $meta->{species}->{genome_size};
     $$data{"genome_size"}         = 0   if (!defined($$data{"genome_size"}));
     $$data{"genome_size"}         = 0   if ($$data{"genome_size"} eq "");
 
@@ -116,7 +82,7 @@ sub loadSpeciesMetadata ($$$$$) {
         $$data{"genome_size"} *= 1000 * 1000 * 1000;
     }
 
-    $$data{"genome_size_method"}  = $$meta{"species.genome_size_method"};
+    $$data{"genome_size_method"}  = $meta->{species}->{genome_size_method};
     $$data{"genome_size_method"}  = ""  if (!defined($$data{"genome_size_method"}));
 
     $$data{"data_status"}         = "none";  #<em style=\"color:red\">no data</em>";
@@ -124,6 +90,10 @@ sub loadSpeciesMetadata ($$$$$) {
 
     #$data{"last_raw_data"}       = Do not set here; should only be present if data exists.
     $$data{"last_updated"}        = 0;
+
+    foreach my $p (@{$meta->{species}->{project}}) {
+        addProjectToSpecies($p, $$data{name_});
+    }
 
     return($$data{"name_"});      #  Return the proper Species_name for this species.
 }

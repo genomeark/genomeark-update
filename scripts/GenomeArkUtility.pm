@@ -12,7 +12,12 @@ use warnings;
 #use List::Util;
 
 #  Compile a regex for ToLIDs.
-our $ToLIDregex = qr "([a-z]{1,2}[A-Z][a-z]{2}[A-Z][a-z]{2,3})(\d+)";
+#    The spec says a{1,2}Aa{2}Aa{2,3} but there are exceptions:
+#      fDreSAT1, fDreTuH1, fDreABH1
+#      fEcheNa1
+#      fSalaFa1
+#      
+our $ToLIDregex = qr "([a-z]{1,2}[A-Z][a-z]{2,4}[A-Z][a-zA-Z]{1,3})(\d+)";
 
 
 #  Format a size in bytes nicely.

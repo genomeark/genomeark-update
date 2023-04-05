@@ -3,13 +3,14 @@ package GenomeArkProject;
 require Exporter;
 
 @ISA    = qw(Exporter);
-@EXPORT = qw(loadProjectMap getAllProjectNames getProjectID makeIndexPage);
+@EXPORT = qw(addProjectToSpecies loadProjectMetadata getAllProjectNames getProjectID makeIndexPage);
 
 use strict;
 use warnings;
 
 use Time::Local;
 use List::Util;
+use YAML::XS;
 
 my %projectID;
 my %projectIDtoProjectName;
@@ -17,59 +18,62 @@ my %projectIDtoProjectURL;
 my %speciesToProjectID;
 
 
-sub loadProjectMap () {
-    my  $proj;
+#
+#  Add a project to the string-list for a species.
+#    addProjectToSpecies("mgp", "Kaiju_godzilla");
+#
 
-    open(F, "< projects/species-to-project-map") or die;
-    while (<F>) {
-        s/^\s+//;
-        s/\s+$//;
+sub addProjectToSpecies ($$) {
+    my $project = shift @_;
+    my $species = shift @_;
 
-        next   if (m/^$/);
-        next   if (m/^#/);
-
-        if   (m/^name:\s*(.*)$/i) {                   #  Match a project text name.
-            $projectIDtoProjectName{$proj} = $1;
-            #print "  New PROJECT name '$proj' '$1'\n";
-        }
-        elsif (m/^url:\s*(.*)$/i) {                    #  Match a project URL.
-            $projectIDtoProjectURL{$proj} = $1;
-            #print "  New PROJECT url  '$proj' '$1'\n";
-        }
-        elsif (m/^([a-zA-Z0-9]+):$/) {                 #  Match a project definition name.
-            $proj = $1;
-            $projectID{$proj} = 1;
-            #print "  New PROJECT '$proj'\n";
-        }
-
-        elsif (m/^([A-Z][a-z]+[a-z_]+)\s+(.*)$/) {   #  Match a species -> project mapping
-            if (!exists($speciesToProjectID{$1})) {
-                $speciesToProjectID{$1}  =   $2;
-            } else {
-                $speciesToProjectID{$1} .= " $2";
-            }
-        }
-        elsif (m/^([A-Z][a-z_]+)$/) {                  #  Match an empty species -> project map.
-            #  Empty map.
-        }
-        else {
-            print STDERR "Invalid species-to-project-map line: '$_'\n";
-            die;
-        }
+    if (!exists($speciesToProjectID{$species})) {
+        $speciesToProjectID{$species}  =   $project;
+    } else {
+        $speciesToProjectID{$species} .= " $project";
     }
-    close(F);
+}
 
-    print "  Loaded ", scalar(keys %projectID),          " projects.\n";
-    print "  Loaded ", scalar(keys %speciesToProjectID), " species.\n";
+
+#
+#  Load project metadata.
+#
+
+sub loadProjectMetadata () {
+    my $mdf = "genomeark-metadata/projects.yaml";
+
+    print "\n";
+    print "Discovering genome projects.\n";
+
+    #print "Using libYAML ", YAML::XS::LibYAML::libyaml_version(), "\n";
+    my $meta = YAML::XS::LoadFile($mdf);
+
+    foreach my $p (@{$meta->{projects}}) {
+        my $proj = $p->{ident};
+
+        $projectID{$proj} = 1;
+
+        $projectIDtoProjectName{$proj} = $p->{name};
+        $projectIDtoProjectURL{$proj}  = $p->{url};
+    }
+
+    print "  Found ", scalar(keys %projectID), " genome projects.\n";
+    foreach my $p (getAllProjectNames()) {
+        printf "    %5s %-35s (%s)\n", "$p:", $projectIDtoProjectName{$p}, $projectIDtoProjectURL{$p};
+    }
 
     return(scalar(keys %projectID));
 }
 
+#
+#  Access projects.
+#    getAllProjectNames  - returns array of projet idents we know.
+#    getProjectID        - returns string-list ("vgp t2t") of projects for an individual.
+#
 
 sub getAllProjectNames () {
     return(keys %projectID);
 }
-
 
 sub getProjectID ($) {
     my $name = shift @_;
@@ -78,19 +82,9 @@ sub getProjectID ($) {
 }
 
 
-#sub getProjectName ($) {
-#    my $name = shift @_;
-#    my $proj = $speciesToProjectID{$name};
-#    return($projectIDtoProjectName{$proj});
-#}
-
-
-#sub getProjectURL ($) {
-#    my $name = shift @_;
-#    my $proj = $speciesToProjectID{$name};
-#    return($projectIDtoProjectURL{$proj});
-#}
-
+#
+#  Create 'index.html' that will list all species in a single project.
+#
 
 sub makeIndexPage ($$$$) {
     my $projectid   = shift @_;

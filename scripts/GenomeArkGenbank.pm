@@ -20,6 +20,9 @@ my %genbankMap;
 sub loadGenbankMap () {
     my @projects;
 
+    print "\n";
+    print "Discovering Species-to-GenBank mappings.\n";
+
     open(F, "ls projects/genbank.*.map 2>/dev/null |");
     while (<F>) {
         chomp;
@@ -30,8 +33,6 @@ sub loadGenbankMap () {
     if (scalar(@projects) == 0) {
         die "No projects/genbank.*.map found.\n";
     }
-
-    print "Loading individual to genbank mappings.\n";
 
     foreach my $project (@projects) {
         my ($success, $fail) = (0, 0);

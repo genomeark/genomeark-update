@@ -36,6 +36,9 @@ sub discoverSpecies (@) {
     my %species;   #  
     my @species;   #  List of valid species, return value.
  
+    print "\n";
+    print "Discovering species names.\n";
+
     foreach my $s (@_) {
         $species{$s}++   if ($s ne "");
     }
@@ -60,13 +63,13 @@ sub discoverSpecies (@) {
     }
     close(SL);
 
-    print "Found ", scalar(@species), " species.\n";
+    print "  Found ", scalar(@species), " species.\n";
 
     if (scalar(keys %species) > 0) {         #  Any remaining names are errors.
         print "\n";
-        print "ERROR: Did NOT find ", scalar(keys %species), " species:\n";
+        print "  ERROR: Did NOT find ", scalar(keys %species), " species:\n";
         foreach my $s (keys %species) {
-            print "ERROR:   $s\n";
+            print "  ERROR:   $s\n";
         }
         exit(1);
     }

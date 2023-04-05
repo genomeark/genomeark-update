@@ -74,9 +74,8 @@ foreach my $species (@speciesList) {
 
     #  Load metadata, copy some of it into the .md data output.
 
-    my %meta = ();
     my %data = ();
-    my $name = loadSpeciesMetadata(\%data, $species, \%meta, \%templateMeta, \@potentialErrors);
+    my $name = loadSpeciesMetadata(\%data, $species, \%templateMeta, \@potentialErrors);
 
     setGenbankIDs(\%data);
 
