@@ -81,11 +81,11 @@ sub accumulateData ($$$$$$$$) {
         die "failed to parse species name and individual from '$filename'\n";
     }
 
+
     if ($filename =~ m!/genomic_data/10x/!) {
         return if ($filename =~ m/txt$/);
 
-        if (($filename =~ m/fastq.gz$/) ||
-            ($filename =~ m/fq.gz$/)) {
+        if ($filename =~ m/\.f(ast){0,1}q\.gz$/) {
             $$tiFiles{"10x:$iName"} .= "10x:$iName $filesize $filename\0";
             $$tiBytes{"10x:$iName"} += $filesize;
             $$tiIndiv{"10x:$iName"} .= "$sName/$iName\0";
@@ -105,8 +105,7 @@ sub accumulateData ($$$$$$$$) {
         return if ($filename =~ m/re_bases.text/);
         return if ($filename =~ m/re_enz.txt/);
 
-        if (($filename =~ m/fastq.gz$/) ||
-            ($filename =~ m/fq.gz$/)) {
+        if ($filename =~ m/\.f(ast){0,1}q\.gz$/) {
             $$tiFiles{"arima:$iName"} .= "arima:$iName $filesize $filename\0";
             $$tiBytes{"arima:$iName"} += $filesize;
             $$tiIndiv{"arima:$iName"} .= "$sName/$iName\0";
@@ -159,11 +158,11 @@ sub accumulateData ($$$$$$$$) {
         return;
     }
 
+
     if ($filename =~ m!/genomic_data/dovetail/!) {
         return if ($filename =~ m/re_bases.txt/);
 
-        if (($filename =~ m/fastq.gz$/) ||
-            ($filename =~ m/fq.gz$/)) {
+        if ($filename =~ m/\.f(ast){0,1}q\.gz$/) {
             $$tiFiles{"dovetail:$iName"} .= "dovetail:$iName $filesize $filename\0";
             $$tiBytes{"dovetail:$iName"} += $filesize;
             $$tiIndiv{"dovetail:$iName"} .= "$sName/$iName\0";
@@ -175,11 +174,11 @@ sub accumulateData ($$$$$$$$) {
         return;
     }
 
+
     if ($filename =~ m!/genomic_data/illumina/!) {
         return if ($filename =~ m/txt$/);
 
-        if (($filename =~ m/fastq.gz$/) ||
-            ($filename =~ m/fq.gz$/)) {
+        if ($filename =~ m/\.f(ast){0,1}q\.gz$/) {
             $$tiFiles{"illumina:$iName"} .= "illumina:$iName $filesize $filename\0";
             $$tiBytes{"illumina:$iName"} += $filesize;
             $$tiIndiv{"illumina:$iName"} .= "$sName/$iName\0";
@@ -192,15 +191,8 @@ sub accumulateData ($$$$$$$$) {
     }
 
 
-    #  Oxford Nanopore
-    #
     if ($filename =~ m!/genomic_data/ont/!) {
-        #return if ($filename =~ m/txt$/);
-        #return if ($filename =~ m/txt$/);
-        #return if ($filename =~ m/txt$/);
-
-        if (($filename =~ m/fastq.gz$/) ||
-            ($filename =~ m/fq.gz$/)) {
+        if ($filename =~ m/\.f(ast){0,1}q\.gz$/) {
             $$tiFiles{"ont:$iName"} .= "ont:$iName $filesize $filename\0";
             $$tiBytes{"ont:$iName"} += $filesize;
             $$tiIndiv{"ont:$iName"} .= "$sName/$iName\0";
@@ -218,12 +210,7 @@ sub accumulateData ($$$$$$$$) {
 
 
     if ($filename =~ m!/genomic_data/ont_duplex/!) {
-        #return if ($filename =~ m/txt$/);
-        #return if ($filename =~ m/txt$/);
-        #return if ($filename =~ m/txt$/);
-
-        if (($filename =~ m/fastq.gz$/) ||
-            ($filename =~ m/fq.gz$/)) {
+        if ($filename =~ m/\.f(ast){0,1}q\.gz$/) {
             $$tiFiles{"ontduplex:$iName"} .= "ontduplex:$iName $filesize $filename\0";
             $$tiBytes{"ontduplex:$iName"} += $filesize;
             $$tiIndiv{"ontduplex:$iName"} .= "$sName/$iName\0";
@@ -241,29 +228,32 @@ sub accumulateData ($$$$$$$$) {
         return if ($filename =~ m/scraps\./);
     }
 
-    #  PacBio CLR has:
-    #    bax.h5
-    #    subreads.fasta
-    #    subreads.bam
-    #    subreads.bam.bai
-    #    subreads.bam.pbi
-    #
+
     if ($filename =~ m!/genomic_data/pacbio/!) {
         return if ($filename =~ m/txt$/);
 
         #  Normal CLR data.
-        if    ($filename =~ m/subreads.bam\.pbi$/) {
+        if   (($filename =~ m/\.subreads\.bam\.pbi$/) ||
+              ($filename =~ m/\.subreads\.bam\.bai$/)) {
             $$tiBytes{"pacbio:$iName"} += $filesize;
             saveDataDate($filesecs, $data);
         }
-        elsif ($filename =~ m/subreads.bam\.bai$/) {
-            $$tiBytes{"pacbio:$iName"} += $filesize;
-            saveDataDate($filesecs, $data);
-        }
-        elsif ($filename =~ m/subreads.bam$/) {
+        elsif ($filename =~ m/\.subreads\.bam$/) {
             $$tiFiles{"pacbio:$iName"} .= "pacbio:$iName $filesize $filename\0";
             $$tiBytes{"pacbio:$iName"} += $filesize;
             $$tiIndiv{"pacbio:$iName"} .= "$sName/$iName\0";
+            saveDataDate($filesecs, $data);
+        }
+        elsif ($filename =~ m/\.f(ast){0,1}q\.gz$/) {
+            $$tiFiles{"pacbio_fqgz:$iName"} .= "pacbio_fqgz:$iName $filesize $filename\0";
+            $$tiBytes{"pacbio_fqgz:$iName"} += $filesize;
+            $$tiIndiv{"pacbio_fqgz:$iName"} .= "$sName/$iName\0";
+            saveDataDate($filesecs, $data);
+        }
+        elsif ($filename =~ m/\.f(ast){0,1}a\.gz$/) {
+            $$tiFiles{"pacbio_fagz:$iName"} .= "pacbio_fagz:$iName $filesize $filename\0";
+            $$tiBytes{"pacbio_fagz:$iName"} += $filesize;
+            $$tiIndiv{"pacbio_fagz:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         }
 
@@ -274,13 +264,7 @@ sub accumulateData ($$$$$$$$) {
         return;
     }
 
-    #  PacBio HiFi has:
-    #    reads.bam
-    #    reads.bam.pbi
-    #
-    #    hifi_reads.bam
-    #    hifi_reads.fastq.gz
-    #
+
     if ($filename =~ m!/genomic_data/pacbio_hifi/!) {
         return if ($filename =~ m/txt$/);
 
@@ -368,8 +352,7 @@ sub accumulateData ($$$$$$$$) {
     if ($filename =~ m!/genomic_data/phase/!) {
         return if ($filename =~ m/re_bases.txt/);
 
-        if (($filename =~ m/fastq.gz$/) ||
-            ($filename =~ m/fq.gz$/)) {
+        if ($filename =~ m/\.f(ast){0,1}q\.gz$/) {
             $$tiFiles{"phase:$iName"} .= "phase:$iName $filesize $filename\0";
             $$tiBytes{"phase:$iName"} += $filesize;
             $$tiIndiv{"phase:$iName"} .= "$sName/$iName\0";
