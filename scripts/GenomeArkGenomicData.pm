@@ -29,30 +29,9 @@ my $seqrequester = "./seqrequester/build/bin/seqrequester";
 
 my %fnTypeI;   #  Map filename -> data-type and individual (: separated)
 my %fnBytes;   #  Map filename -> number of bytes in a genomic_data sequence file.
-#y %fnTimeS;   #  Map filename -> timestamp of summary -- not used!
 my %fnQuant;   #  Map filename -> Amount of raw file summarized (in gigabytes, or "all").
 my %fnBases;   #  Map filename -> number of bases in piece summarized.
 my %fnReads;   #  Map filename -> number of reads in piece summarized.
-
-#
-#  Update genomeark.github.io/_layouts/genomeark.html if this changes:
-#   - the coverage table
-#   - the list of links to download
-#
-
-#our @dataTypes = qw(10x
-#                    arima
-#                    bionano
-#                    dovetail
-#                    illumina
-#                    ont
-#                    ontduplex
-#                    pacbio
-#                    pacbiohifi_fqgz
-#                    pacbiohifi_bam
-#                    pacbiohifi_clr
-#                    phase);
-
 
 #
 #  Return the summary file name for some sequence file.  Strips off
@@ -632,10 +611,12 @@ sub estimateRawDataScaling ($$$$$$$) {
         !exists($fnBases{$file3})) {
         $$missing{ $$data{"name_"} } .= "$ti ";
 
-        push @$errors, "  WARNING: Size estimates not generated for:  (will use approximate scaling estimate)\n";
-        push @$errors, "    File 1 $file1\n"   if (!exists($fnBases{$file1}));
-        push @$errors, "    File 2 $file2\n"   if (!exists($fnBases{$file2}));
-        push @$errors, "    File 3 $file3\n"   if (!exists($fnBases{$file3}));
+        my $errstr = "  WARNING: Size estimates not generated for:  (will use approximate scaling estimate)\n";
+        $errstr   .= "    File 1 $file1\n"   if (!exists($fnBases{$file1}));
+        $errstr   .= "    File 2 $file2\n"   if (!exists($fnBases{$file2}));
+        $errstr   .= "    File 3 $file3\n"   if (!exists($fnBases{$file3}));
+
+        push @$errors, $errstr;
 
         $scaling = 1.5   if ($file1 =~ m!genomic_data/10x!);           #  Bimodal, ~1.4 and ~1.8
         $scaling = 1.5   if ($file1 =~ m!genomic_data/arima!);         #  Bimodal, ~1.5 and ~1.8
