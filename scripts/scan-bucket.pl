@@ -187,6 +187,18 @@ foreach my $species (@speciesList) {
 #  Output whatever errors we saved.
 #
 
+if (scalar(keys %templateMeta > 0)) {
+    my $n = scalar(keys %templateMeta);
+
+    print "\n";
+    print "----------------------------------------\n";
+    print "$n species with template metadata:\n";
+    #foreach my $l (sort keys %templateMeta) {
+    #    printf "  %s\n", $l;
+    #}
+}
+
+
 if (scalar(@potentialErrors > 0)) {
     my $n = scalar(@potentialErrors);
 
@@ -194,22 +206,9 @@ if (scalar(@potentialErrors > 0)) {
     print "----------------------------------------\n";
     print "$n potential errors found:\n";
     foreach my $l (sort @potentialErrors) {
+        $l =~ s/\n\s/\n   /g;  #  Add indent for multi-line strings.
         print "  $l";
     }
-    print "\n";
-}
-
-
-if (scalar(keys %templateMeta > 0)) {
-    my $n = scalar(keys %templateMeta);
-
-    print "\n";
-    print "----------------------------------------\n";
-    print "$n species with template metadata:\n";
-    foreach my $l (sort keys %templateMeta) {
-        printf "  %s\n", $l;
-    }
-    print "\n";
 }
 
 
@@ -220,7 +219,6 @@ if (scalar(@unknownFiles > 0)) {
     foreach my $l (sort @unknownFiles) {
         print "  $l";
     }
-    print "\n";
 }
 
 
@@ -242,7 +240,6 @@ if (scalar(keys %missingData > 0)) {
             printf "  %30s  %32s  %d files\n", $l, $k, $c{$k};
         }
     }
-    print "\n";
 }
 
 exit(0);
