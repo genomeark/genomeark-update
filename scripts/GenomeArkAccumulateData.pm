@@ -312,13 +312,20 @@ sub accumulateData ($$$$$$$$) {
         }
 
         elsif (($filename =~ m/\.Q20\.f(ast){0,1}q\.gz$/)) {
-            $$tiFiles{"pacbiohifi_fqgz:$iName"} .= "pacbiohifi_q2fqgz:$iName $filesize $filename\0";
-            $$tiBytes{"pacbiohifi_fqgz:$iName"} += $filesize;
-            $$tiIndiv{"pacbiohifi_fqgz:$iName"} .= "$sName/$iName\0";
+            $$tiFiles{"pacbiohifi_q2fqgz:$iName"} .= "pacbiohifi_q2fqgz:$iName $filesize $filename\0";
+            $$tiBytes{"pacbiohifi_q2fqgz:$iName"} += $filesize;
+            $$tiIndiv{"pacbiohifi_q2fqgz:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
         }
 
         #  Unfiltered data.
+
+        elsif (($filename =~ m/\.f(ast){0,1}a\.gz$/)) {
+            $$tiFiles{"pacbiohifi_fagz:$iName"} .= "pacbiohifi_fagz:$iName $filesize $filename\0";
+            $$tiBytes{"pacbiohifi_fagz:$iName"} += $filesize;
+            $$tiIndiv{"pacbiohifi_fagz:$iName"} .= "$sName/$iName\0";
+            saveDataDate($filesecs, $data);
+        }
 
         elsif (($filename =~ m/\.f(ast){0,1}q\.gz$/)) {
             $$tiFiles{"pacbiohifi_fqgz:$iName"} .= "pacbiohifi_fqgz:$iName $filesize $filename\0";
