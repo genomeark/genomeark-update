@@ -9,6 +9,7 @@ pacbiohifi_bam  fNeoGra1             55147626213               0      2147483648
 pacbiohifi_fqgz fNeoGra1             13233472085               0      2147483648     14689244000          856820  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64055e_211026_201650.hifi_reads.fastq.gz
 pacbiohifi_clr  fNeoGra1            166079883284               0      2147483648     68689035617         4068852  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64055e_211026_201650.reads.bam
 pacbiohifi_bam  fNeoGra1             84392741267               0      2147483648     22286994182         1281954  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64330e_211022_162134.hifi_reads.bam
+pacbiohifi_fqgz fNeoGra1             20185635140               0      2147483648      5330756249          306626  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64330e_211022_162134.hifi_reads.fastq.gz
 pacbiohifi_bam  fNeoGra1             56312013794               0      2147483648     15017085946          949038  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211004_150650.hifi_reads.bam
 pacbiohifi_fqgz fNeoGra1             13369636491               0      2147483648     15069422670          934119  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211004_150650.hifi_reads.fastq.gz
 pacbiohifi_clr  fNeoGra1            217488432684               0      2147483648     95134810042         5409046  species/Neoarius_graeffei/fNeoGra1/genomic_data/pacbio_hifi/m64334e_211004_150650.reads.bam

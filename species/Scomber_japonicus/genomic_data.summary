@@ -8,6 +8,7 @@ illumina        fScoJap1              9825456852               0      2147483648
 illumina        fScoJap1             10140243123               0      2147483648     19610164400       129868643  species/Scomber_japonicus/fScoJap1/genomic_data/illumina/fScoJap1-CL6_2.fastq.gz
 pacbiohifi_fqgz fScoJap1              6083879907               0      2147483648      8516801784          922269  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m54306U_210430_033146.Q20.fastq.gz
 pacbiohifi_clr  fScoJap1            376998229993               0      2147483648    194636307399        23913192  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m54306U_210430_033146.subreads.bam
+pacbiohifi_q2fqgz fScoJap1              5323158336               0      2147483648      7323566473          686973  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m64055_210421_201217.Q20.fastq.gz
 pacbiohifi_clr  fScoJap1            316877630916               0      2147483648    162996790709        16934453  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m64055_210421_201217.subreads.bam
 pacbiohifi_fqgz fScoJap1              8134834913               0      2147483648     11380866083         1350741  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m64055_210423_182318.Q20.fastq.gz
 pacbiohifi_clr  fScoJap1            546196168361               0      2147483648    278820920683        34630753  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m64055_210423_182318.subreads.bam
@@ -25,4 +26,5 @@ illumina        fScoJap1          1.9506     38945094371
 pacbiohifi_bam  fScoJap1          0.4954    712269630615
 pacbiohifi_clr  fScoJap1          0.5132    706193796382
 pacbiohifi_fqgz fScoJap1          1.3188     17128618487
+pacbiohifi_q2fqgz fScoJap1          1.3929     27219875118
 --------------- ---------------  ------- ---------------

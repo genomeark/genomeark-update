@@ -11,6 +11,7 @@ pacbiohifi_bam  mSorAra1             29398270304               0      2147483648
 pacbiohifi_fqgz mSorAra1              6556967425               0      2147483648      7897532383          580379  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64055e_210919_173337.hifi_reads.fastq.gz
 pacbiohifi_clr  mSorAra1             87722588936               0      2147483648     36620565904         3134875  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64055e_210919_173337.reads.bam
 pacbiohifi_bam  mSorAra1             29130727489               0      2147483648      7867054100          581479  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64055e_210921_043342.hifi_reads.bam
+pacbiohifi_fqgz mSorAra1              6372733443               0      2147483648      1721022545          127206  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64055e_210921_043342.hifi_reads.fastq.gz
 pacbiohifi_bam  mSorAra1             88081099707               0      2147483648     37134624666         3121765  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64055e_210921_043342.reads.bam
 pacbiohifi_bam  mSorAra1             89551950200               0      2147483648     24124230519         1630671  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64334e_211003_054950.hifi_reads.bam
 pacbiohifi_fqgz mSorAra1             20741784601               0      2147483648     24414706521         1639439  species/Sorex_araneus/mSorAra1/genomic_data/pacbio_hifi/m64334e_211003_054950.hifi_reads.fastq.gz

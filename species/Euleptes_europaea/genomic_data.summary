@@ -6,8 +6,12 @@ arima           rEulEur1             65481081270               0      2147483648
 arima           rEulEur1             68358029440               0      2147483648    126699650154       839070562  species/Euleptes_europaea/rEulEur1/genomic_data/arima/rEulEur1_S1_L001_R2_001.fastq.gz
 bionano         rEulEur1               922799075               0       922799075    479935701199         3632214  species/Euleptes_europaea/rEulEur1/genomic_data/bionano/rEulEur1_Saphyr_DLE1_3685893
 pacbiohifi_bam  rEulEur1             59107659639               0      2147483648     15584843197          993043  species/Euleptes_europaea/rEulEur1/genomic_data/pacbio_hifi/m64055e_220702_050304.hifi_reads.bc1012--bc1012.bam
+pacbiohifi_fagz rEulEur1              5432505786               0      2147483648      1432382052           91269  species/Euleptes_europaea/rEulEur1/genomic_data/pacbio_hifi/m64055e_220702_050304.hifi_reads.bc1012--bc1012.fasta.gz
+pacbiohifi_fagz rEulEur1              3436894605               0      3436894605      9787999306          634434  species/Euleptes_europaea/rEulEur1/genomic_data/pacbio_hifi/m64330e_220517_151347.demultiplex.bc1012--bc1012.hifi_reads.fasta.gz
 pacbiohifi_bam  rEulEur1             57681402471               0      2147483648     15524231188         1004402  species/Euleptes_europaea/rEulEur1/genomic_data/pacbio_hifi/m64330e_220706_183330.hifi_reads.bc1012--bc1012.bam
+pacbiohifi_fagz rEulEur1              5449102349               0      2147483648      1466558041           94884  species/Euleptes_europaea/rEulEur1/genomic_data/pacbio_hifi/m64330e_220706_183330.hifi_reads.bc1012--bc1012.fasta.gz
 pacbiohifi_bam  rEulEur1             65345886567               0      2147483648     17281799029         1126635  species/Euleptes_europaea/rEulEur1/genomic_data/pacbio_hifi/m64330e_220708_052705.hifi_reads.bc1012--bc1012.bam
+pacbiohifi_fagz rEulEur1              6053872951               0      2147483648      1601046694          104375  species/Euleptes_europaea/rEulEur1/genomic_data/pacbio_hifi/m64330e_220708_052705.hifi_reads.bc1012--bc1012.fasta.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -17,4 +21,5 @@ pacbiohifi_bam  rEulEur1             65345886567               0      2147483648
 arima           rEulEur1          1.8823    251925358089
 bionano         rEulEur1         520.0868    479935701199
 pacbiohifi_bam  rEulEur1          0.2656     48375042368
+pacbiohifi_fagz rEulEur1          0.8860     20603652858
 --------------- ---------------  ------- ---------------
