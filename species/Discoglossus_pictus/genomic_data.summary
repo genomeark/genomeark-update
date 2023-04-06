@@ -8,6 +8,9 @@
 arima           aDisPic1             62690102271               0      2147483648    125170659170       828944791  species/Discoglossus_pictus/aDisPic1/genomic_data/arima/aDisPic1_S001_R001_R1.fastq.gz
 arima           aDisPic1             63881268113               0      2147483648    125969983673       834238302  species/Discoglossus_pictus/aDisPic1/genomic_data/arima/aDisPic1_S001_R001_R2.fastq.gz
 bionano         aDisPic1              5766942701               0      5766942701   3448168301881        62109929  species/Discoglossus_pictus/aDisPic1/genomic_data/bionano/RawMolecules
+pacbio_fagz     aDisPic1             58080820581               0      2147483648    169743713309         8783590  species/Discoglossus_pictus/aDisPic1/genomic_data/pacbio/L51306_Track-92596.fasta.gz
+pacbio_fagz     aDisPic1             56828577523               0      2147483648    166326125714         8747883  species/Discoglossus_pictus/aDisPic1/genomic_data/pacbio/L51306_Track-92597.fasta.gz
+pacbio_fagz     aDisPic1             53396642794               0      2147483648    156601175774         7859249  species/Discoglossus_pictus/aDisPic1/genomic_data/pacbio/L51306_Track-92598.fasta.gz
 pacbio          aDisPic1            320225704481               0      2147483648    167364405636         8626849  species/Discoglossus_pictus/aDisPic1/genomic_data/pacbio/m54345U_200604_202626.subreads.bam
 pacbio          aDisPic1            325528790792               0      2147483648    169945889117         8682551  species/Discoglossus_pictus/aDisPic1/genomic_data/pacbio/m64046_200608_112806.subreads.bam
 pacbio          aDisPic1            299469371962               0      2147483648    157037766524         7665219  species/Discoglossus_pictus/aDisPic1/genomic_data/pacbio/m64046_200609_111250.subreads.bam
@@ -21,4 +24,5 @@ pacbio          aDisPic1            299469371962               0      2147483648
 arima           aDisPic1          1.9800    250611313360
 bionano         aDisPic1         597.9196   3448168301881
 pacbio          aDisPic1          0.5229    494257560177
+pacbio_fagz     aDisPic1          2.9272    492665442916
 --------------- ---------------  ------- ---------------

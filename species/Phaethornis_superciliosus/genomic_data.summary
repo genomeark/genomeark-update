@@ -4,7 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bPhaSup1             45326907957               0      2147483648     90242421058       597631948  species/Phaethornis_superciliosus/bPhaSup1/genomic_data/arima/SRR17111054_1.fastq.gz
 arima           bPhaSup1             48544563040               0      2147483648     90503413769       599360378  species/Phaethornis_superciliosus/bPhaSup1/genomic_data/arima/SRR17111054_2.fastq.gz
-pacbio_fqgz     bPhaSup1             35431262919               0       268435456    118515367387         3966615  species/Phaethornis_superciliosus/bPhaSup1/genomic_data/pacbio/SRR17089233.fastq.gz
+pacbio_fqgz     bPhaSup1             35431262919               0      2147483648    118461240099         4086975  species/Phaethornis_superciliosus/bPhaSup1/genomic_data/pacbio/SRR17089233.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,5 +12,5 @@ pacbio_fqgz     bPhaSup1             35431262919               0       268435456
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bPhaSup1          1.9046    178787603660
-pacbio_fqgz     bPhaSup1          3.3449    118514031337
+pacbio_fqgz     bPhaSup1          3.3434    118460884443
 --------------- ---------------  ------- ---------------
