@@ -11,7 +11,7 @@ export AWS_PAGER=""  #  awscli v2 pipes all output through a pager, which we don
 updateFileList="yes"
 updateGenBank="no"
 updateMetadata="yes"
-updateStats="yes"
+updateScan="yes"
 updatePages="yes"
 species=""
 
@@ -43,23 +43,23 @@ fi
 while [ $# -gt 0 ] ; do
   opt=$1
 
-  if   [ "$opt" = "--no-ls" ] ;         then updateFileList="no";                                                                                    shift
-  elif [ "$opt" = "--no-genbank" ] ;    then                       updateGenBank="no";                                                               shift
-  elif [ "$opt" = "--no-metadata" ] ;   then                                            updateMetadata="no";                                         shift
-  elif [ "$opt" = "--no-stats" ] ;      then                                                                  updateStats="no";                      shift
-  elif [ "$opt" = "--no-pages" ] ;      then                                                                                     updatePages="no";   shift
+  if   [ "$opt" = "--no-ls" ] ;         then updateFileList="no";                                                                                   shift
+  elif [ "$opt" = "--no-genbank" ] ;    then                       updateGenBank="no";                                                              shift
+  elif [ "$opt" = "--no-metadata" ] ;   then                                            updateMetadata="no";                                        shift
+  elif [ "$opt" = "--no-scan" ] ;       then                                                                  updateScan="no";                      shift
+  elif [ "$opt" = "--no-pages" ] ;      then                                                                                    updatePages="no";   shift
 
-  elif [ "$opt" = "--only-ls" ] ;       then updateFileList="yes"; updateGenBank="no";  updateMetadata="no";  updateStats="no";  updatePages="no";   shift
-  elif [ "$opt" = "--only-genbank" ] ;  then updateFileList="no";  updateGenBank="yes"; updateMetadata="no";  updateStats="no";  updatePages="no";   shift
-  elif [ "$opt" = "--only-metadata" ] ; then updateFileList="no";  updateGenBank="no";  updateMetadata="yes"; updateStats="no";  updatePages="no";   shift
-  elif [ "$opt" = "--only-stats" ] ;    then updateFileList="no";  updateGenBank="no";  updateMetadata="no";  updateStats="yes"; updatePages="no";   shift
-  elif [ "$opt" = "--only-pages" ] ;    then updateFileList="no";  updateGenBank="no";  updateMetadata="no";  updateStats="no";  updatePages="yes";  shift
+  elif [ "$opt" = "--only-ls" ] ;       then updateFileList="yes"; updateGenBank="no";  updateMetadata="no";  updateScan="no";  updatePages="no";   shift
+  elif [ "$opt" = "--only-genbank" ] ;  then updateFileList="no";  updateGenBank="yes"; updateMetadata="no";  updateScan="no";  updatePages="no";   shift
+  elif [ "$opt" = "--only-metadata" ] ; then updateFileList="no";  updateGenBank="no";  updateMetadata="yes"; updateScan="no";  updatePages="no";   shift
+  elif [ "$opt" = "--only-scan" ] ;     then updateFileList="no";  updateGenBank="no";  updateMetadata="no";  updateScan="yes"; updatePages="no";   shift
+  elif [ "$opt" = "--only-pages" ] ;    then updateFileList="no";  updateGenBank="no";  updateMetadata="no";  updateScan="no";  updatePages="yes";  shift
 
-  elif [ "$opt" = "--ls" ] ;            then updateFileList="yes";                                                                                   shift
-  elif [ "$opt" = "--genbank" ] ;       then                       updateGenBank="yes";                                                              shift
-  elif [ "$opt" = "--metadata" ] ;      then                                            updateMetadata="yes";                                        shift
-  elif [ "$opt" = "--stats" ] ;         then                                                                  updateStats="yes";                     shift
-  elif [ "$opt" = "--pages" ] ;         then                                                                                     updatePages="yes";  shift
+  elif [ "$opt" = "--ls" ] ;            then updateFileList="yes";                                                                                  shift
+  elif [ "$opt" = "--genbank" ] ;       then                       updateGenBank="yes";                                                             shift
+  elif [ "$opt" = "--metadata" ] ;      then                                            updateMetadata="yes";                                       shift
+  elif [ "$opt" = "--scan" ] ;          then                                                                  updateScan="yes";                     shift
+  elif [ "$opt" = "--pages" ] ;         then                                                                                    updatePages="yes";  shift
 
   else
     species="$species $opt"
@@ -172,11 +172,13 @@ fi
 #  update markdown files in ../genomeark.github.io/
 #
 
-if [ "$updateStats" = "yes" ] ; then
+if [ "$updateScan" = "yes" ] ; then
+  echo Scanning bucket.
   perl scripts/scan-bucket.pl $@ > scan-bucket.out 2> scan-bucket.err
 fi
 
 if [ "$updatePages" = "yes" ] ; then
+  echo Updating pages.
   perl scripts/update-pages.pl $@ > update-pages.out 2> update-pages.err
 fi
 
