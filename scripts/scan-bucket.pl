@@ -188,9 +188,11 @@ foreach my $species (@speciesList) {
 #
 
 if (scalar(@potentialErrors > 0)) {
+    my $n = scalar(@potentialErrors);
+
     print "\n";
     print "----------------------------------------\n";
-    print "Potential errors found:\n";
+    print "$n potential errors found:\n";
     foreach my $l (sort @potentialErrors) {
         print "  $l";
     }
@@ -199,9 +201,11 @@ if (scalar(@potentialErrors > 0)) {
 
 
 if (scalar(keys %templateMeta > 0)) {
+    my $n = scalar(keys %templateMeta);
+
     print "\n";
     print "----------------------------------------\n";
-    print "Species with template metadata:\n";
+    print "$n species with template metadata:\n";
     foreach my $l (sort keys %templateMeta) {
         printf "  %s\n", $l;
     }
@@ -221,9 +225,11 @@ if (scalar(@unknownFiles > 0)) {
 
 
 if (scalar(keys %missingData > 0)) {
+    my $n = scalar(keys %missingData);
+
     print "\n";
     print "----------------------------------------\n";
-    print "Species with missing data files:\n";
+    print "$n species have missing data files:\n";
     foreach my $l (sort keys %missingData) {
         my @m = split '\s+', $missingData{$l};
         my %c;
@@ -233,7 +239,7 @@ if (scalar(keys %missingData > 0)) {
         }
 
         foreach my $k (keys %c) {
-            printf "  %40s  %16s  %d files\n", $l, $k, $c{$k};
+            printf "  %30s  %32s  %d files\n", $l, $k, $c{$k};
         }
     }
     print "\n";
