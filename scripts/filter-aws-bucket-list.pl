@@ -267,6 +267,7 @@ while (<RAW>) {
     next if ($filename eq "species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/slurm-42545496.out");
     next if ($filename eq "species/Apodemus_sylvaticus/mApoSyl1/genomic_data/pacbio_hifi/m64094e_220402_212648.ccs.rmdup.bam");
     next if ($filename eq "species/Apodemus_sylvaticus/mApoSyl1/genomic_data/pacbio_hifi/m64094e_220402_212648.ccs.rmdup.bam.pbi");
+    next if ($filename eq "species/Pelobates_fuscus/aPelFus1/assembly_vgp_HiC_2.0/aPelFus1.HiC.pctg.20230308.fasta.gz");
 
     #  Duplicate data
     #    fToxJac2 appears to have all hifi reads in 'ccsAll.bam' and filtered hifi reads in 'ccs.bam'.
