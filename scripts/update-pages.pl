@@ -419,6 +419,12 @@ foreach my $species (@speciesList) {
 #  Output whatever errors we saved.
 #
 
+if (scalar(keys %noProjectID > 0)) {
+    print "\n";
+    print "----------------------------------------\n";
+    print "Found ", scalar(keys %noProjectID), " species with no project ID assigned.\n";
+}
+
 if (scalar(@potentialErrors > 0)) {
     print "\n";
     print "----------------------------------------\n";
@@ -428,18 +434,5 @@ if (scalar(@potentialErrors > 0)) {
     }
     print "\n";
 }
-
-
-open(F, "> update-pages.no-project-id");
-if (scalar(keys %noProjectID > 0)) {
-    print "\n";
-    print "----------------------------------------\n";
-    print "Found ", scalar(keys %noProjectID), " species with no project ID assigned (see 'update-pages.no-project-id').\n";
-    foreach my $l (sort keys %noProjectID) {
-        print F "$l\n";
-    }
-    print "\n";
-}
-close(F);
 
 exit(0);
