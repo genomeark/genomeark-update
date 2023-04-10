@@ -17,7 +17,7 @@ pacbiohifi_clr  fSpiTha1            206881026429               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fSpiTha1          1.9110     77625743934
-pacbiohifi_bam  fSpiTha1          0.3960    215114489734
+pacbiohifi_bam  fSpiTha1          0.2742     36503509312
 pacbiohifi_clr  fSpiTha1          0.4157    170474868233
 pacbiohifi_fqgz fSpiTha1          1.2589     36389412423
 --------------- ---------------  ------- ---------------

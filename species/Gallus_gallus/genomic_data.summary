@@ -83,7 +83,7 @@ illumina        bGalGal2          1.8592    103180479895
 illumina        bGalGal3          1.8649    116183322122
 ont             bGalGal1          1.0200    120016257401
 pacbio          bGalGal1          0.5393    123488382835
-pacbiohifi_bam  bGalGal4          0.5202    829956351501
+pacbiohifi_bam  bGalGal4          1.0892     39380355184
 pacbiohifi_clr  bGalGal4          0.5156    803975578832
 pacbiohifi_clr  bGalGal5          0.5227    733798793598
 pacbiohifi_fqgz bGalGal1          1.0900     92892980735

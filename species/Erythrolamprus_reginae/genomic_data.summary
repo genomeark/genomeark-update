@@ -23,7 +23,7 @@ pacbiohifi_clr  rEryReg1            650728645242               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           rEryReg1          1.8884    200152608416
 bionano         rEryReg1         569.2626    351562027210
-pacbiohifi_bam  rEryReg1          0.4882    859401970104
+pacbiohifi_bam  rEryReg1          0.3457     58954538730
 pacbiohifi_clr  rEryReg1          0.5088    808896066905
 pacbiohifi_fqgz rEryReg1          1.1425     67761557080
 --------------- ---------------  ------- ---------------

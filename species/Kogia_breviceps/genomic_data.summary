@@ -20,7 +20,7 @@ pacbiohifi_clr  mKogBre1            202102692553               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 bionano         mKogBre1         679.7017    571209157627
-pacbiohifi_bam  mKogBre1          0.3685    584474699711
+pacbiohifi_bam  mKogBre1          0.2725    119587090421
 pacbiohifi_clr  mKogBre1          0.4043    463829028126
 pacbiohifi_fqgz mKogBre1          1.1886    119836898007
 --------------- ---------------  ------- ---------------

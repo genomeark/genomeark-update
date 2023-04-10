@@ -29,6 +29,6 @@ arima           mDicBic1          1.3718    218614231858
 bionano         mDicBic1         483.7922   2375746833351
 illumina        mDicBic2          2.0002    286345454878
 illumina        mDicBic3          1.9949    136487904208
-pacbiohifi_bam  mDicBic1          0.5257   1759401124733
+pacbiohifi_bam  mDicBic1          1.1128     91931107372
 pacbiohifi_clr  mDicBic1          0.5169   1687247116633
 --------------- ---------------  ------- ---------------

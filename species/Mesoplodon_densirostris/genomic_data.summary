@@ -24,7 +24,7 @@ pacbiohifi_clr  mMesDen1            186314074165               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 bionano         mMesDen1         626.1875    725960181961
-pacbiohifi_bam  mMesDen1          0.3797    537260653755
+pacbiohifi_bam  mMesDen1          0.2743    113682144319
 pacbiohifi_clr  mMesDen1          0.3985    398705759320
 pacbiohifi_fqgz mMesDen1          1.2057    113633052236
 --------------- ---------------  ------- ---------------

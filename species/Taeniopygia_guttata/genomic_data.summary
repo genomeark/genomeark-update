@@ -90,7 +90,7 @@ illumina        bTaeGut9          1.9395     76249085520
 pacbio          bTaeGut1          0.2602    109724303514
 pacbio          bTaeGut2          0.5228    102056576361
 pacbio          bTaeGut6          0.5257    139762027973
-pacbiohifi_bam  bTaeGut2          0.6171    649006423667
+pacbiohifi_bam  bTaeGut2          0.5831     47595448706
 pacbiohifi_clr  bTaeGut2          0.5004    485427514765
 pacbiohifi_fqgz bTaeGut2          1.2070     39517871906
 pacbiohifi_fqgz bTaeGut7          1.2264    135078098109

@@ -23,7 +23,7 @@ pacbiohifi_fqgz aAscTru4             16821187122               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aAscTru4          1.9180    345805720711
-pacbiohifi_bam  aAscTru4          0.3850    681070614458
+pacbiohifi_bam  aAscTru4          0.2727    100399113752
 pacbiohifi_clr  aAscTru4          0.4144    580511279652
 pacbiohifi_fqgz aAscTru4          1.2439    118912493174
 --------------- ---------------  ------- ---------------

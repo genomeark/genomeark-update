@@ -21,7 +21,7 @@ pacbiohifi_bam  aGasCar1            229300161746               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aGasCar1          1.8475    487240307096
-pacbiohifi_bam  aGasCar1          0.3706    582674360667
+pacbiohifi_bam  aGasCar1          0.2719    102244630726
 pacbiohifi_clr  aGasCar1          0.3988    477047891773
 pacbiohifi_fqgz aGasCar1          1.2324    134708853606
 --------------- ---------------  ------- ---------------

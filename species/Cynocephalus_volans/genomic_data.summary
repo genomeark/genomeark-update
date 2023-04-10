@@ -23,7 +23,7 @@ pacbiohifi_clr  mCynVol1            220740990974               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mCynVol1          1.8637    247974994194
-pacbiohifi_bam  mCynVol1          0.3610    482844470900
+pacbiohifi_bam  mCynVol1          0.2747    113571862450
 pacbiohifi_clr  mCynVol1          0.3809    351981955524
 pacbiohifi_fqgz mCynVol1          1.2177    113111565098
 --------------- ---------------  ------- ---------------
