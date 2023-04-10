@@ -57,10 +57,10 @@ sub loadSpeciesMetadata ($$$$) {
 
     my @n = split '\s+', $meta->{species}->{name};
 
-    die "species.name '", $meta->{species}->{name}, "' has ", scalar(@n), " components, expected 2.\n" if (scalar(@n) < 2);
+    die "species.name '", $meta->{species}->{name}, "' has ", scalar(@n), " components, expected at least 2.\n" if (scalar(@n) < 2);
 
     $$data{"name"}                = $meta->{species}->{name};      #  Name with a space:     'Species name'
-    $$data{"name_"}               = "$n[0]_$n[1]";                 #  Name with underscore:  'Species_name'
+    $$data{"name_"}               = join "_", @n;                  #  Name with underscore:  'Species_name'
     $$data{"short_name"}          = $meta->{species}->{short_name};
 
     if ($$data{"name_"} ne $species) {
