@@ -90,6 +90,7 @@ sub accumulateData ($$$$$$$$) {
             $$tiBytes{"10x:$iName"} += $filesize;
             $$tiIndiv{"10x:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  10x.fastq       <- $filename\n";
         }
         else {
             push @$errors, "  Unknown 10x file type in '$filename'\n";
@@ -110,6 +111,7 @@ sub accumulateData ($$$$$$$$) {
             $$tiBytes{"arima:$iName"} += $filesize;
             $$tiIndiv{"arima:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  arima.fastq     <- $filename\n";
         }
         elsif (($filename =~ m/cram$/) ||
                ($filename =~ m/cram.crai$/)) {
@@ -117,6 +119,7 @@ sub accumulateData ($$$$$$$$) {
             $$tiBytes{"arima:$iName"} += $filesize;
             $$tiIndiv{"arima:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  arima.cram      <- $filename\n";
         }
         else {
             push @$errors, "  Unknown arima file type in '$filename'\n";
@@ -128,29 +131,19 @@ sub accumulateData ($$$$$$$$) {
     if ($filename =~ m!/genomic_data/bionano/!) {
         return if ($filename =~ m/txt$/);
 
-        if    ($filename =~ m/cmap.gz$/) {
+        if    ($filename =~ m/cmap(\.gz){0,1}$/) {
             #$$tiFiles{"bionano:$iName"} .= "bionano:$iName $filesize $filename\0";
             $$tiBytes{"bionano:$iName"} += $filesize;
             $$tiIndiv{"bionano:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  bionano.cmap    <- $filename\n";
         }
-        elsif ($filename =~ m/cmap$/) {
-            #$$tiFiles{"bionano:$iName"} .= "bionano:$iName $filesize $filename\0";
-            $$tiBytes{"bionano:$iName"} += $filesize;
-            $$tiIndiv{"bionano:$iName"} .= "$sName/$iName\0";
-            saveDataDate($filesecs, $data);
-        }
-        elsif ($filename =~ m/bnx.gz$/) {
+        elsif ($filename =~ m/bnx(\.gz){0,1}$/) {
             $$tiFiles{"bionano:$iName"} .= "bionano:$iName $filesize $filename\0";
             $$tiBytes{"bionano:$iName"} += $filesize;
             $$tiIndiv{"bionano:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
-        }
-        elsif ($filename =~ m/bnx$/) {
-            $$tiFiles{"bionano:$iName"} .= "bionano:$iName $filesize $filename\0";
-            $$tiBytes{"bionano:$iName"} += $filesize;
-            $$tiIndiv{"bionano:$iName"} .= "$sName/$iName\0";
-            saveDataDate($filesecs, $data);
+            print "  bionano.bnx     <- $filename\n";
         }
         else {
             push @$errors, "  Unknown bionano file type in '$filename'\n";
@@ -167,6 +160,7 @@ sub accumulateData ($$$$$$$$) {
             $$tiBytes{"dovetail:$iName"} += $filesize;
             $$tiIndiv{"dovetail:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  dovetail        <- $filename\n";
         }
         else {
             push @$errors, "  Unknown dovetail file type in '$filename'\n";
@@ -183,6 +177,7 @@ sub accumulateData ($$$$$$$$) {
             $$tiBytes{"illumina:$iName"} += $filesize;
             $$tiIndiv{"illumina:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  illumina        <- $filename\n";
         }
         else {
             push @$errors, "  Unknown illumina file type in '$filename'\n";
@@ -197,11 +192,9 @@ sub accumulateData ($$$$$$$$) {
             $$tiBytes{"ont:$iName"} += $filesize;
             $$tiIndiv{"ont:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  ont             <- $filename\n";
         } elsif ($filename =~ m/bam$/) {
         } elsif ($filename =~ m/fast5$/) {
-            #$$tiFiles{"ont:$iName"} .= {"ont:$iName $filesize $filename\0";
-            #$$tiBytes{"ont:$iName"} += $filesize;
-            #$$tiIndiv{"ont:$iName"} .= "$sName/$iName\0";
         } else {
             push @$errors, "  Unknown ont file type in '$filename'\n";
         }
@@ -215,6 +208,7 @@ sub accumulateData ($$$$$$$$) {
             $$tiBytes{"ontduplex:$iName"} += $filesize;
             $$tiIndiv{"ontduplex:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  ontduplex       <- $filename\n";
         } else {
             push @$errors, "  Unknown ont_duplex file type in '$filename'\n";
         }
@@ -237,24 +231,28 @@ sub accumulateData ($$$$$$$$) {
               ($filename =~ m/\.subreads\.bam\.bai$/)) {
             $$tiBytes{"pacbio:$iName"} += $filesize;
             saveDataDate($filesecs, $data);
+            print "  pacbio.1        <- $filename\n";
         }
         elsif ($filename =~ m/\.subreads\.bam$/) {
             $$tiFiles{"pacbio:$iName"} .= "pacbio:$iName $filesize $filename\0";
             $$tiBytes{"pacbio:$iName"} += $filesize;
             $$tiIndiv{"pacbio:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  pacbio.2        <- $filename\n";
         }
         elsif ($filename =~ m/\.f(ast){0,1}q\.gz$/) {
             $$tiFiles{"pacbio_fqgz:$iName"} .= "pacbio_fqgz:$iName $filesize $filename\0";
             $$tiBytes{"pacbio_fqgz:$iName"} += $filesize;
             $$tiIndiv{"pacbio_fqgz:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  pacbio_fqgz     <- $filename\n";
         }
         elsif ($filename =~ m/\.f(ast){0,1}a\.gz$/) {
             $$tiFiles{"pacbio_fagz:$iName"} .= "pacbio_fagz:$iName $filesize $filename\0";
             $$tiBytes{"pacbio_fagz:$iName"} += $filesize;
             $$tiIndiv{"pacbio_fagz:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  pacbio_fagz     <- $filename\n";
         }
 
         else {
@@ -276,6 +274,7 @@ sub accumulateData ($$$$$$$$) {
                ($filename =~ m/\.reads\.bam\.bai$/)) {
             $$tiBytes{"pacbiohifi_clr:$iName"} += $filesize;
             saveDataDate($filesecs, $data);
+            print "  hifi_clr.1      <- $filename\n";
         }
         elsif (($filename =~ m/\.subreads\.bam$/) ||
                ($filename =~ m/\.reads\.bam$/)) {
@@ -283,16 +282,18 @@ sub accumulateData ($$$$$$$$) {
             $$tiBytes{"pacbiohifi_clr:$iName"} += $filesize;
             $$tiIndiv{"pacbiohifi_clr:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  hifi_clr.2      <- $filename\n";
         }
 
         #  DeepConsensus and Q20 filtered data.
 
-        if    (($filename =~ m/\.DeepConsensus\.f(ast){0,1}q\.gz$/) ||
+        elsif (($filename =~ m/\.DeepConsensus\.f(ast){0,1}q\.gz$/) ||
                ($filename =~ m/\.DeepConsensus.Q20\.f(ast){0,1}q\.gz$/)) {
             $$tiFiles{"pacbiohifi_dcfqgz:$iName"} .= "pacbiohifi_dcfqgz:$iName $filesize $filename\0";
             $$tiBytes{"pacbiohifi_dcfqgz:$iName"} += $filesize;
             $$tiIndiv{"pacbiohifi_dcfqgz:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  hifi_q20.1      <- $filename\n";
         }
 
         elsif (($filename =~ m/\.Q20\.f(ast){0,1}q\.gz$/)) {
@@ -300,6 +301,7 @@ sub accumulateData ($$$$$$$$) {
             $$tiBytes{"pacbiohifi_q2fqgz:$iName"} += $filesize;
             $$tiIndiv{"pacbiohifi_q2fqgz:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  hifi_q20.2      <- $filename\n";
         }
 
         #  Unfiltered data.
@@ -309,6 +311,7 @@ sub accumulateData ($$$$$$$$) {
             $$tiBytes{"pacbiohifi_fagz:$iName"} += $filesize;
             $$tiIndiv{"pacbiohifi_fagz:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  hifi_fagz.1     <- $filename\n";
         }
 
         elsif (($filename =~ m/\.f(ast){0,1}q\.gz$/)) {
@@ -316,12 +319,14 @@ sub accumulateData ($$$$$$$$) {
             $$tiBytes{"pacbiohifi_fqgz:$iName"} += $filesize;
             $$tiIndiv{"pacbiohifi_fqgz:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  hifi_fagz.2     <- $filename\n";
         }
 
         elsif (($filename =~ m/\.bam\.bai$/) ||
                ($filename =~ m/\.bam\.pbi$/)) {
             $$tiBytes{"pacbiohifi_bam:$iName"} += $filesize;
             saveDataDate($filesecs, $data);
+            print "  hifi_bam.1      <- $filename\n";
         }
 
         elsif (($filename =~ m/\.bam$/)) {
@@ -329,6 +334,7 @@ sub accumulateData ($$$$$$$$) {
             $$tiBytes{"pacbiohifi_bam:$iName"} += $filesize;
             $$tiIndiv{"pacbiohifi_bam:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  hifi_bam.2      <- $filename\n";
         }
 
         #  Warn about uncompressed data.
@@ -357,6 +363,7 @@ sub accumulateData ($$$$$$$$) {
             $$tiBytes{"phase:$iName"} += $filesize;
             $$tiIndiv{"phase:$iName"} .= "$sName/$iName\0";
             saveDataDate($filesecs, $data);
+            print "  phase.fastq     <- $filename\n";
         }
         else {
             push @$errors, "  Unknown phase file type in '$filename'\n";
