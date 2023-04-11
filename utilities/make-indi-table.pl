@@ -3,18 +3,41 @@ use strict;
 
 my %tyn;
 
-$tyn{"pacbio"}          = "PacBio CLR";
-$tyn{"pacbiohifi_fqgz"} = "PacBio HiFi (.fq, Q&ge;20)";
-$tyn{"pacbiohifi_bam"}  = "PacBio HiFi (.bam, Q&ge;0)";
-$tyn{"pacbiohifi_clr"}  = "PacBio HiFi (subreads)";
-$tyn{"ont"}             = "Oxford Nanopore Simplex";
-$tyn{"ontduplex"}       = "Oxford Nanopore Duplex";
-$tyn{"10x"}             = "10x";
-$tyn{"bionano"}         = "Bionano";
-$tyn{"arima"}           = "Arima";
-$tyn{"dovetail"}        = "Dovetail Genomics";
-$tyn{"phase"}           = "Phase";
-$tyn{"illumina"}        = "Illumina";
+$tyn{"pacbio"}            = "PacBio CLR";
+$tyn{"pacbio_fqgz"}       = "PacBio CLR (.fq)";
+$tyn{"pacbio_fagz"}       = "PacBio CLR (.fa)";
+$tyn{"pacbiohifi_clr"}    = "PacBio HiFi (subreads)";
+$tyn{"pacbiohifi_dcfqgz"} = "PacBio DeepConsensus HiFi (.fq)";
+$tyn{"pacbiohifi_q2fqgz"} = "PacBio HiFi (.fq, Q&ge;20)";
+$tyn{"pacbiohifi_fagz"}   = "PacBio HiFi (.fa)";
+$tyn{"pacbiohifi_fqgz"}   = "PacBio HiFi (.fq)";
+$tyn{"pacbiohifi_bam"}    = "PacBio HiFi (.bam)";
+$tyn{"ont"}               = "Oxford Nanopore Simplex";
+$tyn{"ontduplex"}         = "Oxford Nanopore Duplex";
+$tyn{"10x"}               = "10x";
+$tyn{"bionano"}           = "Bionano";
+$tyn{"arima"}             = "Arima";
+$tyn{"dovetail"}          = "Dovetail Genomics";
+$tyn{"phase"}             = "Phase";
+$tyn{"illumina"}          = "Illumina";
+
+my @types = ("pacbio",              #  8   Numbers are the order these appear
+             "pacbio_fqgz",         #  9   in GenomeArkAccumulateData.pm
+             "pacbio_fagz",         # 10
+             "pacbiohifi_clr",      # 11
+             "pacbiohifi_dcgqfz",   # 12
+             "pacbiohifi_q2fqgz",   # 13
+             "pacbiohifi_fagz",     # 14
+             "pacbiohifi_fqgz",     # 15
+             "pacbiohifi_bam",      # 16
+             "ont",                 #  6
+             "ontduplex",           #  7
+             "10x",                 #  1 
+             "bionano",             #  3
+             "arima",               #  2
+             "dovetail",            #  4
+             "phase",               # 17
+             "illumina");           #  5
 
 print "{% comment %}IMPORT FROM MAKE-INDIVIDUAL-TABLE BEGINS{% endcomment %}\n";
 print "\n";
@@ -31,14 +54,14 @@ foreach my $id (qw(1 2 3 4 5 6 7 8 9)) {
     print "\n";
     print "{% assign rs = 0 %}\n";
     print "\n";
-    foreach my $ty (qw(pacbio pacbiohifi_fqgz pacbiohifi_bam ont ontduplex 10x bionano arima dovetail phase illumina)) {
+    foreach my $ty (@types) {
         print "{% if page.data_${ty}-${id}_bytes %}{% assign rs = rs | plus: 1 %}{% endif %}\n";
     }
     print "\n";
     print "{% if rs > 0 %}\n";
     print "  {% assign first = true %}\n";
     print "\n";
-    foreach my $ty (qw(pacbio pacbiohifi_fqgz pacbiohifi_bam ont ontduplex 10x bionano arima dovetail phase illumina)) {
+    foreach my $ty (@types) {
         print "  {% if page.data_${ty}-${id}_bytes %}\n";
         print "    {% if first %}\n";
         print "      {% assign first = false %}\n";
