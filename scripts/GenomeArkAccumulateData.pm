@@ -269,9 +269,7 @@ sub accumulateData ($$$$$$$$) {
         #  Catch subread data first, then assume anything else is HiFi consensus data.
 
         if    (($filename =~ m/\.subreads\.bam\.pbi$/) ||
-               ($filename =~ m/\.subreads\.bam\.bai$/) ||
-               ($filename =~ m/\.reads\.bam\.pbi$/) ||
-               ($filename =~ m/\.reads\.bam\.bai$/)) {
+               ($filename =~ m/\.subreads\.bam\.bai$/)) {
             $$tiBytes{"pacbiohifi_clr:$iName"} += $filesize;
             saveDataDate($filesecs, $data);
             print "  hifi_clr.1      <- $filename\n";
