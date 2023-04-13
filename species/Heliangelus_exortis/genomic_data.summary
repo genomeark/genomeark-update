@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bHelExo1             18309202025               0      2147483648     34039694430       225428448  species/Heliangelus_exortis/bHelExo1/genomic_data/arima/bHelExo1_1.fastq.gz
+arima           bHelExo1             19241481982               0      2147483648     34054072574       225523668  species/Heliangelus_exortis/bHelExo1/genomic_data/arima/bHelExo1_2.fastq.gz
 pacbiohifi_fqgz bHelExo1               362076896               0       362076896       511643302           39617  species/Heliangelus_exortis/bHelExo1/genomic_data/pacbio_hifi/m64055e_220608_014324.bc1015--bc1015.hifi_reads.fastq.gz
 pacbiohifi_fqgz bHelExo1             18528643219               0      2147483648     22062975926         1268490  species/Heliangelus_exortis/bHelExo1/genomic_data/pacbio_hifi/m64055e_230309_101458.bc1015--bc1015.hifi_reads.fastq.gz
 pacbiohifi_fqgz bHelExo1             20246451188               0      2147483648     25502725983         1540316  species/Heliangelus_exortis/bHelExo1/genomic_data/pacbio_hifi/m64330e_221016_094513.bc1015--bc1015.hifi_reads.fastq.gz
@@ -11,5 +13,6 @@ pacbiohifi_fqgz bHelExo1             20246451188               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bHelExo1          1.7986     67538660254
 pacbiohifi_fqgz bHelExo1          1.2284     48076101228
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           sHydCol1             41809082788               0      2147483648     83964817843       556058415  species/Hydrolagus_colliei/sHydCol1/genomic_data/arima/sHydCol1_L1_S6_R1_001.fastq.gz
+arima           sHydCol1             43883581385               0      2147483648     84606846581       560310262  species/Hydrolagus_colliei/sHydCol1/genomic_data/arima/sHydCol1_L1_S6_R2_001.fastq.gz
+pacbiohifi_fqgz sHydCol1             23117334319               0      2147483648     29261779602         1911933  species/Hydrolagus_colliei/sHydCol1/genomic_data/pacbio_hifi/m64055e_230326_131145.bc1020--bc1020.hifi_reads.fastq.gz
+pacbiohifi_fqgz sHydCol1             20835627503               0      2147483648     25514377701         1627849  species/Hydrolagus_colliei/sHydCol1/genomic_data/pacbio_hifi/m64334e_230407_184827.bc1020--bc1020.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           sHydCol1          1.9538    167426327261
+pacbiohifi_fqgz sHydCol1          1.2529     55068665866
+--------------- ---------------  ------- ---------------

@@ -6,6 +6,8 @@ arima           mOchPri1             57051473133               0      2147483648
 arima           mOchPri1             59407103497               0      2147483648    104835464117       694274624  species/Ochotona_princeps/mOchPri1/genomic_data/arima/mOchPri1_2.fastq.gz
 illumina        mOchPri1             23806229474               0      2147483648     48864820843       323608096  species/Ochotona_princeps/mOchPri1/genomic_data/illumina/mOchPri1_1.fastq.gz
 illumina        mOchPri1             24629322149               0      2147483648     48776723871       323024672  species/Ochotona_princeps/mOchPri1/genomic_data/illumina/mOchPri1_2.fastq.gz
+illumina        mOchPri1             23806229474               0      2147483648     48864820843       323608096  species/Ochotona_princeps/mOchPri1/genomic_data/illumina/mOchPri1_R1.fastq.gz
+illumina        mOchPri1             24629322149               0      2147483648     48776723871       323024672  species/Ochotona_princeps/mOchPri1/genomic_data/illumina/mOchPri1_R2.fastq.gz
 pacbiohifi_bam  mOchPri1             51455281340               0      2147483648     13935632110          961568  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m54306Ue_220207_052626.hifi_reads.bam
 pacbiohifi_fqgz mOchPri1             11288869829               0      2147483648     14044943183          966975  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m54306Ue_220207_052626.hifi_reads.fastq.gz
 pacbiohifi_bam  mOchPri1             50227929358               0      2147483648     13771548855          928644  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m54306Ue_220705_010743.hifi_reads.bc1001--bc1001.bam

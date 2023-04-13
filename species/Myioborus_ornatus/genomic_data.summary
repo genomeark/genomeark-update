@@ -2,10 +2,16 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bMyiOrn1             39474283579               0      2147483648     73176159104       484610343  species/Myioborus_ornatus/bMyiOrn1/genomic_data/arima/bMyiOrn1_1.fastq.gz
+arima           bMyiOrn1             40193836250               0      2147483648     73441464496       486367333  species/Myioborus_ornatus/bMyiOrn1/genomic_data/arima/bMyiOrn1_2.fastq.gz
+pacbiohifi_fqgz bMyiOrn1             23596638717               0      2147483648     32525809455         2389371  species/Myioborus_ornatus/bMyiOrn1/genomic_data/pacbio_hifi/m64055e_221220_044923.bc1003--bc1003.hifi_reads.fastq.gz
+pacbiohifi_fqgz bMyiOrn1             25048941421               0      2147483648     31194550478         2129753  species/Myioborus_ornatus/bMyiOrn1/genomic_data/pacbio_hifi/m64330e_230105_135012.bc1003--bc1003.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bMyiOrn1          1.8359    146262701194
+pacbiohifi_fqgz bMyiOrn1          1.2879     62650642659
 --------------- ---------------  ------- ---------------

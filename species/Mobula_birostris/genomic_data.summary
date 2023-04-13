@@ -2,10 +2,21 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           sMobBir1             81921792608               0      2147483648    166002581509      1106683914  species/Mobula_birostris/sMobBir1/genomic_data/arima/Atlantic_Manta_Ray_L1_R1.fastq.gz
+arima           sMobBir1             87137241180               0      2147483648    173314151803      1155427719  species/Mobula_birostris/sMobBir1/genomic_data/arima/Atlantic_Manta_Ray_L1_R2.fastq.gz
+arima           sMobBir1             60125766971               0      2147483648    124330509743       828870092  species/Mobula_birostris/sMobBir1/genomic_data/arima/Atlantic_Manta_Ray_L2_R2.fastq.gz
+bionano         sMobBir1               731728525               0       731728525    469504924897         3992299  species/Mobula_birostris/sMobBir1/genomic_data/bionano/sMobGio1_Saphyr_DLE1_3680773
+bionano         sMobBir1               977099256               0       977099256    630216794722         5870611  species/Mobula_birostris/sMobBir1/genomic_data/bionano/sMobGio1_Saphyr_DLE1_3680777
+pacbiohifi_fqgz sMobBir1             22219209555               0      2147483648     25781355626         1733339  species/Mobula_birostris/sMobBir1/genomic_data/pacbio_hifi/m54306Ue_220211_072557.hifi_reads.fastq.gz
+pacbiohifi_fqgz sMobBir1             20246557061               0      2147483648     25856519126         1702137  species/Mobula_birostris/sMobBir1/genomic_data/pacbio_hifi/m64055e_220227_054430.hifi_reads.fastq.gz
+pacbiohifi_fqgz sMobBir1             18370654850               0      2147483648     23552358039         1553044  species/Mobula_birostris/sMobBir1/genomic_data/pacbio_hifi/m64055e_220228_164143.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           sMobBir1          2.0230    584328891807
+bionano         sMobBir1         643.5532   1099721719619
+pacbiohifi_fqgz sMobBir1          1.2359    112850505885
 --------------- ---------------  ------- ---------------
