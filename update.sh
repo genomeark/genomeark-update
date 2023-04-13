@@ -78,6 +78,7 @@ if [ $updateMetadata = "yes" ] ; then
   cd genomeark-metadata
   git fetch > ../metadata-fetch.out 2>&1
   git merge > ../metadata-merge.out 2>&1
+  cd ..
 fi
 
 
