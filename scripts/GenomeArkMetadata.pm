@@ -85,6 +85,20 @@ sub loadSpeciesMetadata ($$$$) {
     $$data{"genome_size_method"}  = $meta->{species}->{genome_size_method};
     $$data{"genome_size_method"}  = ""  if (!defined($$data{"genome_size_method"}));
 
+    #  Pull in an exact copy of the metadata file.  We could use TAML::XS::Dump() to
+    #  regenerate the yaml, but comments are lost and formatting changes.
+    if ($mdf =~ m/yaml$/) {
+        open(Y, "< $mdf") or die "Failed to open metadata '$mdf': $!\n";
+
+        $$data{"metadata"} = "|\n";
+        while (<Y>) {
+            chomp;
+            $$data{"metadata"} .= "  $_\n"   if ($_ ne "---");
+        }
+
+        close(Y);
+    }
+
     $$data{"data_status"}         = "none";  #<em style=\"color:red\">no data</em>";
     $$data{"assembly_status"}     = "none";  #<em style=\"color:red\">no assembly</em>";
 
