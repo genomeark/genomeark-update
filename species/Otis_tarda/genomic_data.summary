@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bOtiTar3              7688107453               0      2147483648     13496227045         1651307  species/Otis_tarda/bOtiTar3/genomic_data/pacbio_hifi/m64229e_230329_181100.ccs.bc1002_BAK8A_OA--bc1002_BAK8A_OA.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bOtiTar3          1.7554     13495703822
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bLepDis1             18393133438               0      2147483648     32704944912       216589047  species/Leptosomus_discolor/bLepDis1/genomic_data/arima/bLepDis1_L1_S2_R1_001.fastq.gz
+arima           bLepDis1             18987742733               0      2147483648     32905596819       217917868  species/Leptosomus_discolor/bLepDis1/genomic_data/arima/bLepDis1_L1_S2_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bLepDis1          1.7477     65330557284
+--------------- ---------------  ------- ---------------

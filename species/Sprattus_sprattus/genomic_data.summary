@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fSprSpr1             33788363760               0      2147483648     96268378770       637538932  species/Sprattus_sprattus/fSprSpr1/genomic_data/arima/fSprSpr1_47093_2#8.cram
 pacbiohifi_bam  fSprSpr1             85175951854               0      2147483648     22430272489         2171358  species/Sprattus_sprattus/fSprSpr1/genomic_data/pacbio_hifi/m64016e_230227_155235.ccs.bc1012_BAK8A_OA--bc1012_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  fSprSpr1             85175951854               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fSprSpr1          2.8491     96266427188
 pacbiohifi_bam  fSprSpr1          0.2633     22426828123
 --------------- ---------------  ------- ---------------

@@ -5,6 +5,7 @@
 arima           fGymFra1             87944847496               0      2147483648    271160895660      1795767520  species/Gymnoscopelus_fraseri/fGymFra1/genomic_data/arima/fGymFra1_46506_3#4.cram
 pacbiohifi_bam  fGymFra1             70698310756               0      2147483648     18909401449         2558985  species/Gymnoscopelus_fraseri/fGymFra1/genomic_data/pacbio_hifi/m64089e_230302_214642.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
 pacbiohifi_bam  fGymFra1             67969441456               0      2147483648     18125362356         2459483  species/Gymnoscopelus_fraseri/fGymFra1/genomic_data/pacbio_hifi/m64089e_230304_024335.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
+pacbiohifi_bam  fGymFra1             10712639451               0      2147483648     16586581903         1754935  species/Gymnoscopelus_fraseri/fGymFra1/genomic_data/pacbio_hifi/m64089e_230419_152019.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
 pacbiohifi_bam  fGymFra1             73377752052               0      2147483648     19585050905         2424884  species/Gymnoscopelus_fraseri/fGymFra1/genomic_data/pacbio_hifi/m64229e_230225_023032.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -13,5 +14,5 @@ pacbiohifi_bam  fGymFra1             73377752052               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fGymFra1          3.0833    271160348284
-pacbiohifi_bam  fGymFra1          0.2670     56616149638
+pacbiohifi_bam  fGymFra1          0.3589     82196449299
 --------------- ---------------  ------- ---------------

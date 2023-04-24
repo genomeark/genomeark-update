@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           iBraLan1             13851951113               0      2147483648     24277703787       160779495  species/Branchiostoma_lanceolatum/iBraLan1/genomic_data/arima/iBraLan1_L1_S4_R1_001.fastq.gz
+arima           iBraLan1             14482582589               0      2147483648     24468672687       162044189  species/Branchiostoma_lanceolatum/iBraLan1/genomic_data/arima/iBraLan1_L1_S4_R2_001.fastq.gz
 dovetail        iBraLan1             14223140750               0      2147483648     26307597751       174222508  species/Branchiostoma_lanceolatum/iBraLan1/genomic_data/dovetail/iBraLan1_L1_1.fastq.gz
 dovetail        iBraLan1             14216281327               0      2147483648     26107731284       172898889  species/Branchiostoma_lanceolatum/iBraLan1/genomic_data/dovetail/iBraLan1_L1_2.fastq.gz
 dovetail        iBraLan1              7911527124               0      2147483648     15354473404       101685254  species/Branchiostoma_lanceolatum/iBraLan1/genomic_data/dovetail/iBraLan1_L1_2_unmerged.fastq.gz
@@ -13,6 +15,7 @@ pacbiohifi_fqgz iBraLan1             23927426105               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           iBraLan1          1.7099     48449219177
 dovetail        iBraLan1          1.8643     82377275225
 pacbiohifi_fqgz iBraLan1          1.0682     50342885375
 --------------- ---------------  ------- ---------------

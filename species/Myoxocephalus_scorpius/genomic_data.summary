@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fMyoSco1             44939283159               0      2147483648     80337658373       532037493  species/Myoxocephalus_scorpius/fMyoSco1/genomic_data/arima/fMyoSco1_L1_S1_R1_001.fastq.gz
+arima           fMyoSco1             47580557006               0      2147483648     81115679509       537189952  species/Myoxocephalus_scorpius/fMyoSco1/genomic_data/arima/fMyoSco1_L1_S1_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fMyoSco1          1.7313    160179599277
+--------------- ---------------  ------- ---------------

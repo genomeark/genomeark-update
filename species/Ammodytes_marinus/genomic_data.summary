@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fAmmMar1             37968659369               0      2147483648    117816536763       780241965  species/Ammodytes_marinus/fAmmMar1/genomic_data/arima/fAmmMar1_46919_4#5.cram
+arima           fAmmMar1             51149883833               0      2147483648    156595810227      1037058345  species/Ammodytes_marinus/fAmmMar1/genomic_data/arima/fAmmMar1_47130_1#1.cram
 pacbiohifi_bam  fAmmMar1             11642664933               0      2147483648     18669518260         1886408  species/Ammodytes_marinus/fAmmMar1/genomic_data/pacbio_hifi/m64016e_220923_154827.ccs.bc1011_BAK8A_OA--bc1011_BAK8A_OA.bam
 pacbiohifi_bam  fAmmMar1             90033095314               0      2147483648     23702937202         2320293  species/Ammodytes_marinus/fAmmMar1/genomic_data/pacbio_hifi/m64228e_230130_171501.ccs.bc1017_BAK8B_OA--bc1017_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -11,6 +12,6 @@ pacbiohifi_bam  fAmmMar1             90033095314               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           fAmmMar1          3.1029    117812953156
+arima           fAmmMar1          3.0727    273834547696
 pacbiohifi_bam  fAmmMar1          0.3446     35037466981
 --------------- ---------------  ------- ---------------

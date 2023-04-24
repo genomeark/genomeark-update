@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mUroPar3             35857574254               0      2147483648     65541454099       434049381  species/Urocitellus_parryii/mUroPar3/genomic_data/arima/mUroPar3_L1_S6_R1_001.fastq.gz
+arima           mUroPar3             37590421769               0      2147483648     65485885933       433681363  species/Urocitellus_parryii/mUroPar3/genomic_data/arima/mUroPar3_L1_S6_R2_001.fastq.gz
+arima           mUroPar3             21885104124               0      2147483648     36731687141       243256216  species/Urocitellus_parryii/mUroPar3/genomic_data/arima/mUroPar3_L2_S4_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mUroPar3          1.7597    203896462034
+--------------- ---------------  ------- ---------------

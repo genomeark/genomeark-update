@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           qmCarMaen1           27364406983               0      2147483648     50224779516       332614433  species/Carcinus_maenas/qmCarMaen1/genomic_data/arima/iCarMae_L1_S9_R1_001.fastq.gz
+arima           qmCarMaen1           28963925495               0      2147483648     49978610330       330984174  species/Carcinus_maenas/qmCarMaen1/genomic_data/arima/iCarMae_L1_S9_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           qmCarMaen1        1.7607     99177294994
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fCorHun2             72481090702               0      2147483648    132315600264       876262287  species/Coregonus_huntsmani/fCorHun2/genomic_data/arima/fCorHun1_L1_S8_R1_001.fastq.gz
+arima           fCorHun2             75778331809               0      2147483648    133343760523       883071261  species/Coregonus_huntsmani/fCorHun2/genomic_data/arima/fCorHun1_L1_S8_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fCorHun2          1.7809    264035205549
+--------------- ---------------  ------- ---------------

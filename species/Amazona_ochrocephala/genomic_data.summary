@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAmaOch1             21151000580               0      2147483648     38605652754       255666574  species/Amazona_ochrocephala/bAmaOch1/genomic_data/arima/bAmaOch1_L3_S3_R1_001.fastq.gz
+arima           bAmaOch1             22002694774               0      2147483648     38885290178       257518488  species/Amazona_ochrocephala/bAmaOch1/genomic_data/arima/bAmaOch1_L3_S3_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bAmaOch1          1.7861     77076815271
+--------------- ---------------  ------- ---------------

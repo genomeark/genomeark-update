@@ -5,7 +5,9 @@
 arima           mBalAcu1            158756505866               0      2147483648    501997416114      3324486199  species/Balaenoptera_acutorostrata/mBalAcu1/genomic_data/arima/mBalAcu1_46652_4#2.cram
 pacbiohifi_bam  mBalAcu1             89175127718               0      2147483648     24238218890         2703553  species/Balaenoptera_acutorostrata/mBalAcu1/genomic_data/pacbio_hifi/m64125e_230217_190149.ccs.bc1020_BAK8B_OA--bc1020_BAK8B_OA.bam
 pacbiohifi_bam  mBalAcu1             80234028792               0      2147483648     21557428208         2555888  species/Balaenoptera_acutorostrata/mBalAcu1/genomic_data/pacbio_hifi/m64228e_230228_200747.ccs.bc1020_BAK8B_OA--bc1020_BAK8B_OA.bam
+pacbiohifi_bam  mBalAcu1             79726231486               0      2147483648     21470991981         2533401  species/Balaenoptera_acutorostrata/mBalAcu1/genomic_data/pacbio_hifi/m64228e_230301_231814.ccs.bc1020_BAK8B_OA--bc1020_BAK8B_OA.bam
 pacbiohifi_bam  mBalAcu1             88288992749               0      2147483648     24114824921         2738398  species/Balaenoptera_acutorostrata/mBalAcu1/genomic_data/pacbio_hifi/m64228e_230303_023154.ccs.bc1020_BAK8B_OA--bc1020_BAK8B_OA.bam
+pacbiohifi_bam  mBalAcu1             23659170587               0      2147483648     64636484215         7172732  species/Balaenoptera_acutorostrata/mBalAcu1/genomic_data/pacbio_hifi/m84047_230417_122211_s1.ccs.bc1020_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,5 +15,5 @@ pacbiohifi_bam  mBalAcu1             88288992749               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mBalAcu1          3.1620    501988071548
-pacbiohifi_bam  mBalAcu1          0.2712     91509492058
+pacbiohifi_bam  mBalAcu1          0.5750    231920660801
 --------------- ---------------  ------- ---------------

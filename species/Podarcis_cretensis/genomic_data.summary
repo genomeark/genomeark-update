@@ -6,6 +6,7 @@ arima           rPodCre1             75813014433               0      2147483648
 arima           rPodCre1             59544823148               0      2147483648    186400137155      1234437994  species/Podarcis_cretensis/rPodCre1/genomic_data/arima/rPodCre1_45522_1#4.cram
 arima           rPodCre2             66849627763               0      2147483648    206728941198      1369065835  species/Podarcis_cretensis/rPodCre2/genomic_data/arima/rPodCre2_45207_1#2.cram
 pacbiohifi_bam  rPodCre2             12814363629               0      2147483648     19322432058         1628519  species/Podarcis_cretensis/rPodCre2/genomic_data/pacbio_hifi/m64174e_220727_202343.ccs.bc1019_BAK8B_OA--bc1019_BAK8B_OA.bam
+pacbiohifi_bam  rPodCre2             16774139462               0      2147483648     24394597765         2449621  species/Podarcis_cretensis/rPodCre2/genomic_data/pacbio_hifi/m64222e_230403_032411.ccs.bc2050--bc2050.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,5 +15,5 @@ pacbiohifi_bam  rPodCre2             12814363629               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           rPodCre1          3.0991    419487474447
 arima           rPodCre2          3.0924    206725788894
-pacbiohifi_bam  rPodCre2          1.5078     19321497479
+pacbiohifi_bam  rPodCre2          1.4691     43468469890
 --------------- ---------------  ------- ---------------

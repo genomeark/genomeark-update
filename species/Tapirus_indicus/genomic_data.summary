@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mTapInd1             42377594125               0      2147483648     72077383563       477333665  species/Tapirus_indicus/mTapInd1/genomic_data/dovetail/mTapInd1_L4_S3_R1_001.fastq.gz
+dovetail        mTapInd1             43405449727               0      2147483648     71880583311       476030373  species/Tapirus_indicus/mTapInd1/genomic_data/dovetail/mTapInd1_L4_S3_R2_001.fastq.gz
+pacbiohifi_fqgz mTapInd1             20782620277               0      2147483648     26467741823         1634411  species/Tapirus_indicus/mTapInd1/genomic_data/pacbio_hifi/m64055e_221204_135355.bc1012--bc1012.hifi_reads.fastq.gz
+pacbiohifi_fqgz mTapInd1             19390042220               0      2147483648     24219440811         1475324  species/Tapirus_indicus/mTapInd1/genomic_data/pacbio_hifi/m64055e_221216_140033.bc1012--bc1012.hifi_reads.fastq.gz
+pacbiohifi_fqgz mTapInd1             20824124911               0      2147483648     25949281942         1601874  species/Tapirus_indicus/mTapInd1/genomic_data/pacbio_hifi/m64055e_221218_092918.bc1012--bc1012.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        mTapInd1          1.6707    143317731363
+pacbiohifi_fqgz mTapInd1          1.2564     93393259074
+--------------- ---------------  ------- ---------------

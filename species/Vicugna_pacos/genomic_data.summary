@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mVicPac1             38119785021               0      2147483648     62094966041       411224958  species/Vicugna_pacos/mVicPac1/genomic_data/dovetail/mVicPac1_L4_S2_R2_001.fastq.gz
+dovetail        mVicPac1             37216992526               0      2147483648     62353654748       412938128  species/Vicugna_pacos/mVicPac1/genomic_data/dovetail/mVicPac1_L4_S6_R1_001.fastq.gz
+dovetail        mVicPac1             38119785021               0      2147483648     62094966041       411224958  species/Vicugna_pacos/mVicPac1/genomic_data/dovetail/mVicPac1_L4_S6_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        mVicPac1          1.6441    247722391930
+--------------- ---------------  ------- ---------------

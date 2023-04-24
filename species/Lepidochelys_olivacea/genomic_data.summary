@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        rLepOli2             57233287144               0      2147483648     96425399931       638578834  species/Lepidochelys_olivacea/rLepOli2/genomic_data/dovetail/rLepOli2_L2_S1_R1_001.fastq.gz
+dovetail        rLepOli2             58412185343               0      2147483648     96131864291       636634862  species/Lepidochelys_olivacea/rLepOli2/genomic_data/dovetail/rLepOli2_L2_S1_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        rLepOli2          1.6585    191798016119
+--------------- ---------------  ------- ---------------

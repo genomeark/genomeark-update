@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bxPlaMage1           50717983310               0      2147483648     92052540531       609619497  species/Placopecten_magellanicus/bxPlaMage1/genomic_data/arima/iPlaMag1_L1_S5_R1_001.fastq.gz
+arima           bxPlaMage1           53536828575               0      2147483648     92900283322       615233664  species/Placopecten_magellanicus/bxPlaMage1/genomic_data/arima/iPlaMag1_L1_S5_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bxPlaMage1        1.7608    183571872767
+--------------- ---------------  ------- ---------------

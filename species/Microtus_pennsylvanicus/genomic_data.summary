@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMicPen1             78304868278               0      2147483648    138324760625       916058053  species/Microtus_pennsylvanicus/mMicPen1/genomic_data/arima/mMicPen1_L1_S7_R1_001.fastq.gz
+arima           mMicPen1             84031797106               0      2147483648    138987493954       920447018  species/Microtus_pennsylvanicus/mMicPen1/genomic_data/arima/mMicPen1_L1_S7_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mMicPen1          1.6897    274300263499
+--------------- ---------------  ------- ---------------
