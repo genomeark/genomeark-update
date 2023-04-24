@@ -18,6 +18,7 @@ species=""
 if [ -e "/work/software/ncbi-edirect/xtract" ] ; then
   export PATH=/work/software/ncbi-edirect:$PATH
 else
+  module load git
   module load aws
   module load samtools
   module load edirect
