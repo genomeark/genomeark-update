@@ -18,6 +18,8 @@ use GenomeArkAssembly;
 use GenomeArkAccumulateData;
 use GenomeArkGenomicData;
 
+#use YAML::XS;
+
 #use Slack;
 #use Update;
 #use Schedule;
@@ -151,7 +153,7 @@ foreach my $species (@speciesList) {
         my $filesize = $speciesSizes[$ii];
         my $filename = $speciesFiles[$ii];
 
-        if (isAssemblyFile($filename, 0)) {
+        if (isAssemblyFile($filename, "sequence", \@potentialErrors)) {
             if ($data{"last_updated"} < $filesecs) {
                 $data{"last_updated"} = $filesecs;
             }
@@ -169,9 +171,41 @@ foreach my $species (@speciesList) {
         my $filesize = $speciesSizes[$ii];
         my $filename = $speciesFiles[$ii];
 
-        next   if (! isAssemblyFile($filename, 0));
+        next   if (! isAssemblyFile($filename, "sequence", \@potentialErrors));
 
         importAssemblySummary($filesecs, $filesize, $filename, \%data, \@potentialErrors, \%missingData);
+    }
+
+    print "\n";
+    print "----------\n";
+    print "Assemblies, pass 2: import metadata\n";
+
+    for (my $ii=0; $ii<scalar(@speciesFiles); $ii++) {
+        my $filesecs = $speciesEpoch[$ii];
+        my $filesize = $speciesSizes[$ii];
+        my $filename = $speciesFiles[$ii];
+        my $dir;
+
+        next   if (! isAssemblyFile($filename, "metadata", \@potentialErrors));
+
+        print STDERR "METADATA '$filename'\n";
+
+        {
+            my $md = loadYAMLasString("downloads/$filename");
+            my @fc = split '/', $filename;
+
+            my $mdh = {};                              #  Make an entry for this metadata file.
+            $$mdh{"ident"} = "md$ii";                  #
+            $$mdh{"title"} = join '/', @fc[3..$#fc];   #  Remove stuff we already know.
+            $$mdh{"data"}  = $md;                      #
+
+            if (! exists($data{"mds"})) {              #  Add an empty array to the data.
+                $data{"mds"} = [];
+            }
+
+            my $arr = $data{"mds"};                    #  Push entry onto list.
+            push @$arr, $mdh;
+        }
     }
 
     #  Update genome size to one of the assembly sizes, if needed.

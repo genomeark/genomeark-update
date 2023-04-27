@@ -8,6 +8,7 @@ use lib "$FindBin::RealBin";
 
 use Time::Local;
 #use List::Util;
+use File::Basename;
 
 use GenomeArkUtility;
 use GenomeArkUpdate;
@@ -100,7 +101,7 @@ foreach my $species (@speciesList) {
         my $filesize = $speciesSizes[$ii];
         my $filename = $speciesFiles[$ii];
 
-        next   if (! isAssemblyFile($filename, 0));
+        next   if (! isAssemblyFile($filename, "sequence", \@potentialErrors));
 
         if ($data{"last_updated"} < $filesecs) {
             $data{"last_updated"} = $filesecs;
@@ -119,10 +120,36 @@ foreach my $species (@speciesList) {
         my $filesize = $speciesSizes[$ii];
         my $filename = $speciesFiles[$ii];
 
-        next   if (! isAssemblyFile($filename, 0));
+        next   if (! isAssemblyFile($filename, "sequence", \@potentialErrors));
 
         summarizeAssembly($filesecs, $filesize, $filename, \%data, \@potentialErrors, \%missingData, $downloadAssemblies);
     }
+
+    print "\n";
+    print "----------\n";
+    print "Assemblies, pass 3: fetch metadata\n";
+
+    for (my $ii=0; $ii<scalar(@speciesFiles); $ii++) {
+        my $filesecs = $speciesEpoch[$ii];
+        my $filesize = $speciesSizes[$ii];
+        my $filename = $speciesFiles[$ii];
+        my $dirname  = dirname($filename);
+
+        next   if (! isAssemblyFile($filename, "metadata", \@potentialErrors));
+
+        if (! -e "downloads/$filename") {
+            my $awsopts    = "--only-show-errors --no-sign-request";  #--quiet --no-progress
+
+            print "  '$filename'.\n";
+
+            system("mkdir -p downloads/$dirname");
+            system("aws $awsopts s3 cp s3://genomeark/$filename downloads/$filename || rm -f downloads/$filename");
+        }
+        else {
+            print "  '$filename' -- cached.\n";
+        }
+    }
+
 
 
     print "\n";

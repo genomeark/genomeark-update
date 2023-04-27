@@ -162,33 +162,48 @@ sub isGenomicDataFile ($) {
 }
 
 
-sub isAssemblyFile ($$) {
-    my $filename   = shift @_;
-    my $ignoreMito = shift @_;
+#
+#  Returns true if type == "sequence" and file is either mito or genomic.
+#  Returns true if type == "metadata" and file is sample or assembly metadata.
+#
+
+sub isAssemblyFile ($$$) {
+    my $filename = shift @_;
+    my $type     = shift @_;
+    my $errors   = shift @_;
 
     return(0)   if ($filename =~ m!genomic_data!);
-    return(0)   if ($filename !~ m!fasta.gz!);
-
     return(0)   if ($filename =~ m!additional_haplotigs!);
 
     return(0)   if ($filename =~ m!assembly_v0!);
     return(0)   if ($filename =~ m!bwgenome_!);
     return(0)   if ($filename =~ m!concatenated-!);
 
-    return(0)   if (($filename !~ m![/_]assembly[/_]!));
 
-    my $isMito = (($filename =~ m!species/(.*)/.*/(.*assembly.*)/${ToLIDregex}.MT.(\d\d\d\d)(\d\d)(\d\d).fasta.gz!i) ||
-                  ($filename =~ m!species/(.*)/.*/(.*assembly.*)/${ToLIDregex}.\w+.\w+.(\d\d\d\d)(\d\d)(\d\d).MT.fasta.gz!i));
+    my $isMeta = (($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.*\.y[a]{0,1}ml$!i) ||
+                  ($filename =~ m!species/.*/${ToLIDregex}/${ToLIDregex}.*\.y[a]{0,1}ml$!i));
 
-    my $isGeno = (($filename !~ m![\._]pri.*\.\d{8}.fasta.gz!) ||
-                  ($filename !~ m![\._]alt.*\.\d{8}.fasta.gz!) ||
-                  ($filename !~ m![\._]pat.*\.\d{8}.fasta.gz!) ||
-                  ($filename !~ m![\._]mat.*\.\d{8}.fasta.gz!));
+    my $isMito = (($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.MT.\d\d\d\d\d\d\d\d\.fasta\.gz$!i) ||
+                  ($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.\w+.\w+\.\d\d\d\d\d\d\d\d\.MT\.fasta\.gz$!i));
 
-    return(0)   if ($isMito == 0) && ($isGeno == 0);
-    return(0)   if ($isMito == 1) && ($ignoreMito == 1);
+    my $isGeno =  ($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.\w+.\w+.\d\d\d\d\d\d\d\d\.fasta\.gz$!i);
 
-    return(1);
+
+    if    ($type eq "metadata") {
+        return(1)   if ($isMeta);
+        return(0)   if ($isMito || $isGeno);
+    }
+    elsif ($type eq "sequence") {
+        return(0)   if ($isMeta);
+        return(1)   if ($isMito || $isGeno);
+    }
+    else {
+        die "Expecting 'metadata' or 'sequence' in isAssemblyFile().\n";
+    }
+
+
+    push @$errors, "  Unknown assembly file '$filename' for '$type'; meta='$isMeta' mito='$isMito' geno='$isGeno'\n";
+    return(0);
 }
 
 
