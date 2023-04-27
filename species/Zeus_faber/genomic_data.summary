@@ -8,6 +8,7 @@
 pacbio          fZeuFab1              3739913035               0      3739913035      1968411374          225509  species/Zeus_faber/fZeuFab1/genomic_data/pacbio/m54097_170824_160621.subreads.bam
 pacbio          fZeuFab1              5386969041               0      2147483648      2787520514          420467  species/Zeus_faber/fZeuFab1/genomic_data/pacbio/m54097_171013_003218.subreads.bam
 pacbio          fZeuFab1              5950225393               0      2147483648      3088236674          445695  species/Zeus_faber/fZeuFab1/genomic_data/pacbio/m54097_171017_034810.subreads.bam
+arima           fZeuFab8             56754874956               0      2147483648    164417275663      1088856130  species/Zeus_faber/fZeuFab8/genomic_data/arima/fZeuFab8_47158_2#5.cram
 pacbiohifi_bam  fZeuFab8             10646903353               0      2147483648     16100173380         2073070  species/Zeus_faber/fZeuFab8/genomic_data/pacbio_hifi/m64222e_230308_150647.ccs.bc1010_BAK8A_OA--bc1010_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -16,6 +17,7 @@ pacbiohifi_bam  fZeuFab8             10646903353               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 10x             fZeuFab1          1.4007    104627232935
+arima           fZeuFab8          2.8969    164413197260
 pacbio          fZeuFab1          0.5202     71676830504
 pacbiohifi_bam  fZeuFab8          1.5121     16099182560
 --------------- ---------------  ------- ---------------

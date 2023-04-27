@@ -7,7 +7,9 @@ pacbiohifi_bam  aLisVul1             15503472550               0      2147483648
 pacbiohifi_bam  aLisVul1             99513728003               0      2147483648     26779526291         2416892  species/Lissotriton_vulgaris/aLisVul1/genomic_data/pacbio_hifi/m64125e_221104_161144.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
 pacbiohifi_bam  aLisVul1             12034556745               0      2147483648     17576690179         2150663  species/Lissotriton_vulgaris/aLisVul1/genomic_data/pacbio_hifi/m64178e_230324_161824.ccs.bc2089--bc2089.bam
 pacbiohifi_bam  aLisVul1             16955557544               0      2147483648     25054735295         2246551  species/Lissotriton_vulgaris/aLisVul1/genomic_data/pacbio_hifi/m64221e_230420_224014.ccs.bc2089--bc2089.bam
+pacbiohifi_bam  aLisVul1             16882876874               0      2147483648     24998026274         2249382  species/Lissotriton_vulgaris/aLisVul1/genomic_data/pacbio_hifi/m64221e_230422_014744.ccs.bc2089--bc2089.bam
 pacbiohifi_bam  aLisVul1             15010503754               0      2147483648     23745461648         2110622  species/Lissotriton_vulgaris/aLisVul1/genomic_data/pacbio_hifi/m64230e_230312_235457.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
+pacbiohifi_bam  aLisVul1             21648220140               0      2147483648     30959589848         2316039  species/Lissotriton_vulgaris/aLisVul1/genomic_data/pacbio_hifi/m64230e_230423_065702.ccs.bc2089--bc2089.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,5 +17,5 @@ pacbiohifi_bam  aLisVul1             15010503754               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aLisVul1          3.0361    913067797833
-pacbiohifi_bam  aLisVul1          1.4537    272134743249
+pacbiohifi_bam  aLisVul1          1.4886    310893614244
 --------------- ---------------  ------- ---------------
