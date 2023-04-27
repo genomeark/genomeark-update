@@ -188,8 +188,6 @@ foreach my $species (@speciesList) {
 
         next   if (! isAssemblyFile($filename, "metadata", \@potentialErrors));
 
-        print STDERR "METADATA '$filename'\n";
-
         {
             my $md = loadYAMLasString("downloads/$filename");
             my @fc = split '/', $filename;
@@ -272,8 +270,13 @@ foreach my $species (@speciesList) {
             $data{"data_${ti}_bytes_v"} += $bytes;
             $data{"data_${ty}_bytes_v"} += $bytes;
 
-            $data{"data_${ti}_bases_v"} += $bytes * $data{"data_${ti}_scale"};
-            $data{"data_${ty}_bases_v"} += $bytes * $data{"data_${ti}_scale"};
+            if (exists($data{"data_${ti}_scale"}) && exists($data{"data_${ti}_scale"})) {
+                $data{"data_${ti}_bases_v"} += $bytes * $data{"data_${ti}_scale"};
+                $data{"data_${ty}_bases_v"} += $bytes * $data{"data_${ti}_scale"};
+            }
+            else {
+                push @potentialErrors, "No scale for $species data_${ti}_scale or data_${ti}_scale.\n";
+            }
 
             #print "$ti ", $data{"data_${ti}_bytes_v"}, " ", $data{"data_${ti}_bases_v"}, " $ty ", $data{"data_${ty}_bytes_v"}, " ", $data{"data_${ti}_bases_v"}, "\n";
         }
