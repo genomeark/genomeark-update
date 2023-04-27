@@ -254,25 +254,24 @@ sub generateAssemblySummaryHTML ($$$$) {
 
     $filename =~ s/.gz//;
 
-    $n50table .= "|\n";
-    $n50table .= "  <table class=\"sequence-sizes-table\">\n";
-    $n50table .= "  <thead>\n";
+    $n50table .= "<table class=\"sequence-sizes-table\">\n";
+    $n50table .= "<thead>\n";
 
-    $n50table .= "  <tr>\n";
-    $n50table .= "  <th></th>\n";
-    $n50table .= "  <th colspan=2 align=center>Contigs</th>\n";
-    $n50table .= "  <th colspan=2 align=center>Scaffolds</th>\n";
-    $n50table .= "  </tr>\n";
+    $n50table .= "<tr>\n";
+    $n50table .= "<th></th>\n";
+    $n50table .= "<th colspan=2 align=center>Contigs</th>\n";
+    $n50table .= "<th colspan=2 align=center>Scaffolds</th>\n";
+    $n50table .= "</tr>\n";
 
-    $n50table .= "  <tr>\n";
-    $n50table .= "  <th>NG</th>\n";
-    $n50table .= "  <th>LG</th>\n";
-    $n50table .= "  <th>Len</th>\n";
-    $n50table .= "  <th>LG</th>\n";
-    $n50table .= "  <th>Len</th>\n";
-    $n50table .= "  </tr>\n";
-    $n50table .= "  </thead>\n";
-    $n50table .= "  <tbody>\n";
+    $n50table .= "<tr>\n";
+    $n50table .= "<th>NG</th>\n";
+    $n50table .= "<th>LG</th>\n";
+    $n50table .= "<th>Len</th>\n";
+    $n50table .= "<th>LG</th>\n";
+    $n50table .= "<th>Len</th>\n";
+    $n50table .= "</tr>\n";
+    $n50table .= "</thead>\n";
+    $n50table .= "<tbody>\n";
 
     #  Strip out the N50 chart
 
@@ -297,9 +296,9 @@ sub generateAssemblySummaryHTML ($$$$) {
         }
 
         if ($ii == 4) {
-            $n50table .= "  <tr style=\"background-color:#cccccc;\">";
+            $n50table .= "<tr style=\"background-color:#cccccc;\">";
         } else {
-            $n50table .= "  <tr>";
+            $n50table .= "<tr>";
         }
 
         $n50table .= "<td> $ctgNG[$ii] </td>";
@@ -310,16 +309,16 @@ sub generateAssemblySummaryHTML ($$$$) {
 
     #  And one row of summary.
 
-    $n50table .= "  </tbody>\n";
-    $n50table .= "  <tfoot>\n";
-    $n50table .= "  <tr>";
+    $n50table .= "</tbody>\n";
+    $n50table .= "<tfoot>\n";
+    $n50table .= "<tr>";
     $n50table .= "<th> $ctgNG[10] </th>";
     $n50table .= "<th> $ctgLG[10] </th><th> $ctgLEN[10] </th>";
     $n50table .= "<th> $scfLG[10] </th><th> $scfLEN[10] </th>";
     $n50table .= "</tr>\n";
-    $n50table .= "  </tfoot>\n";
+    $n50table .= "</tfoot>\n";
 
-    $n50table .= "  </table>\n";
+    $n50table .= "</table>\n";
 
     return($ctgn50, $scfn50, $scfsize, $n50table);
 }

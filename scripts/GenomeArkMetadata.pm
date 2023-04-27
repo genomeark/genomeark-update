@@ -3,7 +3,7 @@ package GenomeArkMetadata;
 require Exporter;
 
 @ISA    = qw(Exporter);
-@EXPORT = qw(loadSpeciesMetadata saveData loadData);
+@EXPORT = qw(loadSpeciesMetadata saveData loadYAMLasString);
 
 use strict;
 use warnings;
@@ -85,18 +85,10 @@ sub loadSpeciesMetadata ($$$$) {
     $$data{"genome_size_method"}  = $meta->{species}->{genome_size_method};
     $$data{"genome_size_method"}  = ""  if (!defined($$data{"genome_size_method"}));
 
-    #  Pull in an exact copy of the metadata file.  We could use TAML::XS::Dump() to
+    #  Pull in an exact copy of the metadata file.  We could use YAML::XS::Dump() to
     #  regenerate the yaml, but comments are lost and formatting changes.
-    if ($mdf =~ m/yaml$/) {
-        open(Y, "< $mdf") or die "Failed to open metadata '$mdf': $!\n";
-
-        $$data{"metadata"} = "|\n";
-        while (<Y>) {
-            chomp;
-            $$data{"metadata"} .= "  $_\n"   if ($_ ne "---");
-        }
-
-        close(Y);
+    if ($mdf =~ m/y[a]{0,1}ml$/) {
+        $$data{"metadata"} = loadYAMLasString($mdf);
     }
 
     $$data{"data_status"}         = "none";  #<em style=\"color:red\">no data</em>";
@@ -113,6 +105,22 @@ sub loadSpeciesMetadata ($$$$) {
 }
 
 
+#
+#  Read a yaml file into a single string, omitting the '---' lines.
+#
+sub loadYAMLasString ($) {
+    my $mdf = shift @_;
+    my $str;
+
+    open(Y, "< $mdf") or die "Failed to open yaml file '$mdf' for reading: $!\n";
+    while (<Y>) {
+        $str .= "$_"   if ($_ !~ "^---");
+    }
+    close(Y);
+
+    return($str);
+}
+
 
 #
 #  Write and read data from our markdown page.
@@ -123,65 +131,10 @@ sub saveData ($$) {
     my $file = shift @_;
 
     print "  Write to '$file'\n";
+
     open(MD, "> $file") or die "Failed to open '$file' for write: $!\n";
-
+    print MD YAML::XS::Dump($data);
     print MD "---\n";
-    foreach my $key (sort keys %$data) {
-        next if ($key eq ":");
-
-        die "undef data{$key}\n"  if (!defined($$data{$key}));
-
-        if    (ref $$data{$key} eq "ARRAY") {
-            print MD "$key:\n";
-            foreach my $val (@$data{$key}) {
-                print MD " - $val\n";
-            }
-        }
-        elsif ($$data{$key} ne "") {
-            chomp $$data{$key};
-            print MD "$key: $$data{$key}\n";
-        }
-    }
-
-    print MD "---\n";
-    print MD $$data{":"}   if (exists($$data{":"}));
-
-    close(MD);
-}
-
-
-sub loadData ($$) {
-    my $species = shift @_;
-    my $data    = shift @_;
-    my $key     = undef;
-    my $lvl     = 0;
-    my @keys;
-    my @lvls;
-
-    undef %$data;   #  Forget everything we know about some other species.
-
-    open(MD, "< ../_genomeark/$species.md") or die;
-    while (<MD>) {
-        chomp;
-
-        if    (m!^---$!) {                        #  Match the YAML delimiters.
-            $key    = undef;
-        }
-        elsif (m!(\w+):\s*\|$!) {                 #  Match any multi-line pre-formatted parameters.
-            $key = $1;
-            $$data{$key} = "|\n";
-        }
-        elsif (defined($key) && (m!^\s\s\S!)) {   #  Add data to multi-line parameters.
-            $$data{$key} .= "$_\n";
-        }
-        elsif (m!(\w+):\s*(.*)$!) {               #  Match any key-value pairs.
-            $key       = undef;
-            $$data{$1} = $2;
-        }
-        else {                                    #  Match any extra stuff in the file.
-            $$data{":"} .= "$_\n";
-        }
-    }
     close(MD);
 }
 
