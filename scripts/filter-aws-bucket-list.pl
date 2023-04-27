@@ -103,6 +103,9 @@ while (<RAW>) {
     next if ($filename =~ m!mother$!);
     next if ($filename =~ m!father$!);
 
+    next if ($filename =~ m!\.png$!);
+    next if ($filename =~ m!\.png\.gz$!);
+
     next if ($filename =~ m!\.md5$!);
     next if ($filename =~ m!md5sum!);
 
@@ -140,8 +143,8 @@ while (<RAW>) {
     next if ($filename =~ m!\.gff3\.gz$!);
     next if ($filename =~ m!\.gff3\.xz$!);
 
-    next if ($filename =~ m!\.yaml$!);
-    next if ($filename =~ m!\.yml$!);
+    #ext if ($filename =~ m!\.yaml$!);
+    #ext if ($filename =~ m!\.yml$!);
 
     next if ($filename =~ m!\.tar$!);
     next if ($filename =~ m!\.tar\.gz$!);
@@ -166,25 +169,22 @@ while (<RAW>) {
 
     next if ($filename =~ m!aligned\.genomecov!);
 
-    next if ($filename =~ m!/qc/logs!i);
-    next if ($filename =~ m!/qc/mash!i);
-    next if ($filename =~ m!/qc/meryl!i);
-    next if ($filename =~ m!/qc/stats!i);
-    next if ($filename =~ m!/qc/busco!i);
-    next if ($filename =~ m!/qc/asm-stats!i);
-    next if ($filename =~ m!/qc/genomescope!i);
+    next if ($filename =~ m!/qc/!i);
+
     next if ($filename =~ m!/genomescope!i);
     next if ($filename =~ m!/meryl_genomescope!i);
     next if ($filename =~ m!/katplot!i);
     next if ($filename =~ m!/FASTK!i);
     next if ($filename =~ m!/busco!i);
     next if ($filename =~ m!/merfin!i);
+    next if ($filename =~ m!/merqury!i);
     next if ($filename =~ m!/mercury!i);
 
     next if ($filename =~ m!/assembly_v0/!);
 
     next if ($filename =~ m!bwgenome!i);
 
+    next if ($filename =~ m!/pretext_snapshots/!i);
     next if ($filename =~ m!\.pretext$!i);
     next if ($filename =~ m!\.pretext\.gz$!i);
     next if ($filename =~ m!\.pretext\.png\.gz$!i);
