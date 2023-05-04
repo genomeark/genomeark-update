@@ -441,6 +441,104 @@ foreach my $species (@speciesList) {
         #$data{"last_updated"} = 0;
     }
 
+    #  Figure out a data-use statement.
+
+    {
+
+        #  Check supplied values (via some rather complicated cases) and replace with default as appropriate.
+        #
+        #  An error is reported if:
+        #   - a url is supplied without a name
+        #   - a name but no url or email is supplied
+        #
+        my $duu  = $data{"data_use_url"}   || "https://genome10k.soe.ucsc.edu/data-use-policies/";
+        my $pocn = $data{"point_of_contact"};
+        my $pocu = $data{"point_of_contact_url"};
+        my $poce = $data{"point_of_contact_email"};
+        my $poc;
+
+        # 000 - Use Erich
+        if    (!defined($pocn) &&
+               !defined($pocu) &&
+               !defined($poce)) {
+            $pocn = "Erich D. Jarvis";
+            $pocu = undef;
+            $poce = "ejarvis\@rockefeller.edu"
+        }
+
+        # 010 - A url with no name.  The layout is weird (especially if email exists), but oh well.
+        # 011 -
+        elsif (!defined($pocn) &&
+                defined($pocu)) {
+            push @potentialErrors, "  Species $data{'name_'} has point_of_contact_url but no point_of_contact.\n"   if (!defined($poce));
+            push @potentialErrors, "  Species $data{'name_'} has point_of_contact_url and _email but no point_of_contact.\n"   if ( defined($poce));
+            $pocn = $pocu;
+        }
+
+        # 001 - Only an email, use it for the name so it is rendered correctly.
+        elsif (!defined($pocn) &&
+               !defined($pocu) &&
+                defined($poce)) {
+            $pocn = $poce;
+            $poce = undef;
+        }
+
+        # 100 - Only a name?  A big error, use the defaults.
+        elsif ( defined($pocn) &&
+               !defined($pocu) &&
+               !defined($poce)) {
+            push @potentialErrors, "  Species $data{'name_'} has point_of_contact but no _url or _email; using Erich instead.\n";
+            $pocn = "Erich D. Jarvis";
+            $pocu = undef;
+            $poce = "ejarvis\@rockefeller.edu"
+        }
+
+        # 101 - The remaining three cases are all ok.
+        # 110 -
+        # 111 -
+        else {
+        }
+
+
+        #  Find a data use statement to use.
+        #
+        #  If defined, data_use_text from species metadata is used.
+        #  Else, if data_use_class is defined, data_use_text from project metadata is used.
+        #  Else, the generic data use statement is used.
+        #  
+        my $dut  = $data{"data_use_text"};
+        my $duc  = $data{"data_use_project"};
+        my $dup  = getProjectDataUse($duc);
+
+        if    (defined($dut)) {
+            $data{"data_use_text"}   = $dut;
+            $data{"data_use_source"} = "from-text";
+        }
+        elsif (defined($dup)) {
+            $data{"data_use_text"}   = $dup;
+            $data{"data_use_source"} = "from-project";
+        }
+        else {
+            my $p = ($pocu) ? "<a href=\"{{ point-of-contact-url }}\">{{ point-of-contact }}</a>" : "{{ point-of-contact }}";
+            my $e = ($poce) ? ", {{ point-of-contact-email }}," : "";
+ 
+            $data{"data_use_text"}   = "Samples and data come from a variety of sources. To support fair and productive use of this data, please abide by the <a href=\"{{ data-use-url }}\">Data Use Policy</a> and contact $p$e with any questions.";
+            $data{"data_use_source"} = "from-default";
+        }
+
+        $data{"data_use_text"} =~ s!\{\{\s*data[-_]use[-_]url\s*\}\}!$duu!g;
+        $data{"data_use_text"} =~ s!\{\{\s*point[-_]of[-_]contact\s*\}\}!$pocn!g;
+        $data{"data_use_text"} =~ s!\{\{\s*point[-_]of[-_]contact[-_]url\s*\}\}!$pocu!g;
+        $data{"data_use_text"} =~ s!\{\{\s*point[-_]of[-_]contact[-_]email\s*\}\}!$poce!g;
+
+        delete $data{"data_use_project"};
+        delete $data{"data_use_url"};
+
+        delete $data{"point_of_contact"};
+        delete $data{"point_of_contact_url"};
+        delete $data{"point_of_contact_email"};
+    }
+
     #  Done.  Write the output to _genomeark.  Note that the _proj-whatever/
     #  directories are just symlinks; this is the only copy of the data
     #  itself.

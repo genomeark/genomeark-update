@@ -97,6 +97,15 @@ sub loadSpeciesMetadata ($$$$) {
     #$data{"last_raw_data"}       = Do not set here; should only be present if data exists.
     $$data{"last_updated"}        = 0;
 
+    $$data{"data_use_text"}          = $meta->{species}->{data_use_text};
+    $$data{"data_use_url"}           = $meta->{species}->{data_use_url};
+
+    $$data{"data_use_project"}       = $meta->{species}->{data_use_project};
+
+    $$data{"point_of_contact"}       = $meta->{species}->{point_of_contact};
+    $$data{"point_of_contact_url"}   = $meta->{species}->{point_of_contact_url};
+    $$data{"point_of_contact_email"} = $meta->{species}->{point_of_contact_email};
+
     foreach my $p (@{$meta->{species}->{project}}) {
         addProjectToSpecies($p, $$data{name_});
     }

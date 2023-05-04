@@ -3,7 +3,7 @@ package GenomeArkProject;
 require Exporter;
 
 @ISA    = qw(Exporter);
-@EXPORT = qw(addProjectToSpecies loadProjectMetadata getAllProjectNames getProjectID makeIndexPage);
+@EXPORT = qw(addProjectToSpecies loadProjectMetadata getAllProjectNames getProjectID getProjectDataUse makeIndexPage);
 
 use strict;
 use warnings;
@@ -15,6 +15,7 @@ use YAML::XS;
 my %projectID;
 my %projectIDtoProjectName;
 my %projectIDtoProjectURL;
+my %projectIDtoProjectDataUse;
 my %speciesToProjectID;
 
 
@@ -53,8 +54,9 @@ sub loadProjectMetadata () {
 
         $projectID{$proj} = 1;
 
-        $projectIDtoProjectName{$proj} = $p->{name};
-        $projectIDtoProjectURL{$proj}  = $p->{url};
+        $projectIDtoProjectName{$proj}    = $p->{name};
+        $projectIDtoProjectURL{$proj}     = $p->{url};
+        $projectIDtoProjectDataUse{$proj} = $p->{data_use};
     }
 
     print "  Found ", scalar(keys %projectID), " genome projects.\n";
@@ -79,6 +81,14 @@ sub getProjectID ($) {
     my $name = shift @_;
     my $proj = $speciesToProjectID{$name};
     return($proj);
+}
+
+sub getProjectDataUse ($) {
+    my $name = shift @_;
+    return(undef)   if !defined($name);
+    return(undef)   if !exists($projectIDtoProjectDataUse{$name});
+    my $duse = $projectIDtoProjectDataUse{$name};
+    return($duse);
 }
 
 
