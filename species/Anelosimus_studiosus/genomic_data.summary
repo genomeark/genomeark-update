@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           qqAneStud1           48771718607               0      2147483648     91391712190       605243127  species/Anelosimus_studiosus/qqAneStud1/genomic_data/arima/AneStu_S16_L004_R1_001.fastq.gz
+arima           qqAneStud1           49092048869               0      2147483648     92234095126       610821844  species/Anelosimus_studiosus/qqAneStud1/genomic_data/arima/AneStu_S16_L004_R2_001.fastq.gz
 pacbiohifi_fqgz qqAneStud1           23513831896               0      2147483648     27601204257         1757052  species/Anelosimus_studiosus/qqAneStud1/genomic_data/pacbio_hifi/m64055e_211018_180443.hifi_reads.fastq.gz
 pacbiohifi_fqgz qqAneStud1           24814357155               0      2147483648     29953322755         1890400  species/Anelosimus_studiosus/qqAneStud1/genomic_data/pacbio_hifi/m64055e_211021_155623.hifi_reads.fastq.gz
 pacbiohifi_fqgz qqAneStud1           24494460029               0      2147483648     27657600202         1679813  species/Anelosimus_studiosus/qqAneStud1/genomic_data/pacbio_hifi/m64055e_211023_025442.hifi_reads.fastq.gz
@@ -11,5 +13,6 @@ pacbiohifi_fqgz qqAneStud1           24494460029               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           qqAneStud1        1.8771    183700077929
 pacbiohifi_fqgz qqAneStud1        1.1701    135995634847
 --------------- ---------------  ------- ---------------

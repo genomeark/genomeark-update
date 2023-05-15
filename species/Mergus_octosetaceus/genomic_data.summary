@@ -4,6 +4,9 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bMerOct1             37011965642               0      2147483648     67474479006       446850871  species/Mergus_octosetaceus/bMerOct1/genomic_data/arima/bMerOct1_1.fastq.gz
 arima           bMerOct1             38427475762               0      2147483648     66928267101       443233556  species/Mergus_octosetaceus/bMerOct1/genomic_data/arima/bMerOct1_2.fastq.gz
+pacbiohifi_fqgz bMerOct1             19373468188               0      2147483648     24285168589         1429894  species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m54306Ue_221202_135656.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_fqgz bMerOct1             19734571183               0      2147483648     24971627973         1473767  species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64055e_221120_063919.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_fqgz bMerOct1              5565287574               0      2147483648      7514737632          449004  species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64334e_221217_140638.bc1002--bc1002.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +14,5 @@ arima           bMerOct1             38427475762               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bMerOct1          1.7681    133384476346
+pacbiohifi_fqgz bMerOct1          1.2708     56770863881
 --------------- ---------------  ------- ---------------

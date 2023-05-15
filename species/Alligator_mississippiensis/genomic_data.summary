@@ -9,6 +9,11 @@ pacbiohifi_fqgz rAllMis1             12740915093               0      2147483648
 pacbiohifi_fqgz rAllMis1             13254603762               0      2147483648     15243392894          945753  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m64055e_220613_163322.bc1018--bc1018.hifi_reads.fastq.gz
 pacbiohifi_fqgz rAllMis1             10991058994               0      2147483648     12851366924          771974  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m64055e_220622_190437.bc1018--bc1018.hifi_reads.fastq.gz
 pacbiohifi_fqgz rAllMis1             10654299418               0      2147483648     12596975730          754230  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m64055e_220624_055853.bc1018--bc1018.hifi_reads.fastq.gz
+arima           rAllMis2             50550152229               0      2147483648     93266294836       617657605  species/Alligator_mississippiensis/rAllMis2/genomic_data/arima/rSteOdo1_S2_R1_001.fastq.gz
+arima           rAllMis2             52006379510               0      2147483648     92985629818       615798872  species/Alligator_mississippiensis/rAllMis2/genomic_data/arima/rSteOdo1_S2_R2_001.fastq.gz
+pacbiohifi_fqgz rAllMis2             28960121598               0      2147483648     33532727422         1633174  species/Alligator_mississippiensis/rAllMis2/genomic_data/pacbio_hifi/m54306Ue_221121_033625.bc1008--bc1008.hifi_reads.fastq.gz
+pacbiohifi_fqgz rAllMis2             23127887188               0      2147483648     28703796610         1395858  species/Alligator_mississippiensis/rAllMis2/genomic_data/pacbio_hifi/m54306Ue_221128_200454.bc1008--bc1008.hifi_reads.fastq.gz
+pacbiohifi_fqgz rAllMis2             16463157518               0      2147483648     16518527543          840543  species/Alligator_mississippiensis/rAllMis2/genomic_data/pacbio_hifi/m64055e_221208_043940.bc1008--bc1008.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -16,6 +21,8 @@ pacbiohifi_fqgz rAllMis1             10654299418               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           rAllMis1          1.8508    171586213970
+arima           rAllMis2          1.8066    185278630239
 bionano         rAllMis1         568.3178    669119523849
 pacbiohifi_fqgz rAllMis1          1.1862     80135052767
+pacbiohifi_fqgz rAllMis2          1.1488     90307537931
 --------------- ---------------  ------- ---------------

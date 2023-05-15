@@ -2,6 +2,9 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             bPhaSup1              5191059717               0      2147483648     10691930700        70807490  species/Phaethornis_superciliosus/bPhaSup1/genomic_data/10x/bPhaSup1_S1_L001_R1_001.fastq.gz
+10x             bPhaSup1              5683037274               0      2147483648     11720322055        77618029  species/Phaethornis_superciliosus/bPhaSup1/genomic_data/10x/bPhaSup1_S1_L003_R1_001.fastq.gz
+10x             bPhaSup1              4537854443               0      2147483648      8784988092        58178729  species/Phaethornis_superciliosus/bPhaSup1/genomic_data/10x/bPhaSup1_S1_L004_R2_001.fastq.gz
 arima           bPhaSup1             45326907957               0      2147483648     90242421058       597631948  species/Phaethornis_superciliosus/bPhaSup1/genomic_data/arima/SRR17111054_1.fastq.gz
 arima           bPhaSup1             48544563040               0      2147483648     90503413769       599360378  species/Phaethornis_superciliosus/bPhaSup1/genomic_data/arima/SRR17111054_2.fastq.gz
 pacbio_fqgz     bPhaSup1             35431262919               0      2147483648    118461240099         4086975  species/Phaethornis_superciliosus/bPhaSup1/genomic_data/pacbio/SRR17089233.fastq.gz
@@ -11,6 +14,7 @@ pacbio_fqgz     bPhaSup1             35431262919               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+10x             bPhaSup1          2.0242     81468263652
 arima           bPhaSup1          1.9046    178787603660
 pacbio_fqgz     bPhaSup1          3.3434    118460884443
 --------------- ---------------  ------- ---------------

@@ -9,6 +9,12 @@ ont             mHooLeu1             13544787314               0      2147483648
 ont             mHooLeu1             15512370175               0      2147483648     15786061257         1080413  species/Hoolock_leuconedys/mHooLeu1/genomic_data/ont/PAM32213_guppy-6.3.7-hac.fastq.gz
 ont             mHooLeu1             16860781034               0      2147483648     17279575882         1059524  species/Hoolock_leuconedys/mHooLeu1/genomic_data/ont/PAM32319_guppy-6.3.7-hac.fastq.gz
 ont             mHooLeu1             16023751472               0      2147483648     16328635045          866147  species/Hoolock_leuconedys/mHooLeu1/genomic_data/ont/PAM33236_guppy-6.3.9-hac.fastq.gz
+pacbiohifi_clr  mHooLeu1           1026043899460               0      2147483648    556562284285        37504519  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m54329U_230114_044432.subreads.bam
+pacbiohifi_bam  mHooLeu1            165618570115               0      2147483648     44666731753         2296620  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m54329U_230317_042109-bc2040.hifi_reads.5mC.bam
+pacbiohifi_bam  mHooLeu1            150499130705               0      2147483648     39894722949         2033348  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m64076_230418_220037-bc2040.hifi_reads.5mC.bam
+pacbiohifi_bam  mHooLeu1            157049237165               0      2147483648     41709962485         2126232  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m64076_230420_072802-bc2040.hifi_reads.5mC.bam
+pacbiohifi_clr  mHooLeu1           1160593833345               0      2147483648    625415215518        34423015  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m64076_230421_164836.subreads.bam
+pacbiohifi_clr  mHooLeu1            336002249351               0      2147483648    120587856433         5852038  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/r64076_20230418_214037_C01.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -17,4 +23,6 @@ ont             mHooLeu1             16023751472               0      2147483648
 --------------- ---------------  ------- ---------------
 illumina        mHooLeu1          1.9525    372570317971
 ont             mHooLeu1          1.0206    103361056344
+pacbiohifi_bam  mHooLeu1          0.2668    482335233982
+pacbiohifi_clr  mHooLeu1          0.5163   4619949185010
 --------------- ---------------  ------- ---------------

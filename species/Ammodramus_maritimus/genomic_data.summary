@@ -5,6 +5,9 @@
 arima           bAmmMai1             37377571642               0      2147483648     70533474183       470223178  species/Ammodramus_maritimus/bAmmMai1/genomic_data/arima/bAmmMai1_Seaside_Sparrow_R1.fastq.gz
 arima           bAmmMai1             38964498771               0      2147483648     71652086589       477680595  species/Ammodramus_maritimus/bAmmMai1/genomic_data/arima/bAmmMai1_Seaside_Sparrow_R2.fastq.gz
 bionano         bAmmMai1               841157849               0       841157849    517029698700         5379143  species/Ammodramus_maritimus/bAmmMai1/genomic_data/bionano/bAmmMai1_Saphyr_DLE1_3680734
+pacbiohifi_fqgz bAmmMai1              9648638294               0      2147483648     11139937437          652477  species/Ammodramus_maritimus/bAmmMai1/genomic_data/pacbio_hifi/m54306Ue_221204_091929.bc1003--bc1003.hifi_reads.fastq.gz
+pacbiohifi_fqgz bAmmMai1             10328238950               0      2147483648     12506297548          709448  species/Ammodramus_maritimus/bAmmMai1/genomic_data/pacbio_hifi/m64330e_221120_045003.bc1003--bc1003.hifi_reads.fastq.gz
+pacbiohifi_fqgz bAmmMai1              9291334117               0      2147483648     11037351006          635346  species/Ammodramus_maritimus/bAmmMai1/genomic_data/pacbio_hifi/m64334e_221221_061915.bc1003--bc1003.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,4 +16,5 @@ bionano         bAmmMai1               841157849               0       841157849
 --------------- ---------------  ------- ---------------
 arima           bAmmMai1          1.8545    141576369580
 bionano         bAmmMai1         614.6642    517029698700
+pacbiohifi_fqgz bAmmMai1          1.1850     39447639276
 --------------- ---------------  ------- ---------------
