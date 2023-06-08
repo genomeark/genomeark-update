@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAytFer1             42237932147               0      2147483648    129252394245       855976120  species/Aythya_ferina/bAytFer1/genomic_data/arima/bAytFer1_47339_3#6.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bAytFer1          3.0601    129252296163
+--------------- ---------------  ------- ---------------

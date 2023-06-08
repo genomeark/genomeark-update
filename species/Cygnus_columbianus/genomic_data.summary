@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bCygCol1             31133846907               0      2147483648     90697387921       600644953  species/Cygnus_columbianus/bCygCol1/genomic_data/arima/bCygCol1_47339_3#8.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bCygCol1          2.9131     90696009424
+--------------- ---------------  ------- ---------------

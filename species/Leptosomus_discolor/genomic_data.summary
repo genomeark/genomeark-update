@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bLepDis1             18393133438               0      2147483648     32704944912       216589047  species/Leptosomus_discolor/bLepDis1/genomic_data/arima/bLepDis1_L1_S2_R1_001.fastq.gz
 arima           bLepDis1             18987742733               0      2147483648     32905596819       217917868  species/Leptosomus_discolor/bLepDis1/genomic_data/arima/bLepDis1_L1_S2_R2_001.fastq.gz
+pacbiohifi_fqgz bLepDis1             28255440094               0      2147483648     33719073219         2038249  species/Leptosomus_discolor/bLepDis1/genomic_data/pacbio_hifi/m64055e_230502_084539.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_fqgz bLepDis1             27559313176               0      2147483648     34681370382         2125092  species/Leptosomus_discolor/bLepDis1/genomic_data/pacbio_hifi/m64330e_230511_180019.bc1010--bc1010.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +13,5 @@ arima           bLepDis1             18987742733               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bLepDis1          1.7477     65330557284
+pacbiohifi_fqgz bLepDis1          1.2146     67792599321
 --------------- ---------------  ------- ---------------

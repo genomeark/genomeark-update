@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAnaCre1             58247784881               0      2147483648    182790391582      1210532394  species/Anas_crecca/bAnaCre1/genomic_data/arima/bAnaCre1_47339_3#2.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bAnaCre1          3.1381    182787373735
+--------------- ---------------  ------- ---------------

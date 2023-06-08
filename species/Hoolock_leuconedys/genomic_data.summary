@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mHooLeu1             44318841874               0      2147483648     74145437786       491029409  species/Hoolock_leuconedys/mHooLeu1/genomic_data/dovetail/Arthur_HLE_HLE304_HiC1_NextSeq2000_S1_R1_001.fastq.gz
+dovetail        mHooLeu1             46576278112               0      2147483648     72274175027       478636942  species/Hoolock_leuconedys/mHooLeu1/genomic_data/dovetail/Arthur_HLE_HLE304_HiC1_NextSeq2000_S1_R2_001.fastq.gz
 illumina        mHooLeu1             47155759110               0      2147483648     93868063050       621642801  species/Hoolock_leuconedys/mHooLeu1/genomic_data/illumina/HHMWLDSX5_19423163_S37_L002_R1_001.fastq.gz
 illumina        mHooLeu1             48507143790               0      2147483648     94036437301       622757862  species/Hoolock_leuconedys/mHooLeu1/genomic_data/illumina/HHMWLDSX5_19423163_S37_L002_R2_001.fastq.gz
 illumina        mHooLeu1             48244542551               0      2147483648     93086498334       616466898  species/Hoolock_leuconedys/mHooLeu1/genomic_data/illumina/HHMWLDSX5_19423163_S37_L003_R2_001.fastq.gz
@@ -21,6 +23,7 @@ pacbiohifi_clr  mHooLeu1            336002249351               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+dovetail        mHooLeu1          1.5908    144595956873
 illumina        mHooLeu1          1.9525    372570317971
 ont             mHooLeu1          1.0206    103361056344
 pacbiohifi_bam  mHooLeu1          0.2668    482335233982

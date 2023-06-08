@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAnsBra1             32642209260               0      2147483648     99337644630       657865196  species/Anser_brachyrhynchus/bAnsBra1/genomic_data/arima/bAnsBra1_47339_3#3.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bAnsBra1          3.0432     99336771220
+--------------- ---------------  ------- ---------------

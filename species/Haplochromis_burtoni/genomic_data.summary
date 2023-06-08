@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fHapBur1             25579120720               0      2147483648     52065611346       344805385  species/Haplochromis_burtoni/fHapBur1/genomic_data/arima/fAstBur1_L1_S4_R1_001.fastq.gz
 arima           fHapBur1             26933589162               0      2147483648     51917499679       343824513  species/Haplochromis_burtoni/fHapBur1/genomic_data/arima/fAstBur1_L1_S4_R2_001.fastq.gz
+pacbiohifi_fqgz fHapBur1             14121478780               0      2147483648     18781848624         1402209  species/Haplochromis_burtoni/fHapBur1/genomic_data/pacbio_hifi/m54306Ue_230328_102217.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_fqgz fHapBur1             12960947600               0      2147483648     17712314770         1327096  species/Haplochromis_burtoni/fHapBur1/genomic_data/pacbio_hifi/m64055e_230504_035333.bc1010--bc1010.hifi_reads.fastq.gz
 arima           fHapBur2             14539222694               0      2147483648     28134095656       186318521  species/Haplochromis_burtoni/fHapBur2/genomic_data/arima/fAstBur2_L1_S7_R1_001.fastq.gz
 arima           fHapBur2             15194336403               0      2147483648     27963769577       185190527  species/Haplochromis_burtoni/fHapBur2/genomic_data/arima/fAstBur2_L1_S7_R2_001.fastq.gz
 pacbiohifi_fqgz fHapBur2             21285888439               0      2147483648     21982716865         1288591  species/Haplochromis_burtoni/fHapBur2/genomic_data/pacbio_hifi/m54306Ue_230324_181445.bc1016--bc1016.hifi_reads.fastq.gz
@@ -16,5 +18,6 @@ pacbiohifi_fqgz fHapBur2             13924491341               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           fHapBur1          1.9623    103045690601
 arima           fHapBur2          1.8710     55631489070
+pacbiohifi_fqgz fHapBur1          1.3415     36331074988
 pacbiohifi_fqgz fHapBur2          1.0555     37164555857
 --------------- ---------------  ------- ---------------

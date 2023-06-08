@@ -7,12 +7,14 @@ bionano         bBraLeu1              1811209343               0      1811209343
 pacbio          bBraLeu1              8153633359               0      2147483648      4256148707          452073  species/Branta_leucopsis/bBraLeu1/genomic_data/pacbio/m54158_170825_080111.subreads.bam
 pacbio          bBraLeu1              5172164378               0      2147483648      2682037418          295284  species/Branta_leucopsis/bBraLeu1/genomic_data/pacbio/m54158_171013_073357.subreads.bam
 pacbio          bBraLeu1             10083637406               0      2147483648      5253495171          555949  species/Branta_leucopsis/bBraLeu1/genomic_data/pacbio/m54158_171019_070837.subreads.bam
+arima           bBraLeu2             39917148283               0      2147483648    120999783081       801323066  species/Branta_leucopsis/bBraLeu2/genomic_data/arima/bBraLeu2_47339_3#7.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bBraLeu2          3.0312    120996859875
 bionano         bBraLeu1         540.9362   1568782890042
 pacbio          bBraLeu1          0.5208     62560630664
 --------------- ---------------  ------- ---------------

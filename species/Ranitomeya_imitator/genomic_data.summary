@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        aRanImi1             20457512508               0      2147483648     37681155920       251207715  species/Ranitomeya_imitator/aRanImi1/genomic_data/dovetail/DTG-OmniC-159_R1_001.fastq.gz
+dovetail        aRanImi1             21930337333               0      2147483648     37078780876       247191872  species/Ranitomeya_imitator/aRanImi1/genomic_data/dovetail/DTG-OmniC-159_R2_001.fastq.gz
+dovetail        aRanImi1             19013263001               0      2147483648     35104008993       234026735  species/Ranitomeya_imitator/aRanImi1/genomic_data/dovetail/DTG-OmniC-161_R1_001.fastq.gz
+pacbiohifi_fqgz aRanImi1             22339630402               0      2147483648     29923068206         2100700  species/Ranitomeya_imitator/aRanImi1/genomic_data/pacbio_hifi/XDOVE_20220118_S64018_PL100220662-1_C01.ccs.fastq.gz
+pacbiohifi_fqgz aRanImi1             22664209263               0      2147483648     29802473945         2280210  species/Ranitomeya_imitator/aRanImi1/genomic_data/pacbio_hifi/XDOVE_20220212_S64018_PL100220662-2_A01.ccs.fastq.gz
+pacbiohifi_fqgz aRanImi1             20917633992               0      2147483648     28447733024         2192564  species/Ranitomeya_imitator/aRanImi1/genomic_data/pacbio_hifi/XDOVE_20220212_S64018_PL100220662-2_C01.ccs.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        aRanImi1          1.7892    284557301529
+pacbiohifi_fqgz aRanImi1          1.3375    310766839638
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAnaAcu1             18104302315               0      2147483648     53962525994       357367721  species/Anas_acuta/bAnaAcu1/genomic_data/arima/bAnaAcu1_47339_4#3.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bAnaAcu1          2.9806     53961683480
+--------------- ---------------  ------- ---------------

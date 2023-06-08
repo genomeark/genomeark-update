@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bNetRuf1             36793530751               0      2147483648    106796793755       707263534  species/Netta_rufina/bNetRuf1/genomic_data/arima/bNetRuf1_47339_2#2.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bNetRuf1          2.9025    106793223004
+--------------- ---------------  ------- ---------------

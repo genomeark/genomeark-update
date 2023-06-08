@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        bPasDom1             53899216024               0      2147483648    100075827197       662753847  species/Passer_domesticus/bPasDom1/genomic_data/dovetail/bPasDom1_R1_001.fastq.gz
+dovetail        bPasDom1             53078671865               0      2147483648    100867669524       667997836  species/Passer_domesticus/bPasDom1/genomic_data/dovetail/bPasDom1_R2_001.fastq.gz
+pacbiohifi_fqgz bPasDom1             27940739330               0      2147483648     29869558887         1470481  species/Passer_domesticus/bPasDom1/genomic_data/pacbio_hifi/bPasDom1.cell1.ccsreads.fastq.gz
+pacbiohifi_clr  bPasDom1            848383649479               0      2147483648    454168725115        24471165  species/Passer_domesticus/bPasDom1/genomic_data/pacbio_hifi/bPasDom1.cell1.subreads.bam
+pacbiohifi_fqgz bPasDom1             30035324578               0      2147483648     31778370198         1570827  species/Passer_domesticus/bPasDom1/genomic_data/pacbio_hifi/bPasDom1.cell2.ccsreads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        bPasDom1          1.8711    200166326029
+pacbiohifi_clr  bPasDom1          0.5353    454139767566
+pacbiohifi_fqgz bPasDom1          1.0615     61541591838
+--------------- ---------------  ------- ---------------

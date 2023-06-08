@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bMarStr1             24473339615               0      2147483648     72344081205       479099875  species/Mareca_strepera/bMarStr1/genomic_data/arima/bMarStr1_47339_4#1.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bMarStr1          2.9560     72343191901
+--------------- ---------------  ------- ---------------

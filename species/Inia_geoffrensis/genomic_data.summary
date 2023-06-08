@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mIniGeo1              4580379264               0      2147483648      8233147141        54887649  species/Inia_geoffrensis/mIniGeo1/genomic_data/dovetail/Omni_CDolphin_FKDL202627842-1a_HMLJTDSXY_L2_2.fq.gz
+dovetail        mIniGeo1             36720320306               0      2147483648     65911579683       439410548  species/Inia_geoffrensis/mIniGeo1/genomic_data/dovetail/Omni_CDolphin_FKDL202627842-1a_HNTW3DSXY_L4_1.fq.gz
+dovetail        mIniGeo1             38911723470               0      2147483648     66455251062       443035025  species/Inia_geoffrensis/mIniGeo1/genomic_data/dovetail/Omni_CDolphin_FKDL202627842-1a_HNTW3DSXY_L4_2.fq.gz
+pacbiohifi_fqgz mIniGeo1             29381472399               0      2147483648     14645716107         1256332  species/Inia_geoffrensis/mIniGeo1/genomic_data/pacbio_hifi/m64167e_210215_035840.ccs.fastq.gz
+pacbiohifi_fqgz mIniGeo1             29326718831               0      2147483648     14618952184         1239816  species/Inia_geoffrensis/mIniGeo1/genomic_data/pacbio_hifi/m64167e_210216_102014.ccs.fastq.gz
+pacbiohifi_fqgz mIniGeo1             18157531667               0      2147483648     29195472840         2676503  species/Inia_geoffrensis/mIniGeo1/genomic_data/pacbio_hifi/m64167e_211217_125926.hifi.fq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        mIniGeo1          1.7528    148272150758
+pacbiohifi_fqgz mIniGeo1          0.7605    100520772461
+--------------- ---------------  ------- ---------------

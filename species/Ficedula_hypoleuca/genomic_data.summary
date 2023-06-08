@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bFicHyp2             45046375358               0      2147483648    134394019874       890026621  species/Ficedula_hypoleuca/bFicHyp2/genomic_data/arima/bFicHyp2_47339_4#6.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bFicHyp2          2.9834    134391356243
+--------------- ---------------  ------- ---------------

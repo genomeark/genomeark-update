@@ -4,6 +4,9 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mMicPen1             78304868278               0      2147483648    138324760625       916058053  species/Microtus_pennsylvanicus/mMicPen1/genomic_data/arima/mMicPen1_L1_S7_R1_001.fastq.gz
 arima           mMicPen1             84031797106               0      2147483648    138987493954       920447018  species/Microtus_pennsylvanicus/mMicPen1/genomic_data/arima/mMicPen1_L1_S7_R2_001.fastq.gz
+pacbiohifi_fqgz mMicPen1             28785504504               0      2147483648     30536712026         1765345  species/Microtus_pennsylvanicus/mMicPen1/genomic_data/pacbio_hifi/m54306Ue_230326_151020.bc1017--bc1017.hifi_reads.fastq.gz
+pacbiohifi_fqgz mMicPen1             28425845196               0      2147483648     33157765330         1672895  species/Microtus_pennsylvanicus/mMicPen1/genomic_data/pacbio_hifi/m64055e_230411_132031.bc1017--bc1017.hifi_reads.fastq.gz
+pacbiohifi_fqgz mMicPen1             29276838826               0      2147483648     32901916268         1675206  species/Microtus_pennsylvanicus/mMicPen1/genomic_data/pacbio_hifi/m64055e_230413_101710.bc1017--bc1017.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +14,5 @@ arima           mMicPen1             84031797106               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mMicPen1          1.6897    274300263499
+pacbiohifi_fqgz mMicPen1          1.1168     96590008945
 --------------- ---------------  ------- ---------------

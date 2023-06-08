@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz aRhiDor1             28393918258               0      2147483648     37340742068         2288745  species/Rhinophrynus_dorsalis/aRhiDor1/genomic_data/pacbio_hifi/m64330e_230209_095657.bc1017--bc1017.hifi_reads.fastq.gz
+pacbiohifi_fqgz aRhiDor1             24253071333               0      2147483648     32082421774         1915911  species/Rhinophrynus_dorsalis/aRhiDor1/genomic_data/pacbio_hifi/m64334e_230326_123448.bc1017--bc1017.hifi_reads.fastq.gz
+pacbiohifi_fqgz aRhiDor1             23563846036               0      2147483648     29037932853         1753843  species/Rhinophrynus_dorsalis/aRhiDor1/genomic_data/pacbio_hifi/m64334e_230328_093126.bc1017--bc1017.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz aRhiDor1          1.2919     98456778546
+--------------- ---------------  ------- ---------------

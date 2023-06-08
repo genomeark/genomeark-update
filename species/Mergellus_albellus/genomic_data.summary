@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bMerAlb1             38725955989               0      2147483648    117280033368       776688962  species/Mergellus_albellus/bMerAlb1/genomic_data/arima/bMerAlb1_47339_3#1.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bMerAlb1          3.0284    117277685117
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bLarFus1             24471654832               0      2147483648     76245137246       504934683  species/Larus_fuscus/bLarFus1/genomic_data/arima/bLarFus1_47339_3#4.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bLarFus1          3.1156     76243887794
+--------------- ---------------  ------- ---------------

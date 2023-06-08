@@ -1,0 +1,21 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mEquAca1             31178238518               0      2147483648     56217705954       374784720  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/dovetail/DTG-OmniC-118_R1_001.fastq.gz
+dovetail        mEquAca1             35307942739               0      2147483648     56011232837       373408235  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/dovetail/DTG-OmniC-118_R2_001.fastq.gz
+illumina        mEquAca1             42196794287               0      2147483648     92978263832       626051615  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/illumina/M_4285_AGTTCAGG-CCAACAGA_L004_R1_001.fastq.gz
+illumina        mEquAca1             43538134032               0      2147483648     92941577479       625840758  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/illumina/M_4285_AGTTCAGG-CCAACAGA_L004_R2_001.fastq.gz
+pacbiohifi_fagz mEquAca1              8187093830               0      2147483648     23423406724         1874151  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/pacbio_hifi/ULSC1_4285_BBSS_cell2.hifi_reads.fasta.gz
+pacbiohifi_fagz mEquAca1              6884264641               0      2147483648     19705139007         1485486  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/pacbio_hifi/ULSC1_4285_BBSS_cell3.hifi_reads.fasta.gz
+pacbiohifi_fagz mEquAca1              8394662767               0      2147483648     24285084430         1489363  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/pacbio_hifi/ULSC1_4285_new_15kb_031821.hifi_reads.fasta.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        mEquAca1          1.6527    109881711763
+illumina        mEquAca1          2.1571    184938813876
+pacbiohifi_fagz mEquAca1          2.8728    133592516217
+--------------- ---------------  ------- ---------------
