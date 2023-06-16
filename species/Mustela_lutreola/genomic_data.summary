@@ -7,6 +7,8 @@ pacbiohifi_fqgz mMusLut2             12745795458               0      2147483648
 pacbiohifi_fqgz mMusLut2             13378439366               0      2147483648     15705166088          957965  species/Mustela_lutreola/mMusLut2/genomic_data/pacbio_hifi/m64330e_221129_145905.bc1011--bc1011.hifi_reads.fastq.gz
 dovetail        mMusLut3             47675984511               0      2147483648     86380989947       572059558  species/Mustela_lutreola/mMusLut3/genomic_data/dovetail/mMusLut2_L1_S3_R1_001.fastq.gz
 dovetail        mMusLut3             47438366867               0      2147483648     86789068140       574762040  species/Mustela_lutreola/mMusLut3/genomic_data/dovetail/mMusLut2_L1_S3_R2_001.fastq.gz
+dovetail        mMusLut3             47675984511               0      2147483648     86380989947       572059558  species/Mustela_lutreola/mMusLut3/genomic_data/dovetail/mMusLut3_L1_S3_R1_001.fastq.gz
+dovetail        mMusLut3             47438366867               0      2147483648     86789068140       574762040  species/Mustela_lutreola/mMusLut3/genomic_data/dovetail/mMusLut3_L1_S3_R2_001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS

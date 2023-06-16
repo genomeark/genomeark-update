@@ -2,6 +2,9 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+ont             fDanRer17            21315455581               0      2147483648     23946958784          656659  species/Danio_rerio/fDanRer17/genomic_data/ont/PAG65805_guppy-6.4.6.fq.gz
+ont             fDanRer17            36935893893               0      2147483648     41161598277         1386031  species/Danio_rerio/fDanRer17/genomic_data/ont/PAG65888_guppy-6.4.6.fq.gz
+ont             fDanRer17            24762903041               0      2147483648     27911381017          608716  species/Danio_rerio/fDanRer17/genomic_data/ont/PAG67837_guppy-6.4.6.fq.gz
 illumina        fDreABH1             25986702826               0      2147483648     51260223496       205040893  species/Danio_rerio/fDreABH1/genomic_data/illumina/fDreABH1_20145#1_R1.fastq.gz
 illumina        fDreABH1             27572829763               0      2147483648     50512861839       202051460  species/Danio_rerio/fDreABH1/genomic_data/illumina/fDreABH1_20145#1_R2.fastq.gz
 illumina        fDreABH1             27490659106               0      2147483648     50536082601       202144330  species/Danio_rerio/fDreABH1/genomic_data/illumina/fDreABH1_20145#2_R2.fastq.gz
@@ -28,5 +31,6 @@ bionano         fDreSAT1         1042.4185     94950008226
 dovetail        fDreSAT3          1.4364    121993359293
 illumina        fDreABH1          1.8791    201057083070
 illumina        fDreTuH1          1.8621    203124284431
+ont             fDanRer17         1.1205    158329622547
 pacbio          fDreSAT1          0.2650    128482216935
 --------------- ---------------  ------- ---------------

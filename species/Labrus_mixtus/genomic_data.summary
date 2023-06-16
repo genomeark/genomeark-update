@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fLabMix1             31643348452               0      2147483648     95029636152       629335338  species/Labrus_mixtus/fLabMix1/genomic_data/arima/fLabMix1_47432_2#4.cram
 pacbiohifi_bam  fLabMix1             89314379522               0      2147483648     24104263442         2376175  species/Labrus_mixtus/fLabMix1/genomic_data/pacbio_hifi/m64016e_230228_185717.ccs.bc1003_BAK8A_OA--bc1003_BAK8A_OA.bam
 pacbiohifi_bam  fLabMix1             25202049013               0      2147483648     64182334368         6856159  species/Labrus_mixtus/fLabMix1/genomic_data/pacbio_hifi/m84047_230404_182305_s4.ccs.bc1003_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  fLabMix1             25202049013               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fLabMix1          3.0031     95028139736
 pacbiohifi_bam  fLabMix1          0.5513     63132907051
 --------------- ---------------  ------- ---------------

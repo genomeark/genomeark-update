@@ -44,7 +44,7 @@ dovetail        mPanPan1          1.8479    107480285123
 illumina        mPanPan2          1.9327    237045289097
 illumina        mPanPan3          1.8781    184261149185
 ont             mPanPan1          1.1269    556506602589
-pacbiohifi_bam  mPanPan1          0.8582    824831134630
+pacbiohifi_bam  mPanPan1          0.8522    824414704183
 pacbiohifi_clr  mPanPan1          0.5111   3894813044637
 pacbiohifi_fqgz mPanPan1          1.2275    445979270976
 --------------- ---------------  ------- ---------------

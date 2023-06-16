@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        rElgMul1              9394417590               0      2147483648     19454717850       128839195  species/Elgaria_multicarinata/rElgMul1/genomic_data/dovetail/SRR19179398_R2.fastq.gz
+dovetail        rElgMul1              8741017628               0      2147483648     19563301207       129558290  species/Elgaria_multicarinata/rElgMul1/genomic_data/dovetail/SRR19179399_R1.fastq.gz
+dovetail        rElgMul1              9465002441               0      2147483648     19891718730       131733241  species/Elgaria_multicarinata/rElgMul1/genomic_data/dovetail/SRR19179399_R2.fastq.gz
+pacbiohifi_fqgz rElgMul1             71753252356               0      2147483648     81147062983         5507985  species/Elgaria_multicarinata/rElgMul1/genomic_data/pacbio_hifi/SRR19179400.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        rElgMul1          2.1343     77211436734
+pacbiohifi_fqgz rElgMul1          1.1309     81145753089
+--------------- ---------------  ------- ---------------

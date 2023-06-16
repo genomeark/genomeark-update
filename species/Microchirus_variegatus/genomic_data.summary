@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fMicVar1             34167946183               0      2147483648    109434515203       724731888  species/Microchirus_variegatus/fMicVar1/genomic_data/arima/fMicVar1_44176_3#4.cram
+arima           fMicVar1             47573867331               0      2147483648    150029950799       993575833  species/Microchirus_variegatus/fMicVar1/genomic_data/arima/fMicVar1_47431_4#5.cram
 pacbiohifi_bam  fMicVar1             93589862039               0      2147483648     25536813080         2343577  species/Microchirus_variegatus/fMicVar1/genomic_data/pacbio_hifi/m64097e_221121_015615.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -10,6 +11,6 @@ pacbiohifi_bam  fMicVar1             93589862039               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           fMicVar1          3.2028    109433098034
+arima           fMicVar1          3.1666    258843626673
 pacbiohifi_bam  fMicVar1          0.2728     25531314364
 --------------- ---------------  ------- ---------------

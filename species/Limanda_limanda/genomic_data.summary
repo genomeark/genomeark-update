@@ -2,14 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
-arima           kcLamFluv1           31567508430               0      2147483648     89163928909       590489595  species/Lampetra_fluviatilis/kcLamFluv1/genomic_data/arima/kcLamFluv1_47432_2#2.cram
-pacbiohifi_bam  kcLamFluv1           66030754182               0      2147483648     17053227321         1610332  species/Lampetra_fluviatilis/kcLamFluv1/genomic_data/pacbio_hifi/m64016e_230304_042205.ccs.bc1011_BAK8A_OA--bc1011_BAK8A_OA.bam
+arima           fLimLim1             27795092972               0      2147483648     88925556219       588910968  species/Limanda_limanda/fLimLim1/genomic_data/arima/fLimLim1_47432_4#3.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           kcLamFluv1        2.8245     89162427560
-pacbiohifi_bam  kcLamFluv1        0.2582     17049140729
+arima           fLimLim1          3.1993     88924840945
 --------------- ---------------  ------- ---------------

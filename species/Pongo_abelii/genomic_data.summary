@@ -22,6 +22,7 @@ pacbiohifi_bam  mPonAbe1             94356440952               0      2147483648
 pacbiohifi_fqgz mPonAbe1             19459078337               0      2147483648      5065256676          362272  species/Pongo_abelii/mPonAbe1/genomic_data/pacbio_hifi/m64076_210223_194521.hifi_reads.fastq.gz
 pacbiohifi_clr  mPonAbe1            752662646679               0      2147483648    391320949785        30299502  species/Pongo_abelii/mPonAbe1/genomic_data/pacbio_hifi/m64076_210223_194521.subreads.bam
 pacbiohifi_bam  mPonAbe1             86246072974               0      2147483648     22234193256         1512641  species/Pongo_abelii/mPonAbe1/genomic_data/pacbio_hifi/m64076_210330_204128.hifi_reads.bam
+pacbiohifi_fqgz mPonAbe1             19748597011               0      2147483648      5091178152          346364  species/Pongo_abelii/mPonAbe1/genomic_data/pacbio_hifi/m64076_210330_204128.hifi_reads.fastq.gz
 pacbiohifi_bam  mPonAbe1            146156436163               0      2147483648    179369952150         8722696  species/Pongo_abelii/mPonAbe1/genomic_data/pacbio_hifi/m64076_220313_224245.hifi_reads.bam
 pacbiohifi_fqgz mPonAbe1             31971351021               0      2147483648     39236723700         1908067  species/Pongo_abelii/mPonAbe1/genomic_data/pacbio_hifi/m64076_220313_224245.hifi_reads.fastq.gz
 pacbiohifi_clr  mPonAbe1            156461346786               0      2147483648     42534903899         2053721  species/Pongo_abelii/mPonAbe1/genomic_data/pacbio_hifi/r54329U_20220311_013244_C01.reads.bam
