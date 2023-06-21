@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mBarBar1            105963314228               0      2147483648    335434776445      2221422360  species/Barbastella_barbastellus/mBarBar1/genomic_data/arima/mBarBar1_47476_1#2.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mBarBar1          3.1655    335426871188
+--------------- ---------------  ------- ---------------

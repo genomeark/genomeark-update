@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mTalEur1             14960026730               0      2147483648     23194196577         2733933  species/Talpa_europaea/mTalEur1/genomic_data/pacbio_hifi/m64016e_230523_024806.ccs.bc2014--bc2014.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mTalEur1          1.5504     23194025442
+--------------- ---------------  ------- ---------------

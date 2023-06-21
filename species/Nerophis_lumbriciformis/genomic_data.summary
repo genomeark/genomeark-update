@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fNerLum1             73987558986               0      2147483648    231039658810      1530063965  species/Nerophis_lumbriciformis/fNerLum1/genomic_data/arima/fNerLum1_44176_2#4.cram
 pacbiohifi_bam  fNerLum1             98857112232               0      2147483648     26043306070         1991059  species/Nerophis_lumbriciformis/fNerLum1/genomic_data/pacbio_hifi/m64125e_221119_210526.ccs.bc1019_BAK8B_OA--bc1019_BAK8B_OA.bam
+pacbiohifi_bam  fNerLum1             16868684962               0      2147483648     29319776961         2453255  species/Nerophis_lumbriciformis/fNerLum1/genomic_data/pacbio_hifi/m64228e_230509_090728.ccs.bc2045--bc2045.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +12,5 @@ pacbiohifi_bam  fNerLum1             98857112232               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fNerLum1          3.1226    231033551689
-pacbiohifi_bam  fNerLum1          0.2634     26038963361
+pacbiohifi_bam  fNerLum1          0.3793     43894794875
 --------------- ---------------  ------- ---------------

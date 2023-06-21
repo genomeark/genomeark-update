@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fProPar1             68577041596               0      2147483648    209322345917      1386240701  species/Protomyctophum_parallelum/fProPar1/genomic_data/arima/fProPar1_46506_3#2.cram
+pacbiohifi_bam  fProPar1             12520079742               0      2147483648     19640001470         2215794  species/Protomyctophum_parallelum/fProPar1/genomic_data/pacbio_hifi/m64228e_230404_101356.ccs.bc1003_BAK8A_OA--bc1003_BAK8A_OA.bam
 pacbiohifi_bam  fProPar1             77966801436               0      2147483648     20878399004         1544498  species/Protomyctophum_parallelum/fProPar1/genomic_data/pacbio_hifi/m64229e_221108_060250.ccs.bc1012_BAK8A_OA--bc1012_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -11,5 +12,5 @@ pacbiohifi_bam  fProPar1             77966801436               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fProPar1          3.0523    209317704063
-pacbiohifi_bam  fProPar1          0.2677     20871712744
+pacbiohifi_bam  fProPar1          0.3644     32973419501
 --------------- ---------------  ------- ---------------

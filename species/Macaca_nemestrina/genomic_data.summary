@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMacNem1             76255722939               0      2147483648    138315880019       915999240  species/Macaca_nemestrina/mMacNem1/genomic_data/arima/mMacNem1_L1_1.fastq.gz
+arima           mMacNem1             78726295138               0      2147483648    137807543204       912632773  species/Macaca_nemestrina/mMacNem1/genomic_data/arima/mMacNem1_L1_2.fastq.gz
 pacbiohifi_fqgz mMacNem1             27933852406               0      2147483648     37113036826         2545869  species/Macaca_nemestrina/mMacNem1/genomic_data/pacbio_hifi/m64055e_230428_162621.bc1019--bc1019.hifi_reads.fastq.gz
 pacbiohifi_fqgz mMacNem1             30034665624               0      2147483648     41822925870         2788986  species/Macaca_nemestrina/mMacNem1/genomic_data/pacbio_hifi/m64334e_230513_110349.bc1019--bc1019.hifi_reads.fastq.gz
 pacbiohifi_fqgz mMacNem1             29517428392               0      2147483648     40799658962         2721974  species/Macaca_nemestrina/mMacNem1/genomic_data/pacbio_hifi/m64334e_230515_062926.bc1019--bc1019.hifi_reads.fastq.gz
@@ -11,5 +13,6 @@ pacbiohifi_fqgz mMacNem1             29517428392               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mMacNem1          1.7711    274488652216
 pacbiohifi_fqgz mMacNem1          1.3686    119733266273
 --------------- ---------------  ------- ---------------

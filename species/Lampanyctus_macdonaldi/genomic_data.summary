@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fLamMac1             42170729934               0      2147483648    126674565609       838904408  species/Lampanyctus_macdonaldi/fLamMac1/genomic_data/arima/fLamMac1_46625_1#4.cram
+pacbiohifi_bam  fLamMac1             15334109243               0      2147483648     21568329238         1603549  species/Lampanyctus_macdonaldi/fLamMac1/genomic_data/pacbio_hifi/m64228e_230529_200754.ccs.bc1010_BAK8A_OA--bc1010_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           fLamMac1             42170729934               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fLamMac1          3.0038    126672438575
+pacbiohifi_bam  fLamMac1          1.4065     21567424650
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPleAus1             90245403673               0      2147483648    276540904887      1831396721  species/Plecotus_austriacus/mPleAus1/genomic_data/arima/mPleAus1_47476_1#3.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mPleAus1          3.0643    276538990475
+--------------- ---------------  ------- ---------------

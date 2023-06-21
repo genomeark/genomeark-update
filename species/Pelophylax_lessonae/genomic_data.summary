@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  aPelLes1             19709015457               0      2147483648     26780577191         2095513  species/Pelophylax_lessonae/aPelLes1/genomic_data/pacbio_hifi/m64016e_230524_074538.ccs.bc2015--bc2015.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  aPelLes1          1.3587     26778639301
+--------------- ---------------  ------- ---------------

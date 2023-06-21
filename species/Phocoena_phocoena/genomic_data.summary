@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mPhoPho1            144940523977               0      2147483648    446896019700      2959576289  species/Phocoena_phocoena/mPhoPho1/genomic_data/arima/mPhoPho1_46651_1#1.cram
+pacbiohifi_bam  mPhoPho1             15349251880               0      2147483648     25086640182         2643829  species/Phocoena_phocoena/mPhoPho1/genomic_data/pacbio_hifi/m64016e_230521_215024.ccs.bc2013--bc2013.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           mPhoPho1            144940523977               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mPhoPho1          3.0833    446895117578
+pacbiohifi_bam  mPhoPho1          1.6343     25085282347
 --------------- ---------------  ------- ---------------

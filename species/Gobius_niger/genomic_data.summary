@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fGobNig1             40692426188               0      2147483648    127155367331       842088525  species/Gobius_niger/fGobNig1/genomic_data/arima/fGobNig1_45432_1#5.cram
+pacbiohifi_bam  fGobNig1             17975225903               0      2147483648     26302321204         2029311  species/Gobius_niger/fGobNig1/genomic_data/pacbio_hifi/m64221e_230502_111354.ccs.bc2075--bc2075.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           fGobNig1             40692426188               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fGobNig1          3.1247    127151624109
+pacbiohifi_bam  fGobNig1          1.4632     26301350541
 --------------- ---------------  ------- ---------------

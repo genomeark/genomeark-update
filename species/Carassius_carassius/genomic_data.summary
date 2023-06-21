@@ -5,6 +5,7 @@
 arima           fCarCar2             33520466505               0      2147483648    101256144827       670570495  species/Carassius_carassius/fCarCar2/genomic_data/arima/fCarCar2_45709_3#6.cram
 pacbiohifi_bam  fCarCar2             15127434426               0      2147483648     21792265420         1877309  species/Carassius_carassius/fCarCar2/genomic_data/pacbio_hifi/m64229e_220830_013432.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
 pacbiohifi_bam  fCarCar2             89502009334               0      2147483648     24920255968         2631858  species/Carassius_carassius/fCarCar2/genomic_data/pacbio_hifi/m64229e_221219_015411.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.rmdup.bam
+pacbiohifi_bam  fCarCar2             21150476555               0      2147483648     28468608965         2069285  species/Carassius_carassius/fCarCar2/genomic_data/pacbio_hifi/m64229e_230502_213808.ccs.bc2022--bc2022.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,5 +13,5 @@ pacbiohifi_bam  fCarCar2             89502009334               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fCarCar2          3.0207    101255273171
-pacbiohifi_bam  fCarCar2          0.3689     38597801803
+pacbiohifi_bam  fCarCar2          0.5977     75178658372
 --------------- ---------------  ------- ---------------

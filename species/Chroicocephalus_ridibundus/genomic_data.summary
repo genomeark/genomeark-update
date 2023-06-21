@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bChrRid1             63421577185               0      2147483648    197554909209      1308310657  species/Chroicocephalus_ridibundus/bChrRid1/genomic_data/arima/bChrRid1_47476_1#4.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bChrRid1          3.1149    197551870773
+--------------- ---------------  ------- ---------------

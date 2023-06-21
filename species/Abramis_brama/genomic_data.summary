@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fAbrBra2             43445700933               0      2147483648    139913412459       926578890  species/Abramis_brama/fAbrBra2/genomic_data/arima/fAbrBra2_44176_2#3.cram
+pacbiohifi_bam  fAbrBra2             15956843358               0      2147483648     28013723816         2607052  species/Abramis_brama/fAbrBra2/genomic_data/pacbio_hifi/m64228e_230510_122142.ccs.bc2046--bc2046.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           fAbrBra2             43445700933               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fAbrBra2          3.2204    139912535284
+pacbiohifi_bam  fAbrBra2          1.7555     28012238514
 --------------- ---------------  ------- ---------------

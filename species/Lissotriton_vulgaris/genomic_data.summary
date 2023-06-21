@@ -10,6 +10,8 @@ pacbiohifi_bam  aLisVul1             16955557544               0      2147483648
 pacbiohifi_bam  aLisVul1             16882876874               0      2147483648     24998026274         2249382  species/Lissotriton_vulgaris/aLisVul1/genomic_data/pacbio_hifi/m64221e_230422_014744.ccs.bc2089--bc2089.bam
 pacbiohifi_bam  aLisVul1             15010503754               0      2147483648     23745461648         2110622  species/Lissotriton_vulgaris/aLisVul1/genomic_data/pacbio_hifi/m64230e_230312_235457.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
 pacbiohifi_bam  aLisVul1             21648220140               0      2147483648     30959589848         2316039  species/Lissotriton_vulgaris/aLisVul1/genomic_data/pacbio_hifi/m64230e_230423_065702.ccs.bc2089--bc2089.bam
+pacbiohifi_bam  aLisVul1             19293165204               0      2147483648     26902408249         2264590  species/Lissotriton_vulgaris/aLisVul1/genomic_data/pacbio_hifi/m64230e_230425_132729.ccs.bc2089--bc2089.bam
+pacbiohifi_bam  aLisVul1             26740949515               0      2147483648     71351492485         7703469  species/Lissotriton_vulgaris/aLisVul1/genomic_data/pacbio_hifi/m84047_230517_171908_s1.ccs.bc2090.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -17,5 +19,5 @@ pacbiohifi_bam  aLisVul1             21648220140               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aLisVul1          3.0361    913067797833
-pacbiohifi_bam  aLisVul1          1.4886    310893614244
+pacbiohifi_bam  aLisVul1          1.9985    732510733281
 --------------- ---------------  ------- ---------------

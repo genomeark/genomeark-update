@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mNeoVis2             18993179268               0      2147483648     29306178696         2602275  species/Neovison_vison/mNeoVis2/genomic_data/pacbio_hifi/m64228e_230615_191205.ccs.bc2030--bc2030.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mNeoVis2          1.5429     29304576292
+--------------- ---------------  ------- ---------------
