@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMicMin1            138461299745               0      2147483648    424484615766      2811156395  species/Micromys_minutus/mMicMin1/genomic_data/arima/mMicMin1_47478_3#2.cram
 pacbiohifi_bam  mMicMin1             18637723215               0      2147483648     28625954874         2467662  species/Micromys_minutus/mMicMin1/genomic_data/pacbio_hifi/m64228e_230617_000833.ccs.bc2031--bc2031.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  mMicMin1             18637723215               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mMicMin1          3.0657    424480806628
 pacbiohifi_bam  mMicMin1          1.5359     28625679085
 --------------- ---------------  ------- ---------------

@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fEleCar1             42120606668               0      2147483648    128715664015       852421615  species/Electrona_carlsbergi/fEleCar1/genomic_data/arima/fEleCar1_46002_4#6.cram
 pacbiohifi_bam  fEleCar1             89612038931               0      2147483648     23957254940         2282526  species/Electrona_carlsbergi/fEleCar1/genomic_data/pacbio_hifi/m64222e_230105_161445.ccs.bc1022_BAK8B_OA--bc1022_BAK8B_OA.bam
+pacbiohifi_bam  fEleCar1             15386518085               0      2147483648     23454760648         2332169  species/Electrona_carlsbergi/fEleCar1/genomic_data/pacbio_hifi/m64228e_230620_185543.ccs.bc2031--bc2031.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +12,5 @@ pacbiohifi_bam  fEleCar1             89612038931               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fEleCar1          3.0558    128712149856
-pacbiohifi_bam  fEleCar1          0.2673     23953298006
+pacbiohifi_bam  fEleCar1          0.3667     38502970857
 --------------- ---------------  ------- ---------------

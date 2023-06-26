@@ -2,14 +2,13 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
-arima           bMarStr1             24473339615               0      2147483648     72344081205       479099875  species/Mareca_strepera/bMarStr1/genomic_data/arima/bMarStr1_47339_4#1.cram
-pacbiohifi_bam  bMarStr1             20018844935               0      2147483648     29427815553         2546593  species/Mareca_strepera/bMarStr1/genomic_data/pacbio_hifi/m64228e_230619_153626.ccs.bc2051--bc2051.bam
+pacbiohifi_fqgz bBaeBic1             22824165611               0      2147483648     23671355009         1263910  species/Baeolophus_bicolor/bBaeBic1/genomic_data/pacbio_hifi/m64330e_230601_140250.bc1003--bc1003.hifi_reads.fastq.gz
+pacbiohifi_fqgz bBaeBic1             25260195140               0      2147483648     27946300735         1439989  species/Baeolophus_bicolor/bBaeBic1/genomic_data/pacbio_hifi/m64334e_230614_173504.bc1003--bc1003.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           bMarStr1          2.9560     72343191901
-pacbiohifi_bam  bMarStr1          1.4700     29427702054
+pacbiohifi_fqgz bBaeBic1          1.0847     52157106106
 --------------- ---------------  ------- ---------------

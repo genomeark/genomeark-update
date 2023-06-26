@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fProAnd1             15581524039               0      2147483648     22615712153         2349849  species/Protomyctophum_andriashevi/fProAnd1/genomic_data/pacbio_hifi/m64228e_230621_222528.ccs.bc2032--bc2032.bam
 pacbiohifi_bam  fProAnd1             82418064543               0      2147483648     22030723686         2131871  species/Protomyctophum_andriashevi/fProAnd1/genomic_data/pacbio_hifi/m64229e_230109_054321.ccs.bc1009_BAK8A_OA--bc1009_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,5 @@ pacbiohifi_bam  fProAnd1             82418064543               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-pacbiohifi_bam  fProAnd1          0.2673     22030348652
+pacbiohifi_bam  fProAnd1          0.3695     36210847981
 --------------- ---------------  ------- ---------------
