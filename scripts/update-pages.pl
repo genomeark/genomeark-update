@@ -373,7 +373,7 @@ foreach my $species (@speciesList) {
     my $sn = $data{"short_name"};
 
     foreach my $key (keys %data) {
-        if ($key =~ m/^(data_.*):$sn(\d_.*)$/) {
+        if ($key =~ m/^(data_.*):$sn(\d+_.*)$/) {
             $data{"$1-$2"} = $data{$key};
             delete $data{$key};
         }
