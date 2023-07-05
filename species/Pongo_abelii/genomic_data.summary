@@ -5,6 +5,9 @@
 dovetail        mPonAbe1             11914861080               0      2147483648     21846860148       144681198  species/Pongo_abelii/mPonAbe1/genomic_data/dovetail/G929_S_Ora_a_1_S4_R2_001.fastq.gz
 dovetail        mPonAbe1             18554620641               0      2147483648     34354326647       227512105  species/Pongo_abelii/mPonAbe1/genomic_data/dovetail/G929_S_Ora_a_2_S10_R1_001.fastq.gz
 dovetail        mPonAbe1             18754794456               0      2147483648     34480224032       228345863  species/Pongo_abelii/mPonAbe1/genomic_data/dovetail/G929_S_Ora_a_2_S10_R2_001.fastq.gz
+illumina        mPonAbe1              7473683243               0      2147483648     13666324753        90505465  species/Pongo_abelii/mPonAbe1/genomic_data/illumina/HNNJYDSX5_19491390_S13_L002_R1_001.fastq.gz
+illumina        mPonAbe1              7317778228               0      2147483648     13400198019        88743036  species/Pongo_abelii/mPonAbe1/genomic_data/illumina/HNNKVDSX5_19491390_S13_L002_R1_001.fastq.gz
+illumina        mPonAbe1              8159862697               0      2147483648     15461148134       102391713  species/Pongo_abelii/mPonAbe1/genomic_data/illumina/HNNNTDSX5_19491390_S13_L003_R1_001.fastq.gz
 ont             mPonAbe1             46557441769               0      2147483648     51335368111         1566401  species/Pongo_abelii/mPonAbe1/genomic_data/ont/PAI18187_guppy-6.1.1.fastq.gz
 ont             mPonAbe1             51522167033               0      2147483648     56466058108         2285442  species/Pongo_abelii/mPonAbe1/genomic_data/ont/PAI18262_guppy-6.1.1.fastq.gz
 ont             mPonAbe1             61581074141               0      2147483648     67784089689         2107536  species/Pongo_abelii/mPonAbe1/genomic_data/ont/PAI18543_guppy-6.1.1.fastq.gz
@@ -34,6 +37,7 @@ pacbiohifi_bam  mPonAbe1            175822584557               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 dovetail        mPonAbe1          1.8422    112528823050
+illumina        mPonAbe1          1.8529    223745371946
 ont             mPonAbe1          1.0997    291227638468
 pacbiohifi_bam  mPonAbe1          0.6880    831519032612
 pacbiohifi_clr  mPonAbe1          0.4929   5011073345857

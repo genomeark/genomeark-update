@@ -5,6 +5,7 @@
 arima           xbAnaTub1            39750403411               0      2147483648     80161342685       530869837  species/Anadara_tuberculosa/xbAnaTub1/genomic_data/arima/iAnaTub1_L1_S6_R1_001.fastq.gz
 arima           xbAnaTub1            42482668750               0      2147483648     80837613317       535348432  species/Anadara_tuberculosa/xbAnaTub1/genomic_data/arima/iAnaTub1_L1_S6_R2_001.fastq.gz
 pacbiohifi_fqgz xbAnaTub1            10659593283               0      2147483648     15631393655         1694463  species/Anadara_tuberculosa/xbAnaTub1/genomic_data/pacbio_hifi/m64330e_220606_150534.bc1018--bc1018.hifi_reads.fastq.gz
+pacbiohifi_fqgz xbAnaTub1            25440781368               0      2147483648     31486263306         2011975  species/Anadara_tuberculosa/xbAnaTub1/genomic_data/pacbio_hifi/m64330e_230619_124724.bc1018--bc1018.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,5 +13,5 @@ pacbiohifi_fqgz xbAnaTub1            10659593283               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           xbAnaTub1         1.9391    159458150227
-pacbiohifi_fqgz xbAnaTub1         1.4664     15631227590
+pacbiohifi_fqgz xbAnaTub1         1.2772     46107398504
 --------------- ---------------  ------- ---------------

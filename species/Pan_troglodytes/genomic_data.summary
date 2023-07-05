@@ -13,6 +13,9 @@ pacbio          mPanTro1              4236954034               0      4236954034
 dovetail        mPanTro3             22552415534               0      2147483648     41890518428       277420662  species/Pan_troglodytes/mPanTro3/genomic_data/dovetail/G929_Chimp_a_1_S5_R1_001.fastq.gz
 dovetail        mPanTro3             28701513353               0      2147483648     53513764904       354395807  species/Pan_troglodytes/mPanTro3/genomic_data/dovetail/G929_Chimp_a_2_S11_R1_001.fastq.gz
 dovetail        mPanTro3             28408336607               0      2147483648     53624653297       355130167  species/Pan_troglodytes/mPanTro3/genomic_data/dovetail/G929_Chimp_a_2_S11_R2_001.fastq.gz
+illumina        mPanTro3              6348400482               0      2147483648     11409310110        75558345  species/Pan_troglodytes/mPanTro3/genomic_data/illumina/HNNJYDSX5_19491396_S10_L002_R2_001.fastq.gz
+illumina        mPanTro3              5771487647               0      2147483648     10576841352        70045306  species/Pan_troglodytes/mPanTro3/genomic_data/illumina/HNNKVDSX5_19491396_S10_L002_R1_001.fastq.gz
+illumina        mPanTro3              6189267457               0      2147483648     11522554196        76308308  species/Pan_troglodytes/mPanTro3/genomic_data/illumina/HNNNTDSX5_19491396_S10_L002_R2_001.fastq.gz
 ont             mPanTro3             66626231984               0      2147483648     70281064215         2180175  species/Pan_troglodytes/mPanTro3/genomic_data/ont/PAI87018_guppy-6.0.0.fastq.gz
 ont             mPanTro3             79702632910               0      2147483648     84081311822         2500324  species/Pan_troglodytes/mPanTro3/genomic_data/ont/PAJ00590_guppy-6.0.0.fastq.gz
 ont             mPanTro3             74526460835               0      2147483648     78761909001         3277731  species/Pan_troglodytes/mPanTro3/genomic_data/ont/PAJ02170_guppy-6.1.1.fastq.gz
@@ -38,6 +41,7 @@ pacbiohifi_bam  mPanTro3            260113610111               0      2147483648
 10x             mPanTro1          1.5057    248158154430
 bionano         mPanTro1         1063.2043    820084245485
 dovetail        mPanTro3          1.8707    190561476279
+illumina        mPanTro3          1.8301    176416557689
 ont             mPanTro3          1.0555    397870715412
 pacbio          mPanTro1          0.2594    398906472331
 pacbiohifi_bam  mPanTro3          0.8819    716184402019

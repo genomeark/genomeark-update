@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bAnsBra1             32642209260               0      2147483648     99337644630       657865196  species/Anser_brachyrhynchus/bAnsBra1/genomic_data/arima/bAnsBra1_47339_3#3.cram
+pacbiohifi_bam  bAnsBra1             17004839025               0      2147483648     25952428666         2558204  species/Anser_brachyrhynchus/bAnsBra1/genomic_data/pacbio_hifi/m64221e_230626_200813.ccs.bc2093--bc2093.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           bAnsBra1             32642209260               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bAnsBra1          3.0432     99336771220
+pacbiohifi_bam  bAnsBra1          1.5261     25951084836
 --------------- ---------------  ------- ---------------

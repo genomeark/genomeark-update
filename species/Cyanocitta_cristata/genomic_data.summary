@@ -2,14 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
-arima           bNetRuf1             36793530751               0      2147483648    106796793755       707263534  species/Netta_rufina/bNetRuf1/genomic_data/arima/bNetRuf1_47339_2#2.cram
-pacbiohifi_bam  bNetRuf1             19049518368               0      2147483648     24658686892         2155543  species/Netta_rufina/bNetRuf1/genomic_data/pacbio_hifi/m64221e_230625_151112.ccs.bc2024--bc2024.bam
+pacbiohifi_fqgz bCyaCrs1             13325661089               0      2147483648     14839583095          719870  species/Cyanocitta_cristata/bCyaCrs1/genomic_data/pacbio_hifi/demultiplex.bc1010--bc1010.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           bNetRuf1          2.9025    106793223004
-pacbiohifi_bam  bNetRuf1          1.2944     24657696575
+pacbiohifi_fqgz bCyaCrs1          1.1136     14839456188
 --------------- ---------------  ------- ---------------

@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fMyoSco1             44939283159               0      2147483648     80337658373       532037493  species/Myoxocephalus_scorpius/fMyoSco1/genomic_data/arima/fMyoSco1_L1_S1_R1_001.fastq.gz
 arima           fMyoSco1             47580557006               0      2147483648     81115679509       537189952  species/Myoxocephalus_scorpius/fMyoSco1/genomic_data/arima/fMyoSco1_L1_S1_R2_001.fastq.gz
+pacbiohifi_fqgz fMyoSco1             20804413968               0      2147483648     24050605793         1400634  species/Myoxocephalus_scorpius/fMyoSco1/genomic_data/pacbio_hifi/m64330e_230524_082732.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_fqgz fMyoSco1             16492381977               0      2147483648     19945262882         1379165  species/Myoxocephalus_scorpius/fMyoSco1/genomic_data/pacbio_hifi/m64334e_230618_081658.bc1002--bc1002.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +13,5 @@ arima           fMyoSco1             47580557006               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fMyoSco1          1.7313    160179599277
+pacbiohifi_fqgz fMyoSco1          1.1711     43678277731
 --------------- ---------------  ------- ---------------

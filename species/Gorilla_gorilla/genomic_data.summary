@@ -5,6 +5,9 @@
 dovetail        mGorGor1             21706069397               0      2147483648     39908946746       264297660  species/Gorilla_gorilla/mGorGor1/genomic_data/dovetail/G929_Gor_b_1_S2_R1_001.fastq.gz
 dovetail        mGorGor1             22031930351               0      2147483648     40030442705       265102279  species/Gorilla_gorilla/mGorGor1/genomic_data/dovetail/G929_Gor_b_1_S2_R2_001.fastq.gz
 dovetail        mGorGor1             18765765229               0      2147483648     34388743013       227740019  species/Gorilla_gorilla/mGorGor1/genomic_data/dovetail/G929_Gor_b_2_S8_R2_001.fastq.gz
+illumina        mGorGor1              9413137225               0      2147483648     17053697146       112938396  species/Gorilla_gorilla/mGorGor1/genomic_data/illumina/HNNJYDSX5_19491394_S2_L001_R2_001.fastq.gz
+illumina        mGorGor1              9068399941               0      2147483648     16980713808       112455058  species/Gorilla_gorilla/mGorGor1/genomic_data/illumina/HNNKVDSX5_19491394_S2_L002_R1_001.fastq.gz
+illumina        mGorGor1             10389299368               0      2147483648     20047483460       132764795  species/Gorilla_gorilla/mGorGor1/genomic_data/illumina/HNNNTDSX5_19491394_S2_L003_R1_001.fastq.gz
 ont             mGorGor1             69186984521               0      2147483648     73874725442         1942534  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAG26046_guppy-6.1.1.fastq.gz
 ont             mGorGor1             70231917450               0      2147483648     74460555283         2655293  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAG26815_guppy-6.1.1.fastq.gz
 ont             mGorGor1             28712737470               0      2147483648     35321501039          717790  species/Gorilla_gorilla/mGorGor1/genomic_data/ont/PAG68695_guppy-6.3.7-sup.fastq.gz
@@ -47,6 +50,7 @@ illumina        mGorGor3             11011329855               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 dovetail        mGorGor1          1.8291    148466265721
+illumina        mGorGor1          1.8732    285385523097
 illumina        mGorGor2          1.9420    213033786108
 illumina        mGorGor3          1.9452    250557336978
 ont             mGorGor1          1.0931    570577115118

@@ -12,8 +12,11 @@ bionano         aBomBom1              4992225106               0      4992225106
 pacbio          aBomBom1            299180555509               0      2147483648    899727731754        39679097  species/Bombina_bombina/aBomBom1/genomic_data/pacbio/m54345U_201015_200926.subreads.bam
 pacbio_fqgz     aBomBom1             52462383534               0      2147483648    157770484980         6957872  species/Bombina_bombina/aBomBom1/genomic_data/pacbio/m54345U_201015_200926.subreads.fastq.gz
 pacbio          aBomBom1            308446287572               0      2147483648    162592954336         7207572  species/Bombina_bombina/aBomBom1/genomic_data/pacbio/m54345U_201016_114938.subreads.bam
+pacbio_fqgz     aBomBom1             54037147951               0      2147483648     28484893102         1262704  species/Bombina_bombina/aBomBom1/genomic_data/pacbio/m54345U_201016_114938.subreads.fastq.gz
 pacbio          aBomBom1            301025822056               0      2147483648    158441594017         7023101  species/Bombina_bombina/aBomBom1/genomic_data/pacbio/m54345U_201017_032949.subreads.bam
+pacbio_fqgz     aBomBom1             52717179497               0      2147483648     27747101210         1229921  species/Bombina_bombina/aBomBom1/genomic_data/pacbio/m54345U_201017_032949.subreads.fastq.gz
 pacbio          aBomBom1            275584242862               0      2147483648    146919373713         6374353  species/Bombina_bombina/aBomBom1/genomic_data/pacbio/m54345U_201028_213910.subreads.bam
+pacbio_fqgz     aBomBom1             48824834671               0      2147483648     26029478525         1129334  species/Bombina_bombina/aBomBom1/genomic_data/pacbio/m54345U_201028_213910.subreads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -24,5 +27,5 @@ pacbio          aBomBom1            275584242862               0      2147483648
 arima           aBomBom1          1.9954   1466583995611
 bionano         aBomBom1         390.5366   3647812886549
 pacbio          aBomBom1          0.5287    929361684594
-pacbio_fqgz     aBomBom1          0.5000    131597528391
+pacbio_fqgz     aBomBom1          0.5287    163689036111
 --------------- ---------------  ------- ---------------

@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 dovetail        rLepOli2             57233287144               0      2147483648     96425399931       638578834  species/Lepidochelys_olivacea/rLepOli2/genomic_data/dovetail/rLepOli2_L2_S1_R1_001.fastq.gz
 dovetail        rLepOli2             58412185343               0      2147483648     96131864291       636634862  species/Lepidochelys_olivacea/rLepOli2/genomic_data/dovetail/rLepOli2_L2_S1_R2_001.fastq.gz
+pacbiohifi_fqgz rLepOli2             27198481276               0      2147483648     36484523564         2571013  species/Lepidochelys_olivacea/rLepOli2/genomic_data/pacbio_hifi/m64334e_230518_172917.bc1016--bc1016.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +12,5 @@ dovetail        rLepOli2             58412185343               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 dovetail        rLepOli2          1.6585    191798016119
+pacbiohifi_fqgz rLepOli2          1.3414     36484042783
 --------------- ---------------  ------- ---------------

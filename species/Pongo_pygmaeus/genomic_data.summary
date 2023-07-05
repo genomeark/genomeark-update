@@ -5,6 +5,9 @@
 dovetail        mPonPyg2             18508498987               0      2147483648     33683943222       223072471  species/Pongo_pygmaeus/mPonPyg2/genomic_data/dovetail/G929_B_Ora_b_1_S3_R1_001.fastq.gz
 dovetail        mPonPyg2             28004019006               0      2147483648     51492034560       341006851  species/Pongo_pygmaeus/mPonPyg2/genomic_data/dovetail/G929_B_Ora_b_2_S9_R1_001.fastq.gz
 dovetail        mPonPyg2             28751262495               0      2147483648     51504621844       341090224  species/Pongo_pygmaeus/mPonPyg2/genomic_data/dovetail/G929_B_Ora_b_2_S9_R2_001.fastq.gz
+illumina        mPonPyg2              5302632382               0      2147483648      9614751352        63673852  species/Pongo_pygmaeus/mPonPyg2/genomic_data/illumina/HNNKVDSX5_19491392_S39_L002_R1_001.fastq.gz
+illumina        mPonPyg2              5767264247               0      2147483648     10749003899        71185456  species/Pongo_pygmaeus/mPonPyg2/genomic_data/illumina/HNNNTDSX5_19491392_S39_L002_R1_001.fastq.gz
+illumina        mPonPyg2              5956396412               0      2147483648     11239802233        74435779  species/Pongo_pygmaeus/mPonPyg2/genomic_data/illumina/HNNNTDSX5_19491392_S39_L003_R1_001.fastq.gz
 ont             mPonPyg2             36567385204               0      2147483648     40215873909         1115811  species/Pongo_pygmaeus/mPonPyg2/genomic_data/ont/PAI60213_guppy-6.0.6.fastq.gz
 ont             mPonPyg2             56743619218               0      2147483648     62788058871         1931992  species/Pongo_pygmaeus/mPonPyg2/genomic_data/ont/PAI60745_guppy-6.0.6.fastq.gz
 ont             mPonPyg2             42792255824               0      2147483648     46091959275         2490378  species/Pongo_pygmaeus/mPonPyg2/genomic_data/ont/PAJ00725_guppy-6.1.1.fastq.gz
@@ -27,6 +30,7 @@ pacbiohifi_clr  mPonPyg2            236954867635               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 dovetail        mPonPyg2          1.8160    170101370987
+illumina        mPonPyg2          1.8561    166025450774
 ont             mPonPyg2          1.0954    632810465672
 pacbiohifi_bam  mPonPyg2          0.8545    648925884231
 pacbiohifi_clr  mPonPyg2          0.4969   3481768226913
