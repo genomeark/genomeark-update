@@ -50,7 +50,7 @@ print "           <th>Bytes</th>\n";
 print "           <th>Access</th>\n";
 print "       </tr></thead>\n";
 print "<tbody>\n";
-foreach my $id (qw(1 2 3 4 5 6 7 8 9)) {
+foreach my $id (qw(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15)) {
     print "\n";
     print "{% assign rs = 0 %}\n";
     print "\n";

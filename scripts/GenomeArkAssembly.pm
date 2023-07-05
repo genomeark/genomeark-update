@@ -505,11 +505,11 @@ sub summarizeAssembly ($$$$$$$) {
     delete $$data{"${prialt}${sNum}__curated"};    #  only used to decide which $filename
     delete $$data{"${prialt}${sNum}__filename"};   #  should be processed here.
 
-    #  If more than 9 individuals:
+    #  If more than 15 individuals:
     #    _layouts/genomeark.html needs to have more assembly entries added.
-    #    utilities/make-*-table.pl needs to have more individuals added.
+    #    utilities/make-*-table.pl needs to have more individuals added (in three loops total).
     #
-    if ($sNum > 9) {
+    if ($sNum > 15) {
         die "Too many assemblies; update _layouts/genomeark.html and utilities/make-*-table.pl.\n";
     }
 

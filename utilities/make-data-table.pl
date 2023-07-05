@@ -54,14 +54,14 @@ foreach my $ty (@types) {
     print "\n";
     print "{% assign rs = 0 %}\n";
     print "\n";
-    foreach my $id (qw(1 2 3 4 5 6 7 8 9)) {   #  One more loop below!
+    foreach my $id (qw(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15)) {   #  One more loop below!
         print "{% if page.data_${ty}-${id}_bytes %}{% assign rs = rs | plus: 1 %}{% endif %}\n";
     }
     print "\n";
     print "{% if rs > 0 %}\n";
     print "  {% assign first = true %}\n";
     print "\n";
-    foreach my $id (qw(1 2 3 4 5 6 7 8 9)) {   #  One more loop above!
+    foreach my $id (qw(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15)) {   #  One more loop above!
         print "  {% if page.data_${ty}-${id}_bytes %}\n";
         print "    {% if first %}\n";
         print "      {% assign first = false %}\n";
