@@ -106,6 +106,8 @@ sub loadSpeciesMetadata ($$$$) {
     $$data{"point_of_contact_url"}   = $meta->{species}->{point_of_contact_url};
     $$data{"point_of_contact_email"} = $meta->{species}->{point_of_contact_email};
 
+    $$data{"project"}                = $meta->{species}->{project};
+
     foreach my $p (@{$meta->{species}->{project}}) {
         addProjectToSpecies($p, $$data{name_});
     }
