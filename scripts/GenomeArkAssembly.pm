@@ -545,11 +545,12 @@ sub summarizeAssembly ($$$$$$$) {
 
 
 
-sub importAssemblySummary ($$$$$$) {
+sub importAssemblySummary ($$$$$$$) {
     my $filesecs = shift @_;
     my $filesize = shift @_;
     my $filename = shift @_;
     my $filebase = $filename;   $filebase =~ s/.gz$//;
+    my $asmToQV  = shift @_;
     my $data     = shift @_;
     my $errors   = shift @_;
     my $missing  = shift @_;
@@ -579,6 +580,10 @@ sub importAssemblySummary ($$$$$$) {
     $$data{"${prialt}${sNum}filesize"} = prettifySize($filesize);
 
     $$data{"${prialt}${sNum}seq"}      = "https://s3.amazonaws.com/genomeark/$filename";
+
+    if (exists($$asmToQV{"https://s3.amazonaws.com/genomeark/$filename"})) {
+        $$data{"${prialt}${sNum}qual"} = $$asmToQV{"https://s3.amazonaws.com/genomeark/$filename"};
+    }
 
     ($$data{"${prialt}${sNum}n50ctg"},
      $$data{"${prialt}${sNum}n50scf"},

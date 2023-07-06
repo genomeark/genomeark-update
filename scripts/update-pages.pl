@@ -117,6 +117,32 @@ foreach my $proj ("genomeark", getAllProjectNames()) {
     makeIndexPage($proj, "$ga", "$proj-raw-data-only",    "Species without an Assembly");
 }
 
+#
+#  Load assembly QV analysis
+#
+
+my %asmToQV;
+
+if (-e "genomeark-analyses/kreeq.qv") {
+    open(QV, "< genomeark-analyses/kreeq.qv") or die "Failed to open 'genomeark-analyses/kreeq.qv' for reading: $!\n";
+    while (<QV>) {
+        my @v = split '\s+', $_;
+        #my @n = split '/', @v[5];
+
+        next   if (m/^#/);
+
+        #my $qv = sprintf("%.2f", $v[3]);
+        #my $er = sprintf("%.1f", $v[4] * 1000000);
+
+        $asmToQV{$v[5]} = sprintf("%.1f errors/Mb (QV=%.2f)", $v[4] * 1000000, $v[3]);
+    }
+    close(QV);
+}
+
+#
+#
+#
+
 #  Iterate over all species and do work!
 
 foreach my $species (@speciesList) {
@@ -173,7 +199,7 @@ foreach my $species (@speciesList) {
 
         next   if (! isAssemblyFile($filename, "sequence", \@potentialErrors));
 
-        importAssemblySummary($filesecs, $filesize, $filename, \%data, \@potentialErrors, \%missingData);
+        importAssemblySummary($filesecs, $filesize, $filename, \%asmToQV, \%data, \@potentialErrors, \%missingData);
     }
 
     print "\n";
@@ -361,9 +387,9 @@ foreach my $species (@speciesList) {
     push @have, "<em style=\"color:forestgreen\">Illumina</em>"    if hasBases(\%data, "illumina");
 
     if (scalar(@have) > 0) {
-        $data{"data_status"}  = "'" . join(" ::: ", @have) . "'";
+        $data{"data_status"}  = join(" ::: ", @have);
     } else {
-        $data{"data_status"}  = "'<em style=\"color:maroon\">No data</em>'";
+        $data{"data_status"}  = "<em style=\"color:maroon\">No data</em>";
     }
 
     #

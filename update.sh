@@ -25,9 +25,10 @@ else
 fi
 
 #  Pull in the submodules if they appear to not exist.
-if [ ! -e "seqrequester/src/Makefile" ] ;  then git submodule update --init seqrequester;        fi
-if [ ! -e "genomeark-metadata/species" ] ; then git submodule update --init genomeark-metadata;  fi
-if [ ! -e "genomeark.github.io/404.md" ] ; then git submodule update --init genomeark.github.io; fi
+if [ ! -e "seqrequester/src/Makefile" ] ;   then git submodule update --init seqrequester;        fi
+if [ ! -e "genomeark-metadata/species" ] ;  then git submodule update --init genomeark-metadata;  fi
+if [ ! -e "genomeark-analyses/kreeq.qv" ] ; then git submodule update --init genomeark-analyses;  fi
+if [ ! -e "genomeark.github.io/404.md" ] ;  then git submodule update --init genomeark.github.io; fi
 
 #  Build seqrequester, if needed.
 if [ ! -e "seqrequester/build/bin/seqrequester" ] ; then
