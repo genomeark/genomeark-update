@@ -2,14 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
-arima           aPelLes1            287824541722               0      2147483648    873689129233      5786020723  species/Pelophylax_lessonae/aPelLes1/genomic_data/arima/aPelLes1_47549_2#1.cram
-pacbiohifi_bam  aPelLes1             19709015457               0      2147483648     26780577191         2095513  species/Pelophylax_lessonae/aPelLes1/genomic_data/pacbio_hifi/m64016e_230524_074538.ccs.bc2015--bc2015.bam
+pacbiohifi_bam  fScaEry2              4977437580               0      2147483648      8231452672          842847  species/Scardinius_erythrophthalmus/fScaEry2/genomic_data/pacbio_hifi/m64222e_230630_203944.ccs.bc2030--bc2030.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           aPelLes1          3.0354    873662613942
-pacbiohifi_bam  aPelLes1          1.3587     26778639301
+pacbiohifi_bam  fScaEry2          1.6537      8231188526
 --------------- ---------------  ------- ---------------

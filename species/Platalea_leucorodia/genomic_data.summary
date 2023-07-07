@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPlaLeu2             25565818926               0      2147483648     78234021862       518106105  species/Platalea_leucorodia/bPlaLeu2/genomic_data/arima/bPlaLeu2_47527_3#4.cram
 pacbiohifi_bam  bPlaLeu2             14832608220               0      2147483648     21744566753         2386476  species/Platalea_leucorodia/bPlaLeu2/genomic_data/pacbio_hifi/m64222e_230625_160847.ccs.bc2096--bc2096.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  bPlaLeu2             14832608220               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bPlaLeu2          3.0601     78233962495
 pacbiohifi_bam  bPlaLeu2          1.4659     21743120389
 --------------- ---------------  ------- ---------------
