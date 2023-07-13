@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           xcIllIlle1           58439455937               0      2147483648    106360936767       704377064  species/Illex_illecebrosus/xcIllIlle1/genomic_data/arima/iIllIll1_L1_S5_R1_001.fastq.gz
+arima           xcIllIlle1           60492096040               0      2147483648    107267774687       710382641  species/Illex_illecebrosus/xcIllIlle1/genomic_data/arima/iIllIll1_L1_S5_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           xcIllIlle1        1.7884    212697187555
+--------------- ---------------  ------- ---------------

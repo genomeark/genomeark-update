@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bColLiv1             21111252736               0      2147483648     39713665379       263004416  species/Columba_livia/bColLiv1/genomic_data/arima/bColLiv1_L1_S2_R1_001.fastq.gz
+arima           bColLiv1             22331111369               0      2147483648     40194721020       266190215  species/Columba_livia/bColLiv1/genomic_data/arima/bColLiv1_L1_S2_R2_001.fastq.gz
+arima           bColLiv1             12627451372               0      2147483648     21763710547       144130539  species/Columba_livia/bColLiv1/genomic_data/arima/bColLiv1_L1_S9_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bColLiv1          1.8133    122658179556
+--------------- ---------------  ------- ---------------

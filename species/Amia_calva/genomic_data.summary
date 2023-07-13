@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fAmiCal2              5339977029               0      2147483648      9599713574        63574262  species/Amia_calva/fAmiCal2/genomic_data/arima/fAmiCal2_L1_S8_R1_001.fastq.gz
+arima           fAmiCal2              5548133979               0      2147483648      9706696943        64282763  species/Amia_calva/fAmiCal2/genomic_data/arima/fAmiCal2_L1_S8_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fAmiCal2          1.7651     19218604740
+--------------- ---------------  ------- ---------------

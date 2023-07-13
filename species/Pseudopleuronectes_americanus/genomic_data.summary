@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fPseAme1             52473330983               0      2147483648     98006635514       649050566  species/Pseudopleuronectes_americanus/fPseAme1/genomic_data/arima/fPseAme1_L1_S5_R1_001.fastq.gz
+arima           fPseAme1             55075786161               0      2147483648     99640277982       659869390  species/Pseudopleuronectes_americanus/fPseAme1/genomic_data/arima/fPseAme1_L1_S5_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fPseAme1          1.8280    196599786139
+--------------- ---------------  ------- ---------------

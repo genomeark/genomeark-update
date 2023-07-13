@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bStrCam1             54559053374               0      2147483648    103467058102       685212330  species/Struthio_camelus/bStrCam1/genomic_data/arima/bStrCam1_L1_S4_R1_001.fastq.gz
+arima           bStrCam1             56704483228               0      2147483648    104238768219       690322994  species/Struthio_camelus/bStrCam1/genomic_data/arima/bStrCam1_L1_S4_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bStrCam1          1.8571    206627513823
+--------------- ---------------  ------- ---------------

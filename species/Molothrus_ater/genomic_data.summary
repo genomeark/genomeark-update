@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bMolAte1            287119649495               0      2147483648     65201962079         6930365  species/Molothrus_ater/bMolAte1/genomic_data/pacbio_hifi/m84091_230616_174157_s4.hifi_reads.bc1003.bam
+pacbiohifi_fqgz bMolAte1             29619036308               0      2147483648     64126367924         6815257  species/Molothrus_ater/bMolAte1/genomic_data/pacbio_hifi/m84091_230616_174157_s4.hifi_reads.bc1003.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bMolAte1          0.2270     65176160435
+pacbiohifi_fqgz bMolAte1          2.1650     64125213606
+--------------- ---------------  ------- ---------------

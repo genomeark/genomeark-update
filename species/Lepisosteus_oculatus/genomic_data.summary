@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fLepOcu1              7477454882               0      2147483648     13573280963        89889281  species/Lepisosteus_oculatus/fLepOcu1/genomic_data/arima/fLepOcu1_L1_S9_R1_001.fastq.gz
+arima           fLepOcu1              7567629658               0      2147483648     13717991806        90847631  species/Lepisosteus_oculatus/fLepOcu1/genomic_data/arima/fLepOcu1_L1_S9_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fLepOcu1          1.8135     27284260813
+--------------- ---------------  ------- ---------------

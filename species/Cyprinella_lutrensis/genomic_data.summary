@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fCypLut1             29279096909               0      2147483648     53078910874       351515979  species/Cyprinella_lutrensis/fCypLut1/genomic_data/arima/fCypLut1_L2_S6_R1_001.fastq.gz
+arima           fCypLut1             30127627494               0      2147483648     53448876109       353966080  species/Cyprinella_lutrensis/fCypLut1/genomic_data/arima/fCypLut1_L2_S6_R2_001.fastq.gz
 pacbiohifi_fqgz fCypLut1             18912116121               0      2147483648     24111527215         1431589  species/Cyprinella_lutrensis/fCypLut1/genomic_data/pacbio_hifi/m64334e_230502_111634.bc1020--bc1020.hifi_reads.fastq.gz
 pacbiohifi_fqgz fCypLut1             18018362480               0      2147483648     22886660547         1341163  species/Cyprinella_lutrensis/fCypLut1/genomic_data/pacbio_hifi/m64334e_230511_140536.bc1020--bc1020.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +12,6 @@ pacbiohifi_fqgz fCypLut1             18018362480               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fCypLut1          1.7867    106141994490
 pacbiohifi_fqgz fCypLut1          1.2733     47023578402
 --------------- ---------------  ------- ---------------

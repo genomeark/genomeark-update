@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aSpeMul1             32559854964               0      2147483648     60324177100       399497876  species/Spea_multiplicata/aSpeMul1/genomic_data/arima/aSpeMul1_L1_S6_R1_001.fastq.gz
+arima           aSpeMul1             34447634193               0      2147483648     61090651914       404573853  species/Spea_multiplicata/aSpeMul1/genomic_data/arima/aSpeMul1_L1_S6_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           aSpeMul1          1.7988    120533071495
+--------------- ---------------  ------- ---------------

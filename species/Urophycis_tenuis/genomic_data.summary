@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fUroTen1             53824602208               0      2147483648     98808580704       654361486  species/Urophycis_tenuis/fUroTen1/genomic_data/arima/fUroTen1_L2_S7_R1_001.fastq.gz
+arima           fUroTen1             56125903893               0      2147483648     99394515519       658241824  species/Urophycis_tenuis/fUroTen1/genomic_data/arima/fUroTen1_L2_S7_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fUroTen1          1.7919    197020311882
+--------------- ---------------  ------- ---------------

@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aScaCou1             16964300048               0      2147483648     31287304893       207200702  species/Scaphiopus_couchii/aScaCou1/genomic_data/arima/aScaCou1_L1_S4_R1_001.fastq.gz
+arima           aScaCou1             17991828996               0      2147483648     31437847944       208197676  species/Scaphiopus_couchii/aScaCou1/genomic_data/arima/aScaCou1_L1_S4_R2_001.fastq.gz
 pacbiohifi_fqgz aScaCou1             14259466889               0      2147483648     18263767651         1151921  species/Scaphiopus_couchii/aScaCou1/genomic_data/pacbio_hifi/m64334e_230428_172325.bc1003--bc1003.hifi_reads.fastq.gz
 pacbiohifi_fqgz aScaCou1             13740383389               0      2147483648     16705876211         1072436  species/Scaphiopus_couchii/aScaCou1/genomic_data/pacbio_hifi/m64334e_230509_170901.bc1003--bc1003.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +12,6 @@ pacbiohifi_fqgz aScaCou1             13740383389               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           aScaCou1          1.7784     62165979891
 pacbiohifi_fqgz aScaCou1          1.2596     35268611410
 --------------- ---------------  ------- ---------------

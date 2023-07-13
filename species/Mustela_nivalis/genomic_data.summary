@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMusNiv1             40900616028               0      2147483648     76479846590       506489069  species/Mustela_nivalis/mMusNiv1/genomic_data/arima/mMusNiv1_L1_S1_R1_001.fastq.gz
+arima           mMusNiv1             42900772814               0      2147483648     77585985297       513814472  species/Mustela_nivalis/mMusNiv1/genomic_data/arima/mMusNiv1_L1_S1_R2_001.fastq.gz
+arima           mMusNiv1             33499010853               0      2147483648     58576711736       387925258  species/Mustela_nivalis/mMusNiv1/genomic_data/arima/mMusNiv1_L1_S2_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mMusNiv1          1.8128    269372494765
+--------------- ---------------  ------- ---------------

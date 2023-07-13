@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fForLap1             17829189363               0      2147483648     33373087613       221013825  species/Forsterygion_lapillum/fForLap1/genomic_data/arima/fForLap1_L1_S1_R1_001.fastq.gz
+arima           fForLap1             19449262059               0      2147483648     33671827893       222992237  species/Forsterygion_lapillum/fForLap1/genomic_data/arima/fForLap1_L1_S1_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fForLap1          1.7754     66184162654
+--------------- ---------------  ------- ---------------
