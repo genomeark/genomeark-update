@@ -2,14 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
-arima           bChrRid1             63421577185               0      2147483648    197554909209      1308310657  species/Chroicocephalus_ridibundus/bChrRid1/genomic_data/arima/bChrRid1_47476_1#4.cram
-pacbiohifi_bam  bChrRid1             18702445864               0      2147483648     28964707560         2838308  species/Chroicocephalus_ridibundus/bChrRid1/genomic_data/pacbio_hifi/m64089e_230713_192258.ccs.bc2052--bc2052.bam
+pacbiohifi_fqgz bSerCan1             46559883940               0      2147483648     81309884828         4236081  species/Serinus_canaria/bSerCan1/genomic_data/pacbio_hifi/m84091_230524_190339_s4.hifi_reads.bc1009.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           bChrRid1          3.1149    197551870773
-pacbiohifi_bam  bChrRid1          1.5487     28964477909
+pacbiohifi_fqgz bSerCan1          1.7463     81307525324
 --------------- ---------------  ------- ---------------

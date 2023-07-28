@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bZonAlb1             35462093440               0      2147483648     67374383325       446187985  species/Zonotrichia_albicollis/bZonAlb1/genomic_data/arima/bZonAlb2_S3_R1_001.fastq.gz
+arima           bZonAlb1             35153013666               0      2147483648     67147632504       444686324  species/Zonotrichia_albicollis/bZonAlb1/genomic_data/arima/bZonAlb2_S3_R2_001.fastq.gz
 pacbiohifi_fqgz bZonAlb1             26456594592               0      2147483648     27825437853         1369544  species/Zonotrichia_albicollis/bZonAlb1/genomic_data/pacbio_hifi/m64330e_230522_113124.bc1011--bc1011.hifi_reads.fastq.gz
 pacbiohifi_fqgz bZonAlb1             27123437503               0      2147483648     30061949819         1434275  species/Zonotrichia_albicollis/bZonAlb1/genomic_data/pacbio_hifi/m64330e_230530_170806.bc1011--bc1011.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +12,6 @@ pacbiohifi_fqgz bZonAlb1             27123437503               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bZonAlb1          1.9032    134394671844
 pacbiohifi_fqgz bZonAlb1          1.0897     58386160973
 --------------- ---------------  ------- ---------------

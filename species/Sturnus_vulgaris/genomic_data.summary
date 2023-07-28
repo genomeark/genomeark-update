@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bStuVul1             17345708548               0      2147483648     32341846314       214184420  species/Sturnus_vulgaris/bStuVul1/genomic_data/arima/bStuVul1_S10_L002_R1_001.fastq.gz
 arima           bStuVul1             18247580990               0      2147483648     32488001403       215152327  species/Sturnus_vulgaris/bStuVul1/genomic_data/arima/bStuVul1_S10_L002_R2_001.fastq.gz
+pacbiohifi_fqgz bStuVul1             10269898937               0      2147483648     12117988381          591890  species/Sturnus_vulgaris/bStuVul1/genomic_data/pacbio_hifi/m64055e_221012_125956.bc1003--bc1003.hifi_reads.fastq.gz
+pacbiohifi_fqgz bStuVul1             30016924285               0      2147483648     37031377249         2025119  species/Sturnus_vulgaris/bStuVul1/genomic_data/pacbio_hifi/m64055e_230330_034715.bc1003--bc1003.hifi-reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +13,5 @@ arima           bStuVul1             18247580990               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bStuVul1          1.8075     64334870839
+pacbiohifi_fqgz bStuVul1          1.2258     49383587905
 --------------- ---------------  ------- ---------------

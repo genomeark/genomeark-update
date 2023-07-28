@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bMolAte1             15135047163               0      2147483648     27806812335       184151075  species/Molothrus_ater/bMolAte1/genomic_data/arima/bMolAte2_1.fastq.gz
+arima           bMolAte1             16079757232               0      2147483648     27743011860       183728562  species/Molothrus_ater/bMolAte1/genomic_data/arima/bMolAte2_2.fastq.gz
 pacbiohifi_bam  bMolAte1            287119649495               0      2147483648     65201962079         6930365  species/Molothrus_ater/bMolAte1/genomic_data/pacbio_hifi/m84091_230616_174157_s4.hifi_reads.bc1003.bam
 pacbiohifi_fqgz bMolAte1             29619036308               0      2147483648     64126367924         6815257  species/Molothrus_ater/bMolAte1/genomic_data/pacbio_hifi/m84091_230616_174157_s4.hifi_reads.bc1003.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz bMolAte1             29619036308               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bMolAte1          1.7611     54972392020
 pacbiohifi_bam  bMolAte1          0.2270     65176160435
 pacbiohifi_fqgz bMolAte1          2.1650     64125213606
 --------------- ---------------  ------- ---------------

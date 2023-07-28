@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bClaHye2             17352579847               0      2147483648     54320814010       359740490  species/Clangula_hyemalis/bClaHye2/genomic_data/arima/bClaHye2_47339_3#5.cram
+pacbiohifi_bam  bClaHye2             18451247548               0      2147483648     29435755906         2909133  species/Clangula_hyemalis/bClaHye2/genomic_data/pacbio_hifi/m64125e_230716_032923.ccs.bc2026--bc2026.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           bClaHye2             17352579847               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bClaHye2          3.1304     54320515953
+pacbiohifi_bam  bClaHye2          1.5953     29435275213
 --------------- ---------------  ------- ---------------

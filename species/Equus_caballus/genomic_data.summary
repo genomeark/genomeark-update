@@ -6,6 +6,9 @@ dovetail        mEquAca1             31178238518               0      2147483648
 dovetail        mEquAca1             35307942739               0      2147483648     56011232837       373408235  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/dovetail/DTG-OmniC-118_R2_001.fastq.gz
 illumina        mEquAca1             42196794287               0      2147483648     92978263832       626051615  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/illumina/M_4285_AGTTCAGG-CCAACAGA_L004_R1_001.fastq.gz
 illumina        mEquAca1             43538134032               0      2147483648     92941577479       625840758  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/illumina/M_4285_AGTTCAGG-CCAACAGA_L004_R2_001.fastq.gz
+ont             mEquAca1             14030280861               0      2147483648     15460742795          532416  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/ont/PAG65920_guppy-6.4.6.fq.gz
+ont             mEquAca1             25910353755               0      2147483648     30237181143          692375  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/ont/PAK64654_guppy-6.5.7.fq.gz
+ont             mEquAca1             40020685860               0      2147483648     46760475487          755879  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/ont/PAM74365_guppy-6.4.6.fq.gz
 pacbiohifi_fagz mEquAca1              8187093830               0      2147483648     23423406724         1874151  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/pacbio_hifi/ULSC1_4285_BBSS_cell2.hifi_reads.fasta.gz
 pacbiohifi_fagz mEquAca1              6884264641               0      2147483648     19705139007         1485486  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/pacbio_hifi/ULSC1_4285_BBSS_cell3.hifi_reads.fasta.gz
 pacbiohifi_fagz mEquAca1              8394662767               0      2147483648     24285084430         1489363  species/Equus_asinus_x_Equus_caballus/mEquAca1/genomic_data/pacbio_hifi/ULSC1_4285_new_15kb_031821.hifi_reads.fasta.gz
@@ -32,6 +35,7 @@ illumina        mEquAca1          2.1571    184938813876
 illumina        mEquCab2          1.9756    121014204914
 illumina        mEquCab3          1.9294     92960651689
 illumina        mEquCab4          2.1768    144375435817
+ont             mEquAca1          1.1562    215925428433
 pacbiohifi_fagz mEquAca1          2.8728    133592516217
 pacbiohifi_fqgz mEquCab1          1.3850    101070457393
 --------------- ---------------  ------- ---------------

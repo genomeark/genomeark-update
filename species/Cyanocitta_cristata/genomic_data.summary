@@ -2,12 +2,17 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bCyaCrs1             12504495816               0      2147483648     22699038858       150324766  species/Cyanocitta_cristata/bCyaCrs1/genomic_data/arima/bCyaCri2_1.fastq.gz
+arima           bCyaCrs1             13380980045               0      2147483648     22594028359       149629326  species/Cyanocitta_cristata/bCyaCrs1/genomic_data/arima/bCyaCri2_2.fastq.gz
 pacbiohifi_fqgz bCyaCrs1             13325661089               0      2147483648     14839583095          719870  species/Cyanocitta_cristata/bCyaCrs1/genomic_data/pacbio_hifi/demultiplex.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_fqgz bCyaCrs1             13325661089               0      2147483648     14839583095          719870  species/Cyanocitta_cristata/bCyaCrs1/genomic_data/pacbio_hifi/m64055e_221014_095653.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_fqgz bCyaCrs1             26485667489               0      2147483648     30578212093         1576510  species/Cyanocitta_cristata/bCyaCrs1/genomic_data/pacbio_hifi/m64334e_230524_063757.bc1010--bc1010.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-pacbiohifi_fqgz bCyaCrs1          1.1136     14839456188
+arima           bCyaCrs1          1.7288     44750810668
+pacbiohifi_fqgz bCyaCrs1          1.1462     45631744816
 --------------- ---------------  ------- ---------------
