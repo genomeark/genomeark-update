@@ -2,14 +2,20 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fSalAlp3             63103865064               0      2147483648    119411106722       790802060  species/Salvelinus_alpinus/fSalAlp3/genomic_data/arima/fSalAlp1_1.fastq.gz
+arima           fSalAlp3             66954239568               0      2147483648    120594111523       798636500  species/Salvelinus_alpinus/fSalAlp3/genomic_data/arima/fSalAlp1_2.fastq.gz
 pacbiohifi_fqgz fSalAlp3             10884654170               0      2147483648     14411978739          912726  species/Salvelinus_alpinus/fSalAlp3/genomic_data/pacbio_hifi/demultiplex.bc1001--bc1001.hifi_reads.fastq.gz
 pacbiohifi_fqgz fSalAlp3             13179300681               0      2147483648     16062530505         1048515  species/Salvelinus_alpinus/fSalAlp3/genomic_data/pacbio_hifi/m64055e_230512_173030.bc1001--bc1001.hifi_reads.fastq.gz
 pacbiohifi_fqgz fSalAlp3             16009658986               0      2147483648     20032683535         1313294  species/Salvelinus_alpinus/fSalAlp3/genomic_data/pacbio_hifi/m64330e_230518_174054.bc1001--bc1001.hifi_reads.fastq.gz
+pacbiohifi_bam  fSalAlp3            219719359451               0      2147483648     51101350711         3339555  species/Salvelinus_alpinus/fSalAlp3/genomic_data/pacbio_hifi/m84091_230524_180127_s2.hifi_reads.bc1001.bam
+pacbiohifi_fqgz fSalAlp3             26017098660               0      2147483648     50944110663         3330201  species/Salvelinus_alpinus/fSalAlp3/genomic_data/pacbio_hifi/m84091_230524_180127_s2.hifi_reads.bc1001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-pacbiohifi_fqgz fSalAlp3          1.2603     50504775518
+arima           fSalAlp3          1.8303    238045348907
+pacbiohifi_bam  fSalAlp3          0.2325     51084751072
+pacbiohifi_fqgz fSalAlp3          1.5766    104198617322
 --------------- ---------------  ------- ---------------
