@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fStoGra1             31244042939               0      2147483648     91479758130       605826212  species/Stomias_gracilis/fStoGra1/genomic_data/arima/fStoGra1_46625_1#3.cram
 pacbiohifi_bam  fStoGra1             73362245108               0      2147483648     19326131291         1664951  species/Stomias_gracilis/fStoGra1/genomic_data/pacbio_hifi/m64230e_230221_163543.ccs.bc1020_BAK8B_OA--bc1020_BAK8B_OA.bam
+pacbiohifi_bam  fStoGra1             16694761671               0      2147483648     39333975171         3286113  species/Stomias_gracilis/fStoGra1/genomic_data/pacbio_hifi/m84047_230727_135907_s4.ccs.bc2052.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +12,5 @@ pacbiohifi_bam  fStoGra1             73362245108               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fStoGra1          2.9279     91479433321
-pacbiohifi_bam  fStoGra1          0.2634     19323615361
+pacbiohifi_bam  fStoGra1          0.4772     42975203634
 --------------- ---------------  ------- ---------------

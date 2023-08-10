@@ -5,6 +5,7 @@
 arima           fPorCra3             32210502351               0      2147483648     65576021589       434278303  species/Poromitra_crassiceps/fPorCra3/genomic_data/arima/fPorCra3_40063_1#4_R1.fastq.gz
 arima           fPorCra3             32982635431               0      2147483648     66617228690       441173715  species/Poromitra_crassiceps/fPorCra3/genomic_data/arima/fPorCra3_40063_1#4_R2.fastq.gz
 pacbiohifi_bam  fPorCra3             14596612764               0      2147483648     20459614413         1765194  species/Poromitra_crassiceps/fPorCra3/genomic_data/pacbio_hifi/m64094e_230314_110315.ccs.bc1021_BAK8B_OA--bc1021_BAK8B_OA.bam
+pacbiohifi_bam  fPorCra3             16883941229               0      2147483648     22852702401         2134484  species/Poromitra_crassiceps/fPorCra3/genomic_data/pacbio_hifi/m64229e_230801_234050.ccs.bc2078--bc2078.bam
 pacbiohifi_bam  fPorCra3             92933510104               0      2147483648     24643122056         1942249  species/Poromitra_crassiceps/fPorCra3/genomic_data/pacbio_hifi/m64230e_230222_194643.ccs.bc1021_BAK8B_OA--bc1021_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -13,5 +14,5 @@ pacbiohifi_bam  fPorCra3             92933510104               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fPorCra3          2.0250    132016104008
-pacbiohifi_bam  fPorCra3          0.3479     37409729745
+pacbiohifi_bam  fPorCra3          0.5462     67954961809
 --------------- ---------------  ------- ---------------

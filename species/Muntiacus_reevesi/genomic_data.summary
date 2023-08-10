@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 pacbiohifi_bam  mMunRee1             15355029924               0      2147483648     21472641587         1514335  species/Muntiacus_reevesi/mMunRee1/genomic_data/pacbio_hifi/m64094e_230413_085847.ccs.bc1009_BAK8A_OA--bc1009_BAK8A_OA.bam
+pacbiohifi_bam  mMunRee1             18095885255               0      2147483648     26561641533         2274562  species/Muntiacus_reevesi/mMunRee1/genomic_data/pacbio_hifi/m64221e_230731_180057.ccs.bc2053--bc2053.bam
 arima           mMunRee2             96668036421               0      2147483648    303223029534      2008099533  species/Muntiacus_reevesi/mMunRee2/genomic_data/arima/mMunRee2_46698_1#1.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -11,5 +12,5 @@ arima           mMunRee2             96668036421               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mMunRee2          3.1367    303218629841
-pacbiohifi_bam  mMunRee1          1.3984     21472473845
+pacbiohifi_bam  mMunRee1          1.4471     48406819355
 --------------- ---------------  ------- ---------------

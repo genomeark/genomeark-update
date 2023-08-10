@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fLabBer1             33975109749               0      2147483648    106786279013       707193900  species/Labrus_bergylta/fLabBer1/genomic_data/arima/fLabBer1_46919_4#6.cram
+pacbiohifi_bam  fLabBer1             18667743476               0      2147483648     25045626502         2088847  species/Labrus_bergylta/fLabBer1/genomic_data/pacbio_hifi/m64230e_230728_043744.ccs.bc2048--bc2048.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           fLabBer1             33975109749               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fLabBer1          3.1430    106783769941
+pacbiohifi_bam  fLabBer1          1.3416     25044644647
 --------------- ---------------  ------- ---------------

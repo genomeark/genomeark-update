@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  aTriCri1             33589250751               0      2147483648     83058270799         5407277  species/Triturus_cristatus/aTriCri1/genomic_data/pacbio_hifi/m84098_230728_145616_s4.ccs.bc2073.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  aTriCri1          2.4727     83056140331
+--------------- ---------------  ------- ---------------

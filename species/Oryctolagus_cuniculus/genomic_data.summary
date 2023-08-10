@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mOryCun1            142520419296               0      2147483648    541189630118      3584037285  species/Oryctolagus_cuniculus/mOryCun1/genomic_data/arima/mOryCun1_47478_3#1.cram
+pacbiohifi_bam  mOryCun1             18651207766               0      2147483648     26387841409         2593262  species/Oryctolagus_cuniculus/mOryCun1/genomic_data/pacbio_hifi/m64230e_230726_234003.ccs.bc2047--bc2047.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           mOryCun1            142520419296               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mOryCun1          3.7972    541178536150
+pacbiohifi_bam  mOryCun1          1.4148     26387728747
 --------------- ---------------  ------- ---------------

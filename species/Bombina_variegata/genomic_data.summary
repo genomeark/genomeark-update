@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aBomVar4            302915069428               0      2147483648    946333587755      6267109852  species/Bombina_variegata/aBomVar4/genomic_data/arima/aBomVar4_47666_4#1.cram
 pacbiohifi_bam  aBomVar4             34575550268               0      2147483648     84950083112         7780805  species/Bombina_variegata/aBomVar4/genomic_data/pacbio_hifi/m84047_230608_162346_s1.ccs.bc2008.bam
 pacbiohifi_bam  aBomVar4             30068954775               0      2147483648     75228098519         6795817  species/Bombina_variegata/aBomVar4/genomic_data/pacbio_hifi/m84098_230615_150719_s1.ccs.bc2008.bam
 pacbiohifi_bam  aBomVar4             30442151544               0      2147483648     77110717937         7058961  species/Bombina_variegata/aBomVar4/genomic_data/pacbio_hifi/m84098_230615_153738_s2.ccs.bc2008.bam
@@ -11,5 +12,6 @@ pacbiohifi_bam  aBomVar4             30442151544               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           aBomVar4          3.1240    946306676893
 pacbiohifi_bam  aBomVar4          2.4955    237288751512
 --------------- ---------------  ------- ---------------

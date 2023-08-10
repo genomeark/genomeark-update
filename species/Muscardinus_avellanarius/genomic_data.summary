@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMusAve1            168867641089               0      2147483648    542874848535      3595197672  species/Muscardinus_avellanarius/mMusAve1/genomic_data/arima/mMusAve1_47676_1#1.cram
 pacbiohifi_bam  mMusAve1             87943024257               0      2147483648     23915912069         2979806  species/Muscardinus_avellanarius/mMusAve1/genomic_data/pacbio_hifi/m64178e_230217_194411.ccs.bc1016_BAK8B_OA--bc1016_BAK8B_OA.bam
 pacbiohifi_bam  mMusAve1             21924688935               0      2147483648     57710659166         7176099  species/Muscardinus_avellanarius/mMusAve1/genomic_data/pacbio_hifi/m84047_230428_154531_s2.ccs.bc1016_BAK8B_OA.bam
 pacbiohifi_bam  mMusAve1             22886883901               0      2147483648     61160155206         7410046  species/Muscardinus_avellanarius/mMusAve1/genomic_data/pacbio_hifi/m84047_230519_153459_s3.ccs.bc1016_BAK8B_OA.bam
@@ -11,5 +12,6 @@ pacbiohifi_bam  mMusAve1             22886883901               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mMusAve1          3.2147    542858805808
 pacbiohifi_bam  mMusAve1          1.0755    142777569173
 --------------- ---------------  ------- ---------------

@@ -2,6 +2,9 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz iHomAme1             12810847928               0      2147483648     16465764391         1187787  species/Homarus_americanus/iHomAme1/genomic_data/pacbio_hifi/m54306Ue_230111_054153.demultiplex.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_fqgz iHomAme1             14522017767               0      2147483648     18308565923         1319413  species/Homarus_americanus/iHomAme1/genomic_data/pacbio_hifi/m64330e_230520_143524.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_fqgz iHomAme1             12541394401               0      2147483648     15692863157         1104416  species/Homarus_americanus/iHomAme1/genomic_data/pacbio_hifi/m64334e_230411_111154.demultiplex.bc1010--bc1010.hifi_reads.fastq.gz
 arima           qmHomAmer1           57695768855               0      2147483648    116134261172       769101067  species/Homarus_americanus/qmHomAmer1/genomic_data/arima/iHomAme1_L1_S5_R1_001.fastq.gz
 arima           qmHomAmer1           59638557042               0      2147483648    118103431202       782141956  species/Homarus_americanus/qmHomAmer1/genomic_data/arima/iHomAme1_L1_S5_R2_001.fastq.gz
 arima           qmHomAmer1           55253645651               0      2147483648    109113061649       722603083  species/Homarus_americanus/qmHomAmer1/genomic_data/arima/iHomAme1_L2_S2_R2_001.fastq.gz
@@ -12,4 +15,5 @@ arima           qmHomAmer1           55253645651               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           qmHomAmer1        1.9894    449017240985
+pacbiohifi_fqgz iHomAme1          1.2656     50464863577
 --------------- ---------------  ------- ---------------

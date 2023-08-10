@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bPsiEch1             26144383523               0      2147483648     80500840130       533118146  species/Psittacula_echo/bPsiEch1/genomic_data/arima/bPsiEch1_47130_1#3.cram
 pacbiohifi_bam  bPsiEch3             99877282159               0      2147483648     26605084148         2187317  species/Psittacula_echo/bPsiEch3/genomic_data/pacbio_hifi/m64229e_230106_194900.ccs.bc1002_BAK8A_OA--bc1002_BAK8A_OA.bam
+pacbiohifi_bam  bPsiEch3             28672457976               0      2147483648     68957836121         5227092  species/Psittacula_echo/bPsiEch3/genomic_data/pacbio_hifi/m84047_230727_132848_s3.ccs.bc2051.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +12,5 @@ pacbiohifi_bam  bPsiEch3             99877282159               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bPsiEch1          3.0790     80498556867
-pacbiohifi_bam  bPsiEch3          0.2663     26597320238
+pacbiohifi_bam  bPsiEch3          0.5348     68748401024
 --------------- ---------------  ------- ---------------

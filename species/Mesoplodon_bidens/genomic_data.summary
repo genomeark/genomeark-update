@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMesBid2            189719733532               0      2147483648    642860136227      4257351895  species/Mesoplodon_bidens/mMesBid2/genomic_data/arima/mMesBid2_47675_2#2.cram
+pacbiohifi_bam  mMesBid2             20474199315               0      2147483648     55181577339         4371339  species/Mesoplodon_bidens/mMesBid2/genomic_data/pacbio_hifi/m84047_230728_152822_s3.ccs.bc2077.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mMesBid2          3.3884    642846345099
+pacbiohifi_bam  mMesBid2          2.6951     55180014573
+--------------- ---------------  ------- ---------------
