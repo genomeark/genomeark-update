@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fCepMac1             24711572868               0      2147483648     63018022525         7126123  species/Cepola_macrophthalma/fCepMac1/genomic_data/pacbio_hifi/m84098_230815_134615_s4.ccs.bc2001.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fCepMac1          2.5501     63016981970
+--------------- ---------------  ------- ---------------

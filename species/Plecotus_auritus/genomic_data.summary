@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mPleAur1             37641809238               0      2147483648    118178647377       782640048  species/Plecotus_auritus/mPleAur1/genomic_data/arima/mPleAur1_45522_1#5.cram
 pacbiohifi_bam  mPleAur1              5155706018               0      2147483648      7613284826          788875  species/Plecotus_auritus/mPleAur1/genomic_data/pacbio_hifi/m64221e_230414_200956.ccs.bc1021_BAK8B_OA--bc1021_BAK8B_OA.rmdup.bam
+pacbiohifi_bam  mPleAur1             14777078550               0      2147483648     22475493574         2759739  species/Plecotus_auritus/mPleAur1/genomic_data/pacbio_hifi/m64221e_230809_144432.ccs.bc2096--bc2096.bam
 pacbiohifi_bam  mPleAur1             98573112474               0      2147483648     25881626238         1932139  species/Plecotus_auritus/mPleAur1/genomic_data/pacbio_hifi/m64222e_221218_214618.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
 pacbiohifi_bam  mPleAur1             13873103122               0      2147483648     21877266348         2551455  species/Plecotus_auritus/mPleAur1/genomic_data/pacbio_hifi/m64222e_230402_000746.ccs.bc2096--bc2096.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -13,5 +14,5 @@ pacbiohifi_bam  mPleAur1             13873103122               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mPleAur1          3.1395    118176460102
-pacbiohifi_bam  mPleAur1          0.4708     55366984695
+pacbiohifi_bam  mPleAur1          0.5520     73073208090
 --------------- ---------------  ------- ---------------

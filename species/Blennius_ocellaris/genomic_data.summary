@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fBleOce1             29786279703               0      2147483648     90395073235       598642869  species/Blennius_ocellaris/fBleOce1/genomic_data/arima/fBleOce1_47432_4#6.cram
+pacbiohifi_bam  fBleOce1             14554102188               0      2147483648     20223733012         1893714  species/Blennius_ocellaris/fBleOce1/genomic_data/pacbio_hifi/m64230e_230810_192440.ccs.bc2031--bc2031.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           fBleOce1             29786279703               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fBleOce1          3.0347     90392423014
+pacbiohifi_bam  fBleOce1          1.3895     20222924990
 --------------- ---------------  ------- ---------------

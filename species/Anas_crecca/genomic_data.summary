@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bAnaCre1             58247784881               0      2147483648    182790391582      1210532394  species/Anas_crecca/bAnaCre1/genomic_data/arima/bAnaCre1_47339_3#2.cram
+pacbiohifi_bam  bAnaCre1             21203273740               0      2147483648     59503574584         8558190  species/Anas_crecca/bAnaCre1/genomic_data/pacbio_hifi/m84047_230810_114949_s3.ccs.bc2086.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           bAnaCre1             58247784881               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bAnaCre1          3.1381    182787373735
+pacbiohifi_bam  bAnaCre1          2.8063     59502747096
 --------------- ---------------  ------- ---------------

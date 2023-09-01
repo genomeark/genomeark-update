@@ -8,8 +8,14 @@ dovetail        mPanPan1             15556735738               0      2147483648
 ont             mPanPan1             69486972823               0      2147483648     73771081783         1550533  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG22775_guppy-6.1.1.fastq.gz
 ont             mPanPan1             62652132697               0      2147483648     66073046733         1589115  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG23747_guppy-6.1.1.fastq.gz
 ont             mPanPan1             71384542171               0      2147483648     75740659548         1633596  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG26857_guppy-6.1.1.fastq.gz
+ont             mPanPan1             59225925479               0      2147483648     72221033060         1633820  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG26857_guppy-6.3.8.fq.gz
 ont             mPanPan1             32582337079               0      2147483648     39625103481          598927  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG69966_guppy-6.3.7.fastq.gz
+ont             mPanPan1             32544237112               0      2147483648     39660643609          582042  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAG69966_guppy-6.3.7.fq.gz
+ont             mPanPan1             23259271766               0      2147483648     27657251638          653030  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAM76580_guppy-6.3.7.fastq.gz
 ont             mPanPan1             22825010064               0      2147483648     27356089244          453346  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAM78665_guppy-6.3.7.fastq.gz
+ont             mPanPan1             22758256411               0      2147483648     27332482014          480433  species/Pan_paniscus/mPanPan1/genomic_data/ont/PAM78665_guppy-6.3.7.fq.gz
+ont             mPanPan1             62652132697               0      2147483648     66073046733         1589115  species/Pan_paniscus/mPanPan1/genomic_data/ont/old-guppy-runs/PAG23747_guppy-6.1.1.fastq.gz
+ont             mPanPan1             50424949927               0      2147483648     53740832886         1190671  species/Pan_paniscus/mPanPan1/genomic_data/ont/old-guppy-runs/PAG24525_guppy-6.1.1.fastq.gz
 pacbiohifi_bam  mPanPan1             19756930083               0      2147483648     23717656496         1442253  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/6954-PS-0011.l02.ccs.bam
 pacbiohifi_bam  mPanPan1             18517704843               0      2147483648     22893277713         1349651  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/6954-PS-0011.l03.ccs.bam
 pacbiohifi_fqgz mPanPan1             20117572811               0      2147483648     25204402332         1493320  species/Pan_paniscus/mPanPan1/genomic_data/pacbio_hifi/6954-PS-0011.l06.ccs.hifi_reads.fastq.gz
@@ -43,7 +49,7 @@ illumina        mPanPan3              7965474700               0      2147483648
 dovetail        mPanPan1          1.8479    107480285123
 illumina        mPanPan2          1.9327    237045289097
 illumina        mPanPan3          1.8781    184261149185
-ont             mPanPan1          1.1269    556506602589
+ont             mPanPan1          1.2155   1131971471302
 pacbiohifi_bam  mPanPan1          0.8522    824414704183
 pacbiohifi_clr  mPanPan1          0.5111   3894813044637
 pacbiohifi_fqgz mPanPan1          1.2275    445979270976

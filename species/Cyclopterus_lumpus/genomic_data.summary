@@ -12,6 +12,7 @@ pacbio          fCycLum1             20871602430               0      2147483648
 pacbio          fCycLum1             20597505564               0      2147483648     11062168168          667930  species/Cyclopterus_lumpus/fCycLum1/genomic_data/pacbio/m54307_190802_052026.subreads.bam
 pacbio          fCycLum1             20549982644               0      2147483648     11044442339          627901  species/Cyclopterus_lumpus/fCycLum1/genomic_data/pacbio/m54307_190802_210451.subreads.bam
 arima           fCycLum2             30889033737               0      2147483648     93372466175       618360703  species/Cyclopterus_lumpus/fCycLum2/genomic_data/arima/fCycLum2_47432_4#7.cram
+pacbiohifi_bam  fCycLum2             14789251657               0      2147483648     23151392592         2559548  species/Cyclopterus_lumpus/fCycLum2/genomic_data/pacbio_hifi/m64178e_230815_152909.ccs.bc2065--bc2065.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -23,4 +24,5 @@ arima           fCycLum1          1.4836     89683660408
 arima           fCycLum2          3.0228     93371371180
 bionano         fCycLum1         710.1708    508203175812
 pacbio          fCycLum1          0.5373     55782367199
+pacbiohifi_bam  fCycLum2          1.5654     23151094543
 --------------- ---------------  ------- ---------------

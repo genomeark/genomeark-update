@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fConCon1             84623756225               0      2147483648    255506174816      1692093872  species/Conger_conger/fConCon1/genomic_data/arima/fConCon1_46311_3#2.cram
+pacbiohifi_bam  fConCon1             13327447466               0      2147483648     20891549406         2008211  species/Conger_conger/fConCon1/genomic_data/pacbio_hifi/m64228e_230813_052735.ccs.bc2094--bc2094.bam
 pacbiohifi_bam  fConCon1             66544836288               0      2147483648     17693069845         1518287  species/Conger_conger/fConCon1/genomic_data/pacbio_hifi/m64229e_221118_162456.ccs.bc1019_BAK8B_OA--bc1019_BAK8B_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -11,5 +12,5 @@ pacbiohifi_bam  fConCon1             66544836288               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fConCon1          3.0193    255504507170
-pacbiohifi_bam  fConCon1          0.2658     17687617485
+pacbiohifi_bam  fConCon1          0.3843     30694918646
 --------------- ---------------  ------- ---------------

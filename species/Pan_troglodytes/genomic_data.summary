@@ -17,8 +17,11 @@ illumina        mPanTro3              6348400482               0      2147483648
 illumina        mPanTro3              5771487647               0      2147483648     10576841352        70045306  species/Pan_troglodytes/mPanTro3/genomic_data/illumina/HNNKVDSX5_19491396_S10_L002_R1_001.fastq.gz
 illumina        mPanTro3              6189267457               0      2147483648     11522554196        76308308  species/Pan_troglodytes/mPanTro3/genomic_data/illumina/HNNNTDSX5_19491396_S10_L002_R2_001.fastq.gz
 ont             mPanTro3             66626231984               0      2147483648     70281064215         2180175  species/Pan_troglodytes/mPanTro3/genomic_data/ont/PAI87018_guppy-6.0.0.fastq.gz
+ont             mPanTro3             56431676053               0      2147483648     67594786784         2232871  species/Pan_troglodytes/mPanTro3/genomic_data/ont/PAI87018_guppy-6.3.8.fq.gz
 ont             mPanTro3             79702632910               0      2147483648     84081311822         2500324  species/Pan_troglodytes/mPanTro3/genomic_data/ont/PAJ00590_guppy-6.0.0.fastq.gz
+ont             mPanTro3             67940400627               0      2147483648     81868793042         2576692  species/Pan_troglodytes/mPanTro3/genomic_data/ont/PAJ00590_guppy-6.3.8.fq.gz
 ont             mPanTro3             74526460835               0      2147483648     78761909001         3277731  species/Pan_troglodytes/mPanTro3/genomic_data/ont/PAJ02170_guppy-6.1.1.fastq.gz
+ont             mPanTro3             79702632910               0      2147483648     84081311822         2500324  species/Pan_troglodytes/mPanTro3/genomic_data/ont/old-guppy-runs/PAJ00590_guppy-6.0.0.fastq.gz
 pacbiohifi_bam  mPanTro3            137427184170               0      2147483648    165032712184         7826977  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m54329U_220226_122930.hifi_reads.bam
 pacbiohifi_fqgz mPanTro3             30807763411               0      2147483648     36996237555         1754614  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m54329U_220226_122930.hifi_reads.fastq.gz
 pacbiohifi_bam  mPanTro3            730332484804               0      2147483648    392622696732        23586432  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m64076_210810_005444.subreads.bam
@@ -42,7 +45,7 @@ pacbiohifi_bam  mPanTro3            260113610111               0      2147483648
 bionano         mPanTro1         1063.2043    820084245485
 dovetail        mPanTro3          1.8707    190561476279
 illumina        mPanTro3          1.8301    176416557689
-ont             mPanTro3          1.0555    397870715412
+ont             mPanTro3          1.1444    794249124417
 pacbio          mPanTro1          0.2594    398906472331
 pacbiohifi_bam  mPanTro3          0.8819    716184402019
 pacbiohifi_clr  mPanTro3          0.5167   3799281561056

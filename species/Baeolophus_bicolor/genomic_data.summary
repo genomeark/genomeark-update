@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bBaeBic1             30741784948               0      2147483648     58759836228       389137988  species/Baeolophus_bicolor/bBaeBic1/genomic_data/arima/bBaeBic1_S2_R1_001.fastq.gz
+arima           bBaeBic1             30938601823               0      2147483648     58425764926       386925609  species/Baeolophus_bicolor/bBaeBic1/genomic_data/arima/bBaeBic1_S2_R2_001.fastq.gz
 pacbiohifi_fqgz bBaeBic1             22824165611               0      2147483648     23671355009         1263910  species/Baeolophus_bicolor/bBaeBic1/genomic_data/pacbio_hifi/m64330e_230601_140250.bc1003--bc1003.hifi_reads.fastq.gz
 pacbiohifi_fqgz bBaeBic1             25260195140               0      2147483648     27946300735         1439989  species/Baeolophus_bicolor/bBaeBic1/genomic_data/pacbio_hifi/m64334e_230614_173504.bc1003--bc1003.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +12,6 @@ pacbiohifi_fqgz bBaeBic1             25260195140               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bBaeBic1          1.8960    116946013317
 pacbiohifi_fqgz bBaeBic1          1.0847     52157106106
 --------------- ---------------  ------- ---------------

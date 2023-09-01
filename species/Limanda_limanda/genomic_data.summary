@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fLimLim1             27795092972               0      2147483648     88925556219       588910968  species/Limanda_limanda/fLimLim1/genomic_data/arima/fLimLim1_47432_4#3.cram
+pacbiohifi_bam  fLimLim1             29217121989               0      2147483648     70141871275         6282184  species/Limanda_limanda/fLimLim1/genomic_data/pacbio_hifi/m84098_230814_143528_s2.ccs.bc2063.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           fLimLim1             27795092972               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fLimLim1          3.1993     88924840945
+pacbiohifi_bam  fLimLim1          2.4007     70141544758
 --------------- ---------------  ------- ---------------

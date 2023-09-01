@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bCygCol1             31133846907               0      2147483648     90697387921       600644953  species/Cygnus_columbianus/bCygCol1/genomic_data/arima/bCygCol1_47339_3#8.cram
+pacbiohifi_bam  bCygCol1             24162162757               0      2147483648     61008886508         4660311  species/Cygnus_columbianus/bCygCol1/genomic_data/pacbio_hifi/m84047_230810_122009_s4.ccs.bc2087.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           bCygCol1             31133846907               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bCygCol1          2.9131     90696009424
+pacbiohifi_bam  bCygCol1          2.5249     61007044745
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mHipLar1             12264967440               0     12264967440     25211027700       168073518  species/Hipposideros_larvatus/mHipLar1/genomic_data/arima/BDHC200000379-1A_L1_2_clean.rd.fq.gz
+arima           mHipLar1             11050741921               0     11050741921     22905135600       152700904  species/Hipposideros_larvatus/mHipLar1/genomic_data/arima/BDHC200000379-1A_L2_2_clean.rd.fq.gz
+arima           mHipLar1              3146381555               0      3146381555      6701169150        44674461  species/Hipposideros_larvatus/mHipLar1/genomic_data/arima/FDSW200001885-1r_L2_1_clean.rd.fq.gz
+bionano         mHipLar1              5568294992               0      5568294992   1082142601734        11163998  species/Hipposideros_larvatus/mHipLar1/genomic_data/bionano/RawMolecules-3
+bionano         mHipLar1             10241628675               0     10241628675   1971984735379        19607345  species/Hipposideros_larvatus/mHipLar1/genomic_data/bionano/RawMolecules-4
+pacbio          mHipLar1             22291870933               0     22291870933     24811700278         1605864  species/Hipposideros_larvatus/mHipLar1/genomic_data/pacbio/m64032_201031_223407.subreads.bam
+pacbio          mHipLar1             19477782788               0     19477782788     21066217880         1283770  species/Hipposideros_larvatus/mHipLar1/genomic_data/pacbio/m64066_201121_233910.subreads.bam
+pacbio          mHipLar1             21329010568               0     21329010568     23536404898         1422082  species/Hipposideros_larvatus/mHipLar1/genomic_data/pacbio/m64082_201029_181227.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mHipLar1          2.0715    189863870068
+bionano         mHipLar1         193.1778   3054127337113
+pacbio          mHipLar1          1.1000     89004250578
+--------------- ---------------  ------- ---------------

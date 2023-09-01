@@ -2,6 +2,13 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bSerCaa1             35242468751               0      2147483648     66955626878       443414763  species/Serinus_canaria/bSerCaa1/genomic_data/arima/bSerCan1_S1_R1_001.fastq.gz
+arima           bSerCaa1             36180420808               0      2147483648     66451541185       440076431  species/Serinus_canaria/bSerCaa1/genomic_data/arima/bSerCan1_S1_R2_001.fastq.gz
+pacbiohifi_fqgz bSerCaa1             46559883940               0      2147483648     81309884828         4236081  species/Serinus_canaria/bSerCaa1/genomic_data/pacbio_hifi/m84091_230524_190339_s4.hifi_reads.bc1009.fastq.gz
+illumina        bSerCaa2             20858777695               0      2147483648     41916793822       277594670  species/Serinus_canaria/bSerCaa2/genomic_data/illumina/bSerCan2_1.fastq.gz
+illumina        bSerCaa2             21615449033               0      2147483648     41995746533       278117536  species/Serinus_canaria/bSerCaa2/genomic_data/illumina/bSerCan2_2.fastq.gz
+illumina        bSerCaa3             28658444601               0      2147483648     57592089286       381404578  species/Serinus_canaria/bSerCaa3/genomic_data/illumina/bSerCan3_1.fastq.gz
+illumina        bSerCaa3             29846327953               0      2147483648     57755262567       382485196  species/Serinus_canaria/bSerCaa3/genomic_data/illumina/bSerCan3_2.fastq.gz
 pacbiohifi_fqgz bSerCan1             46559883940               0      2147483648     81309884828         4236081  species/Serinus_canaria/bSerCan1/genomic_data/pacbio_hifi/m84091_230524_190339_s4.hifi_reads.bc1009.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +16,9 @@ pacbiohifi_fqgz bSerCan1             46559883940               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bSerCaa1          1.8573    132653732777
+illumina        bSerCaa2          1.9645     83440618407
+illumina        bSerCaa3          1.9592    114622550387
+pacbiohifi_fqgz bSerCaa1          1.7463     81307525324
 pacbiohifi_fqgz bSerCan1          1.7463     81307525324
 --------------- ---------------  ------- ---------------

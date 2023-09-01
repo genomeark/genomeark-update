@@ -6,6 +6,7 @@ arima           aRhiDor1             40417416652               0      2147483648
 arima           aRhiDor1             69082246812               0      2147483648    129267243595       856074460  species/Rhinophrynus_dorsalis/aRhiDor1/genomic_data/arima/aRhiDor1_L2_S8_R1_001.fastq.gz
 arima           aRhiDor1             73768744293               0      2147483648    130859925114       866622054  species/Rhinophrynus_dorsalis/aRhiDor1/genomic_data/arima/aRhiDor1_L2_S8_R2_001.fastq.gz
 pacbiohifi_fqgz aRhiDor1             28393918258               0      2147483648     37340742068         2288745  species/Rhinophrynus_dorsalis/aRhiDor1/genomic_data/pacbio_hifi/m64330e_230209_095657.bc1017--bc1017.hifi_reads.fastq.gz
+pacbiohifi_fqgz aRhiDor1             15876633708               0      2147483648     20738064501         1879719  species/Rhinophrynus_dorsalis/aRhiDor1/genomic_data/pacbio_hifi/m64330e_230721_090210.bc1017--bc1017.hifi_reads.fastq.gz
 pacbiohifi_fqgz aRhiDor1             24253071333               0      2147483648     32082421774         1915911  species/Rhinophrynus_dorsalis/aRhiDor1/genomic_data/pacbio_hifi/m64334e_230326_123448.bc1017--bc1017.hifi_reads.fastq.gz
 pacbiohifi_fqgz aRhiDor1             23563846036               0      2147483648     29037932853         1753843  species/Rhinophrynus_dorsalis/aRhiDor1/genomic_data/pacbio_hifi/m64334e_230328_093126.bc1017--bc1017.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -15,5 +16,5 @@ pacbiohifi_fqgz aRhiDor1             23563846036               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aRhiDor1          1.8006    397106868397
-pacbiohifi_fqgz aRhiDor1          1.2919     98456778546
+pacbiohifi_fqgz aRhiDor1          1.2851    136099947723
 --------------- ---------------  ------- ---------------

@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bSpiPas1             22642928317               0      2147483648     41753880395       276515764  species/Spizella_passerina/bSpiPas1/genomic_data/arima/bSpiPas1_1.fastq.gz
 arima           bSpiPas1             23186718791               0      2147483648     41337999962       273761589  species/Spizella_passerina/bSpiPas1/genomic_data/arima/bSpiPas1_2.fastq.gz
+pacbiohifi_fqgz bSpiPas1             22110234294               0      2147483648     27362564685         1946817  species/Spizella_passerina/bSpiPas1/genomic_data/pacbio_hifi/m54306Ue_230614_174822.bc1020--bc1020.hifi_reads.fastq.gz
+pacbiohifi_fqgz bSpiPas1             28402297507               0      2147483648     37585498949         2533543  species/Spizella_passerina/bSpiPas1/genomic_data/pacbio_hifi/m64330e_230626_192958.bc1020--bc1020.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +13,5 @@ arima           bSpiPas1             23186718791               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bSpiPas1          1.8029     82626270771
+pacbiohifi_fqgz bSpiPas1          1.2992     65625881315
 --------------- ---------------  ------- ---------------

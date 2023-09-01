@@ -6,6 +6,7 @@ arima           mMarMar1             96814661546               0      2147483648
 pacbiohifi_bam  mMarMar1               469036804               0       469036804       877181937          110032  species/Martes_martes/mMarMar1/genomic_data/pacbio_hifi/m64089e_230313_152334.ccs.bc1003_BAK8A_OA--bc1003_BAK8A_OA.bam
 pacbiohifi_bam  mMarMar1             12634729273               0      2147483648     20487923642         2385849  species/Martes_martes/mMarMar1/genomic_data/pacbio_hifi/m64221e_230315_154815.ccs.bc1003_BAK8A_OA--bc1003_BAK8A_OA.bam
 pacbiohifi_bam  mMarMar1              1845074778               0      1845074778      3362975227          465586  species/Martes_martes/mMarMar1/genomic_data/pacbio_hifi/m64230e_230319_032109.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
+pacbiohifi_bam  mMarMar1             27713469571               0      2147483648     65621722257         7336724  species/Martes_martes/mMarMar1/genomic_data/pacbio_hifi/m84098_230810_114835_s3.ccs.bc2071.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,5 +14,5 @@ pacbiohifi_bam  mMarMar1              1845074778               0      1845074778
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mMarMar1          3.0629    296533626849
-pacbiohifi_bam  mMarMar1          1.6541     24726877658
+pacbiohifi_bam  mMarMar1          2.1205     90465429258
 --------------- ---------------  ------- ---------------

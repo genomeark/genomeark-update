@@ -9,8 +9,11 @@ illumina        mPonPyg2              5302632382               0      2147483648
 illumina        mPonPyg2              5767264247               0      2147483648     10749003899        71185456  species/Pongo_pygmaeus/mPonPyg2/genomic_data/illumina/HNNNTDSX5_19491392_S39_L002_R1_001.fastq.gz
 illumina        mPonPyg2              5956396412               0      2147483648     11239802233        74435779  species/Pongo_pygmaeus/mPonPyg2/genomic_data/illumina/HNNNTDSX5_19491392_S39_L003_R1_001.fastq.gz
 ont             mPonPyg2             36567385204               0      2147483648     40215873909         1115811  species/Pongo_pygmaeus/mPonPyg2/genomic_data/ont/PAI60213_guppy-6.0.6.fastq.gz
+ont             mPonPyg2             32779045367               0      2147483648     38906236644         1123257  species/Pongo_pygmaeus/mPonPyg2/genomic_data/ont/PAI60213_guppy-6.3.8.fq.gz
 ont             mPonPyg2             56743619218               0      2147483648     62788058871         1931992  species/Pongo_pygmaeus/mPonPyg2/genomic_data/ont/PAI60745_guppy-6.0.6.fastq.gz
 ont             mPonPyg2             42792255824               0      2147483648     46091959275         2490378  species/Pongo_pygmaeus/mPonPyg2/genomic_data/ont/PAJ00725_guppy-6.1.1.fastq.gz
+ont             mPonPyg2             42472429537               0      2147483648     50779940188         1590527  species/Pongo_pygmaeus/mPonPyg2/genomic_data/ont/PAK20523_guppy-6.3.8.fq.gz
+ont             mPonPyg2             51074132498               0      2147483648     60950506359         1939381  species/Pongo_pygmaeus/mPonPyg2/genomic_data/ont/PAK28991_guppy-6.3.8.fq.gz
 pacbiohifi_clr  mPonPyg2            654027540767               0      2147483648    342066966437        21688906  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m54329U_210506_061718.subreads.bam
 pacbiohifi_bam  mPonPyg2             97316672443               0      2147483648     24451249917         1348803  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_210430_224715.hifi_reads.bam
 pacbiohifi_fqgz mPonPyg2             22757125438               0      2147483648      5717829715          315412  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_210430_224715.hifi_reads.fastq.gz
@@ -31,7 +34,7 @@ pacbiohifi_clr  mPonPyg2            236954867635               0      2147483648
 --------------- ---------------  ------- ---------------
 dovetail        mPonPyg2          1.8160    170101370987
 illumina        mPonPyg2          1.8561    166025450774
-ont             mPonPyg2          1.0954    632810465672
+ont             mPonPyg2          1.1924   1307068535543
 pacbiohifi_bam  mPonPyg2          0.8545    648925884231
 pacbiohifi_clr  mPonPyg2          0.4969   3481768226913
 pacbiohifi_fqgz mPonPyg2          1.0964    190781192013
