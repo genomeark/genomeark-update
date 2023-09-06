@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fAmiCal2             10227403202               0      2147483648     18222375084       120677985  species/Amia_calva/fAmiCal2/genomic_data/arima/fAmiCal2_L1_S1_R1_001.fastq.gz
+arima           fAmiCal2             10880654052               0      2147483648     18196089704       120503905  species/Amia_calva/fAmiCal2/genomic_data/arima/fAmiCal2_L1_S1_R2_001.fastq.gz
 arima           fAmiCal2              5339977029               0      2147483648      9599713574        63574262  species/Amia_calva/fAmiCal2/genomic_data/arima/fAmiCal2_L1_S8_R1_001.fastq.gz
 arima           fAmiCal2              5548133979               0      2147483648      9706696943        64282763  species/Amia_calva/fAmiCal2/genomic_data/arima/fAmiCal2_L1_S8_R2_001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +12,5 @@ arima           fAmiCal2              5548133979               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           fAmiCal2          1.7651     19218604740
+arima           fAmiCal2          1.7303     55362969943
 --------------- ---------------  ------- ---------------

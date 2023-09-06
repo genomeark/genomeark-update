@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fLepOcu1             13480292359               0      2147483648     24200465918       160267992  species/Lepisosteus_oculatus/fLepOcu1/genomic_data/arima/fLepOcu1_L1_S2_R1_001.fastq.gz
+arima           fLepOcu1             13873353648               0      2147483648     24205511968       160301403  species/Lepisosteus_oculatus/fLepOcu1/genomic_data/arima/fLepOcu1_L1_S2_R2_001.fastq.gz
 arima           fLepOcu1              7477454882               0      2147483648     13573280963        89889281  species/Lepisosteus_oculatus/fLepOcu1/genomic_data/arima/fLepOcu1_L1_S9_R1_001.fastq.gz
 arima           fLepOcu1              7567629658               0      2147483648     13717991806        90847631  species/Lepisosteus_oculatus/fLepOcu1/genomic_data/arima/fLepOcu1_L1_S9_R2_001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +12,5 @@ arima           fLepOcu1              7567629658               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           fLepOcu1          1.8135     27284260813
+arima           fLepOcu1          1.7789     75423101770
 --------------- ---------------  ------- ---------------

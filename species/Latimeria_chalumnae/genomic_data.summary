@@ -2,14 +2,13 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
-arima           kaPolScub1           40856675262               0      2147483648    124278670739       823037554  species/Polycarpa_scuba/kaPolScub1/genomic_data/arima/kaPolScub1_47432_3#6.cram
-pacbiohifi_bam  kaPolScub1             213407622               0       213407622       615334867           76982  species/Polycarpa_scuba/kaPolScub1/genomic_data/pacbio_hifi/m84098_230818_084758_s3.ccs.bc2005.bam
+arima           fLatCha2             67610141483               0      2147483648    121646817256       805608061  species/Latimeria_chalumnae/fLatCha2/genomic_data/arima/fLatCha2_L1_S5_R1_001.fastq.gz
+arima           fLatCha2             69899143529               0      2147483648    121977540322       807798312  species/Latimeria_chalumnae/fLatCha2/genomic_data/arima/fLatCha2_L1_S5_R2_001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           kaPolScub1        3.0418    124277834811
-pacbiohifi_bam  kaPolScub1        2.8833       615318196
+arima           fLatCha2          1.7627    242387616690
 --------------- ---------------  ------- ---------------

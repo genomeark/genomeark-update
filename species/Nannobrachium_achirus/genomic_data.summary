@@ -3,6 +3,8 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fNanAch1             71992902475               0      2147483648    216762128723      1435510786  species/Nannobrachium_achirus/fNanAch1/genomic_data/arima/fNanAch1_46307_2#2.cram
+pacbiohifi_bam  fNanAch1             19481973276               0      2147483648     26699966694         2325679  species/Nannobrachium_achirus/fNanAch1/genomic_data/pacbio_hifi/m64125e_230819_085955.ccs.bc2025--bc2025.bam
+pacbiohifi_bam  fNanAch1             17029803806               0      2147483648     23522932569         2126755  species/Nannobrachium_achirus/fNanAch1/genomic_data/pacbio_hifi/m64228e_230819_103609.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +12,5 @@ arima           fNanAch1             71992902475               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fNanAch1          3.0108    216756230771
+pacbiohifi_bam  fNanAch1          1.3737     50156228177
 --------------- ---------------  ------- ---------------
