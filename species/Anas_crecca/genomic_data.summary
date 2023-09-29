@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bAnaCre1             58247784881               0      2147483648    182790391582      1210532394  species/Anas_crecca/bAnaCre1/genomic_data/arima/bAnaCre1_47339_3#2.cram
 pacbiohifi_bam  bAnaCre1             21203273740               0      2147483648     59503574584         8558190  species/Anas_crecca/bAnaCre1/genomic_data/pacbio_hifi/m84047_230810_114949_s3.ccs.bc2086.bam
+pacbiohifi_bam  bAnaCre1             24189438801               0      2147483648     60513075706         9728272  species/Anas_crecca/bAnaCre1/genomic_data/pacbio_hifi/m84093_230915_122005_s4.ccs.bc2086.bam
+pacbiohifi_bam  bAnaCre1             21695110891               0      2147483648     56100115891         9448179  species/Anas_crecca/bAnaCre1/genomic_data/pacbio_hifi/m84098_230915_121834_s4.ccs.bc2086.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +13,5 @@ pacbiohifi_bam  bAnaCre1             21203273740               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bAnaCre1          3.1381    182787373735
-pacbiohifi_bam  bAnaCre1          2.8063     59502747096
+pacbiohifi_bam  bAnaCre1          2.6251    176112245291
 --------------- ---------------  ------- ---------------
