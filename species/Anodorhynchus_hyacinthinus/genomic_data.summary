@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAnoHya1             18827253523               0      2147483648     34662025641       229549847  species/Anodorhynchus_hyacinthinus/bAnoHya1/genomic_data/arima/bAnoHya1_L1_S6_R1_001.fastq.gz
+arima           bAnoHya1             20467569236               0      2147483648     34984599465       231686098  species/Anodorhynchus_hyacinthinus/bAnoHya1/genomic_data/arima/bAnoHya1_L1_S6_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bAnoHya1          1.7507     68793446204
+--------------- ---------------  ------- ---------------

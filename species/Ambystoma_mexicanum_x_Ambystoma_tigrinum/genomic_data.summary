@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aAmbMet1            136088206755               0      2147483648    254664030458      1686516758  species/Ambystoma_mexicanum_x_Ambystoma_tigrinum/aAmbMet1/genomic_data/arima/aAmbMex1_L1_S6_R1_001.fastq.gz
+arima           aAmbMet1            144456518219               0      2147483648    255766468487      1693817739  species/Ambystoma_mexicanum_x_Ambystoma_tigrinum/aAmbMet1/genomic_data/arima/aAmbMex1_L1_S6_R2_001.fastq.gz
+arima           aAmbMet1            148808861922               0      2147483648    257350343438      1704306979  species/Ambystoma_mexicanum_x_Ambystoma_tigrinum/aAmbMet1/genomic_data/arima/aAmbMex1_L2_S1_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           aAmbMet1          1.7882   1010317985393
+--------------- ---------------  ------- ---------------
