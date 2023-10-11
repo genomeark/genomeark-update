@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fSarPil1             26907554190               0      2147483648     81431708697       539282839  species/Sardina_pilchardus/fSarPil1/genomic_data/arima/fSarPil1_46860_3#6.cram
 pacbiohifi_bam  fSarPil1             75144493672               0      2147483648     19807663429         1731083  species/Sardina_pilchardus/fSarPil1/genomic_data/pacbio_hifi/m64178e_230211_031459.ccs.bc1015_BAK8B_OA--bc1015_BAK8B_OA.bam
+pacbiohifi_bam  fSarPil1             11369207059               0      2147483648     27141099264         2985086  species/Sardina_pilchardus/fSarPil1/genomic_data/pacbio_hifi/m84093_231006_102826_s2.ccs.bc2076.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +12,5 @@ pacbiohifi_bam  fSarPil1             75144493672               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fSarPil1          3.0263     81430331245
-pacbiohifi_bam  fSarPil1          0.2635     19800574082
+pacbiohifi_bam  fSarPil1          0.4129     35721507031
 --------------- ---------------  ------- ---------------
