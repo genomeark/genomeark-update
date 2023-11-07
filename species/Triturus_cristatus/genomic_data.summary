@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aTriCri1            299519250843               0      2147483648    918455013755      6082483534  species/Triturus_cristatus/aTriCri1/genomic_data/arima/aTriCri1_47970_1#1.cram
 pacbiohifi_bam  aTriCri1             33589250751               0      2147483648     83058270799         5407277  species/Triturus_cristatus/aTriCri1/genomic_data/pacbio_hifi/m84098_230728_145616_s4.ccs.bc2073.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  aTriCri1             33589250751               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           aTriCri1          3.0664    918445830784
 pacbiohifi_bam  aTriCri1          2.4727     83056140331
 --------------- ---------------  ------- ---------------

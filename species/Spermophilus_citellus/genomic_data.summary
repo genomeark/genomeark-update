@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mSpeCit2            147835857288               0      2147483648    483058267677      3199061375  species/Spermophilus_citellus/mSpeCit2/genomic_data/arima/mSpeCit2_45428_4#1.cram
+pacbiohifi_bam  mSpeCit2             20879553957               0      2147483648     31815173238         2477534  species/Spermophilus_citellus/mSpeCit2/genomic_data/pacbio_hifi/m64221e_230921_215932.ccs.bc2028--bc2028.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           mSpeCit2            147835857288               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mSpeCit2          3.2675    483053663688
+pacbiohifi_bam  mSpeCit2          1.5237     31814176364
 --------------- ---------------  ------- ---------------

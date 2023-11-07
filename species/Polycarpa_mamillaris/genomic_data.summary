@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  kaPolMami1           10214948537               0      2147483648     25183911277         2995321  species/Polycarpa_mamillaris/kaPolMami1/genomic_data/pacbio_hifi/m84047_231016_142352_s4.ccs.bc1019_BAK8B_OA.bam
+pacbiohifi_bam  kaPolMami1           11427972545               0      2147483648     23474079715         2802500  species/Polycarpa_mamillaris/kaPolMami1/genomic_data/pacbio_hifi/m84047_231016_142352_s4.ccs.bc1019_BAK8B_OA.rmdup.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  kaPolMami1        2.1811     47205375171
+--------------- ---------------  ------- ---------------

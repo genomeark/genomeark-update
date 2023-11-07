@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mLopEvo1             28629150627               0      2147483648     47906307995       317260317  species/Lophostoma_evotis/mLopEvo1/genomic_data/dovetail/A010S061_S1_R1_001.fastq.gz
+dovetail        mLopEvo1             30092161803               0      2147483648     47340633836       313514145  species/Lophostoma_evotis/mLopEvo1/genomic_data/dovetail/A010S061_S1_R2_001.fastq.gz
+dovetail        mLopEvo1             29619403097               0      2147483648     47681236521       315769792  species/Lophostoma_evotis/mLopEvo1/genomic_data/dovetail/A010S061_S2_R2_001.fastq.gz
+pacbiohifi_fqgz mLopEvo1             23413805892               0      2147483648     27723968607         1904148  species/Lophostoma_evotis/mLopEvo1/genomic_data/pacbio_hifi/m64326e_220714_190006.hifi_reads.fastq.gz
+pacbiohifi_fqgz mLopEvo1             20379776093               0      2147483648     25464254169         1761177  species/Lophostoma_evotis/mLopEvo1/genomic_data/pacbio_hifi/m64326e_220724_225047.hifi_reads.fastq.gz
+pacbiohifi_fqgz mLopEvo1             25969350474               0      2147483648     29080251361         1487792  species/Lophostoma_evotis/mLopEvo1/genomic_data/pacbio_hifi/m64326e_220925_134653.hifi_reads.bc2006--bc2006.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        mLopEvo1          1.6179    188565562619
+pacbiohifi_fqgz mLopEvo1          1.1792    105592283439
+--------------- ---------------  ------- ---------------

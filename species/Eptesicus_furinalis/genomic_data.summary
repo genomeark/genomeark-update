@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mEptFur1             33130593317               0      2147483648     58177899600       385284103  species/Eptesicus_furinalis/mEptFur1/genomic_data/dovetail/A007S050_S1_R1_001.fastq.gz
+dovetail        mEptFur1             35428008752               0      2147483648     57259896381       379204628  species/Eptesicus_furinalis/mEptFur1/genomic_data/dovetail/A007S050_S1_R2_001.fastq.gz
+dovetail        mEptFur1             17060312372               0      2147483648     28172175826       186570708  species/Eptesicus_furinalis/mEptFur1/genomic_data/dovetail/A007S050_S2_R2_001.fastq.gz
+pacbiohifi_fqgz mEptFur1             15488699294               0      2147483648     17391066263         1114019  species/Eptesicus_furinalis/mEptFur1/genomic_data/pacbio_hifi/m64326e_220711_155713.hifi_reads.fastq.gz
+pacbiohifi_fqgz mEptFur1             16072396506               0      2147483648     21300503238         1247032  species/Eptesicus_furinalis/mEptFur1/genomic_data/pacbio_hifi/m64326e_221031_103415.hifi_reads.bc2010--bc2010.fastq.gz
+pacbiohifi_fqgz mEptFur1             17894350528               0      2147483648     24042488134         1430933  species/Eptesicus_furinalis/mEptFur1/genomic_data/pacbio_hifi/m64326e_221120_031228.hifi_reads.bc2010--bc2010.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        mEptFur1          1.6773    170219237918
+pacbiohifi_fqgz mEptFur1          1.2684    111698492987
+--------------- ---------------  ------- ---------------

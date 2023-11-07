@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz fSebFas1             19384485886               0      2147483648     40355278370         5893280  species/Sebastes_fasciatus/fSebFas1/genomic_data/pacbio_hifi/m84091_231013_191620_s1.hifi_reads.bc1020.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz fSebFas1          2.0818     40354622717
+--------------- ---------------  ------- ---------------

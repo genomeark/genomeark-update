@@ -25,6 +25,8 @@ pacbiohifi_bam  mPonPyg2            635996739469               0      2147483648
 pacbiohifi_clr  mPonPyg2            561889579723               0      2147483648    291518775892        19683946  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_210507_194603.subreads.bam
 pacbiohifi_bam  mPonPyg2            139608860720               0      2147483648    161443483148         7720900  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_220226_122604.hifi_reads.bam
 pacbiohifi_fqgz mPonPyg2             32129177728               0      2147483648     37154134317         1776865  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_220226_122604.hifi_reads.fastq.gz
+pacbiohifi_fqgz mPonPyg2             31331775801               0      2147483648     37131220924         1775850  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/m64076_220226_122604.hifi_reads.fq.gz
+pacbiohifi_fqgz mPonPyg2             22653617492               0      2147483648     24652163442         1340998  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/previous-versions/m54329U_210506_061718.hifi_reads.fastq.gz
 pacbiohifi_fqgz mPonPyg2             22739112973               0      2147483648     23899735179         1293095  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/previous-versions/m64076_210505_002126.hifi_reads.fastq.gz
 pacbiohifi_fqgz mPonPyg2             22048517972               0      2147483648     23281354517         1260199  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/previous-versions/m64076_210506_062052.hifi_reads.fastq.gz
 pacbiohifi_fqgz mPonPyg2             32129177728               0      2147483648     37154134317         1776865  species/Pongo_pygmaeus/mPonPyg2/genomic_data/pacbio_hifi/previous-versions/m64076_220226_122604.hifi_reads.fastq.gz
@@ -40,5 +42,5 @@ illumina        mPonPyg2          1.8561    166025450774
 ont             mPonPyg2          1.1924   1307068535543
 pacbiohifi_bam  mPonPyg2          0.8545    648925884231
 pacbiohifi_clr  mPonPyg2          0.4969   3481768226913
-pacbiohifi_fqgz mPonPyg2          1.0964    190781192013
+pacbiohifi_fqgz mPonPyg2          1.1187    384413449051
 --------------- ---------------  ------- ---------------

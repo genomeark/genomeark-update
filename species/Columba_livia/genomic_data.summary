@@ -5,6 +5,12 @@
 arima           bColLiv1             21111252736               0      2147483648     39713665379       263004416  species/Columba_livia/bColLiv1/genomic_data/arima/bColLiv1_L1_S2_R1_001.fastq.gz
 arima           bColLiv1             22331111369               0      2147483648     40194721020       266190215  species/Columba_livia/bColLiv1/genomic_data/arima/bColLiv1_L1_S2_R2_001.fastq.gz
 arima           bColLiv1             12627451372               0      2147483648     21763710547       144130539  species/Columba_livia/bColLiv1/genomic_data/arima/bColLiv1_L1_S9_R2_001.fastq.gz
+pacbiohifi_fqgz bColLiv1             24706571276               0      2147483648     26938862112         1502493  species/Columba_livia/bColLiv1/genomic_data/pacbio_hifi/m64330e_230617_155101.bc1015--bc1015.hifi_reads.fastq.gz
+pacbiohifi_fqgz bColLiv1             28838719997               0      2147483648     34332833911         1838238  species/Columba_livia/bColLiv1/genomic_data/pacbio_hifi/m64330e_230628_162449.bc1015--bc1015.hifi_reads.fastq.gz
+illumina        bColLiv2             11609788275               0      2147483648     26180653582       173381817  species/Columba_livia/bColLiv2/genomic_data/illumina/bColLiv2_BL1_dna1_1.fastq.gz
+illumina        bColLiv2             11896931231               0      2147483648     26211604298       173586788  species/Columba_livia/bColLiv2/genomic_data/illumina/bColLiv2_BL1_dna1_2.fastq.gz
+illumina        bColLiv3             13177045499               0      2147483648     29802464545       197367321  species/Columba_livia/bColLiv3/genomic_data/illumina/bColLiv3_BL1_dna1_1.fastq.gz
+illumina        bColLiv3             13663928062               0      2147483648     29804547337       197381108  species/Columba_livia/bColLiv3/genomic_data/illumina/bColLiv3_BL1_dna1_2.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,4 +18,7 @@ arima           bColLiv1             12627451372               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bColLiv1          1.8133    122658179556
+illumina        bColLiv2          2.2202     52189618647
+illumina        bColLiv3          2.2074     59248765038
+pacbiohifi_fqgz bColLiv1          1.1604     62133955993
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz fSebMen1             19988756137               0      2147483648     42943270765         5382968  species/Sebastes_mentella/fSebMen1/genomic_data/pacbio_hifi/m84091_231013_184556_s4.hifi_reads.bc1019.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz fSebMen1          2.1483     42941844809
+--------------- ---------------  ------- ---------------
