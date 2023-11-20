@@ -6,6 +6,8 @@ arima           fAmiCal2             10227403202               0      2147483648
 arima           fAmiCal2             10880654052               0      2147483648     18196089704       120503905  species/Amia_calva/fAmiCal2/genomic_data/arima/fAmiCal2_L1_S1_R2_001.fastq.gz
 arima           fAmiCal2              5339977029               0      2147483648      9599713574        63574262  species/Amia_calva/fAmiCal2/genomic_data/arima/fAmiCal2_L1_S8_R1_001.fastq.gz
 arima           fAmiCal2              5548133979               0      2147483648      9706696943        64282763  species/Amia_calva/fAmiCal2/genomic_data/arima/fAmiCal2_L1_S8_R2_001.fastq.gz
+pacbiohifi_fqgz fAmiCal2             13771271888               0      2147483648     28175852820         3302449  species/Amia_calva/fAmiCal2/genomic_data/pacbio_hifi/m84091_231011_172229_s3.hifi_reads.bc1002.fastq.gz
+pacbiohifi_fqgz fAmiCal2             10422621575               0      2147483648     21423241269         2547395  species/Amia_calva/fAmiCal2/genomic_data/pacbio_hifi/m84091_231019_190625_s2.hifi_reads.bc1002.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,4 +15,5 @@ arima           fAmiCal2              5548133979               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fAmiCal2          1.7303     55362969943
+pacbiohifi_fqgz fAmiCal2          2.0485     49561190758
 --------------- ---------------  ------- ---------------

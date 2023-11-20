@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bGuaGua1             37296801554               0      2147483648     68631358155       454512323  species/Guaruba_guarouba/bGuaGua1/genomic_data/arima/bGauGua1_L1_S4_R1_001.fastq.gz
+arima           bGuaGua1             39749281262               0      2147483648     69886141443       462822147  species/Guaruba_guarouba/bGuaGua1/genomic_data/arima/bGauGua1_L1_S4_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bGuaGua1          1.7843    137473325568
+--------------- ---------------  ------- ---------------

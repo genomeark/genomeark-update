@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fSebMen1             74106028477               0      2147483648    135832554464       899553375  species/Sebastes_mentella/fSebMen1/genomic_data/arima/fSebMen1_L1_S8_R1_001.fastq.gz
+arima           fSebMen1             78064459027               0      2147483648    137877338802       913094995  species/Sebastes_mentella/fSebMen1/genomic_data/arima/fSebMen1_L1_S8_R2_001.fastq.gz
 pacbiohifi_fqgz fSebMen1             19988756137               0      2147483648     42943270765         5382968  species/Sebastes_mentella/fSebMen1/genomic_data/pacbio_hifi/m84091_231013_184556_s4.hifi_reads.bc1019.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +11,6 @@ pacbiohifi_fqgz fSebMen1             19988756137               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fSebMen1          1.7876    272019963462
 pacbiohifi_fqgz fSebMen1          2.1483     42941844809
 --------------- ---------------  ------- ---------------

@@ -2,10 +2,14 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz mArtInt1             27541436585               0      2147483648     33571569901         1997529  species/Artibeus_intermedius/mArtInt1/genomic_data/pacbio_hifi/m64326e_220831_200334.hifi_reads.fastq.gz
+pacbiohifi_fqgz mArtInt1             28568096669               0      2147483648     32421548609         1953780  species/Artibeus_intermedius/mArtInt1/genomic_data/pacbio_hifi/m64326e_221012_193656.hifi_reads.fastq.gz
+pacbiohifi_fqgz mArtInt1             23386028248               0      2147483648     29379593318         1710607  species/Artibeus_intermedius/mArtInt1/genomic_data/pacbio_hifi/m64326e_221014_063053.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+pacbiohifi_fqgz mArtInt1          1.1997     95370825133
 --------------- ---------------  ------- ---------------

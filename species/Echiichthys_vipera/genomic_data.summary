@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fEchVip8             40943472102               0      2147483648    126154894339       835462876  species/Echiichthys_vipera/fEchVip8/genomic_data/arima/fEchVip8_47432_4#2.cram
+pacbiohifi_bam  fEchVip8             16248979334               0      2147483648     25533116874         2368169  species/Echiichthys_vipera/fEchVip8/genomic_data/pacbio_hifi/m64222e_231109_233458.ccs.bc2067--bc2067.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           fEchVip8             40943472102               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fEchVip8          3.0811    126150931893
+pacbiohifi_bam  fEchVip8          1.5713     25532021227
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPulPer1             18240854906               0      2147483648     36755619921       243414709  species/Pulsatrix_perspicillata/bPulPer1/genomic_data/arima/bPulPer1_L1_S2_R1_001.fastq.gz
+arima           bPulPer1             19132694213               0      2147483648     36948775336       244693876  species/Pulsatrix_perspicillata/bPulPer1/genomic_data/arima/bPulPer1_L1_S2_R2_001.fastq.gz
+arima           bPulPer1             14284563066               0      2147483648     27566225803       182557793  species/Pulsatrix_perspicillata/bPulPer1/genomic_data/arima/bPulPer1_L1_S5_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bPulPer1          1.9604    127434265371
+--------------- ---------------  ------- ---------------

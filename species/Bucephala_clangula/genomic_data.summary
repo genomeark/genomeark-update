@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bBucCla1             17985157664               0      2147483648     54505280759       360962124  species/Bucephala_clangula/bBucCla1/genomic_data/arima/bBucCla1_47339_4#2.cram
+pacbiohifi_bam  bBucCla1             16599596624               0      2147483648     26155788781         2490646  species/Bucephala_clangula/bBucCla1/genomic_data/pacbio_hifi/m64229e_231030_160050.ccs.bc2030--bc2030.bam
 pacbiohifi_bam  bBucCla1             19854348284               0      2147483648     30450909825         2589183  species/Bucephala_clangula/bBucCla1/genomic_data/pacbio_hifi/m64230e_230615_232854.ccs.bc2095--bc2095.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -11,5 +12,5 @@ pacbiohifi_bam  bBucCla1             19854348284               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bBucCla1          3.0305     54504020300
-pacbiohifi_bam  bBucCla1          1.5337     30450613963
+pacbiohifi_bam  bBucCla1          1.5460     56357798827
 --------------- ---------------  ------- ---------------

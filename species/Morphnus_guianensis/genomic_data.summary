@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bMorGui1             15618681960               0      2147483648     28226862442       186932871  species/Morphnus_guianensis/bMorGui1/genomic_data/arima/bMorGui1_L1_S6_R1_001.fastq.gz
+arima           bMorGui1             16330827886               0      2147483648     28463494694       188499972  species/Morphnus_guianensis/bMorGui1/genomic_data/arima/bMorGui1_L1_S6_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bMorGui1          1.7637     56349350515
+--------------- ---------------  ------- ---------------

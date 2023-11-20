@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fScoMax1             60535336124               0      2147483648    178306173292      1180835584  species/Scophthalmus_maximus/fScoMax1/genomic_data/arima/fScoMax1_46436_4#6.cram
+pacbiohifi_bam  fScoMax1             14644818885               0      2147483648     20637875029         1944362  species/Scophthalmus_maximus/fScoMax1/genomic_data/pacbio_hifi/m64229e_231109_233707.ccs.bc2064--bc2064.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           fScoMax1             60535336124               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fScoMax1          2.9454    178300779019
+pacbiohifi_bam  fScoMax1          1.4092     20637478772
 --------------- ---------------  ------- ---------------

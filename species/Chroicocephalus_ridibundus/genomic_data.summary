@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bChrRid1             63421577185               0      2147483648    197554909209      1308310657  species/Chroicocephalus_ridibundus/bChrRid1/genomic_data/arima/bChrRid1_47476_1#4.cram
 pacbiohifi_bam  bChrRid1             18702445864               0      2147483648     28964707560         2838308  species/Chroicocephalus_ridibundus/bChrRid1/genomic_data/pacbio_hifi/m64089e_230713_192258.ccs.bc2052--bc2052.bam
+pacbiohifi_bam  bChrRid1             14013334392               0      2147483648     22869100785         2352750  species/Chroicocephalus_ridibundus/bChrRid1/genomic_data/pacbio_hifi/m64229e_231031_190718.ccs.bc2032--bc2032.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +12,5 @@ pacbiohifi_bam  bChrRid1             18702445864               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bChrRid1          3.1149    197551870773
-pacbiohifi_bam  bChrRid1          1.5487     28964477909
+pacbiohifi_bam  bChrRid1          1.5713     51406305516
 --------------- ---------------  ------- ---------------
