@@ -16,8 +16,10 @@ use warnings;
 #      fDreSAT1, fDreTuH1, fDreABH1
 #      fEcheNa1
 #      fSalaFa1
-#      
-our $ToLIDregex = qr "([a-z]{1,2}[A-Z][a-z]{2,4}[A-Z][a-zA-Z]{1,3})(\d+)";
+#    And errors:
+#      mZalcal1                                     |||
+#                                                   vvv
+our $ToLIDregex = qr "([a-z]{1,2}[A-Z][a-z]{2,4}[A-Za-z][a-zA-Z]{1,3})(\d+)";
 
 
 #  Format a size in bytes nicely.

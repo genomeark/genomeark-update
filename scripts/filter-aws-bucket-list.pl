@@ -33,7 +33,6 @@ my %individuals;
 my $lsRaw   = $ARGV[1];
 my $lsFilt  = $ARGV[2];
 my $spList  = undef;
-my $mdFetch = 0;   #  Obsolete.  Using genomeark-metadata now.
 
 while (scalar(@ARGV) > 0) {
     my $opt = shift @ARGV;
@@ -47,12 +46,15 @@ while (scalar(@ARGV) > 0) {
     elsif ($opt eq "--species-list") {
         $spList = shift @ARGV;
     }
-    elsif ($opt eq "--no-metadata") {
-        $mdFetch = 0;
-    }
     else {
         die "Unknown option '$opt'\n";
     }
+}
+if (($lsRaw  eq "") ||
+    ($lsFilt eq "")) {
+    print "usage: $0 --raw <input.ls> --filtered <output.ls> [--species-list <L>]\n";
+    print "       $0 --raw downloads/genomeark.ls.raw --filtered downloads/genomeark.ls --species-list downloads/species-list\n";
+    exit(1);
 }
 
 open(RAW,  "< $lsRaw")  or die "Failed to open --raw '$lsRaw' for reading: $!\n";
@@ -69,15 +71,13 @@ while (<RAW>) {
     my $asmName     = $fileComps[3];
     my $seconds     = 0;
 
-    #if ($filename =~ m!species/\w+_\w+/metadata.yaml$!) {
-    #    my @v = split '/', $_;
-    #    $speciesMeta{$v[1]}++;
-    #}
 
     if ($filename =~ m!species/(\w+_\w+)/([a-zA-Z]*)(\d)/!) {
         #print "$1/$2 -> $2$3 $filename\n";
         $individuals{"$1/$2"}{"$2$3"}++;
     }
+
+    #  Subdirectories.
 
     next if ($filename =~ m!/$!);          #  Why are you giving me directories?
 
@@ -87,122 +87,113 @@ while (<RAW>) {
     next if ($filename =~ m!^species/Mormyrids!);
 
     next if ($filename =~ m!/intermediate!i);
-    next if ($filename =~ m!/Intermidiates!i);           #  One guy has this.
-
-    next if ($filename =~ m!\.DS_Store$!);
-
-    next if ($filename =~ m!\.sh$!);
-
-    next if ($filename =~ m!nohup\.out$!);
-    next if ($filename =~ m!nohup\.err$!);
-
-    next if ($filename =~ m!\.log$!);
-    next if ($filename =~ m!\.log\.gz$!);
-    next if ($filename =~ m!\.log\.xz$!);
-
-    next if ($filename =~ m!mother$!);
-    next if ($filename =~ m!father$!);
-
-    next if ($filename =~ m!\.png$!);
-    next if ($filename =~ m!\.png\.gz$!);
-
-    next if ($filename =~ m!\.md5$!);
-    next if ($filename =~ m!md5sum!);
-
-    next if ($filename =~ m!readme!i);
-    next if ($filename =~ m!readme\.txt!i);
-    next if ($filename =~ m!report\.txt!i);
-    next if ($filename =~ m!version\.txt!i);
-
-    next if ($filename =~ m!\.html$!i);
-    next if ($filename =~ m!\.json$!i);
-    next if ($filename =~ m!\.md$!i);
-
-    next if ($filename =~ m!summary!i);
-    next if ($filename =~ m!summary\.txt!i);
-
-    next if ($filename =~ m!manifest\.txt!i);
-
-    next if ($filename =~ m!upload_report!i);
-
-    next if ($filename =~ m!\.pdf$!);
-
-    next if ($filename =~ m!\.xml$!);
-
-    next if ($filename =~ m!\.csv$!); 
-    next if ($filename =~ m!\.csv\.gz$!);
-    next if ($filename =~ m!\.csv\.xz$!);
-
-    next if ($filename =~ m!\.tsv$!);
-    next if ($filename =~ m!\.tsv\.gz$!);
-    next if ($filename =~ m!\.tsv\.xz$!);
-
-    next if ($filename =~ m!\.zip$!);
-
-    next if ($filename =~ m!\.gff3$!);
-    next if ($filename =~ m!\.gff3\.gz$!);
-    next if ($filename =~ m!\.gff3\.xz$!);
-
-    #ext if ($filename =~ m!\.yaml$!);
-    #ext if ($filename =~ m!\.yml$!);
-
-    next if ($filename =~ m!\.tar$!);
-    next if ($filename =~ m!\.tar\.gz$!);
-    next if ($filename =~ m!\.tar\.xz$!);
-
-    next if ($filename =~ m!/Stats!);
-
-    next if ($filename =~ m!\.gfastats$!);
-    next if ($filename =~ m!\.fai$!);
-    next if ($filename =~ m!\.gzi$!);
-
     next if ($filename =~ m!/troubleshooting!i);
     next if ($filename =~ m!/annotation!i);
     next if ($filename =~ m!/test!i);
     next if ($filename =~ m!/analyses!i);
+    next if ($filename =~ m!/qc!i);
     next if ($filename =~ m!/comparative_analyses!i);
-
     next if ($filename =~ m!/transcriptomic_data!i);
-    next if ($filename =~ m!/evaluation!i);
-    next if ($filename =~ m!/bam_to_fasta!i);            #  fAngAng1/assembly_vgp_standard_1.6/bam_to_fasta (and others)
-    next if ($filename =~ m!additional_haplotigs!);
+    next if ($filename =~ m!/bam_to_fasta!i);
+    next if ($filename =~ m!/other_data!i);              # t2t primates
 
-    next if ($filename =~ m!aligned\.genomecov!);
-
-    next if ($filename =~ m!/qc/!i);
-
-    next if ($filename =~ m!/genomescope!i);
-    next if ($filename =~ m!/meryl_genomescope!i);
-    next if ($filename =~ m!/katplot!i);
-    next if ($filename =~ m!/FASTK!i);
-    next if ($filename =~ m!/busco!i);
     next if ($filename =~ m!/merfin!i);
-    next if ($filename =~ m!/merqury!i);
-    next if ($filename =~ m!/mercury!i);
+    next if ($filename =~ m!/genomescope!i);
+    next if ($filename =~ m!/Stats!i);
 
-    next if ($filename =~ m!/assembly_v0/!);
+    #  Various log files.
 
-    next if ($filename =~ m!bwgenome!i);
+    next if ($filename =~ m!\.DS_Store$!);
 
-    next if ($filename =~ m!/pretext_snapshots/!i);
-    next if ($filename =~ m!\.pretext$!i);
-    next if ($filename =~ m!\.pretext\.gz$!i);
-    next if ($filename =~ m!\.pretext\.png\.gz$!i);
+    next if ($filename =~ m!nohup\.(out|err)$!i);
+    next if ($filename =~ m!log(|\.gz|\.xz)$!i);
+    next if ($filename =~ m!out(|\.gz|\.xz)$!i);
+
+    next if ($filename =~ m!transferdone$!i);
+
+    next if ($filename =~ m!readme(|\.txt)$!i);
+    next if ($filename =~ m!report(|\.txt)$!i);
+    next if ($filename =~ m!summary(|\.txt)$!i);
+    next if ($filename =~ m!manifest(|\.txt)$!i);
+
+    next if ($filename =~ m!/genomic_data.*txt$!);
+
+    next if ($filename =~ m!version(|\.txt)$!i);
+    next if ($filename =~ m!md5$!i);
+    next if ($filename =~ m!md5sum!i);
+    next if ($filename =~ m!checksum!i);
+
+    next if ($filename =~ m!upload_report!i);
+
+    #  Scripts.
+
+    next if ($filename =~ m!\.sh$!);
+    next if ($filename =~ m!/scripts!);
+
+    #  Descriptions.
+
+    next if ($filename =~ m!\.html(|\.gz|\.xz)$!i);
+    next if ($filename =~ m!\.json(|\.gz|\.xz)$!i);
+    next if ($filename =~ m!\.md(|\.gz|\.xz)$!i);
+
+    next if ($filename =~ m!\.pdf(|\.gz|\.xz)$!);
+    next if ($filename =~ m!\.rtf(|\.gz|\.xz)$!);
+    next if ($filename =~ m!\.xml(|\.gz|\.xz)$!);
+
+    #  Images and analysee.
+
+    next if ($filename =~ m!/evaluation!i);
+
+    next if ($filename =~ m!\.png(|\.gz|\.xz)$!);
+    next if ($filename =~ m!\.csv(|\.gz|\.xz)$!);
+    next if ($filename =~ m!\.tsv(|\.gz|\.xz)$!);
+    next if ($filename =~ m!\.gff3(|\.gz|\.xz)$!);
+
+    next if ($filename =~ m!/assembly.*/.*/.*!);    #  ANYTHING in a subdirectory.
+
+    next if ($filename =~ m!/FASTK!i);              #  species/Erethizon_dorsatum/mEreDor1/FASTK
+
+    next if ($filename =~ m!gfastats$!);
+    next if ($filename =~ m!bnstats(|\.yaml|\.yml)$!);
+    next if ($filename =~ m!pb_?stats(|\.yaml|\.yml)$!);
+    next if ($filename =~ m!hic_stats(|\.yaml|\.yml)$!);
+
+    next if ($filename =~ m!/pretext!i);
+    next if ($filename =~ m!pretext(|\.gz|\.xz)$!i);
+
+    next if ($filename =~ m!/rapid_prtxt!i);
+
+    #  Archives.
+
+    next if ($filename =~ m!\.zip$!);
+    next if ($filename =~ m!\.tar(|\.gz|\.xz)$!);
+
+    #  Raw sequence/metadata and some Verkko generated files.
+
+    next if ($filename =~ m!\.fai$!);
+    next if ($filename =~ m!\.gzi$!);
+
+    next if ($filename =~ m!fast5$!);
+    next if ($filename =~ m!pod5$!);
+
+    next if ($filename =~ m!/assembly.*/.*gb$!);   #  GenBank files in assembly directories.
+
+    next if ($filename =~ m!(rdna|mito|ebv)-exemplar\.\d+\.fasta(|\.gz)$!);
+    next if ($filename =~ m!unassigned\.\d+\.fasta(|\.gz)$!);
+    next if ($filename =~ m!disconnected\.\d+\.fasta(|\.gz)$!);
+    next if ($filename =~ m!analysis-\w+\.\d+\.fasta(|\.gz)$!);
+    next if ($filename =~ m!\.gfa(|\.gz)$!);
+    next if ($filename =~ m!\.gaf(|\.gz)$!);
+    next if ($filename =~ m!\.bed(|\.gz)$!);
+
+    #next if ($filename =~ m!mother$!);
+    #next if ($filename =~ m!father$!);
+
+
+
     next if ($filename eq "species/Mesoplodon_densirostris/mMesDen1/assembly_curated/mMesDen1\.pri\.cur\.20220330\.png\.gz");
 
     #  Some specific crud that is either large or useless.
-
-    next if ($filename =~ m!/genomic_data/.*/scripts/!);
-
-    next if ($filename =~ m!/genomic_data/nanopore/.*fast5$!);
-    next if ($filename =~ m!/genomic_data/nanopore/.*bam$!);
-    next if ($filename =~ m!/genomic_data/nanopore/.*ont_run_stats\.txt$!);
-    next if ($filename =~ m!/genomic_data/nanopore/.*telemetry\.js\.xz$!);
-
-    next if ($filename =~ m!/genomic_data/ont/.*fast5$!);
-    next if ($filename =~ m!/genomic_data/ont/.*bam$!);
-    next if ($filename =~ m!/genomic_data/ont/.*ont_run_stats\.txt$!);
-    next if ($filename =~ m!/genomic_data/ont/.*telemetry\.js\.xz$!);
 
     next if ($filename =~ m!/aBomBom1/genomic_data/bionano/exp_refineFinal1/!);
     next if ($filename =~ m!/aBomBom1/genomic_data/pacbio/fasta!);

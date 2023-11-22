@@ -9,6 +9,7 @@ use strict;
 use warnings;
 
 use GenomeArkUtility;
+use GenomeArkUpdate;
 
 use Time::Local;
 #use List::Util;
@@ -35,29 +36,27 @@ sub parseAssemblyName ($$$) {
 
     #  Initialize the return values.
 
-    my ($sName, $aLabel, $sTag, $sNum, $prialt, $date, $curated, $err, $warn) = (undef, "", "", "", "", "", "uncurated", undef, undef);
+    my ($sName, $aLabel, $sTag, $sNum, $prialt, $status, $date, $curated, $err, $warn) = (undef, "", "", "", "", "", "", "uncurated", undef, undef);
 
     #  Handle mito first, because the second form also matches the generic 'an assembly' regex.
 
-    if   (($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}\.MT\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz$!i) ||
-          ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}\.mito\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz$!i) ||
-          ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}[\._].*\.(\d\d\d\d)(\d\d)(\d\d)\.MT.fasta.gz$!i)) {
+    if   (isAssemblyFile($filename, "mito", undef)) {
         print "\n"                               if ($verbose);
         print "$filename\n"                      if ($verbose);
         print " - A mitochondrial assembly!\n"   if ($verbose);
 
-        ($sName, $aLabel, $sTag, $sNum, $prialt, $date) = ($1, $2, $3, $4, "mito", "$5-$6-$7");
+        ($sName, $aLabel, $sTag, $sNum, $prialt, $date) = isAssemblyFile($filename, "mito", undef);
     }
 
-    elsif ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}[\._]\w+\.[WXYZ]\.\w+\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz$!i) {
+    elsif (isAssemblyFile($filename, "trio", undef)) {
         print "\n"                             if ($verbose);
         print "$filename\n"                    if ($verbose);
         print " - A merged trio assembly!\n"   if ($verbose);
 
-        ($sName, $aLabel, $sTag, $sNum, $prialt, $date) = ($1, $2, $3, $4, "mgd", "$5-$6-$7");
+        ($sName, $aLabel, $sTag, $sNum, $prialt, $date) = isAssemblyFile($filename, "trio", undef);
     }
 
-    elsif ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}[\._](.*)\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz$!i) {
+    elsif (isAssemblyFile($filename, "assembly", undef)) {
         print "\n"                     if ($verbose);
         print "$filename\n"            if ($verbose);
         print " - An assembly!   \n"   if ($verbose);
@@ -71,37 +70,37 @@ sub parseAssemblyName ($$$) {
         #    mBosTau1/assembly_curated/mBosTau1.mat.alt.cur.20200213.fasta.gz
         #    mBosTau1/assembly_curated/mBosTau1.pat.alt.cur.20200213.fasta.gz
 
-        my @p = split '\.', $5;
+        ($sName, $aLabel, $sTag, $sNum, $status, $date) = isAssemblyFile($filename, "assembly", undef);
+        ($prialt, $status) = split '\.', $status;
 
-        #if (!defined($p[0])) { die "No first word in $5 filename '$filename'\n"; }
-        #if (!defined($p[1])) { die "No second word in $5 filename '$filename'\n"; }
+        #if (!defined($prialt)) { die "No first word in $5 filename '$filename'\n"; }
+        #if (!defined($status)) { die "No second word in $5 filename '$filename'\n"; }
 
-        if ($p[0] eq "HiC") {   #  Adjust for some intermediate assemblies:
-            $p[0] = $p[1];      #    Ara_ararauna/bAraAra1/assembly_vgp_HiC_2.0/bAraAra1.HiC.hap1.20220601.fasta.gz
-            $p[1] = "asm";      #    Colius_striatus/bColStr4/assembly_vgp_HiC_2.0/bColStr4.HiC.hap1.20220601.fasta.gz
-        }                       #
+        if ($prialt eq "HiC") {   #  Adjust for some intermediate assemblies:
+            $prialt = $status;    #    Ara_ararauna/bAraAra1/assembly_vgp_HiC_2.0/bAraAra1.HiC.hap1.20220601.fasta.gz
+            $status = "asm";      #    Colius_striatus/bColStr4/assembly_vgp_HiC_2.0/bColStr4.HiC.hap1.20220601.fasta.gz
+        }                         #
 
-        if (($p[0] ne "pri")  && ($p[0] ne "alt")  &&
-            ($p[0] ne "mat")  && ($p[0] ne "pat")  &&
-            ($p[0] ne "hap1") && ($p[0] ne "hap2") &&
-            ($p[0] ne "dip")) {
-            print " - Filename has '$p[0]' as first word; required 'pri/alt', 'mat/pat', 'hap1/hap2' or 'dip'.\n"   if ($verbose);
-            $err = "  Filename '$3$4.$5.$6$7$8.fasta.gz' has '$p[0]' as first word; required 'pri/alt', 'mat/pat', 'hap1/hap2' or 'dip'.\n";
+        if (($prialt ne "pri")  && ($prialt ne "alt")  &&
+            ($prialt ne "mat")  && ($prialt ne "pat")  &&
+            ($prialt ne "hap1") && ($prialt ne "hap2") &&
+            ($prialt ne "dip")) {
+            print " - Filename has '$prialt' as first word; required 'pri/alt', 'mat/pat', 'hap1/hap2' or 'dip'.\n"   if ($verbose);
+            $err = "  Filename '$filename' has '$prialt' as first word; required 'pri/alt', 'mat/pat', 'hap1/hap2' or 'dip'.\n";
         }
 
-        $p[0] = "hpa"  if ($p[0] eq "hap1");   #  Rename hap1/hap2 to hpa/hpb because everything else is three letters
-        $p[0] = "hpb"  if ($p[0] eq "hap2");   #  and hap11 looks weird (where last digit is the individual number).
+        $prialt = "hpa"  if ($prialt eq "hap1");   #  Rename hap1/hap2 to hpa/hpb because everything else is three letters
+        $prialt = "hpb"  if ($prialt eq "hap2");   #  and hap11 looks weird (where last digit is the individual number).
 
-        if ((defined($p[1])) &&
-            ($p[1] ne "asm") &&
-            ($p[1] ne "cur") &&
-            ($p[1] ne "dup") &&
-            ($p[1] ne "decon")) {
-            print " - Filename has '$p[1]' as second word; required 'cur' or 'asm'.\n"   if ($verbose);
-            $err = "  Filename '$3$4.$5.$6$7$8.fasta.gz' has '$p[1]' as second word; required 'cur' or 'asm'.\n";
+        if ((defined($status)) &&
+            ($status ne "asm") &&
+            ($status ne "cur") &&
+            ($status ne "dup") &&
+            ($status ne "decon") &&
+            ($status ne "decontam")) {
+            print " - Filename has '$status' as second word; required 'cur' or 'asm'.\n"   if ($verbose);
+            $err = "  Filename '$filename' has '$status' as second word; required 'cur' or 'asm'.\n";
         }
-
-        ($sName, $aLabel, $sTag, $sNum, $prialt, $date) = ($1, $2, $3, $4, $p[0], "$6-$7-$8");
     }
 
     else {
@@ -113,7 +112,7 @@ sub parseAssemblyName ($$$) {
 
     #  Set the curation/deconamination status.
 
-    if ($filename =~ m/\.decon\./) {
+    if ($filename =~ m/\.decon(|tam)\./) {
         print " - Decontaminated assembly!\n"   if ($verbose);
         $curated = "decontaminated";
     }

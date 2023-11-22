@@ -120,7 +120,7 @@ foreach my $species (@speciesList) {
         my $filesize = $speciesSizes[$ii];
         my $filename = $speciesFiles[$ii];
 
-        next   if (! isAssemblyFile($filename, "sequence", \@potentialErrors));
+        next   if (! isAssemblyFile($filename, "sequence", undef));
 
         summarizeAssembly($filesecs, $filesize, $filename, \%data, \@potentialErrors, \%missingData, $downloadAssemblies);
     }

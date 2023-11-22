@@ -172,38 +172,65 @@ sub isAssemblyFile ($$$) {
     my $type     = shift @_;
     my $errors   = shift @_;
 
-    return(0)   if ($filename =~ m!genomic_data!);
-    return(0)   if ($filename =~ m!additional_haplotigs!);
+    return(undef)   if ($filename =~ m!genomic_data!);
+    return(undef)   if ($filename =~ m!additional_haplotigs!);
 
-    return(0)   if ($filename =~ m!assembly_v0!);
-    return(0)   if ($filename =~ m!bwgenome_!);
-    return(0)   if ($filename =~ m!concatenated-!);
+    return(undef)   if ($filename =~ m!assembly_v0!);
+    return(undef)   if ($filename =~ m!bwgenome_!);
+    return(undef)   if ($filename =~ m!concatenated-!);
 
 
     my $isMeta = (($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.*\.y[a]{0,1}ml$!i) ||
                   ($filename =~ m!species/.*/${ToLIDregex}/${ToLIDregex}.*\.y[a]{0,1}ml$!i));
+    #y $isGeno =  ($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.\w+.\w+.\d\d\d\d\d\d\d\d\.fasta\.gz$!i);
+    my $isSequ =  ($filename =~ m!\.fa(sta)?(\.gz)?$!i);
 
-    my $isMito = (($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.MT.\d\d\d\d\d\d\d\d\.fasta\.gz$!i) ||
-                  ($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.\w+.\w+\.\d\d\d\d\d\d\d\d\.MT\.fasta\.gz$!i));
+    #my $isMito = (($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.MT.\d\d\d\d\d\d\d\d\.fasta\.gz$!i) ||
+    #              ($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.\w+.\w+\.\d\d\d\d\d\d\d\d\.MT\.fasta\.gz$!i));
 
-    my $isGeno =  ($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.\w+.\w+.\d\d\d\d\d\d\d\d\.fasta\.gz$!i);
+    my ($isMito, @mito) = (0);
+    my ($isTrio, @trio) = (0);
+    my ($isAssm, @assm) = (0);
+
+    if (($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}\.MT(?:\.cur)?\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz$!i) ||
+        ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}\.mito\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz$!i) ||
+        ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}[\._].*\.(\d\d\d\d)(\d\d)(\d\d)\.MT.fasta.gz$!i)) {
+        ($isMito, @mito) = (1, $1, $2, $3, $4, "mito", "$5-$6-$7");
+    }
+
+    if ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}[\._]\w+\.[WXYZ]\.\w+\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz$!i) {
+        ($isTrio, @trio) = (1, $1, $2, $3, $4, "mgd",  "$5-$6-$7");
+    }
+
+    if ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}[\._](.*)\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz$!i) {
+        ($isAssm, @assm) = (1, $1, $2, $3, $4, $5,     "$6-$7-$8");
+    }
 
 
-    if    ($type eq "metadata") {
-        return(1)   if ($isMeta);
-        return(0)   if ($isMito || $isGeno);
+    #  The first three are used in parseAssemblyName() (in GenomeArkAssembly).
+    #  The last two ...
+
+    if    ($type eq "mito")     { return(@mito)  if ($isMito); }
+    elsif ($type eq "trio")     { return(@trio)  if ($isTrio); }
+    elsif ($type eq "assembly") { return(@assm)  if ($isAssm); }
+
+    elsif ($type eq "metadata") {
+        return(1)       if ($isMeta);              #  Yay, metadata!
+        return(undef)   if ($isSequ);              #  Don't complain about sequence files.
+
+        push @$errors, "  Unknown metadata file '$filename'; meta='$isMeta' mito='$isMito' assm='$isAssm'\n"   if ($errors);
     }
     elsif ($type eq "sequence") {
-        return(0)   if ($isMeta);
-        return(1)   if ($isMito || $isGeno);
+        return(undef)   if ($isMeta);              #  Ignore metadata.
+        return(1)       if ($isMito || $isAssm);   #  Yay, sequence!
+
+        push @$errors, "  Unknown assembly file '$filename'; meta='$isMeta' mito='$isMito' assm='$isAssm'\n"   if ($errors);
     }
     else {
         die "Expecting 'metadata' or 'sequence' in isAssemblyFile().\n";
     }
 
-
-    push @$errors, "  Unknown assembly file '$filename' for '$type'; meta='$isMeta' mito='$isMito' geno='$isGeno'\n";
-    return(0);
+    return(undef);
 }
 
 
