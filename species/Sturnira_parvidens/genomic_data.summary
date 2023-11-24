@@ -1,0 +1,23 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mStuPar1              6258938382               0      2147483648     10026010638        66615144  species/Sturnira_parvidens/mStuPar1/genomic_data/arima/A019S109_S10_R2_001.fastq.gz
+arima           mStuPar1             37455590351               0      2147483648     66171420807       439667357  species/Sturnira_parvidens/mStuPar1/genomic_data/arima/A019_S109_S3_R1_001.fastq.gz
+arima           mStuPar1             40529109587               0      2147483648     63432181594       421435478  species/Sturnira_parvidens/mStuPar1/genomic_data/arima/A019_S109_S3_R2_001.fastq.gz
+pacbiohifi_bam  mStuPar1            129077973379               0      2147483648     35594652188         3033160  species/Sturnira_parvidens/mStuPar1/genomic_data/pacbio_hifi/m64326e_220603_090529.hifi_reads.bam
+pacbiohifi_fqgz mStuPar1             25385805058               0      2147483648      7000411285          596532  species/Sturnira_parvidens/mStuPar1/genomic_data/pacbio_hifi/m64326e_220603_090529.hifi_reads.fastq.gz
+pacbiohifi_bam  mStuPar1            129471816963               0      2147483648     36141745020         3054352  species/Sturnira_parvidens/mStuPar1/genomic_data/pacbio_hifi/m64326e_220604_182637.hifi_reads.bam
+pacbiohifi_fqgz mStuPar1             24693810093               0      2147483648      6893217449          582548  species/Sturnira_parvidens/mStuPar1/genomic_data/pacbio_hifi/m64326e_220604_182637.hifi_reads.fastq.gz
+pacbiohifi_bam  mStuPar1             84116429131               0      2147483648     23332090815         2013835  species/Sturnira_parvidens/mStuPar1/genomic_data/pacbio_hifi/m64326e_221008_182144.hifi_reads.bam
+pacbiohifi_fqgz mStuPar1             17229899959               0      2147483648      4779204190          412501  species/Sturnira_parvidens/mStuPar1/genomic_data/pacbio_hifi/m64326e_221008_182144.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mStuPar1          1.6574    149316354390
+pacbiohifi_bam  mStuPar1          0.2774     95055609281
+pacbiohifi_fqgz mStuPar1          0.2774     18671659491
+--------------- ---------------  ------- ---------------

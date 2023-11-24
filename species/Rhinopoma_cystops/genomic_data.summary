@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mRhiCys1             38457892477               0      2147483648     86301576552       571533637  species/Rhinopoma_cystops/mRhiCys1/genomic_data/arima/A047_S201_1.fastq.gz
+arima           mRhiCys1             39154871090               0      2147483648     86169100940       570656315  species/Rhinopoma_cystops/mRhiCys1/genomic_data/arima/A047_S201_2.fastq.gz
+pacbiohifi_bam  mRhiCys1            118391849510               0      2147483648     31159222828         1524799  species/Rhinopoma_cystops/mRhiCys1/genomic_data/pacbio_hifi/m64326e_230326_081011.hifi_reads.bc2027--bc2027.bam
+pacbiohifi_fqgz mRhiCys1             27881563202               0      2147483648      7338071363          359093  species/Rhinopoma_cystops/mRhiCys1/genomic_data/pacbio_hifi/m64326e_230326_081011.hifi_reads.bc2027--bc2027.fastq.gz
+pacbiohifi_bam  mRhiCys1            128516177529               0      2147483648     33553783659         1661237  species/Rhinopoma_cystops/mRhiCys1/genomic_data/pacbio_hifi/m64326e_230408_045746.hifi_reads.bc2027--bc2027.bam
+pacbiohifi_fqgz mRhiCys1             30405812734               0      2147483648      7938534137          393034  species/Rhinopoma_cystops/mRhiCys1/genomic_data/pacbio_hifi/m64326e_230408_045746.hifi_reads.bc2027--bc2027.fastq.gz
+pacbiohifi_bam  mRhiCys1            120306354903               0      2147483648     31204037265         1547608  species/Rhinopoma_cystops/mRhiCys1/genomic_data/pacbio_hifi/m64326e_230504_161511.hifi_reads.bc2027--bc2027.bam
+pacbiohifi_fqgz mRhiCys1             29057380470               0      2147483648      7536655763          373791  species/Rhinopoma_cystops/mRhiCys1/genomic_data/pacbio_hifi/m64326e_230504_161511.hifi_reads.bc2027--bc2027.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mRhiCys1          2.2149    171904510024
+pacbiohifi_bam  mRhiCys1          0.2612    125015682600
+pacbiohifi_fqgz mRhiCys1          0.2611     29894236187
+--------------- ---------------  ------- ---------------

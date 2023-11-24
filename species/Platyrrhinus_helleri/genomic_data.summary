@@ -1,0 +1,23 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPlaHel1              3431472628               0      3431472628      5654828175        37574000  species/Platyrrhinus_helleri/mPlaHel1/genomic_data/arima/A016S093_S8_R2_001.fastq.gz
+arima           mPlaHel1             38436790630               0      2147483648     68140434553       452765376  species/Platyrrhinus_helleri/mPlaHel1/genomic_data/arima/A016_S093_S1_R1_001.fastq.gz
+arima           mPlaHel1             41438626306               0      2147483648     65404147702       434546631  species/Platyrrhinus_helleri/mPlaHel1/genomic_data/arima/A016_S093_S1_R2_001.fastq.gz
+pacbiohifi_bam  mPlaHel1            114046738229               0      2147483648     30415673582         2003520  species/Platyrrhinus_helleri/mPlaHel1/genomic_data/pacbio_hifi/m64326e_220606_163056.hifi_reads.bam
+pacbiohifi_fqgz mPlaHel1             25973101822               0      2147483648      6926891546          456283  species/Platyrrhinus_helleri/mPlaHel1/genomic_data/pacbio_hifi/m64326e_220606_163056.hifi_reads.fastq.gz
+pacbiohifi_bam  mPlaHel1            111379146160               0      2147483648     29667119722         1949240  species/Platyrrhinus_helleri/mPlaHel1/genomic_data/pacbio_hifi/m64326e_220608_014440.hifi_reads.bam
+pacbiohifi_fqgz mPlaHel1             25457389386               0      2147483648      6780869173          445528  species/Platyrrhinus_helleri/mPlaHel1/genomic_data/pacbio_hifi/m64326e_220608_014440.hifi_reads.fastq.gz
+pacbiohifi_bam  mPlaHel1             79522756076               0      2147483648     22115396499         1515294  species/Platyrrhinus_helleri/mPlaHel1/genomic_data/pacbio_hifi/m64326e_221010_043715.hifi_reads.bam
+pacbiohifi_fqgz mPlaHel1             16805273589               0      2147483648      4673571529          320222  species/Platyrrhinus_helleri/mPlaHel1/genomic_data/pacbio_hifi/m64326e_221010_043715.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mPlaHel1          1.6709    144571951441
+pacbiohifi_bam  mPlaHel1          0.2695     82183658605
+pacbiohifi_fqgz mPlaHel1          0.2693     18375891459
+--------------- ---------------  ------- ---------------
