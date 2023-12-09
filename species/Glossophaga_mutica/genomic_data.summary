@@ -2,10 +2,18 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mGloMut1             30488320044               0      2147483648     55932243124       371681758  species/Glossophaga_mutica/mGloMut1/genomic_data/arima/A008S055_S1_R1_001.fastq.gz
+arima           mGloMut1             32801970622               0      2147483648     53870057301       357960588  species/Glossophaga_mutica/mGloMut1/genomic_data/arima/A008S055_S1_R2_001.fastq.gz
+arima           mGloMut1             11424574787               0      2147483648     18497599828       122921503  species/Glossophaga_mutica/mGloMut1/genomic_data/arima/A008S055_S5_R2_001.fastq.gz
+pacbiohifi_fqgz mGloMut1             15268172909               0      2147483648     19644203986         1193201  species/Glossophaga_mutica/mGloMut1/genomic_data/pacbio_hifi/m64326e_220903_162443.hifi_reads.fastq.gz
+pacbiohifi_fqgz mGloMut1             17229418088               0      2147483648     22949289546         1378853  species/Glossophaga_mutica/mGloMut1/genomic_data/pacbio_hifi/m64326e_221102_200538.hifi_reads.bc2011--bc2011.fastq.gz
+pacbiohifi_fqgz mGloMut1             27082125480               0      2147483648     34623559753         2101311  species/Glossophaga_mutica/mGloMut1/genomic_data/pacbio_hifi/m64326e_221122_010906.hifi_reads.bc2011--bc2011.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mGloMut1          1.7171    146898430527
+pacbiohifi_fqgz mGloMut1          1.2960     77215312554
 --------------- ---------------  ------- ---------------

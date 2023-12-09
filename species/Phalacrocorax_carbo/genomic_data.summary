@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bPhaCar2             17232627315               0      2147483648     25745715111         2429758  species/Phalacrocorax_carbo/bPhaCar2/genomic_data/pacbio_hifi/m64178e_231125_161829.ccs.bc2062--bc2062.bam
 pacbiohifi_bam  bPhaCar2             15830452685               0      2147483648     25211283927         2766454  species/Phalacrocorax_carbo/bPhaCar2/genomic_data/pacbio_hifi/m64229e_230423_071417.ccs.bc1010_BAK8A_OA--bc1010_BAK8A_OA.bam
 arima           bPhaCar3             24703723314               0      2147483648     76690255464       507882486  species/Phalacrocorax_carbo/bPhaCar3/genomic_data/arima/bPhaCar3_47432_1#3.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -11,5 +12,5 @@ arima           bPhaCar3             24703723314               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bPhaCar3          3.1044     76690238655
-pacbiohifi_bam  bPhaCar2          1.5925     25209995900
+pacbiohifi_bam  bPhaCar2          1.5250     50421197000
 --------------- ---------------  ------- ---------------
