@@ -2,6 +2,9 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz fLatCha1             20707407697               0      2147483648     40666357602         2892010  species/Latimeria_chalumnae/fLatCha1/genomic_data/pacbio_hifi/m84091_231205_223316_s2.hifi_reads.bc1017.fastq.gz
+pacbiohifi_fqgz fLatCha1             20147694600               0      2147483648     39577060512         2790910  species/Latimeria_chalumnae/fLatCha1/genomic_data/pacbio_hifi/m84091_231207_193740_s4.hifi_reads.bc1017.fastq.gz
+pacbiohifi_fqgz fLatCha1             22585897559               0      2147483648     43373043074         3090636  species/Latimeria_chalumnae/fLatCha1/genomic_data/pacbio_hifi/m84091_231207_200801_s1.hifi_reads.bc1017.fastq.gz
 arima           fLatCha2             67610141483               0      2147483648    121646817256       805608061  species/Latimeria_chalumnae/fLatCha2/genomic_data/arima/fLatCha2_L1_S5_R1_001.fastq.gz
 arima           fLatCha2             69899143529               0      2147483648    121977540322       807798312  species/Latimeria_chalumnae/fLatCha2/genomic_data/arima/fLatCha2_L1_S5_R2_001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -11,4 +14,5 @@ arima           fLatCha2             69899143529               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fLatCha2          1.7627    242387616690
+pacbiohifi_fqgz fLatCha1          1.9485    123614788219
 --------------- ---------------  ------- ---------------

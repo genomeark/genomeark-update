@@ -5,6 +5,7 @@
 arima           mMesBid2            189719733532               0      2147483648    642860136227      4257351895  species/Mesoplodon_bidens/mMesBid2/genomic_data/arima/mMesBid2_47675_2#2.cram
 pacbiohifi_bam  mMesBid2             20474199315               0      2147483648     55181577339         4371339  species/Mesoplodon_bidens/mMesBid2/genomic_data/pacbio_hifi/m84047_230728_152822_s3.ccs.bc2077.bam
 pacbiohifi_bam  mMesBid2             23803940161               0      2147483648     56050029994         6924954  species/Mesoplodon_bidens/mMesBid2/genomic_data/pacbio_hifi/m84093_231110_114304_s1.ccs.bc2077.bam
+pacbiohifi_bam  mMesBid2             16805740342               0      2147483648     44931581184         5965977  species/Mesoplodon_bidens/mMesBid2/genomic_data/pacbio_hifi/m84098_231208_110305_s1.ccs.bc2057.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,5 +13,5 @@ pacbiohifi_bam  mMesBid2             23803940161               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mMesBid2          3.3884    642846345099
-pacbiohifi_bam  mMesBid2          2.4570    108791388692
+pacbiohifi_bam  mMesBid2          2.5565    156160938754
 --------------- ---------------  ------- ---------------

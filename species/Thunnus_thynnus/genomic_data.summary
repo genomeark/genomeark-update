@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 pacbiohifi_bam  fThuThy2              3383771194               0      3383771194      5947199517          948716  species/Thunnus_thynnus/fThuThy2/genomic_data/pacbio_hifi/m64125e_230909_155754.ccs.bc2075--bc2075.bam
+pacbiohifi_bam  fThuThy2              9170831207               0      2147483648     23999740920         4149620  species/Thunnus_thynnus/fThuThy2/genomic_data/pacbio_hifi/m84047_231212_143804_s4.ccs.bc2075.bam
 arima           fThuThy3             47168413730               0      2147483648    145832660451       965779208  species/Thunnus_thynnus/fThuThy3/genomic_data/arima/fThuThy3_47530_4#5.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -11,5 +12,5 @@ arima           fThuThy3             47168413730               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fThuThy3          3.0917    145830584729
-pacbiohifi_bam  fThuThy2          1.7575      5946977873
+pacbiohifi_bam  fThuThy2          2.4831     31174333221
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  sMusAst1             25709774139               0      2147483648     68629683322         7685862  species/Mustelus_asterias/sMusAst1/genomic_data/pacbio_hifi/m84047_231213_142029_s2.ccs.bc2044.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  sMusAst1          2.6694     68629671086
+--------------- ---------------  ------- ---------------

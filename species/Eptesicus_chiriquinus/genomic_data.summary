@@ -4,9 +4,13 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mEptChi1             30203980342               0      2147483648     68899344821       456287065  species/Eptesicus_chiriquinus/mEptChi1/genomic_data/arima/A043_S181_1.fastq.gz
 arima           mEptChi1             30719710061               0      2147483648     69397122692       459583608  species/Eptesicus_chiriquinus/mEptChi1/genomic_data/arima/A043_S181_2.fastq.gz
+pacbiohifi_fqgz mEptChi1             15302574218               0      2147483648     16224857412          733709  species/Eptesicus_chiriquinus/mEptChi1/genomic_data/pacbio_hifi/m64326e_230224_144659.hifi_reads.fastq.gz
 pacbiohifi_bam  mEptChi1            107994758202               0      2147483648     27968120088         1218954  species/Eptesicus_chiriquinus/mEptChi1/genomic_data/pacbio_hifi/m64326e_230310_071047.hifi_reads.bc2024--bc2024.bam
+pacbiohifi_fqgz mEptChi1             26685062897               0      2147483648      6910808043          301198  species/Eptesicus_chiriquinus/mEptChi1/genomic_data/pacbio_hifi/m64326e_230310_071047.hifi_reads.bc2024--bc2024.fastq.gz
 pacbiohifi_bam  mEptChi1             96835282488               0      2147483648     24987135656         1084563  species/Eptesicus_chiriquinus/mEptChi1/genomic_data/pacbio_hifi/m64326e_230317_054335.hifi_reads.bc2024--bc2024.bam
+pacbiohifi_fqgz mEptChi1             24119305674               0      2147483648      6223685699          270138  species/Eptesicus_chiriquinus/mEptChi1/genomic_data/pacbio_hifi/m64326e_230317_054335.hifi_reads.bc2024--bc2024.fastq.gz
 pacbiohifi_bam  mEptChi1             72515308243               0      2147483648     19630201479         1626887  species/Eptesicus_chiriquinus/mEptChi1/genomic_data/pacbio_hifi/m64326e_230809_203634.hifi_reads.bc2036--bc2036.bam
+pacbiohifi_fqgz mEptChi1             14404448924               0      2147483648      3899345413          323165  species/Eptesicus_chiriquinus/mEptChi1/genomic_data/pacbio_hifi/m64326e_230809_203634.hifi_reads.bc2036--bc2036.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,4 +19,5 @@ pacbiohifi_bam  mEptChi1             72515308243               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           mEptChi1          2.2663    138071359560
 pacbiohifi_bam  mEptChi1          0.2617     88903735112
+pacbiohifi_fqgz mEptChi1          0.4441     35755109059
 --------------- ---------------  ------- ---------------

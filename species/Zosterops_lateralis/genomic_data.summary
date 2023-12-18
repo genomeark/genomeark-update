@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bZosLat1             20474391082               0      2147483648     48227282532         4669884  species/Zosterops_lateralis/bZosLat1/genomic_data/pacbio_hifi/m84047_231212_140742_s3.ccs.bc2056.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bZosLat1          2.3554     48225380754
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  sRajMon1             27762603555               0      2147483648     66510717335         6396449  species/Raja_montagui/sRajMon1/genomic_data/pacbio_hifi/m84098_231213_134817_s1.ccs.bc2045.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  sRajMon1          2.3956     66508093076
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bLarMic1             35299694023               0      2147483648     86380890411         8304836  species/Larus_michahellis/bLarMic1/genomic_data/pacbio_hifi/m84098_231213_141836_s2.ccs.bc2046.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bLarMic1          2.4470     86378351274
+--------------- ---------------  ------- ---------------

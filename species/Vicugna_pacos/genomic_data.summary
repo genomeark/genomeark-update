@@ -5,6 +5,10 @@
 dovetail        mVicPac1             38119785021               0      2147483648     62094966041       411224958  species/Vicugna_pacos/mVicPac1/genomic_data/dovetail/mVicPac1_L4_S2_R2_001.fastq.gz
 dovetail        mVicPac1             37216992526               0      2147483648     62353654748       412938128  species/Vicugna_pacos/mVicPac1/genomic_data/dovetail/mVicPac1_L4_S6_R1_001.fastq.gz
 dovetail        mVicPac1             38119785021               0      2147483648     62094966041       411224958  species/Vicugna_pacos/mVicPac1/genomic_data/dovetail/mVicPac1_L4_S6_R2_001.fastq.gz
+pacbiohifi_fqgz mVicPac1             19402215013               0      2147483648     22098360275         1109264  species/Vicugna_pacos/mVicPac1/genomic_data/pacbio_hifi/demultiplex.bc1015--bc1015.hifi_reads.fastq.gz
+pacbiohifi_clr  mVicPac1            900583555854               0      2147483648    481138170456        25524766  species/Vicugna_pacos/mVicPac1/genomic_data/pacbio_hifi/m54306Ue_230105_195255.subreads.bam
+pacbiohifi_fqgz mVicPac1             17631995853               0      2147483648     37180332447         3337238  species/Vicugna_pacos/mVicPac1/genomic_data/pacbio_hifi/m84091_231019_193731_s3.hifi_reads.bc1008.fastq.gz
+pacbiohifi_fqgz mVicPac1             32039908453               0      2147483648     60259507952         3956850  species/Vicugna_pacos/mVicPac1/genomic_data/pacbio_hifi/m84091_231205_230422_s3.hifi_reads.bc1015.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,4 +16,6 @@ dovetail        mVicPac1             38119785021               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 dovetail        mVicPac1          1.6441    247722391930
+pacbiohifi_clr  mVicPac1          0.5342    481091735537
+pacbiohifi_fqgz mVicPac1          1.7305    119532763481
 --------------- ---------------  ------- ---------------

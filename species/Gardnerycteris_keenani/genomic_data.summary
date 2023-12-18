@@ -6,8 +6,11 @@ arima           mGarKee1             29711531090               0      2147483648
 arima           mGarKee1             31127948044               0      2147483648     51773876830       342873370  species/Gardnerycteris_keenani/mGarKee1/genomic_data/arima/A024S135_S3_R2_001.fastq.gz
 arima           mGarKee1              6035313373               0      2147483648      9723323625        64392871  species/Gardnerycteris_keenani/mGarKee1/genomic_data/arima/A024S135_S4_R2_001.fastq.gz
 pacbiohifi_bam  mGarKee1             85589987635               0      2147483648     22856081848         1244103  species/Gardnerycteris_keenani/mGarKee1/genomic_data/pacbio_hifi/m64326e_220915_173723.hifi_reads.bam
+pacbiohifi_fqgz mGarKee1             20624007531               0      2147483648      5507466669          299782  species/Gardnerycteris_keenani/mGarKee1/genomic_data/pacbio_hifi/m64326e_220915_173723.hifi_reads.fastq.gz
 pacbiohifi_bam  mGarKee1             92530822865               0      2147483648     24255643816         1053243  species/Gardnerycteris_keenani/mGarKee1/genomic_data/pacbio_hifi/m64326e_221116_182052.hifi_reads.bc2014--bc2014.bam
+pacbiohifi_fqgz mGarKee1             22845063244               0      2147483648      5988509556          260036  species/Gardnerycteris_keenani/mGarKee1/genomic_data/pacbio_hifi/m64326e_221116_182052.hifi_reads.bc2014--bc2014.fastq.gz
 pacbiohifi_bam  mGarKee1             84471095063               0      2147483648     22251238560          972949  species/Gardnerycteris_keenani/mGarKee1/genomic_data/pacbio_hifi/m64326e_221118_051550.hifi_reads.bc2014--bc2014.bam
+pacbiohifi_fqgz mGarKee1             21736510084               0      2147483648      5725796155          250363  species/Gardnerycteris_keenani/mGarKee1/genomic_data/pacbio_hifi/m64326e_221118_051550.hifi_reads.bc2014--bc2014.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -16,4 +19,5 @@ pacbiohifi_bam  mGarKee1             84471095063               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           mGarKee1          1.7066    123966989252
 pacbiohifi_bam  mGarKee1          0.2641     91149700134
+pacbiohifi_fqgz mGarKee1          0.2641     21745295357
 --------------- ---------------  ------- ---------------

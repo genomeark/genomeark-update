@@ -5,6 +5,7 @@
 arima           fCorLav1            129267914582               0      2147483648    383029598255      2536619855  species/Coregonus_lavaretus/fCorLav1/genomic_data/arima/fCorLav1_46689_2#1.cram
 pacbiohifi_bam  fCorLav1             89335494293               0      2147483648     23894154384         2066816  species/Coregonus_lavaretus/fCorLav1/genomic_data/pacbio_hifi/m64222e_230109_041235.ccs.bc1010_BAK8A_OA--bc1010_BAK8A_OA.bam
 pacbiohifi_bam  fCorLav1             14472228470               0      2147483648     22147852042         2088882  species/Coregonus_lavaretus/fCorLav1/genomic_data/pacbio_hifi/m64230e_230507_021449.ccs.bc2020--bc2020.bam
+pacbiohifi_bam  fCorLav1             22744064813               0      2147483648     60404625850         7493715  species/Coregonus_lavaretus/fCorLav1/genomic_data/pacbio_hifi/m84047_231208_123905_s2.ccs.bc2049.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,5 +13,5 @@ pacbiohifi_bam  fCorLav1             14472228470               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fCorLav1          2.9630    383020830906
-pacbiohifi_bam  fCorLav1          0.3620     37578395640
+pacbiohifi_bam  fCorLav1          0.8411    106442708530
 --------------- ---------------  ------- ---------------
