@@ -7,9 +7,24 @@
 10x             mPanTro1             13894671549               0      2147483648     19964828703       132217415  species/Pan_troglodytes/mPanTro1/genomic_data/10x/mPanTro1_S1_L007_R2_001.fastq.gz
 bionano         mPanTro1               420464216               0       420464216    457881266703         3728266  species/Pan_troglodytes/mPanTro1/genomic_data/bionano/mPanTrog1_Irys_BspQI
 bionano         mPanTro1               350868416               0       350868416    362202978782         2122164  species/Pan_troglodytes/mPanTro1/genomic_data/bionano/mPanTrog1_Irys_BssSI
+ont             mPanTro1               122764849               0       122764849       147797859            6240  species/Pan_troglodytes/mPanTro1/genomic_data/ont/20190901_Clint_PTR_STD_eee-grid3-20190901_1516_GA30000_FAK50705_0913ca18_dorado-0.4.2-sup-grid_fastq_pass.fastq.gz
+ont             mPanTro1               534420757               0       534420757       643702101           19888  species/Pan_troglodytes/mPanTro1/genomic_data/ont/20191107_Clint_PTR_STD_eee-grid3-20191107_2323_GA10000_FAL59347_9015db70_dorado-0.4.2-sup-grid_fastq_pass.fastq.gz
+ont             mPanTro1              1066046330               0      1066046330      1279590802           75081  species/Pan_troglodytes/mPanTro1/genomic_data/ont/20200531_Clint_PTR_STD_eee-grid3-20200531_1948_X1_FAM96221_27fcbf7a_dorado-0.4.2-sup-grid_fastq_pass.fastq.gz
 pacbio          mPanTro1              5355182991               0      2147483648      1402796993          131984  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio/m151008_222009_00118_c100909602550000001823206504301601_s1_p0.subreads.bam
 pacbio          mPanTro1              6045522802               0      2147483648      1557000667          140930  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio/m151024_041606_00118_c100909622550000001823206504301681_s1_p0.subreads.bam
 pacbio          mPanTro1              4236954034               0      4236954034      1098112172           85449  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio/m160116_204135_42134_c100957702550000001823213706151692_s1_p0.subreads.bam
+pacbiohifi_q2fqgz mPanTro1              7556589911               0      2147483648     10497905045         1035346  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m54329U_190717_004243.Q20.fastq.gz
+pacbiohifi_q2fqgz mPanTro1             10307690119               0      2147483648     14057812301         1383069  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m54329U_190718_220737-bc1055.Q20.fastq.gz
+pacbiohifi_bam  mPanTro1             10917935462               0      2147483648     14066684241         1383977  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m54329U_190718_220737-bc1055.ccs.bam
+pacbiohifi_q2fqgz mPanTro1             11563818760               0      2147483648     15472793173         1523145  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m54329U_190722_030329.Q20.fastq.gz
+pacbiohifi_clr  mPanTro1            595170209011               0      2147483648    307574656485        23892351  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m54329U_190830_235413.subreads.bam
+pacbiohifi_bam  mPanTro1             24580768293               0      2147483648     25881628328         1175181  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m54329U_200518_000845.ccs.bam
+pacbiohifi_fqgz mPanTro1             11399582557               0      2147483648     13140456731          631305  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m54329U_210723_230956.hifi_reads.fastq.gz
+pacbiohifi_clr  mPanTro1            447953901817               0      2147483648    241865534723        13262873  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m54329U_210723_230956.subreads.bam
+pacbiohifi_fqgz mPanTro1             33689272199               0      2147483648     40761547230         1917800  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m64076_211223_224513.hifi_reads.fastq.gz
+pacbiohifi_clr  mPanTro1           1055851830410               0      2147483648    569638691144        29878744  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m64076_220101_204530.subreads.bam
+pacbiohifi_bam  mPanTro1            149882525377               0      2147483648     40029563044         1902388  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m64076_220103_055938.hifi_reads.bam
+pacbiohifi_fqgz mPanTro1             33303577076               0      2147483648     39830195860         1897798  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m64076_220103_055938.hifi_reads.fastq.gz
 dovetail        mPanTro3             22552415534               0      2147483648     41890518428       277420662  species/Pan_troglodytes/mPanTro3/genomic_data/dovetail/G929_Chimp_a_1_S5_R1_001.fastq.gz
 dovetail        mPanTro3             28701513353               0      2147483648     53513764904       354395807  species/Pan_troglodytes/mPanTro3/genomic_data/dovetail/G929_Chimp_a_2_S11_R1_001.fastq.gz
 dovetail        mPanTro3             28408336607               0      2147483648     53624653297       355130167  species/Pan_troglodytes/mPanTro3/genomic_data/dovetail/G929_Chimp_a_2_S11_R2_001.fastq.gz
@@ -50,9 +65,14 @@ pacbiohifi_bam  mPanTro3            260113610111               0      2147483648
 bionano         mPanTro1         1063.2043    820084245485
 dovetail        mPanTro3          1.8707    190561476279
 illumina        mPanTro3          1.8301    176416557689
+ont             mPanTro1          1.2018    327426113057
 ont             mPanTro3          1.1444    794249124417
 pacbio          mPanTro1          0.2594    398906472331
+pacbiohifi_bam  mPanTro1          0.4314    424067341701
 pacbiohifi_bam  mPanTro3          0.8819    734377183072
+pacbiohifi_clr  mPanTro1          0.5331   4884922798325
 pacbiohifi_clr  mPanTro3          0.5167   3799281561056
+pacbiohifi_fqgz mPanTro1          1.1956    229204900614
 pacbiohifi_fqgz mPanTro3          1.2788    429258791129
+pacbiohifi_q2fqgz mPanTro1          1.3602    139534421008
 --------------- ---------------  ------- ---------------

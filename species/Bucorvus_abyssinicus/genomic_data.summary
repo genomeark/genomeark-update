@@ -8,6 +8,8 @@
 arima           bBucAby1             14613722519               0      2147483648     27923196295       186154648  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/arima/bBucAby1_ARI3_4_USPD16090936_HV3Y2CCXY_L7_R1.clean.fastq.gz
 arima           bBucAby1             16042579455               0      2147483648     28039561619       186930410  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/arima/bBucAby1_ARI3_4_USPD16090936_HV3Y2CCXY_L7_R2.clean.fastq.gz
 arima           bBucAby1             11495430677               0      2147483648     19949569339       132997134  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/arima/bBucAby1_ARI3_4_USPD16090936_HV3Y2CCXY_L8_2.clean.fq.gz
+arima           bBucAby1             11495430677               0      2147483648     19949569339       132997134  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/arima/bBucAby1_ARI3_4_USPD16090936_HV3Y2CCXY_L8_R2.clean.fastq.gz
+arima           bBucAby1             24988106551               0      2147483648     47746069036       318307138  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/arima/bBucAby1_ARI3_L7L8_R1.fastq.gz
 bionano         bBucAby1              1130615308               0      1130615308    674569619290         7133449  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/bionano/bBucAby1_Saphyr_DLE1_1106188
 bionano         bBucAby1               996438920               0       996438920    547683894212         6073145  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/bionano/bBucAby1_Saphyr_DLE1_1106189
 pacbio          bBucAby1              5891918394               0      2147483648      3164453695          258785  species/Bucorvus_abyssinicus/bBucAby1/genomic_data/pacbio/m54158_180528_191915.subreads.bam
@@ -20,7 +22,7 @@ pacbio          bBucAby1             19513863099               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 10x             bBucAby1          1.9478    105588073275
-arima           bBucAby1          1.8009    283782850603
+arima           bBucAby1          1.8226    191468200532
 bionano         bBucAby1         574.6226   1222253513502
 pacbio          bBucAby1          0.5371     86870810558
 --------------- ---------------  ------- ---------------

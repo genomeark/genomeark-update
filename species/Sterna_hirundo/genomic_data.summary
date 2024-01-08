@@ -5,6 +5,9 @@
 10x             bSteHir1              8007683074               0      2147483648     14516445458        96135404  species/Sterna_hirundo/bSteHir1/genomic_data/10x/bSteHir1A_1.fastq.gz
 10x             bSteHir1              8631804733               0      2147483648     15654323286       103671019  species/Sterna_hirundo/bSteHir1/genomic_data/10x/bSteHir1B_1.fastq.gz
 10x             bSteHir1              9094298946               0      2147483648     16466794828       109051621  species/Sterna_hirundo/bSteHir1/genomic_data/10x/bSteHir1C_1.fastq.gz
+10x             bSteHir1              8007683074               0      2147483648     14516445458        96135404  species/Sterna_hirundo/bSteHir1/genomic_data/10x/bSteHir1_S1_L001_R1_001.fastq.gz
+10x             bSteHir1              8631804733               0      2147483648     15654323286       103671019  species/Sterna_hirundo/bSteHir1/genomic_data/10x/bSteHir1_S2_L001_R1_001.fastq.gz
+10x             bSteHir1              9094298946               0      2147483648     16466794828       109051621  species/Sterna_hirundo/bSteHir1/genomic_data/10x/bSteHir1_S3_L001_R1_001.fastq.gz
 arima           bSteHir1             29398598002               0      2147483648     56606202143       377374680  species/Sterna_hirundo/bSteHir1/genomic_data/arima/bSteHir1_ARI6_005_USPD16095655_HWLVLCCXY_L5_R1.fastq.gz
 arima           bSteHir1             31872298829               0      2147483648     56389301925       375928679  species/Sterna_hirundo/bSteHir1/genomic_data/arima/bSteHir1_ARI6_005_USPD16095655_HWLVLCCXY_L5_R2.fastq.gz
 bionano         bSteHir1              1796805655               0      1796805655    977690089765        12117600  species/Sterna_hirundo/bSteHir1/genomic_data/bionano/bSteHir1_Saphyr_DLE1_2405529
@@ -17,7 +20,7 @@ pacbio          bSteHir1             24951971101               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-10x             bSteHir1          1.8123    240033104988
+10x             bSteHir1          1.8123    120016552494
 arima           bSteHir1          1.8185    111421125887
 bionano         bSteHir1         544.1267    977690089765
 pacbio          bSteHir1          0.5451     95110988491

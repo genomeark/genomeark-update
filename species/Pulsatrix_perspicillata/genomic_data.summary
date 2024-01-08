@@ -5,6 +5,8 @@
 arima           bPulPer1             18240854906               0      2147483648     36755619921       243414709  species/Pulsatrix_perspicillata/bPulPer1/genomic_data/arima/bPulPer1_L1_S2_R1_001.fastq.gz
 arima           bPulPer1             19132694213               0      2147483648     36948775336       244693876  species/Pulsatrix_perspicillata/bPulPer1/genomic_data/arima/bPulPer1_L1_S2_R2_001.fastq.gz
 arima           bPulPer1             14284563066               0      2147483648     27566225803       182557793  species/Pulsatrix_perspicillata/bPulPer1/genomic_data/arima/bPulPer1_L1_S5_R2_001.fastq.gz
+pacbiohifi_fqgz bPulPer1             28967176465               0      2147483648     62190802853         4261303  species/Pulsatrix_perspicillata/bPulPer1/genomic_data/pacbio_hifi/m84091_231207_211013_s3.hifi_reads.bc1010.fastq.gz
+pacbiohifi_fqgz bPulPer1             22040133050               0      2147483648     47213226875         3326017  species/Pulsatrix_perspicillata/bPulPer1/genomic_data/pacbio_hifi/m84091_231213_192914_s4.hifi_reads.bc1010.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,4 +14,5 @@ arima           bPulPer1             14284563066               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bPulPer1          1.9604    127434265371
+pacbiohifi_fqgz bPulPer1          2.1456    109441283295
 --------------- ---------------  ------- ---------------

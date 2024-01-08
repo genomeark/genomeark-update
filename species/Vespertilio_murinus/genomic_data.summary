@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mVesMur1             40224060450               0      2147483648    121534148864       804861913  species/Vespertilio_murinus/mVesMur1/genomic_data/arima/mVesMur1_47476_1#1.cram
 pacbiohifi_bam  mVesMur1             17269751916               0      2147483648     27043213000         2597462  species/Vespertilio_murinus/mVesMur1/genomic_data/pacbio_hifi/m64229e_230501_183331.ccs.bc2074--bc2074.bam
+pacbiohifi_bam  mVesMur1             22214727913               0      2147483648     56357597096         4156156  species/Vespertilio_murinus/mVesMur1/genomic_data/pacbio_hifi/m84093_231215_114954_s1.ccs.bc2064.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +12,5 @@ pacbiohifi_bam  mVesMur1             17269751916               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mVesMur1          3.0214    121532976243
-pacbiohifi_bam  mVesMur1          1.5659     27042704525
+pacbiohifi_bam  mVesMur1          2.2651     89436295260
 --------------- ---------------  ------- ---------------

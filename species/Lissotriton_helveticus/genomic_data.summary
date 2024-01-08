@@ -9,7 +9,9 @@ pacbiohifi_bam  aLisHel1             28533189768               0      2147483648
 pacbiohifi_bam  aLisHel1              4818953763               0      2147483648     13526849744         1273669  species/Lissotriton_helveticus/aLisHel1/genomic_data/pacbio_hifi/m84047_230518_155542_s4.ccs.bc2091.bam
 pacbiohifi_bam  aLisHel1             34264948239               0      2147483648     84965757682         6860381  species/Lissotriton_helveticus/aLisHel1/genomic_data/pacbio_hifi/m84047_230703_135221_s1.ccs.bc2040.bam
 pacbiohifi_bam  aLisHel1             27338901463               0      2147483648     59776318853         7139485  species/Lissotriton_helveticus/aLisHel1/genomic_data/pacbio_hifi/m84047_230714_152541_s4.ccs.bc2040.bam
+pacbiohifi_bam  aLisHel1             38075639518               0      2147483648     92148804888         7253610  species/Lissotriton_helveticus/aLisHel1/genomic_data/pacbio_hifi/m84047_231219_152625_s2.ccs.bc2063.bam
 pacbiohifi_bam  aLisHel1             30309040362               0      2147483648     73470500784         6904092  species/Lissotriton_helveticus/aLisHel1/genomic_data/pacbio_hifi/m84098_230714_152957_s4.ccs.bc2040.bam
+pacbiohifi_bam  aLisHel1             30841512240               0      2147483648     76863818322         7487816  species/Lissotriton_helveticus/aLisHel1/genomic_data/pacbio_hifi/m84098_230718_120558_s3.ccs.bc2040.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -17,5 +19,5 @@ pacbiohifi_bam  aLisHel1             30309040362               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aLisHel1          3.0959    960518248851
-pacbiohifi_bam  aLisHel1          2.3741    874184877912
+pacbiohifi_bam  aLisHel1          2.3768   1045964914220
 --------------- ---------------  ------- ---------------

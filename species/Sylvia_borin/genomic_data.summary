@@ -5,6 +5,9 @@
 10x             bSylBor1              3861814816               0      3861814816      6894662869        45660019  species/Sylvia_borin/bSylBor1/genomic_data/10x/bSylBor1B_1.fastq.gz
 10x             bSylBor1              3373816313               0      3373816313      6009698075        39799325  species/Sylvia_borin/bSylBor1/genomic_data/10x/bSylBor1C_2.fastq.gz
 10x             bSylBor1              4188852490               0      4188852490      7488623634        49593534  species/Sylvia_borin/bSylBor1/genomic_data/10x/bSylBor1D_1.fastq.gz
+10x             bSylBor1              3861814816               0      3861814816      6894662869        45660019  species/Sylvia_borin/bSylBor1/genomic_data/10x/bSylBor1_S2_L001_R1_001.fastq.gz
+10x             bSylBor1              3373816313               0      3373816313      6009698075        39799325  species/Sylvia_borin/bSylBor1/genomic_data/10x/bSylBor1_S3_L001_R2_001.fastq.gz
+10x             bSylBor1              4188852490               0      4188852490      7488623634        49593534  species/Sylvia_borin/bSylBor1/genomic_data/10x/bSylBor1_S4_L001_R1_001.fastq.gz
 bionano         bSylBor1              1263395902               0      1263395902    707607112217         9978290  species/Sylvia_borin/bSylBor1/genomic_data/bionano/bSylBor1_Saphyr_DLE1_2811437
 pacbio          bSylBor1             18932007907               0      2147483648     10541296598          409489  species/Sylvia_borin/bSylBor1/genomic_data/pacbio/m54158_181101_181421.subreads.bam
 pacbio          bSylBor1             26986326314               0      2147483648     14881232303          660921  species/Sylvia_borin/bSylBor1/genomic_data/pacbio/m54158_181103_171455.subreads.bam
@@ -17,7 +20,7 @@ arima           bSylBor2             33281493345               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-10x             bSylBor1          1.7850    105795542045
+10x             bSylBor1          1.7850     52897771022
 arima           bSylBor2          1.5462     95654427623
 bionano         bSylBor1         560.0834    707607112217
 pacbio          bSylBor1          0.5534     86546102480

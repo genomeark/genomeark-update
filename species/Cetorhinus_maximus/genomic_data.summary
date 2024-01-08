@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  sCetMax3             17263901293               0      2147483648     48041598168         7445046  species/Cetorhinus_maximus/sCetMax3/genomic_data/pacbio_hifi/m84047_231218_144553_s4.ccs.bc2002.bam
+pacbiohifi_bam  sCetMax3              9353804295               0      2147483648     26057957789         4353522  species/Cetorhinus_maximus/sCetMax3/genomic_data/pacbio_hifi/m84093_231216_115941_s1.ccs.bc2002.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  sCetMax3          2.7834     74087721733
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz mSpeVen1             37534424592               0      2147483648     71873540821         5272687  species/Speothos_venaticus/mSpeVen1/genomic_data/pacbio_hifi/m84091_231211_205534_s1.hifi_reads.bc1021.fastq.gz
+pacbiohifi_fqgz mSpeVen1             37303515146               0      2147483648     69730085369         5152145  species/Speothos_venaticus/mSpeVen1/genomic_data/pacbio_hifi/m84091_231214_193853_s4.hifi_reads.bc1021.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz mSpeVen1          1.8997    142169634120
+--------------- ---------------  ------- ---------------

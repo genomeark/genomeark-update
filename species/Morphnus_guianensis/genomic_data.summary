@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bMorGui1             15618681960               0      2147483648     28226862442       186932871  species/Morphnus_guianensis/bMorGui1/genomic_data/arima/bMorGui1_L1_S6_R1_001.fastq.gz
 arima           bMorGui1             16330827886               0      2147483648     28463494694       188499972  species/Morphnus_guianensis/bMorGui1/genomic_data/arima/bMorGui1_L1_S6_R2_001.fastq.gz
+pacbiohifi_fqgz bMorGui1             36532541722               0      2147483648     69156032740         4602999  species/Morphnus_guianensis/bMorGui1/genomic_data/pacbio_hifi/m84091_231207_203908_s2.hifi_reads.bc1001.fastq.gz
+pacbiohifi_fqgz bMorGui1             10867159735               0      2147483648     21363754663         1445998  species/Morphnus_guianensis/bMorGui1/genomic_data/pacbio_hifi/m84091_231213_192914_s4.hifi_reads.bc1001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +13,5 @@ arima           bMorGui1             16330827886               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bMorGui1          1.7637     56349350515
+pacbiohifi_fqgz bMorGui1          1.9024     90173192051
 --------------- ---------------  ------- ---------------

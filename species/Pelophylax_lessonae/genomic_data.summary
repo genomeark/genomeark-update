@@ -4,6 +4,9 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           aPelLes1            287824541722               0      2147483648    873689129233      5786020723  species/Pelophylax_lessonae/aPelLes1/genomic_data/arima/aPelLes1_47549_2#1.cram
 pacbiohifi_bam  aPelLes1             19709015457               0      2147483648     26780577191         2095513  species/Pelophylax_lessonae/aPelLes1/genomic_data/pacbio_hifi/m64016e_230524_074538.ccs.bc2015--bc2015.bam
+pacbiohifi_bam  aPelLes1             25310708633               0      2147483648     61606627530         5934289  species/Pelophylax_lessonae/aPelLes1/genomic_data/pacbio_hifi/m84047_231216_120030_s3.ccs.bc2062.bam
+pacbiohifi_bam  aPelLes1             22402848401               0      2147483648     55832963062         5563626  species/Pelophylax_lessonae/aPelLes1/genomic_data/pacbio_hifi/m84047_231219_145604_s1.ccs.bc2062.bam
+pacbiohifi_bam  aPelLes1             22965511439               0      2147483648     55040860678         5432371  species/Pelophylax_lessonae/aPelLes1/genomic_data/pacbio_hifi/m84093_231219_152647_s2.ccs.bc2062.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +14,5 @@ pacbiohifi_bam  aPelLes1             19709015457               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aPelLes1          3.0354    873662613942
-pacbiohifi_bam  aPelLes1          1.3587     26778639301
+pacbiohifi_bam  aPelLes1          2.4403    220574041214
 --------------- ---------------  ------- ---------------

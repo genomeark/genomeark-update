@@ -5,6 +5,8 @@
 10x             bPteGut1             22040856751               0      2147483648     40451055932       269673716  species/Pterocles_gutturalis/bPteGut1/genomic_data/10x/PteGut1_S7_L001_R2_001.fastq.gz
 10x             bPteGut1              2038124126               0      2038124126      2156722536       269590317  species/Pterocles_gutturalis/bPteGut1/genomic_data/10x/bPteGut1_S7_L001_I1_001.fastq.gz
 10x             bPteGut1             21627539804               0      2147483648     40186644164       267910961  species/Pterocles_gutturalis/bPteGut1/genomic_data/10x/bPteGut1_S7_L001_R1_001.fastq.gz
+10x             bPteGut1             22040856751               0      2147483648     40451055932       269673716  species/Pterocles_gutturalis/bPteGut1/genomic_data/10x/bPteGut1_S7_L001_R2_001.fastq.gz
+arima           bPteGut1             26793045330               0      2147483648     51810829895       345405545  species/Pterocles_gutturalis/bPteGut1/genomic_data/arima/bPteGut1_ARI14_4_USPD16090945_HV2CNCCXY_L8_1.clean.fastq.gz
 arima           bPteGut1             26793045330               0      2147483648     51810829895       345405545  species/Pterocles_gutturalis/bPteGut1/genomic_data/arima/bPteGut1_ARI14_4_USPD16090945_HV2CNCCXY_L8_1.clean.fq.gz
 arima           bPteGut1             29006206021               0      2147483648     49355585477       329037250  species/Pterocles_gutturalis/bPteGut1/genomic_data/arima/bPteGut1_ARI14_4_USPD16090945_HV2CNCCXY_L8_2.clean.fastq.gz
 arima           bPteGut1             29006206021               0      2147483648     49355585477       329037250  species/Pterocles_gutturalis/bPteGut1/genomic_data/arima/bPteGut1_ARI14_4_USPD16090945_HV2CNCCXY_L8_2.clean.fq.gz
@@ -18,8 +20,8 @@ pacbio          bPteGut1             15777864214               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-10x             bPteGut1          1.8114    165585583123
-arima           bPteGut1          1.7749    198076182445
+10x             bPteGut1          1.8114     82792791561
+arima           bPteGut1          1.7749     99038091222
 bionano         bPteGut1         597.7996    179479274282
 pacbio          bPteGut1          0.5413     75957236346
 --------------- ---------------  ------- ---------------
