@@ -2,14 +2,13 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
-arima           fPagPag1             55076694582               0      2147483648    206957601799      1370580144  species/Pagrus_pagrus/fPagPag1/genomic_data/arima/fPagPag1_46436_4#5.cram
-pacbiohifi_bam  fPagPag1              4273056545               0      4273056545      8081617300          946520  species/Pagrus_pagrus/fPagPag1/genomic_data/pacbio_hifi/m64228e_240103_165549.ccs.bc2067--bc2067.bam
+dovetail        mAteMar1            104337542908               0      2147483648    180214117199      1193470974  species/Ateles_marginatus/mAteMar1/genomic_data/dovetail/mAteMar1_L1_S6_R1_001.fastq.gz
+dovetail        mAteMar1            108958862756               0      2147483648    181728670455      1203501128  species/Ateles_marginatus/mAteMar1/genomic_data/dovetail/mAteMar1_L1_S6_R2_001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           fPagPag1          3.7576    206956187561
-pacbiohifi_bam  fPagPag1          1.8912      8081204537
+dovetail        mAteMar1          1.6870    359831036355
 --------------- ---------------  ------- ---------------

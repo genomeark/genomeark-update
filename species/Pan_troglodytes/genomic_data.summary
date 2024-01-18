@@ -19,8 +19,10 @@ pacbiohifi_bam  mPanTro1             10917935462               0      2147483648
 pacbiohifi_q2fqgz mPanTro1             11563818760               0      2147483648     15472793173         1523145  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m54329U_190722_030329.Q20.fastq.gz
 pacbiohifi_clr  mPanTro1            595170209011               0      2147483648    307574656485        23892351  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m54329U_190830_235413.subreads.bam
 pacbiohifi_bam  mPanTro1             24580768293               0      2147483648     25881628328         1175181  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m54329U_200518_000845.ccs.bam
+pacbiohifi_bam  mPanTro1             49771332989               0      2147483648     57372105015         2756321  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m54329U_210723_230956.hifi_reads.bam
 pacbiohifi_fqgz mPanTro1             11399582557               0      2147483648     13140456731          631305  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m54329U_210723_230956.hifi_reads.fastq.gz
 pacbiohifi_clr  mPanTro1            447953901817               0      2147483648    241865534723        13262873  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m54329U_210723_230956.subreads.bam
+pacbiohifi_bam  mPanTro1            152870215842               0      2147483648    184961743500         8702314  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m64076_211223_224513.hifi_reads.bam
 pacbiohifi_fqgz mPanTro1             33689272199               0      2147483648     40761547230         1917800  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m64076_211223_224513.hifi_reads.fastq.gz
 pacbiohifi_clr  mPanTro1           1055851830410               0      2147483648    569638691144        29878744  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m64076_220101_204530.subreads.bam
 pacbiohifi_bam  mPanTro1            149882525377               0      2147483648     40029563044         1902388  species/Pan_troglodytes/mPanTro1/genomic_data/pacbio_hifi/m64076_220103_055938.hifi_reads.bam

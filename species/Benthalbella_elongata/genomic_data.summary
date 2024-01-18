@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fBenEln1             40620212181               0      2147483648    124416253793       823948700  species/Benthalbella_elongata/fBenEln1/genomic_data/arima/fBenEln1_45816_1#3.cram
+pacbiohifi_bam  fBenEln1             16550093053               0      2147483648     25122135299         2226121  species/Benthalbella_elongata/fBenEln1/genomic_data/pacbio_hifi/m64089e_240110_203832.ccs.bc2001--bc2001.bam
 pacbiohifi_bam  fBenEln1             68029508635               0      2147483648     18421392841         1774926  species/Benthalbella_elongata/fBenEln1/genomic_data/pacbio_hifi/m64097e_230216_144746.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
 pacbiohifi_bam  fBenEln1              7587463985               0      2147483648     12193399783         1161906  species/Benthalbella_elongata/fBenEln1/genomic_data/pacbio_hifi/m64228e_230818_070912.ccs.bc2034--bc2034.bam
 pacbiohifi_bam  fBenEln1               377169809               0       377169809       107804988           22704  species/Benthalbella_elongata/fBenEln1/genomic_data/pacbio_hifi/m64229e_230302_011354.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
@@ -13,5 +14,5 @@ pacbiohifi_bam  fBenEln1               377169809               0       377169809
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fBenEln1          3.0629    124415647889
-pacbiohifi_bam  fBenEln1          0.4042     30716832369
+pacbiohifi_bam  fBenEln1          0.6047     55961499195
 --------------- ---------------  ------- ---------------

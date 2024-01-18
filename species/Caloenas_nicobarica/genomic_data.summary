@@ -5,6 +5,8 @@
 arima           bCalNic1              8574202624               0      2147483648     13797854239        91376522  species/Caloenas_nicobarica/bCalNic1/genomic_data/arima/bCalNic1_L1_S1_2300620_R2_001.fastq.gz
 arima           bCalNic1              6295358456               0      2147483648     10614354254        70293739  species/Caloenas_nicobarica/bCalNic1/genomic_data/arima/bCalNic1_L1_S1_R2_001.fastq.gz
 arima           bCalNic1             17481542949               0      2147483648     32566782265       215674054  species/Caloenas_nicobarica/bCalNic1/genomic_data/arima/bCalNic1_L1_S7_R1_001.fastq.gz
+dovetail        bCalNic1             15585390672               0      2147483648     27955431058       185135312  species/Caloenas_nicobarica/bCalNic1/genomic_data/dovetail/bCalNic1_L2_S8_R1_001.fastq.gz
+dovetail        bCalNic1             16279646770               0      2147483648     27901632234       184779021  species/Caloenas_nicobarica/bCalNic1/genomic_data/dovetail/bCalNic1_L2_S8_R2_001.fastq.gz
 pacbiohifi_bam  bCalNic1            363195515311               0      2147483648    706441053219        44502317  species/Caloenas_nicobarica/bCalNic1/genomic_data/pacbio_hifi/m84091_230616_163944_s2.hifi_reads.bc1019.bam
 pacbiohifi_fqgz bCalNic1             41970474120               0      2147483648     81635550802         5142638  species/Caloenas_nicobarica/bCalNic1/genomic_data/pacbio_hifi/m84091_230616_163944_s2.hifi_reads.bc1019.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -14,6 +16,7 @@ pacbiohifi_fqgz bCalNic1             41970474120               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bCalNic1          1.7612    114945389443
+dovetail        bCalNic1          1.7397     55435605637
 pacbiohifi_bam  bCalNic1          1.9450    706415277279
 pacbiohifi_fqgz bCalNic1          1.9450     81632572163
 --------------- ---------------  ------- ---------------

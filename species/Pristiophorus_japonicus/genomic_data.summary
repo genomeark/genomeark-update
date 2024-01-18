@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           sPriJap1             11616969487               0      2147483648     19965925459       132224677  species/Pristiophorus_japonicus/sPriJap1/genomic_data/arima/sPriJap1_L1_S1_R2_001.fastq.gz
 arima           sPriJap1             71999415175               0      2147483648    133273014072       882602742  species/Pristiophorus_japonicus/sPriJap1/genomic_data/arima/sPriJap1_L1_S3_R1_001.fastq.gz
 arima           sPriJap1             75082060078               0      2147483648    136152470897       901671992  species/Pristiophorus_japonicus/sPriJap1/genomic_data/arima/sPriJap1_L1_S3_R2_001.fastq.gz
 arima           sPriJap1             41673321159               0      2147483648     74116346617       490836751  species/Pristiophorus_japonicus/sPriJap1/genomic_data/arima/sPriJap1_L2_S5_R2_001.fastq.gz
@@ -11,5 +12,5 @@ arima           sPriJap1             41673321159               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           sPriJap1          1.8200    416027773448
+arima           sPriJap1          1.8146    456020347496
 --------------- ---------------  ------- ---------------

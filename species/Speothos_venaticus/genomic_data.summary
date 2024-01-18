@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mSpeVen1            171800274058               0      2147483648    294593203496      1950948447  species/Speothos_venaticus/mSpeVen1/genomic_data/dovetail/mSpeVen1_L1_S7_R1_001.fastq.gz
+dovetail        mSpeVen1            177865537952               0      2147483648    297762733541      1971938715  species/Speothos_venaticus/mSpeVen1/genomic_data/dovetail/mSpeVen1_L1_S7_R2_001.fastq.gz
 pacbiohifi_fqgz mSpeVen1             37534424592               0      2147483648     71873540821         5272687  species/Speothos_venaticus/mSpeVen1/genomic_data/pacbio_hifi/m84091_231211_205534_s1.hifi_reads.bc1021.fastq.gz
 pacbiohifi_fqgz mSpeVen1             37303515146               0      2147483648     69730085369         5152145  species/Speothos_venaticus/mSpeVen1/genomic_data/pacbio_hifi/m84091_231214_193853_s4.hifi_reads.bc1021.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +12,6 @@ pacbiohifi_fqgz mSpeVen1             37303515146               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+dovetail        mSpeVen1          1.6873    589991124604
 pacbiohifi_fqgz mSpeVen1          1.8997    142169634120
 --------------- ---------------  ------- ---------------
