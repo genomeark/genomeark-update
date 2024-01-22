@@ -2,6 +2,15 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz fDanRer12            25894926598               0      2147483648     29260787664         1282107  species/Danio_rerio/fDanRer12/genomic_data/pacbio_hifi/m54313U_230812_104833.hifi_reads.fastq.gz
+pacbiohifi_clr  fDanRer12           825525933458               0      2147483648    451518258914        22013551  species/Danio_rerio/fDanRer12/genomic_data/pacbio_hifi/m54313U_230812_104833.subreads.bam
+pacbiohifi_clr  fDanRer12           814956866595               0      2147483648    444710519331        21974212  species/Danio_rerio/fDanRer12/genomic_data/pacbio_hifi/m54313U_230813_201738.subreads.bam
+pacbiohifi_bam  fDanRer12           110813903816               0      2147483648     29672594264         1297525  species/Danio_rerio/fDanRer12/genomic_data/pacbio_hifi/m54313U_230815_054336.5mC.hifi_reads.bam
+pacbiohifi_bam  fDanRer12           105621848921               0      2147483648     26327993928         1072703  species/Danio_rerio/fDanRer12/genomic_data/pacbio_hifi/m64467e_231014_031918.5mC.hifi_reads.bam
+pacbiohifi_fqgz fDanRer12            28552420697               0      2147483648     25662233280         1051361  species/Danio_rerio/fDanRer12/genomic_data/pacbio_hifi/m64467e_231014_031918.hifi_reads.fastq.gz
+pacbiohifi_bam  fDanRer12            30608679560               0      2147483648      7951397089          356175  species/Danio_rerio/fDanRer12/genomic_data/pacbio_hifi/m64467e_231215_162529.5mC.hifi_reads.bam
+pacbiohifi_fqgz fDanRer12             7584343973               0      2147483648      7901300140          354734  species/Danio_rerio/fDanRer12/genomic_data/pacbio_hifi/m64467e_231215_162529.hifi_reads.fastq.gz
+pacbiohifi_clr  fDanRer12           313288923046               0      2147483648    166928490825         9277507  species/Danio_rerio/fDanRer12/genomic_data/pacbio_hifi/m64467e_231215_162529.subreads.bam
 ont             fDanRer17            21315455581               0      2147483648     23946958784          656659  species/Danio_rerio/fDanRer17/genomic_data/ont/PAG65805_guppy-6.4.6.fq.gz
 ont             fDanRer17            36935893893               0      2147483648     41161598277         1386031  species/Danio_rerio/fDanRer17/genomic_data/ont/PAG65888_guppy-6.4.6.fq.gz
 ont             fDanRer17            24762903041               0      2147483648     27911381017          608716  species/Danio_rerio/fDanRer17/genomic_data/ont/PAG67837_guppy-6.4.6.fq.gz
@@ -37,4 +46,7 @@ illumina        fDreTuH1          1.8621    203124284431
 ont             fDanRer17         1.0955    249031313076
 ont             fDanRer18         1.1229    147942808955
 pacbio          fDreSAT1          0.2650    128482216935
+pacbiohifi_bam  fDanRer12         0.2588    279039164056
+pacbiohifi_clr  fDanRer12         0.5441   4468827591885
+pacbiohifi_fqgz fDanRer12         1.0127    276156195650
 --------------- ---------------  ------- ---------------
