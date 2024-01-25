@@ -88,7 +88,7 @@ sub loadSpeciesMetadata ($$$$) {
     #  Pull in an exact copy of the metadata file.  We could use YAML::XS::Dump() to
     #  regenerate the yaml, but comments are lost and formatting changes.
     if ($mdf =~ m/y[a]{0,1}ml$/) {
-        $$data{"metadata"} = loadYAMLasString($mdf);
+        $$data{"metadata"} = loadYAMLasString($mdf, "html");
     }
 
     $$data{"data_status"}         = "none";  #<em style=\"color:red\">no data</em>";
@@ -119,8 +119,13 @@ sub loadSpeciesMetadata ($$$$) {
 #
 #  Read a yaml file into a single string, omitting the '---' lines.
 #
-sub loadYAMLasString ($) {
+#  utf8::decode() is needed to convert the raw bytes to a UTF-8 character string.
+#    https://stackoverflow.com/questions/6400692/perls-yamlxs-and-unicode
+#
+
+sub loadYAMLasString ($$) {
     my $mdf = shift @_;
+    my $enc = shift @_;
     my $str;
 
     open(Y, "< $mdf") or die "Failed to open yaml file '$mdf' for reading: $!\n";
@@ -128,6 +133,13 @@ sub loadYAMLasString ($) {
         $str .= "$_"   if ($_ !~ "^---");
     }
     close(Y);
+
+    if ($enc eq "html") {
+        $str =~ s/\n/<br>/g;
+        $str =~ s/\s/&nbsp;/g;
+    }
+
+    utf8::decode($str);
 
     return($str);
 }

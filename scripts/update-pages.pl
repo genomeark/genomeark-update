@@ -206,6 +206,9 @@ foreach my $species (@speciesList) {
     print "----------\n";
     print "Assemblies, pass 2: import metadata\n";
 
+    #  The metadata loaded here is shown on an assembly page
+    #  (_layouts/genomeark.html) in 'ASSEMBLY METADATA'.
+
     for (my $ii=0; $ii<scalar(@speciesFiles); $ii++) {
         my $filesecs = $speciesEpoch[$ii];
         my $filesize = $speciesSizes[$ii];
@@ -215,7 +218,7 @@ foreach my $species (@speciesList) {
         next   if (! isAssemblyFile($filename, "metadata", \@potentialErrors));
 
         {
-            my $md = loadYAMLasString("downloads/$filename");
+            my $md = loadYAMLasString("downloads/$filename", "html");
             my @fc = split '/', $filename;
 
             my $mdh = {};                              #  Make an entry for this metadata file.
