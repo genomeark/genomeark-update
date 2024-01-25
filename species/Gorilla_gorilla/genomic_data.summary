@@ -58,6 +58,7 @@ illumina        mGorGor2              9550011916               0      2147483648
 illumina        mGorGor3             13598212238               0      2147483648     27418138932       181577079  species/Gorilla_gorilla/mGorGor3/genomic_data/illumina/mGorGor3_HNFNCDSX2_19164896_S18_L002_R1_001.fastq.gz
 illumina        mGorGor3             14034318529               0      2147483648     27382669092       181342185  species/Gorilla_gorilla/mGorGor3/genomic_data/illumina/mGorGor3_HNFNCDSX2_19164896_S18_L002_R2_001.fastq.gz
 illumina        mGorGor3             11011329855               0      2147483648     20371050723       134907620  species/Gorilla_gorilla/mGorGor3/genomic_data/illumina/mGorGor3_HT2N2DSX2_19164896_S16_L002_R1_001.fastq.gz
+pacbiohifi_fqgz mGorGor5             14069255116               0      2147483648     18616952898         1000035  species/Gorilla_gorilla/mGorGor5/genomic_data/pacbio_hifi/m54329U_220413_113833-bc2006.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -72,5 +73,6 @@ ont             mGorGor1          1.1541    986229661755
 pacbiohifi_bam  mGorGor1          0.5455    870349028937
 pacbiohifi_clr  mGorGor1          0.4988   6591344573011
 pacbiohifi_fqgz mGorGor1          1.3057    631477802741
+pacbiohifi_fqgz mGorGor5          1.3232     18616438369
 pacbiohifi_q2fqgz mGorGor1          1.2449    153883408495
 --------------- ---------------  ------- ---------------
