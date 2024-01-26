@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           sRajMon1             93788621333               0      2147483648    305402083703      2022530355  species/Raja_montagui/sRajMon1/genomic_data/arima/sRajMon1_48313_1-2#1.cram
 pacbiohifi_bam  sRajMon1             27762603555               0      2147483648     66510717335         6396449  species/Raja_montagui/sRajMon1/genomic_data/pacbio_hifi/m84098_231213_134817_s1.ccs.bc2045.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  sRajMon1             27762603555               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           sRajMon1          3.2562    305394508784
 pacbiohifi_bam  sRajMon1          2.3956     66508093076
 --------------- ---------------  ------- ---------------

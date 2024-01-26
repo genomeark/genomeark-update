@@ -3,11 +3,12 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 pacbiohifi_bam  fScaEry2              4977437580               0      2147483648      8231452672          842847  species/Scardinius_erythrophthalmus/fScaEry2/genomic_data/pacbio_hifi/m64222e_230630_203944.ccs.bc2030--bc2030.bam
+pacbiohifi_bam  fScaEry2             27346665100               0      2147483648     73806178730         5875178  species/Scardinius_erythrophthalmus/fScaEry2/genomic_data/pacbio_hifi/m84098_240122_151739_s4.ccs.bc2044.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-pacbiohifi_bam  fScaEry2          1.6537      8231188526
+pacbiohifi_bam  fScaEry2          2.6117     84420858969
 --------------- ---------------  ------- ---------------
