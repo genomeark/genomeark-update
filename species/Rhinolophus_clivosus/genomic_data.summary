@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mRhiCli1             29888144249               0      2147483648     68893991284       456251611  species/Rhinolophus_clivosus/mRhiCli1/genomic_data/arima/A057_S282_1.fastq.gz
+arima           mRhiCli1             30214760496               0      2147483648     69421897631       459747680  species/Rhinolophus_clivosus/mRhiCli1/genomic_data/arima/A057_S282_2.fastq.gz
+pacbiohifi_bam  mRhiCli1            138316190848               0      2147483648     35785168798         1529766  species/Rhinolophus_clivosus/mRhiCli1/genomic_data/pacbio_hifi/m64326e_230926_083556.hifi_reads.bc2049--bc2049.bam
+pacbiohifi_fqgz mRhiCli1             34968407343               0      2147483648      9047027334          386747  species/Rhinolophus_clivosus/mRhiCli1/genomic_data/pacbio_hifi/m64326e_230926_083556.hifi_reads.bc2049--bc2049.fastq.gz
+pacbiohifi_bam  mRhiCli1            137952075526               0      2147483648     35551721956         1507944  species/Rhinolophus_clivosus/mRhiCli1/genomic_data/pacbio_hifi/m64326e_231003_011325.hifi_reads.bc2049--bc2049.bam
+pacbiohifi_fqgz mRhiCli1             35640300891               0      2147483648      9184885859          389581  species/Rhinolophus_clivosus/mRhiCli1/genomic_data/pacbio_hifi/m64326e_231003_011325.hifi_reads.bc2049--bc2049.fastq.gz
+pacbiohifi_bam  mRhiCli1            125392584284               0      2147483648     32622257472         1461922  species/Rhinolophus_clivosus/mRhiCli1/genomic_data/pacbio_hifi/m64326e_231007_084709.hifi_reads.bc2049--bc2049.bam
+pacbiohifi_fqgz mRhiCli1             31291818045               0      2147483648      8140910013          364823  species/Rhinolophus_clivosus/mRhiCli1/genomic_data/pacbio_hifi/m64326e_231007_084709.hifi_reads.bc2049--bc2049.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mRhiCli1          2.3000    138236680913
+pacbiohifi_bam  mRhiCli1          0.2588    112975016850
+pacbiohifi_fqgz mRhiCli1          0.2588     28321961795
+--------------- ---------------  ------- ---------------

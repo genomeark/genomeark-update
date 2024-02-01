@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mRhiDar1             20889082423               0      2147483648     48066672315       318322333  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/arima/A062_S312_1.fastq.gz
+arima           mRhiDar1             21163060256               0      2147483648     48228218274       319392183  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/arima/A062_S312_2.fastq.gz
+pacbiohifi_bam  mRhiDar1            129102475399               0      2147483648     33559735472         1626132  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231008_194409.hifi_reads.bc2043--bc2043.bam
+pacbiohifi_fqgz mRhiDar1             31475075818               0      2147483648     33372218690         1633960  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231008_194409.hifi_reads.bc2043--bc2043.fastq.gz
+pacbiohifi_bam  mRhiDar1            113595844291               0      2147483648     29980082327         1787924  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231026_220215.hifi_reads.bc2053--bc2053.bam
+pacbiohifi_fqgz mRhiDar1             25866895485               0      2147483648     29455469754         1762431  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231026_220215.hifi_reads.bc2053--bc2053.fastq.gz
+pacbiohifi_bam  mRhiDar1            118537447100               0      2147483648     31697511843         1644302  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231130_052019.hifi_reads.bc2068--bc2068.bam
+pacbiohifi_fqgz mRhiDar1             27513316779               0      2147483648     31710404255         1671310  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231130_052019.hifi_reads.bc2068--bc2068.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mRhiDar1          2.2862     96139608592
+pacbiohifi_bam  mRhiDar1          0.2636    104278240641
+pacbiohifi_fqgz mRhiDar1          1.1141    103364713446
+--------------- ---------------  ------- ---------------

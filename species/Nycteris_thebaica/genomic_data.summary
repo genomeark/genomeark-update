@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mNycThe2             49199086166               0      2147483648    113625077030       752483976  species/Nycteris_thebaica/mNycThe2/genomic_data/arima/A058_S288_1.fastq.gz
+arima           mNycThe2             50092235678               0      2147483648    114522585463       758427741  species/Nycteris_thebaica/mNycThe2/genomic_data/arima/A058_S288_2.fastq.gz
+pacbiohifi_bam  mNycThe2            120870728219               0      2147483648     31891584126         1666368  species/Nycteris_thebaica/mNycThe2/genomic_data/pacbio_hifi/m64326e_231109_211523.hifi_reads.bc2062--bc2062.bam
+pacbiohifi_fqgz mNycThe2             28395929985               0      2147483648      7492229121          391476  species/Nycteris_thebaica/mNycThe2/genomic_data/pacbio_hifi/m64326e_231109_211523.hifi_reads.bc2062--bc2062.fastq.gz
+pacbiohifi_bam  mNycThe2            119950144736               0      2147483648     31360228555         1702159  species/Nycteris_thebaica/mNycThe2/genomic_data/pacbio_hifi/m64326e_231121_221946.hifi_reads.bc2062--bc2062.bam
+pacbiohifi_fqgz mNycThe2             28573313238               0      2147483648      7470317236          405471  species/Nycteris_thebaica/mNycThe2/genomic_data/pacbio_hifi/m64326e_231121_221946.hifi_reads.bc2062--bc2062.fastq.gz
+pacbiohifi_bam  mNycThe2            131253989146               0      2147483648     33984894915         1699072  species/Nycteris_thebaica/mNycThe2/genomic_data/pacbio_hifi/m64326e_231126_021808.hifi_reads.bc2066--bc2066.bam
+pacbiohifi_fqgz mNycThe2             32278981487               0      2147483648      8357824405          417848  species/Nycteris_thebaica/mNycThe2/genomic_data/pacbio_hifi/m64326e_231126_021808.hifi_reads.bc2066--bc2066.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mNycThe2          2.2938    227754434045
+pacbiohifi_bam  mNycThe2          0.2613    105694660964
+pacbiohifi_fqgz mNycThe2          0.2612     25321120471
+--------------- ---------------  ------- ---------------

@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fLeuLeu2             31244132901               0      2147483648    100399543752       664897640  species/Leuciscus_leuciscus/fLeuLeu2/genomic_data/arima/fLeuLeu2_48359_6-7#7.cram
 pacbiohifi_bam  fLeuLeu2             12920811054               0      2147483648     18960297748         1997635  species/Leuciscus_leuciscus/fLeuLeu2/genomic_data/pacbio_hifi/m64222e_230324_161836.ccs.bc1011_BAK8A_OA--bc1011_BAK8A_OA.rmdup.bam
 pacbiohifi_bam  fLeuLeu2             18533895063               0      2147483648     27627214103         2631764  species/Leuciscus_leuciscus/fLeuLeu2/genomic_data/pacbio_hifi/m64229e_231111_030239.ccs.bc2066--bc2066.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  fLeuLeu2             18533895063               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fLeuLeu2          3.2133    100396772250
 pacbiohifi_bam  fLeuLeu2          1.4846     46697656701
 --------------- ---------------  ------- ---------------

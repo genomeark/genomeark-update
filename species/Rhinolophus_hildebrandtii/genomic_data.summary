@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mRhiHil1             26661067936               0      2147483648     62070067384       411060061  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/arima/A061_S306_1.fastq.gz
+arima           mRhiHil1             27079310062               0      2147483648     62385774421       413150836  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/arima/A061_S306_2.fastq.gz
+pacbiohifi_bam  mRhiHil1            137259765140               0      2147483648     36398349652         1978473  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/pacbio_hifi/m64326e_231028_085838.hifi_reads.bc2057--bc2057.bam
+pacbiohifi_fqgz mRhiHil1             32439444248               0      2147483648      8602245771          467584  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/pacbio_hifi/m64326e_231028_085838.hifi_reads.bc2057--bc2057.fastq.gz
+pacbiohifi_bam  mRhiHil1            142027672455               0      2147483648     37753415915         2056523  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/pacbio_hifi/m64326e_231029_195638.hifi_reads.bc2057--bc2057.bam
+pacbiohifi_fqgz mRhiHil1             33242497417               0      2147483648      8836431727          481342  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/pacbio_hifi/m64326e_231029_195638.hifi_reads.bc2057--bc2057.fastq.gz
+pacbiohifi_bam  mRhiHil1            141213119629               0      2147483648     36239173811         1799322  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/pacbio_hifi/m64326e_231114_060222.hifi_reads.bc2065--bc2065.bam
+pacbiohifi_fqgz mRhiHil1             34411761350               0      2147483648      8831005249          438470  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/pacbio_hifi/m64326e_231114_060222.hifi_reads.bc2065--bc2065.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mRhiHil1          2.3118    124237005855
+pacbiohifi_bam  mRhiHil1          0.2625    144835568422
+pacbiohifi_fqgz mRhiHil1          0.2624     34734592413
+--------------- ---------------  ------- ---------------

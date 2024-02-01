@@ -1,0 +1,24 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMyoTri1             33833785317               0      2147483648     77584727051       513806155  species/Myotis_tricolor/mMyoTri1/genomic_data/arima/A056_S276_1.fastq.gz
+arima           mMyoTri1             34384530389               0      2147483648     78179434829       517744617  species/Myotis_tricolor/mMyoTri1/genomic_data/arima/A056_S276_2.fastq.gz
+pacbiohifi_bam  mMyoTri1             88823945886               0      2147483648     23597434664         1950336  species/Myotis_tricolor/mMyoTri1/genomic_data/pacbio_hifi/m64326e_230812_152022.hifi_reads.bc2038--bc2038.bam
+pacbiohifi_fqgz mMyoTri1             18882803694               0      2147483648      5016504524          414615  species/Myotis_tricolor/mMyoTri1/genomic_data/pacbio_hifi/m64326e_230812_152022.hifi_reads.bc2038--bc2038.fastq.gz
+pacbiohifi_bam  mMyoTri1            101518149279               0      2147483648     27790626709         2421657  species/Myotis_tricolor/mMyoTri1/genomic_data/pacbio_hifi/m64326e_230818_145342.hifi_reads.bc2038--bc2038.bam
+pacbiohifi_fqgz mMyoTri1             20233603091               0      2147483648     27740023099         2341914  species/Myotis_tricolor/mMyoTri1/genomic_data/pacbio_hifi/m64326e_230818_145342.hifi_reads.bc2038--bc2038.fastq.gz
+pacbiohifi_bam  mMyoTri1            106379420835               0      2147483648     29068721111         2434385  species/Myotis_tricolor/mMyoTri1/genomic_data/pacbio_hifi/m64326e_230820_004713.hifi_reads.bc2038--bc2038.bam
+pacbiohifi_fqgz mMyoTri1             21221115551               0      2147483648     29247640142         2419215  species/Myotis_tricolor/mMyoTri1/genomic_data/pacbio_hifi/m64326e_230820_004713.hifi_reads.bc2038--bc2038.fastq.gz
+pacbiohifi_bam  mMyoTri1             88772039332               0      2147483648    108706833125        10082265  species/Myotis_tricolor/mMyoTri1/genomic_data/pacbio_hifi/m64326e_230827_123552.hifi_reads.bc2038--bc2038.bam
+pacbiohifi_fqgz mMyoTri1             19176601545               0      2147483648     23482930433         2177978  species/Myotis_tricolor/mMyoTri1/genomic_data/pacbio_hifi/m64326e_230827_123552.hifi_reads.bc2038--bc2038.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mMyoTri1          2.2800    155537759809
+pacbiohifi_bam  mMyoTri1          0.2711    104507302850
+pacbiohifi_fqgz mMyoTri1          1.3272    105531145214
+--------------- ---------------  ------- ---------------
