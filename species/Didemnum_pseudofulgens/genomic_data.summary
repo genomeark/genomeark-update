@@ -2,14 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
-arima           fArgOlf1             40699186816               0      2147483648    128063637680       848103560  species/Argyropelecus_olfersii/fArgOlf1/genomic_data/arima/fArgOlf1_48358_3-4#8.cram
-pacbiohifi_bam  fArgOlf1             21983301517               0      2147483648     64174859923         8258290  species/Argyropelecus_olfersii/fArgOlf1/genomic_data/pacbio_hifi/m84047_240201_081544_s1.ccs.bc2036.bam
+arima           kaDidPseu1           41757148182               0      2147483648    142344439175       942678405  species/Didemnum_pseudofulgens/kaDidPseu1/genomic_data/arima/kaDidPseu1_48387_7-8#7.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           fArgOlf1          3.1465    128059991316
-pacbiohifi_bam  fArgOlf1          2.9192     64173653788
+arima           kaDidPseu1        3.4088    142341766722
 --------------- ---------------  ------- ---------------

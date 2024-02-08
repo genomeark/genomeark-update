@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fBugLut1             44631135170               0      2147483648    132088168941       874756085  species/Buglossidium_luteum/fBugLut1/genomic_data/arima/fBugLut1_46436_4#4.cram
+arima           fBugLut1             46595184395               0      2147483648    153987672915      1019785913  species/Buglossidium_luteum/fBugLut1/genomic_data/arima/fBugLut1_48387_5-6#6.cram
 pacbiohifi_bam  fBugLut1             17810338642               0      2147483648     27080441478         2615888  species/Buglossidium_luteum/fBugLut1/genomic_data/pacbio_hifi/m64229e_230925_135826.ccs.bc2067--bc2067.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -10,6 +11,6 @@ pacbiohifi_bam  fBugLut1             17810338642               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           fBugLut1          2.9595    132085844535
+arima           fBugLut1          3.1929    291276515739
 pacbiohifi_bam  fBugLut1          1.5204     27078838871
 --------------- ---------------  ------- ---------------
