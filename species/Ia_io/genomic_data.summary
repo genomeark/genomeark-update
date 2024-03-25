@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mIaxIox2             34119880463               0      2147483648     78352805819       518892769  species/Ia_io/mIaxIox2/genomic_data/arima/mIaxIox2_KD_1.fastq.gz
+arima           mIaxIox2             34805376226               0      2147483648     78987373663       523095206  species/Ia_io/mIaxIox2/genomic_data/arima/mIaxIox2_KD_2.fastq.gz
+pacbiohifi_bam  mIaxIox2            112633805423               0      2147483648     29393809773         1380463  species/Ia_io/mIaxIox2/genomic_data/pacbio_hifi/mIaxIox2_m64326e_230313_050618.hifi_reads.bc2025--bc2025.bam
+pacbiohifi_fqgz mIaxIox2             26880784409               0      2147483648     29230956790         1374015  species/Ia_io/mIaxIox2/genomic_data/pacbio_hifi/mIaxIox2_m64326e_230313_050618.hifi_reads.bc2025--bc2025.fastq.gz
+pacbiohifi_bam  mIaxIox2            104526720425               0      2147483648     27235872770         1290641  species/Ia_io/mIaxIox2/genomic_data/pacbio_hifi/mIaxIox2_m64326e_230320_022755.hifi_reads.bc2025--bc2025.bam
+pacbiohifi_fqgz mIaxIox2             25236157171               0      2147483648     27096116212         1301749  species/Ia_io/mIaxIox2/genomic_data/pacbio_hifi/mIaxIox2_m64326e_230320_022755.hifi_reads.bc2025--bc2025.fastq.gz
+pacbiohifi_bam  mIaxIox2            101799284083               0      2147483648     26170486986         1283794  species/Ia_io/mIaxIox2/genomic_data/pacbio_hifi/mIaxIox2_m64326e_230501_193348.hifi_reads.bc2025--bc2025.bam
+pacbiohifi_fqgz mIaxIox2             24384296150               0      2147483648     26176389556         1283185  species/Ia_io/mIaxIox2/genomic_data/pacbio_hifi/mIaxIox2_m64326e_230501_193348.hifi_reads.bc2025--bc2025.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mIaxIox2          2.2782    157025519788
+pacbiohifi_bam  mIaxIox2          0.2595     82770070677
+pacbiohifi_fqgz mIaxIox2          1.0784     82498934768
+--------------- ---------------  ------- ---------------

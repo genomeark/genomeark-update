@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMyoNes1             33981056287               0      2147483648     76332444621       505512894  species/Myotis_nesopolus/mMyoNes1/genomic_data/arima/mMyoNes1_KD_1.fastq.gz
+arima           mMyoNes1             34660856197               0      2147483648     76229774559       504832960  species/Myotis_nesopolus/mMyoNes1/genomic_data/arima/mMyoNes1_KD_2.fastq.gz
+pacbiohifi_bam  mMyoNes1            111650520520               0      2147483648     28842787898         1460800  species/Myotis_nesopolus/mMyoNes1/genomic_data/pacbio_hifi/mMyoNes1_m64326e_230324_211409.hifi_reads.bc2026--bc2026.bam
+pacbiohifi_fqgz mMyoNes1             26982296443               0      2147483648     28899461640         1478666  species/Myotis_nesopolus/mMyoNes1/genomic_data/pacbio_hifi/mMyoNes1_m64326e_230324_211409.hifi_reads.bc2026--bc2026.fastq.gz
+pacbiohifi_bam  mMyoNes1            125611885086               0      2147483648     32907169694         1623286  species/Myotis_nesopolus/mMyoNes1/genomic_data/pacbio_hifi/mMyoNes1_m64326e_230406_190804.hifi_reads.bc2026--bc2026.bam
+pacbiohifi_fqgz mMyoNes1             29482693414               0      2147483648     32916364507         1628129  species/Myotis_nesopolus/mMyoNes1/genomic_data/pacbio_hifi/mMyoNes1_m64326e_230406_190804.hifi_reads.bc2026--bc2026.fastq.gz
+pacbiohifi_bam  mMyoNes1            125749933717               0      2147483648     32530000496         1592102  species/Myotis_nesopolus/mMyoNes1/genomic_data/pacbio_hifi/mMyoNes1_m64326e_230503_051827.hifi_reads.bc2026--bc2026.bam
+pacbiohifi_fqgz mMyoNes1             30263502638               0      2147483648     32192305443         1580083  species/Myotis_nesopolus/mMyoNes1/genomic_data/pacbio_hifi/mMyoNes1_m64326e_230503_051827.hifi_reads.bc2026--bc2026.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mMyoNes1          2.2147    152021243578
+pacbiohifi_bam  mMyoNes1          0.2597     94274304522
+pacbiohifi_fqgz mMyoNes1          1.0839     94005013015
+--------------- ---------------  ------- ---------------

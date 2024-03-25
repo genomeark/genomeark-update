@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bGruGru1             18654003748               0      2147483648     59489752677         5654234  species/Grus_grus/bGruGru1/genomic_data/pacbio_hifi/m84093_240219_121437_s3.ccs.bc2028.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bGruGru1          3.1891     59489483352
+--------------- ---------------  ------- ---------------

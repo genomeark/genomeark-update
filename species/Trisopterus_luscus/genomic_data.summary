@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fTriLus1             13863035479               0      2147483648     45307647931       300050648  species/Trisopterus_luscus/fTriLus1/genomic_data/arima/fTriLus1_48443_8#4.cram
+arima           fTriLus1             13364748247               0      2147483648     40126910077       265741126  species/Trisopterus_luscus/fTriLus1/genomic_data/arima/fTriLus1_48454_4#4.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fTriLus1          3.1817     86630639481
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rPodGai1             58079842967               0      2147483648    191452084687      1267894600  species/Podarcis_gaigeae/rPodGai1/genomic_data/arima/rPodGai1_48313_7-8#4.cram
+pacbiohifi_bam  rPodGai1             25767939288               0      2147483648     64258737773         7690387  species/Podarcis_gaigeae/rPodGai1/genomic_data/pacbio_hifi/m84047_231213_135009_s1.ccs.bc2026.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rPodGai1          3.2963    191448586372
+pacbiohifi_bam  rPodGai1          2.4937     64257510202
+--------------- ---------------  ------- ---------------

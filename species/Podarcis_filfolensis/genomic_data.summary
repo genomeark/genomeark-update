@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rPodFil1             62178914440               0      2147483648    205751079119      1362589927  species/Podarcis_filfolensis/rPodFil1/genomic_data/arima/rPodFil1_48313_7-8#1.cram
+pacbiohifi_bam  rPodFil1             19490452475               0      2147483648     48287277496         6258438  species/Podarcis_filfolensis/rPodFil1/genomic_data/pacbio_hifi/m84093_240220_123145_s3.ccs.bc2009.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rPodFil1          3.3090    205750027881
+pacbiohifi_bam  rPodFil1          2.4774     48285646961
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,23 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mCarSow1             31378177909               0      2147483648     57750339866       383951627  species/Carollia_sowelli/mCarSow1/genomic_data/arima/mCarSow1_LV_1.fastq.gz
+arima           mCarSow1             30087239646               0      2147483648     49414829163       328535880  species/Carollia_sowelli/mCarSow1/genomic_data/arima/mCarSow1_LV_2.2.fastq.gz
+arima           mCarSow1             32996035802               0      2147483648     55892630460       371567616  species/Carollia_sowelli/mCarSow1/genomic_data/arima/mCarSow1_LV_2.fastq.gz
+pacbiohifi_bam  mCarSow1            128339567330               0      2147483648     34141650924         2085660  species/Carollia_sowelli/mCarSow1/genomic_data/pacbio_hifi/mCarSow1_m64326e_220618_135835.hifi_reads.bam
+pacbiohifi_fqgz mCarSow1             29311603933               0      2147483648     34137275399         2106875  species/Carollia_sowelli/mCarSow1/genomic_data/pacbio_hifi/mCarSow1_m64326e_220618_135835.hifi_reads.fastq.gz
+pacbiohifi_bam  mCarSow1            120182445044               0      2147483648     32001684626         1995575  species/Carollia_sowelli/mCarSow1/genomic_data/pacbio_hifi/mCarSow1_m64326e_220619_233809.hifi_reads.bam
+pacbiohifi_fqgz mCarSow1             27667770118               0      2147483648     32203618356         2035422  species/Carollia_sowelli/mCarSow1/genomic_data/pacbio_hifi/mCarSow1_m64326e_220619_233809.hifi_reads.fastq.gz
+pacbiohifi_bam  mCarSow1            132032571866               0      2147483648     35684774616         1891261  species/Carollia_sowelli/mCarSow1/genomic_data/pacbio_hifi/mCarSow1_m64326e_221002_171447.hifi_reads.bc2004--bc2004.bam
+pacbiohifi_fqgz mCarSow1             30189686520               0      2147483648     35602086512         1886732  species/Carollia_sowelli/mCarSow1/genomic_data/pacbio_hifi/mCarSow1_m64326e_221002_171447.hifi_reads.bc2004--bc2004.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mCarSow1          1.7261    211616417443
+pacbiohifi_bam  mCarSow1          0.2675    101798351284
+pacbiohifi_fqgz mCarSow1          1.1694    101935499431
+--------------- ---------------  ------- ---------------

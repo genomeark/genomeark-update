@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bAytFer1             42237932147               0      2147483648    129252394245       855976120  species/Aythya_ferina/bAytFer1/genomic_data/arima/bAytFer1_47339_3#6.cram
 pacbiohifi_bam  bAytFer1             18056679499               0      2147483648     26377906408         2506572  species/Aythya_ferina/bAytFer1/genomic_data/pacbio_hifi/m64089e_230712_142755.ccs.bc2049--bc2049.bam
+pacbiohifi_bam  bAytFer1             14785677575               0      2147483648     21686290096         2213338  species/Aythya_ferina/bAytFer1/genomic_data/pacbio_hifi/m64089e_240201_163956.ccs.bc2049--bc2049.bam
 pacbiohifi_bam  bAytFer1             35650386729               0      2147483648     89245831324         7554569  species/Aythya_ferina/bAytFer1/genomic_data/pacbio_hifi/m84098_240201_081615_s1.ccs.bc2037.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -12,5 +13,5 @@ pacbiohifi_bam  bAytFer1             35650386729               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bAytFer1          3.0601    129252296163
-pacbiohifi_bam  bAytFer1          2.2926    123128820034
+pacbiohifi_bam  bAytFer1          2.0047    137307403501
 --------------- ---------------  ------- ---------------

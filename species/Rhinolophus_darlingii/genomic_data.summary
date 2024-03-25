@@ -8,6 +8,8 @@ pacbiohifi_bam  mRhiDar1            129102475399               0      2147483648
 pacbiohifi_fqgz mRhiDar1             31475075818               0      2147483648     33372218690         1633960  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231008_194409.hifi_reads.bc2043--bc2043.fastq.gz
 pacbiohifi_bam  mRhiDar1            113595844291               0      2147483648     29980082327         1787924  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231026_220215.hifi_reads.bc2053--bc2053.bam
 pacbiohifi_fqgz mRhiDar1             25866895485               0      2147483648     29455469754         1762431  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231026_220215.hifi_reads.bc2053--bc2053.fastq.gz
+pacbiohifi_bam  mRhiDar1             34356951879               0      2147483648      9113116393          480920  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231117_100511.hifi_reads.bc2068--bc2068.bam
+pacbiohifi_fqgz mRhiDar1              7923379404               0      2147483648      9026803584          475996  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231117_100511.hifi_reads.bc2068--bc2068.fastq.gz
 pacbiohifi_bam  mRhiDar1            118537447100               0      2147483648     31697511843         1644302  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231130_052019.hifi_reads.bc2068--bc2068.bam
 pacbiohifi_fqgz mRhiDar1             27513316779               0      2147483648     31710404255         1671310  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231130_052019.hifi_reads.bc2068--bc2068.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -17,6 +19,6 @@ pacbiohifi_fqgz mRhiDar1             27513316779               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mRhiDar1          2.2862     96139608592
-pacbiohifi_bam  mRhiDar1          0.2636    104278240641
-pacbiohifi_fqgz mRhiDar1          1.1141    103364713446
+pacbiohifi_bam  mRhiDar1          0.2656     70779808612
+pacbiohifi_fqgz mRhiDar1          1.1450     70192612459
 --------------- ---------------  ------- ---------------

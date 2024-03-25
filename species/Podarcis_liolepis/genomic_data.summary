@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rPodLio1             71957469073               0      2147483648    238766239987      1581233377  species/Podarcis_liolepis/rPodLio1/genomic_data/arima/rPodLio1_48313_7-8#3.cram
+pacbiohifi_bam  rPodLio1             21870912213               0      2147483648     53504035360         7502946  species/Podarcis_liolepis/rPodLio1/genomic_data/pacbio_hifi/m84093_231212_144510_s2.ccs.bc2025.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rPodLio1          3.3181    238762078131
+pacbiohifi_bam  rPodLio1          2.4463     53502812546
+--------------- ---------------  ------- ---------------

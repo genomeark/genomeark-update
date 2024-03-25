@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  aAlyObs21            19907373389               0      2147483648     51970349281         3535789  species/Alytes_obstetricans/aAlyObs21/genomic_data/pacbio_hifi/m84098_240219_124342_s4.ccs.bc2026.bam
+pacbiohifi_bam  aAlyObs22            15514403933               0      2147483648     43258338448         3552930  species/Alytes_obstetricans/aAlyObs22/genomic_data/pacbio_hifi/m84093_240219_111042_s1.ccs.bc2027.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  aAlyObs21         2.6106     51970188969
+pacbiohifi_bam  aAlyObs22         2.7882     43257261045
+--------------- ---------------  ------- ---------------

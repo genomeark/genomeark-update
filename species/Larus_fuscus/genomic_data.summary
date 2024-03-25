@@ -5,6 +5,7 @@
 arima           bLarFus1             24471654832               0      2147483648     76245137246       504934683  species/Larus_fuscus/bLarFus1/genomic_data/arima/bLarFus1_47339_3#4.cram
 pacbiohifi_bam  bLarFus1             12555010748               0      2147483648     22311147084         3280966  species/Larus_fuscus/bLarFus1/genomic_data/pacbio_hifi/m64125e_230714_223033.ccs.bc2094--bc2094.bam
 pacbiohifi_bam  bLarFus1             11074361250               0      2147483648     17712381344         1852121  species/Larus_fuscus/bLarFus1/genomic_data/pacbio_hifi/m64222e_231216_003131.ccs.bc2053--bc2053.bam
+pacbiohifi_bam  bLarFus1             11003843937               0      2147483648     18295600231         2570020  species/Larus_fuscus/bLarFus1/genomic_data/pacbio_hifi/m64222e_240201_165659.ccs.bc2094--bc2094.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,5 +13,5 @@ pacbiohifi_bam  bLarFus1             11074361250               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bLarFus1          3.1156     76243887794
-pacbiohifi_bam  bLarFus1          1.7226     40703956203
+pacbiohifi_bam  bLarFus1          1.6839     58318872312
 --------------- ---------------  ------- ---------------

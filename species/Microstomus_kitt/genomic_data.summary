@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fMicKit1             14536411473               0      2147483648     93125866472       616727592  species/Microstomus_kitt/fMicKit1/genomic_data/arima/fMicKit1_48443_8#2.cram
+arima           fMicKit1             16044978728               0      2147483648     93843702261       621481471  species/Microstomus_kitt/fMicKit1/genomic_data/arima/fMicKit1_48454_4#2.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fMicKit1          6.0226    184179480624
+--------------- ---------------  ------- ---------------

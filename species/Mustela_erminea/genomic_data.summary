@@ -12,6 +12,7 @@ bionano         mMusErm1               859013609               0       859013609
 pacbio          mMusErm1             17346996903               0      2147483648      9447463168          500631  species/Mustela_erminea/mMusErm1/genomic_data/pacbio/m54158_190413_142243.subreads.bam
 pacbio          mMusErm1             18543604100               0      2147483648     10062430186          566717  species/Mustela_erminea/mMusErm1/genomic_data/pacbio/m54158_190430_201854.subreads.bam
 pacbio          mMusErm1             15619696601               0      2147483648      8536343893          445995  species/Mustela_erminea/mMusErm1/genomic_data/pacbio/m54306_190510_175226.subreads.bam
+pacbiohifi_bam  mMusErm2             40299405637               0      2147483648     95785955908         7821803  species/Mustela_erminea/mMusErm2/genomic_data/pacbio_hifi/m84047_240207_144410_s1.ccs.bc2002.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -22,4 +23,5 @@ pacbio          mMusErm1             15619696601               0      2147483648
 arima           mMusErm1          1.4658    459921845849
 bionano         mMusErm1         537.1969    461459451341
 pacbio          mMusErm1          0.5444    193473959620
+pacbiohifi_bam  mMusErm2          2.3768     95783627318
 --------------- ---------------  ------- ---------------

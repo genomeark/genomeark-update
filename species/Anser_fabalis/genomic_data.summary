@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAnsFab1             13398365393               0      2147483648     43628839523       288932712  species/Anser_fabalis/bAnsFab1/genomic_data/arima/bAnsFab1_48587_5-6#4.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bAnsFab1          3.2562     43627757392
+--------------- ---------------  ------- ---------------

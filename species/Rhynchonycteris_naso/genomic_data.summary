@@ -2,10 +2,18 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mRhyNas2             32188283876               0      2147483648     52634753099       349750108  species/Rhynchonycteris_naso/mRhyNas2/genomic_data/arima/A021S120_S3_R2_001.fastq.gz
+arima           mRhyNas2             33007003025               0      2147483648     59634215176       396281975  species/Rhynchonycteris_naso/mRhyNas2/genomic_data/arima/A021S120_S4_R1_001.fastq.gz
+arima           mRhyNas2             35298219723               0      2147483648     58018360033       385510629  species/Rhynchonycteris_naso/mRhyNas2/genomic_data/arima/A021S120_S4_R2_001.fastq.gz
+pacbiohifi_fqgz mRhyNas2             26209311506               0      2147483648     31965721325         2120340  species/Rhynchonycteris_naso/mRhyNas2/genomic_data/pacbio_hifi/m64326e_220801_082216.hifi_reads.fastq.gz
+pacbiohifi_fqgz mRhyNas2             28575659653               0      2147483648     36802512676         2409448  species/Rhynchonycteris_naso/mRhyNas2/genomic_data/pacbio_hifi/m64326e_220803_200954.hifi_reads.fastq.gz
+pacbiohifi_fqgz mRhyNas2             28257791776               0      2147483648     35328489930         2327683  species/Rhynchonycteris_naso/mRhyNas2/genomic_data/pacbio_hifi/m64326e_220805_055709.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mRhyNas2          1.6945    220812456253
+pacbiohifi_fqgz mRhyNas2          1.2535    132656002846
 --------------- ---------------  ------- ---------------

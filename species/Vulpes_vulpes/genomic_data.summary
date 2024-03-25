@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mVulVul1             23230067167               0      2147483648     66557823667         4964771  species/Vulpes_vulpes/mVulVul1/genomic_data/pacbio_hifi/m84047_240223_152838_s3.ccs.bc2013.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mVulVul1          2.8651     66556465440
+--------------- ---------------  ------- ---------------

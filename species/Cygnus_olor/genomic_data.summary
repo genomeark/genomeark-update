@@ -12,6 +12,7 @@ bionano         bCygOlo1               298497402               0       298497402
 pacbio          bCygOlo1             12525317242               0      2147483648      6739581253          555521  species/Cygnus_olor/bCygOlo1/genomic_data/pacbio/m54159_180907_213915.subreads.bam
 pacbio          bCygOlo1             11794297590               0      2147483648      6298292282          574264  species/Cygnus_olor/bCygOlo1/genomic_data/pacbio/m54159_180912_050519.subreads.bam
 pacbio          bCygOlo1             11468715795               0      2147483648      6104447084          559437  species/Cygnus_olor/bCygOlo1/genomic_data/pacbio/m54159_180913_115457.subreads.bam
+pacbiohifi_bam  bCygOlo2             18705701464               0      2147483648     59908610009         6015024  species/Cygnus_olor/bCygOlo2/genomic_data/pacbio_hifi/m84093_240219_124653_s4.ccs.bc2029.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -22,4 +23,5 @@ pacbio          bCygOlo1             11468715795               0      2147483648
 arima           bCygOlo1          1.4499     96546145060
 bionano         bCygOlo1         607.0080    515112680555
 pacbio          bCygOlo1          0.5348     89099462128
+pacbiohifi_bam  bCygOlo2          3.2026     59906879508
 --------------- ---------------  ------- ---------------

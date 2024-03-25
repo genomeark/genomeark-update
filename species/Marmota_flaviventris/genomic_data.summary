@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMarFla1             53683094611               0      2147483648     97407948216       645085774  species/Marmota_flaviventris/mMarFla1/genomic_data/arima/mMarFla1_L1_S5_R1_001.fastq.gz
+arima           mMarFla1             58394191655               0      2147483648     97929272264       648538254  species/Marmota_flaviventris/mMarFla1/genomic_data/arima/mMarFla1_L1_S5_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mMarFla1          1.7203    192806555563
+--------------- ---------------  ------- ---------------

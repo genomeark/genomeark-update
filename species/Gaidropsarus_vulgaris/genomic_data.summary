@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fGaiVul1             12316370125               0      2147483648     38979728239       258143895  species/Gaidropsarus_vulgaris/fGaiVul1/genomic_data/arima/fGaiVul1_48443_8#3.cram
+arima           fGaiVul1             11594779657               0      2147483648     34062615829       225580237  species/Gaidropsarus_vulgaris/fGaiVul1/genomic_data/arima/fGaiVul1_48454_4#3.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fGaiVul1          3.0921     73935666240
+--------------- ---------------  ------- ---------------

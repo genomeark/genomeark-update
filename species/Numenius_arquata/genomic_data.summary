@@ -5,6 +5,7 @@
 arima           bNumArq3             28079861737               0      2147483648     86835488545       575069460  species/Numenius_arquata/bNumArq3/genomic_data/arima/bNumArq3_47432_3#1.cram
 pacbiohifi_bam  bNumArq3             12605442193               0      2147483648     20982195946         2240152  species/Numenius_arquata/bNumArq3/genomic_data/pacbio_hifi/m64221e_230814_063846.ccs.bc2051--bc2051.bam
 pacbiohifi_bam  bNumArq3              7341357698               0      2147483648     12884008257         1618119  species/Numenius_arquata/bNumArq3/genomic_data/pacbio_hifi/m64222e_231217_033704.ccs.bc2054--bc2054.bam
+pacbiohifi_bam  bNumArq3             12811106350               0      2147483648     21774232158         2847487  species/Numenius_arquata/bNumArq3/genomic_data/pacbio_hifi/m64222e_240202_202338.ccs.bc2051--bc2051.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,5 +13,5 @@ pacbiohifi_bam  bNumArq3              7341357698               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bNumArq3          3.0924     86834164435
-pacbiohifi_bam  bNumArq3          1.6849     33608363136
+pacbiohifi_bam  bNumArq3          1.6985     55639303750
 --------------- ---------------  ------- ---------------

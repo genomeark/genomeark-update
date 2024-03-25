@@ -6,6 +6,8 @@ arima           fLepOcu1             13480292359               0      2147483648
 arima           fLepOcu1             13873353648               0      2147483648     24205511968       160301403  species/Lepisosteus_oculatus/fLepOcu1/genomic_data/arima/fLepOcu1_L1_S2_R2_001.fastq.gz
 arima           fLepOcu1              7477454882               0      2147483648     13573280963        89889281  species/Lepisosteus_oculatus/fLepOcu1/genomic_data/arima/fLepOcu1_L1_S9_R1_001.fastq.gz
 arima           fLepOcu1              7567629658               0      2147483648     13717991806        90847631  species/Lepisosteus_oculatus/fLepOcu1/genomic_data/arima/fLepOcu1_L1_S9_R2_001.fastq.gz
+pacbiohifi_bam  fLepOcu1            263706940269               0      2147483648     59995847878         3684311  species/Lepisosteus_oculatus/fLepOcu1/genomic_data/pacbio_hifi/m84091_240223_215749_s2.hifi_reads.bc1018.bam
+pacbiohifi_fqgz fLepOcu1             33657957058               0      2147483648     60487490157         3705303  species/Lepisosteus_oculatus/fLepOcu1/genomic_data/pacbio_hifi/m84091_240223_215749_s2.hifi_reads.bc1018.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,4 +15,6 @@ arima           fLepOcu1              7567629658               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fLepOcu1          1.7789     75423101770
+pacbiohifi_bam  fLepOcu1          0.2275     59993328911
+pacbiohifi_fqgz fLepOcu1          1.7971     60486714628
 --------------- ---------------  ------- ---------------

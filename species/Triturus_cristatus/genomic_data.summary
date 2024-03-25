@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           aTriCri1            299519250843               0      2147483648    918455013755      6082483534  species/Triturus_cristatus/aTriCri1/genomic_data/arima/aTriCri1_47970_1#1.cram
 pacbiohifi_bam  aTriCri1             37270108976               0      2147483648     96596586268         7806754  species/Triturus_cristatus/aTriCri1/genomic_data/pacbio_hifi/m84047_231215_132321_s2.ccs.bc2061.bam
+pacbiohifi_bam  aTriCri1             27678046083               0      2147483648     70504278454         5237731  species/Triturus_cristatus/aTriCri1/genomic_data/pacbio_hifi/m84047_240209_173805_s4.ccs.bc2073.bam
 pacbiohifi_bam  aTriCri1             33589250751               0      2147483648     83058270799         5407277  species/Triturus_cristatus/aTriCri1/genomic_data/pacbio_hifi/m84098_230728_145616_s4.ccs.bc2073.bam
 pacbiohifi_bam  aTriCri1             37464111921               0      2147483648     95740189546         9120238  species/Triturus_cristatus/aTriCri1/genomic_data/pacbio_hifi/m84098_231215_121844_s4.ccs.bc2048.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -13,5 +14,5 @@ pacbiohifi_bam  aTriCri1             37464111921               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aTriCri1          3.0664    918445830784
-pacbiohifi_bam  aTriCri1          2.5423    275390761970
+pacbiohifi_bam  aTriCri1          2.5387    452910802822
 --------------- ---------------  ------- ---------------

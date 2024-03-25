@@ -5,8 +5,10 @@
 arima           aHypRig1            112195072167               0      2147483648    215401306015      1426498767  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/arima/aHypRig1_S1_L001_R1_001.fastq.gz
 arima           aHypRig1            116073892320               0      2147483648    214721886256      1421999246  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/arima/aHypRig1_S1_L001_R2_001.fastq.gz
 pacbiohifi_fqgz aHypRig1             24837837565               0      2147483648     28937566905         1794710  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/pacbio_hifi/m64330e_220204_071710.hifi_reads.fastq.gz
+pacbiohifi_fqgz aHypRig1             22706376452               0      2147483648     27248961790         1666528  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/pacbio_hifi/m64330e_220211_074141.hifi_reads.fastq.gz
 pacbiohifi_fqgz aHypRig1             22118125631               0      2147483648     24566195431         1525302  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/pacbio_hifi/m64330e_220212_184014.hifi_reads.fastq.gz
 pacbiohifi_fqgz aHypRig1             23617641046               0      2147483648     27163193803         1682930  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/pacbio_hifi/m64330e_220214_053701.hifi_reads.fastq.gz
+pacbiohifi_bam  aHypRig1            203422693822               0      2147483648     46313233511         4726167  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/pacbio_hifi/m84091_240226_225525_s3.hifi_reads.bc1018.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,5 +16,6 @@ pacbiohifi_fqgz aHypRig1             23617641046               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aHypRig1          1.8726    427456462898
-pacbiohifi_fqgz aHypRig1          1.1430    156176528632
+pacbiohifi_bam  aHypRig1          0.2276     46299005113
+pacbiohifi_fqgz aHypRig1          1.1592    184608881494
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz fAmbSpe1             21774443362               0      2147483648     42889060846         2802338  species/Amblyopsis_spelaea/fAmbSpe1/genomic_data/pacbio_hifi/m84091_240229_234310_s3.hifi_reads.bc1022.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz fAmbSpe1          1.9696     42886943645
+--------------- ---------------  ------- ---------------

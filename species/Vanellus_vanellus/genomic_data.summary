@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bVanVan1             28885525680               0      2147483648     64496592472         7001232  species/Vanellus_vanellus/bVanVan1/genomic_data/pacbio_hifi/m84098_240209_145901_s3.ccs.bc2028.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bVanVan1          2.2328     64495601738
+--------------- ---------------  ------- ---------------

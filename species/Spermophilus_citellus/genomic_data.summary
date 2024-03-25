@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mSpeCit2            147835857288               0      2147483648    483058267677      3199061375  species/Spermophilus_citellus/mSpeCit2/genomic_data/arima/mSpeCit2_45428_4#1.cram
 pacbiohifi_bam  mSpeCit2             20879553957               0      2147483648     31815173238         2477534  species/Spermophilus_citellus/mSpeCit2/genomic_data/pacbio_hifi/m64221e_230921_215932.ccs.bc2028--bc2028.bam
+pacbiohifi_bam  mSpeCit3             39198842544               0      2147483648     90157856221         6216956  species/Spermophilus_citellus/mSpeCit3/genomic_data/pacbio_hifi/m84098_240222_120854_s3.ccs.bc2016.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,4 +13,5 @@ pacbiohifi_bam  mSpeCit2             20879553957               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           mSpeCit2          3.2675    483053663688
 pacbiohifi_bam  mSpeCit2          1.5237     31814176364
+pacbiohifi_bam  mSpeCit3          2.3000     90157337851
 --------------- ---------------  ------- ---------------
