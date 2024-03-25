@@ -71,12 +71,6 @@ while (<RAW>) {
     my $asmName     = $fileComps[3];
     my $seconds     = 0;
 
-
-    if ($filename =~ m!species/(\w+_\w+)/([a-zA-Z]*)(\d)/!) {
-        #print "$1/$2 -> $2$3 $filename\n";
-        $individuals{"$1/$2"}{"$2$3"}++;
-    }
-
     #  Subdirectories.
 
     next if ($filename =~ m!/$!);          #  Why are you giving me directories?
@@ -84,6 +78,8 @@ while (<RAW>) {
     next if ($filename =~ m!^working!);
     next if ($filename =~ m!^galaxy!);
     next if ($filename =~ m!^species/insects!);
+    next if ($filename =~ m!^species/Mormyrids!);
+
     next if ($filename =~ m!^species/Mormyrids!);
 
     next if ($filename =~ m!/intermediate!i);
@@ -374,11 +370,14 @@ while (<RAW>) {
     next if ($filename eq "species/Rissa_tridactyla/bRisTri1/assembly_vgp_trio_2.0/bRisTri1.trio.hap1.20220720.fasta.gz");
     next if ($filename eq "species/Rissa_tridactyla/bRisTri1/assembly_vgp_trio_2.0/bRisTri1.trio.hap2.20220720.fasta.gz");
 
+    #  Finally, a file we want to process!
 
-    print FILT "$_\n";   #  Finally, a file we want to process!
+    if ($filename =~ m!species/([^/]+)/([a-zA-Z]*)(\d)/!) {
+        $speciesList{"$1"}++;                                #  Remember species found.
+        $individuals{"$1/$2"}{"$2$3"}++;                     #  Remember individuals found.
+    }
 
-    my @v = split '/', $_;
-    $speciesList{$v[1]}++;
+    print FILT "$_\n";                                       #  Remember the file name.
 }
 
 close(RAW);
