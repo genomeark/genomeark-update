@@ -2,8 +2,14 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mArtInt1             25552100793               0      2147483648     46786131793       310887977  species/Artibeus_intermedius/mArtInt1/genomic_data/arima/A001S020_S1_R1_001.fastq.gz
+arima           mArtInt1             26932939218               0      2147483648     45395958229       301637081  species/Artibeus_intermedius/mArtInt1/genomic_data/arima/A001S020_S1_R2_001.fastq.gz
+arima           mArtInt1             12700351907               0      2147483648     20510416721       136283708  species/Artibeus_intermedius/mArtInt1/genomic_data/arima/A001S020_S2_R2_001.fastq.gz
+pacbiohifi_bam  mArtInt1            123814933446               0      2147483648    150923924399         8980067  species/Artibeus_intermedius/mArtInt1/genomic_data/pacbio_hifi/m64326e_220831_200334.hifi_reads.bam
 pacbiohifi_fqgz mArtInt1             27541436585               0      2147483648     33571569901         1997529  species/Artibeus_intermedius/mArtInt1/genomic_data/pacbio_hifi/m64326e_220831_200334.hifi_reads.fastq.gz
+pacbiohifi_bam  mArtInt1            122261603903               0      2147483648    138753049597         8361504  species/Artibeus_intermedius/mArtInt1/genomic_data/pacbio_hifi/m64326e_221012_193656.hifi_reads.bam
 pacbiohifi_fqgz mArtInt1             28568096669               0      2147483648     32421548609         1953780  species/Artibeus_intermedius/mArtInt1/genomic_data/pacbio_hifi/m64326e_221012_193656.hifi_reads.fastq.gz
+pacbiohifi_bam  mArtInt1            106570099706               0      2147483648    133882767781         7795234  species/Artibeus_intermedius/mArtInt1/genomic_data/pacbio_hifi/m64326e_221014_063053.hifi_reads.bam
 pacbiohifi_fqgz mArtInt1             23386028248               0      2147483648     29379593318         1710607  species/Artibeus_intermedius/mArtInt1/genomic_data/pacbio_hifi/m64326e_221014_063053.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -11,5 +17,7 @@ pacbiohifi_fqgz mArtInt1             23386028248               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mArtInt1          1.7288    133454636888
+pacbiohifi_bam  mArtInt1          1.2010    423528611103
 pacbiohifi_fqgz mArtInt1          1.1997     95370825133
 --------------- ---------------  ------- ---------------

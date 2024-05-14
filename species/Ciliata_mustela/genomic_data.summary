@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fCilMus1             51202389674               0      2147483648    150060020564       993774970  species/Ciliata_mustela/fCilMus1/genomic_data/arima/fCilMus1_44176_2#2.cram
+arima           fCilMus1             33865130899               0      2147483648    108107462589       715943460  species/Ciliata_mustela/fCilMus1/genomic_data/arima/fCilMus1_48820_5-6#4.cram
 pacbiohifi_bam  fCilMus1             75074793785               0      2147483648     20626970708         2184719  species/Ciliata_mustela/fCilMus1/genomic_data/pacbio_hifi/m64094e_221204_012051.ccs.bc1020_BAK8B_OA--bc1020_BAK8B_OA.rmdup.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -10,6 +11,6 @@ pacbiohifi_bam  fCilMus1             75074793785               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           fCilMus1          2.9307    150058843417
+arima           fCilMus1          2.9957    254836771380
 pacbiohifi_bam  fCilMus1          0.2747     20623045852
 --------------- ---------------  ------- ---------------

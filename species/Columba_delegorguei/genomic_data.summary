@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bColDel1             28822007864               0      2147483648     56662217845       375246489  species/Columba_delegorguei/bColDel1/genomic_data/arima/bColDel1_L1_R1.fastq.gz
+arima           bColDel1             28941372163               0      2147483648     58082327717       384651190  species/Columba_delegorguei/bColDel1/genomic_data/arima/bColDel1_L1_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bColDel1          1.9932    115133969069
+--------------- ---------------  ------- ---------------

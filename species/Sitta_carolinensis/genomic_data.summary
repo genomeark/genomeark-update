@@ -2,6 +2,10 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bSitCar1             21303442494               0      2147483648     39993833701       264859825  species/Sitta_carolinensis/bSitCar1/genomic_data/arima/bSitCar2_S19_L004_R1_001.fastq.gz
+arima           bSitCar1             22029312530               0      2147483648     40246722238       266534584  species/Sitta_carolinensis/bSitCar1/genomic_data/arima/bSitCar2_S19_L004_R2_001.fastq.gz
+pacbiohifi_bam  bSitCar1            291030390265               0      2147483648     66708680740         3948285  species/Sitta_carolinensis/bSitCar1/genomic_data/pacbio_hifi/m84091_240227_230546_s3.hifi_reads.bc1020.bam
+pacbiohifi_fqgz bSitCar1             38113792339               0      2147483648     66719195817         3946240  species/Sitta_carolinensis/bSitCar1/genomic_data/pacbio_hifi/m84091_240227_230546_s3.hifi_reads.bc1020.fastq.gz
 arima           bSitCar2             21303442494               0      2147483648     39993833701       264859825  species/Sitta_carolinensis/bSitCar2/genomic_data/arima/bSitCar2_S19_L004_R1_001.fastq.gz
 arima           bSitCar2             22029312530               0      2147483648     40246722238       266534584  species/Sitta_carolinensis/bSitCar2/genomic_data/arima/bSitCar2_S19_L004_R2_001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +14,8 @@ arima           bSitCar2             22029312530               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bSitCar1          1.8433     79875267335
 arima           bSitCar2          1.8433     79875267335
+pacbiohifi_bam  bSitCar1          0.2292     66704165448
+pacbiohifi_fqgz bSitCar1          1.7505     66718193489
 --------------- ---------------  ------- ---------------

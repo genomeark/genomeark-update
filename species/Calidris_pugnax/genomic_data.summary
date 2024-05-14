@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bCalPug1             72176353572               0      2147483648    255276000354      1690569538  species/Calidris_pugnax/bCalPug1/genomic_data/arima/bCalPug1_48542_7-8#5.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bCalPug1          3.5368    255273327313
+--------------- ---------------  ------- ---------------

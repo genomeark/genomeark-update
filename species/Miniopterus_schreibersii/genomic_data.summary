@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMinSch1             61273180314               0      2147483648    206243805532      1365853016  species/Miniopterus_schreibersii/mMinSch1/genomic_data/arima/mMinSch1_48791_1-2#4.cram
+pacbiohifi_bam  mMinSch1             21095340176               0      2147483648     63550447085         5243462  species/Miniopterus_schreibersii/mMinSch1/genomic_data/pacbio_hifi/m84047_240312_133116_s4.ccs.bc2069.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mMinSch1          3.3659    206239397618
+pacbiohifi_bam  mMinSch1          3.0125     63549712280
+--------------- ---------------  ------- ---------------

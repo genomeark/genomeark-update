@@ -1,0 +1,16 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mLagAcu1            133592130089               0      2147483648    461409250079      3055690397  species/Lagenorhynchus_acutus/mLagAcu1/genomic_data/arima/mLagAcu1_48870_5-6#2.cram
+pacbiohifi_bam  mLagAcu1             23676396509               0      2147483648     71737669142         7517453  species/Lagenorhynchus_acutus/mLagAcu1/genomic_data/pacbio_hifi/m84047_240304_124657_s2.ccs.bc2041.bam
+pacbiohifi_bam  mLagAcu1             23323546527               0      2147483648     72324693390         6818759  species/Lagenorhynchus_acutus/mLagAcu1/genomic_data/pacbio_hifi/m84047_240311_113803_s1.ccs.bc2041.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mLagAcu1          3.4538    461400498901
+pacbiohifi_bam  mLagAcu1          3.0533    143504926071
+--------------- ---------------  ------- ---------------

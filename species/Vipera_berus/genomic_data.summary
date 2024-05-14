@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rVipBer3             97212474042               0      2147483648    298026956033      1973688450  species/Vipera_berus/rVipBer3/genomic_data/arima/rVipBer3_48526_7-8#2.cram
 pacbiohifi_bam  rVipBer3             40606459161               0      2147483648     90532575723         6450964  species/Vipera_berus/rVipBer3/genomic_data/pacbio_hifi/m84047_231216_130242_s1.ccs.bc2047.bam
 pacbiohifi_bam  rVipBer3             38650988658               0      2147483648     93533749631         8589331  species/Vipera_berus/rVipBer3/genomic_data/pacbio_hifi/m84098_231215_114827_s3.ccs.bc2047.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  rVipBer3             38650988658               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           rVipBer3          3.0657    298024281670
 pacbiohifi_bam  rVipBer3          2.2909    181570887208
 --------------- ---------------  ------- ---------------

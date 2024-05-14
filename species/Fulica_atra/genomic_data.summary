@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bFulAtr2             31140511574               0      2147483648    102562758362       679223565  species/Fulica_atra/bFulAtr2/genomic_data/arima/bFulAtr2_48542_7-8#1.cram
+pacbiohifi_bam  bFulAtr2             17048485300               0      2147483648     54005124000         5808921  species/Fulica_atra/bFulAtr2/genomic_data/pacbio_hifi/m84093_240304_124900_s2.ccs.bc2042.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bFulAtr2          3.2935    102561274868
+pacbiohifi_bam  bFulAtr2          3.1677     54004486884
+--------------- ---------------  ------- ---------------

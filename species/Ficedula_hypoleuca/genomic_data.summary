@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bFicHyp2             45046375358               0      2147483648    134394019874       890026621  species/Ficedula_hypoleuca/bFicHyp2/genomic_data/arima/bFicHyp2_47339_4#6.cram
 pacbiohifi_bam  bFicHyp2             19825698406               0      2147483648     24782964122         1607421  species/Ficedula_hypoleuca/bFicHyp2/genomic_data/pacbio_hifi/m64125e_230821_184318.ccs.bc2069--bc2069.bam
+pacbiohifi_bam  bFicHyp2             31801285237               0      2147483648     86502234914         5844165  species/Ficedula_hypoleuca/bFicHyp2/genomic_data/pacbio_hifi/m84093_240312_133302_s4.ccs.bc2065.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +12,5 @@ pacbiohifi_bam  bFicHyp2             19825698406               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bFicHyp2          2.9834    134391356243
-pacbiohifi_bam  bFicHyp2          1.2500     24782123007
+pacbiohifi_bam  bFicHyp2          2.3707    122392090122
 --------------- ---------------  ------- ---------------

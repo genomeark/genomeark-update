@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bMerAlb1             38725955989               0      2147483648    117280033368       776688962  species/Mergellus_albellus/bMerAlb1/genomic_data/arima/bMerAlb1_47339_3#1.cram
 pacbiohifi_bam  bMerAlb1             18857374030               0      2147483648     28290523668         2452127  species/Mergellus_albellus/bMerAlb1/genomic_data/pacbio_hifi/m64230e_230614_183017.ccs.bc2025--bc2025.bam
+pacbiohifi_bam  bMerAlb1              2700250595               0      2700250595      9069677571         1407770  species/Mergellus_albellus/bMerAlb1/genomic_data/pacbio_hifi/m84093_240404_113737_s2.ccs.bc2024.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +12,5 @@ pacbiohifi_bam  bMerAlb1             18857374030               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bMerAlb1          3.0284    117277685117
-pacbiohifi_bam  bMerAlb1          1.5002     28289832519
+pacbiohifi_bam  bMerAlb1          1.6244     35018205440
 --------------- ---------------  ------- ---------------

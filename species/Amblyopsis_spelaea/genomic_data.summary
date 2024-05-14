@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fAmbSpe1            185270649310               0      2147483648    364927085355        23844061  species/Amblyopsis_spelaea/fAmbSpe1/genomic_data/pacbio_hifi/m84091_240229_234310_s3.hifi_reads.bc1022.bam
 pacbiohifi_fqgz fAmbSpe1             21774443362               0      2147483648     42889060846         2802338  species/Amblyopsis_spelaea/fAmbSpe1/genomic_data/pacbio_hifi/m84091_240229_234310_s3.hifi_reads.bc1022.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_fqgz fAmbSpe1             21774443362               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+pacbiohifi_bam  fAmbSpe1          1.9696    364909070880
 pacbiohifi_fqgz fAmbSpe1          1.9696     42886943645
 --------------- ---------------  ------- ---------------

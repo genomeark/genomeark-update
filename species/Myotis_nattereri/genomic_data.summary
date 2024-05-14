@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMyoNat1             83800525575               0      2147483648    287962639287      1907037346  species/Myotis_nattereri/mMyoNat1/genomic_data/arima/mMyoNat1_48820_7-8#4.cram
+pacbiohifi_bam  mMyoNat1             16301015102               0      2147483648     47684606122         4614888  species/Myotis_nattereri/mMyoNat1/genomic_data/pacbio_hifi/m84047_240312_125900_s3.ccs.bc2068.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mMyoNat1          3.4362    287955365980
+pacbiohifi_bam  mMyoNat1          2.9252     47683729376
+--------------- ---------------  ------- ---------------

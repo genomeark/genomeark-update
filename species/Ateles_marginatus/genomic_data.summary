@@ -4,6 +4,10 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 dovetail        mAteMar1            104337542908               0      2147483648    180214117199      1193470974  species/Ateles_marginatus/mAteMar1/genomic_data/dovetail/mAteMar1_L1_S6_R1_001.fastq.gz
 dovetail        mAteMar1            108958862756               0      2147483648    181728670455      1203501128  species/Ateles_marginatus/mAteMar1/genomic_data/dovetail/mAteMar1_L1_S6_R2_001.fastq.gz
+pacbiohifi_bam  mAteMar1            377219136294               0      2147483648     87246715778         6170983  species/Ateles_marginatus/mAteMar1/genomic_data/pacbio_hifi/m84091_240313_180629_s4.hifi_reads.bc1017.bam
+pacbiohifi_fqgz mAteMar1             45353875593               0      2147483648     85829424549         6075649  species/Ateles_marginatus/mAteMar1/genomic_data/pacbio_hifi/m84091_240313_180629_s4.hifi_reads.bc1017.fastq.gz
+pacbiohifi_bam  mAteMar1            363662123129               0      2147483648     83675375298         5900600  species/Ateles_marginatus/mAteMar1/genomic_data/pacbio_hifi/m84091_240318_165509_s2.hifi_reads.bc1017.bam
+pacbiohifi_fqgz mAteMar1             43942279327               0      2147483648     83991678271         5909120  species/Ateles_marginatus/mAteMar1/genomic_data/pacbio_hifi/m84091_240318_165509_s2.hifi_reads.bc1017.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +15,6 @@ dovetail        mAteMar1            108958862756               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 dovetail        mAteMar1          1.6870    359831036355
+pacbiohifi_bam  mAteMar1          0.2308    170995394674
+pacbiohifi_fqgz mAteMar1          1.8986    169537679731
 --------------- ---------------  ------- ---------------

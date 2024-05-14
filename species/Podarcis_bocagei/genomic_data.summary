@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  rPodBoc1             15461368125               0      2147483648     45416364870         5334295  species/Podarcis_bocagei/rPodBoc1/genomic_data/pacbio_hifi/m84093_240508_110010_s2.ccs.bc2011.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  rPodBoc1          2.9374     45416222730
+--------------- ---------------  ------- ---------------

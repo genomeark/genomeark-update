@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bLarMar3             37599366654               0      2147483648     95881421787         5678239  species/Larus_marinus/bLarMar3/genomic_data/pacbio_hifi/m84098_240501_111037_s3.ccs.bc2085.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bLarMar3          2.5500     95878384967
+--------------- ---------------  ------- ---------------

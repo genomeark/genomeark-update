@@ -8,6 +8,12 @@ illumina        sPotMar1             84370271155               0      2147483648
 illumina        sPotMar1             89963410242               0      2147483648    174070200193      1152782824  species/Potamotrygon_marinae/sPotMar1/genomic_data/illumina/sPotMar1_DNA_R2.fastq.gz
 pacbio          sPotMar1            298672384378               0      2147483648    157262805114         6837041  species/Potamotrygon_marinae/sPotMar1/genomic_data/pacbio/m54306U_200305_192331.subreads.bam
 pacbio          sPotMar1            294958118689               0      2147483648    155178377259         6819593  species/Potamotrygon_marinae/sPotMar1/genomic_data/pacbio/m54306U_200306_213606.subreads.bam
+pacbiohifi_bam  sPotMar1            247947481371               0      2147483648     59305760732         3234483  species/Potamotrygon_marinae/sPotMar1/genomic_data/pacbio_hifi/m84091_240226_222420_s2.hifi_reads.bc1016.bam
+pacbiohifi_fqgz sPotMar1             30492067489               0      2147483648     58218468091         3168203  species/Potamotrygon_marinae/sPotMar1/genomic_data/pacbio_hifi/m84091_240226_222420_s2.hifi_reads.bc1016.fastq.gz
+pacbiohifi_bam  sPotMar1            229300622461               0      2147483648     52762781753         3049534  species/Potamotrygon_marinae/sPotMar1/genomic_data/pacbio_hifi/m84091_240228_215100_s4.hifi_reads.bc1016.bam
+pacbiohifi_fqgz sPotMar1             29113043951               0      2147483648     52032678076         3003255  species/Potamotrygon_marinae/sPotMar1/genomic_data/pacbio_hifi/m84091_240228_215100_s4.hifi_reads.bc1016.fastq.gz
+pacbiohifi_bam  sPotMar1            239494167278               0      2147483648     55162029029         3194580  species/Potamotrygon_marinae/sPotMar1/genomic_data/pacbio_hifi/m84091_240228_222206_s1.hifi_reads.bc1016.bam
+pacbiohifi_fqgz sPotMar1             31304502960               0      2147483648     53997240954         3129730  species/Potamotrygon_marinae/sPotMar1/genomic_data/pacbio_hifi/m84091_240228_222206_s1.hifi_reads.bc1016.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -17,4 +23,6 @@ pacbio          sPotMar1            294958118689               0      2147483648
 arima           sPotMar1          1.4157    248925630199
 illumina        sPotMar1          1.9747    344256720654
 pacbio          sPotMar1          0.5263    312427733764
+pacbiohifi_bam  sPotMar1          0.2333    167215971849
+pacbiohifi_fqgz sPotMar1          1.8067    164246400336
 --------------- ---------------  ------- ---------------

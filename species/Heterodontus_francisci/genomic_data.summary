@@ -6,8 +6,11 @@ arima           sHetFra1             77834407154               0      2147483648
 arima           sHetFra1             82155017154               0      2147483648    160672816050      1064058422  species/Heterodontus_francisci/sHetFra1/genomic_data/arima/sHetFra1_L1_S4_R2_001.fastq.gz
 arima           sHetFra1             79347875451               0      2147483648    161952017636      1072529955  species/Heterodontus_francisci/sHetFra1/genomic_data/arima/sHetFra1_L2_S1_R1_001.fastq.gz
 arima           sHetFra1             84123266550               0      2147483648    164900648009      1092057271  species/Heterodontus_francisci/sHetFra1/genomic_data/arima/sHetFra1_L2_S1_R2_001.fastq.gz
+pacbiohifi_clr  sHetFra1           1290639737489               0      2147483648    697747522923        37355815  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m54306Ue_221109_145933.subreads.bam
 pacbiohifi_fqgz sHetFra1             27963779040               0      2147483648     35076039032         1827315  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m54306Ue_221117_124623.bc1022--bc1022.hifi_reads.fastq.gz
+pacbiohifi_clr  sHetFra1           1232486368932               0      2147483648    664856144586        35762177  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m54306Ue_221117_124623.subreads.bam
 pacbiohifi_fqgz sHetFra1             24799049908               0      2147483648     30971241220         2052025  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m64330e_230109_055405.hifi_reads.fastq.gz
+pacbiohifi_clr  sHetFra1           1205667278979               0      2147483648    648101534412        42439249  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m64330e_230109_055405.subreads.bam
 pacbiohifi_fqgz sHetFra1             27464688185               0      2147483648     34557138653         1783945  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m64334e_221115_174730.bc1022--bc1022.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -16,5 +19,6 @@ pacbiohifi_fqgz sHetFra1             27464688185               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           sHetFra1          1.9848    642004532010
+pacbiohifi_clr  sHetFra1          0.5392   4284741190708
 pacbiohifi_fqgz sHetFra1          1.2539    215550758836
 --------------- ---------------  ------- ---------------

@@ -5,6 +5,7 @@
 arima           bCalBor6             30304122677               0      2147483648     62515681187       414011147  species/Calonectris_borealis/bCalBor6/genomic_data/arima/bCalBor6_40520_4#2_R1.fastq.gz
 arima           bCalBor6             32404169579               0      2147483648     63435739854       420104252  species/Calonectris_borealis/bCalBor6/genomic_data/arima/bCalBor6_40520_4#2_R2.fastq.gz
 pacbiohifi_bam  bCalBor6              9797808520               0      2147483648      2563190022          300036  species/Calonectris_borealis/bCalBor6/genomic_data/pacbio_hifi/m64174e_210507_153628.ccs.bc1021_BAK8B_OA--bc1021_BAK8B_OA.bam
+arima           bCalBor7             21803023564               0      2147483648     68850459271       455963306  species/Calonectris_borealis/bCalBor7/genomic_data/arima/bCalBor7_48526_3-4#4.cram
 pacbiohifi_bam  bCalBor7             27618483611               0      2147483648     79213949344         5903995  species/Calonectris_borealis/bCalBor7/genomic_data/pacbio_hifi/m84098_240219_121126_s3.ccs.bc2077.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -13,6 +14,7 @@ pacbiohifi_bam  bCalBor7             27618483611               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bCalBor6          1.9911    124858480710
+arima           bCalBor7          3.1578     68849587810
 pacbiohifi_bam  bCalBor6          0.2616      2563106708
 pacbiohifi_bam  bCalBor7          2.8681     79212572844
 --------------- ---------------  ------- ---------------

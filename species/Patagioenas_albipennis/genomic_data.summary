@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPatAlb1             28170576421               0      2147483648     55128871331       365091876  species/Patagioenas_albipennis/bPatAlb1/genomic_data/arima/bPatAlb1_L1_R1.fastq.gz
+arima           bPatAlb1             28569550207               0      2147483648     56488487645       374095957  species/Patagioenas_albipennis/bPatAlb1/genomic_data/arima/bPatAlb1_L1_R2.fastq.gz
+pacbiohifi_bam  bPatAlb1            207516909612               0      2147483648     45286336380         5640927  species/Patagioenas_albipennis/bPatAlb1/genomic_data/pacbio_hifi/m84091_240415_174351_s2.hifi_reads.bc1001.bam
+pacbiohifi_fqgz bPatAlb1             25067981328               0      2147483648     45148657359         5699480  species/Patagioenas_albipennis/bPatAlb1/genomic_data/pacbio_hifi/m84091_240415_174351_s2.hifi_reads.bc1001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bPatAlb1          1.9705    111806419520
+pacbiohifi_bam  bPatAlb1          0.2182     45280189677
+pacbiohifi_fqgz bPatAlb1          1.8010     45147434371
+--------------- ---------------  ------- ---------------

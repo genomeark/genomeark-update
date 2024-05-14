@@ -6,8 +6,11 @@ arima           sHepPer1             50757592273               0      2147483648
 arima           sHepPer1             53984637692               0      2147483648    104034528888       688970415  species/Heptranchias_perlo/sHepPer1/genomic_data/arima/sHepPer1_L1_S5_R2_001.fastq.gz
 arima           sHepPer1             23223838456               0      2147483648     46849475065       310261435  species/Heptranchias_perlo/sHepPer1/genomic_data/arima/sHepPer1_L2_S2_R1_001.fastq.gz
 arima           sHepPer1             24304940091               0      2147483648     47539274719       314829645  species/Heptranchias_perlo/sHepPer1/genomic_data/arima/sHepPer1_L2_S2_R2_001.fastq.gz
+pacbiohifi_clr  sHepPer1           1284181639698               0      2147483648    688312131041        33029582  species/Heptranchias_perlo/sHepPer1/genomic_data/pacbio_hifi/m54306Ue_230207_124916.subreads.bam
+pacbiohifi_clr  sHepPer1           1088136775172               0      2147483648    587253787333        31155151  species/Heptranchias_perlo/sHepPer1/genomic_data/pacbio_hifi/m54306Ue_230305_160919.subreads.bam
 pacbiohifi_fqgz sHepPer1             22196437618               0      2147483648     25859644727         1412262  species/Heptranchias_perlo/sHepPer1/genomic_data/pacbio_hifi/m54306Ue_230307_114248.bc1001--bc1001.hifi_reads.fastq.gz
 pacbiohifi_fqgz sHepPer1             23954160193               0      2147483648     30341598997         1761823  species/Heptranchias_perlo/sHepPer1/genomic_data/pacbio_hifi/m54306Ue_230309_071541.bc1001--bc1001.hifi_reads.fastq.gz
+pacbiohifi_clr  sHepPer1           1221159442900               0      2147483648    655204910385        39237189  species/Heptranchias_perlo/sHepPer1/genomic_data/pacbio_hifi/m54306Ue_230309_071541.subreads.bam
 pacbiohifi_fqgz sHepPer1             25876363294               0      2147483648     34719970170         2397018  species/Heptranchias_perlo/sHepPer1/genomic_data/pacbio_hifi/m64330e_230321_171818.bc1001--bc1001.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -16,5 +19,6 @@ pacbiohifi_fqgz sHepPer1             25876363294               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           sHepPer1          1.9729    300415472693
+pacbiohifi_clr  sHepPer1          0.5372   3878339662983
 pacbiohifi_fqgz sHepPer1          1.2623    180956340277
 --------------- ---------------  ------- ---------------

@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bAnaPla2             25620965911               0      2147483648     84095626259       556924677  species/Anas_platyrhynchos/bAnaPla2/genomic_data/arima/bAnaPla2_48387_5-6#3.cram
+pacbiohifi_bam  bAnaPla2             24279657779               0      2147483648     70819907411         6203440  species/Anas_platyrhynchos/bAnaPla2/genomic_data/pacbio_hifi/m84093_240328_182427_s1.ccs.bc2073.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           bAnaPla2             25620965911               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bAnaPla2          3.2822     84093134313
+pacbiohifi_bam  bAnaPla2          2.9168     70818905809
 --------------- ---------------  ------- ---------------

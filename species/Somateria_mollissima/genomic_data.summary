@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bSomMol2             21733789369               0      2147483648     72803837243       482144617  species/Somateria_mollissima/bSomMol2/genomic_data/arima/bSomMol2_48542_3-4#6.cram
 pacbiohifi_bam  bSomMol2             19993272748               0      2147483648     63128762355         6592551  species/Somateria_mollissima/bSomMol2/genomic_data/pacbio_hifi/m84093_240219_114220_s2.ccs.bc2027.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  bSomMol2             19993272748               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bSomMol2          3.3497     72801674249
 pacbiohifi_bam  bSomMol2          3.1575     63128758701
 --------------- ---------------  ------- ---------------

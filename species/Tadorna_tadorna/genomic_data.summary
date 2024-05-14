@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bTadTad1             23358983217               0      2147483648     78264335654       518306858  species/Tadorna_tadorna/bTadTad1/genomic_data/arima/bTadTad1_48587_5-6#1.cram
+pacbiohifi_bam  bTadTad1             13407908943               0      2147483648     43752101368         4577079  species/Tadorna_tadorna/bTadTad1/genomic_data/pacbio_hifi/m84098_240326_122728_s1.ccs.bc2065.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bTadTad1          3.3505     78264273268
+pacbiohifi_bam  bTadTad1          3.2631     43751347671
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bOenCap1             35736026851               0      2147483648     69078139324       457471121  species/Oena_capensis/bOenCap1/genomic_data/arima/bOenCap1_L1_R1.fastq.gz
+arima           bOenCap1             36613183435               0      2147483648     70668037350       468000264  species/Oena_capensis/bOenCap1/genomic_data/arima/bOenCap1_L1_R2.fastq.gz
+pacbiohifi_bam  bOenCap1            302745943153               0      2147483648     68022730725         6325077  species/Oena_capensis/bOenCap1/genomic_data/pacbio_hifi/m84091_240423_201636_s2.hifi_reads.bc1010.bam
+pacbiohifi_fqgz bOenCap1             35787561565               0      2147483648     67710487402         6244714  species/Oena_capensis/bOenCap1/genomic_data/pacbio_hifi/m84091_240423_201636_s2.hifi_reads.bc1010.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bOenCap1          1.9310    139706325062
+pacbiohifi_bam  bOenCap1          0.2246     67996738832
+pacbiohifi_fqgz bOenCap1          1.8920     67710066480
+--------------- ---------------  ------- ---------------

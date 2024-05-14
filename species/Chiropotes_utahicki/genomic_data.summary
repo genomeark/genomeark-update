@@ -4,6 +4,10 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mChiUta1             37563438655               0      2147483648     65859009537       436152381  species/Chiropotes_utahicki/mChiUta1/genomic_data/arima/mChiUta1_S1_R1_001.fastq.gz
 arima           mChiUta1             39269299822               0      2147483648     66069899281       437549001  species/Chiropotes_utahicki/mChiUta1/genomic_data/arima/mChiUta1_S1_R2_001.fastq.gz
+pacbiohifi_bam  mChiUta1            300211366755               0      2147483648     68462343706         5099368  species/Chiropotes_utahicki/mChiUta1/genomic_data/pacbio_hifi/m84091_240226_212251_s4.hifi_reads.bc1021.bam
+pacbiohifi_fqgz mChiUta1             34916576093               0      2147483648     68294758435         5086461  species/Chiropotes_utahicki/mChiUta1/genomic_data/pacbio_hifi/m84091_240226_212251_s4.hifi_reads.bc1021.fastq.gz
+pacbiohifi_bam  mChiUta1            330003657531               0      2147483648     77310945375         5866349  species/Chiropotes_utahicki/mChiUta1/genomic_data/pacbio_hifi/m84091_240228_232420_s3.hifi_reads.bc1021.bam
+pacbiohifi_fqgz mChiUta1             39310133607               0      2147483648     77728653766         5904564  species/Chiropotes_utahicki/mChiUta1/genomic_data/pacbio_hifi/m84091_240228_232420_s3.hifi_reads.bc1021.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +15,6 @@ arima           mChiUta1             39269299822               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mChiUta1          1.7053    131022868924
+pacbiohifi_bam  mChiUta1          0.2323    146398950141
+pacbiohifi_fqgz mChiUta1          1.9707    146278576805
 --------------- ---------------  ------- ---------------

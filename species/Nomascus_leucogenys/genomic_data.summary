@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+ont             mNomLeu1             40205123603               0      2147483648     47523597821         1083253  species/Nomascus_leucogenys/mNomLeu1/genomic_data/ont/PAW08567_dorado-7.3.9.fq.gz
+ont             mNomLeu1              1012179762               0      1012179762      1187151749           27505  species/Nomascus_leucogenys/mNomLeu1/genomic_data/ont/PAW08599_dorado-7.3.9.fq.gz
+ont             mNomLeu1             44270225826               0      2147483648     52306674698         1071976  species/Nomascus_leucogenys/mNomLeu1/genomic_data/ont/PAW11065_dorado-7.3.9.fq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+ont             mNomLeu1          1.1816    196491939716
+--------------- ---------------  ------- ---------------

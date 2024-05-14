@@ -4,8 +4,11 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mMolAlv2             41745782518               0      2147483648     73393656836       487685351  species/Molossus_alvarezi/mMolAlv2/genomic_data/arima/A012_S069_S1_R1_001.fastq.gz
 arima           mMolAlv2             44712963417               0      2147483648     71414539331       474479737  species/Molossus_alvarezi/mMolAlv2/genomic_data/arima/A012_S069_S1_R2_001.fastq.gz
+pacbiohifi_bam  mMolAlv2            110357810304               0      2147483648    147408198482        11891086  species/Molossus_alvarezi/mMolAlv2/genomic_data/pacbio_hifi/64326e_220521_114301.hifi_reads.bam
 pacbiohifi_fqgz mMolAlv2             22775339288               0      2147483648     30421695800         2454049  species/Molossus_alvarezi/mMolAlv2/genomic_data/pacbio_hifi/64326e_220521_114301.hifi_reads.fastq.gz
+pacbiohifi_bam  mMolAlv2            129182972692               0      2147483648    171548532414        13249190  species/Molossus_alvarezi/mMolAlv2/genomic_data/pacbio_hifi/m64326e_220515_022110.hifi_reads.bam
 pacbiohifi_fqgz mMolAlv2             26623055043               0      2147483648     35354086733         2730498  species/Molossus_alvarezi/mMolAlv2/genomic_data/pacbio_hifi/m64326e_220515_022110.hifi_reads.fastq.gz
+pacbiohifi_bam  mMolAlv2            129074849435               0      2147483648    163014355189        12802459  species/Molossus_alvarezi/mMolAlv2/genomic_data/pacbio_hifi/m64326e_220516_131715.hifi_reads.bam
 pacbiohifi_fqgz mMolAlv2             27520191272               0      2147483648     34756470796         2729626  species/Molossus_alvarezi/mMolAlv2/genomic_data/pacbio_hifi/m64326e_220516_131715.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -14,5 +17,6 @@ pacbiohifi_fqgz mMolAlv2             27520191272               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mMolAlv2          1.6483    142509950924
+pacbiohifi_bam  mMolAlv2          1.3075    617647914296
 pacbiohifi_fqgz mMolAlv2          1.3069    129055153815
 --------------- ---------------  ------- ---------------

@@ -12,8 +12,15 @@ arima           bPasSan2             38443558201               0      2147483648
 arima           bPasSan2             38705840260               0      2147483648     74189106022       494594058  species/Passerculus_sandwichensis/bPasSan2/genomic_data/arima/bPasSan1_Savannah_Sparrow_R2.fastq.gz
 bionano         bPasSan2               759696674               0       759696674    447082834941         4262955  species/Passerculus_sandwichensis/bPasSan2/genomic_data/bionano/bPasSan1_Saphyr_DLE1_3680723
 pacbiohifi_fqgz bPasSan2             33004229347               0      2147483648     39265742056         1866493  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64055e_221028_134216.bc1003--bc1003.hifi_reads.fastq.gz
+pacbiohifi_bam  bPasSan2            151944312550               0      2147483648     41047305505         1939595  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64055e_221028_134216.hifi_reads.bam
+pacbiohifi_clr  bPasSan2           1266676291228               0      2147483648    680570398049        33864015  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64055e_221028_134216.subreads.bam
+pacbiohifi_bam  bPasSan2             11322662535               0      2147483648      3068073711          213684  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64330e_211010_035131.hifi_reads.bam
+pacbiohifi_fqgz bPasSan2              2525549595               0      2147483648       684341893           47662  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64330e_211010_035131.hifi_reads.fastq.gz
+pacbiohifi_bam  bPasSan2             16252023915               0     16252023915      4458540376          307735  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64330e_211024_014106.hifi_reads.bam
 pacbiohifi_fqgz bPasSan2              3508539154               0      3508539154      4458540376          307735  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64330e_211024_014106.hifi_reads.fastq.gz
+pacbiohifi_clr  bPasSan2            100062403347               0      2147483648     46692471222         3664618  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64330e_211024_014106.reads.bam
 pacbiohifi_fqgz bPasSan2              5662729541               0      2147483648      7772925103          787981  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64330e_220426_190344.hifi_reads.fastq.gz
+pacbiohifi_clr  bPasSan2            170639240266               0      2147483648     81835191645         4645951  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64330e_220426_190344.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -24,6 +31,8 @@ arima           bPasSan1          1.9160    147818247451
 arima           bPasSan2          1.9160    147818247451
 bionano         bPasSan1         588.5017    447082834941
 bionano         bPasSan2         588.5017    447082834941
+pacbiohifi_bam  bPasSan2          0.2705     48559889229
+pacbiohifi_clr  bPasSan2          0.5262    843926253962
 pacbiohifi_fqgz bPasSan1          1.2210     54579979164
 pacbiohifi_fqgz bPasSan2          1.2210     54579979164
 --------------- ---------------  ------- ---------------

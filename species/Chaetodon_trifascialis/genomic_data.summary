@@ -5,7 +5,9 @@
 arima           fChaTrf1             17054204148               0      2147483648     34988688087       231713174  species/Chaetodon_trifascialis/fChaTrf1/genomic_data/arima/fChaTri1_L1_S3_R1_001.fastq.gz
 arima           fChaTrf1             17741604279               0      2147483648     34950760023       231461995  species/Chaetodon_trifascialis/fChaTrf1/genomic_data/arima/fChaTri1_L1_S3_R2_001.fastq.gz
 pacbiohifi_fqgz fChaTrf1             15852122492               0      2147483648     20002636513         1353187  species/Chaetodon_trifascialis/fChaTrf1/genomic_data/pacbio_hifi/m64334e_230324_153809.bc1021--bc1021.hifi_reads.fastq.gz
+pacbiohifi_clr  fChaTrf1           1000046662981               0      2147483648    533387171179        33276776  species/Chaetodon_trifascialis/fChaTrf1/genomic_data/pacbio_hifi/m64334e_230324_153809.subreads.bam
 pacbiohifi_fqgz fChaTrf1             18113356602               0      2147483648     21111769798         1344700  species/Chaetodon_trifascialis/fChaTrf1/genomic_data/pacbio_hifi/m64334e_230409_141510.bc1021--bc1021.hifi_reads.fastq.gz
+pacbiohifi_clr  fChaTrf1            962739257793               0      2147483648    515899903762        30150667  species/Chaetodon_trifascialis/fChaTrf1/genomic_data/pacbio_hifi/m64334e_230409_141510.subreads.bam
 pacbiohifi_fqgz fChaTri1             15852122492               0      2147483648     20002636513         1353187  species/Chaetodon_trifascialis/fChaTri1/genomic_data/pacbio_hifi/m64334e_230324_153809.bc1021--bc1021.hifi_reads.fastq.gz
 pacbiohifi_fqgz fChaTri1             18113356602               0      2147483648     21111769798         1344700  species/Chaetodon_trifascialis/fChaTri1/genomic_data/pacbio_hifi/m64334e_230409_141510.bc1021--bc1021.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -15,6 +17,7 @@ pacbiohifi_fqgz fChaTri1             18113356602               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fChaTrf1          1.9964     69466351943
+pacbiohifi_clr  fChaTrf1          0.5341   1048323960285
 pacbiohifi_fqgz fChaTrf1          1.1948     40581954421
 pacbiohifi_fqgz fChaTri1          1.1948     40581954421
 --------------- ---------------  ------- ---------------

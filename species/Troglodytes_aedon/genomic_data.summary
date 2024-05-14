@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bTroAed1             29322786566               0      2147483648     53953191901       357305920  species/Troglodytes_aedon/bTroAed1/genomic_data/arima/bTroAed1_1.fastq.gz
 arima           bTroAed1             29821307972               0      2147483648     53499553682       354301693  species/Troglodytes_aedon/bTroAed1/genomic_data/arima/bTroAed1_2.fastq.gz
+pacbiohifi_bam  bTroAed1            254417483133               0      2147483648     59503777178         2747137  species/Troglodytes_aedon/bTroAed1/genomic_data/pacbio_hifi/m84091_240117_181852_s1.hifi_reads.bc1009.bam
+pacbiohifi_fqgz bTroAed1             34368612014               0      2147483648     59540079717         2747413  species/Troglodytes_aedon/bTroAed1/genomic_data/pacbio_hifi/m84091_240117_181852_s1.hifi_reads.bc1009.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +13,6 @@ arima           bTroAed1             29821307972               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bTroAed1          1.8091    106997581428
+pacbiohifi_bam  bTroAed1          0.2338     59482807556
+pacbiohifi_fqgz bTroAed1          1.7323     59536746591
 --------------- ---------------  ------- ---------------

@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fKreAnd1             42930393845               0      2147483648    127688651737       845620210  species/Krefftichthys_anderssoni/fKreAnd1/genomic_data/arima/fKreAnd1_46625_1#5.cram
 pacbiohifi_bam  fKreAnd1             10328715425               0      2147483648     16219611180         1735107  species/Krefftichthys_anderssoni/fKreAnd1/genomic_data/pacbio_hifi/m64228e_230405_132128.ccs.bc1009_BAK8A_OA--bc1009_BAK8A_OA.bam
+pacbiohifi_bam  fKreAnd1             24902611164               0      2147483648     62643855984         5208564  species/Krefftichthys_anderssoni/fKreAnd1/genomic_data/pacbio_hifi/m84093_240325_142742_s3.ccs.bc2055.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +12,5 @@ pacbiohifi_bam  fKreAnd1             10328715425               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fKreAnd1          2.9743    127687870413
-pacbiohifi_bam  fKreAnd1          1.5703     16219181831
+pacbiohifi_bam  fKreAnd1          2.3532     82906357729
 --------------- ---------------  ------- ---------------

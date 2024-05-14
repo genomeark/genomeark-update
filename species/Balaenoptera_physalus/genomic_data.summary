@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mBalPhy2             26325090544               0      2147483648     73456695486         6689063  species/Balaenoptera_physalus/mBalPhy2/genomic_data/pacbio_hifi/m84098_240508_102324_s2.ccs.bc2093.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mBalPhy2          2.7903     73454900144
+--------------- ---------------  ------- ---------------

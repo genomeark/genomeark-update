@@ -9,6 +9,7 @@ pacbiohifi_fqgz aHypRig1             22706376452               0      2147483648
 pacbiohifi_fqgz aHypRig1             22118125631               0      2147483648     24566195431         1525302  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/pacbio_hifi/m64330e_220212_184014.hifi_reads.fastq.gz
 pacbiohifi_fqgz aHypRig1             23617641046               0      2147483648     27163193803         1682930  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/pacbio_hifi/m64330e_220214_053701.hifi_reads.fastq.gz
 pacbiohifi_bam  aHypRig1            203422693822               0      2147483648     46313233511         4726167  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/pacbio_hifi/m84091_240226_225525_s3.hifi_reads.bc1018.bam
+pacbiohifi_fqgz aHypRig1             22618035938               0      2147483648      5149446997          525490  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/pacbio_hifi/m84091_240226_225525_s3.hifi_reads.bc1018.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS

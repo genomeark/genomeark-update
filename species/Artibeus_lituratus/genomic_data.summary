@@ -2,8 +2,14 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mArtLit1             24702974350               0      2147483648     40175512006       266932480  species/Artibeus_lituratus/mArtLit1/genomic_data/arima/A002S022_S1_R2_001.fastq.gz
+arima           mArtLit1             25351067737               0      2147483648     46369314533       308120474  species/Artibeus_lituratus/mArtLit1/genomic_data/arima/A002S022_S2_R1_001.fastq.gz
+arima           mArtLit1             26736760012               0      2147483648     44919328497       298470980  species/Artibeus_lituratus/mArtLit1/genomic_data/arima/A002S022_S2_R2_001.fastq.gz
+pacbiohifi_bam  mArtLit1            124801388965               0      2147483648    153025401667        10671457  species/Artibeus_lituratus/mArtLit1/genomic_data/pacbio_hifi/m64326e_220617_044904.hifi_reads.bam
 pacbiohifi_fqgz mArtLit1             27446495207               0      2147483648     33653559373         2346881  species/Artibeus_lituratus/mArtLit1/genomic_data/pacbio_hifi/m64326e_220617_044904.hifi_reads.fastq.gz
+pacbiohifi_bam  mArtLit1            104999537817               0      2147483648    135702094543         8435181  species/Artibeus_lituratus/mArtLit1/genomic_data/pacbio_hifi/m64326e_220924_041620.hifi_reads.bc2003--bc2003.bam
 pacbiohifi_fqgz mArtLit1             22559264930               0      2147483648     29155742644         1812308  species/Artibeus_lituratus/mArtLit1/genomic_data/pacbio_hifi/m64326e_220924_041620.hifi_reads.bc2003--bc2003.fastq.gz
+pacbiohifi_bam  mArtLit1            131562176067               0      2147483648    164597293894        10128925  species/Artibeus_lituratus/mArtLit1/genomic_data/pacbio_hifi/m64326e_221001_061922.hifi_reads.bc2003--bc2003.bam
 pacbiohifi_fqgz mArtLit1             28559318526               0      2147483648     35730532022         2198771  species/Artibeus_lituratus/mArtLit1/genomic_data/pacbio_hifi/m64326e_221001_061922.hifi_reads.bc2003--bc2003.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -11,5 +17,7 @@ pacbiohifi_fqgz mArtLit1             28559318526               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mArtLit1          1.7119    170955077508
+pacbiohifi_bam  mArtLit1          1.2544    571211321440
 pacbiohifi_fqgz mArtLit1          1.2542    125612813990
 --------------- ---------------  ------- ---------------

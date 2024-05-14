@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bCygCyg1             16504123119               0      2147483648     53451937416       353986340  species/Cygnus_cygnus/bCygCyg1/genomic_data/arima/bCygCyg1_48542_7-8#3.cram
+pacbiohifi_bam  bCygCyg1             13257272205               0      2147483648     40455984324         4341109  species/Cygnus_cygnus/bCygCyg1/genomic_data/pacbio_hifi/m84098_240329_150457_s3.ccs.bc2067.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bCygCyg1          3.2387     53451903545
+pacbiohifi_bam  bCygCyg1          3.0516     40455891860
+--------------- ---------------  ------- ---------------

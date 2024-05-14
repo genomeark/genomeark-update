@@ -1,0 +1,23 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mDerPha1             29679405706               0      2147483648     53326922717       354324122  species/Dermanura_phaeotis/mDerPha1/genomic_data/arima/A006S043_S3_R1_001.fastq.gz
+arima           mDerPha1             31698784599               0      2147483648     51458690711       341888778  species/Dermanura_phaeotis/mDerPha1/genomic_data/arima/A006S043_S3_R2_001.fastq.gz
+arima           mDerPha1             15802071329               0      2147483648     24876334123       165277068  species/Dermanura_phaeotis/mDerPha1/genomic_data/arima/A006S043_S4_R2_001.fastq.gz
+pacbiohifi_fqgz mDerPha1             25096826499               0      2147483648     29772898832         1832520  species/Dermanura_phaeotis/mDerPha1/genomic_data/pacbio_hifi/m64326e_220902_052754.fastq.gz
+pacbiohifi_bam  mDerPha1            110408394156               0      2147483648     29708556151         1800942  species/Dermanura_phaeotis/mDerPha1/genomic_data/pacbio_hifi/m64326e_220902_052754.hifi_reads.bam
+pacbiohifi_fqgz mDerPha1             21727663473               0      2147483648     25491117054         1560295  species/Dermanura_phaeotis/mDerPha1/genomic_data/pacbio_hifi/m64326e_221021_062331.fastq.gz
+pacbiohifi_bam  mDerPha1             93991674571               0      2147483648     25402874912         1536923  species/Dermanura_phaeotis/mDerPha1/genomic_data/pacbio_hifi/m64326e_221021_062331.hifi_reads.bam
+pacbiohifi_fqgz mDerPha1             21243271834               0      2147483648     28591370537         1779106  species/Dermanura_phaeotis/mDerPha1/genomic_data/pacbio_hifi/m64326e_221025_174625.fastq.gz
+pacbiohifi_bam  mDerPha1            103967906049               0      2147483648     28779558752         1790827  species/Dermanura_phaeotis/mDerPha1/genomic_data/pacbio_hifi/m64326e_221025_174625.hifi_reads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mDerPha1          1.6799    154296292559
+pacbiohifi_bam  mDerPha1          0.2720    105101969959
+pacbiohifi_fqgz mDerPha1          1.2319    105453809588
+--------------- ---------------  ------- ---------------

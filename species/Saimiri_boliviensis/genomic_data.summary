@@ -2,7 +2,11 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mSaiBol1              1699875502               0      1699875502      3015434364        19969764  species/Saimiri_boliviensis/mSaiBol1/genomic_data/arima/mSaiBol1_L1_S2_R1_001.fastq.gz
+arima           mSaiBol1              1796823231               0      1796823231      3015434364        19969764  species/Saimiri_boliviensis/mSaiBol1/genomic_data/arima/mSaiBol1_L1_S2_R2_001.fastq.gz
+pacbiohifi_bam  mSaiBol1            326332627092               0      2147483648    604361161305        35577593  species/Saimiri_boliviensis/mSaiBol1/genomic_data/pacbio_hifi/m84091_231211_212640_s2.hifi_reads.bc1003.bam
 pacbiohifi_fqgz mSaiBol1             40573552076               0      2147483648     75141365022         4423429  species/Saimiri_boliviensis/mSaiBol1/genomic_data/pacbio_hifi/m84091_231211_212640_s2.hifi_reads.bc1003.fastq.gz
+pacbiohifi_bam  mSaiBol1            360759706920               0      2147483648    682244139180        39798776  species/Saimiri_boliviensis/mSaiBol1/genomic_data/pacbio_hifi/m84091_231213_210149_s3.hifi_reads.bc1003.bam
 pacbiohifi_fqgz mSaiBol1             10939523140               0      2147483648     20688079640         1206841  species/Saimiri_boliviensis/mSaiBol1/genomic_data/pacbio_hifi/m84091_231213_210149_s3.hifi_reads.bc1003.fastq.gz
 arima           mSaiBol2             36846157789               0      2147483648     67079705936       444236480  species/Saimiri_boliviensis/mSaiBol2/genomic_data/arima/mSaiBol2_L1_S6_R1_001.fastq.gz
 arima           mSaiBol2             39236619093               0      2147483648     67348646821       446017546  species/Saimiri_boliviensis/mSaiBol2/genomic_data/arima/mSaiBol2_L1_S6_R2_001.fastq.gz
@@ -12,6 +16,8 @@ arima           mSaiBol2             39236619093               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mSaiBol1          1.7089      5975508464
 arima           mSaiBol2          1.7497    133122034710
+pacbiohifi_bam  mSaiBol1          1.8789   1290977786375
 pacbiohifi_fqgz mSaiBol1          1.8566     95639175446
 --------------- ---------------  ------- ---------------

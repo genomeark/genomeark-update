@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bVanVan1             65499913482               0      2147483648    222681566869      1474712363  species/Vanellus_vanellus/bVanVan1/genomic_data/arima/bVanVan1_48587_3-4#3.cram
 pacbiohifi_bam  bVanVan1             28885525680               0      2147483648     64496592472         7001232  species/Vanellus_vanellus/bVanVan1/genomic_data/pacbio_hifi/m84098_240209_145901_s3.ccs.bc2028.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  bVanVan1             28885525680               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bVanVan1          3.3997    222680055864
 pacbiohifi_bam  bVanVan1          2.2328     64495601738
 --------------- ---------------  ------- ---------------

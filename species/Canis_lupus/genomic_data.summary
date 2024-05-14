@@ -12,7 +12,9 @@ pacbiohifi_bam  mCanLor1             12651971612               0      2147483648
 pacbiohifi_bam  mCanLor1             12089826989               0      2147483648     13296184512         1097229  species/Canis_lupus/mCanLor1/genomic_data/pacbio_hifi/m64094_201014_175437.ccs.bc1001_BAK8A_OA--bc1001_BAK8A_OA.bam
 arima           mCanLup2             94908519880               0      2147483648    171951309444      1138750437  species/Canis_lupus/mCanLup2/genomic_data/arima/mCanLup1_L1_S2_R1_001.fastq.gz
 arima           mCanLup2            101642007510               0      2147483648    174882192163      1158160260  species/Canis_lupus/mCanLup2/genomic_data/arima/mCanLup1_L1_S2_R2_001.fastq.gz
+pacbiohifi_bam  mCanLup2            186903819333               0      2147483648    343621768097        37087222  species/Canis_lupus/mCanLup2/genomic_data/pacbio_hifi/m84091_231004_184937_s2.hifi_reads.bc1015.bam
 pacbiohifi_fqgz mCanLup2             23265999843               0      2147483648     42774428211         4616659  species/Canis_lupus/mCanLup2/genomic_data/pacbio_hifi/m84091_231004_184937_s2.hifi_reads.bc1015.fastq.gz
+pacbiohifi_bam  mCanLup2            195077479907               0      2147483648    382184883371        40421996  species/Canis_lupus/mCanLup2/genomic_data/pacbio_hifi/m84091_231006_185537_s4.hifi_reads.bc1015.bam
 pacbiohifi_fqgz mCanLup2             23089169145               0      2147483648     45235008269         4784305  species/Canis_lupus/mCanLup2/genomic_data/pacbio_hifi/m84091_231006_185537_s4.hifi_reads.bc1015.fastq.gz
 10x             mCanLor1               821695606               0       821695606      1011313528       126414191  species/Canis_lupus_orion/mCanLor1/genomic_data/10x/mCanLor1_S1_L007_I1_001.fastq.gz
 10x             mCanLor1              9919882050               0      2147483648     15804610850       104666301  species/Canis_lupus_orion/mCanLor1/genomic_data/10x/mCanLor1_S2_L007_R2_001.fastq.gz
@@ -32,5 +34,6 @@ pacbiohifi_bam  mCanLor1             12089826989               0      2147483648
 arima           mCanLup2          1.7495    343865147668
 dovetail        mCanLor1          1.5050    116583375415
 pacbiohifi_bam  mCanLor1          1.1253     82579791886
+pacbiohifi_bam  mCanLup2          1.9200    733404094540
 pacbiohifi_fqgz mCanLup2          1.8785     87078184943
 --------------- ---------------  ------- ---------------

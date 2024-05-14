@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPodCri2             32156123680               0      2147483648    109299304946       723836456  species/Podiceps_cristatus/bPodCri2/genomic_data/arima/bPodCri2_48650_1-2#1.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bPodCri2          3.3990    109298664388
+--------------- ---------------  ------- ---------------

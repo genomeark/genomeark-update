@@ -5,6 +5,7 @@
 arima           fLamMac1             42170729934               0      2147483648    126674565609       838904408  species/Lampanyctus_macdonaldi/fLamMac1/genomic_data/arima/fLamMac1_46625_1#4.cram
 pacbiohifi_bam  fLamMac1             13003013839               0      2147483648     20044451123         2128072  species/Lampanyctus_macdonaldi/fLamMac1/genomic_data/pacbio_hifi/m64222e_231126_192951.ccs.bc2066--bc2066.bam
 pacbiohifi_bam  fLamMac1             15334109243               0      2147483648     21568329238         1603549  species/Lampanyctus_macdonaldi/fLamMac1/genomic_data/pacbio_hifi/m64228e_230529_200754.ccs.bc1010_BAK8A_OA--bc1010_BAK8A_OA.bam
+pacbiohifi_bam  fLamMac1             24565471044               0      2147483648     69380110553         5346974  species/Lampanyctus_macdonaldi/fLamMac1/genomic_data/pacbio_hifi/m84093_240325_145915_s4.ccs.bc2056.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,5 +13,5 @@ pacbiohifi_bam  fLamMac1             15334109243               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fLamMac1          3.0038    126672438575
-pacbiohifi_bam  fLamMac1          1.4467     40995315962
+pacbiohifi_bam  fLamMac1          2.0980    110989642476
 --------------- ---------------  ------- ---------------

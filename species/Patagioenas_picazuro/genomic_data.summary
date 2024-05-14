@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPatPic1             28960970975               0      2147483648     55870478033       370003179  species/Patagioenas_picazuro/bPatPic1/genomic_data/arima/bPatPic1_L1_R1.fastq.gz
+arima           bPatPic1             29708449080               0      2147483648     57138807195       378402696  species/Patagioenas_picazuro/bPatPic1/genomic_data/arima/bPatPic1_L1_R2.fastq.gz
+pacbiohifi_bam  bPatPic1            279737867794               0      2147483648     63729414348         6472642  species/Patagioenas_picazuro/bPatPic1/genomic_data/pacbio_hifi/m84091_240423_191424_s4.hifi_reads.bc1011.bam
+pacbiohifi_fqgz bPatPic1             31984608184               0      2147483648     63537937706         6445480  species/Patagioenas_picazuro/bPatPic1/genomic_data/pacbio_hifi/m84091_240423_191424_s4.hifi_reads.bc1011.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bPatPic1          1.9252    112950367489
+pacbiohifi_bam  bPatPic1          0.2278     63724286283
+pacbiohifi_fqgz bPatPic1          1.9865     63537424157
+--------------- ---------------  ------- ---------------

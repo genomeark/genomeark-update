@@ -4,7 +4,9 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fCotGob2              4805693245               0      2147483648      8775498215        58503321  species/Cottoperca_gobio/fCotGob2/genomic_data/arima/fCotGob2_ARI1_002_USPD16085689-AK5155_HK5YFCCXY_L2_R2.fastq.gz
 arima           fCotGob2              4560652973               0      2147483648      9042744684        60284966  species/Cottoperca_gobio/fCotGob2/genomic_data/arima/fCotGob2_ARI1_002_USPD16085689-AK5155_HK5YFCCXY_L4_R1.fastq.gz
+arima           fCotGob2              4567141357               0      2147483648      9094191210        60627943  species/Cottoperca_gobio/fCotGob2/genomic_data/arima/fCotGob2_ARI1_002_USPD16085689-AK5155_HK5YFCCXY_L5_R1.fastq.gz
 arima           fCotGob2              4809132448               0      2147483648      9366862708        62445753  species/Cottoperca_gobio/fCotGob2/genomic_data/arima/fCotGob2_ARI1_002_USPD16085689-AK5155_HK5YFCCXY_L5_R2.fastq.gz
+arima           fCotGob2              6655235059               0      2147483648     18134296848       120895312  species/Cottoperca_gobio/fCotGob2/genomic_data/arima/fCotGob2_fCotGob2_ARI1_002_USPD16085689-AK5155_HK5YFCCXY_L4.cram
 10x             fCotGob3               725061355               0       725061355       695457656        86932207  species/Cottoperca_gobio/fCotGob3/genomic_data/10x/fCotGob3_S2_L008_I1_001.fastq.gz
 10x             fCotGob3              8121108720               0      2147483648     11827034607        78324736  species/Cottoperca_gobio/fCotGob3/genomic_data/10x/fCotGob3_S4_L008_R1_001.fastq.gz
 10x             fCotGob3              8677013823               0      2147483648     11864175371        78570697  species/Cottoperca_gobio/fCotGob3/genomic_data/10x/fCotGob3_S4_L008_R2_001.fastq.gz
@@ -21,7 +23,7 @@ pacbio          fCotGob3             10964223629               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 10x             fCotGob3          1.3916     98103799316
-arima           fCotGob2          1.9177     89966928290
+arima           fCotGob2          2.2827    183150568940
 bionano         fCotGob3         727.4977   2649649429304
 pacbio          fCotGob3          0.5219     48604754922
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bButBut1             23723698170               0      2147483648     79169369685       524300461  species/Buteo_buteo/bButBut1/genomic_data/arima/bButBut1_48772_3-4#5.cram
+pacbiohifi_bam  bButBut1             24089016140               0      2147483648     70029882179         5776876  species/Buteo_buteo/bButBut1/genomic_data/pacbio_hifi/m84098_240313_131315_s3.ccs.bc2071.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bButBut1          3.3371     79168353163
+pacbiohifi_bam  bButBut1          2.9071     70029178820
+--------------- ---------------  ------- ---------------

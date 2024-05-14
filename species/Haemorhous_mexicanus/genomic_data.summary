@@ -5,6 +5,7 @@
 arima           bHaeMex1             52865070197               0      2147483648    108841926534       725612868  species/Haemorhous_mexicanus/bHaeMex1/genomic_data/arima/bHaeMex1_House_Finch_R1_001.fastq.gz
 arima           bHaeMex1             54065894653               0      2147483648    110145611406       734304101  species/Haemorhous_mexicanus/bHaeMex1/genomic_data/arima/bHaeMex1_House_Finch_R2_001.fastq.gz
 bionano         bHaeMex1              1004829298               0      1004829298    589319430089         6624428  species/Haemorhous_mexicanus/bHaeMex1/genomic_data/bionano/bHaeMex1_Saphyr_DLE1_3680736
+pacbiohifi_bam  bHaeMex1             11671280145               0      2147483648     15198978343         1398531  species/Haemorhous_mexicanus/bHaeMex1/genomic_data/pacbio_hifi/m54306U_210616_143938.hifi_reads.bam
 pacbiohifi_fqgz bHaeMex1             12337500283               0      2147483648     16066566587         1478362  species/Haemorhous_mexicanus/bHaeMex1/genomic_data/pacbio_hifi/m54306U_210616_143938.hifi_reads.fastq.gz
 pacbiohifi_clr  bHaeMex1            688165601649               0      2147483648    362084221090        35285939  species/Haemorhous_mexicanus/bHaeMex1/genomic_data/pacbio_hifi/m54306U_210616_143938.subreads.bam
 pacbiohifi_fqgz bHaeMex1             13692475816               0      2147483648     17499322010         1633035  species/Haemorhous_mexicanus/bHaeMex1/genomic_data/pacbio_hifi/m54306Ue_210624_222321.hifi_reads.fastq.gz
@@ -19,6 +20,7 @@ pacbiohifi_clr  bHaeMex1            192411906524               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           bHaeMex1          2.0443    218598971442
 bionano         bHaeMex1         586.4871    589319430089
+pacbiohifi_bam  bHaeMex1          1.3022     15198341004
 pacbiohifi_clr  bHaeMex1          0.4822    512181527454
 pacbiohifi_fqgz bHaeMex1          1.2564     50452882193
 --------------- ---------------  ------- ---------------

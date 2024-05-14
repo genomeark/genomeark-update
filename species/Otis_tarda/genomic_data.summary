@@ -3,11 +3,15 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 pacbiohifi_bam  bOtiTar3              7688107453               0      2147483648     13496227045         1651307  species/Otis_tarda/bOtiTar3/genomic_data/pacbio_hifi/m64229e_230329_181100.ccs.bc1002_BAK8A_OA--bc1002_BAK8A_OA.bam
+arima           bOtiTar7             25362145409               0      2147483648     82604099632       547047017  species/Otis_tarda/bOtiTar7/genomic_data/arima/bOtiTar7_48752_5-6#3.cram
+pacbiohifi_bam  bOtiTar7             22397847994               0      2147483648     66587962470         5274657  species/Otis_tarda/bOtiTar7/genomic_data/pacbio_hifi/m84093_240329_184138_s1.ccs.bc2085.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bOtiTar7          3.2569     82601971382
 pacbiohifi_bam  bOtiTar3          1.7554     13495703822
+pacbiohifi_bam  bOtiTar7          2.9729     66586562301
 --------------- ---------------  ------- ---------------

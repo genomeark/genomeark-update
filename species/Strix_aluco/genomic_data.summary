@@ -6,6 +6,7 @@ arima           bStrAlu1             26126010579               0      2147483648
 arima           bStrAlu1             26477119083               0      2147483648     48295662014       319838833  species/Strix_aluco/bStrAlu1/genomic_data/arima/bStrAlu1_S1_R2_001.fastq.gz
 pacbiohifi_fqgz bStrAlu1             22616184684               0      2147483648     31066501529         1833973  species/Strix_aluco/bStrAlu1/genomic_data/pacbio_hifi/m64330e_221102_122144.bc1002--bc1002.hifi_reads.fastq.gz
 pacbiohifi_fqgz bStrAlu1             21929164419               0      2147483648     29562147573         1744492  species/Strix_aluco/bStrAlu1/genomic_data/pacbio_hifi/m64330e_221118_093000.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_bam  bStrAlu2             30013790522               0      2147483648     80800227843         6197157  species/Strix_aluco/bStrAlu2/genomic_data/pacbio_hifi/m84047_240312_115426_s1.ccs.bc2066.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,5 +14,6 @@ pacbiohifi_fqgz bStrAlu1             21929164419               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bStrAlu1          1.8347     96510961990
+pacbiohifi_bam  bStrAlu2          2.6921     80800125464
 pacbiohifi_fqgz bStrAlu1          1.3652     60813310595
 --------------- ---------------  ------- ---------------

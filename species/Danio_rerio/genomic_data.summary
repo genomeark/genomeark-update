@@ -27,6 +27,9 @@ bionano         fDreSAT1                91086265               0        91086265
 pacbio          fDreSAT1              3667618105               0      3667618105       946783874           78778  species/Danio_rerio/fDreSAT1/genomic_data/pacbio/m160424_123459_42204_c100967282550000001823200405121600_s1_p0.subreads.bam
 pacbio          fDreSAT1              4658597782               0      2147483648      1260056234           95077  species/Danio_rerio/fDreSAT1/genomic_data/pacbio/m160501_183155_42214_c101000342550000001823232709161684_s1_p0.subreads.bam
 pacbio          fDreSAT1              2911201044               0      2911201044       772155671           62776  species/Danio_rerio/fDreSAT1/genomic_data/pacbio/m160526_222047_42204_c101016672550000001823224807191626_s1_p0.subreads.bam
+pacbiohifi_bam  fDreSAT1              1456670334               0      1456670334       340258888          164004  species/Danio_rerio/fDreSAT1/genomic_data/pacbio_hifi/m160423_103941_42204_c100967302550000001823200405121652_s1_p0.scraps.bam
+pacbiohifi_bam  fDreSAT1              3642298448               0      3642298448       926952660          191812  species/Danio_rerio/fDreSAT1/genomic_data/pacbio_hifi/m160507_154256_42204_c101000302550000001823232709161625_s1_p0.scraps.bam
+pacbiohifi_bam  fDreSAT1              2274996538               0      2274996538       556506091          175014  species/Danio_rerio/fDreSAT1/genomic_data/pacbio_hifi/m160526_050329_42204_c101016672550000001823224807191622_s1_p0.scraps.bam
 dovetail        fDreSAT3             40800227978               0      2147483648     61643477823       408234952  species/Danio_rerio/fDreSAT3/genomic_data/dovetail/fDreSAT3_28791_5#1_R1.fastq.gz
 dovetail        fDreSAT3             44129707481               0      2147483648     61870998266       409741710  species/Danio_rerio/fDreSAT3/genomic_data/dovetail/fDreSAT3_28791_5#1_R2.fastq.gz
 illumina        fDreTuH1             26457156369               0      2147483648     51878495832       207513983  species/Danio_rerio/fDreTuH1/genomic_data/illumina/fDreTuH1_20101#1_R1.fastq.gz
@@ -47,6 +50,7 @@ ont             fDanRer17         1.0955    249031313076
 ont             fDanRer18         1.1229    147942808955
 pacbio          fDreSAT1          0.2650    128482216935
 pacbiohifi_bam  fDanRer12         0.2588    279039164056
+pacbiohifi_bam  fDreSAT1          0.2473     86565898414
 pacbiohifi_clr  fDanRer12         0.5441   4468827591885
 pacbiohifi_fqgz fDanRer12         1.0127    276156195650
 --------------- ---------------  ------- ---------------

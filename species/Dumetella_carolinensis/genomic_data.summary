@@ -5,6 +5,7 @@
 arima           bDumCar1             22153060258               0      2147483648     40859561760       270593134  species/Dumetella_carolinensis/bDumCar1/genomic_data/arima/bDumCar2_1.fastq.gz
 arima           bDumCar1             22810397004               0      2147483648     40432153963       267762609  species/Dumetella_carolinensis/bDumCar1/genomic_data/arima/bDumCar2_2.fastq.gz
 pacbiohifi_fqgz bDumCar1             51464477117               0      2147483648     93437208594         6071248  species/Dumetella_carolinensis/bDumCar1/genomic_data/pacbio_hifi/m84091_230524_183233_s3.bc1008.hifi_reads.fastq.gz
+pacbiohifi_bam  bDumCar1            412243421720               0      2147483648     94394017359         6143097  species/Dumetella_carolinensis/bDumCar1/genomic_data/pacbio_hifi/m84091_230524_183233_s3.hifi_reads.bc1008.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,5 +13,6 @@ pacbiohifi_fqgz bDumCar1             51464477117               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bDumCar1          1.7960     80754369242
+pacbiohifi_bam  bDumCar1          0.2289     94362519231
 pacbiohifi_fqgz bDumCar1          1.8155     93433758205
 --------------- ---------------  ------- ---------------

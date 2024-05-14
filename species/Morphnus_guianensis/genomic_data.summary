@@ -5,7 +5,9 @@
 arima           bMorGui1             14007564030               0      2147483648     23524374681       155790567  species/Morphnus_guianensis/bMorGui1/genomic_data/arima/bMorGui1_L1_S2_R2_001.fastq.gz
 arima           bMorGui1             15618681960               0      2147483648     28226862442       186932871  species/Morphnus_guianensis/bMorGui1/genomic_data/arima/bMorGui1_L1_S6_R1_001.fastq.gz
 arima           bMorGui1             16330827886               0      2147483648     28463494694       188499972  species/Morphnus_guianensis/bMorGui1/genomic_data/arima/bMorGui1_L1_S6_R2_001.fastq.gz
+pacbiohifi_bam  bMorGui1            307808295127               0      2147483648    582680523509        38782993  species/Morphnus_guianensis/bMorGui1/genomic_data/pacbio_hifi/m84091_231207_203908_s2.hifi_reads.bc1001.bam
 pacbiohifi_fqgz bMorGui1             36532541722               0      2147483648     69156032740         4602999  species/Morphnus_guianensis/bMorGui1/genomic_data/pacbio_hifi/m84091_231207_203908_s2.hifi_reads.bc1001.fastq.gz
+pacbiohifi_bam  bMorGui1             92022969458               0      2147483648    180908000882        12244697  species/Morphnus_guianensis/bMorGui1/genomic_data/pacbio_hifi/m84091_231213_192914_s4.hifi_reads.bc1001.bam
 pacbiohifi_fqgz bMorGui1             10867159735               0      2147483648     21363754663         1445998  species/Morphnus_guianensis/bMorGui1/genomic_data/pacbio_hifi/m84091_231213_192914_s4.hifi_reads.bc1001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -14,5 +16,6 @@ pacbiohifi_fqgz bMorGui1             10867159735               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bMorGui1          1.7454    103239749798
+pacbiohifi_bam  bMorGui1          1.9024    760638997746
 pacbiohifi_fqgz bMorGui1          1.9024     90173192051
 --------------- ---------------  ------- ---------------

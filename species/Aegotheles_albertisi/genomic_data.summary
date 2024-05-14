@@ -4,7 +4,9 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bAegAlb1             33443764697               0      2147483648     61057966807       404357411  species/Aegotheles_albertisi/bAegAlb1/genomic_data/arima/bAegAlb1_L2_S7_R1_001.fastq.gz
 arima           bAegAlb1             35382777410               0      2147483648     61860887646       409674769  species/Aegotheles_albertisi/bAegAlb1/genomic_data/arima/bAegAlb1_L2_S7_R2_001.fastq.gz
+pacbiohifi_bam  bAegAlb1            139596322018               0      2147483648    295408535057        38846815  species/Aegotheles_albertisi/bAegAlb1/genomic_data/pacbio_hifi/m84091_230911_181835_s2.hifi_reads.bc1017.bam
 pacbiohifi_fqgz bAegAlb1             15499874198               0      2147483648     32800256226         4313299  species/Aegotheles_albertisi/bAegAlb1/genomic_data/pacbio_hifi/m84091_230911_181835_s2.hifi_reads.bc1017.fastq.gz
+pacbiohifi_bam  bAegAlb1             75767835054               0      2147483648    160382394372        20606608  species/Aegotheles_albertisi/bAegAlb1/genomic_data/pacbio_hifi/m84091_230921_201106_s1.hifi_reads.bc1017.bam
 pacbiohifi_fqgz bAegAlb1              8324926455               0      2147483648     17621879216         2264133  species/Aegotheles_albertisi/bAegAlb1/genomic_data/pacbio_hifi/m84091_230921_201106_s1.hifi_reads.bc1017.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -13,5 +15,6 @@ pacbiohifi_fqgz bAegAlb1              8324926455               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bAegAlb1          1.7731    122036341809
+pacbiohifi_bam  bAegAlb1          2.1162    455753629195
 pacbiohifi_fqgz bAegAlb1          2.1162     50418043141
 --------------- ---------------  ------- ---------------

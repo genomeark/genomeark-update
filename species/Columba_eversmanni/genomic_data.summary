@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bColEve1             32598473421               0      2147483648     63143302549       418167581  species/Columba_eversmanni/bColEve1/genomic_data/arima/bColEve1_L1_R1.fastq.gz
+arima           bColEve1             32962625860               0      2147483648     64571678511       427627010  species/Columba_eversmanni/bColEve1/genomic_data/arima/bColEve1_L1_R2.fastq.gz
+pacbiohifi_bam  bColEve1            285029369935               0      2147483648     66637430629         5658423  species/Columba_eversmanni/bColEve1/genomic_data/pacbio_hifi/m84203_240430_163802_s4.hifi_reads.bc1021.bam
+pacbiohifi_fqgz bColEve1             35451765727               0      2147483648     66336728175         5602494  species/Columba_eversmanni/bColEve1/genomic_data/pacbio_hifi/m84203_240430_163802_s4.hifi_reads.bc1021.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bColEve1          1.9516    127949041356
+pacbiohifi_bam  bColEve1          0.2337     66611363753
+pacbiohifi_fqgz bColEve1          1.8711     66333798851
+--------------- ---------------  ------- ---------------

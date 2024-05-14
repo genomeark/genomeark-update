@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mRhiHip2             48249491191               0      2147483648    159692308648      1057564957  species/Rhinolophus_hipposideros/mRhiHip2/genomic_data/arima/mRhiHip2_48832_3-4#1.cram
+pacbiohifi_bam  mRhiHip2             30304279599               0      2147483648     82745025868         6564514  species/Rhinolophus_hipposideros/mRhiHip2/genomic_data/pacbio_hifi/m84047_240312_122643_s2.ccs.bc2067.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mRhiHip2          3.3097    159691340994
+pacbiohifi_bam  mRhiHip2          2.7304     82742805017
+--------------- ---------------  ------- ---------------

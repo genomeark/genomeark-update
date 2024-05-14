@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mZipCav1            184153664504               0      2147483648    643034308336      4258505353  species/Ziphius_cavirostris/mZipCav1/genomic_data/arima/mZipCav1_48870_7-8#2.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mZipCav1          3.4918    643027765715
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bZenMel1             33790495968               0      2147483648     65855668991       436130273  species/Zenaida_meloda/bZenMel1/genomic_data/arima/bZenMel1_L1_R1.fastq.gz
+arima           bZenMel1             34267290067               0      2147483648     67404585036       446387996  species/Zenaida_meloda/bZenMel1/genomic_data/arima/bZenMel1_L1_R2.fastq.gz
+pacbiohifi_bam  bZenMel1            280447814867               0      2147483648     65147361178         4784169  species/Zenaida_meloda/bZenMel1/genomic_data/pacbio_hifi/m84091_240425_201133_s3.hifi_reads.bc1017.bam
+pacbiohifi_fqgz bZenMel1             34113673545               0      2147483648     64911892608         4759318  species/Zenaida_meloda/bZenMel1/genomic_data/pacbio_hifi/m84091_240425_201133_s3.hifi_reads.bc1017.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bZenMel1          1.9610    133461318414
+pacbiohifi_bam  bZenMel1          0.2322     65119982612
+pacbiohifi_fqgz bZenMel1          1.9028     64911498021
+--------------- ---------------  ------- ---------------

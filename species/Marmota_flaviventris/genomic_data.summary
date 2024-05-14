@@ -4,6 +4,12 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mMarFla1             53683094611               0      2147483648     97407948216       645085774  species/Marmota_flaviventris/mMarFla1/genomic_data/arima/mMarFla1_L1_S5_R1_001.fastq.gz
 arima           mMarFla1             58394191655               0      2147483648     97929272264       648538254  species/Marmota_flaviventris/mMarFla1/genomic_data/arima/mMarFla1_L1_S5_R2_001.fastq.gz
+pacbiohifi_bam  mMarFla1            153841882927               0      2147483648     36676877042         2478252  species/Marmota_flaviventris/mMarFla1/genomic_data/pacbio_hifi/m84091_231205_213150_s4.hifi_reads.bc1019.bam
+pacbiohifi_fqgz mMarFla1             17979311557               0      2147483648     36697155930         2484094  species/Marmota_flaviventris/mMarFla1/genomic_data/pacbio_hifi/m84091_231205_213150_s4.hifi_reads.bc1019.fastq.gz
+pacbiohifi_bam  mMarFla1            227620057267               0      2147483648     52788212802         3721232  species/Marmota_flaviventris/mMarFla1/genomic_data/pacbio_hifi/m84091_231211_202513_s4.hifi_reads.bc1019.bam
+pacbiohifi_fqgz mMarFla1             27438988559               0      2147483648     53400259740         3772784  species/Marmota_flaviventris/mMarFla1/genomic_data/pacbio_hifi/m84091_231211_202513_s4.hifi_reads.bc1019.fastq.gz
+pacbiohifi_bam  mMarFla1            262046808900               0      2147483648     61209872812         4034758  species/Marmota_flaviventris/mMarFla1/genomic_data/pacbio_hifi/m84091_240222_203700_s4.hifi_reads.bc1019.bam
+pacbiohifi_fqgz mMarFla1             34153157786               0      2147483648     61153676440         4036782  species/Marmota_flaviventris/mMarFla1/genomic_data/pacbio_hifi/m84091_240222_203700_s4.hifi_reads.bc1019.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +17,6 @@ arima           mMarFla1             58394191655               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mMarFla1          1.7203    192806555563
+pacbiohifi_bam  mMarFla1          0.2341    150645398162
+pacbiohifi_fqgz mMarFla1          1.9008    151249427180
 --------------- ---------------  ------- ---------------

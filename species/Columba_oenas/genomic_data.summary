@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bColOen1             32091025738               0      2147483648     62413804770       413336470  species/Columba_oenas/bColOen1/genomic_data/arima/bColOen1_L1_R1.fastq.gz
+arima           bColOen1             32470104715               0      2147483648     63921090608       423318495  species/Columba_oenas/bColOen1/genomic_data/arima/bColOen1_L1_R2.fastq.gz
+pacbiohifi_bam  bColOen1            297046287156               0      2147483648     68016251574         5862680  species/Columba_oenas/bColOen1/genomic_data/pacbio_hifi/m84203_240430_153550_s2.hifi_reads.bc1019.bam
+pacbiohifi_fqgz bColOen1             36810440609               0      2147483648     67793096693         5818185  species/Columba_oenas/bColOen1/genomic_data/pacbio_hifi/m84203_240430_153550_s2.hifi_reads.bc1019.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bColOen1          1.9607    126585008479
+pacbiohifi_bam  bColOen1          0.2289     67993895130
+pacbiohifi_fqgz bColOen1          1.8416     67790107425
+--------------- ---------------  ------- ---------------

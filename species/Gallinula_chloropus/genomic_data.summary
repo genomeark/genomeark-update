@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bGalChl1             17271880886               0      2147483648     57177235257       378657187  species/Gallinula_chloropus/bGalChl1/genomic_data/arima/bGalChl1_48542_3-4#8.cram
+pacbiohifi_bam  bGalChl1             16585443245               0      2147483648     51082125444         5360625  species/Gallinula_chloropus/bGalChl1/genomic_data/pacbio_hifi/m84098_240326_125945_s2.ccs.bc2066.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bGalChl1          3.3104     57176834485
+pacbiohifi_bam  bGalChl1          3.0799     51081506650
+--------------- ---------------  ------- ---------------

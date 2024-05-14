@@ -1,0 +1,25 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mCalLat1             47959635779               0      2147483648     86199131108       570855172  species/Callospermophilus_lateralis/mCalLat1/genomic_data/arima/mCalLat1_L1_S3_R1_001.fastq.gz
+arima           mCalLat1             50247653083               0      2147483648     86561872725       573257458  species/Callospermophilus_lateralis/mCalLat1/genomic_data/arima/mCalLat1_L1_S3_R2_001.fastq.gz
+arima           mCalLat2             47959635779               0      2147483648     86199131108       570855172  species/Callospermophilus_lateralis/mCalLat2/genomic_data/arima/mCalLat1_L1_S3_R1_001.fastq.gz
+arima           mCalLat2             50247653083               0      2147483648     86561872725       573257458  species/Callospermophilus_lateralis/mCalLat2/genomic_data/arima/mCalLat1_L1_S3_R2_001.fastq.gz
+pacbiohifi_bam  mCalLat2            217666938537               0      2147483648     48872689851         5662931  species/Callospermophilus_lateralis/mCalLat2/genomic_data/pacbio_hifi/m84091_240222_213912_s2.hifi_reads.bc1018.bam
+pacbiohifi_fqgz mCalLat2             24880292146               0      2147483648     49273523590         5708491  species/Callospermophilus_lateralis/mCalLat2/genomic_data/pacbio_hifi/m84091_240222_213912_s2.hifi_reads.bc1018.fastq.gz
+pacbiohifi_bam  mCalLat2            174201368013               0      2147483648     41556062661         2915816  species/Callospermophilus_lateralis/mCalLat2/genomic_data/pacbio_hifi/m84091_240318_155344_s4.hifi_reads.bc1018.bam
+pacbiohifi_fqgz mCalLat2             21129491062               0      2147483648     41648909259         2922946  species/Callospermophilus_lateralis/mCalLat2/genomic_data/pacbio_hifi/m84091_240318_155344_s4.hifi_reads.bc1018.fastq.gz
+pacbiohifi_bam  mCalLat2            220749468303               0      2147483648     51084560537         5083701  species/Callospermophilus_lateralis/mCalLat2/genomic_data/pacbio_hifi/m84091_240422_200610_s2.hifi_reads.bc1018.bam
+pacbiohifi_fqgz mCalLat2             24674536649               0      2147483648     51181581706         5114372  species/Callospermophilus_lateralis/mCalLat2/genomic_data/pacbio_hifi/m84091_240422_200610_s2.hifi_reads.bc1018.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mCalLat1          1.7468    171548492184
+arima           mCalLat2          1.7468    171548492184
+pacbiohifi_bam  mCalLat2          0.2309    141453444213
+pacbiohifi_fqgz mCalLat2          2.0104    142103756640
+--------------- ---------------  ------- ---------------

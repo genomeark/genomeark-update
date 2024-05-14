@@ -2,13 +2,17 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           sCetMax3            119719773924               0      2147483648    409286958389      2710509658  species/Cetorhinus_maximus/sCetMax3/genomic_data/arima/sCetMax3_48729_2#1.cram
+arima           sCetMax3            131193778565               0      2147483648    468438953060      3102244722  species/Cetorhinus_maximus/sCetMax3/genomic_data/arima/sCetMax3_48810_1#1.cram
 pacbiohifi_bam  sCetMax3             17263901293               0      2147483648     48041598168         7445046  species/Cetorhinus_maximus/sCetMax3/genomic_data/pacbio_hifi/m84047_231218_144553_s4.ccs.bc2002.bam
 pacbiohifi_bam  sCetMax3              9353804295               0      2147483648     26057957789         4353522  species/Cetorhinus_maximus/sCetMax3/genomic_data/pacbio_hifi/m84093_231216_115941_s1.ccs.bc2002.bam
+pacbiohifi_bam  sCetMax3             18219394580               0      2147483648     50712614224         5410034  species/Cetorhinus_maximus/sCetMax3/genomic_data/pacbio_hifi/m84093_240508_102753_s1.ccs.bc2094.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-pacbiohifi_bam  sCetMax3          2.7834     74087721733
+arima           sCetMax3          3.5230    883968445418
+pacbiohifi_bam  sCetMax3          2.7836    124808552027
 --------------- ---------------  ------- ---------------

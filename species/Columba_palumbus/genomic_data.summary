@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bColPal1             15069097622               0      2147483648     48772529952       322996887  species/Columba_palumbus/bColPal1/genomic_data/arima/bColPal1_48542_7-8#4.cram
+pacbiohifi_bam  bColPal1             13033150025               0      2147483648     40969414051         3484134  species/Columba_palumbus/bColPal1/genomic_data/pacbio_hifi/m84098_240329_153714_s4.ccs.bc2068.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bColPal1          3.2365     48771134453
+pacbiohifi_bam  bColPal1          3.1434     40968403788
+--------------- ---------------  ------- ---------------

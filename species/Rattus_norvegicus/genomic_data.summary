@@ -11,6 +11,13 @@ arima           mRatNor1             44168524877               0      2147483648
 bionano         mRatNor1              1513709815               0      1513709815    773562250742         6436377  species/Rattus_norvegicus/mRatNor1/genomic_data/bionano/mRatNor1_Saphyr_DLE1
 pacbio          mRatNor1            261313565380               0      2147483648    138291132878         5644415  species/Rattus_norvegicus/mRatNor1/genomic_data/pacbio/m64016_190618_103014.subreads.bam
 pacbio          mRatNor1            243311495934               0      2147483648    128206513530         5769727  species/Rattus_norvegicus/mRatNor1/genomic_data/pacbio/m64016_190622_041831.subreads.bam
+ont             mRatNor3             11064766427               0      2147483648     13280009363          507174  species/Rattus_norvegicus/mRatNor3/genomic_data/ont/PAM17944_dorado-7.2.13.fq.gz
+ont             mRatNor4             11304050612               0      2147483648     13839763180          438437  species/Rattus_norvegicus/mRatNor4/genomic_data/ont/PAI33174_dorado-7.2.13.fq.gz
+ont             mRatNor4             22056897117               0      2147483648     27059578945          688293  species/Rattus_norvegicus/mRatNor4/genomic_data/ont/PAM71971_dorado-7.2.13.fq.gz
+ont             mRatNor4             17872861398               0      2147483648     22012653448          520418  species/Rattus_norvegicus/mRatNor4/genomic_data/ont/PAM73230_dorado-7.0.9.fq.gz
+pacbiohifi_fqgz mRatNor4             18831665365               0      2147483648     24357434989         1948932  species/Rattus_norvegicus/mRatNor4/genomic_data/pacbio_hifi/SL69_A3_r26_680_cell2.hifi_reads.fastq.gz
+pacbiohifi_fqgz mRatNor4             20158378048               0      2147483648     25126878530         1990574  species/Rattus_norvegicus/mRatNor4/genomic_data/pacbio_hifi/SL69_A3_r26_681_cell3.hifi_reads.fastq.gz
+pacbiohifi_fqgz mRatNor4             20830052229               0      2147483648     26005218301         2073301  species/Rattus_norvegicus/mRatNor4/genomic_data/pacbio_hifi/SL69_A3_r27_691_cell4.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -20,5 +27,8 @@ pacbio          mRatNor1            243311495934               0      2147483648
 10x             mRatNor1          1.3414    187561740207
 arima           mRatNor1          1.5215    253268803196
 bionano         mRatNor1         511.0373    773562250742
+ont             mRatNor3          1.2002     13279932665
+ont             mRatNor4          1.2279    242709638482
 pacbio          mRatNor1          0.5284    266643882398
+pacbiohifi_fqgz mRatNor4          1.2619     95745670553
 --------------- ---------------  ------- ---------------

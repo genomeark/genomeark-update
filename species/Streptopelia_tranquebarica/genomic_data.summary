@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bStrTra1             35981760269               0      2147483648     69232073549       458490570  species/Streptopelia_tranquebarica/bStrTra1/genomic_data/arima/bStrTra1_L1_R1.fastq.gz
+arima           bStrTra1             37189760502               0      2147483648     70791554970       468818262  species/Streptopelia_tranquebarica/bStrTra1/genomic_data/arima/bStrTra1_L1_R2.fastq.gz
+pacbiohifi_bam  bStrTra1            259786898727               0      2147483648     61184198567         5376631  species/Streptopelia_tranquebarica/bStrTra1/genomic_data/pacbio_hifi/m84203_240430_160656_s3.hifi_reads.bc1012.bam
+pacbiohifi_fqgz bStrTra1             32313025177               0      2147483648     60568148745         5321314  species/Streptopelia_tranquebarica/bStrTra1/genomic_data/pacbio_hifi/m84203_240430_160656_s3.hifi_reads.bc1012.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bStrTra1          1.9102    139772238976
+pacbiohifi_bam  bStrTra1          0.2355     61179814650
+pacbiohifi_fqgz bStrTra1          1.8744     60567534391
+--------------- ---------------  ------- ---------------

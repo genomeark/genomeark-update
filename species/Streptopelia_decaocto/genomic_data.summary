@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bStrDea1             35116102061               0      2147483648    118273889642       783270792  species/Streptopelia_decaocto/bStrDea1/genomic_data/arima/bStrDea1_48542_3-4#5.cram
 pacbiohifi_bam  bStrDea1             17095138002               0      2147483648     58192474997         6126784  species/Streptopelia_decaocto/bStrDea1/genomic_data/pacbio_hifi/m84047_240219_114021_s2.ccs.bc2031.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  bStrDea1             17095138002               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bStrDea1          3.3680    118271031741
 pacbiohifi_bam  bStrDea1          3.4040     58191849758
 --------------- ---------------  ------- ---------------

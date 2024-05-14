@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bLarHyp1             29865922536               0      2147483648    100275855020       664078510  species/Larus_hyperboreus/bLarHyp1/genomic_data/arima/bLarHyp1_48778_1-2#1.cram
+pacbiohifi_bam  bLarHyp1              3736960221               0      3736960221     11311474897         1372284  species/Larus_hyperboreus/bLarHyp1/genomic_data/pacbio_hifi/m84098_240501_114254_s4.ccs.bc2086.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bLarHyp1          3.3575    100274834914
+pacbiohifi_bam  bLarHyp1          3.0269     11311404892
+--------------- ---------------  ------- ---------------

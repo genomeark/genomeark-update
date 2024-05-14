@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fAtrSpa1             15580162980               0      2147483648     27452955449       181807651  species/Atractosteus_spatula/fAtrSpa1/genomic_data/arima/fAtrSpa1_L1_S4_R1_001.fastq.gz
+arima           fAtrSpa1             16213874884               0      2147483648     27547828915       182435960  species/Atractosteus_spatula/fAtrSpa1/genomic_data/arima/fAtrSpa1_L1_S4_R2_001.fastq.gz
+pacbiohifi_bam  fAtrSpa1            355525594808               0      2147483648     81425318587         4503082  species/Atractosteus_spatula/fAtrSpa1/genomic_data/pacbio_hifi/m84091_240314_184714_s1.hifi_reads.bc1001.bam
+pacbiohifi_fqgz fAtrSpa1             47021451745               0      2147483648     81081859463         4486307  species/Atractosteus_spatula/fAtrSpa1/genomic_data/pacbio_hifi/m84091_240314_184714_s1.hifi_reads.bc1001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fAtrSpa1          1.7194     54666668703
+pacbiohifi_bam  fAtrSpa1          0.2290     81415361211
+pacbiohifi_fqgz fAtrSpa1          1.7243     81079089243
+--------------- ---------------  ------- ---------------

@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mMyoMys1             38951585825               0      2147483648    130425226083       863743219  species/Myotis_mystacinus/mMyoMys1/genomic_data/arima/mMyoMys1_48387_3-4#2.cram
+pacbiohifi_bam  mMyoMys1             33039767433               0      2147483648     89411215084         7661976  species/Myotis_mystacinus/mMyoMys1/genomic_data/pacbio_hifi/m84098_240302_121327_s2.ccs.bc2001.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           mMyoMys1             38951585825               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mMyoMys1          3.3483    130421594817
+pacbiohifi_bam  mMyoMys1          2.7061     89408914650
 --------------- ---------------  ------- ---------------

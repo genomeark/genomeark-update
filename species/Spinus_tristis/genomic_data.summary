@@ -5,7 +5,9 @@
 arima           bSpiTri1             19136197752               0      2147483648     35515272502       235200489  species/Spinus_tristis/bSpiTri1/genomic_data/arima/bSpiTri1_1.fastq.gz
 arima           bSpiTri1             19740911357               0      2147483648     35518442606       235221483  species/Spinus_tristis/bSpiTri1/genomic_data/arima/bSpiTri1_2.fastq.gz
 pacbiohifi_fqgz bSpiTri1             21761547217               0      2147483648     27057546662         1812530  species/Spinus_tristis/bSpiTri1/genomic_data/pacbio_hifi/m64330e_230630_132056.bc1016--bc1016.hifi_reads.fastq.gz
+pacbiohifi_clr  bSpiTri1           1131466659608               0      2147483648    603351200863        47281177  species/Spinus_tristis/bSpiTri1/genomic_data/pacbio_hifi/m64330e_230630_132056.subreads.bam
 pacbiohifi_fqgz bSpiTri1             20194223014               0      2147483648     24717840194         1670129  species/Spinus_tristis/bSpiTri1/genomic_data/pacbio_hifi/m64334e_230616_124724.bc1016--bc1016.hifi_reads.fastq.gz
+pacbiohifi_clr  bSpiTri1           1138871609562               0      2147483648    611925996727        39346126  species/Spinus_tristis/bSpiTri1/genomic_data/pacbio_hifi/m64334e_230616_124724.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,5 +15,6 @@ pacbiohifi_fqgz bSpiTri1             20194223014               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bSpiTri1          1.8177     70666921227
+pacbiohifi_clr  bSpiTri1          0.5359   1216674278448
 pacbiohifi_fqgz bSpiTri1          1.2372     51907678929
 --------------- ---------------  ------- ---------------

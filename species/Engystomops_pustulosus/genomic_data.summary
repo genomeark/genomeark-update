@@ -1,0 +1,24 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aEngPut1             50189700629               0      2147483648     92581069804       613119690  species/Engystomops_pustulosus/aEngPut1/genomic_data/arima/aEngPus1_1.fastq.gz
+arima           aEngPut1             53250927623               0      2147483648     92548365212       612903080  species/Engystomops_pustulosus/aEngPut1/genomic_data/arima/aEngPus1_2.fastq.gz
+illumina        aEngPut2             20770027391               0      2147483648     40957458360       271241455  species/Engystomops_pustulosus/aEngPut2/genomic_data/illumina/aEngPus2-dna2_1.fastq.gz
+illumina        aEngPut2             22097787296               0      2147483648     41187754368       272766585  species/Engystomops_pustulosus/aEngPut2/genomic_data/illumina/aEngPus2-dna2_2.fastq.gz
+illumina        aEngPut3             15045807787               0      2147483648     29725639994       196858543  species/Engystomops_pustulosus/aEngPut3/genomic_data/illumina/aEngPus3-dna1_1.fastq.gz
+illumina        aEngPut3             15754236342               0      2147483648     29884340510       197909547  species/Engystomops_pustulosus/aEngPut3/genomic_data/illumina/aEngPus3-dna1_2.fastq.gz
+pacbiohifi_bam  aEngPut4            369461332987               0      2147483648     85646758758         4857141  species/Engystomops_pustulosus/aEngPut4/genomic_data/pacbio_hifi/m84091_240411_210837_s3.hifi_reads.bc1022.bam
+pacbiohifi_fqgz aEngPut4             44224979464               0      2147483648     84301046259         4772956  species/Engystomops_pustulosus/aEngPut4/genomic_data/pacbio_hifi/m84091_240411_210837_s3.hifi_reads.bc1022.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           aEngPut1          1.7721    183307137325
+illumina        aEngPut2          1.8984     81380259401
+illumina        aEngPut3          1.9223     59206924829
+pacbiohifi_bam  aEngPut4          0.2318     85641136986
+pacbiohifi_fqgz aEngPut4          1.9061     84297233356
+--------------- ---------------  ------- ---------------

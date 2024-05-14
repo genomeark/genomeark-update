@@ -2,10 +2,14 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fRhaChi2             36156773948               0      2147483648    111533253322       738630816  species/Rhamphochromis_sp._chilingali/fRhaChi2/genomic_data/arima/fRhaChi2_47658_1#4.cram
+pacbiohifi_bam  fRhaChi2             22819951759               0      2147483648     59378534585         8470830  species/Rhamphochromis_sp._chilingali/fRhaChi2/genomic_data/pacbio_hifi/m84098_231127_133634_s3.ccs.bc2053.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fRhaChi2          3.0847    111532800597
+pacbiohifi_bam  fRhaChi2          2.6020     59377514476
 --------------- ---------------  ------- ---------------

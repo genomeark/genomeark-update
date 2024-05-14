@@ -2,6 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mUroPar1            134213867252               0      2147483648    244702777655      1620548258  species/Urocitellus_parryii/mUroPar1/genomic_data/arima/mUroPar1_L1_S5_R1_001.fastq.gz
+arima           mUroPar1            142533895597               0      2147483648    245564089880      1626252250  species/Urocitellus_parryii/mUroPar1/genomic_data/arima/mUroPar1_L1_S5_R2_001.fastq.gz
+pacbiohifi_bam  mUroPar1            315784565973               0      2147483648     72429750380         4327347  species/Urocitellus_parryii/mUroPar1/genomic_data/pacbio_hifi/m84091_240229_224058_s1.hifi_reads.bc1017.bam
+pacbiohifi_fqgz mUroPar1             41134818989               0      2147483648     72669304889         4335595  species/Urocitellus_parryii/mUroPar1/genomic_data/pacbio_hifi/m84091_240229_224058_s1.hifi_reads.bc1017.fastq.gz
+pacbiohifi_bam  mUroPar1            291639064560               0      2147483648     67580329046         4038705  species/Urocitellus_parryii/mUroPar1/genomic_data/pacbio_hifi/m84091_240313_190758_s2.hifi_reads.bc1017.bam
+pacbiohifi_fqgz mUroPar1             37211595427               0      2147483648     67468336041         4023700  species/Urocitellus_parryii/mUroPar1/genomic_data/pacbio_hifi/m84091_240313_190758_s2.hifi_reads.bc1017.fastq.gz
 arima           mUroPar3             35857574254               0      2147483648     65541454099       434049381  species/Urocitellus_parryii/mUroPar3/genomic_data/arima/mUroPar3_L1_S6_R1_001.fastq.gz
 arima           mUroPar3             37590421769               0      2147483648     65485885933       433681363  species/Urocitellus_parryii/mUroPar3/genomic_data/arima/mUroPar3_L1_S6_R2_001.fastq.gz
 arima           mUroPar3             21885104124               0      2147483648     36731687141       243256216  species/Urocitellus_parryii/mUroPar3/genomic_data/arima/mUroPar3_L2_S4_R2_001.fastq.gz
@@ -11,5 +17,8 @@ arima           mUroPar3             21885104124               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mUroPar1          1.7549    485664649023
 arima           mUroPar3          1.7597    203896462034
+pacbiohifi_bam  mUroPar1          0.2301    139768177385
+pacbiohifi_fqgz mUroPar1          1.7810    139534964074
 --------------- ---------------  ------- ---------------

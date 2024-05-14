@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fCepMac1             41161597398               0      2147483648    132673410187       878631855  species/Cepola_macrophthalma/fCepMac1/genomic_data/arima/fCepMac1_48453_5-6#1.cram
+arima           fCepMac1             25335428152               0      2147483648     95236684516       630706519  species/Cepola_macrophthalma/fCepMac1/genomic_data/arima/fCepMac1_48526_3-4#3.cram
 pacbiohifi_bam  fCepMac1             24711572868               0      2147483648     63018022525         7126123  species/Cepola_macrophthalma/fCepMac1/genomic_data/pacbio_hifi/m84098_230815_134615_s4.ccs.bc2001.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +11,6 @@ pacbiohifi_bam  fCepMac1             24711572868               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fCepMac1          3.3493    222718487674
 pacbiohifi_bam  fCepMac1          2.5501     63016981970
 --------------- ---------------  ------- ---------------

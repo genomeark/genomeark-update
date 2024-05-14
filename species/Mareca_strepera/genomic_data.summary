@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bMarStr1             24473339615               0      2147483648     72344081205       479099875  species/Mareca_strepera/bMarStr1/genomic_data/arima/bMarStr1_47339_4#1.cram
 pacbiohifi_bam  bMarStr1             20018844935               0      2147483648     29427815553         2546593  species/Mareca_strepera/bMarStr1/genomic_data/pacbio_hifi/m64228e_230619_153626.ccs.bc2051--bc2051.bam
+pacbiohifi_bam  bMarStr1              1662439836               0      1662439836      5299768872          598493  species/Mareca_strepera/bMarStr1/genomic_data/pacbio_hifi/m84093_240404_113737_s2.ccs.bc2059.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +12,5 @@ pacbiohifi_bam  bMarStr1             20018844935               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bMarStr1          2.9560     72343191901
-pacbiohifi_bam  bMarStr1          1.4700     29427702054
+pacbiohifi_bam  bMarStr1          1.5384     33354488491
 --------------- ---------------  ------- ---------------

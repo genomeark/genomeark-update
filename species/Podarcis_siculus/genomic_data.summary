@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rPodSic1             64100129060               0      2147483648    220536858398      1460508996  species/Podarcis_siculus/rPodSic1/genomic_data/arima/rPodSic1_48870_1-2#3.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rPodSic1          3.4405    220536494030
+--------------- ---------------  ------- ---------------

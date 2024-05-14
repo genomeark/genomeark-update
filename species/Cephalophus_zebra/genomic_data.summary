@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mCepZeb1            271299366484               0      2147483648     62751494477         4118223  species/Cephalophus_zebra/mCepZeb1/genomic_data/pacbio_hifi/m84091_240314_181608_s4.hifi_reads.bc1009.bam
+pacbiohifi_fqgz mCepZeb1             33175201448               0      2147483648     62653239072         4102278  species/Cephalophus_zebra/mCepZeb1/genomic_data/pacbio_hifi/m84091_240314_181608_s4.hifi_reads.bc1009.fastq.gz
+pacbiohifi_bam  mCepZeb1            347469870368               0      2147483648     79874360319         5344200  species/Cephalophus_zebra/mCepZeb1/genomic_data/pacbio_hifi/m84091_240422_203716_s3.hifi_reads.bc1009.bam
+pacbiohifi_fqgz mCepZeb1             43605354948               0      2147483648     78763467586         5270125  species/Cephalophus_zebra/mCepZeb1/genomic_data/pacbio_hifi/m84091_240422_203716_s3.hifi_reads.bc1009.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mCepZeb1          0.2302    142440678323
+pacbiohifi_fqgz mCepZeb1          1.8289    140423959592
+--------------- ---------------  ------- ---------------

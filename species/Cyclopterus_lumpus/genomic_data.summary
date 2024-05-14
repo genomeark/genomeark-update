@@ -11,7 +11,18 @@ bionano         fCycLum1               715606950               0       715606950
 pacbio          fCycLum1             20871602430               0      2147483648     11219662571          689978  species/Cyclopterus_lumpus/fCycLum1/genomic_data/pacbio/m54307_190801_190609.subreads.bam
 pacbio          fCycLum1             20597505564               0      2147483648     11062168168          667930  species/Cyclopterus_lumpus/fCycLum1/genomic_data/pacbio/m54307_190802_052026.subreads.bam
 pacbio          fCycLum1             20549982644               0      2147483648     11044442339          627901  species/Cyclopterus_lumpus/fCycLum1/genomic_data/pacbio/m54307_190802_210451.subreads.bam
+arima           fCycLum2             28807730281               0      2147483648     58172794166       387818641  species/Cyclopterus_lumpus/fCycLum2/genomic_data/arima/Lumpfish_R1.fastq.gz
+arima           fCycLum2             30102262596               0      2147483648     59595690261       397304615  species/Cyclopterus_lumpus/fCycLum2/genomic_data/arima/Lumpfish_R2.fastq.gz
 arima           fCycLum2             30889033737               0      2147483648     93372466175       618360703  species/Cyclopterus_lumpus/fCycLum2/genomic_data/arima/fCycLum2_47432_4#7.cram
+pacbiohifi_bam  fCycLum2              9130772029               0      2147483648     11858137194          898895  species/Cyclopterus_lumpus/fCycLum2/genomic_data/pacbio_hifi/m54306U_210611_042911.hifi_reads.bam
+pacbiohifi_fqgz fCycLum2              9658600568               0      2147483648     11689854730          901042  species/Cyclopterus_lumpus/fCycLum2/genomic_data/pacbio_hifi/m54306U_210611_042911.hifi_reads.fastq.gz
+pacbiohifi_clr  fCycLum2            512860351674               0      2147483648    274056188341        23339323  species/Cyclopterus_lumpus/fCycLum2/genomic_data/pacbio_hifi/m54306U_210611_042911.subreads.bam
+pacbiohifi_bam  fCycLum2              7662620720               0      2147483648      8022093858          352686  species/Cyclopterus_lumpus/fCycLum2/genomic_data/pacbio_hifi/m64055_210520_023927.hifi_reads.bam
+pacbiohifi_fqgz fCycLum2              8152348780               0      2147483648      8037111808          351356  species/Cyclopterus_lumpus/fCycLum2/genomic_data/pacbio_hifi/m64055_210520_023927.hifi_reads.fastq.gz
+pacbiohifi_clr  fCycLum2            393023376716               0      2147483648    209243934713        11629920  species/Cyclopterus_lumpus/fCycLum2/genomic_data/pacbio_hifi/m64055_210520_023927.subreads.bam
+pacbiohifi_bam  fCycLum2             10301120237               0      2147483648     13982438045         1142696  species/Cyclopterus_lumpus/fCycLum2/genomic_data/pacbio_hifi/m64055_210616_142731.hifi_reads.bam
+pacbiohifi_fqgz fCycLum2             10894866539               0      2147483648     13812737495         1115389  species/Cyclopterus_lumpus/fCycLum2/genomic_data/pacbio_hifi/m64055_210616_142731.hifi_reads.fastq.gz
+pacbiohifi_clr  fCycLum2            565741409075               0      2147483648    298578235908        26008496  species/Cyclopterus_lumpus/fCycLum2/genomic_data/pacbio_hifi/m64055_210616_142731.subreads.bam
 pacbiohifi_bam  fCycLum2             14789251657               0      2147483648     23151392592         2559548  species/Cyclopterus_lumpus/fCycLum2/genomic_data/pacbio_hifi/m64178e_230815_152909.ccs.bc2065--bc2065.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -21,8 +32,10 @@ pacbiohifi_bam  fCycLum2             14789251657               0      2147483648
 --------------- ---------------  ------- ---------------
 10x             fCycLum1          1.9459     61318900234
 arima           fCycLum1          1.4836     89683660408
-arima           fCycLum2          3.0228     93371371180
+arima           fCycLum2          2.3512    211135471374
 bionano         fCycLum1         710.1708    508203175812
 pacbio          fCycLum1          0.5373     55782367199
-pacbiohifi_bam  fCycLum2          1.5654     23151094543
+pacbiohifi_bam  fCycLum2          1.2497     60451034072
+pacbiohifi_clr  fCycLum2          0.5313    958407180232
+pacbiohifi_fqgz fCycLum2          1.1683     41592157608
 --------------- ---------------  ------- ---------------

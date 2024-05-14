@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mIctTri1             25620836795               0      2147483648     47469059550       314364632  species/Ictidomys_tridecemlineatus/mIctTri1/genomic_data/arima/mIctTri1_L1_S5_R1_001.fastq.gz
+arima           mIctTri1             26553666382               0      2147483648     47609230872       315292919  species/Ictidomys_tridecemlineatus/mIctTri1/genomic_data/arima/mIctTri1_L1_S5_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mIctTri1          1.8124     94561069557
+--------------- ---------------  ------- ---------------

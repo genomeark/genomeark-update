@@ -14,6 +14,7 @@ pacbio          mMyoMyo1              6358866358               0      2147483648
 pacbio          mMyoMyo1              7716663781               0      2147483648      4016640164          641801  species/Myotis_myotis/mMyoMyo1/genomic_data/pacbio/m54142_170422_014304.subreads.bam
 phase           mMyoMyo1              8375071897               0      2147483648     14407257890       180090723  species/Myotis_myotis/mMyoMyo1/genomic_data/phase/mMyoMyo1_myotisS3HiC_R1.fastq.gz
 phase           mMyoMyo1              8719948165               0      2147483648     14320647125       179008089  species/Myotis_myotis/mMyoMyo1/genomic_data/phase/mMyoMyo1_myotisS3HiC_R2.fastq.gz
+pacbiohifi_bam  mMyoMyo2             25695679601               0      2147483648     68544819412         4787641  species/Myotis_myotis/mMyoMyo2/genomic_data/pacbio_hifi/m84098_240416_105352_s3.ccs.bc2002.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -23,5 +24,6 @@ phase           mMyoMyo1              8719948165               0      2147483648
 10x             mMyoMyo1          1.5296     96004851667
 bionano         mMyoMyo1         610.4247   1959836423633
 pacbio          mMyoMyo1          0.5264    182213512644
+pacbiohifi_bam  mMyoMyo2          2.6675     68543225335
 phase           mMyoMyo1          1.6675     28505945953
 --------------- ---------------  ------- ---------------

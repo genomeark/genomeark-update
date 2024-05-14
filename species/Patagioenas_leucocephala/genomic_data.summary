@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPatLeu1             26125181043               0      2147483648     49584144358       328371816  species/Patagioenas_leucocephala/bPatLeu1/genomic_data/arima/bPatLeu1_L1_R1.fastq.gz
+arima           bPatLeu1             26819994702               0      2147483648     50752294466       336107922  species/Patagioenas_leucocephala/bPatLeu1/genomic_data/arima/bPatLeu1_L1_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bPatLeu1          1.8941    100283457378
+--------------- ---------------  ------- ---------------

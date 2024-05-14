@@ -3,11 +3,12 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 pacbiohifi_bam  fPhrNor1              9374817196               0      2147483648     13401557375         1404928  species/Phrynorhombus_norvegicus/fPhrNor1/genomic_data/pacbio_hifi/m64222e_231214_212309.ccs.bc2052--bc2052.bam
+pacbiohifi_bam  fPhrNor1             11449922789               0      2147483648     31406665187         2307591  species/Phrynorhombus_norvegicus/fPhrNor1/genomic_data/pacbio_hifi/m84098_240319_121223_s3.ccs.bc2088.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-pacbiohifi_bam  fPhrNor1          1.4295     13401301181
+pacbiohifi_bam  fPhrNor1          2.3614     49175541000
 --------------- ---------------  ------- ---------------

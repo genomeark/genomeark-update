@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           rPodTil1             66168677894               0      2147483648    221465699955      1466660264  species/Podarcis_tiliguerta/rPodTil1/genomic_data/arima/rPodTil1_48313_7-8#2.cram
+pacbiohifi_bam  rPodTil1              6814842491               0      2147483648     22291296825         3022068  species/Podarcis_tiliguerta/rPodTil1/genomic_data/pacbio_hifi/m84093_240508_113227_s3.ccs.bc2012.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           rPodTil1             66168677894               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           rPodTil1          3.3469    221459948043
+pacbiohifi_bam  rPodTil1          3.2709     22290668303
 --------------- ---------------  ------- ---------------

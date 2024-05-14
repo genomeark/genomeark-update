@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fCheLuc1             74779833659               0      2147483648    233881750419      1548885764  species/Chelidonichthys_lucerna/fCheLuc1/genomic_data/arima/fCheLuc1_47432_4#4.cram
+arima           fCheLuc1             30207198376               0      2147483648     94263770585       624263381  species/Chelidonichthys_lucerna/fCheLuc1/genomic_data/arima/fCheLuc1_48526_3-4#1.cram
 pacbiohifi_bam  fCheLuc1             31957125160               0      2147483648     77580767320         7248957  species/Chelidonichthys_lucerna/fCheLuc1/genomic_data/pacbio_hifi/m84098_230815_131601_s3.ccs.bc2064.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -10,6 +11,6 @@ pacbiohifi_bam  fCheLuc1             31957125160               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           fCheLuc1          3.1276    233881407751
+arima           fCheLuc1          3.1264    328231456954
 pacbiohifi_bam  fCheLuc1          2.4276     77579117038
 --------------- ---------------  ------- ---------------

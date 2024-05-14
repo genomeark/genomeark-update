@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPatCay1             32084431436               0      2147483648     64202100638       425179489  species/Patagioenas_cayennensis/bPatCay1/genomic_data/arima/bPatCay1_L1_R1.fastq.gz
+arima           bPatCay1             32414117943               0      2147483648     65763635269       435520778  species/Patagioenas_cayennensis/bPatCay1/genomic_data/arima/bPatCay1_L1_R2.fastq.gz
+pacbiohifi_bam  bPatCay1            335306236779               0      2147483648     76420409784         5637247  species/Patagioenas_cayennensis/bPatCay1/genomic_data/pacbio_hifi/m84091_240415_171244_s1.hifi_reads.bc1002.bam
+pacbiohifi_fqgz bPatCay1             42828649202               0      2147483648     76050361084         5589605  species/Patagioenas_cayennensis/bPatCay1/genomic_data/pacbio_hifi/m84091_240415_171244_s1.hifi_reads.bc1002.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bPatCay1          2.0196    130261270325
+pacbiohifi_bam  bPatCay1          0.2279     76416291361
+pacbiohifi_fqgz bPatCay1          1.7756     76046549523
+--------------- ---------------  ------- ---------------

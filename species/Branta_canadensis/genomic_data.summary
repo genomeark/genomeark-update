@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bBraCan1             16670854070               0      2147483648     53394102864       353603330  species/Branta_canadensis/bBraCan1/genomic_data/arima/bBraCan1_48542_7-8#6.cram
+pacbiohifi_bam  bBraCan1             16148936570               0      2147483648     49318376115         4489949  species/Branta_canadensis/bBraCan1/genomic_data/pacbio_hifi/m84098_240329_160930_s1.ccs.bc2069.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bBraCan1          3.2028     53393411415
+pacbiohifi_bam  bBraCan1          3.0539     49317237391
+--------------- ---------------  ------- ---------------

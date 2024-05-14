@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           aSpeMul1             32559854964               0      2147483648     60324177100       399497876  species/Spea_multiplicata/aSpeMul1/genomic_data/arima/aSpeMul1_L1_S6_R1_001.fastq.gz
 arima           aSpeMul1             34447634193               0      2147483648     61090651914       404573853  species/Spea_multiplicata/aSpeMul1/genomic_data/arima/aSpeMul1_L1_S6_R2_001.fastq.gz
+pacbiohifi_bam  aSpeMul1            247953345012               0      2147483648     57157591810         3928719  species/Spea_multiplicata/aSpeMul1/genomic_data/pacbio_hifi/m84091_240315_200923_s3.hifi_reads.bc1022.bam
+pacbiohifi_fqgz aSpeMul1             31033993707               0      2147483648     57650598712         3969187  species/Spea_multiplicata/aSpeMul1/genomic_data/pacbio_hifi/m84091_240315_200923_s3.hifi_reads.bc1022.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +13,6 @@ arima           aSpeMul1             34447634193               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aSpeMul1          1.7988    120533071495
+pacbiohifi_bam  aSpeMul1          0.2305     57153246025
+pacbiohifi_fqgz aSpeMul1          1.8576     57648746710
 --------------- ---------------  ------- ---------------

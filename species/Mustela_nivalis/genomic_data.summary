@@ -6,8 +6,12 @@ arima           mMusNiv1             40900616028               0      2147483648
 arima           mMusNiv1             42900772814               0      2147483648     77585985297       513814472  species/Mustela_nivalis/mMusNiv1/genomic_data/arima/mMusNiv1_L1_S1_R2_001.fastq.gz
 arima           mMusNiv1             33499010853               0      2147483648     58576711736       387925258  species/Mustela_nivalis/mMusNiv1/genomic_data/arima/mMusNiv1_L1_S2_R2_001.fastq.gz
 pacbiohifi_fqgz mMusNiv1             21766665298               0      2147483648     26674496072         1761273  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m54306Ue_230618_114017.bc1016--bc1016.hifi_reads.fastq.gz
+pacbiohifi_clr  mMusNiv1           1119633123328               0      2147483648    597885121716        37080863  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m54306Ue_230618_114017.subreads.bam
 pacbiohifi_fqgz mMusNiv1             23145270423               0      2147483648     28649208750         1845352  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m54306Ue_230623_164757.bc1016--bc1016.hifi_reads.fastq.gz
+pacbiohifi_clr  mMusNiv1           1145730328167               0      2147483648    612682774343        37812856  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m54306Ue_230623_164757.subreads.bam
 pacbiohifi_fqgz mMusNiv1             21890858597               0      2147483648     28495534707         1856165  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m54306Ue_230705_171409.bc1016--bc1016.hifi_reads.fastq.gz
+pacbiohifi_clr  mMusNiv1           1171057993135               0      2147483648    625276226280        39031564  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m64330e_230623_164629.subreads.bam
+arima           mMusNiv2            161041372270               0      2147483648    541154851980      3583806966  species/Mustela_nivalis/mMusNiv2/genomic_data/arima/mMusNiv2_48728_7-8#2.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,5 +19,7 @@ pacbiohifi_fqgz mMusNiv1             21890858597               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mMusNiv1          1.8128    269372494765
+arima           mMusNiv2          3.3603    541147323238
+pacbiohifi_clr  mMusNiv1          0.5342   2421402688407
 pacbiohifi_fqgz mMusNiv1          1.2547     83817466030
 --------------- ---------------  ------- ---------------

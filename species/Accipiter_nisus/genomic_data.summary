@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bAccNis1             26035089537               0      2147483648     74319476032         7359239  species/Accipiter_nisus/bAccNis1/genomic_data/pacbio_hifi/m84098_240313_120842_s1.ccs.bc2079.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bAccNis1          2.8545     74317163083
+--------------- ---------------  ------- ---------------

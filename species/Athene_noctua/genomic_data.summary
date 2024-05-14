@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAthNoc1             50557016893               0      2147483648    168573790990      1116382721  species/Athene_noctua/bAthNoc1/genomic_data/arima/bAthNoc1_48791_1-2#3.cram
+pacbiohifi_bam  bAthNoc1             22547363906               0      2147483648     67497408502         5361336  species/Athene_noctua/bAthNoc1/genomic_data/pacbio_hifi/m84098_240313_124059_s2.ccs.bc2070.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bAthNoc1          3.3343    168572261426
+pacbiohifi_bam  bAthNoc1          2.9935     67495533852
+--------------- ---------------  ------- ---------------

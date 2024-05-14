@@ -7,9 +7,12 @@ pacbiohifi_fqgz Rhineura_floridana      21047771281               0      2147483
 pacbiohifi_fqgz Rhineura_floridana      11133294669               0      2147483648     14546227341          901090  species/Narcine_bancroftii/Rhineura_floridana/genomic_data/pacbio_hifi/m64334e_230210_124101.bc1008--bc1008.hifi_reads.fastq.gz
 arima           sNarBan1             85153991575               0      2147483648    164875663655      1091891851  species/Narcine_bancroftii/sNarBan1/genomic_data/arima/sNarBan1_S6_R1_001.fastq.gz
 arima           sNarBan1             89421926060               0      2147483648    166720695753      1104110609  species/Narcine_bancroftii/sNarBan1/genomic_data/arima/sNarBan1_S6_R2_001.fastq.gz
+pacbiohifi_clr  sNarBan1            966626695067               0      2147483648    522160712427        25342241  species/Narcine_bancroftii/sNarBan1/genomic_data/pacbio_hifi/m54306Ue_221119_080816.subreads.bam
 pacbiohifi_fqgz sNarBan1             22939663588               0      2147483648     25579227782         1144342  species/Narcine_bancroftii/sNarBan1/genomic_data/pacbio_hifi/m54306Ue_221130_165948.bc1011--bc1011.hifi_reads.fastq.gz
 pacbiohifi_fqgz sNarBan1             23406184706               0      2147483648     27426690478         1179985  species/Narcine_bancroftii/sNarBan1/genomic_data/pacbio_hifi/m64334e_221206_092912.bc1011--bc1011.hifi_reads.fastq.gz
+pacbiohifi_clr  sNarBan1            949477149443               0      2147483648    512626040244        23845211  species/Narcine_bancroftii/sNarBan1/genomic_data/pacbio_hifi/m64334e_221206_092912.subreads.bam
 pacbiohifi_fqgz sNarBan1             22804737456               0      2147483648     25520961859         1110681  species/Narcine_bancroftii/sNarBan1/genomic_data/pacbio_hifi/m64334e_221208_045849.bc1011--bc1011.hifi_reads.fastq.gz
+pacbiohifi_clr  sNarBan1            919312308826               0      2147483648    493959000679        23510601  species/Narcine_bancroftii/sNarBan1/genomic_data/pacbio_hifi/m64334e_221208_045849.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -17,6 +20,7 @@ pacbiohifi_fqgz sNarBan1             22804737456               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           sNarBan1          1.8875    329512044536
+pacbiohifi_clr  sNarBan1          0.5391   2478173082421
 pacbiohifi_fqgz Rhineura_floridana   1.2208     62241057378
 pacbiohifi_fqgz sNarBan1          1.1355    119745234990
 --------------- ---------------  ------- ---------------

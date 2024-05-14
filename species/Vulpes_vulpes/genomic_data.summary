@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mVulVul1             96417467177               0      2147483648    324063918307      2146118664  species/Vulpes_vulpes/mVulVul1/genomic_data/arima/mVulVul1_48728_7-8#1.cram
 pacbiohifi_bam  mVulVul1             23230067167               0      2147483648     66557823667         4964771  species/Vulpes_vulpes/mVulVul1/genomic_data/pacbio_hifi/m84047_240223_152838_s3.ccs.bc2013.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  mVulVul1             23230067167               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mVulVul1          3.3610    324059107181
 pacbiohifi_bam  mVulVul1          2.8651     66556465440
 --------------- ---------------  ------- ---------------

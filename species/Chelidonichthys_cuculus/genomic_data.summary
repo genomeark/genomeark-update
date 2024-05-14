@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fCheCuc1             23143296712               0      2147483648     71390417148       472784219  species/Chelidonichthys_cuculus/fCheCuc1/genomic_data/arima/fCheCuc1_46860_3#7.cram
 arima           fCheCuc1             59112690557               0      2147483648    182262526716      1207036600  species/Chelidonichthys_cuculus/fCheCuc1/genomic_data/arima/fCheCuc1_47431_4#7.cram
+arima           fCheCuc1             34175768197               0      2147483648    108306097075       717258921  species/Chelidonichthys_cuculus/fCheCuc1/genomic_data/arima/fCheCuc1_48526_3-4#2.cram
 pacbiohifi_bam  fCheCuc1             87135520283               0      2147483648     23205428253         2253124  species/Chelidonichthys_cuculus/fCheCuc1/genomic_data/pacbio_hifi/m64016e_230301_220725.ccs.bc1008_BAK8A_OA--bc1008_BAK8A_OA.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -11,6 +12,6 @@ pacbiohifi_bam  fCheCuc1             87135520283               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           fCheCuc1          3.0835    253636336743
+arima           fCheCuc1          3.1087    361951398217
 pacbiohifi_bam  fCheCuc1          0.2663     23204189051
 --------------- ---------------  ------- ---------------

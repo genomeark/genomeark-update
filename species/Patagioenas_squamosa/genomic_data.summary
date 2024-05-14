@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPatSqu1             38895207932               0      2147483648     75341508215       498950385  species/Patagioenas_squamosa/bPatSqu1/genomic_data/arima/bPatSqu1_L1_R1.fastq.gz
+arima           bPatSqu1             40217770523               0      2147483648     77216116269       511365008  species/Patagioenas_squamosa/bPatSqu1/genomic_data/arima/bPatSqu1_L1_R2.fastq.gz
+pacbiohifi_bam  bPatSqu1            259653189872               0      2147483648     59323367277         6030649  species/Patagioenas_squamosa/bPatSqu1/genomic_data/pacbio_hifi/m84091_240423_194530_s1.hifi_reads.bc1009.bam
+pacbiohifi_fqgz bPatSqu1             31563025369               0      2147483648     58920092227         6005339  species/Patagioenas_squamosa/bPatSqu1/genomic_data/pacbio_hifi/m84091_240423_194530_s1.hifi_reads.bc1009.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bPatSqu1          1.9255    152332040015
+pacbiohifi_bam  bPatSqu1          0.2284     59304788566
+pacbiohifi_fqgz bPatSqu1          1.8667     58918699456
+--------------- ---------------  ------- ---------------

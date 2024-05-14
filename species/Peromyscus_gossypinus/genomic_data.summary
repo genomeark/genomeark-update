@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mPerGos1            294156054459               0      2147483648     67605427284         4535996  species/Peromyscus_gossypinus/mPerGos1/genomic_data/pacbio_hifi/m84091_240313_183652_s1.hifi_reads.bc1015.bam
+pacbiohifi_fqgz mPerGos1             36055676553               0      2147483648     67929164775         4554147  species/Peromyscus_gossypinus/mPerGos1/genomic_data/pacbio_hifi/m84091_240313_183652_s1.hifi_reads.bc1015.fastq.gz
+pacbiohifi_bam  mPerGos1            322437894195               0      2147483648     75628460976         5041780  species/Peromyscus_gossypinus/mPerGos1/genomic_data/pacbio_hifi/m84091_240318_172615_s3.hifi_reads.bc1015.bam
+pacbiohifi_fqgz mPerGos1             39851060692               0      2147483648     76084893172         5057625  species/Peromyscus_gossypinus/mPerGos1/genomic_data/pacbio_hifi/m84091_240318_172615_s3.hifi_reads.bc1015.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mPerGos1          0.2330    143666390036
+pacbiohifi_fqgz mPerGos1          1.9013    144321479523
+--------------- ---------------  ------- ---------------

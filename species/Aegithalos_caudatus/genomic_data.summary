@@ -2,12 +2,15 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAegCau2             15241453125               0      2147483648     50745019234       336059730  species/Aegithalos_caudatus/bAegCau2/genomic_data/arima/bAegCau2_48791_7-8#2.cram
 pacbiohifi_bam  bAegCau2              1715584359               0      1715584359      5126985962          569388  species/Aegithalos_caudatus/bAegCau2/genomic_data/pacbio_hifi/m84047_240217_162432_s4.ccs.bc2075.bam
+pacbiohifi_bam  bAegCau2              3475871636               0      3475871636      9849502354         1062500  species/Aegithalos_caudatus/bAegCau2/genomic_data/pacbio_hifi/m84098_240501_103821_s2.ccs.bc2084.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-pacbiohifi_bam  bAegCau2          2.9884      5126852298
+arima           bAegCau2          3.3294     50744894034
+pacbiohifi_bam  bAegCau2          2.8643     14869887406
 --------------- ---------------  ------- ---------------

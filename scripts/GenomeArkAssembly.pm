@@ -131,21 +131,37 @@ sub parseAssemblyName ($$$) {
     #  Convert the 'date' to seconds (more or less from the epoch).  We used
     #  to return 'filesecs', but some files are uploaded well after they're
     #  generated, even after the file that replaces them.
+    #
+    #  The 'date' is generated from the filename, assuming ISO-8601 format
+    #  of YYYYMMDD.  If instead the filename has a date MMDDYYYY, the date
+    #  string here will be "MMDD-YY-YY".
+    #
+    #  This is done here, instead of in isAssemblyFile() when the filename
+    #  is parsed into a date string, so that we can report an error.
 
     my $timesecs = $filesecs;
 
-    if ($date =~ m!(\d\d\d\d)-(\d\d)-(\d\d)$!) {
+    if ($date =~ m!(\d\d)(\d\d)(\d\d)(\d\d)$!) {
         my ($y, $m, $d);
 
-        if ($2 < 13) {   #  Normal case, $2 is month,
-            ($y, $m, $d) =  ($1, $2-1, $3);
-        } else {
-            print " - Suspected month/day swap\n"  if ($verbose);
-            $err = "  Suspected month/day swap in '$filename'.\n";
-            ($y, $m, $d) =  ($1, $3-1, $2);
+        if    ("$1$2" < 1231)  {                #  File definitely has MMDDYYYY ... or
+          ($m, $d, $y) = ($1, $2, "$3$4");      #  maybe DDMMYYYY, but that's too weird.
+          print " - Suspected non ISO-8601 date '$date'\n"  if ($verbose);
+          $err = "  Suspected non ISO-8601 date '$date' in '$filename'.\n";
         }
 
-        $timesecs = timelocal(0, 0, 0, $d, $m, $y);
+        elsif (($3 > 12) && ($4 <= 12)) {       #  Argh!  YYYYDDMM.
+          ($y, $d, $m) = ("$1$2", $3, $4);
+          print " - Suspected month/day swap in date '$date'\n"  if ($verbose);
+          $err = "  Suspected month/day swap in date '$date' in '$filename'.\n";
+        }
+
+        else {                                  #  Assume YYYYMMDD.
+          ($y, $m, $d) = ("$1$2", $3, $4);   
+        }
+
+        $date     = "$y-$m-$d";
+        $timesecs = timelocal(0, 0, 0, $d, $m-1, $y);
     }
 
     #  Return a bunch of stuff.

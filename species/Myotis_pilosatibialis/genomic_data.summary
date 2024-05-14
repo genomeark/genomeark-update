@@ -1,0 +1,23 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMyoPil1             27158978838               0      2147483648     50145205496       333204116  species/Myotis_pilosatibialis/mMyoPil1/genomic_data/arima/mMyoPil1_LV_1.fastq.gz
+arima           mMyoPil1              8565836100               0      2147483648     13884841693        92253161  species/Myotis_pilosatibialis/mMyoPil1/genomic_data/arima/mMyoPil1_LV_2.2.fastq.gz
+arima           mMyoPil1             29399526423               0      2147483648     48346460304       321219426  species/Myotis_pilosatibialis/mMyoPil1/genomic_data/arima/mMyoPil1_LV_2.fastq.gz
+pacbiohifi_bam  mMyoPil1            139521700237               0      2147483648     37923067753         2386732  species/Myotis_pilosatibialis/mMyoPil1/genomic_data/pacbio_hifi/mMyoPil1_m64326e_220525_170152.hifi_reads.bam
+pacbiohifi_fqgz mMyoPil1             30598605703               0      2147483648     38719106857         2443532  species/Myotis_pilosatibialis/mMyoPil1/genomic_data/pacbio_hifi/mMyoPil1_m64326e_220525_170152.hifi_reads.fastq.gz
+pacbiohifi_bam  mMyoPil1            145040388466               0      2147483648     39619645971         2502683  species/Myotis_pilosatibialis/mMyoPil1/genomic_data/pacbio_hifi/mMyoPil1_m64326e_220527_021301.hifi_reads.bam
+pacbiohifi_fqgz mMyoPil1             30982510015               0      2147483648     39851594811         2506551  species/Myotis_pilosatibialis/mMyoPil1/genomic_data/pacbio_hifi/mMyoPil1_m64326e_220527_021301.hifi_reads.fastq.gz
+pacbiohifi_bam  mMyoPil1            121143602605               0      2147483648     32615770829         1997206  species/Myotis_pilosatibialis/mMyoPil1/genomic_data/pacbio_hifi/mMyoPil1_m64326e_220905_013550.hifi_reads.bam
+pacbiohifi_fqgz mMyoPil1             27120194085               0      2147483648     32278380504         2011178  species/Myotis_pilosatibialis/mMyoPil1/genomic_data/pacbio_hifi/mMyoPil1_m64326e_220905_013550.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mMyoPil1          1.7255    126298114575
+pacbiohifi_bam  mMyoPil1          0.2715    110149095190
+pacbiohifi_fqgz mMyoPil1          1.2496    110841156729
+--------------- ---------------  ------- ---------------

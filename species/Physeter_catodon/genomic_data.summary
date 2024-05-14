@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPhyCat1            138981629074               0      2147483648    491946271794      3257922329  species/Physeter_catodon/mPhyCat1/genomic_data/arima/mPhyCat1_48870_5-6#1.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mPhyCat1          3.5396    491939374270
+--------------- ---------------  ------- ---------------

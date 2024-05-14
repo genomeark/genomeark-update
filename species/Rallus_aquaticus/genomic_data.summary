@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bRalAqu1             31081394145               0      2147483648    106301922959       703986244  species/Rallus_aquaticus/bRalAqu1/genomic_data/arima/bRalAqu1_48587_5-6#2.cram
 pacbiohifi_bam  bRalAqu1             15070877011               0      2147483648     49292314334         4909353  species/Rallus_aquaticus/bRalAqu1/genomic_data/pacbio_hifi/m84047_240219_121238_s3.ccs.bc2089.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  bRalAqu1             15070877011               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bRalAqu1          3.4201    106301476115
 pacbiohifi_bam  bRalAqu1          3.2706     49290810352
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bLarCac1             20235850260               0      2147483648     62323598247         6724563  species/Larus_cachinnans/bLarCac1/genomic_data/pacbio_hifi/m84093_240312_130045_s3.ccs.bc2078.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bLarCac1          3.0798     62322371630
+--------------- ---------------  ------- ---------------

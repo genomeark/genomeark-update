@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bTreVer1             33705275621               0      2147483648     64900890029       429807234  species/Treron_vernans/bTreVer1/genomic_data/arima/bTreVer1_L1_R1.fastq.gz
+arima           bTreVer1             34742525098               0      2147483648     66300076940       439073357  species/Treron_vernans/bTreVer1/genomic_data/arima/bTreVer1_L1_R2.fastq.gz
+pacbiohifi_bam  bTreVer1            380894290947               0      2147483648     86897972479         6194390  species/Treron_vernans/bTreVer1/genomic_data/pacbio_hifi/m84091_240425_194027_s2.hifi_reads.bc1018.bam
+pacbiohifi_fqgz bTreVer1             45930928189               0      2147483648     85899752268         6048684  species/Treron_vernans/bTreVer1/genomic_data/pacbio_hifi/m84091_240425_194027_s2.hifi_reads.bc1018.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bTreVer1          1.9139    131002245796
+pacbiohifi_bam  bTreVer1          0.2281     86881987765
+pacbiohifi_fqgz bTreVer1          1.8701     85895428806
+--------------- ---------------  ------- ---------------

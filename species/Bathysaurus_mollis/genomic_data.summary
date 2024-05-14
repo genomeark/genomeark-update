@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fBatMol1             27788494404               0      2147483648     89959574977       595758774  species/Bathysaurus_mollis/fBatMol1/genomic_data/arima/fBatMol1_48772_3-4#4.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fBatMol1          3.2372     89956914084
+--------------- ---------------  ------- ---------------

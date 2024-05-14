@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bAnsEry1             21923469894               0      2147483648     71758944279       475224796  species/Anser_erythropus/bAnsEry1/genomic_data/arima/bAnsEry1_48387_5-6#1.cram
+pacbiohifi_bam  bAnsEry1             23030476230               0      2147483648     69811350825         6125424  species/Anser_erythropus/bAnsEry1/genomic_data/pacbio_hifi/m84093_240328_175210_s4.ccs.bc2072.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           bAnsEry1             21923469894               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bAnsEry1          3.2731     71757709310
+pacbiohifi_bam  bAnsEry1          3.0312     69809979548
 --------------- ---------------  ------- ---------------

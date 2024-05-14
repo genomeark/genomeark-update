@@ -12,6 +12,8 @@ bionano         bAytFul2               963986034               0       963986034
 pacbio          bAytFul2             21414258802               0      2147483648     11784128683          554441  species/Aythya_fuligula/bAytFul2/genomic_data/pacbio/m54158_181029_182836.subreads.bam
 pacbio          bAytFul2             16636840286               0      2147483648      9172219154          436008  species/Aythya_fuligula/bAytFul2/genomic_data/pacbio/m54158_181030_044209.subreads.bam
 pacbio          bAytFul2             24051292712               0      2147483648     13198706450          604742  species/Aythya_fuligula/bAytFul2/genomic_data/pacbio/m54306_181101_191249.subreads.bam
+arima           bAytFul3             14747876538               0      2147483648     48043966603       318171964  species/Aythya_fuligula/bAytFul3/genomic_data/arima/bAytFul3_48587_5-6#3.cram
+pacbiohifi_bam  bAytFul3             18851262812               0      2147483648     58372000311         5116600  species/Aythya_fuligula/bAytFul3/genomic_data/pacbio_hifi/m84098_240329_164147_s2.ccs.bc2070.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -20,6 +22,8 @@ pacbio          bAytFul2             24051292712               0      2147483648
 --------------- ---------------  ------- ---------------
 10x             bAytFul2          2.1285    132960646492
 arima           bAytFul2          1.8347    109643020840
+arima           bAytFul3          3.2576     48042682610
 bionano         bAytFul2         462.4721    445816698365
 pacbio          bAytFul2          0.5499     76888690904
+pacbiohifi_bam  bAytFul3          3.0964     58371050171
 --------------- ---------------  ------- ---------------

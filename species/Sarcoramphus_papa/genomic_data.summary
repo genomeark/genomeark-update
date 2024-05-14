@@ -4,7 +4,9 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bSarPap1             20353005575               0      2147483648     37964175306       251418379  species/Sarcoramphus_papa/bSarPap1/genomic_data/arima/bSarPap1_L1_S3_R1_001.fastq.gz
 arima           bSarPap1             21783683340               0      2147483648     38433864667       254528915  species/Sarcoramphus_papa/bSarPap1/genomic_data/arima/bSarPap1_L1_S3_R2_001.fastq.gz
+pacbiohifi_bam  bSarPap1            180743983078               0      2147483648    352260948638        26175210  species/Sarcoramphus_papa/bSarPap1/genomic_data/pacbio_hifi/m84091_231004_181918_s1.hifi_reads.bc1017.bam
 pacbiohifi_fqgz bSarPap1             21335722899               0      2147483648     41582252754         3089823  species/Sarcoramphus_papa/bSarPap1/genomic_data/pacbio_hifi/m84091_231004_181918_s1.hifi_reads.bc1017.fastq.gz
+pacbiohifi_bam  bSarPap1            168814772718               0      2147483648    348153764663        30247042  species/Sarcoramphus_papa/bSarPap1/genomic_data/pacbio_hifi/m84091_231006_192600_s1.hifi_reads.bc1017.bam
 pacbiohifi_fqgz bSarPap1             18840592386               0      2147483648     38855741485         3375724  species/Sarcoramphus_papa/bSarPap1/genomic_data/pacbio_hifi/m84091_231006_192600_s1.hifi_reads.bc1017.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -13,5 +15,6 @@ pacbiohifi_fqgz bSarPap1             18840592386               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bSarPap1          1.7964     75694347966
+pacbiohifi_bam  bSarPap1          1.9850    693874130255
 pacbiohifi_fqgz bSarPap1          1.9836     79693738999
 --------------- ---------------  ------- ---------------

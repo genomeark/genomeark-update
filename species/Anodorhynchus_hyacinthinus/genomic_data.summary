@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bAnoHya1             18827253523               0      2147483648     34662025641       229549847  species/Anodorhynchus_hyacinthinus/bAnoHya1/genomic_data/arima/bAnoHya1_L1_S6_R1_001.fastq.gz
 arima           bAnoHya1             20467569236               0      2147483648     34984599465       231686098  species/Anodorhynchus_hyacinthinus/bAnoHya1/genomic_data/arima/bAnoHya1_L1_S6_R2_001.fastq.gz
+pacbiohifi_bam  bAnoHya1            231886602408               0      2147483648    376371897167        23431469  species/Anodorhynchus_hyacinthinus/bAnoHya1/genomic_data/pacbio_hifi/m84091_231110_181446_s2.hifi_reads.bc1011.bam
 pacbiohifi_fqgz bAnoHya1             30983186449               0      2147483648     50288376055         3130761  species/Anodorhynchus_hyacinthinus/bAnoHya1/genomic_data/pacbio_hifi/m84091_231110_181446_s2.hifi_reads.bc1011.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -12,5 +13,6 @@ pacbiohifi_fqgz bAnoHya1             30983186449               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bAnoHya1          1.7507     68793446204
+pacbiohifi_bam  bAnoHya1          1.6230    376351955708
 pacbiohifi_fqgz bAnoHya1          1.6230     50285711606
 --------------- ---------------  ------- ---------------

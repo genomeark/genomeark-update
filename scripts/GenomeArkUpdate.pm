@@ -182,30 +182,29 @@ sub isAssemblyFile ($$$) {
 
     my $isMeta = (($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.*\.y[a]{0,1}ml$!i) ||
                   ($filename =~ m!species/.*/${ToLIDregex}/${ToLIDregex}.*\.y[a]{0,1}ml$!i));
-    #y $isGeno =  ($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.\w+.\w+.\d\d\d\d\d\d\d\d\.fasta\.gz$!i);
-    my $isSequ =  ($filename =~ m!\.fa(sta)?(\.gz)?$!i);
+    #y $isGeno =  ($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.\w+.\w+.\d\d\d\d\d\d\d\d\.fa(?:sta)?\.gz$!i);
+    my $isSequ =  ($filename =~ m!\.fa(?:sta)?(\.gz)?$!i);
 
-    #my $isMito = (($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.MT.\d\d\d\d\d\d\d\d\.fasta\.gz$!i) ||
-    #              ($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.\w+.\w+\.\d\d\d\d\d\d\d\d\.MT\.fasta\.gz$!i));
+    #my $isMito = (($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.MT.\d\d\d\d\d\d\d\d\.fa(?:sta)?\.gz$!i) ||
+    #              ($filename =~ m!species/.*/${ToLIDregex}/.*assembly.*/${ToLIDregex}.\w+.\w+\.\d\d\d\d\d\d\d\d\.MT\.fa(?:sta)?\.gz$!i));
 
     my ($isMito, @mito) = (0);
     my ($isTrio, @trio) = (0);
     my ($isAssm, @assm) = (0);
 
-    if (($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}\.MT(?:\.cur)?\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz$!i) ||
-        ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}\.mito\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz$!i) ||
-        ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}[\._].*\.(\d\d\d\d)(\d\d)(\d\d)\.MT.fasta.gz$!i)) {
-        ($isMito, @mito) = (1, $1, $2, $3, $4, "mito", "$5-$6-$7");
+    if (($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}\.MT(?:\.cur)?\.(\d\d\d\d\d\d\d\d).fa(?:sta)?.gz$!i) ||
+        ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}\.mito\.(\d\d\d\d\d\d\d\d).fa(?:sta)?.gz$!i) ||
+        ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}[\._].*\.(\d\d\d\d\d\d\d\d)\.MT.fa(?:sta)?.gz$!i)) {
+        ($isMito, @mito) = (1, $1, $2, $3, $4, "mito", "$5");
     }
 
-    if ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}[\._]\w+\.[WXYZ]\.\w+\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz$!i) {
-        ($isTrio, @trio) = (1, $1, $2, $3, $4, "mgd",  "$5-$6-$7");
+    if ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}[\._]\w+\.[WXYZ]\.\w+\.(\d\d\d\d\d\d\d\d).fa(?:sta)?.gz$!i) {
+        ($isTrio, @trio) = (1, $1, $2, $3, $4, "mgd",  "$5");
     }
 
-    if ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}[\._](.*)\.(\d\d\d\d)(\d\d)(\d\d).fasta.gz$!i) {
-        ($isAssm, @assm) = (1, $1, $2, $3, $4, $5,     "$6-$7-$8");
+    if ($filename =~ m!species/(.*)/.*/(.*assembly.+)/${ToLIDregex}[\._](.*)\.(\d\d\d\d\d\d\d\d).fa(?:sta)?.gz$!i) {
+        ($isAssm, @assm) = (1, $1, $2, $3, $4, $5,     "$6");
     }
-
 
     #  The first three are used in parseAssemblyName() (in GenomeArkAssembly).
     #  The last two ...

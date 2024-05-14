@@ -6,8 +6,11 @@ arima           aXenPet1             32522444587               0      2147483648
 arima           aXenPet1             34015199099               0      2147483648     57745790051       382422450  species/Xenopus_petersii/aXenPet1/genomic_data/arima/aXenPet1_L1_S5_R2_001.fastq.gz
 arima           aXenPet1             28154719664               0      2147483648     47986704434       317792744  species/Xenopus_petersii/aXenPet1/genomic_data/arima/aXenPet1_L2_S6_R2_001.fastq.gz
 pacbiohifi_fqgz aXenPet1             17065635532               0      2147483648     20829475509         1291109  species/Xenopus_petersii/aXenPet1/genomic_data/pacbio_hifi/m54306Ue_230314_185756.bc1018--bc1018.hifi_reads.fastq.gz
+pacbiohifi_clr  aXenPet1            883028732092               0      2147483648    473527917428        27406377  species/Xenopus_petersii/aXenPet1/genomic_data/pacbio_hifi/m54306Ue_230314_185756.subreads.bam
 pacbiohifi_fqgz aXenPet1             17717189420               0      2147483648     22206765088         1359329  species/Xenopus_petersii/aXenPet1/genomic_data/pacbio_hifi/m54306Ue_230316_141234.bc1018--bc1018.hifi_reads.fastq.gz
+pacbiohifi_clr  aXenPet1            943336003505               0      2147483648    507242438843        29370369  species/Xenopus_petersii/aXenPet1/genomic_data/pacbio_hifi/m54306Ue_230316_141234.subreads.bam
 pacbiohifi_fqgz aXenPet1             16562470113               0      2147483648     20138390785         1241627  species/Xenopus_petersii/aXenPet1/genomic_data/pacbio_hifi/m54306Ue_230318_093200.bc1018--bc1018.hifi_reads.fastq.gz
+pacbiohifi_clr  aXenPet1            902408593826               0      2147483648    482906158509        28699122  species/Xenopus_petersii/aXenPet1/genomic_data/pacbio_hifi/m54306Ue_230318_093200.subreads.bam
 illumina        aXenPet2             34815930072               0      2147483648     71146470663       471168696  species/Xenopus_petersii/aXenPet2/genomic_data/illumina/aXenPet2-dna1_1.fastq.gz
 illumina        aXenPet2             36136346762               0      2147483648     71320615079       472321970  species/Xenopus_petersii/aXenPet2/genomic_data/illumina/aXenPet2-dna1_2.fastq.gz
 illumina        aXenPet3             49181225281               0      2147483648    101372784601       671342967  species/Xenopus_petersii/aXenPet3/genomic_data/illumina/aXenPet3-dna1_1.fastq.gz
@@ -21,5 +24,6 @@ illumina        aXenPet3             50845191162               0      2147483648
 arima           aXenPet1          1.7270    210045666135
 illumina        aXenPet2          1.9963    141642030243
 illumina        aXenPet3          2.0193    201983342723
+pacbiohifi_clr  aXenPet1          0.5363   2481018626476
 pacbiohifi_fqgz aXenPet1          1.2303    104710893512
 --------------- ---------------  ------- ---------------

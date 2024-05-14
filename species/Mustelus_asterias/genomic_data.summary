@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           sMusAst1            290680053735               0      2147483648    972493557575      6440354685  species/Mustelus_asterias/sMusAst1/genomic_data/arima/sMusAst1_48857_1-2#1.cram
 pacbiohifi_bam  sMusAst1             25709774139               0      2147483648     68629683322         7685862  species/Mustelus_asterias/sMusAst1/genomic_data/pacbio_hifi/m84047_231213_142029_s2.ccs.bc2044.bam
 pacbiohifi_bam  sMusAst1             23232349218               0      2147483648     51379395646         6193353  species/Mustelus_asterias/sMusAst1/genomic_data/pacbio_hifi/m84098_231219_145557_s1.ccs.bc2044.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  sMusAst1             23232349218               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           sMusAst1          3.3455    972470119770
 pacbiohifi_bam  sMusAst1          2.5269    123671851510
 --------------- ---------------  ------- ---------------

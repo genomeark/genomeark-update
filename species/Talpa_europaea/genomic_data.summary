@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mTalEur1             69943189974               0      2147483648    225836626580      1495606798  species/Talpa_europaea/mTalEur1/genomic_data/arima/mTalEur1_47598_4#4.cram
+arima           mTalEur1             72561593841               0      2147483648    250260835024      1657356523  species/Talpa_europaea/mTalEur1/genomic_data/arima/mTalEur1_48810_5-6#3.cram
 pacbiohifi_bam  mTalEur1             14960026730               0      2147483648     23194196577         2733933  species/Talpa_europaea/mTalEur1/genomic_data/pacbio_hifi/m64016e_230523_024806.ccs.bc2014--bc2014.bam
 pacbiohifi_bam  mTalEur1             15476136008               0      2147483648     41547690219         5660928  species/Talpa_europaea/mTalEur1/genomic_data/pacbio_hifi/m84093_231215_125131_s3.ccs.bc2066.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -11,6 +12,6 @@ pacbiohifi_bam  mTalEur1             15476136008               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           mTalEur1          3.2288    225832571788
+arima           mTalEur1          3.3773    481281406378
 pacbiohifi_bam  mTalEur1          2.3150     70459716738
 --------------- ---------------  ------- ---------------

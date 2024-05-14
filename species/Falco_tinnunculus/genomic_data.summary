@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bFalTin1             25850818989               0      2147483648     86940423446       575764393  species/Falco_tinnunculus/bFalTin1/genomic_data/arima/bFalTin1_48772_3-4#6.cram
+pacbiohifi_bam  bFalTin1             29280734130               0      2147483648     78405743485         6200922  species/Falco_tinnunculus/bFalTin1/genomic_data/pacbio_hifi/m84093_240329_180921_s4.ccs.bc2084.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bFalTin1          3.3631     86938889341
+pacbiohifi_bam  bFalTin1          2.6777     78405021779
+--------------- ---------------  ------- ---------------

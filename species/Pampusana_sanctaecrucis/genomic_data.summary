@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bPamSan1            376460011807               0      2147483648     87942039196         6439399  species/Pampusana_sanctaecrucis/bPamSan1/genomic_data/pacbio_hifi/m84203_240430_150528_s1.hifi_reads.bc1015.bam
+pacbiohifi_fqgz bPamSan1             48051973604               0      2147483648     87063533263         6389696  species/Pampusana_sanctaecrucis/bPamSan1/genomic_data/pacbio_hifi/m84203_240430_150528_s1.hifi_reads.bc1015.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bPamSan1          0.2336     87941058758
+pacbiohifi_fqgz bPamSan1          1.8118     87060565775
+--------------- ---------------  ------- ---------------
