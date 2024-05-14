@@ -4,7 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bMacUnc1             33721229530               0      2147483648     65483028986       433662459  species/Macropygia_unchall/bMacUnc1/genomic_data/arima/bMacUnc1_L1_R1.fastq.gz
 arima           bMacUnc1             34265591812               0      2147483648     66958337822       443432716  species/Macropygia_unchall/bMacUnc1/genomic_data/arima/bMacUnc1_L1_R2.fastq.gz
-pacbiohifi_bam  bMacUnc1            319974141443               0      2147483648     71978788708         5458748  species/Macropygia_unchall/bMacUnc1/genomic_data/pacbio_hifi/m84091_240425_190921_s1.hifi_reads.bc1020.bam
+pacbiohifi_bam  bMacUnc1            319974141443               0    319974141443     71493261901         5545595  species/Macropygia_unchall/bMacUnc1/genomic_data/pacbio_hifi/m84091_240425_190921_s1.hifi_reads.bc1020.bam
+pacbiohifi_fqgz bMacUnc1                      20               0              20     71493261901         5545595  species/Macropygia_unchall/bMacUnc1/genomic_data/pacbio_hifi/m84091_240425_190921_s1.hifi_reads.bc1020.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,5 +13,6 @@ pacbiohifi_bam  bMacUnc1            319974141443               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bMacUnc1          1.9500    132574301616
-pacbiohifi_bam  bMacUnc1          0.2249     71962184410
+pacbiohifi_bam  bMacUnc1          0.2234     71482223198
+pacbiohifi_fqgz bMacUnc1         3574663095.0500     71493261901
 --------------- ---------------  ------- ---------------
