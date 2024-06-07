@@ -3,12 +3,19 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 pacbiohifi_fqgz fEviSig6             25488082699               0      2147483648     26085664742         1197646  species/Eviota_sigillata/fEviSig6/genomic_data/pacbio_hifi/m54306Ue_220904_142429.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_clr  fEviSig6            881058131908               0      2147483648    471353108124        23487403  species/Eviota_sigillata/fEviSig6/genomic_data/pacbio_hifi/m54306Ue_220904_142429.subreads.bam
+pacbiohifi_bam  fEviSig6            104661339788               0      2147483648     26962269447         1251949  species/Eviota_sigillata/fEviSig6/genomic_data/pacbio_hifi/m54306Ue_220904_142429.with_5mC.bam
 pacbiohifi_fqgz fEviSig6             26833619370               0      2147483648     32916799881         1557923  species/Eviota_sigillata/fEviSig6/genomic_data/pacbio_hifi/m64334e_221101_041657.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_bam  fEviSig6            124451993648               0      2147483648     34071730294         1631941  species/Eviota_sigillata/fEviSig6/genomic_data/pacbio_hifi/m64334e_221101_041657.hifi_reads.bam
+pacbiohifi_clr  fEviSig6           1106073845795               0      2147483648    597671609647        29985001  species/Eviota_sigillata/fEviSig6/genomic_data/pacbio_hifi/m64334e_221101_041657.subreads.bam
+pacbiohifi_bam  fEviSig6            126267711489               0      2147483648     34069009626         1632173  species/Eviota_sigillata/fEviSig6/genomic_data/pacbio_hifi/m64334e_221101_041657.with_5mC.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+pacbiohifi_bam  fEviSig6          0.2676    122726169560
+pacbiohifi_clr  fEviSig6          0.5388   1070666709586
 pacbiohifi_fqgz fEviSig6          1.1612     60755960442
 --------------- ---------------  ------- ---------------

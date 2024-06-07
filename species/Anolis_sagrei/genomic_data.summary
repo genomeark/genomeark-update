@@ -5,7 +5,12 @@
 arima           rAnoSag1             22459006866               0      2147483648     43486085094       287987328  species/Anolis_sagrei/rAnoSag1/genomic_data/arima/rAnoSag4_L1_S6_R1_001.fastq.gz
 arima           rAnoSag1             23251917116               0      2147483648     43251120314       286431271  species/Anolis_sagrei/rAnoSag1/genomic_data/arima/rAnoSag4_L1_S6_R2_001.fastq.gz
 pacbiohifi_fqgz rAnoSag1             26062948765               0      2147483648     29523086218         1717764  species/Anolis_sagrei/rAnoSag1/genomic_data/pacbio_hifi/m64334e_230208_171737.bc1018--bc1018.hifi_reads.fastq.gz
+pacbiohifi_bam  rAnoSag1            115639480657               0      2147483648     30720671406         1774318  species/Anolis_sagrei/rAnoSag1/genomic_data/pacbio_hifi/m64334e_230208_171737.hifi_reads.bam
+pacbiohifi_clr  rAnoSag1           1120100876118               0      2147483648    597604829856        35343820  species/Anolis_sagrei/rAnoSag1/genomic_data/pacbio_hifi/m64334e_230208_171737.subreads.bam
 pacbiohifi_fqgz rAnoSag1             31047371294               0      2147483648     37785446036         2140297  species/Anolis_sagrei/rAnoSag1/genomic_data/pacbio_hifi/m64334e_230303_142841.bc1018--bc1018.hifi_reads.fastq.gz
+pacbiohifi_bam  rAnoSag1            139116452469               0      2147483648     37140267934         2106423  species/Anolis_sagrei/rAnoSag1/genomic_data/pacbio_hifi/m64334e_230303_142841.demultiplex.bc1018--bc1018.bam
+pacbiohifi_bam  rAnoSag1            143585348541               0      2147483648     38852245404         2202037  species/Anolis_sagrei/rAnoSag1/genomic_data/pacbio_hifi/m64334e_230303_142841.hifi_reads.bam
+pacbiohifi_clr  rAnoSag1           1337368498199               0      2147483648    715639387302        43144863  species/Anolis_sagrei/rAnoSag1/genomic_data/pacbio_hifi/m64334e_230303_142841.subreads.bam
 illumina        rAnoSag2             28745255071               0      2147483648     59438503811       393632488  species/Anolis_sagrei/rAnoSag2/genomic_data/illumina/rAnoSag2-dna1_1.fastq.gz
 illumina        rAnoSag2             30130934516               0      2147483648     59332558173       392930848  species/Anolis_sagrei/rAnoSag2/genomic_data/illumina/rAnoSag2-dna1_2.fastq.gz
 illumina        rAnoSag3             30287322514               0      2147483648     62105719680       411296170  species/Anolis_sagrei/rAnoSag3/genomic_data/illumina/rAnoSag1-dna1_1.fastq.gz
@@ -19,5 +24,7 @@ illumina        rAnoSag3             31482181923               0      2147483648
 arima           rAnoSag1          1.8849     86160520613
 illumina        rAnoSag2          2.0010    117811255363
 illumina        rAnoSag3          1.9986    123452531567
+pacbiohifi_bam  rAnoSag1          0.2678    206759446352
+pacbiohifi_clr  rAnoSag1          0.5346   1313763127509
 pacbiohifi_fqgz rAnoSag1          1.1921     68081212542
 --------------- ---------------  ------- ---------------

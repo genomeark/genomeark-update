@@ -3,6 +3,8 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bLarMic1             29348923298               0      2147483648     94907961548       628529546  species/Larus_michahellis/bLarMic1/genomic_data/arima/bLarMic1_48358_3-4#7.cram
+arima           bLarMic1             34370486395               0      2147483648    115303411805       763598753  species/Larus_michahellis/bLarMic1/genomic_data/arima/bLarMic1_48903_7-8#1.cram
+arima           bLarMic1             23859074997               0      2147483648     77658294056       514293338  species/Larus_michahellis/bLarMic1/genomic_data/arima/bLarMic1_48903_7-8#2.cram
 pacbiohifi_bam  bLarMic1             35299694023               0      2147483648     86380890411         8304836  species/Larus_michahellis/bLarMic1/genomic_data/pacbio_hifi/m84098_231213_141836_s2.ccs.bc2046.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -10,6 +12,6 @@ pacbiohifi_bam  bLarMic1             35299694023               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           bLarMic1          3.2337     94905613268
+arima           bLarMic1          3.2869    287861721327
 pacbiohifi_bam  bLarMic1          2.4470     86378351274
 --------------- ---------------  ------- ---------------

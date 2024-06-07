@@ -6,8 +6,11 @@ arima           rTilSci1             30258073842               0      2147483648
 arima           rTilSci1             32859394260               0      2147483648     61593266583       407902443  species/Tiliqua_scincoides/rTilSci1/genomic_data/arima/rTilSci1_L1_S6_R2_001.fastq.gz
 pacbiohifi_fqgz rTilSci1             21276573280               0      2147483648     24460478332         1154115  species/Tiliqua_scincoides/rTilSci1/genomic_data/pacbio_hifi/m64334e_221028_133114.bc1010--bc1010.hifi_reads.fastq.gz
 pacbiohifi_clr  rTilSci1            886297935452               0      2147483648    475740832582        24163616  species/Tiliqua_scincoides/rTilSci1/genomic_data/pacbio_hifi/m64334e_221028_133114.subreads.bam
+pacbiohifi_bam  rTilSci1             95198841577               0      2147483648     25343781398         1207649  species/Tiliqua_scincoides/rTilSci1/genomic_data/pacbio_hifi/m64334e_221028_133114.with_5mC.bam
 pacbiohifi_fqgz rTilSci1             22923928701               0      2147483648     26836229274         1263030  species/Tiliqua_scincoides/rTilSci1/genomic_data/pacbio_hifi/m64334e_221109_141813.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_bam  rTilSci1            104195945874               0      2147483648     28147428011         1321879  species/Tiliqua_scincoides/rTilSci1/genomic_data/pacbio_hifi/m64334e_221109_141813.hifi_reads.bam
 pacbiohifi_clr  rTilSci1            992228676088               0      2147483648    534479707537        26449159  species/Tiliqua_scincoides/rTilSci1/genomic_data/pacbio_hifi/m64334e_221109_141813.subreads.bam
+pacbiohifi_bam  rTilSci1            105203666125               0      2147483648     28147821295         1321191  species/Tiliqua_scincoides/rTilSci1/genomic_data/pacbio_hifi/m64334e_221109_141813.with_5mC.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -15,6 +18,7 @@ pacbiohifi_clr  rTilSci1            992228676088               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           rTilSci1          1.9246    121475879109
+pacbiohifi_bam  rTilSci1          0.2680    106901221931
 pacbiohifi_clr  rTilSci1          0.5380   1010647317008
 pacbiohifi_fqgz rTilSci1          1.1640     51449384305
 --------------- ---------------  ------- ---------------

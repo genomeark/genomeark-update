@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mBalBor1            149884293428               0      2147483648    510513608323      3380884823  species/Balaenoptera_borealis/mBalBor1/genomic_data/arima/mBalBor1_48903_3-4#2.cram
 pacbiohifi_bam  mBalBor1             19316227406               0      2147483648     57560872498         4760283  species/Balaenoptera_borealis/mBalBor1/genomic_data/pacbio_hifi/m84047_240217_155216_s3.ccs.bc2073.bam
 pacbiohifi_bam  mBalBor1             27891837711               0      2147483648     75750179154         6761734  species/Balaenoptera_borealis/mBalBor1/genomic_data/pacbio_hifi/m84093_240222_124402_s4.ccs.bc2073.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  mBalBor1             27891837711               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mBalBor1          3.4060    510505903415
 pacbiohifi_bam  mBalBor1          2.7837    131413090866
 --------------- ---------------  ------- ---------------

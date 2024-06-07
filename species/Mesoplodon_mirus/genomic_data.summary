@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mMesMir1             22187315656               0      2147483648     69157248646         6178462  species/Mesoplodon_mirus/mMesMir1/genomic_data/pacbio_hifi/m84093_240514_112417_s1.ccs.bc2001.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mMesMir1          3.1169     69155644168
+--------------- ---------------  ------- ---------------

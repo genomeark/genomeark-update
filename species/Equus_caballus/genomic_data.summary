@@ -24,8 +24,14 @@ pacbiohifi_clr  mEquAca1            691689130736               0      2147483648
 dovetail        mEquCab1             54440141700               0      2147483648     98537309969       652564992  species/Equus_caballus/mEquCab1/genomic_data/dovetail/mEquCab1_L1_S2_R1_001.fastq.gz
 dovetail        mEquCab1             54712555173               0      2147483648     98850052409       654636134  species/Equus_caballus/mEquCab1/genomic_data/dovetail/mEquCab1_L1_S2_R2_001.fastq.gz
 pacbiohifi_fqgz mEquCab1             23918887408               0      2147483648     31308877744         2472379  species/Equus_caballus/mEquCab1/genomic_data/pacbio_hifi/m64055e_230118_190346.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_clr  mEquCab1           1342993866474               0      2147483648    711788448114        55772036  species/Equus_caballus/mEquCab1/genomic_data/pacbio_hifi/m64055e_230118_190346.subreads.bam
+pacbiohifi_bam  mEquCab1            121629667255               0      2147483648     32571847751         2599241  species/Equus_caballus/mEquCab1/genomic_data/pacbio_hifi/m64055e_230118_190346.with_5mC.bam
 pacbiohifi_fqgz mEquCab1             24779133614               0      2147483648     34598861702         2457151  species/Equus_caballus/mEquCab1/genomic_data/pacbio_hifi/m64334e_230130_184931.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_clr  mEquCab1           1333150927866               0      2147483648    712809668326        53565449  species/Equus_caballus/mEquCab1/genomic_data/pacbio_hifi/m64334e_230130_184931.subreads.bam
+pacbiohifi_bam  mEquCab1            130561947897               0      2147483648     35826855907         2640684  species/Equus_caballus/mEquCab1/genomic_data/pacbio_hifi/m64334e_230130_184931.with_5mC.bam
 pacbiohifi_fqgz mEquCab1             24277038468               0      2147483648     35165321827         2420894  species/Equus_caballus/mEquCab1/genomic_data/pacbio_hifi/m64334e_230201_154457.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_bam  mEquCab1            129218386194               0      2147483648     36203200423         2591367  species/Equus_caballus/mEquCab1/genomic_data/pacbio_hifi/m64334e_230201_154457.hifi_reads.bam
+pacbiohifi_clr  mEquCab1           1314860796242               0      2147483648    702486677206        52542176  species/Equus_caballus/mEquCab1/genomic_data/pacbio_hifi/m64334e_230201_154457.subreads.bam
 illumina        mEquCab2             30185650448               0      2147483648     60629226993       401518059  species/Equus_caballus/mEquCab2/genomic_data/illumina/mEquCab2-dna1_1.fastq.gz
 illumina        mEquCab2             31068755765               0      2147483648     60883272107       403200477  species/Equus_caballus/mEquCab2/genomic_data/illumina/mEquCab2-dna1_2.fastq.gz
 illumina        mEquCab3             23443279182               0      2147483648     46757449844       309651996  species/Equus_caballus/mEquCab3/genomic_data/illumina/mEquCab3-dna1_1.fastq.gz
@@ -46,7 +52,9 @@ illumina        mEquCab3          1.9294     92960651689
 illumina        mEquCab4          2.1768    144375435817
 ont             mEquAca1          1.1562    215925428433
 pacbiohifi_bam  mEquAca1          0.2623    147343386926
+pacbiohifi_bam  mEquCab1          0.2742    208815220671
 pacbiohifi_clr  mEquAca1          0.5401   2473403783654
+pacbiohifi_clr  mEquCab1          0.5329   2126806879221
 pacbiohifi_fagz mEquAca1          2.8728    133592516217
 pacbiohifi_fqgz mEquAca1          1.0340    173260962769
 pacbiohifi_fqgz mEquCab1          1.3850    101070457393

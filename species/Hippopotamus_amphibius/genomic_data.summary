@@ -5,8 +5,14 @@
 arima           mHipAmp2             71702775618               0      2147483648    132146068161       875139557  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/arima/mHipAmp2_1.fastq.gz
 arima           mHipAmp2             74544873714               0      2147483648    133080139933       881325464  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/arima/mHipAmp2_2.fastq.gz
 pacbiohifi_fqgz mHipAmp2             18286908370               0      2147483648     20070706980         1071276  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/pacbio_hifi/m64055e_220802_081650.bc1017--bc1017.hifi_reads.fastq.gz
+pacbiohifi_clr  mHipAmp2            649247903458               0      2147483648    346208172618        20213455  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/pacbio_hifi/m64055e_220802_081650.subreads.bam
+pacbiohifi_bam  mHipAmp2             80495000047               0      2147483648     21026706392         1133123  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/pacbio_hifi/m64055e_220802_081650.with_5mC.bam
 pacbiohifi_fqgz mHipAmp2             18720051331               0      2147483648     21140581281         1173684  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/pacbio_hifi/m64055e_220803_191412.bc1017--bc1017.hifi_reads.fastq.gz
+pacbiohifi_clr  mHipAmp2            665654699318               0      2147483648    355543443810        21587524  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/pacbio_hifi/m64055e_220803_191412.subreads.bam
+pacbiohifi_bam  mHipAmp2             83629197471               0      2147483648     22034948281         1216926  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/pacbio_hifi/m64055e_220803_191412.with_5mC.bam
 pacbiohifi_fqgz mHipAmp2             14807885741               0      2147483648     17690035753          878833  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/pacbio_hifi/m64334e_221013_154157.bc1017--bc1017.hifi_reads.fastq.gz
+pacbiohifi_bam  mHipAmp2             67636098721               0      2147483648     18350852091          918125  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/pacbio_hifi/m64334e_221013_154157.hifi_reads.bam
+pacbiohifi_clr  mHipAmp2            670040977380               0      2147483648    360997882833        19508247  species/Hippopotamus_amphibius/mHipAmp2/genomic_data/pacbio_hifi/m64334e_221013_154157.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,5 +20,7 @@ pacbiohifi_fqgz mHipAmp2             14807885741               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mHipAmp2          1.8039    263816134629
+pacbiohifi_bam  mHipAmp2          0.2649    195385763949
+pacbiohifi_clr  mHipAmp2          0.5354   1689921168706
 pacbiohifi_fqgz mHipAmp2          1.1367     93732954285
 --------------- ---------------  ------- ---------------

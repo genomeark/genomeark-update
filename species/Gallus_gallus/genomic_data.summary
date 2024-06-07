@@ -23,9 +23,16 @@ ont             bGalGal1                70385106               0        70385106
 pacbio          bGalGal1             19152341497               0      2147483648     10267058936          576429  species/Gallus_gallus/bGalGal1/genomic_data/pacbio/m54158_190712_122830.subreads.bam
 pacbio          bGalGal1             20465841531               0      2147483648     11040758406          587934  species/Gallus_gallus/bGalGal1/genomic_data/pacbio/m54158_190712_224310.subreads.bam
 pacbio          bGalGal1             18565218912               0      2147483648     10073475994          529235  species/Gallus_gallus/bGalGal1/genomic_data/pacbio/m54159_190712_194412.subreads.bam
+pacbiohifi_fqgz bGalGal1              6680081845               0      2147483648      7954895215          441918  species/Gallus_gallus/bGalGal1/genomic_data/pacbio_hifi/m54306Ue_220613_162445.hifi_reads.fastq.gz
 pacbiohifi_fqgz bGalGal1              8550332838               0      2147483648      8863407922          388635  species/Gallus_gallus/bGalGal1/genomic_data/pacbio_hifi/m64055e_220721_053659.hifi_reads.fastq.gz
+pacbiohifi_clr  bGalGal1            329932803477               0      2147483648    177087772317         9896830  species/Gallus_gallus/bGalGal1/genomic_data/pacbio_hifi/m64055e_220721_053659.subreads.bam
+pacbiohifi_bam  bGalGal1             47480538306               0      2147483648     12681610946          717951  species/Gallus_gallus/bGalGal1/genomic_data/pacbio_hifi/m64055e_220722_163330.hifi_reads.bam
 pacbiohifi_fqgz bGalGal1             11180526946               0      2147483648     12643311435          699528  species/Gallus_gallus/bGalGal1/genomic_data/pacbio_hifi/m64055e_220722_163330.hifi_reads.fastq.gz
+pacbiohifi_clr  bGalGal1            455821866782               0      2147483648    243133900299        15492967  species/Gallus_gallus/bGalGal1/genomic_data/pacbio_hifi/m64055e_220722_163330.subreads.bam
+pacbiohifi_bam  bGalGal1            117070187356               0      2147483648     30775105274         1359768  species/Gallus_gallus/bGalGal1/genomic_data/pacbio_hifi/m64330e_220920_184402.hifi_reads.bam
 pacbiohifi_fqgz bGalGal1             28280545689               0      2147483648     30827349033         1354078  species/Gallus_gallus/bGalGal1/genomic_data/pacbio_hifi/m64330e_220920_184402.hifi_reads.fastq.gz
+pacbiohifi_clr  bGalGal1            997313089934               0      2147483648    533217134013        25601999  species/Gallus_gallus/bGalGal1/genomic_data/pacbio_hifi/m64330e_220920_184402.subreads.bam
+pacbiohifi_bam  bGalGal1            127350101934               0      2147483648     34033222580         1502001  species/Gallus_gallus/bGalGal1/genomic_data/pacbio_hifi/m64334e_220927_184555.hifi_reads.bam
 arima           bGalGal2             32632701927               0      2147483648     52061649467       347077678  species/Gallus_gallus/bGalGal2/genomic_data/arima/bGalGal2_S2_L005_R1_001.fastq.gz
 arima           bGalGal2             35118003078               0      2147483648     50349763487       335665089  species/Gallus_gallus/bGalGal2/genomic_data/arima/bGalGal2_S2_L005_R2_001.fastq.gz
 illumina        bGalGal2              7382295945               0      2147483648     14142706167        93660309  species/Gallus_gallus/bGalGal2/genomic_data/illumina/HJTKMDSXX_18861317_S18_L002_R1_001.fastq.gz
@@ -86,9 +93,11 @@ illumina        bGalGal2          1.8592    103180479895
 illumina        bGalGal3          1.8649    116183322122
 ont             bGalGal1          1.1114    191415997498
 pacbio          bGalGal1          0.5393    123488382835
+pacbiohifi_bam  bGalGal1          0.2654    173744818779
 pacbiohifi_bam  bGalGal4          1.0892     39380355184
+pacbiohifi_clr  bGalGal1          0.5347   1587322629335
 pacbiohifi_clr  bGalGal4          0.5156    803975578832
 pacbiohifi_clr  bGalGal5          0.5227    733798793598
-pacbiohifi_fqgz bGalGal1          1.0900     92892980735
+pacbiohifi_fqgz bGalGal1          1.1145    102402335955
 pacbiohifi_fqgz bGalGal5          1.2606     45728759432
 --------------- ---------------  ------- ---------------

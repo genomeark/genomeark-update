@@ -5,10 +5,13 @@
 dovetail        rCycPin1             78539322548               0      2147483648    143349873085       949336944  species/Cyclura_pinguis/rCycPin1/genomic_data/dovetail/rCycPin1_S7_R1_001.fastq.gz
 dovetail        rCycPin1             78049602102               0      2147483648    143446502092       949976871  species/Cyclura_pinguis/rCycPin1/genomic_data/dovetail/rCycPin1_S7_R2_001.fastq.gz
 pacbiohifi_fqgz rCycPin1             15081021898               0      2147483648     18364196558          898077  species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/m64055e_221026_183244.bc1011--bc1011.hifi_reads.fastq.gz
+pacbiohifi_bam  rCycPin1             70710045212               0      2147483648     19256838987          942335  species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/m64055e_221026_183244.hifi_reads.bam
 pacbiohifi_clr  rCycPin1            746569057027               0      2147483648    399495177901        20460841  species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/m64055e_221026_183244.subreads.bam
 pacbiohifi_fqgz rCycPin1             13260395205               0      2147483648     15443819619          764459  species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/m64055e_221114_190427.bc1011--bc1011.hifi_reads.fastq.gz
+pacbiohifi_bam  rCycPin1             60645961068               0      2147483648     16252353218          803554  species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/m64055e_221114_190427.hifi_reads.bam
 pacbiohifi_clr  rCycPin1            660427339733               0      2147483648    351617227469        18202715  species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/m64055e_221114_190427.subreads.bam
 pacbiohifi_fqgz rCycPin1             11740922270               0      2147483648     12908207576          625245  species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/m64330e_221111_183051.bc1011--bc1011.hifi_reads.fastq.gz
+pacbiohifi_bam  rCycPin1             50532747892               0      2147483648     13419120655          652259  species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/m64330e_221111_183051.hifi_reads.bam
 pacbiohifi_clr  rCycPin1            681899161662               0      2147483648    355807500333        24873711  species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/m64330e_230107_104659.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -17,6 +20,7 @@ pacbiohifi_clr  rCycPin1            681899161662               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 dovetail        rCycPin1          1.8294    286463778754
+pacbiohifi_bam  rCycPin1          0.2690    124807028483
 pacbiohifi_clr  rCycPin1          0.5299   1404182677063
 pacbiohifi_fqgz rCycPin1          1.1655     58379212452
 --------------- ---------------  ------- ---------------

@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rPodBoc1             67294059603               0      2147483648    221399602503      1466222533  species/Podarcis_bocagei/rPodBoc1/genomic_data/arima/rPodBoc1_48903_5-6#4.cram
 pacbiohifi_bam  rPodBoc1             15461368125               0      2147483648     45416364870         5334295  species/Podarcis_bocagei/rPodBoc1/genomic_data/pacbio_hifi/m84093_240508_110010_s2.ccs.bc2011.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  rPodBoc1             15461368125               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           rPodBoc1          3.2900    221397456093
 pacbiohifi_bam  rPodBoc1          2.9374     45416222730
 --------------- ---------------  ------- ---------------

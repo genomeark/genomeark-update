@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fDipBim1             31660626959               0      2147483648    112089788594       742316480  species/Diplecogaster_bimaculata/fDipBim1/genomic_data/arima/fDipBim1_48907_7-8#6.cram
+pacbiohifi_bam  fDipBim1             11284206737               0      2147483648     34791156759         3334454  species/Diplecogaster_bimaculata/fDipBim1/genomic_data/pacbio_hifi/m84047_240510_110033_s2.ccs.bc2029.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fDipBim1          3.5403    112088117622
+pacbiohifi_bam  fDipBim1          3.0831     34790337790
+--------------- ---------------  ------- ---------------

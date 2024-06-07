@@ -5,8 +5,11 @@
 arima           aEleCoq1            147289308944               0      2147483648    292635383105      1937982738  species/Eleutherodactylus_coqui/aEleCoq1/genomic_data/arima/aEleCoq3_L1_S7_R1_001.fastq.gz
 arima           aEleCoq1            152905547348               0      2147483648    296075260276      1960763384  species/Eleutherodactylus_coqui/aEleCoq1/genomic_data/arima/aEleCoq3_L1_S7_R2_001.fastq.gz
 pacbiohifi_fqgz aEleCoq1             20036106151               0      2147483648     25327951930         1692916  species/Eleutherodactylus_coqui/aEleCoq1/genomic_data/pacbio_hifi/m64330e_230203_190628.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_clr  aEleCoq1           1072438997291               0      2147483648    571289882233        36685433  species/Eleutherodactylus_coqui/aEleCoq1/genomic_data/pacbio_hifi/m64330e_230203_190628.subreads.bam
 pacbiohifi_fqgz aEleCoq1             19569493097               0      2147483648     23350640207         1546698  species/Eleutherodactylus_coqui/aEleCoq1/genomic_data/pacbio_hifi/m64334e_230212_090627.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_clr  aEleCoq1           1022072383263               0      2147483648    545718573779        34175314  species/Eleutherodactylus_coqui/aEleCoq1/genomic_data/pacbio_hifi/m64334e_230212_090627.subreads.bam
 pacbiohifi_fqgz aEleCoq1             19628801440               0      2147483648     23089119490         1532566  species/Eleutherodactylus_coqui/aEleCoq1/genomic_data/pacbio_hifi/m64334e_230214_042547.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_clr  aEleCoq1           1064839444932               0      2147483648    570748367428        32901434  species/Eleutherodactylus_coqui/aEleCoq1/genomic_data/pacbio_hifi/m64334e_230214_042547.subreads.bam
 arima           aEleCoq3            147289308944               0      2147483648    292635383105      1937982738  species/Eleutherodactylus_coqui/aEleCoq3/genomic_data/arima/aEleCoq3_L1_S7_R1_001.fastq.gz
 arima           aEleCoq3            152905547348               0      2147483648    296075260276      1960763384  species/Eleutherodactylus_coqui/aEleCoq3/genomic_data/arima/aEleCoq3_L1_S7_R2_001.fastq.gz
 pacbiohifi_fqgz aEleCoq3             20036106151               0      2147483648     25327951930         1692916  species/Eleutherodactylus_coqui/aEleCoq3/genomic_data/pacbio_hifi/m64330e_230203_190628.bc1010--bc1010.hifi_reads.fastq.gz
@@ -20,6 +23,7 @@ pacbiohifi_fqgz aEleCoq3             19628801440               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           aEleCoq1          1.9527    586190495881
 arima           aEleCoq3          1.9527    586190495881
+pacbiohifi_clr  aEleCoq1          0.5342   2806565227491
 pacbiohifi_fqgz aEleCoq1          1.2115    119522088294
 pacbiohifi_fqgz aEleCoq3          1.2115    119522088294
 --------------- ---------------  ------- ---------------

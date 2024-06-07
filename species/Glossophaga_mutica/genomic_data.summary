@@ -5,8 +5,11 @@
 arima           mGloMut1             30488320044               0      2147483648     55932243124       371681758  species/Glossophaga_mutica/mGloMut1/genomic_data/arima/A008S055_S1_R1_001.fastq.gz
 arima           mGloMut1             32801970622               0      2147483648     53870057301       357960588  species/Glossophaga_mutica/mGloMut1/genomic_data/arima/A008S055_S1_R2_001.fastq.gz
 arima           mGloMut1             11424574787               0      2147483648     18497599828       122921503  species/Glossophaga_mutica/mGloMut1/genomic_data/arima/A008S055_S5_R2_001.fastq.gz
+pacbiohifi_bam  mGloMut1             70884152770               0      2147483648     19488024542         1168615  species/Glossophaga_mutica/mGloMut1/genomic_data/pacbio_hifi/m64326e_220903_162443.hifi_reads.bam
 pacbiohifi_fqgz mGloMut1             15268172909               0      2147483648     19644203986         1193201  species/Glossophaga_mutica/mGloMut1/genomic_data/pacbio_hifi/m64326e_220903_162443.hifi_reads.fastq.gz
+pacbiohifi_bam  mGloMut1             83091743714               0      2147483648     22736182857         1345458  species/Glossophaga_mutica/mGloMut1/genomic_data/pacbio_hifi/m64326e_221102_200538.hifi_reads.bc2011--bc2011.bam
 pacbiohifi_fqgz mGloMut1             17229418088               0      2147483648     22949289546         1378853  species/Glossophaga_mutica/mGloMut1/genomic_data/pacbio_hifi/m64326e_221102_200538.hifi_reads.bc2011--bc2011.fastq.gz
+pacbiohifi_bam  mGloMut1            128909761998               0      2147483648     35017794792         2114736  species/Glossophaga_mutica/mGloMut1/genomic_data/pacbio_hifi/m64326e_221122_010906.hifi_reads.bc2011--bc2011.bam
 pacbiohifi_fqgz mGloMut1             27082125480               0      2147483648     34623559753         2101311  species/Glossophaga_mutica/mGloMut1/genomic_data/pacbio_hifi/m64326e_221122_010906.hifi_reads.bc2011--bc2011.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -15,5 +18,6 @@ pacbiohifi_fqgz mGloMut1             27082125480               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mGloMut1          1.7171    146898430527
+pacbiohifi_bam  mGloMut1          0.2730     77227784765
 pacbiohifi_fqgz mGloMut1          1.2960     77215312554
 --------------- ---------------  ------- ---------------

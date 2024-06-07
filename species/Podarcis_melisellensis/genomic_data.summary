@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  rPodMel1             20806760220               0      2147483648     58578660833         4739443  species/Podarcis_melisellensis/rPodMel1/genomic_data/pacbio_hifi/m84098_240514_112027_s2.ccs.bc2081.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  rPodMel1          2.8153     58577272047
+--------------- ---------------  ------- ---------------

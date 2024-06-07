@@ -5,7 +5,12 @@
 arima           bAgePho1             20445183319               0      2147483648     38650841555       255965847  species/Agelaius_phoeniceus/bAgePho1/genomic_data/arima/bAgePho1_S5_R1_001.fastq.gz
 arima           bAgePho1             20857553880               0      2147483648     38400276951       254306469  species/Agelaius_phoeniceus/bAgePho1/genomic_data/arima/bAgePho1_S5_R2_001.fastq.gz
 pacbiohifi_fqgz bAgePho1             39498023330               0      2147483648     43411037286         1967632  species/Agelaius_phoeniceus/bAgePho1/genomic_data/pacbio_hifi/m64330e_221114_184840.hifi_reads.fastq.gz
+pacbiohifi_clr  bAgePho1           1426852867317               0      2147483648    768211456333        35921086  species/Agelaius_phoeniceus/bAgePho1/genomic_data/pacbio_hifi/m64330e_221114_184840.subreads.bam
+pacbiohifi_bam  bAgePho1            164905929621               0      2147483648     44101347032         1981573  species/Agelaius_phoeniceus/bAgePho1/genomic_data/pacbio_hifi/m64330e_221114_184840.with_5mC.bam
 pacbiohifi_fqgz bAgePho1             35929756414               0      2147483648     42770131470         1833912  species/Agelaius_phoeniceus/bAgePho1/genomic_data/pacbio_hifi/m64330e_221116_140955.bc1009--bc1009.hifi_reads.fastq.gz
+pacbiohifi_bam  bAgePho1            165212666981               0      2147483648     45035771289         1913635  species/Agelaius_phoeniceus/bAgePho1/genomic_data/pacbio_hifi/m64330e_221116_140955.hifi_reads.bam
+pacbiohifi_clr  bAgePho1           1423405855419               0      2147483648    772968626195        34543787  species/Agelaius_phoeniceus/bAgePho1/genomic_data/pacbio_hifi/m64330e_221116_140955.subreads.bam
+pacbiohifi_bam  bAgePho1            166312368343               0      2147483648     45038766255         1913516  species/Agelaius_phoeniceus/bAgePho1/genomic_data/pacbio_hifi/m64330e_221116_140955.with_5mC.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,5 +18,7 @@ pacbiohifi_fqgz bAgePho1             35929756414               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bAgePho1          1.8573     76711573799
+pacbiohifi_bam  bAgePho1          0.2702    178405748175
+pacbiohifi_clr  bAgePho1          0.5399   1538854684405
 pacbiohifi_fqgz bAgePho1          1.1276     85052364439
 --------------- ---------------  ------- ---------------

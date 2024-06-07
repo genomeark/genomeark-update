@@ -3,8 +3,14 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 pacbiohifi_fqgz mMusLut2             12983448589               0      2147483648     15937841087          943763  species/Mustela_lutreola/mMusLut2/genomic_data/pacbio_hifi/m64055e_221122_165407.bc1011--bc1011.hifi_reads.fastq.gz
+pacbiohifi_clr  mMusLut2            679684807912               0      2147483648    361720084733        22588812  species/Mustela_lutreola/mMusLut2/genomic_data/pacbio_hifi/m64055e_221122_165407.subreads.bam
+pacbiohifi_bam  mMusLut2             63108415837               0      2147483648     16865457093         1005951  species/Mustela_lutreola/mMusLut2/genomic_data/pacbio_hifi/m64055e_221122_165407.with_5mC.bam
+pacbiohifi_bam  mMusLut2             62398935892               0      2147483648     16741244710          976016  species/Mustela_lutreola/mMusLut2/genomic_data/pacbio_hifi/m64055e_221124_121331.with_5mC.bam
 pacbiohifi_fqgz mMusLut2             12745795458               0      2147483648     15133268427          849882  species/Mustela_lutreola/mMusLut2/genomic_data/pacbio_hifi/m64330e_221122_165547.bc1011--bc1011.hifi_reads.fastq.gz
+pacbiohifi_bam  mMusLut2             60358417650               0      2147483648     16150125541          935021  species/Mustela_lutreola/mMusLut2/genomic_data/pacbio_hifi/m64330e_221122_165547.with_5mC.bam
+pacbiohifi_clr  mMusLut2            754633239701               0      2147483648    399970112280        23051014  species/Mustela_lutreola/mMusLut2/genomic_data/pacbio_hifi/m64330e_221124_122023.subreads.bam
 pacbiohifi_fqgz mMusLut2             13378439366               0      2147483648     15705166088          957965  species/Mustela_lutreola/mMusLut2/genomic_data/pacbio_hifi/m64330e_221129_145905.bc1011--bc1011.hifi_reads.fastq.gz
+pacbiohifi_clr  mMusLut2            738860037655               0      2147483648    393287801188        24498342  species/Mustela_lutreola/mMusLut2/genomic_data/pacbio_hifi/m64330e_221129_145905.subreads.bam
 dovetail        mMusLut3             47675984511               0      2147483648     86380989947       572059558  species/Mustela_lutreola/mMusLut3/genomic_data/dovetail/mMusLut2_L1_S3_R1_001.fastq.gz
 dovetail        mMusLut3             47438366867               0      2147483648     86789068140       574762040  species/Mustela_lutreola/mMusLut3/genomic_data/dovetail/mMusLut2_L1_S3_R2_001.fastq.gz
 dovetail        mMusLut3             47675984511               0      2147483648     86380989947       572059558  species/Mustela_lutreola/mMusLut3/genomic_data/dovetail/mMusLut3_L1_S3_R1_001.fastq.gz
@@ -16,5 +22,7 @@ dovetail        mMusLut3             47438366867               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 dovetail        mMusLut3          1.8177    172889356499
+pacbiohifi_bam  mMusLut2          0.2677    198976675299
+pacbiohifi_clr  mMusLut2          0.5314   2290085990529
 pacbiohifi_fqgz mMusLut2          1.1960     93492496627
 --------------- ---------------  ------- ---------------

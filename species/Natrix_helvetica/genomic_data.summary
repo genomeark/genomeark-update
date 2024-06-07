@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  rNatHel1             22062154403               0      2147483648     66328845804         5883186  species/Natrix_helvetica/rNatHel1/genomic_data/pacbio_hifi/m84098_240522_105608_s2.ccs.bc2022.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  rNatHel1          3.0064     66327660997
+--------------- ---------------  ------- ---------------

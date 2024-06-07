@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bMerSer1             28243855004               0      2147483648     94273638363       624328730  species/Mergus_serrator/bMerSer1/genomic_data/arima/bMerSer1_48587_3-4#4.cram
+pacbiohifi_bam  bMerSer1             17311389637               0      2147483648     55442759091         4768209  species/Mergus_serrator/bMerSer1/genomic_data/pacbio_hifi/m84047_240514_115423_s2.ccs.bc2057.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           bMerSer1             28243855004               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bMerSer1          3.3378     94272339232
+pacbiohifi_bam  bMerSer1          3.2026     55441456451
 --------------- ---------------  ------- ---------------

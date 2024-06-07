@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bLarMar3             34287186997               0      2147483648    113890843195       754243994  species/Larus_marinus/bLarMar3/genomic_data/arima/bLarMar3_48903_7-8#4.cram
 pacbiohifi_bam  bLarMar3             37599366654               0      2147483648     95881421787         5678239  species/Larus_marinus/bLarMar3/genomic_data/pacbio_hifi/m84098_240501_111037_s3.ccs.bc2085.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  bLarMar3             37599366654               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bLarMar3          3.3216    113888320329
 pacbiohifi_bam  bLarMar3          2.5500     95878384967
 --------------- ---------------  ------- ---------------

@@ -6,6 +6,12 @@ arima           sPriJap1             11616969487               0      2147483648
 arima           sPriJap1             71999415175               0      2147483648    133273014072       882602742  species/Pristiophorus_japonicus/sPriJap1/genomic_data/arima/sPriJap1_L1_S3_R1_001.fastq.gz
 arima           sPriJap1             75082060078               0      2147483648    136152470897       901671992  species/Pristiophorus_japonicus/sPriJap1/genomic_data/arima/sPriJap1_L1_S3_R2_001.fastq.gz
 arima           sPriJap1             41673321159               0      2147483648     74116346617       490836751  species/Pristiophorus_japonicus/sPriJap1/genomic_data/arima/sPriJap1_L2_S5_R2_001.fastq.gz
+pacbiohifi_bam  sPriJap1            148202210778               0      2147483648     33400787187         3641764  species/Pristiophorus_japonicus/sPriJap1/genomic_data/pacbio_hifi/m84091_231011_165210_s2.hifi_reads.bc1016.bam
+pacbiohifi_fqgz sPriJap1             17403907227               0      2147483648     33710517018         3702015  species/Pristiophorus_japonicus/sPriJap1/genomic_data/pacbio_hifi/m84091_231011_165210_s2.hifi_reads.bc1016.fastq.gz
+pacbiohifi_bam  sPriJap1            189733509954               0      2147483648     42293118473         5570123  species/Pristiophorus_japonicus/sPriJap1/genomic_data/pacbio_hifi/m84091_240222_221018_s3.hifi_reads.bc1016.bam
+pacbiohifi_fqgz sPriJap1             20576270714               0      2147483648     42356688407         5641150  species/Pristiophorus_japonicus/sPriJap1/genomic_data/pacbio_hifi/m84091_240222_221018_s3.hifi_reads.bc1016.fastq.gz
+pacbiohifi_bam  sPriJap1            226254542130               0      2147483648     50555461471         7211859  species/Pristiophorus_japonicus/sPriJap1/genomic_data/pacbio_hifi/m84091_240507_195357_s1.hifi_reads.bc1016.bam
+pacbiohifi_fqgz sPriJap1             24777248240               0      2147483648     50408711822         7165577  species/Pristiophorus_japonicus/sPriJap1/genomic_data/pacbio_hifi/m84091_240507_195357_s1.hifi_reads.bc1016.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,4 +19,6 @@ arima           sPriJap1             41673321159               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           sPriJap1          1.8146    456020347496
+pacbiohifi_bam  sPriJap1          0.2237    279685388767
+pacbiohifi_fqgz sPriJap1          2.0153    277966121777
 --------------- ---------------  ------- ---------------

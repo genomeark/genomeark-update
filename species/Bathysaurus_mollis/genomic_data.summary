@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fBatMol1             27788494404               0      2147483648     89959574977       595758774  species/Bathysaurus_mollis/fBatMol1/genomic_data/arima/fBatMol1_48772_3-4#4.cram
+pacbiohifi_bam  fBatMol1              8459355970               0      2147483648     25819056371         2040802  species/Bathysaurus_mollis/fBatMol1/genomic_data/pacbio_hifi/m84093_240514_115633_s2.ccs.bc2002.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           fBatMol1             27788494404               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fBatMol1          3.2372     89956914084
+pacbiohifi_bam  fBatMol1          3.0521     25818800356
 --------------- ---------------  ------- ---------------

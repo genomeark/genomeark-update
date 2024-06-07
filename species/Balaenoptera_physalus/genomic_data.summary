@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mBalPhy2            119216569645               0      2147483648    403626782859      2673025052  species/Balaenoptera_physalus/mBalPhy2/genomic_data/arima/mBalPhy2_48903_3-4#1.cram
 pacbiohifi_bam  mBalPhy2             26325090544               0      2147483648     73456695486         6689063  species/Balaenoptera_physalus/mBalPhy2/genomic_data/pacbio_hifi/m84098_240508_102324_s2.ccs.bc2093.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  mBalPhy2             26325090544               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mBalPhy2          3.3856    403619618190
 pacbiohifi_bam  mBalPhy2          2.7903     73454900144
 --------------- ---------------  ------- ---------------

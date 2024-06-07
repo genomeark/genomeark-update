@@ -4,9 +4,15 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mThoBot2             90537102781               0      2147483648    177919852187      1178277208  species/Thomomys_bottae/mThoBot2/genomic_data/arima/mThoBot1_L1_S3_R1_001.fastq.gz
 arima           mThoBot2             95429538983               0      2147483648    179239528772      1187016791  species/Thomomys_bottae/mThoBot2/genomic_data/arima/mThoBot1_L1_S3_R2_001.fastq.gz
+pacbiohifi_clr  mThoBot2            952157055417               0      2147483648    506090865891        31804283  species/Thomomys_bottae/mThoBot2/genomic_data/pacbio_hifi/m54306Ue_221001_104421.subreads.bam
 pacbiohifi_fqgz mThoBot2             18246976022               0      2147483648     22516549618         1329486  species/Thomomys_bottae/mThoBot2/genomic_data/pacbio_hifi/m54306Ue_221015_111906.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_clr  mThoBot2            983483447178               0      2147483648    532647891950        30423416  species/Thomomys_bottae/mThoBot2/genomic_data/pacbio_hifi/m54306Ue_221015_111906.subreads.bam
 pacbiohifi_fqgz mThoBot2             18434827848               0      2147483648     22785686244         1354770  species/Thomomys_bottae/mThoBot2/genomic_data/pacbio_hifi/m54306Ue_221017_063044.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_bam  mThoBot2             85270740121               0      2147483648     23442863466         1412983  species/Thomomys_bottae/mThoBot2/genomic_data/pacbio_hifi/m54306Ue_221017_063044.hifi_reads.bam
+pacbiohifi_bam  mThoBot2             85904451634               0      2147483648     23441380913         1412923  species/Thomomys_bottae/mThoBot2/genomic_data/pacbio_hifi/m54306Ue_221017_063044.with_5mC.bam
 pacbiohifi_fqgz mThoBot2             18316895009               0      2147483648     22447424078         1336781  species/Thomomys_bottae/mThoBot2/genomic_data/pacbio_hifi/m54306Ue_221019_015810.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_bam  mThoBot2             84284641100               0      2147483648     23026448926         1388597  species/Thomomys_bottae/mThoBot2/genomic_data/pacbio_hifi/m54306Ue_221019_015810.hifi_reads.bam
+pacbiohifi_clr  mThoBot2            922185793556               0      2147483648    494991947169        29919842  species/Thomomys_bottae/mThoBot2/genomic_data/pacbio_hifi/m54306Ue_221019_015810.subreads.bam
 pacbiohifi_fqgz mThoBot2             17269576415               0      2147483648     22684014829         1456944  species/Thomomys_bottae/mThoBot2/genomic_data/pacbio_hifi/m64330e_221031_165816.bc1002--bc1002.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -15,5 +21,7 @@ pacbiohifi_fqgz mThoBot2             17269576415               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mThoBot2          1.9062    354489612530
+pacbiohifi_bam  mThoBot2          0.2736    262353413538
+pacbiohifi_clr  mThoBot2          0.5366   3039877633804
 pacbiohifi_fqgz mThoBot2          1.2572    137748873383
 --------------- ---------------  ------- ---------------

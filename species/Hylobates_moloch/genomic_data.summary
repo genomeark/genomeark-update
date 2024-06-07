@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+ont             mHylMol1             27791372184               0      2147483648     33110893057          873024  species/Hylobates_moloch/mHylMol1/genomic_data/ont/PAQ56524_dorado-7.2.13.fq.gz
+ont             mHylMol1             28414827294               0      2147483648     33198908686          914309  species/Hylobates_moloch/mHylMol1/genomic_data/ont/PAW09100_dorado-7.3.9.fq.gz
+ont             mHylMol1             32102901441               0      2147483648     37753832559          891264  species/Hylobates_moloch/mHylMol1/genomic_data/ont/PAW33206_dorado-7.3.11.fq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+ont             mHylMol1          1.1784    249223272118
+--------------- ---------------  ------- ---------------

@@ -5,7 +5,13 @@
 arima           bStrAlu1             26126010579               0      2147483648     48499816627       321190850  species/Strix_aluco/bStrAlu1/genomic_data/arima/bStrAlu1_S1_R1_001.fastq.gz
 arima           bStrAlu1             26477119083               0      2147483648     48295662014       319838833  species/Strix_aluco/bStrAlu1/genomic_data/arima/bStrAlu1_S1_R2_001.fastq.gz
 pacbiohifi_fqgz bStrAlu1             22616184684               0      2147483648     31066501529         1833973  species/Strix_aluco/bStrAlu1/genomic_data/pacbio_hifi/m64330e_221102_122144.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_bam  bStrAlu1            115613926580               0      2147483648     32232076351         1915194  species/Strix_aluco/bStrAlu1/genomic_data/pacbio_hifi/m64330e_221102_122144.hifi_reads.bam
+pacbiohifi_clr  bStrAlu1           1199252739344               0      2147483648    645032939348        38442276  species/Strix_aluco/bStrAlu1/genomic_data/pacbio_hifi/m64330e_221102_122144.subreads.bam
+pacbiohifi_bam  bStrAlu1            116709946685               0      2147483648     32231424454         1915144  species/Strix_aluco/bStrAlu1/genomic_data/pacbio_hifi/m64330e_221102_122144.with_5mC.bam
 pacbiohifi_fqgz bStrAlu1             21929164419               0      2147483648     29562147573         1744492  species/Strix_aluco/bStrAlu1/genomic_data/pacbio_hifi/m64330e_221118_093000.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_clr  bStrAlu1           1140547016840               0      2147483648    613278722793        36904611  species/Strix_aluco/bStrAlu1/genomic_data/pacbio_hifi/m64330e_221118_093000.subreads.bam
+pacbiohifi_bam  bStrAlu1            112468551296               0      2147483648     30974811283         1833709  species/Strix_aluco/bStrAlu1/genomic_data/pacbio_hifi/m64330e_221118_093000.with_5mC.bam
+arima           bStrAlu2             55945761804               0      2147483648    185400838931      1227820125  species/Strix_aluco/bStrAlu2/genomic_data/arima/bStrAlu2_48903_5-6#3.cram
 pacbiohifi_bam  bStrAlu2             30013790522               0      2147483648     80800227843         6197157  species/Strix_aluco/bStrAlu2/genomic_data/pacbio_hifi/m84047_240312_115426_s1.ccs.bc2066.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -14,6 +20,9 @@ pacbiohifi_bam  bStrAlu2             30013790522               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bStrAlu1          1.8347     96510961990
+arima           bStrAlu2          3.3139    185398660042
+pacbiohifi_bam  bStrAlu1          0.2767    126234642719
 pacbiohifi_bam  bStrAlu2          2.6921     80800125464
+pacbiohifi_clr  bStrAlu1          0.5378   1258344308875
 pacbiohifi_fqgz bStrAlu1          1.3652     60813310595
 --------------- ---------------  ------- ---------------

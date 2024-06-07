@@ -2,17 +2,38 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rAllMis1             50550152229               0      2147483648     93266294836       617657605  species/Alligator_mississippiensis/rAllMis1/genomic_data/arima/rAllMis1_S2_R1_001.fastq.gz
+arima           rAllMis1             52006379510               0      2147483648     92985629818       615798872  species/Alligator_mississippiensis/rAllMis1/genomic_data/arima/rAllMis1_S2_R2_001.fastq.gz
 arima           rAllMis1             46488276468               0      2147483648     85843047528       568497025  species/Alligator_mississippiensis/rAllMis1/genomic_data/arima/rAllMis1_S4_R1_001.fastq.gz
 arima           rAllMis1             46220937910               0      2147483648     85949888992       569204584  species/Alligator_mississippiensis/rAllMis1/genomic_data/arima/rAllMis1_S4_R2_001.fastq.gz
 bionano         rAllMis1              1177368428               0      1177368428    669119523849         6114701  species/Alligator_mississippiensis/rAllMis1/genomic_data/bionano/rAllMis1_Saphyr_DLE1_3683889
 pacbiohifi_fqgz rAllMis1             12740915093               0      2147483648     15340755249          966987  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m54306Ue_220713_051408.bc1018--bc1018.hifi_reads.fastq.gz
+pacbiohifi_fqgz rAllMis1             28960121598               0      2147483648     33532727422         1633174  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m54306Ue_221121_033625.bc1008--bc1008.hifi_reads.fastq.gz
+pacbiohifi_bam  rAllMis1            127043959237               0      2147483648     33557891184         1630730  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m54306Ue_221121_033625.demultiplex.bc1008--bc1008.bam
+pacbiohifi_clr  rAllMis1           1124989441619               0      2147483648    602893667489        31395695  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m54306Ue_221121_033625.subreads.bam
+pacbiohifi_fqgz rAllMis1             23127887188               0      2147483648     28703796610         1395858  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m54306Ue_221128_200454.bc1008--bc1008.hifi_reads.fastq.gz
+pacbiohifi_bam  rAllMis1            106161494549               0      2147483648     28604964714         1388143  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m54306Ue_221128_200454.demultiplex.bc1008--bc1008.bam
+pacbiohifi_clr  rAllMis1            967431077834               0      2147483648    520656384618        27015296  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m54306Ue_221128_200454.subreads.bam
 pacbiohifi_fqgz rAllMis1             13254603762               0      2147483648     15243392894          945753  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m64055e_220613_163322.bc1018--bc1018.hifi_reads.fastq.gz
 pacbiohifi_fqgz rAllMis1             10991058994               0      2147483648     12851366924          771974  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m64055e_220622_190437.bc1018--bc1018.hifi_reads.fastq.gz
 pacbiohifi_fqgz rAllMis1             10654299418               0      2147483648     12596975730          754230  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m64055e_220624_055853.bc1018--bc1018.hifi_reads.fastq.gz
+pacbiohifi_fqgz rAllMis1             16463157518               0      2147483648     16518527543          840543  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m64055e_221208_043940.bc1008--bc1008.hifi_reads.fastq.gz
+pacbiohifi_bam  rAllMis1             65953096006               0      2147483648     16560025773          849334  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m64055e_221208_043940.demultiplex.bc1008--bc1008.bam
+pacbiohifi_clr  rAllMis1            701834618263               0      2147483648    368514060616        20014939  species/Alligator_mississippiensis/rAllMis1/genomic_data/pacbio_hifi/m64055e_221208_043940.subreads.bam
+arima           rAllMis2             46488276468               0      2147483648     85843047528       568497025  species/Alligator_mississippiensis/rAllMis2/genomic_data/arima/rAllMis2_S4_R1_001.fastq.gz
+arima           rAllMis2             46220937910               0      2147483648     85949888992       569204584  species/Alligator_mississippiensis/rAllMis2/genomic_data/arima/rAllMis2_S4_R2_001.fastq.gz
 arima           rAllMis2             50550152229               0      2147483648     93266294836       617657605  species/Alligator_mississippiensis/rAllMis2/genomic_data/arima/rSteOdo1_S2_R1_001.fastq.gz
 arima           rAllMis2             52006379510               0      2147483648     92985629818       615798872  species/Alligator_mississippiensis/rAllMis2/genomic_data/arima/rSteOdo1_S2_R2_001.fastq.gz
+pacbiohifi_fqgz rAllMis2             12740915093               0      2147483648     15340755249          966987  species/Alligator_mississippiensis/rAllMis2/genomic_data/pacbio_hifi/m54306Ue_220713_051408.demultiplex.bc1018--bc1018.hifi_reads.fastq.gz
+pacbiohifi_bam  rAllMis2             60611685392               0      2147483648     16340887562         1035190  species/Alligator_mississippiensis/rAllMis2/genomic_data/pacbio_hifi/m54306Ue_220713_051408.hifi_reads.bam
+pacbiohifi_clr  rAllMis2            571924513610               0      2147483648    305300093327        20406475  species/Alligator_mississippiensis/rAllMis2/genomic_data/pacbio_hifi/m54306Ue_220713_051408.subreads.bam
 pacbiohifi_fqgz rAllMis2             28960121598               0      2147483648     33532727422         1633174  species/Alligator_mississippiensis/rAllMis2/genomic_data/pacbio_hifi/m54306Ue_221121_033625.bc1008--bc1008.hifi_reads.fastq.gz
 pacbiohifi_fqgz rAllMis2             23127887188               0      2147483648     28703796610         1395858  species/Alligator_mississippiensis/rAllMis2/genomic_data/pacbio_hifi/m54306Ue_221128_200454.bc1008--bc1008.hifi_reads.fastq.gz
+pacbiohifi_clr  rAllMis2            164146941851               0      2147483648     65604004352         4427682  species/Alligator_mississippiensis/rAllMis2/genomic_data/pacbio_hifi/m64055e_220613_163322.reads.bam
+pacbiohifi_bam  rAllMis2             48716391312               0      2147483648     12840239508          769010  species/Alligator_mississippiensis/rAllMis2/genomic_data/pacbio_hifi/m64055e_220622_190437.hifi_reads.bc1018--bc1018.bam
+pacbiohifi_fqgz rAllMis2             10991058994               0      2147483648     12851366924          771974  species/Alligator_mississippiensis/rAllMis2/genomic_data/pacbio_hifi/m64055e_220622_190437.hifi_reads.bc1018--bc1018.fastq.gz
+pacbiohifi_bam  rAllMis2             47657007655               0      2147483648     12571448340          761807  species/Alligator_mississippiensis/rAllMis2/genomic_data/pacbio_hifi/m64055e_220624_055853.hifi_reads.bc1018--bc1018.bam
+pacbiohifi_fqgz rAllMis2             10654299418               0      2147483648     12596975730          754230  species/Alligator_mississippiensis/rAllMis2/genomic_data/pacbio_hifi/m64055e_220624_055853.hifi_reads.bc1018--bc1018.fastq.gz
 pacbiohifi_fqgz rAllMis2             16463157518               0      2147483648     16518527543          840543  species/Alligator_mississippiensis/rAllMis2/genomic_data/pacbio_hifi/m64055e_221208_043940.bc1008--bc1008.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -20,9 +41,13 @@ pacbiohifi_fqgz rAllMis2             16463157518               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           rAllMis1          1.8508    171586213970
-arima           rAllMis2          1.8066    185278630239
+arima           rAllMis1          1.8066    185278630239
+arima           rAllMis2          1.8508    171586213970
 bionano         rAllMis1         568.3178    669119523849
-pacbiohifi_fqgz rAllMis1          1.1862     80135052767
-pacbiohifi_fqgz rAllMis2          1.1488     90307537931
+pacbiohifi_bam  rAllMis1          0.2631    274331987382
+pacbiohifi_bam  rAllMis2          0.2659     96814255642
+pacbiohifi_clr  rAllMis1          0.5339   1808020481928
+pacbiohifi_clr  rAllMis2          0.5169    380475335327
+pacbiohifi_fqgz rAllMis1          1.1488     90307537931
+pacbiohifi_fqgz rAllMis2          1.1862     80135052767
 --------------- ---------------  ------- ---------------

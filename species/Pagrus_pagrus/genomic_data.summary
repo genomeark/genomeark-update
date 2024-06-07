@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fPagPag1             55076694582               0      2147483648    206957601799      1370580144  species/Pagrus_pagrus/fPagPag1/genomic_data/arima/fPagPag1_46436_4#5.cram
 pacbiohifi_bam  fPagPag1              4273056545               0      4273056545      8081617300          946520  species/Pagrus_pagrus/fPagPag1/genomic_data/pacbio_hifi/m64228e_240103_165549.ccs.bc2067--bc2067.bam
+pacbiohifi_bam  fPagPag1              6923821561               0      2147483648     20873460534         1495476  species/Pagrus_pagrus/fPagPag1/genomic_data/pacbio_hifi/m84047_240510_102816_s1.ccs.bc2025.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +12,5 @@ pacbiohifi_bam  fPagPag1              4273056545               0      4273056545
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fPagPag1          3.7576    206956187561
-pacbiohifi_bam  fPagPag1          1.8912      8081204537
+pacbiohifi_bam  fPagPag1          2.7498     30789175415
 --------------- ---------------  ------- ---------------

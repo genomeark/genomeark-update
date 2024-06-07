@@ -5,8 +5,14 @@
 dovetail        rMacSuw1            115323233016               0      2147483648    209492959299      1387370591  species/Macrochelys_suwanniensis/rMacSuw1/genomic_data/dovetail/rMacSuw1_S8_R1_001.fastq.gz
 dovetail        rMacSuw1            114842046602               0      2147483648    209841145376      1389676512  species/Macrochelys_suwanniensis/rMacSuw1/genomic_data/dovetail/rMacSuw1_S8_R2_001.fastq.gz
 pacbiohifi_fqgz rMacSuw1             17824803829               0      2147483648     20994896634         1112483  species/Macrochelys_suwanniensis/rMacSuw1/genomic_data/pacbio_hifi/m54306Ue_221013_155707.bc1001--bc1001.hifi_reads.fastq.gz
+pacbiohifi_bam  rMacSuw1             80794870724               0      2147483648     21930961123         1166991  species/Macrochelys_suwanniensis/rMacSuw1/genomic_data/pacbio_hifi/m54306Ue_221013_155707.hifi_reads.bam
+pacbiohifi_clr  rMacSuw1            928333045853               0      2147483648    501102223123        25542646  species/Macrochelys_suwanniensis/rMacSuw1/genomic_data/pacbio_hifi/m54306Ue_221013_155707.subreads.bam
 pacbiohifi_fqgz rMacSuw1             14448618359               0      2147483648     18173090789         1156571  species/Macrochelys_suwanniensis/rMacSuw1/genomic_data/pacbio_hifi/m64055e_221118_111804.bc1001--bc1001.hifi_reads.fastq.gz
+pacbiohifi_bam  rMacSuw1             70599869035               0      2147483648     19258765041         1237011  species/Macrochelys_suwanniensis/rMacSuw1/genomic_data/pacbio_hifi/m64055e_221118_111804.hifi_reads.bam
+pacbiohifi_clr  rMacSuw1            822451256402               0      2147483648    437204176591        27687424  species/Macrochelys_suwanniensis/rMacSuw1/genomic_data/pacbio_hifi/m64055e_221118_111804.subreads.bam
 pacbiohifi_fqgz rMacSuw1             20723632577               0      2147483648     25136516856         1340083  species/Macrochelys_suwanniensis/rMacSuw1/genomic_data/pacbio_hifi/m64330e_221026_030249.bc1001--bc1001.hifi_reads.fastq.gz
+pacbiohifi_bam  rMacSuw1             97322016096               0      2147483648     26413570996         1415270  species/Macrochelys_suwanniensis/rMacSuw1/genomic_data/pacbio_hifi/m64330e_221026_030249.hifi_reads.bam
+pacbiohifi_clr  rMacSuw1            968243543884               0      2147483648    518414178715        27817544  species/Macrochelys_suwanniensis/rMacSuw1/genomic_data/pacbio_hifi/m64330e_221026_030249.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,5 +20,7 @@ pacbiohifi_fqgz rMacSuw1             20723632577               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 dovetail        rMacSuw1          1.8201    418923825432
+pacbiohifi_bam  rMacSuw1          0.2718    171510192868
+pacbiohifi_clr  rMacSuw1          0.5357   1845295619521
 pacbiohifi_fqgz rMacSuw1          1.2133     81204215402
 --------------- ---------------  ------- ---------------

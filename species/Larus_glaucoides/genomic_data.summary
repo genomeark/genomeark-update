@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bLarGlu1             41276076007               0      2147483648     99466298396         5091767  species/Larus_glaucoides/bLarGlu1/genomic_data/pacbio_hifi/m84098_240522_102351_s1.ccs.bc2021.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bLarGlu1          2.4097     99462960354
+--------------- ---------------  ------- ---------------

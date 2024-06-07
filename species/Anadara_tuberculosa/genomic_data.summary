@@ -9,7 +9,11 @@ pacbiohifi_fqgz xbAnaTub1            25440781368               0      2147483648
 arima           xbAnaTube1           39750403411               0      2147483648     80161342685       530869837  species/Anadara_tuberculosa/xbAnaTube1/genomic_data/arima/iAnaTub1_L1_S6_R1_001.fastq.gz
 arima           xbAnaTube1           42482668750               0      2147483648     80837613317       535348432  species/Anadara_tuberculosa/xbAnaTube1/genomic_data/arima/iAnaTub1_L1_S6_R2_001.fastq.gz
 pacbiohifi_fqgz xbAnaTube1           10659593283               0      2147483648     15631393655         1694463  species/Anadara_tuberculosa/xbAnaTube1/genomic_data/pacbio_hifi/m64330e_220606_150534.bc1018--bc1018.hifi_reads.fastq.gz
+pacbiohifi_clr  xbAnaTube1          175763325174               0      2147483648     75074501096         5196822  species/Anadara_tuberculosa/xbAnaTube1/genomic_data/pacbio_hifi/m64330e_220606_150534.reads.bam
 pacbiohifi_fqgz xbAnaTube1           25440781368               0      2147483648     31486263306         2011975  species/Anadara_tuberculosa/xbAnaTube1/genomic_data/pacbio_hifi/m64330e_230619_124724.bc1018--bc1018.hifi_reads.fastq.gz
+pacbiohifi_bam  xbAnaTube1          117604212114               0      2147483648     31797425412         2009664  species/Anadara_tuberculosa/xbAnaTube1/genomic_data/pacbio_hifi/m64330e_230619_124724.hifi_reads.bam
+pacbiohifi_clr  xbAnaTube1         1243992362678               0      2147483648    666900459396        40765607  species/Anadara_tuberculosa/xbAnaTube1/genomic_data/pacbio_hifi/m64330e_230619_124724.subreads.bam
+pacbiohifi_bam  xbAnaTube1          118905081755               0      2147483648     31795704037         2009691  species/Anadara_tuberculosa/xbAnaTube1/genomic_data/pacbio_hifi/m64330e_230619_124724.with_5mC.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -18,6 +22,8 @@ pacbiohifi_fqgz xbAnaTube1           25440781368               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           xbAnaTub1         1.9391    159458150227
 arima           xbAnaTube1        1.9391    159458150227
+pacbiohifi_bam  xbAnaTube1        0.2683     63455443545
+pacbiohifi_clr  xbAnaTube1        0.5289    750908783304
 pacbiohifi_fqgz xbAnaTub1         1.2772     46107398504
 pacbiohifi_fqgz xbAnaTube1        1.2772     46107398504
 --------------- ---------------  ------- ---------------

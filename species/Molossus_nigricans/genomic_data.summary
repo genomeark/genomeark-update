@@ -4,8 +4,11 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mMolNig1             34712132383               0      2147483648     62257174446       413676675  species/Molossus_nigricans/mMolNig1/genomic_data/arima/A013_S078_S1_R1_001.fastq.gz
 arima           mMolNig1             37265882111               0      2147483648     59884380067       397871981  species/Molossus_nigricans/mMolNig1/genomic_data/arima/A013_S078_S1_R2_001.fastq.gz
+pacbiohifi_bam  mMolNig1            117915146209               0      2147483648     31756837987         2810657  species/Molossus_nigricans/mMolNig1/genomic_data/pacbio_hifi/m64326e_220510_190226.hifi_reads.bam
 pacbiohifi_fqgz mMolNig1             24792068062               0      2147483648     31975765754         2847340  species/Molossus_nigricans/mMolNig1/genomic_data/pacbio_hifi/m64326e_220510_190226.hifi_reads.fastq.gz
+pacbiohifi_bam  mMolNig1            129668700336               0      2147483648     35365196141         2820247  species/Molossus_nigricans/mMolNig1/genomic_data/pacbio_hifi/m64326e_220513_152657.hifi_reads.bam
 pacbiohifi_fqgz mMolNig1             27256953866               0      2147483648     35472382653         2810971  species/Molossus_nigricans/mMolNig1/genomic_data/pacbio_hifi/m64326e_220513_152657.hifi_reads.fastq.gz
+pacbiohifi_bam  mMolNig1            114091044990               0      2147483648     31177096737         2699953  species/Molossus_nigricans/mMolNig1/genomic_data/pacbio_hifi/m64326e_220518_161059.hifi_reads.bam
 pacbiohifi_fqgz mMolNig1             24162221047               0      2147483648     30454538634         2621803  species/Molossus_nigricans/mMolNig1/genomic_data/pacbio_hifi/m64326e_220520_014433.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -14,5 +17,6 @@ pacbiohifi_fqgz mMolNig1             24162221047               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mMolNig1          1.6662    119929767749
+pacbiohifi_bam  mMolNig1          0.2717    128759140891
 pacbiohifi_fqgz mMolNig1          1.2846    128250664262
 --------------- ---------------  ------- ---------------

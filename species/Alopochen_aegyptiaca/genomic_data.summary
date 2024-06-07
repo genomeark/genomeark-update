@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bAloAeg2             18608595934               0      2147483648     62151881268       411601862  species/Alopochen_aegyptiaca/bAloAeg2/genomic_data/arima/bAloAeg2_48387_5-6#4.cram
 pacbiohifi_bam  bAloAeg2             20496979148               0      2147483648     58636397278         4111644  species/Alopochen_aegyptiaca/bAloAeg2/genomic_data/pacbio_hifi/m84047_240219_124455_s4.ccs.bc2078.bam
+pacbiohifi_bam  bAloAeg2             24035697442               0      2147483648     68413402129         4750027  species/Alopochen_aegyptiaca/bAloAeg2/genomic_data/pacbio_hifi/m84093_240514_105200_s4.ccs.bc2096.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +12,5 @@ pacbiohifi_bam  bAloAeg2             20496979148               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bAloAeg2          3.3399     62150849559
-pacbiohifi_bam  bAloAeg2          2.8607     58635708248
+pacbiohifi_bam  bAloAeg2          2.8506    126944847887
 --------------- ---------------  ------- ---------------

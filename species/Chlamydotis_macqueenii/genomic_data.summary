@@ -6,8 +6,11 @@ arima           bChlMac1             40514347833               0      2147483648
 arima           bChlMac1             41818462768               0      2147483648     80520550430       533248697  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/arima/bChlMac1_S5_R2_001.fastq.gz
 pacbiohifi_fqgz bChlMac1             28201609540               0      2147483648     32235331043         1580891  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64055e_221214_181059.bc1003--bc1003.hifi_reads.fastq.gz
 pacbiohifi_clr  bChlMac1           1079834423992               0      2147483648    576751578432        30508131  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64055e_221214_181059.subreads.bam
+pacbiohifi_bam  bChlMac1            128083179980               0      2147483648     33620556909         1638701  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64055e_221214_181059.with_5mC.bam
 pacbiohifi_fqgz bChlMac1             28377908191               0      2147483648     33551357273         1610556  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64334e_221204_140431.bc1003--bc1003.hifi_reads.fastq.gz
+pacbiohifi_bam  bChlMac1            128900456709               0      2147483648     34670895168         1675148  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64334e_221204_140431.hifi_reads.bam
 pacbiohifi_clr  bChlMac1           1108342808123               0      2147483648    594696230076        30551786  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64334e_221204_140431.subreads.bam
+pacbiohifi_bam  bChlMac1            130326216382               0      2147483648     34666818687         1675106  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64334e_221204_140431.with_5mC.bam
 illumina        bChlMac2             27771617853               0      2147483648     55233012824       365781554  species/Chlamydotis_macqueenii/bChlMac2/genomic_data/illumina/bChlMac2-dna1_1.fastq.gz
 illumina        bChlMac2             28903105533               0      2147483648     55535150903       367782469  species/Chlamydotis_macqueenii/bChlMac2/genomic_data/illumina/bChlMac2-dna1_2.fastq.gz
 illumina        bChlMac3             18321686093               0      2147483648     36475651396       241560613  species/Chlamydotis_macqueenii/bChlMac3/genomic_data/illumina/bChlMac3-dna1_1.fastq.gz
@@ -21,6 +24,7 @@ illumina        bChlMac3             19234135430               0      2147483648
 arima           bChlMac1          1.9343    159256355545
 illumina        bChlMac2          1.9432    110130322483
 illumina        bChlMac3          1.9335     72614180914
+pacbiohifi_bam  bChlMac1          0.2658    136630022754
 pacbiohifi_clr  bChlMac1          0.5357   1172206543244
 pacbiohifi_fqgz bChlMac1          1.1692     66152772131
 --------------- ---------------  ------- ---------------

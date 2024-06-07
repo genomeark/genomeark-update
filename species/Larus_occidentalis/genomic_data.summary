@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bLarOcc1             33815449623               0      2147483648     94340824601         6241048  species/Larus_occidentalis/bLarOcc1/genomic_data/pacbio_hifi/m84098_240522_120042_s3.ccs.bc2024.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bLarOcc1          2.7898     94338341358
+--------------- ---------------  ------- ---------------

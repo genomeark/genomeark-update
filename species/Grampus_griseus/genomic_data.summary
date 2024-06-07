@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mGraGri1            144968855039               0      2147483648    438115059419      2901424234  species/Grampus_griseus/mGraGri1/genomic_data/arima/mGraGri1_47478_2#2.cram
 pacbiohifi_bam  mGraGri1             23115223873               0      2147483648     72064203446         6854073  species/Grampus_griseus/mGraGri1/genomic_data/pacbio_hifi/m84098_240508_105540_s3.ccs.bc2026.bam
+arima           mGraGri2            182280712557               0      2147483648    622651863084      4123522272  species/Grampus_griseus/mGraGri2/genomic_data/arima/mGraGri2_48903_1-2#1.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +12,6 @@ pacbiohifi_bam  mGraGri1             23115223873               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mGraGri1          3.0221    438110376813
+arima           mGraGri2          3.4158    622634457952
 pacbiohifi_bam  mGraGri1          3.1176     72064021946
 --------------- ---------------  ------- ---------------

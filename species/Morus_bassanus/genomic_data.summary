@@ -5,7 +5,12 @@
 arima           bMorBas2             32148867176               0      2147483648     63338927275       419463109  species/Morus_bassanus/bMorBas2/genomic_data/arima/bMorBas1_L1_S2_R1_001.fastq.gz
 arima           bMorBas2             33859955457               0      2147483648     63220039540       418675758  species/Morus_bassanus/bMorBas2/genomic_data/arima/bMorBas1_L1_S2_R2_001.fastq.gz
 pacbiohifi_fqgz bMorBas2             19802110908               0      2147483648     26135617526         1722829  species/Morus_bassanus/bMorBas2/genomic_data/pacbio_hifi/m64330e_221001_104756.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_bam  bMorBas2             99663762523               0      2147483648     27600299188         1854293  species/Morus_bassanus/bMorBas2/genomic_data/pacbio_hifi/m64330e_221001_104756.hifi_reads.bam
+pacbiohifi_clr  bMorBas2           1113464953245               0      2147483648    597733549739        38585030  species/Morus_bassanus/bMorBas2/genomic_data/pacbio_hifi/m64330e_221001_104756.subreads.bam
+pacbiohifi_bam  bMorBas2            100728836540               0      2147483648     27605871325         1854550  species/Morus_bassanus/bMorBas2/genomic_data/pacbio_hifi/m64330e_221001_104756.with_5mC.bam
 pacbiohifi_fqgz bMorBas2             20364177696               0      2147483648     24323318898         1643238  species/Morus_bassanus/bMorBas2/genomic_data/pacbio_hifi/m64330e_221005_162852.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_clr  bMorBas2           1079098098737               0      2147483648    572343876700        37853893  species/Morus_bassanus/bMorBas2/genomic_data/pacbio_hifi/m64330e_221005_162852.subreads.bam
+pacbiohifi_bam  bMorBas2             96599829440               0      2147483648     25572592823         1758917  species/Morus_bassanus/bMorBas2/genomic_data/pacbio_hifi/m64330e_221005_162852.with_5mC.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,5 +18,7 @@ pacbiohifi_fqgz bMorBas2             20364177696               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bMorBas2          1.9002    125429964767
+pacbiohifi_bam  bMorBas2          0.2719    106747677677
+pacbiohifi_clr  bMorBas2          0.5347   1172363463894
 pacbiohifi_fqgz bMorBas2          1.2354     49621432941
 --------------- ---------------  ------- ---------------

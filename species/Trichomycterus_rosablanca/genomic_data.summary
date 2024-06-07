@@ -4,8 +4,13 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fTriRos1             26984363874               0      2147483648     53316937986       353092304  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/arima/fTriRos1_1.fastq.gz
 arima           fTriRos1             28184364592               0      2147483648     53846591697       356599958  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/arima/fTriRos1_2.fastq.gz
+pacbiohifi_bam  fTriRos1             82895192177               0      2147483648     23308957932         2633636  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/pacbio_hifi/m64055e_221019_155144.hifi_reads.bam
 pacbiohifi_fqgz fTriRos1             15517809351               0      2147483648     23363398210         2612973  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/pacbio_hifi/m64055e_221019_155144.hifi_reads.fastq.gz
+pacbiohifi_clr  fTriRos1           1341509740551               0      2147483648    716690517553        77828772  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/pacbio_hifi/m64055e_221019_155144.subreads.bam
+pacbiohifi_bam  fTriRos1             84143596567               0      2147483648     23307291660         2632666  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/pacbio_hifi/m64055e_221019_155144.with_5mC.bam
 pacbiohifi_fqgz fTriRos1             15773160320               0      2147483648     23092038765         2076725  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/pacbio_hifi/m64330e_221012_155415.hifi_reads.fastq.gz
+pacbiohifi_clr  fTriRos1           1211071954077               0      2147483648    649078727193        60746365  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/pacbio_hifi/m64330e_221012_155415.subreads.bam
+pacbiohifi_bam  fTriRos1             83111835831               0      2147483648     23305891898         2120558  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/pacbio_hifi/m64330e_221012_155415.with_5mC.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,5 +18,7 @@ pacbiohifi_fqgz fTriRos1             15773160320               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fTriRos1          1.9316    106563915904
+pacbiohifi_bam  fTriRos1          0.2795     92803113155
+pacbiohifi_clr  fTriRos1          0.5347   1364865432117
 pacbiohifi_fqgz fTriRos1          1.4777     46238665882
 --------------- ---------------  ------- ---------------
