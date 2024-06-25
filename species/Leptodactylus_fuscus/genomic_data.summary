@@ -6,7 +6,13 @@ arima           aLepFus1             61256875449               0      2147483648
 arima           aLepFus1             63203182676               0      2147483648    119504882840       791423094  species/Leptodactylus_fuscus/aLepFus1/genomic_data/arima/aLepFus1_S1_L001_R2_001.fastq.gz
 pacbiohifi_fqgz aLepFus1             16339470498               0      2147483648     19028405480         1267678  species/Leptodactylus_fuscus/aLepFus1/genomic_data/pacbio_hifi/m64330e_230207_125936.bc1009--bc1009.hifi_reads.fastq.gz
 pacbiohifi_fqgz aLepFus1             18455653260               0      2147483648     24549137286         1666358  species/Leptodactylus_fuscus/aLepFus1/genomic_data/pacbio_hifi/m64330e_230303_161215.bc1009--bc1009.hifi_reads.fastq.gz
+pacbiohifi_bam  aLepFus1             91392246949               0      2147483648     24572130682         1669926  species/Leptodactylus_fuscus/aLepFus1/genomic_data/pacbio_hifi/m64330e_230303_161215.demultiplex.bc1009--bc1009.bam
+pacbiohifi_clr  aLepFus1           1059412760452               0      2147483648    565693964955        36397703  species/Leptodactylus_fuscus/aLepFus1/genomic_data/pacbio_hifi/m64330e_230303_161215.subreads.bam
+pacbiohifi_clr  aLepFus1            961368265077               0      2147483648    514171465745        31022325  species/Leptodactylus_fuscus/aLepFus1/genomic_data/pacbio_hifi/m64330e_230305_114146.subreads.bam
+pacbiohifi_bam  aLepFus1             75035810696               0      2147483648     20156804614         1362849  species/Leptodactylus_fuscus/aLepFus1/genomic_data/pacbio_hifi/m64330e_230305_114146.with_5mC.bam
 pacbiohifi_fqgz aLepFus1             17893260291               0      2147483648     23405526916         1615346  species/Leptodactylus_fuscus/aLepFus1/genomic_data/pacbio_hifi/m64330e_230307_070944.bc1009--bc1009.hifi_reads.fastq.gz
+pacbiohifi_bam  aLepFus1             86406138028               0      2147483648     23170131010         1592782  species/Leptodactylus_fuscus/aLepFus1/genomic_data/pacbio_hifi/m64330e_230307_070944.demultiplex.bc1009--bc1009.bam
+pacbiohifi_clr  aLepFus1           1070228362942               0      2147483648    570196028002        37359352  species/Leptodactylus_fuscus/aLepFus1/genomic_data/pacbio_hifi/m64330e_230307_070944.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,5 +20,7 @@ pacbiohifi_fqgz aLepFus1             17893260291               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aLepFus1          1.9104    237768495042
+pacbiohifi_bam  aLepFus1          0.2685    267504670639
+pacbiohifi_clr  aLepFus1          0.5338   2125381069227
 pacbiohifi_fqgz aLepFus1          1.2713     85822517261
 --------------- ---------------  ------- ---------------

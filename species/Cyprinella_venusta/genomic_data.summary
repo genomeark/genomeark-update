@@ -5,7 +5,12 @@
 arima           fCypVen1             18817205301               0      2147483648     34466330215       228253851  species/Cyprinella_venusta/fCypVen1/genomic_data/arima/fCypVen1_1.fastq.gz
 arima           fCypVen1             19600218970               0      2147483648     34465785534       228250244  species/Cyprinella_venusta/fCypVen1/genomic_data/arima/fCypVen1_2.fastq.gz
 pacbiohifi_fqgz fCypVen1             14548592780               0      2147483648     21498220667         1584911  species/Cyprinella_venusta/fCypVen1/genomic_data/pacbio_hifi/m64330e_221018_064116.bc1020--bc1020.hifi_reads.fastq.gz
+pacbiohifi_bam  fCypVen1             79514691733               0      2147483648     22565920746         1658435  species/Cyprinella_venusta/fCypVen1/genomic_data/pacbio_hifi/m64330e_221018_064116.hifi_reads.bam
+pacbiohifi_clr  fCypVen1            990216604033               0      2147483648    534175732983        40494288  species/Cyprinella_venusta/fCypVen1/genomic_data/pacbio_hifi/m64330e_221018_064116.subreads.bam
 pacbiohifi_fqgz fCypVen1             17522497448               0      2147483648     26819469290         2698648  species/Cyprinella_venusta/fCypVen1/genomic_data/pacbio_hifi/m64334e_221107_185651.bc1020--bc1020.hifi_reads.fastq.gz
+pacbiohifi_bam  fCypVen1             96989628444               0      2147483648     26589328382         2709723  species/Cyprinella_venusta/fCypVen1/genomic_data/pacbio_hifi/m64334e_221107_185651.demultiplex.bc1020--bc1020.bam
+pacbiohifi_bam  fCypVen1            103171826306               0      2147483648     28992995396         2936876  species/Cyprinella_venusta/fCypVen1/genomic_data/pacbio_hifi/m64334e_221107_185651.hifi_reads.bam
+pacbiohifi_clr  fCypVen1           1448511777594               0      2147483648    769110156691        79453921  species/Cyprinella_venusta/fCypVen1/genomic_data/pacbio_hifi/m64334e_221107_185651.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,5 +18,7 @@ pacbiohifi_fqgz fCypVen1             17522497448               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fCypVen1          1.7821     68463691793
+pacbiohifi_bam  fCypVen1          0.2794    151641388709
+pacbiohifi_clr  fCypVen1          0.5331   1300086100245
 pacbiohifi_fqgz fCypVen1          1.5150     48587701695
 --------------- ---------------  ------- ---------------

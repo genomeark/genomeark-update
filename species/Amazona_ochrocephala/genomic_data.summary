@@ -5,10 +5,13 @@
 arima           bAmaOch1             21151000580               0      2147483648     38605652754       255666574  species/Amazona_ochrocephala/bAmaOch1/genomic_data/arima/bAmaOch1_L3_S3_R1_001.fastq.gz
 arima           bAmaOch1             22002694774               0      2147483648     38885290178       257518488  species/Amazona_ochrocephala/bAmaOch1/genomic_data/arima/bAmaOch1_L3_S3_R2_001.fastq.gz
 pacbiohifi_fqgz bAmaOch1             25724197188               0      2147483648     26204946588         1380408  species/Amazona_ochrocephala/bAmaOch1/genomic_data/pacbio_hifi/m54306Ue_230330_053511.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_bam  bAmaOch1            107001301468               0      2147483648     27369907381         1474661  species/Amazona_ochrocephala/bAmaOch1/genomic_data/pacbio_hifi/m54306Ue_230330_053511.demultiplex.bc1002--bc1002.bam
 pacbiohifi_clr  bAmaOch1           1228406233951               0      2147483648    658972423041        28964294  species/Amazona_ochrocephala/bAmaOch1/genomic_data/pacbio_hifi/m54306Ue_230330_053511.subreads.bam
 pacbiohifi_fqgz bAmaOch1              9762959563               0      2147483648     11723095781          762875  species/Amazona_ochrocephala/bAmaOch1/genomic_data/pacbio_hifi/m64055e_230122_092023.bc1002--bc1002.hifi_reads.fastq.gz
 pacbiohifi_clr  bAmaOch1            632413830641               0      2147483648    334426882086        21048718  species/Amazona_ochrocephala/bAmaOch1/genomic_data/pacbio_hifi/m64055e_230122_092023.subreads.bam
+pacbiohifi_bam  bAmaOch1             47447688096               0      2147483648     12530602821          825872  species/Amazona_ochrocephala/bAmaOch1/genomic_data/pacbio_hifi/m64055e_230122_092023.with_5mC.bam
 pacbiohifi_fqgz bAmaOch1             10320061982               0      2147483648     13048923968          842003  species/Amazona_ochrocephala/bAmaOch1/genomic_data/pacbio_hifi/m64334e_230205_093940.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_bam  bAmaOch1             51508831301               0      2147483648     13965720980          911119  species/Amazona_ochrocephala/bAmaOch1/genomic_data/pacbio_hifi/m64334e_230205_093940.hifi_reads.bam
 pacbiohifi_clr  bAmaOch1            670134496812               0      2147483648    357500154805        23164830  species/Amazona_ochrocephala/bAmaOch1/genomic_data/pacbio_hifi/m64334e_230205_093940.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -17,6 +20,7 @@ pacbiohifi_clr  bAmaOch1            670134496812               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bAmaOch1          1.7861     77076815271
+pacbiohifi_bam  bAmaOch1          0.2615    163038323105
 pacbiohifi_clr  bAmaOch1          0.5337   1350770449421
 pacbiohifi_fqgz bAmaOch1          1.1128     50974273006
 --------------- ---------------  ------- ---------------

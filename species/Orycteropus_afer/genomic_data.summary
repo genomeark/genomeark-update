@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mOryAfe1            115278513312               0      2147483648    200335675677      1326726382  species/Orycteropus_afer/mOryAfe1/genomic_data/arima/mOryAfe1_L1_S3_R1_001.fastq.gz
+arima           mOryAfe1            117813885651               0      2147483648    200027253334      1324683851  species/Orycteropus_afer/mOryAfe1/genomic_data/arima/mOryAfe1_L1_S3_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mOryAfe1          1.7109    398797785385
+--------------- ---------------  ------- ---------------

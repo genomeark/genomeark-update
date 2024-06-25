@@ -5,10 +5,12 @@
 arima           bOpiHoa1             31053115610               0      2147483648     60463637866       400421442  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/arima/bOpiHoa1_S7_R1_001.fastq.gz
 arima           bOpiHoa1             32271975612               0      2147483648     61301592177       405970824  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/arima/bOpiHoa1_S7_R2_001.fastq.gz
 pacbiohifi_fqgz bOpiHoa1             25376471361               0      2147483648     29945051276         1602079  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/pacbio_hifi/m64330e_221022_123931.bc1003--bc1003.hifi_reads.fastq.gz
+pacbiohifi_bam  bOpiHoa1            114181097136               0      2147483648     30250945981         1638477  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/pacbio_hifi/m64330e_221022_123931.demultiplex.bc1003--bc1003.bam
 pacbiohifi_bam  bOpiHoa1            116755637716               0      2147483648     31435870600         1701627  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/pacbio_hifi/m64330e_221022_123931.hifi_reads.bam
 pacbiohifi_clr  bOpiHoa1           1127171970856               0      2147483648    604575221556        32292738  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/pacbio_hifi/m64330e_221022_123931.subreads.bam
 pacbiohifi_bam  bOpiHoa1            118271956942               0      2147483648     31440624289         1701807  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/pacbio_hifi/m64330e_221022_123931.with_5mC.bam
 pacbiohifi_fqgz bOpiHoa1             22108219463               0      2147483648     26814496164         1422791  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/pacbio_hifi/m64334e_221015_123841.bc1003--bc1003.hifi_reads.fastq.gz
+pacbiohifi_bam  bOpiHoa1            102744755254               0      2147483648     27869250450         1489343  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/pacbio_hifi/m64334e_221015_123841.hifi_reads.bam
 pacbiohifi_clr  bOpiHoa1           1008140014777               0      2147483648    541152664247        28761902  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/pacbio_hifi/m64334e_221015_123841.subreads.bam
 pacbiohifi_bam  bOpiHoa1            104110268679               0      2147483648     27874281372         1489503  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/pacbio_hifi/m64334e_221015_123841.with_5mC.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -18,7 +20,7 @@ pacbiohifi_bam  bOpiHoa1            104110268679               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bOpiHoa1          1.9149    121261217181
-pacbiohifi_bam  bOpiHoa1          0.2675    118203600473
+pacbiohifi_bam  bOpiHoa1          0.2683    176154750221
 pacbiohifi_clr  bOpiHoa1          0.5364   1145381349093
 pacbiohifi_fqgz bOpiHoa1          1.1899     56502033611
 --------------- ---------------  ------- ---------------

@@ -5,7 +5,12 @@
 arima           bPatFas1             18540385729               0      2147483648     33831188139       224047612  species/Patagioenas_fasciata/bPatFas1/genomic_data/arima/bPatFas1_L1_S7_R1_001.fastq.gz
 arima           bPatFas1             19363033441               0      2147483648     33749562651       223507037  species/Patagioenas_fasciata/bPatFas1/genomic_data/arima/bPatFas1_L1_S7_R2_001.fastq.gz
 pacbiohifi_fqgz bPatFas1             36035829231               0      2147483648     39832275320         1782490  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64055e_230321_165824.bc1016--bc1016.hifi_reads.fastq.gz
+pacbiohifi_bam  bPatFas1            151540753794               0      2147483648     39639013678         1760285  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64055e_230321_165824.demultiplex.bc1016--bc1016.bam
+pacbiohifi_clr  bPatFas1           1330284765207               0      2147483648    715737864655        32256631  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64055e_230321_165824.subreads.bam
+pacbiohifi_bam  bPatFas1            158115345280               0      2147483648     41490155670         1842251  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64055e_230321_165824.with_5mC.bam
 pacbiohifi_fqgz bPatFas1             34655783815               0      2147483648     40338987958         1845089  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64330e_230310_183553.bc1016--bc1016.hifi_reads.fastq.gz
+pacbiohifi_bam  bPatFas1            156917627880               0      2147483648     42167751858         1903266  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64330e_230310_183553.hifi_reads.bam
+pacbiohifi_clr  bPatFas1           1366913787138               0      2147483648    737219541548        34233892  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64330e_230310_183553.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,5 +18,7 @@ pacbiohifi_fqgz bPatFas1             34655783815               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bPatFas1          1.7694     67066309879
+pacbiohifi_bam  bPatFas1          0.2642    246538045071
+pacbiohifi_clr  bPatFas1          0.5389   1453520299858
 pacbiohifi_fqgz bPatFas1          1.1243     79478580547
 --------------- ---------------  ------- ---------------

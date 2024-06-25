@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mCepZeb1             77082081603               0      2147483648    140126106522       927987496  species/Cephalophus_zebra/mCepZeb1/genomic_data/arima/mCepZeb1_L1_S3_R1_001.fastq.gz
+arima           mCepZeb1             80757775838               0      2147483648    139817391719       925942991  species/Cephalophus_zebra/mCepZeb1/genomic_data/arima/mCepZeb1_L1_S3_R2_001.fastq.gz
 pacbiohifi_bam  mCepZeb1            271299366484               0      2147483648     62751494477         4118223  species/Cephalophus_zebra/mCepZeb1/genomic_data/pacbio_hifi/m84091_240314_181608_s4.hifi_reads.bc1009.bam
 pacbiohifi_fqgz mCepZeb1             33175201448               0      2147483648     62653239072         4102278  species/Cephalophus_zebra/mCepZeb1/genomic_data/pacbio_hifi/m84091_240314_181608_s4.hifi_reads.bc1009.fastq.gz
 pacbiohifi_bam  mCepZeb1            347469870368               0      2147483648     79874360319         5344200  species/Cephalophus_zebra/mCepZeb1/genomic_data/pacbio_hifi/m84091_240422_203716_s3.hifi_reads.bc1009.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz mCepZeb1             43605354948               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mCepZeb1          1.7592    277671877210
 pacbiohifi_bam  mCepZeb1          0.2302    142440678323
 pacbiohifi_fqgz mCepZeb1          1.8289    140423959592
 --------------- ---------------  ------- ---------------

@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fSpiTha1             20189249307               0      2147483648     38845290471       258968603  species/Spirinchus_thaleichthys/fSpiTha1/genomic_data/arima/fSpiTha1_Longfin_Smelt_R1.fastq.gz
 arima           fSpiTha1             20431234175               0      2147483648     38914866020       259432449  species/Spirinchus_thaleichthys/fSpiTha1/genomic_data/arima/fSpiTha1_Longfin_Smelt_R2.fastq.gz
+illumina        fSpiTha1             11262041232               0      2147483648     22461819395       148753776  species/Spirinchus_thaleichthys/fSpiTha1/genomic_data/illumina/fSpiTha1_1.fastq.gz
+illumina        fSpiTha1             11652804603               0      2147483648     22454478773       148705162  species/Spirinchus_thaleichthys/fSpiTha1/genomic_data/illumina/fSpiTha1_2.fastq.gz
 pacbiohifi_bam  fSpiTha1             64130272847               0      2147483648     17778307123         1296561  species/Spirinchus_thaleichthys/fSpiTha1/genomic_data/pacbio_hifi/m64330e_211117_210706.hifi_reads.bam
 pacbiohifi_fqgz fSpiTha1             13502274037               0      2147483648     17964370090         1307853  species/Spirinchus_thaleichthys/fSpiTha1/genomic_data/pacbio_hifi/m64330e_211117_210706.hifi_reads.fastq.gz
 pacbiohifi_clr  fSpiTha1            203210068672               0      2147483648     85334265847         5591229  species/Spirinchus_thaleichthys/fSpiTha1/genomic_data/pacbio_hifi/m64330e_211117_210706.reads.bam
@@ -17,6 +19,7 @@ pacbiohifi_clr  fSpiTha1            206881026429               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fSpiTha1          1.9110     77625743934
+illumina        fSpiTha1          1.9489     44658743047
 pacbiohifi_bam  fSpiTha1          0.2742     36503509312
 pacbiohifi_clr  fSpiTha1          0.4157    170474868233
 pacbiohifi_fqgz fSpiTha1          1.2589     36389412423

@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fThaBif1             25277242588               0      2147483648     45027923105       298198178  species/Thalassoma_bifasciatum/fThaBif1/genomic_data/arima/fThaBif1_L1_S4_R1_001.fastq.gz
+arima           fThaBif1             25991358562               0      2147483648     44856854730       297065263  species/Thalassoma_bifasciatum/fThaBif1/genomic_data/arima/fThaBif1_L1_S4_R2_001.fastq.gz
 pacbiohifi_bam  fThaBif1            249654644750               0      2147483648     57481570513         4783756  species/Thalassoma_bifasciatum/fThaBif1/genomic_data/pacbio_hifi/m84091_240318_162403_s1.hifi_reads.bc1021.bam
 pacbiohifi_fqgz fThaBif1             29529674634               0      2147483648     57475519509         4781712  species/Thalassoma_bifasciatum/fThaBif1/genomic_data/pacbio_hifi/m84091_240318_162403_s1.hifi_reads.bc1021.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz fThaBif1             29529674634               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fThaBif1          1.7440     89412440405
 pacbiohifi_bam  fThaBif1          0.2302     57470499221
 pacbiohifi_fqgz fThaBif1          1.9463     57473605740
 --------------- ---------------  ------- ---------------

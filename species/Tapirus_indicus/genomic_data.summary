@@ -8,9 +8,12 @@ pacbiohifi_fqgz mTapInd1             20782620277               0      2147483648
 pacbiohifi_bam  mTapInd1            101363013774               0      2147483648     27530627429         1712870  species/Tapirus_indicus/mTapInd1/genomic_data/pacbio_hifi/m64055e_221204_135355.hifi_reads.bam
 pacbiohifi_clr  mTapInd1           1021138299032               0      2147483648    544388078136        34945306  species/Tapirus_indicus/mTapInd1/genomic_data/pacbio_hifi/m64055e_221204_135355.subreads.bam
 pacbiohifi_fqgz mTapInd1             19390042220               0      2147483648     24219440811         1475324  species/Tapirus_indicus/mTapInd1/genomic_data/pacbio_hifi/m64055e_221216_140033.bc1012--bc1012.hifi_reads.fastq.gz
+pacbiohifi_bam  mTapInd1             91774142705               0      2147483648     24918685182         1514851  species/Tapirus_indicus/mTapInd1/genomic_data/pacbio_hifi/m64055e_221216_140033.hifi_reads.bam
 pacbiohifi_fqgz mTapInd1             20824124911               0      2147483648     25949281942         1601874  species/Tapirus_indicus/mTapInd1/genomic_data/pacbio_hifi/m64055e_221218_092918.bc1012--bc1012.hifi_reads.fastq.gz
+pacbiohifi_bam  mTapInd1             96931578935               0      2147483648     25888738883         1601245  species/Tapirus_indicus/mTapInd1/genomic_data/pacbio_hifi/m64055e_221218_092918.demultiplex.bc1012--bc1012.bam
 pacbiohifi_bam  mTapInd1             99482176160               0      2147483648     26921651572         1663345  species/Tapirus_indicus/mTapInd1/genomic_data/pacbio_hifi/m64055e_221218_092918.hifi_reads.bam
 pacbiohifi_clr  mTapInd1            997024866986               0      2147483648    531052615511        33781641  species/Tapirus_indicus/mTapInd1/genomic_data/pacbio_hifi/m64055e_221218_092918.subreads.bam
+pacbiohifi_bam  mTapInd1            100358041649               0      2147483648     26924110040         1663409  species/Tapirus_indicus/mTapInd1/genomic_data/pacbio_hifi/m64055e_221218_092918.with_5mC.bam
 pacbiohifi_clr  mTapInd1            972938438831               0      2147483648    520290944635        30891427  species/Tapirus_indicus/mTapInd1/genomic_data/pacbio_hifi/m64330e_230103_184133.subreads.bam
 pacbiohifi_bam  mTapInd1             92343788048               0      2147483648     24763701933         1504301  species/Tapirus_indicus/mTapInd1/genomic_data/pacbio_hifi/m64330e_230103_184133.with_5mC.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -20,7 +23,7 @@ pacbiohifi_bam  mTapInd1             92343788048               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 dovetail        mTapInd1          1.6707    143317731363
-pacbiohifi_bam  mTapInd1          0.2701    208424956907
+pacbiohifi_bam  mTapInd1          0.2689    300356569018
 pacbiohifi_clr  mTapInd1          0.5334   2090760216835
 pacbiohifi_fqgz mTapInd1          1.2564     93393259074
 --------------- ---------------  ------- ---------------

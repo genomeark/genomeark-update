@@ -9,10 +9,13 @@ arima           sHetFra1             84123266550               0      2147483648
 pacbiohifi_bam  sHetFra1            139203426145               0      2147483648     37989799510         1977189  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m54306Ue_221107_195357.with_5mC.bam
 pacbiohifi_clr  sHetFra1           1290639737489               0      2147483648    697747522923        37355815  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m54306Ue_221109_145933.subreads.bam
 pacbiohifi_fqgz sHetFra1             27963779040               0      2147483648     35076039032         1827315  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m54306Ue_221117_124623.bc1022--bc1022.hifi_reads.fastq.gz
+pacbiohifi_bam  sHetFra1            133193914120               0      2147483648     35756539049         1874838  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m54306Ue_221117_124623.demultiplex.bc1022--bc1022.bam
+pacbiohifi_bam  sHetFra1            138080702034               0      2147483648     37613914587         1971016  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m54306Ue_221117_124623.hifi_reads.bam
 pacbiohifi_clr  sHetFra1           1232486368932               0      2147483648    664856144586        35762177  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m54306Ue_221117_124623.subreads.bam
 pacbiohifi_fqgz sHetFra1             24799049908               0      2147483648     30971241220         2052025  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m64330e_230109_055405.hifi_reads.fastq.gz
 pacbiohifi_clr  sHetFra1           1205667278979               0      2147483648    648101534412        42439249  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m64330e_230109_055405.subreads.bam
 pacbiohifi_bam  sHetFra1            115789883178               0      2147483648     31015940734         2052799  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m64330e_230109_055405.with_5mC.bam
+pacbiohifi_bam  sHetFra1            126257266681               0      2147483648     34410493908         1795541  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m64334e_221026_182611.demultiplex.bc1022--bc1022.bam
 pacbiohifi_fqgz sHetFra1             27464688185               0      2147483648     34557138653         1783945  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m64334e_221115_174730.bc1022--bc1022.hifi_reads.fastq.gz
 pacbiohifi_bam  sHetFra1            137579741651               0      2147483648     37061700143         1939969  species/Heterodontus_francisci/sHetFra1/genomic_data/pacbio_hifi/m64334e_221115_174730.with_5mC.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -22,7 +25,7 @@ pacbiohifi_bam  sHetFra1            137579741651               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           sHetFra1          1.9848    642004532010
-pacbiohifi_bam  sHetFra1          0.2701    454536195019
+pacbiohifi_bam  sHetFra1          0.2711    644934514862
 pacbiohifi_clr  sHetFra1          0.5392   4284741190708
 pacbiohifi_fqgz sHetFra1          1.2539    215550758836
 --------------- ---------------  ------- ---------------

@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mIctTri1            122459921650               0      2147483648    226446586389      1499646324  species/Ictidomys_tridecemlineatus/mIctTri1/genomic_data/arima/mIctTri1_L1_S1_R1_001.fastq.gz
+arima           mIctTri1            129150364300               0      2147483648    227655792738      1507654256  species/Ictidomys_tridecemlineatus/mIctTri1/genomic_data/arima/mIctTri1_L1_S1_R2_001.fastq.gz
 arima           mIctTri1             25620836795               0      2147483648     47469059550       314364632  species/Ictidomys_tridecemlineatus/mIctTri1/genomic_data/arima/mIctTri1_L1_S5_R1_001.fastq.gz
 arima           mIctTri1             26553666382               0      2147483648     47609230872       315292919  species/Ictidomys_tridecemlineatus/mIctTri1/genomic_data/arima/mIctTri1_L1_S5_R2_001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +12,5 @@ arima           mIctTri1             26553666382               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           mIctTri1          1.8124     94561069557
+arima           mIctTri1          1.8036    547906245669
 --------------- ---------------  ------- ---------------

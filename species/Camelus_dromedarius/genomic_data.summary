@@ -8,9 +8,11 @@ pacbiohifi_fqgz mCamDro1             21879585644               0      2147483648
 pacbiohifi_clr  mCamDro1           1025158358034               0      2147483648    546942310128        32150833  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64055e_221202_183002.subreads.bam
 pacbiohifi_fqgz mCamDro1             18384054113               0      2147483648     20663537279         1173626  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221214_181813.bc1008--bc1008.hifi_reads.fastq.gz
 pacbiohifi_clr  mCamDro1            857796613997               0      2147483648    457086561988        26608873  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221214_181813.subreads.bam
+pacbiohifi_bam  mCamDro1             84058723597               0      2147483648     21954410685         1249910  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221214_181813.with_5mC.bam
 pacbiohifi_fqgz mCamDro1             19738800932               0      2147483648     23145895465         1240341  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221216_133101.bc1008--bc1008.hifi_reads.fastq.gz
 pacbiohifi_bam  mCamDro1             90060856251               0      2147483648     24272654653         1320832  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221216_133101.hifi_reads.bam
 pacbiohifi_clr  mCamDro1            922495659014               0      2147483648    495555722772        27107617  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221216_133101.subreads.bam
+pacbiohifi_bam  mCamDro1             90993089209               0      2147483648     24278048749         1321200  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221216_133101.with_5mC.bam
 pacbiohifi_bam  mCamDro1             91494019858               0      2147483648     24762859442         1504134  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_230103_184133.hifi_reads.bam
 pacbiohifi_clr  mCamDro1            972938438831               0      2147483648    520290944635        30891427  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_230103_184133.subreads.bam
 pacbiohifi_bam  mCamDro1             92343788048               0      2147483648     24763701933         1504301  species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_230103_184133.with_5mC.bam
@@ -27,7 +29,7 @@ illumina        mCamDro3             25454180937               0      2147483648
 dovetail        mCamDro1          1.7964    142975990510
 illumina        mCamDro2          1.9608     82710719898
 illumina        mCamDro3          1.9258     95779575345
-pacbiohifi_bam  mCamDro1          0.2694    225410013182
+pacbiohifi_bam  mCamDro1          0.2655    301209597460
 pacbiohifi_clr  mCamDro1          0.5350   2021438152383
 pacbiohifi_fqgz mCamDro1          1.1916     78796179862
 --------------- ---------------  ------- ---------------

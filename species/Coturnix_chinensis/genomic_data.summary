@@ -5,8 +5,14 @@
 arima           bCotChi1             31149507059               0      2147483648     60575768549       401164030  species/Coturnix_chinensis/bCotChi1/genomic_data/arima/bCotChi1_L1_S5_R1_001.fastq.gz
 arima           bCotChi1             31976920676               0      2147483648     60379797848       399866225  species/Coturnix_chinensis/bCotChi1/genomic_data/arima/bCotChi1_L1_S5_R2_001.fastq.gz
 pacbiohifi_fqgz bCotChi1             12374581976               0      2147483648     14509348051          868947  species/Coturnix_chinensis/bCotChi1/genomic_data/pacbio_hifi/m64055e_230120_141121.bc1008--bc1008.hifi_reads.fastq.gz
+pacbiohifi_bam  bCotChi1             56940789514               0      2147483648     15210335458          924767  species/Coturnix_chinensis/bCotChi1/genomic_data/pacbio_hifi/m64055e_230120_141121.hifi_reads.bam
+pacbiohifi_clr  bCotChi1            676919376095               0      2147483648    359608655649        21768442  species/Coturnix_chinensis/bCotChi1/genomic_data/pacbio_hifi/m64055e_230120_141121.subreads.bam
 pacbiohifi_fqgz bCotChi1             23546825956               0      2147483648     25279859742         1265836  species/Coturnix_chinensis/bCotChi1/genomic_data/pacbio_hifi/m64330e_230327_030159.bc1008--bc1008.hifi_reads.fastq.gz
+pacbiohifi_bam  bCotChi1             98779462797               0      2147483648     25457743298         1257257  species/Coturnix_chinensis/bCotChi1/genomic_data/pacbio_hifi/m64330e_230327_030159.demultiplex.bc1008--bc1008.bam
+pacbiohifi_clr  bCotChi1           1004334345324               0      2147483648    537196688919        25602185  species/Coturnix_chinensis/bCotChi1/genomic_data/pacbio_hifi/m64330e_230327_030159.subreads.bam
 pacbiohifi_fqgz bCotChi1              9062327895               0      2147483648     10888611556          670381  species/Coturnix_chinensis/bCotChi1/genomic_data/pacbio_hifi/m64334e_230203_124216.bc1008--bc1008.hifi_reads.fastq.gz
+pacbiohifi_clr  bCotChi1            469092497428               0      2147483648    248949553327        16493395  species/Coturnix_chinensis/bCotChi1/genomic_data/pacbio_hifi/m64334e_230203_124216.subreads.bam
+pacbiohifi_bam  bCotChi1             42952527614               0      2147483648     11348710682          705066  species/Coturnix_chinensis/bCotChi1/genomic_data/pacbio_hifi/m64334e_230203_124216.with_5mC.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,5 +20,7 @@ pacbiohifi_fqgz bCotChi1              9062327895               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bCotChi1          1.9067    120363159762
+pacbiohifi_bam  bCotChi1          0.2618    156812061713
+pacbiohifi_clr  bCotChi1          0.5328   1145704465401
 pacbiohifi_fqgz bCotChi1          1.1265     50674178409
 --------------- ---------------  ------- ---------------

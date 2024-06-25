@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mNeoFlo1             76400378471               0      2147483648    133746499485       885738442  species/Neotoma_floridana/mNeoFlo1/genomic_data/arima/mNeoFlo1_L1_S5_R1_001.fastq.gz
+arima           mNeoFlo1             78902926286               0      2147483648    134034664747       887646823  species/Neotoma_floridana/mNeoFlo1/genomic_data/arima/mNeoFlo1_L1_S5_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mNeoFlo1          1.7156    266438349641
+--------------- ---------------  ------- ---------------

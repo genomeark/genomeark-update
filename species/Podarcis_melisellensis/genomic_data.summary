@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rPodMel1             56735148899               0      2147483648    185383865905      1227707721  species/Podarcis_melisellensis/rPodMel1/genomic_data/arima/rPodMel1_49015_1-2#2.cram
+arima           rPodMel1             53888391724               0      2147483648    170549832732      1129469090  species/Podarcis_melisellensis/rPodMel1/genomic_data/arima/rPodMel1_49015_5-6#3.cram
 pacbiohifi_bam  rPodMel1             20806760220               0      2147483648     58578660833         4739443  species/Podarcis_melisellensis/rPodMel1/genomic_data/pacbio_hifi/m84098_240514_112027_s2.ccs.bc2081.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +11,6 @@ pacbiohifi_bam  rPodMel1             20806760220               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           rPodMel1          3.2344    357800779791
 pacbiohifi_bam  rPodMel1          2.8153     58577272047
 --------------- ---------------  ------- ---------------

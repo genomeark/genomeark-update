@@ -5,8 +5,14 @@
 arima           bAptMan1             36458371941               0      2147483648     74041564406       490341503  species/Apteryx_mantelli/bAptMan1/genomic_data/arima/bAptMan1_L2_S8_R1_001.fastq.gz
 arima           bAptMan1             37899740239               0      2147483648     74250106986       491722580  species/Apteryx_mantelli/bAptMan1/genomic_data/arima/bAptMan1_L2_S8_R2_001.fastq.gz
 pacbiohifi_fqgz bAptMan1              9716513114               0      2147483648     12566854968          875519  species/Apteryx_mantelli/bAptMan1/genomic_data/pacbio_hifi/m54306Ue_230209_081220.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_clr  bAptMan1            690317427667               0      2147483648    366527714077        22781452  species/Apteryx_mantelli/bAptMan1/genomic_data/pacbio_hifi/m54306Ue_230209_081220.subreads.bam
+pacbiohifi_bam  bAptMan1             49707025824               0      2147483648     13412536269          939776  species/Apteryx_mantelli/bAptMan1/genomic_data/pacbio_hifi/m54306Ue_230209_081220.with_5mC.bam
 pacbiohifi_fqgz bAptMan1             23512344807               0      2147483648     24035870447         1086043  species/Apteryx_mantelli/bAptMan1/genomic_data/pacbio_hifi/m64334e_230413_080901.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_bam  bAptMan1             97361146013               0      2147483648     25219825503         1164806  species/Apteryx_mantelli/bAptMan1/genomic_data/pacbio_hifi/m64334e_230413_080901.hifi_reads.bam
+pacbiohifi_clr  bAptMan1           1053942786905               0      2147483648    562993117200        25379724  species/Apteryx_mantelli/bAptMan1/genomic_data/pacbio_hifi/m64334e_230413_080901.subreads.bam
 pacbiohifi_fqgz bAptMan1             34485514961               0      2147483648     39133211329         1794962  species/Apteryx_mantelli/bAptMan1/genomic_data/pacbio_hifi/m64334e_230430_141916.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_bam  bAptMan1            147745012739               0      2147483648     39423138053         1770064  species/Apteryx_mantelli/bAptMan1/genomic_data/pacbio_hifi/m64334e_230430_141916.hifi_reads.bam
+pacbiohifi_clr  bAptMan1           1249139287972               0      2147483648    671429512877        33089791  species/Apteryx_mantelli/bAptMan1/genomic_data/pacbio_hifi/m64334e_230430_141916.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,5 +20,7 @@ pacbiohifi_fqgz bAptMan1             34485514961               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bAptMan1          1.9824    147407521585
+pacbiohifi_bam  bAptMan1          0.2647    233471608369
+pacbiohifi_clr  bAptMan1          0.5348   1600870053960
 pacbiohifi_fqgz bAptMan1          1.1184     75731754631
 --------------- ---------------  ------- ---------------

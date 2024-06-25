@@ -9,7 +9,12 @@ pacbiohifi_fqgz fHapBur1             12960947600               0      2147483648
 arima           fHapBur2             14539222694               0      2147483648     28134095656       186318521  species/Haplochromis_burtoni/fHapBur2/genomic_data/arima/fAstBur2_L1_S7_R1_001.fastq.gz
 arima           fHapBur2             15194336403               0      2147483648     27963769577       185190527  species/Haplochromis_burtoni/fHapBur2/genomic_data/arima/fAstBur2_L1_S7_R2_001.fastq.gz
 pacbiohifi_fqgz fHapBur2             21285888439               0      2147483648     21982716865         1288591  species/Haplochromis_burtoni/fHapBur2/genomic_data/pacbio_hifi/m54306Ue_230324_181445.bc1016--bc1016.hifi_reads.fastq.gz
+pacbiohifi_bam  fHapBur2             87144690848               0      2147483648     22233482937         1338650  species/Haplochromis_burtoni/fHapBur2/genomic_data/pacbio_hifi/m54306Ue_230324_181445.demultiplex.bc1016--bc1016.bam
+pacbiohifi_bam  fHapBur2             90551944453               0      2147483648     23499835976         1414855  species/Haplochromis_burtoni/fHapBur2/genomic_data/pacbio_hifi/m54306Ue_230324_181445.hifi_reads.bam
+pacbiohifi_clr  fHapBur2            951036390851               0      2147483648    507308263932        26940110  species/Haplochromis_burtoni/fHapBur2/genomic_data/pacbio_hifi/m54306Ue_230324_181445.subreads.bam
 pacbiohifi_fqgz fHapBur2             13924491341               0      2147483648     15667327729          933625  species/Haplochromis_burtoni/fHapBur2/genomic_data/pacbio_hifi/m64055e_230307_131838.bc1016--bc1016.hifi_reads.fastq.gz
+pacbiohifi_bam  fHapBur2             62946726149               0      2147483648     16673261150          984204  species/Haplochromis_burtoni/fHapBur2/genomic_data/pacbio_hifi/m64055e_230307_131838.hifi_reads.bam
+pacbiohifi_clr  fHapBur2            856141013765               0      2147483648    457223160410        24905022  species/Haplochromis_burtoni/fHapBur2/genomic_data/pacbio_hifi/m64055e_230307_131838.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -18,6 +23,8 @@ pacbiohifi_fqgz fHapBur2             13924491341               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           fHapBur1          1.9623    103045690601
 arima           fHapBur2          1.8710     55631489070
+pacbiohifi_bam  fHapBur2          0.2593    118304398414
+pacbiohifi_clr  fHapBur2          0.5336    964309863103
 pacbiohifi_fqgz fHapBur1          1.3415     36331074988
 pacbiohifi_fqgz fHapBur2          1.0555     37164555857
 --------------- ---------------  ------- ---------------

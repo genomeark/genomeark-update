@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bAgePho1             20445183319               0      2147483648     38650841555       255965847  species/Agelaius_phoeniceus/bAgePho1/genomic_data/arima/bAgePho1_S5_R1_001.fastq.gz
 arima           bAgePho1             20857553880               0      2147483648     38400276951       254306469  species/Agelaius_phoeniceus/bAgePho1/genomic_data/arima/bAgePho1_S5_R2_001.fastq.gz
+pacbiohifi_bam  bAgePho1            163841974268               0      2147483648     44100834676         1981453  species/Agelaius_phoeniceus/bAgePho1/genomic_data/pacbio_hifi/m64330e_221114_184840.hifi_reads.bam
 pacbiohifi_fqgz bAgePho1             39498023330               0      2147483648     43411037286         1967632  species/Agelaius_phoeniceus/bAgePho1/genomic_data/pacbio_hifi/m64330e_221114_184840.hifi_reads.fastq.gz
 pacbiohifi_clr  bAgePho1           1426852867317               0      2147483648    768211456333        35921086  species/Agelaius_phoeniceus/bAgePho1/genomic_data/pacbio_hifi/m64330e_221114_184840.subreads.bam
 pacbiohifi_bam  bAgePho1            164905929621               0      2147483648     44101347032         1981573  species/Agelaius_phoeniceus/bAgePho1/genomic_data/pacbio_hifi/m64330e_221114_184840.with_5mC.bam
@@ -18,7 +19,7 @@ pacbiohifi_bam  bAgePho1            166312368343               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bAgePho1          1.8573     76711573799
-pacbiohifi_bam  bAgePho1          0.2702    178405748175
+pacbiohifi_bam  bAgePho1          0.2697    220560796426
 pacbiohifi_clr  bAgePho1          0.5399   1538854684405
 pacbiohifi_fqgz bAgePho1          1.1276     85052364439
 --------------- ---------------  ------- ---------------

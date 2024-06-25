@@ -8,6 +8,7 @@ pacbiohifi_fqgz bChlMac1             28201609540               0      2147483648
 pacbiohifi_clr  bChlMac1           1079834423992               0      2147483648    576751578432        30508131  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64055e_221214_181059.subreads.bam
 pacbiohifi_bam  bChlMac1            128083179980               0      2147483648     33620556909         1638701  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64055e_221214_181059.with_5mC.bam
 pacbiohifi_fqgz bChlMac1             28377908191               0      2147483648     33551357273         1610556  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64334e_221204_140431.bc1003--bc1003.hifi_reads.fastq.gz
+pacbiohifi_bam  bChlMac1            125792313139               0      2147483648     33361480161         1612906  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64334e_221204_140431.demultiplex.bc1003--bc1003.bam
 pacbiohifi_bam  bChlMac1            128900456709               0      2147483648     34670895168         1675148  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64334e_221204_140431.hifi_reads.bam
 pacbiohifi_clr  bChlMac1           1108342808123               0      2147483648    594696230076        30551786  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64334e_221204_140431.subreads.bam
 pacbiohifi_bam  bChlMac1            130326216382               0      2147483648     34666818687         1675106  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64334e_221204_140431.with_5mC.bam
@@ -24,7 +25,7 @@ illumina        bChlMac3             19234135430               0      2147483648
 arima           bChlMac1          1.9343    159256355545
 illumina        bChlMac2          1.9432    110130322483
 illumina        bChlMac3          1.9335     72614180914
-pacbiohifi_bam  bChlMac1          0.2658    136630022754
+pacbiohifi_bam  bChlMac1          0.2655    202819326639
 pacbiohifi_clr  bChlMac1          0.5357   1172206543244
 pacbiohifi_fqgz bChlMac1          1.1692     66152772131
 --------------- ---------------  ------- ---------------

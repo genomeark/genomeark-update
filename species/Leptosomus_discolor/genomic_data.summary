@@ -5,7 +5,12 @@
 arima           bLepDis1             18393133438               0      2147483648     32704944912       216589047  species/Leptosomus_discolor/bLepDis1/genomic_data/arima/bLepDis1_L1_S2_R1_001.fastq.gz
 arima           bLepDis1             18987742733               0      2147483648     32905596819       217917868  species/Leptosomus_discolor/bLepDis1/genomic_data/arima/bLepDis1_L1_S2_R2_001.fastq.gz
 pacbiohifi_fqgz bLepDis1             28255440094               0      2147483648     33719073219         2038249  species/Leptosomus_discolor/bLepDis1/genomic_data/pacbio_hifi/m64055e_230502_084539.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_bam  bLepDis1            128202141180               0      2147483648     33740144745         2011132  species/Leptosomus_discolor/bLepDis1/genomic_data/pacbio_hifi/m64055e_230502_084539.demultiplex.bc1010--bc1010.bam
+pacbiohifi_bam  bLepDis1            126887492100               0      2147483648     33936642848         2019816  species/Leptosomus_discolor/bLepDis1/genomic_data/pacbio_hifi/m64055e_230502_084539.hifi_reads.bam
+pacbiohifi_clr  bLepDis1           1184830575762               0      2147483648    631858135737        38311560  species/Leptosomus_discolor/bLepDis1/genomic_data/pacbio_hifi/m64055e_230502_084539.subreads.bam
 pacbiohifi_fqgz bLepDis1             27559313176               0      2147483648     34681370382         2125092  species/Leptosomus_discolor/bLepDis1/genomic_data/pacbio_hifi/m64330e_230511_180019.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_clr  bLepDis1           1197611554031               0      2147483648    640224342243        40378917  species/Leptosomus_discolor/bLepDis1/genomic_data/pacbio_hifi/m64330e_230511_180019.subreads.bam
+pacbiohifi_bam  bLepDis1            128139360605               0      2147483648     34503631968         2075604  species/Leptosomus_discolor/bLepDis1/genomic_data/pacbio_hifi/m64330e_230511_180019.with_5mC.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,5 +18,7 @@ pacbiohifi_fqgz bLepDis1             27559313176               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bLepDis1          1.7477     65330557284
+pacbiohifi_bam  bLepDis1          0.2666    204288504033
+pacbiohifi_clr  bLepDis1          0.5341   1272462341522
 pacbiohifi_fqgz bLepDis1          1.2146     67792599321
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fChaZeb1             29416651641               0      2147483648     51834838506       343277089  species/Characidium_zebra/fChaZeb1/genomic_data/arima/fChaZeb1_L1_S3_R1_001.fastq.gz
+arima           fChaZeb1             30104646663               0      2147483648     51768836401       342839976  species/Characidium_zebra/fChaZeb1/genomic_data/arima/fChaZeb1_L1_S3_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fChaZeb1          1.7335    103180170609
+--------------- ---------------  ------- ---------------

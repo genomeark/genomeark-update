@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bLonStr1             11680335099               0      2147483648     20393986192       135059516  species/Lonchura_striata/bLonStr1/genomic_data/arima/bLonStr1_L1_S1_R1_001.fastq.gz
 arima           bLonStr1             12159167472               0      2147483648     20492211247       135710013  species/Lonchura_striata/bLonStr1/genomic_data/arima/bLonStr1_L1_S1_R2_001.fastq.gz
+arima           bLonStr1             21767024629               0      2147483648     37480983376       248218432  species/Lonchura_striata/bLonStr1/genomic_data/arima/bLonStr1_L1_S5_R1_001.fastq.gz
+arima           bLonStr1             22704459240               0      2147483648     37376468282       247526280  species/Lonchura_striata/bLonStr1/genomic_data/arima/bLonStr1_L1_S5_R2_001.fastq.gz
 pacbiohifi_bam  bLonStr1            352760993716               0      2147483648     82465329706         5090802  species/Lonchura_striata/bLonStr1/genomic_data/pacbio_hifi/m84091_240314_194926_s3.hifi_reads.bc1002.bam
 pacbiohifi_fqgz bLonStr1             43548503421               0      2147483648     83351783445         5154377  species/Lonchura_striata/bLonStr1/genomic_data/pacbio_hifi/m84091_240314_194926_s3.hifi_reads.bc1002.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -12,7 +14,7 @@ pacbiohifi_fqgz bLonStr1             43548503421               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           bLonStr1          1.7050     40646351883
+arima           bLonStr1          1.6837    115015207869
 pacbiohifi_bam  bLonStr1          0.2337     82440244231
 pacbiohifi_fqgz bLonStr1          1.9139     83347480697
 --------------- ---------------  ------- ---------------

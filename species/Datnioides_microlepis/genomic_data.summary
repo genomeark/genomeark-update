@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fDatMic1            134903944761               0      2147483648     31779070426         2121792  species/Datnioides_microlepis/fDatMic1/genomic_data/pacbio_hifi/m84091_240614_183804_s3.hifi_reads.bc1018.bam
+pacbiohifi_fqgz fDatMic1             16689482662               0      2147483648     31955040119         2139215  species/Datnioides_microlepis/fDatMic1/genomic_data/pacbio_hifi/m84091_240614_183804_s3.hifi_reads.bc1018.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fDatMic1          0.2355     31769878991
+pacbiohifi_fqgz fDatMic1          1.9146     31953683504
+--------------- ---------------  ------- ---------------

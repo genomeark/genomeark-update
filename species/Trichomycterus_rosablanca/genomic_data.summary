@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fTriRos1             26984363874               0      2147483648     53316937986       353092304  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/arima/fTriRos1_1.fastq.gz
 arima           fTriRos1             28184364592               0      2147483648     53846591697       356599958  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/arima/fTriRos1_2.fastq.gz
+pacbiohifi_bam  fTriRos1             79469685432               0      2147483648     21804977982         2461007  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/pacbio_hifi/m64055e_221019_155144.demultiplex.bc1009--bc1009.bam
 pacbiohifi_bam  fTriRos1             82895192177               0      2147483648     23308957932         2633636  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/pacbio_hifi/m64055e_221019_155144.hifi_reads.bam
 pacbiohifi_fqgz fTriRos1             15517809351               0      2147483648     23363398210         2612973  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/pacbio_hifi/m64055e_221019_155144.hifi_reads.fastq.gz
 pacbiohifi_clr  fTriRos1           1341509740551               0      2147483648    716690517553        77828772  species/Trichomycterus_rosablanca/fTriRos1/genomic_data/pacbio_hifi/m64055e_221019_155144.subreads.bam
@@ -18,7 +19,7 @@ pacbiohifi_bam  fTriRos1             83111835831               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fTriRos1          1.9316    106563915904
-pacbiohifi_bam  fTriRos1          0.2795     92803113155
+pacbiohifi_bam  fTriRos1          0.2787    136754055522
 pacbiohifi_clr  fTriRos1          0.5347   1364865432117
 pacbiohifi_fqgz fTriRos1          1.4777     46238665882
 --------------- ---------------  ------- ---------------

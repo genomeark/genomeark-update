@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mBabCel1             64051767158               0      2147483648    110571975005       732264764  species/Babyrousa_celebensis/mBabCel1/genomic_data/arima/mBabCel1_L1_S4_R1_001.fastq.gz
+arima           mBabCel1             65425508836               0      2147483648    110814380558       733870069  species/Babyrousa_celebensis/mBabCel1/genomic_data/arima/mBabCel1_L1_S4_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mBabCel1          1.7044    220681069204
+--------------- ---------------  ------- ---------------

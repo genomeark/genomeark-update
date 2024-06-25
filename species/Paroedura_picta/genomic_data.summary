@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rParPic1             51465107342               0      2147483648     91132682891       603527725  species/Paroedura_picta/rParPic1/genomic_data/arima/rParPic1_L1_S1_R1_001.fastq.gz
+arima           rParPic1             54101529823               0      2147483648     90917159899       602100421  species/Paroedura_picta/rParPic1/genomic_data/arima/rParPic1_L1_S1_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rParPic1          1.7095    180466166233
+--------------- ---------------  ------- ---------------

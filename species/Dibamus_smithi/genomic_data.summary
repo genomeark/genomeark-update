@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rDibSmi1             46941689931               0      2147483648     82047901591       543363608  species/Dibamus_smithi/rDibSmi1/genomic_data/arima/rDibSmi1_L1_S2_R1_001.fastq.gz
+arima           rDibSmi1             48680878563               0      2147483648     81581049167       540271871  species/Dibamus_smithi/rDibSmi1/genomic_data/arima/rDibSmi1_L1_S2_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rDibSmi1          1.6992    162481868385
+--------------- ---------------  ------- ---------------

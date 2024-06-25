@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPerGos1             60728817545               0      2147483648    107430782617       711462164  species/Peromyscus_gossypinus/mPerGos1/genomic_data/arima/mPerGos1_L1_S4_R1_001.fastq.gz
+arima           mPerGos1             63504827487               0      2147483648    106895215424       707915363  species/Peromyscus_gossypinus/mPerGos1/genomic_data/arima/mPerGos1_L1_S4_R2_001.fastq.gz
 pacbiohifi_bam  mPerGos1            294156054459               0      2147483648     67605427284         4535996  species/Peromyscus_gossypinus/mPerGos1/genomic_data/pacbio_hifi/m84091_240313_183652_s1.hifi_reads.bc1015.bam
 pacbiohifi_fqgz mPerGos1             36055676553               0      2147483648     67929164775         4554147  species/Peromyscus_gossypinus/mPerGos1/genomic_data/pacbio_hifi/m84091_240313_183652_s1.hifi_reads.bc1015.fastq.gz
 pacbiohifi_bam  mPerGos1            322437894195               0      2147483648     75628460976         5041780  species/Peromyscus_gossypinus/mPerGos1/genomic_data/pacbio_hifi/m84091_240318_172615_s3.hifi_reads.bc1015.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz mPerGos1             39851060692               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mPerGos1          1.7110    212563766649
 pacbiohifi_bam  mPerGos1          0.2330    143666390036
 pacbiohifi_fqgz mPerGos1          1.9013    144321479523
 --------------- ---------------  ------- ---------------

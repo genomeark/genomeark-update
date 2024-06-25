@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rPodErh1             69085802332               0      2147483648    225740010629      1494966957  species/Podarcis_erhardii/rPodErh1/genomic_data/arima/rPodErh1_49015_1-2#1.cram
 pacbiohifi_bam  rPodErh1             10982761917               0      2147483648     30838408284         2457600  species/Podarcis_erhardii/rPodErh1/genomic_data/pacbio_hifi/m84098_240514_104810_s1.ccs.bc2080.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  rPodErh1             10982761917               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           rPodErh1          3.2675    225737859119
 pacbiohifi_bam  rPodErh1          2.8078     30837398910
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rPelSin1             81661092233               0      2147483648    144797205242       958921927  species/Pelodiscus_sinensis/rPelSin1/genomic_data/arima/rPelSin1_L1_S2_R1_001.fastq.gz
+arima           rPelSin1             82809383925               0      2147483648    145042358644       960545421  species/Pelodiscus_sinensis/rPelSin1/genomic_data/arima/rPelSin1_L1_S2_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rPelSin1          1.7586    289237779371
+--------------- ---------------  ------- ---------------

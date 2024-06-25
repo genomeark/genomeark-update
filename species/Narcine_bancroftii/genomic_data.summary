@@ -9,9 +9,12 @@ arima           sNarBan1             85153991575               0      2147483648
 arima           sNarBan1             89421926060               0      2147483648    166720695753      1104110609  species/Narcine_bancroftii/sNarBan1/genomic_data/arima/sNarBan1_S6_R2_001.fastq.gz
 pacbiohifi_clr  sNarBan1            966626695067               0      2147483648    522160712427        25342241  species/Narcine_bancroftii/sNarBan1/genomic_data/pacbio_hifi/m54306Ue_221119_080816.subreads.bam
 pacbiohifi_fqgz sNarBan1             22939663588               0      2147483648     25579227782         1144342  species/Narcine_bancroftii/sNarBan1/genomic_data/pacbio_hifi/m54306Ue_221130_165948.bc1011--bc1011.hifi_reads.fastq.gz
+pacbiohifi_bam  sNarBan1            103162773485               0      2147483648     27285980535         1220908  species/Narcine_bancroftii/sNarBan1/genomic_data/pacbio_hifi/m54306Ue_221130_165948.hifi_reads.bam
 pacbiohifi_fqgz sNarBan1             23406184706               0      2147483648     27426690478         1179985  species/Narcine_bancroftii/sNarBan1/genomic_data/pacbio_hifi/m64334e_221206_092912.bc1011--bc1011.hifi_reads.fastq.gz
+pacbiohifi_bam  sNarBan1            107188047488               0      2147483648     28894719696         1245037  species/Narcine_bancroftii/sNarBan1/genomic_data/pacbio_hifi/m64334e_221206_092912.hifi_reads.bam
 pacbiohifi_clr  sNarBan1            949477149443               0      2147483648    512626040244        23845211  species/Narcine_bancroftii/sNarBan1/genomic_data/pacbio_hifi/m64334e_221206_092912.subreads.bam
 pacbiohifi_fqgz sNarBan1             22804737456               0      2147483648     25520961859         1110681  species/Narcine_bancroftii/sNarBan1/genomic_data/pacbio_hifi/m64334e_221208_045849.bc1011--bc1011.hifi_reads.fastq.gz
+pacbiohifi_bam  sNarBan1             98198216293               0      2147483648     25752957113         1129048  species/Narcine_bancroftii/sNarBan1/genomic_data/pacbio_hifi/m64334e_221208_045849.demultiplex.bc1011--bc1011.bam
 pacbiohifi_clr  sNarBan1            919312308826               0      2147483648    493959000679        23510601  species/Narcine_bancroftii/sNarBan1/genomic_data/pacbio_hifi/m64334e_221208_045849.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -20,6 +23,7 @@ pacbiohifi_clr  sNarBan1            919312308826               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           sNarBan1          1.8875    329512044536
+pacbiohifi_bam  sNarBan1          0.2655    382104625687
 pacbiohifi_clr  sNarBan1          0.5391   2478173082421
 pacbiohifi_fqgz Rhineura_floridana   1.2208     62241057378
 pacbiohifi_fqgz sNarBan1          1.1355    119745234990
