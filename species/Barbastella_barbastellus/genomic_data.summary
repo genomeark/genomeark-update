@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mBarBar1            105963314228               0      2147483648    335434776445      2221422360  species/Barbastella_barbastellus/mBarBar1/genomic_data/arima/mBarBar1_47476_1#2.cram
+pacbiohifi_bam  mBarBar1             13915548335               0      2147483648     41002502290         4117796  species/Barbastella_barbastellus/mBarBar1/genomic_data/pacbio_hifi/m84047_240625_111758_s3.ccs.bc2065.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           mBarBar1            105963314228               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mBarBar1          3.1655    335426871188
+pacbiohifi_bam  mBarBar1          2.9465     41002163169
 --------------- ---------------  ------- ---------------
