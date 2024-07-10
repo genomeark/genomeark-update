@@ -1,0 +1,20 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bStrCam1             54559053374               0      2147483648    103467058102       685212330  species/Struthio_camelus_x_Struthio_molybdophanes/bStrCam1/genomic_data/arima/bStrCam1_L1_S4_R1_001.fastq.gz
+arima           bStrCam1             56704483228               0      2147483648    104238768219       690322994  species/Struthio_camelus_x_Struthio_molybdophanes/bStrCam1/genomic_data/arima/bStrCam1_L1_S4_R2_001.fastq.gz
+pacbiohifi_bam  bStrCam1            249756943671               0      2147483648     56969572911         3848786  species/Struthio_camelus_x_Struthio_molybdophanes/bStrCam1/genomic_data/pacbio_hifi/m84091_240223_205537_s4.hifi_reads.bc1017.bam
+pacbiohifi_fqgz bStrCam1             30626607066               0      2147483648     57475641066         3875482  species/Struthio_camelus_x_Struthio_molybdophanes/bStrCam1/genomic_data/pacbio_hifi/m84091_240223_205537_s4.hifi_reads.bc1017.fastq.gz
+pacbiohifi_bam  bStrCam1            278015023645               0      2147483648     62649529871         4249810  species/Struthio_camelus_x_Struthio_molybdophanes/bStrCam1/genomic_data/pacbio_hifi/m84091_240227_220334_s1.hifi_reads.bc1017.bam
+pacbiohifi_fqgz bStrCam1             35834379638               0      2147483648     61703112763         4163260  species/Struthio_camelus_x_Struthio_molybdophanes/bStrCam1/genomic_data/pacbio_hifi/m84091_240227_220334_s1.hifi_reads.bc1017.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bStrCam1          1.8571    206627513823
+pacbiohifi_bam  bStrCam1          0.2261    119329241810
+pacbiohifi_fqgz bStrCam1          1.7682    117516316690
+--------------- ---------------  ------- ---------------
