@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bHaeOst1             20393968491               0      2147483648     71312763659       472269958  species/Haematopus_ostralegus/bHaeOst1/genomic_data/arima/bHaeOst1_49135_5-6#4.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bHaeOst1          3.4967     71311589622
+--------------- ---------------  ------- ---------------

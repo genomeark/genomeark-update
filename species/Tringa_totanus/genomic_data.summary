@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bTriTot1             21522118374               0      2147483648     73819971912       488873986  species/Tringa_totanus/bTriTot1/genomic_data/arima/bTriTot1_49135_5-6#1.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bTriTot1          3.4299     73818713810
+--------------- ---------------  ------- ---------------

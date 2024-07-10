@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bCyaCae1             34689213644               0      2147483648    121299770332       803309737  species/Cyanistes_caeruleus/bCyaCae1/genomic_data/arima/bCyaCae1_49135_5-6#6.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bCyaCae1          3.4967    121297773348
+--------------- ---------------  ------- ---------------

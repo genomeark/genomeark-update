@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAytMar2             46636622646               0      2147483648    163765605116      1084540431  species/Aythya_marila/bAytMar2/genomic_data/arima/bAytMar2_49135_5-6#8.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bAytMar2          3.5115    163764500421
+--------------- ---------------  ------- ---------------

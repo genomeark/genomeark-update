@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bIchAud1              3590408625               0      3590408625     12076988218         2116427  species/Ichthyaetus_audouinii/bIchAud1/genomic_data/pacbio_hifi/m84047_240701_111352_s1.ccs.bc2079.bam
 pacbiohifi_bam  bIchAud1              1969557097               0      1969557097      6514457301         1089422  species/Ichthyaetus_audouinii/bIchAud1/genomic_data/pacbio_hifi/m84093_240509_104546_s1.ccs.bc2014.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,5 @@ pacbiohifi_bam  bIchAud1              1969557097               0      1969557097
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-pacbiohifi_bam  bIchAud1          3.3075      6514310098
+pacbiohifi_bam  bIchAud1          3.3516     18634781113
 --------------- ---------------  ------- ---------------

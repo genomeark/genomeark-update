@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bSpaCly1             20021364650               0      2147483648     70094326319       464200836  species/Spatula_clypeata/bSpaCly1/genomic_data/arima/bSpaCly1_49135_5-6#2.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bSpaCly1          3.5009     70092795503
+--------------- ---------------  ------- ---------------

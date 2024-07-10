@@ -11,6 +11,7 @@ pacbiohifi_fqgz bFalPer1             10358524886               0      2147483648
 pacbiohifi_clr  bFalPer1            373303493819               0      2147483648    195027270122        13625898  species/Falco_peregrinus/bFalPer1/genomic_data/pacbio_hifi/m64055_200926_214318.subreads.bam
 pacbiohifi_fqgz bFalPer1              9574802890               0      2147483648     10785027620          618146  species/Falco_peregrinus/bFalPer1/genomic_data/pacbio_hifi/m64055_200930_044217.Q20.fastq.gz
 pacbiohifi_clr  bFalPer1            313267713432               0      2147483648    162828608152        11047676  species/Falco_peregrinus/bFalPer1/genomic_data/pacbio_hifi/m64055_200930_044217.subreads.bam
+arima           bFalPer5             33472597497               0      2147483648    116009965453       768277916  species/Falco_peregrinus/bFalPer5/genomic_data/arima/bFalPer5_49135_5-6#5.cram
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -18,6 +19,7 @@ pacbiohifi_clr  bFalPer1            313267713432               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bFalPer1          1.4274    228472664990
+arima           bFalPer5          3.4658    116009328405
 bionano         bFalPer1         500.2286    408022922792
 pacbiohifi_clr  bFalPer1          0.5203    574075341158
 pacbiohifi_fqgz bFalPer1          1.1175     34354557903

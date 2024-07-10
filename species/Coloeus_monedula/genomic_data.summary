@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bColMon1             36383043704               0      2147483648    126659864361       838807048  species/Coloeus_monedula/bColMon1/genomic_data/arima/bColMon1_49135_5-6#7.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bColMon1          3.4812    126656651742
+--------------- ---------------  ------- ---------------

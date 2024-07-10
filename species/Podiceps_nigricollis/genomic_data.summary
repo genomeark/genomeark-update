@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPodNig1             51651123802               0      2147483648    181991557717      1205242104  species/Podiceps_nigricollis/bPodNig1/genomic_data/arima/bPodNig1_49135_5-6#3.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bPodNig1          3.5234    181987569603
+--------------- ---------------  ------- ---------------
