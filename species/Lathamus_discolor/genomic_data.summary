@@ -5,6 +5,10 @@
 arima           bLatDis1             37803761337               0      2147483648     71184897954       471423182  species/Lathamus_discolor/bLatDis1/genomic_data/arima/bLatDis1_S8_L003_R1_001.fastq.gz
 arima           bLatDis1             39093744840               0      2147483648     72073277604       477306474  species/Lathamus_discolor/bLatDis1/genomic_data/arima/bLatDis1_S8_L003_R2_001.fastq.gz
 pacbiohifi_fqgz bLatDis1             37178700376               0      2147483648     43497500260         2095388  species/Lathamus_discolor/bLatDis1/genomic_data/pacbio_hifi/m64055e_221206_091356.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_bam  bLatDis1            164091352446               0      2147483648     43446563093         2082275  species/Lathamus_discolor/bLatDis1/genomic_data/pacbio_hifi/m64055e_221206_091356.demultiplex.bc1002--bc1002.bam
+pacbiohifi_bam  bLatDis1            168014562385               0      2147483648     45007411619         2156861  species/Lathamus_discolor/bLatDis1/genomic_data/pacbio_hifi/m64055e_221206_091356.hifi_reads.bam
+pacbiohifi_clr  bLatDis1           1350797610589               0      2147483648    724316361110        37262798  species/Lathamus_discolor/bLatDis1/genomic_data/pacbio_hifi/m64055e_221206_091356.subreads.bam
+pacbiohifi_bam  bLatDis1            169418235429               0      2147483648     45010480240         2157209  species/Lathamus_discolor/bLatDis1/genomic_data/pacbio_hifi/m64055e_221206_091356.with_5mC.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,5 +16,7 @@ pacbiohifi_fqgz bLatDis1             37178700376               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bLatDis1          1.8564    142752530466
+pacbiohifi_bam  bLatDis1          0.2661    133455576384
+pacbiohifi_clr  bLatDis1          0.5362    724297678797
 pacbiohifi_fqgz bLatDis1          1.1699     43495361569
 --------------- ---------------  ------- ---------------

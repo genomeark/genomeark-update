@@ -1,6 +1,6 @@
 
 Discovering species names.
-  Found 673 species.
+  Found 676 species.
 
 Discovering Species-to-GenBank mappings.
   Reading 'genbank/genbank.PRJNA489243.map'.
@@ -14,10 +14,10 @@ Discovering Species-to-GenBank mappings.
 
 Discovering genome projects.
   Found 4 genome projects.
-     t2t: Telomere-to-Telomere Project        (https://sites.google.com/ucsc.edu/t2tworkinggroup)
-    erga: European Reference Genome Atlas     (https://www.erga-biodiversity.eu/)
      vgp: Vertebrate Genomes Project          (https://vertebrategenomesproject.org/)
+     t2t: Telomere-to-Telomere Project        (https://sites.google.com/ucsc.edu/t2tworkinggroup)
     bat1k: Bat1K                               (https://bat1k.com/)
+    erga: European Reference Genome Atlas     (https://www.erga-biodiversity.eu/)
 
 ----------------------------------------
 Processing species  Abramis_brama
@@ -2418,8 +2418,32 @@ Page Creation
 
 
 ----------------------------------------
+Processing species  Anser_albifrons
+  with 2 files.
+
+----------
+Assemblies, pass 1: remember the latest assembly
+
+----------
+Assemblies, pass 2: import summaries
+
+----------
+Assemblies, pass 2: import metadata
+
+----------
+Genomic Data, accumulation
+  hifi_bam.2      <- species/Anser_albifrons/bAnsAlb1/genomic_data/pacbio_hifi/m84047_240717_102852_s4.ccs.bc2060.bam
+  hifi_bam.1      <- species/Anser_albifrons/bAnsAlb1/genomic_data/pacbio_hifi/m84047_240717_102852_s4.ccs.bc2060.bam.pbi
+
+----------
+Page Creation
+  Load summaries from species/Anser_albifrons/genomic_data.summary
+  Write to './genomeark.github.io/_genomeark/Anser_albifrons.md'
+
+
+----------------------------------------
 Processing species  Anser_anser
-  with 7 files.
+  with 13 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -2436,16 +2460,46 @@ species/Anser_anser/bAnsAns1/assembly_cambridge/bAnsAns1.hap2.asm.20240227.fasta
  - An assembly!   
  - Set hpb1 to 2024-02-27 (uncurated)
 
+species/Anser_anser/bAnsAns1/assembly_curated/bAnsAns1.hap1.cur.20240727.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpa1 to curated assembly 2024-07-27
+
+species/Anser_anser/bAnsAns1/assembly_curated/bAnsAns1.hap1.decon.20240727.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Anser_anser/bAnsAns1/assembly_curated/bAnsAns1.hap1.dup.20240727.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
+species/Anser_anser/bAnsAns1/assembly_curated/bAnsAns1.hap2.cur.20240727.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpb1 to curated assembly 2024-07-27
+
+species/Anser_anser/bAnsAns1/assembly_curated/bAnsAns1.hap2.decon.20240727.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Anser_anser/bAnsAns1/assembly_curated/bAnsAns1.hap2.dup.20240727.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
 ----------
 Assemblies, pass 2: import summaries
 Import 'species/Anser_anser/bAnsAns1/assembly_MT_cambridge/bAnsAns1.MT.20240227.fasta.ctg.summary'
 Import 'species/Anser_anser/bAnsAns1/assembly_MT_cambridge/bAnsAns1.MT.20240227.fasta.scf.summary'
-Import 'species/Anser_anser/bAnsAns1/assembly_cambridge/bAnsAns1.hap1.asm.20240227.fasta.ctg.summary'
-Import 'species/Anser_anser/bAnsAns1/assembly_cambridge/bAnsAns1.hap1.asm.20240227.fasta.scf.summary'
-      hpa1 (draft) -> species (draft)
-Import 'species/Anser_anser/bAnsAns1/assembly_cambridge/bAnsAns1.hap2.asm.20240227.fasta.ctg.summary'
-Import 'species/Anser_anser/bAnsAns1/assembly_cambridge/bAnsAns1.hap2.asm.20240227.fasta.scf.summary'
-      hpb1 (draft) -> species (draft)
+Import 'species/Anser_anser/bAnsAns1/assembly_curated/bAnsAns1.hap1.cur.20240727.fasta.ctg.summary'
+Import 'species/Anser_anser/bAnsAns1/assembly_curated/bAnsAns1.hap1.cur.20240727.fasta.scf.summary'
+      hpa1 (curated) -> species (curated)
+Import 'species/Anser_anser/bAnsAns1/assembly_curated/bAnsAns1.hap2.cur.20240727.fasta.ctg.summary'
+Import 'species/Anser_anser/bAnsAns1/assembly_curated/bAnsAns1.hap2.cur.20240727.fasta.scf.summary'
+      hpb1 (curated) -> species (curated)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -4423,7 +4477,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Aythya_ferina
-  with 11 files.
+  with 17 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -4440,16 +4494,46 @@ species/Aythya_ferina/bAytFer1/assembly_cambridge/bAytFer1.hap2.asm.20240227.fas
  - An assembly!   
  - Set hpb1 to 2024-02-27 (uncurated)
 
+species/Aythya_ferina/bAytFer1/assembly_curated/bAytFer1.hap1.cur.20240727.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpa1 to curated assembly 2024-07-27
+
+species/Aythya_ferina/bAytFer1/assembly_curated/bAytFer1.hap1.decon.20240727.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Aythya_ferina/bAytFer1/assembly_curated/bAytFer1.hap1.dup.20240727.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
+species/Aythya_ferina/bAytFer1/assembly_curated/bAytFer1.hap2.cur.20240727.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpb1 to curated assembly 2024-07-27
+
+species/Aythya_ferina/bAytFer1/assembly_curated/bAytFer1.hap2.decon.20240727.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Aythya_ferina/bAytFer1/assembly_curated/bAytFer1.hap2.dup.20240727.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
 ----------
 Assemblies, pass 2: import summaries
 Import 'species/Aythya_ferina/bAytFer1/assembly_MT_cambridge/bAytFer1.MT.20240227.fasta.ctg.summary'
 Import 'species/Aythya_ferina/bAytFer1/assembly_MT_cambridge/bAytFer1.MT.20240227.fasta.scf.summary'
-Import 'species/Aythya_ferina/bAytFer1/assembly_cambridge/bAytFer1.hap1.asm.20240227.fasta.ctg.summary'
-Import 'species/Aythya_ferina/bAytFer1/assembly_cambridge/bAytFer1.hap1.asm.20240227.fasta.scf.summary'
-      hpa1 (draft) -> species (draft)
-Import 'species/Aythya_ferina/bAytFer1/assembly_cambridge/bAytFer1.hap2.asm.20240227.fasta.ctg.summary'
-Import 'species/Aythya_ferina/bAytFer1/assembly_cambridge/bAytFer1.hap2.asm.20240227.fasta.scf.summary'
-      hpb1 (draft) -> species (draft)
+Import 'species/Aythya_ferina/bAytFer1/assembly_curated/bAytFer1.hap1.cur.20240727.fasta.ctg.summary'
+Import 'species/Aythya_ferina/bAytFer1/assembly_curated/bAytFer1.hap1.cur.20240727.fasta.scf.summary'
+      hpa1 (curated) -> species (curated)
+Import 'species/Aythya_ferina/bAytFer1/assembly_curated/bAytFer1.hap2.cur.20240727.fasta.ctg.summary'
+Import 'species/Aythya_ferina/bAytFer1/assembly_curated/bAytFer1.hap2.cur.20240727.fasta.scf.summary'
+      hpb1 (curated) -> species (curated)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -7273,7 +7357,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Calonectris_borealis
-  with 17 files.
+  with 23 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -7295,7 +7379,17 @@ species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap1.cur.2024062
  - Curated assembly!
  - Set hpa7 to curated assembly 2024-06-28
 
+species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap1.cur.20240711.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Update hpa7 to 2024-07-11 (curated)
+
 species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap1.decon.20240628.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap1.decon.20240711.fasta.gz
  - An assembly!   
  - Decontaminated assembly!
  - Ignore decontaminated assembly.
@@ -7305,12 +7399,27 @@ species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap1.dup.2024062
  - Duplicate contigs.
  - Ignore duplicate assembly.
 
+species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap1.dup.20240711.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
 species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap2.cur.20240628.fasta.gz
  - An assembly!   
  - Curated assembly!
  - Set hpb7 to curated assembly 2024-06-28
 
+species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap2.cur.20240711.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Update hpb7 to 2024-07-11 (curated)
+
 species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap2.decon.20240628.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap2.decon.20240711.fasta.gz
  - An assembly!   
  - Decontaminated assembly!
  - Ignore decontaminated assembly.
@@ -7320,15 +7429,20 @@ species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap2.dup.2024062
  - Duplicate contigs.
  - Ignore duplicate assembly.
 
+species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap2.dup.20240711.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
 ----------
 Assemblies, pass 2: import summaries
 Import 'species/Calonectris_borealis/bCalBor7/assembly_MT_cambridge/bCalBor7.MT.20240507.fasta.ctg.summary'
 Import 'species/Calonectris_borealis/bCalBor7/assembly_MT_cambridge/bCalBor7.MT.20240507.fasta.scf.summary'
-Import 'species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap1.cur.20240628.fasta.ctg.summary'
-Import 'species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap1.cur.20240628.fasta.scf.summary'
+Import 'species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap1.cur.20240711.fasta.ctg.summary'
+Import 'species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap1.cur.20240711.fasta.scf.summary'
       hpa7 (curated) -> species (curated)
-Import 'species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap2.cur.20240628.fasta.ctg.summary'
-Import 'species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap2.cur.20240628.fasta.scf.summary'
+Import 'species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap2.cur.20240711.fasta.ctg.summary'
+Import 'species/Calonectris_borealis/bCalBor7/assembly_curated/bCalBor7.hap2.cur.20240711.fasta.scf.summary'
       hpb7 (curated) -> species (curated)
 
 ----------
@@ -7805,7 +7919,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Camelus_dromedarius
-  with 44 files.
+  with 43 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -7873,7 +7987,6 @@ Genomic Data, accumulation
   hifi_clr.2      <- species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64055e_221202_183002.subreads.bam
   hifi_clr.1      <- species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64055e_221202_183002.subreads.bam.pbi
   hifi_bam.2      <- species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64055e_221202_183002.with_5mC.bam
-  hifi_bam.2      <- species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64055e_221216_140033.hifi_reads.bam
   hifi_fagz.2     <- species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221214_181813.bc1008--bc1008.hifi_reads.fastq.gz
   hifi_bam.2      <- species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221214_181813.demultiplex.bc1008--bc1008.bam
   hifi_bam.2      <- species/Camelus_dromedarius/mCamDro1/genomic_data/pacbio_hifi/m64330e_221214_181813.hifi_reads.bam
@@ -9137,6 +9250,30 @@ Page Creation
 
 
 ----------------------------------------
+Processing species  Charadrius_hiaticula
+  with 2 files.
+
+----------
+Assemblies, pass 1: remember the latest assembly
+
+----------
+Assemblies, pass 2: import summaries
+
+----------
+Assemblies, pass 2: import metadata
+
+----------
+Genomic Data, accumulation
+  arima.cram      <- species/Charadrius_hiaticula/bChaHia1/genomic_data/arima/bChaHia1_49210_3-4#4.cram
+  arima.cram      <- species/Charadrius_hiaticula/bChaHia1/genomic_data/arima/bChaHia1_49210_3-4#4.cram.crai
+
+----------
+Page Creation
+  Load summaries from species/Charadrius_hiaticula/genomic_data.summary
+  Write to './genomeark.github.io/_genomeark/Charadrius_hiaticula.md'
+
+
+----------------------------------------
 Processing species  Chasiempis_sclateri
   with 14 files.
 
@@ -10379,13 +10516,33 @@ Page Creation
 
 ----------------------------------------
 Processing species  Coloeus_monedula
-  with 2 files.
+  with 7 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
 
+species/Coloeus_monedula/bColMon1/assembly_MT_cambridge/bColMon1.MT.20240722.fasta.gz
+ - A mitochondrial assembly!
+ - Set mito1 to 2024-07-22 (uncurated)
+
+species/Coloeus_monedula/bColMon1/assembly_cambridge/bColMon1.hap1.asm.20240722.fasta.gz
+ - An assembly!   
+ - Set hpa1 to 2024-07-22 (uncurated)
+
+species/Coloeus_monedula/bColMon1/assembly_cambridge/bColMon1.hap2.asm.20240722.fasta.gz
+ - An assembly!   
+ - Set hpb1 to 2024-07-22 (uncurated)
+
 ----------
 Assemblies, pass 2: import summaries
+Import 'species/Coloeus_monedula/bColMon1/assembly_MT_cambridge/bColMon1.MT.20240722.fasta.ctg.summary'
+Import 'species/Coloeus_monedula/bColMon1/assembly_MT_cambridge/bColMon1.MT.20240722.fasta.scf.summary'
+Import 'species/Coloeus_monedula/bColMon1/assembly_cambridge/bColMon1.hap1.asm.20240722.fasta.ctg.summary'
+Import 'species/Coloeus_monedula/bColMon1/assembly_cambridge/bColMon1.hap1.asm.20240722.fasta.scf.summary'
+      hpa1 (draft) -> species (draft)
+Import 'species/Coloeus_monedula/bColMon1/assembly_cambridge/bColMon1.hap2.asm.20240722.fasta.ctg.summary'
+Import 'species/Coloeus_monedula/bColMon1/assembly_cambridge/bColMon1.hap2.asm.20240722.fasta.scf.summary'
+      hpb1 (draft) -> species (draft)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -10394,6 +10551,8 @@ Assemblies, pass 2: import metadata
 Genomic Data, accumulation
   arima.cram      <- species/Coloeus_monedula/bColMon1/genomic_data/arima/bColMon1_49135_5-6#7.cram
   arima.cram      <- species/Coloeus_monedula/bColMon1/genomic_data/arima/bColMon1_49135_5-6#7.cram.crai
+  hifi_bam.2      <- species/Coloeus_monedula/bColMon1/genomic_data/pacbio_hifi/m84098_240717_112746_s2.ccs.bc2008.bam
+  hifi_bam.1      <- species/Coloeus_monedula/bColMon1/genomic_data/pacbio_hifi/m84098_240717_112746_s2.ccs.bc2008.bam.pbi
 
 ----------
 Page Creation
@@ -11232,13 +11391,33 @@ Page Creation
 
 ----------------------------------------
 Processing species  Cyanistes_caeruleus
-  with 2 files.
+  with 7 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
 
+species/Cyanistes_caeruleus/bCyaCae1/assembly_MT_cambridge/bCyaCae1.MT.20240722.fasta.gz
+ - A mitochondrial assembly!
+ - Set mito1 to 2024-07-22 (uncurated)
+
+species/Cyanistes_caeruleus/bCyaCae1/assembly_cambridge/bCyaCae1.hap1.asm.20240722.fasta.gz
+ - An assembly!   
+ - Set hpa1 to 2024-07-22 (uncurated)
+
+species/Cyanistes_caeruleus/bCyaCae1/assembly_cambridge/bCyaCae1.hap2.asm.20240722.fasta.gz
+ - An assembly!   
+ - Set hpb1 to 2024-07-22 (uncurated)
+
 ----------
 Assemblies, pass 2: import summaries
+Import 'species/Cyanistes_caeruleus/bCyaCae1/assembly_MT_cambridge/bCyaCae1.MT.20240722.fasta.ctg.summary'
+Import 'species/Cyanistes_caeruleus/bCyaCae1/assembly_MT_cambridge/bCyaCae1.MT.20240722.fasta.scf.summary'
+Import 'species/Cyanistes_caeruleus/bCyaCae1/assembly_cambridge/bCyaCae1.hap1.asm.20240722.fasta.ctg.summary'
+Import 'species/Cyanistes_caeruleus/bCyaCae1/assembly_cambridge/bCyaCae1.hap1.asm.20240722.fasta.scf.summary'
+      hpa1 (draft) -> species (draft)
+Import 'species/Cyanistes_caeruleus/bCyaCae1/assembly_cambridge/bCyaCae1.hap2.asm.20240722.fasta.ctg.summary'
+Import 'species/Cyanistes_caeruleus/bCyaCae1/assembly_cambridge/bCyaCae1.hap2.asm.20240722.fasta.scf.summary'
+      hpb1 (draft) -> species (draft)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -11247,6 +11426,8 @@ Assemblies, pass 2: import metadata
 Genomic Data, accumulation
   arima.cram      <- species/Cyanistes_caeruleus/bCyaCae1/genomic_data/arima/bCyaCae1_49135_5-6#6.cram
   arima.cram      <- species/Cyanistes_caeruleus/bCyaCae1/genomic_data/arima/bCyaCae1_49135_5-6#6.cram.crai
+  hifi_bam.2      <- species/Cyanistes_caeruleus/bCyaCae1/genomic_data/pacbio_hifi/m84098_240717_105529_s1.ccs.bc2007.bam
+  hifi_bam.1      <- species/Cyanistes_caeruleus/bCyaCae1/genomic_data/pacbio_hifi/m84098_240717_105529_s1.ccs.bc2007.bam.pbi
 
 ----------
 Page Creation
@@ -13629,7 +13810,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Dromaius_novaehollandiae
-  with 17 files.
+  with 18 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -13702,6 +13883,7 @@ Genomic Data, accumulation
   arima.fastq     <- species/Dromaius_novaehollandiae/bDroNov1/genomic_data/arima/bDroNov1_L1_S3_R1_001.fastq.gz
   arima.fastq     <- species/Dromaius_novaehollandiae/bDroNov1/genomic_data/arima/bDroNov1_L1_S3_R2_001.fastq.gz
   hifi_fagz.2     <- species/Dromaius_novaehollandiae/bDroNov1/genomic_data/pacbio_hifi/m84091_230616_171051_s3.bc1011.hifi_reads.fastq.gz
+  hifi_bam.2      <- species/Dromaius_novaehollandiae/bDroNov1/genomic_data/pacbio_hifi/m84091_230616_171051_s3.hifi_reads.bc1011.bam
 
 ----------
 Page Creation
@@ -16392,7 +16574,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Falco_peregrinus
-  with 22 files.
+  with 24 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -16446,6 +16628,8 @@ Genomic Data, accumulation
   hifi_clr.1      <- species/Falco_peregrinus/bFalPer1/genomic_data/pacbio_hifi/m64055_201026_202245.subreads.bam.pbi
   arima.cram      <- species/Falco_peregrinus/bFalPer5/genomic_data/arima/bFalPer5_49135_5-6#5.cram
   arima.cram      <- species/Falco_peregrinus/bFalPer5/genomic_data/arima/bFalPer5_49135_5-6#5.cram.crai
+  hifi_bam.2      <- species/Falco_peregrinus/bFalPer5/genomic_data/pacbio_hifi/m84098_240717_102312_s4.ccs.bc2006.bam
+  hifi_bam.1      <- species/Falco_peregrinus/bFalPer5/genomic_data/pacbio_hifi/m84098_240717_102312_s4.ccs.bc2006.bam.pbi
 
 ----------
 Page Creation
@@ -21654,13 +21838,33 @@ Page Creation
 
 ----------------------------------------
 Processing species  Haematopus_ostralegus
-  with 2 files.
+  with 7 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
 
+species/Haematopus_ostralegus/bHaeOst1/assembly_MT_cambridge/bHaeOst1.MT.20240720.fasta.gz
+ - A mitochondrial assembly!
+ - Set mito1 to 2024-07-20 (uncurated)
+
+species/Haematopus_ostralegus/bHaeOst1/assembly_cambridge/bHaeOst1.hap1.asm.20240720.fasta.gz
+ - An assembly!   
+ - Set hpa1 to 2024-07-20 (uncurated)
+
+species/Haematopus_ostralegus/bHaeOst1/assembly_cambridge/bHaeOst1.hap2.asm.20240720.fasta.gz
+ - An assembly!   
+ - Set hpb1 to 2024-07-20 (uncurated)
+
 ----------
 Assemblies, pass 2: import summaries
+Import 'species/Haematopus_ostralegus/bHaeOst1/assembly_MT_cambridge/bHaeOst1.MT.20240720.fasta.ctg.summary'
+Import 'species/Haematopus_ostralegus/bHaeOst1/assembly_MT_cambridge/bHaeOst1.MT.20240720.fasta.scf.summary'
+Import 'species/Haematopus_ostralegus/bHaeOst1/assembly_cambridge/bHaeOst1.hap1.asm.20240720.fasta.ctg.summary'
+Import 'species/Haematopus_ostralegus/bHaeOst1/assembly_cambridge/bHaeOst1.hap1.asm.20240720.fasta.scf.summary'
+      hpa1 (draft) -> species (draft)
+Import 'species/Haematopus_ostralegus/bHaeOst1/assembly_cambridge/bHaeOst1.hap2.asm.20240720.fasta.ctg.summary'
+Import 'species/Haematopus_ostralegus/bHaeOst1/assembly_cambridge/bHaeOst1.hap2.asm.20240720.fasta.scf.summary'
+      hpb1 (draft) -> species (draft)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -21669,6 +21873,8 @@ Assemblies, pass 2: import metadata
 Genomic Data, accumulation
   arima.cram      <- species/Haematopus_ostralegus/bHaeOst1/genomic_data/arima/bHaeOst1_49135_5-6#4.cram
   arima.cram      <- species/Haematopus_ostralegus/bHaeOst1/genomic_data/arima/bHaeOst1_49135_5-6#4.cram.crai
+  hifi_bam.2      <- species/Haematopus_ostralegus/bHaeOst1/genomic_data/pacbio_hifi/m84047_240716_114805_s3.ccs.bc2005.bam
+  hifi_bam.1      <- species/Haematopus_ostralegus/bHaeOst1/genomic_data/pacbio_hifi/m84047_240716_114805_s3.ccs.bc2005.bam.pbi
 
 ----------
 Page Creation
@@ -24791,13 +24997,33 @@ Page Creation
 
 ----------------------------------------
 Processing species  Larus_glaucescens
-  with 4 files.
+  with 7 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
 
+species/Larus_glaucescens/bLarGla1/assembly_MT_cambridge/bLarGla1.MT.20240720.fasta.gz
+ - A mitochondrial assembly!
+ - Set mito1 to 2024-07-20 (uncurated)
+
+species/Larus_glaucescens/bLarGla1/assembly_cambridge/bLarGla1.hap1.asm.20240720.fasta.gz
+ - An assembly!   
+ - Set hpa1 to 2024-07-20 (uncurated)
+
+species/Larus_glaucescens/bLarGla1/assembly_cambridge/bLarGla1.hap2.asm.20240720.fasta.gz
+ - An assembly!   
+ - Set hpb1 to 2024-07-20 (uncurated)
+
 ----------
 Assemblies, pass 2: import summaries
+Import 'species/Larus_glaucescens/bLarGla1/assembly_MT_cambridge/bLarGla1.MT.20240720.fasta.ctg.summary'
+Import 'species/Larus_glaucescens/bLarGla1/assembly_MT_cambridge/bLarGla1.MT.20240720.fasta.scf.summary'
+Import 'species/Larus_glaucescens/bLarGla1/assembly_cambridge/bLarGla1.hap1.asm.20240720.fasta.ctg.summary'
+Import 'species/Larus_glaucescens/bLarGla1/assembly_cambridge/bLarGla1.hap1.asm.20240720.fasta.scf.summary'
+      hpa1 (draft) -> species (draft)
+Import 'species/Larus_glaucescens/bLarGla1/assembly_cambridge/bLarGla1.hap2.asm.20240720.fasta.ctg.summary'
+Import 'species/Larus_glaucescens/bLarGla1/assembly_cambridge/bLarGla1.hap2.asm.20240720.fasta.scf.summary'
+      hpb1 (draft) -> species (draft)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -24841,7 +25067,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Larus_hyperboreus
-  with 6 files.
+  with 10 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -24856,6 +25082,10 @@ Assemblies, pass 2: import metadata
 Genomic Data, accumulation
   arima.cram      <- species/Larus_hyperboreus/bLarHyp1/genomic_data/arima/bLarHyp1_48778_1-2#1.cram
   arima.cram      <- species/Larus_hyperboreus/bLarHyp1/genomic_data/arima/bLarHyp1_48778_1-2#1.cram.crai
+  hifi_bam.2      <- species/Larus_hyperboreus/bLarHyp1/genomic_data/pacbio_hifi/m84047_240718_115121_s2.ccs.bc2086.bam
+  hifi_bam.1      <- species/Larus_hyperboreus/bLarHyp1/genomic_data/pacbio_hifi/m84047_240718_115121_s2.ccs.bc2086.bam.pbi
+  hifi_bam.2      <- species/Larus_hyperboreus/bLarHyp1/genomic_data/pacbio_hifi/m84047_240718_122337_s3.ccs.bc2015.bam
+  hifi_bam.1      <- species/Larus_hyperboreus/bLarHyp1/genomic_data/pacbio_hifi/m84047_240718_122337_s3.ccs.bc2015.bam.pbi
   hifi_bam.2      <- species/Larus_hyperboreus/bLarHyp1/genomic_data/pacbio_hifi/m84093_240627_104212_s2.ccs.bc2015.bam
   hifi_bam.1      <- species/Larus_hyperboreus/bLarHyp1/genomic_data/pacbio_hifi/m84093_240627_104212_s2.ccs.bc2015.bam.pbi
   hifi_bam.2      <- species/Larus_hyperboreus/bLarHyp1/genomic_data/pacbio_hifi/m84098_240501_114254_s4.ccs.bc2086.bam
@@ -24914,7 +25144,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Larus_michahellis
-  with 11 files.
+  with 13 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -24931,15 +25161,25 @@ species/Larus_michahellis/bLarMic1/assembly_cambridge/bLarMic1.pri.asm.20240524.
  - An assembly!   
  - Set pri1 to 2024-05-24 (uncurated)
 
+species/Larus_michahellis/bLarMic1/assembly_curated/bLarMic1.alt.cur.20240712.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set alt1 to curated assembly 2024-07-12
+
+species/Larus_michahellis/bLarMic1/assembly_curated/bLarMic1.pri.cur.20240712.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set pri1 to curated assembly 2024-07-12
+
 ----------
 Assemblies, pass 2: import summaries
 Import 'species/Larus_michahellis/bLarMic1/assembly_MT_cambridge/bLarMic1.MT.20240524.fasta.ctg.summary'
 Import 'species/Larus_michahellis/bLarMic1/assembly_MT_cambridge/bLarMic1.MT.20240524.fasta.scf.summary'
-Import 'species/Larus_michahellis/bLarMic1/assembly_cambridge/bLarMic1.alt.asm.20240524.fasta.ctg.summary'
-Import 'species/Larus_michahellis/bLarMic1/assembly_cambridge/bLarMic1.alt.asm.20240524.fasta.scf.summary'
-Import 'species/Larus_michahellis/bLarMic1/assembly_cambridge/bLarMic1.pri.asm.20240524.fasta.ctg.summary'
-Import 'species/Larus_michahellis/bLarMic1/assembly_cambridge/bLarMic1.pri.asm.20240524.fasta.scf.summary'
-      pri1 (draft) -> species (draft)
+Import 'species/Larus_michahellis/bLarMic1/assembly_curated/bLarMic1.alt.cur.20240712.fasta.ctg.summary'
+Import 'species/Larus_michahellis/bLarMic1/assembly_curated/bLarMic1.alt.cur.20240712.fasta.scf.summary'
+Import 'species/Larus_michahellis/bLarMic1/assembly_curated/bLarMic1.pri.cur.20240712.fasta.ctg.summary'
+Import 'species/Larus_michahellis/bLarMic1/assembly_curated/bLarMic1.pri.cur.20240712.fasta.scf.summary'
+      pri1 (curated) -> species (curated)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -24963,13 +25203,33 @@ Page Creation
 
 ----------------------------------------
 Processing species  Larus_occidentalis
-  with 4 files.
+  with 7 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
 
+species/Larus_occidentalis/bLarOcc1/assembly_MT_cambridge/bLarOcc1.MT.20240720.fasta.gz
+ - A mitochondrial assembly!
+ - Set mito1 to 2024-07-20 (uncurated)
+
+species/Larus_occidentalis/bLarOcc1/assembly_cambridge/bLarOcc1.hap1.asm.20240720.fasta.gz
+ - An assembly!   
+ - Set hpa1 to 2024-07-20 (uncurated)
+
+species/Larus_occidentalis/bLarOcc1/assembly_cambridge/bLarOcc1.hap2.asm.20240720.fasta.gz
+ - An assembly!   
+ - Set hpb1 to 2024-07-20 (uncurated)
+
 ----------
 Assemblies, pass 2: import summaries
+Import 'species/Larus_occidentalis/bLarOcc1/assembly_MT_cambridge/bLarOcc1.MT.20240720.fasta.ctg.summary'
+Import 'species/Larus_occidentalis/bLarOcc1/assembly_MT_cambridge/bLarOcc1.MT.20240720.fasta.scf.summary'
+Import 'species/Larus_occidentalis/bLarOcc1/assembly_cambridge/bLarOcc1.hap1.asm.20240720.fasta.ctg.summary'
+Import 'species/Larus_occidentalis/bLarOcc1/assembly_cambridge/bLarOcc1.hap1.asm.20240720.fasta.scf.summary'
+      hpa1 (draft) -> species (draft)
+Import 'species/Larus_occidentalis/bLarOcc1/assembly_cambridge/bLarOcc1.hap2.asm.20240720.fasta.ctg.summary'
+Import 'species/Larus_occidentalis/bLarOcc1/assembly_cambridge/bLarOcc1.hap2.asm.20240720.fasta.scf.summary'
+      hpb1 (draft) -> species (draft)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -24989,7 +25249,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Lathamus_discolor
-  with 10 files.
+  with 14 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -25036,6 +25296,10 @@ Genomic Data, accumulation
   arima.fastq     <- species/Lathamus_discolor/bLatDis1/genomic_data/arima/bLatDis1_S8_L003_R2_001.fastq.gz
   bionano.cmap    <- species/Lathamus_discolor/bLatDis1/genomic_data/bionano/bLatDis1_Saphyr_DLE1_3708894.cmap
   hifi_fagz.2     <- species/Lathamus_discolor/bLatDis1/genomic_data/pacbio_hifi/m64055e_221206_091356.bc1002--bc1002.hifi_reads.fastq.gz
+  hifi_bam.2      <- species/Lathamus_discolor/bLatDis1/genomic_data/pacbio_hifi/m64055e_221206_091356.demultiplex.bc1002--bc1002.bam
+  hifi_bam.2      <- species/Lathamus_discolor/bLatDis1/genomic_data/pacbio_hifi/m64055e_221206_091356.hifi_reads.bam
+  hifi_clr.2      <- species/Lathamus_discolor/bLatDis1/genomic_data/pacbio_hifi/m64055e_221206_091356.subreads.bam
+  hifi_bam.2      <- species/Lathamus_discolor/bLatDis1/genomic_data/pacbio_hifi/m64055e_221206_091356.with_5mC.bam
 
 ----------
 Page Creation
@@ -27788,7 +28052,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Mergus_octosetaceus
-  with 18 files.
+  with 30 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -27864,8 +28128,20 @@ Genomic Data, accumulation
   arima.fastq     <- species/Mergus_octosetaceus/bMerOct1/genomic_data/arima/bMerOct1_1.fastq.gz
   arima.fastq     <- species/Mergus_octosetaceus/bMerOct1/genomic_data/arima/bMerOct1_2.fastq.gz
   hifi_fagz.2     <- species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m54306Ue_221202_135656.bc1002--bc1002.hifi_reads.fastq.gz
+  hifi_bam.2      <- species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m54306Ue_221202_135656.demultiplex.bc1002--bc1002.bam
+  hifi_bam.2      <- species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m54306Ue_221202_135656.hifi_reads.bam
+  hifi_clr.2      <- species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m54306Ue_221202_135656.subreads.bam
+  hifi_bam.2      <- species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m54306Ue_221202_135656.with_5mC.bam
   hifi_fagz.2     <- species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64055e_221120_063919.bc1002--bc1002.hifi_reads.fastq.gz
+  hifi_bam.2      <- species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64055e_221120_063919.demultiplex.bc1002--bc1002.bam
+  hifi_bam.2      <- species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64055e_221120_063919.hifi_reads.bam
+  hifi_clr.2      <- species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64055e_221120_063919.subreads.bam
+  hifi_bam.2      <- species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64055e_221120_063919.with_5mC.bam
   hifi_fagz.2     <- species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64334e_221217_140638.bc1002--bc1002.hifi_reads.fastq.gz
+  hifi_bam.2      <- species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64334e_221217_140638.demultiplex.bc1002--bc1002.bam
+  hifi_bam.2      <- species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64334e_221217_140638.hifi_reads.bam
+  hifi_clr.2      <- species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64334e_221217_140638.subreads.bam
+  hifi_bam.2      <- species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64334e_221217_140638.with_5mC.bam
 
 ----------
 Page Creation
@@ -28131,7 +28407,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Mesoplodon_mirus
-  with 2 files.
+  with 4 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -28144,6 +28420,8 @@ Assemblies, pass 2: import metadata
 
 ----------
 Genomic Data, accumulation
+  hifi_bam.2      <- species/Mesoplodon_mirus/mMesMir1/genomic_data/pacbio_hifi/m84047_240717_113325_s2.ccs.bc2062.bam
+  hifi_bam.1      <- species/Mesoplodon_mirus/mMesMir1/genomic_data/pacbio_hifi/m84047_240717_113325_s2.ccs.bc2062.bam.pbi
   hifi_bam.2      <- species/Mesoplodon_mirus/mMesMir1/genomic_data/pacbio_hifi/m84093_240514_112417_s1.ccs.bc2001.bam
   hifi_bam.1      <- species/Mesoplodon_mirus/mMesMir1/genomic_data/pacbio_hifi/m84093_240514_112417_s1.ccs.bc2001.bam.pbi
 
@@ -29662,7 +29940,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Mustela_nivalis
-  with 20 files.
+  with 22 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -29709,6 +29987,8 @@ Genomic Data, accumulation
   hifi_clr.2      <- species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m64330e_230623_164629.subreads.bam
   arima.cram      <- species/Mustela_nivalis/mMusNiv2/genomic_data/arima/mMusNiv2_48728_7-8#2.cram
   arima.cram      <- species/Mustela_nivalis/mMusNiv2/genomic_data/arima/mMusNiv2_48728_7-8#2.cram.crai
+  hifi_bam.2      <- species/Mustela_nivalis/mMusNiv2/genomic_data/pacbio_hifi/m84047_240716_101159_s4.ccs.bc2059.bam
+  hifi_bam.1      <- species/Mustela_nivalis/mMusNiv2/genomic_data/pacbio_hifi/m84047_240716_101159_s4.ccs.bc2059.bam.pbi
   hifi_bam.2      <- species/Mustela_nivalis/mMusNiv2/genomic_data/pacbio_hifi/m84093_240516_111513_s2.ccs.bc2096.bam
   hifi_bam.1      <- species/Mustela_nivalis/mMusNiv2/genomic_data/pacbio_hifi/m84093_240516_111513_s2.ccs.bc2096.bam.pbi
 
@@ -30124,7 +30404,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Myotis_nattereri
-  with 9 files.
+  with 11 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -30161,6 +30441,8 @@ Genomic Data, accumulation
   arima.cram      <- species/Myotis_nattereri/mMyoNat1/genomic_data/arima/mMyoNat1_48820_7-8#4.cram.crai
   hifi_bam.2      <- species/Myotis_nattereri/mMyoNat1/genomic_data/pacbio_hifi/m84047_240312_125900_s3.ccs.bc2068.bam
   hifi_bam.1      <- species/Myotis_nattereri/mMyoNat1/genomic_data/pacbio_hifi/m84047_240312_125900_s3.ccs.bc2068.bam.pbi
+  hifi_bam.2      <- species/Myotis_nattereri/mMyoNat1/genomic_data/pacbio_hifi/m84093_240719_102522_s1.ccs.bc2068.bam
+  hifi_bam.1      <- species/Myotis_nattereri/mMyoNat1/genomic_data/pacbio_hifi/m84093_240719_102522_s1.ccs.bc2068.bam.pbi
   hifi_bam.2      <- species/Myotis_nattereri/mMyoNat1/genomic_data/pacbio_hifi/m84098_240703_103826_s2.ccs.bc2068.bam
   hifi_bam.1      <- species/Myotis_nattereri/mMyoNat1/genomic_data/pacbio_hifi/m84098_240703_103826_s2.ccs.bc2068.bam.pbi
 
@@ -30722,7 +31004,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Natator_depressus
-  with 2 files.
+  with 4 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -30737,6 +31019,8 @@ Assemblies, pass 2: import metadata
 Genomic Data, accumulation
   arima.fastq     <- species/Natator_depressus/rNatDep1/genomic_data/arima/rNatDep1_L2_S3_R1_001.fastq.gz
   arima.fastq     <- species/Natator_depressus/rNatDep1/genomic_data/arima/rNatDep1_L2_S3_R2_001.fastq.gz
+  hifi_bam.2      <- species/Natator_depressus/rNatDep1/genomic_data/pacbio_hifi/m84091_240719_212833_s2.hifi_reads.bc1010.bam
+  hifi_fagz.2     <- species/Natator_depressus/rNatDep1/genomic_data/pacbio_hifi/m84091_240719_212833_s2.hifi_reads.bc1010.fastq.gz
 
 ----------
 Page Creation
@@ -36741,7 +37025,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Plecotus_austriacus
-  with 6 files.
+  with 8 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -36756,6 +37040,8 @@ Assemblies, pass 2: import metadata
 Genomic Data, accumulation
   arima.cram      <- species/Plecotus_austriacus/mPleAus1/genomic_data/arima/mPleAus1_47476_1#3.cram
   arima.cram      <- species/Plecotus_austriacus/mPleAus1/genomic_data/arima/mPleAus1_47476_1#3.cram.crai
+  hifi_bam.2      <- species/Plecotus_austriacus/mPleAus1/genomic_data/pacbio_hifi/m84047_240717_120542_s3.ccs.bc2063.bam
+  hifi_bam.1      <- species/Plecotus_austriacus/mPleAus1/genomic_data/pacbio_hifi/m84047_240717_120542_s3.ccs.bc2063.bam.pbi
   arima.cram      <- species/Plecotus_austriacus/mPleAus2/genomic_data/arima/mPleAus2_49015_5-6#2.cram
   arima.cram      <- species/Plecotus_austriacus/mPleAus2/genomic_data/arima/mPleAus2_49015_5-6#2.cram.crai
   hifi_bam.2      <- species/Plecotus_austriacus/mPleAus2/genomic_data/pacbio_hifi/m84098_240403_113429_s1.ccs.bc2086.bam
@@ -37031,7 +37317,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Podarcis_erhardii
-  with 4 files.
+  with 6 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -37046,6 +37332,8 @@ Assemblies, pass 2: import metadata
 Genomic Data, accumulation
   arima.cram      <- species/Podarcis_erhardii/rPodErh1/genomic_data/arima/rPodErh1_49015_1-2#1.cram
   arima.cram      <- species/Podarcis_erhardii/rPodErh1/genomic_data/arima/rPodErh1_49015_1-2#1.cram.crai
+  hifi_bam.2      <- species/Podarcis_erhardii/rPodErh1/genomic_data/pacbio_hifi/m84093_240719_112917_s3.ccs.bc2080.bam
+  hifi_bam.1      <- species/Podarcis_erhardii/rPodErh1/genomic_data/pacbio_hifi/m84093_240719_112917_s3.ccs.bc2080.bam.pbi
   hifi_bam.2      <- species/Podarcis_erhardii/rPodErh1/genomic_data/pacbio_hifi/m84098_240514_104810_s1.ccs.bc2080.bam
   hifi_bam.1      <- species/Podarcis_erhardii/rPodErh1/genomic_data/pacbio_hifi/m84098_240514_104810_s1.ccs.bc2080.bam.pbi
 
@@ -37638,7 +37926,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Podiceps_nigricollis
-  with 2 files.
+  with 4 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -37653,6 +37941,8 @@ Assemblies, pass 2: import metadata
 Genomic Data, accumulation
   arima.cram      <- species/Podiceps_nigricollis/bPodNig1/genomic_data/arima/bPodNig1_49135_5-6#3.cram
   arima.cram      <- species/Podiceps_nigricollis/bPodNig1/genomic_data/arima/bPodNig1_49135_5-6#3.cram.crai
+  hifi_bam.2      <- species/Podiceps_nigricollis/bPodNig1/genomic_data/pacbio_hifi/m84047_240717_110108_s1.ccs.bc2061.bam
+  hifi_bam.1      <- species/Podiceps_nigricollis/bPodNig1/genomic_data/pacbio_hifi/m84047_240717_110108_s1.ccs.bc2061.bam.pbi
 
 ----------
 Page Creation
@@ -38753,13 +39043,33 @@ Page Creation
 
 ----------------------------------------
 Processing species  Prochilodus_lineatus
-  with 6 files.
+  with 10 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
 
+species/Prochilodus_lineatus/fProLin1/assembly_MT_rockefeller/fProLin1.MT.20240715.fasta.gz
+ - A mitochondrial assembly!
+ - Set mito1 to 2024-07-15 (uncurated)
+
+species/Prochilodus_lineatus/fProLin1/assembly_vgp_HiC_2.0/fProLin1.HiC.hap1.20240713.fasta.gz
+ - An assembly!   
+ - Set hpa1 to 2024-07-13 (uncurated)
+
+species/Prochilodus_lineatus/fProLin1/assembly_vgp_HiC_2.0/fProLin1.HiC.hap2.20240713.fasta.gz
+ - An assembly!   
+ - Set hpb1 to 2024-07-13 (uncurated)
+
 ----------
 Assemblies, pass 2: import summaries
+Import 'species/Prochilodus_lineatus/fProLin1/assembly_MT_rockefeller/fProLin1.MT.20240715.fasta.ctg.summary'
+Import 'species/Prochilodus_lineatus/fProLin1/assembly_MT_rockefeller/fProLin1.MT.20240715.fasta.scf.summary'
+Import 'species/Prochilodus_lineatus/fProLin1/assembly_vgp_HiC_2.0/fProLin1.HiC.hap1.20240713.fasta.ctg.summary'
+Import 'species/Prochilodus_lineatus/fProLin1/assembly_vgp_HiC_2.0/fProLin1.HiC.hap1.20240713.fasta.scf.summary'
+      hpa1 (draft) -> species (draft)
+Import 'species/Prochilodus_lineatus/fProLin1/assembly_vgp_HiC_2.0/fProLin1.HiC.hap2.20240713.fasta.ctg.summary'
+Import 'species/Prochilodus_lineatus/fProLin1/assembly_vgp_HiC_2.0/fProLin1.HiC.hap2.20240713.fasta.scf.summary'
+      hpb1 (draft) -> species (draft)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -42786,10 +43096,15 @@ Page Creation
 
 ----------------------------------------
 Processing species  Sebastes_fasciatus
-  with 8 files.
+  with 9 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
+
+species/Sebastes_fasciatus/fSebFas1/assembly_curated/fSebFas1.pri.cur.20240726.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set pri1 to 2024-07-26 (curated)
 
 species/Sebastes_fasciatus/fSebFas1/assembly_vgp_standard_2.0/fSebFas1.standard.pri.20231115.fasta.gz
  - An assembly!   
@@ -42798,6 +43113,9 @@ species/Sebastes_fasciatus/fSebFas1/assembly_vgp_standard_2.0/fSebFas1.standard.
 
 ----------
 Assemblies, pass 2: import summaries
+Import 'species/Sebastes_fasciatus/fSebFas1/assembly_curated/fSebFas1.pri.cur.20240726.fasta.ctg.summary'
+Import 'species/Sebastes_fasciatus/fSebFas1/assembly_curated/fSebFas1.pri.cur.20240726.fasta.scf.summary'
+      pri1 (curated) -> species (curated)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -43274,13 +43592,33 @@ Page Creation
 
 ----------------------------------------
 Processing species  Spatula_clypeata
-  with 2 files.
+  with 7 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
 
+species/Spatula_clypeata/bSpaCly1/assembly_MT_cambridge/bSpaCly1.MT.20240720.fasta.gz
+ - A mitochondrial assembly!
+ - Set mito1 to 2024-07-20 (uncurated)
+
+species/Spatula_clypeata/bSpaCly1/assembly_cambridge/bSpaCly1.hap1.asm.20240720.fasta.gz
+ - An assembly!   
+ - Set hpa1 to 2024-07-20 (uncurated)
+
+species/Spatula_clypeata/bSpaCly1/assembly_cambridge/bSpaCly1.hap2.asm.20240720.fasta.gz
+ - An assembly!   
+ - Set hpb1 to 2024-07-20 (uncurated)
+
 ----------
 Assemblies, pass 2: import summaries
+Import 'species/Spatula_clypeata/bSpaCly1/assembly_MT_cambridge/bSpaCly1.MT.20240720.fasta.ctg.summary'
+Import 'species/Spatula_clypeata/bSpaCly1/assembly_MT_cambridge/bSpaCly1.MT.20240720.fasta.scf.summary'
+Import 'species/Spatula_clypeata/bSpaCly1/assembly_cambridge/bSpaCly1.hap1.asm.20240720.fasta.ctg.summary'
+Import 'species/Spatula_clypeata/bSpaCly1/assembly_cambridge/bSpaCly1.hap1.asm.20240720.fasta.scf.summary'
+      hpa1 (draft) -> species (draft)
+Import 'species/Spatula_clypeata/bSpaCly1/assembly_cambridge/bSpaCly1.hap2.asm.20240720.fasta.ctg.summary'
+Import 'species/Spatula_clypeata/bSpaCly1/assembly_cambridge/bSpaCly1.hap2.asm.20240720.fasta.scf.summary'
+      hpb1 (draft) -> species (draft)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -43289,6 +43627,8 @@ Assemblies, pass 2: import metadata
 Genomic Data, accumulation
   arima.cram      <- species/Spatula_clypeata/bSpaCly1/genomic_data/arima/bSpaCly1_49135_5-6#2.cram
   arima.cram      <- species/Spatula_clypeata/bSpaCly1/genomic_data/arima/bSpaCly1_49135_5-6#2.cram.crai
+  hifi_bam.2      <- species/Spatula_clypeata/bSpaCly1/genomic_data/pacbio_hifi/m84047_240716_111548_s2.ccs.bc2004.bam
+  hifi_bam.1      <- species/Spatula_clypeata/bSpaCly1/genomic_data/pacbio_hifi/m84047_240716_111548_s2.ccs.bc2004.bam.pbi
 
 ----------
 Page Creation
@@ -43782,13 +44122,33 @@ Page Creation
 
 ----------------------------------------
 Processing species  Spizella_passerina
-  with 7 files.
+  with 10 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
 
+species/Spizella_passerina/bSpiPas1/assembly_MT_rockefeller/bSpiPas1.MT.20240718.fasta.gz
+ - A mitochondrial assembly!
+ - Set mito1 to 2024-07-18 (uncurated)
+
+species/Spizella_passerina/bSpiPas1/assembly_vgp_HiC_2.0/bSpiPas1.HiC.hap1.20240716.fasta.gz
+ - An assembly!   
+ - Set hpa1 to 2024-07-16 (uncurated)
+
+species/Spizella_passerina/bSpiPas1/assembly_vgp_HiC_2.0/bSpiPas1.HiC.hap2.20240716.fasta.gz
+ - An assembly!   
+ - Set hpb1 to 2024-07-16 (uncurated)
+
 ----------
 Assemblies, pass 2: import summaries
+Import 'species/Spizella_passerina/bSpiPas1/assembly_MT_rockefeller/bSpiPas1.MT.20240718.fasta.ctg.summary'
+Import 'species/Spizella_passerina/bSpiPas1/assembly_MT_rockefeller/bSpiPas1.MT.20240718.fasta.scf.summary'
+Import 'species/Spizella_passerina/bSpiPas1/assembly_vgp_HiC_2.0/bSpiPas1.HiC.hap1.20240716.fasta.ctg.summary'
+Import 'species/Spizella_passerina/bSpiPas1/assembly_vgp_HiC_2.0/bSpiPas1.HiC.hap1.20240716.fasta.scf.summary'
+      hpa1 (draft) -> species (draft)
+Import 'species/Spizella_passerina/bSpiPas1/assembly_vgp_HiC_2.0/bSpiPas1.HiC.hap2.20240716.fasta.ctg.summary'
+Import 'species/Spizella_passerina/bSpiPas1/assembly_vgp_HiC_2.0/bSpiPas1.HiC.hap2.20240716.fasta.scf.summary'
+      hpb1 (draft) -> species (draft)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -45139,7 +45499,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Styela_clava
-  with 7 files.
+  with 13 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -45156,16 +45516,46 @@ species/Styela_clava/kaStyClav1/assembly_cambridge/kaStyClav1.hap2.asm.20240404.
  - An assembly!   
  - Set hpb1 to 2024-04-04 (uncurated)
 
+species/Styela_clava/kaStyClav1/assembly_curated/kaStyClav1.hap1.cur.20240724.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpa1 to curated assembly 2024-07-24
+
+species/Styela_clava/kaStyClav1/assembly_curated/kaStyClav1.hap1.decon.20240724.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Styela_clava/kaStyClav1/assembly_curated/kaStyClav1.hap1.dup.20240724.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
+species/Styela_clava/kaStyClav1/assembly_curated/kaStyClav1.hap2.cur.20240724.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpb1 to curated assembly 2024-07-24
+
+species/Styela_clava/kaStyClav1/assembly_curated/kaStyClav1.hap2.decon.20240724.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Styela_clava/kaStyClav1/assembly_curated/kaStyClav1.hap2.dup.20240724.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
 ----------
 Assemblies, pass 2: import summaries
 Import 'species/Styela_clava/kaStyClav1/assembly_MT_cambridge/kaStyClav1.MT.20240404.fasta.ctg.summary'
 Import 'species/Styela_clava/kaStyClav1/assembly_MT_cambridge/kaStyClav1.MT.20240404.fasta.scf.summary'
-Import 'species/Styela_clava/kaStyClav1/assembly_cambridge/kaStyClav1.hap1.asm.20240404.fasta.ctg.summary'
-Import 'species/Styela_clava/kaStyClav1/assembly_cambridge/kaStyClav1.hap1.asm.20240404.fasta.scf.summary'
-      hpa1 (draft) -> species (draft)
-Import 'species/Styela_clava/kaStyClav1/assembly_cambridge/kaStyClav1.hap2.asm.20240404.fasta.ctg.summary'
-Import 'species/Styela_clava/kaStyClav1/assembly_cambridge/kaStyClav1.hap2.asm.20240404.fasta.scf.summary'
-      hpb1 (draft) -> species (draft)
+Import 'species/Styela_clava/kaStyClav1/assembly_curated/kaStyClav1.hap1.cur.20240724.fasta.ctg.summary'
+Import 'species/Styela_clava/kaStyClav1/assembly_curated/kaStyClav1.hap1.cur.20240724.fasta.scf.summary'
+      hpa1 (curated) -> species (curated)
+Import 'species/Styela_clava/kaStyClav1/assembly_curated/kaStyClav1.hap2.cur.20240724.fasta.ctg.summary'
+Import 'species/Styela_clava/kaStyClav1/assembly_curated/kaStyClav1.hap2.cur.20240724.fasta.scf.summary'
+      hpb1 (curated) -> species (curated)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -48685,13 +49075,33 @@ Page Creation
 
 ----------------------------------------
 Processing species  Tringa_totanus
-  with 2 files.
+  with 7 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
 
+species/Tringa_totanus/bTriTot1/assembly_MT_cambridge/bTriTot1.MT.20240720.fasta.gz
+ - A mitochondrial assembly!
+ - Set mito1 to 2024-07-20 (uncurated)
+
+species/Tringa_totanus/bTriTot1/assembly_cambridge/bTriTot1.hap1.asm.20240720.fasta.gz
+ - An assembly!   
+ - Set hpa1 to 2024-07-20 (uncurated)
+
+species/Tringa_totanus/bTriTot1/assembly_cambridge/bTriTot1.hap2.asm.20240720.fasta.gz
+ - An assembly!   
+ - Set hpb1 to 2024-07-20 (uncurated)
+
 ----------
 Assemblies, pass 2: import summaries
+Import 'species/Tringa_totanus/bTriTot1/assembly_MT_cambridge/bTriTot1.MT.20240720.fasta.ctg.summary'
+Import 'species/Tringa_totanus/bTriTot1/assembly_MT_cambridge/bTriTot1.MT.20240720.fasta.scf.summary'
+Import 'species/Tringa_totanus/bTriTot1/assembly_cambridge/bTriTot1.hap1.asm.20240720.fasta.ctg.summary'
+Import 'species/Tringa_totanus/bTriTot1/assembly_cambridge/bTriTot1.hap1.asm.20240720.fasta.scf.summary'
+      hpa1 (draft) -> species (draft)
+Import 'species/Tringa_totanus/bTriTot1/assembly_cambridge/bTriTot1.hap2.asm.20240720.fasta.ctg.summary'
+Import 'species/Tringa_totanus/bTriTot1/assembly_cambridge/bTriTot1.hap2.asm.20240720.fasta.scf.summary'
+      hpb1 (draft) -> species (draft)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -48700,6 +49110,8 @@ Assemblies, pass 2: import metadata
 Genomic Data, accumulation
   arima.cram      <- species/Tringa_totanus/bTriTot1/genomic_data/arima/bTriTot1_49135_5-6#1.cram
   arima.cram      <- species/Tringa_totanus/bTriTot1/genomic_data/arima/bTriTot1_49135_5-6#1.cram.crai
+  hifi_bam.2      <- species/Tringa_totanus/bTriTot1/genomic_data/pacbio_hifi/m84047_240716_104331_s1.ccs.bc2003.bam
+  hifi_bam.1      <- species/Tringa_totanus/bTriTot1/genomic_data/pacbio_hifi/m84047_240716_104331_s1.ccs.bc2003.bam.pbi
 
 ----------
 Page Creation
@@ -49151,14 +49563,58 @@ Page Creation
 
 
 ----------------------------------------
-Processing species  Urocitellus_parryii
-  with 10 files.
+Processing species  Tyto_alba
+  with 2 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
 
 ----------
 Assemblies, pass 2: import summaries
+
+----------
+Assemblies, pass 2: import metadata
+
+----------
+Genomic Data, accumulation
+  arima.cram      <- species/Tyto_alba/bTytAlb2/genomic_data/arima/bTytAlb2_49210_3-4#3.cram
+  arima.cram      <- species/Tyto_alba/bTytAlb2/genomic_data/arima/bTytAlb2_49210_3-4#3.cram.crai
+
+----------
+Page Creation
+  Load summaries from species/Tyto_alba/genomic_data.summary
+  Write to './genomeark.github.io/_genomeark/Tyto_alba.md'
+
+
+----------------------------------------
+Processing species  Urocitellus_parryii
+  with 14 files.
+
+----------
+Assemblies, pass 1: remember the latest assembly
+
+species/Urocitellus_parryii/mUroPar1/assembly_MT_rockefeller/mUroPar1.MT.20240717.fasta.gz
+ - A mitochondrial assembly!
+ - Set mito1 to 2024-07-17 (uncurated)
+
+species/Urocitellus_parryii/mUroPar1/assembly_vgp_HiC_2.0/mUroPar1.HiC.hap1.20240517.fasta.gz
+ - An assembly!   
+ - Set hpa1 to 2024-05-17 (uncurated)
+
+species/Urocitellus_parryii/mUroPar1/assembly_vgp_HiC_2.0/mUroPar1.HiC.hap2.20240717.fasta.gz
+ - An assembly!   
+ - Set hpb1 to 2024-07-17 (uncurated)
+
+----------
+Assemblies, pass 2: import summaries
+Import 'species/Urocitellus_parryii/mUroPar1/assembly_MT_rockefeller/mUroPar1.MT.20240717.fasta.ctg.summary'
+Import 'species/Urocitellus_parryii/mUroPar1/assembly_MT_rockefeller/mUroPar1.MT.20240717.fasta.scf.summary'
+Import 'species/Urocitellus_parryii/mUroPar1/assembly_vgp_HiC_2.0/mUroPar1.HiC.hap1.20240517.fasta.ctg.summary'
+Import 'species/Urocitellus_parryii/mUroPar1/assembly_vgp_HiC_2.0/mUroPar1.HiC.hap1.20240517.fasta.scf.summary'
+      hpa1 (draft) -> species (draft)
+Import 'species/Urocitellus_parryii/mUroPar1/assembly_vgp_HiC_2.0/mUroPar1.HiC.hap2.20240717.fasta.ctg.summary'
+Import 'species/Urocitellus_parryii/mUroPar1/assembly_vgp_HiC_2.0/mUroPar1.HiC.hap2.20240717.fasta.scf.summary'
+      hpb1 (draft) -> species (draft)
 
 ----------
 Assemblies, pass 2: import metadata

@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bSpaCly1             20021364650               0      2147483648     70094326319       464200836  species/Spatula_clypeata/bSpaCly1/genomic_data/arima/bSpaCly1_49135_5-6#2.cram
+pacbiohifi_bam  bSpaCly1             25672980997               0      2147483648     66295814667         4228345  species/Spatula_clypeata/bSpaCly1/genomic_data/pacbio_hifi/m84047_240716_111548_s2.ccs.bc2004.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           bSpaCly1             20021364650               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bSpaCly1          3.5009     70092795503
+pacbiohifi_bam  bSpaCly1          2.5823     66295338828
 --------------- ---------------  ------- ---------------

@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bPodNig1             51651123802               0      2147483648    181991557717      1205242104  species/Podiceps_nigricollis/bPodNig1/genomic_data/arima/bPodNig1_49135_5-6#3.cram
+pacbiohifi_bam  bPodNig1             12117302059               0      2147483648     38769212771         6368005  species/Podiceps_nigricollis/bPodNig1/genomic_data/pacbio_hifi/m84047_240717_110108_s1.ccs.bc2061.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           bPodNig1             51651123802               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bPodNig1          3.5234    181987569603
+pacbiohifi_bam  bPodNig1          3.1994     38768096207
 --------------- ---------------  ------- ---------------

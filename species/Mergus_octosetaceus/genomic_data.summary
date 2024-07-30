@@ -5,8 +5,14 @@
 arima           bMerOct1             37011965642               0      2147483648     67474479006       446850871  species/Mergus_octosetaceus/bMerOct1/genomic_data/arima/bMerOct1_1.fastq.gz
 arima           bMerOct1             38427475762               0      2147483648     66928267101       443233556  species/Mergus_octosetaceus/bMerOct1/genomic_data/arima/bMerOct1_2.fastq.gz
 pacbiohifi_fqgz bMerOct1             19373468188               0      2147483648     24285168589         1429894  species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m54306Ue_221202_135656.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_clr  bMerOct1            931168443962               0      2147483648    497441559469        30881206  species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m54306Ue_221202_135656.subreads.bam
+pacbiohifi_bam  bMerOct1             93341310440               0      2147483648     25116158761         1484344  species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m54306Ue_221202_135656.with_5mC.bam
 pacbiohifi_fqgz bMerOct1             19734571183               0      2147483648     24971627973         1473767  species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64055e_221120_063919.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_bam  bMerOct1             91440091622               0      2147483648     24734402277         1468758  species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64055e_221120_063919.demultiplex.bc1002--bc1002.bam
+pacbiohifi_clr  bMerOct1            977086850923               0      2147483648    523840204848        32445900  species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64055e_221120_063919.subreads.bam
 pacbiohifi_fqgz bMerOct1              5565287574               0      2147483648      7514737632          449004  species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64334e_221217_140638.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_clr  bMerOct1            290086180429               0      2147483648    156272348140        10098588  species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64334e_221217_140638.subreads.bam
+pacbiohifi_bam  bMerOct1             28148774400               0      2147483648      7753937700          466545  species/Mergus_octosetaceus/bMerOct1/genomic_data/pacbio_hifi/m64334e_221217_140638.with_5mC.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,5 +20,7 @@ pacbiohifi_fqgz bMerOct1              5565287574               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bMerOct1          1.7681    133384476346
+pacbiohifi_bam  bMerOct1          0.2705    172932456436
+pacbiohifi_clr  bMerOct1          0.5356   1177431694178
 pacbiohifi_fqgz bMerOct1          1.2708     56770863881
 --------------- ---------------  ------- ---------------

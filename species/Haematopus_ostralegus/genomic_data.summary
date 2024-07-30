@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bHaeOst1             20393968491               0      2147483648     71312763659       472269958  species/Haematopus_ostralegus/bHaeOst1/genomic_data/arima/bHaeOst1_49135_5-6#4.cram
+pacbiohifi_bam  bHaeOst1             32885491289               0      2147483648     90469425306         6011544  species/Haematopus_ostralegus/bHaeOst1/genomic_data/pacbio_hifi/m84047_240716_114805_s3.ccs.bc2005.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           bHaeOst1             20393968491               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bHaeOst1          3.4967     71311589622
+pacbiohifi_bam  bHaeOst1          2.7510     90467986536
 --------------- ---------------  ------- ---------------

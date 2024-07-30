@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mMyoNat1             83800525575               0      2147483648    287962639287      1907037346  species/Myotis_nattereri/mMyoNat1/genomic_data/arima/mMyoNat1_48820_7-8#4.cram
 pacbiohifi_bam  mMyoNat1             16301015102               0      2147483648     47684606122         4614888  species/Myotis_nattereri/mMyoNat1/genomic_data/pacbio_hifi/m84047_240312_125900_s3.ccs.bc2068.bam
+pacbiohifi_bam  mMyoNat1             10964507165               0      2147483648     32983495174         2977850  species/Myotis_nattereri/mMyoNat1/genomic_data/pacbio_hifi/m84093_240719_102522_s1.ccs.bc2068.bam
 pacbiohifi_bam  mMyoNat1             10929528834               0      2147483648     33529676239         3066587  species/Myotis_nattereri/mMyoNat1/genomic_data/pacbio_hifi/m84098_240703_103826_s2.ccs.bc2068.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -12,5 +13,5 @@ pacbiohifi_bam  mMyoNat1             10929528834               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mMyoNat1          3.4362    287955365980
-pacbiohifi_bam  mMyoNat1          2.9610     80629640594
+pacbiohifi_bam  mMyoNat1          2.9898    114195563781
 --------------- ---------------  ------- ---------------

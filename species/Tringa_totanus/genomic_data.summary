@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bTriTot1             21522118374               0      2147483648     73819971912       488873986  species/Tringa_totanus/bTriTot1/genomic_data/arima/bTriTot1_49135_5-6#1.cram
+pacbiohifi_bam  bTriTot1             24078552647               0      2147483648     65296579888         4855674  species/Tringa_totanus/bTriTot1/genomic_data/pacbio_hifi/m84047_240716_104331_s1.ccs.bc2003.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           bTriTot1             21522118374               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bTriTot1          3.4299     73818713810
+pacbiohifi_bam  bTriTot1          2.7118     65296219068
 --------------- ---------------  ------- ---------------

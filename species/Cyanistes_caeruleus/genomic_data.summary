@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bCyaCae1             34689213644               0      2147483648    121299770332       803309737  species/Cyanistes_caeruleus/bCyaCae1/genomic_data/arima/bCyaCae1_49135_5-6#6.cram
+pacbiohifi_bam  bCyaCae1             33695285245               0      2147483648     89064462141         5765052  species/Cyanistes_caeruleus/bCyaCae1/genomic_data/pacbio_hifi/m84098_240717_105529_s1.ccs.bc2007.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           bCyaCae1             34689213644               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bCyaCae1          3.4967    121297773348
+pacbiohifi_bam  bCyaCae1          2.6432     89063377959
 --------------- ---------------  ------- ---------------

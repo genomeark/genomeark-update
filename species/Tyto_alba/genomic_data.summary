@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bTytAlb2             42764350942               0      2147483648    137659039809       911649270  species/Tyto_alba/bTytAlb2/genomic_data/arima/bTytAlb2_49210_3-4#3.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bTytAlb2          3.2190    137658445682
+--------------- ---------------  ------- ---------------

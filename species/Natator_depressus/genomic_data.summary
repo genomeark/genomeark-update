@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           rNatDep1             47499321456               0      2147483648     85905573308       568911103  species/Natator_depressus/rNatDep1/genomic_data/arima/rNatDep1_L2_S3_R1_001.fastq.gz
 arima           rNatDep1             50050204328               0      2147483648     86088233752       570120753  species/Natator_depressus/rNatDep1/genomic_data/arima/rNatDep1_L2_S3_R2_001.fastq.gz
+pacbiohifi_bam  rNatDep1            389744146264               0      2147483648     91411310614         4182227  species/Natator_depressus/rNatDep1/genomic_data/pacbio_hifi/m84091_240719_212833_s2.hifi_reads.bc1010.bam
+pacbiohifi_fqgz rNatDep1             52901153258               0      2147483648     89311735782         4077866  species/Natator_depressus/rNatDep1/genomic_data/pacbio_hifi/m84091_240719_212833_s2.hifi_reads.bc1010.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +13,6 @@ arima           rNatDep1             50050204328               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           rNatDep1          1.7485    170565345833
+pacbiohifi_bam  rNatDep1          0.2345     91395002298
+pacbiohifi_fqgz rNatDep1          1.6882     89307726930
 --------------- ---------------  ------- ---------------

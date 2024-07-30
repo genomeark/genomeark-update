@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bChaHia1             75928805593               0      2147483648    260432648812      1724719528  species/Charadrius_hiaticula/bChaHia1/genomic_data/arima/bChaHia1_49210_3-4#4.cram
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bChaHia1          3.4299    260428210303
+--------------- ---------------  ------- ---------------

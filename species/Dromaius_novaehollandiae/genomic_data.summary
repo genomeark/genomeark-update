@@ -6,6 +6,7 @@ arima           bDroNov1             18562312730               0      2147483648
 arima           bDroNov1             19997829160               0      2147483648     34987096915       231702637  species/Dromaius_novaehollandiae/bDroNov1/genomic_data/arima/bDroNov1_L1_S10_R2_001.fastq.gz
 arima           bDroNov1             11966181511               0      2147483648     21504031219       142410808  species/Dromaius_novaehollandiae/bDroNov1/genomic_data/arima/bDroNov1_L1_S3_R2_001.fastq.gz
 pacbiohifi_fqgz bDroNov1             34460164052               0      2147483648     72750246596         7462451  species/Dromaius_novaehollandiae/bDroNov1/genomic_data/pacbio_hifi/m84091_230616_171051_s3.bc1011.hifi_reads.fastq.gz
+pacbiohifi_bam  bDroNov1            320067646959               0      2147483648     73990075818         7582717  species/Dromaius_novaehollandiae/bDroNov1/genomic_data/pacbio_hifi/m84091_230616_171051_s3.hifi_reads.bc1011.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,5 +14,6 @@ pacbiohifi_fqgz bDroNov1             34460164052               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bDroNov1          1.8053    111820543586
+pacbiohifi_bam  bDroNov1          0.2311     73967633212
 pacbiohifi_fqgz bDroNov1          2.1111     72748852330
 --------------- ---------------  ------- ---------------

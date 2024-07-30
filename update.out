@@ -1,11 +1,9 @@
 [+] Loading git 2.45.2  ... 
-[-] Unloading Biowulf's aws v2.15.26 
 [+] Loading Biowulf's aws v2.15.26 
 [+] Loading htslib v1.20 
 [+] Loading samtools v1.20 
-[+] Loading edirect  21.3.20240124 
+[+] Loading edirect  22.4.20240723 
 Fetching list of files in s3://genomeark/species/.
 Filtering AWS filenames.
- Create genomeark-metadata/species/Diplotaxodon_limnothrissa.yaml.template (fDipLim)
 Scanning bucket.
 Updating pages.
