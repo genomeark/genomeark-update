@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bAytMar2             46636622646               0      2147483648    163765605116      1084540431  species/Aythya_marila/bAytMar2/genomic_data/arima/bAytMar2_49135_5-6#8.cram
+pacbiohifi_bam  bAytMar2             22141095974               0      2147483648     67236444210         7280800  species/Aythya_marila/bAytMar2/genomic_data/pacbio_hifi/m84047_240731_121737_s3.ccs.bc2009.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +11,5 @@ arima           bAytMar2             46636622646               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bAytMar2          3.5115    163764500421
+pacbiohifi_bam  bAytMar2          3.0367     67235866144
 --------------- ---------------  ------- ---------------

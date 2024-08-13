@@ -5,7 +5,12 @@
 arima           sHydCol1             41809082788               0      2147483648     83964817843       556058415  species/Hydrolagus_colliei/sHydCol1/genomic_data/arima/sHydCol1_L1_S6_R1_001.fastq.gz
 arima           sHydCol1             43883581385               0      2147483648     84606846581       560310262  species/Hydrolagus_colliei/sHydCol1/genomic_data/arima/sHydCol1_L1_S6_R2_001.fastq.gz
 pacbiohifi_fqgz sHydCol1             23117334319               0      2147483648     29261779602         1911933  species/Hydrolagus_colliei/sHydCol1/genomic_data/pacbio_hifi/m64055e_230326_131145.bc1020--bc1020.hifi_reads.fastq.gz
+pacbiohifi_bam  sHydCol1            111323773929               0      2147483648     29639601354         1955891  species/Hydrolagus_colliei/sHydCol1/genomic_data/pacbio_hifi/m64055e_230326_131145.demultiplex.bc1020--bc1020.bam
+pacbiohifi_bam  sHydCol1            114672653077               0      2147483648     31088841096         2052482  species/Hydrolagus_colliei/sHydCol1/genomic_data/pacbio_hifi/m64055e_230326_131145.hifi_reads.bam
+pacbiohifi_clr  sHydCol1           1200729008732               0      2147483648    638014070418        39820335  species/Hydrolagus_colliei/sHydCol1/genomic_data/pacbio_hifi/m64055e_230326_131145.subreads.bam
 pacbiohifi_fqgz sHydCol1             20835627503               0      2147483648     25514377701         1627849  species/Hydrolagus_colliei/sHydCol1/genomic_data/pacbio_hifi/m64334e_230407_184827.bc1020--bc1020.hifi_reads.fastq.gz
+pacbiohifi_bam  sHydCol1            100458961501               0      2147483648     27133053138         1754010  species/Hydrolagus_colliei/sHydCol1/genomic_data/pacbio_hifi/m64334e_230407_184827.hifi_reads.bam
+pacbiohifi_clr  sHydCol1           1162054965495               0      2147483648    620502182825        36105958  species/Hydrolagus_colliei/sHydCol1/genomic_data/pacbio_hifi/m64334e_230407_184827.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,5 +18,7 @@ pacbiohifi_fqgz sHydCol1             20835627503               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           sHydCol1          1.9538    167426327261
+pacbiohifi_bam  sHydCol1          0.2691    172566354508
+pacbiohifi_clr  sHydCol1          0.5322   1257473631083
 pacbiohifi_fqgz sHydCol1          1.2529     55068665866
 --------------- ---------------  ------- ---------------

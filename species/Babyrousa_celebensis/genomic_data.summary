@@ -4,6 +4,12 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mBabCel1             64051767158               0      2147483648    110571975005       732264764  species/Babyrousa_celebensis/mBabCel1/genomic_data/arima/mBabCel1_L1_S4_R1_001.fastq.gz
 arima           mBabCel1             65425508836               0      2147483648    110814380558       733870069  species/Babyrousa_celebensis/mBabCel1/genomic_data/arima/mBabCel1_L1_S4_R2_001.fastq.gz
+pacbiohifi_bam  mBabCel1            102101113284               0      2147483648     23878025418         3196133  species/Babyrousa_celebensis/mBabCel1/genomic_data/pacbio_hifi/m84091_240524_191803_s1.hifi_reads.bc1019.bam
+pacbiohifi_fqgz mBabCel1             11165715006               0      2147483648     24181137794         3241882  species/Babyrousa_celebensis/mBabCel1/genomic_data/pacbio_hifi/m84091_240524_191803_s1.hifi_reads.bc1019.fastq.gz
+pacbiohifi_bam  mBabCel1             64720280361               0      2147483648     15474011360         2080527  species/Babyrousa_celebensis/mBabCel1/genomic_data/pacbio_hifi/m84091_240614_180658_s2.hifi_reads.bc1019.bam
+pacbiohifi_fqgz mBabCel1              6645268446               0      2147483648     15565794501         2256818  species/Babyrousa_celebensis/mBabCel1/genomic_data/pacbio_hifi/m84091_240614_180658_s2.hifi_reads.bc1019.fastq.gz
+pacbiohifi_bam  mBabCel1            169604483889               0      2147483648     38121874302         5876849  species/Babyrousa_celebensis/mBabCel1/genomic_data/pacbio_hifi/m84091_240719_205727_s1.hifi_reads.bc1019.bam
+pacbiohifi_fqgz mBabCel1             18287512000               0      2147483648     37428420792         5790845  species/Babyrousa_celebensis/mBabCel1/genomic_data/pacbio_hifi/m84091_240719_205727_s1.hifi_reads.bc1019.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +17,6 @@ arima           mBabCel1             65425508836               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mBabCel1          1.7044    220681069204
+pacbiohifi_bam  mBabCel1          0.2302     77445237008
+pacbiohifi_fqgz mBabCel1          2.1379     77174973426
 --------------- ---------------  ------- ---------------

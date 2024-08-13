@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mNycLei1             36299608715               0      2147483648    108477067186       718391173  species/Nyctalus_leisleri/mNycLei1/genomic_data/arima/mNycLei1_49240_5#1.cram
 pacbiohifi_bam  mNycLei1             39649770139               0      2147483648     94874907762         6580305  species/Nyctalus_leisleri/mNycLei1/genomic_data/pacbio_hifi/m84098_240113_151749_s3.ccs.bc2045.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  mNycLei1             39649770139               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mNycLei1          2.9883    108474120723
 pacbiohifi_bam  mNycLei1          2.3928     94873969988
 --------------- ---------------  ------- ---------------

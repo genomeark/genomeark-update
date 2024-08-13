@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bLarGlu1             42814065539               0      2147483648    138210432209       915300875  species/Larus_glaucoides/bLarGlu1/genomic_data/arima/bLarGlu1_49240_6#2.cram
 pacbiohifi_bam  bLarGlu1             41276076007               0      2147483648     99466298396         5091767  species/Larus_glaucoides/bLarGlu1/genomic_data/pacbio_hifi/m84098_240522_102351_s1.ccs.bc2021.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  bLarGlu1             41276076007               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bLarGlu1          3.2281    138208084966
 pacbiohifi_bam  bLarGlu1          2.4097     99462960354
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,21 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  aManAur1             60049956117               0      2147483648     16007179316         2507940  species/Mantella_aurantiaca/aManAur1/genomic_data/pacbio_hifi/m54306Ue_230627_212121.demultiplex.bc1022--bc1022.bam
+pacbiohifi_bam  aManAur1             59739316180               0      2147483648     16337726199         2548321  species/Mantella_aurantiaca/aManAur1/genomic_data/pacbio_hifi/m54306Ue_230627_212121.hifi_reads.bam
+pacbiohifi_fqgz aManAur1             10916798609               0      2147483648     16311183977         2379681  species/Mantella_aurantiaca/aManAur1/genomic_data/pacbio_hifi/m54306Ue_230627_212121.hifi_reads.fastq.gz
+pacbiohifi_clr  aManAur1           1094730115506               0      2147483648    570564985940        84529101  species/Mantella_aurantiaca/aManAur1/genomic_data/pacbio_hifi/m54306Ue_230627_212121.subreads.bam
+pacbiohifi_bam  aManAur1             60539682629               0      2147483648     16335940214         2548775  species/Mantella_aurantiaca/aManAur1/genomic_data/pacbio_hifi/m54306Ue_230627_212121.with_5mC.bam
+pacbiohifi_fqgz aManAur1              4508628330               0      2147483648     10819677001         1603080  species/Mantella_aurantiaca/aManAur1/genomic_data/pacbio_hifi/m84091_230911_174817_s1.hifi_reads.bc1022.fastq.gz
+pacbiohifi_fqgz aManAur1             22904437474               0      2147483648     48361108300         7576674  species/Mantella_aurantiaca/aManAur1/genomic_data/pacbio_hifi/m84091_240227_213228_s4.hifi_reads.bc1022.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  aManAur1          0.2699    120537668281
+pacbiohifi_clr  aManAur1          0.5211    570463863190
+pacbiohifi_fqgz aManAur1          1.9695     75490667961
+--------------- ---------------  ------- ---------------

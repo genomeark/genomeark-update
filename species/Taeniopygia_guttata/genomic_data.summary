@@ -62,7 +62,9 @@ illumina        bTaeGut7             27499904374               0      2147483648
 illumina        bTaeGut7             28546890967               0      2147483648     57365213024       379902086  species/Taeniopygia_guttata/bTaeGut7/genomic_data/illumina/bTaeGut7-dna3_2.fastq.gz
 ont             bTaeGut7             20169245297               0      2147483648     20627411154         1121550  species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong_runs/bTaeGut7_PAK14222_07112023.cat.fastq.gz
 ont             bTaeGut7             15401940095               0      2147483648     15690443092         1010683  species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong_runs/bTaeGut7_PAK14832_04182023/bTaeGut7_PAK14832_04182023.cat.fastq.gz
+ont             bTaeGut7              4868280166               0      2147483648      5246890176           39447  species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong_runs/bTaeGut7_PAQ16685_20230802.cat.UL.fastq.gz
 ont             bTaeGut7             35256209391               0      2147483648     34671439292         2504465  species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong_runs/bTaeGut7_PAQ16685_20230802.cat.fastq.gz
+ont             bTaeGut7              9194573378               0      2147483648     10047462282           80287  species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong_runs/bTaeGut7_UL_jan2024_cat_UL.fastq.gz
 pacbiohifi_fqgz bTaeGut7             31529540122               0      2147483648     39504170483         2262201  species/Taeniopygia_guttata/bTaeGut7/genomic_data/pacbio_hifi/m54306Ue_230222_164948.bc1015--bc1015.hifi_reads.fastq.gz
 pacbiohifi_bam  bTaeGut7            145930145537               0      2147483648     39319318852         2247035  species/Taeniopygia_guttata/bTaeGut7/genomic_data/pacbio_hifi/m54306Ue_230222_164948.demultiplex.bc1015--bc1015.bam
 pacbiohifi_clr  bTaeGut7           1415313051339               0      2147483648    760474792955        43526068  species/Taeniopygia_guttata/bTaeGut7/genomic_data/pacbio_hifi/m54306Ue_230222_164948.subreads.bam
@@ -96,7 +98,7 @@ illumina        bTaeGut4          1.7409     68240259134
 illumina        bTaeGut7          2.0343    114015995762
 illumina        bTaeGut8          1.9593     50870198478
 illumina        bTaeGut9          1.9395     76249085520
-ont             bTaeGut7          1.0022    115218119266
+ont             bTaeGut7          1.0131    335739432970
 pacbio          bTaeGut1          0.2602    109724303514
 pacbio          bTaeGut2          0.5228    102056576361
 pacbio          bTaeGut6          0.5257    139762027973

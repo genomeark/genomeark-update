@@ -3,9 +3,12 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 bionano         mEscRob1              1180202799               0      1180202799    757193969627         5309693  species/Eschrichtius_robustus/mEscRob1/genomic_data/bionano/mEscRob1_Saphyr_DLE1_3680703
+pacbiohifi_clr  mEscRob2            167863863142               0      2147483648     67055371292         4582894  species/Eschrichtius_robustus/mEscRob2/genomic_data/pacbio_hifi/m54306Ue_220411_220734.reads.bam
 pacbiohifi_fqgz mEscRob2             15412364885               0      2147483648     19318074708         1339016  species/Eschrichtius_robustus/mEscRob2/genomic_data/pacbio_hifi/m54306Ue_220520_051743.demultiplex.bc1010--bc1010.hifi_reads.fastq.gz
 pacbiohifi_fqgz mEscRob2             20788893502               0      2147483648     26161358884         1778923  species/Eschrichtius_robustus/mEscRob2/genomic_data/pacbio_hifi/m64055e_220603_182128.demultiplex.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_clr  mEscRob2            208405406058               0      2147483648     81144836703         5114438  species/Eschrichtius_robustus/mEscRob2/genomic_data/pacbio_hifi/m64055e_220603_182128.reads.bam
 pacbiohifi_fqgz mEscRob2             17687060453               0      2147483648     20755463685         1284835  species/Eschrichtius_robustus/mEscRob2/genomic_data/pacbio_hifi/m64055e_220615_033108.demultiplex.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_clr  mEscRob2            183874758733               0      2147483648     73227743198         4563211  species/Eschrichtius_robustus/mEscRob2/genomic_data/pacbio_hifi/m64055e_220615_033108.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,5 +16,6 @@ pacbiohifi_fqgz mEscRob2             17687060453               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 bionano         mEscRob1         641.5795    757193969627
+pacbiohifi_clr  mEscRob2          0.3953    278909830936
 pacbiohifi_fqgz mEscRob2          1.2291     84986293595
 --------------- ---------------  ------- ---------------

@@ -3,7 +3,9 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           aHypRig1            112195072167               0      2147483648    215401306015      1426498767  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/arima/aHypRig1_S1_L001_R1_001.fastq.gz
+arima           aHypRig1             55147894885               0      2147483648    108388395357       717803968  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/arima/aHypRig1_S1_L001_R1_001_part2of2.fastq.gz
 arima           aHypRig1            116073892320               0      2147483648    214721886256      1421999246  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/arima/aHypRig1_S1_L001_R2_001.fastq.gz
+arima           aHypRig1             57144248091               0      2147483648    108271668250       717030942  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/arima/aHypRig1_S1_L001_R2_001_part2of2.fastq.gz
 pacbiohifi_fqgz aHypRig1             24837837565               0      2147483648     28937566905         1794710  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/pacbio_hifi/m64330e_220204_071710.hifi_reads.fastq.gz
 pacbiohifi_clr  aHypRig1            286260103586               0      2147483648    116040260786         5926395  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/pacbio_hifi/m64330e_220204_071710.reads.bam
 pacbiohifi_fqgz aHypRig1             22706376452               0      2147483648     27248961790         1666528  species/Hyperolius_riggenbachi/aHypRig1/genomic_data/pacbio_hifi/m64330e_220211_074141.hifi_reads.fastq.gz
@@ -19,7 +21,7 @@ pacbiohifi_fqgz aHypRig1             22618035938               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           aHypRig1          1.8726    427456462898
+arima           aHypRig1          1.9246    871558849214
 pacbiohifi_bam  aHypRig1          0.2276     46299005113
 pacbiohifi_clr  aHypRig1          0.3863    579379260270
 pacbiohifi_fqgz aHypRig1          1.1592    184608881494

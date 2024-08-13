@@ -5,7 +5,10 @@
 arima           fHopMal1             15521373245               0      2147483648     28819469212       190857412  species/Hoplias_malabaricus/fHopMal1/genomic_data/arima/fHopMal1_S5_L001_R1_001.fastq.gz
 arima           fHopMal1             16194148293               0      2147483648     28919929024       191522716  species/Hoplias_malabaricus/fHopMal1/genomic_data/arima/fHopMal1_S5_L001_R2_001.fastq.gz
 pacbiohifi_fqgz fHopMal1              6639597709               0      2147483648      8554323151          651486  species/Hoplias_malabaricus/fHopMal1/genomic_data/pacbio_hifi/m54306Ue_220630_175543.bc1019--bc1019.hifi_reads.fastq.gz
+pacbiohifi_bam  fHopMal1             34056231320               0      2147483648      9134176807          714734  species/Hoplias_malabaricus/fHopMal1/genomic_data/pacbio_hifi/m54306Ue_220714_161024.demultiplex.bc1019--bc1019.bam
+pacbiohifi_bam  fHopMal1             35088688541               0      2147483648      9588856967          749506  species/Hoplias_malabaricus/fHopMal1/genomic_data/pacbio_hifi/m54306Ue_220714_161024.hifi_reads.bam
 pacbiohifi_fqgz fHopMal1              7443058658               0      2147483648      9602502470          743881  species/Hoplias_malabaricus/fHopMal1/genomic_data/pacbio_hifi/m54306Ue_220714_161024.hifi_reads.fastq.gz
+pacbiohifi_clr  fHopMal1            410269927499               0      2147483648    217724308968        17618146  species/Hoplias_malabaricus/fHopMal1/genomic_data/pacbio_hifi/m54306Ue_220714_161024.subreads.bam
 pacbiohifi_fqgz fHopMal1              6074429067               0      2147483648      7909144041          602983  species/Hoplias_malabaricus/fHopMal1/genomic_data/pacbio_hifi/m64330e_220625_014336.bc1019--bc1019.hifi_reads.fastq.gz
 pacbiohifi_bam  fHopMal1             29374279778               0      2147483648      7882187637          604971  species/Hoplias_malabaricus/fHopMal1/genomic_data/pacbio_hifi/m64330e_220625_014336.hifi_reads.bc1019--bc1019.bam
 pacbiohifi_bam  fHopMal1             28390665950               0      2147483648      7609979235          562172  species/Hoplias_malabaricus/fHopMal1/genomic_data/pacbio_hifi/m64334e_220630_174922.hifi_reads.bc1019--bc1019.bam
@@ -16,6 +19,7 @@ pacbiohifi_bam  fHopMal1             28390665950               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fHopMal1          1.8088     57367035357
-pacbiohifi_bam  fHopMal1          0.2682     15492558444
+pacbiohifi_bam  fHopMal1          0.2700     52472643617
+pacbiohifi_clr  fHopMal1          0.5306    217689223530
 pacbiohifi_fqgz fHopMal1          1.2931     33639939796
 --------------- ---------------  ------- ---------------

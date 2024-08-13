@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fDipBim1             31660626959               0      2147483648    112089788594       742316480  species/Diplecogaster_bimaculata/fDipBim1/genomic_data/arima/fDipBim1_48907_7-8#6.cram
 pacbiohifi_bam  fDipBim1             11284206737               0      2147483648     34791156759         3334454  species/Diplecogaster_bimaculata/fDipBim1/genomic_data/pacbio_hifi/m84047_240510_110033_s2.ccs.bc2029.bam
+pacbiohifi_bam  fDipBim1              4981855725               0      2147483648     14718147107         1491243  species/Diplecogaster_bimaculata/fDipBim1/genomic_data/pacbio_hifi/m84093_240727_152609_s3.ccs.bc2029.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,5 +12,5 @@ pacbiohifi_bam  fDipBim1             11284206737               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fDipBim1          3.5403    112088117622
-pacbiohifi_bam  fDipBim1          3.0831     34790337790
+pacbiohifi_bam  fDipBim1          3.0598     49770897921
 --------------- ---------------  ------- ---------------

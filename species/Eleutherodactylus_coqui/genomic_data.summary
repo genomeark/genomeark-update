@@ -3,7 +3,9 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           aEleCoq1            147289308944               0      2147483648    292635383105      1937982738  species/Eleutherodactylus_coqui/aEleCoq1/genomic_data/arima/aEleCoq3_L1_S7_R1_001.fastq.gz
+arima           aEleCoq1             72258330022               0      2147483648    147352547703       975844720  species/Eleutherodactylus_coqui/aEleCoq1/genomic_data/arima/aEleCoq3_L1_S7_R1_001.part_002.fastq.gz
 arima           aEleCoq1            152905547348               0      2147483648    296075260276      1960763384  species/Eleutherodactylus_coqui/aEleCoq1/genomic_data/arima/aEleCoq3_L1_S7_R2_001.fastq.gz
+arima           aEleCoq1             75145126384               0      2147483648    148792591227       985381433  species/Eleutherodactylus_coqui/aEleCoq1/genomic_data/arima/aEleCoq3_L1_S7_R2_001.part_002.fastq.gz
 pacbiohifi_bam  aEleCoq1            100211956394               0      2147483648     27094466201         1844707  species/Eleutherodactylus_coqui/aEleCoq1/genomic_data/pacbio_hifi/m54306Ue_230217_145018.hifi_reads.bam
 pacbiohifi_fqgz aEleCoq1             20036106151               0      2147483648     25327951930         1692916  species/Eleutherodactylus_coqui/aEleCoq1/genomic_data/pacbio_hifi/m64330e_230203_190628.bc1010--bc1010.hifi_reads.fastq.gz
 pacbiohifi_clr  aEleCoq1           1072438997291               0      2147483648    571289882233        36685433  species/Eleutherodactylus_coqui/aEleCoq1/genomic_data/pacbio_hifi/m64330e_230203_190628.subreads.bam
@@ -24,7 +26,7 @@ pacbiohifi_fqgz aEleCoq3             19628801440               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           aEleCoq1          1.9527    586190495881
+arima           aEleCoq1          1.9979   1188753992503
 arima           aEleCoq3          1.9527    586190495881
 pacbiohifi_bam  aEleCoq1          0.2653    382342358119
 pacbiohifi_clr  aEleCoq1          0.5342   2806565227491

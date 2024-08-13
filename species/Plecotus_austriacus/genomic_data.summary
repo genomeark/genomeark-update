@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mPleAus1             90245403673               0      2147483648    276540904887      1831396721  species/Plecotus_austriacus/mPleAus1/genomic_data/arima/mPleAus1_47476_1#3.cram
 pacbiohifi_bam  mPleAus1             10626401542               0      2147483648     36360887484         5177766  species/Plecotus_austriacus/mPleAus1/genomic_data/pacbio_hifi/m84047_240717_120542_s3.ccs.bc2063.bam
+pacbiohifi_bam  mPleAus1              7953510083               0      2147483648     28048111348         3854046  species/Plecotus_austriacus/mPleAus1/genomic_data/pacbio_hifi/m84093_240802_152306_s4.ccs.bc2063.bam
 arima           mPleAus2             87789479318               0      2147483648    282039992186      1867814517  species/Plecotus_austriacus/mPleAus2/genomic_data/arima/mPleAus2_49015_5-6#2.cram
 pacbiohifi_bam  mPleAus2             22616023786               0      2147483648     63853439523         5527219  species/Plecotus_austriacus/mPleAus2/genomic_data/pacbio_hifi/m84098_240403_113429_s1.ccs.bc2086.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -14,6 +15,6 @@ pacbiohifi_bam  mPleAus2             22616023786               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           mPleAus1          3.0643    276538990475
 arima           mPleAus2          3.2126    282032481257
-pacbiohifi_bam  mPleAus1          3.4217     36360358156
+pacbiohifi_bam  mPleAus1          3.4502     64104411088
 pacbiohifi_bam  mPleAus2          2.8233     63851819955
 --------------- ---------------  ------- ---------------

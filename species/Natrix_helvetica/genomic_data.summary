@@ -3,6 +3,7 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           rNatHel1             75372104137               0      2147483648    251103496008      1662937059  species/Natrix_helvetica/rNatHel1/genomic_data/arima/rNatHel1_49015_1-2#3.cram
+arima           rNatHel1             56293728443               0      2147483648    172818729074      1144494894  species/Natrix_helvetica/rNatHel1/genomic_data/arima/rNatHel1_49280_7#5.cram
 pacbiohifi_bam  rNatHel1             22062154403               0      2147483648     66328845804         5883186  species/Natrix_helvetica/rNatHel1/genomic_data/pacbio_hifi/m84098_240522_105608_s2.ccs.bc2022.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -10,6 +11,6 @@ pacbiohifi_bam  rNatHel1             22062154403               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           rNatHel1          3.3315    251102164932
+arima           rNatHel1          3.2603    429270113960
 pacbiohifi_bam  rNatHel1          3.0064     66327660997
 --------------- ---------------  ------- ---------------

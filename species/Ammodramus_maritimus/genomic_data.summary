@@ -6,9 +6,11 @@ arima           bAmmMai1             37377571642               0      2147483648
 arima           bAmmMai1             38964498771               0      2147483648     71652086589       477680595  species/Ammodramus_maritimus/bAmmMai1/genomic_data/arima/bAmmMai1_Seaside_Sparrow_R2.fastq.gz
 bionano         bAmmMai1               841157849               0       841157849    517029698700         5379143  species/Ammodramus_maritimus/bAmmMai1/genomic_data/bionano/bAmmMai1_Saphyr_DLE1_3680734
 pacbiohifi_fqgz bAmmMai1              9648638294               0      2147483648     11139937437          652477  species/Ammodramus_maritimus/bAmmMai1/genomic_data/pacbio_hifi/m54306Ue_221204_091929.bc1003--bc1003.hifi_reads.fastq.gz
+pacbiohifi_bam  bAmmMai1             42491261017               0      2147483648     11153991304          668725  species/Ammodramus_maritimus/bAmmMai1/genomic_data/pacbio_hifi/m54306Ue_221204_091929.demultiplex.bc1003--bc1003.bam
 pacbiohifi_bam  bAmmMai1             43742461713               0      2147483648     11627294322          697114  species/Ammodramus_maritimus/bAmmMai1/genomic_data/pacbio_hifi/m54306Ue_221204_091929.hifi_reads.bam
 pacbiohifi_clr  bAmmMai1            525536832776               0      2147483648    278698434452        17432782  species/Ammodramus_maritimus/bAmmMai1/genomic_data/pacbio_hifi/m54306Ue_221204_091929.subreads.bam
 pacbiohifi_fqgz bAmmMai1             10328238950               0      2147483648     12506297548          709448  species/Ammodramus_maritimus/bAmmMai1/genomic_data/pacbio_hifi/m64330e_221120_045003.bc1003--bc1003.hifi_reads.fastq.gz
+pacbiohifi_bam  bAmmMai1             46321210398               0      2147483648     12464630052          721192  species/Ammodramus_maritimus/bAmmMai1/genomic_data/pacbio_hifi/m64330e_221120_045003.demultiplex.bc1003--bc1003.bam
 pacbiohifi_bam  bAmmMai1             47862298902               0      2147483648     13035936236          753432  species/Ammodramus_maritimus/bAmmMai1/genomic_data/pacbio_hifi/m64330e_221120_045003.hifi_reads.bam
 pacbiohifi_clr  bAmmMai1            599712774442               0      2147483648    320504751336        19243177  species/Ammodramus_maritimus/bAmmMai1/genomic_data/pacbio_hifi/m64330e_221120_045003.subreads.bam
 pacbiohifi_fqgz bAmmMai1              9291334117               0      2147483648     11037351006          635346  species/Ammodramus_maritimus/bAmmMai1/genomic_data/pacbio_hifi/m64334e_221221_061915.bc1003--bc1003.hifi_reads.fastq.gz
@@ -22,7 +24,7 @@ pacbiohifi_clr  bAmmMai1            528056703988               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           bAmmMai1          1.8545    141576369580
 bionano         bAmmMai1         614.6642    517029698700
-pacbiohifi_bam  bAmmMai1          0.2691     41222442200
+pacbiohifi_bam  bAmmMai1          0.2658    111245813862
 pacbiohifi_clr  bAmmMai1          0.5322    968308984949
 pacbiohifi_fqgz bAmmMai1          1.1850     39447639276
 --------------- ---------------  ------- ---------------
