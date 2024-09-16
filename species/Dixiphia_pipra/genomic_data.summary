@@ -4,9 +4,14 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bDixPip1             25133783194               0      2147483648     46110432928       305367105  species/Dixiphia_pipra/bDixPip1/genomic_data/arima/bDixPip1_1.fastq.gz
 arima           bDixPip1             26435179997               0      2147483648     45504248204       301352649  species/Dixiphia_pipra/bDixPip1/genomic_data/arima/bDixPip1_2.fastq.gz
+pacbiohifi_bam  bDixPip1             80840671639               0      2147483648     21985745952         1382376  species/Dixiphia_pipra/bDixPip1/genomic_data/pacbio_hifi/m54306Ue_220703_141129.hifi_reads.bc1020--bc1020.bam
 pacbiohifi_fqgz bDixPip1             17619179963               0      2147483648     21810339650         1354837  species/Dixiphia_pipra/bDixPip1/genomic_data/pacbio_hifi/m54306Ue_220703_141129.hifi_reads.fastq.gz
 pacbiohifi_fqgz bDixPip1             11959187249               0      2147483648     15246546894         1001126  species/Dixiphia_pipra/bDixPip1/genomic_data/pacbio_hifi/m54306Ue_220711_194042.demultiplex.bc1020--bc1020.hifi_reads.fastq.gz
+pacbiohifi_bam  bDixPip1             18407048412               0      2147483648     24947568990         1666486  species/Dixiphia_pipra/bDixPip1/genomic_data/pacbio_hifi/m54306Ue_220711_194042.hifi_reads.bam
+pacbiohifi_clr  bDixPip1            816105987213               0      2147483648    437610794066        31146033  species/Dixiphia_pipra/bDixPip1/genomic_data/pacbio_hifi/m54306Ue_220711_194042.subreads.bam
+pacbiohifi_bam  bDixPip1             35750949945               0      2147483648      9803835457         1191185  species/Dixiphia_pipra/bDixPip1/genomic_data/pacbio_hifi/m64330e_220428_055750.demultiplex.bc1012--bc1012.bam
 pacbiohifi_fqgz bDixPip1              8071545899               0      2147483648     10999225204         1261632  species/Dixiphia_pipra/bDixPip1/genomic_data/pacbio_hifi/m64330e_220428_055750.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
+pacbiohifi_clr  bDixPip1            206784195949               0      2147483648     97480296066         5341283  species/Dixiphia_pipra/bDixPip1/genomic_data/pacbio_hifi/m64330e_220428_055750.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,5 +19,7 @@ pacbiohifi_fqgz bDixPip1              8071545899               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bDixPip1          1.7578     90647923497
+pacbiohifi_bam  bDixPip1          0.4202    100016876446
+pacbiohifi_clr  bDixPip1          0.5289    541006617874
 pacbiohifi_fqgz bDixPip1          1.2763     57216992471
 --------------- ---------------  ------- ---------------

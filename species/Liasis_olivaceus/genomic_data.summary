@@ -6,9 +6,15 @@ arima           rLiaOli1             43556551496               0      2147483648
 arima           rLiaOli1             45363612890               0      2147483648     86344110803       571815303  species/Liasis_olivaceus/rLiaOli1/genomic_data/arima/rLiaOli1_2.fastq.gz
 bionano         rLiaOli1              2234563106               0      2234563106   1147506509298        11592188  species/Liasis_olivaceus/rLiaOli1/genomic_data/bionano/rLiaOli1_Saphyr_DLE-1_3699664
 ont             rLiaOli1             35728958529               0      2147483648     40223009951          276666  species/Liasis_olivaceus/rLiaOli1/genomic_data/ont/rLiaOli1_all_runs_100kb.fastq.gz
+pacbiohifi_bam  rLiaOli1             89969483666               0      2147483648     23934965673         1472368  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220214_035318.demultiplex.bc1012--bc1012.bam
 pacbiohifi_fqgz rLiaOli1             21118232414               0      2147483648     24202950491         1486498  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220214_035318.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
+pacbiohifi_clr  rLiaOli1            236803628768               0      2147483648     90742949861         4999654  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220214_035318.reads.bam
+pacbiohifi_bam  rLiaOli1             35131158164               0      2147483648      9577493324          591533  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220331_182813.demultiplex.bc1012--bc1012.bam
 pacbiohifi_fqgz rLiaOli1              7755725709               0      2147483648      9588054317          589894  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220331_182813.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
+pacbiohifi_clr  rLiaOli1            165649099010               0      2147483648     61246057760         3640142  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220331_182813.reads.bam
+pacbiohifi_bam  rLiaOli1             83325153942               0      2147483648     22309169103         1374186  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m64330e_220220_062027.demultiplex.bc1012--bc1012.bam
 pacbiohifi_fqgz rLiaOli1             19087406747               0      2147483648     22289652477         1373023  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m64330e_220220_062027.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
+pacbiohifi_clr  rLiaOli1            192958066424               0      2147483648     73934682727         4189850  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m64330e_220220_062027.reads.bam
 arima           rLiaOli2             13273633227               0      2147483648     26511551486       175573194  species/Liasis_olivaceus/rLiaOli2/genomic_data/arima/rLiaOli2_L1_S7_R1_001.fastq.gz
 arima           rLiaOli2             13862441985               0      2147483648     26855519221       177851127  species/Liasis_olivaceus/rLiaOli2/genomic_data/arima/rLiaOli2_L1_S7_R2_001.fastq.gz
 arima           rLiaOli2             40943593636               0      2147483648     82903482802       549029706  species/Liasis_olivaceus/rLiaOli2/genomic_data/arima/rLiaOli2_L1_S9_R1_001.fastq.gz
@@ -27,7 +33,9 @@ arima           rLiaOli1          1.9173    170486631177
 arima           rLiaOli2          1.9969    219663424107
 bionano         rLiaOli1         513.5261   1147506509298
 ont             rLiaOli1          1.1257     40220088616
+pacbiohifi_bam  rLiaOli1          0.2678     55816428107
 pacbiohifi_bam  rLiaOli2          1.8111    449038609739
+pacbiohifi_clr  rLiaOli1          0.3794    225898855320
 pacbiohifi_clr  rLiaOli2          0.5351    450021251975
 pacbiohifi_fqgz rLiaOli1          1.1692     56076427806
 pacbiohifi_fqgz rLiaOli2          1.6808     83380772897

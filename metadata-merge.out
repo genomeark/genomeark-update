@@ -1,9 +1,6 @@
-Updating 63c9aa9..f81fdc0
+Updating bff42ad..145a013
 Fast-forward
- species/Anser_albifrons.yaml      | 17 +++++++++++++++++
- species/Charadrius_hiaticula.yaml | 17 +++++++++++++++++
- species/Tyto_alba.yaml            | 17 +++++++++++++++++
- 3 files changed, 51 insertions(+)
- create mode 100644 species/Anser_albifrons.yaml
- create mode 100644 species/Charadrius_hiaticula.yaml
- create mode 100644 species/Tyto_alba.yaml
+ species/Cinclus_cinclus.yaml   |  2 +-
+ species/Nycteris_thebaica.yaml | 15 ---------------
+ 2 files changed, 1 insertion(+), 16 deletions(-)
+ delete mode 100644 species/Nycteris_thebaica.yaml

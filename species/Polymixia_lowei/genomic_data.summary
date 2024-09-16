@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fPolLow2            182269694977               0      2147483648     51971228771         3334096  species/Polymixia_lowei/fPolLow2/genomic_data/pacbio_hifi/m84203_240809_230322_s2.hifi_reads.bc1020.bam
+pacbiohifi_fqgz fPolLow2             25583156655               0      2147483648     51911300397         3646821  species/Polymixia_lowei/fPolLow2/genomic_data/pacbio_hifi/m84203_240809_230322_s2.hifi_reads.bc1020.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fPolLow2          0.2851     51965090037
+pacbiohifi_fqgz fPolLow2          2.0291     51910783168
+--------------- ---------------  ------- ---------------

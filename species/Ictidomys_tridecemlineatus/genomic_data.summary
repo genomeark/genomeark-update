@@ -6,6 +6,10 @@ arima           mIctTri1            122459921650               0      2147483648
 arima           mIctTri1            129150364300               0      2147483648    227655792738      1507654256  species/Ictidomys_tridecemlineatus/mIctTri1/genomic_data/arima/mIctTri1_L1_S1_R2_001.fastq.gz
 arima           mIctTri1             25620836795               0      2147483648     47469059550       314364632  species/Ictidomys_tridecemlineatus/mIctTri1/genomic_data/arima/mIctTri1_L1_S5_R1_001.fastq.gz
 arima           mIctTri1             26553666382               0      2147483648     47609230872       315292919  species/Ictidomys_tridecemlineatus/mIctTri1/genomic_data/arima/mIctTri1_L1_S5_R2_001.fastq.gz
+pacbiohifi_bam  mIctTri1            245644273509               0      2147483648     55321655805         5476164  species/Ictidomys_tridecemlineatus/mIctTri1/genomic_data/pacbio_hifi/m84091_240222_210806_s1.hifi_reads.bc1016.bam
+pacbiohifi_fqgz mIctTri1             29720791959               0      2147483648     55076377306         5452087  species/Ictidomys_tridecemlineatus/mIctTri1/genomic_data/pacbio_hifi/m84091_240222_210806_s1.hifi_reads.bc1016.fastq.gz
+pacbiohifi_bam  mIctTri1            139238255475               0      2147483648     40164696863         3140032  species/Ictidomys_tridecemlineatus/mIctTri1/genomic_data/pacbio_hifi/m84203_240809_170524_s3.hifi_reads.bc1016.bam
+pacbiohifi_fqgz mIctTri1             18592499049               0      2147483648     38978712110         3543276  species/Ictidomys_tridecemlineatus/mIctTri1/genomic_data/pacbio_hifi/m84203_240809_170524_s3.hifi_reads.bc1016.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,4 +17,6 @@ arima           mIctTri1             26553666382               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mIctTri1          1.8036    547906245669
+pacbiohifi_bam  mIctTri1          0.2391     92025412680
+pacbiohifi_fqgz mIctTri1          1.9111     92331530445
 --------------- ---------------  ------- ---------------

@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mHalGry1            109480696770               0      2147483648    404844076023      2681086596  species/Halichoerus_grypus/mHalGry1/genomic_data/arima/mHalGry1_49110_3-4#1.cram
 pacbiohifi_bam  mHalGry1             16155949620               0      2147483648     42616119508         2542247  species/Halichoerus_grypus/mHalGry1/genomic_data/pacbio_hifi/m84047_240531_150756_s4.ccs.bc2053.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  mHalGry1             16155949620               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mHalGry1          3.6978    404837720516
 pacbiohifi_bam  mHalGry1          2.6377     42614548312
 --------------- ---------------  ------- ---------------

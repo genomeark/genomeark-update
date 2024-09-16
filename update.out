@@ -5,5 +5,11 @@
 [+] Loading edirect  22.4.20240723 
 Fetching list of files in s3://genomeark/species/.
 Filtering AWS filenames.
+ Create genomeark-metadata/species/Bradypodion_pumilum.yaml.template (rBraPum)
+ Create genomeark-metadata/species/Drosophila_melanogaster.yaml.template (idDroMela)
+ Create genomeark-metadata/species/Pempheris_schomburgkii.yaml.template (fPemSco)
+ Create genomeark-metadata/species/Peponocephala_electra.yaml.template (mPepEle)
+ Create genomeark-metadata/species/Polymixia_lowei.yaml.template (fPolLow)
+ Create genomeark-metadata/species/Stylephorus_chordatus.yaml.template (fStyCho)
 Scanning bucket.
 Updating pages.

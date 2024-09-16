@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fStyCho2            159754038553               0      2147483648     44902595500         4104538  species/Stylephorus_chordatus/fStyCho2/genomic_data/pacbio_hifi/m84203_240811_025710_s3.hifi_reads.bc1018.bam
+pacbiohifi_fqgz fStyCho2             20709391279               0      2147483648     42712972786         4745047  species/Stylephorus_chordatus/fStyCho2/genomic_data/pacbio_hifi/m84203_240811_025710_s3.hifi_reads.bc1018.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fStyCho2          0.2810     44890884833
+pacbiohifi_fqgz fStyCho2          2.0624     42711048573
+--------------- ---------------  ------- ---------------

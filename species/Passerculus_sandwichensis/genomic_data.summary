@@ -19,6 +19,7 @@ pacbiohifi_fqgz bPasSan2              2525549595               0      2147483648
 pacbiohifi_bam  bPasSan2             16252023915               0     16252023915      4458540376          307735  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64330e_211024_014106.hifi_reads.bam
 pacbiohifi_fqgz bPasSan2              3508539154               0      3508539154      4458540376          307735  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64330e_211024_014106.hifi_reads.fastq.gz
 pacbiohifi_clr  bPasSan2            100062403347               0      2147483648     46692471222         3664618  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64330e_211024_014106.reads.bam
+pacbiohifi_bam  bPasSan2             28022686610               0      2147483648      7680748102          798799  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64330e_220426_190344.demultiplex.bc1003--bc1003.bam
 pacbiohifi_fqgz bPasSan2              5662729541               0      2147483648      7772925103          787981  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64330e_220426_190344.hifi_reads.fastq.gz
 pacbiohifi_clr  bPasSan2            170639240266               0      2147483648     81835191645         4645951  species/Passerculus_sandwichensis/bPasSan2/genomic_data/pacbio_hifi/m64330e_220426_190344.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -31,7 +32,7 @@ arima           bPasSan1          1.9160    147818247451
 arima           bPasSan2          1.9160    147818247451
 bionano         bPasSan1         588.5017    447082834941
 bionano         bPasSan2         588.5017    447082834941
-pacbiohifi_bam  bPasSan2          0.2705     48559889229
+pacbiohifi_bam  bPasSan2          0.2710     56243796800
 pacbiohifi_clr  bPasSan2          0.5262    843926253962
 pacbiohifi_fqgz bPasSan1          1.2210     54579979164
 pacbiohifi_fqgz bPasSan2          1.2210     54579979164

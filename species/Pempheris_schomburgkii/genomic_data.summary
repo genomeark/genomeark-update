@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fPemSco2            178792055790               0      2147483648     50457086789         3466719  species/Pempheris_schomburgkii/fPemSco2/genomic_data/pacbio_hifi/m84203_240811_065601_s1.hifi_reads.bc1019.bam
+pacbiohifi_fqgz fPemSco2             24476106946               0      2147483648     49729265767         3647748  species/Pempheris_schomburgkii/fPemSco2/genomic_data/pacbio_hifi/m84203_240811_065601_s1.hifi_reads.bc1019.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fPemSco2          0.2822     50455118143
+pacbiohifi_fqgz fPemSco2          2.0317     49728106482
+--------------- ---------------  ------- ---------------

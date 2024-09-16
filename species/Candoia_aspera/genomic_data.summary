@@ -5,8 +5,14 @@
 arima           rCanAsp1             34010972764               0      2147483648     62771513599       415705403  species/Candoia_aspera/rCanAsp1/genomic_data/arima/rCanAsp1_1.fastq.gz
 arima           rCanAsp1             35492889573               0      2147483648     62978031399       417073072  species/Candoia_aspera/rCanAsp1/genomic_data/arima/rCanAsp1_2.fastq.gz
 pacbiohifi_fqgz rCanAsp1             11523080848               0      2147483648     14645032024         1038587  species/Candoia_aspera/rCanAsp1/genomic_data/pacbio_hifi/m54306Ue_220615_032330.bc1017--bc1017.hifi_reads.fastq.gz
+pacbiohifi_bam  rCanAsp1             54153934145               0      2147483648     14699356306         1040999  species/Candoia_aspera/rCanAsp1/genomic_data/pacbio_hifi/m54306Ue_220615_032330.demultiplex.bc1017--bc1017.bam
+pacbiohifi_clr  rCanAsp1            166200213017               0      2147483648     69385038063         4376884  species/Candoia_aspera/rCanAsp1/genomic_data/pacbio_hifi/m54306Ue_220615_032330.reads.bam
 pacbiohifi_fqgz rCanAsp1             11045473233               0      2147483648     14039090223         1000956  species/Candoia_aspera/rCanAsp1/genomic_data/pacbio_hifi/m64055e_220627_035046.bc1017--bc1017.hifi_reads.fastq.gz
+pacbiohifi_bam  rCanAsp1             52640277545               0      2147483648     14097677670          998101  species/Candoia_aspera/rCanAsp1/genomic_data/pacbio_hifi/m64055e_220627_035046.demultiplex.bc1017--bc1017.bam
+pacbiohifi_clr  rCanAsp1            121006184636               0      2147483648     50284102336         3283053  species/Candoia_aspera/rCanAsp1/genomic_data/pacbio_hifi/m64330e_220605_040923.reads.bam
 pacbiohifi_fqgz rCanAsp1             11875050805               0      2147483648     14857741379         1058803  species/Candoia_aspera/rCanAsp1/genomic_data/pacbio_hifi/m64330e_220610_182209.bc1017--bc1017.hifi_reads.fastq.gz
+pacbiohifi_bam  rCanAsp1             55198265843               0      2147483648     14852380627         1053568  species/Candoia_aspera/rCanAsp1/genomic_data/pacbio_hifi/m64330e_220610_182209.demultiplex.bc1017--bc1017.bam
+pacbiohifi_clr  rCanAsp1            173164712558               0      2147483648     72424492520         4594241  species/Candoia_aspera/rCanAsp1/genomic_data/pacbio_hifi/m64330e_220610_182209.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,5 +20,7 @@ pacbiohifi_fqgz rCanAsp1             11875050805               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           rCanAsp1          1.7974    124926242164
+pacbiohifi_bam  rCanAsp1          0.2694     55451643163
+pacbiohifi_clr  rCanAsp1          0.4172    192066827180
 pacbiohifi_fqgz rCanAsp1          1.2641     55024461995
 --------------- ---------------  ------- ---------------

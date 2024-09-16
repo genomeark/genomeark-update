@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMesMir1             82820345801               0      2147483648    319418993793      2115357574  species/Mesoplodon_mirus/mMesMir1/genomic_data/arima/mMesMir1_49110_3-4#2.cram
 pacbiohifi_bam  mMesMir1             31094112432               0      2147483648     89062992383         7377071  species/Mesoplodon_mirus/mMesMir1/genomic_data/pacbio_hifi/m84047_240717_113325_s2.ccs.bc2062.bam
 pacbiohifi_bam  mMesMir1             22187315656               0      2147483648     69157248646         6178462  species/Mesoplodon_mirus/mMesMir1/genomic_data/pacbio_hifi/m84093_240514_112417_s1.ccs.bc2001.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,5 +11,6 @@ pacbiohifi_bam  mMesMir1             22187315656               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mMesMir1          3.8567    319413227650
 pacbiohifi_bam  mMesMir1          2.9307    156151881297
 --------------- ---------------  ------- ---------------

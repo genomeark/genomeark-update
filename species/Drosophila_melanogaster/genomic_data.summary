@@ -1,0 +1,37 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+ont             idDroMela1           75546612263               0      2147483648     84311993075         5412766  species/Drosophila_melanogaster/idDroMela1/genomic_data/ont/PAG68780_R1041_guppy-6.3.9-sup.fastq.gz
+ont             idDroMela1           24989947869               0      2147483648     28344392674         1970409  species/Drosophila_melanogaster/idDroMela1/genomic_data/ont/PAK47931_R941_guppy-6.3.9-sup.fastq.gz
+ont             idDroMela1           37676068731               0      2147483648     44689965146         2661854  species/Drosophila_melanogaster/idDroMela1/genomic_data/ont/PAM23818_R941_guppy-6.3.9-sup.fastq.gz
+pacbiohifi_fagz idDroMela1            6303675449               0      2147483648     22504409978         1958616  species/Drosophila_melanogaster/idDroMela1/genomic_data/pacbio_hifi/m64069_221101_123519.hifi_reads.fasta.gz
+pacbiohifi_fqgz idDroMela1           15116728244               0      2147483648     22497401872         1957228  species/Drosophila_melanogaster/idDroMela1/genomic_data/pacbio_hifi/m64069_221101_123519.hifi_reads.fastq.gz
+pacbiohifi_clr  idDroMela1          924563051937               0      2147483648    496199450186        52890575  species/Drosophila_melanogaster/idDroMela1/genomic_data/pacbio_hifi/m64069_221101_123519.subreads.bam
+pacbiohifi_bam  idDroMela1           84649069104               0      2147483648     23211704287         2422459  species/Drosophila_melanogaster/idDroMela1/genomic_data/pacbio_hifi/m64069_221110_170927.hifi_reads.bam
+pacbiohifi_fagz idDroMela1            6519529798               0      2147483648     23110631990         2313116  species/Drosophila_melanogaster/idDroMela1/genomic_data/pacbio_hifi/m64069_221110_170927.hifi_reads.fasta.gz
+pacbiohifi_fqgz idDroMela1           15544984249               0      2147483648     23109956535         2312944  species/Drosophila_melanogaster/idDroMela1/genomic_data/pacbio_hifi/m64069_221110_170927.hifi_reads.fastq.gz
+pacbiohifi_clr  idDroMela1         1006721832642               0      2147483648    536087924967        64732589  species/Drosophila_melanogaster/idDroMela1/genomic_data/pacbio_hifi/m64069_221110_170927.subreads.bam
+pacbiohifi_bam  idDroMela1           22998685351               0      2147483648     25460446481         1300091  species/Drosophila_melanogaster/idDroMela1/genomic_data/pacbio_hifi/m64076_221219_112430.hifi_reads.5mC.bam
+pacbiohifi_fqgz idDroMela1           17223487708               0      2147483648     22750931051         1154170  species/Drosophila_melanogaster/idDroMela1/genomic_data/pacbio_hifi/m64076_221219_112430.hifi_reads.decontam.fq.gz
+pacbiohifi_fagz idDroMela1            6933160750               0      2147483648     25399320369         1298049  species/Drosophila_melanogaster/idDroMela1/genomic_data/pacbio_hifi/m64076_221219_112430.hifi_reads.fasta.gz
+pacbiohifi_clr  idDroMela1          795600535089               0      2147483648    427960071523        22946813  species/Drosophila_melanogaster/idDroMela1/genomic_data/pacbio_hifi/m64076_221219_112430.subreads.bam
+pacbiohifi_bam  idDroMela1           55961014052               0      2147483648     15060189056         1088687  species/Drosophila_melanogaster/idDroMela1/genomic_data/pacbio_hifi/m64202e_220830_192332.hifi_reads.bam
+pacbiohifi_bam  idDroMela2           18431851376               0      2147483648      5631493035          279531  species/Drosophila_melanogaster/idDroMela2/genomic_data/pacbio_hifi/m84046_231011_224215_s2.fail_reads.bc2079.bam
+pacbiohifi_bam  idDroMela2          425399058644               0      2147483648     98202408150         4992707  species/Drosophila_melanogaster/idDroMela2/genomic_data/pacbio_hifi/m84046_231011_224215_s2.hifi_reads.bc2079.bam
+pacbiohifi_fqgz idDroMela2           53264993716               0      2147483648     97276569153         4940375  species/Drosophila_melanogaster/idDroMela2/genomic_data/pacbio_hifi/m84046_231011_224215_s2.hifi_reads.bc2079.fastq.gz
+pacbiohifi_bam  idDroMela2            4924587037               0      2147483648      1185144936           60475  species/Drosophila_melanogaster/idDroMela2/genomic_data/pacbio_hifi/m84046_231011_224215_s2.hifi_reads.unassigned.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+ont             idDroMela1        1.1384    157341256697
+pacbiohifi_bam  idDroMela1        0.3895    247053387184
+pacbiohifi_bam  idDroMela2        0.2340    105551293463
+pacbiohifi_clr  idDroMela1        0.5355   1722117021449
+pacbiohifi_fagz idDroMela1        3.5945     86081536459
+pacbiohifi_fqgz idDroMela1        1.4275    157206821468
+pacbiohifi_fqgz idDroMela2        1.8262     97272531524
+--------------- ---------------  ------- ---------------
