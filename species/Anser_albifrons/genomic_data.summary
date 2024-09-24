@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAnsAlb1             27281719076               0      2147483648     85556626808       566600177  species/Anser_albifrons/bAnsAlb1/genomic_data/arima/bAnsAlb1_49524_1#8.cram
 pacbiohifi_bam  bAnsAlb1             20393077119               0      2147483648     61407689185         5553065  species/Anser_albifrons/bAnsAlb1/genomic_data/pacbio_hifi/m84047_240717_102852_s4.ccs.bc2060.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  bAnsAlb1             20393077119               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bAnsAlb1          3.1360     85555471022
 pacbiohifi_bam  bAnsAlb1          3.0112     61407633820
 --------------- ---------------  ------- ---------------

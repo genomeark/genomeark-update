@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bLarCan2             35598461301               0      2147483648    113841011312       753913982  species/Larus_canus/bLarCan2/genomic_data/arima/bLarCan2_49524_1#6.cram
 pacbiohifi_bam  bLarCan2             34779613231               0      2147483648     89287461620         4760203  species/Larus_canus/bLarCan2/genomic_data/pacbio_hifi/m84098_240501_121511_s1.ccs.bc2087.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  bLarCan2             34779613231               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bLarCan2          3.1979    113840319394
 pacbiohifi_bam  bLarCan2          2.5672     89286223086
 --------------- ---------------  ------- ---------------

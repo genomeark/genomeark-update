@@ -4,6 +4,10 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           rDibSmi1             46941689931               0      2147483648     82047901591       543363608  species/Dibamus_smithi/rDibSmi1/genomic_data/arima/rDibSmi1_L1_S2_R1_001.fastq.gz
 arima           rDibSmi1             48680878563               0      2147483648     81581049167       540271871  species/Dibamus_smithi/rDibSmi1/genomic_data/arima/rDibSmi1_L1_S2_R2_001.fastq.gz
+pacbiohifi_bam  rDibSmi1            128059482207               0      2147483648     36145775848         4070921  species/Dibamus_smithi/rDibSmi1/genomic_data/pacbio_hifi/m84091_240906_204246_s3.hifi_reads.bc1012.bam
+pacbiohifi_fqgz rDibSmi1             16830896409               0      2147483648     34766509439         4417291  species/Dibamus_smithi/rDibSmi1/genomic_data/pacbio_hifi/m84091_240906_204246_s3.hifi_reads.bc1012.fastq.gz
+pacbiohifi_bam  rDibSmi1            151891495695               0      2147483648     42726554607         2978439  species/Dibamus_smithi/rDibSmi1/genomic_data/pacbio_hifi/m84203_240809_190436_s4.hifi_reads.bc1012.bam
+pacbiohifi_fqgz rDibSmi1             21619861692               0      2147483648     42347960150         3180685  species/Dibamus_smithi/rDibSmi1/genomic_data/pacbio_hifi/m84203_240809_190436_s4.hifi_reads.bc1012.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +15,6 @@ arima           rDibSmi1             48680878563               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           rDibSmi1          1.6992    162481868385
+pacbiohifi_bam  rDibSmi1          0.2815     78806200279
+pacbiohifi_fqgz rDibSmi1          1.9886     76463177559
 --------------- ---------------  ------- ---------------

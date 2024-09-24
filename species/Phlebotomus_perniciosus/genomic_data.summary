@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  iPhlPer3             48146611043               0      2147483648     13837255426         1035378  species/Phlebotomus_perniciosus/iPhlPer3/genomic_data/pacbio_hifi/m84091_240906_164429_s1.hifi_reads.bc1018.bam
+pacbiohifi_fqgz iPhlPer3              6093310236               0      2147483648     13867440683         1318747  species/Phlebotomus_perniciosus/iPhlPer3/genomic_data/pacbio_hifi/m84091_240906_164429_s1.hifi_reads.bc1018.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  iPhlPer3          0.2873     13832521352
+pacbiohifi_fqgz iPhlPer3          2.2758     13867155435
+--------------- ---------------  ------- ---------------

@@ -23,7 +23,7 @@ pacbiohifi_clr  rMacSuw1            968243543884               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-dovetail        rMacSuw1          1.8299    626701126212
+dovetail        rMacSuw1          1.8299    626701368497
 pacbiohifi_bam  rMacSuw1          0.2678    250474032527
 pacbiohifi_clr  rMacSuw1          0.5357   1845295619521
 pacbiohifi_fqgz rMacSuw1          1.2133     81204215402

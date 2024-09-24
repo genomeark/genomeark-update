@@ -96,6 +96,8 @@ foreach my $species (@speciesList) {
     print "----------\n";
     print "Assemblies, pass 1: remember the latest assembly\n";
 
+    my $firstassemblydate;
+    my $firstassemblyfilename;
     for (my $ii=0; $ii<scalar(@speciesFiles); $ii++) {
         my $filesecs = $speciesEpoch[$ii];
         my $filesize = $speciesSizes[$ii];
@@ -107,7 +109,16 @@ foreach my $species (@speciesList) {
             $data{"last_updated"} = $filesecs;
         }
 
+        if ((!defined $firstassemblydate) || ($firstassemblydate > $filesecs)) {
+            $firstassemblydate = $filesecs;
+	    $firstassemblyfilename = $filename;
+        }
+
         rememberLatestAssembly($filesecs, $filesize, $filename, \%data, \@potentialErrors);
+        print "ALLASSEMBLIES\t$species\t$filename\t$filesecs\n";
+    }
+    if (defined ($firstassemblyfilename)) {
+        print "SPECIESFIRSTASSEMBLIES\t$species\t$firstassemblyfilename\t$firstassemblydate\n";
     }
 
 

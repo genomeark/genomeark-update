@@ -17,6 +17,7 @@ pacbiohifi_bam  mOchPri1             49287112410               0      2147483648
 pacbiohifi_fqgz mOchPri1             10944811782               0      2147483648     13343407228          907353  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m64330e_220205_164102.hifi_reads.fastq.gz
 pacbiohifi_clr  mOchPri1            149910979614               0      2147483648     62510514793         4971846  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m64330e_220205_164102.reads.bam
 pacbiohifi_bam  mOchPri1             47690362565               0      2147483648     12719141461          871824  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m64330e_220207_033931.hifi_reads.bam
+pacbiohifi_fqgz mOchPri1             11045620054               0      2147483648      2945895070          201924  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m64330e_220207_033931.hifi_reads.fastq.gz
 pacbiohifi_clr  mOchPri1            179718005357               0      2147483648     76235459861         5607495  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m64330e_220207_033931.reads.bam
 pacbiohifi_bam  mOchPri1             59077260003               0      2147483648     15888729240         1098941  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m64334e_220126_070652.hifi_reads.bam
 pacbiohifi_fqgz mOchPri1             13518663367               0      2147483648      3635821666          251471  species/Ochotona_princeps/mOchPri1/genomic_data/pacbio_hifi/m64334e_220126_070652.hifi_reads.fastq.gz

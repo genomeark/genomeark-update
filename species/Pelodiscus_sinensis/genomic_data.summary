@@ -4,6 +4,10 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           rPelSin1             81661092233               0      2147483648    144797205242       958921927  species/Pelodiscus_sinensis/rPelSin1/genomic_data/arima/rPelSin1_L1_S2_R1_001.fastq.gz
 arima           rPelSin1             82809383925               0      2147483648    145042358644       960545421  species/Pelodiscus_sinensis/rPelSin1/genomic_data/arima/rPelSin1_L1_S2_R2_001.fastq.gz
+pacbiohifi_bam  rPelSin1            263149388352               0      2147483648     74569829289         3984216  species/Pelodiscus_sinensis/rPelSin1/genomic_data/pacbio_hifi/m84091_240906_184337_s2.hifi_reads.bc1021.bam
+pacbiohifi_fqgz rPelSin1             39739813644               0      2147483648     72889927782         4043887  species/Pelodiscus_sinensis/rPelSin1/genomic_data/pacbio_hifi/m84091_240906_184337_s2.hifi_reads.bc1021.fastq.gz
+pacbiohifi_bam  rPelSin1            258846201535               0      2147483648     72905565325         3932322  species/Pelodiscus_sinensis/rPelSin1/genomic_data/pacbio_hifi/m84203_240809_210404_s1.hifi_reads.bc1021.bam
+pacbiohifi_fqgz rPelSin1             39283340740               0      2147483648     71765542300         4072437  species/Pelodiscus_sinensis/rPelSin1/genomic_data/pacbio_hifi/m84203_240809_210404_s1.hifi_reads.bc1021.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +15,6 @@ arima           rPelSin1             82809383925               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           rPelSin1          1.7586    289237779371
+pacbiohifi_bam  rPelSin1          0.2828    147620352820
+pacbiohifi_fqgz rPelSin1          1.8317    144746711885
 --------------- ---------------  ------- ---------------

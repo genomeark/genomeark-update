@@ -2,10 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz rBraPum1             93037592472               0      2147483648    121527485245         8759117  species/Bradypodion_pumilum/rBraPum1/genomic_data/pacbio_hifi/BraPum_HiFi_SRR24988077.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+pacbiohifi_fqgz rBraPum1          1.3062    121525703286
 --------------- ---------------  ------- ---------------

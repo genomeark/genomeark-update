@@ -5,8 +5,11 @@
 arima           aAnoBae1             98880475515               0      2147483648    180437146473      1194948035  species/Anomaloglossus_baeobatrachus/aAnoBae1/genomic_data/arima/aAnoBae1_1.fastq.gz
 arima           aAnoBae1            101971184548               0      2147483648    181464799561      1201753686  species/Anomaloglossus_baeobatrachus/aAnoBae1/genomic_data/arima/aAnoBae1_2.fastq.gz
 pacbiohifi_fqgz aAnoBae1             19652357862               0      2147483648     22585786699         1402873  species/Anomaloglossus_baeobatrachus/aAnoBae1/genomic_data/pacbio_hifi/m54306Ue_220202_203517.hifi_reads.fastq.gz
+pacbiohifi_clr  aAnoBae1            247775063743               0      2147483648     97852606775         5688543  species/Anomaloglossus_baeobatrachus/aAnoBae1/genomic_data/pacbio_hifi/m64055e_220214_185145.reads.bam
 pacbiohifi_fqgz aAnoBae1             21463673723               0      2147483648     25034160036         1544996  species/Anomaloglossus_baeobatrachus/aAnoBae1/genomic_data/pacbio_hifi/m64334e_220211_073330.hifi_reads.fastq.gz
+pacbiohifi_clr  aAnoBae1            239841018110               0      2147483648     93265413551         5498124  species/Anomaloglossus_baeobatrachus/aAnoBae1/genomic_data/pacbio_hifi/m64334e_220211_073330.reads.bam
 pacbiohifi_fqgz aAnoBae1             21634738517               0      2147483648     25242841785         1536586  species/Anomaloglossus_baeobatrachus/aAnoBae1/genomic_data/pacbio_hifi/m64334e_220212_183416.hifi_reads.fastq.gz
+pacbiohifi_clr  aAnoBae1            246340596461               0      2147483648     95182736101         5614084  species/Anomaloglossus_baeobatrachus/aAnoBae1/genomic_data/pacbio_hifi/m64334e_220212_183416.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,5 +17,6 @@ pacbiohifi_fqgz aAnoBae1             21634738517               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aAnoBae1          1.7943    360388133651
+pacbiohifi_clr  aAnoBae1          0.3900    562618628868
 pacbiohifi_fqgz aAnoBae1          1.1611    144652266086
 --------------- ---------------  ------- ---------------

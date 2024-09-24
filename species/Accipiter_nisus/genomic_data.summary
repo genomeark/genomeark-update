@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bAccNis1             28917664086               0      2147483648     96970044405       642185724  species/Accipiter_nisus/bAccNis1/genomic_data/arima/bAccNis1_49524_1#7.cram
 pacbiohifi_bam  bAccNis1             26035089537               0      2147483648     74319476032         7359239  species/Accipiter_nisus/bAccNis1/genomic_data/pacbio_hifi/m84098_240313_120842_s1.ccs.bc2079.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  bAccNis1             26035089537               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bAccNis1          3.3533     96969602979
 pacbiohifi_bam  bAccNis1          2.8545     74317163083
 --------------- ---------------  ------- ---------------
