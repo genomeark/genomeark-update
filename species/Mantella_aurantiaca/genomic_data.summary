@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aManAur1             88075417332               0      2147483648    155209257398      1027875917  species/Mantella_aurantiaca/aManAur1/genomic_data/arima/aManAur1_L1_S8_R1_001.fastq.gz
+arima           aManAur1             91162612611               0      2147483648    155990361748      1033048753  species/Mantella_aurantiaca/aManAur1/genomic_data/arima/aManAur1_L1_S8_R2_001.fastq.gz
 pacbiohifi_bam  aManAur1             60049956117               0      2147483648     16007179316         2507940  species/Mantella_aurantiaca/aManAur1/genomic_data/pacbio_hifi/m54306Ue_230627_212121.demultiplex.bc1022--bc1022.bam
 pacbiohifi_bam  aManAur1             59739316180               0      2147483648     16337726199         2548321  species/Mantella_aurantiaca/aManAur1/genomic_data/pacbio_hifi/m54306Ue_230627_212121.hifi_reads.bam
 pacbiohifi_fqgz aManAur1             10916798609               0      2147483648     16311183977         2379681  species/Mantella_aurantiaca/aManAur1/genomic_data/pacbio_hifi/m54306Ue_230627_212121.hifi_reads.fastq.gz
@@ -17,6 +19,7 @@ pacbiohifi_fqgz aManAur1             22904437474               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           aManAur1          1.7277    309669544332
 pacbiohifi_bam  aManAur1          0.2699    120537668281
 pacbiohifi_clr  aManAur1          0.5211    570463863190
 pacbiohifi_fqgz aManAur1          1.9695     75490667961

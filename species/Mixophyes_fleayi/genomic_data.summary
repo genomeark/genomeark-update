@@ -5,12 +5,15 @@
 arima           aMixFle1             47567989496               0      2147483648     88224920961       584271021  species/Mixophyes_fleayi/aMixFle1/genomic_data/arima/aMixFle1_1.fastq.gz
 arima           aMixFle1             50063002614               0      2147483648     87815573848       581560115  species/Mixophyes_fleayi/aMixFle1/genomic_data/arima/aMixFle1_2.fastq.gz
 pacbiohifi_fqgz aMixFle1             18476632535               0      2147483648     22125509556         1500348  species/Mixophyes_fleayi/aMixFle1/genomic_data/pacbio_hifi/m64334e_220221_170619.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_bam  aMixFle1             82175824238               0      2147483648     22033137787         1492186  species/Mixophyes_fleayi/aMixFle1/genomic_data/pacbio_hifi/m64334e_220221_170619.demultiplex.bc1002--bc1002.bam
 pacbiohifi_clr  aMixFle1            228714125173               0      2147483648     92219096302         5334964  species/Mixophyes_fleayi/aMixFle1/genomic_data/pacbio_hifi/m64334e_220221_170619.reads.bam
 pacbiohifi_fqgz aMixFle1             18476632535               0      2147483648     22125509556         1500348  species/Mixophyes_fleayi/aMixFle1/genomic_data/pacbio_hifi/m64334e_220221_170619_demultiplex.bc1002--bc1002.hifi_reads.fastq.gz
 pacbiohifi_fqgz aMixFle1             21090357694               0      2147483648     25750023264         1741502  species/Mixophyes_fleayi/aMixFle1/genomic_data/pacbio_hifi/m64334e_220307_164548.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_bam  aMixFle1             95050991598               0      2147483648     25677246973         1733017  species/Mixophyes_fleayi/aMixFle1/genomic_data/pacbio_hifi/m64334e_220307_164548.demultiplex.bc1002--bc1002.bam
 pacbiohifi_clr  aMixFle1            249632401217               0      2147483648    101643238521         5447200  species/Mixophyes_fleayi/aMixFle1/genomic_data/pacbio_hifi/m64334e_220307_164548.reads.bam
 pacbiohifi_fqgz aMixFle1             21090357694               0      2147483648     25750023264         1741502  species/Mixophyes_fleayi/aMixFle1/genomic_data/pacbio_hifi/m64334e_220307_164548_demultiplex.bc1002--bc1002.hifi_reads.fastq.gz
 pacbiohifi_fqgz aMixFle1             20046511679               0      2147483648     25542467484         1734458  species/Mixophyes_fleayi/aMixFle1/genomic_data/pacbio_hifi/m64334e_220309_021044.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_bam  aMixFle1             94019678562               0      2147483648     25623175310         1730938  species/Mixophyes_fleayi/aMixFle1/genomic_data/pacbio_hifi/m64334e_220309_021044.demultiplex.bc1002--bc1002.bam
 pacbiohifi_clr  aMixFle1            223907255979               0      2147483648     88834131200         5043607  species/Mixophyes_fleayi/aMixFle1/genomic_data/pacbio_hifi/m64334e_220309_021044.reads.bam
 pacbiohifi_fqgz aMixFle1             20046511679               0      2147483648     25542467484         1734458  species/Mixophyes_fleayi/aMixFle1/genomic_data/pacbio_hifi/m64334e_220309_021044_demultiplex.bc1002--bc1002.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -20,6 +23,7 @@ pacbiohifi_fqgz aMixFle1             20046511679               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aMixFle1          1.7865    174417767404
+pacbiohifi_bam  aMixFle1          0.2703     73317927435
 pacbiohifi_clr  aMixFle1          0.4025    282657147403
 pacbiohifi_fqgz aMixFle1          1.2315     73414027599
 --------------- ---------------  ------- ---------------

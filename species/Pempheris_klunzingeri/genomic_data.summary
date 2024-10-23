@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        fPemKlu1             12300429722               0      2147483648     20157802932       133495389  species/Pempheris_klunzingeri/fPemKlu1/genomic_data/dovetail/OG36W_HICL_S3_L001_R1_001.fastq.gz
+dovetail        fPemKlu1             13131478041               0      2147483648     19847145892       131438058  species/Pempheris_klunzingeri/fPemKlu1/genomic_data/dovetail/OG36W_HICL_S3_L001_R2_001.fastq.gz
+pacbiohifi_fqgz fPemKlu1             21852943745               0      2147483648     26170270408         2322535  species/Pempheris_klunzingeri/fPemKlu1/genomic_data/pacbio_hifi/OG36G_m64497e_230724_040003.hifi_reads.bc2016--bc2016.filt.fastq.gz
+pacbiohifi_fqgz fPemKlu1             26612514934               0      2147483648     32769053579         2481928  species/Pempheris_klunzingeri/fPemKlu1/genomic_data/pacbio_hifi/OG36G_m64497e_230725_130633.hifi_reads.bc2016--bc2016.filt.fastq.gz
+pacbiohifi_fqgz fPemKlu1              1394536886               0      1394536886      1521804310          119450  species/Pempheris_klunzingeri/fPemKlu1/genomic_data/pacbio_hifi/OG36G_m64497e_230725_130633.unbarcoded.hifi_reads.filt.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        fPemKlu1          1.5520     39470320848
+pacbiohifi_fqgz fPemKlu1          1.2126     62115138725
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fDirArg3             28135551863               0      2147483648     50869580680       336884653  species/Diretmus_argenteus/fDirArg3/genomic_data/arima/fDirArg3_L1_S3_R1_001.fastq.gz
+arima           fDirArg3             29048795819               0      2147483648     51071630232       338222716  species/Diretmus_argenteus/fDirArg3/genomic_data/arima/fDirArg3_L1_S3_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fDirArg3          1.7744    101467906526
+--------------- ---------------  ------- ---------------

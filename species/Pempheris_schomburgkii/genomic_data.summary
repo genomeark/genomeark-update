@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fPemSco2             15507179911               0      2147483648     27973692283       185256247  species/Pempheris_schomburgkii/fPemSco2/genomic_data/arima/fPemSco2_L1_S2_R1_001.fastq.gz
+arima           fPemSco2             15876148618               0      2147483648     27972649190       185249332  species/Pempheris_schomburgkii/fPemSco2/genomic_data/arima/fPemSco2_L1_S2_R2_001.fastq.gz
 pacbiohifi_bam  fPemSco2            178792055790               0      2147483648     50457086789         3466719  species/Pempheris_schomburgkii/fPemSco2/genomic_data/pacbio_hifi/m84203_240811_065601_s1.hifi_reads.bc1019.bam
 pacbiohifi_fqgz fPemSco2             24476106946               0      2147483648     49729265767         3647748  species/Pempheris_schomburgkii/fPemSco2/genomic_data/pacbio_hifi/m84203_240811_065601_s1.hifi_reads.bc1019.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz fPemSco2             24476106946               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fPemSco2          1.7757     55727376468
 pacbiohifi_bam  fPemSco2          0.2822     50455118143
 pacbiohifi_fqgz fPemSco2          2.0317     49728106482
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,20 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mCasCan1             75744643881               0      2147483648    132114711162       874931897  species/Castor_canadensis/mCasCan1/genomic_data/arima/mCasCan1_L1_S5_R1_001.fastq.gz
+arima           mCasCan1             78023485091               0      2147483648    132716862042       878919616  species/Castor_canadensis/mCasCan1/genomic_data/arima/mCasCan1_L1_S5_R2_001.fastq.gz
+pacbiohifi_bam  mCasCan1            351923314179               0      2147483648    103020635888         6447415  species/Castor_canadensis/mCasCan1/genomic_data/pacbio_hifi/m84091_240920_000814_s4.hifi_reads.bc1018.bam
+pacbiohifi_fqgz mCasCan1             48541661060               0      2147483648    100792911676         6478614  species/Castor_canadensis/mCasCan1/genomic_data/pacbio_hifi/m84091_240920_000814_s4.hifi_reads.bc1018.fastq.gz
+pacbiohifi_bam  mCasCan1            305047610715               0      2147483648     88513340409         5595020  species/Castor_canadensis/mCasCan1/genomic_data/pacbio_hifi/m84091_240927_164339_s1.hifi_reads.bc1018.bam
+pacbiohifi_fqgz mCasCan1             41678926710               0      2147483648     87584240638         5989525  species/Castor_canadensis/mCasCan1/genomic_data/pacbio_hifi/m84091_240927_164339_s1.hifi_reads.bc1018.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mCasCan1          1.7151    263727717999
+pacbiohifi_bam  mCasCan1          0.2919    191769812976
+pacbiohifi_fqgz mCasCan1          2.0839    188010682853
+--------------- ---------------  ------- ---------------

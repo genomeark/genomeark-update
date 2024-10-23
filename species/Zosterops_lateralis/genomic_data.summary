@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bZosLat1             27168760050               0      2147483648     87628549124       580321517  species/Zosterops_lateralis/bZosLat1/genomic_data/arima/bZosLat1_49632_5#1.cram
 pacbiohifi_bam  bZosLat1             20474391082               0      2147483648     48227282532         4669884  species/Zosterops_lateralis/bZosLat1/genomic_data/pacbio_hifi/m84047_231212_140742_s3.ccs.bc2056.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  bZosLat1             20474391082               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bZosLat1          3.2253     87627401789
 pacbiohifi_bam  bZosLat1          2.3554     48225380754
 --------------- ---------------  ------- ---------------

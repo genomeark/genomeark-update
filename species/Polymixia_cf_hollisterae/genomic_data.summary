@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        fPolHol1             22330628244               0      2147483648     37817228454       250445231  species/Polymixia_cf_hollisterae/fPolHol1/genomic_data/dovetail/O660L-2_SBL_S5_L001_R1_001.fastq.gz
+dovetail        fPolHol1             23340385516               0      2147483648     37466149798       248120208  species/Polymixia_cf_hollisterae/fPolHol1/genomic_data/dovetail/O660L-2_SBL_S5_L001_R2_001.fastq.gz
+pacbiohifi_fqgz fPolHol1             12524155806               0      2147483648     27648846279         3396390  species/Polymixia_cf_hollisterae/fPolHol1/genomic_data/pacbio_hifi/m84154_240228_085647_s1.hifi_reads.bc2063.filt.fastq.gz
+pacbiohifi_fqgz fPolHol1             12882608292               0      2147483648     28575143729         3576557  species/Polymixia_cf_hollisterae/fPolHol1/genomic_data/pacbio_hifi/m84154_240228_085647_s1.hifi_reads.bc2064.filt.fastq.gz
+pacbiohifi_fqgz fPolHol1               133343168               0       133343168       286272105           40021  species/Polymixia_cf_hollisterae/fPolHol1/genomic_data/pacbio_hifi/m84154_240228_085647_s1.hifi_reads.unassigned.filt.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        fPolHol1          1.6337     74612735179
+pacbiohifi_fqgz fPolHol1          2.2126     56510041336
+--------------- ---------------  ------- ---------------

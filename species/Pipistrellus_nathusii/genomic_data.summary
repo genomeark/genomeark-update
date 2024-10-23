@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mPipNat1             32975841502               0      2147483648     89827474623         5856293  species/Pipistrellus_nathusii/mPipNat1/genomic_data/pacbio_hifi/m84098_241004_143555_s2.ccs.bc2096.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mPipNat1          2.7240     89826192251
+--------------- ---------------  ------- ---------------

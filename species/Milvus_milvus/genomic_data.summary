@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bMilMil1             31555977220               0      2147483648     94292214458         7601543  species/Milvus_milvus/bMilMil1/genomic_data/pacbio_hifi/m84093_241007_104400_s3.ccs.bc2094.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bMilMil1          2.9880     94289259933
+--------------- ---------------  ------- ---------------

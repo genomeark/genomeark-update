@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fPolLow2             16492831569               0      2147483648     29653867241       196383234  species/Polymixia_lowei/fPolLow2/genomic_data/arima/fPolLow2_L1_S7_R1_001.fastq.gz
+arima           fPolLow2             17140779356               0      2147483648     29617813060       196144457  species/Polymixia_lowei/fPolLow2/genomic_data/arima/fPolLow2_L1_S7_R2_001.fastq.gz
 pacbiohifi_bam  fPolLow2            182269694977               0      2147483648     51971228771         3334096  species/Polymixia_lowei/fPolLow2/genomic_data/pacbio_hifi/m84203_240809_230322_s2.hifi_reads.bc1020.bam
 pacbiohifi_fqgz fPolLow2             25583156655               0      2147483648     51911300397         3646821  species/Polymixia_lowei/fPolLow2/genomic_data/pacbio_hifi/m84203_240809_230322_s2.hifi_reads.bc1020.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz fPolLow2             25583156655               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fPolLow2          1.7506     58878999285
 pacbiohifi_bam  fPolLow2          0.2851     51965090037
 pacbiohifi_fqgz fPolLow2          2.0291     51910783168
 --------------- ---------------  ------- ---------------

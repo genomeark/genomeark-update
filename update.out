@@ -5,5 +5,11 @@
 [+] Loading edirect  22.4.20240723 
 Fetching list of files in s3://genomeark/species/.
 Filtering AWS filenames.
+ Create genomeark-metadata/species/Ammospiza_maritima.yaml.template (bAmmMai)
+ Create genomeark-metadata/species/Castor_canadensis.yaml.template (mCasCan)
+ Create genomeark-metadata/species/Diretmus_argenteus.yaml.template (fDirArg)
+ Create genomeark-metadata/species/Pempheris_klunzingeri.yaml.template (fPemKlu)
+ Create genomeark-metadata/species/Polymixia_cf_hollisterae.yaml.template (fPolHol)
+ Create genomeark-metadata/species/Stegostoma_tigrinum.yaml.template (sSteFas)
 Scanning bucket.
 Updating pages.

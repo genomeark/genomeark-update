@@ -4,6 +4,12 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mNeoFlo1             76400378471               0      2147483648    133746499485       885738442  species/Neotoma_floridana/mNeoFlo1/genomic_data/arima/mNeoFlo1_L1_S5_R1_001.fastq.gz
 arima           mNeoFlo1             78902926286               0      2147483648    134034664747       887646823  species/Neotoma_floridana/mNeoFlo1/genomic_data/arima/mNeoFlo1_L1_S5_R2_001.fastq.gz
+pacbiohifi_bam  mNeoFlo1            225206146524               0      2147483648     52292859770         6434075  species/Neotoma_floridana/mNeoFlo1/genomic_data/pacbio_hifi/m84091_240415_181457_s3.hifi_reads.bc1008.bam
+pacbiohifi_fqgz mNeoFlo1             24858913322               0      2147483648     52488265789         6512517  species/Neotoma_floridana/mNeoFlo1/genomic_data/pacbio_hifi/m84091_240415_181457_s3.hifi_reads.bc1008.fastq.gz
+pacbiohifi_bam  mNeoFlo1            205339194007               0      2147483648     47649696947         5592344  species/Neotoma_floridana/mNeoFlo1/genomic_data/pacbio_hifi/m84091_240422_193504_s1.hifi_reads.bc1008.bam
+pacbiohifi_fqgz mNeoFlo1             21991328871               0      2147483648     47515170618         5686033  species/Neotoma_floridana/mNeoFlo1/genomic_data/pacbio_hifi/m84091_240422_193504_s1.hifi_reads.bc1008.fastq.gz
+pacbiohifi_bam  mNeoFlo1            223405068064               0      2147483648     65102262732         3250139  species/Neotoma_floridana/mNeoFlo1/genomic_data/pacbio_hifi/m84091_240919_181045_s1.hifi_reads.bc1008.bam
+pacbiohifi_fqgz mNeoFlo1             31903014432               0      2147483648     62576029238         3272731  species/Neotoma_floridana/mNeoFlo1/genomic_data/pacbio_hifi/m84091_240919_181045_s1.hifi_reads.bc1008.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +17,6 @@ arima           mNeoFlo1             78902926286               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mNeoFlo1          1.7156    266438349641
+pacbiohifi_bam  mNeoFlo1          0.2523    164991688088
+pacbiohifi_fqgz mNeoFlo1          2.0644    162578222976
 --------------- ---------------  ------- ---------------

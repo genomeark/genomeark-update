@@ -7,6 +7,7 @@ arima           aAlyMul15           368761652512               0      2147483648
 pacbiohifi_bam  aAlyMul15            24692356278               0      2147483648     65630864716         5042131  species/Alytes_muletensis/aAlyMul15/genomic_data/pacbio_hifi/m84047_240605_113346_s3.ccs.bc2027.bam
 pacbiohifi_bam  aAlyMul15            28848832062               0      2147483648     74625192786         5672213  species/Alytes_muletensis/aAlyMul15/genomic_data/pacbio_hifi/m84098_240508_112757_s4.ccs.bc2027.bam
 pacbiohifi_bam  aAlyMul15            29169360535               0      2147483648     75799592016         6085542  species/Alytes_muletensis/aAlyMul15/genomic_data/pacbio_hifi/m84098_240517_132929_s1.ccs.bc2027.bam
+pacbiohifi_bam  aAlyMul15            26724515890               0      2147483648     68023006658         5108223  species/Alytes_muletensis/aAlyMul15/genomic_data/pacbio_hifi/m84098_241011_150644_s4.ccs.bc2093.bam
 pacbiohifi_bam  aAlyMul2             18364202426               0      2147483648     51692068895         4300420  species/Alytes_muletensis/aAlyMul2/genomic_data/pacbio_hifi/m84098_240219_110741_s1.ccs.bc2076.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -16,6 +17,6 @@ pacbiohifi_bam  aAlyMul2             18364202426               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           aAlyMul15         3.1177   1149688204036
 pacbiohifi_bam  aAlyMul1          2.6682     50913012121
-pacbiohifi_bam  aAlyMul15         2.6121    216048224716
+pacbiohifi_bam  aAlyMul15         2.5777    282090766444
 pacbiohifi_bam  aAlyMul2          2.8148     51691556988
 --------------- ---------------  ------- ---------------
