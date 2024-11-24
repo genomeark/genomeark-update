@@ -4,6 +4,10 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fDirArg3             28135551863               0      2147483648     50869580680       336884653  species/Diretmus_argenteus/fDirArg3/genomic_data/arima/fDirArg3_L1_S3_R1_001.fastq.gz
 arima           fDirArg3             29048795819               0      2147483648     51071630232       338222716  species/Diretmus_argenteus/fDirArg3/genomic_data/arima/fDirArg3_L1_S3_R2_001.fastq.gz
+pacbiohifi_bam  fDirArg3            158757851568               0      2147483648     45260115687         4406515  species/Diretmus_argenteus/fDirArg3/genomic_data/pacbio_hifi/m84203_240811_085528_s2.hifi_reads.bc1015.bam
+pacbiohifi_fqgz fDirArg3             19099693813               0      2147483648     41858156309         4728977  species/Diretmus_argenteus/fDirArg3/genomic_data/pacbio_hifi/m84203_240811_085528_s2.hifi_reads.bc1015.fastq.gz
+pacbiohifi_bam  fDirArg3            135170071612               0      2147483648     37787779478         4522551  species/Diretmus_argenteus/fDirArg3/genomic_data/pacbio_hifi/m84203_241101_204121_s4.hifi_reads.bc1015.bam
+pacbiohifi_fqgz fDirArg3             15482904590               0      2147483648     36851517128         5823238  species/Diretmus_argenteus/fDirArg3/genomic_data/pacbio_hifi/m84203_241101_204121_s4.hifi_reads.bc1015.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +15,6 @@ arima           fDirArg3             29048795819               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fDirArg3          1.7744    101467906526
+pacbiohifi_bam  fDirArg3          0.2834     83299173429
+pacbiohifi_fqgz fDirArg3          2.2459     77669057753
 --------------- ---------------  ------- ---------------

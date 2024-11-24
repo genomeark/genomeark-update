@@ -13,6 +13,7 @@ pacbiohifi_bam  aManAur1             45876729794               0      2147483648
 pacbiohifi_fqgz aManAur1              4508628330               0      2147483648     10819677001         1603080  species/Mantella_aurantiaca/aManAur1/genomic_data/pacbio_hifi/m84091_230911_174817_s1.hifi_reads.bc1022.fastq.gz
 pacbiohifi_bam  aManAur1            220395531588               0      2147483648    465349659170        72905754  species/Mantella_aurantiaca/aManAur1/genomic_data/pacbio_hifi/m84091_240227_213228_s4.hifi_reads.bc1022.bam
 pacbiohifi_fqgz aManAur1             22904437474               0      2147483648     48361108300         7576674  species/Mantella_aurantiaca/aManAur1/genomic_data/pacbio_hifi/m84091_240227_213228_s4.hifi_reads.bc1022.fastq.gz
+pacbiohifi_fqgz aManAur1              7279087117               0      2147483648     15430434735         1325576  species/Mantella_aurantiaca/aManAur1/genomic_data/pacbio_hifi/m84091_240919_200957_s2.hifi_reads.bc1022.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -20,7 +21,7 @@ pacbiohifi_fqgz aManAur1             22904437474               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aManAur1          1.7277    309669544332
-pacbiohifi_bam  aManAur1          0.2699    120537668281
+pacbiohifi_bam  aManAur1          0.8592    441738155249
 pacbiohifi_clr  aManAur1          0.5211    570463863190
-pacbiohifi_fqgz aManAur1          1.9695     75490667961
+pacbiohifi_fqgz aManAur1          1.8745     89252881927
 --------------- ---------------  ------- ---------------

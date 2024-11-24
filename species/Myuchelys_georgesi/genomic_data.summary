@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz rMyuGeo1             38484501864               0      2147483648     50380578787         3711833  species/Myuchelys_georgesi/rMyuGeo1/genomic_data/pacbio_hifi/rMyuGeo1_HiFi_SRR25606205.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz rMyuGeo1          1.3091     50380061390
+--------------- ---------------  ------- ---------------

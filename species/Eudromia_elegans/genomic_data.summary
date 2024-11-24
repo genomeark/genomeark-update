@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bEudEle1             59081511827               0      2147483648    112483781378       744925732  species/Eudromia_elegans/bEudEle1/genomic_data/arima/YG026-07M1-1_S6_L001_R1_001.fastq.gz
+arima           bEudEle1             61054663561               0      2147483648    114657051950       759318253  species/Eudromia_elegans/bEudEle1/genomic_data/arima/YG026-07M1-1_S6_L001_R2_001.fastq.gz
+arima           bEudEle1             39989269227               0      2147483648     74267388386       491837027  species/Eudromia_elegans/bEudEle1/genomic_data/arima/YG026-07M1-2_S18_L002_R2_001.fastq.gz
+pacbiohifi_fqgz bEudEle1             16739839917               0      2147483648     29372572668         3391825  species/Eudromia_elegans/bEudEle1/genomic_data/pacbio_hifi/m64241e_231020_235812.hifi_reads.fastq.gz
+pacbiohifi_fqgz bEudEle1             16912482855               0      2147483648     28827333011         3339230  species/Eudromia_elegans/bEudEle1/genomic_data/pacbio_hifi/m64241e_231022_105534.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bEudEle1          1.8823    372853101955
+pacbiohifi_fqgz bEudEle1          1.7211     57919012722
+--------------- ---------------  ------- ---------------

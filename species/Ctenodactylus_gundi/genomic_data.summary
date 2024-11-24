@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mCteGun2             71063501642               0      2147483648    125067940406       828264506  species/Ctenodactylus_gundi/mCteGun2/genomic_data/arima/mCteGun2_L1_S2_R1_001.fastq.gz
+arima           mCteGun2             71126889871               0      2147483648    126406938663       837132077  species/Ctenodactylus_gundi/mCteGun2/genomic_data/arima/mCteGun2_L1_S2_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mCteGun2          1.7714    251876059526
+--------------- ---------------  ------- ---------------

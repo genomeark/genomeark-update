@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aFejLim1             88991691723               0      2147483648    155764360346      1031552096  species/Fejervarya_limnocharis/aFejLim1/genomic_data/arima/aFejLim1_L1_S1_R1_001.fastq.gz
+arima           aFejLim1             89248127256               0      2147483648    157556764908      1043422325  species/Fejervarya_limnocharis/aFejLim1/genomic_data/arima/aFejLim1_L1_S1_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           aFejLim1          1.7603    313755553348
+--------------- ---------------  ------- ---------------

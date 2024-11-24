@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fLepSal2             29258304130               0      2147483648     52304536738       346387674  species/Lepidogalaxias_salamandroides/fLepSal2/genomic_data/arima/fLepSal2_L1_S5_R1_001.fastq.gz
+arima           fLepSal2             29639088458               0      2147483648     52748611994       349328570  species/Lepidogalaxias_salamandroides/fLepSal2/genomic_data/arima/fLepSal2_L1_S5_R2_001.fastq.gz
+pacbiohifi_bam  fLepSal2            161132307668               0      2147483648     45102859009         4706674  species/Lepidogalaxias_salamandroides/fLepSal2/genomic_data/pacbio_hifi/m84203_240811_045640_s4.hifi_reads.bc1017.bam
+pacbiohifi_fqgz fLepSal2             19821281403               0      2147483648     42807895912         5319398  species/Lepidogalaxias_salamandroides/fLepSal2/genomic_data/pacbio_hifi/m84203_240811_045640_s4.hifi_reads.bc1017.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fLepSal2          1.7823    104972822809
+pacbiohifi_bam  fLepSal2          0.2799     45100932916
+pacbiohifi_fqgz fLepSal2          2.1596     42806039317
+--------------- ---------------  ------- ---------------

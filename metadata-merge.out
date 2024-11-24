@@ -1,11 +1,1 @@
-Updating 145a013..2c7b352
-Fast-forward
- species/Drosophila_melanogaster.yaml | 38 ++++++++++++++++++++++++++++++++++++
- species/Milvus_milvus.yaml           | 17 ++++++++++++++++
- species/Myotis_emarginatus.yaml      | 17 ++++++++++++++++
- species/Pipistrellus_nathusii.yaml   | 17 ++++++++++++++++
- 4 files changed, 89 insertions(+)
- create mode 100644 species/Drosophila_melanogaster.yaml
- create mode 100644 species/Milvus_milvus.yaml
- create mode 100644 species/Myotis_emarginatus.yaml
- create mode 100644 species/Pipistrellus_nathusii.yaml
+Already up to date.

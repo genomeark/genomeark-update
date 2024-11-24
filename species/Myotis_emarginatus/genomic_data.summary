@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMyoEma1             50063811883               0      2147483648    160980094508      1066093341  species/Myotis_emarginatus/mMyoEma1/genomic_data/arima/mMyoEma1_49659_5#2.cram
 pacbiohifi_bam  mMyoEma1             30740652138               0      2147483648     79347247805         5281706  species/Myotis_emarginatus/mMyoEma1/genomic_data/pacbio_hifi/m84098_241004_140422_s1.ccs.bc2095.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  mMyoEma1             30740652138               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mMyoEma1          3.2154    160975180728
 pacbiohifi_bam  mMyoEma1          2.5811     79344697233
 --------------- ---------------  ------- ---------------

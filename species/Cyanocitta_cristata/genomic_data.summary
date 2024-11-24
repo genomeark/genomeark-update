@@ -5,8 +5,12 @@
 arima           bCyaCrs1             12504495816               0      2147483648     22699038858       150324766  species/Cyanocitta_cristata/bCyaCrs1/genomic_data/arima/bCyaCri2_1.fastq.gz
 arima           bCyaCrs1             13380980045               0      2147483648     22594028359       149629326  species/Cyanocitta_cristata/bCyaCrs1/genomic_data/arima/bCyaCri2_2.fastq.gz
 pacbiohifi_fqgz bCyaCrs1             13325661089               0      2147483648     14839583095          719870  species/Cyanocitta_cristata/bCyaCrs1/genomic_data/pacbio_hifi/demultiplex.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_bam  bCyaCrs1             56021246557               0      2147483648     14840627968          724460  species/Cyanocitta_cristata/bCyaCrs1/genomic_data/pacbio_hifi/m64055e_221014_095653.bc1010--bc1010.bam
 pacbiohifi_fqgz bCyaCrs1             13325661089               0      2147483648     14839583095          719870  species/Cyanocitta_cristata/bCyaCrs1/genomic_data/pacbio_hifi/m64055e_221014_095653.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_clr  bCyaCrs1            717343139437               0      2147483648    385241176842        17609196  species/Cyanocitta_cristata/bCyaCrs1/genomic_data/pacbio_hifi/m64055e_221014_095653.subreads.bam
+pacbiohifi_bam  bCyaCrs1            115964160262               0      2147483648     30715816963         1577664  species/Cyanocitta_cristata/bCyaCrs1/genomic_data/pacbio_hifi/m64334e_230524_063757.bc1010--bc1010.bam
 pacbiohifi_fqgz bCyaCrs1             26485667489               0      2147483648     30578212093         1576510  species/Cyanocitta_cristata/bCyaCrs1/genomic_data/pacbio_hifi/m64334e_230524_063757.bc1010--bc1010.hifi_reads.fastq.gz
+pacbiohifi_clr  bCyaCrs1           1143928569945               0      2147483648    613853359575        32593822  species/Cyanocitta_cristata/bCyaCrs1/genomic_data/pacbio_hifi/m64334e_230524_063757.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,5 +18,7 @@ pacbiohifi_fqgz bCyaCrs1             26485667489               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bCyaCrs1          1.7288     44750810668
+pacbiohifi_bam  bCyaCrs1          0.2648     45541735725
+pacbiohifi_clr  bCyaCrs1          0.5367    998944526425
 pacbiohifi_fqgz bCyaCrs1          1.1462     45631744816
 --------------- ---------------  ------- ---------------

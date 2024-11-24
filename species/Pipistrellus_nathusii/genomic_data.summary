@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPipNat1             74130547174               0      2147483648    241702623643      1600679626  species/Pipistrellus_nathusii/mPipNat1/genomic_data/arima/mPipNat1_49659_5#3.cram
 pacbiohifi_bam  mPipNat1             32975841502               0      2147483648     89827474623         5856293  species/Pipistrellus_nathusii/mPipNat1/genomic_data/pacbio_hifi/m84098_241004_143555_s2.ccs.bc2096.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +10,6 @@ pacbiohifi_bam  mPipNat1             32975841502               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mPipNat1          3.2604    241695236006
 pacbiohifi_bam  mPipNat1          2.7240     89826192251
 --------------- ---------------  ------- ---------------

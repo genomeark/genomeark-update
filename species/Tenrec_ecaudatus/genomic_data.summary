@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mTenEca1            109586370893               0      2147483648    192074056994      1272013673  species/Tenrec_ecaudatus/mTenEca1/genomic_data/arima/mTenEca1_L1_S3_R1_001.fastq.gz
+arima           mTenEca1            109163988322               0      2147483648    194495744235      1288051337  species/Tenrec_ecaudatus/mTenEca1/genomic_data/arima/mTenEca1_L1_S3_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mTenEca1          1.7623    385503758044
+--------------- ---------------  ------- ---------------
