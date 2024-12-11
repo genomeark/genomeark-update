@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        rAnnSte1             10825053953               0      2147483648     20947747087       138726806  species/Anniella_stebbinsi/rAnnSte1/genomic_data/dovetail/rAnnSte1_SRR25478652_R1.fastq.gz
+dovetail        rAnnSte1             11245442859               0      2147483648     20935509273       138645762  species/Anniella_stebbinsi/rAnnSte1/genomic_data/dovetail/rAnnSte1_SRR25478652_R2.fastq.gz
+dovetail        rAnnSte1              7843839344               0      2147483648     14646730979        96998222  species/Anniella_stebbinsi/rAnnSte1/genomic_data/dovetail/rAnnSte1_SRR25478653_R2.fastq.gz
+pacbiohifi_fqgz rAnnSte1             24823267328               0      2147483648     32431779260         2197583  species/Anniella_stebbinsi/rAnnSte1/genomic_data/pacbio_hifi/rAnnSte1_SRR25478654.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        rAnnSte1          1.8897     70896370598
+pacbiohifi_fqgz rAnnSte1          1.3065     32431598764
+--------------- ---------------  ------- ---------------

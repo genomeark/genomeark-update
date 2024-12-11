@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        rAspTig1              5762011672               0      2147483648     11315372553        74936242  species/Aspidoscelis_tigris/rAspTig1/genomic_data/dovetail/rAspTig1_SRR19523869_R1.fastq.gz
+dovetail        rAspTig1              5915647487               0      2147483648     11402857502        75515612  species/Aspidoscelis_tigris/rAspTig1/genomic_data/dovetail/rAspTig1_SRR19523869_R2.fastq.gz
+dovetail        rAspTig1              3622673655               0      3622673655      6957238930        46074430  species/Aspidoscelis_tigris/rAspTig1/genomic_data/dovetail/rAspTig1_SRR19523870_R2.fastq.gz
+pacbiohifi_fqgz rAspTig1             68743774875               0      2147483648     78970310436         5283947  species/Aspidoscelis_tigris/rAspTig1/genomic_data/pacbio_hifi/rAspTig1_SRR19523871.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        rAspTig1          1.9395     36555235851
+pacbiohifi_fqgz rAspTig1          1.1487     78965974198
+--------------- ---------------  ------- ---------------

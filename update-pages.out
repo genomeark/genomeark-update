@@ -1,6 +1,6 @@
 
 Discovering species names.
-  Found 696 species.
+  Found 698 species.
 
 Discovering Species-to-GenBank mappings.
   Reading 'genbank/genbank.PRJNA489243.map'.
@@ -14,10 +14,10 @@ Discovering Species-to-GenBank mappings.
 
 Discovering genome projects.
   Found 4 genome projects.
-    bat1k: Bat1K                               (https://bat1k.com/)
+    erga: European Reference Genome Atlas     (https://www.erga-biodiversity.eu/)
      vgp: Vertebrate Genomes Project          (https://vertebrategenomesproject.org/)
      t2t: Telomere-to-Telomere Project        (https://sites.google.com/ucsc.edu/t2tworkinggroup)
-    erga: European Reference Genome Atlas     (https://www.erga-biodiversity.eu/)
+    bat1k: Bat1K                               (https://bat1k.com/)
 
 ----------------------------------------
 Processing species  Abramis_brama
@@ -1095,27 +1095,63 @@ Page Creation
 
 ----------------------------------------
 Processing species  Amblyopsis_spelaea
-  with 11 files.
+  with 17 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
 
+species/Amblyopsis_spelaea/fAmbSpe1/assembly_MT_rockefeller/fAmbSpe1.MT.20241014.fasta.gz
+ - A mitochondrial assembly!
+ - Set mito1 to 2024-10-14 (uncurated)
+
+species/Amblyopsis_spelaea/fAmbSpe1/assembly_curated/fAmbSpe1.hap1.cur.20241205.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpa1 to 2024-12-05 (curated)
+
+species/Amblyopsis_spelaea/fAmbSpe1/assembly_curated/fAmbSpe1.hap1.decon.20241205.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Amblyopsis_spelaea/fAmbSpe1/assembly_curated/fAmbSpe1.hap1.dup.20241205.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
+species/Amblyopsis_spelaea/fAmbSpe1/assembly_curated/fAmbSpe1.hap2.cur.20241205.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpb1 to 2024-12-05 (curated)
+
+species/Amblyopsis_spelaea/fAmbSpe1/assembly_curated/fAmbSpe1.hap2.decon.20241205.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Amblyopsis_spelaea/fAmbSpe1/assembly_curated/fAmbSpe1.hap2.dup.20241205.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
 species/Amblyopsis_spelaea/fAmbSpe1/assembly_vgp_HiC_2.0/fAmbSpe1.HiC.hap1.20241014.fasta.gz
  - An assembly!   
- - Set hpa1 to 2024-10-14 (uncurated)
+ - Ignore uncurated assembly.
 
 species/Amblyopsis_spelaea/fAmbSpe1/assembly_vgp_HiC_2.0/fAmbSpe1.HiC.hap2.20241014.fasta.gz
  - An assembly!   
- - Set hpb1 to 2024-10-14 (uncurated)
+ - Ignore uncurated assembly.
 
 ----------
 Assemblies, pass 2: import summaries
-Import 'species/Amblyopsis_spelaea/fAmbSpe1/assembly_vgp_HiC_2.0/fAmbSpe1.HiC.hap1.20241014.fasta.ctg.summary'
-Import 'species/Amblyopsis_spelaea/fAmbSpe1/assembly_vgp_HiC_2.0/fAmbSpe1.HiC.hap1.20241014.fasta.scf.summary'
-      hpa1 (draft) -> species (draft)
-Import 'species/Amblyopsis_spelaea/fAmbSpe1/assembly_vgp_HiC_2.0/fAmbSpe1.HiC.hap2.20241014.fasta.ctg.summary'
-Import 'species/Amblyopsis_spelaea/fAmbSpe1/assembly_vgp_HiC_2.0/fAmbSpe1.HiC.hap2.20241014.fasta.scf.summary'
-      hpb1 (draft) -> species (draft)
+Import 'species/Amblyopsis_spelaea/fAmbSpe1/assembly_MT_rockefeller/fAmbSpe1.MT.20241014.fasta.ctg.summary'
+Import 'species/Amblyopsis_spelaea/fAmbSpe1/assembly_MT_rockefeller/fAmbSpe1.MT.20241014.fasta.scf.summary'
+Import 'species/Amblyopsis_spelaea/fAmbSpe1/assembly_curated/fAmbSpe1.hap1.cur.20241205.fasta.ctg.summary'
+Import 'species/Amblyopsis_spelaea/fAmbSpe1/assembly_curated/fAmbSpe1.hap1.cur.20241205.fasta.scf.summary'
+      hpa1 (curated) -> species (curated)
+Import 'species/Amblyopsis_spelaea/fAmbSpe1/assembly_curated/fAmbSpe1.hap2.cur.20241205.fasta.ctg.summary'
+Import 'species/Amblyopsis_spelaea/fAmbSpe1/assembly_curated/fAmbSpe1.hap2.cur.20241205.fasta.scf.summary'
+      hpb1 (curated) -> species (curated)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -2309,6 +2345,33 @@ Genomic Data, accumulation
 Page Creation
   Load summaries from species/Anguilla_anguilla/genomic_data.summary
   Write to './genomeark.github.io/_genomeark/Anguilla_anguilla.md'
+
+
+----------------------------------------
+Processing species  Anniella_stebbinsi
+  with 7 files.
+
+----------
+Assemblies, pass 1: remember the latest assembly
+
+----------
+Assemblies, pass 2: import summaries
+
+----------
+Assemblies, pass 2: import metadata
+
+----------
+Genomic Data, accumulation
+  dovetail        <- species/Anniella_stebbinsi/rAnnSte1/genomic_data/dovetail/rAnnSte1_SRR25478652_R1.fastq.gz
+  dovetail        <- species/Anniella_stebbinsi/rAnnSte1/genomic_data/dovetail/rAnnSte1_SRR25478652_R2.fastq.gz
+  dovetail        <- species/Anniella_stebbinsi/rAnnSte1/genomic_data/dovetail/rAnnSte1_SRR25478653_R1.fastq.gz
+  dovetail        <- species/Anniella_stebbinsi/rAnnSte1/genomic_data/dovetail/rAnnSte1_SRR25478653_R2.fastq.gz
+  hifi_fagz.2     <- species/Anniella_stebbinsi/rAnnSte1/genomic_data/pacbio_hifi/rAnnSte1_SRR25478654.hifi_reads.fastq.gz
+
+----------
+Page Creation
+  Load summaries from species/Anniella_stebbinsi/genomic_data.summary
+  Write to './genomeark.github.io/_genomeark/Anniella_stebbinsi.md'
 
 
 ----------------------------------------
@@ -4196,6 +4259,33 @@ Genomic Data, accumulation
 Page Creation
   Load summaries from species/Ascidiella_aspersa/genomic_data.summary
   Write to './genomeark.github.io/_genomeark/Ascidiella_aspersa.md'
+
+
+----------------------------------------
+Processing species  Aspidoscelis_tigris
+  with 7 files.
+
+----------
+Assemblies, pass 1: remember the latest assembly
+
+----------
+Assemblies, pass 2: import summaries
+
+----------
+Assemblies, pass 2: import metadata
+
+----------
+Genomic Data, accumulation
+  dovetail        <- species/Aspidoscelis_tigris/rAspTig1/genomic_data/dovetail/rAspTig1_SRR19523869_R1.fastq.gz
+  dovetail        <- species/Aspidoscelis_tigris/rAspTig1/genomic_data/dovetail/rAspTig1_SRR19523869_R2.fastq.gz
+  dovetail        <- species/Aspidoscelis_tigris/rAspTig1/genomic_data/dovetail/rAspTig1_SRR19523870_R1.fastq.gz
+  dovetail        <- species/Aspidoscelis_tigris/rAspTig1/genomic_data/dovetail/rAspTig1_SRR19523870_R2.fastq.gz
+  hifi_fagz.2     <- species/Aspidoscelis_tigris/rAspTig1/genomic_data/pacbio_hifi/rAspTig1_SRR19523871.hifi_reads.fastq.gz
+
+----------
+Page Creation
+  Load summaries from species/Aspidoscelis_tigris/genomic_data.summary
+  Write to './genomeark.github.io/_genomeark/Aspidoscelis_tigris.md'
 
 
 ----------------------------------------
@@ -8948,7 +9038,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Castor_canadensis
-  with 11 files.
+  with 17 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -8957,24 +9047,54 @@ species/Castor_canadensis/mCasCan1/assembly_MT_rockefeller/mCasCan1.MT.20241018.
  - A mitochondrial assembly!
  - Set mito1 to 2024-10-18 (uncurated)
 
+species/Castor_canadensis/mCasCan1/assembly_curated/mCasCan1.hap1.cur.20241202.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpa1 to 2024-12-02 (curated)
+
+species/Castor_canadensis/mCasCan1/assembly_curated/mCasCan1.hap1.decon.20241202.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Castor_canadensis/mCasCan1/assembly_curated/mCasCan1.hap1.dup.20241202.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
+species/Castor_canadensis/mCasCan1/assembly_curated/mCasCan1.hap2.cur.20241202.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpb1 to 2024-12-02 (curated)
+
+species/Castor_canadensis/mCasCan1/assembly_curated/mCasCan1.hap2.decon.20241202.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Castor_canadensis/mCasCan1/assembly_curated/mCasCan1.hap2.dup.20241202.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
 species/Castor_canadensis/mCasCan1/assembly_vgp_HiC_2.0/mCasCan1.HiC.hap1.20241018.fasta.gz
  - An assembly!   
- - Set hpa1 to 2024-10-18 (uncurated)
+ - Ignore uncurated assembly.
 
 species/Castor_canadensis/mCasCan1/assembly_vgp_HiC_2.0/mCasCan1.HiC.hap2.20241018.fasta.gz
  - An assembly!   
- - Set hpb1 to 2024-10-18 (uncurated)
+ - Ignore uncurated assembly.
 
 ----------
 Assemblies, pass 2: import summaries
 Import 'species/Castor_canadensis/mCasCan1/assembly_MT_rockefeller/mCasCan1.MT.20241018.fasta.ctg.summary'
 Import 'species/Castor_canadensis/mCasCan1/assembly_MT_rockefeller/mCasCan1.MT.20241018.fasta.scf.summary'
-Import 'species/Castor_canadensis/mCasCan1/assembly_vgp_HiC_2.0/mCasCan1.HiC.hap1.20241018.fasta.ctg.summary'
-Import 'species/Castor_canadensis/mCasCan1/assembly_vgp_HiC_2.0/mCasCan1.HiC.hap1.20241018.fasta.scf.summary'
-      hpa1 (draft) -> species (draft)
-Import 'species/Castor_canadensis/mCasCan1/assembly_vgp_HiC_2.0/mCasCan1.HiC.hap2.20241018.fasta.ctg.summary'
-Import 'species/Castor_canadensis/mCasCan1/assembly_vgp_HiC_2.0/mCasCan1.HiC.hap2.20241018.fasta.scf.summary'
-      hpb1 (draft) -> species (draft)
+Import 'species/Castor_canadensis/mCasCan1/assembly_curated/mCasCan1.hap1.cur.20241202.fasta.ctg.summary'
+Import 'species/Castor_canadensis/mCasCan1/assembly_curated/mCasCan1.hap1.cur.20241202.fasta.scf.summary'
+      hpa1 (curated) -> species (curated)
+Import 'species/Castor_canadensis/mCasCan1/assembly_curated/mCasCan1.hap2.cur.20241202.fasta.ctg.summary'
+Import 'species/Castor_canadensis/mCasCan1/assembly_curated/mCasCan1.hap2.cur.20241202.fasta.scf.summary'
+      hpb1 (curated) -> species (curated)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -13784,7 +13904,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Dibamus_smithi
-  with 8 files.
+  with 14 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -13793,10 +13913,46 @@ species/Dibamus_smithi/rDibSmi1/assembly_MT_rockefeller/rDibSmi1.MT.20240928.fas
  - A mitochondrial assembly!
  - Set mito1 to 2024-09-28 (uncurated)
 
+species/Dibamus_smithi/rDibSmi1/assembly_curated/rDibSmi1.hap1.cur.20241203.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpa1 to 2024-12-03 (curated)
+
+species/Dibamus_smithi/rDibSmi1/assembly_curated/rDibSmi1.hap1.decon.20241203.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Dibamus_smithi/rDibSmi1/assembly_curated/rDibSmi1.hap1.dup.20241203.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
+species/Dibamus_smithi/rDibSmi1/assembly_curated/rDibSmi1.hap2.cur.20241203.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpb1 to 2024-12-03 (curated)
+
+species/Dibamus_smithi/rDibSmi1/assembly_curated/rDibSmi1.hap2.decon.20241203.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Dibamus_smithi/rDibSmi1/assembly_curated/rDibSmi1.hap2.dup.20241203.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
 ----------
 Assemblies, pass 2: import summaries
 Import 'species/Dibamus_smithi/rDibSmi1/assembly_MT_rockefeller/rDibSmi1.MT.20240928.fasta.ctg.summary'
 Import 'species/Dibamus_smithi/rDibSmi1/assembly_MT_rockefeller/rDibSmi1.MT.20240928.fasta.scf.summary'
+Import 'species/Dibamus_smithi/rDibSmi1/assembly_curated/rDibSmi1.hap1.cur.20241203.fasta.ctg.summary'
+Import 'species/Dibamus_smithi/rDibSmi1/assembly_curated/rDibSmi1.hap1.cur.20241203.fasta.scf.summary'
+      hpa1 (curated) -> species (curated)
+Import 'species/Dibamus_smithi/rDibSmi1/assembly_curated/rDibSmi1.hap2.cur.20241203.fasta.ctg.summary'
+Import 'species/Dibamus_smithi/rDibSmi1/assembly_curated/rDibSmi1.hap2.cur.20241203.fasta.scf.summary'
+      hpb1 (curated) -> species (curated)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -16717,13 +16873,49 @@ Page Creation
 
 ----------------------------------------
 Processing species  Eudromia_elegans
-  with 10 files.
+  with 16 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
 
+species/Eudromia_elegans/bEudEle1/assembly_curated/bEudEle1.hap1.cur.20241128.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpa1 to 2024-11-28 (curated)
+
+species/Eudromia_elegans/bEudEle1/assembly_curated/bEudEle1.hap1.decon.20241128.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Eudromia_elegans/bEudEle1/assembly_curated/bEudEle1.hap1.dup.20241128.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
+species/Eudromia_elegans/bEudEle1/assembly_curated/bEudEle1.hap2.cur.20241128.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpb1 to 2024-11-28 (curated)
+
+species/Eudromia_elegans/bEudEle1/assembly_curated/bEudEle1.hap2.decon.20241128.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Eudromia_elegans/bEudEle1/assembly_curated/bEudEle1.hap2.dup.20241128.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
 ----------
 Assemblies, pass 2: import summaries
+Import 'species/Eudromia_elegans/bEudEle1/assembly_curated/bEudEle1.hap1.cur.20241128.fasta.ctg.summary'
+Import 'species/Eudromia_elegans/bEudEle1/assembly_curated/bEudEle1.hap1.cur.20241128.fasta.scf.summary'
+      hpa1 (curated) -> species (curated)
+Import 'species/Eudromia_elegans/bEudEle1/assembly_curated/bEudEle1.hap2.cur.20241128.fasta.ctg.summary'
+Import 'species/Eudromia_elegans/bEudEle1/assembly_curated/bEudEle1.hap2.cur.20241128.fasta.scf.summary'
+      hpb1 (curated) -> species (curated)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -22031,7 +22223,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Grampus_griseus
-  with 9 files.
+  with 15 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -22048,16 +22240,46 @@ species/Grampus_griseus/mGraGri1/assembly_cambridge/mGraGri1.hap2.asm.20240514.f
  - An assembly!   
  - Set hpb1 to 2024-05-14 (uncurated)
 
+species/Grampus_griseus/mGraGri1/assembly_curated/mGraGri1.hap1.cur.20241128.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpa1 to curated assembly 2024-11-28
+
+species/Grampus_griseus/mGraGri1/assembly_curated/mGraGri1.hap1.decon.20241128.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Grampus_griseus/mGraGri1/assembly_curated/mGraGri1.hap1.dup.20241128.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
+species/Grampus_griseus/mGraGri1/assembly_curated/mGraGri1.hap2.cur.20241128.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpb1 to curated assembly 2024-11-28
+
+species/Grampus_griseus/mGraGri1/assembly_curated/mGraGri1.hap2.decon.20241128.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Grampus_griseus/mGraGri1/assembly_curated/mGraGri1.hap2.dup.20241128.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
 ----------
 Assemblies, pass 2: import summaries
 Import 'species/Grampus_griseus/mGraGri1/assembly_MT_cambridge/mGraGri1.MT.20240514.fasta.ctg.summary'
 Import 'species/Grampus_griseus/mGraGri1/assembly_MT_cambridge/mGraGri1.MT.20240514.fasta.scf.summary'
-Import 'species/Grampus_griseus/mGraGri1/assembly_cambridge/mGraGri1.hap1.asm.20240514.fasta.ctg.summary'
-Import 'species/Grampus_griseus/mGraGri1/assembly_cambridge/mGraGri1.hap1.asm.20240514.fasta.scf.summary'
-      hpa1 (draft) -> species (draft)
-Import 'species/Grampus_griseus/mGraGri1/assembly_cambridge/mGraGri1.hap2.asm.20240514.fasta.ctg.summary'
-Import 'species/Grampus_griseus/mGraGri1/assembly_cambridge/mGraGri1.hap2.asm.20240514.fasta.scf.summary'
-      hpb1 (draft) -> species (draft)
+Import 'species/Grampus_griseus/mGraGri1/assembly_curated/mGraGri1.hap1.cur.20241128.fasta.ctg.summary'
+Import 'species/Grampus_griseus/mGraGri1/assembly_curated/mGraGri1.hap1.cur.20241128.fasta.scf.summary'
+      hpa1 (curated) -> species (curated)
+Import 'species/Grampus_griseus/mGraGri1/assembly_curated/mGraGri1.hap2.cur.20241128.fasta.ctg.summary'
+Import 'species/Grampus_griseus/mGraGri1/assembly_curated/mGraGri1.hap2.cur.20241128.fasta.scf.summary'
+      hpb1 (curated) -> species (curated)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -25606,7 +25828,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Larus_argentatus
-  with 11 files.
+  with 17 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -25623,16 +25845,46 @@ species/Larus_argentatus/bLarArg3/assembly_cambridge/bLarArg3.hap2.asm.20240513.
  - An assembly!   
  - Set hpb3 to 2024-05-13 (uncurated)
 
+species/Larus_argentatus/bLarArg3/assembly_curated/bLarArg3.hap1.cur.20241203.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpa3 to curated assembly 2024-12-03
+
+species/Larus_argentatus/bLarArg3/assembly_curated/bLarArg3.hap1.decon.20241203.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Larus_argentatus/bLarArg3/assembly_curated/bLarArg3.hap1.dup.20241203.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
+species/Larus_argentatus/bLarArg3/assembly_curated/bLarArg3.hap2.cur.20241203.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpb3 to curated assembly 2024-12-03
+
+species/Larus_argentatus/bLarArg3/assembly_curated/bLarArg3.hap2.decon.20241203.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Larus_argentatus/bLarArg3/assembly_curated/bLarArg3.hap2.dup.20241203.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
 ----------
 Assemblies, pass 2: import summaries
 Import 'species/Larus_argentatus/bLarArg3/assembly_MT_cambridge/bLarArg3.MT.20240513.fasta.ctg.summary'
 Import 'species/Larus_argentatus/bLarArg3/assembly_MT_cambridge/bLarArg3.MT.20240513.fasta.scf.summary'
-Import 'species/Larus_argentatus/bLarArg3/assembly_cambridge/bLarArg3.hap1.asm.20240513.fasta.ctg.summary'
-Import 'species/Larus_argentatus/bLarArg3/assembly_cambridge/bLarArg3.hap1.asm.20240513.fasta.scf.summary'
-      hpa3 (draft) -> species (draft)
-Import 'species/Larus_argentatus/bLarArg3/assembly_cambridge/bLarArg3.hap2.asm.20240513.fasta.ctg.summary'
-Import 'species/Larus_argentatus/bLarArg3/assembly_cambridge/bLarArg3.hap2.asm.20240513.fasta.scf.summary'
-      hpb3 (draft) -> species (draft)
+Import 'species/Larus_argentatus/bLarArg3/assembly_curated/bLarArg3.hap1.cur.20241203.fasta.ctg.summary'
+Import 'species/Larus_argentatus/bLarArg3/assembly_curated/bLarArg3.hap1.cur.20241203.fasta.scf.summary'
+      hpa3 (curated) -> species (curated)
+Import 'species/Larus_argentatus/bLarArg3/assembly_curated/bLarArg3.hap2.cur.20241203.fasta.ctg.summary'
+Import 'species/Larus_argentatus/bLarArg3/assembly_curated/bLarArg3.hap2.cur.20241203.fasta.scf.summary'
+      hpb3 (curated) -> species (curated)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -28090,13 +28342,33 @@ Page Creation
 
 ----------------------------------------
 Processing species  Mantella_aurantiaca
-  with 15 files.
+  with 20 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
 
+species/Mantella_aurantiaca/aManAur1/assembly_MT_rockefeller/aManAur1.MT.20241124.fasta.gz
+ - A mitochondrial assembly!
+ - Set mito1 to 2024-11-24 (uncurated)
+
+species/Mantella_aurantiaca/aManAur1/assembly_vgp_HiC_2.0/aManAur1.HiC.hap1.20241124.fasta.gz
+ - An assembly!   
+ - Set hpa1 to 2024-11-24 (uncurated)
+
+species/Mantella_aurantiaca/aManAur1/assembly_vgp_HiC_2.0/aManAur1.HiC.hap2.20241124.fasta.gz
+ - An assembly!   
+ - Set hpb1 to 2024-11-24 (uncurated)
+
 ----------
 Assemblies, pass 2: import summaries
+Import 'species/Mantella_aurantiaca/aManAur1/assembly_MT_rockefeller/aManAur1.MT.20241124.fasta.ctg.summary'
+Import 'species/Mantella_aurantiaca/aManAur1/assembly_MT_rockefeller/aManAur1.MT.20241124.fasta.scf.summary'
+Import 'species/Mantella_aurantiaca/aManAur1/assembly_vgp_HiC_2.0/aManAur1.HiC.hap1.20241124.fasta.ctg.summary'
+Import 'species/Mantella_aurantiaca/aManAur1/assembly_vgp_HiC_2.0/aManAur1.HiC.hap1.20241124.fasta.scf.summary'
+      hpa1 (draft) -> species (draft)
+Import 'species/Mantella_aurantiaca/aManAur1/assembly_vgp_HiC_2.0/aManAur1.HiC.hap2.20241124.fasta.ctg.summary'
+Import 'species/Mantella_aurantiaca/aManAur1/assembly_vgp_HiC_2.0/aManAur1.HiC.hap2.20241124.fasta.scf.summary'
+      hpb1 (draft) -> species (draft)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -31872,19 +32144,41 @@ Page Creation
 
 ----------------------------------------
 Processing species  Myuchelys_georgesi
-  with 6 files.
+  with 9 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
 
+species/Myuchelys_georgesi/rMyuGeo1/assembly_curated/rMyuGeo1.alt.cur.20241126.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set alt1 to 2024-11-26 (curated)
+
+species/Myuchelys_georgesi/rMyuGeo1/assembly_curated/rMyuGeo1.pri.cur.20241126.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set pri1 to 2024-11-26 (curated)
+
+species/Myuchelys_georgesi/rMyuGeo1/assembly_curated/rMyuGeo1.pri.cur.20241127.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Update pri1 to 2024-11-27 (curated)
+
 ----------
 Assemblies, pass 2: import summaries
+Import 'species/Myuchelys_georgesi/rMyuGeo1/assembly_curated/rMyuGeo1.alt.cur.20241126.fasta.ctg.summary'
+Import 'species/Myuchelys_georgesi/rMyuGeo1/assembly_curated/rMyuGeo1.alt.cur.20241126.fasta.scf.summary'
+Import 'species/Myuchelys_georgesi/rMyuGeo1/assembly_curated/rMyuGeo1.pri.cur.20241127.fasta.ctg.summary'
+Import 'species/Myuchelys_georgesi/rMyuGeo1/assembly_curated/rMyuGeo1.pri.cur.20241127.fasta.scf.summary'
+      pri1 (curated) -> species (curated)
 
 ----------
 Assemblies, pass 2: import metadata
 
 ----------
 Genomic Data, accumulation
+  arima.fastq     <- species/Myuchelys_georgesi/rMyuGeo1/genomic_data/arima/rMyuGeo1_forward_HiC.fastq.gz
+  arima.fastq     <- species/Myuchelys_georgesi/rMyuGeo1/genomic_data/arima/rMyuGeo1_reverse_HiC.fastq.gz
   hifi_fagz.2     <- species/Myuchelys_georgesi/rMyuGeo1/genomic_data/pacbio_hifi/rMyuGeo1_HiFi_SRR25606205.fastq.gz
 
 ----------
@@ -39844,7 +40138,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Polymixia_lowei
-  with 10 files.
+  with 17 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -39853,24 +40147,64 @@ species/Polymixia_lowei/fPolLow2/assembly_MT_rockefeller/fPolLow2.MT.20241021.fa
  - A mitochondrial assembly!
  - Set mito2 to 2024-10-21 (uncurated)
 
+species/Polymixia_lowei/fPolLow2/assembly_curated/fPolLow2.hap1.cur.20241127.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpa2 to 2024-11-27 (curated)
+
+species/Polymixia_lowei/fPolLow2/assembly_curated/fPolLow2.hap1.cur.20241203.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Update hpa2 to 2024-12-03 (curated)
+
+species/Polymixia_lowei/fPolLow2/assembly_curated/fPolLow2.hap1.decon.20241127.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Polymixia_lowei/fPolLow2/assembly_curated/fPolLow2.hap1.dup.20241127.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
+species/Polymixia_lowei/fPolLow2/assembly_curated/fPolLow2.hap2.cur.20241127.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Set hpb2 to 2024-11-27 (curated)
+
+species/Polymixia_lowei/fPolLow2/assembly_curated/fPolLow2.hap2.cur.20241203.fasta.gz
+ - An assembly!   
+ - Curated assembly!
+ - Update hpb2 to 2024-12-03 (curated)
+
+species/Polymixia_lowei/fPolLow2/assembly_curated/fPolLow2.hap2.decon.20241127.fasta.gz
+ - An assembly!   
+ - Decontaminated assembly!
+ - Ignore decontaminated assembly.
+
+species/Polymixia_lowei/fPolLow2/assembly_curated/fPolLow2.hap2.dup.20241127.fasta.gz
+ - An assembly!   
+ - Duplicate contigs.
+ - Ignore duplicate assembly.
+
 species/Polymixia_lowei/fPolLow2/assembly_vgp_HiC_2.0/fPolLow2.HiC.hap1.20241021.fasta.gz
  - An assembly!   
- - Set hpa2 to 2024-10-21 (uncurated)
+ - Ignore uncurated assembly.
 
 species/Polymixia_lowei/fPolLow2/assembly_vgp_HiC_2.0/fPolLow2.HiC.hap2.20241021.fasta.gz
  - An assembly!   
- - Set hpb2 to 2024-10-21 (uncurated)
+ - Ignore uncurated assembly.
 
 ----------
 Assemblies, pass 2: import summaries
 Import 'species/Polymixia_lowei/fPolLow2/assembly_MT_rockefeller/fPolLow2.MT.20241021.fasta.ctg.summary'
 Import 'species/Polymixia_lowei/fPolLow2/assembly_MT_rockefeller/fPolLow2.MT.20241021.fasta.scf.summary'
-Import 'species/Polymixia_lowei/fPolLow2/assembly_vgp_HiC_2.0/fPolLow2.HiC.hap1.20241021.fasta.ctg.summary'
-Import 'species/Polymixia_lowei/fPolLow2/assembly_vgp_HiC_2.0/fPolLow2.HiC.hap1.20241021.fasta.scf.summary'
-      hpa2 (draft) -> species (draft)
-Import 'species/Polymixia_lowei/fPolLow2/assembly_vgp_HiC_2.0/fPolLow2.HiC.hap2.20241021.fasta.ctg.summary'
-Import 'species/Polymixia_lowei/fPolLow2/assembly_vgp_HiC_2.0/fPolLow2.HiC.hap2.20241021.fasta.scf.summary'
-      hpb2 (draft) -> species (draft)
+Import 'species/Polymixia_lowei/fPolLow2/assembly_curated/fPolLow2.hap1.cur.20241203.fasta.ctg.summary'
+Import 'species/Polymixia_lowei/fPolLow2/assembly_curated/fPolLow2.hap1.cur.20241203.fasta.scf.summary'
+      hpa2 (curated) -> species (curated)
+Import 'species/Polymixia_lowei/fPolLow2/assembly_curated/fPolLow2.hap2.cur.20241203.fasta.ctg.summary'
+Import 'species/Polymixia_lowei/fPolLow2/assembly_curated/fPolLow2.hap2.cur.20241203.fasta.scf.summary'
+      hpb2 (curated) -> species (curated)
 
 ----------
 Assemblies, pass 2: import metadata
@@ -48409,7 +48743,7 @@ Page Creation
 
 ----------------------------------------
 Processing species  Taeniopygia_guttata
-  with 604 files.
+  with 684 files.
 
 ----------
 Assemblies, pass 1: remember the latest assembly
@@ -49176,6 +49510,54 @@ Genomic Data, accumulation
   arima.fastq     <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/arima/bTaeGut7_L1_S5_R2_001.fastq.gz
   illumina        <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/illumina/bTaeGut7-dna3_1.fastq.gz
   illumina        <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/illumina/bTaeGut7-dna3_2.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ligation/bTaeGut7_PAG68436_20230103.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ligation/bTaeGut7_PAG68436_20230103.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ligation/bTaeGut7_PAG68436_20230103.cat.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ligation/bTaeGut7_PAG68518_20230201.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ligation/bTaeGut7_PAG68518_20230201.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ligation/bTaeGut7_PAG68518_20230201.cat.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ligation/bTaeGut7_PAO37686_20230410.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ligation/bTaeGut7_PAO37686_20230410.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ligation/bTaeGut7_PAO37686_20230410.cat.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ligation/bTaeGut7_PAO38486_20230410.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ligation/bTaeGut7_PAO38486_20230410.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ligation/bTaeGut7_PAO38486_20230410.cat.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ligation/bTaeGut7_PAQ25082_20230710.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ligation/bTaeGut7_PAQ25082_20230710.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ligation/bTaeGut7_PAQ25082_20230710.cat.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAK14222_20230711.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAK14222_20230711.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAK14222_20230711.cat.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAK14465_20230418.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAK14465_20230418.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAK14465_20230418.cat.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAK14832_20230421.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAK14832_20230421.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAK14832_20230421.cat.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAQ16288_20230802.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAQ16288_20230802.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAQ16288_20230802.cat.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAQ16685_20230802.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAQ16685_20230802.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAQ16685_20230802.cat.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAQ88436_20240814.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAQ88436_20240814.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAQ88436_20240814.cat.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAS31068_20240815.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAS31068_20240815.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAS31068_20240815.cat.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAU98309_20240625.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAU98309_20240625.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAU98309_20240625.cat.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAW32901_20240814.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAW32901_20240814.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAW32901_20240814.cat.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAW61331_20240625.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAW61331_20240625.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAW61331_20240625.cat.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAW63621_20240814.100kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAW63621_20240814.40kbp.fastq.gz
+  ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAW63621_20240814.cat.fastq.gz
   ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong_runs/bTaeGut7.20240729.50kbp.fastq.gz
   ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong_runs/bTaeGut7_20250625_6.cat.UL.fastq.gz
   ont             <- species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong_runs/bTaeGut7_20250625_7.cat.UL.fastq.gz
@@ -52846,10 +53228,10 @@ Page Creation
 
 
 ----------------------------------------
-Found 183 species with no project ID assigned.
+Found 185 species with no project ID assigned.
 
 ----------------------------------------
-Potential errors found (not showing 32 data errors; see scan-bucket output):
+Potential errors found (not showing 62 data errors; see scan-bucket output):
     Filename 'species/Ammospiza_maritima/bAmmMai1/assembly_vgp_standard_2.0/bAmmMai1.standard.alt.20230512.fasta.gz' has 'alt' as second word; required 'cur' or 'asm'.
     Filename 'species/Ammospiza_maritima/bAmmMai1/assembly_vgp_standard_2.0/bAmmMai1.standard.pri.20230512.fasta.gz' has 'pri' as second word; required 'cur' or 'asm'.
     Filename 'species/Anolis_sagrei/rAnoSag1/assembly_curated/rAnoSag1.maternal.cur.20240226.fasta.gz' has 'maternal' as first word; required 'pri/alt', 'mat/pat', 'hap1/hap2' or 'dip'.
@@ -52957,14 +53339,16 @@ Potential errors found (not showing 32 data errors; see scan-bucket output):
     Unknown assembly file 'species/Acridotheres_tristis/bAcrTri1/assembly_MT_rockefeller/bAcrTri1.MT.20220617.fasta'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Amazona_ochrocephala/bAmaOch1/assembly_curated/bAmaOch1.HiC.combined.hificovg.bedgraph'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Amazona_ochrocephala/bAmaOch1/assembly_curated/bAmaOch1.HiC.combined.hificovg.bedgraph'; meta='' mito='0' assm='0'
-    Unknown assembly file 'species/Amblyopsis_spelaea/fAmbSpe1/assembly_MT_rockefeller/fAmbSpe1.MT.20241014.fasta.gz.fasta.gz'; meta='' mito='0' assm='0'
-    Unknown assembly file 'species/Amblyopsis_spelaea/fAmbSpe1/assembly_MT_rockefeller/fAmbSpe1.MT.20241014.fasta.gz.fasta.gz'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Amblyopsis_spelaea/fAmbSpe1/assembly_MT_rockefeller/fAmbSpe1.MT.20241014.genbank'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Amblyopsis_spelaea/fAmbSpe1/assembly_MT_rockefeller/fAmbSpe1.MT.20241014.genbank'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Anelosimus_studiosus/qqAneStud1/assembly_curated/trimmed_spider_s1y_mat.curated_primary.no_mt.unscrubbed.mod_X.fa.gz'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Anelosimus_studiosus/qqAneStud1/assembly_curated/trimmed_spider_s1y_mat.curated_primary.no_mt.unscrubbed.mod_X.fa.gz'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Anelosimus_studiosus/qqAneStud1/assembly_curated/trimmed_spider_s1y_pat.curated_primary.no_mt.unscrubbed.mod_X.fa.gz'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Anelosimus_studiosus/qqAneStud1/assembly_curated/trimmed_spider_s1y_pat.curated_primary.no_mt.unscrubbed.mod_X.fa.gz'; meta='' mito='0' assm='0'
+    Unknown assembly file 'species/Anniella_stebbinsi/rAnnSte1/assembly_genbank/rAnnSte1.hap1.GCA_029215775.1.fasta.gz'; meta='' mito='0' assm='0'
+    Unknown assembly file 'species/Anniella_stebbinsi/rAnnSte1/assembly_genbank/rAnnSte1.hap1.GCA_029215775.1.fasta.gz'; meta='' mito='0' assm='0'
+    Unknown assembly file 'species/Anniella_stebbinsi/rAnnSte1/assembly_genbank/rAnnSte1.hap2.GCA_029215795.1.fasta.gz'; meta='' mito='0' assm='0'
+    Unknown assembly file 'species/Anniella_stebbinsi/rAnnSte1/assembly_genbank/rAnnSte1.hap2.GCA_029215795.1.fasta.gz'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Anomaloglossus_baeobatrachus/aAnoBae1/assembly_curated/aAnoBae1.HiC.hap1.20230617.decon.fasta.gz'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Anomaloglossus_baeobatrachus/aAnoBae1/assembly_curated/aAnoBae1.HiC.hap1.20230617.decon.fasta.gz'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Anomaloglossus_baeobatrachus/aAnoBae1/assembly_curated/aAnoBae1.HiC.hap2.20230617.decon.fasta.gz'; meta='' mito='0' assm='0'
@@ -52977,6 +53361,10 @@ Potential errors found (not showing 32 data errors; see scan-bucket output):
     Unknown assembly file 'species/Artibeus_lituratus/mArtLit1/assembly_curated/mArtLit.hap1.cur.20230911.fasta.gz'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Artibeus_lituratus/mArtLit1/assembly_curated/mArtLit.hap2.cur.20230911.fasta.gz'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Artibeus_lituratus/mArtLit1/assembly_curated/mArtLit.hap2.cur.20230911.fasta.gz'; meta='' mito='0' assm='0'
+    Unknown assembly file 'species/Aspidoscelis_tigris/rAspTig1/assembly_genbank/rAspTig1.alt.GCA_023333555.1.fasta.gz'; meta='' mito='0' assm='0'
+    Unknown assembly file 'species/Aspidoscelis_tigris/rAspTig1/assembly_genbank/rAspTig1.alt.GCA_023333555.1.fasta.gz'; meta='' mito='0' assm='0'
+    Unknown assembly file 'species/Aspidoscelis_tigris/rAspTig1/assembly_genbank/rAspTig1.pri.GCA_023333525.1.fasta.gz'; meta='' mito='0' assm='0'
+    Unknown assembly file 'species/Aspidoscelis_tigris/rAspTig1/assembly_genbank/rAspTig1.pri.GCA_023333525.1.fasta.gz'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Bombina_bombina/aBomBom1/assembly_MT_rockefeller/aBomBom1.mito.20221117.fasta'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Bombina_bombina/aBomBom1/assembly_MT_rockefeller/aBomBom1.mito.20221117.fasta'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Branchiostoma_lanceolatum/klBraLanc5/treeval_testing/klBraLanc5.haps_combined.decontam.20230620.fasta.gz'; meta='' mito='0' assm='0'
@@ -53107,6 +53495,8 @@ Potential errors found (not showing 32 data errors; see scan-bucket output):
     Unknown assembly file 'species/Macropus_eugenii/mMacEug1/YAHS'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Macropus_eugenii/mMacEug1/assembly_sans_bionano/mMacEug1_sans_bionano_s2.fasta'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Macropus_eugenii/mMacEug1/assembly_sans_bionano/mMacEug1_sans_bionano_s2.fasta'; meta='' mito='0' assm='0'
+    Unknown assembly file 'species/Mantella_aurantiaca/aManAur1/assembly_MT_rockefeller/aManAur1.MT.20241124.genbank.gz'; meta='' mito='0' assm='0'
+    Unknown assembly file 'species/Mantella_aurantiaca/aManAur1/assembly_MT_rockefeller/aManAur1.MT.20241124.genbank.gz'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Mixophyes_fleayi/aMixFle1/assembly_curated/haplotigs.hap2.fa.gz'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Mixophyes_fleayi/aMixFle1/assembly_curated/haplotigs.hap2.fa.gz'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Molossus_alvarezi/mMolAlv2/assembly_vgp_HiC_2.0/mMolAlv2.HiC.hap1.decontam.231215.fasta.gz'; meta='' mito='0' assm='0'
@@ -53201,8 +53591,6 @@ Potential errors found (not showing 32 data errors; see scan-bucket output):
     Unknown assembly file 'species/Polymixia_cf_hollisterae/fPolHol1/assembly_curated/OG660_v240228.hic1.3.curated.hap1.chr_level.fa'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Polymixia_cf_hollisterae/fPolHol1/assembly_curated/OG660_v240228.hic1.3.curated.hap2.chr_level.fa'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Polymixia_cf_hollisterae/fPolHol1/assembly_curated/OG660_v240228.hic1.3.curated.hap2.chr_level.fa'; meta='' mito='0' assm='0'
-    Unknown assembly file 'species/Polymixia_lowei/fPolLow2/assembly_MT_rockefeller/fPolLow2.MT.20241021.fasta.gz.fasta.gz'; meta='' mito='0' assm='0'
-    Unknown assembly file 'species/Polymixia_lowei/fPolLow2/assembly_MT_rockefeller/fPolLow2.MT.20241021.fasta.gz.fasta.gz'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Polymixia_lowei/fPolLow2/assembly_MT_rockefeller/fPolLow2.MT.20241021.genbank'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Polymixia_lowei/fPolLow2/assembly_MT_rockefeller/fPolLow2.MT.20241021.genbank'; meta='' mito='0' assm='0'
     Unknown assembly file 'species/Pongo_abelii/mPonAbe1/assembly_curated/mPonAbe1_v2.0.2bit'; meta='' mito='0' assm='0'
@@ -53329,6 +53717,7 @@ Potential errors found (not showing 32 data errors; see scan-bucket output):
     Unknown metadata file 'species/Macropus_eugenii/mMacEug1/Sort'; meta='' mito='0' assm='0'
     Unknown metadata file 'species/Macropus_eugenii/mMacEug1/YAHS'; meta='' mito='0' assm='0'
     Unknown metadata file 'species/Macropus_eugenii/mMacEug1/YAHS'; meta='' mito='0' assm='0'
+    Unknown metadata file 'species/Mantella_aurantiaca/aManAur1/assembly_MT_rockefeller/aManAur1.MT.20241124.genbank.gz'; meta='' mito='0' assm='0'
     Unknown metadata file 'species/Myuchelys_georgesi/rMyuGeo1/README_rMyuGeo1.txt'; meta='' mito='0' assm='0'
     Unknown metadata file 'species/Neotoma_floridana/mNeoFlo1/assembly_MT_rockefeller/mNeoFlo1.MT.20241011.genbank'; meta='' mito='0' assm='0'
     Unknown metadata file 'species/Pan_paniscus/mPanPan1/assembly_curated/mPanPan1_v2.0.2bit'; meta='' mito='0' assm='0'

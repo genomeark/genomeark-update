@@ -1,15 +1,11 @@
 [+] Loading git 2.45.2  ... 
 [+] Loading Biowulf's aws v2.15.26 
-[+] Loading htslib v1.20 
-[+] Loading samtools v1.20 
+[+] Loading htslib v1.21 
+[+] Loading samtools v1.21 
 [+] Loading edirect  22.4.20240723 
 Fetching list of files in s3://genomeark/species/.
 Filtering AWS filenames.
- Create genomeark-metadata/species/Ctenodactylus_gundi.yaml.template (mCteGun)
- Create genomeark-metadata/species/Eudromia_elegans.yaml.template (bEudEle)
- Create genomeark-metadata/species/Fejervarya_limnocharis.yaml.template (aFejLim)
- Create genomeark-metadata/species/Lepidogalaxias_salamandroides.yaml.template (fLepSal)
- Create genomeark-metadata/species/Myuchelys_georgesi.yaml.template (rMyuGeo)
- Create genomeark-metadata/species/Tenrec_ecaudatus.yaml.template (mTenEca)
+ Create genomeark-metadata/species/Anniella_stebbinsi.yaml.template (rAnnSte)
+ Create genomeark-metadata/species/Aspidoscelis_tigris.yaml.template (rAspTig)
 Scanning bucket.
 Updating pages.
