@@ -3,7 +3,9 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mRhyPet1            126133073172               0      2147483648    225722526859      1494851229  species/Rhynchocyon_petersi/mRhyPet1/genomic_data/arima/mRhyPet1_L1_S2_R1_001.fastq.gz
+arima           mRhyPet1             58202495267               0      2147483648    113740044473       753245354  species/Rhynchocyon_petersi/mRhyPet1/genomic_data/arima/mRhyPet1_L1_S2_R1_001_part2.fastq.gz
 arima           mRhyPet1            131867060093               0      2147483648    228920742706      1516031470  species/Rhynchocyon_petersi/mRhyPet1/genomic_data/arima/mRhyPet1_L1_S2_R2_001.fastq.gz
+arima           mRhyPet1             61314727482               0      2147483648    114081148817       755504325  species/Rhynchocyon_petersi/mRhyPet1/genomic_data/arima/mRhyPet1_L1_S2_R2_001_part2.fastq.gz
 pacbiohifi_bam  mRhyPet1            195370604314               0      2147483648     44832910865         2286149  species/Rhynchocyon_petersi/mRhyPet1/genomic_data/pacbio_hifi/m84091_240117_192104_s3.hifi_reads.bc1008.bam
 pacbiohifi_fqgz mRhyPet1             27190241311               0      2147483648     44596771421         2276527  species/Rhynchocyon_petersi/mRhyPet1/genomic_data/pacbio_hifi/m84091_240117_192104_s3.hifi_reads.bc1008.fastq.gz
 pacbiohifi_bam  mRhyPet1            229235899856               0      2147483648     52939707578         3472776  species/Rhynchocyon_petersi/mRhyPet1/genomic_data/pacbio_hifi/m84091_240223_212643_s1.hifi_reads.bc1008.bam
@@ -16,7 +18,7 @@ pacbiohifi_fqgz mRhyPet1             36662483895               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           mRhyPet1          1.7533    452351633653
+arima           mRhyPet1          1.8462    914358009662
 pacbiohifi_bam  mRhyPet1          0.2292    163932033061
 pacbiohifi_fqgz mRhyPet1          1.7665    161849448850
 --------------- ---------------  ------- ---------------

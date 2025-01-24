@@ -5,7 +5,7 @@
 [+] Loading edirect  22.4.20240723 
 Fetching list of files in s3://genomeark/species/.
 Filtering AWS filenames.
- Create genomeark-metadata/species/Anniella_stebbinsi.yaml.template (rAnnSte)
- Create genomeark-metadata/species/Aspidoscelis_tigris.yaml.template (rAspTig)
+ Create genomeark-metadata/species/Squalus_suckleyi.yaml.template (sSquSuc)
+ Create genomeark-metadata/species/Zapus_hudsonius.yaml.template (mZapHud)
 Scanning bucket.
 Updating pages.

@@ -3,7 +3,9 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mUroPar1            134213867252               0      2147483648    244702777655      1620548258  species/Urocitellus_parryii/mUroPar1/genomic_data/arima/mUroPar1_L1_S5_R1_001.fastq.gz
+arima           mUroPar1             61363097686               0      2147483648    120231586752       796235702  species/Urocitellus_parryii/mUroPar1/genomic_data/arima/mUroPar1_L1_S5_R1_001_part2.fastq.gz
 arima           mUroPar1            142533895597               0      2147483648    245564089880      1626252250  species/Urocitellus_parryii/mUroPar1/genomic_data/arima/mUroPar1_L1_S5_R2_001.fastq.gz
+arima           mUroPar1             65212662284               0      2147483648    119179745200       789269835  species/Urocitellus_parryii/mUroPar1/genomic_data/arima/mUroPar1_L1_S5_R2_001_part2.fastq.gz
 pacbiohifi_bam  mUroPar1            315784565973               0      2147483648     72429750380         4327347  species/Urocitellus_parryii/mUroPar1/genomic_data/pacbio_hifi/m84091_240229_224058_s1.hifi_reads.bc1017.bam
 pacbiohifi_fqgz mUroPar1             41134818989               0      2147483648     72669304889         4335595  species/Urocitellus_parryii/mUroPar1/genomic_data/pacbio_hifi/m84091_240229_224058_s1.hifi_reads.bc1017.fastq.gz
 pacbiohifi_bam  mUroPar1            291639064560               0      2147483648     67580329046         4038705  species/Urocitellus_parryii/mUroPar1/genomic_data/pacbio_hifi/m84091_240313_190758_s2.hifi_reads.bc1017.bam
@@ -17,7 +19,7 @@ arima           mUroPar3             21885104124               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           mUroPar1          1.7549    485664649023
+arima           mUroPar1          1.8563    979174905046
 arima           mUroPar3          1.7597    203896462034
 pacbiohifi_bam  mUroPar1          0.2301    139768177385
 pacbiohifi_fqgz mUroPar1          1.7810    139534964074

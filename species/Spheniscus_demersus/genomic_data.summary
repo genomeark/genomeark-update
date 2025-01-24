@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bSphDem1            181691011968               0      2147483648     51058003849         3493401  species/Spheniscus_demersus/bSphDem1/genomic_data/pacbio_hifi/m84203_241209_232624_s4.hifi_reads.bc1018.bam
+pacbiohifi_fqgz bSphDem1             26065020683               0      2147483648     50173067054         3754374  species/Spheniscus_demersus/bSphDem1/genomic_data/pacbio_hifi/m84203_241209_232624_s4.hifi_reads.bc1018.fastq.gz
+pacbiohifi_bam  bSphDem1            181257202390               0      2147483648     51627705246         3464634  species/Spheniscus_demersus/bSphDem1/genomic_data/pacbio_hifi/m84203_241213_232321_s2.hifi_reads.bc1018.bam
+pacbiohifi_fqgz bSphDem1             25539360038               0      2147483648     50576189542         3803413  species/Spheniscus_demersus/bSphDem1/genomic_data/pacbio_hifi/m84203_241213_232321_s2.hifi_reads.bc1018.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bSphDem1          0.2822    102423986091
+pacbiohifi_fqgz bSphDem1          1.9431    100272472178
+--------------- ---------------  ------- ---------------

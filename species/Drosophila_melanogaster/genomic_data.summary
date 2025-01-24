@@ -2,6 +2,9 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        idDroMela1            4390326910               0      2147483648      8059102644        53371540  species/Drosophila_melanogaster/idDroMela1/genomic_data/dovetail/Iso1_6_S33_R1_001.fastq.gz
+dovetail        idDroMela1            4690703512               0      2147483648      8099888019        53641644  species/Drosophila_melanogaster/idDroMela1/genomic_data/dovetail/Iso1_6_S33_R2_001.fastq.gz
+dovetail        idDroMela1            3767877427               0      3767877427      6555706676        43415276  species/Drosophila_melanogaster/idDroMela1/genomic_data/dovetail/Iso1_7_S34_R2_001.fastq.gz
 ont             idDroMela1           75546612263               0      2147483648     84311993075         5412766  species/Drosophila_melanogaster/idDroMela1/genomic_data/ont/PAG68780_R1041_guppy-6.3.9-sup.fastq.gz
 ont             idDroMela1           24989947869               0      2147483648     28344392674         1970409  species/Drosophila_melanogaster/idDroMela1/genomic_data/ont/PAK47931_R941_guppy-6.3.9-sup.fastq.gz
 ont             idDroMela1           37676068731               0      2147483648     44689965146         2661854  species/Drosophila_melanogaster/idDroMela1/genomic_data/ont/PAM23818_R941_guppy-6.3.9-sup.fastq.gz
@@ -32,6 +35,7 @@ pacbiohifi_bam  idDroMela2            4924587037               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+dovetail        idDroMela1        1.7678     28929585116
 ont             idDroMela1        1.1384    157341256697
 pacbiohifi_bam  idDroMela1        0.3895    247053387184
 pacbiohifi_bam  idDroMela2        0.2340    105551293463

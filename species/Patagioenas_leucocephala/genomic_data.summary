@@ -4,6 +4,10 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bPatLeu1             26125181043               0      2147483648     49584144358       328371816  species/Patagioenas_leucocephala/bPatLeu1/genomic_data/arima/bPatLeu1_L1_R1.fastq.gz
 arima           bPatLeu1             26819994702               0      2147483648     50752294466       336107922  species/Patagioenas_leucocephala/bPatLeu1/genomic_data/arima/bPatLeu1_L1_R2.fastq.gz
+pacbiohifi_bam  bPatLeu1            155462161872               0      2147483648     48156963796         3309505  species/Patagioenas_leucocephala/bPatLeu1/genomic_data/pacbio_hifi/m84091_241125_223418_s3.hifi_reads.bc1010.bam
+pacbiohifi_fqgz bPatLeu1             23999337602               0      2147483648     46485173073         3232754  species/Patagioenas_leucocephala/bPatLeu1/genomic_data/pacbio_hifi/m84091_241125_223418_s3.hifi_reads.bc1010.fastq.gz
+pacbiohifi_bam  bPatLeu1            162506541235               0      2147483648     46657887331         2723849  species/Patagioenas_leucocephala/bPatLeu1/genomic_data/pacbio_hifi/m84203_241213_212401_s1.hifi_reads.bc1010.bam
+pacbiohifi_fqgz bPatLeu1             22691178823               0      2147483648     44408009932         2758010  species/Patagioenas_leucocephala/bPatLeu1/genomic_data/pacbio_hifi/m84203_241213_212401_s1.hifi_reads.bc1010.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +15,6 @@ arima           bPatLeu1             26819994702               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bPatLeu1          1.8941    100283457378
+pacbiohifi_bam  bPatLeu1          0.2944     93609986194
+pacbiohifi_fqgz bPatLeu1          1.9433     90733680568
 --------------- ---------------  ------- ---------------

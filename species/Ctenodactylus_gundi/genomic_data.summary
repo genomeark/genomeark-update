@@ -4,6 +4,12 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mCteGun2             71063501642               0      2147483648    125067940406       828264506  species/Ctenodactylus_gundi/mCteGun2/genomic_data/arima/mCteGun2_L1_S2_R1_001.fastq.gz
 arima           mCteGun2             71126889871               0      2147483648    126406938663       837132077  species/Ctenodactylus_gundi/mCteGun2/genomic_data/arima/mCteGun2_L1_S2_R2_001.fastq.gz
+pacbiohifi_bam  mCteGun2            143946613551               0      2147483648     40395709261         2935058  species/Ctenodactylus_gundi/mCteGun2/genomic_data/pacbio_hifi/m84091_241205_200030_s3.hifi_reads.bc1009.bam
+pacbiohifi_fqgz mCteGun2             20283827418               0      2147483648     39870143123         2991724  species/Ctenodactylus_gundi/mCteGun2/genomic_data/pacbio_hifi/m84091_241205_200030_s3.hifi_reads.bc1009.fastq.gz
+pacbiohifi_bam  mCteGun2            125556106685               0      2147483648     35784940629         2583113  species/Ctenodactylus_gundi/mCteGun2/genomic_data/pacbio_hifi/m84091_241209_173302_s1.hifi_reads.bc1009.bam
+pacbiohifi_fqgz mCteGun2             17097772058               0      2147483648     35400694274         2630330  species/Ctenodactylus_gundi/mCteGun2/genomic_data/pacbio_hifi/m84091_241209_173302_s1.hifi_reads.bc1009.fastq.gz
+pacbiohifi_bam  mCteGun2            122533283347               0      2147483648     33247261480         4503724  species/Ctenodactylus_gundi/mCteGun2/genomic_data/pacbio_hifi/m84203_241101_224047_s1.hifi_reads.bc1009.bam
+pacbiohifi_fqgz mCteGun2             15403010342               0      2147483648     32803765575         5319318  species/Ctenodactylus_gundi/mCteGun2/genomic_data/pacbio_hifi/m84203_241101_224047_s1.hifi_reads.bc1009.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +17,6 @@ arima           mCteGun2             71126889871               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mCteGun2          1.7714    251876059526
+pacbiohifi_bam  mCteGun2          0.2791    121591036577
+pacbiohifi_fqgz mCteGun2          2.0474    119343296422
 --------------- ---------------  ------- ---------------

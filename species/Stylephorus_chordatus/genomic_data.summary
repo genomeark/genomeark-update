@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fStyCho2             14336687934               0      2147483648     25244029650       167179010  species/Stylephorus_chordatus/fStyCho2/genomic_data/arima/fStyCho2_S3_R1_001.fastq.gz
+arima           fStyCho2             14474465431               0      2147483648     25355486475       167917135  species/Stylephorus_chordatus/fStyCho2/genomic_data/arima/fStyCho2_S3_R2_001.fastq.gz
 pacbiohifi_bam  fStyCho2            159754038553               0      2147483648     44902595500         4104538  species/Stylephorus_chordatus/fStyCho2/genomic_data/pacbio_hifi/m84203_240811_025710_s3.hifi_reads.bc1018.bam
 pacbiohifi_fqgz fStyCho2             20709391279               0      2147483648     42712972786         4745047  species/Stylephorus_chordatus/fStyCho2/genomic_data/pacbio_hifi/m84203_240811_025710_s3.hifi_reads.bc1018.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz fStyCho2             20709391279               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fStyCho2          1.7547     50554930809
 pacbiohifi_bam  fStyCho2          0.2810     44890884833
 pacbiohifi_fqgz fStyCho2          2.0624     42711048573
 --------------- ---------------  ------- ---------------

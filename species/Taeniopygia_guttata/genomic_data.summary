@@ -63,6 +63,9 @@ illumina        bTaeGut7             28546890967               0      2147483648
 ont             bTaeGut7              8209417280               0      2147483648      9030262509          145599  species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAK14222_20230711.40kbp.fastq.gz
 ont             bTaeGut7              3573753460               0      3573753460      4013090347           30141  species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAK14832_20230421.100kbp.fastq.gz
 ont             bTaeGut7             19588925319               0      2147483648     20627041456          292955  species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/bTaeGut7_PAQ16288_20230802.40kbp.fastq.gz
+ont             bTaeGut7              8209417280               0      2147483648      9030262509          145599  species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/filtered_40kbp/uncorrected/bTaeGut7_PAK14222_20230711.40kbp.fastq.gz
+ont             bTaeGut7              3436214715               0      3436214715      3712336302           66339  species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/filtered_40kbp/uncorrected/bTaeGut7_PAQ88436_20240814.40kbp.fastq.gz
+ont             bTaeGut7             19415994092               0      2147483648     20723585702         1063416  species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong/raw/uncorrected/bTaeGut7_PAW63621_20240814.raw.fastq.gz
 ont             bTaeGut7             20169245297               0      2147483648     20627411154         1121550  species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong_runs/bTaeGut7_PAK14222_07112023.cat.fastq.gz
 ont             bTaeGut7             15401940095               0      2147483648     15690443092         1010683  species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong_runs/bTaeGut7_PAK14832_04182023/bTaeGut7_PAK14832_04182023.cat.fastq.gz
 ont             bTaeGut7              4868280166               0      2147483648      5246890176           39447  species/Taeniopygia_guttata/bTaeGut7/genomic_data/ont/ultralong_runs/bTaeGut7_PAQ16685_20230802.cat.UL.fastq.gz
@@ -101,7 +104,7 @@ illumina        bTaeGut4          1.7409     68240259134
 illumina        bTaeGut7          2.0343    114015995762
 illumina        bTaeGut8          1.9593     50870198478
 illumina        bTaeGut9          1.9395     76249085520
-ont             bTaeGut7          1.0732    960891035659
+ont             bTaeGut7          1.0774    607603179264
 pacbio          bTaeGut1          0.2602    109724303514
 pacbio          bTaeGut2          0.5228    102056576361
 pacbio          bTaeGut6          0.5257    139762027973

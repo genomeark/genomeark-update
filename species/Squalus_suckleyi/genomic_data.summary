@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           sSquSuc3            128309286812               0      2147483648    231535752944      1533349357  species/Squalus_suckleyi/sSquSuc3/genomic_data/arima/sSquSuc5_L2_S4_R1_001.fastq.gz
+arima           sSquSuc3            132037391830               0      2147483648    232538896784      1539992693  species/Squalus_suckleyi/sSquSuc3/genomic_data/arima/sSquSuc5_L2_S4_R2_001.fastq.gz
+pacbiohifi_bam  sSquSuc3            173011977668               0      2147483648     50117798214         3074520  species/Squalus_suckleyi/sSquSuc3/genomic_data/pacbio_hifi/m84091_241101_162039_s3.hifi_reads.bc1022.bam
+pacbiohifi_fqgz sSquSuc3             22375088449               0      2147483648     49130059398         3600129  species/Squalus_suckleyi/sSquSuc3/genomic_data/pacbio_hifi/m84091_241101_162039_s3.hifi_reads.bc1022.fastq.gz
+pacbiohifi_bam  sSquSuc3             90674208648               0      2147483648     26418929450         1745095  species/Squalus_suckleyi/sSquSuc3/genomic_data/pacbio_hifi/m84091_241101_181952_s4.hifi_reads.bc1022.bam
+pacbiohifi_fqgz sSquSuc3             27104281378               0      2147483648     52646791455         4647962  species/Squalus_suckleyi/sSquSuc3/genomic_data/pacbio_hifi/m84091_241104_190929_s1.hifi_reads.bc1022.fastq.gz
+pacbiohifi_bam  sSquSuc3            151348062842               0      2147483648     42311251603         2948261  species/Squalus_suckleyi/sSquSuc3/genomic_data/pacbio_hifi/m84091_241209_193211_s2.hifi_reads.bc1022.bam
+pacbiohifi_fqgz sSquSuc3             19095063268               0      2147483648     34764422110         1986888  species/Squalus_suckleyi/sSquSuc3/genomic_data/pacbio_hifi/m84091_241214_011827_s3.hifi_reads.bc1022.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           sSquSuc3          1.7753    462193458593
+pacbiohifi_bam  sSquSuc3          0.2863    219430177355
+pacbiohifi_fqgz sSquSuc3          1.9911    256054216331
+--------------- ---------------  ------- ---------------

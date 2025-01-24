@@ -23,6 +23,9 @@ pacbiohifi_bam  mHooLeu1            157049237165               0      2147483648
 pacbiohifi_fqgz mHooLeu1             33789746254               0      2147483648     41945602480         2152112  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m64076_230421_164836-bc2040.hifi_reads.5mC.fq.gz
 pacbiohifi_clr  mHooLeu1           1160593833345               0      2147483648    625415215518        34423015  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m64076_230421_164836.subreads.bam
 pacbiohifi_clr  mHooLeu1            336002249351               0      2147483648    120587856433         5852038  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/r64076_20230418_214037_C01.reads.bam
+ont             mHooLeu2             15324209332               0      2147483648     18260744412          432663  species/Hoolock_leuconedys/mHooLeu2/genomic_data/ont/PBA00227_dorado-7.4.14.fq.gz
+ont             mHooLeu2             16569833642               0      2147483648     19788169491          428465  species/Hoolock_leuconedys/mHooLeu2/genomic_data/ont/PBA02043_dorado-7.4.14.fq.gz
+ont             mHooLeu2             53553936798               0      2147483648     64545717441         1330890  species/Hoolock_leuconedys/mHooLeu2/genomic_data/ont/PBA94138_dorado-7.4.14.fq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -32,6 +35,7 @@ pacbiohifi_clr  mHooLeu1            336002249351               0      2147483648
 dovetail        mHooLeu1          1.5908    144595956873
 illumina        mHooLeu1          1.9525    372570317971
 ont             mHooLeu1          1.1385    246601862299
+ont             mHooLeu2          1.2006    202076618343
 pacbiohifi_bam  mHooLeu1          0.2668    482335233982
 pacbiohifi_clr  mHooLeu1          0.5163   4619949185010
 pacbiohifi_fqgz mHooLeu1          1.2802    242174856838

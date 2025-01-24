@@ -5,6 +5,9 @@
 arima           rMyuGeo1             37002608229               0      2147483648     84729121254       561120025  species/Myuchelys_georgesi/rMyuGeo1/genomic_data/arima/rMyuGeo1_forward_HiC.fastq.gz
 arima           rMyuGeo1             38456345977               0      2147483648     85714406675       567645095  species/Myuchelys_georgesi/rMyuGeo1/genomic_data/arima/rMyuGeo1_reverse_HiC.fastq.gz
 pacbiohifi_fqgz rMyuGeo1             38484501864               0      2147483648     50380578787         3711833  species/Myuchelys_georgesi/rMyuGeo1/genomic_data/pacbio_hifi/rMyuGeo1_HiFi_SRR25606205.fastq.gz
+pacbiohifi_fqgz rMyuGeo1             38484501864               0      2147483648     50380578787         3711833  species/Myuchelys_georgesi/rMyuGeo1/genomic_data/pacbio_hifi/rMyuGeo1_SRR25606205.hifi_reads.fastq.gz
+arima           rMyuGeo2             37002608229               0      2147483648     84729121254       561120025  species/Myuchelys_georgesi/rMyuGeo2/genomic_data/arima/rMyuGeo2_SRR25606201_R1.fastq.gz
+arima           rMyuGeo2             38456345977               0      2147483648     85714406675       567645095  species/Myuchelys_georgesi/rMyuGeo2/genomic_data/arima/rMyuGeo2_SRR25606201_R2.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,5 +15,6 @@ pacbiohifi_fqgz rMyuGeo1             38484501864               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           rMyuGeo1          2.2486    169677004427
+arima           rMyuGeo2          2.2486    169677004427
 pacbiohifi_fqgz rMyuGeo1          1.3091     50380061390
 --------------- ---------------  ------- ---------------

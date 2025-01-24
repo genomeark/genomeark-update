@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_fqgz keBalMisa1            8177361096               0      2147483648     17353136520          913815  species/Balanoglossus_misakiensis/keBalMisa1/genomic_data/pacbio_hifi/keBalMisa1_SRR29788415.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_fqgz keBalMisa1        2.1220     17352360245
+--------------- ---------------  ------- ---------------
