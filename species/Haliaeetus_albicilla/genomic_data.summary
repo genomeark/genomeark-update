@@ -5,6 +5,7 @@
 arima           bHalAlb1             30209819069               0      2147483648     89343806902       591680840  species/Haliaeetus_albicilla/bHalAlb1/genomic_data/arima/bHalAlb1_45762_1#3.cram
 pacbiohifi_bam  bHalAlb1             21645409771               0      2147483648     31454377730         1809398  species/Haliaeetus_albicilla/bHalAlb1/genomic_data/pacbio_hifi/m64077_211123_154644.ccs.bam
 pacbiohifi_bam  bHalAlb1             22185247768               0      2147483648     31598911073         1820361  species/Haliaeetus_albicilla/bHalAlb1/genomic_data/pacbio_hifi/m64204e_211118_103941.ccs.bam
+pacbiohifi_bam  bHalAlb2              7201333484               0      2147483648     20918096973         1615139  species/Haliaeetus_albicilla/bHalAlb2/genomic_data/pacbio_hifi/m84098_241022_104424_s1.ccs.bc2061.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -13,4 +14,5 @@ pacbiohifi_bam  bHalAlb1             22185247768               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           bHalAlb1          2.9574     89342518914
 pacbiohifi_bam  bHalAlb1          1.4337     62840013713
+pacbiohifi_bam  bHalAlb2          2.9047     20917713370
 --------------- ---------------  ------- ---------------

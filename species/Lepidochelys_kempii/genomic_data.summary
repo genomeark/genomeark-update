@@ -4,9 +4,15 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 dovetail        rLepKem1             29347588756               0      2147483648     53060133428       351391625  species/Lepidochelys_kempii/rLepKem1/genomic_data/dovetail/rLepKem1_L2_1.fastq.gz
 dovetail        rLepKem1             30205957543               0      2147483648     52615121581       348444513  species/Lepidochelys_kempii/rLepKem1/genomic_data/dovetail/rLepKem1_L2_2.fastq.gz
+pacbiohifi_bam  rLepKem1             54500062206               0      2147483648     14779663498          765519  species/Lepidochelys_kempii/rLepKem1/genomic_data/pacbio_hifi/m54306Ue_220424_014644.demultiplex.bc1010--bc1010.bam
 pacbiohifi_fqgz rLepKem1             12491131268               0      2147483648     14796086312          761740  species/Lepidochelys_kempii/rLepKem1/genomic_data/pacbio_hifi/m54306Ue_220424_014644.hifi_reads.fastq.gz
+pacbiohifi_clr  rLepKem1            115667648906               0      2147483648     45069739294         2763117  species/Lepidochelys_kempii/rLepKem1/genomic_data/pacbio_hifi/m54306Ue_220424_014644.reads.bam
 pacbiohifi_fqgz rLepKem1             18140782063               0      2147483648     19488974197          982093  species/Lepidochelys_kempii/rLepKem1/genomic_data/pacbio_hifi/m64055e_220509_012904.hifi_reads.fastq.gz
+pacbiohifi_clr  rLepKem1            184460482217               0      2147483648     74373445909         3654965  species/Lepidochelys_kempii/rLepKem1/genomic_data/pacbio_hifi/m64055e_220509_012904.reads.bam
+pacbiohifi_bam  rLepKem1             74756669548               0      2147483648     19373578106         1022337  species/Lepidochelys_kempii/rLepKem1/genomic_data/pacbio_hifi/m64330e_220404_160432.demultiplex.bc1010--bc1010.bam
+pacbiohifi_bam  rLepKem1             53144509632               0      2147483648     13856217469          706214  species/Lepidochelys_kempii/rLepKem1/genomic_data/pacbio_hifi/m64334e_220501_021846.demultiplex.bc1010--bc1010.bam
 pacbiohifi_fqgz rLepKem1             13175278273               0      2147483648     13914646193          703715  species/Lepidochelys_kempii/rLepKem1/genomic_data/pacbio_hifi/m64334e_220501_021846.hifi_reads.fastq.gz
+pacbiohifi_clr  rLepKem1            200392109354               0      2147483648     88858581290         4142712  species/Lepidochelys_kempii/rLepKem1/genomic_data/pacbio_hifi/m64334e_220501_021846.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,5 +20,7 @@ pacbiohifi_fqgz rLepKem1             13175278273               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 dovetail        rLepKem1          1.7634    105016723543
+pacbiohifi_bam  rLepKem1          0.2632     75658035205
+pacbiohifi_clr  rLepKem1          0.4161    319935084226
 pacbiohifi_fqgz rLepKem1          1.1002     75826439577
 --------------- ---------------  ------- ---------------

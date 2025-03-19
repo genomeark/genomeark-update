@@ -2,3 +2,10 @@ downloads/
 species/*/*/genomic_data/*/[0-9]*bytes*summary
 species/*/*/genomic_data/*/*/[0-9]*bytes*summary
 species/*/*/genomic_data/*/*/*/[0-9]*bytes*summary
+all_assemblies_with_dates.092324.txt
+all_species.txt
+first_species.txt
+first_species_assemblies_with_dates.092324.txt
+oldlogs/*
+sh.make_assembly_table_from_scanbucket_output
+

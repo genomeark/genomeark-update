@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rMacScw1             61498564204               0      2147483648    201640355773      1335366594  species/Macrovipera_schweizeri/rMacScw1/genomic_data/arima/rMacScw1_49994_6#5.cram
+pacbiohifi_bam  rMacScw1             28822483050               0      2147483648     78507621918         7009627  species/Macrovipera_schweizeri/rMacScw1/genomic_data/pacbio_hifi/m84093_241225_111916_s4.ccs.bc2012.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rMacScw1          3.2787    201635342455
+pacbiohifi_bam  rMacScw1          2.7238     78506679331
+--------------- ---------------  ------- ---------------

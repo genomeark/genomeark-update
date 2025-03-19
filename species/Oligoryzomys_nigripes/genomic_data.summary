@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mOliNig2            166512330641               0      2147483648     47752628516         4775664  species/Oligoryzomys_nigripes/mOliNig2/genomic_data/pacbio_hifi/m84091_240906_224152_s4.hifi_reads.bc1003.bam
+pacbiohifi_fqgz mOliNig2             22337788690               0      2147483648     45599742765         4496040  species/Oligoryzomys_nigripes/mOliNig2/genomic_data/pacbio_hifi/m84091_240906_224152_s4.hifi_reads.bc1003.fastq.gz
+pacbiohifi_bam  mOliNig2            133775205296               0      2147483648     37311676681         3250746  species/Oligoryzomys_nigripes/mOliNig2/genomic_data/pacbio_hifi/m84203_241223_224227_s3.hifi_reads.bc1003.bam
+pacbiohifi_fqgz mOliNig2             18536549854               0      2147483648     35800843834         3378571  species/Oligoryzomys_nigripes/mOliNig2/genomic_data/pacbio_hifi/m84203_241223_224227_s3.hifi_reads.bc1003.fastq.gz
+pacbiohifi_bam  mOliNig2            232329766289               0      2147483648     67546115111         4062312  species/Oligoryzomys_nigripes/mOliNig2/genomic_data/pacbio_hifi/m84203_250226_001722_s4.hifi_reads.bc1003.bam
+pacbiohifi_fqgz mOliNig2             31232984308               0      2147483648     65446189615         4240373  species/Oligoryzomys_nigripes/mOliNig2/genomic_data/pacbio_hifi/m84203_250226_001722_s4.hifi_reads.bc1003.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mOliNig2          0.2865    179691171287
+pacbiohifi_fqgz mOliNig2          2.0365    180741939513
+--------------- ---------------  ------- ---------------

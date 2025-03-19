@@ -1,0 +1,23 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPteMes1             26859178730               0      2147483648     43501987531       289025737  species/Pteronotus_mesoamericanus/mPteMes1/genomic_data/arima/mPteMes1_HR_arima_1.2.fastq.gz
+arima           mPteMes1             30565371174               0      2147483648     54882741582       364666954  species/Pteronotus_mesoamericanus/mPteMes1/genomic_data/arima/mPteMes1_HR_arima_2.1.fastq.gz
+arima           mPteMes1             32864235926               0      2147483648     53441882515       355052115  species/Pteronotus_mesoamericanus/mPteMes1/genomic_data/arima/mPteMes1_HR_arima_2.2.fastq.gz
+pacbiohifi_bam  mPteMes1            134209784350               0      2147483648     36862037885         2398608  species/Pteronotus_mesoamericanus/mPteMes1/genomic_data/pacbio_hifi/mPteMes1_m64326e_220806_153324.hifi_reads.bam
+pacbiohifi_fqgz mPteMes1             28067728527               0      2147483648     36893187064         2401857  species/Pteronotus_mesoamericanus/mPteMes1/genomic_data/pacbio_hifi/mPteMes1_m64326e_220806_153324.hifi_reads.fastq.gz
+pacbiohifi_bam  mPteMes1            137544240283               0      2147483648     37292713075         2417210  species/Pteronotus_mesoamericanus/mPteMes1/genomic_data/pacbio_hifi/mPteMes1_m64326e_220817_204405.hifi_reads.bam
+pacbiohifi_fqgz mPteMes1             29554012172               0      2147483648     37445193677         2422718  species/Pteronotus_mesoamericanus/mPteMes1/genomic_data/pacbio_hifi/mPteMes1_m64326e_220817_204405.hifi_reads.fastq.gz
+pacbiohifi_bam  mPteMes1            133134144310               0      2147483648     35539679369         2295380  species/Pteronotus_mesoamericanus/mPteMes1/genomic_data/pacbio_hifi/mPteMes1_m64326e_220819_073842.hifi_reads.bam
+pacbiohifi_fqgz mPteMes1             29344703014               0      2147483648     35601428524         2305739  species/Pteronotus_mesoamericanus/mPteMes1/genomic_data/pacbio_hifi/mPteMes1_m64326e_220819_073842.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mPteMes1          1.6815    193355658640
+pacbiohifi_bam  mPteMes1          0.2709    139161937549
+pacbiohifi_fqgz mPteMes1          1.2641    138705708301
+--------------- ---------------  ------- ---------------

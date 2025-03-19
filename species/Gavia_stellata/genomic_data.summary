@@ -4,6 +4,9 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bGavSte3             39128170402               0      2147483648     76815271966       508710428  species/Gavia_stellata/bGavSte3/genomic_data/arima/bGavSte3_L1_S1_R1_001.fastq.gz
 arima           bGavSte3             41910268577               0      2147483648     76800880809       508615124  species/Gavia_stellata/bGavSte3/genomic_data/arima/bGavSte3_L1_S1_R2_001.fastq.gz
+pacbiohifi_fqgz bGavSte3             14264442349               0      2147483648     24313715978         1543095  species/Gavia_stellata/bGavSte3/genomic_data/pacbio_hifi/deepconsensus/m64330e_220929_153519.dc.q0.fastq.gz
+pacbiohifi_fqgz bGavSte3             16127037597               0      2147483648     26832356242         1718295  species/Gavia_stellata/bGavSte3/genomic_data/pacbio_hifi/deepconsensus/m64334e_221005_170430.dc.q0.fastq.gz
+pacbiohifi_fqgz bGavSte3             15938647806               0      2147483648     26582601135         1701147  species/Gavia_stellata/bGavSte3/genomic_data/pacbio_hifi/deepconsensus/m64334e_221005_170430.dc.q20.fastq.gz
 pacbiohifi_fqgz bGavSte3             15110803494               0      2147483648     20153354851         1284143  species/Gavia_stellata/bGavSte3/genomic_data/pacbio_hifi/m64330e_220929_153519.bc1011--bc1011.hifi_reads.fastq.gz
 pacbiohifi_bam  bGavSte3             76469264335               0      2147483648     21219271867         1376706  species/Gavia_stellata/bGavSte3/genomic_data/pacbio_hifi/m64330e_220929_153519.hifi_reads.bam
 pacbiohifi_clr  bGavSte3            868497034275               0      2147483648    465628271774        29504049  species/Gavia_stellata/bGavSte3/genomic_data/pacbio_hifi/m64330e_220929_153519.subreads.bam
@@ -27,5 +30,5 @@ pacbiohifi_bam  bGavSte3          0.2755    128517893677
 pacbiohifi_bam  bGavSte4          2.9001     70996654561
 pacbiohifi_bam  bGavSte5          1.7554     13495703808
 pacbiohifi_clr  bGavSte3          0.5352    971546363126
-pacbiohifi_fqgz bGavSte3          1.2994     40977428611
+pacbiohifi_fqgz bGavSte3          1.6777    154312255835
 --------------- ---------------  ------- ---------------

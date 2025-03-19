@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mRucEld1            215677779059               0      2147483648     61941982865         4348036  species/Rucervus_eldii/mRucEld1/genomic_data/pacbio_hifi/m84091_250208_023037_s3.hifi_reads.bc1001.bam
+pacbiohifi_fqgz mRucEld1             28175152247               0      2147483648     58530787850         4215690  species/Rucervus_eldii/mRucEld1/genomic_data/pacbio_hifi/m84091_250208_023037_s3.hifi_reads.bc1001.fastq.gz
+pacbiohifi_bam  mRucEld1            258095902392               0      2147483648     73858710366         5129867  species/Rucervus_eldii/mRucEld1/genomic_data/pacbio_hifi/m84203_250213_191208_s2.hifi_reads.bc1001.bam
+pacbiohifi_fqgz mRucEld1             33833691710               0      2147483648     73141443576         5157050  species/Rucervus_eldii/mRucEld1/genomic_data/pacbio_hifi/m84203_250213_191208_s2.hifi_reads.bc1001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mRucEld1          0.2864    135688782367
+pacbiohifi_fqgz mRucEld1          2.1369    132506698651
+--------------- ---------------  ------- ---------------

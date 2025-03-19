@@ -1,0 +1,20 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aEleMan1             83143668656               0      2147483648    141799318035       939068331  species/Eleutherodactylus_marnockii/aEleMan1/genomic_data/arima/aEleMan1_S5_R1_001.fastq.gz
+arima           aEleMan1             86278168866               0      2147483648    142668498916       944824536  species/Eleutherodactylus_marnockii/aEleMan1/genomic_data/arima/aEleMan1_S5_R2_001.fastq.gz
+pacbiohifi_bam  aEleMan1            313195656160               0      2147483648     86891880830         5461386  species/Eleutherodactylus_marnockii/aEleMan1/genomic_data/pacbio_hifi/m84203_250109_211140_s3.hifi_reads.bc1020.bam
+pacbiohifi_fqgz aEleMan1             42623694310               0      2147483648     84531843048         5553785  species/Eleutherodactylus_marnockii/aEleMan1/genomic_data/pacbio_hifi/m84203_250109_211140_s3.hifi_reads.bc1020.fastq.gz
+pacbiohifi_bam  aEleMan1            342538157668               0      2147483648     94941067847         5818647  species/Eleutherodactylus_marnockii/aEleMan1/genomic_data/pacbio_hifi/m84203_250121_185025_s2.hifi_reads.bc1020.bam
+pacbiohifi_fqgz aEleMan1             44745220441               0      2147483648     91098113306         5801545  species/Eleutherodactylus_marnockii/aEleMan1/genomic_data/pacbio_hifi/m84203_250121_185025_s2.hifi_reads.bc1020.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           aEleMan1          1.6704    283002237396
+pacbiohifi_bam  aEleMan1          0.2772    181769413193
+pacbiohifi_fqgz aEleMan1          2.0189    176389101990
+--------------- ---------------  ------- ---------------

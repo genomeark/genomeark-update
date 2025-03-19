@@ -1,0 +1,20 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             rHydTec1             16598813689               0      2147483648     33445334810       221492291  species/Hydromedusa_tectifera/rHydTec1/genomic_data/10x/L56629_Track-100258_R1.fastq.gz
+10x             rHydTec1              9212667543               0      2147483648     17596026656       116529982  species/Hydromedusa_tectifera/rHydTec1/genomic_data/10x/L56629_Track-100258_R2.fastq.gz
+10x             rHydTec1              8423794336               0      2147483648     16969709793       112382187  species/Hydromedusa_tectifera/rHydTec1/genomic_data/10x/L56630_Track-100259_R1.fastq.gz
+arima           rHydTec1             10359301779               0      2147483648     21259920594       140794180  species/Hydromedusa_tectifera/rHydTec1/genomic_data/arima/L67081_Track-111868_R1.fastq.gz
+arima           rHydTec1             12536910051               0      2147483648     24570914574       162721288  species/Hydromedusa_tectifera/rHydTec1/genomic_data/arima/L67081_Track-111868_R2.fastq.gz
+pacbiohifi_clr  rHydTec1            330078779825               0      2147483648    172730212878         7679250  species/Hydromedusa_tectifera/rHydTec1/genomic_data/pacbio_hifi/m64046_200228_125743.subreads.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             rHydTec1          1.9865    162791980523
+arima           rHydTec1          1.9868     45490193663
+pacbiohifi_clr  rHydTec1          0.5232    172697217604
+--------------- ---------------  ------- ---------------

@@ -4,11 +4,29 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mZapHud1             34861675340               0      2147483648     59463745497       393799639  species/Zapus_hudsonius/mZapHud1/genomic_data/arima/mZapHud1_S1_R1_001.fastq.gz
 arima           mZapHud1             35406173662               0      2147483648     59917193564       396802606  species/Zapus_hudsonius/mZapHud1/genomic_data/arima/mZapHud1_S1_R2_001.fastq.gz
+arima           mZapHud1             25729716733               0      2147483648     44373431169       293863794  species/Zapus_hudsonius/mZapHud1/genomic_data/arima/mZapHud1_S2_R2_001.fastq.gz
+pacbiohifi_bam  mZapHud1            123433609748               0      2147483648     34916090786         3204929  species/Zapus_hudsonius/mZapHud1/genomic_data/pacbio_hifi/m84203_241223_184321_s1.hifi_reads.bc1008.bam
+pacbiohifi_fqgz mZapHud1             16319195821               0      2147483648     33946261051         3435879  species/Zapus_hudsonius/mZapHud1/genomic_data/pacbio_hifi/m84203_241223_184321_s1.hifi_reads.bc1008.fastq.gz
+pacbiohifi_bam  mZapHud1            420592241775               0      2147483648    117500431983         6530539  species/Zapus_hudsonius/mZapHud1/genomic_data/pacbio_hifi/m84203_250307_201422_s1.hifi_reads.bc1008.bam
+pacbiohifi_fqgz mZapHud1             62123820505               0      2147483648    117443177725         6791002  species/Zapus_hudsonius/mZapHud1/genomic_data/pacbio_hifi/m84203_250307_201422_s1.hifi_reads.bc1008.fastq.gz
+arima           mZapHud2             58337710586               0      2147483648    104525372926       692221039  species/Zapus_hudsonius/mZapHud2/genomic_data/arima/mZapHud2_S2_R1_001.fastq.gz
+arima           mZapHud2             60294772083               0      2147483648    104927059242       694881215  species/Zapus_hudsonius/mZapHud2/genomic_data/arima/mZapHud2_S2_R2_001.fastq.gz
+pacbiohifi_bam  mZapHud2             46696152060               0      2147483648     13421713882         1219349  species/Zapus_hudsonius/mZapHud2/genomic_data/pacbio_hifi/m84203_241223_204252_s2.hifi_reads.bc1009.bam
+pacbiohifi_fqgz mZapHud2              5961802883               0      2147483648     13312939972         1609418  species/Zapus_hudsonius/mZapHud2/genomic_data/pacbio_hifi/m84203_241223_204252_s2.hifi_reads.bc1009.fastq.gz
+pacbiohifi_bam  mZapHud2            131524132240               0      2147483648     37458432132         2975132  species/Zapus_hudsonius/mZapHud2/genomic_data/pacbio_hifi/m84203_250221_200147_s3.hifi_reads.bc1009.bam
+pacbiohifi_fqgz mZapHud2             16988844690               0      2147483648     37143818932         3003460  species/Zapus_hudsonius/mZapHud2/genomic_data/pacbio_hifi/m84203_250221_200147_s3.hifi_reads.bc1009.fastq.gz
+pacbiohifi_bam  mZapHud2            154731769037               0      2147483648     43943536571         3510546  species/Zapus_hudsonius/mZapHud2/genomic_data/pacbio_hifi/m84203_250224_183117_s1.hifi_reads.bc1009.bam
+pacbiohifi_fqgz mZapHud2             20057142938               0      2147483648     43512378710         3576559  species/Zapus_hudsonius/mZapHud2/genomic_data/pacbio_hifi/m84203_250224_183117_s1.hifi_reads.bc1009.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           mZapHud1          1.6967    119223459401
+arima           mZapHud1          1.7058    205617363973
+arima           mZapHud2          1.7570    208437272049
+pacbiohifi_bam  mZapHud1          0.2798    152218433256
+pacbiohifi_bam  mZapHud2          0.2847     94791449585
+pacbiohifi_fqgz mZapHud1          1.9124    150014424421
+pacbiohifi_fqgz mZapHud2          2.1849     93967721487
 --------------- ---------------  ------- ---------------

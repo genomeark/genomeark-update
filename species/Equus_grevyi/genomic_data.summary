@@ -4,6 +4,10 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mEquGre1             91137018852               0      2147483648    175230433829      1160466491  species/Equus_grevyi/mEquGre1/genomic_data/arima/mEquGre1_L1_S4_R1_001.fastq.gz
 arima           mEquGre1             94350784718               0      2147483648    175401984270      1161602588  species/Equus_grevyi/mEquGre1/genomic_data/arima/mEquGre1_L1_S4_R2_001.fastq.gz
+pacbiohifi_bam  mEquGre1            180375424103               0      2147483648     52100228991         3531605  species/Equus_grevyi/mEquGre1/genomic_data/pacbio_hifi/m84203_250109_191225_s2.hifi_reads.bc1011.bam
+pacbiohifi_fqgz mEquGre1             24417946980               0      2147483648     51412639044         3715558  species/Equus_grevyi/mEquGre1/genomic_data/pacbio_hifi/m84203_250109_191225_s2.hifi_reads.bc1011.fastq.gz
+pacbiohifi_bam  mEquGre1            211731411662               0      2147483648     58369570722         3993989  species/Equus_grevyi/mEquGre1/genomic_data/pacbio_hifi/m84203_250121_164720_s1.hifi_reads.bc1011.bam
+pacbiohifi_fqgz mEquGre1             29543970715               0      2147483648     58005085327         4191918  species/Equus_grevyi/mEquGre1/genomic_data/pacbio_hifi/m84203_250121_164720_s1.hifi_reads.bc1011.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +15,6 @@ arima           mEquGre1             94350784718               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mEquGre1          1.8797    348661424370
+pacbiohifi_bam  mEquGre1          0.2796    109633071279
+pacbiohifi_fqgz mEquGre1          2.0049    108188248786
 --------------- ---------------  ------- ---------------

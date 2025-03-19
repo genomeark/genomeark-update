@@ -1,0 +1,13 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fGamHol4             12798409833               0      2147483648     37436800106         3608994  species/Gambusia_holbrooki/fGamHol4/genomic_data/pacbio_hifi/m84098_241224_102344_s3.ccs.bc2013.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fGamHol4          2.9251     37436628602
+--------------- ---------------  ------- ---------------

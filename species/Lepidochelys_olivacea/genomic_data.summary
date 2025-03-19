@@ -4,7 +4,11 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 dovetail        rLepOli2             57233287144               0      2147483648     96425399931       638578834  species/Lepidochelys_olivacea/rLepOli2/genomic_data/dovetail/rLepOli2_L2_S1_R1_001.fastq.gz
 dovetail        rLepOli2             58412185343               0      2147483648     96131864291       636634862  species/Lepidochelys_olivacea/rLepOli2/genomic_data/dovetail/rLepOli2_L2_S1_R2_001.fastq.gz
+pacbiohifi_bam  rLepOli2            136956700506               0      2147483648     37152304911         2610137  species/Lepidochelys_olivacea/rLepOli2/genomic_data/pacbio_hifi/m64334e_230518_172917.bc1016--bc1016.bam
 pacbiohifi_fqgz rLepOli2             27198481276               0      2147483648     36484523564         2571013  species/Lepidochelys_olivacea/rLepOli2/genomic_data/pacbio_hifi/m64334e_230518_172917.bc1016--bc1016.hifi_reads.fastq.gz
+pacbiohifi_clr  rLepOli2           1483788956421               0      2147483648    792904374048        52685791  species/Lepidochelys_olivacea/rLepOli2/genomic_data/pacbio_hifi/m64334e_230518_172917.subreads.bam
+pacbiohifi_bam  rLepOli2            137423037406               0      2147483648     37504920701         2629583  species/Lepidochelys_olivacea/rLepOli2/genomic_data/pacbio_hifi/m64334e_230518_172917.with_5mC.bam
+pacbiohifi_bam  rLepOli2            419464122590               0      2147483648     94794848324         6761481  species/Lepidochelys_olivacea/rLepOli2/genomic_data/pacbio_hifi/m84091_230524_173057_s1.hifi_reads.bc1016.bam
 pacbiohifi_fqgz rLepOli2             50287651386               0      2147483648     93283349525         6667338  species/Lepidochelys_olivacea/rLepOli2/genomic_data/pacbio_hifi/m84091_230524_173057_s1.hifi_reads.bc1016.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -13,5 +17,7 @@ pacbiohifi_fqgz rLepOli2             50287651386               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 dovetail        rLepOli2          1.6585    191798016119
+pacbiohifi_bam  rLepOli2          0.2442    202637833971
+pacbiohifi_clr  rLepOli2          0.5343    792788439415
 pacbiohifi_fqgz rLepOli2          1.7456    135259793174
 --------------- ---------------  ------- ---------------

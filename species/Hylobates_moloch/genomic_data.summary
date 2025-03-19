@@ -2,14 +2,40 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+illumina        mHylMol1             38995877995               0      2147483648     71818562478       494824615  species/Hylobates_moloch/mHylMol1/genomic_data/illumina/Lionel_R1.fastq.gz
+illumina        mHylMol1             47244910149               0      2147483648     73018571282       503664607  species/Hylobates_moloch/mHylMol1/genomic_data/illumina/Lionel_R2.fastq.gz
 ont             mHylMol1             27791372184               0      2147483648     33110893057          873024  species/Hylobates_moloch/mHylMol1/genomic_data/ont/PAQ56524_dorado-7.2.13.fq.gz
 ont             mHylMol1             28414827294               0      2147483648     33198908686          914309  species/Hylobates_moloch/mHylMol1/genomic_data/ont/PAW09100_dorado-7.3.9.fq.gz
 ont             mHylMol1             32102901441               0      2147483648     37753832559          891264  species/Hylobates_moloch/mHylMol1/genomic_data/ont/PAW33206_dorado-7.3.11.fq.gz
+pacbiohifi_bam  mHylMol1            287619731176               0      2147483648     81603197760         5796502  species/Hylobates_moloch/mHylMol1/genomic_data/pacbio_hifi/m84122_250207_214650_s2.hifi_reads.bam
+pacbiohifi_fqgz mHylMol1             26084219585               0      2147483648     69099781836         5397682  species/Hylobates_moloch/mHylMol1/genomic_data/pacbio_hifi/m84122_250207_214650_s2.hifi_reads.fastq.gz
+pacbiohifi_bam  mHylMol1            331605349867               0      2147483648     92949404746         5351278  species/Hylobates_moloch/mHylMol1/genomic_data/pacbio_hifi/m84122_250220_184536_s4.hifi_reads.bam
+pacbiohifi_fqgz mHylMol1             37176510204               0      2147483648     87134960274         5149734  species/Hylobates_moloch/mHylMol1/genomic_data/pacbio_hifi/m84122_250220_184536_s4.hifi_reads.fastq.gz
+arima           mHylMol2             44762357878               0      2147483648     82838640243       552257622  species/Hylobates_moloch/mHylMol2/genomic_data/arima/LIB241021LC_C1_S3_R2_001.fastq.gz
+arima           mHylMol2             46638432576               0      2147483648     95690116825       637934133  species/Hylobates_moloch/mHylMol2/genomic_data/arima/LIB241021LC_C2_S4_R1_001.fastq.gz
+arima           mHylMol2             51991317426               0      2147483648     96155964635       641039764  species/Hylobates_moloch/mHylMol2/genomic_data/arima/LIB241021LC_C2_S4_R2_001.fastq.gz
+illumina        mHylMol2             26812551454               0      2147483648     61159436170       405029391  species/Hylobates_moloch/mHylMol2/genomic_data/illumina/Chloe_R1.fastq.gz
+illumina        mHylMol2             27280900644               0      2147483648     61525069525       407450804  species/Hylobates_moloch/mHylMol2/genomic_data/illumina/Chloe_R2.fastq.gz
+ont             mHylMol2             52992969987               0      2147483648     64099845562         3247093  species/Hylobates_moloch/mHylMol2/genomic_data/ont/PBA00215_dorado-7.4.14.fq.gz
+ont             mHylMol2             30422579509               0      2147483648     37588654686         1042818  species/Hylobates_moloch/mHylMol2/genomic_data/ont/PBC05476_dorado-7.4.14.fq.gz
+ont             mHylMol2             53520406174               0      2147483648     66264523389         1559866  species/Hylobates_moloch/mHylMol2/genomic_data/ont/PBC45105_dorado-7.4.14.fq.gz
+pacbiohifi_bam  mHylMol2            215028247338               0      2147483648     59768196476         4250332  species/Hylobates_moloch/mHylMol2/genomic_data/pacbio_hifi/m84122_250209_014038_s3.hifi_reads.bam
+pacbiohifi_fqgz mHylMol2             22007738129               0      2147483648     56346485728         4109642  species/Hylobates_moloch/mHylMol2/genomic_data/pacbio_hifi/m84122_250209_014038_s3.hifi_reads.fastq.gz
+pacbiohifi_bam  mHylMol2            223252345171               0      2147483648     62368418357         4587129  species/Hylobates_moloch/mHylMol2/genomic_data/pacbio_hifi/m84122_250209_034000_s4.hifi_reads.bam
+pacbiohifi_fqgz mHylMol2             22309425594               0      2147483648     59519892202         4470261  species/Hylobates_moloch/mHylMol2/genomic_data/pacbio_hifi/m84122_250209_034000_s4.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mHylMol2          1.9156    351928900258
+illumina        mHylMol1          1.6320    140744966251
+illumina        mHylMol2          2.2637    122451347514
 ont             mHylMol1          1.1784    249223272118
+ont             mHylMol2          1.2265    259014784321
+pacbiohifi_bam  mHylMol1          0.2813    174188015297
+pacbiohifi_bam  mHylMol2          0.2789    122236457250
+pacbiohifi_fqgz mHylMol1          2.4231    153287074351
+pacbiohifi_fqgz mHylMol2          2.6323    116656070068
 --------------- ---------------  ------- ---------------

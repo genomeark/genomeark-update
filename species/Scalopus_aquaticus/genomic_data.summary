@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mScaAqu1            400956157311               0      2147483648    110912799613         7645577  species/Scalopus_aquaticus/mScaAqu1/genomic_data/pacbio_hifi/m84203_250307_204639_s2.hifi_reads.bc1001.bam
+pacbiohifi_fqgz mScaAqu1             55324347538               0      2147483648    107809677990         7666583  species/Scalopus_aquaticus/mScaAqu1/genomic_data/pacbio_hifi/m84203_250307_204639_s2.hifi_reads.bc1001.fastq.gz
+pacbiohifi_bam  mScaAqu1            165677810820               0      2147483648     47403815825         3294062  species/Scalopus_aquaticus/mScaAqu1/genomic_data/pacbio_hifi/m84203_250310_203107_s4.hifi_reads.bc1001.bam
+pacbiohifi_fqgz mScaAqu1             21899083822               0      2147483648     46386581753         3405779  species/Scalopus_aquaticus/mScaAqu1/genomic_data/pacbio_hifi/m84203_250310_203107_s4.hifi_reads.bc1001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mScaAqu1          0.2782    157637569934
+pacbiohifi_fqgz mScaAqu1          1.9766    152639834426
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fChaAug3             14502258865               0      2147483648     26536429206       175737948  species/Chaetodon_auriga/fChaAug3/genomic_data/arima/fChaAug3_S3_R1_001.fastq.gz
+arima           fChaAug3             14820754778               0      2147483648     26530609640       175699401  species/Chaetodon_auriga/fChaAug3/genomic_data/arima/fChaAug3_S3_R2_001.fastq.gz
+pacbiohifi_bam  fChaAug3            243924623647               0      2147483648     68989591797         4385678  species/Chaetodon_auriga/fChaAug3/genomic_data/pacbio_hifi/m84091_250207_222441_s1.hifi_reads.bc1010.bam
+pacbiohifi_fqgz fChaAug3             33067231683               0      2147483648     65785240344         4390822  species/Chaetodon_auriga/fChaAug3/genomic_data/pacbio_hifi/m84091_250207_222441_s1.hifi_reads.bc1010.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fChaAug3          1.8031     52872325899
+pacbiohifi_bam  fChaAug3          0.2828     68981883567
+pacbiohifi_fqgz fChaAug3          1.9894     65783950710
+--------------- ---------------  ------- ---------------

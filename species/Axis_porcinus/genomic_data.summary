@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mAxiPor1            203179850094               0      2147483648     58426774932         3735226  species/Axis_porcinus/mAxiPor1/genomic_data/pacbio_hifi/m84203_250221_182459_s4.hifi_reads.bc1015.bam
+pacbiohifi_fqgz mAxiPor1             27675299192               0      2147483648     56805655413         3767413  species/Axis_porcinus/mAxiPor1/genomic_data/pacbio_hifi/m84203_250221_182459_s4.hifi_reads.bc1015.fastq.gz
+pacbiohifi_bam  mAxiPor1            242407431675               0      2147483648     69463421246         4340452  species/Axis_porcinus/mAxiPor1/genomic_data/pacbio_hifi/m84203_250224_175906_s4.hifi_reads.bc1015.bam
+pacbiohifi_fqgz mAxiPor1             33573135189               0      2147483648     68252243330         4623966  species/Axis_porcinus/mAxiPor1/genomic_data/pacbio_hifi/m84203_250224_175906_s4.hifi_reads.bc1015.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mAxiPor1          0.2868    127794432411
+pacbiohifi_fqgz mAxiPor1          2.0386    124861058329
+--------------- ---------------  ------- ---------------

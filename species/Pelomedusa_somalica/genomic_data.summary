@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             rPelSom1             34262660728               0      2147483648     68504318213       453670997  species/Pelomedusa_somalica/rPelSom1/genomic_data/10x/L54578_Track-97639_R1.fastq.gz
+10x             rPelSom1             28350572362               0      2147483648     56694705774       375461640  species/Pelomedusa_somalica/rPelSom1/genomic_data/10x/L54579_Track-97640_R1.fastq.gz
+10x             rPelSom1             25406695090               0      2147483648     50537455848       334685138  species/Pelomedusa_somalica/rPelSom1/genomic_data/10x/L54580_Track-97641_R1.fastq.gz
+arima           rPelSom1             66741948029               0      2147483648    133334871295       883012423  species/Pelomedusa_somalica/rPelSom1/genomic_data/hic/L73756_Track-116951_R1.fastq.gz
+arima           rPelSom1             70569860837               0      2147483648    134365921069       889840569  species/Pelomedusa_somalica/rPelSom1/genomic_data/hic/L73756_Track-116951_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             rPelSom1          1.9965    456477755234
+arima           rPelSom1          1.9341    265574769527
+--------------- ---------------  ------- ---------------

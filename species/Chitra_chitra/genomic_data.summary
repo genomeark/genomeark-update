@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  rChiChi1            392949537851               0      2147483648    110198066982         7588787  species/Chitra_chitra/rChiChi1/genomic_data/pacbio_hifi/m84203_250221_192930_s2.hifi_reads.bc1020.bam
+pacbiohifi_fqgz rChiChi1             53373658201               0      2147483648    108999077992         7655021  species/Chitra_chitra/rChiChi1/genomic_data/pacbio_hifi/m84203_250221_192930_s2.hifi_reads.bc1020.fastq.gz
+pacbiohifi_bam  rChiChi1            182392667384               0      2147483648     52001321545         3520905  species/Chitra_chitra/rChiChi1/genomic_data/pacbio_hifi/m84203_250224_193551_s3.hifi_reads.bc1020.bam
+pacbiohifi_fqgz rChiChi1             24058899573               0      2147483648     52054836625         3671556  species/Chitra_chitra/rChiChi1/genomic_data/pacbio_hifi/m84203_250224_193551_s3.hifi_reads.bc1020.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  rChiChi1          0.2813    161843762332
+pacbiohifi_fqgz rChiChi1          2.0645    159859515524
+--------------- ---------------  ------- ---------------

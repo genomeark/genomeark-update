@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fDatMic1             15505149416               0      2147483648     27595235742       182749912  species/Datnioides_microlepis/fDatMic1/genomic_data/arima/fDatMic1_L1_S1_R1_001.fastq.gz
 arima           fDatMic1             16169936510               0      2147483648     27563100663       182537098  species/Datnioides_microlepis/fDatMic1/genomic_data/arima/fDatMic1_L1_S1_R2_001.fastq.gz
+arima           fDatMic1             23714481369               0      2147483648     42523710870       281613990  species/Datnioides_microlepis/fDatMic1/genomic_data/arima/fDatMic1_S4_R1_001.fastq.gz
+arima           fDatMic1             24913484365               0      2147483648     42635961173       282357370  species/Datnioides_microlepis/fDatMic1/genomic_data/arima/fDatMic1_S4_R2_001.fastq.gz
 pacbiohifi_bam  fDatMic1            134903944761               0      2147483648     31779070426         2121792  species/Datnioides_microlepis/fDatMic1/genomic_data/pacbio_hifi/m84091_240614_183804_s3.hifi_reads.bc1018.bam
 pacbiohifi_fqgz fDatMic1             16689482662               0      2147483648     31955040119         2139215  species/Datnioides_microlepis/fDatMic1/genomic_data/pacbio_hifi/m84091_240614_183804_s3.hifi_reads.bc1018.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -12,7 +14,7 @@ pacbiohifi_fqgz fDatMic1             16689482662               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           fDatMic1          1.7289     54763056057
+arima           fDatMic1          1.7396    139695188667
 pacbiohifi_bam  fDatMic1          0.2355     31769878991
 pacbiohifi_fqgz fDatMic1          1.9146     31953683504
 --------------- ---------------  ------- ---------------

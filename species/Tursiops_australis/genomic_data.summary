@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mTurAus1            165598103921               0      2147483648    566480896020      3751529112  species/Tursiops_australis/mTurAus1/genomic_data/arima/mTurAus1_49725_8#1.cram
+pacbiohifi_bam  mTurAus1             11330108309               0      2147483648     33302527889         3772456  species/Tursiops_australis/mTurAus1/genomic_data/pacbio_hifi/m84093_241126_105509_s1.ccs.bc2080.rmdup.bam
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mTurAus1          3.4208    566477993892
+pacbiohifi_bam  mTurAus1          2.9392     33301454341
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mDicSum1             90231352866               0      2147483648     25799850032         1803380  species/Dicerorhinus_sumatrensis/mDicSum1/genomic_data/pacbio_hifi/m84091_250122_194935_s1.hifi_reads.bc1019.bam
+pacbiohifi_fqgz mDicSum1             12194790535               0      2147483648     25609878388         1848710  species/Dicerorhinus_sumatrensis/mDicSum1/genomic_data/pacbio_hifi/m84091_250122_194935_s1.hifi_reads.bc1019.fastq.gz
+pacbiohifi_bam  mDicSum1            127692573489               0      2147483648     35767025149         2577655  species/Dicerorhinus_sumatrensis/mDicSum1/genomic_data/pacbio_hifi/m84203_241214_012246_s3.hifi_reads.bc1019.bam
+pacbiohifi_fqgz mDicSum1             18944307100               0      2147483648     36543205315         2701597  species/Dicerorhinus_sumatrensis/mDicSum1/genomic_data/pacbio_hifi/m84203_241214_012246_s3.hifi_reads.bc1019.fastq.gz
+pacbiohifi_bam  mDicSum1             97888938686               0      2147483648     28108195536         1754128  species/Dicerorhinus_sumatrensis/mDicSum1/genomic_data/pacbio_hifi/m84203_250124_162335_s1.hifi_reads.bc1019.bam
+pacbiohifi_fqgz mDicSum1             13464586886               0      2147483648     27747582780         1777364  species/Dicerorhinus_sumatrensis/mDicSum1/genomic_data/pacbio_hifi/m84203_250124_162335_s1.hifi_reads.bc1019.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mDicSum1          0.2839    107800161135
+pacbiohifi_fqgz mDicSum1          2.0155    109052374673
+--------------- ---------------  ------- ---------------

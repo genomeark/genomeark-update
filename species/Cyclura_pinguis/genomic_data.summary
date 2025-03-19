@@ -5,6 +5,9 @@
 dovetail        rCycPin1             78539322548               0      2147483648    143349873085       949336944  species/Cyclura_pinguis/rCycPin1/genomic_data/dovetail/rCycPin1_S7_R1_001.fastq.gz
 dovetail        rCycPin1             38203299827               0      2147483648     71697500781       474817903  species/Cyclura_pinguis/rCycPin1/genomic_data/dovetail/rCycPin1_S7_R1_001_removedup.fastq.gz
 dovetail        rCycPin1             78049602102               0      2147483648    143446502092       949976871  species/Cyclura_pinguis/rCycPin1/genomic_data/dovetail/rCycPin1_S7_R2_001.fastq.gz
+pacbiohifi_fqgz rCycPin1             13816734376               0      2147483648     22242372971         1083085  species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/deepconsensus/m64055e_221026_183244.dc.q20.fastq.gz
+pacbiohifi_fqgz rCycPin1             12079643116               0      2147483648     19053221255          939001  species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/deepconsensus/m64055e_221114_190427.dc.q20.fastq.gz
+pacbiohifi_fqgz rCycPin1             10780756731               0      2147483648     16852615357          811838  species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/deepconsensus/m64330e_221111_183051.dc.q20.fastq.gz
 pacbiohifi_fqgz rCycPin1             15081021898               0      2147483648     18364196558          898077  species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/m64055e_221026_183244.bc1011--bc1011.hifi_reads.fastq.gz
 pacbiohifi_bam  rCycPin1             67785449161               0      2147483648     18252109372          893228  species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/m64055e_221026_183244.demultiplex.bc1011--bc1011.bam
 pacbiohifi_bam  rCycPin1             70710045212               0      2147483648     19256838987          942335  species/Cyclura_pinguis/rCycPin1/genomic_data/pacbio_hifi/m64055e_221026_183244.hifi_reads.bam
@@ -26,5 +29,5 @@ pacbiohifi_bam  rCycPin1             49532817481               0      2147483648
 dovetail        rCycPin1          1.8403    428421216821
 pacbiohifi_bam  rCycPin1          0.2651    181427205402
 pacbiohifi_clr  rCycPin1          0.5299   1404182677063
-pacbiohifi_fqgz rCycPin1          1.1655     58379212452
+pacbiohifi_fqgz rCycPin1          1.5854    228665306254
 --------------- ---------------  ------- ---------------

@@ -2,14 +2,40 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+illumina        mNomLeu1             15085752613               0      2147483648     33676074460       223020367  species/Nomascus_leucogenys/mNomLeu1/genomic_data/illumina/Vok_R1.fastq.gz
+illumina        mNomLeu1             15500267740               0      2147483648     33757285830       223558184  species/Nomascus_leucogenys/mNomLeu1/genomic_data/illumina/Vok_R2.fastq.gz
 ont             mNomLeu1             40205123603               0      2147483648     47523597821         1083253  species/Nomascus_leucogenys/mNomLeu1/genomic_data/ont/PAW08567_dorado-7.3.9.fq.gz
 ont             mNomLeu1              1012179762               0      1012179762      1187151749           27505  species/Nomascus_leucogenys/mNomLeu1/genomic_data/ont/PAW08599_dorado-7.3.9.fq.gz
 ont             mNomLeu1             44270225826               0      2147483648     52306674698         1071976  species/Nomascus_leucogenys/mNomLeu1/genomic_data/ont/PAW11065_dorado-7.3.9.fq.gz
+pacbiohifi_bam  mNomLeu1            382270609688               0      2147483648    108070929233         6261809  species/Nomascus_leucogenys/mNomLeu1/genomic_data/pacbio_hifi/m84122_250131_005103_s2.hifi_reads.bam
+pacbiohifi_fqgz mNomLeu1             39526626363               0      2147483648    102310465481         5976581  species/Nomascus_leucogenys/mNomLeu1/genomic_data/pacbio_hifi/m84122_250131_005103_s2.hifi_reads.fastq.gz
+pacbiohifi_bam  mNomLeu1            364323355365               0      2147483648    102923169002         6039755  species/Nomascus_leucogenys/mNomLeu1/genomic_data/pacbio_hifi/m84122_250131_224455_s3.hifi_reads.bam
+pacbiohifi_fqgz mNomLeu1             38585698693               0      2147483648     97026234059         5781789  species/Nomascus_leucogenys/mNomLeu1/genomic_data/pacbio_hifi/m84122_250131_224455_s3.hifi_reads.fastq.gz
+arima           mNomLeu2             36329209985               0      2147483648     65137289251       434248611  species/Nomascus_leucogenys/mNomLeu2/genomic_data/arima/LIB241021LC_A1_S7_R2_001.fastq.gz
+arima           mNomLeu2             32763584653               0      2147483648     66885506820       445903394  species/Nomascus_leucogenys/mNomLeu2/genomic_data/arima/LIB241021LC_A2_S8_R1_001.fastq.gz
+arima           mNomLeu2             36062290133               0      2147483648     67015538432       446770273  species/Nomascus_leucogenys/mNomLeu2/genomic_data/arima/LIB241021LC_A2_S8_R2_001.fastq.gz
+illumina        mNomLeu2              7935396563               0      2147483648     18278990165       121052915  species/Nomascus_leucogenys/mNomLeu2/genomic_data/illumina/Asia_R1.fastq.gz
+illumina        mNomLeu2              8089118394               0      2147483648     18346850292       121502323  species/Nomascus_leucogenys/mNomLeu2/genomic_data/illumina/Asia_R2.fastq.gz
+ont             mNomLeu2             32058238844               0      2147483648     40015861614          653127  species/Nomascus_leucogenys/mNomLeu2/genomic_data/ont/PBA07639_dorado-7.4.12.fq.gz
+ont             mNomLeu2             51056087479               0      2147483648     64119501434         1445962  species/Nomascus_leucogenys/mNomLeu2/genomic_data/ont/PBA07649_dorado-7.4.13.fq.gz
+ont             mNomLeu2             42331560611               0      2147483648     52405538877         1014959  species/Nomascus_leucogenys/mNomLeu2/genomic_data/ont/PBA07723_dorado-7.4.12.fq.gz
+pacbiohifi_bam  mNomLeu2            361545871997               0      2147483648    101638802666         5769625  species/Nomascus_leucogenys/mNomLeu2/genomic_data/pacbio_hifi/m84122_250201_004416_s4.hifi_reads.bam
+pacbiohifi_fqgz mNomLeu2             39216168554               0      2147483648     95943333577         5514136  species/Nomascus_leucogenys/mNomLeu2/genomic_data/pacbio_hifi/m84122_250201_004416_s4.hifi_reads.fastq.gz
+pacbiohifi_bam  mNomLeu2             56347717287               0      2147483648    105723411517         5891615  species/Nomascus_leucogenys/mNomLeu2/genomic_data/pacbio_hifi/m84122_250207_194723_s1.hifi_reads.bam
+pacbiohifi_fqgz mNomLeu2             41995705815               0      2147483648    103967175611         5806793  species/Nomascus_leucogenys/mNomLeu2/genomic_data/pacbio_hifi/m84122_250207_194723_s1.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mNomLeu2          1.8928    259532172232
+illumina        mNomLeu1          2.1956     67154666287
+illumina        mNomLeu2          2.2797     36531086747
 ont             mNomLeu1          1.1816    196491939716
+ont             mNomLeu2          1.2478    177637802505
+pacbiohifi_bam  mNomLeu1          0.2826    210987454523
+pacbiohifi_bam  mNomLeu2          0.3964    165653018792
+pacbiohifi_fqgz mNomLeu1          2.5641    200287812676
+pacbiohifi_fqgz mNomLeu2          2.4663    200292845756
 --------------- ---------------  ------- ---------------

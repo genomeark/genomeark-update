@@ -6,6 +6,8 @@ arima           rLiaOli1             43556551496               0      2147483648
 arima           rLiaOli1             45363612890               0      2147483648     86344110803       571815303  species/Liasis_olivaceus/rLiaOli1/genomic_data/arima/rLiaOli1_2.fastq.gz
 bionano         rLiaOli1              2234563106               0      2234563106   1147506509298        11592188  species/Liasis_olivaceus/rLiaOli1/genomic_data/bionano/rLiaOli1_Saphyr_DLE-1_3699664
 ont             rLiaOli1             35728958529               0      2147483648     40223009951          276666  species/Liasis_olivaceus/rLiaOli1/genomic_data/ont/rLiaOli1_all_runs_100kb.fastq.gz
+ont             rLiaOli1             51629367876               0      2147483648     56181213326         2726556  species/Liasis_olivaceus/rLiaOli1/genomic_data/ont/ultralong/raw/uncorrected/rLiaOli1_PAK14408_20220823.raw.fastq.gz
+ont             rLiaOli1             61969200012               0      2147483648     67013969058         1860561  species/Liasis_olivaceus/rLiaOli1/genomic_data/ont/ultralong/raw/uncorrected/rLiaOli1_PAQ16411_20240625.raw.fastq.gz
 pacbiohifi_bam  rLiaOli1             89969483666               0      2147483648     23934965673         1472368  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220214_035318.demultiplex.bc1012--bc1012.bam
 pacbiohifi_fqgz rLiaOli1             21118232414               0      2147483648     24202950491         1486498  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220214_035318.demultiplex.bc1012--bc1012.hifi_reads.fastq.gz
 pacbiohifi_clr  rLiaOli1            236803628768               0      2147483648     90742949861         4999654  species/Liasis_olivaceus/rLiaOli1/genomic_data/pacbio_hifi/m54306Ue_220214_035318.reads.bam
@@ -33,7 +35,7 @@ pacbiohifi_fqgz rLiaOli2             31519828466               0      2147483648
 arima           rLiaOli1          1.9173    170486631177
 arima           rLiaOli2          2.0153    302737511452
 bionano         rLiaOli1         513.5261   1147506509298
-ont             rLiaOli1          1.1257     40220088616
+ont             rLiaOli1          1.0943    527744907404
 pacbiohifi_bam  rLiaOli1          0.2678     55816428107
 pacbiohifi_bam  rLiaOli2          1.8111    449038609739
 pacbiohifi_clr  rLiaOli1          0.3794    225898855320

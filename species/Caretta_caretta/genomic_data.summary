@@ -9,8 +9,14 @@ pacbiohifi_fqgz rCarCar1             22842755274               0      2147483648
 pacbiohifi_fqgz rCarCar1             21788916676               0      2147483648     24084702405         1418801  species/Caretta_caretta/rCarCar1/genomic_data/pacbio_hifi/m64334e_220414_053150.hifi_reads.fastq.gz
 dovetail        rCarCar2             76359520551               0      2147483648    137244224807       908902151  species/Caretta_caretta/rCarCar2/genomic_data/dovetail/rCarCar2_L1_1.fastq.gz
 dovetail        rCarCar2             77016319134               0      2147483648    136176852999       901833463  species/Caretta_caretta/rCarCar2/genomic_data/dovetail/rCarCar2_L1_2.fastq.gz
+pacbiohifi_bam  rCarCar2             82759193872               0      2147483648     22040038581         1320881  species/Caretta_caretta/rCarCar2/genomic_data/pacbio_hifi/m54306Ue_220403_162004.demultiplex.bc1011--bc1011.bam
 pacbiohifi_fqgz rCarCar2             19759691075               0      2147483648     22029571508         1313056  species/Caretta_caretta/rCarCar2/genomic_data/pacbio_hifi/m54306Ue_220403_162004.hifi_reads.fastq.gz
+pacbiohifi_clr  rCarCar2            316540483315               0      2147483648    140192113955         5664606  species/Caretta_caretta/rCarCar2/genomic_data/pacbio_hifi/m54306Ue_220403_162004.reads.bam
+pacbiohifi_clr  rCarCar2            293025956340               0      2147483648    131043950284         5094801  species/Caretta_caretta/rCarCar2/genomic_data/pacbio_hifi/m54306Ue_220405_020215.reads.bam
+pacbiohifi_bam  rCarCar2             96389027920               0      2147483648     25641219522         1514542  species/Caretta_caretta/rCarCar2/genomic_data/pacbio_hifi/m54306Ue_220407_181809.demultiplex.bc1011--bc1011.bam
 pacbiohifi_fqgz rCarCar2             22842755274               0      2147483648     25885387546         1532651  species/Caretta_caretta/rCarCar2/genomic_data/pacbio_hifi/m54306Ue_220407_181809.hifi_reads.fastq.gz
+pacbiohifi_clr  rCarCar2            279173532747               0      2147483648    107806169780         5769543  species/Caretta_caretta/rCarCar2/genomic_data/pacbio_hifi/m54306Ue_220407_181809.reads.bam
+pacbiohifi_bam  rCarCar2             90610458964               0      2147483648     23931225941         1404209  species/Caretta_caretta/rCarCar2/genomic_data/pacbio_hifi/m64334e_220414_053150.demultiplex.bc1011--bc1011.bam
 pacbiohifi_fqgz rCarCar2             21788916676               0      2147483648     24084702405         1418801  species/Caretta_caretta/rCarCar2/genomic_data/pacbio_hifi/m64334e_220414_053150.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -20,6 +26,8 @@ pacbiohifi_fqgz rCarCar2             21788916676               0      2147483648
 --------------- ---------------  ------- ---------------
 dovetail        rCarCar1          1.7778    272671567791
 dovetail        rCarCar2          1.7778    272671567791
+pacbiohifi_bam  rCarCar2          0.2654    120883590007
+pacbiohifi_clr  rCarCar2          0.4264    607205170792
 pacbiohifi_fqgz rCarCar1          1.1181    119886671605
 pacbiohifi_fqgz rCarCar2          1.1181    119886671605
 --------------- ---------------  ------- ---------------

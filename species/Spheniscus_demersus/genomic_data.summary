@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bSphDem1             49408877494               0      2147483648     88026673063       582958122  species/Spheniscus_demersus/bSphDem1/genomic_data/arima/bSphDem1_S3_R1_001.fastq.gz
+arima           bSphDem1             51962835972               0      2147483648     88466748018       585872503  species/Spheniscus_demersus/bSphDem1/genomic_data/arima/bSphDem1_S3_R2_001.fastq.gz
 pacbiohifi_bam  bSphDem1            181691011968               0      2147483648     51058003849         3493401  species/Spheniscus_demersus/bSphDem1/genomic_data/pacbio_hifi/m84203_241209_232624_s4.hifi_reads.bc1018.bam
 pacbiohifi_fqgz bSphDem1             26065020683               0      2147483648     50173067054         3754374  species/Spheniscus_demersus/bSphDem1/genomic_data/pacbio_hifi/m84203_241209_232624_s4.hifi_reads.bc1018.fastq.gz
 pacbiohifi_bam  bSphDem1            181257202390               0      2147483648     51627705246         3464634  species/Spheniscus_demersus/bSphDem1/genomic_data/pacbio_hifi/m84203_241213_232321_s2.hifi_reads.bc1018.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz bSphDem1             25539360038               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bSphDem1          1.7279    175160183697
 pacbiohifi_bam  bSphDem1          0.2822    102423986091
 pacbiohifi_fqgz bSphDem1          1.9431    100272472178
 --------------- ---------------  ------- ---------------

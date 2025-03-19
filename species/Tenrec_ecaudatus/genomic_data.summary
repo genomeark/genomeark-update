@@ -4,6 +4,12 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mTenEca1            109586370893               0      2147483648    192074056994      1272013673  species/Tenrec_ecaudatus/mTenEca1/genomic_data/arima/mTenEca1_L1_S3_R1_001.fastq.gz
 arima           mTenEca1            109163988322               0      2147483648    194495744235      1288051337  species/Tenrec_ecaudatus/mTenEca1/genomic_data/arima/mTenEca1_L1_S3_R2_001.fastq.gz
+pacbiohifi_bam  mTenEca1            145506626903               0      2147483648     41025454177         2557751  species/Tenrec_ecaudatus/mTenEca1/genomic_data/pacbio_hifi/m84091_250122_215243_s2.hifi_reads.bc1019.bam
+pacbiohifi_fqgz mTenEca1             20134183578               0      2147483648     40508546393         2753299  species/Tenrec_ecaudatus/mTenEca1/genomic_data/pacbio_hifi/m84091_250122_215243_s2.hifi_reads.bc1019.fastq.gz
+pacbiohifi_bam  mTenEca1            280339153692               0      2147483648     79891152536         5468319  species/Tenrec_ecaudatus/mTenEca1/genomic_data/pacbio_hifi/m84091_250212_184621_s1.hifi_reads.bc1019.bam
+pacbiohifi_fqgz mTenEca1             39648043121               0      2147483648     78503977758         5621147  species/Tenrec_ecaudatus/mTenEca1/genomic_data/pacbio_hifi/m84091_250212_184621_s1.hifi_reads.bc1019.fastq.gz
+pacbiohifi_bam  mTenEca1            161359290793               0      2147483648     46411660277         3312192  species/Tenrec_ecaudatus/mTenEca1/genomic_data/pacbio_hifi/m84203_250208_042813_s4.hifi_reads.bc1019.bam
+pacbiohifi_fqgz mTenEca1             20991389692               0      2147483648     45781801016         3315912  species/Tenrec_ecaudatus/mTenEca1/genomic_data/pacbio_hifi/m84203_250208_042813_s4.hifi_reads.bc1019.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +17,6 @@ arima           mTenEca1            109163988322               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mTenEca1          1.7623    385503758044
+pacbiohifi_bam  mTenEca1          0.2849    206923674581
+pacbiohifi_fqgz mTenEca1          2.0401    204971026304
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,39 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mHylPil1             10972345276               0      2147483648     19741725667       130739905  species/Hylobates_pileatus/mHylPil1/genomic_data/dovetail/HP1_S2_L001_R2_001.fastq.gz
+dovetail        mHylPil1             10287951117               0      2147483648     20030083457       132649564  species/Hylobates_pileatus/mHylPil1/genomic_data/dovetail/HP1_S2_L002_R1_001.fastq.gz
+dovetail        mHylPil1             11332329994               0      2147483648     20484067823       135656078  species/Hylobates_pileatus/mHylPil1/genomic_data/dovetail/HP1_S2_L002_R2_001.fastq.gz
+illumina        mHylPil1             49178124393               0      2147483648     96550389048       643556225  species/Hylobates_pileatus/mHylPil1/genomic_data/illumina/HP1_PCRFree_S12_L004_R1_001.fastq.gz
+illumina        mHylPil1             51378169534               0      2147483648     96558129241       643872080  species/Hylobates_pileatus/mHylPil1/genomic_data/illumina/HP1_PCRFree_S12_L004_R2_001.fastq.gz
+ont             mHylPil1             56479651343               0      2147483648     70001811425         1464931  species/Hylobates_pileatus/mHylPil1/genomic_data/ont/PBA03581_dorado-7.4.14.fq.gz
+ont             mHylPil1             34492729438               0      2147483648     42978338887          915481  species/Hylobates_pileatus/mHylPil1/genomic_data/ont/PBC04402_dorado-7.4.14.fq.gz
+ont             mHylPil1             67421578962               0      2147483648     83463968224         1893909  species/Hylobates_pileatus/mHylPil1/genomic_data/ont/PBC47552_dorado-7.4.14.fq.gz
+pacbiohifi_bam  mHylPil1            141805307973               0      2147483648     37002971431         1873231  species/Hylobates_pileatus/mHylPil1/genomic_data/pacbio_hifi/PS00184.unaligned.fiberseq.hifi_reads.bam
+pacbiohifi_fqgz mHylPil1             33378558182               0      2147483648     37115019972         1891300  species/Hylobates_pileatus/mHylPil1/genomic_data/pacbio_hifi/PS00184.unaligned.fiberseq.hifi_reads.fastq.gz
+arima           mHylPil2             34371063029               0      2147483648     62187497687       414583333  species/Hylobates_pileatus/mHylPil2/genomic_data/arima/LIB241021LC_I1_S1_R2_001.fastq.gz
+arima           mHylPil2             47409769574               0      2147483648     97979417264       653196115  species/Hylobates_pileatus/mHylPil2/genomic_data/arima/LIB241021LC_I2_S2_R1_001.fastq.gz
+arima           mHylPil2             52011731142               0      2147483648     98452123130       656347511  species/Hylobates_pileatus/mHylPil2/genomic_data/arima/LIB241021LC_I2_S2_R2_001.fastq.gz
+illumina        mHylPil2             27304764034               0      2147483648     61386101295       406530484  species/Hylobates_pileatus/mHylPil2/genomic_data/illumina/Iszie_R1.fastq.gz
+illumina        mHylPil2             27850206934               0      2147483648     61633461771       408168633  species/Hylobates_pileatus/mHylPil2/genomic_data/illumina/Iszie_R2.fastq.gz
+pacbiohifi_bam  mHylPil2            273734813027               0      2147483648     75475118091         5073597  species/Hylobates_pileatus/mHylPil2/genomic_data/pacbio_hifi/m84122_250209_053923_s1.hifi_reads.bam
+pacbiohifi_fqgz mHylPil2             27501924131               0      2147483648     73827930502         4999586  species/Hylobates_pileatus/mHylPil2/genomic_data/pacbio_hifi/m84122_250209_053923_s1.hifi_reads.fastq.gz
+pacbiohifi_bam  mHylPil2            290244163423               0      2147483648     80784725767         5263900  species/Hylobates_pileatus/mHylPil2/genomic_data/pacbio_hifi/m84122_250209_073858_s2.hifi_reads.bam
+pacbiohifi_fqgz mHylPil2             29281941748               0      2147483648     70999194981         5134107  species/Hylobates_pileatus/mHylPil2/genomic_data/pacbio_hifi/m84122_250209_073858_s2.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mHylPil2          1.9329    317891650380
+dovetail        mHylPil1          1.8487     79107143003
+illumina        mHylPil1          1.9065    191710574371
+illumina        mHylPil2          2.2245    122692232918
+ont             mHylPil1          1.2402    196440188873
+pacbiohifi_bam  mHylPil1          0.2609     36997004850
+pacbiohifi_bam  mHylPil2          0.2774    156447768067
+pacbiohifi_fqgz mHylPil1          1.1119     37113618842
+pacbiohifi_fqgz mHylPil2          2.5076    142391222078
+--------------- ---------------  ------- ---------------

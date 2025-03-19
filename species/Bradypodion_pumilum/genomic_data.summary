@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        rBraPum1             28357109944               0      2147483648     45482785052       303218580  species/Bradypodion_pumilum/rBraPum1/genomic_data/dovetail/BraPum_HiC_SRR24988076_1.fastq.gz
+dovetail        rBraPum1             30813880225               0      2147483648     45174494646       301163297  species/Bradypodion_pumilum/rBraPum1/genomic_data/dovetail/BraPum_HiC_SRR24988076_2.fastq.gz
 pacbiohifi_fqgz rBraPum1             93037592472               0      2147483648    121527485245         8759117  species/Bradypodion_pumilum/rBraPum1/genomic_data/pacbio_hifi/BraPum_HiFi_SRR24988077.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -9,5 +11,6 @@ pacbiohifi_fqgz rBraPum1             93037592472               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+dovetail        rBraPum1          1.5094     89312692561
 pacbiohifi_fqgz rBraPum1          1.3062    121525703286
 --------------- ---------------  ------- ---------------

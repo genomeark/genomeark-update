@@ -2,6 +2,16 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           H9                   76843632550               0      2147483648    129334773837       856521716  species/Homo_sapiens/H9/genomic_data/arima/H9_p36_S2_R1_001.fastq.gz
+arima           H9                   77617688107               0      2147483648    130164666128       862017692  species/Homo_sapiens/H9/genomic_data/arima/H9_p36_S2_R2_001.fastq.gz
+ont             H9                  116739147910               0      2147483648    112094320004         3801403  species/Homo_sapiens/H9/genomic_data/ont/11_20_2024_R1041_UL_H9.dorado_0.8.1_sup.5mC_5hmC.fastq.gz
+ont             H9                    3308891475               0      3308891475      7230367357          347884  species/Homo_sapiens/H9/genomic_data/ont/H9_ONT_SUL.fastq.gz
+pacbiohifi_bam  H9                  255740083586               0      2147483648     73083028738         3677088  species/Homo_sapiens/H9/genomic_data/pacbio_hifi/m84091_241205_180120_s2.hifi_reads.bc1003.bam
+pacbiohifi_fqgz H9                   38426317487               0      2147483648     70945462422         3692712  species/Homo_sapiens/H9/genomic_data/pacbio_hifi/m84091_241205_180120_s2.hifi_reads.bc1003.fastq.gz
+pacbiohifi_bam  H9                  265204782991               0      2147483648     74866542981         3760811  species/Homo_sapiens/H9/genomic_data/pacbio_hifi/m84091_241209_213135_s3.hifi_reads.bc1003.bam
+pacbiohifi_fqgz H9                   39863954102               0      2147483648     71672701165         3672152  species/Homo_sapiens/H9/genomic_data/pacbio_hifi/m84091_241209_213135_s3.hifi_reads.bc1003.fastq.gz
+pacbiohifi_bam  H9                  277259374939               0      2147483648     79205636303         3952928  species/Homo_sapiens/H9/genomic_data/pacbio_hifi/m84091_241209_233055_s4.hifi_reads.bc1003.bam
+pacbiohifi_fqgz H9                   40996652073               0      2147483648     77734394775         4138431  species/Homo_sapiens/H9/genomic_data/pacbio_hifi/m84091_241209_233055_s4.hifi_reads.bc1003.fastq.gz
 10x             mHomSap1              5080402826               0      2147483648      6199834656       774979332  species/Homo_sapiens/mHomSap1/genomic_data/10x/mHomSap1_S2_L002_I1_001.fastq.gz
 10x             mHomSap1             62485404429               0      2147483648    123349903418       822332718  species/Homo_sapiens/mHomSap1/genomic_data/10x/mHomSap1_S2_L002_R1_001.fastq.gz
 10x             mHomSap1             64965035857               0      2147483648    122790121041       818600806  species/Homo_sapiens/mHomSap1/genomic_data/10x/mHomSap1_S2_L002_R2_001.fastq.gz
@@ -50,6 +60,7 @@ pacbiohifi_bam  mHomSap3             13446514368               0      2147483648
 10x             mHomSap1          1.9040    252338725285
 10x             mHomSap2          2.0017    364716234841
 10x             mHomSap3          1.9177    320376317649
+arima           H9                1.6790    259340557383
 arima           mHomSap1          1.6758    179359915881
 arima           mHomSap2          1.6952    189994414430
 arima           mHomSap3          1.6032    246056026474
@@ -58,8 +69,11 @@ bionano         mHomSap2         585.8256    545480793478
 bionano         mHomSap3         588.9302    539613135046
 illumina        mHomSap1          1.8953    207897889058
 illumina        mHomSap2          1.8935    232128070088
+ont             H9                0.9773    117322948890
 pacbio          mHomSap3          0.5429    234679832109
+pacbiohifi_bam  H9                0.2845    227089106711
 pacbiohifi_bam  mHomSap1          1.2870     73382779031
 pacbiohifi_bam  mHomSap2          1.2966     67655605745
 pacbiohifi_bam  mHomSap3          1.2190     61474551427
+pacbiohifi_fqgz H9                1.8472    220346805388
 --------------- ---------------  ------- ---------------

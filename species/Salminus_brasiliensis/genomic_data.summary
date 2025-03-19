@@ -4,6 +4,9 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fSalBra1             30008993812               0      2147483648     56229363565       372379905  species/Salminus_brasiliensis/fSalBra1/genomic_data/arima/fSalBra1_1.fastq.gz
 arima           fSalBra1             31931444227               0      2147483648     56184098841       372080139  species/Salminus_brasiliensis/fSalBra1/genomic_data/arima/fSalBra1_2.fastq.gz
+ont             fSalBra1              7609313112               0      2147483648      8341688394          677572  species/Salminus_brasiliensis/fSalBra1/genomic_data/ont/ultralong/raw/uncorrected/fSalBra1_PAG68734_02012023.raw.fastq.gz
+ont             fSalBra1             27595935285               0      2147483648     30898813314         1571521  species/Salminus_brasiliensis/fSalBra1/genomic_data/ont/ultralong/raw/uncorrected/fSalBra1_PAK26483_01252023.raw.fastq.gz
+ont             fSalBra1             16340017994               0      2147483648     17858731039         2052983  species/Salminus_brasiliensis/fSalBra1/genomic_data/ont/ultralong/raw/uncorrected/fSalBra1_PAK26953_01252023.raw.fastq.gz
 pacbiohifi_fqgz fSalBra1             18174005545               0      2147483648     21332128109         1169026  species/Salminus_brasiliensis/fSalBra1/genomic_data/pacbio_hifi/m54306Ue_220702_031556.bc1008--bc1008.hifi_reads.fastq.gz
 pacbiohifi_bam  fSalBra1             79518558199               0      2147483648     21229871838         1151333  species/Salminus_brasiliensis/fSalBra1/genomic_data/pacbio_hifi/m54306Ue_220702_031556.demultiplex.bc1008--bc1008.bam
 pacbiohifi_fqgz fSalBra1             16339890485               0      2147483648     19201990710         1017722  species/Salminus_brasiliensis/fSalBra1/genomic_data/pacbio_hifi/m64334e_220711_195045.bc1008--bc1008.hifi_reads.fastq.gz
@@ -17,6 +20,7 @@ pacbiohifi_bam  fSalBra1             74428563574               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fSalBra1          1.7960    111245026718
+ont             fSalBra1          1.1077     57096691581
 pacbiohifi_bam  fSalBra1          0.2685     80323196960
 pacbiohifi_clr  fSalBra1          0.5406    330811167284
 pacbiohifi_fqgz fSalBra1          1.1742     40526216718

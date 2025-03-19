@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             rPodUni1             10505430674               0      2147483648     20786116295       137656404  species/Podocnemis_unifilis/rPodUni1/genomic_data/10x/L56633_Track-98590_R1.fastq.gz
+10x             rPodUni1             22711032299               0      2147483648     44924429835       297512780  species/Podocnemis_unifilis/rPodUni1/genomic_data/10x/L56636_Track-98593_R1.fastq.gz
+10x             rPodUni1             24113148227               0      2147483648     44990810931       297952401  species/Podocnemis_unifilis/rPodUni1/genomic_data/10x/L56636_Track-98593_R2.fastq.gz
+arima           rPodUni1             93754766581               0      2147483648    192085317999      1272088242  species/Podocnemis_unifilis/rPodUni1/genomic_data/arima/L63857_Track-105192_R1.fastq.gz
+arima           rPodUni1             99928429540               0      2147483648    194634068294      1288967386  species/Podocnemis_unifilis/rPodUni1/genomic_data/arima/L63857_Track-105192_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             rPodUni1          1.9309    253904792842
+arima           rPodUni1          1.9800    383492728319
+--------------- ---------------  ------- ---------------

@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bChlMac1             40514347833               0      2147483648     79113485322       523930385  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/arima/bChlMac1_S5_R1_001.fastq.gz
 arima           bChlMac1             41818462768               0      2147483648     80520550430       533248697  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/arima/bChlMac1_S5_R2_001.fastq.gz
+pacbiohifi_fqgz bChlMac1             24364049526               0      2147483648     39429727975         1909645  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/deepconsensus/m64055e_221214_181059.dc.q0.fastq.gz
+pacbiohifi_fqgz bChlMac1             24843553483               0      2147483648     40424749063         1921754  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/deepconsensus/m64334e_221204_140431.dc.q0.fastq.gz
 pacbiohifi_fqgz bChlMac1             28201609540               0      2147483648     32235331043         1580891  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64055e_221214_181059.bc1003--bc1003.hifi_reads.fastq.gz
 pacbiohifi_clr  bChlMac1           1079834423992               0      2147483648    576751578432        30508131  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64055e_221214_181059.subreads.bam
 pacbiohifi_bam  bChlMac1            128083179980               0      2147483648     33620556909         1638701  species/Chlamydotis_macqueenii/bChlMac1/genomic_data/pacbio_hifi/m64055e_221214_181059.with_5mC.bam
@@ -27,5 +29,5 @@ illumina        bChlMac2          1.9432    110130322483
 illumina        bChlMac3          1.9335     72614180914
 pacbiohifi_bam  bChlMac1          0.2655    202819326639
 pacbiohifi_clr  bChlMac1          0.5357   1172206543244
-pacbiohifi_fqgz bChlMac1          1.1692     66152772131
+pacbiohifi_fqgz bChlMac1          1.4480    223795697437
 --------------- ---------------  ------- ---------------

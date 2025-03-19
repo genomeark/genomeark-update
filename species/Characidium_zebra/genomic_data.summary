@@ -4,6 +4,10 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fChaZeb1             29416651641               0      2147483648     51834838506       343277089  species/Characidium_zebra/fChaZeb1/genomic_data/arima/fChaZeb1_L1_S3_R1_001.fastq.gz
 arima           fChaZeb1             30104646663               0      2147483648     51768836401       342839976  species/Characidium_zebra/fChaZeb1/genomic_data/arima/fChaZeb1_L1_S3_R2_001.fastq.gz
+pacbiohifi_bam  fChaZeb1            154869193097               0      2147483648     47090212104         6040269  species/Characidium_zebra/fChaZeb1/genomic_data/pacbio_hifi/m84091_241125_203504_s2.hifi_reads.bc1008.bam
+pacbiohifi_fqgz fChaZeb1             20737364538               0      2147483648     45203574573         5278580  species/Characidium_zebra/fChaZeb1/genomic_data/pacbio_hifi/m84091_241125_203504_s2.hifi_reads.bc1008.fastq.gz
+pacbiohifi_bam  fChaZeb1            229127668802               0      2147483648     67826711440         4378479  species/Characidium_zebra/fChaZeb1/genomic_data/pacbio_hifi/m84203_250307_194210_s4.hifi_reads.bc1008.bam
+pacbiohifi_fqgz fChaZeb1             28765926571               0      2147483648     66217079136         4388916  species/Characidium_zebra/fChaZeb1/genomic_data/pacbio_hifi/m84203_250307_194210_s4.hifi_reads.bc1008.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +15,6 @@ arima           fChaZeb1             30104646663               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fChaZeb1          1.7335    103180170609
+pacbiohifi_bam  fChaZeb1          0.2980    114431064845
+pacbiohifi_fqgz fChaZeb1          2.2695    112347719171
 --------------- ---------------  ------- ---------------

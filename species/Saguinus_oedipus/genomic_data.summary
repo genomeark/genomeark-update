@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mSagOed1            116025391585               0      2147483648     34771755582         2414967  species/Saguinus_oedipus/mSagOed1/genomic_data/pacbio_hifi/m84091_241214_031734_s4.hifi_reads.bc1016.bam
+pacbiohifi_fqgz mSagOed1             18236415746               0      2147483648     34054033166         2395548  species/Saguinus_oedipus/mSagOed1/genomic_data/pacbio_hifi/m84091_241214_031734_s4.hifi_reads.bc1016.fastq.gz
+pacbiohifi_bam  mSagOed1            318327648685               0      2147483648     89834161515         5637740  species/Saguinus_oedipus/mSagOed1/genomic_data/pacbio_hifi/m84203_250214_160456_s3.hifi_reads.bc1016.bam
+pacbiohifi_fqgz mSagOed1             44676198688               0      2147483648     88094526064         5937454  species/Saguinus_oedipus/mSagOed1/genomic_data/pacbio_hifi/m84203_250214_160456_s3.hifi_reads.bc1016.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mSagOed1          0.2849    123747181172
+pacbiohifi_fqgz mSagOed1          1.9541    122937539865
+--------------- ---------------  ------- ---------------

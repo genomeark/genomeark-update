@@ -9,7 +9,10 @@ bionano         sMobBir1               731728525               0       731728525
 bionano         sMobBir1               977099256               0       977099256    630216794722         5870611  species/Mobula_birostris/sMobBir1/genomic_data/bionano/sMobGio1_Saphyr_DLE1_3680777
 pacbiohifi_fqgz sMobBir1             22219209555               0      2147483648     25781355626         1733339  species/Mobula_birostris/sMobBir1/genomic_data/pacbio_hifi/m54306Ue_220211_072557.hifi_reads.fastq.gz
 pacbiohifi_fqgz sMobBir1             20246557061               0      2147483648     25856519126         1702137  species/Mobula_birostris/sMobBir1/genomic_data/pacbio_hifi/m64055e_220227_054430.hifi_reads.fastq.gz
+pacbiohifi_clr  sMobBir1            182660349129               0      2147483648     68847560548         4149887  species/Mobula_birostris/sMobBir1/genomic_data/pacbio_hifi/m64055e_220227_054430.reads.bam
 pacbiohifi_fqgz sMobBir1             18370654850               0      2147483648     23552358039         1553044  species/Mobula_birostris/sMobBir1/genomic_data/pacbio_hifi/m64055e_220228_164143.hifi_reads.fastq.gz
+pacbiohifi_clr  sMobBir1            166414267158               0      2147483648     62402543709         3723368  species/Mobula_birostris/sMobBir1/genomic_data/pacbio_hifi/m64055e_220228_164143.reads.bam
+pacbiohifi_clr  sMobBir1            223073069215               0      2147483648     87425229133         5227896  species/Mobula_birostris/sMobBir1/genomic_data/pacbio_hifi/m64334e_211209_202849.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -18,5 +21,6 @@ pacbiohifi_fqgz sMobBir1             18370654850               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           sMobBir1          2.0230    584328891807
 bionano         sMobBir1         643.5532   1099721719619
+pacbiohifi_clr  sMobBir1          0.3822    379340459544
 pacbiohifi_fqgz sMobBir1          1.2359    112850505885
 --------------- ---------------  ------- ---------------

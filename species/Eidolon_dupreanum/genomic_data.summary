@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mEidDup1            250578985020               0      2147483648     71737588131         4374401  species/Eidolon_dupreanum/mEidDup1/genomic_data/pacbio_hifi/m84203_250221_185713_s1.hifi_reads.bc1016.bam
+pacbiohifi_fqgz mEidDup1             33962970854               0      2147483648     69702146143         4576978  species/Eidolon_dupreanum/mEidDup1/genomic_data/pacbio_hifi/m84203_250221_185713_s1.hifi_reads.bc1016.fastq.gz
+pacbiohifi_bam  mEidDup1            122107790795               0      2147483648     35466742922         2178681  species/Eidolon_dupreanum/mEidDup1/genomic_data/pacbio_hifi/m84203_250224_193551_s3.hifi_reads.bc1016.bam
+pacbiohifi_fqgz mEidDup1             16476157534               0      2147483648     35613909075         2446561  species/Eidolon_dupreanum/mEidDup1/genomic_data/pacbio_hifi/m84203_250224_193551_s3.hifi_reads.bc1016.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mEidDup1          0.2871    106998373336
+pacbiohifi_fqgz mEidDup1          2.0736    104590576625
+--------------- ---------------  ------- ---------------

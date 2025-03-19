@@ -4,6 +4,9 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bOpiHoa1             31053115610               0      2147483648     60463637866       400421442  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/arima/bOpiHoa1_S7_R1_001.fastq.gz
 arima           bOpiHoa1             32271975612               0      2147483648     61301592177       405970824  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/arima/bOpiHoa1_S7_R2_001.fastq.gz
+pacbiohifi_fqgz bOpiHoa1             23163552811               0      2147483648     37637728735         2004107  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/pacbio_hifi/deepconsensus/m64330e_221022_123931.dc.q0.fastq.gz
+pacbiohifi_fqgz bOpiHoa1             22902674857               0      2147483648     37298874538         1984831  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/pacbio_hifi/deepconsensus/m64330e_221022_123931.dc.q20.fastq.gz
+pacbiohifi_fqgz bOpiHoa1             20040057295               0      2147483648     33030680987         1743456  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/pacbio_hifi/deepconsensus/m64334e_221015_123841.dc.q0.fastq.gz
 pacbiohifi_fqgz bOpiHoa1             25376471361               0      2147483648     29945051276         1602079  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/pacbio_hifi/m64330e_221022_123931.bc1003--bc1003.hifi_reads.fastq.gz
 pacbiohifi_bam  bOpiHoa1            114181097136               0      2147483648     30250945981         1638477  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/pacbio_hifi/m64330e_221022_123931.demultiplex.bc1003--bc1003.bam
 pacbiohifi_bam  bOpiHoa1            116755637716               0      2147483648     31435870600         1701627  species/Opisthocomus_hoazin/bOpiHoa1/genomic_data/pacbio_hifi/m64330e_221022_123931.hifi_reads.bam
@@ -22,5 +25,5 @@ pacbiohifi_bam  bOpiHoa1            104110268679               0      2147483648
 arima           bOpiHoa1          1.9149    121261217181
 pacbiohifi_bam  bOpiHoa1          0.2683    176154750221
 pacbiohifi_clr  bOpiHoa1          0.5364   1145381349093
-pacbiohifi_fqgz bOpiHoa1          1.1899     56502033611
+pacbiohifi_fqgz bOpiHoa1          1.6332    217868646656
 --------------- ---------------  ------- ---------------

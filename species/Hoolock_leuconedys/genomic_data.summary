@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 dovetail        mHooLeu1             44318841874               0      2147483648     74145437786       491029409  species/Hoolock_leuconedys/mHooLeu1/genomic_data/dovetail/Arthur_HLE_HLE304_HiC1_NextSeq2000_S1_R1_001.fastq.gz
 dovetail        mHooLeu1             46576278112               0      2147483648     72274175027       478636942  species/Hoolock_leuconedys/mHooLeu1/genomic_data/dovetail/Arthur_HLE_HLE304_HiC1_NextSeq2000_S1_R2_001.fastq.gz
+illumina        mHooLeu1             26323307457               0      2147483648     59064369234       391154775  species/Hoolock_leuconedys/mHooLeu1/genomic_data/illumina/Arthur_R2.fastq.gz
 illumina        mHooLeu1             47155759110               0      2147483648     93868063050       621642801  species/Hoolock_leuconedys/mHooLeu1/genomic_data/illumina/HHMWLDSX5_19423163_S37_L002_R1_001.fastq.gz
 illumina        mHooLeu1             48507143790               0      2147483648     94036437301       622757862  species/Hoolock_leuconedys/mHooLeu1/genomic_data/illumina/HHMWLDSX5_19423163_S37_L002_R2_001.fastq.gz
 illumina        mHooLeu1             48244542551               0      2147483648     93086498334       616466898  species/Hoolock_leuconedys/mHooLeu1/genomic_data/illumina/HHMWLDSX5_19423163_S37_L003_R2_001.fastq.gz
@@ -23,9 +24,18 @@ pacbiohifi_bam  mHooLeu1            157049237165               0      2147483648
 pacbiohifi_fqgz mHooLeu1             33789746254               0      2147483648     41945602480         2152112  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m64076_230421_164836-bc2040.hifi_reads.5mC.fq.gz
 pacbiohifi_clr  mHooLeu1           1160593833345               0      2147483648    625415215518        34423015  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m64076_230421_164836.subreads.bam
 pacbiohifi_clr  mHooLeu1            336002249351               0      2147483648    120587856433         5852038  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/r64076_20230418_214037_C01.reads.bam
+dovetail        mHooLeu2             21053632136               0      2147483648     41918096441       277603297  species/Hoolock_leuconedys/mHooLeu2/genomic_data/dovetail/Gabby-HLE-OmniC_S1_L002_R1_001.fastq.gz
+dovetail        mHooLeu2             22970282521               0      2147483648     43150719288       285766363  species/Hoolock_leuconedys/mHooLeu2/genomic_data/dovetail/Gabby-HLE-OmniC_S1_L002_R2_001.fastq.gz
+dovetail        mHooLeu2               618521936               0       618521936       979634552         9699352  species/Hoolock_leuconedys/mHooLeu2/genomic_data/dovetail/HLE-OmniC_S38_L002_R2_001.fastq.gz
+illumina        mHooLeu2             44287018931               0      2147483648     87020589026       580668591  species/Hoolock_leuconedys/mHooLeu2/genomic_data/illumina/HLE_PCRFree_S11_L004_R1_001.fastq.gz
+illumina        mHooLeu2             46462729541               0      2147483648     86970077770       580616406  species/Hoolock_leuconedys/mHooLeu2/genomic_data/illumina/HLE_PCRFree_S11_L004_R2_001.fastq.gz
 ont             mHooLeu2             15324209332               0      2147483648     18260744412          432663  species/Hoolock_leuconedys/mHooLeu2/genomic_data/ont/PBA00227_dorado-7.4.14.fq.gz
 ont             mHooLeu2             16569833642               0      2147483648     19788169491          428465  species/Hoolock_leuconedys/mHooLeu2/genomic_data/ont/PBA02043_dorado-7.4.14.fq.gz
 ont             mHooLeu2             53553936798               0      2147483648     64545717441         1330890  species/Hoolock_leuconedys/mHooLeu2/genomic_data/ont/PBA94138_dorado-7.4.14.fq.gz
+pacbiohifi_bam  mHooLeu2            125919212243               0      2147483648     34538838095         1746992  species/Hoolock_leuconedys/mHooLeu2/genomic_data/pacbio_hifi/PS00185.unaligned.fiberseq.hifi_reads.bam
+pacbiohifi_fqgz mHooLeu2             27922115577               0      2147483648     34187107253         1737321  species/Hoolock_leuconedys/mHooLeu2/genomic_data/pacbio_hifi/PS00185.unaligned.fiberseq.hifi_reads.fastq.gz
+pacbiohifi_bam  mHooLeu2             80757030001               0      2147483648     23730989971         1235864  species/Hoolock_leuconedys/mHooLeu2/genomic_data/pacbio_hifi/m84122_241101_160551_s1.hifi_reads.bam
+pacbiohifi_fqgz mHooLeu2              8464122470               0      2147483648     22849806324         1206277  species/Hoolock_leuconedys/mHooLeu2/genomic_data/pacbio_hifi/m84122_241101_160551_s1.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -33,10 +43,14 @@ ont             mHooLeu2             53553936798               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 dovetail        mHooLeu1          1.5908    144595956873
-illumina        mHooLeu1          1.9525    372570317971
+dovetail        mHooLeu2          1.9275     87148692374
+illumina        mHooLeu1          2.0211    491261939222
+illumina        mHooLeu2          1.9018    172587871644
 ont             mHooLeu1          1.1385    246601862299
 ont             mHooLeu2          1.2006    202076618343
 pacbiohifi_bam  mHooLeu1          0.2668    482335233982
+pacbiohifi_bam  mHooLeu2          0.2790     57662671586
 pacbiohifi_clr  mHooLeu1          0.5163   4619949185010
 pacbiohifi_fqgz mHooLeu1          1.2802    242174856838
+pacbiohifi_fqgz mHooLeu2          1.4185     51613878669
 --------------- ---------------  ------- ---------------

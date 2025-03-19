@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mAmbHot1            423314658461               0      2147483648    118477076884         8161411  species/Amblysomus_hottentotus/mAmbHot1/genomic_data/pacbio_hifi/m84203_250223_004312_s4.hifi_reads.bc1021.bam
+pacbiohifi_fqgz mAmbHot1             57183490265               0      2147483648    113884668560         8187406  species/Amblysomus_hottentotus/mAmbHot1/genomic_data/pacbio_hifi/m84203_250223_004312_s4.hifi_reads.bc1021.fastq.gz
+pacbiohifi_bam  mAmbHot1            431831840909               0      2147483648    123603496160         8581604  species/Amblysomus_hottentotus/mAmbHot1/genomic_data/pacbio_hifi/m84203_250224_190334_s2.hifi_reads.bc1021.bam
+pacbiohifi_fqgz mAmbHot1             56121986080               0      2147483648    122277008151         9010502  species/Amblysomus_hottentotus/mAmbHot1/genomic_data/pacbio_hifi/m84203_250224_190334_s2.hifi_reads.bc1021.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mAmbHot1          0.2841    242947120471
+pacbiohifi_fqgz mAmbHot1          2.0531    232627473483
+--------------- ---------------  ------- ---------------

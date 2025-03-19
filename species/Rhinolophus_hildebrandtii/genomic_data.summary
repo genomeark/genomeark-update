@@ -12,6 +12,8 @@ pacbiohifi_bam  mRhiHil1            141213119629               0      2147483648
 pacbiohifi_fqgz mRhiHil1             34411761350               0      2147483648      8831005249          438470  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/pacbio_hifi/m64326e_231114_060222.hifi_reads.bc2065--bc2065.fastq.gz
 pacbiohifi_bam  mRhiHil1            132020132401               0      2147483648     34566631310         1783868  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/pacbio_hifi/m64326e_231124_170431.hifi_reads.bc2065--bc2065.bam
 pacbiohifi_fqgz mRhiHil1             32012710449               0      2147483648      8381839490          432558  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/pacbio_hifi/m64326e_231124_170431.hifi_reads.bc2065--bc2065.fastq.gz
+pacbiohifi_bam  mRhiHil1            131253989146               0      2147483648    138202940502         6955628  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/pacbio_hifi/m64326e_231126_021808.hifi_reads.bc2066--bc2066.bam
+pacbiohifi_fqgz mRhiHil1             32278981487               0      2147483648     33987920572         1710581  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/pacbio_hifi/m64326e_231126_021808.hifi_reads.bc2066--bc2066.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -19,6 +21,6 @@ pacbiohifi_fqgz mRhiHil1             32012710449               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mRhiHil1          2.3118    124237005855
-pacbiohifi_bam  mRhiHil1          0.2625    145036681026
-pacbiohifi_fqgz mRhiHil1          0.2624     34664722892
+pacbiohifi_bam  mRhiHil1          0.2611    178533568627
+pacbiohifi_fqgz mRhiHil1          0.5249     86285893809
 --------------- ---------------  ------- ---------------

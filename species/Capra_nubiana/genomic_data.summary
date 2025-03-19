@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mCapNub1            224921463595               0      2147483648     64642617956         3759647  species/Capra_nubiana/mCapNub1/genomic_data/pacbio_hifi/m84203_250214_163712_s4.hifi_reads.bc1001.bam
+pacbiohifi_fqgz mCapNub1             32119124423               0      2147483648     64004694009         3815616  species/Capra_nubiana/mCapNub1/genomic_data/pacbio_hifi/m84203_250214_163712_s4.hifi_reads.bc1001.fastq.gz
+pacbiohifi_bam  mCapNub1            223106661854               0      2147483648     64398805616         3663963  species/Capra_nubiana/mCapNub1/genomic_data/pacbio_hifi/m84203_250226_015417_s3.hifi_reads.bc1001.bam
+pacbiohifi_fqgz mCapNub1             31445590592               0      2147483648     64015320158         3741211  species/Capra_nubiana/mCapNub1/genomic_data/pacbio_hifi/m84203_250226_015417_s3.hifi_reads.bc1001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mCapNub1          0.2878    128942494504
+pacbiohifi_fqgz mCapNub1          2.0068    127561670092
+--------------- ---------------  ------- ---------------

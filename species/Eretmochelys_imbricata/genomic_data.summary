@@ -5,10 +5,14 @@
 dovetail        rEreImb1             81226632422               0      2147483648    145801684721       965574108  species/Eretmochelys_imbricata/rEreImb1/genomic_data/dovetail/rEreImb1_L2_1.fastq.gz
 dovetail        rEreImb1             83311313301               0      2147483648    144863762064       959362662  species/Eretmochelys_imbricata/rEreImb1/genomic_data/dovetail/rEreImb1_L2_2.fastq.gz
 pacbiohifi_fqgz rEreImb1             17389157058               0      2147483648     21448786064         1206674  species/Eretmochelys_imbricata/rEreImb1/genomic_data/pacbio_hifi/m64055e_221010_174741.bc1012--bc1012.hifi_reads.fastq.gz
+pacbiohifi_bam  rEreImb1             79705619879               0      2147483648     21464884389         1212165  species/Eretmochelys_imbricata/rEreImb1/genomic_data/pacbio_hifi/m64055e_221010_174741.demultiplex.bc1012--bc1012.bam
 pacbiohifi_clr  rEreImb1            918234391012               0      2147483648    493149104245        26849848  species/Eretmochelys_imbricata/rEreImb1/genomic_data/pacbio_hifi/m64055e_221010_174741.subreads.bam
 pacbiohifi_fqgz rEreImb1             30628517719               0      2147483648     32193050105         1388712  species/Eretmochelys_imbricata/rEreImb1/genomic_data/pacbio_hifi/m64055e_221130_154424.bc1012--bc1012.hifi_reads.fastq.gz
+pacbiohifi_bam  rEreImb1            125628005432               0      2147483648     32291669627         1395812  species/Eretmochelys_imbricata/rEreImb1/genomic_data/pacbio_hifi/m64055e_221130_154424.demultiplex.bc1012--bc1012.bam
 pacbiohifi_clr  rEreImb1           1096811282825               0      2147483648    584082951155        26540736  species/Eretmochelys_imbricata/rEreImb1/genomic_data/pacbio_hifi/m64055e_221130_154424.subreads.bam
+pacbiohifi_bam  rEreImb1            130219570792               0      2147483648     33582050906         1451436  species/Eretmochelys_imbricata/rEreImb1/genomic_data/pacbio_hifi/m64055e_221130_154424.with_5mC.bam
 pacbiohifi_fqgz rEreImb1              5551250485               0      2147483648      6760584321          431827  species/Eretmochelys_imbricata/rEreImb1/genomic_data/pacbio_hifi/m64330e_220429_165427.bc1012--bc1012.hifi_reads.fastq.gz
+pacbiohifi_clr  rEreImb1             89152156725               0      2147483648     39842481718         2527124  species/Eretmochelys_imbricata/rEreImb1/genomic_data/pacbio_hifi/m64330e_220429_165427.reads.bam
 pacbiohifi_clr  rEreImb1           1196345835296               0      2147483648    642770207764        28107516  species/Eretmochelys_imbricata/rEreImb1/genomic_data/pacbio_hifi/m64334e_221219_110259.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -17,6 +21,7 @@ pacbiohifi_clr  rEreImb1           1196345835296               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 dovetail        rEreImb1          1.7572    289126078224
-pacbiohifi_clr  rEreImb1          0.5355   1719700153140
-pacbiohifi_fqgz rEreImb1          1.1275    102843665563
+pacbiohifi_bam  rEreImb1          0.2602    276983518324
+pacbiohifi_clr  rEreImb1          0.5308   1783341046493
+pacbiohifi_fqgz rEreImb1          1.1275     99377470876
 --------------- ---------------  ------- ---------------

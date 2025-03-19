@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rIndElo1             84601247769               0      2147483648    149018693534       986878804  species/Indotestudo_elongata/rIndElo1/genomic_data/arima/rIndElo1_S1_R1_001.fastq.gz
+arima           rIndElo1             88589858571               0      2147483648    149983079059       993265424  species/Indotestudo_elongata/rIndElo1/genomic_data/arima/rIndElo1_S1_R2_001.fastq.gz
+pacbiohifi_bam  rIndElo1            162104337909               0      2147483648     45869376343         3198782  species/Indotestudo_elongata/rIndElo1/genomic_data/pacbio_hifi/m84203_241209_192642_s2.hifi_reads.bc1021.bam
+pacbiohifi_fqgz rIndElo1             22899702705               0      2147483648     44987253522         3234123  species/Indotestudo_elongata/rIndElo1/genomic_data/pacbio_hifi/m84203_241209_192642_s2.hifi_reads.bc1021.fastq.gz
+pacbiohifi_bam  rIndElo1            146000494743               0      2147483648     41965928955         2846470  species/Indotestudo_elongata/rIndElo1/genomic_data/pacbio_hifi/m84203_241214_032215_s4.hifi_reads.bc1021.bam
+pacbiohifi_fqgz rIndElo1             20014254909               0      2147483648     41473614677         3030502  species/Indotestudo_elongata/rIndElo1/genomic_data/pacbio_hifi/m84203_241214_032215_s4.hifi_reads.bc1021.fastq.gz
+pacbiohifi_bam  rIndElo1            133982847123               0      2147483648     37951214861         2669819  species/Indotestudo_elongata/rIndElo1/genomic_data/pacbio_hifi/m84203_250121_225649_s4.hifi_reads.bc1021.bam
+pacbiohifi_fqgz rIndElo1             17925917795               0      2147483648     36920686823         2610258  species/Indotestudo_elongata/rIndElo1/genomic_data/pacbio_hifi/m84203_250121_225649_s4.hifi_reads.bc1021.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rIndElo1          1.7151    297040066483
+pacbiohifi_bam  rIndElo1          0.2845    125773944895
+pacbiohifi_fqgz rIndElo1          2.0279    123377183341
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aRanVar5            155980009666               0      2147483648    261841360586      1734048818  species/Ranitomeya_variabilis/aRanVar5/genomic_data/arima/aRanVar5_S4_R1_001.fastq.gz
+arima           aRanVar5            160683380829               0      2147483648    265651193622      1759279502  species/Ranitomeya_variabilis/aRanVar5/genomic_data/arima/aRanVar5_S4_R2_001.fastq.gz
+pacbiohifi_bam  aRanVar5            216289651977               0      2147483648     61267045280         3073501  species/Ranitomeya_variabilis/aRanVar5/genomic_data/pacbio_hifi/m84091_250123_015847_s4.hifi_reads.bc1010.bam
+pacbiohifi_fqgz aRanVar5             30243581459               0      2147483648     59642927270         3273359  species/Ranitomeya_variabilis/aRanVar5/genomic_data/pacbio_hifi/m84091_250123_015847_s4.hifi_reads.bc1010.fastq.gz
+pacbiohifi_bam  aRanVar5            180867087672               0      2147483648     51512258259         2290944  species/Ranitomeya_variabilis/aRanVar5/genomic_data/pacbio_hifi/m84091_250127_213008_s3.hifi_reads.bc1010.bam
+pacbiohifi_fqgz aRanVar5             25588718812               0      2147483648     50184345754         2423243  species/Ranitomeya_variabilis/aRanVar5/genomic_data/pacbio_hifi/m84091_250127_213008_s3.hifi_reads.bc1010.fastq.gz
+pacbiohifi_bam  aRanVar5            219628365065               0      2147483648     62706823268         3267297  species/Ranitomeya_variabilis/aRanVar5/genomic_data/pacbio_hifi/m84091_250208_043343_s4.hifi_reads.bc1010.bam
+pacbiohifi_fqgz aRanVar5             31531563763               0      2147483648     59836325333         3261232  species/Ranitomeya_variabilis/aRanVar5/genomic_data/pacbio_hifi/m84091_250208_043343_s4.hifi_reads.bc1010.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           aRanVar5          1.6615    526136223307
+pacbiohifi_bam  aRanVar5          0.2845    284844788926
+pacbiohifi_fqgz aRanVar5          1.9420    276557652188
+--------------- ---------------  ------- ---------------
