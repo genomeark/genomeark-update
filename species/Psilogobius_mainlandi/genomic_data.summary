@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fPsiMai1            420448771048               0      2147483648    120536381453         7425211  species/Psilogobius_mainlandi/fPsiMai1/genomic_data/pacbio_hifi/m84203_250402_192745_s3.hifi_reads.bc1001.bam
+pacbiohifi_fqgz fPsiMai1             56614656362               0      2147483648    117931293281         7443111  species/Psilogobius_mainlandi/fPsiMai1/genomic_data/pacbio_hifi/m84203_250402_192745_s3.hifi_reads.bc1001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fPsiMai1          0.2866    120500617782
+pacbiohifi_fqgz fPsiMai1          2.0830    117928329202
+--------------- ---------------  ------- ---------------

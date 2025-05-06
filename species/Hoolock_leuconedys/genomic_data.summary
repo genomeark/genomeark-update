@@ -29,6 +29,7 @@ dovetail        mHooLeu2             22970282521               0      2147483648
 dovetail        mHooLeu2               618521936               0       618521936       979634552         9699352  species/Hoolock_leuconedys/mHooLeu2/genomic_data/dovetail/HLE-OmniC_S38_L002_R2_001.fastq.gz
 illumina        mHooLeu2             44287018931               0      2147483648     87020589026       580668591  species/Hoolock_leuconedys/mHooLeu2/genomic_data/illumina/HLE_PCRFree_S11_L004_R1_001.fastq.gz
 illumina        mHooLeu2             46462729541               0      2147483648     86970077770       580616406  species/Hoolock_leuconedys/mHooLeu2/genomic_data/illumina/HLE_PCRFree_S11_L004_R2_001.fastq.gz
+ont             mHooLeu2             42599244923               0      2147483648    124726152761          940126  species/Hoolock_leuconedys/mHooLeu2/genomic_data/ont/BET0031_HIFIASM-corrected-0.24.0-r703.fastq.gz
 ont             mHooLeu2             15324209332               0      2147483648     18260744412          432663  species/Hoolock_leuconedys/mHooLeu2/genomic_data/ont/PBA00227_dorado-7.4.14.fq.gz
 ont             mHooLeu2             16569833642               0      2147483648     19788169491          428465  species/Hoolock_leuconedys/mHooLeu2/genomic_data/ont/PBA02043_dorado-7.4.14.fq.gz
 ont             mHooLeu2             53553936798               0      2147483648     64545717441         1330890  species/Hoolock_leuconedys/mHooLeu2/genomic_data/ont/PBA94138_dorado-7.4.14.fq.gz
@@ -47,7 +48,7 @@ dovetail        mHooLeu2          1.9275     87148692374
 illumina        mHooLeu1          2.0211    491261939222
 illumina        mHooLeu2          1.9018    172587871644
 ont             mHooLeu1          1.1385    246601862299
-ont             mHooLeu2          1.2006    202076618343
+ont             mHooLeu2          1.8616    392634282507
 pacbiohifi_bam  mHooLeu1          0.2668    482335233982
 pacbiohifi_bam  mHooLeu2          0.2790     57662671586
 pacbiohifi_clr  mHooLeu1          0.5163   4619949185010

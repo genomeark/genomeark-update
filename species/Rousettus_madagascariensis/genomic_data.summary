@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mRouMad1            153298211273               0      2147483648     42760502017         2273185  species/Rousettus_madagascariensis/mRouMad1/genomic_data/pacbio_hifi/m84203_250208_002158_s2.hifi_reads.bc1003.bam
+pacbiohifi_fqgz mRouMad1             22536472504               0      2147483648     42008399727         2300584  species/Rousettus_madagascariensis/mRouMad1/genomic_data/pacbio_hifi/m84203_250208_002158_s2.hifi_reads.bc1003.fastq.gz
+pacbiohifi_bam  mRouMad1            410015110996               0      2147483648    118156539877         5540162  species/Rousettus_madagascariensis/mRouMad1/genomic_data/pacbio_hifi/m84203_250425_200241_s2.hifi_reads.bc1003.bam
+pacbiohifi_fqgz mRouMad1             57818745416               0      2147483648    112759437571         6284992  species/Rousettus_madagascariensis/mRouMad1/genomic_data/pacbio_hifi/m84203_250425_200241_s2.hifi_reads.bc1003.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mRouMad1          0.2867    161501929494
+pacbiohifi_fqgz mRouMad1          1.9361    155575737414
+--------------- ---------------  ------- ---------------

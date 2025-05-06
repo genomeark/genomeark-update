@@ -10,6 +10,8 @@ pacbiohifi_fqgz fCorHun2             13283634979               0      2147483648
 pacbiohifi_clr  fCorHun2           1087862676138               0      2147483648    573043681851        69800536  species/Coregonus_huntsmani/fCorHun2/genomic_data/pacbio_hifi/m64330e_230711_075523.subreads.bam
 pacbiohifi_bam  fCorHun2            167698403459               0      2147483648    352706320547        43752631  species/Coregonus_huntsmani/fCorHun2/genomic_data/pacbio_hifi/m84091_231020_184539_s1.hifi_reads.bc1019.bam
 pacbiohifi_fqgz fCorHun2             17906413943               0      2147483648     37661094236         4671796  species/Coregonus_huntsmani/fCorHun2/genomic_data/pacbio_hifi/m84091_231020_184539_s1.hifi_reads.bc1019.fastq.gz
+pacbiohifi_bam  fCorHun2            277294673801               0      2147483648     80094743054         4111094  species/Coregonus_huntsmani/fCorHun2/genomic_data/pacbio_hifi/m84203_250425_213930_s3.hifi_reads.bc1019.bam
+pacbiohifi_fqgz fCorHun2             38621296669               0      2147483648     77018485852         4302795  species/Coregonus_huntsmani/fCorHun2/genomic_data/pacbio_hifi/m84203_250425_213930_s3.hifi_reads.bc1019.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -17,7 +19,7 @@ pacbiohifi_fqgz fCorHun2             17906413943               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fCorHun2          1.7809    264035205549
-pacbiohifi_bam  fCorHun2          2.1032    352703282154
+pacbiohifi_bam  fCorHun2          0.7100    315945084854
 pacbiohifi_clr  fCorHun2          0.5259   1062907945596
-pacbiohifi_fqgz fCorHun2          1.7057     71993957326
+pacbiohifi_fqgz fCorHun2          1.9145    154747432255
 --------------- ---------------  ------- ---------------

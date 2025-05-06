@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  qmAlpRapa1          364161114983               0      2147483648    102744931228         5530712  species/Alpheus_rapax/qmAlpRapa1/genomic_data/pacbio_hifi/m84203_250318_193038_s2.hifi_reads.bc1011.bam
+pacbiohifi_fqgz qmAlpRapa1           51652381795               0      2147483648     99133873388         5408231  species/Alpheus_rapax/qmAlpRapa1/genomic_data/pacbio_hifi/m84203_250318_193038_s2.hifi_reads.bc1011.fastq.gz
+pacbiohifi_bam  qmAlpRapa1          375460602942               0      2147483648    107309685010         5998498  species/Alpheus_rapax/qmAlpRapa1/genomic_data/pacbio_hifi/m84203_250403_022608_s4.hifi_reads.bc1011.bam
+pacbiohifi_fqgz qmAlpRapa1           51645364752               0      2147483648    105189755184         6284934  species/Alpheus_rapax/qmAlpRapa1/genomic_data/pacbio_hifi/m84203_250403_022608_s4.hifi_reads.bc1011.fastq.gz
+pacbiohifi_bam  qmAlpRapa1          354083375503               0      2147483648    100368632425         5914680  species/Alpheus_rapax/qmAlpRapa1/genomic_data/pacbio_hifi/m84203_250410_174114_s4.hifi_reads.bc1011.bam
+pacbiohifi_fqgz qmAlpRapa1           48053937613               0      2147483648     96113407367         5763383  species/Alpheus_rapax/qmAlpRapa1/genomic_data/pacbio_hifi/m84203_250410_174114_s4.hifi_reads.bc1011.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  qmAlpRapa1        0.2838    399176103900
+pacbiohifi_fqgz qmAlpRapa1        1.9850    385191184436
+--------------- ---------------  ------- ---------------

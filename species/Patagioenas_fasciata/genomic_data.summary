@@ -4,6 +4,9 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bPatFas1             18540385729               0      2147483648     33831188139       224047612  species/Patagioenas_fasciata/bPatFas1/genomic_data/arima/bPatFas1_L1_S7_R1_001.fastq.gz
 arima           bPatFas1             19363033441               0      2147483648     33749562651       223507037  species/Patagioenas_fasciata/bPatFas1/genomic_data/arima/bPatFas1_L1_S7_R2_001.fastq.gz
+ont             bPatFas1                 5220038               0         5220038         6178004             686  species/Patagioenas_fasciata/bPatFas1/genomic_data/ont/20241008_1650_2E_PAQ83015_bd9104da/fastq_fail/PAQ83015_fail_bd9104da_d74a1b29_87.fastq.gz
+ont             bPatFas1                 1110804               0         1110804         1044093             176  species/Patagioenas_fasciata/bPatFas1/genomic_data/ont/20241023_1758_1E_PAS38170_e60e5d3b/fastq_pass/PAS38170_pass_e60e5d3b_8fd20bbe_246.fastq.gz
+ont             bPatFas1                21987098               0        21987098        21554239            1818  species/Patagioenas_fasciata/bPatFas1/genomic_data/ont/20241120_1951_3F_PBA23010_54f75e76/fastq_pass/PBA23010_pass_54f75e76_590c8671_377.fastq.gz
 pacbiohifi_fqgz bPatFas1             36035829231               0      2147483648     39832275320         1782490  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64055e_230321_165824.bc1016--bc1016.hifi_reads.fastq.gz
 pacbiohifi_bam  bPatFas1            151540753794               0      2147483648     39639013678         1760285  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64055e_230321_165824.demultiplex.bc1016--bc1016.bam
 pacbiohifi_clr  bPatFas1           1330284765207               0      2147483648    715737864655        32256631  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64055e_230321_165824.subreads.bam
@@ -11,6 +14,8 @@ pacbiohifi_bam  bPatFas1            158115345280               0      2147483648
 pacbiohifi_fqgz bPatFas1             34655783815               0      2147483648     40338987958         1845089  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64330e_230310_183553.bc1016--bc1016.hifi_reads.fastq.gz
 pacbiohifi_bam  bPatFas1            156917627880               0      2147483648     42167751858         1903266  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64330e_230310_183553.hifi_reads.bam
 pacbiohifi_clr  bPatFas1           1366913787138               0      2147483648    737219541548        34233892  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64330e_230310_183553.subreads.bam
+arima           bPatFas27            11899290733               0      2147483648     21919854705       145164606  species/Patagioenas_fasciata_x_Patagioenas_picazuro/bPatFas27/genomic_data/arima/bPatFas27_L1_S3_R1_001.fastq.gz
+arima           bPatFas27            12659561037               0      2147483648     21827549734       144553315  species/Patagioenas_fasciata_x_Patagioenas_picazuro/bPatFas27/genomic_data/arima/bPatFas27_L1_S3_R2_001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -18,6 +23,8 @@ pacbiohifi_clr  bPatFas1           1366913787138               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bPatFas1          1.7694     67066309879
+arima           bPatFas27         1.7618     43267785048
+ont             bPatFas1          1.0161    152686485563
 pacbiohifi_bam  bPatFas1          0.2642    246538045071
 pacbiohifi_clr  bPatFas1          0.5389   1453520299858
 pacbiohifi_fqgz bPatFas1          1.1243     79478580547

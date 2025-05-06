@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mRhiHil1             26661067936               0      2147483648     62070067384       411060061  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/arima/A061_S306_1.fastq.gz
 arima           mRhiHil1             27079310062               0      2147483648     62385774421       413150836  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/arima/A061_S306_2.fastq.gz
+arima           mRhiHil1             17775071723               0      2147483648     31978450002       212585202  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/arima/mRhiHil1_run1_L001_R1_001.trim.fastq.gz
+arima           mRhiHil1              2595372789               0      2595372789      4955795294        32943506  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/arima/mRhiHil1_run2_L002_R1_001.trim.fastq.gz
 pacbiohifi_bam  mRhiHil1            137259765140               0      2147483648     36398349652         1978473  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/pacbio_hifi/m64326e_231028_085838.hifi_reads.bc2057--bc2057.bam
 pacbiohifi_fqgz mRhiHil1             32439444248               0      2147483648      8602245771          467584  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/pacbio_hifi/m64326e_231028_085838.hifi_reads.bc2057--bc2057.fastq.gz
 pacbiohifi_bam  mRhiHil1            142027672455               0      2147483648     37753415915         2056523  species/Rhinolophus_hildebrandtii/mRhiHil1/genomic_data/pacbio_hifi/m64326e_231029_195638.hifi_reads.bc2057--bc2057.bam
@@ -20,7 +22,7 @@ pacbiohifi_fqgz mRhiHil1             32278981487               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           mRhiHil1          2.3118    124237005855
+arima           mRhiHil1          2.1050    211251056775
 pacbiohifi_bam  mRhiHil1          0.2611    178533568627
 pacbiohifi_fqgz mRhiHil1          0.5249     86285893809
 --------------- ---------------  ------- ---------------

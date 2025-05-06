@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  rCroNil1            458210024573               0      2147483648    131347572806         7273592  species/Crocodylus_niloticus/rCroNil1/genomic_data/pacbio_hifi/m84203_250403_012125_s2.hifi_reads.bc1002.bam
+pacbiohifi_fqgz rCroNil1             64887817555               0      2147483648    129680702256         7322664  species/Crocodylus_niloticus/rCroNil1/genomic_data/pacbio_hifi/m84203_250403_012125_s2.hifi_reads.bc1002.fastq.gz
+pacbiohifi_bam  rCroNil1            210638126887               0      2147483648     60159995179         3341398  species/Crocodylus_niloticus/rCroNil1/genomic_data/pacbio_hifi/m84203_250410_181330_s1.hifi_reads.bc1002.bam
+pacbiohifi_fqgz rCroNil1             29065521909               0      2147483648     59101070370         3415803  species/Crocodylus_niloticus/rCroNil1/genomic_data/pacbio_hifi/m84203_250410_181330_s1.hifi_reads.bc1002.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  rCroNil1          0.2864    191558110578
+pacbiohifi_fqgz rCroNil1          2.0049    188367050291
+--------------- ---------------  ------- ---------------

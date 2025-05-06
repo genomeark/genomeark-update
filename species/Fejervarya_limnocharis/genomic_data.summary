@@ -4,6 +4,12 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           aFejLim1             88991691723               0      2147483648    155764360346      1031552096  species/Fejervarya_limnocharis/aFejLim1/genomic_data/arima/aFejLim1_L1_S1_R1_001.fastq.gz
 arima           aFejLim1             89248127256               0      2147483648    157556764908      1043422325  species/Fejervarya_limnocharis/aFejLim1/genomic_data/arima/aFejLim1_L1_S1_R2_001.fastq.gz
+pacbiohifi_bam  aFejLim2             52719710403               0      2147483648     14807350907         1378750  species/Fejervarya_limnocharis/aFejLim2/genomic_data/pacbio_hifi/m84203_241224_004154_s4.hifi_reads.bc1002.bam
+pacbiohifi_fqgz aFejLim2              6696419241               0      2147483648     14190459560         1673808  species/Fejervarya_limnocharis/aFejLim2/genomic_data/pacbio_hifi/m84203_241224_004154_s4.hifi_reads.bc1002.fastq.gz
+pacbiohifi_bam  aFejLim2            349675697365               0      2147483648    101058087982         5524022  species/Fejervarya_limnocharis/aFejLim2/genomic_data/pacbio_hifi/m84203_250427_025320_s4.hifi_reads.bc1002.bam
+pacbiohifi_fqgz aFejLim2             47999957030               0      2147483648     98249126248         5560795  species/Fejervarya_limnocharis/aFejLim2/genomic_data/pacbio_hifi/m84203_250427_025320_s4.hifi_reads.bc1002.fastq.gz
+pacbiohifi_bam  aFejLim2            410683442011               0      2147483648    117504766055         6381658  species/Fejervarya_limnocharis/aFejLim2/genomic_data/pacbio_hifi/m84203_250429_163435_s3.hifi_reads.bc1002.bam
+pacbiohifi_fqgz aFejLim2             56849690189               0      2147483648    116105978795         6947177  species/Fejervarya_limnocharis/aFejLim2/genomic_data/pacbio_hifi/m84203_250429_163435_s3.hifi_reads.bc1002.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +17,6 @@ arima           aFejLim1             89248127256               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aFejLim1          1.7603    313755553348
+pacbiohifi_bam  aFejLim2          0.2870    233353629886
+pacbiohifi_fqgz aFejLim2          2.0488    228535580963
 --------------- ---------------  ------- ---------------

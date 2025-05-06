@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mPteRuf1            370317450964               0      2147483648    107573085067         5921503  species/Pteropus_rufus/mPteRuf1/genomic_data/pacbio_hifi/m84203_250311_003742_s2.hifi_reads.bc1021.bam
+pacbiohifi_fqgz mPteRuf1             52484365922               0      2147483648    105877158744         6375548  species/Pteropus_rufus/mPteRuf1/genomic_data/pacbio_hifi/m84203_250311_003742_s2.hifi_reads.bc1021.fastq.gz
+pacbiohifi_bam  mPteRuf1            202041506203               0      2147483648     59173090587         3357348  species/Pteropus_rufus/mPteRuf1/genomic_data/pacbio_hifi/m84203_250318_185824_s1.hifi_reads.bc1021.bam
+pacbiohifi_fqgz mPteRuf1             29457768556               0      2147483648     57635418969         3439527  species/Pteropus_rufus/mPteRuf1/genomic_data/pacbio_hifi/m84203_250318_185824_s1.hifi_reads.bc1021.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mPteRuf1          0.2910    166556456535
+pacbiohifi_fqgz mPteRuf1          2.0039    164203843280
+--------------- ---------------  ------- ---------------

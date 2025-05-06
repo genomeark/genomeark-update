@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fPanBuc1            188710152900               0      2147483648     54339615563         2895042  species/Pantodon_buchholzi/fPanBuc1/genomic_data/pacbio_hifi/m84203_250410_181330_s1.hifi_reads.bc1008.bam
+pacbiohifi_fqgz fPanBuc1             26237223385               0      2147483648     52877201344         3055978  species/Pantodon_buchholzi/fPanBuc1/genomic_data/pacbio_hifi/m84203_250410_181330_s1.hifi_reads.bc1008.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fPanBuc1          0.2879     54329653019
+pacbiohifi_fqgz fPanBuc1          2.0153     52875876287
+--------------- ---------------  ------- ---------------

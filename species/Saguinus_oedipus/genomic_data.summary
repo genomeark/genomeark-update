@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mSagOed1             95567238681               0      2147483648    172335920472      1141297531  species/Saguinus_oedipus/mSagOed1/genomic_data/arima/mSagOed1_S1_R1_001.fastq.gz
+arima           mSagOed1             99945295517               0      2147483648    174145419029      1153280967  species/Saguinus_oedipus/mSagOed1/genomic_data/arima/mSagOed1_S1_R2_001.fastq.gz
 pacbiohifi_bam  mSagOed1            116025391585               0      2147483648     34771755582         2414967  species/Saguinus_oedipus/mSagOed1/genomic_data/pacbio_hifi/m84091_241214_031734_s4.hifi_reads.bc1016.bam
 pacbiohifi_fqgz mSagOed1             18236415746               0      2147483648     34054033166         2395548  species/Saguinus_oedipus/mSagOed1/genomic_data/pacbio_hifi/m84091_241214_031734_s4.hifi_reads.bc1016.fastq.gz
 pacbiohifi_bam  mSagOed1            318327648685               0      2147483648     89834161515         5637740  species/Saguinus_oedipus/mSagOed1/genomic_data/pacbio_hifi/m84203_250214_160456_s3.hifi_reads.bc1016.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz mSagOed1             44676198688               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mSagOed1          1.7621    344512636510
 pacbiohifi_bam  mSagOed1          0.2849    123747181172
 pacbiohifi_fqgz mSagOed1          1.9541    122937539865
 --------------- ---------------  ------- ---------------

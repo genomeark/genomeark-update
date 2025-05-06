@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fRivCyl1            351463444395               0      2147483648    100668846195         6440463  species/Rivulus_cylindraceus/fRivCyl1/genomic_data/pacbio_hifi/m84203_250401_204003_s1.hifi_reads.bc1020.bam
+pacbiohifi_fqgz fRivCyl1             45595424988               0      2147483648     96451938117         6530885  species/Rivulus_cylindraceus/fRivCyl1/genomic_data/pacbio_hifi/m84203_250401_204003_s1.hifi_reads.bc1020.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fRivCyl1          0.2864    100659130474
+pacbiohifi_fqgz fRivCyl1          2.1153     96448002477
+--------------- ---------------  ------- ---------------

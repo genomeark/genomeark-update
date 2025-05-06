@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mConCri2            412891795189               0      2147483648    114748567921         7556698  species/Condylura_cristata/mConCri2/genomic_data/pacbio_hifi/m84203_250307_211857_s3.hifi_reads.bc1010.bam
+pacbiohifi_fqgz mConCri2             57846436535               0      2147483648    113488885425         7748006  species/Condylura_cristata/mConCri2/genomic_data/pacbio_hifi/m84203_250307_211857_s3.hifi_reads.bc1010.fastq.gz
+pacbiohifi_bam  mConCri2            235992777137               0      2147483648     67525397164         4449335  species/Condylura_cristata/mConCri2/genomic_data/pacbio_hifi/m84203_250310_203107_s4.hifi_reads.bc1010.bam
+pacbiohifi_fqgz mConCri2             31434043556               0      2147483648     65957952877         4446747  species/Condylura_cristata/mConCri2/genomic_data/pacbio_hifi/m84203_250310_203107_s4.hifi_reads.bc1010.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mConCri2          0.2797    181493014879
+pacbiohifi_fqgz mConCri2          1.9910    177757435861
+--------------- ---------------  ------- ---------------

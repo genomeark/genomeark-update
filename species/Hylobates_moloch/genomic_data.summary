@@ -32,8 +32,8 @@ pacbiohifi_fqgz mHylMol2             22309425594               0      2147483648
 arima           mHylMol2          1.9156    351928900258
 illumina        mHylMol1          1.6320    140744966251
 illumina        mHylMol2          2.2637    122451347514
-ont             mHylMol1          1.1784    249223272118
-ont             mHylMol2          1.2265    259014784321
+ont             mHylMol1          1.1784    303458914808
+ont             mHylMol2          1.2265    312046555832
 pacbiohifi_bam  mHylMol1          0.2813    174188015297
 pacbiohifi_bam  mHylMol2          0.2789    122236457250
 pacbiohifi_fqgz mHylMol1          2.4231    153287074351

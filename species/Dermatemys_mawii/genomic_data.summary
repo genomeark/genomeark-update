@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  rDerMaw1            287720422296               0      2147483648     82329338942         4632099  species/Dermatemys_mawii/rDerMaw1/genomic_data/pacbio_hifi/m84203_250310_223424_s1.hifi_reads.bc1002.bam
+pacbiohifi_fqgz rDerMaw1             40365684900               0      2147483648     80310042937         4694391  species/Dermatemys_mawii/rDerMaw1/genomic_data/pacbio_hifi/m84203_250310_223424_s1.hifi_reads.bc1002.fastq.gz
+pacbiohifi_bam  rDerMaw1            162535186138               0      2147483648     47098680329         2780489  species/Dermatemys_mawii/rDerMaw1/genomic_data/pacbio_hifi/m84203_250318_185824_s1.hifi_reads.bc1002.bam
+pacbiohifi_fqgz rDerMaw1             23515368656               0      2147483648     45959174427         2806283  species/Dermatemys_mawii/rDerMaw1/genomic_data/pacbio_hifi/m84203_250318_185824_s1.hifi_reads.bc1002.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  rDerMaw1          0.2869    129178334059
+pacbiohifi_fqgz rDerMaw1          1.9816    126586695726
+--------------- ---------------  ------- ---------------

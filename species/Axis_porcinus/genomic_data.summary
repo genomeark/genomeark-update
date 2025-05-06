@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mAxiPor1             59483445619               0      2147483648    103129912573       682979553  species/Axis_porcinus/mAxiPor1/genomic_data/arima/mAxiPor1_S2_R1_001.fastq.gz
+arima           mAxiPor1             61167432351               0      2147483648    103407670596       684819039  species/Axis_porcinus/mAxiPor1/genomic_data/arima/mAxiPor1_S2_R2_001.fastq.gz
 pacbiohifi_bam  mAxiPor1            203179850094               0      2147483648     58426774932         3735226  species/Axis_porcinus/mAxiPor1/genomic_data/pacbio_hifi/m84203_250221_182459_s4.hifi_reads.bc1015.bam
 pacbiohifi_fqgz mAxiPor1             27675299192               0      2147483648     56805655413         3767413  species/Axis_porcinus/mAxiPor1/genomic_data/pacbio_hifi/m84203_250221_182459_s4.hifi_reads.bc1015.fastq.gz
 pacbiohifi_bam  mAxiPor1            242407431675               0      2147483648     69463421246         4340452  species/Axis_porcinus/mAxiPor1/genomic_data/pacbio_hifi/m84203_250224_175906_s4.hifi_reads.bc1015.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz mAxiPor1             33573135189               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mAxiPor1          1.7046    205661486587
 pacbiohifi_bam  mAxiPor1          0.2868    127794432411
 pacbiohifi_fqgz mAxiPor1          2.0386    124861058329
 --------------- ---------------  ------- ---------------

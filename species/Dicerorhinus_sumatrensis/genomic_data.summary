@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mDicSum1             63894068337               0      2147483648    117074596494       775328483  species/Dicerorhinus_sumatrensis/mDicSum1/genomic_data/arima/mDicSum1_S2_R1_001.fastq.gz
+arima           mDicSum1             66176953493               0      2147483648    118297721169       783428617  species/Dicerorhinus_sumatrensis/mDicSum1/genomic_data/arima/mDicSum1_S2_R2_001.fastq.gz
 pacbiohifi_bam  mDicSum1             90231352866               0      2147483648     25799850032         1803380  species/Dicerorhinus_sumatrensis/mDicSum1/genomic_data/pacbio_hifi/m84091_250122_194935_s1.hifi_reads.bc1019.bam
 pacbiohifi_fqgz mDicSum1             12194790535               0      2147483648     25609878388         1848710  species/Dicerorhinus_sumatrensis/mDicSum1/genomic_data/pacbio_hifi/m84091_250122_194935_s1.hifi_reads.bc1019.fastq.gz
 pacbiohifi_bam  mDicSum1            127692573489               0      2147483648     35767025149         2577655  species/Dicerorhinus_sumatrensis/mDicSum1/genomic_data/pacbio_hifi/m84203_241214_012246_s3.hifi_reads.bc1019.bam
@@ -14,6 +16,7 @@ pacbiohifi_fqgz mDicSum1             13464586886               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mDicSum1          1.8021    234400988439
 pacbiohifi_bam  mDicSum1          0.2839    107800161135
 pacbiohifi_fqgz mDicSum1          2.0155    109052374673
 --------------- ---------------  ------- ---------------

@@ -7,6 +7,10 @@ arima           rSteOdo1             52006379510               0      2147483648
 pacbiohifi_fqgz rSteOdo1             28960121598               0      2147483648     33532727422         1633174  species/Sternotherus_odoratus/rSteOdo1/genomic_data/pacbio_hifi/m54306Ue_221121_033625.bc1008--bc1008.hifi_reads.fastq.gz
 pacbiohifi_fqgz rSteOdo1             23127887188               0      2147483648     28703796610         1395858  species/Sternotherus_odoratus/rSteOdo1/genomic_data/pacbio_hifi/m54306Ue_221128_200454.bc1008--bc1008.hifi_reads.fastq.gz
 pacbiohifi_fqgz rSteOdo1             16463157518               0      2147483648     16518527543          840543  species/Sternotherus_odoratus/rSteOdo1/genomic_data/pacbio_hifi/m64055e_221208_043940.bc1008--bc1008.hifi_reads.fastq.gz
+arima           rSteOdo2             28371251301               0      2147483648     54945446647       366302990  species/Sternotherus_odoratus/rSteOdo2/genomic_data/arima/rSteOdo2_SRR25646290_1.fastq.gz
+arima           rSteOdo2             30962612421               0      2147483648     54891149930       365941013  species/Sternotherus_odoratus/rSteOdo2/genomic_data/arima/rSteOdo2_SRR25646290_2.fastq.gz
+pacbiohifi_fqgz rSteOdo2             36995316871               0      2147483648     58200676119         3295235  species/Sternotherus_odoratus/rSteOdo2/genomic_data/pacbio_hifi/rSteOdo2_SRR25653080.hifi_reads.fastq.gz
+pacbiohifi_fqgz rSteOdo2             31338268455               0      2147483648     48929026759         2836590  species/Sternotherus_odoratus/rSteOdo2/genomic_data/pacbio_hifi/rSteOdo2_SRR25653081.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -14,5 +18,7 @@ pacbiohifi_fqgz rSteOdo1             16463157518               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           rSteOdo1          1.8066    185278630239
+arima           rSteOdo2          1.8242    108236834201
 pacbiohifi_fqgz rSteOdo1          1.1488     90307537931
+pacbiohifi_fqgz rSteOdo2          1.5696    107256395527
 --------------- ---------------  ------- ---------------

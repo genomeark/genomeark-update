@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mRhiDar1             20889082423               0      2147483648     48066672315       318322333  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/arima/A062_S312_1.fastq.gz
 arima           mRhiDar1             21163060256               0      2147483648     48228218274       319392183  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/arima/A062_S312_2.fastq.gz
+arima           mRhiDar1             10490899650               0      2147483648     18987867501       127767497  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/arima/mRhiDar1_run1_L001_R1_001.trim.fastq.gz
+arima           mRhiDar1              2595372789               0      2595372789      4955795294        32943506  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/arima/mRhiDar1_run2_L002_R1_001.trim.fastq.gz
 pacbiohifi_bam  mRhiDar1            129102475399               0      2147483648     33559735472         1626132  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231008_194409.hifi_reads.bc2043--bc2043.bam
 pacbiohifi_fqgz mRhiDar1             31475075818               0      2147483648     33372218690         1633960  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231008_194409.hifi_reads.bc2043--bc2043.fastq.gz
 pacbiohifi_bam  mRhiDar1            126880171846               0      2147483648     33818422836         2023126  species/Rhinolophus_darlingii/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231015_133847.hifi_reads.bc2045--bc2045.bam
@@ -20,7 +22,7 @@ pacbiohifi_fqgz mRhiDar1             27513316779               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           mRhiDar1          2.2862     96139608592
+arima           mRhiDar1          2.1194    156361740516
 pacbiohifi_bam  mRhiDar1          0.2659    138925541587
 pacbiohifi_fqgz mRhiDar1          1.1428    139758059064
 --------------- ---------------  ------- ---------------

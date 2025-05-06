@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mCapNub1             61757293589               0      2147483648    107879607851       714434517  species/Capra_nubiana/mCapNub1/genomic_data/arima/mCapNub1_S4_R1_001.fastq.gz
+arima           mCapNub1             64119930855               0      2147483648    108626639243       719381716  species/Capra_nubiana/mCapNub1/genomic_data/arima/mCapNub1_S4_R2_001.fastq.gz
 pacbiohifi_bam  mCapNub1            224921463595               0      2147483648     64642617956         3759647  species/Capra_nubiana/mCapNub1/genomic_data/pacbio_hifi/m84203_250214_163712_s4.hifi_reads.bc1001.bam
 pacbiohifi_fqgz mCapNub1             32119124423               0      2147483648     64004694009         3815616  species/Capra_nubiana/mCapNub1/genomic_data/pacbio_hifi/m84203_250214_163712_s4.hifi_reads.bc1001.fastq.gz
 pacbiohifi_bam  mCapNub1            223106661854               0      2147483648     64398805616         3663963  species/Capra_nubiana/mCapNub1/genomic_data/pacbio_hifi/m84203_250226_015417_s3.hifi_reads.bc1001.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz mCapNub1             31445590592               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mCapNub1          1.7112    215401106468
 pacbiohifi_bam  mCapNub1          0.2878    128942494504
 pacbiohifi_fqgz mCapNub1          2.0068    127561670092
 --------------- ---------------  ------- ---------------

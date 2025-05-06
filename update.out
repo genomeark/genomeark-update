@@ -5,13 +5,8 @@
 [+] Loading edirect  23.5.20250228 
 Fetching list of files in s3://genomeark/species/.
 Filtering AWS filenames.
- Create genomeark-metadata/species/Amblysomus_hottentotus.yaml.template (mAmbHot)
- Create genomeark-metadata/species/Axis_porcinus.yaml.template (mAxiPor)
- Create genomeark-metadata/species/Capra_nubiana.yaml.template (mCapNub)
- Create genomeark-metadata/species/Chitra_chitra.yaml.template (rChiChi)
- Create genomeark-metadata/species/Eidolon_dupreanum.yaml.template (mEidDup)
- Create genomeark-metadata/species/Oligoryzomys_nigripes.yaml.template (mOliNig)
- Create genomeark-metadata/species/Ranitomeya_variabilis.yaml.template (aRanVar)
- Create genomeark-metadata/species/Scalopus_aquaticus.yaml.template (mScaAqu)
+ Create genomeark-metadata/species/Cryptobranchus_alleganiensis.yaml.template (aCryAll)
+ Create genomeark-metadata/species/Mullus_surmuletus.yaml.template (fMulSur)
+ Create genomeark-metadata/species/Rousettus_madagascariensis.yaml.template (mRouMad)
 Scanning bucket.
 Updating pages.

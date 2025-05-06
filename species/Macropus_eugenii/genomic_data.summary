@@ -6,6 +6,7 @@ arima           mMacEug1             36887640774               0      2147483648
 arima           mMacEug1             79347619516               0      2147483648    131521908827       876812762  species/Macropus_eugenii/mMacEug1/genomic_data/arima/mMacEug1_2450_10_R1_001.fastq.gz
 arima           mMacEug1             88318057136               0      2147483648    121684858879       811232433  species/Macropus_eugenii/mMacEug1/genomic_data/arima/mMacEug1_2450_10_R2_001.fastq.gz
 bionano         mMacEug1              2244470853               0      2244470853    985407481013        11047098  species/Macropus_eugenii/mMacEug1/genomic_data/bionano/mMacEug1_Saphyr_DLE1_3680694
+pacbiohifi_q2fqgz mMacEug1             13718120854               0      2147483648     16799295992         1396659  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m54306U_200831_194605.Q20.fastq.gz
 pacbiohifi_bam  mMacEug1              2971358875               0      2971358875      3528793121          195735  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m54306U_210508_040324.hifi_reads.bam
 pacbiohifi_fqgz mMacEug1              3162507151               0      3162507151      3528793121          195735  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m54306U_210508_040324.hifi_reads.fastq.gz
 pacbiohifi_bam  mMacEug1              4444761729               0      2147483648      5815568574          509478  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m54306U_210509_130224.hifi_reads.bam
@@ -15,6 +16,7 @@ pacbiohifi_fqgz mMacEug1             12831927704               0      2147483648
 pacbiohifi_bam  mMacEug1             64929747581               0      2147483648     80432115638         5993930  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m54306Ue_211001_163112.hifi_reads.bam
 pacbiohifi_fqgz mMacEug1             14281636129               0      2147483648     17691462718         1318396  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m54306Ue_211001_163112.hifi_reads.fastq.gz
 pacbiohifi_clr  mMacEug1            226401022281               0      2147483648     98670800785         5686583  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m54306Ue_211001_163112.reads.bam
+pacbiohifi_q2fqgz mMacEug1              1516258655               0      1516258655      1574515066           89537  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m64055_210501_222015.Q20.fastq.gz
 pacbiohifi_bam  mMacEug1            110628241509               0      2147483648     56236639607         4897300  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m64055_210501_222015.subreads.bam
 pacbiohifi_bam  mMacEug1             47120414857               0      2147483648     12783990414          949129  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m64330e_211013_010414.hifi_reads.bam
 pacbiohifi_fqgz mMacEug1             10427245921               0      2147483648      2828960914          210032  species/Macropus_eugenii/mMacEug1/genomic_data/pacbio_hifi/m64330e_211013_010414.hifi_reads.fastq.gz
@@ -33,4 +35,5 @@ bionano         mMacEug1         439.0377    985407481013
 pacbiohifi_bam  mMacEug1          0.3121     76075756236
 pacbiohifi_clr  mMacEug1          0.4446   1050470056453
 pacbiohifi_fqgz mMacEug1          1.2257     91198310458
+pacbiohifi_q2fqgz mMacEug1          1.2148     18506724227
 --------------- ---------------  ------- ---------------

@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mRucEld1             44972315596               0      2147483648     78536106355       520106685  species/Rucervus_eldii/mRucEld1/genomic_data/arima/mRucEld1_S1_R1_001.fastq.gz
+arima           mRucEld1             46331866579               0      2147483648     78780950224       521728147  species/Rucervus_eldii/mRucEld1/genomic_data/arima/mRucEld1_S1_R2_001.fastq.gz
 pacbiohifi_bam  mRucEld1            215677779059               0      2147483648     61941982865         4348036  species/Rucervus_eldii/mRucEld1/genomic_data/pacbio_hifi/m84091_250208_023037_s3.hifi_reads.bc1001.bam
 pacbiohifi_fqgz mRucEld1             28175152247               0      2147483648     58530787850         4215690  species/Rucervus_eldii/mRucEld1/genomic_data/pacbio_hifi/m84091_250208_023037_s3.hifi_reads.bc1001.fastq.gz
 pacbiohifi_bam  mRucEld1            258095902392               0      2147483648     73858710366         5129867  species/Rucervus_eldii/mRucEld1/genomic_data/pacbio_hifi/m84203_250213_191208_s2.hifi_reads.bc1001.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz mRucEld1             33833691710               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mRucEld1          1.7153    156614063684
 pacbiohifi_bam  mRucEld1          0.2864    135688782367
 pacbiohifi_fqgz mRucEld1          2.1369    132506698651
 --------------- ---------------  ------- ---------------

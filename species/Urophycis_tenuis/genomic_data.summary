@@ -4,6 +4,10 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fUroTen1             53824602208               0      2147483648     98808580704       654361486  species/Urophycis_tenuis/fUroTen1/genomic_data/arima/fUroTen1_L2_S7_R1_001.fastq.gz
 arima           fUroTen1             56125903893               0      2147483648     99394515519       658241824  species/Urophycis_tenuis/fUroTen1/genomic_data/arima/fUroTen1_L2_S7_R2_001.fastq.gz
+arima           fUroTen2             53824602208               0      2147483648     98808580704       654361486  species/Urophycis_tenuis/fUroTen2/genomic_data/arima/fUroTen2_L2_S7_R1_001.fastq.gz
+arima           fUroTen2             56125903893               0      2147483648     99394515519       658241824  species/Urophycis_tenuis/fUroTen2/genomic_data/arima/fUroTen2_L2_S7_R2_001.fastq.gz
+pacbiohifi_bam  fUroTen2            182859948464               0      2147483648     51620794232         3398112  species/Urophycis_tenuis/fUroTen2/genomic_data/pacbio_hifi/m84203_250404_014624_s3.hifi_reads.bc1015.bam
+pacbiohifi_fqgz fUroTen2             24399785211               0      2147483648     51571051064         3592198  species/Urophycis_tenuis/fUroTen2/genomic_data/pacbio_hifi/m84203_250404_014624_s3.hifi_reads.bc1015.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +15,7 @@ arima           fUroTen1             56125903893               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           fUroTen1          1.7919    197020311882
+arima           fUroTen2          1.7919    197020311882
+pacbiohifi_bam  fUroTen2          0.2822     51603077456
+pacbiohifi_fqgz fUroTen2          2.1135     51568946043
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fNemWhi1            419980464274               0      2147483648    120235708302         7252858  species/Nematolebias_whitei/fNemWhi1/genomic_data/pacbio_hifi/m84203_250404_074027_s2.hifi_reads.bc1017.bam
+pacbiohifi_fqgz fNemWhi1             56596328469               0      2147483648    118576888061         7402698  species/Nematolebias_whitei/fNemWhi1/genomic_data/pacbio_hifi/m84203_250404_074027_s2.hifi_reads.bc1017.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fNemWhi1          0.2862    120198408875
+pacbiohifi_fqgz fNemWhi1          2.0951    118574967775
+--------------- ---------------  ------- ---------------

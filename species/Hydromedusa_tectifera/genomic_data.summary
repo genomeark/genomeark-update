@@ -15,6 +15,6 @@ pacbiohifi_clr  rHydTec1            330078779825               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 10x             rHydTec1          1.9865    162791980523
-arima           rHydTec1          1.9868     45490193663
+arima           rHydTec1          0.5043     46500976518
 pacbiohifi_clr  rHydTec1          0.5232    172697217604
 --------------- ---------------  ------- ---------------

@@ -4,6 +4,12 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bxPlaMage1           50717983310               0      2147483648     92052540531       609619497  species/Placopecten_magellanicus/bxPlaMage1/genomic_data/arima/iPlaMag1_L1_S5_R1_001.fastq.gz
 arima           bxPlaMage1           53536828575               0      2147483648     92900283322       615233664  species/Placopecten_magellanicus/bxPlaMage1/genomic_data/arima/iPlaMag1_L1_S5_R2_001.fastq.gz
+arima           xbPlaMage1           50717983310               0      2147483648     92052540531       609619497  species/Placopecten_magellanicus/xbPlaMage1/genomic_data/arima/xbPlaMage1_L1_S5_R1_001.fastq.gz
+arima           xbPlaMage1           53536828575               0      2147483648     92900283322       615233664  species/Placopecten_magellanicus/xbPlaMage1/genomic_data/arima/xbPlaMage1_L1_S5_R2_001.fastq.gz
+pacbiohifi_bam  xbPlaMage1          141735709857               0      2147483648     41342478400         3080588  species/Placopecten_magellanicus/xbPlaMage1/genomic_data/pacbio_hifi/m84203_250410_170857_s2.hifi_reads.bc1018.bam
+pacbiohifi_fqgz xbPlaMage1           15702522035               0      2147483648     40419811931         3215337  species/Placopecten_magellanicus/xbPlaMage1/genomic_data/pacbio_hifi/m84203_250410_170857_s2.hifi_reads.bc1018.fastq.gz
+pacbiohifi_bam  xbPlaMage1          125934367255               0      2147483648     35913592422         2728119  species/Placopecten_magellanicus/xbPlaMage1/genomic_data/pacbio_hifi/m84203_250414_171150_s3.hifi_reads.bc1018.bam
+pacbiohifi_fqgz xbPlaMage1           14194674170               0      2147483648     32749906262         2588123  species/Placopecten_magellanicus/xbPlaMage1/genomic_data/pacbio_hifi/m84203_250414_171150_s3.hifi_reads.bc1018.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +17,7 @@ arima           bxPlaMage1           53536828575               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bxPlaMage1        1.7608    183571872767
+arima           xbPlaMage1        1.7608    183571872767
+pacbiohifi_bam  xbPlaMage1        0.2896     77517254331
+pacbiohifi_fqgz xbPlaMage1        2.4910     74473915746
 --------------- ---------------  ------- ---------------

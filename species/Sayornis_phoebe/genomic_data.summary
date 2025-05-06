@@ -4,12 +4,19 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 pacbiohifi_bam  bSayPho2            240996987225               0      2147483648     69430473842         4343365  species/Sayornis_phoebe/bSayPho2/genomic_data/pacbio_hifi/m84203_241209_212705_s3.hifi_reads.bc1002.bam
 pacbiohifi_fqgz bSayPho2             33837828350               0      2147483648     67644420183         4504349  species/Sayornis_phoebe/bSayPho2/genomic_data/pacbio_hifi/m84203_241209_212705_s3.hifi_reads.bc1002.fastq.gz
+arima           bSayPho3             30861850974               0      2147483648     54207559015       358990471  species/Sayornis_phoebe/bSayPho3/genomic_data/arima/bSayPho3_S3_R1_001.fastq.gz
+arima           bSayPho3             31090558267               0      2147483648     54226065296       359113029  species/Sayornis_phoebe/bSayPho3/genomic_data/arima/bSayPho3_S3_R2_001.fastq.gz
+pacbiohifi_bam  bSayPho3            240996987225               0      2147483648     69430473842         4343365  species/Sayornis_phoebe/bSayPho3/genomic_data/pacbio_hifi/m84203_241209_212705_s3.hifi_reads.bc1002.bam
+pacbiohifi_fqgz bSayPho3             33837828350               0      2147483648     67644420183         4504349  species/Sayornis_phoebe/bSayPho3/genomic_data/pacbio_hifi/m84203_241209_212705_s3.hifi_reads.bc1002.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bSayPho3          1.7482    108305201835
 pacbiohifi_bam  bSayPho2          0.2880     69407132320
+pacbiohifi_bam  bSayPho3          0.2880     69407132320
 pacbiohifi_fqgz bSayPho2          1.9990     67641818871
+pacbiohifi_fqgz bSayPho3          1.9990     67641818871
 --------------- ---------------  ------- ---------------

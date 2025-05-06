@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fLepPlt1            412146370747               0      2147483648    117985321016         6470987  species/Lepisosteus_platostomus/fLepPlt1/genomic_data/pacbio_hifi/m84203_250401_200746_s4.hifi_reads.bc1019.bam
+pacbiohifi_fqgz fLepPlt1             54604705395               0      2147483648    113402293028         6629710  species/Lepisosteus_platostomus/fLepPlt1/genomic_data/pacbio_hifi/m84203_250401_200746_s4.hifi_reads.bc1019.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fLepPlt1          0.2862    117956291307
+pacbiohifi_fqgz fLepPlt1          2.0767    113397591693
+--------------- ---------------  ------- ---------------

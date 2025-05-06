@@ -16,6 +16,21 @@ pacbiohifi_bam  mCanLup2            186903819333               0      2147483648
 pacbiohifi_fqgz mCanLup2             23265999843               0      2147483648     42774428211         4616659  species/Canis_lupus/mCanLup2/genomic_data/pacbio_hifi/m84091_231004_184937_s2.hifi_reads.bc1015.fastq.gz
 pacbiohifi_bam  mCanLup2            195077479907               0      2147483648    382184883371        40421996  species/Canis_lupus/mCanLup2/genomic_data/pacbio_hifi/m84091_231006_185537_s4.hifi_reads.bc1015.bam
 pacbiohifi_fqgz mCanLup2             23089169145               0      2147483648     45235008269         4784305  species/Canis_lupus/mCanLup2/genomic_data/pacbio_hifi/m84091_231006_185537_s4.hifi_reads.bc1015.fastq.gz
+10x             mCanLup5              2663736383               0      2663736383      3331787768       416473471  species/Canis_lupus/mCanLup5/genomic_data/10x/11893SJ0001TXP-N__LAB-_339608_ds757_S1_L003_I1_001.fastq.gz
+10x             mCanLup5             37891661037               0      2147483648     62045489856       410897301  species/Canis_lupus/mCanLup5/genomic_data/10x/11893SJ0001TXP-N__LAB-_339608_ds757_S1_L003_R1_001.fastq.gz
+10x             mCanLup5             41543216848               0      2147483648     60398743756       399991680  species/Canis_lupus/mCanLup5/genomic_data/10x/11893SJ0001TXP-N__LAB-_339608_ds757_S1_L003_R2_001.fastq.gz
+ont             mCanLup5             24319959035               0      2147483648     28787129307         1030279  species/Canis_lupus/mCanLup5/genomic_data/ont/PAK47223_guppy-6.1.5.fq.gz
+ont             mCanLup5             34510577941               0      2147483648     40824785253         1225998  species/Canis_lupus/mCanLup5/genomic_data/ont/PAO60775_dorado-7.2.13.fq.gz
+ont             mCanLup5             56674733680               0      2147483648     67674536382         1289660  species/Canis_lupus/mCanLup5/genomic_data/ont/PAO77995_dorado-7.2.13.fq.gz
+pacbiohifi_bam  mCanLup5             16664904831               0      2147483648     17629256648          876980  species/Canis_lupus/mCanLup5/genomic_data/pacbio_hifi/m64175e_220719_115548.hifi_reads.bam
+pacbiohifi_fqgz mCanLup5             17118525153               0      2147483648     17633919826          877878  species/Canis_lupus/mCanLup5/genomic_data/pacbio_hifi/m64175e_220719_115548.hifi_reads.fq.gz
+pacbiohifi_clr  mCanLup5             98538747297               0      2147483648     64702594617         3488550  species/Canis_lupus/mCanLup5/genomic_data/pacbio_hifi/m64175e_220721_123919.reads.bam
+pacbiohifi_bam  mCanLup5             17386039420               0      2147483648     19461748329         1029496  species/Canis_lupus/mCanLup5/genomic_data/pacbio_hifi/m64175e_220801_162738.hifi_reads.bam
+pacbiohifi_fqgz mCanLup5             17821691186               0      2147483648     19458995268         1029499  species/Canis_lupus/mCanLup5/genomic_data/pacbio_hifi/m64175e_220801_162738.hifi_reads.fq.gz
+pacbiohifi_clr  mCanLup5            107056042211               0      2147483648     84977524004         4569769  species/Canis_lupus/mCanLup5/genomic_data/pacbio_hifi/m64175e_220801_162738.reads.bam
+pacbiohifi_bam  mCanLup5            119847517279               0      2147483648     32050069696         1701987  species/Canis_lupus/mCanLup5/genomic_data/pacbio_hifi/m64467e_230427_014550.hifi_reads.bam
+pacbiohifi_fqgz mCanLup5             27653142826               0      2147483648     31971555803         1696492  species/Canis_lupus/mCanLup5/genomic_data/pacbio_hifi/m64467e_230427_014550.hifi_reads.fq.gz
+pacbiohifi_clr  mCanLup5            910915332878               0      2147483648    490381411600        28318972  species/Canis_lupus/mCanLup5/genomic_data/pacbio_hifi/m64467e_230427_014550.subreads.bam
 10x             mCanLor1               821695606               0       821695606      1011313528       126414191  species/Canis_lupus_orion/mCanLor1/genomic_data/10x/mCanLor1_S1_L007_I1_001.fastq.gz
 10x             mCanLor1              9919882050               0      2147483648     15804610850       104666301  species/Canis_lupus_orion/mCanLor1/genomic_data/10x/mCanLor1_S2_L007_R2_001.fastq.gz
 10x             mCanLor1             11596607782               0      2147483648     18324473589       121354129  species/Canis_lupus_orion/mCanLor1/genomic_data/10x/mCanLor1_S4_L007_R2_001.fastq.gz
@@ -31,9 +46,14 @@ pacbiohifi_bam  mCanLor1             12089826989               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 10x             mCanLor1          1.5731    283594151976
+10x             mCanLup5          1.5320    125775077058
 arima           mCanLup2          1.7495    343865147668
 dovetail        mCanLor1          1.5050    116583375415
+ont             mCanLup5          1.1885    432537080253
 pacbiohifi_bam  mCanLor1          1.1253     82579791886
 pacbiohifi_bam  mCanLup2          1.9200    733404094540
+pacbiohifi_bam  mCanLup5          0.4492    137539721633
+pacbiohifi_clr  mCanLup5          0.5732   1293236902941
 pacbiohifi_fqgz mCanLup2          1.8785     87078184943
+pacbiohifi_fqgz mCanLup5          1.1033    134478849473
 --------------- ---------------  ------- ---------------
