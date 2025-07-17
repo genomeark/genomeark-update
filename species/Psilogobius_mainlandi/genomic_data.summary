@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fPsiMai1             28913422686               0      2147483648     53425467604       353811057  species/Psilogobius_mainlandi/fPsiMai1/genomic_data/arima/fPsiMai1_S3_R1_001.fastq.gz
+arima           fPsiMai1             30402477795               0      2147483648     53581061414       354841480  species/Psilogobius_mainlandi/fPsiMai1/genomic_data/arima/fPsiMai1_S3_R2_001.fastq.gz
 pacbiohifi_bam  fPsiMai1            420448771048               0      2147483648    120536381453         7425211  species/Psilogobius_mainlandi/fPsiMai1/genomic_data/pacbio_hifi/m84203_250402_192745_s3.hifi_reads.bc1001.bam
 pacbiohifi_fqgz fPsiMai1             56614656362               0      2147483648    117931293281         7443111  species/Psilogobius_mainlandi/fPsiMai1/genomic_data/pacbio_hifi/m84203_250402_192745_s3.hifi_reads.bc1001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz fPsiMai1             56614656362               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fPsiMai1          1.7899    106169530270
 pacbiohifi_bam  fPsiMai1          0.2866    120500617782
 pacbiohifi_fqgz fPsiMai1          2.0830    117928329202
 --------------- ---------------  ------- ---------------

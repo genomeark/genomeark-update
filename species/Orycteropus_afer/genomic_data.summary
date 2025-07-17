@@ -4,6 +4,12 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mOryAfe1            115278513312               0      2147483648    200335675677      1326726382  species/Orycteropus_afer/mOryAfe1/genomic_data/arima/mOryAfe1_L1_S3_R1_001.fastq.gz
 arima           mOryAfe1            117813885651               0      2147483648    200027253334      1324683851  species/Orycteropus_afer/mOryAfe1/genomic_data/arima/mOryAfe1_L1_S3_R2_001.fastq.gz
+pacbiohifi_bam  mOryAfe1            110034126117               0      2147483648     31299146729         2362920  species/Orycteropus_afer/mOryAfe1/genomic_data/pacbio_hifi/m84203_241225_043517_s1.hifi_reads.bc1012.bam
+pacbiohifi_fqgz mOryAfe1             14664022597               0      2147483648     30649236990         2641660  species/Orycteropus_afer/mOryAfe1/genomic_data/pacbio_hifi/m84203_241225_043517_s1.hifi_reads.bc1012.fastq.gz
+pacbiohifi_bam  mOryAfe1            358007880562               0      2147483648    102852953862         5817193  species/Orycteropus_afer/mOryAfe1/genomic_data/pacbio_hifi/m84203_250521_233511_s2.hifi_reads.bc1012.bam
+pacbiohifi_fqgz mOryAfe1             50518667424               0      2147483648    100684369181         5908694  species/Orycteropus_afer/mOryAfe1/genomic_data/pacbio_hifi/m84203_250521_233511_s2.hifi_reads.bc1012.fastq.gz
+pacbiohifi_bam  mOryAfe1            321875522644               0      2147483648     91329663263         5386116  species/Orycteropus_afer/mOryAfe1/genomic_data/pacbio_hifi/m84203_250612_190141_s2.hifi_reads.bc1012.bam
+pacbiohifi_fqgz mOryAfe1             46603893422               0      2147483648     89832931708         5481809  species/Orycteropus_afer/mOryAfe1/genomic_data/pacbio_hifi/m84203_250612_190141_s2.hifi_reads.bc1012.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +17,6 @@ arima           mOryAfe1            117813885651               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mOryAfe1          1.7109    398797785385
+pacbiohifi_bam  mOryAfe1          0.2854    225442462868
+pacbiohifi_fqgz mOryAfe1          1.9784    221158576683
 --------------- ---------------  ------- ---------------

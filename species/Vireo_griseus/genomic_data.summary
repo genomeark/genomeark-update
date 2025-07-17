@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bVirGri1            273670568065               0      2147483648     83027720959         5003462  species/Vireo_griseus/bVirGri1/genomic_data/pacbio_hifi/m84091_250522_010742_s4.hifi_reads.bc1016.bam
+pacbiohifi_fqgz bVirGri1             38597097894               0      2147483648     79957534023         5196547  species/Vireo_griseus/bVirGri1/genomic_data/pacbio_hifi/m84091_250522_010742_s4.hifi_reads.bc1016.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bVirGri1          0.3033     83004283294
+pacbiohifi_fqgz bVirGri1          2.0715     79953888287
+--------------- ---------------  ------- ---------------

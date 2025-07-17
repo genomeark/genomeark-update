@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bConSor1            134579726870               0      2147483648     40704702169         2803603  species/Contopus_sordidulus/bConSor1/genomic_data/pacbio_hifi/m84091_250522_000309_s2.hifi_reads.bc1011.bam
+pacbiohifi_fqgz bConSor1             18954363887               0      2147483648     39828107613         2949559  species/Contopus_sordidulus/bConSor1/genomic_data/pacbio_hifi/m84091_250522_000309_s2.hifi_reads.bc1011.fastq.gz
+pacbiohifi_bam  bConSor1             99182889160               0      2147483648     28285388734         2216448  species/Contopus_sordidulus/bConSor1/genomic_data/pacbio_hifi/m84203_250612_200611_s1.hifi_reads.bc1011.bam
+pacbiohifi_fqgz bConSor1             13506080369               0      2147483648     27257181857         2291466  species/Contopus_sordidulus/bConSor1/genomic_data/pacbio_hifi/m84203_250612_200611_s1.hifi_reads.bc1011.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bConSor1          0.2978     69614507053
+pacbiohifi_fqgz bConSor1          2.0794     67498247785
+--------------- ---------------  ------- ---------------

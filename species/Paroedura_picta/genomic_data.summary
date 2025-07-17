@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           rParPic1             51465107342               0      2147483648     91132682891       603527725  species/Paroedura_picta/rParPic1/genomic_data/arima/rParPic1_L1_S1_R1_001.fastq.gz
 arima           rParPic1             54101529823               0      2147483648     90917159899       602100421  species/Paroedura_picta/rParPic1/genomic_data/arima/rParPic1_L1_S1_R2_001.fastq.gz
+arima           rParPic3             63350773952               0      2147483648    115108772739       762309782  species/Paroedura_picta/rParPic3/genomic_data/arima/rParPic3_S4_R1_001.fastq.gz
+arima           rParPic3             65753182294               0      2147483648    115512026399       764980337  species/Paroedura_picta/rParPic3/genomic_data/arima/rParPic3_S4_R2_001.fastq.gz
 pacbiohifi_bam  rParPic3            247829699591               0      2147483648     68418769658         4486588  species/Paroedura_picta/rParPic3/genomic_data/pacbio_hifi/m84203_250223_011529_s1.hifi_reads.bc1022.bam
 pacbiohifi_fqgz rParPic3             35270239406               0      2147483648     67263921757         4632697  species/Paroedura_picta/rParPic3/genomic_data/pacbio_hifi/m84203_250223_011529_s1.hifi_reads.bc1022.fastq.gz
 pacbiohifi_bam  rParPic3            276697898395               0      2147483648     78992509627         4849562  species/Paroedura_picta/rParPic3/genomic_data/pacbio_hifi/m84203_250226_004939_s1.hifi_reads.bc1022.bam
@@ -15,6 +17,7 @@ pacbiohifi_fqgz rParPic3             37623906226               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           rParPic1          1.7095    180466166233
+arima           rParPic3          1.7763    229327357479
 pacbiohifi_bam  rParPic3          0.2825    148179046431
 pacbiohifi_fqgz rParPic3          2.0221    147399251882
 --------------- ---------------  ------- ---------------

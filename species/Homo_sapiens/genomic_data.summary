@@ -53,9 +53,12 @@ pacbiohifi_bam  mHomSap3             13529385094               0      2147483648
 pacbiohifi_bam  mHomSap3             12113395635               0      2147483648     15744812312         1647152  species/Homo_sapiens/mHomSap3/genomic_data/pacbio_hifi/m64011_190419_154025.ccs.bam
 pacbiohifi_bam  mHomSap3             13446514368               0      2147483648     17503886827         1831426  species/Homo_sapiens/mHomSap3/genomic_data/pacbio_hifi/m64011_190422_035901.ccs.bam
 pacbiohifi_bam  mHomSap3             86113563671               0      2147483648     25400898922         1634305  species/Homo_sapiens/mHomSap3/genomic_data/pacbio_hifi/m84091_241213_211956_s1.hifi_reads.bc1017.bam
+pacbiohifi_fqgz mHomSap3             14369434303               0      2147483648      4238548873          272710  species/Homo_sapiens/mHomSap3/genomic_data/pacbio_hifi/m84091_241213_211956_s1.hifi_reads.bc1017.fastq.gz
+pacbiohifi_bam  mHomSap3            108511521340               0      2147483648    203117013635        13451640  species/Homo_sapiens/mHomSap3/genomic_data/pacbio_hifi/m84091_241213_231909_s2.hifi_reads.bc1017.bam
 pacbiohifi_fqgz mHomSap3             17171507120               0      2147483648     32142441675         2128667  species/Homo_sapiens/mHomSap3/genomic_data/pacbio_hifi/m84091_241213_231909_s2.hifi_reads.bc1017.fastq.gz
 pacbiohifi_bam  mHomSap3            154814910685               0      2147483648     42876155878         4360803  species/Homo_sapiens/mHomSap3/genomic_data/pacbio_hifi/m84203_241101_164220_s2.hifi_reads.bc1017.bam
 pacbiohifi_fqgz mHomSap3             20325527228               0      2147483648     41661477102         5142430  species/Homo_sapiens/mHomSap3/genomic_data/pacbio_hifi/m84203_241101_164220_s2.hifi_reads.bc1017.fastq.gz
+pacbiohifi_bam  mHomSap3            182160103756               0      2147483648    356826263778        23435934  species/Homo_sapiens/mHomSap3/genomic_data/pacbio_hifi/m84203_241209_172716_s1.hifi_reads.bc1017.bam
 pacbiohifi_fqgz mHomSap3             26283125062               0      2147483648     51484980096         3381473  species/Homo_sapiens/mHomSap3/genomic_data/pacbio_hifi/m84203_241209_172716_s1.hifi_reads.bc1017.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 

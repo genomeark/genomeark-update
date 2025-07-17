@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mLesInc1             76155629504               0      2147483648    141082172607       934319059  species/Lestoros_inca/mLesInc1/genomic_data/arima/mLesInc1_S2_R1_001.fastq.gz
+arima           mLesInc1             80113157951               0      2147483648    141287777906       935680648  species/Lestoros_inca/mLesInc1/genomic_data/arima/mLesInc1_S2_R2_001.fastq.gz
 pacbiohifi_bam  mLesInc1            392071910063               0      2147483648    114004869263         7833282  species/Lestoros_inca/mLesInc1/genomic_data/pacbio_hifi/m84203_250403_025825_s1.hifi_reads.bc1003.bam
 pacbiohifi_fqgz mLesInc1             53489861284               0      2147483648    111501991505         7962913  species/Lestoros_inca/mLesInc1/genomic_data/pacbio_hifi/m84203_250403_025825_s1.hifi_reads.bc1003.fastq.gz
 pacbiohifi_bam  mLesInc1            377159168533               0      2147483648    108087751580         7556764  species/Lestoros_inca/mLesInc1/genomic_data/pacbio_hifi/m84203_250410_163641_s3.hifi_reads.bc1003.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz mLesInc1             51260684432               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mLesInc1          1.7922    280064920876
 pacbiohifi_bam  mLesInc1          0.2894    222615474145
 pacbiohifi_fqgz mLesInc1          2.0805    217933510362
 --------------- ---------------  ------- ---------------

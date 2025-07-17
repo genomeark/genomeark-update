@@ -6,6 +6,9 @@ arima           fScoJap1             26393918533               0      2147483648
 arima           fScoJap1             30858268660               0      2147483648     41794625117       278630848  species/Scomber_japonicus/fScoJap1/genomic_data/arima/fScoJap1_S_2476_8_R2_001.fastq.gz
 illumina        fScoJap1              9825456852               0      2147483648     19504842555       129171147  species/Scomber_japonicus/fScoJap1/genomic_data/illumina/fScoJap1-CL6_1.fastq.gz
 illumina        fScoJap1             10140243123               0      2147483648     19610164400       129868643  species/Scomber_japonicus/fScoJap1/genomic_data/illumina/fScoJap1-CL6_2.fastq.gz
+pacbiohifi_fqgz fScoJap1              3815085782               0      3815085782     10101827147         1091536  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/deepconsensus/m54306U_210430_033146.dc.q20.fastq.gz
+pacbiohifi_fqgz fScoJap1              4613169091               0      2147483648     10210002770         1093175  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/deepconsensus/m54306U_210430_033146_deepconsensus.output.fastq.gz
+pacbiohifi_fqgz fScoJap1              5225098585               0      2147483648     13761037102         1638673  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/deepconsensus/m64055_210423_182318.dc.q0.fastq.gz
 pacbiohifi_fqgz fScoJap1              6083879907               0      2147483648      8516801784          922269  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m54306U_210430_033146.Q20.fastq.gz
 pacbiohifi_clr  fScoJap1            376998229993               0      2147483648    194636307399        23913192  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m54306U_210430_033146.subreads.bam
 pacbiohifi_q2fqgz fScoJap1              5323158336               0      2147483648      7323566473          686973  species/Scomber_japonicus/fScoJap1/genomic_data/pacbio_hifi/m64055_210421_201217.Q20.fastq.gz
@@ -25,6 +28,6 @@ arima           fScoJap1          1.4092     80679782192
 illumina        fScoJap1          1.9506     38945094371
 pacbiohifi_bam  fScoJap1          0.2771     17099036352
 pacbiohifi_clr  fScoJap1          0.5132    706193796382
-pacbiohifi_fqgz fScoJap1          1.3188     17128618487
+pacbiohifi_fqgz fScoJap1          2.4955    131564221951
 pacbiohifi_q2fqgz fScoJap1          1.3929     27219875118
 --------------- ---------------  ------- ---------------

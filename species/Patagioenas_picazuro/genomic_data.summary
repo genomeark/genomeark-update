@@ -4,6 +4,10 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bPatFas27            11899290733               0      2147483648     21919854705       145164606  species/Patagioenas_fasciata_x_Patagioenas_picazuro/bPatFas27/genomic_data/arima/bPatFas27_L1_S3_R1_001.fastq.gz
 arima           bPatFas27            12659561037               0      2147483648     21827549734       144553315  species/Patagioenas_fasciata_x_Patagioenas_picazuro/bPatFas27/genomic_data/arima/bPatFas27_L1_S3_R2_001.fastq.gz
+arima           bPatFas27           108869415363               0      2147483648    196794191726      1303272792  species/Patagioenas_fasciata_x_Patagioenas_picazuro/bPatFas27/genomic_data/arima/bPatFas27_S6_R1_001.fastq.gz
+arima           bPatFas27           113474225689               0      2147483648    197609190887      1308670191  species/Patagioenas_fasciata_x_Patagioenas_picazuro/bPatFas27/genomic_data/arima/bPatFas27_S6_R2_001.fastq.gz
+pacbiohifi_bam  bPatFas27           426981135862               0      2147483648    897558531449        58303301  species/Patagioenas_fasciata_x_Patagioenas_picazuro/bPatFas27/genomic_data/pacbio_hifi/m84203_250404_091736_s1.hifi_reads.bc1010.bam
+pacbiohifi_fqgz bPatFas27            56523687701               0      2147483648    118818640600         7718180  species/Patagioenas_fasciata_x_Patagioenas_picazuro/bPatFas27/genomic_data/pacbio_hifi/m84203_250404_091736_s1.hifi_reads.bc1010.fastq.gz
 arima           bPatPic1             28960970975               0      2147483648     55870478033       370003179  species/Patagioenas_picazuro/bPatPic1/genomic_data/arima/bPatPic1_L1_R1.fastq.gz
 arima           bPatPic1             29708449080               0      2147483648     57138807195       378402696  species/Patagioenas_picazuro/bPatPic1/genomic_data/arima/bPatPic1_L1_R2.fastq.gz
 pacbiohifi_bam  bPatPic1            279737867794               0      2147483648     63729414348         6472642  species/Patagioenas_picazuro/bPatPic1/genomic_data/pacbio_hifi/m84091_240423_191424_s4.hifi_reads.bc1011.bam
@@ -14,8 +18,10 @@ pacbiohifi_fqgz bPatPic1             31984608184               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           bPatFas27         1.7618     43267785048
+arima           bPatFas27         1.7711    437289005037
 arima           bPatPic1          1.9252    112950367489
+pacbiohifi_bam  bPatFas27         2.1021    897557045695
 pacbiohifi_bam  bPatPic1          0.2278     63724286283
+pacbiohifi_fqgz bPatFas27         2.1021    118818443916
 pacbiohifi_fqgz bPatPic1          1.9865     63537424157
 --------------- ---------------  ------- ---------------

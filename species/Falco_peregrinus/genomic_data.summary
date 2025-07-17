@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bFalPer1             34157563215               0      2147483648     46589452156       310596363  species/Falco_peregrinus/bFalPer1/genomic_data/arima/2450_18_R2.filtered.fastq.gz
 arima           bFalPer1             78713775581               0      2147483648    122514797368       816765352  species/Falco_peregrinus/bFalPer1/genomic_data/arima/bFalPer1_R1.fastq.gz
 arima           bFalPer1             81348340848               0      2147483648    111048706161       740324745  species/Falco_peregrinus/bFalPer1/genomic_data/arima/bFalPer1_R2.fastq.gz
 bionano         bFalPer1               815672788               0       815672788    408022922792         4095908  species/Falco_peregrinus/bFalPer1/genomic_data/bionano/bFalPer1_Saphyr_DLE1_3680680
@@ -19,7 +20,7 @@ pacbiohifi_bam  bFalPer5             31523043742               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           bFalPer1          1.4274    228472664990
+arima           bFalPer1          1.4424    322423010417
 arima           bFalPer5          3.4658    116009328405
 bionano         bFalPer1         500.2286    408022922792
 pacbiohifi_bam  bFalPer5          2.5541     80513006021

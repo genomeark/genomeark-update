@@ -5,8 +5,11 @@
 arima           mMicMic1             29051111708               0      2147483648     53373982378       354637338  species/Micronycteris_microtis/mMicMic1/genomic_data/arima/A011S067_S4_R1_001.fastq.gz
 arima           mMicMic1             30618105884               0      2147483648     51751124505       343839185  species/Micronycteris_microtis/mMicMic1/genomic_data/arima/A011S067_S4_R2_001.fastq.gz
 arima           mMicMic1              7827217950               0      2147483648     12681315891        84257510  species/Micronycteris_microtis/mMicMic1/genomic_data/arima/A011S067_S6_R2_001.fastq.gz
+pacbiohifi_bam  mMicMic1            101282725627               0      2147483648     27272160698         1968885  species/Micronycteris_microtis/mMicMic1/genomic_data/pacbio_hifi/m64326e_220621_175224.hifi_reads.bam
 pacbiohifi_fqgz mMicMic1             21920021958               0      2147483648     27332416755         1996446  species/Micronycteris_microtis/mMicMic1/genomic_data/pacbio_hifi/m64326e_220621_175224.hifi_reads.fastq.gz
+pacbiohifi_bam  mMicMic1             99245639956               0      2147483648     26725196745         1914080  species/Micronycteris_microtis/mMicMic1/genomic_data/pacbio_hifi/m64326e_220623_033843.hifi_reads.bam
 pacbiohifi_fqgz mMicMic1             21268148754               0      2147483648     26739296359         1935975  species/Micronycteris_microtis/mMicMic1/genomic_data/pacbio_hifi/m64326e_220623_033843.hifi_reads.fastq.gz
+pacbiohifi_bam  mMicMic1             99121106718               0      2147483648     26492169846         1923587  species/Micronycteris_microtis/mMicMic1/genomic_data/pacbio_hifi/m64326e_220627_202742.hifi_reads.bam
 pacbiohifi_fqgz mMicMic1             22060860473               0      2147483648     26593019778         1960549  species/Micronycteris_microtis/mMicMic1/genomic_data/pacbio_hifi/m64326e_220627_202742.hifi_reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -15,5 +18,6 @@ pacbiohifi_fqgz mMicMic1             22060860473               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mMicMic1          1.7453    130720484806
+pacbiohifi_bam  mMicMic1          0.2686     80485848260
 pacbiohifi_fqgz mMicMic1          1.2362     80660852350
 --------------- ---------------  ------- ---------------

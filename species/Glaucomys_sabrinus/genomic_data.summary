@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mGlaSab2            389529396297               0      2147483648    110665593451         7317222  species/Glaucomys_sabrinus/mGlaSab2/genomic_data/pacbio_hifi/m84203_250520_171653_s2.hifi_reads.bc1001.bam
+pacbiohifi_fqgz mGlaSab2             53888404338               0      2147483648    108502766541         7533618  species/Glaucomys_sabrinus/mGlaSab2/genomic_data/pacbio_hifi/m84203_250520_171653_s2.hifi_reads.bc1001.fastq.gz
+pacbiohifi_bam  mGlaSab2            187367197331               0      2147483648     52109346464         3460757  species/Glaucomys_sabrinus/mGlaSab2/genomic_data/pacbio_hifi/m84203_250523_205728_s1.hifi_reads.bc1001.bam
+pacbiohifi_fqgz mGlaSab2             26401997631               0      2147483648     49775796505         3746923  species/Glaucomys_sabrinus/mGlaSab2/genomic_data/pacbio_hifi/m84203_250523_205728_s1.hifi_reads.bc1001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mGlaSab2          0.2829    163204046337
+pacbiohifi_fqgz mGlaSab2          1.9882    159633377194
+--------------- ---------------  ------- ---------------

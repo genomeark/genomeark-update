@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bMimPol1            154453825366               0      2147483648     46928369772         1850583  species/Mimus_polyglottos/bMimPol1/genomic_data/pacbio_hifi/m84091_250522_003526_s3.hifi_reads.bc1012.bam
+pacbiohifi_fqgz bMimPol1             23940446120               0      2147483648     45706380423         2036720  species/Mimus_polyglottos/bMimPol1/genomic_data/pacbio_hifi/m84091_250522_003526_s3.hifi_reads.bc1012.fastq.gz
+pacbiohifi_bam  bMimPol1            131265037820               0      2147483648     39673476645         1682222  species/Mimus_polyglottos/bMimPol1/genomic_data/pacbio_hifi/m84091_250522_010742_s4.hifi_reads.bc1012.bam
+pacbiohifi_fqgz bMimPol1             20380628536               0      2147483648     38621978916         1786542  species/Mimus_polyglottos/bMimPol1/genomic_data/pacbio_hifi/m84091_250522_010742_s4.hifi_reads.bc1012.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bMimPol1          0.3033     86658531204
+pacbiohifi_fqgz bMimPol1          1.9049     84427215112
+--------------- ---------------  ------- ---------------

@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bFalBia1             30712182867               0      2147483648     48402445544       322682970  species/Falco_biarmicus/bFalBia1/genomic_data/arima/2450_16_R1.filtered.fastq.gz
+arima           bFalBia1             34509901516               0      2147483648     47451937107       316346247  species/Falco_biarmicus/bFalBia1/genomic_data/arima/2450_16_R2.filtered.fastq.gz
 arima           bFalBia1             27298790492               0      2147483648     44563003777       297086704  species/Falco_biarmicus/bFalBia1/genomic_data/arima/bFalBia1_R1.fastq.gz
 arima           bFalBia1             32834950572               0      2147483648     43780549812       291870347  species/Falco_biarmicus/bFalBia1/genomic_data/arima/bFalBia1_R2.fastq.gz
 bionano         bFalBia1              2422826961               0      2422826961    986048248994        11324192  species/Falco_biarmicus/bFalBia1/genomic_data/bionano/bFalBia1_Saphyr_DLE1_3680648
@@ -18,7 +20,7 @@ pacbiohifi_clr  bFalBia1            377880163665               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           bFalBia1          1.4211     85456059426
+arima           bFalBia1          1.4240    178506695436
 bionano         bFalBia1         406.9825    986048248994
 pacbiohifi_bam  bFalBia1          1.1290     38876238074
 pacbiohifi_clr  bFalBia1          0.5167    724033066857

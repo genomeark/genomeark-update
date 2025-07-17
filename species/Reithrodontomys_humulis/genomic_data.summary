@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mReiHum1            403583391694               0      2147483648    117472095349         6806187  species/Reithrodontomys_humulis/mReiHum1/genomic_data/pacbio_hifi/m84203_250520_182131_s1.hifi_reads.bc1003.bam
+pacbiohifi_fqgz mReiHum1             52797122988               0      2147483648    112717890168         6874176  species/Reithrodontomys_humulis/mReiHum1/genomic_data/pacbio_hifi/m84203_250520_182131_s1.hifi_reads.bc1003.fastq.gz
+pacbiohifi_bam  mReiHum1            182198890934               0      2147483648     50701043500         3373271  species/Reithrodontomys_humulis/mReiHum1/genomic_data/pacbio_hifi/m84203_250523_202511_s4.hifi_reads.bc1003.bam
+pacbiohifi_fqgz mReiHum1             24813246730               0      2147483648     48857558608         3407234  species/Reithrodontomys_humulis/mReiHum1/genomic_data/pacbio_hifi/m84203_250523_202511_s4.hifi_reads.bc1003.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mReiHum1          0.2887    169115344994
+pacbiohifi_fqgz mReiHum1          2.1033    163237890627
+--------------- ---------------  ------- ---------------

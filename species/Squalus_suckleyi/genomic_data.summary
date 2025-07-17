@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           sSquSuc3            128309286812               0      2147483648    231535752944      1533349357  species/Squalus_suckleyi/sSquSuc3/genomic_data/arima/sSquSuc3_L2_S4_R1_001.fastq.gz
 arima           sSquSuc3            132037391830               0      2147483648    232538896784      1539992693  species/Squalus_suckleyi/sSquSuc3/genomic_data/arima/sSquSuc3_L2_S4_R2_001.fastq.gz
+arima           sSquSuc3             59378915554               0      2147483648    113591898341       752264227  species/Squalus_suckleyi/sSquSuc3/genomic_data/arima/sSquSuc3_L2_S4_R2_001_part1.fastq.gz
+arima           sSquSuc3             61858594679               0      2147483648    123996819267       821170988  species/Squalus_suckleyi/sSquSuc3/genomic_data/arima/sSquSuc3_L2_S4_R2_001_part2.fastq.gz
 arima           sSquSuc3            128309286812               0      2147483648    231535752944      1533349357  species/Squalus_suckleyi/sSquSuc3/genomic_data/arima/sSquSuc5_L2_S4_R1_001.fastq.gz
 arima           sSquSuc3            132037391830               0      2147483648    232538896784      1539992693  species/Squalus_suckleyi/sSquSuc3/genomic_data/arima/sSquSuc5_L2_S4_R2_001.fastq.gz
 pacbiohifi_bam  sSquSuc3            173011977668               0      2147483648     50117798214         3074520  species/Squalus_suckleyi/sSquSuc3/genomic_data/pacbio_hifi/m84091_241101_162039_s3.hifi_reads.bc1022.bam
@@ -22,7 +24,7 @@ pacbiohifi_fqgz sSquSuc3             19095063268               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           sSquSuc3          1.7753    462193458593
+arima           sSquSuc3          1.8799    937931565407
 pacbiohifi_bam  sSquSuc3          0.2863    219430177355
 pacbiohifi_fqgz sSquSuc3          1.9911    256054216331
 --------------- ---------------  ------- ---------------

@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mLeoRos1             65360950877               0      2147483648    121291226167       803253183  species/Leontopithecus_rosalia/mLeoRos1/genomic_data/arima/mLeoRos1_S3_R1_001.fastq.gz
+arima           mLeoRos1             68091338437               0      2147483648    120931002653       800867598  species/Leontopithecus_rosalia/mLeoRos1/genomic_data/arima/mLeoRos1_S3_R2_001.fastq.gz
 pacbiohifi_bam  mLeoRos1            208692658962               0      2147483648     61008510994         2919581  species/Leontopithecus_rosalia/mLeoRos1/genomic_data/pacbio_hifi/m84091_250410_163758_s1.hifi_reads.bc1016.bam
 pacbiohifi_fqgz mLeoRos1             30011125141               0      2147483648     60619084653         3232477  species/Leontopithecus_rosalia/mLeoRos1/genomic_data/pacbio_hifi/m84091_250410_163758_s1.hifi_reads.bc1016.fastq.gz
 pacbiohifi_bam  mLeoRos1            213539958494               0      2147483648     61403716660         3032638  species/Leontopithecus_rosalia/mLeoRos1/genomic_data/pacbio_hifi/m84203_250401_190320_s2.hifi_reads.bc1016.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz mLeoRos1             29745837616               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mLeoRos1          1.8018    240454334885
 pacbiohifi_bam  mLeoRos1          0.2891    122067449706
 pacbiohifi_fqgz mLeoRos1          2.0198    120697113376
 --------------- ---------------  ------- ---------------

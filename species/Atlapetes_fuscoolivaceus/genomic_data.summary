@@ -5,11 +5,18 @@
 pacbiohifi_fqgz bAtlFus1              7261315053               0      2147483648     10097619033          825179  species/Atlapetes_fuscoolivaceus/bAtlFus1/genomic_data/pacbio_hifi/m54306Ue_220521_161610.bc1011--bc1011.hifi_reads.fastq.gz
 pacbiohifi_fqgz bAtlFus1             23741460078               0      2147483648     31320439701         2054141  species/Atlapetes_fuscoolivaceus/bAtlFus1/genomic_data/pacbio_hifi/m64055e_221021_110353.bc1011--bc1011.hifi_reads.fastq.gz
 pacbiohifi_fqgz bAtlFus1             14710224995               0      2147483648     18290360514          930823  species/Atlapetes_fuscoolivaceus/bAtlFus1/genomic_data/pacbio_hifi/m64330e_221014_124851.bc1011--bc1011.hifi_reads.fastq.gz
+arima           bAtlFus2             22565807388               0      2147483648     39565691151       262024455  species/Atlapetes_fuscoolivaceus/bAtlFus2/genomic_data/arima/bAtlFus2_S7_R1_001.fastq.gz
+arima           bAtlFus2             23381328487               0      2147483648     39519364545       261717656  species/Atlapetes_fuscoolivaceus/bAtlFus2/genomic_data/arima/bAtlFus2_S7_R2_001.fastq.gz
+pacbiohifi_bam  bAtlFus2            236503282883               0      2147483648     71711293654         3052705  species/Atlapetes_fuscoolivaceus/bAtlFus2/genomic_data/pacbio_hifi/m84091_250522_003526_s3.hifi_reads.bc1018.bam
+pacbiohifi_fqgz bAtlFus2             36101371172               0      2147483648     70499075372         3195756  species/Atlapetes_fuscoolivaceus/bAtlFus2/genomic_data/pacbio_hifi/m84091_250522_003526_s3.hifi_reads.bc1018.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bAtlFus2          1.7107     78601765341
+pacbiohifi_bam  bAtlFus2          0.3032     71707795370
 pacbiohifi_fqgz bAtlFus1          1.3061     59705749464
+pacbiohifi_fqgz bAtlFus2          1.9528     70498757624
 --------------- ---------------  ------- ---------------

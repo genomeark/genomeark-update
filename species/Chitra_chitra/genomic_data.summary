@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rChiChi1             70519920461               0      2147483648    126595251610       838379182  species/Chitra_chitra/rChiChi1/genomic_data/arima/rChiChi1_S5_R1_001.fastq.gz
+arima           rChiChi1             74566374520               0      2147483648    126824730593       839898912  species/Chitra_chitra/rChiChi1/genomic_data/arima/rChiChi1_S5_R2_001.fastq.gz
 pacbiohifi_bam  rChiChi1            392949537851               0      2147483648    110198066982         7588787  species/Chitra_chitra/rChiChi1/genomic_data/pacbio_hifi/m84203_250221_192930_s2.hifi_reads.bc1020.bam
 pacbiohifi_fqgz rChiChi1             53373658201               0      2147483648    108999077992         7655021  species/Chitra_chitra/rChiChi1/genomic_data/pacbio_hifi/m84203_250221_192930_s2.hifi_reads.bc1020.fastq.gz
 pacbiohifi_bam  rChiChi1            182392667384               0      2147483648     52001321545         3520905  species/Chitra_chitra/rChiChi1/genomic_data/pacbio_hifi/m84203_250224_193551_s3.hifi_reads.bc1020.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz rChiChi1             24058899573               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           rChiChi1          1.7311    251158885241
 pacbiohifi_bam  rChiChi1          0.2813    161843762332
 pacbiohifi_fqgz rChiChi1          2.0645    159859515524
 --------------- ---------------  ------- ---------------

@@ -23,6 +23,6 @@ pacbiohifi_fqgz mRhiHil1             32278981487               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           mRhiHil1          2.1050    211251056775
-pacbiohifi_bam  mRhiHil1          0.2611    178533568627
-pacbiohifi_fqgz mRhiHil1          0.5249     86285893809
+pacbiohifi_bam  mRhiHil1          0.2625    145036681026
+pacbiohifi_fqgz mRhiHil1          0.2624     34664722892
 --------------- ---------------  ------- ---------------

@@ -39,6 +39,7 @@ ont             mPanTro3             79702632910               0      2147483648
 ont             mPanTro3             67940400627               0      2147483648     81868793042         2576692  species/Pan_troglodytes/mPanTro3/genomic_data/ont/PAJ00590_guppy-6.3.8.fq.gz
 ont             mPanTro3             74526460835               0      2147483648     78761909001         3277731  species/Pan_troglodytes/mPanTro3/genomic_data/ont/PAJ02170_guppy-6.1.1.fastq.gz
 ont             mPanTro3             79702632910               0      2147483648     84081311822         2500324  species/Pan_troglodytes/mPanTro3/genomic_data/ont/old-guppy-runs/PAJ00590_guppy-6.0.0.fastq.gz
+pacbiohifi_fqgz mPanTro3             21148260137               0      2147483648     41194338313         1944591  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/DeepConsensus_v0.3rc0/m64076_220303_022914.deepconsensus_v0.3rc0.fastq.gz
 pacbiohifi_bam  mPanTro3            137427184170               0      2147483648    165032712184         7826977  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m54329U_220226_122930.hifi_reads.bam
 pacbiohifi_fqgz mPanTro3             30807763411               0      2147483648     36996237555         1754614  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m54329U_220226_122930.hifi_reads.fastq.gz
 pacbiohifi_fqgz mPanTro3             30174635931               0      2147483648     36977297151         1754034  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m54329U_220226_122930.hifi_reads.fq.gz
@@ -51,9 +52,11 @@ pacbiohifi_clr  mPanTro3            799794259374               0      2147483648
 pacbiohifi_clr  mPanTro3            634623628846               0      2147483648    341533517695        20152371  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m64076_210816_001611.subreads.bam
 pacbiohifi_bam  mPanTro3            137630457637               0      2147483648     37105698031         1754697  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m64076_220303_022914.hifi_reads.bam
 pacbiohifi_fqgz mPanTro3             28916199495               0      2147483648      7795918033          368662  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m64076_220303_022914.hifi_reads.fastq.gz
+pacbiohifi_fqgz mPanTro3             28404715878               0      2147483648     37019548909         1753698  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/m64076_220303_022914.hifi_reads.fq.gz
 pacbiohifi_fqgz mPanTro3             30807763411               0      2147483648     36996237555         1754614  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/previous-versions/m54329U_220226_122930.hifi_reads.fastq.gz
 pacbiohifi_fqgz mPanTro3             18566825515               0      2147483648     24663163046         1325089  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/previous-versions/m64076_210813_021703.hifi_reads.fastq.gz
 pacbiohifi_fqgz mPanTro3             21881044656               0      2147483648     28676233367         1559694  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/previous-versions/m64076_210814_131501.hifi_reads.fastq.gz
+pacbiohifi_fqgz mPanTro3             16724942440               0      2147483648     22420160658         1217452  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/previous-versions/m64076_210816_001611.hifi_reads.fastq.gz
 pacbiohifi_clr  mPanTro3            232633721971               0      2147483648     90343777080         4519140  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/previous-versions/r64076_20210813_020547_B01.reads.bam
 pacbiohifi_clr  mPanTro3            232633721971               0      2147483648     90343777080         4519140  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/r64076_20210813_020547_B01.reads.bam
 pacbiohifi_bam  mPanTro3            260113610111               0      2147483648     95583431209         4745671  species/Pan_troglodytes/mPanTro3/genomic_data/pacbio_hifi/r64076_20220303_021326_A01.reads.bam
@@ -75,6 +78,6 @@ pacbiohifi_bam  mPanTro3          0.8819    734377183072
 pacbiohifi_clr  mPanTro1          0.5331   4884922798325
 pacbiohifi_clr  mPanTro3          0.5167   3799281561056
 pacbiohifi_fqgz mPanTro1          1.1956    229204900614
-pacbiohifi_fqgz mPanTro3          1.2788    429258791129
+pacbiohifi_fqgz mPanTro3          1.5183    704799911265
 pacbiohifi_q2fqgz mPanTro1          1.3602    139534421008
 --------------- ---------------  ------- ---------------

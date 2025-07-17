@@ -2,6 +2,9 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPteRuf1             31792818789               0      2147483648     58697573113       388725664  species/Pteropus_rufus/mPteRuf1/genomic_data/arima/mPteRuf1_S1_R1_001.fastq.gz
+arima           mPteRuf1             32830882988               0      2147483648     58479407605       387280845  species/Pteropus_rufus/mPteRuf1/genomic_data/arima/mPteRuf1_S1_R2_001.fastq.gz
+arima           mPteRuf1             16023975173               0      2147483648     28330121127       187616696  species/Pteropus_rufus/mPteRuf1/genomic_data/arima/mPteRuf1_S4_R2_001.fastq.gz
 pacbiohifi_bam  mPteRuf1            370317450964               0      2147483648    107573085067         5921503  species/Pteropus_rufus/mPteRuf1/genomic_data/pacbio_hifi/m84203_250311_003742_s2.hifi_reads.bc1021.bam
 pacbiohifi_fqgz mPteRuf1             52484365922               0      2147483648    105877158744         6375548  species/Pteropus_rufus/mPteRuf1/genomic_data/pacbio_hifi/m84203_250311_003742_s2.hifi_reads.bc1021.fastq.gz
 pacbiohifi_bam  mPteRuf1            202041506203               0      2147483648     59173090587         3357348  species/Pteropus_rufus/mPteRuf1/genomic_data/pacbio_hifi/m84203_250318_185824_s1.hifi_reads.bc1021.bam
@@ -12,6 +15,7 @@ pacbiohifi_fqgz mPteRuf1             29457768556               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mPteRuf1          1.8042    173715503371
 pacbiohifi_bam  mPteRuf1          0.2910    166556456535
 pacbiohifi_fqgz mPteRuf1          2.0039    164203843280
 --------------- ---------------  ------- ---------------

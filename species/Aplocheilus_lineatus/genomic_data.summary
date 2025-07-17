@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fAplLin1             14282813740               0      2147483648     25147443635       166539368  species/Aplocheilus_lineatus/fAplLin1/genomic_data/arima/fAplLin1_S9_R1_001.fastq.gz
+arima           fAplLin1             14579038136               0      2147483648     25073286278       166048260  species/Aplocheilus_lineatus/fAplLin1/genomic_data/arima/fAplLin1_S9_R2_001.fastq.gz
+pacbiohifi_bam  fAplLin1            289458411223               0      2147483648     81887371267         5933976  species/Aplocheilus_lineatus/fAplLin1/genomic_data/pacbio_hifi/m84203_250505_185818_s4.hifi_reads.bc1016.bam
+pacbiohifi_fqgz fAplLin1             37154759877               0      2147483648     77776209436         6147892  species/Aplocheilus_lineatus/fAplLin1/genomic_data/pacbio_hifi/m84203_250505_185818_s4.hifi_reads.bc1016.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fAplLin1          1.7332     50023361671
+pacbiohifi_bam  fAplLin1          0.2828     81858838693
+pacbiohifi_fqgz fAplLin1          2.0933     77776058850
+--------------- ---------------  ------- ---------------

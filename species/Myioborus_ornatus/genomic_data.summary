@@ -2,6 +2,14 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bMyiOra1             39474283579               0      2147483648     73176159104       484610343  species/Myioborus_ornatus/bMyiOra1/genomic_data/arima/bMyiOrn1_1.fastq.gz
+arima           bMyiOra1             40193836250               0      2147483648     73441464496       486367333  species/Myioborus_ornatus/bMyiOra1/genomic_data/arima/bMyiOrn1_2.fastq.gz
+pacbiohifi_fqgz bMyiOra1             23596638717               0      2147483648     32525809455         2389371  species/Myioborus_ornatus/bMyiOra1/genomic_data/pacbio_hifi/m64055e_221220_044923.bc1003--bc1003.hifi_reads.fastq.gz
+pacbiohifi_fqgz bMyiOra1             25048941421               0      2147483648     31194550478         2129753  species/Myioborus_ornatus/bMyiOra1/genomic_data/pacbio_hifi/m64330e_230105_135012.bc1003--bc1003.hifi_reads.fastq.gz
+arima           bMyiOra2             29113759768               0      2147483648     53363905563       353403348  species/Myioborus_ornatus/bMyiOra2/genomic_data/arima/bMyiOra2_S6_R1_001.fastq.gz
+arima           bMyiOra2             30422104492               0      2147483648     53297449946       352963258  species/Myioborus_ornatus/bMyiOra2/genomic_data/arima/bMyiOra2_S6_R2_001.fastq.gz
+pacbiohifi_bam  bMyiOra2            372710213341               0      2147483648    106741734731         6528509  species/Myioborus_ornatus/bMyiOra2/genomic_data/pacbio_hifi/m84203_250505_193035_s1.hifi_reads.bc1017.bam
+pacbiohifi_fqgz bMyiOra2             49941491219               0      2147483648    105428115174         7042373  species/Myioborus_ornatus/bMyiOra2/genomic_data/pacbio_hifi/m84203_250505_193035_s1.hifi_reads.bc1017.fastq.gz
 arima           bMyiOrn1             39474283579               0      2147483648     73176159104       484610343  species/Myioborus_ornatus/bMyiOrn1/genomic_data/arima/bMyiOrn1_1.fastq.gz
 arima           bMyiOrn1             40193836250               0      2147483648     73441464496       486367333  species/Myioborus_ornatus/bMyiOrn1/genomic_data/arima/bMyiOrn1_2.fastq.gz
 pacbiohifi_fqgz bMyiOrn1             23596638717               0      2147483648     32525809455         2389371  species/Myioborus_ornatus/bMyiOrn1/genomic_data/pacbio_hifi/m64055e_221220_044923.bc1003--bc1003.hifi_reads.fastq.gz
@@ -12,6 +20,11 @@ pacbiohifi_fqgz bMyiOrn1             25048941421               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bMyiOra1          1.8359    146262701194
+arima           bMyiOra2          1.7781    105860720240
 arima           bMyiOrn1          1.8359    146262701194
+pacbiohifi_bam  bMyiOra2          0.2863    106706934079
+pacbiohifi_fqgz bMyiOra1          1.2879     62650642659
+pacbiohifi_fqgz bMyiOra2          2.1110    105426487963
 pacbiohifi_fqgz bMyiOrn1          1.2879     62650642659
 --------------- ---------------  ------- ---------------

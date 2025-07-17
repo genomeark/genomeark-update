@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fRivCyl1             22414260516               0      2147483648     39318210280       260385508  species/Rivulus_cylindraceus/fRivCyl1/genomic_data/arima/fRivCyl1_S1_R1_001.fastq.gz
+arima           fRivCyl1             22811699241               0      2147483648     39325322582       260432610  species/Rivulus_cylindraceus/fRivCyl1/genomic_data/arima/fRivCyl1_S1_R2_001.fastq.gz
 pacbiohifi_bam  fRivCyl1            351463444395               0      2147483648    100668846195         6440463  species/Rivulus_cylindraceus/fRivCyl1/genomic_data/pacbio_hifi/m84203_250401_204003_s1.hifi_reads.bc1020.bam
 pacbiohifi_fqgz fRivCyl1             45595424988               0      2147483648     96451938117         6530885  species/Rivulus_cylindraceus/fRivCyl1/genomic_data/pacbio_hifi/m84203_250401_204003_s1.hifi_reads.bc1020.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz fRivCyl1             45595424988               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fRivCyl1          1.7338     78412769026
 pacbiohifi_bam  fRivCyl1          0.2864    100659130474
 pacbiohifi_fqgz fRivCyl1          2.1153     96448002477
 --------------- ---------------  ------- ---------------

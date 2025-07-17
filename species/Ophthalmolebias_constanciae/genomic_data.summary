@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fOphCon1             25157194062               0      2147483648     43813914483       290158385  species/Ophthalmolebias_constanciae/fOphCon1/genomic_data/arima/fOphCon1_S2_R1_001.fastq.gz
+arima           fOphCon1             25842734320               0      2147483648     43895876535       290701181  species/Ophthalmolebias_constanciae/fOphCon1/genomic_data/arima/fOphCon1_S2_R2_001.fastq.gz
 pacbiohifi_bam  fOphCon1            380780759731               0      2147483648    109173123628         6539726  species/Ophthalmolebias_constanciae/fOphCon1/genomic_data/pacbio_hifi/m84203_250404_084520_s4.hifi_reads.bc1018.bam
 pacbiohifi_fqgz fOphCon1             48382726495               0      2147483648    104361663506         6593799  species/Ophthalmolebias_constanciae/fOphCon1/genomic_data/pacbio_hifi/m84203_250404_084520_s4.hifi_reads.bc1018.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz fOphCon1             48382726495               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fOphCon1          1.7126     87342477347
 pacbiohifi_bam  fOphCon1          0.2867    109169843814
 pacbiohifi_fqgz fOphCon1          2.1570    104361541049
 --------------- ---------------  ------- ---------------

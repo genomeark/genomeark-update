@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mPerPar1            345622045628               0      2147483648     98351682433         5810196  species/Perognathus_parvus/mPerPar1/genomic_data/pacbio_hifi/m84203_250617_204913_s4.hifi_reads.bc1002.bam
+pacbiohifi_fqgz mPerPar1             49064574208               0      2147483648     97387879982         6242295  species/Perognathus_parvus/mPerPar1/genomic_data/pacbio_hifi/m84203_250617_204913_s4.hifi_reads.bc1002.fastq.gz
+pacbiohifi_bam  mPerPar1            356113856989               0      2147483648    100722483982         5980436  species/Perognathus_parvus/mPerPar1/genomic_data/pacbio_hifi/m84203_250620_171409_s1.hifi_reads.bc1002.bam
+pacbiohifi_fqgz mPerPar1             51054811551               0      2147483648     98677801518         6044079  species/Perognathus_parvus/mPerPar1/genomic_data/pacbio_hifi/m84203_250620_171409_s1.hifi_reads.bc1002.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mPerPar1          0.2834    198871954801
+pacbiohifi_fqgz mPerPar1          1.9496    195192754475
+--------------- ---------------  ------- ---------------

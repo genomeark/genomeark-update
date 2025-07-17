@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rCroNil1             55579118014               0      2147483648     94793434033       627771112  species/Crocodylus_niloticus/rCroNil1/genomic_data/arima/rCroNil1_S6_R1_001.fastq.gz
+arima           rCroNil1             58411955319               0      2147483648     96222473153       637234948  species/Crocodylus_niloticus/rCroNil1/genomic_data/arima/rCroNil1_S6_R2_001.fastq.gz
 pacbiohifi_bam  rCroNil1            458210024573               0      2147483648    131347572806         7273592  species/Crocodylus_niloticus/rCroNil1/genomic_data/pacbio_hifi/m84203_250403_012125_s2.hifi_reads.bc1002.bam
 pacbiohifi_fqgz rCroNil1             64887817555               0      2147483648    129680702256         7322664  species/Crocodylus_niloticus/rCroNil1/genomic_data/pacbio_hifi/m84203_250403_012125_s2.hifi_reads.bc1002.fastq.gz
 pacbiohifi_bam  rCroNil1            210638126887               0      2147483648     60159995179         3341398  species/Crocodylus_niloticus/rCroNil1/genomic_data/pacbio_hifi/m84203_250410_181330_s1.hifi_reads.bc1002.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz rCroNil1             29065521909               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           rCroNil1          1.6660    189909128172
 pacbiohifi_bam  rCroNil1          0.2864    191558110578
 pacbiohifi_fqgz rCroNil1          2.0049    188367050291
 --------------- ---------------  ------- ---------------

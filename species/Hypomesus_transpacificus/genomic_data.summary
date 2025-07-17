@@ -2,15 +2,25 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             fHypTra1             32888099408               0      2147483648     65920261932       436558026  species/Hypomesus_transpacificus/fHypTra1/genomic_data/10x/Male2_S63_L004_R1_001.fastq.gz
+10x             fHypTra1             34690474380               0      2147483648     66060924169       437489580  species/Hypomesus_transpacificus/fHypTra1/genomic_data/10x/Male2_S63_L004_R2_001.fastq.gz
 arima           fHypTra1             40579617743               0      2147483648     77676669083       517844460  species/Hypomesus_transpacificus/fHypTra1/genomic_data/arima/fHypTra1_Delta_Smelt_R1.fastq.gz
 arima           fHypTra1             41177465683               0      2147483648     77633299363       517555329  species/Hypomesus_transpacificus/fHypTra1/genomic_data/arima/fHypTra1_Delta_Smelt_R2.fastq.gz
 bionano         fHypTra1               818215478               0       818215478    552521966278         7717574  species/Hypomesus_transpacificus/fHypTra1/genomic_data/bionano/fHypTra1_Saphyr_DLE1_3680753
+pacbiohifi_q2fqgz fHypTra1              8221766633               0      2147483648     11189422247         1045050  species/Hypomesus_transpacificus/fHypTra1/genomic_data/pacbio_hifi/m64069_200211_020731.Q20.fastq.gz
+pacbiohifi_clr  fHypTra1            479000199985               0      2147483648    245774832693        36510911  species/Hypomesus_transpacificus/fHypTra1/genomic_data/pacbio_hifi/m64069_200211_020731.subreads.bam
+pacbiohifi_fqgz fHypTra1             18715425207               0      2147483648     24735834301         2114680  species/Hypomesus_transpacificus/fHypTra1/genomic_data/pacbio_hifi/m64069_200220_045555.ccs.fastq.gz
+pacbiohifi_clr  fHypTra1            816961031437               0      2147483648    425437993211        38700471  species/Hypomesus_transpacificus/fHypTra1/genomic_data/pacbio_hifi/m64069_200220_045555.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+10x             fHypTra1          1.9364    130859150283
 arima           fHypTra1          1.8948    154913321675
 bionano         fHypTra1         675.2768    552521966278
+pacbiohifi_clr  fHypTra1          0.5190    672603879108
+pacbiohifi_fqgz fHypTra1          1.3216     24734305953
+pacbiohifi_q2fqgz fHypTra1          1.3609     11189002210
 --------------- ---------------  ------- ---------------

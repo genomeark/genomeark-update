@@ -16,6 +16,10 @@ pacbiohifi_bam  bPatFas1            156917627880               0      2147483648
 pacbiohifi_clr  bPatFas1           1366913787138               0      2147483648    737219541548        34233892  species/Patagioenas_fasciata/bPatFas1/genomic_data/pacbio_hifi/m64330e_230310_183553.subreads.bam
 arima           bPatFas27            11899290733               0      2147483648     21919854705       145164606  species/Patagioenas_fasciata_x_Patagioenas_picazuro/bPatFas27/genomic_data/arima/bPatFas27_L1_S3_R1_001.fastq.gz
 arima           bPatFas27            12659561037               0      2147483648     21827549734       144553315  species/Patagioenas_fasciata_x_Patagioenas_picazuro/bPatFas27/genomic_data/arima/bPatFas27_L1_S3_R2_001.fastq.gz
+arima           bPatFas27           108869415363               0      2147483648    196794191726      1303272792  species/Patagioenas_fasciata_x_Patagioenas_picazuro/bPatFas27/genomic_data/arima/bPatFas27_S6_R1_001.fastq.gz
+arima           bPatFas27           113474225689               0      2147483648    197609190887      1308670191  species/Patagioenas_fasciata_x_Patagioenas_picazuro/bPatFas27/genomic_data/arima/bPatFas27_S6_R2_001.fastq.gz
+pacbiohifi_bam  bPatFas27           426981135862               0      2147483648    123377304676         7401592  species/Patagioenas_fasciata_x_Patagioenas_picazuro/bPatFas27/genomic_data/pacbio_hifi/m84203_250404_091736_s1.hifi_reads.bc1010.bam
+pacbiohifi_fqgz bPatFas27            56523687701               0      2147483648    118818640600         7718180  species/Patagioenas_fasciata_x_Patagioenas_picazuro/bPatFas27/genomic_data/pacbio_hifi/m84203_250404_091736_s1.hifi_reads.bc1010.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -23,9 +27,11 @@ arima           bPatFas27            12659561037               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bPatFas1          1.7694     67066309879
-arima           bPatFas27         1.7618     43267785048
+arima           bPatFas27         1.7711    437289005037
 ont             bPatFas1          1.0161    152686485563
 pacbiohifi_bam  bPatFas1          0.2642    246538045071
+pacbiohifi_bam  bPatFas27         0.2889    123354850150
 pacbiohifi_clr  bPatFas1          0.5389   1453520299858
 pacbiohifi_fqgz bPatFas1          1.1243     79478580547
+pacbiohifi_fqgz bPatFas27         2.1021    118818443916
 --------------- ---------------  ------- ---------------

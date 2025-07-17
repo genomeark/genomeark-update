@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mEidDup1             63675815531               0      2147483648    119935401650       794274183  species/Eidolon_dupreanum/mEidDup1/genomic_data/arima/mEidDup1_S1_R1_001.fastq.gz
+arima           mEidDup1             66075060158               0      2147483648    119909903226       794105319  species/Eidolon_dupreanum/mEidDup1/genomic_data/arima/mEidDup1_S1_R2_001.fastq.gz
 pacbiohifi_bam  mEidDup1            250578985020               0      2147483648     71737588131         4374401  species/Eidolon_dupreanum/mEidDup1/genomic_data/pacbio_hifi/m84203_250221_185713_s1.hifi_reads.bc1016.bam
 pacbiohifi_fqgz mEidDup1             33962970854               0      2147483648     69702146143         4576978  species/Eidolon_dupreanum/mEidDup1/genomic_data/pacbio_hifi/m84203_250221_185713_s1.hifi_reads.bc1016.fastq.gz
 pacbiohifi_bam  mEidDup1            122107790795               0      2147483648     35466742922         2178681  species/Eidolon_dupreanum/mEidDup1/genomic_data/pacbio_hifi/m84203_250224_193551_s3.hifi_reads.bc1016.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz mEidDup1             16476157534               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mEidDup1          1.8371    238365333728
 pacbiohifi_bam  mEidDup1          0.2871    106998373336
 pacbiohifi_fqgz mEidDup1          2.0736    104590576625
 --------------- ---------------  ------- ---------------

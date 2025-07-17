@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bPasAmo1            219724255580               0      2147483648     66318385062         3394164  species/Passerina_amoena/bPasAmo1/genomic_data/pacbio_hifi/m84091_250522_000309_s2.hifi_reads.bc1010.bam
+pacbiohifi_fqgz bPasAmo1             32816726568               0      2147483648     64792784050         3566254  species/Passerina_amoena/bPasAmo1/genomic_data/pacbio_hifi/m84091_250522_000309_s2.hifi_reads.bc1010.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bPasAmo1          0.3018     66312780334
+pacbiohifi_fqgz bPasAmo1          1.9743     64790063263
+--------------- ---------------  ------- ---------------

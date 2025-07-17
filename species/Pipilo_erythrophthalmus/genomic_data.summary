@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bPipEry1            270414479979               0      2147483648     77252492108         5939090  species/Pipilo_erythrophthalmus/bPipEry1/genomic_data/pacbio_hifi/m84203_250612_200611_s1.hifi_reads.bc1017.bam
+pacbiohifi_fqgz bPipEry1             35709670717               0      2147483648     73828343858         6184446  species/Pipilo_erythrophthalmus/bPipEry1/genomic_data/pacbio_hifi/m84203_250612_200611_s1.hifi_reads.bc1017.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bPipEry1          0.2856     77230375482
+pacbiohifi_fqgz bPipEry1          2.0674     73826173240
+--------------- ---------------  ------- ---------------

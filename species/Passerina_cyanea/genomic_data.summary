@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bPasCya1            162119229657               0      2147483648     45890758606         2534665  species/Passerina_cyanea/bPasCya1/genomic_data/pacbio_hifi/m84203_250620_164152_s4.hifi_reads.bc1019.bam
+pacbiohifi_fqgz bPasCya1             23457278854               0      2147483648     43852697445         2856566  species/Passerina_cyanea/bPasCya1/genomic_data/pacbio_hifi/m84203_250620_164152_s4.hifi_reads.bc1019.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bPasCya1          0.2830     45879741992
+pacbiohifi_fqgz bPasCya1          1.8694     43851037089
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mTamStr1            479568638849               0      2147483648    135200711296         6534465  species/Tamias_striatus/mTamStr1/genomic_data/pacbio_hifi/m84203_250522_003949_s1.hifi_reads.bc1009.bam
+pacbiohifi_fqgz mTamStr1             71974171108               0      2147483648    132603279835         6902032  species/Tamias_striatus/mTamStr1/genomic_data/pacbio_hifi/m84203_250522_003949_s1.hifi_reads.bc1009.fastq.gz
+pacbiohifi_bam  mTamStr1            228795147169               0      2147483648     63619103341         3343577  species/Tamias_striatus/mTamStr1/genomic_data/pacbio_hifi/m84203_250523_202511_s4.hifi_reads.bc1009.bam
+pacbiohifi_fqgz mTamStr1             34396569478               0      2147483648     62069986732         3329645  species/Tamias_striatus/mTamStr1/genomic_data/pacbio_hifi/m84203_250523_202511_s4.hifi_reads.bc1009.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mTamStr1          0.2811    199121060249
+pacbiohifi_fqgz mTamStr1          1.8350    195190308975
+--------------- ---------------  ------- ---------------

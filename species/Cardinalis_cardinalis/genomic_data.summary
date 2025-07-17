@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bCarCad1            174033787772               0      2147483648     50504086983         2927517  species/Cardinalis_cardinalis/bCarCad1/genomic_data/pacbio_hifi/m84203_250620_160942_s2.hifi_reads.bc1011.bam
+pacbiohifi_fqgz bCarCad1             24309462954               0      2147483648     49436427574         3225083  species/Cardinalis_cardinalis/bCarCad1/genomic_data/pacbio_hifi/m84203_250620_160942_s2.hifi_reads.bc1011.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bCarCad1          0.2901     50487201832
+pacbiohifi_fqgz bCarCad1          2.0336     49435723863
+--------------- ---------------  ------- ---------------

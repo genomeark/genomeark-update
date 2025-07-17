@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bColMon1             36383043704               0      2147483648    126659864361       838807048  species/Coloeus_monedula/bColMon1/genomic_data/arima/bColMon1_49135_5-6#7.cram
 pacbiohifi_bam  bColMon1             26351790696               0      2147483648     83547080106         7937452  species/Coloeus_monedula/bColMon1/genomic_data/pacbio_hifi/m84098_240717_112746_s2.ccs.bc2008.bam
+pacbiohifi_bam  bColMon2            355784301803               0      2147483648    101944886517         5817511  species/Coloeus_monedula/bColMon2/genomic_data/pacbio_hifi/m84203_250617_201656_s2.hifi_reads.bc1001.bam
+pacbiohifi_fqgz bColMon2             49805200371               0      2147483648     99250980811         5875829  species/Coloeus_monedula/bColMon2/genomic_data/pacbio_hifi/m84203_250617_201656_s2.hifi_reads.bc1001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -12,4 +14,6 @@ pacbiohifi_bam  bColMon1             26351790696               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           bColMon1          3.4812    126656651742
 pacbiohifi_bam  bColMon1          3.1704     83545717222
+pacbiohifi_bam  bColMon2          0.2865    101932202466
+pacbiohifi_fqgz bColMon2          1.9927     99246822779
 --------------- ---------------  ------- ---------------

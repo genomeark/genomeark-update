@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fLepPlt1             14716667550               0      2147483648     25574773650       169369368  species/Lepisosteus_platostomus/fLepPlt1/genomic_data/arima/fLepPlt1_S5_R1_001.fastq.gz
+arima           fLepPlt1             14952752114               0      2147483648     25576113099       169378239  species/Lepisosteus_platostomus/fLepPlt1/genomic_data/arima/fLepPlt1_S5_R2_001.fastq.gz
 pacbiohifi_bam  fLepPlt1            412146370747               0      2147483648    117985321016         6470987  species/Lepisosteus_platostomus/fLepPlt1/genomic_data/pacbio_hifi/m84203_250401_200746_s4.hifi_reads.bc1019.bam
 pacbiohifi_fqgz fLepPlt1             54604705395               0      2147483648    113402293028         6629710  species/Lepisosteus_platostomus/fLepPlt1/genomic_data/pacbio_hifi/m84203_250401_200746_s4.hifi_reads.bc1019.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz fLepPlt1             54604705395               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fLepPlt1          1.7194     51013600170
 pacbiohifi_bam  fLepPlt1          0.2862    117956291307
 pacbiohifi_fqgz fLepPlt1          2.0767    113397591693
 --------------- ---------------  ------- ---------------

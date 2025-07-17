@@ -4,6 +4,19 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           aCryAll3            861621145922               0      2147483648   1589346505353     10525473946  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/arima/aCryAll3_L1_S1_R1_001.fastq.gz
 arima           aCryAll3            896471196454               0      2147483648   1611771227366     10673981638  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/arima/aCryAll3_L1_S1_R2_001.fastq.gz
+pacbiohifi_bam  aCryAll3            180988111992               0      2147483648     51936632584         2573379  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84091_240927_204205_s3.hifi_reads.bc1016.bam
+pacbiohifi_fqgz aCryAll3             26493316727               0      2147483648      7602563735          376695  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84091_240927_204205_s3.hifi_reads.bc1016.fastq.gz
+pacbiohifi_fqgz aCryAll3             29330529008               0      2147483648     53940931828         2776935  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84091_240927_224115_s4.hifi_reads.bc1016.fastq.gz
+pacbiohifi_bam  aCryAll3            187661110196               0      2147483648    374917683312        21974737  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84091_250208_002737_s2.hifi_reads.bc1016.bam
+pacbiohifi_fqgz aCryAll3             25930748848               0      2147483648     51805599330         3036438  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84091_250208_002737_s2.hifi_reads.bc1016.fastq.gz
+pacbiohifi_bam  aCryAll3            318990580851               0      2147483648     88664297059         4923707  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84091_250620_175034_s1.hifi_reads.bc1016.bam
+pacbiohifi_fqgz aCryAll3             45644322091               0      2147483648     86487924827         4994175  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84091_250620_175034_s1.hifi_reads.bc1016.fastq.gz
+pacbiohifi_bam  aCryAll3            199766711191               0      2147483648    381717588631        28837137  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84203_241101_184149_s3.hifi_reads.bc1016.bam
+pacbiohifi_fqgz aCryAll3             27463550172               0      2147483648     52477813167         3964475  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84203_241101_184149_s3.hifi_reads.bc1016.fastq.gz
+pacbiohifi_bam  aCryAll3            214866156651               0      2147483648     61016222824         3491213  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84203_250318_200255_s3.hifi_reads.bc1016.bam
+pacbiohifi_fqgz aCryAll3             29910853274               0      2147483648     60319764363         3712553  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84203_250318_200255_s3.hifi_reads.bc1016.fastq.gz
+pacbiohifi_bam  aCryAll3            198687167664               0      2147483648     57310508926         3324091  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84203_250318_203512_s4.hifi_reads.bc1016.bam
+pacbiohifi_fqgz aCryAll3             27054929145               0      2147483648      7803884752          452636  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84203_250318_203512_s4.hifi_reads.bc1016.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +24,6 @@ arima           aCryAll3            896471196454               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           aCryAll3          1.8130   3187421416727
+pacbiohifi_bam  aCryAll3          0.7270   3158285641155
+pacbiohifi_fqgz aCryAll3          1.4588    878356825379
 --------------- ---------------  ------- ---------------
