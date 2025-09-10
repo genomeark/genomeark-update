@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPipEry1             23971237099               0      2147483648     42373075250       280616403  species/Pipilo_erythrophthalmus/bPipEry1/genomic_data/arima/bPipEry1_S5_R1_001.fastq.gz
+arima           bPipEry1             25229346129               0      2147483648     42545790993       281760205  species/Pipilo_erythrophthalmus/bPipEry1/genomic_data/arima/bPipEry1_S5_R2_001.fastq.gz
 pacbiohifi_bam  bPipEry1            270414479979               0      2147483648     77252492108         5939090  species/Pipilo_erythrophthalmus/bPipEry1/genomic_data/pacbio_hifi/m84203_250612_200611_s1.hifi_reads.bc1017.bam
 pacbiohifi_fqgz bPipEry1             35709670717               0      2147483648     73828343858         6184446  species/Pipilo_erythrophthalmus/bPipEry1/genomic_data/pacbio_hifi/m84203_250612_200611_s1.hifi_reads.bc1017.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz bPipEry1             35709670717               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bPipEry1          1.7125     84255998777
 pacbiohifi_bam  bPipEry1          0.2856     77230375482
 pacbiohifi_fqgz bPipEry1          2.0674     73826173240
 --------------- ---------------  ------- ---------------

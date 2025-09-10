@@ -1,0 +1,23 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  gametic             196483461717               0      2147483648     54596897910         3120702  species/Ichthyomyzon_gagei/kcIchGage1/gametic/genomic_data/pacbio_hifi/m84203_250808_204709_s2.hifi_reads.bc1018.bam
+pacbiohifi_fqgz gametic              26865047072               0      2147483648     52016940481         3205402  species/Ichthyomyzon_gagei/kcIchGage1/gametic/genomic_data/pacbio_hifi/m84203_250808_204709_s2.hifi_reads.bc1018.fastq.gz
+pacbiohifi_bam  gametic             141374089580               0      2147483648     39425217842         2313483  species/Ichthyomyzon_gagei/kcIchGage1/gametic/genomic_data/pacbio_hifi/m84203_250818_191647_s1.hifi_reads.bc1018.bam
+pacbiohifi_fqgz gametic              18849913818               0      2147483648     38279056455         2394760  species/Ichthyomyzon_gagei/kcIchGage1/gametic/genomic_data/pacbio_hifi/m84203_250818_191647_s1.hifi_reads.bc1018.fastq.gz
+pacbiohifi_bam  somatic             199562603330               0      2147483648     55430666673         3524130  species/Ichthyomyzon_gagei/kcIchGage1/somatic/genomic_data/pacbio_hifi/m84203_250808_201457_s1.hifi_reads.bc1019.bam
+pacbiohifi_fqgz somatic              25973099025               0      2147483648     54207282303         3741110  species/Ichthyomyzon_gagei/kcIchGage1/somatic/genomic_data/pacbio_hifi/m84203_250808_201457_s1.hifi_reads.bc1019.fastq.gz
+pacbiohifi_bam  somatic             136388814730               0      2147483648     38077758793         2411004  species/Ichthyomyzon_gagei/kcIchGage1/somatic/genomic_data/pacbio_hifi/m84203_250818_191647_s1.hifi_reads.bc1019.bam
+pacbiohifi_fqgz somatic              17926458100               0      2147483648     37114914543         2505106  species/Ichthyomyzon_gagei/kcIchGage1/somatic/genomic_data/pacbio_hifi/m84203_250818_191647_s1.hifi_reads.bc1019.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  gametic           0.2781     93958185015
+pacbiohifi_bam  somatic           0.2781     93428089362
+pacbiohifi_fqgz gametic           1.9607     89633323817
+pacbiohifi_fqgz somatic           2.0827     91429607624
+--------------- ---------------  ------- ---------------

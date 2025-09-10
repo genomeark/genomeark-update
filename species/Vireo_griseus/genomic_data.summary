@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bVirGri1             34595107610               0      2147483648     62896923816       416535935  species/Vireo_griseus/bVirGri1/genomic_data/arima/bVirGri1_S3_R1_001.fastq.gz
+arima           bVirGri1             36470550525               0      2147483648     63291339497       419147943  species/Vireo_griseus/bVirGri1/genomic_data/arima/bVirGri1_S3_R2_001.fastq.gz
 pacbiohifi_bam  bVirGri1            273670568065               0      2147483648     83027720959         5003462  species/Vireo_griseus/bVirGri1/genomic_data/pacbio_hifi/m84091_250522_010742_s4.hifi_reads.bc1016.bam
 pacbiohifi_fqgz bVirGri1             38597097894               0      2147483648     79957534023         5196547  species/Vireo_griseus/bVirGri1/genomic_data/pacbio_hifi/m84091_250522_010742_s4.hifi_reads.bc1016.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz bVirGri1             38597097894               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bVirGri1          1.7620    125217689633
 pacbiohifi_bam  bVirGri1          0.3033     83004283294
 pacbiohifi_fqgz bVirGri1          2.0715     79953888287
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mPerBoy1            411842834482               0      2147483648    117075879963         7407665  species/Peromyscus_boylii/mPerBoy1/genomic_data/pacbio_hifi/m84091_250723_220447_s1.hifi_reads.bc1003.bam
+pacbiohifi_fqgz mPerBoy1             56762244662               0      2147483648    116201408443         7741583  species/Peromyscus_boylii/mPerBoy1/genomic_data/pacbio_hifi/m84091_250723_220447_s1.hifi_reads.bc1003.fastq.gz
+pacbiohifi_bam  mPerBoy1            363683437060               0      2147483648    103859751116         6585641  species/Peromyscus_boylii/mPerBoy1/genomic_data/pacbio_hifi/m84091_250725_182113_s1.hifi_reads.bc1003.bam
+pacbiohifi_fqgz mPerBoy1             49165246980               0      2147483648    102385274375         6609233  species/Peromyscus_boylii/mPerBoy1/genomic_data/pacbio_hifi/m84091_250725_182113_s1.hifi_reads.bc1003.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mPerBoy1          0.2846    220714776880
+pacbiohifi_fqgz mPerBoy1          2.0578    217977592300
+--------------- ---------------  ------- ---------------

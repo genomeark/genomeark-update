@@ -10,6 +10,8 @@ arima           idPhlPern2            5144544087               0      2147483648
 arima           idPhlPern2            5187433336               0      2147483648      9114908447        60363632  species/Phlebotomus_perniciosus/idPhlPern2/genomic_data/arima/iPhlPer2_L1_S4_R2_001.fastq.gz
 pacbiohifi_bam  idPhlPern3           42295335825               0      2147483648     12075148220         1045505  species/Phlebotomus_perniciosus/idPhlPern3/genomic_data/pacbio_hifi/m84203_250321_203643_s1.hifi_reads.bc1015.bam
 pacbiohifi_fqgz idPhlPern3            5115187652               0      2147483648     11944104378         1258312  species/Phlebotomus_perniciosus/idPhlPern3/genomic_data/pacbio_hifi/m84203_250321_203643_s1.hifi_reads.bc1015.fastq.gz
+arima           idPhlPern4            3921577776               0      3921577776      6935369751        45929601  species/Phlebotomus_perniciosus/idPhlPern4/genomic_data/arima/idPhlPern4_S9_R1_001.fastq.gz
+arima           idPhlPern4            3952792486               0      3952792486      6935369751        45929601  species/Phlebotomus_perniciosus/idPhlPern4/genomic_data/arima/idPhlPern4_S9_R2_001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -17,6 +19,7 @@ pacbiohifi_fqgz idPhlPern3            5115187652               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           idPhlPern2        1.7608     18192545846
+arima           idPhlPern4        1.7591     13851804727
 pacbiohifi_bam  iPhlPer3          0.2873     13832521352
 pacbiohifi_bam  idPhlPern1        0.2873     13832521352
 pacbiohifi_bam  idPhlPern3        0.2854     12071088844

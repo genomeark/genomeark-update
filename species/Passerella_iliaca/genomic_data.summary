@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bPasIli2            277472274757               0      2147483648     78787189570         4698135  species/Passerella_iliaca/bPasIli2/genomic_data/pacbio_hifi/m84091_250710_201422_s1.hifi_reads.bc1012.bam
+pacbiohifi_fqgz bPasIli2             38205381604               0      2147483648     76432339459         4988620  species/Passerella_iliaca/bPasIli2/genomic_data/pacbio_hifi/m84091_250710_201422_s1.hifi_reads.bc1012.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bPasIli2          0.2839     78774378803
+pacbiohifi_fqgz bPasIli2          2.0005     76429865898
+--------------- ---------------  ------- ---------------

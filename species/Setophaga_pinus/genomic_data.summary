@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bSetPin1            227847553934               0      2147483648     64950356062         4472212  species/Setophaga_pinus/bSetPin1/genomic_data/pacbio_hifi/m84203_250818_194859_s2.hifi_reads.bc1017.bam
+pacbiohifi_fqgz bSetPin1             29479231309               0      2147483648     63199211245         5068215  species/Setophaga_pinus/bSetPin1/genomic_data/pacbio_hifi/m84203_250818_194859_s2.hifi_reads.bc1017.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bSetPin1          0.2850     64936552871
+pacbiohifi_fqgz bSetPin1          2.1438     63197576080
+--------------- ---------------  ------- ---------------

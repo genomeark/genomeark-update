@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        rAniWai1              3980262384               0      3980262384      3857101144        30896384  species/Anilios_waitii/rAniWai1/genomic_data/dovetail/Beaked-blind-snake_S2_L001_R2_001.fastq.gz
+dovetail        rAniWai1              3024558525               0      3024558525      3229424551        22742264  species/Anilios_waitii/rAniWai1/genomic_data/dovetail/Blind-snakeUDI-7_S139_L002_R2_001.fastq.gz
+dovetail        rAniWai1             10140232721               0      2147483648     15204588965       101813428  species/Anilios_waitii/rAniWai1/genomic_data/dovetail/FC2001137-BCC_L02_R1_Sample_Library_Beaked_blind_snake.fastq.gz
+pacbiohifi_fqgz rAniWai1              8414146972               0      2147483648     11876469172         1565560  species/Anilios_waitii/rAniWai1/genomic_data/pacbio_hifi/211116_2_HiFi_ABP_02Nov21_WC-5528-m64187e_211117_213149.fastq.gz
+pacbiohifi_fqgz rAniWai1              9292897654               0      2147483648     12842137712         1645368  species/Anilios_waitii/rAniWai1/genomic_data/pacbio_hifi/211116_HiFi_Cell3-m64187e_211119_063648.hifi_reads.fastq.gz
+pacbiohifi_fqgz rAniWai1             14546049128               0      2147483648     20520228658         2706838  species/Anilios_waitii/rAniWai1/genomic_data/pacbio_hifi/211208_Cell2_HiFi-m64187e_211209_221121.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        rAniWai1          1.3001     47335477192
+pacbiohifi_fqgz rAniWai1          1.4026     45238189299
+--------------- ---------------  ------- ---------------

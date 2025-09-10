@@ -18,6 +18,8 @@ illumina        bColLiv3             13177045499               0      2147483648
 illumina        bColLiv3             13663928062               0      2147483648     29804547337       197381108  species/Columba_livia/bColLiv3/genomic_data/illumina/bColLiv3_BL1_dna1_2.fastq.gz
 arima           bColLiv6             33213413221               0      2147483648     62412765878       413329590  species/Columba_livia/bColLiv6/genomic_data/arima/bColLiv6_L1_S2_R1_001.fastq.gz
 arima           bColLiv6             35198320025               0      2147483648     62284992525       412483410  species/Columba_livia/bColLiv6/genomic_data/arima/bColLiv6_L1_S2_R2_001.fastq.gz
+pacbiohifi_bam  bColLiv6            383156524657               0      2147483648    107517064497         5452372  species/Columba_livia/bColLiv6/genomic_data/pacbio_hifi/m84091_250716_191103_s2.hifi_reads.bc1008.bam
+pacbiohifi_fqgz bColLiv6             54973312548               0      2147483648    105222200458         5774276  species/Columba_livia/bColLiv6/genomic_data/pacbio_hifi/m84091_250716_191103_s2.hifi_reads.bc1008.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -29,6 +31,8 @@ arima           bColLiv6          1.8046    123455813815
 illumina        bColLiv2          2.2202     52189618647
 illumina        bColLiv3          2.2074     59248765038
 pacbiohifi_bam  bColLiv1          0.2646    185147843923
+pacbiohifi_bam  bColLiv6          0.2806    107513720818
 pacbiohifi_clr  bColLiv1          0.5355   1288410415065
 pacbiohifi_fqgz bColLiv1          1.1604     62133955993
+pacbiohifi_fqgz bColLiv6          1.9140    105218920216
 --------------- ---------------  ------- ---------------

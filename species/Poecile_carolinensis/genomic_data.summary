@@ -2,10 +2,14 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bPoeCar1            350163574013               0      2147483648    100375621744         6088408  species/Poecile_carolinensis/bPoeCar1/genomic_data/pacbio_hifi/m84091_250710_190948_s3.hifi_reads.bc1010.bam
+pacbiohifi_fqgz bPoeCar1             49451875356               0      2147483648     97803482366         6285030  species/Poecile_carolinensis/bPoeCar1/genomic_data/pacbio_hifi/m84091_250710_190948_s3.hifi_reads.bc1010.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+pacbiohifi_bam  bPoeCar1          0.2866    100356880312
+pacbiohifi_fqgz bPoeCar1          1.9777     97800973891
 --------------- ---------------  ------- ---------------

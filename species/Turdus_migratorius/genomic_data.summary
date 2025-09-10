@@ -4,8 +4,11 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bTurMig1             16193318129               0      2147483648     30643116914       202934549  species/Turdus_migratorius/bTurMig1/genomic_data/arima/bTurMig2_S4_R1_001.fastq.gz
 arima           bTurMig1             16738708944               0      2147483648     30322299657       200809939  species/Turdus_migratorius/bTurMig1/genomic_data/arima/bTurMig2_S4_R2_001.fastq.gz
+pacbiohifi_bam  bTurMig1            110175378656               0      2147483648     29242063275         1675961  species/Turdus_migratorius/bTurMig1/genomic_data/pacbio_hifi/m54306Ue_230616_144325.bc1012--bc1012.bam
 pacbiohifi_fqgz bTurMig1             24187381232               0      2147483648     28678037191         1645959  species/Turdus_migratorius/bTurMig1/genomic_data/pacbio_hifi/m54306Ue_230616_144325.bc1012--bc1012.hifi_reads.fastq.gz
+pacbiohifi_bam  bTurMig1            109622375253               0      2147483648     29482505144         1687814  species/Turdus_migratorius/bTurMig1/genomic_data/pacbio_hifi/m54306Ue_230616_144325.hifi_reads.bam
 pacbiohifi_clr  bTurMig1           1152609579364               0      2147483648    617549886877        33622642  species/Turdus_migratorius/bTurMig1/genomic_data/pacbio_hifi/m54306Ue_230616_144325.subreads.bam
+pacbiohifi_bam  bTurMig1             97206911714               0      2147483648     26048048751         1422332  species/Turdus_migratorius/bTurMig1/genomic_data/pacbio_hifi/m64330e_230702_101713.bc1012--bc1012.bam
 pacbiohifi_fqgz bTurMig1             21465433020               0      2147483648     26051941207         1425455  species/Turdus_migratorius/bTurMig1/genomic_data/pacbio_hifi/m64330e_230702_101713.bc1012--bc1012.hifi_reads.fastq.gz
 pacbiohifi_clr  bTurMig1           1039579554071               0      2147483648    557111874394        31007057  species/Turdus_migratorius/bTurMig1/genomic_data/pacbio_hifi/m64330e_230702_101713.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -15,6 +18,7 @@ pacbiohifi_clr  bTurMig1           1039579554071               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bTurMig1          1.8378     60522479354
+pacbiohifi_bam  bTurMig1          0.2674    166315909095
 pacbiohifi_clr  bTurMig1          0.5358   1174574937694
 pacbiohifi_fqgz bTurMig1          1.1942     54518590779
 --------------- ---------------  ------- ---------------

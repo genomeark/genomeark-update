@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bRegCal2            211566096121               0      2147483648     60077967829         3991462  species/Regulus_calendula/bRegCal2/genomic_data/pacbio_hifi/m84203_250723_210512_s2.hifi_reads.bc1018.bam
+pacbiohifi_fqgz bRegCal2             28094564006               0      2147483648     59478628065         4143178  species/Regulus_calendula/bRegCal2/genomic_data/pacbio_hifi/m84203_250723_210512_s2.hifi_reads.bc1018.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bRegCal2          0.2839     60063614688
+pacbiohifi_fqgz bRegCal2          2.1170     59476192000
+--------------- ---------------  ------- ---------------

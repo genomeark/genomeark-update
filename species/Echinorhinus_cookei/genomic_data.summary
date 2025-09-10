@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  sEchCoo1            367348880001               0      2147483648    103896392479         7106865  species/Echinorhinus_cookei/sEchCoo1/genomic_data/pacbio_hifi/m84203_250725_162050_s3.hifi_reads.bc1021.bam
+pacbiohifi_fqgz sEchCoo1             46397439895               0      2147483648     95123332440         6139848  species/Echinorhinus_cookei/sEchCoo1/genomic_data/pacbio_hifi/m84203_250725_162050_s3.hifi_reads.bc1021.fastq.gz
+pacbiohifi_bam  sEchCoo1             48545412644               0      2147483648     13654119491          853207  species/Echinorhinus_cookei/sEchCoo1/genomic_data/pacbio_hifi/m84203_250818_194859_s2.hifi_reads.bc1022.bam
+pacbiohifi_fqgz sEchCoo1              6091839075               0      2147483648     13555054388          941761  species/Echinorhinus_cookei/sEchCoo1/genomic_data/pacbio_hifi/m84203_250818_194859_s2.hifi_reads.bc1022.fastq.gz
+pacbiohifi_bam  sEchCoo1            295987750950               0      2147483648     82845500282         5049679  species/Echinorhinus_cookei/sEchCoo1/genomic_data/pacbio_hifi/m84203_250818_205333_s4.hifi_reads.bc1022.bam
+pacbiohifi_fqgz sEchCoo1             36857687530               0      2147483648     76435047503         4870108  species/Echinorhinus_cookei/sEchCoo1/genomic_data/pacbio_hifi/m84203_250818_205333_s4.hifi_reads.bc1022.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  sEchCoo1          0.2815    315341616457
+pacbiohifi_fqgz sEchCoo1          2.0718    292484944946
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mDamDam1             25147923705               0      2147483648     47188871307       314592487  species/Dama_dama/mDamDam1/genomic_data/arima/FD_hicA_EKDL230004888-1A_HYC7LDSX5_L3_2.fq.gz
+arima           mDamDam1             15224565299               0      2147483648     28330621373       188870816  species/Dama_dama/mDamDam1/genomic_data/arima/FD_hicA_EKDL230004888-1A_HYC7LDSX5_L4_2.fq.gz
+arima           mDamDam1             43375527840               0      2147483648     88533720716       590224824  species/Dama_dama/mDamDam1/genomic_data/arima/FD_hicB_EKDL230004889-1A_HYCVLDSX5_L3_1.fq.gz
+pacbiohifi_fqgz mDamDam1             23372277387               0      2147483648     30913926523         2748687  species/Dama_dama/mDamDam1/genomic_data/pacbio_hifi/m64241e_230324_103506.hifi_reads.fastq.gz
+pacbiohifi_fqgz mDamDam1             24604891370               0      2147483648     34413181534         2985675  species/Dama_dama/mDamDam1/genomic_data/pacbio_hifi/m64241e_230325_212940.hifi_reads.fastq.gz
+pacbiohifi_fqgz mDamDam1             16095227133               0      2147483648     22997636145         2503402  species/Dama_dama/mDamDam1/genomic_data/pacbio_hifi/m64241e_230328_192218.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mDamDam1          1.9588    327363691235
+pacbiohifi_fqgz mDamDam1          1.3785    110275718673
+--------------- ---------------  ------- ---------------

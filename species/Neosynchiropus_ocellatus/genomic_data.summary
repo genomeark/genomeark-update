@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fNeoOce1             31164812884               0      2147483648     58315626049       386196199  species/Neosynchiropus_ocellatus/fNeoOce1/genomic_data/arima/YG021-03M1-1_S3_L001_R1_001.fastq.gz
+arima           fNeoOce1             32627739656               0      2147483648     59006391546       390770820  species/Neosynchiropus_ocellatus/fNeoOce1/genomic_data/arima/YG021-03M1-1_S3_L001_R2_001.fastq.gz
+arima           fNeoOce1             18617561584               0      2147483648     33212834594       219952555  species/Neosynchiropus_ocellatus/fNeoOce1/genomic_data/arima/YG021-03M1-2_S15_L002_R2_001.fastq.gz
+pacbiohifi_bam  fNeoOce1             16423130941               0      2147483648     22689294715         2310429  species/Neosynchiropus_ocellatus/fNeoOce1/genomic_data/pacbio_hifi/m64241e_230916_002708.hifi_reads.bam
+pacbiohifi_fqgz fNeoOce1             15376611580               0      2147483648     22724352172         2311593  species/Neosynchiropus_ocellatus/fNeoOce1/genomic_data/pacbio_hifi/m64241e_230916_002708.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fNeoOce1          1.8266    182377880568
+pacbiohifi_bam  fNeoOce1          1.3815     22688555394
+pacbiohifi_fqgz fNeoOce1          1.4778     22723556592
+--------------- ---------------  ------- ---------------

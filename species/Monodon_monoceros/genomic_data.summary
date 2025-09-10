@@ -2,10 +2,17 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mMonMon2             13349635128               0      2147483648     19835873147       132239160  species/Monodon_monoceros/mMonMon2/genomic_data/dovetail/mMonMon2_SRR8568865_R2.fastq.gz
+dovetail        mMonMon2             10806043647               0      2147483648     17028591886       113523945  species/Monodon_monoceros/mMonMon2/genomic_data/dovetail/mMonMon2_SRR8568868_R2.fastq.gz
+dovetail        mMonMon2             11692657263               0      2147483648     18311271930       122075146  species/Monodon_monoceros/mMonMon2/genomic_data/dovetail/mMonMon2_SRR8568869_R2.fastq.gz
+pacbio_fqgz     mMonMon2             69039032513               0      2147483648    254261598657        11514801  species/Monodon_monoceros/mMonMon2/genomic_data/pacbio/mMonMon2_SRR18090818.fastq.gz
+pacbio_fqgz     mMonMon2              9522624628               0      2147483648     30906328169         3118770  species/Monodon_monoceros/mMonMon2/genomic_data/pacbio/mMonMon2_SRR8568867.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+dovetail        mMonMon2          1.5391    309852363636
+pacbio_fqgz     mMonMon2          3.6546    287111432187
 --------------- ---------------  ------- ---------------

@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bPirLud1            291137243892               0      2147483648     83071697450         5188044  species/Piranga_ludoviciana/bPirLud1/genomic_data/pacbio_hifi/m84091_250718_030555_s1.hifi_reads.bc1011.bam
+pacbiohifi_fqgz bPirLud1             39327779052               0      2147483648     80168538182         5479669  species/Piranga_ludoviciana/bPirLud1/genomic_data/pacbio_hifi/m84091_250718_030555_s1.hifi_reads.bc1011.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bPirLud1          0.2853     83061455682
+pacbiohifi_fqgz bPirLud1          2.0384     80165744819
+--------------- ---------------  ------- ---------------

@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           mBlaBre2             24869656548               0      2147483648     44196136231       292689655  species/Blarina_brevicauda/mBlaBre2/genomic_data/arima/mBlaBre2_S10_R1_001.fastq.gz
 arima           mBlaBre2             25148484053               0      2147483648     44023929004       291549198  species/Blarina_brevicauda/mBlaBre2/genomic_data/arima/mBlaBre2_S10_R2_001.fastq.gz
+arima           mBlaBre2             10051368868               0      2147483648     17612382856       116638297  species/Blarina_brevicauda/mBlaBre2/genomic_data/arima/mBlaBre2_S2_R2_001.fastq.gz
 pacbiohifi_bam  mBlaBre2            342304086372               0      2147483648     96327976032         6318527  species/Blarina_brevicauda/mBlaBre2/genomic_data/pacbio_hifi/m84203_250520_185348_s3.hifi_reads.bc1008.bam
 pacbiohifi_fqgz mBlaBre2             47522524688               0      2147483648     93532127489         6749666  species/Blarina_brevicauda/mBlaBre2/genomic_data/pacbio_hifi/m84203_250520_185348_s3.hifi_reads.bc1008.fastq.gz
 pacbiohifi_bam  mBlaBre2            128432440496               0      2147483648     35565693004         2466041  species/Blarina_brevicauda/mBlaBre2/genomic_data/pacbio_hifi/m84203_250523_205728_s1.hifi_reads.bc1008.bam
@@ -14,7 +15,7 @@ pacbiohifi_fqgz mBlaBre2             18133327655               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           mBlaBre2          1.7593     87996914759
+arima           mBlaBre2          1.7618    123214633052
 pacbiohifi_bam  mBlaBre2          0.2807    132135743091
 pacbiohifi_fqgz mBlaBre2          1.9555    128390019256
 --------------- ---------------  ------- ---------------

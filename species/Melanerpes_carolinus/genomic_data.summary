@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bMelCao1            313244595391               0      2147483648     89208548032         5215872  species/Melanerpes_carolinus/bMelCao1/genomic_data/pacbio_hifi/m84091_250710_183742_s2.hifi_reads.bc1003.bam
+pacbiohifi_fqgz bMelCao1             44438081017               0      2147483648     86929684355         5453892  species/Melanerpes_carolinus/bMelCao1/genomic_data/pacbio_hifi/m84091_250710_183742_s2.hifi_reads.bc1003.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bMelCao1          0.2847     89180736307
+pacbiohifi_fqgz bMelCao1          1.9561     86925330277
+--------------- ---------------  ------- ---------------

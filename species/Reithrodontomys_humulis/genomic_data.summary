@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mReiHum1             73473620351               0      2147483648    128425791994       850501933  species/Reithrodontomys_humulis/mReiHum1/genomic_data/arima/mReiHum1_S8_R1_001.fastq.gz
+arima           mReiHum1             75092309733               0      2147483648    129311176932       856365410  species/Reithrodontomys_humulis/mReiHum1/genomic_data/arima/mReiHum1_S8_R2_001.fastq.gz
 pacbiohifi_bam  mReiHum1            403583391694               0      2147483648    117472095349         6806187  species/Reithrodontomys_humulis/mReiHum1/genomic_data/pacbio_hifi/m84203_250520_182131_s1.hifi_reads.bc1003.bam
 pacbiohifi_fqgz mReiHum1             52797122988               0      2147483648    112717890168         6874176  species/Reithrodontomys_humulis/mReiHum1/genomic_data/pacbio_hifi/m84203_250520_182131_s1.hifi_reads.bc1003.fastq.gz
 pacbiohifi_bam  mReiHum1            182198890934               0      2147483648     50701043500         3373271  species/Reithrodontomys_humulis/mReiHum1/genomic_data/pacbio_hifi/m84203_250523_202511_s4.hifi_reads.bc1003.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz mReiHum1             24813246730               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mReiHum1          1.7305    257093342010
 pacbiohifi_bam  mReiHum1          0.2887    169115344994
 pacbiohifi_fqgz mReiHum1          2.1033    163237890627
 --------------- ---------------  ------- ---------------

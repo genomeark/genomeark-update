@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mCorTow1              5411275384               0      2147483648      9838224774        65153806  species/Corynorhinus_townsendii/mCorTow1/genomic_data/dovetail/mCorTow1_SRR23445761_R2.fastq.gz
+dovetail        mCorTow1              5266825365               0      2147483648     10031679079        66434960  species/Corynorhinus_townsendii/mCorTow1/genomic_data/dovetail/mCorTow1_SRR23445763_R1.fastq.gz
+dovetail        mCorTow1              5749471549               0      2147483648     10247221320        67862395  species/Corynorhinus_townsendii/mCorTow1/genomic_data/dovetail/mCorTow1_SRR23445763_R2.fastq.gz
+pacbiohifi_fqgz mCorTow1             50989268159               0      2147483648     67280068502         4313261  species/Corynorhinus_townsendii/mCorTow1/genomic_data/pacbio_hifi/mCorTow1_SRR23445762.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        mCorTow1          1.8333     39382702699
+pacbiohifi_fqgz mCorTow1          1.3194     67275240408
+--------------- ---------------  ------- ---------------

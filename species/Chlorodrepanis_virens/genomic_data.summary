@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bHemVir1            226346352157               0      2147483648     64287332916         3994266  species/Chlorodrepanis_virens/bHemVir1/genomic_data/pacbio_hifi/m84091_250718_023338_s4.hifi_reads.bc1015.bam
+pacbiohifi_fqgz bHemVir1             30925065014               0      2147483648     63431359319         4183851  species/Chlorodrepanis_virens/bHemVir1/genomic_data/pacbio_hifi/m84091_250718_023338_s4.hifi_reads.bc1015.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bHemVir1          0.2840     64282364012
+pacbiohifi_fqgz bHemVir1          2.0511     63430400850
+--------------- ---------------  ------- ---------------

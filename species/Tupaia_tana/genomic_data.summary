@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+10x             mTupTan1             63040331466               0      2147483648    134450176475       890398549  species/Tupaia_tana/mTupTan1/genomic_data/10x/mTupTan1_SRR16989906_R1.fastq.gz
+10x             mTupTan1             64056052699               0      2147483648    136134564272       901553435  species/Tupaia_tana/mTupTan1/genomic_data/10x/mTupTan1_SRR16989906_R2.fastq.gz
+dovetail        mTupTan1             30126388101               0      2147483648     52164967479       345463374  species/Tupaia_tana/mTupTan1/genomic_data/dovetail/mTupTan1_SRR16989905_R1.fastq.gz
+dovetail        mTupTan1             31657684271               0      2147483648     55790677571       369474685  species/Tupaia_tana/mTupTan1/genomic_data/dovetail/mTupTan1_SRR16989905_R2.fastq.gz
+pacbiohifi_fqgz mTupTan1             42703772882               0      2147483648     53336916176         3499608  species/Tupaia_tana/mTupTan1/genomic_data/pacbio_hifi/mTupTan1_SRR16989907.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+10x             mTupTan1          2.1277    270422976587
+dovetail        mTupTan1          1.7523    108264230017
+pacbiohifi_fqgz mTupTan1          1.2489     53332741952
+--------------- ---------------  ------- ---------------

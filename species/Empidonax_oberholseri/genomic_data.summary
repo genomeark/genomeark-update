@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bEmpObe1             38236764343               0      2147483648     70093093526       464192672  species/Empidonax_oberholseri/bEmpObe1/genomic_data/arima/bEmpObe1_S7_R1_001.fastq.gz
+arima           bEmpObe1             39619134254               0      2147483648     70212638917       464984382  species/Empidonax_oberholseri/bEmpObe1/genomic_data/arima/bEmpObe1_S7_R2_001.fastq.gz
 pacbiohifi_bam  bEmpObe1            173674979143               0      2147483648     50280901042         3007289  species/Empidonax_oberholseri/bEmpObe1/genomic_data/pacbio_hifi/m84203_250620_160942_s2.hifi_reads.bc1003.bam
 pacbiohifi_fqgz bEmpObe1             24392570468               0      2147483648     49501796501         3282827  species/Empidonax_oberholseri/bEmpObe1/genomic_data/pacbio_hifi/m84203_250620_160942_s2.hifi_reads.bc1003.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz bEmpObe1             24392570468               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bEmpObe1          1.7920    139517770285
 pacbiohifi_bam  bEmpObe1          0.2895     50278906461
 pacbiohifi_fqgz bEmpObe1          2.0293     49499843250
 --------------- ---------------  ------- ---------------

@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bConSor1             23404842560               0      2147483648     41800946153       276827468  species/Contopus_sordidulus/bConSor1/genomic_data/arima/bConSor1_S2_R1_001.fastq.gz
+arima           bConSor1             23529873256               0      2147483648     41442563109       274454071  species/Contopus_sordidulus/bConSor1/genomic_data/arima/bConSor1_S2_R2_001.fastq.gz
 pacbiohifi_bam  bConSor1            134579726870               0      2147483648     40704702169         2803603  species/Contopus_sordidulus/bConSor1/genomic_data/pacbio_hifi/m84091_250522_000309_s2.hifi_reads.bc1011.bam
 pacbiohifi_fqgz bConSor1             18954363887               0      2147483648     39828107613         2949559  species/Contopus_sordidulus/bConSor1/genomic_data/pacbio_hifi/m84091_250522_000309_s2.hifi_reads.bc1011.fastq.gz
 pacbiohifi_bam  bConSor1             99182889160               0      2147483648     28285388734         2216448  species/Contopus_sordidulus/bConSor1/genomic_data/pacbio_hifi/m84203_250612_200611_s1.hifi_reads.bc1011.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz bConSor1             13506080369               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bConSor1          1.7694     83046286164
 pacbiohifi_bam  bConSor1          0.2978     69614507053
 pacbiohifi_fqgz bConSor1          2.0794     67498247785
 --------------- ---------------  ------- ---------------

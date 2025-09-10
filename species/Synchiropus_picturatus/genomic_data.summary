@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fSynPic1             43493327458               0      2147483648     83049001037       549993404  species/Synchiropus_picturatus/fSynPic1/genomic_data/arima/YG020-03M1-1_S2_L001_R1_001.fastq.gz
+arima           fSynPic1             45161136595               0      2147483648     84338204498       558531155  species/Synchiropus_picturatus/fSynPic1/genomic_data/arima/YG020-03M1-1_S2_L001_R2_001.fastq.gz
+arima           fSynPic1             24497309741               0      2147483648     45005594857       298050308  species/Synchiropus_picturatus/fSynPic1/genomic_data/arima/YG020-03M1-2_S14_L002_R2_001.fastq.gz
+pacbiohifi_bam  fSynPic1             17167625594               0      2147483648     21407623052         2711682  species/Synchiropus_picturatus/fSynPic1/genomic_data/pacbio_hifi/m64241e_230914_133252.hifi_reads.bam
+pacbiohifi_fqgz fSynPic1             16454653821               0      2147483648     21438223965         2711747  species/Synchiropus_picturatus/fSynPic1/genomic_data/pacbio_hifi/m64241e_230914_133252.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fSynPic1          1.8770    255845334616
+pacbiohifi_bam  fSynPic1          1.2469     21406312353
+pacbiohifi_fqgz fSynPic1          1.3028     21437122997
+--------------- ---------------  ------- ---------------

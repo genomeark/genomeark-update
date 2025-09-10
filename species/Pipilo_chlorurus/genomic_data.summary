@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bPipChr1            298052289903               0      2147483648     84538209267         4194554  species/Pipilo_chlorurus/bPipChr1/genomic_data/pacbio_hifi/m84091_250710_194205_s4.hifi_reads.bc1009.bam
+pacbiohifi_fqgz bPipChr1             43819979900               0      2147483648     83599683629         4522990  species/Pipilo_chlorurus/bPipChr1/genomic_data/pacbio_hifi/m84091_250710_194205_s4.hifi_reads.bc1009.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bPipChr1          0.2836     84527629416
+pacbiohifi_fqgz bPipChr1          1.9077     83595375655
+--------------- ---------------  ------- ---------------

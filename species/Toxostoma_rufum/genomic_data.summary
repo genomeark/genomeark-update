@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bToxRuf1            119870631948               0      2147483648     34298576707         2090314  species/Toxostoma_rufum/bToxRuf1/genomic_data/pacbio_hifi/m84091_250710_194205_s4.hifi_reads.bc1008.bam
+pacbiohifi_fqgz bToxRuf1             16802409061               0      2147483648     33308520431         2297092  species/Toxostoma_rufum/bToxRuf1/genomic_data/pacbio_hifi/m84091_250710_194205_s4.hifi_reads.bc1008.fastq.gz
+pacbiohifi_bam  bToxRuf1            132838910891               0      2147483648     37960827684         2232391  species/Toxostoma_rufum/bToxRuf1/genomic_data/pacbio_hifi/m84091_250710_201422_s1.hifi_reads.bc1008.bam
+pacbiohifi_fqgz bToxRuf1             19006603003               0      2147483648     36781679439         2523317  species/Toxostoma_rufum/bToxRuf1/genomic_data/pacbio_hifi/m84091_250710_201422_s1.hifi_reads.bc1008.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bToxRuf1          0.2858     72224387343
+pacbiohifi_fqgz bToxRuf1          1.9496     69813249919
+--------------- ---------------  ------- ---------------

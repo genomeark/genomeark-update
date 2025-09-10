@@ -7,6 +7,8 @@ pacbiohifi_fqgz aThoSpi2             47565343059               0      2147483648
 pacbiohifi_bam  aThoSpi2            358712346514               0      2147483648    101631273139         4269168  species/Thorius_spilogaster/aThoSpi2/genomic_data/pacbio_hifi/m84203_250512_174502_s4.hifi_reads.bc1022.bam
 pacbiohifi_fqgz aThoSpi2             53546583150               0      2147483648     96299795346         4168511  species/Thorius_spilogaster/aThoSpi2/genomic_data/pacbio_hifi/m84203_250512_174502_s4.hifi_reads.bc1022.fastq.gz
 pacbiohifi_bam  aThoSpi2            371730303226               0      2147483648    105125163289         5647747  species/Thorius_spilogaster/aThoSpi2/genomic_data/pacbio_hifi/m84203_250512_181719_s1.hifi_reads.bc1022.bam
+pacbiohifi_fqgz aThoSpi2             52611085099               0      2147483648     14878391306          799327  species/Thorius_spilogaster/aThoSpi2/genomic_data/pacbio_hifi/m84203_250512_181719_s1.hifi_reads.bc1022.fastq.gz
+pacbiohifi_bam  aThoSpi2            375830130585               0      2147483648    744569534297        42358084  species/Thorius_spilogaster/aThoSpi2/genomic_data/pacbio_hifi/m84203_250619_020256_s3.hifi_reads.bc1022.bam
 pacbiohifi_fqgz aThoSpi2             52555101509               0      2147483648    104118654336         5923243  species/Thorius_spilogaster/aThoSpi2/genomic_data/pacbio_hifi/m84203_250619_020256_s3.hifi_reads.bc1022.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 

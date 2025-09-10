@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bSteCar1             10117035973               0      2147483648     17624140191       116716164  species/Steatornis_caripensis/bSteCar1/genomic_data/arima/bSteCar1_S4_R1_001.fastq.gz
+arima           bSteCar1             10464373873               0      2147483648     17553274962       116246854  species/Steatornis_caripensis/bSteCar1/genomic_data/arima/bSteCar1_S4_R2_001.fastq.gz
+arima           bSteCar1              7906248838               0      2147483648     13559123132        89795517  species/Steatornis_caripensis/bSteCar1/genomic_data/arima/bSteCar1_S4_R2_002.fastq.gz
+pacbiohifi_bam  bSteCar1            316935540081               0      2147483648     91168893610         3080681  species/Steatornis_caripensis/bSteCar1/genomic_data/pacbio_hifi/m84203_250818_202116_s3.hifi_reads.bc1020.bam
+pacbiohifi_fqgz bSteCar1             50137246482               0      2147483648     85928990072         3254988  species/Steatornis_caripensis/bSteCar1/genomic_data/pacbio_hifi/m84203_250818_202116_s3.hifi_reads.bc1020.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bSteCar1          1.7107     61563317370
+pacbiohifi_bam  bSteCar1          0.2876     91150661327
+pacbiohifi_fqgz bSteCar1          1.7138     85925213020
+--------------- ---------------  ------- ---------------

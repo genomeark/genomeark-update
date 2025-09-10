@@ -2,6 +2,12 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mPerMan1              7643665169               0      2147483648     14970133515        99139960  species/Peromyscus_maniculatus/mPerMan1/genomic_data/dovetail/mPerMan1_SRR23102652_R2.fastq.gz
+dovetail        mPerMan1             11434197602               0      2147483648     22389369161       148273973  species/Peromyscus_maniculatus/mPerMan1/genomic_data/dovetail/mPerMan1_SRR23102653_R1.fastq.gz
+dovetail        mPerMan1             11517198779               0      2147483648     22639031166       149927364  species/Peromyscus_maniculatus/mPerMan1/genomic_data/dovetail/mPerMan1_SRR23102653_R2.fastq.gz
+pacbiohifi_fqgz mPerMan1             59786974932               0      2147483648     82223603610         6597052  species/Peromyscus_maniculatus/mPerMan1/genomic_data/pacbio_hifi/mPerMan1_SRR23102654.hifi_reads.fastq.gz
+arima           mPerMan3             67433888653               0      2147483648    117995589943       781427779  species/Peromyscus_maniculatus/mPerMan3/genomic_data/arima/mPerMan3_S7_R1_001.fastq.gz
+arima           mPerMan3             69345356173               0      2147483648    118566585962       785209178  species/Peromyscus_maniculatus/mPerMan3/genomic_data/arima/mPerMan3_S7_R2_001.fastq.gz
 pacbiohifi_bam  mPerMan3            369477869418               0      2147483648    105150737896         6525742  species/Peromyscus_maniculatus/mPerMan3/genomic_data/pacbio_hifi/m84203_250520_174908_s4.hifi_reads.bc1002.bam
 pacbiohifi_fqgz mPerMan3             50132587311               0      2147483648    102390565801         6711654  species/Peromyscus_maniculatus/mPerMan3/genomic_data/pacbio_hifi/m84203_250520_174908_s4.hifi_reads.bc1002.fastq.gz
 pacbiohifi_bam  mPerMan3            326519855060               0      2147483648     90385961174         5507166  species/Peromyscus_maniculatus/mPerMan3/genomic_data/pacbio_hifi/m84203_250523_212945_s3.hifi_reads.bc1002--bc1002.bam
@@ -12,6 +18,9 @@ pacbiohifi_fqgz mPerMan3             46606553494               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mPerMan3          1.7228    235643282986
+dovetail        mPerMan1          1.9610     74811409677
 pacbiohifi_bam  mPerMan3          0.2822    196410557847
+pacbiohifi_fqgz mPerMan1          1.3752     82219047926
 pacbiohifi_fqgz mPerMan3          1.9954    193033281562
 --------------- ---------------  ------- ---------------

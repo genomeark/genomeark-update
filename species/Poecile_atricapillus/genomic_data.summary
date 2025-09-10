@@ -6,8 +6,14 @@ arima           bPoeAtr1             32793929208               0      2147483648
 arima           bPoeAtr1             33918372249               0      2147483648     65575508649       434274891  species/Poecile_atricapillus/bPoeAtr1/genomic_data/arima/bPoeAtr1_S1_L001_R2_001.fastq.gz
 bionano         bPoeAtr1              2011500436               0      2011500436    884740782104         9032416  species/Poecile_atricapillus/bPoeAtr1/genomic_data/bionano/bPoeAtr1_Saphyr_DLE1_3718770
 pacbiohifi_fqgz bPoeAtr1              6160820266               0      2147483648      7400793634          471223  species/Poecile_atricapillus/bPoeAtr1/genomic_data/pacbio_hifi/m64055e_220515_161029.demultiplex.bc1001--bc1001.hifi_reads.fastq.gz
+pacbiohifi_clr  bPoeAtr1             76609557354               0      2147483648     32519998823         2279896  species/Poecile_atricapillus/bPoeAtr1/genomic_data/pacbio_hifi/m64055e_220515_161029.reads.bam
+pacbiohifi_bam  bPoeAtr1             71048386419               0      2147483648     18678167298          863769  species/Poecile_atricapillus/bPoeAtr1/genomic_data/pacbio_hifi/m64055e_220719_201855.hifi_reads.bam
+pacbiohifi_bam  bPoeAtr1             35595416848               0      2147483648      9635542071          590498  species/Poecile_atricapillus/bPoeAtr1/genomic_data/pacbio_hifi/m64330e_220501_035120.demultiplex.bc1001--bc1001.bam
 pacbiohifi_fqgz bPoeAtr1              7910673105               0      2147483648      9624657642          583136  species/Poecile_atricapillus/bPoeAtr1/genomic_data/pacbio_hifi/m64330e_220501_035120.demultiplex.bc1001--bc1001.hifi_reads.fastq.gz
+pacbiohifi_clr  bPoeAtr1             98790843217               0      2147483648     41960508789         2547972  species/Poecile_atricapillus/bPoeAtr1/genomic_data/pacbio_hifi/m64330e_220501_035120.reads.bam
+pacbiohifi_bam  bPoeAtr1             25939367433               0      2147483648      7057124453          438103  species/Poecile_atricapillus/bPoeAtr1/genomic_data/pacbio_hifi/m64334e_220509_031744.demultiplex.bc1001--bc1001.bam
 pacbiohifi_fqgz bPoeAtr1              5668062791               0      2147483648      7046700338          434452  species/Poecile_atricapillus/bPoeAtr1/genomic_data/pacbio_hifi/m64334e_220509_031744.demultiplex.bc1001--bc1001.hifi_reads.fastq.gz
+pacbiohifi_clr  bPoeAtr1             72608103462               0      2147483648     30450667860         2788679  species/Poecile_atricapillus/bPoeAtr1/genomic_data/pacbio_hifi/m64334e_220509_031744.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -16,5 +22,7 @@ pacbiohifi_fqgz bPoeAtr1              5668062791               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           bPoeAtr1          1.9414    129515262048
 bionano         bPoeAtr1         439.8412    884740782104
+pacbiohifi_bam  bPoeAtr1          0.2667     81600006877
+pacbiohifi_clr  bPoeAtr1          0.4230    114715770590
 pacbiohifi_fqgz bPoeAtr1          1.2194     46236798968
 --------------- ---------------  ------- ---------------

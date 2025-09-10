@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mGlaSab2             73768889935               0      2147483648    129548565575       857937520  species/Glaucomys_sabrinus/mGlaSab2/genomic_data/arima/mGlaSab2_S3_R1_001.fastq.gz
+arima           mGlaSab2             75598412531               0      2147483648    130800729766       866229998  species/Glaucomys_sabrinus/mGlaSab2/genomic_data/arima/mGlaSab2_S3_R2_001.fastq.gz
 pacbiohifi_bam  mGlaSab2            389529396297               0      2147483648    110665593451         7317222  species/Glaucomys_sabrinus/mGlaSab2/genomic_data/pacbio_hifi/m84203_250520_171653_s2.hifi_reads.bc1001.bam
 pacbiohifi_fqgz mGlaSab2             53888404338               0      2147483648    108502766541         7533618  species/Glaucomys_sabrinus/mGlaSab2/genomic_data/pacbio_hifi/m84203_250520_171653_s2.hifi_reads.bc1001.fastq.gz
 pacbiohifi_bam  mGlaSab2            187367197331               0      2147483648     52109346464         3460757  species/Glaucomys_sabrinus/mGlaSab2/genomic_data/pacbio_hifi/m84203_250523_205728_s1.hifi_reads.bc1001.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz mGlaSab2             26401997631               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mGlaSab2          1.7387    259704928797
 pacbiohifi_bam  mGlaSab2          0.2829    163204046337
 pacbiohifi_fqgz mGlaSab2          1.9882    159633377194
 --------------- ---------------  ------- ---------------

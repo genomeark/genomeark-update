@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        bArdGol1             14347942073               0      2147483648     19135663745       128923397  species/Ardea_goliath/bArdGol1/genomic_data/dovetail/Goliath_heron_tr2_S2_L001_R1_001.fastq.gz
+dovetail        bArdGol1             17283170218               0      2147483648     17575960755       125024290  species/Ardea_goliath/bArdGol1/genomic_data/dovetail/Goliath_heron_tr2_S2_L001_R2_001.fastq.gz
+pacbiohifi_fqgz bArdGol1             13576289139               0      2147483648     21336654001         3050752  species/Ardea_goliath/bArdGol1/genomic_data/pacbio_hifi/220708_1.hifi_reads.fastq.gz
+pacbiohifi_fqgz bArdGol1             11445000665               0      2147483648     17822790217         2872980  species/Ardea_goliath/bArdGol1/genomic_data/pacbio_hifi/220719_4_HiFi-ABP_07Jun22_GH.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        bArdGol1          1.1098     35104208420
+pacbiohifi_fqgz bArdGol1          1.5673     39215867509
+--------------- ---------------  ------- ---------------

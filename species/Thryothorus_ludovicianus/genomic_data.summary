@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bThrLud1             24491300427               0      2147483648     44574694181       295196661  species/Thryothorus_ludovicianus/bThrLud1/genomic_data/arima/bThrLud1_S11_R1_001.fastq.gz
+arima           bThrLud1             25760127741               0      2147483648     44743860543       296316969  species/Thryothorus_ludovicianus/bThrLud1/genomic_data/arima/bThrLud1_S11_R2_001.fastq.gz
 pacbiohifi_bam  bThrLud1            155697026948               0      2147483648     43795882193         2573243  species/Thryothorus_ludovicianus/bThrLud1/genomic_data/pacbio_hifi/m84203_250620_164152_s4.hifi_reads.bc1008.bam
 pacbiohifi_fqgz bThrLud1             22552085317               0      2147483648     42922324797         2735433  species/Thryothorus_ludovicianus/bThrLud1/genomic_data/pacbio_hifi/m84203_250620_164152_s4.hifi_reads.bc1008.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz bThrLud1             22552085317               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bThrLud1          1.7637     88628443859
 pacbiohifi_bam  bThrLud1          0.2812     43782003977
 pacbiohifi_fqgz bThrLud1          1.9032     42921128775
 --------------- ---------------  ------- ---------------

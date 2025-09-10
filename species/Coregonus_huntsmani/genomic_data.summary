@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fCorHun2             72481090702               0      2147483648    132315600264       876262287  species/Coregonus_huntsmani/fCorHun2/genomic_data/arima/fCorHun1_L1_S8_R1_001.fastq.gz
 arima           fCorHun2             75778331809               0      2147483648    133343760523       883071261  species/Coregonus_huntsmani/fCorHun2/genomic_data/arima/fCorHun1_L1_S8_R2_001.fastq.gz
+arima           fCorHun2             72481090702               0      2147483648    132315600264       876262287  species/Coregonus_huntsmani/fCorHun2/genomic_data/arima/fCorHun2_L1_S8_R1_001.fastq.gz
+arima           fCorHun2             75778331809               0      2147483648    133343760523       883071261  species/Coregonus_huntsmani/fCorHun2/genomic_data/arima/fCorHun2_L1_S8_R2_001.fastq.gz
 pacbiohifi_fqgz fCorHun2             11017817248               0      2147483648     15356593879         1852064  species/Coregonus_huntsmani/fCorHun2/genomic_data/pacbio_hifi/m54306Ue_230518_170358.bc1019--bc1019.hifi_reads.fastq.gz
 pacbiohifi_clr  fCorHun2            933259106703               0      2147483648    488939673949        60229676  species/Coregonus_huntsmani/fCorHun2/genomic_data/pacbio_hifi/m54306Ue_230518_170358.subreads.bam
 pacbiohifi_fqgz fCorHun2             13283634979               0      2147483648     18980445624         2126975  species/Coregonus_huntsmani/fCorHun2/genomic_data/pacbio_hifi/m64330e_230711_075523.bc1019--bc1019.hifi_reads.fastq.gz

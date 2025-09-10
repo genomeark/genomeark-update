@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bSpiPus1            133777525585               0      2147483648     37952827664         2979072  species/Spizella_pusilla/bSpiPus1/genomic_data/pacbio_hifi/m84203_250723_210512_s2.hifi_reads.bc1001.bam
+pacbiohifi_fqgz bSpiPus1             16739710827               0      2147483648     37092597506         3972014  species/Spizella_pusilla/bSpiPus1/genomic_data/pacbio_hifi/m84203_250723_210512_s2.hifi_reads.bc1001.fastq.gz
+pacbiohifi_bam  bSpiPus1            175595817255               0      2147483648     50111413518         4176309  species/Spizella_pusilla/bSpiPus1/genomic_data/pacbio_hifi/m84203_250725_165301_s4.hifi_reads.bc1001.bam
+pacbiohifi_fqgz bSpiPus1             21969032656               0      2147483648     49244380249         5282081  species/Spizella_pusilla/bSpiPus1/genomic_data/pacbio_hifi/m84203_250725_165301_s4.hifi_reads.bc1001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bSpiPus1          0.2849     88140465375
+pacbiohifi_fqgz bSpiPus1          2.2344     86490816438
+--------------- ---------------  ------- ---------------

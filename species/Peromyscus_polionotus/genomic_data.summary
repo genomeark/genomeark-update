@@ -1,0 +1,17 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mPerPol1            351992134837               0      2147483648    101156967882         6725682  species/Peromyscus_polionotus/mPerPol1/genomic_data/pacbio_hifi/m84091_250723_210014_s3.hifi_reads.bc1002.bam
+pacbiohifi_fqgz mPerPol1             46442609097               0      2147483648     99574078108         6737138  species/Peromyscus_polionotus/mPerPol1/genomic_data/pacbio_hifi/m84091_250723_210014_s3.hifi_reads.bc1002.fastq.gz
+pacbiohifi_bam  mPerPol1            367034996083               0      2147483648    105453883894         7079428  species/Peromyscus_polionotus/mPerPol1/genomic_data/pacbio_hifi/m84091_250725_171640_s3.hifi_reads.bc1002.bam
+pacbiohifi_fqgz mPerPol1             48602122505               0      2147483648    103692812612         7124005  species/Peromyscus_polionotus/mPerPol1/genomic_data/pacbio_hifi/m84091_250725_171640_s3.hifi_reads.bc1002.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mPerPol1          0.2873    206576494713
+pacbiohifi_fqgz mPerPol1          2.1369    203101086960
+--------------- ---------------  ------- ---------------

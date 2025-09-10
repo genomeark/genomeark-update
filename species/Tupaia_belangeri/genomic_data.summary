@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mTupBel1             97469970785               0      2147483648    177597316931      1176141217  species/Tupaia_belangeri/mTupBel1/genomic_data/arima/mTupBel1_S6_R1_001.fastq.gz
+arima           mTupBel1            101179934422               0      2147483648    178401153530      1181464592  species/Tupaia_belangeri/mTupBel1/genomic_data/arima/mTupBel1_S6_R2_001.fastq.gz
 pacbiohifi_bam  mTupBel1            348307598508               0      2147483648    100484732196         6665660  species/Tupaia_belangeri/mTupBel1/genomic_data/pacbio_hifi/m84203_250427_022103_s2.hifi_reads.bc1012.bam
 pacbiohifi_fqgz mTupBel1             46111954020               0      2147483648     95492487885         6835056  species/Tupaia_belangeri/mTupBel1/genomic_data/pacbio_hifi/m84203_250427_022103_s2.hifi_reads.bc1012.fastq.gz
 pacbiohifi_bam  mTupBel1            424117083594               0      2147483648    119525830524         7400134  species/Tupaia_belangeri/mTupBel1/genomic_data/pacbio_hifi/m84203_250522_000732_s4.hifi_reads.bc1012.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz mTupBel1             59323169300               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mTupBel1          1.7823    354053726050
 pacbiohifi_bam  mTupBel1          0.2837    219136882312
 pacbiohifi_fqgz mTupBel1          1.9704    207749366989
 --------------- ---------------  ------- ---------------

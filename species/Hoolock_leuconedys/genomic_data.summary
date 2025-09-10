@@ -19,11 +19,13 @@ ont             mHooLeu1             31366507684               0      2147483648
 ont             mHooLeu1             21097893126               0      2147483648     24000205881          961668  species/Hoolock_leuconedys/mHooLeu1/genomic_data/ont/old-guppy-runs/PAK42401_guppy-6.3.9.fq.gz
 ont             mHooLeu1             32832352019               0      2147483648     37956850889         1197277  species/Hoolock_leuconedys/mHooLeu1/genomic_data/ont/old-guppy-runs/PAM72418_guppy-6.4.6.fq.gz
 pacbiohifi_clr  mHooLeu1           1026043899460               0      2147483648    556562284285        37504519  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m54329U_230114_044432.subreads.bam
+pacbiohifi_bam  mHooLeu1            170218280266               0      2147483648     45494131840         2355014  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m54329U_230315_190848-bc2040.hifi_reads.bam
 pacbiohifi_bam  mHooLeu1            165618570115               0      2147483648     44666731753         2296620  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m54329U_230317_042109-bc2040.hifi_reads.5mC.bam
 pacbiohifi_fqgz mHooLeu1             34144191644               0      2147483648     45091489868         2327403  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m54329U_230317_042109-bc2040.hifi_reads.5mC.fq.gz
 pacbiohifi_bam  mHooLeu1            150499130705               0      2147483648     39894722949         2033348  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m64076_230418_220037-bc2040.hifi_reads.5mC.bam
 pacbiohifi_fqgz mHooLeu1             31116389964               0      2147483648     39770769610         2040613  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m64076_230418_220037-bc2040.hifi_reads.5mC.fq.gz
 pacbiohifi_bam  mHooLeu1            157049237165               0      2147483648     41709962485         2126232  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m64076_230420_072802-bc2040.hifi_reads.5mC.bam
+pacbiohifi_bam  mHooLeu1            157792154592               0      2147483648     41547885766         2112410  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m64076_230421_164836-bc2040.hifi_reads.5mC.bam
 pacbiohifi_fqgz mHooLeu1             33789746254               0      2147483648     41945602480         2152112  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m64076_230421_164836-bc2040.hifi_reads.5mC.fq.gz
 pacbiohifi_clr  mHooLeu1           1160593833345               0      2147483648    625415215518        34423015  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/m64076_230421_164836.subreads.bam
 pacbiohifi_clr  mHooLeu1            336002249351               0      2147483648    120587856433         5852038  species/Hoolock_leuconedys/mHooLeu1/genomic_data/pacbio_hifi/r64076_20230418_214037_C01.reads.bam
@@ -40,6 +42,7 @@ pacbiohifi_bam  mHooLeu2            125919212243               0      2147483648
 pacbiohifi_fqgz mHooLeu2             27922115577               0      2147483648     34187107253         1737321  species/Hoolock_leuconedys/mHooLeu2/genomic_data/pacbio_hifi/PS00185.unaligned.fiberseq.hifi_reads.fastq.gz
 pacbiohifi_bam  mHooLeu2             80757030001               0      2147483648     23730989971         1235864  species/Hoolock_leuconedys/mHooLeu2/genomic_data/pacbio_hifi/m84122_241101_160551_s1.hifi_reads.bam
 pacbiohifi_fqgz mHooLeu2              8464122470               0      2147483648     22849806324         1206277  species/Hoolock_leuconedys/mHooLeu2/genomic_data/pacbio_hifi/m84122_241101_160551_s1.hifi_reads.fastq.gz
+pacbiohifi_bam  mHooLeu2            152804611802               0      2147483648     44337813035         2265367  species/Hoolock_leuconedys/mHooLeu2/genomic_data/pacbio_hifi/m84122_250808_233935_s4.fiberseq.hifi_reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -52,8 +55,8 @@ illumina        mHooLeu1          2.0211    491261939222
 illumina        mHooLeu2          1.9018    172587871644
 ont             mHooLeu1          1.1730    534078561409
 ont             mHooLeu2          1.8616    392634282507
-pacbiohifi_bam  mHooLeu1          0.2668    482335233982
-pacbiohifi_bam  mHooLeu2          0.2790     57662671586
+pacbiohifi_bam  mHooLeu1          0.2652    635291197665
+pacbiohifi_bam  mHooLeu2          0.2854    102595835744
 pacbiohifi_clr  mHooLeu1          0.5163   4619949185010
 pacbiohifi_fqgz mHooLeu1          1.2802    242174856838
 pacbiohifi_fqgz mHooLeu2          1.4185     51613878669

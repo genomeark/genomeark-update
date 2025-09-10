@@ -2,6 +2,9 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bMimPol1              5890206205               0      2147483648     10326112241        68384852  species/Mimus_polyglottos/bMimPol1/genomic_data/arima/bMimPol1_S2_R2_001.fastq.gz
+arima           bMimPol1              8788230168               0      2147483648     15466222243       102425312  species/Mimus_polyglottos/bMimPol1/genomic_data/arima/bMimPol1_S3_R1_001.fastq.gz
+arima           bMimPol1              8957883901               0      2147483648     15373838116       101813501  species/Mimus_polyglottos/bMimPol1/genomic_data/arima/bMimPol1_S3_R2_001.fastq.gz
 pacbiohifi_bam  bMimPol1            154453825366               0      2147483648     46928369772         1850583  species/Mimus_polyglottos/bMimPol1/genomic_data/pacbio_hifi/m84091_250522_003526_s3.hifi_reads.bc1012.bam
 pacbiohifi_fqgz bMimPol1             23940446120               0      2147483648     45706380423         2036720  species/Mimus_polyglottos/bMimPol1/genomic_data/pacbio_hifi/m84091_250522_003526_s3.hifi_reads.bc1012.fastq.gz
 pacbiohifi_bam  bMimPol1            131265037820               0      2147483648     39673476645         1682222  species/Mimus_polyglottos/bMimPol1/genomic_data/pacbio_hifi/m84091_250522_010742_s4.hifi_reads.bc1012.bam
@@ -12,6 +15,7 @@ pacbiohifi_fqgz bMimPol1             20380628536               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bMimPol1          1.7416     51046897088
 pacbiohifi_bam  bMimPol1          0.3033     86658531204
 pacbiohifi_fqgz bMimPol1          1.9049     84427215112
 --------------- ---------------  ------- ---------------

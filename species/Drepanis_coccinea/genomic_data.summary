@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bDreCoc1            209419741678               0      2147483648     59525409730         3311636  species/Drepanis_coccinea/bDreCoc1/genomic_data/pacbio_hifi/m84091_250718_023338_s4.hifi_reads.bc1016.bam
+pacbiohifi_fqgz bDreCoc1             29057568342               0      2147483648     58272989611         3434380  species/Drepanis_coccinea/bDreCoc1/genomic_data/pacbio_hifi/m84091_250718_023338_s4.hifi_reads.bc1016.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bDreCoc1          0.2842     59517090584
+pacbiohifi_fqgz bDreCoc1          2.0054     58272047553
+--------------- ---------------  ------- ---------------

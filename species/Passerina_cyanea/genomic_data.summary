@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPasCya1             22330962262               0      2147483648     41167619184       272633250  species/Passerina_cyanea/bPasCya1/genomic_data/arima/bPasCya1_S9_R1_001.fastq.gz
+arima           bPasCya1             23140120676               0      2147483648     41207534281       272897588  species/Passerina_cyanea/bPasCya1/genomic_data/arima/bPasCya1_S9_R2_001.fastq.gz
 pacbiohifi_bam  bPasCya1            162119229657               0      2147483648     45890758606         2534665  species/Passerina_cyanea/bPasCya1/genomic_data/pacbio_hifi/m84203_250620_164152_s4.hifi_reads.bc1019.bam
 pacbiohifi_fqgz bPasCya1             23457278854               0      2147483648     43852697445         2856566  species/Passerina_cyanea/bPasCya1/genomic_data/pacbio_hifi/m84203_250620_164152_s4.hifi_reads.bc1019.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz bPasCya1             23457278854               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bPasCya1          1.8012     81902514587
 pacbiohifi_bam  bPasCya1          0.2830     45879741992
 pacbiohifi_fqgz bPasCya1          1.8694     43851037089
 --------------- ---------------  ------- ---------------

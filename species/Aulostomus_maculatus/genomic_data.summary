@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fAulMac1             54024078057               0      2147483648    102652861649       679820300  species/Aulostomus_maculatus/fAulMac1/genomic_data/arima/YG022-03M1-1_S4_L001_R1_001.fastq.gz
+arima           fAulMac1             56435526391               0      2147483648    104197612121       690050437  species/Aulostomus_maculatus/fAulMac1/genomic_data/arima/YG022-03M1-1_S4_L001_R2_001.fastq.gz
+arima           fAulMac1             33350350139               0      2147483648     60885434491       403214797  species/Aulostomus_maculatus/fAulMac1/genomic_data/arima/YG022-03M1-2_S16_L002_R2_001.fastq.gz
+pacbiohifi_bam  fAulMac1             19961223998               0      2147483648     24359173408         2010024  species/Aulostomus_maculatus/fAulMac1/genomic_data/pacbio_hifi/m64241e_230917_112331.hifi_reads.bam
+pacbiohifi_fqgz fAulMac1             19680346347               0      2147483648     24380797954         2010599  species/Aulostomus_maculatus/fAulMac1/genomic_data/pacbio_hifi/m64241e_230917_112331.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fAulMac1          1.8617    326092921967
+pacbiohifi_bam  fAulMac1          1.2203     24358681644
+pacbiohifi_fqgz fAulMac1          1.2388     24380013054
+--------------- ---------------  ------- ---------------

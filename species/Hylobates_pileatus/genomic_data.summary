@@ -13,6 +13,7 @@ ont             mHylPil1             34492729438               0      2147483648
 ont             mHylPil1             67421578962               0      2147483648     83463968224         1893909  species/Hylobates_pileatus/mHylPil1/genomic_data/ont/PBC47552_dorado-7.4.14.fq.gz
 pacbiohifi_bam  mHylPil1            141805307973               0      2147483648     37002971431         1873231  species/Hylobates_pileatus/mHylPil1/genomic_data/pacbio_hifi/PS00184.unaligned.fiberseq.hifi_reads.bam
 pacbiohifi_fqgz mHylPil1             33378558182               0      2147483648     37115019972         1891300  species/Hylobates_pileatus/mHylPil1/genomic_data/pacbio_hifi/PS00184.unaligned.fiberseq.hifi_reads.fastq.gz
+pacbiohifi_bam  mHylPil1            224947290397               0      2147483648     63582644539         3822299  species/Hylobates_pileatus/mHylPil1/genomic_data/pacbio_hifi/m84122_250725_174317_s2.fiberseq.hifi_reads.bam
 arima           mHylPil2             34371063029               0      2147483648     62187497687       414583333  species/Hylobates_pileatus/mHylPil2/genomic_data/arima/LIB241021LC_I1_S1_R2_001.fastq.gz
 arima           mHylPil2             47409769574               0      2147483648     97979417264       653196115  species/Hylobates_pileatus/mHylPil2/genomic_data/arima/LIB241021LC_I2_S2_R1_001.fastq.gz
 arima           mHylPil2             52011731142               0      2147483648     98452123130       656347511  species/Hylobates_pileatus/mHylPil2/genomic_data/arima/LIB241021LC_I2_S2_R2_001.fastq.gz
@@ -37,7 +38,7 @@ illumina        mHylPil1          1.9065    191710574371
 illumina        mHylPil2          2.2245    122692232918
 ont             mHylPil1          1.6712    336652473434
 ont             mHylPil2          1.7483    516409247381
-pacbiohifi_bam  mHylPil1          0.2609     36997004850
+pacbiohifi_bam  mHylPil1          0.2774    101737170787
 pacbiohifi_bam  mHylPil2          0.2774    156447768067
 pacbiohifi_fqgz mHylPil1          1.1119     37113618842
 pacbiohifi_fqgz mHylPil2          2.5076    142391222078
