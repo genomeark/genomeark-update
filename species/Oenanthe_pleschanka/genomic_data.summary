@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  bOenPle1            371110266536               0      2147483648     86549069930         7528713  species/Oenanthe_pleschanka/bOenPle1/genomic_data/pacbio_hifi/m84151_231018_133156_s2.hifi_reads.unassigned.bam
+pacbiohifi_fqgz bOenPle1             42976468066               0      2147483648     86298089489         7499155  species/Oenanthe_pleschanka/bOenPle1/genomic_data/pacbio_hifi/m84151_231018_133156_s2.hifi_reads.unassigned.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  bOenPle1          0.2332     86542914156
+pacbiohifi_fqgz bOenPle1          2.0080     86296747876
+--------------- ---------------  ------- ---------------

@@ -3,6 +3,10 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 pacbiohifi_bam  bMilMil1             31555977220               0      2147483648     94292214458         7601543  species/Milvus_milvus/bMilMil1/genomic_data/pacbio_hifi/m84093_241007_104400_s3.ccs.bc2094.bam
+pacbiohifi_bam  bMilMil3              4057951063               0      4057951063      5192149109          264341  species/Milvus_milvus/bMilMil3/genomic_data/pacbio_hifi/m64293e_220222_191001.hifi_reads.bam
+pacbiohifi_fqgz bMilMil3              4302282840               0      4302282840      5192149109          264341  species/Milvus_milvus/bMilMil3/genomic_data/pacbio_hifi/m64293e_220222_191001.hifi_reads.fastq.gz
+pacbiohifi_clr  bMilMil3             35873548977               0      2147483648     74820438415         4434371  species/Milvus_milvus/bMilMil3/genomic_data/pacbio_hifi/m64293e_220403_000401.reads.bam
+pacbiohifi_fqgz bMilMil3             39252036293               0      2147483648     74740128750         4434225  species/Milvus_milvus/bMilMil3/genomic_data/pacbio_hifi/m64293e_220403_000401.reads.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -10,4 +14,7 @@ pacbiohifi_bam  bMilMil1             31555977220               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 pacbiohifi_bam  bMilMil1          2.9880     94289259933
+pacbiohifi_bam  bMilMil3          1.2795      5192148385
+pacbiohifi_clr  bMilMil3          2.0856     74817873746
+pacbiohifi_fqgz bMilMil3          1.8678     81350757276
 --------------- ---------------  ------- ---------------
