@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMyoSod1             37727637911               0      2147483648     64499663237       427150087  species/Myotis_sodalis/mMyoSod1/genomic_data/arima/mMyoSod1_L1_S10_R1_001.fastq.gz
+arima           mMyoSod1             39285194974               0      2147483648     64624070619       427973977  species/Myotis_sodalis/mMyoSod1/genomic_data/arima/mMyoSod1_L1_S10_R2_001.fastq.gz
 pacbiohifi_bam  mMyoSod1            428918517975               0      2147483648    119860953002         6086794  species/Myotis_sodalis/mMyoSod1/genomic_data/pacbio_hifi/m84091_250718_012905_s2.hifi_reads.bc1020.bam
 pacbiohifi_fqgz mMyoSod1             63058858033               0      2147483648    115448869842         6134065  species/Myotis_sodalis/mMyoSod1/genomic_data/pacbio_hifi/m84091_250718_012905_s2.hifi_reads.bc1020.fastq.gz
 pacbiohifi_bam  mMyoSod1            115495055681               0      2147483648     32419803374         1590751  species/Myotis_sodalis/mMyoSod1/genomic_data/pacbio_hifi/m84203_250725_165301_s4.hifi_reads.bc1020.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz mMyoSod1             16670803715               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mMyoSod1          1.6659    128295678303
 pacbiohifi_bam  mMyoSod1          0.2795    152163593836
 pacbiohifi_fqgz mMyoSod1          1.8403    146726496514
 --------------- ---------------  ------- ---------------

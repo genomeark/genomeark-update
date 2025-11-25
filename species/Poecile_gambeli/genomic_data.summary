@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPoeGam1             13602152353               0      2147483648     23391027820       154907475  species/Poecile_gambeli/bPoeGam1/genomic_data/arima/bPoeGam1_L1_S7_R1_001.fastq.gz
+arima           bPoeGam1             13990958540               0      2147483648     23293879449       154264108  species/Poecile_gambeli/bPoeGam1/genomic_data/arima/bPoeGam1_L1_S7_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bPoeGam1          1.6828     46433687010
+--------------- ---------------  ------- ---------------

@@ -46,6 +46,8 @@ arima           mSymSyn2             38233039594               0      2147483648
 arima           mSymSyn2             42795091277               0      2147483648     78552842462       523685636  species/Symphalangus_syndactylus/mSymSyn2/genomic_data/arima/LIB241021LC_K2_S6_R2_001.fastq.gz
 illumina        mSymSyn2              7419677631               0      2147483648     17131146887       113451307  species/Symphalangus_syndactylus/mSymSyn2/genomic_data/illumina/Karenina_R1.fastq.gz
 illumina        mSymSyn2              7610113476               0      2147483648     17179061893       113768625  species/Symphalangus_syndactylus/mSymSyn2/genomic_data/illumina/Karenina_R2.fastq.gz
+illumina        mSymSyn2             33286554089               0      2147483648     67126635330       468279924  species/Symphalangus_syndactylus/mSymSyn2/genomic_data/illumina/LIB250612LC_Gibbon_WGS_Karenina_S5_R1_001.fastq.gz
+illumina        mSymSyn2             34486469757               0      2147483648     67364587341       469944414  species/Symphalangus_syndactylus/mSymSyn2/genomic_data/illumina/LIB250612LC_Gibbon_WGS_Karenina_S5_R2_001.fastq.gz
 ont             mSymSyn2             41378542493               0      2147483648    119509030804          852086  species/Symphalangus_syndactylus/mSymSyn2/genomic_data/ont/BET0029_HIFIASM-corrected-0.24.0-r703.fastq.gz
 ont             mSymSyn2             48058086011               0      2147483648     60007613442         1457105  species/Symphalangus_syndactylus/mSymSyn2/genomic_data/ont/PBA07625_dorado-7.4.12.fq.gz
 ont             mSymSyn2             40340649367               0      2147483648     49447494427         2819396  species/Symphalangus_syndactylus/mSymSyn2/genomic_data/ont/PBA07632_dorado-7.4.12.fq.gz
@@ -63,7 +65,7 @@ pacbiohifi_fqgz mSymSyn2             24850518013               0      2147483648
 arima           mSymSyn2          1.9051    300435764257
 dovetail        mSymSyn1          1.8832    258647702266
 illumina        mSymSyn1          1.9006    423476451696
-illumina        mSymSyn2          2.2742     34180750935
+illumina        mSymSyn2          2.0119    166590983403
 ont             mSymSyn1          1.2588   1144005704523
 ont             mSymSyn2          1.7642    413278471730
 pacbiohifi_bam  mSymSyn1          0.2684    400642217424

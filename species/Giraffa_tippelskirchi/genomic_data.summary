@@ -2,10 +2,35 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mGirTip1             12704725997               0      2147483648     24045759035       159243443  species/Giraffa_tippelskirchi/mGirTip1/genomic_data/dovetail/mGirTip1_LIB205043_S3_R1.fastq.gz
+dovetail        mGirTip1             13375106469               0      2147483648     23827535375       157798247  species/Giraffa_tippelskirchi/mGirTip1/genomic_data/dovetail/mGirTip1_LIB205043_S3_R2.fastq.gz
+illumina        mGirTip1             45275722186               0      2147483648     75146774832       497660781  species/Giraffa_tippelskirchi/mGirTip1/genomic_data/illumina/mGirTip1_LIB210652_S7_R1_001.fastq.gz
+illumina        mGirTip1             47847002951               0      2147483648     73577176476       487266091  species/Giraffa_tippelskirchi/mGirTip1/genomic_data/illumina/mGirTip1_LIB210652_S7_R2_001.fastq.gz
+ont             mGirTip1             48152219390               0      2147483648     61274848914         3711841  species/Giraffa_tippelskirchi/mGirTip1/genomic_data/ont/PAO99202_dorado-v0.9.1.fastq.gz
+ont             mGirTip1              4233217472               0      4233217472      4973709769          111396  species/Giraffa_tippelskirchi/mGirTip1/genomic_data/ont/duplex_20k/PAQ65667_dorado_duplex_q20_20k.fastq.gz
+ont             mGirTip1              9419378926               0      2147483648     11003513967          268823  species/Giraffa_tippelskirchi/mGirTip1/genomic_data/ont/duplex_20k/PAS63120_dorado_duplex_q20_20k.fastq.gz
+pacbiohifi_bam  mGirTip1             12551570668               0      2147483648     21970621495         1285010  species/Giraffa_tippelskirchi/mGirTip1/genomic_data/pacbio_hifi/m84124_230821_165726_s4.hifi_reads.bc2021.bam
+pacbiohifi_fqgz mGirTip1             10337725394               0      2147483648     22060761163         1292964  species/Giraffa_tippelskirchi/mGirTip1/genomic_data/pacbio_hifi/m84124_230821_165726_s4.hifi_reads.fastq.gz
+pacbiohifi_fqgz mGirTip1              9035958572               0      2147483648     19369370023         1036347  species/Giraffa_tippelskirchi/mGirTip1/genomic_data/pacbio_hifi/m84124_231207_000930_s3.hifi_reads.fastq.gz
+pacbiohifi_bam  mGirTip1             70024364869               0      2147483648     16186720597          856015  species/Giraffa_tippelskirchi/mGirTip1/genomic_data/pacbio_hifi/m84124_231207_004036_s4.hifi_reads.bc2013.bam
+pacbiohifi_bam  mGirTip1            107266361119               0      2147483648     25676321597         1403289  species/Giraffa_tippelskirchi/mGirTip1/genomic_data/pacbio_hifi/m84124_231213_190101_s3.hifi_reads.bc2013.bam
+pacbiohifi_fqgz mGirTip1             12087429311               0      2147483648     25872214098         1411895  species/Giraffa_tippelskirchi/mGirTip1/genomic_data/pacbio_hifi/m84124_231213_190101_s3.hifi_reads.fastq.gz
+illumina        mGirTip2             24936283159               0      2147483648     47770459333       327944462  species/Giraffa_tippelskirchi/mGirTip2/genomic_data/illumina/mGirTip2_Tessa_S4_R1.fastq.gz
+illumina        mGirTip2             26181538567               0      2147483648     47612080583       326851536  species/Giraffa_tippelskirchi/mGirTip2/genomic_data/illumina/mGirTip2_Tessa_S4_R2.fastq.gz
+illumina        mGirTip3             18759891198               0      2147483648     21881150736       218811516  species/Giraffa_tippelskirchi/mGirTip3/genomic_data/illumina/mGirTip3_Kimba_S1_R2.fastq.gz
+illumina        mGirTip3             18362527832               0      2147483648     22373260674       223732615  species/Giraffa_tippelskirchi/mGirTip3/genomic_data/illumina/mGirTip3_Kimba_S2_R2.fastq.gz
+illumina        mGirTip3             18792982460               0      2147483648     22531965163       225319660  species/Giraffa_tippelskirchi/mGirTip3/genomic_data/illumina/mGirTip3_Kimba_S3_R1.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+dovetail        mGirTip1          1.8172     47392271557
+illumina        mGirTip1          1.5769    146845225268
+illumina        mGirTip2          1.8498     94557746628
+illumina        mGirTip3          1.1944    177165432821
+ont             mGirTip1          1.2499   1299929611462
+pacbiohifi_bam  mGirTip1          0.3362    222009210932
+pacbiohifi_fqgz mGirTip1          2.1392    222262448848
 --------------- ---------------  ------- ---------------

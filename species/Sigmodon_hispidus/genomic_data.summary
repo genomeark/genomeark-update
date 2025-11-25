@@ -2,6 +2,9 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mSigHis2             73740584077               0      2147483648    129296333302       856267142  species/Sigmodon_hispidus/mSigHis2/genomic_data/arima/mSigHis2_L2_S1_R1_001.fastq.gz
+arima           mSigHis2             15136768222               0      2147483648     28692704658       190017918  species/Sigmodon_hispidus/mSigHis2/genomic_data/arima/mSigHis2_S12_R2_001.fastq.gz
+arima           mSigHis2              4129061139               0      4129061139      7263524008        48102808  species/Sigmodon_hispidus/mSigHis2/genomic_data/arima/mSigHis2_S13_R2_001.fastq.gz
 pacbiohifi_bam  mSigHis2            403216176888               0      2147483648    116229703574         7153362  species/Sigmodon_hispidus/mSigHis2/genomic_data/pacbio_hifi/m84091_250723_202806_s2.hifi_reads.bc1001.bam
 pacbiohifi_fqgz mSigHis2             55081905524               0      2147483648    114831030651         7412067  species/Sigmodon_hispidus/mSigHis2/genomic_data/pacbio_hifi/m84091_250723_202806_s2.hifi_reads.bc1001.fastq.gz
 pacbiohifi_bam  mSigHis2            372826601002               0      2147483648    106812977065         6579853  species/Sigmodon_hispidus/mSigHis2/genomic_data/pacbio_hifi/m84091_250725_164435_s2.hifi_reads.bc1001.bam
@@ -12,6 +15,7 @@ pacbiohifi_fqgz mSigHis2             50821401490               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mSigHis2          1.7767    333877077169
 pacbiohifi_bam  mSigHis2          0.2876    223189902921
 pacbiohifi_fqgz mSigHis2          2.0876    221083743722
 --------------- ---------------  ------- ---------------

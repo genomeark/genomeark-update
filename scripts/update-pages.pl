@@ -442,7 +442,7 @@ foreach my $species (@speciesList) {
             push @pl, split '\s+', $pl;
         } else {
             $noProjectID{$data{'name_'}}++;
-            #push @potentialErrors, "  Species $data{'name_'} has no projectID.\n";
+            push @potentialErrors, "  Species $data{'name_'} has no projectID.\n";
         }
 
         foreach my $proj (@pl) {

@@ -2,6 +2,9 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aParTow1            217578109316               0      2147483648    378407048951      2506006946  species/Parvimolge_townsendi/aParTow1/genomic_data/arima/aParTow1_L1_S1_R2_001.fastq.gz
+arima           aParTow1            211182499779               0      2147483648    372176898080      2464747767  species/Parvimolge_townsendi/aParTow1/genomic_data/arima/aParTow1_L2_S2_R1_001.fastq.gz
+arima           aParTow1            217790171355               0      2147483648    378298988218      2505291414  species/Parvimolge_townsendi/aParTow1/genomic_data/arima/aParTow1_L2_S2_R2_001.fastq.gz
 pacbiohifi_bam  aParTow1            367968579210               0      2147483648    102257576844         6715670  species/Parvimolge_townsendi/aParTow1/genomic_data/pacbio_hifi/m84203_250617_212130_s1.hifi_reads.bc1020.bam
 pacbiohifi_fqgz aParTow1             51212683776               0      2147483648     97476238246         6564597  species/Parvimolge_townsendi/aParTow1/genomic_data/pacbio_hifi/m84203_250617_212130_s1.hifi_reads.bc1020.fastq.gz
 pacbiohifi_bam  aParTow1            358796142083               0      2147483648    692042260614        42096840  species/Parvimolge_townsendi/aParTow1/genomic_data/pacbio_hifi/m84203_250620_174626_s3.hifi_reads.bc1020.bam
@@ -16,6 +19,7 @@ pacbiohifi_fqgz aParTow1             44949079963               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           aParTow1          1.7460   1493777744245
 pacbiohifi_bam  aParTow1          0.2783    689180187869
 pacbiohifi_fqgz aParTow1          1.9360    660287000000
 --------------- ---------------  ------- ---------------

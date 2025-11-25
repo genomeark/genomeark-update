@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fDatPol1             16169936510               0      2147483648     27563100663       182537098  species/Datnioides_polota/fDatPol1/genomic_data/arima/fDatPol1_L1_S1_R2_001.fastq.gz
+arima           fDatPol1             23714481369               0      2147483648     42523710870       281613990  species/Datnioides_polota/fDatPol1/genomic_data/arima/fDatPol1_S4_R1_001.fastq.gz
+arima           fDatPol1             24913484365               0      2147483648     42635961173       282357370  species/Datnioides_polota/fDatPol1/genomic_data/arima/fDatPol1_S4_R2_001.fastq.gz
+pacbiohifi_bam  fDatPol1            134903944761               0      2147483648     31779070426         2121792  species/Datnioides_polota/fDatPol1/genomic_data/pacbio_hifi/m84091_240614_183804_s3.hifi_reads.bc1018.bam
+pacbiohifi_fqgz fDatPol1             16689482662               0      2147483648     31955040119         2139215  species/Datnioides_polota/fDatPol1/genomic_data/pacbio_hifi/m84091_240614_183804_s3.hifi_reads.bc1018.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fDatPol1          1.7396    139695188667
+pacbiohifi_bam  fDatPol1          0.2355     31769878991
+pacbiohifi_fqgz fDatPol1          1.9146     31953683504
+--------------- ---------------  ------- ---------------

@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPasIli2             31153372281               0      2147483648     58088528413       384692255  species/Passerella_iliaca/bPasIli2/genomic_data/arima/bPasIli2_S7_R1_001.fastq.gz
+arima           bPasIli2             32097473270               0      2147483648     57939494922       383705264  species/Passerella_iliaca/bPasIli2/genomic_data/arima/bPasIli2_S7_R2_001.fastq.gz
 pacbiohifi_bam  bPasIli2            277472274757               0      2147483648     78787189570         4698135  species/Passerella_iliaca/bPasIli2/genomic_data/pacbio_hifi/m84091_250710_201422_s1.hifi_reads.bc1012.bam
 pacbiohifi_fqgz bPasIli2             38205381604               0      2147483648     76432339459         4988620  species/Passerella_iliaca/bPasIli2/genomic_data/pacbio_hifi/m84091_250710_201422_s1.hifi_reads.bc1012.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz bPasIli2             38205381604               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bPasIli2          1.8245    115401167707
 pacbiohifi_bam  bPasIli2          0.2839     78774378803
 pacbiohifi_fqgz bPasIli2          2.0005     76429865898
 --------------- ---------------  ------- ---------------

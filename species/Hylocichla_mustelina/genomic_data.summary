@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bHylMus1             16602746178               0      2147483648     29005314778       192088177  species/Hylocichla_mustelina/bHylMus1/genomic_data/arima/bHylMus1_L1_S4_R1_001.fastq.gz
+arima           bHylMus1             17294161630               0      2147483648     29151058202       193053373  species/Hylocichla_mustelina/bHylMus1/genomic_data/arima/bHylMus1_L1_S4_R2_001.fastq.gz
+pacbiohifi_bam  bHylMus1            138708633348               0      2147483648     39822039528         2780588  species/Hylocichla_mustelina/bHylMus1/genomic_data/pacbio_hifi/m84091_251110_194512_s3.hifi_reads.bc1003.bam
+pacbiohifi_fqgz bHylMus1             18481822257               0      2147483648     39028115512         3063694  species/Hylocichla_mustelina/bHylMus1/genomic_data/pacbio_hifi/m84091_251110_194512_s3.hifi_reads.bc1003.fastq.gz
+pacbiohifi_bam  bHylMus1             84901351716               0      2147483648     24512838974         1749910  species/Hylocichla_mustelina/bHylMus1/genomic_data/pacbio_hifi/m84091_251110_201729_s4.hifi_reads.bc1003.bam
+pacbiohifi_fqgz bHylMus1             11384002298               0      2147483648     24295362172         2029787  species/Hylocichla_mustelina/bHylMus1/genomic_data/pacbio_hifi/m84091_251110_201729_s4.hifi_reads.bc1003.fastq.gz
+pacbiohifi_bam  bHylMus1             92726619625               0      2147483648     27035780336         1821471  species/Hylocichla_mustelina/bHylMus1/genomic_data/pacbio_hifi/m84203_251118_170243_s1.hifi_reads.bc1003.bam
+pacbiohifi_fqgz bHylMus1             12452074615               0      2147483648     26539077791         1973322  species/Hylocichla_mustelina/bHylMus1/genomic_data/pacbio_hifi/m84203_251118_170243_s1.hifi_reads.bc1003.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bHylMus1          1.7055     57811176266
+pacbiohifi_bam  bHylMus1          0.2888     91358011434
+pacbiohifi_fqgz bHylMus1          2.1235     89862058887
+--------------- ---------------  ------- ---------------

@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bToxRuf1             44438886184               0      2147483648     81030212909       536623947  species/Toxostoma_rufum/bToxRuf1/genomic_data/arima/bToxRuf1_S4_R1_001.fastq.gz
+arima           bToxRuf1             46756607451               0      2147483648     81084246929       536981789  species/Toxostoma_rufum/bToxRuf1/genomic_data/arima/bToxRuf1_S4_R2_001.fastq.gz
 pacbiohifi_bam  bToxRuf1            119870631948               0      2147483648     34298576707         2090314  species/Toxostoma_rufum/bToxRuf1/genomic_data/pacbio_hifi/m84091_250710_194205_s4.hifi_reads.bc1008.bam
 pacbiohifi_fqgz bToxRuf1             16802409061               0      2147483648     33308520431         2297092  species/Toxostoma_rufum/bToxRuf1/genomic_data/pacbio_hifi/m84091_250710_194205_s4.hifi_reads.bc1008.fastq.gz
 pacbiohifi_bam  bToxRuf1            132838910891               0      2147483648     37960827684         2232391  species/Toxostoma_rufum/bToxRuf1/genomic_data/pacbio_hifi/m84091_250710_201422_s1.hifi_reads.bc1008.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz bToxRuf1             19006603003               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bToxRuf1          1.7629    160768535729
 pacbiohifi_bam  bToxRuf1          0.2858     72224387343
 pacbiohifi_fqgz bToxRuf1          1.9496     69813249919
 --------------- ---------------  ------- ---------------

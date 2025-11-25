@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPirLud1             37816149677               0      2147483648     69515232394       460365777  species/Piranga_ludoviciana/bPirLud1/genomic_data/arima/bPirLud1_S8_R1_001.fastq.gz
+arima           bPirLud1             39501631519               0      2147483648     69536325979       460505470  species/Piranga_ludoviciana/bPirLud1/genomic_data/arima/bPirLud1_S8_R2_001.fastq.gz
 pacbiohifi_bam  bPirLud1            291137243892               0      2147483648     83071697450         5188044  species/Piranga_ludoviciana/bPirLud1/genomic_data/pacbio_hifi/m84091_250718_030555_s1.hifi_reads.bc1011.bam
 pacbiohifi_fqgz bPirLud1             39327779052               0      2147483648     80168538182         5479669  species/Piranga_ludoviciana/bPirLud1/genomic_data/pacbio_hifi/m84091_250718_030555_s1.hifi_reads.bc1011.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz bPirLud1             39327779052               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bPirLud1          1.7855    138050898325
 pacbiohifi_bam  bPirLud1          0.2853     83061455682
 pacbiohifi_fqgz bPirLud1          2.0384     80165744819
 --------------- ---------------  ------- ---------------

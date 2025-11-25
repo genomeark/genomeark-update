@@ -1,0 +1,20 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rBotPic1            174892655561               0      2147483648    321588217820      2129723378  species/Bothrops_pictus/rBotPic1/genomic_data/arima/rBotPic1_S14_R1_001.fastq.gz
+arima           rBotPic1            185081519368               0      2147483648    323658881961      2143436390  species/Bothrops_pictus/rBotPic1/genomic_data/arima/rBotPic1_S14_R2_001.fastq.gz
+pacbiohifi_bam  rBotPic1            397401087351               0      2147483648    112093574813         6222080  species/Bothrops_pictus/rBotPic1/genomic_data/pacbio_hifi/m84203_250904_184244_s3.hifi_reads.bc1010.bam
+pacbiohifi_fqgz rBotPic1             56814527702               0      2147483648    109463015749         6221549  species/Bothrops_pictus/rBotPic1/genomic_data/pacbio_hifi/m84203_250904_184244_s3.hifi_reads.bc1010.fastq.gz
+pacbiohifi_bam  rBotPic1            222416361658               0      2147483648     63219569973         3433368  species/Bothrops_pictus/rBotPic1/genomic_data/pacbio_hifi/m84203_250925_201152_s4.hifi_reads.bc1010.bam
+pacbiohifi_fqgz rBotPic1             31761052938               0      2147483648     62755265478         3681648  species/Bothrops_pictus/rBotPic1/genomic_data/pacbio_hifi/m84203_250925_201152_s4.hifi_reads.bc1010.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rBotPic1          1.7776    639890093353
+pacbiohifi_bam  rBotPic1          0.2825    175098429345
+pacbiohifi_fqgz rBotPic1          1.9374    171606329931
+--------------- ---------------  ------- ---------------

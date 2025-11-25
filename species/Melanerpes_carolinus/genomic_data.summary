@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bMelCao1             63301840417               0      2147483648    115741421471       766499509  species/Melanerpes_carolinus/bMelCao1/genomic_data/arima/bMelCao1_S3_R1_001.fastq.gz
+arima           bMelCao1             68196817786               0      2147483648    115942060167       767828244  species/Melanerpes_carolinus/bMelCao1/genomic_data/arima/bMelCao1_S3_R2_001.fastq.gz
 pacbiohifi_bam  bMelCao1            313244595391               0      2147483648     89208548032         5215872  species/Melanerpes_carolinus/bMelCao1/genomic_data/pacbio_hifi/m84091_250710_183742_s2.hifi_reads.bc1003.bam
 pacbiohifi_fqgz bMelCao1             44438081017               0      2147483648     86929684355         5453892  species/Melanerpes_carolinus/bMelCao1/genomic_data/pacbio_hifi/m84091_250710_183742_s2.hifi_reads.bc1003.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz bMelCao1             44438081017               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bMelCao1          1.7407    228899714333
 pacbiohifi_bam  bMelCao1          0.2847     89180736307
 pacbiohifi_fqgz bMelCao1          1.9561     86925330277
 --------------- ---------------  ------- ---------------

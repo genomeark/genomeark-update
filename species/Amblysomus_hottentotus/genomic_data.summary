@@ -2,9 +2,11 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mAmbHot1             62531889688               0      2147483648    111739038535       739993661  species/Amblysomus_hottentotus/mAmbHot1/genomic_data/arima/mAmbHot1_L3_S2_R1_001.fastq.gz
 arima           mAmbHot1             15493926935               0      2147483648     27787856292       184025545  species/Amblysomus_hottentotus/mAmbHot1/genomic_data/arima/mAmbHot1_S1_R2_001.fastq.gz
 arima           mAmbHot1             81711631280               0      2147483648    144086987373       954218459  species/Amblysomus_hottentotus/mAmbHot1/genomic_data/arima/mAmbHot1_S5_R1_001.fastq.gz
 arima           mAmbHot1             84024716083               0      2147483648    145078559714       960785202  species/Amblysomus_hottentotus/mAmbHot1/genomic_data/arima/mAmbHot1_S5_R2_001.fastq.gz
+arima           mAmbHot1             58546206165               0      2147483648    105842044449       700940718  species/Amblysomus_hottentotus/mAmbHot1/genomic_data/arima/mAmbHot1_S7_R1_001.fastq.gz
 arima           mAmbHot1             59205491560               0      2147483648    106030986051       702191988  species/Amblysomus_hottentotus/mAmbHot1/genomic_data/arima/mAmbHot1_S7_R2_001.fastq.gz
 pacbiohifi_bam  mAmbHot1            423314658461               0      2147483648    118477076884         8161411  species/Amblysomus_hottentotus/mAmbHot1/genomic_data/pacbio_hifi/m84203_250223_004312_s4.hifi_reads.bc1021.bam
 pacbiohifi_fqgz mAmbHot1             57183490265               0      2147483648    113884668560         8187406  species/Amblysomus_hottentotus/mAmbHot1/genomic_data/pacbio_hifi/m84203_250223_004312_s4.hifi_reads.bc1021.fastq.gz
@@ -16,7 +18,7 @@ pacbiohifi_fqgz mAmbHot1             56121986080               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           mAmbHot1          1.7767    557897660933
+arima           mAmbHot1          1.7834    786807610078
 pacbiohifi_bam  mAmbHot1          0.2841    242947120471
 pacbiohifi_fqgz mAmbHot1          2.0531    232627473483
 --------------- ---------------  ------- ---------------

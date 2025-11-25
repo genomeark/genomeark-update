@@ -3,7 +3,10 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           aCryAll3            861621145922               0      2147483648   1589346505353     10525473946  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/arima/aCryAll3_L1_S1_R1_001.fastq.gz
+arima           aCryAll3             66423353222               0      2147483648    133475422853       883943197  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/arima/aCryAll3_L1_S1_R1_001_part09.fastq.gz
 arima           aCryAll3            896471196454               0      2147483648   1611771227366     10673981638  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/arima/aCryAll3_L1_S1_R2_001.fastq.gz
+arima           aCryAll3             68635874638               0      2147483648    134022191216       887564212  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/arima/aCryAll3_L1_S1_R2_001_part04.fastq.gz
+arima           aCryAll3             69533596407               0      2147483648    131455758314       870567968  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/arima/aCryAll3_L1_S1_R2_001_part06.fastq.gz
 pacbiohifi_bam  aCryAll3            180988111992               0      2147483648     51936632584         2573379  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84091_240927_204205_s3.hifi_reads.bc1016.bam
 pacbiohifi_fqgz aCryAll3             26493316727               0      2147483648      7602563735          376695  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84091_240927_204205_s3.hifi_reads.bc1016.fastq.gz
 pacbiohifi_bam  aCryAll3            197823215965               0      2147483648    363810983547        18729372  species/Cryptobranchus_alleganiensis/aCryAll3/genomic_data/pacbio_hifi/m84091_240927_224115_s4.hifi_reads.bc1016.bam
@@ -24,7 +27,7 @@ pacbiohifi_fqgz aCryAll3             27054929145               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           aCryAll3          1.8130   3187421416727
+arima           aCryAll3          1.9499   6602529837256
 pacbiohifi_bam  aCryAll3          0.7270   3158285641155
 pacbiohifi_fqgz aCryAll3          1.4588    878356825379
 --------------- ---------------  ------- ---------------

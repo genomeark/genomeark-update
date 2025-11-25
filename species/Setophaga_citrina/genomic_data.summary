@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bSetCit1             21395616132               0      2147483648     36953056838       244722240  species/Setophaga_citrina/bSetCit1/genomic_data/arima/bSetCit1_L1_S8_R1_001.fastq.gz
+arima           bSetCit1             22613981294               0      2147483648     36824761048       243872600  species/Setophaga_citrina/bSetCit1/genomic_data/arima/bSetCit1_L1_S8_R2_001.fastq.gz
+pacbiohifi_bam  bSetCit1            276360085376               0      2147483648     80055290466         4667464  species/Setophaga_citrina/bSetCit1/genomic_data/pacbio_hifi/m84203_251118_170243_s1.hifi_reads.bc1010.bam
+pacbiohifi_fqgz bSetCit1             37003297489               0      2147483648     78264157813         4940490  species/Setophaga_citrina/bSetCit1/genomic_data/pacbio_hifi/m84203_251118_170243_s1.hifi_reads.bc1010.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bSetCit1          1.6601     73060332686
+pacbiohifi_bam  bSetCit1          0.2896     80033880724
+pacbiohifi_fqgz bSetCit1          2.1150     78261974189
+--------------- ---------------  ------- ---------------

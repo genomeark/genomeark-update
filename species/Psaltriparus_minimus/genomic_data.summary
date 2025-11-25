@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPsaMin1             34987556028               0      2147483648     64597210621       427796113  species/Psaltriparus_minimus/bPsaMin1/genomic_data/arima/bPsaMin1_S9_R1_001.fastq.gz
+arima           bPsaMin1             36049259777               0      2147483648     64550328217       427485634  species/Psaltriparus_minimus/bPsaMin1/genomic_data/arima/bPsaMin1_S9_R2_001.fastq.gz
 pacbiohifi_bam  bPsaMin1             95133276963               0      2147483648     27200646730         1834192  species/Psaltriparus_minimus/bPsaMin1/genomic_data/pacbio_hifi/m84091_250718_030555_s1.hifi_reads.bc1017.bam
 pacbiohifi_fqgz bPsaMin1             12740227901               0      2147483648     26985379021         2167320  species/Psaltriparus_minimus/bPsaMin1/genomic_data/pacbio_hifi/m84091_250718_030555_s1.hifi_reads.bc1017.fastq.gz
 pacbiohifi_bam  bPsaMin1            109086484447               0      2147483648     31126042304         2010864  species/Psaltriparus_minimus/bPsaMin1/genomic_data/pacbio_hifi/m84203_250723_203305_s1.hifi_reads.bc1017.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz bPsaMin1             14610031981               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bPsaMin1          1.8088    128491392428
 pacbiohifi_bam  bPsaMin1          0.2855     58304741882
 pacbiohifi_fqgz bPsaMin1          2.1037     57536741713
 --------------- ---------------  ------- ---------------

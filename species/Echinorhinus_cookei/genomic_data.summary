@@ -8,12 +8,14 @@ pacbiohifi_bam  sEchCoo1             48545412644               0      2147483648
 pacbiohifi_fqgz sEchCoo1              6091839075               0      2147483648     13555054388          941761  species/Echinorhinus_cookei/sEchCoo1/genomic_data/pacbio_hifi/m84203_250818_194859_s2.hifi_reads.bc1022.fastq.gz
 pacbiohifi_bam  sEchCoo1            295987750950               0      2147483648     82845500282         5049679  species/Echinorhinus_cookei/sEchCoo1/genomic_data/pacbio_hifi/m84203_250818_205333_s4.hifi_reads.bc1022.bam
 pacbiohifi_fqgz sEchCoo1             36857687530               0      2147483648     76435047503         4870108  species/Echinorhinus_cookei/sEchCoo1/genomic_data/pacbio_hifi/m84203_250818_205333_s4.hifi_reads.bc1022.fastq.gz
+pacbiohifi_bam  sEchCoo1            331202351153               0      2147483648     92666087942         5711529  species/Echinorhinus_cookei/sEchCoo1/genomic_data/pacbio_hifi/m84203_250904_191500_s4.hifi_reads.bc1022.bam
+pacbiohifi_fqgz sEchCoo1             41966950485               0      2147483648     86392943053         5567175  species/Echinorhinus_cookei/sEchCoo1/genomic_data/pacbio_hifi/m84203_250904_191500_s4.hifi_reads.bc1022.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-pacbiohifi_bam  sEchCoo1          0.2815    315341616457
-pacbiohifi_fqgz sEchCoo1          2.0718    292484944946
+pacbiohifi_bam  sEchCoo1          0.2813    408284794059
+pacbiohifi_fqgz sEchCoo1          2.0652    378223340612
 --------------- ---------------  ------- ---------------

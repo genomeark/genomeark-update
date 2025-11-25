@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fAleTen1             23768401940               0      2147483648     41386238113       274081058  species/Alepocephalus_tenebrosus/fAleTen1/genomic_data/arima/fAleTen1_L1_S5_R1_001.fastq.gz
+arima           fAleTen1             25058440038               0      2147483648     41640944775       275767846  species/Alepocephalus_tenebrosus/fAleTen1/genomic_data/arima/fAleTen1_L1_S5_R2_001.fastq.gz
+pacbiohifi_bam  fAleTen1            175377904742               0      2147483648     49131903842         4032538  species/Alepocephalus_tenebrosus/fAleTen1/genomic_data/pacbio_hifi/m84203_250925_183507_s1.hifi_reads.bc1019.bam
+pacbiohifi_fqgz fAleTen1             22913118881               0      2147483648     48402342021         4710941  species/Alepocephalus_tenebrosus/fAleTen1/genomic_data/pacbio_hifi/m84203_250925_183507_s1.hifi_reads.bc1019.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fAleTen1          1.6873     82385530469
+pacbiohifi_bam  fAleTen1          0.2801     49123351118
+pacbiohifi_fqgz fAleTen1          2.1124     48401672324
+--------------- ---------------  ------- ---------------

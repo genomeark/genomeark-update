@@ -1,0 +1,20 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bSetCor1             21149732928               0      2147483648     36904837279       244402905  species/Setophaga_coronata/bSetCor1/genomic_data/arima/bSetCor1_L1_S3_R1_001.fastq.gz
+arima           bSetCor1             22626564051               0      2147483648     37082807013       245581513  species/Setophaga_coronata/bSetCor1/genomic_data/arima/bSetCor1_L1_S3_R2_001.fastq.gz
+pacbiohifi_bam  bSetCor1            156706099345               0      2147483648     45185501617         3174353  species/Setophaga_coronata/bSetCor1/genomic_data/pacbio_hifi/m84091_251110_201729_s4.hifi_reads.bc1012.bam
+pacbiohifi_fqgz bSetCor1             20749175818               0      2147483648     44311083104         3495337  species/Setophaga_coronata/bSetCor1/genomic_data/pacbio_hifi/m84091_251110_201729_s4.hifi_reads.bc1012.fastq.gz
+pacbiohifi_bam  bSetCor1            178315378465               0      2147483648     51266502999         3530131  species/Setophaga_coronata/bSetCor1/genomic_data/pacbio_hifi/m84203_251118_173451_s2.hifi_reads.bc1012.bam
+pacbiohifi_fqgz bSetCor1             23894664868               0      2147483648     50284396003         3747234  species/Setophaga_coronata/bSetCor1/genomic_data/pacbio_hifi/m84203_251118_173451_s2.hifi_reads.bc1012.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bSetCor1          1.6726     73220234327
+pacbiohifi_bam  bSetCor1          0.2877     96385679165
+pacbiohifi_fqgz bSetCor1          2.1138     94368150442
+--------------- ---------------  ------- ---------------

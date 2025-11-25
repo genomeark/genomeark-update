@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fAlbGlo1             31868361651               0      2147483648     55476050788       367391079  species/Albula_glossodonta/fAlbGlo1/genomic_data/arima/fAlbGlo1_L1_S5_R1_001.fastq.gz
+arima           fAlbGlo1             33282078113               0      2147483648     55283637648       366116821  species/Albula_glossodonta/fAlbGlo1/genomic_data/arima/fAlbGlo1_L1_S5_R2_001.fastq.gz
 pacbiohifi_bam  fAlbGlo1            112321853441               0      2147483648     31374799542         2233221  species/Albula_glossodonta/fAlbGlo1/genomic_data/pacbio_hifi/m84203_250808_201457_s1.hifi_reads.bc1021.bam
 pacbiohifi_fqgz fAlbGlo1             14875627109               0      2147483648     31054428460         2518720  species/Albula_glossodonta/fAlbGlo1/genomic_data/pacbio_hifi/m84203_250808_201457_s1.hifi_reads.bc1021.fastq.gz
 pacbiohifi_bam  fAlbGlo1            137400084516               0      2147483648     38446762238         2509881  species/Albula_glossodonta/fAlbGlo1/genomic_data/pacbio_hifi/m84203_250808_204709_s2.hifi_reads.bc1021.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz fAlbGlo1             18841777826               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           fAlbGlo1          1.6868    109895761793
 pacbiohifi_bam  fAlbGlo1          0.2796     69822253852
 pacbiohifi_fqgz fAlbGlo1          2.0274     68358666765
 --------------- ---------------  ------- ---------------

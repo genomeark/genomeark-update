@@ -2,6 +2,14 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPanOnc1             93392013725               0      2147483648    163160127688      1080530646  species/Panthera_onca/mPanOnc1/genomic_data/arima/mPanOnc1_L1_S2_R1_001.fastq.gz
+arima           mPanOnc1             96939539288               0      2147483648    163943147819      1085716255  species/Panthera_onca/mPanOnc1/genomic_data/arima/mPanOnc1_L1_S2_R2_001.fastq.gz
+pacbiohifi_bam  mPanOnc1            170945081959               0      2147483648     39516942521         2718505  species/Panthera_onca/mPanOnc1/genomic_data/pacbio_hifi/m84091_231213_203043_s2.hifi_reads.bc1011.bam
+pacbiohifi_fqgz mPanOnc1             19994713756               0      2147483648     39416507833         2715502  species/Panthera_onca/mPanOnc1/genomic_data/pacbio_hifi/m84091_231213_203043_s2.hifi_reads.bc1011.fastq.gz
+pacbiohifi_bam  mPanOnc1            241327934568               0      2147483648     55278638228         3955448  species/Panthera_onca/mPanOnc1/genomic_data/pacbio_hifi/m84091_240117_174832_s4.hifi_reads.bc1011.bam
+pacbiohifi_fqgz mPanOnc1             29562711628               0      2147483648     54277056382         3890799  species/Panthera_onca/mPanOnc1/genomic_data/pacbio_hifi/m84091_240117_174832_s4.hifi_reads.bc1011.fastq.gz
+pacbiohifi_bam  mPanOnc1            312331267171               0      2147483648     71786457164         4529310  species/Panthera_onca/mPanOnc1/genomic_data/pacbio_hifi/m84091_240226_215313_s1.hifi_reads.bc1011.bam
+pacbiohifi_fqgz mPanOnc1             37235686539               0      2147483648     70949492848         4476656  species/Panthera_onca/mPanOnc1/genomic_data/pacbio_hifi/m84091_240226_215313_s1.hifi_reads.bc1011.fastq.gz
 arima           mPanOnc2             93392013725               0      2147483648    163160127688      1080530646  species/Panthera_onca/mPanOnc2/genomic_data/arima/mPanOnc1_L1_S2_R1_001.fastq.gz
 arima           mPanOnc2             96939539288               0      2147483648    163943147819      1085716255  species/Panthera_onca/mPanOnc2/genomic_data/arima/mPanOnc1_L1_S2_R2_001.fastq.gz
 pacbiohifi_bam  mPanOnc2            170945081959               0      2147483648     39516942521         2718505  species/Panthera_onca/mPanOnc2/genomic_data/pacbio_hifi/m84091_231213_203043_s2.hifi_reads.bc1011.bam
@@ -16,7 +24,10 @@ pacbiohifi_fqgz mPanOnc2             37235686539               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mPanOnc1          1.7093    325333723565
 arima           mPanOnc2          1.7093    325333723565
+pacbiohifi_bam  mPanOnc1          0.2298    166514064393
 pacbiohifi_bam  mPanOnc2          0.2298    166514064393
+pacbiohifi_fqgz mPanOnc1          1.8969    164637854006
 pacbiohifi_fqgz mPanOnc2          1.8969    164637854006
 --------------- ---------------  ------- ---------------

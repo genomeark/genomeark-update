@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mTamAmo1             52031218844               0      2147483648     90271606137       597825206  species/Tamias_amoenus/mTamAmo1/genomic_data/arima/mTamAmo1_L2_S7_R1_001.fastq.gz
+arima           mTamAmo1             52728075915               0      2147483648     90509514407       599400757  species/Tamias_amoenus/mTamAmo1/genomic_data/arima/mTamAmo1_L2_S7_R2_001.fastq.gz
 pacbiohifi_bam  mTamAmo1            383544734421               0      2147483648    108820330329         6990479  species/Tamias_amoenus/mTamAmo1/genomic_data/pacbio_hifi/m84091_250723_213231_s4.hifi_reads.bc1002.bam
 pacbiohifi_fqgz mTamAmo1             51798125594               0      2147483648    106700748269         7032393  species/Tamias_amoenus/mTamAmo1/genomic_data/pacbio_hifi/m84091_250723_213231_s4.hifi_reads.bc1002.fastq.gz
 pacbiohifi_bam  mTamAmo1            358286094600               0      2147483648    102815749482         6866465  species/Tamias_amoenus/mTamAmo1/genomic_data/pacbio_hifi/m84091_250725_174857_s4.hifi_reads.bc1002.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz mTamAmo1             47767737192               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mTamAmo1          1.7226    180458361151
 pacbiohifi_bam  mTamAmo1          0.2847    211199237022
 pacbiohifi_fqgz mTamAmo1          2.0824    207335952665
 --------------- ---------------  ------- ---------------

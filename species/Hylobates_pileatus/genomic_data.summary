@@ -19,6 +19,8 @@ arima           mHylPil2             47409769574               0      2147483648
 arima           mHylPil2             52011731142               0      2147483648     98452123130       656347511  species/Hylobates_pileatus/mHylPil2/genomic_data/arima/LIB241021LC_I2_S2_R2_001.fastq.gz
 illumina        mHylPil2             27304764034               0      2147483648     61386101295       406530484  species/Hylobates_pileatus/mHylPil2/genomic_data/illumina/Iszie_R1.fastq.gz
 illumina        mHylPil2             27850206934               0      2147483648     61633461771       408168633  species/Hylobates_pileatus/mHylPil2/genomic_data/illumina/Iszie_R2.fastq.gz
+illumina        mHylPil2             29007530155               0      2147483648     58280769404       402769442  species/Hylobates_pileatus/mHylPil2/genomic_data/illumina/LIB250612LC_Gibbon_WGS_Iszie_S4_R1_001.fastq.gz
+illumina        mHylPil2             29902079735               0      2147483648     58426260545       403845108  species/Hylobates_pileatus/mHylPil2/genomic_data/illumina/LIB250612LC_Gibbon_WGS_Iszie_S4_R2_001.fastq.gz
 ont             mHylPil2             42719300507               0      2147483648    123878893575          750293  species/Hylobates_pileatus/mHylPil2/genomic_data/ont/BET0032_HIFIASM-corrected-0.24.0-r703.fastq.gz
 ont             mHylPil2             56952912554               0      2147483648     65587662999         1917822  species/Hylobates_pileatus/mHylPil2/genomic_data/ont/PBA07470_dorado-7.4.13.fq.gz
 ont             mHylPil2             25816101681               0      2147483648     29930929819          641698  species/Hylobates_pileatus/mHylPil2/genomic_data/ont/PBC05731_dorado-7.4.14.fq.gz
@@ -35,7 +37,7 @@ pacbiohifi_fqgz mHylPil2             29281941748               0      2147483648
 arima           mHylPil2          1.9329    317891650380
 dovetail        mHylPil1          1.8487     79107143003
 illumina        mHylPil1          1.9065    191710574371
-illumina        mHylPil2          2.2245    122692232918
+illumina        mHylPil2          2.0555    234459745953
 ont             mHylPil1          1.6712    336652473434
 ont             mHylPil2          1.7483    516409247381
 pacbiohifi_bam  mHylPil1          0.2774    101737170787

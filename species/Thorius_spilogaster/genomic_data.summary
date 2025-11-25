@@ -2,6 +2,9 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aThoSpi2            201855309764               0      2147483648    349289330845      2313174376  species/Thorius_spilogaster/aThoSpi2/genomic_data/arima/aThoSpi2_L1_S1_R2_001.fastq.gz
+arima           aThoSpi2            203620018515               0      2147483648    366100326889      2424505570  species/Thorius_spilogaster/aThoSpi2/genomic_data/arima/aThoSpi2_L2_S2_R1_001.fastq.gz
+arima           aThoSpi2            212905741570               0      2147483648    368398856836      2439727627  species/Thorius_spilogaster/aThoSpi2/genomic_data/arima/aThoSpi2_L2_S2_R2_001.fastq.gz
 pacbiohifi_bam  aThoSpi2            319708857669               0      2147483648     95038981337         5171804  species/Thorius_spilogaster/aThoSpi2/genomic_data/pacbio_hifi/m84091_250520_181712_s3.hifi_reads.bc1022.bam
 pacbiohifi_fqgz aThoSpi2             47565343059               0      2147483648     90884059667         5340449  species/Thorius_spilogaster/aThoSpi2/genomic_data/pacbio_hifi/m84091_250520_181712_s3.hifi_reads.bc1022.fastq.gz
 pacbiohifi_bam  aThoSpi2            358712346514               0      2147483648    101631273139         4269168  species/Thorius_spilogaster/aThoSpi2/genomic_data/pacbio_hifi/m84203_250512_174502_s4.hifi_reads.bc1022.bam
@@ -16,6 +19,7 @@ pacbiohifi_fqgz aThoSpi2             52555101509               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           aThoSpi2          1.7526   1426890722812
 pacbiohifi_bam  aThoSpi2          0.2873    988393088377
 pacbiohifi_fqgz aThoSpi2          1.8956    949541615000
 --------------- ---------------  ------- ---------------

@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bCarCad1             17871885785               0      2147483648     32355410333       214274248  species/Cardinalis_cardinalis/bCarCad1/genomic_data/arima/bCarCad1_S5_R1_001.fastq.gz
+arima           bCarCad1             18821373886               0      2147483648     32484322089       215127969  species/Cardinalis_cardinalis/bCarCad1/genomic_data/arima/bCarCad1_S5_R2_001.fastq.gz
 arima           bCarCad1             16874055527               0      2147483648     30646506460       202957004  species/Cardinalis_cardinalis/bCarCad1/genomic_data/arima/bCarCad1_S8_R1_001.fastq.gz
 arima           bCarCad1             17790049121               0      2147483648     30727529852       203493583  species/Cardinalis_cardinalis/bCarCad1/genomic_data/arima/bCarCad1_S8_R2_001.fastq.gz
 pacbiohifi_bam  bCarCad1            174033787772               0      2147483648     50504086983         2927517  species/Cardinalis_cardinalis/bCarCad1/genomic_data/pacbio_hifi/m84203_250620_160942_s2.hifi_reads.bc1011.bam
@@ -12,7 +14,7 @@ pacbiohifi_fqgz bCarCad1             24309462954               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           bCarCad1          1.7558     60863234940
+arima           bCarCad1          1.7540    125160817015
 pacbiohifi_bam  bCarCad1          0.2901     50487201832
 pacbiohifi_fqgz bCarCad1          2.0336     49435723863
 --------------- ---------------  ------- ---------------

@@ -2,6 +2,9 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bButLin1             22140457519               0      2147483648     38304099013       253669540  species/Buteo_lineatus/bButLin1/genomic_data/arima/bButLin1_L2_S2_R1_001.fastq.gz
+arima           bButLin1              5216953567               0      2147483648     10640416997        70466337  species/Buteo_lineatus/bButLin1/genomic_data/arima/bButLin1_S10_R2_001.fastq.gz
+arima           bButLin1              2579213979               0      2579213979      4651930084        30807484  species/Buteo_lineatus/bButLin1/genomic_data/arima/bButLin1_S11_R2_001.fastq.gz
 pacbiohifi_bam  bButLin1            309327903142               0      2147483648     87458525860         5207407  species/Buteo_lineatus/bButLin1/genomic_data/pacbio_hifi/m84203_250723_203305_s1.hifi_reads.bc1019.bam
 pacbiohifi_fqgz bButLin1             42261730349               0      2147483648     86429238607         5478145  species/Buteo_lineatus/bButLin1/genomic_data/pacbio_hifi/m84203_250723_203305_s1.hifi_reads.bc1019.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +13,7 @@ pacbiohifi_fqgz bButLin1             42261730349               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bButLin1          1.7903    108522016629
 pacbiohifi_bam  bButLin1          0.2827     87446998218
 pacbiohifi_fqgz bButLin1          2.0450     86425238563
 --------------- ---------------  ------- ---------------

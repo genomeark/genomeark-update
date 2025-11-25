@@ -2,6 +2,9 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPerPol1             42739052541               0      2147483648     74012156193       490146749  species/Peromyscus_polionotus/mPerPol1/genomic_data/arima/mPerPol1_L2_S3_R1_001.fastq.gz
+arima           mPerPol1              2859373068               0      2859373068      5041771012        33389212  species/Peromyscus_polionotus/mPerPol1/genomic_data/arima/mPerPol1_S13_R2_001.fastq.gz
+arima           mPerPol1              2242773331               0      2242773331      3971031069        26298219  species/Peromyscus_polionotus/mPerPol1/genomic_data/arima/mPerPol1_S7_R2_001.fastq.gz
 pacbiohifi_bam  mPerPol1            351992134837               0      2147483648    101156967882         6725682  species/Peromyscus_polionotus/mPerPol1/genomic_data/pacbio_hifi/m84091_250723_210014_s3.hifi_reads.bc1002.bam
 pacbiohifi_fqgz mPerPol1             46442609097               0      2147483648     99574078108         6737138  species/Peromyscus_polionotus/mPerPol1/genomic_data/pacbio_hifi/m84091_250723_210014_s3.hifi_reads.bc1002.fastq.gz
 pacbiohifi_bam  mPerPol1            367034996083               0      2147483648    105453883894         7079428  species/Peromyscus_polionotus/mPerPol1/genomic_data/pacbio_hifi/m84091_250725_171640_s3.hifi_reads.bc1002.bam
@@ -12,6 +15,7 @@ pacbiohifi_fqgz mPerPol1             48602122505               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mPerPol1          1.7354    168799232338
 pacbiohifi_bam  mPerPol1          0.2873    206576494713
 pacbiohifi_fqgz mPerPol1          2.1369    203101086960
 --------------- ---------------  ------- ---------------

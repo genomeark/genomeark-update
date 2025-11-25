@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fHioAlo1            185649498900               0      2147483648     52250506595         3895427  species/Hiodon_alosoides/fHioAlo1/genomic_data/pacbio_hifi/m84203_250925_183507_s1.hifi_reads.bc1015.bam
+pacbiohifi_fqgz fHioAlo1             24504443959               0      2147483648     52078208154         4463551  species/Hiodon_alosoides/fHioAlo1/genomic_data/pacbio_hifi/m84203_250925_183507_s1.hifi_reads.bc1015.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fHioAlo1          0.2814     52241768990
+pacbiohifi_fqgz fHioAlo1          2.1252     52076844301
+--------------- ---------------  ------- ---------------

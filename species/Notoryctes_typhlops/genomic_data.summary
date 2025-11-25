@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mNotTyp1             46139959760               0      2147483648    101150545134       669871181  species/Notoryctes_typhlops/mNotTyp1/genomic_data/arima/mNotTyp1_SRR17617112_R1.fastq.gz
+arima           mNotTyp1             47797081811               0      2147483648    101853905103       674529195  species/Notoryctes_typhlops/mNotTyp1/genomic_data/arima/mNotTyp1_SRR17617112_R2.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mNotTyp1          2.1509    202049182715
+--------------- ---------------  ------- ---------------
