@@ -10,7 +10,7 @@ my %found;
 while (<STDIN>) {
     chomp;
 
-    if ($_ =~ m/^(GCA_\d+.\d+)\s+(\S+)\s+(.*)$/) {
+    if ($_ =~ m/^(GC[AF]_\d+.\d+)\s+(\S+)\s+(.*)$/) {
         my $acc = $1;  #  Correct as is.
         my $lab = $2;  #  Minor mods needed.
         my $dsc = $3;  #  A mess.

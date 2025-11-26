@@ -5,21 +5,5 @@
 [+] Loading edirect  23.5.20250228 
 Fetching list of files in s3://genomeark/species/.
 Filtering AWS filenames.
- Create genomeark-metadata/species/Alepocephalus_tenebrosus.yaml.template (fAleTen)
- Create genomeark-metadata/species/Bothrops_pictus.yaml.template (rBotPic)
- Create genomeark-metadata/species/Datnioides_polota.yaml.template (fDatPol)
- Create genomeark-metadata/species/Hiodon_alosoides.yaml.template (fHioAlo)
- Create genomeark-metadata/species/Hylocichla_mustelina.yaml.template (bHylMus)
- Create genomeark-metadata/species/Lycocorax_pyrrhopterus.yaml.template (lycPyr)
- Create genomeark-metadata/species/Notoryctes_typhlops.yaml.template (mNotTyp)
- Create genomeark-metadata/species/Peromyscus_truei.yaml.template (mPerTru)
- Create genomeark-metadata/species/Phascolarctos_cinereus.yaml.template (mPhaCin)
- Create genomeark-metadata/species/Platysternon_megacephalum.yaml.template (rPlaMeg)
- Create genomeark-metadata/species/Poecile_gambeli.yaml.template (bPoeGam)
- Create genomeark-metadata/species/Setophaga_citrina.yaml.template (bSetCit)
- Create genomeark-metadata/species/Setophaga_coronata.yaml.template (bSetCor)
- Create genomeark-metadata/species/Tadarida_teniotis.yaml.template (mTadTen)
- Create genomeark-metadata/species/Tamias_minimus.yaml.template (mTamMin)
- Create genomeark-metadata/species/Tamiasciurus_hudsonicus.yaml.template (mTamHud)
 Scanning bucket.
 Updating pages.
