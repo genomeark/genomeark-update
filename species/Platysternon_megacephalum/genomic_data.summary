@@ -4,6 +4,8 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           rPlaMeg1              5283672517               0      2147483648      8893737686        58898925  species/Platysternon_megacephalum/rPlaMeg1/genomic_data/arima/rPlaMeg1_L1_S6_R1_001.fastq.gz
 arima           rPlaMeg1              5527454710               0      2147483648      8869170514        58736228  species/Platysternon_megacephalum/rPlaMeg1/genomic_data/arima/rPlaMeg1_L1_S6_R2_001.fastq.gz
+arima           rPlaMeg1             31290992354               0      2147483648     53961076490       357358137  species/Platysternon_megacephalum/rPlaMeg1/genomic_data/arima/rPlaMeg1_L1_S7_R1_001.fastq.gz
+arima           rPlaMeg1             32557852018               0      2147483648     53870645576       356759257  species/Platysternon_megacephalum/rPlaMeg1/genomic_data/arima/rPlaMeg1_L1_S7_R2_001.fastq.gz
 pacbiohifi_bam  rPlaMeg1            387769226035               0      2147483648    109981958307         5610463  species/Platysternon_megacephalum/rPlaMeg1/genomic_data/pacbio_hifi/m84203_250904_181027_s2.hifi_reads.bc1008.bam
 pacbiohifi_fqgz rPlaMeg1             56500699755               0      2147483648    107000110875         5643561  species/Platysternon_megacephalum/rPlaMeg1/genomic_data/pacbio_hifi/m84203_250904_181027_s2.hifi_reads.bc1008.fastq.gz
 pacbiohifi_bam  rPlaMeg1            199560114024               0      2147483648     56527546755         2824343  species/Platysternon_megacephalum/rPlaMeg1/genomic_data/pacbio_hifi/m84203_250925_201152_s4.hifi_reads.bc1008.bam
@@ -14,7 +16,7 @@ pacbiohifi_fqgz rPlaMeg1             29471543277               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           rPlaMeg1          1.6300     17622137380
+arima           rPlaMeg1          1.6821    125585538226
 pacbiohifi_bam  rPlaMeg1          0.2835    166507867906
 pacbiohifi_fqgz rPlaMeg1          1.8939    162822831078
 --------------- ---------------  ------- ---------------

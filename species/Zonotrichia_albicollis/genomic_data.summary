@@ -11,6 +11,8 @@ pacbiohifi_fqgz bZonAlb1             27123437503               0      2147483648
 pacbiohifi_bam  bZonAlb1            115717383327               0      2147483648     30298160720         1431727  species/Zonotrichia_albicollis/bZonAlb1/genomic_data/pacbio_hifi/m64330e_230530_170806.demultiplex.bc1011--bc1011.bam
 pacbiohifi_bam  bZonAlb1            116018206828               0      2147483648     30720146334         1450738  species/Zonotrichia_albicollis/bZonAlb1/genomic_data/pacbio_hifi/m64330e_230530_170806.hifi_reads.bam
 pacbiohifi_clr  bZonAlb1           1120079500627               0      2147483648    598766325294        28846374  species/Zonotrichia_albicollis/bZonAlb1/genomic_data/pacbio_hifi/m64330e_230530_170806.subreads.bam
+pacbiohifi_bam  bZonAlb3            285945457521               0      2147483648     81546952093         3974239  species/Zonotrichia_albicollis/bZonAlb3/genomic_data/pacbio_hifi/m84203_251125_204939_s3.hifi_reads.bc1010.bam
+pacbiohifi_fqgz bZonAlb3             41838573535               0      2147483648     79973781927         4226867  species/Zonotrichia_albicollis/bZonAlb3/genomic_data/pacbio_hifi/m84203_251125_204939_s3.hifi_reads.bc1010.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -19,6 +21,8 @@ pacbiohifi_clr  bZonAlb1           1120079500627               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           bZonAlb1          1.9032    134394671844
 pacbiohifi_bam  bZonAlb1          0.2621    178890097809
+pacbiohifi_bam  bZonAlb3          0.2851     81523049939
 pacbiohifi_clr  bZonAlb1          0.5346   1185509449589
 pacbiohifi_fqgz bZonAlb1          1.0897     58386160973
+pacbiohifi_fqgz bZonAlb3          1.9114     79970249454
 --------------- ---------------  ------- ---------------
