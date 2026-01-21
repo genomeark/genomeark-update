@@ -1,7 +1,7 @@
 #!/bin/sh
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=32g
-#SBATCH --time=2-0
+#SBATCH --time=1-0
 #SBATCH --output=update.out
 
 set -e

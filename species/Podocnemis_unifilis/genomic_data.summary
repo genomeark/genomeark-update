@@ -8,6 +8,8 @@
 10x             rPodUni1             24113148227               0      2147483648     44990810931       297952401  species/Podocnemis_unifilis/rPodUni1/genomic_data/10x/L56636_Track-98593_R2.fastq.gz
 arima           rPodUni1             93754766581               0      2147483648    192085317999      1272088242  species/Podocnemis_unifilis/rPodUni1/genomic_data/arima/L63857_Track-105192_R1.fastq.gz
 arima           rPodUni1             99928429540               0      2147483648    194634068294      1288967386  species/Podocnemis_unifilis/rPodUni1/genomic_data/arima/L63857_Track-105192_R2.fastq.gz
+bionano         rPodUni1               697571925               0       697571925    787505493305         7113773  species/Podocnemis_unifilis/rPodUni1/genomic_data/bionano/LAB2498-L47917-PodUni-20200122_Podocnemis_unifilis_MTNDVTOLPRRGNNWU_F2P1_2020-1-23_00_10_09_RawMolecules
+bionano         rPodUni1              1477091144               0      1477091144   1176555880976        12638444  species/Podocnemis_unifilis/rPodUni1/genomic_data/bionano/LAB2498-L47982-PodUni-20200210_Podocnemis_unifilis_NDCXLO6LPSSWNNWU_F2P1_2020-2-11_01_25_33_RawMolecules
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -16,4 +18,5 @@ arima           rPodUni1             99928429540               0      2147483648
 --------------- ---------------  ------- ---------------
 10x             rPodUni1          1.5394    278032302961
 arima           rPodUni1          1.9800    383492728319
+bionano         rPodUni1         903.1566   1964061374281
 --------------- ---------------  ------- ---------------

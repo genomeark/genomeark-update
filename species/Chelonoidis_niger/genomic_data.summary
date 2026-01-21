@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rCheNig1             63553672490               0      2147483648    114279994319       756821154  species/Chelonoidis_niger/rCheNig1/genomic_data/arima/rCheNig1_L1_S4_R1_001.fastq.gz
+arima           rCheNig1             66525258051               0      2147483648    114553609922       758633209  species/Chelonoidis_niger/rCheNig1/genomic_data/arima/rCheNig1_L1_S4_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rCheNig1          1.7465    227182852189
+--------------- ---------------  ------- ---------------

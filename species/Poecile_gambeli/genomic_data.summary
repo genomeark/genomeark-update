@@ -2,13 +2,14 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPoeGam1             11410014907               0      2147483648     20594666490       136388525  species/Poecile_gambeli/bPoeGam1/genomic_data/arima/bPoeGam1_L1_S1_R2_001.fastq.gz
 arima           bPoeGam1             13602152353               0      2147483648     23391027820       154907475  species/Poecile_gambeli/bPoeGam1/genomic_data/arima/bPoeGam1_L1_S7_R1_001.fastq.gz
 arima           bPoeGam1             13990958540               0      2147483648     23293879449       154264108  species/Poecile_gambeli/bPoeGam1/genomic_data/arima/bPoeGam1_L1_S7_R2_001.fastq.gz
 pacbiohifi_bam  bPoeGam1            139279672463               0      2147483648     39825494232         2478126  species/Poecile_gambeli/bPoeGam1/genomic_data/pacbio_hifi/m84091_251110_194512_s3.hifi_reads.bc1001.bam
 pacbiohifi_fqgz bPoeGam1             18831370873               0      2147483648     39000227137         2647601  species/Poecile_gambeli/bPoeGam1/genomic_data/pacbio_hifi/m84091_251110_194512_s3.hifi_reads.bc1001.fastq.gz
 pacbiohifi_bam  bPoeGam1             79996555824               0      2147483648     22896920498         1417374  species/Poecile_gambeli/bPoeGam1/genomic_data/pacbio_hifi/m84203_251118_173451_s2.hifi_reads.bc1001.bam
 pacbiohifi_fqgz bPoeGam1             11009782314               0      2147483648     22641423534         1536556  species/Poecile_gambeli/bPoeGam1/genomic_data/pacbio_hifi/m84203_251118_173451_s2.hifi_reads.bc1001.fastq.gz
-pacbiohifi_bam  bPoeGam1             29945464152               0      2147483648      8603110440          585903  species/Poecile_gambeli/bPoeGam1/genomic_data/pacbio_hifi/m84203_251125_204939_s3.hifi_reads.bc1001.bam
+pacbiohifi_bam  bPoeGam1             29945464152               0     29945464152      8599070359          629353  species/Poecile_gambeli/bPoeGam1/genomic_data/pacbio_hifi/m84203_251125_204939_s3.hifi_reads.bc1001.bam
 pacbiohifi_fqgz bPoeGam1              4119809086               0      4119809086      8599070359          629353  species/Poecile_gambeli/bPoeGam1/genomic_data/pacbio_hifi/m84203_251125_204939_s3.hifi_reads.bc1001.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -16,7 +17,7 @@ pacbiohifi_fqgz bPoeGam1              4119809086               0      4119809086
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           bPoeGam1          1.6828     46433687010
+arima           bPoeGam1          1.7249     86773460390
 pacbiohifi_bam  bPoeGam1          0.2861     71302326206
 pacbiohifi_fqgz bPoeGam1          2.0682     70238062173
 --------------- ---------------  ------- ---------------

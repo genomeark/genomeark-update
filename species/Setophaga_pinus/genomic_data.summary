@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bSetPin1             17881661141               0      2147483648     31986671104       211832258  species/Setophaga_pinus/bSetPin1/genomic_data/arima/bSetPin1_L1_S2_R1_001.fastq.gz
+arima           bSetPin1             18868349218               0      2147483648     31918817228       211382904  species/Setophaga_pinus/bSetPin1/genomic_data/arima/bSetPin1_L1_S2_R2_001.fastq.gz
 pacbiohifi_bam  bSetPin1            227847553934               0      2147483648     64950356062         4472212  species/Setophaga_pinus/bSetPin1/genomic_data/pacbio_hifi/m84203_250818_194859_s2.hifi_reads.bc1017.bam
 pacbiohifi_fqgz bSetPin1             29479231309               0      2147483648     63199211245         5068215  species/Setophaga_pinus/bSetPin1/genomic_data/pacbio_hifi/m84203_250818_194859_s2.hifi_reads.bc1017.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz bSetPin1             29479231309               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bSetPin1          1.7228     63312917846
 pacbiohifi_bam  bSetPin1          0.2850     64936552871
 pacbiohifi_fqgz bSetPin1          2.1438     63197576080
 --------------- ---------------  ------- ---------------

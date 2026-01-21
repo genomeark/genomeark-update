@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bDreCoc1             14673625983               0      2147483648     26173912734       173337177  species/Drepanis_coccinea/bDreCoc1/genomic_data/arima/bDreCoc1_L1_S1_R1_001.fastq.gz
+arima           bDreCoc1             15580516685               0      2147483648     26207074563       173556785  species/Drepanis_coccinea/bDreCoc1/genomic_data/arima/bDreCoc1_L1_S1_R2_001.fastq.gz
 pacbiohifi_bam  bDreCoc1            209419741678               0      2147483648     59525409730         3311636  species/Drepanis_coccinea/bDreCoc1/genomic_data/pacbio_hifi/m84091_250718_023338_s4.hifi_reads.bc1016.bam
 pacbiohifi_fqgz bDreCoc1             29057568342               0      2147483648     58272989611         3434380  species/Drepanis_coccinea/bDreCoc1/genomic_data/pacbio_hifi/m84091_250718_023338_s4.hifi_reads.bc1016.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +12,7 @@ pacbiohifi_fqgz bDreCoc1             29057568342               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bDreCoc1          1.7145     51870727604
 pacbiohifi_bam  bDreCoc1          0.2842     59517090584
 pacbiohifi_fqgz bDreCoc1          2.0054     58272047553
 --------------- ---------------  ------- ---------------

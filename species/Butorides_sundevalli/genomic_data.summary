@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bButSun1              4701177611               0      2147483648      8221071512        54444184  species/Butorides_sundevalli/bButSun1/genomic_data/arima/bButSun1_L1_S9_R1_001.fastq.gz
+arima           bButSun1              4868690636               0      2147483648      8190447175        54241372  species/Butorides_sundevalli/bButSun1/genomic_data/arima/bButSun1_L1_S9_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bButSun1          1.7039     16306098506
+--------------- ---------------  ------- ---------------

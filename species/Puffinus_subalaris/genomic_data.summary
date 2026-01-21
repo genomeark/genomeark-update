@@ -1,0 +1,14 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bPufSub1             30941014108               0      2147483648     54866490230       363354254  species/Puffinus_subalaris/bPufSub1/genomic_data/arima/bPufSub1_L1_S7_R1_001.fastq.gz
+arima           bPufSub1             32320915755               0      2147483648     54785521480       362818038  species/Puffinus_subalaris/bPufSub1/genomic_data/arima/bPufSub1_L1_S7_R2_001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           bPufSub1          1.7203    108829497943
+--------------- ---------------  ------- ---------------

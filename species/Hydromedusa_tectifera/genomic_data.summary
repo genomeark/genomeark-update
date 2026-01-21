@@ -7,6 +7,7 @@
 10x             rHydTec1              8423794336               0      2147483648     16969709793       112382187  species/Hydromedusa_tectifera/rHydTec1/genomic_data/10x/L56630_Track-100259_R1.fastq.gz
 arima           rHydTec1             10359301779               0      2147483648     21259920594       140794180  species/Hydromedusa_tectifera/rHydTec1/genomic_data/arima/L67081_Track-111868_R1.fastq.gz
 arima           rHydTec1             12536910051               0      2147483648     24570914574       162721288  species/Hydromedusa_tectifera/rHydTec1/genomic_data/arima/L67081_Track-111868_R2.fastq.gz
+bionano         rHydTec1              1073272001               0      1073272001    720379484161         5198340  species/Hydromedusa_tectifera/rHydTec1/genomic_data/bionano/LAB2497-L47916-HydTec-20200122_Hydromedusa_tectifera_MTNDVTOLPRRGNNWU_F1P1_2020-1-23_00_11_43_RawMolecules
 pacbio_fqgz     rHydTec1             13212370209               0      2147483648     21655595752         1786190  species/Hydromedusa_tectifera/rHydTec1/genomic_data/pacbio/deepconsensus/m64046_250414_072057.txt_dcc.fastq.gz
 pacbio          rHydTec1            330078779825               0      2147483648    172730212878         7679250  species/Hydromedusa_tectifera/rHydTec1/genomic_data/pacbio/m64046_200228_125743.subreads.bam
 pacbiohifi_clr  rHydTec1            330078779825               0      2147483648    172730212878         7679250  species/Hydromedusa_tectifera/rHydTec1/genomic_data/pacbio_hifi/m64046_200228_125743.subreads.bam
@@ -18,6 +19,7 @@ pacbiohifi_clr  rHydTec1            330078779825               0      2147483648
 --------------- ---------------  ------- ---------------
 10x             rHydTec1          1.4476    153823245957
 arima           rHydTec1          0.5043     46500976518
+bionano         rHydTec1         671.1993    720379484161
 pacbio          rHydTec1          0.5232    172697217604
 pacbio_fqgz     rHydTec1          1.6390     21655074772
 pacbiohifi_clr  rHydTec1          0.5232    172697217604

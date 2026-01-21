@@ -2,6 +2,9 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           sEchCoo1             66208220671               0      2147483648    114400672697       757620379  species/Echinorhinus_cookei/sEchCoo1/genomic_data/arima/sEchCoo1_L2_S10_R2_001.fastq.gz
+arima           sEchCoo1             71093415052               0      2147483648    128587974450       851576022  species/Echinorhinus_cookei/sEchCoo1/genomic_data/arima/sEchCoo1_L2_S8_R1_001.fastq.gz
+arima           sEchCoo1              1016514986               0      1016514986      1916158441        12689791  species/Echinorhinus_cookei/sEchCoo1/genomic_data/arima/sEchCoo1_L3_S4_R1_001.fastq.gz
 pacbiohifi_bam  sEchCoo1            367348880001               0      2147483648    103896392479         7106865  species/Echinorhinus_cookei/sEchCoo1/genomic_data/pacbio_hifi/m84203_250725_162050_s3.hifi_reads.bc1021.bam
 pacbiohifi_fqgz sEchCoo1             46397439895               0      2147483648     95123332440         6139848  species/Echinorhinus_cookei/sEchCoo1/genomic_data/pacbio_hifi/m84203_250725_162050_s3.hifi_reads.bc1021.fastq.gz
 pacbiohifi_bam  sEchCoo1             48545412644               0      2147483648     13654119491          853207  species/Echinorhinus_cookei/sEchCoo1/genomic_data/pacbio_hifi/m84203_250818_194859_s2.hifi_reads.bc1022.bam
@@ -16,6 +19,7 @@ pacbiohifi_fqgz sEchCoo1             41966950485               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           sEchCoo1          1.7705    489433641719
 pacbiohifi_bam  sEchCoo1          0.2813    408284794059
 pacbiohifi_fqgz sEchCoo1          2.0652    378223340612
 --------------- ---------------  ------- ---------------

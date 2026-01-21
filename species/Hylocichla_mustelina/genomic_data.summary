@@ -4,6 +4,7 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bHylMus1             16602746178               0      2147483648     29005314778       192088177  species/Hylocichla_mustelina/bHylMus1/genomic_data/arima/bHylMus1_L1_S4_R1_001.fastq.gz
 arima           bHylMus1             17294161630               0      2147483648     29151058202       193053373  species/Hylocichla_mustelina/bHylMus1/genomic_data/arima/bHylMus1_L1_S4_R2_001.fastq.gz
+arima           bHylMus1              3002916686               0      3002916686      5179796186        34303286  species/Hylocichla_mustelina/bHylMus1/genomic_data/arima/bHylMus1_L1_S5_R2_001.fastq.gz
 pacbiohifi_bam  bHylMus1            138708633348               0      2147483648     39822039528         2780588  species/Hylocichla_mustelina/bHylMus1/genomic_data/pacbio_hifi/m84091_251110_194512_s3.hifi_reads.bc1003.bam
 pacbiohifi_fqgz bHylMus1             18481822257               0      2147483648     39028115512         3063694  species/Hylocichla_mustelina/bHylMus1/genomic_data/pacbio_hifi/m84091_251110_194512_s3.hifi_reads.bc1003.fastq.gz
 pacbiohifi_bam  bHylMus1             84901351716               0      2147483648     24512838974         1749910  species/Hylocichla_mustelina/bHylMus1/genomic_data/pacbio_hifi/m84091_251110_201729_s4.hifi_reads.bc1003.bam
@@ -16,7 +17,7 @@ pacbiohifi_fqgz bHylMus1             12452074615               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           bHylMus1          1.7055     57811176266
+arima           bHylMus1          1.7164     68392842415
 pacbiohifi_bam  bHylMus1          0.2888     91358011434
 pacbiohifi_fqgz bHylMus1          2.1235     89862058887
 --------------- ---------------  ------- ---------------

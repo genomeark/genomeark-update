@@ -5,9 +5,13 @@
 arima           bAraAra1             17609351508               0      2147483648     32652074972       216238907  species/Ara_ararauna/bAraAra1/genomic_data/arima/bAraAra1_S8_L002_R1_001.fastq.gz
 arima           bAraAra1             18454123374               0      2147483648     32800991641       217225110  species/Ara_ararauna/bAraAra1/genomic_data/arima/bAraAra1_S8_L002_R2_001.fastq.gz
 bionano         bAraAra1               639982209               0       639982209    345162072718         2993713  species/Ara_ararauna/bAraAra1/genomic_data/bionano/bAraAra1_Saphyr_DLE1_3690213
+pacbiohifi_bam  bAraAra1             72555787373               0      2147483648     19845958514         1470689  species/Ara_ararauna/bAraAra1/genomic_data/pacbio_hifi/m64055e_220415_223213.demultiplex.bc1002--bc1002.bam
 pacbiohifi_fqgz bAraAra1             15202294120               0      2147483648     19836003573         1465130  species/Ara_ararauna/bAraAra1/genomic_data/pacbio_hifi/m64055e_220415_223213.demultiplex.bc1002--bc1002.hifi_reads.fastq.gz
+pacbiohifi_clr  bAraAra1            159656746398               0      2147483648     20643454291         1368857  species/Ara_ararauna/bAraAra1/genomic_data/pacbio_hifi/m64055e_220415_223213.reads.bam
 pacbiohifi_fqgz bAraAra1             21126023196               0      2147483648     25073052629         1456757  species/Ara_ararauna/bAraAra1/genomic_data/pacbio_hifi/m64330e_220311_073436.hifi_reads.fastq.gz
+pacbiohifi_clr  bAraAra1            230303501795               0      2147483648     91935200372         5173637  species/Ara_ararauna/bAraAra1/genomic_data/pacbio_hifi/m64330e_220311_073436.reads.bam
 pacbiohifi_fqgz bAraAra1              7877369869               0      2147483648     10084310440          579929  species/Ara_ararauna/bAraAra1/genomic_data/pacbio_hifi/m64330e_220323_185457.hifi_reads.fastq.gz
+pacbiohifi_clr  bAraAra1             75577680823               0      2147483648     29502210821         1850620  species/Ara_ararauna/bAraAra1/genomic_data/pacbio_hifi/m64330e_220323_185457.reads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -16,5 +20,7 @@ pacbiohifi_fqgz bAraAra1              7877369869               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           bAraAra1          1.8022     64993594432
 bionano         bAraAra1         539.3307    345162072718
+pacbiohifi_bam  bAraAra1          0.2735     19844007846
+pacbiohifi_clr  bAraAra1          0.3051    142035622142
 pacbiohifi_fqgz bAraAra1          1.2440     54991874858
 --------------- ---------------  ------- ---------------

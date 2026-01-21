@@ -5,5 +5,9 @@
 [+] Loading edirect  23.5.20250228 
 Fetching list of files in s3://genomeark/species/.
 Filtering AWS filenames.
+ Create genomeark-metadata/species/Butorides_sundevalli.yaml.template (bButSun)
+ Create genomeark-metadata/species/Chelonoidis_niger.yaml.template (rCheNig)
+ Create genomeark-metadata/species/Myiarchus_magnirostris.yaml.template (bMyiMag)
+ Create genomeark-metadata/species/Puffinus_subalaris.yaml.template (bPufSub)
 Scanning bucket.
 Updating pages.

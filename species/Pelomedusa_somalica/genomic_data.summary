@@ -7,6 +7,7 @@
 10x             rPelSom1             25406695090               0      2147483648     50537455848       334685138  species/Pelomedusa_somalica/rPelSom1/genomic_data/10x/L54580_Track-97641_R1.fastq.gz
 arima           rPelSom1             66741948029               0      2147483648    133334871295       883012423  species/Pelomedusa_somalica/rPelSom1/genomic_data/arima/L73756_Track-116951_R1.fastq.gz
 arima           rPelSom1             70569860837               0      2147483648    134365921069       889840569  species/Pelomedusa_somalica/rPelSom1/genomic_data/arima/L73756_Track-116951_R2.fastq.gz
+bionano         rPelSom1               854479550               0       854479550    464209374578         3273873  species/Pelomedusa_somalica/rPelSom1/genomic_data/bionano/LAB2453-L47524-turtle-PelSom-20191216_Pelomedusa_somalica_ZPCPKLWLPRVGNNWU_F1P1_12_17_2019_11_04_52_AM_RawMolecules
 arima           rPelSom1             66741948029               0      2147483648    133334871295       883012423  species/Pelomedusa_somalica/rPelSom1/genomic_data/hic/L73756_Track-116951_R1.fastq.gz
 arima           rPelSom1             70569860837               0      2147483648    134365921069       889840569  species/Pelomedusa_somalica/rPelSom1/genomic_data/hic/L73756_Track-116951_R2.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -17,4 +18,5 @@ arima           rPelSom1             70569860837               0      2147483648
 --------------- ---------------  ------- ---------------
 10x             rPelSom1          1.9965    456477755234
 arima           rPelSom1          1.9341    265574769527
+bionano         rPelSom1         543.2656    464209374578
 --------------- ---------------  ------- ---------------

@@ -5,9 +5,15 @@
 arima           bCopSec1             20513094577               0      2147483648     38146814332       252627919  species/Copsychus_sechellarum/bCopSec1/genomic_data/arima/bCopSec1_S9_L002_R1_001.fastq.gz
 arima           bCopSec1             21377590343               0      2147483648     38308149074       253696351  species/Copsychus_sechellarum/bCopSec1/genomic_data/arima/bCopSec1_S9_L002_R2_001.fastq.gz
 pacbiohifi_fqgz bCopSec1             11060907888               0      2147483648     13230347914          814768  species/Copsychus_sechellarum/bCopSec1/genomic_data/pacbio_hifi/m64055e_220606_144537.bc1001--bc1001.hifi_reads.fastq.gz
+pacbiohifi_clr  bCopSec1            142634503529               0      2147483648     61371985377         4241872  species/Copsychus_sechellarum/bCopSec1/genomic_data/pacbio_hifi/m64055e_220606_144537.reads.bam
 pacbiohifi_fqgz bCopSec1              5966568741               0      2147483648      7642275727          484791  species/Copsychus_sechellarum/bCopSec1/genomic_data/pacbio_hifi/m64330e_220318_181942.hifi_reads.fastq.gz
+pacbiohifi_clr  bCopSec1            100646854749               0      2147483648     44800387689         3120287  species/Copsychus_sechellarum/bCopSec1/genomic_data/pacbio_hifi/m64330e_220318_181942.reads.bam
 pacbiohifi_fqgz bCopSec1              6409184929               0      2147483648      8053492797          500824  species/Copsychus_sechellarum/bCopSec1/genomic_data/pacbio_hifi/m64330e_220623_144955.bc1001--bc1001.hifi_reads.fastq.gz
+pacbiohifi_bam  bCopSec1             29836788007               0      2147483648      8085781990          504110  species/Copsychus_sechellarum/bCopSec1/genomic_data/pacbio_hifi/m64330e_220623_144955.hifi_reads.bc1001--bc1001.bam
+pacbiohifi_bam  bCopSec1             59682454270               0      2147483648     15757273261         1001922  species/Copsychus_sechellarum/bCopSec1/genomic_data/pacbio_hifi/m64330e_220825_033207.demultiplex.bc1001--bc1001.bam
+pacbiohifi_bam  bCopSec1             61663740465               0      2147483648     16486130588         1047588  species/Copsychus_sechellarum/bCopSec1/genomic_data/pacbio_hifi/m64330e_220825_033207.hifi_reads.bam
 pacbiohifi_fqgz bCopSec1              2659897728               0      2659897728      3364138216          203316  species/Copsychus_sechellarum/bCopSec1/genomic_data/pacbio_hifi/m64334e_220407_050031.bc1001--bc1001.hifi_reads.fastq.gz
+pacbiohifi_clr  bCopSec1             41713821769               0      2147483648     18399865131         1535235  species/Copsychus_sechellarum/bCopSec1/genomic_data/pacbio_hifi/m64334e_220407_050031.reads.bam
 illumina        bCopSec2             14494558914               0      2147483648     29792894277       197303942  species/Copsychus_sechellarum/bCopSec2/genomic_data/illumina/bCopSec2_1.fastq.gz
 illumina        bCopSec2             14841993007               0      2147483648     29796098154       197325160  species/Copsychus_sechellarum/bCopSec2/genomic_data/illumina/bCopSec2_2.fastq.gz
 illumina        bCopSec3             30140226440               0      2147483648     61436067799       406861390  species/Copsychus_sechellarum/bCopSec3/genomic_data/illumina/bCopSec3_1.fastq.gz
@@ -21,5 +27,7 @@ illumina        bCopSec3             31298689565               0      2147483648
 arima           bCopSec1          1.8139     75985513376
 illumina        bCopSec2          2.0232     59353711846
 illumina        bCopSec3          1.9916    122361745115
+pacbiohifi_bam  bCopSec1          0.2667     73378715896
+pacbiohifi_clr  bCopSec1          0.4371    124571393198
 pacbiohifi_fqgz bCopSec1          1.2342     49706929920
 --------------- ---------------  ------- ---------------
