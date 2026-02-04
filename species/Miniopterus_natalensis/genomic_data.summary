@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMinNat1             24828145745               0      2147483648     57994694308       384070834  species/Miniopterus_natalensis/mMinNat1/genomic_data/arima/A051_S247_1.fastq.gz
+arima           mMinNat1             25564190679               0      2147483648     57838152106       383034131  species/Miniopterus_natalensis/mMinNat1/genomic_data/arima/A051_S247_2.fastq.gz
+pacbiohifi_bam  mMinNat1            128161501503               0      2147483648     33529603071         1598465  species/Miniopterus_natalensis/mMinNat1/genomic_data/pacbio_hifi/m64326e_230916_113326.hifi_reads.bc2043--bc2043.bam
+pacbiohifi_fqgz mMinNat1             31549602339               0      2147483648     33633587383         1623593  species/Miniopterus_natalensis/mMinNat1/genomic_data/pacbio_hifi/m64326e_230916_113326.hifi_reads.bc2043--bc2043.fastq.gz
+pacbiohifi_bam  mMinNat1            129102475399               0      2147483648     33559735472         1626132  species/Miniopterus_natalensis/mMinNat1/genomic_data/pacbio_hifi/m64326e_231008_194409.hifi_reads.bc2043--bc2043.bam
+pacbiohifi_fqgz mMinNat1             31475075818               0      2147483648     33372218690         1633960  species/Miniopterus_natalensis/mMinNat1/genomic_data/pacbio_hifi/m64326e_231008_194409.hifi_reads.bc2043--bc2043.fastq.gz
+pacbiohifi_bam  mMinNat1            113069082028               0      2147483648     29309650280         1440397  species/Miniopterus_natalensis/mMinNat1/genomic_data/pacbio_hifi/m64326e_231012_154832.hifi_reads.bc2043--bc2043.bam
+pacbiohifi_fqgz mMinNat1             28338160302               0      2147483648     29477467004         1458974  species/Miniopterus_natalensis/mMinNat1/genomic_data/pacbio_hifi/m64326e_231012_154832.hifi_reads.bc2043--bc2043.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mMinNat1          2.2864    115217037999
+pacbiohifi_bam  mMinNat1          0.2603     96397695239
+pacbiohifi_fqgz mMinNat1          1.0560     96479157412
+--------------- ---------------  ------- ---------------

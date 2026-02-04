@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mTamHud2            113224841526               0      2147483648    201037178367      1331372094  species/Tamiasciurus_hudsonicus/mTamHud2/genomic_data/arima/mTamHud2_L1_S3_R1_001.fastq.gz
+arima           mTamHud2            117411450426               0      2147483648    201770987073      1336231757  species/Tamiasciurus_hudsonicus/mTamHud2/genomic_data/arima/mTamHud2_L1_S3_R2_001.fastq.gz
 pacbiohifi_bam  mTamHud2            443580759176               0      2147483648    126075658321         5176353  species/Tamiasciurus_hudsonicus/mTamHud2/genomic_data/pacbio_hifi/m84203_250925_193935_s3.hifi_reads.bc1018.bam
 pacbiohifi_fqgz mTamHud2             69725214277               0      2147483648    122094267454         5620917  species/Tamiasciurus_hudsonicus/mTamHud2/genomic_data/pacbio_hifi/m84203_250925_193935_s3.hifi_reads.bc1018.fastq.gz
 pacbiohifi_bam  mTamHud2            432817022858               0      2147483648    122903599607         5444768  species/Tamiasciurus_hudsonicus/mTamHud2/genomic_data/pacbio_hifi/m84203_251106_160631_s3.hifi_reads.bc1018.bam
@@ -18,6 +20,7 @@ pacbiohifi_fqgz mTamHud3             71521850177               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mTamHud2          1.7370    400615239120
 arima           mTamHud3          1.6751    228456798043
 pacbiohifi_bam  mTamHud2          0.2841    248984609875
 pacbiohifi_bam  mTamHud3          0.2838    268990948674

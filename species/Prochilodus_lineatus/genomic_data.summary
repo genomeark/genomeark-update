@@ -3,7 +3,9 @@
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           fProLin1            100744762289               0      2147483648    182321318688      1207425998  species/Prochilodus_lineatus/fProLin1/genomic_data/arima/fProLin1_L1_S1_R1_001.fastq.gz
+arima           fProLin1             46344726302               0      2147483648     90025287048       596193975  species/Prochilodus_lineatus/fProLin1/genomic_data/arima/fProLin1_L1_S1_R1_001_part2.fastq.gz
 arima           fProLin1            107918804354               0      2147483648    183701353656      1216565306  species/Prochilodus_lineatus/fProLin1/genomic_data/arima/fProLin1_L1_S1_R2_001.fastq.gz
+arima           fProLin1             49779826342               0      2147483648     89760433230       594439978  species/Prochilodus_lineatus/fProLin1/genomic_data/arima/fProLin1_L1_S1_R2_001_part2.fastq.gz
 pacbiohifi_bam  fProLin1            158299723935               0      2147483648     37083392446         1927032  species/Prochilodus_lineatus/fProLin1/genomic_data/pacbio_hifi/m84091_240117_184958_s2.hifi_reads.bc1003.bam
 pacbiohifi_fqgz fProLin1             21315779356               0      2147483648     36849382519         1911536  species/Prochilodus_lineatus/fProLin1/genomic_data/pacbio_hifi/m84091_240117_184958_s2.hifi_reads.bc1003.fastq.gz
 pacbiohifi_bam  fProLin1            124965770483               0      2147483648     29966964137         1542895  species/Prochilodus_lineatus/fProLin1/genomic_data/pacbio_hifi/m84091_240122_211810_s3.hifi_reads.bc1003.bam
@@ -14,7 +16,7 @@ pacbiohifi_fqgz fProLin1             15953397990               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           fProLin1          1.7364    362323417118
+arima           fProLin1          1.8393    736001285776
 pacbiohifi_bam  fProLin1          0.2358     66794003583
 pacbiohifi_fqgz fProLin1          1.7795     66320501087
 --------------- ---------------  ------- ---------------
