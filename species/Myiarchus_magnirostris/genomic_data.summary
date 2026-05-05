@@ -2,13 +2,20 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bMyiMag1              3511311572               0      3511311572      5991139873        39676423  species/Myiarchus_magnirostris/bMyiMag1/genomic_data/arima/bMyiMag1_L1_S2_R2_001.fastq.gz
 arima           bMyiMag1             17157957855               0      2147483648     30459587939       201719133  species/Myiarchus_magnirostris/bMyiMag1/genomic_data/arima/bMyiMag1_L1_S8_R1_001.fastq.gz
 arima           bMyiMag1             17869089162               0      2147483648     30347203219       200974864  species/Myiarchus_magnirostris/bMyiMag1/genomic_data/arima/bMyiMag1_L1_S8_R2_001.fastq.gz
+pacbiohifi_bam  bMyiMag1            238970070084               0      2147483648     67140024845         4839751  species/Myiarchus_magnirostris/bMyiMag1/genomic_data/pacbio_hifi/m84203_260205_205438_s3.hifi_reads.bc1009.bam
+pacbiohifi_fqgz bMyiMag1             32448047820               0      2147483648     65343790861         4802302  species/Myiarchus_magnirostris/bMyiMag1/genomic_data/pacbio_hifi/m84203_260205_205438_s3.hifi_reads.bc1009.fastq.gz
+pacbiohifi_bam  bMyiMag1            123310517247               0      2147483648     34630478193         2345070  species/Myiarchus_magnirostris/bMyiMag1/genomic_data/pacbio_hifi/m84203_260211_181334_s2.hifi_reads.bc1009.bam
+pacbiohifi_fqgz bMyiMag1             16653146586               0      2147483648     33945768463         2494005  species/Myiarchus_magnirostris/bMyiMag1/genomic_data/pacbio_hifi/m84203_260211_181334_s2.hifi_reads.bc1009.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           bMyiMag1          1.7232     60358607419
+arima           bMyiMag1          1.7332     72699483374
+pacbiohifi_bam  bMyiMag1          0.2809    101764616981
+pacbiohifi_fqgz bMyiMag1          2.0188     99125491266
 --------------- ---------------  ------- ---------------

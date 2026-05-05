@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           fPolMer1             23725524296               0      2147483648     41754825790       276522036  species/Polyacanthonotus_merretti/fPolMer1/genomic_data/arima/fPolMer1_L1_S5_R1_001.fastq.gz
+arima           fPolMer1             24922835082               0      2147483648     41858917186       277211372  species/Polyacanthonotus_merretti/fPolMer1/genomic_data/arima/fPolMer1_L1_S5_R2_001.fastq.gz
+pacbiohifi_bam  fPolMer1            288555909464               0      2147483648     80970584494         5053092  species/Polyacanthonotus_merretti/fPolMer1/genomic_data/pacbio_hifi/m84091_260219_173216_s4.hifi_reads.bc1001.bam
+pacbiohifi_fqgz fPolMer1             39464896135               0      2147483648     78305595356         5389558  species/Polyacanthonotus_merretti/fPolMer1/genomic_data/pacbio_hifi/m84091_260219_173216_s4.hifi_reads.bc1001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           fPolMer1          1.7054     82964912083
+pacbiohifi_bam  fPolMer1          0.2806     80968788195
+pacbiohifi_fqgz fPolMer1          1.9841     78302300421
+--------------- ---------------  ------- ---------------

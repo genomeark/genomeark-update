@@ -2,6 +2,7 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        bArdGol1             11615744068               0      2147483648     12834649238        86106795  species/Ardea_goliath/bArdGol1/genomic_data/dovetail/Goliath_heron-topup_S1_tr2_L001_R2_001.fastq.gz
 dovetail        bArdGol1             14347942073               0      2147483648     19135663745       128923397  species/Ardea_goliath/bArdGol1/genomic_data/dovetail/Goliath_heron_tr2_S2_L001_R1_001.fastq.gz
 dovetail        bArdGol1             17283170218               0      2147483648     17575960755       125024290  species/Ardea_goliath/bArdGol1/genomic_data/dovetail/Goliath_heron_tr2_S2_L001_R2_001.fastq.gz
 pacbiohifi_fqgz bArdGol1             13576289139               0      2147483648     21336654001         3050752  species/Ardea_goliath/bArdGol1/genomic_data/pacbio_hifi/220708_1.hifi_reads.fastq.gz
@@ -12,6 +13,6 @@ pacbiohifi_fqgz bArdGol1             11445000665               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-dovetail        bArdGol1          1.1098     35104208420
+dovetail        bArdGol1          1.1456     59250977665
 pacbiohifi_fqgz bArdGol1          1.5673     39215867509
 --------------- ---------------  ------- ---------------

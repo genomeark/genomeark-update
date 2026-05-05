@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mCarSyr1             98676907260               0      2147483648    173000741595      1145700321  species/Carlito_syrichta/mCarSyr1/genomic_data/arima/mCarSyr1_L1_S7_R1_001.fastq.gz
+arima           mCarSyr1            103967902830               0      2147483648    173339615748      1147944475  species/Carlito_syrichta/mCarSyr1/genomic_data/arima/mCarSyr1_L1_S7_R2_001.fastq.gz
+pacbiohifi_bam  mCarSyr1            319821425077               0      2147483648     89467031210         9130059  species/Carlito_syrichta/mCarSyr1/genomic_data/pacbio_hifi/m84203_260310_144808_s4.hifi_reads.bc1001.bam
+pacbiohifi_fqgz mCarSyr1             40499968506               0      2147483648     88585682759        10079184  species/Carlito_syrichta/mCarSyr1/genomic_data/pacbio_hifi/m84203_260310_144808_s4.hifi_reads.bc1001.fastq.gz
+pacbiohifi_bam  mCarSyr1            336199950407               0      2147483648     96018771766         9345412  species/Carlito_syrichta/mCarSyr1/genomic_data/pacbio_hifi/m84203_260409_182116_s3.hifi_reads.bc1001.bam
+pacbiohifi_fqgz mCarSyr1             42878546023               0      2147483648     93220619985         9930567  species/Carlito_syrichta/mCarSyr1/genomic_data/pacbio_hifi/m84203_260409_182116_s3.hifi_reads.bc1001.fastq.gz
+pacbiohifi_bam  mCarSyr1            332517031750               0      2147483648     94782349917         9515711  species/Carlito_syrichta/mCarSyr1/genomic_data/pacbio_hifi/m84203_260409_185327_s4.hifi_reads.bc1001.bam
+pacbiohifi_fqgz mCarSyr1             41834662024               0      2147483648     92064024582         9821392  species/Carlito_syrichta/mCarSyr1/genomic_data/pacbio_hifi/m84203_260409_185327_s4.hifi_reads.bc1001.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mCarSyr1          1.6949    343462688621
+pacbiohifi_bam  mCarSyr1          0.2835    280250638450
+pacbiohifi_fqgz mCarSyr1          2.1872    273866259756
+--------------- ---------------  ------- ---------------

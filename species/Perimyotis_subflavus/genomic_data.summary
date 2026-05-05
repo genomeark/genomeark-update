@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPerSub1             82236405934               0      2147483648    145862251166       965975211  species/Perimyotis_subflavus/mPerSub1/genomic_data/arima/mPerSub1_L1_S5_R1_001.fastq.gz
+arima           mPerSub1             86490912783               0      2147483648    146433871147       969760736  species/Perimyotis_subflavus/mPerSub1/genomic_data/arima/mPerSub1_L1_S5_R2_001.fastq.gz
+pacbiohifi_bam  mPerSub1             70614933778               0      2147483648     18389118952          905883  species/Perimyotis_subflavus/mPerSub1/genomic_data/pacbio_hifi/m64326e_240303_003941.hifi_reads.bc2085--bc2085.bam
+pacbiohifi_fqgz mPerSub1             17340558724               0      2147483648     18422174204          924398  species/Perimyotis_subflavus/mPerSub1/genomic_data/pacbio_hifi/m64326e_240303_003941.hifi_reads.bc2085--bc2085.fastq.gz
+pacbiohifi_bam  mPerSub1             70439412045               0      2147483648     18595417674          889232  species/Perimyotis_subflavus/mPerSub1/genomic_data/pacbio_hifi/m64326e_240319_155106.hifi_reads.bc2085--bc2085.bam
+pacbiohifi_fqgz mPerSub1             16571444913               0      2147483648     18477631521          890651  species/Perimyotis_subflavus/mPerSub1/genomic_data/pacbio_hifi/m64326e_240319_155106.hifi_reads.bc2085--bc2085.fastq.gz
+pacbiohifi_bam  mPerSub1             80887593640               0      2147483648     21182279846         1055181  species/Perimyotis_subflavus/mPerSub1/genomic_data/pacbio_hifi/m64326e_240326_152830.hifi_reads.bc2085--bc2085.bam
+pacbiohifi_fqgz mPerSub1             19213964065               0      2147483648     21175224182         1068519  species/Perimyotis_subflavus/mPerSub1/genomic_data/pacbio_hifi/m64326e_240326_152830.hifi_reads.bc2085--bc2085.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mPerSub1          1.7190    290042260874
+pacbiohifi_bam  mPerSub1          0.2620    107893656571
+pacbiohifi_fqgz mPerSub1          1.0931    108766703592
+--------------- ---------------  ------- ---------------

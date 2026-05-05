@@ -4,6 +4,12 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           rCheNig1             63553672490               0      2147483648    114279994319       756821154  species/Chelonoidis_niger/rCheNig1/genomic_data/arima/rCheNig1_L1_S4_R1_001.fastq.gz
 arima           rCheNig1             66525258051               0      2147483648    114553609922       758633209  species/Chelonoidis_niger/rCheNig1/genomic_data/arima/rCheNig1_L1_S4_R2_001.fastq.gz
+pacbiohifi_bam  rCheNig1            308731939786               0      2147483648     87941763400         5499136  species/Chelonoidis_niger/rCheNig1/genomic_data/pacbio_hifi/m84203_260122_192303_s1.hifi_reads.bc1011.bam
+pacbiohifi_fqgz rCheNig1             42838991156               0      2147483648     86365784298         6146220  species/Chelonoidis_niger/rCheNig1/genomic_data/pacbio_hifi/m84203_260122_192303_s1.hifi_reads.bc1011.fastq.gz
+pacbiohifi_bam  rCheNig1            431328622379               0      2147483648    121905930023         7117830  species/Chelonoidis_niger/rCheNig1/genomic_data/pacbio_hifi/m84203_260205_195010_s1.hifi_reads.bc1011.bam
+pacbiohifi_fqgz rCheNig1             60732123312               0      2147483648    119091165674         7101428  species/Chelonoidis_niger/rCheNig1/genomic_data/pacbio_hifi/m84203_260205_195010_s1.hifi_reads.bc1011.fastq.gz
+pacbiohifi_bam  rCheNig1            144518784557               0      2147483648     40863610757         2340380  species/Chelonoidis_niger/rCheNig1/genomic_data/pacbio_hifi/m84203_260205_202221_s2.hifi_reads.bc1011.bam
+pacbiohifi_fqgz rCheNig1             20625451510               0      2147483648     39832118416         2481219  species/Chelonoidis_niger/rCheNig1/genomic_data/pacbio_hifi/m84203_260205_202221_s2.hifi_reads.bc1011.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +17,6 @@ arima           rCheNig1             66525258051               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           rCheNig1          1.7465    227182852189
+pacbiohifi_bam  rCheNig1          0.2834    250689786861
+pacbiohifi_fqgz rCheNig1          1.9750    245288217806
 --------------- ---------------  ------- ---------------

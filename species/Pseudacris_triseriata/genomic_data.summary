@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        aPseTri1             61070800939               0      2147483648    106877240272       707796321  species/Pseudacris_triseriata/aPseTri1/genomic_data/dovetail/SRR35356230_1.fastq.gz
+dovetail        aPseTri1             63520676560               0      2147483648    109181540617       723056560  species/Pseudacris_triseriata/aPseTri1/genomic_data/dovetail/SRR35356230_2.fastq.gz
+pacbiohifi_fqgz aPseTri1             35146251676               0      2147483648     71734679847         4886127  species/Pseudacris_triseriata/aPseTri1/genomic_data/pacbio_hifi/SRR35428429.fastq.gz
+pacbiohifi_fqgz aPseTri1             33863944744               0      2147483648     69859084533         4179544  species/Pseudacris_triseriata/aPseTri1/genomic_data/pacbio_hifi/SRR35428430.fastq.gz
+pacbiohifi_fqgz aPseTri1             10995379763               0      2147483648     23771336573         1748368  species/Pseudacris_triseriata/aPseTri1/genomic_data/pacbio_hifi/SRR35428431.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+dovetail        aPseTri1          1.7289    215406205448
+pacbiohifi_fqgz aPseTri1          2.0669    165363525412
+--------------- ---------------  ------- ---------------

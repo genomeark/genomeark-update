@@ -2,13 +2,21 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bButSun1              6876426704               0      2147483648     12236455766        81036134  species/Butorides_sundevalli/bButSun1/genomic_data/arima/bButSun1_L1_S3_R1_001.fastq.gz
+arima           bButSun1              7030500417               0      2147483648     12207702700        80845716  species/Butorides_sundevalli/bButSun1/genomic_data/arima/bButSun1_L1_S3_R2_001.fastq.gz
 arima           bButSun1              4701177611               0      2147483648      8221071512        54444184  species/Butorides_sundevalli/bButSun1/genomic_data/arima/bButSun1_L1_S9_R1_001.fastq.gz
 arima           bButSun1              4868690636               0      2147483648      8190447175        54241372  species/Butorides_sundevalli/bButSun1/genomic_data/arima/bButSun1_L1_S9_R2_001.fastq.gz
+pacbiohifi_bam  bButSun1            190226848166               0      2147483648     54006461390         3513399  species/Butorides_sundevalli/bButSun1/genomic_data/pacbio_hifi/m84203_260205_212655_s4.hifi_reads.bc1010.bam
+pacbiohifi_fqgz bButSun1             25779776835               0      2147483648     53203039274         3714296  species/Butorides_sundevalli/bButSun1/genomic_data/pacbio_hifi/m84203_260205_212655_s4.hifi_reads.bc1010.fastq.gz
+pacbiohifi_bam  bButSun1            140668774473               0      2147483648     39378518000         2564023  species/Butorides_sundevalli/bButSun1/genomic_data/pacbio_hifi/m84203_260211_181334_s2.hifi_reads.bc1010.bam
+pacbiohifi_fqgz bButSun1             19196276495               0      2147483648     38595371575         2692567  species/Butorides_sundevalli/bButSun1/genomic_data/pacbio_hifi/m84203_260211_181334_s2.hifi_reads.bc1010.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-arima           bButSun1          1.7039     16306098506
+arima           bButSun1          1.7381     40805018029
+pacbiohifi_bam  bButSun1          0.2828     93577282082
+pacbiohifi_fqgz bButSun1          2.0493     92169426089
 --------------- ---------------  ------- ---------------

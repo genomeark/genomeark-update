@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mMonRed1             83353460029               0      2147483648    145320233262       962385689  species/Monophyllus_redmani/mMonRed1/genomic_data/arima/mMonRed1_L1_S7_R1_001.fastq.gz
+arima           mMonRed1             86378514171               0      2147483648    145168008180       961377577  species/Monophyllus_redmani/mMonRed1/genomic_data/arima/mMonRed1_L1_S7_R2_001.fastq.gz
+pacbiohifi_bam  mMonRed1            126453687643               0      2147483648     32686329234         1514982  species/Monophyllus_redmani/mMonRed1/genomic_data/pacbio_hifi/m64326e_250330_231809.hifi_reads.bc2034--bc2034.bam
+pacbiohifi_fqgz mMonRed1             30773958119               0      2147483648     32707864690         1510736  species/Monophyllus_redmani/mMonRed1/genomic_data/pacbio_hifi/m64326e_250330_231809.hifi_reads.bc2034--bc2034.fastq.gz
+pacbiohifi_bam  mMonRed1            114296998258               0      2147483648     29549606686         1383177  species/Monophyllus_redmani/mMonRed1/genomic_data/pacbio_hifi/m64326e_250406_090135.hifi_reads.bc2034--bc2034.bam
+pacbiohifi_fqgz mMonRed1             28114493907               0      2147483648     30027732161         1405093  species/Monophyllus_redmani/mMonRed1/genomic_data/pacbio_hifi/m64326e_250406_090135.hifi_reads.bc2034--bc2034.fastq.gz
+pacbiohifi_bam  mMonRed1            110633621217               0      2147483648     28966524998         1379234  species/Monophyllus_redmani/mMonRed1/genomic_data/pacbio_hifi/m64326e_250417_120137.hifi_reads.bc2034--bc2034.bam
+pacbiohifi_fqgz mMonRed1             26061295592               0      2147483648     29007821930         1383012  species/Monophyllus_redmani/mMonRed1/genomic_data/pacbio_hifi/m64326e_250417_120137.hifi_reads.bc2034--bc2034.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mMonRed1          1.7010    288714088114
+pacbiohifi_bam  mMonRed1          0.2595     91184227697
+pacbiohifi_fqgz mMonRed1          1.0799     91737232452
+--------------- ---------------  ------- ---------------

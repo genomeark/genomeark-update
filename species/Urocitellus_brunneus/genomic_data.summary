@@ -1,0 +1,20 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mUroBru1             63286532530               0      2147483648    111887603790       740977538  species/Urocitellus_brunneus/mUroBru1/genomic_data/arima/mUroBru1_L1_S4_R1_001.fastq.gz
+arima           mUroBru1             65770060334               0      2147483648    112473223600       744855816  species/Urocitellus_brunneus/mUroBru1/genomic_data/arima/mUroBru1_L1_S4_R2_001.fastq.gz
+pacbiohifi_bam  mUroBru1            433576893713               0      2147483648    122160466703         6760822  species/Urocitellus_brunneus/mUroBru1/genomic_data/pacbio_hifi/m84091_260219_180425_s1.hifi_reads.bc1002.bam
+pacbiohifi_fqgz mUroBru1             61471143271               0      2147483648    119129466038         6729159  species/Urocitellus_brunneus/mUroBru1/genomic_data/pacbio_hifi/m84091_260219_180425_s1.hifi_reads.bc1002.fastq.gz
+pacbiohifi_bam  mUroBru1            452501310922               0      2147483648    127651708751         6775876  species/Urocitellus_brunneus/mUroBru1/genomic_data/pacbio_hifi/m84091_260219_183642_s2.hifi_reads.bc1002.bam
+pacbiohifi_fqgz mUroBru1             65209753215               0      2147483648    125114484751         7039822  species/Urocitellus_brunneus/mUroBru1/genomic_data/pacbio_hifi/m84091_260219_183642_s2.hifi_reads.bc1002.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mUroBru1          1.7288    223113037743
+pacbiohifi_bam  mUroBru1          0.2819    249785445886
+pacbiohifi_fqgz mUroBru1          1.9248    243835389556
+--------------- ---------------  ------- ---------------

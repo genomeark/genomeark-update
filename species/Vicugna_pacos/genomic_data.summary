@@ -2,11 +2,15 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+dovetail        mVicPac1             37216992526               0      2147483648     62353654748       412938128  species/Vicugna_pacos/mVicPac1/genomic_data/dovetail/mVicPac1_L4_S2_R1_001.fastq.gz
 dovetail        mVicPac1             38119785021               0      2147483648     62094966041       411224958  species/Vicugna_pacos/mVicPac1/genomic_data/dovetail/mVicPac1_L4_S2_R2_001.fastq.gz
 dovetail        mVicPac1             37216992526               0      2147483648     62353654748       412938128  species/Vicugna_pacos/mVicPac1/genomic_data/dovetail/mVicPac1_L4_S6_R1_001.fastq.gz
 dovetail        mVicPac1             38119785021               0      2147483648     62094966041       411224958  species/Vicugna_pacos/mVicPac1/genomic_data/dovetail/mVicPac1_L4_S6_R2_001.fastq.gz
 pacbiohifi_fqgz mVicPac1             19402215013               0      2147483648     22098360275         1109264  species/Vicugna_pacos/mVicPac1/genomic_data/pacbio_hifi/demultiplex.bc1015--bc1015.hifi_reads.fastq.gz
+pacbiohifi_fqgz mVicPac1             19402215013               0      2147483648     22098360275         1109264  species/Vicugna_pacos/mVicPac1/genomic_data/pacbio_hifi/m54306Ue_230105_195255.demultiplex.bc1015--bc1015.hifi_reads.fastq.gz
+pacbiohifi_bam  mVicPac1             87884152772               0      2147483648     23319021567         1185493  species/Vicugna_pacos/mVicPac1/genomic_data/pacbio_hifi/m54306Ue_230105_195255.hifi_reads.bam
 pacbiohifi_clr  mVicPac1            900583555854               0      2147483648    481138170456        25524766  species/Vicugna_pacos/mVicPac1/genomic_data/pacbio_hifi/m54306Ue_230105_195255.subreads.bam
+pacbiohifi_bam  mVicPac1             88732925709               0      2147483648     23320890363         1185621  species/Vicugna_pacos/mVicPac1/genomic_data/pacbio_hifi/m54306Ue_230105_195255.with_5mC.bam
 pacbiohifi_bam  mVicPac1            158523469172               0      2147483648    334276126973        30004015  species/Vicugna_pacos/mVicPac1/genomic_data/pacbio_hifi/m84091_231019_193731_s3.hifi_reads.bc1008.bam
 pacbiohifi_fqgz mVicPac1             17631995853               0      2147483648     37180332447         3337238  species/Vicugna_pacos/mVicPac1/genomic_data/pacbio_hifi/m84091_231019_193731_s3.hifi_reads.bc1008.fastq.gz
 pacbiohifi_bam  mVicPac1            263689695672               0      2147483648    495938099714        32565035  species/Vicugna_pacos/mVicPac1/genomic_data/pacbio_hifi/m84091_231205_230422_s3.hifi_reads.bc1015.bam
@@ -17,8 +21,8 @@ pacbiohifi_fqgz mVicPac1             32039908453               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
-dovetail        mVicPac1          1.6441    247722391930
-pacbiohifi_bam  mVicPac1          1.9334    816306932909
+dovetail        mVicPac1          1.6441    123861195965
+pacbiohifi_bam  mVicPac1          1.1365    776256981626
 pacbiohifi_clr  mVicPac1          0.5342    481091735537
 pacbiohifi_fqgz mVicPac1          1.7305    119532763481
 --------------- ---------------  ------- ---------------

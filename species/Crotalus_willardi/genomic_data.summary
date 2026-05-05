@@ -1,0 +1,18 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           rCroWil1             44874119389               0      2147483648     80304816147       531819995  species/Crotalus_willardi/rCroWil1/genomic_data/arima/rCroWil1_L1_S6_R1_001.fastq.gz
+arima           rCroWil1             46120208032               0      2147483648     80588356632       533697747  species/Crotalus_willardi/rCroWil1/genomic_data/arima/rCroWil1_L1_S6_R2_001.fastq.gz
+pacbiohifi_bam  rCroWil1            394097112959               0      2147483648    110391691919         6416078  species/Crotalus_willardi/rCroWil1/genomic_data/pacbio_hifi/m84203_260211_174120_s1.hifi_reads.bc1002.bam
+pacbiohifi_fqgz rCroWil1             56317219418               0      2147483648    107723908628         6466524  species/Crotalus_willardi/rCroWil1/genomic_data/pacbio_hifi/m84203_260211_174120_s1.hifi_reads.bc1002.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           rCroWil1          1.7611    160250110021
+pacbiohifi_bam  rCroWil1          0.2801    110386601339
+pacbiohifi_fqgz rCroWil1          1.9128    107723577302
+--------------- ---------------  ------- ---------------

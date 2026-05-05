@@ -1,0 +1,23 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPhyFal1             26202697769               0      2147483648     45589147307       301914882  species/Phyllops_falcatus/mPhyFal1/genomic_data/arima/mPhyFal1_L1_S2_R1_001.fastq.gz
+arima           mPhyFal1             27861131428               0      2147483648     45917759084       304091132  species/Phyllops_falcatus/mPhyFal1/genomic_data/arima/mPhyFal1_L1_S2_R2_001.fastq.gz
+arima           mPhyFal1             22786838902               0      2147483648     38754851601       256654646  species/Phyllops_falcatus/mPhyFal1/genomic_data/arima/mPhyFal1_L1_S9_R2_001.fastq.gz
+pacbiohifi_bam  mPhyFal1            106849407390               0      2147483648     28076109106         1335640  species/Phyllops_falcatus/mPhyFal1/genomic_data/pacbio_hifi/m64326e_250328_012325.hifi_reads.bc2032--bc2032.bam
+pacbiohifi_fqgz mPhyFal1             25492698285               0      2147483648     28632658613         1362014  species/Phyllops_falcatus/mPhyFal1/genomic_data/pacbio_hifi/m64326e_250328_012325.hifi_reads.bc2032--bc2032.fastq.gz
+pacbiohifi_bam  mPhyFal1            109232556447               0      2147483648     28545592258         1336691  species/Phyllops_falcatus/mPhyFal1/genomic_data/pacbio_hifi/m64326e_250402_000546.hifi_reads.bc2032--bc2032.bam
+pacbiohifi_fqgz mPhyFal1             26100213514               0      2147483648     28495044340         1340376  species/Phyllops_falcatus/mPhyFal1/genomic_data/pacbio_hifi/m64326e_250402_000546.hifi_reads.bc2032--bc2032.fastq.gz
+pacbiohifi_bam  mPhyFal1            112253038446               0      2147483648     29737843535         1844675  species/Phyllops_falcatus/mPhyFal1/genomic_data/pacbio_hifi/m64326e_250423_000854.hifi_reads.bam
+pacbiohifi_fqgz mPhyFal1             25659335393               0      2147483648     30284293768         1883092  species/Phyllops_falcatus/mPhyFal1/genomic_data/pacbio_hifi/m64326e_250423_000854.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mPhyFal1          1.6949    167630114849
+pacbiohifi_bam  mPhyFal1          0.2630    108335591388
+pacbiohifi_fqgz mPhyFal1          1.1315    110689915096
+--------------- ---------------  ------- ---------------

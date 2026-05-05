@@ -10,6 +10,8 @@ bionano         fHypTra1               818215478               0       818215478
 pacbiohifi_q2fqgz fHypTra1              8221766633               0      2147483648     11189422247         1045050  species/Hypomesus_transpacificus/fHypTra1/genomic_data/pacbio_hifi/m64069_200211_020731.Q20.fastq.gz
 pacbiohifi_clr  fHypTra1            479000199985               0      2147483648    245774832693        36510911  species/Hypomesus_transpacificus/fHypTra1/genomic_data/pacbio_hifi/m64069_200211_020731.subreads.bam
 pacbiohifi_fqgz fHypTra1             18715425207               0      2147483648     24735834301         2114680  species/Hypomesus_transpacificus/fHypTra1/genomic_data/pacbio_hifi/m64069_200220_045555.ccs.fastq.gz
+pacbiohifi_bam  fHypTra1             17767768517               0      2147483648     24522940337         2106342  species/Hypomesus_transpacificus/fHypTra1/genomic_data/pacbio_hifi/m64069_200220_045555.ccs.lima.pbmarkdup.bam
+pacbiohifi_fqgz fHypTra1             18547623352               0      2147483648     24521954401         2105290  species/Hypomesus_transpacificus/fHypTra1/genomic_data/pacbio_hifi/m64069_200220_045555.ccs.lima.pbmarkdup.fastq.gz
 pacbiohifi_clr  fHypTra1            816961031437               0      2147483648    425437993211        38700471  species/Hypomesus_transpacificus/fHypTra1/genomic_data/pacbio_hifi/m64069_200220_045555.subreads.bam
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
@@ -20,7 +22,8 @@ pacbiohifi_clr  fHypTra1            816961031437               0      2147483648
 10x             fHypTra1          1.9364    130859150283
 arima           fHypTra1          1.8948    154913321675
 bionano         fHypTra1         675.2768    552521966278
+pacbiohifi_bam  fHypTra1          1.3801     24521297330
 pacbiohifi_clr  fHypTra1          0.5190    672603879108
-pacbiohifi_fqgz fHypTra1          1.3216     24734305953
+pacbiohifi_fqgz fHypTra1          1.3218     49254297585
 pacbiohifi_q2fqgz fHypTra1          1.3609     11189002210
 --------------- ---------------  ------- ---------------

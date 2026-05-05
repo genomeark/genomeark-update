@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mAnoDer1             53471639122               0      2147483648     93608799087       619925846  species/Anomalurus_derbianus/mAnoDer1/genomic_data/arima/mAnoDer1_L1_S6_R1_001.fastq.gz
+arima           mAnoDer1             55228690737               0      2147483648     93978320648       622373010  species/Anomalurus_derbianus/mAnoDer1/genomic_data/arima/mAnoDer1_L1_S6_R2_001.fastq.gz
+pacbiohifi_bam  mAnoDer1            306962381778               0      2147483648     87725893177         5692605  species/Anomalurus_derbianus/mAnoDer1/genomic_data/pacbio_hifi/m84203_260310_155237_s2.hifi_reads.bc1009.bam
+pacbiohifi_fqgz mAnoDer1             42842083460               0      2147483648     85596892652         6468555  species/Anomalurus_derbianus/mAnoDer1/genomic_data/pacbio_hifi/m84203_260310_155237_s2.hifi_reads.bc1009.fastq.gz
+pacbiohifi_bam  mAnoDer1            362253765031               0      2147483648    102887843060         6040870  species/Anomalurus_derbianus/mAnoDer1/genomic_data/pacbio_hifi/m84203_260312_182332_s3.hifi_reads.bc1009.bam
+pacbiohifi_fqgz mAnoDer1             52427337982               0      2147483648    100864138760         6135351  species/Anomalurus_derbianus/mAnoDer1/genomic_data/pacbio_hifi/m84203_260312_182332_s3.hifi_reads.bc1009.fastq.gz
+pacbiohifi_bam  mAnoDer1            152244197698               0      2147483648     44127102155         2941543  species/Anomalurus_derbianus/mAnoDer1/genomic_data/pacbio_hifi/m84203_260324_124725_s3.hifi_reads.bc1009.bam
+pacbiohifi_fqgz mAnoDer1             20936407790               0      2147483648     43448042993         3121795  species/Anomalurus_derbianus/mAnoDer1/genomic_data/pacbio_hifi/m84203_260324_124725_s3.hifi_reads.bc1009.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mAnoDer1          1.7176    186703686565
+pacbiohifi_bam  mAnoDer1          0.2857    234691220425
+pacbiohifi_fqgz mAnoDer1          1.9784    229901612552
+--------------- ---------------  ------- ---------------

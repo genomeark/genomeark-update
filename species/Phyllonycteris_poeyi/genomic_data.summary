@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPhyPoe1             42194558146               0      2147483648     74158150537       491113579  species/Phyllonycteris_poeyi/mPhyPoe1/genomic_data/arima/mPhyPoe1_L1_S8_R1_001.fastq.gz
+arima           mPhyPoe1             43790911252               0      2147483648     73793477244       488698545  species/Phyllonycteris_poeyi/mPhyPoe1/genomic_data/arima/mPhyPoe1_L1_S8_R2_001.fastq.gz
+pacbiohifi_bam  mPhyPoe1             95788674378               0      2147483648     24873623055         1163345  species/Phyllonycteris_poeyi/mPhyPoe1/genomic_data/pacbio_hifi/m64326e_250329_122033.hifi_reads.bc2033--bc2033.bam
+pacbiohifi_fqgz mPhyPoe1             23194078534               0      2147483648     25061880330         1173224  species/Phyllonycteris_poeyi/mPhyPoe1/genomic_data/pacbio_hifi/m64326e_250329_122033.hifi_reads.bc2033--bc2033.fastq.gz
+pacbiohifi_bam  mPhyPoe1            100653400983               0      2147483648     26225364200         1214083  species/Phyllonycteris_poeyi/mPhyPoe1/genomic_data/pacbio_hifi/m64326e_250416_010434.hifi_reads.bc2033--bc2033.bam
+pacbiohifi_fqgz mPhyPoe1             24057477376               0      2147483648     26212423237         1214645  species/Phyllonycteris_poeyi/mPhyPoe1/genomic_data/pacbio_hifi/m64326e_250416_010434.hifi_reads.bc2033--bc2033.fastq.gz
+pacbiohifi_bam  mPhyPoe1            110835343014               0      2147483648     29155634204         2098945  species/Phyllonycteris_poeyi/mPhyPoe1/genomic_data/pacbio_hifi/m64326e_250424_091847.hifi_reads.bam
+pacbiohifi_fqgz mPhyPoe1             24844270003               0      2147483648     29206188250         2089121  species/Phyllonycteris_poeyi/mPhyPoe1/genomic_data/pacbio_hifi/m64326e_250424_091847.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mPhyPoe1          1.7086    146914773013
+pacbiohifi_bam  mPhyPoe1          0.2611    102706457960
+pacbiohifi_fqgz mPhyPoe1          1.1162    104280442502
+--------------- ---------------  ------- ---------------

@@ -6,7 +6,10 @@
 10x             aBomBom1             41471560898               0      2147483648     84825848149       561760603  species/Bombina_bombina/aBomBom1/genomic_data/10x/aBomBom1_S1_L002_R1_001.fastq.gz
 10x             aBomBom1             42517957006               0      2147483648     81314551629       538506984  species/Bombina_bombina/aBomBom1/genomic_data/10x/aBomBom1_S1_L003_R2_001.fastq.gz
 arima           aBomBom1            358063299393               0      2147483648    725855232366      4806988293  species/Bombina_bombina/aBomBom1/genomic_data/arima/aBomBom1_S001_R001_R1.fastq.gz
+arima           aBomBom1             81932669082               0      2147483648    182985712272      1211825947  species/Bombina_bombina/aBomBom1/genomic_data/arima/aBomBom1_S001_R001_R1_part2.fastq.gz
 arima           aBomBom1            376919158065               0      2147483648    746448665077      4943368642  species/Bombina_bombina/aBomBom1/genomic_data/arima/aBomBom1_S001_R001_R2.fastq.gz
+arima           aBomBom1             86873364983               0      2147483648    187527081699      1241901243  species/Bombina_bombina/aBomBom1/genomic_data/arima/aBomBom1_S001_R001_R2_part1.fastq.gz
+arima           aBomBom1             86228834445               0      2147483648    183947541739      1218195680  species/Bombina_bombina/aBomBom1/genomic_data/arima/aBomBom1_S001_R001_R2_part3.fastq.gz
 bionano         aBomBom1              4348287690               0      4348287690   2464431096900        25758090  species/Bombina_bombina/aBomBom1/genomic_data/bionano/all
 bionano         aBomBom1              4992225106               0      4992225106   1183381789649         4631590  species/Bombina_bombina/aBomBom1/genomic_data/bionano/auto_noise/autoNoise1_rescaled
 pacbio          aBomBom1            299180555509               0      2147483648    899727731754        39679097  species/Bombina_bombina/aBomBom1/genomic_data/pacbio/m54345U_201015_200926.subreads.bam
@@ -24,7 +27,7 @@ pacbio_fqgz     aBomBom1             48824834671               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 10x             aBomBom1          2.0056    703903944065
-arima           aBomBom1          1.9954   1466583995611
+arima           aBomBom1          2.1740   3061943744913
 bionano         aBomBom1         390.5366   3647812886549
 pacbio          aBomBom1          0.5287    929361684594
 pacbio_fqgz     aBomBom1          0.5287    163689036111

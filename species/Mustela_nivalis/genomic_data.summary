@@ -8,8 +8,12 @@ arima           mMusNiv1             33499010853               0      2147483648
 pacbiohifi_fqgz mMusNiv1             21766665298               0      2147483648     26674496072         1761273  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m54306Ue_230618_114017.bc1016--bc1016.hifi_reads.fastq.gz
 pacbiohifi_clr  mMusNiv1           1119633123328               0      2147483648    597885121716        37080863  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m54306Ue_230618_114017.subreads.bam
 pacbiohifi_fqgz mMusNiv1             23145270423               0      2147483648     28649208750         1845352  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m54306Ue_230623_164757.bc1016--bc1016.hifi_reads.fastq.gz
+pacbiohifi_bam  mMusNiv1            105716756454               0      2147483648     28683629624         1839362  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m54306Ue_230623_164757.hifi_reads.bam
 pacbiohifi_clr  mMusNiv1           1145730328167               0      2147483648    612682774343        37812856  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m54306Ue_230623_164757.subreads.bam
 pacbiohifi_fqgz mMusNiv1             21890858597               0      2147483648     28495534707         1856165  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m54306Ue_230705_171409.bc1016--bc1016.hifi_reads.fastq.gz
+pacbiohifi_bam  mMusNiv1            103838783217               0      2147483648     28367312669         1852381  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m54306Ue_230705_171409.hifi_reads.bam
+pacbiohifi_fqgz mMusNiv1             23802430246               0      2147483648     28788299708         1770703  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m64330e_230623_164629.bc1016--bc1016.hifi_reads.fastq.gz
+pacbiohifi_bam  mMusNiv1            107850344458               0      2147483648     29674012029         1831787  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m64330e_230623_164629.hifi_reads.bam
 pacbiohifi_clr  mMusNiv1           1171057993135               0      2147483648    625276226280        39031564  species/Mustela_nivalis/mMusNiv1/genomic_data/pacbio_hifi/m64330e_230623_164629.subreads.bam
 arima           mMusNiv2            161041372270               0      2147483648    541154851980      3583806966  species/Mustela_nivalis/mMusNiv2/genomic_data/arima/mMusNiv2_48728_7-8#2.cram
 pacbiohifi_bam  mMusNiv2             20869572060               0      2147483648     71047266135         7576854  species/Mustela_nivalis/mMusNiv2/genomic_data/pacbio_hifi/m84047_240716_101159_s4.ccs.bc2059.bam
@@ -22,7 +26,8 @@ pacbiohifi_bam  mMusNiv2              9938680489               0      2147483648
 --------------- ---------------  ------- ---------------
 arima           mMusNiv1          1.8128    269372494765
 arima           mMusNiv2          3.3603    541147323238
+pacbiohifi_bam  mMusNiv1          0.2732    343903305510
 pacbiohifi_bam  mMusNiv2          3.3636    103626638273
 pacbiohifi_clr  mMusNiv1          0.5342   2421402688407
-pacbiohifi_fqgz mMusNiv1          1.2547     83817466030
+pacbiohifi_fqgz mMusNiv1          1.2483    113102501823
 --------------- ---------------  ------- ---------------

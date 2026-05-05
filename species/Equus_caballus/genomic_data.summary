@@ -39,6 +39,9 @@ illumina        mEquCab3             23443279182               0      2147483648
 illumina        mEquCab3             24737840176               0      2147483648     46967291222       311041663  species/Equus_caballus/mEquCab3/genomic_data/illumina/mEquCab3-dna1_2.fastq.gz
 illumina        mEquCab4             32738421865               0      2147483648     72624382994       488268078  species/Equus_caballus/mEquCab4/genomic_data/illumina/H_3958_TGGATCGA-GTGCGATA_L004_R1_001.fastq.gz
 illumina        mEquCab4             33586199514               0      2147483648     72435369681       487093858  species/Equus_caballus/mEquCab4/genomic_data/illumina/H_3958_TGGATCGA-GTGCGATA_L004_R2_001.fastq.gz
+ont             mEquCab5             50863098372               0      2147483648     68272655041         2205237  species/Equus_caballus/mEquCab5/genomic_data/ont/ultralong/raw/uncorrected/mEquCab5_PBK61978_20260406.raw.fastq.gz
+ont             mEquCab5             21320596324               0      2147483648     27974694534         1005466  species/Equus_caballus/mEquCab5/genomic_data/ont/ultralong/raw/uncorrected/mEquCab5_PBK68819_20260427.raw.fastq.gz
+ont             mEquCab5             57852319060               0      2147483648     78482049979         2713004  species/Equus_caballus/mEquCab5/genomic_data/ont/ultralong/raw/uncorrected/mEquCab5_PBK73037_20260406.raw.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -52,6 +55,7 @@ illumina        mEquCab2          1.9756    121014204914
 illumina        mEquCab3          1.9294     92960651689
 illumina        mEquCab4          2.1768    144375435817
 ont             mEquAca1          1.1562    215925428433
+ont             mEquCab5          1.3437    353317649725
 pacbiohifi_bam  mEquAca1          0.2623    147343386926
 pacbiohifi_bam  mEquCab1          0.2746    310466171175
 pacbiohifi_clr  mEquAca1          0.5401   2473403783654

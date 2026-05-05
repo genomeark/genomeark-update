@@ -4,6 +4,12 @@
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 arima           bPufSub1             30941014108               0      2147483648     54866490230       363354254  species/Puffinus_subalaris/bPufSub1/genomic_data/arima/bPufSub1_L1_S7_R1_001.fastq.gz
 arima           bPufSub1             32320915755               0      2147483648     54785521480       362818038  species/Puffinus_subalaris/bPufSub1/genomic_data/arima/bPufSub1_L1_S7_R2_001.fastq.gz
+pacbiohifi_bam  bPufSub1            129730188880               0      2147483648     36230515284         2446859  species/Puffinus_subalaris/bPufSub1/genomic_data/pacbio_hifi/m84203_260205_205438_s3.hifi_reads.bc1003.bam
+pacbiohifi_fqgz bPufSub1             17752080020               0      2147483648     35602522993         2582052  species/Puffinus_subalaris/bPufSub1/genomic_data/pacbio_hifi/m84203_260205_205438_s3.hifi_reads.bc1003.fastq.gz
+pacbiohifi_bam  bPufSub1            122680684490               0      2147483648     34820643554         2259398  species/Puffinus_subalaris/bPufSub1/genomic_data/pacbio_hifi/m84203_260205_212655_s4.hifi_reads.bc1003.bam
+pacbiohifi_fqgz bPufSub1             16540857392               0      2147483648     34256225749         2379128  species/Puffinus_subalaris/bPufSub1/genomic_data/pacbio_hifi/m84203_260205_212655_s4.hifi_reads.bc1003.fastq.gz
+pacbiohifi_bam  bPufSub1            127023405771               0      2147483648     35524154835         2287503  species/Puffinus_subalaris/bPufSub1/genomic_data/pacbio_hifi/m84203_260211_181334_s2.hifi_reads.bc1003.bam
+pacbiohifi_fqgz bPufSub1             17256585435               0      2147483648     34770579346         2400053  species/Puffinus_subalaris/bPufSub1/genomic_data/pacbio_hifi/m84203_260211_181334_s2.hifi_reads.bc1003.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
 
 -  GENOMIC DATA SCALING FACTORS
@@ -11,4 +17,6 @@ arima           bPufSub1             32320915755               0      2147483648
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
 arima           bPufSub1          1.7203    108829497943
+pacbiohifi_bam  bPufSub1          0.2808    106545145582
+pacbiohifi_fqgz bPufSub1          2.0296    104624911570
 --------------- ---------------  ------- ---------------

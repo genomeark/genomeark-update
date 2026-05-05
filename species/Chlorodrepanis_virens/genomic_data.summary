@@ -2,6 +2,10 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           bHemVir1              9925358705               0      2147483648     17408884100       115290627  species/Chlorodrepanis_virens/bHemVir1/genomic_data/arima/bHemVir1_L1_S1_R1_001.fastq.gz
+arima           bHemVir1             10284229093               0      2147483648     17442712590       115514657  species/Chlorodrepanis_virens/bHemVir1/genomic_data/arima/bHemVir1_L1_S1_R2_001.fastq.gz
+arima           bHemVir1              4877658106               0      2147483648      8745296433        57915872  species/Chlorodrepanis_virens/bHemVir1/genomic_data/arima/bHemVir1_L1_S4_R1_001.fastq.gz
+arima           bHemVir1              4887508477               0      2147483648      8730873627        57820357  species/Chlorodrepanis_virens/bHemVir1/genomic_data/arima/bHemVir1_L1_S4_R2_001.fastq.gz
 pacbiohifi_bam  bHemVir1            226346352157               0      2147483648     64287332916         3994266  species/Chlorodrepanis_virens/bHemVir1/genomic_data/pacbio_hifi/m84091_250718_023338_s4.hifi_reads.bc1015.bam
 pacbiohifi_fqgz bHemVir1             30925065014               0      2147483648     63431359319         4183851  species/Chlorodrepanis_virens/bHemVir1/genomic_data/pacbio_hifi/m84091_250718_023338_s4.hifi_reads.bc1015.fastq.gz
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
@@ -10,6 +14,7 @@ pacbiohifi_fqgz bHemVir1             30925065014               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           bHemVir1          1.7365     52051160982
 pacbiohifi_bam  bHemVir1          0.2840     64282364012
 pacbiohifi_fqgz bHemVir1          2.0511     63430400850
 --------------- ---------------  ------- ---------------

@@ -16,7 +16,9 @@ pacbiohifi_fqgz H9                   40996652073               0      2147483648
 arima           H9_T2T               76843632550               0      2147483648    129334773837       856521716  species/Homo_sapiens/H9_T2T/genomic_data/arima/H9_p36_S2_R1_001.fastq.gz
 arima           H9_T2T               77617688107               0      2147483648    130164666128       862017692  species/Homo_sapiens/H9_T2T/genomic_data/arima/H9_p36_S2_R2_001.fastq.gz
 ont             H9_T2T              254885336037               0      2147483648    261102087756         6663744  species/Homo_sapiens/H9_T2T/genomic_data/ont/06_21_23_06_28_23_R1041_H9_UL.dorado_0.8.1_5mC_5hmC.fastq.gz
+ont             H9_T2T               92321124935               0      2147483648     86730524003         2389061  species/Homo_sapiens/H9_T2T/genomic_data/ont/06_21_23_06_28_23_R1041_H9_UL.dorado_0.8.1_5mC_5hmC_part3.fastq.gz
 ont             H9_T2T              116739147910               0      2147483648    112094320004         3801403  species/Homo_sapiens/H9_T2T/genomic_data/ont/11_20_2024_R1041_UL_H9.dorado_0.8.1_sup.5mC_5hmC.fastq.gz
+ont             H9_T2T               59301756270               0      2147483648     56157252129         1685232  species/Homo_sapiens/H9_T2T/genomic_data/ont/11_20_2024_R1041_UL_H9.dorado_0.8.1_sup.5mC_5hmC_part1.fastq.gz
 ont             H9_T2T                3308891475               0      3308891475      7230367357          347884  species/Homo_sapiens/H9_T2T/genomic_data/ont/H9_ONT_SUL.fastq.gz
 pacbiohifi_bam  H9_T2T              255740083586               0      2147483648     73083028738         3677088  species/Homo_sapiens/H9_T2T/genomic_data/pacbio_hifi/m84091_241205_180120_s2.hifi_reads.bc1003.bam
 pacbiohifi_fqgz H9_T2T               38426317487               0      2147483648     70945462422         3692712  species/Homo_sapiens/H9_T2T/genomic_data/pacbio_hifi/m84091_241205_180120_s2.hifi_reads.bc1003.fastq.gz
@@ -91,7 +93,7 @@ bionano         mHomSap3         588.9302    539613135046
 illumina        mHomSap1          1.8953    207897889058
 illumina        mHomSap2          1.8935    232128070088
 ont             H9                1.0146    380407402703
-ont             H9_T2T            1.0146    380407402703
+ont             H9_T2T            0.9501    731912378795
 pacbio          mHomSap3          0.5429    234679832109
 pacbiohifi_bam  H9                0.2845    227089106711
 pacbiohifi_bam  H9_T2T            0.2845    227089106711
