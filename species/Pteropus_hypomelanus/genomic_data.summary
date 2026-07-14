@@ -1,0 +1,20 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPteHyp1             45287714009               0      2147483648     78929861008       522714311  species/Pteropus_hypomelanus/mPteHyp1/genomic_data/arima/mPteHyp1_L1_Run1_S6_R1_001.fastq.gz
+arima           mPteHyp1             46575137383               0      2147483648     79332597428       525381461  species/Pteropus_hypomelanus/mPteHyp1/genomic_data/arima/mPteHyp1_L1_Run1_S6_R2_001.fastq.gz
+pacbiohifi_bam  mPteHyp1            263721714001               0      2147483648     77705894215         4926690  species/Pteropus_hypomelanus/mPteHyp1/genomic_data/pacbio_hifi/m84091_260625_211859_s2.hifi_reads.bc1010.bam
+pacbiohifi_fqgz mPteHyp1             35243132261               0      2147483648     75244540519         5237161  species/Pteropus_hypomelanus/mPteHyp1/genomic_data/pacbio_hifi/m84091_260625_211859_s2.hifi_reads.bc1010.fastq.gz
+pacbiohifi_bam  mPteHyp1            268065807314               0      2147483648     77396509273         5315545  species/Pteropus_hypomelanus/mPteHyp1/genomic_data/pacbio_hifi/m84091_260710_182007_s3.hifi_reads.bc1010.bam
+pacbiohifi_fqgz mPteHyp1             35875581002               0      2147483648     75225318796         5750911  species/Pteropus_hypomelanus/mPteHyp1/genomic_data/pacbio_hifi/m84091_260710_182007_s3.hifi_reads.bc1010.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mPteHyp1          1.7162    157655025558
+pacbiohifi_bam  mPteHyp1          0.2906    154537453694
+pacbiohifi_fqgz mPteHyp1          2.1094    150017813756
+--------------- ---------------  ------- ---------------

@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  mLasEga1            136199381440               0      2147483648     37223641929         2528095  species/Lasiurus_ega/mLasEga1/genomic_data/pacbio_hifi/mLasEga1_m64326e_220528_165357.hifi_reads.bam
+pacbiohifi_fqgz mLasEga1             28761139622               0      2147483648     37303524684         2525307  species/Lasiurus_ega/mLasEga1/genomic_data/pacbio_hifi/mLasEga1_m64326e_220528_165357.hifi_reads.fastq.gz
+pacbiohifi_bam  mLasEga1            109096763762               0      2147483648     29217405033         1942877  species/Lasiurus_ega/mLasEga1/genomic_data/pacbio_hifi/mLasEga1_m64326e_220610_220730.hifi_reads.bam
+pacbiohifi_fqgz mLasEga1             24434507671               0      2147483648     29317143407         2012155  species/Lasiurus_ega/mLasEga1/genomic_data/pacbio_hifi/mLasEga1_m64326e_220610_220730.hifi_reads.fastq.gz
+pacbiohifi_bam  mLasEga1            108750356083               0      2147483648     29508815517         1969675  species/Lasiurus_ega/mLasEga1/genomic_data/pacbio_hifi/mLasEga1_m64326e_221007_062608.hifi_reads.bam
+pacbiohifi_fqgz mLasEga1             24709092167               0      2147483648     29688986449         1995117  species/Lasiurus_ega/mLasEga1/genomic_data/pacbio_hifi/mLasEga1_m64326e_221007_062608.hifi_reads.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  mLasEga1          0.2710     95946601848
+pacbiohifi_fqgz mLasEga1          1.2362     96305838920
+--------------- ---------------  ------- ---------------

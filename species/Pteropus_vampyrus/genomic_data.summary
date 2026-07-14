@@ -1,0 +1,20 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mPteVam1             35583426970               0      2147483648     61356799239       406336435  species/Pteropus_vampyrus/mPteVam1/genomic_data/arima/mPteVam1_L1_Run1_S3_R1_001.fastq.gz
+arima           mPteVam1             36647474337               0      2147483648     61770243332       409074459  species/Pteropus_vampyrus/mPteVam1/genomic_data/arima/mPteVam1_L1_Run1_S3_R2_001.fastq.gz
+pacbiohifi_bam  mPteVam1            281364519814               0      2147483648     81928176618         5678562  species/Pteropus_vampyrus/mPteVam1/genomic_data/pacbio_hifi/m84091_260625_204645_s1.hifi_reads.bc1002.bam
+pacbiohifi_fqgz mPteVam1             35882131531               0      2147483648     79612364080         5798730  species/Pteropus_vampyrus/mPteVam1/genomic_data/pacbio_hifi/m84091_260625_204645_s1.hifi_reads.bc1002.fastq.gz
+pacbiohifi_bam  mPteVam1            289645770310               0      2147483648     82964670611         5868085  species/Pteropus_vampyrus/mPteVam1/genomic_data/pacbio_hifi/m84091_260710_174750_s2.hifi_reads.bc1002.bam
+pacbiohifi_fqgz mPteVam1             37953828238               0      2147483648     81301039378         6054154  species/Pteropus_vampyrus/mPteVam1/genomic_data/pacbio_hifi/m84091_260710_174750_s2.hifi_reads.bc1002.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mPteVam1          1.6982    122662516599
+pacbiohifi_bam  mPteVam1          0.2879    164393862526
+pacbiohifi_fqgz mPteVam1          2.1666    159972990435
+--------------- ---------------  ------- ---------------

@@ -2,6 +2,8 @@
 -
 -data-type      individual                 bytes            date        quantity           bases           reads   file
 --------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mSusScr4             49591204596               0      2147483648     87364755565       578574563  species/Sus_scrofa/mSusScr4/genomic_data/arima/mSusScr4_L1_Run1_S4_R1_001.fastq.gz
+arima           mSusScr4             50968104701               0      2147483648     87765378875       581227698  species/Sus_scrofa/mSusScr4/genomic_data/arima/mSusScr4_L1_Run1_S4_R2_001.fastq.gz
 pacbiohifi_bam  mSusScr4            389055465913               0      2147483648    109084954719         6924243  species/Sus_scrofa/mSusScr4/genomic_data/pacbio_hifi/m84203_260310_152020_s1.hifi_reads.bc1002.bam
 pacbiohifi_fqgz mSusScr4             53567592761               0      2147483648    105518933527         6986414  species/Sus_scrofa/mSusScr4/genomic_data/pacbio_hifi/m84203_260310_152020_s1.hifi_reads.bc1002.fastq.gz
 pacbiohifi_bam  mSusScr4            247895842906               0      2147483648     70758322372         4479359  species/Sus_scrofa/mSusScr4/genomic_data/pacbio_hifi/m84203_260324_124725_s3.hifi_reads.bc1002.bam
@@ -12,6 +14,7 @@ pacbiohifi_fqgz mSusScr4             33281470546               0      2147483648
 -
 -datatype       individual       scaling           bases
 --------------- ---------------  ------- ---------------
+arima           mSusScr4          1.7349    174460345699
 pacbiohifi_bam  mSusScr4          0.2816    179365488563
 pacbiohifi_fqgz mSusScr4          1.9908    172899115231
 --------------- ---------------  ------- ---------------

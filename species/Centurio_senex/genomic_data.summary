@@ -1,0 +1,19 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mCenSen1             28183641109               0      2147483648     50685011701       336785290  species/Centurio_senex/mCenSen1/genomic_data/arima/A005S039_S2_R1_001.fastq.gz
+arima           mCenSen1             29920933766               0      2147483648     48926803169       325074743  species/Centurio_senex/mCenSen1/genomic_data/arima/A005S039_S2_R2_001.fastq.gz
+arima           mCenSen1             15019082449               0      2147483648     23880803990       158666522  species/Centurio_senex/mCenSen1/genomic_data/arima/A005S039_S3_R2_001.fastq.gz
+pacbiohifi_fqgz mCenSen1             26834095971               0      2147483648     30752840309         1892658  species/Centurio_senex/mCenSen1/genomic_data/pacbio_hifi/m64326e_220708_180641.hifi_reads.fastq.gz
+pacbiohifi_fqgz mCenSen1             22808385867               0      2147483648     25020359684         1559223  species/Centurio_senex/mCenSen1/genomic_data/pacbio_hifi/m64326e_220710_050141.hifi_reads.fastq.gz
+pacbiohifi_fqgz mCenSen1             29733919717               0      2147483648     35948116888         2142478  species/Centurio_senex/mCenSen1/genomic_data/pacbio_hifi/m64326e_221004_041024.hifi_reads.bc2006--bc2006.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mCenSen1          1.6888    147236393297
+pacbiohifi_fqgz mCenSen1          1.1555    114854428986
+--------------- ---------------  ------- ---------------

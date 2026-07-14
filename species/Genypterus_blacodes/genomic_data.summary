@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fGenBla1            114386558987               0      2147483648     32789558851         3391567  species/Genypterus_blacodes/fGenBla1/genomic_data/pacbio_hifi/m84091_260627_030452_s1.hifi_reads.bc1019.bam
+pacbiohifi_fqgz fGenBla1             13690752848               0      2147483648     31932024599         4024047  species/Genypterus_blacodes/fGenBla1/genomic_data/pacbio_hifi/m84091_260627_030452_s1.hifi_reads.bc1019.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fGenBla1          0.2866     32783187805
+pacbiohifi_fqgz fGenBla1          2.3323     31930942867
+--------------- ---------------  ------- ---------------

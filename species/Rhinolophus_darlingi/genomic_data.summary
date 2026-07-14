@@ -1,0 +1,23 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mRhiDar1             20889082423               0      2147483648     48066672315       318322333  species/Rhinolophus_darlingi/mRhiDar1/genomic_data/arima/A062_S312_1.fastq.gz
+arima           mRhiDar1             10490899650               0      2147483648     18987867501       127767497  species/Rhinolophus_darlingi/mRhiDar1/genomic_data/arima/mRhiDar1_run1_L001_R1_001.trim.fastq.gz
+arima           mRhiDar1              2595372789               0      2595372789      4955795294        32943506  species/Rhinolophus_darlingi/mRhiDar1/genomic_data/arima/mRhiDar1_run2_L002_R1_001.trim.fastq.gz
+pacbiohifi_bam  mRhiDar1            126880171846               0      2147483648     33818422836         2023126  species/Rhinolophus_darlingi/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231015_133847.hifi_reads.bc2045--bc2045.bam
+pacbiohifi_fqgz mRhiDar1             29515748916               0      2147483648     33568728304         2034973  species/Rhinolophus_darlingi/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231015_133847.hifi_reads.bc2045--bc2045.fastq.gz
+pacbiohifi_bam  mRhiDar1            113595844291               0      2147483648     29980082327         1787924  species/Rhinolophus_darlingi/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231026_220215.hifi_reads.bc2053--bc2053.bam
+pacbiohifi_fqgz mRhiDar1             25866895485               0      2147483648     29455469754         1762431  species/Rhinolophus_darlingi/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231026_220215.hifi_reads.bc2053--bc2053.fastq.gz
+pacbiohifi_bam  mRhiDar1            118537447100               0      2147483648     31697511843         1644302  species/Rhinolophus_darlingi/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231130_052019.hifi_reads.bc2068--bc2068.bam
+pacbiohifi_fqgz mRhiDar1             27513316779               0      2147483648     31710404255         1671310  species/Rhinolophus_darlingi/mRhiDar1/genomic_data/pacbio_hifi/m64326e_231130_052019.hifi_reads.bc2068--bc2068.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mRhiDar1          2.1194    156361740516
+pacbiohifi_bam  mRhiDar1          0.2659    104597193379
+pacbiohifi_fqgz mRhiDar1          1.1428    103788342419
+--------------- ---------------  ------- ---------------

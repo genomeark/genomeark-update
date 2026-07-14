@@ -1,0 +1,22 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mAplRuf1             44989027546               0      2147483648     78202676924       517898543  species/Aplodontia_rufa/mAplRuf1/genomic_data/arima/mAplRuf1_L1_Run1_S1_R1_001.fastq.gz
+arima           mAplRuf1             46009792913               0      2147483648     78388231043       519127379  species/Aplodontia_rufa/mAplRuf1/genomic_data/arima/mAplRuf1_L1_Run1_S1_R2_001.fastq.gz
+pacbiohifi_bam  mAplRuf1            280547849946               0      2147483648     81040654295         5633208  species/Aplodontia_rufa/mAplRuf1/genomic_data/pacbio_hifi/m84091_260625_222333_s4.hifi_reads.bc1016.bam
+pacbiohifi_fqgz mAplRuf1             35908499245               0      2147483648     78089807329         6058407  species/Aplodontia_rufa/mAplRuf1/genomic_data/pacbio_hifi/m84091_260625_222333_s4.hifi_reads.bc1016.fastq.gz
+pacbiohifi_bam  mAplRuf1            307309292656               0      2147483648     87592827159         5911259  species/Aplodontia_rufa/mAplRuf1/genomic_data/pacbio_hifi/m84091_260710_171538_s1.hifi_reads.bc1016.bam
+pacbiohifi_fqgz mAplRuf1             39844636438               0      2147483648     84176391469         6917063  species/Aplodontia_rufa/mAplRuf1/genomic_data/pacbio_hifi/m84091_260710_171538_s1.hifi_reads.bc1016.fastq.gz
+pacbiohifi_bam  mAplRuf1            162669931975               0      2147483648     47634322605         3387726  species/Aplodontia_rufa/mAplRuf1/genomic_data/pacbio_hifi/m84203_260430_172810_s1.hifi_reads.bc1015.bam
+pacbiohifi_fqgz mAplRuf1             20710943880               0      2147483648     45646844785         3494182  species/Aplodontia_rufa/mAplRuf1/genomic_data/pacbio_hifi/m84203_260430_172810_s1.hifi_reads.bc1015.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mAplRuf1          1.7150    156062977087
+pacbiohifi_bam  mAplRuf1          0.2881    220725317858
+pacbiohifi_fqgz mAplRuf1          2.1553    240287410155
+--------------- ---------------  ------- ---------------

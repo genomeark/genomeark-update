@@ -1,0 +1,23 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           mEumNan1             29761112899               0      2147483648     54111051531       359554995  species/Eumops_nanus/mEumNan1/genomic_data/arima/mEumNan1_LV_1.fastq.gz
+arima           mEumNan1             19291305893               0      2147483648     31326319371       208149915  species/Eumops_nanus/mEumNan1/genomic_data/arima/mEumNan1_LV_2.2.fastq.gz
+arima           mEumNan1             31280833796               0      2147483648     52252109555       347189659  species/Eumops_nanus/mEumNan1/genomic_data/arima/mEumNan1_LV_2.fastq.gz
+pacbiohifi_bam  mEumNan1            126914367630               0      2147483648     34220597805         1820193  species/Eumops_nanus/mEumNan1/genomic_data/pacbio_hifi/mEumNan1_m64326e_220927_004235.hifi_reads.bc2007--bc2007.bam
+pacbiohifi_fqgz mEumNan1             28754564727               0      2147483648     33764196373         1842823  species/Eumops_nanus/mEumNan1/genomic_data/pacbio_hifi/mEumNan1_m64326e_220927_004235.hifi_reads.bc2007--bc2007.fastq.gz
+pacbiohifi_bam  mEumNan1             97590316451               0      2147483648     25873202240         1414672  species/Eumops_nanus/mEumNan1/genomic_data/pacbio_hifi/mEumNan1_m64326e_221015_172656.hifi_reads.bc2007--bc2007.bam
+pacbiohifi_fqgz mEumNan1             23059921105               0      2147483648     25814594125         1413414  species/Eumops_nanus/mEumNan1/genomic_data/pacbio_hifi/mEumNan1_m64326e_221015_172656.hifi_reads.bc2007--bc2007.fastq.gz
+pacbiohifi_bam  mEumNan1             92803040864               0      2147483648     24599189356         1328163  species/Eumops_nanus/mEumNan1/genomic_data/pacbio_hifi/mEumNan1_m64326e_221017_052232.hifi_reads.bc2007--bc2007.bam
+pacbiohifi_fqgz mEumNan1             22136187641               0      2147483648     24547642666         1339437  species/Eumops_nanus/mEumNan1/genomic_data/pacbio_hifi/mEumNan1_m64326e_221017_052232.hifi_reads.bc2007--bc2007.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           mEumNan1          1.7139    169029423016
+pacbiohifi_bam  mEumNan1          0.2669    102847248755
+pacbiohifi_fqgz mEumNan1          1.1376    101529864640
+--------------- ---------------  ------- ---------------

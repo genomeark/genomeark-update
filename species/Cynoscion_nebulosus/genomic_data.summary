@@ -1,0 +1,15 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+pacbiohifi_bam  fCynNeb1            201816691378               0      2147483648     58004200840         4796648  species/Cynoscion_nebulosus/fCynNeb1/genomic_data/pacbio_hifi/m84091_260627_030452_s1.hifi_reads.bc1017.bam
+pacbiohifi_fqgz fCynNeb1             24564380215               0      2147483648     57019427580         5653076  species/Cynoscion_nebulosus/fCynNeb1/genomic_data/pacbio_hifi/m84091_260627_030452_s1.hifi_reads.bc1017.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+pacbiohifi_bam  fCynNeb1          0.2874     58002117102
+pacbiohifi_fqgz fCynNeb1          2.3212     57018839355
+--------------- ---------------  ------- ---------------

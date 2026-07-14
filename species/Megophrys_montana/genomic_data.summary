@@ -1,0 +1,20 @@
+-  GENOMIC DATA FILE SUMMARIES
+-
+-data-type      individual                 bytes            date        quantity           bases           reads   file
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+arima           aMegMon1             48596621543               0      2147483648     84025773394       556462075  species/Megophrys_montana/aMegMon1/genomic_data/arima/aMegMon1_L1_Run1_S2_R1_001.fastq.gz
+arima           aMegMon1             49008018195               0      2147483648     84455814439       559310052  species/Megophrys_montana/aMegMon1/genomic_data/arima/aMegMon1_L1_Run1_S2_R2_001.fastq.gz
+pacbiohifi_bam  aMegMon1            383087281064               0      2147483648    109508048330         6139968  species/Megophrys_montana/aMegMon1/genomic_data/pacbio_hifi/m84203_260430_180020_s2.hifi_reads.bc1016.bam
+pacbiohifi_fqgz aMegMon1             51351369908               0      2147483648    106097574601         6173378  species/Megophrys_montana/aMegMon1/genomic_data/pacbio_hifi/m84203_260430_180020_s2.hifi_reads.bc1016.fastq.gz
+pacbiohifi_bam  aMegMon1             25382596343               0      2147483648     50033496135         3013028  species/Megophrys_montana/aMegMon1/genomic_data/pacbio_hifi/m84203_260430_183237_s3.hifi_reads.bc1016.bam
+pacbiohifi_fqgz aMegMon1             23423031667               0      2147483648     50087775774         3053906  species/Megophrys_montana/aMegMon1/genomic_data/pacbio_hifi/m84203_260430_183237_s3.hifi_reads.bc1016.fastq.gz
+--------------- ---------------  --------------- --------------- --------------- --------------- ---------------  ----------
+
+-  GENOMIC DATA SCALING FACTORS
+-
+-datatype       individual       scaling           bases
+--------------- ---------------  ------- ---------------
+arima           aMegMon1          1.7252    168387524475
+pacbiohifi_bam  aMegMon1          0.3398    138798064342
+pacbiohifi_fqgz aMegMon1          2.0795    155493368075
+--------------- ---------------  ------- ---------------
