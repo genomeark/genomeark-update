@@ -136,7 +136,7 @@ sub getBucketFiles ($$$$) {
     undef @$sepoch;
 
     for (my $ii=0; $ii<scalar(@genomeArkFiles); $ii++) {
-        next if ($genomeArkFiles[$ii] !~ m!$sname!);
+        next if ($genomeArkFiles[$ii] !~ m!\/$sname\/!);
 
         push @$sfiles, $genomeArkFiles[$ii];
         push @$ssizes, $genomeArkSizes[$ii];
